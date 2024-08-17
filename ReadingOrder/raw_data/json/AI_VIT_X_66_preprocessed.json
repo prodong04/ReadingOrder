@@ -1,0 +1,2931 @@
+{
+    "id": "32c07b20-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/2303.15056v2.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 580,
+                    "y": 402
+                },
+                {
+                    "x": 1967,
+                    "y": 402
+                },
+                {
+                    "x": 1967,
+                    "y": 562
+                },
+                {
+                    "x": 580,
+                    "y": 562
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>CHATGPT OUTPERFORMS CROWD- WORKERS<br>FOR TEXT-ANNOTATION TASKS</p>",
+            "id": 0,
+            "page": 1,
+            "text": "CHATGPT OUTPERFORMS CROWD- WORKERS FOR TEXT-ANNOTATION TASKS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 460,
+                    "y": 755
+                },
+                {
+                    "x": 2102,
+                    "y": 755
+                },
+                {
+                    "x": 2102,
+                    "y": 940
+                },
+                {
+                    "x": 460,
+                    "y": 940
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Fabrizio Gilardi* Meysam Alizadeh Mael Kubli<br>University of Zurich University of Zurich University of Zurich<br>Zurich, Switzerland Zurich, Switzerland Zurich, Switzerland</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Fabrizio Gilardi* Meysam Alizadeh Mael Kubli University of Zurich University of Zurich University of Zurich Zurich, Switzerland Zurich, Switzerland Zurich, Switzerland"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 608,
+                    "y": 1053
+                },
+                {
+                    "x": 1945,
+                    "y": 1053
+                },
+                {
+                    "x": 1945,
+                    "y": 1172
+                },
+                {
+                    "x": 608,
+                    "y": 1172
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Published in the Proceedings of the National Academy of Sciences<br>(ttps://www.pms.org/hoild1073/jas:2305016120</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Published in the Proceedings of the National Academy of Sciences (ttps://www.pms.org/hoild1073/jas:2305016120"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1148,
+                    "y": 1245
+                },
+                {
+                    "x": 1401,
+                    "y": 1245
+                },
+                {
+                    "x": 1401,
+                    "y": 1298
+                },
+                {
+                    "x": 1148,
+                    "y": 1298
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:18px'>ABSTRACT</p>",
+            "id": 3,
+            "page": 1,
+            "text": "ABSTRACT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 439,
+                    "y": 1347
+                },
+                {
+                    "x": 2115,
+                    "y": 1347
+                },
+                {
+                    "x": 2115,
+                    "y": 2128
+                },
+                {
+                    "x": 439,
+                    "y": 2128
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:16px'>Many NLP applications require manual text annotations for a variety of tasks, notably<br>to train classifiers or evaluate the performance of unsupervised models. Depending<br>on the size and degree of complexity, the tasks may be conducted by crowd-workers<br>on platforms such as MTurk as well as trained annotators, such as research assistants.<br>Using four samples of tweets and news articles (n = 6,183), we show that ChatGPT<br>outperforms crowd-workers for several annotation tasks, including relevance, stance,<br>topics, and frame detection. Across the four datasets, the zero-shot accuracy of<br>ChatGPT exceeds that of crowd-workers by about 25 percentage points on average,<br>while ChatGPT's intercoder agreement exceeds that of both crowd-workers and<br>trained annotators for all tasks. Moreover, the per-annotation cost of ChatGPT is<br>less than $0.003-about thirty times cheaper than MTurk. These results demonstrate<br>the potential of large language models to drastically increase the efficiency of text<br>classification.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Many NLP applications require manual text annotations for a variety of tasks, notably to train classifiers or evaluate the performance of unsupervised models. Depending on the size and degree of complexity, the tasks may be conducted by crowd-workers on platforms such as MTurk as well as trained annotators, such as research assistants. Using four samples of tweets and news articles (n = 6,183), we show that ChatGPT outperforms crowd-workers for several annotation tasks, including relevance, stance, topics, and frame detection. Across the four datasets, the zero-shot accuracy of ChatGPT exceeds that of crowd-workers by about 25 percentage points on average, while ChatGPT's intercoder agreement exceeds that of both crowd-workers and trained annotators for all tasks. Moreover, the per-annotation cost of ChatGPT is less than $0.003-about thirty times cheaper than MTurk. These results demonstrate the potential of large language models to drastically increase the efficiency of text classification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2203
+                },
+                {
+                    "x": 650,
+                    "y": 2203
+                },
+                {
+                    "x": 650,
+                    "y": 2258
+                },
+                {
+                    "x": 293,
+                    "y": 2258
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:14px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 2320
+                },
+                {
+                    "x": 2264,
+                    "y": 2320
+                },
+                {
+                    "x": 2264,
+                    "y": 2926
+                },
+                {
+                    "x": 288,
+                    "y": 2926
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Many NLP applications require high-quality labeled data, notably to train classifiers or evaluate<br>the performance of unsupervised models. For example, researchers often aim to filter noisy social<br>media data for relevance, assign texts to different topics or conceptual categories, or measure<br>their sentiment or stance. Regardless of the specific approach used for these tasks (supervised,<br>semi-supervised, or unsupervised), labeled data are needed to build a training set or a gold standard<br>against which performance can be assessed. Such data may be available for high-level tasks<br>such as semantic evaluation (Emerson et al., 2022). More typically, however, researchers have to<br>conduct original annotations to ensure that the labels match their conceptual categories (Benoit<br>et al., 2016). Until recently, two main strategies were available. First, researchers can recruit and<br>train coders, such as research assistants. Second, they can rely on crowd-workers on platforms</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Many NLP applications require high-quality labeled data, notably to train classifiers or evaluate the performance of unsupervised models. For example, researchers often aim to filter noisy social media data for relevance, assign texts to different topics or conceptual categories, or measure their sentiment or stance. Regardless of the specific approach used for these tasks (supervised, semi-supervised, or unsupervised), labeled data are needed to build a training set or a gold standard against which performance can be assessed. Such data may be available for high-level tasks such as semantic evaluation (Emerson , 2022). More typically, however, researchers have to conduct original annotations to ensure that the labels match their conceptual categories (Benoit , 2016). Until recently, two main strategies were available. First, researchers can recruit and train coders, such as research assistants. Second, they can rely on crowd-workers on platforms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 343,
+                    "y": 2955
+                },
+                {
+                    "x": 1379,
+                    "y": 2955
+                },
+                {
+                    "x": 1379,
+                    "y": 3017
+                },
+                {
+                    "x": 343,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:22px'>Corresponding author (https://fabriziogilardi.org/).</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Corresponding author (https://fabriziogilardi.org/)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 56,
+                    "y": 913
+                },
+                {
+                    "x": 149,
+                    "y": 913
+                },
+                {
+                    "x": 149,
+                    "y": 2334
+                },
+                {
+                    "x": 56,
+                    "y": 2334
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='8' style='font-size:14px'>2023<br>Inf<br>19<br>[cs.CL]<br>arXiv:2303.15056v2</footer>",
+            "id": 8,
+            "page": 1,
+            "text": "2023 Inf 19 [cs.CL] arXiv:2303.15056v2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 146
+                },
+                {
+                    "x": 1800,
+                    "y": 146
+                },
+                {
+                    "x": 1800,
+                    "y": 190
+                },
+                {
+                    "x": 748,
+                    "y": 190
+                }
+            ],
+            "category": "header",
+            "html": "<header id='9' style='font-size:16px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 9,
+            "page": 2,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 299
+                },
+                {
+                    "x": 2261,
+                    "y": 299
+                },
+                {
+                    "x": 2261,
+                    "y": 833
+                },
+                {
+                    "x": 289,
+                    "y": 833
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:20px'>such as Amazon Mechanical Turk (MTurk). Often, these two strategies are used in combination:<br>trained annotators create a relatively small gold-standard dataset, and crowd-workers are employed<br>to increase the volume of labeled data. Trained annotators tend to produce high-quality data,<br>but involve significant costs. Crowd workers are a much cheaper and more flexible option, but<br>the quality may be insufficient, particularly for complex tasks and languages other than English.<br>Moreover, there have been concerns that MTurk data quality has decreased (Chmielewski and<br>Kucker, 2020), while alternative platforms such as CrowdFlower and FigureEight are no longer<br>practicable options for academic research since they were acquired by Appen, a company that is<br>focused on a business market.</p>",
+            "id": 10,
+            "page": 2,
+            "text": "such as Amazon Mechanical Turk (MTurk). Often, these two strategies are used in combination: trained annotators create a relatively small gold-standard dataset, and crowd-workers are employed to increase the volume of labeled data. Trained annotators tend to produce high-quality data, but involve significant costs. Crowd workers are a much cheaper and more flexible option, but the quality may be insufficient, particularly for complex tasks and languages other than English. Moreover, there have been concerns that MTurk data quality has decreased (Chmielewski and Kucker, 2020), while alternative platforms such as CrowdFlower and FigureEight are no longer practicable options for academic research since they were acquired by Appen, a company that is focused on a business market."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 855
+                },
+                {
+                    "x": 2265,
+                    "y": 855
+                },
+                {
+                    "x": 2265,
+                    "y": 2414
+                },
+                {
+                    "x": 288,
+                    "y": 2414
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:20px'>This paper explores the potential of large language models (LLMs) for text annotation tasks, with a<br>focus on ChatGPT, which was released in November 2022. It demonstrates that zero-shot ChatGPT<br>classifications (that is, without any additional training) outperform MTurk annotations, at a fraction<br>of the cost. LLMs have been shown to perform very well for a wide range of purposes, including<br>ideological scaling (Wu et al., 2023), the classification of legislative proposals (Nay, 2023), the<br>resolution of cognitive psychology tasks (Binz and Schulz, 2023), and the simulation of human<br>samples for survey research (Argyle et al., 2023). While a few studies suggested that ChatGPT<br>might perform text annotation tasks of the kinds we have described (Kuzman, Mozetic and Ljubesi�,<br>2023; Huang, Kwak and An, 2023), to the best of our knowledge our work is the first systematic<br>evaluation. Our analysis relies on a sample of 6,183 documents, including tweets and news articles<br>that we collected for a previous study (Alizadeh et al., 2022) as well as a new sample of tweets<br>posted in 2023. In our previous study, the texts were labeled by trained annotators (research<br>assistants) for five different tasks: relevance, stance, topics, and two kinds of frame detection.<br>Using the same codebooks that we developed to instruct our research assistants, we submitted the<br>tasks to ChatGPT as zero-shot classifications, as well as to crowd-workers on MTurk. We then<br>evaluated the performance of ChatGPT against two benchmarks: (i) its accuracy, relative to that<br>of crowd-workers, and (ii) its intercoder agreement, relative to that of crowd workers as well as<br>of our trained annotators. We find that across the four datasets, ChatGPT's zero-shot accuracy is<br>higher than that of MTurk for most tasks. For all tasks, ChatGPT's intercoder agreement exceeds<br>that of both MTurk and trained annotators. Moreover, ChatGPT is significantly cheaper than MTurk.<br>ChatGPT's per-annotation cost is about $0.003, or a third of a cent-about thirty times cheaper than<br>MTurk, with higher quality. At this cost, it might potentially be possible to annotate entire samples,<br>or to create large training sets for supervised learning. While further research is needed to better<br>understand how ChatGPT and other LLMs perform in a broader range of contexts, these results<br>demonstrate their potential to transform how researchers conduct data annotations, and to disrupt<br>parts of the business model of platforms such as MTurk.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "This paper explores the potential of large language models (LLMs) for text annotation tasks, with a focus on ChatGPT, which was released in November 2022. It demonstrates that zero-shot ChatGPT classifications (that is, without any additional training) outperform MTurk annotations, at a fraction of the cost. LLMs have been shown to perform very well for a wide range of purposes, including ideological scaling (Wu , 2023), the classification of legislative proposals (Nay, 2023), the resolution of cognitive psychology tasks (Binz and Schulz, 2023), and the simulation of human samples for survey research (Argyle , 2023). While a few studies suggested that ChatGPT might perform text annotation tasks of the kinds we have described (Kuzman, Mozetic and Ljubesi�, 2023; Huang, Kwak and An, 2023), to the best of our knowledge our work is the first systematic evaluation. Our analysis relies on a sample of 6,183 documents, including tweets and news articles that we collected for a previous study (Alizadeh , 2022) as well as a new sample of tweets posted in 2023. In our previous study, the texts were labeled by trained annotators (research assistants) for five different tasks: relevance, stance, topics, and two kinds of frame detection. Using the same codebooks that we developed to instruct our research assistants, we submitted the tasks to ChatGPT as zero-shot classifications, as well as to crowd-workers on MTurk. We then evaluated the performance of ChatGPT against two benchmarks: (i) its accuracy, relative to that of crowd-workers, and (ii) its intercoder agreement, relative to that of crowd workers as well as of our trained annotators. We find that across the four datasets, ChatGPT's zero-shot accuracy is higher than that of MTurk for most tasks. For all tasks, ChatGPT's intercoder agreement exceeds that of both MTurk and trained annotators. Moreover, ChatGPT is significantly cheaper than MTurk. ChatGPT's per-annotation cost is about $0.003, or a third of a cent-about thirty times cheaper than MTurk, with higher quality. At this cost, it might potentially be possible to annotate entire samples, or to create large training sets for supervised learning. While further research is needed to better understand how ChatGPT and other LLMs perform in a broader range of contexts, these results demonstrate their potential to transform how researchers conduct data annotations, and to disrupt parts of the business model of platforms such as MTurk."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2479
+                },
+                {
+                    "x": 535,
+                    "y": 2479
+                },
+                {
+                    "x": 535,
+                    "y": 2537
+                },
+                {
+                    "x": 291,
+                    "y": 2537
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:18px'>2 Results</p>",
+            "id": 12,
+            "page": 2,
+            "text": "2 Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2597
+                },
+                {
+                    "x": 2260,
+                    "y": 2597
+                },
+                {
+                    "x": 2260,
+                    "y": 3018
+                },
+                {
+                    "x": 289,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:18px'>We use four datasets (n = 6, 183) including tweets and news articles that we collected and annotated<br>manually for a previous study on the discourse around content moderation (Alizadeh et al., 2022), as<br>well as a new sample of tweets posted in 2023 to address the concern that ChatGPT might be relying<br>on memorization for texts potentially included in the model's training dataset. We relied on trained<br>annotators (research assistants) to construct a gold standard for six conceptual categories: relevance<br>of tweets for the content moderation issue (relevant/irrelevant); relevance of tweets for political<br>issues (relevant/irrelevant); stance regarding Section 230, a key part of US internet legislation</p>",
+            "id": 13,
+            "page": 2,
+            "text": "We use four datasets (n = 6, 183) including tweets and news articles that we collected and annotated manually for a previous study on the discourse around content moderation (Alizadeh , 2022), as well as a new sample of tweets posted in 2023 to address the concern that ChatGPT might be relying on memorization for texts potentially included in the model's training dataset. We relied on trained annotators (research assistants) to construct a gold standard for six conceptual categories: relevance of tweets for the content moderation issue (relevant/irrelevant); relevance of tweets for political issues (relevant/irrelevant); stance regarding Section 230, a key part of US internet legislation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1258,
+                    "y": 3089
+                },
+                {
+                    "x": 1291,
+                    "y": 3089
+                },
+                {
+                    "x": 1291,
+                    "y": 3131
+                },
+                {
+                    "x": 1258,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='14' style='font-size:14px'>2</footer>",
+            "id": 14,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 148
+                },
+                {
+                    "x": 1800,
+                    "y": 148
+                },
+                {
+                    "x": 1800,
+                    "y": 190
+                },
+                {
+                    "x": 748,
+                    "y": 190
+                }
+            ],
+            "category": "header",
+            "html": "<header id='15' style='font-size:18px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 15,
+            "page": 3,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 413,
+                    "y": 277
+                },
+                {
+                    "x": 2179,
+                    "y": 277
+                },
+                {
+                    "x": 2179,
+                    "y": 1337
+                },
+                {
+                    "x": 413,
+                    "y": 1337
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='16' style='font-size:14px' alt=\"A. Tweets (2020-2021) B. News Articles (2020-2021)\nAccuracy Intercoder Agreement Accuracy Intercoder Agreement\nRelevance\nRelevance\nStance\nTopics\nFrames I\nFrames I\nFrames II\n0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%\nC. Tweets (2023) D. Tweets (2017-2022)\nAccuracy Intercoder Agreement Accuracy Intercoder Agreement\nRelevance Relevance\nFrames I Frames II\n0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100%\nTrained annotators MTurk ChatGPT (temp 1) ChatGPT (temp 0.2)\" data-coord=\"top-left:(413,277); bottom-right:(2179,1337)\" /></figure>",
+            "id": 16,
+            "page": 3,
+            "text": "A. Tweets (2020-2021) B. News Articles (2020-2021) Accuracy Intercoder Agreement Accuracy Intercoder Agreement Relevance Relevance Stance Topics Frames I Frames I Frames II 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% C. Tweets (2023) D. Tweets (2017-2022) Accuracy Intercoder Agreement Accuracy Intercoder Agreement Relevance Relevance Frames I Frames II 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% 0% 25% 50% 75% 100% Trained annotators MTurk ChatGPT (temp 1) ChatGPT (temp 0.2)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1397
+                },
+                {
+                    "x": 2258,
+                    "y": 1397
+                },
+                {
+                    "x": 2258,
+                    "y": 1636
+                },
+                {
+                    "x": 290,
+                    "y": 1636
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:20px'>Figure 1: ChatGPT zero-shot text annotation performance in four datasets, compared to MTurk<br>and trained annotators. ChatGPT's accuracy outperforms that of MTurk for most tasks. ChatGPT's<br>intercoder agreement outperforms that of both MTurk and trained annotators in all tasks. Accuracy<br>means agreement with the trained annotators.</p>",
+            "id": 17,
+            "page": 3,
+            "text": "Figure 1: ChatGPT zero-shot text annotation performance in four datasets, compared to MTurk and trained annotators. ChatGPT's accuracy outperforms that of MTurk for most tasks. ChatGPT's intercoder agreement outperforms that of both MTurk and trained annotators in all tasks. Accuracy means agreement with the trained annotators."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1739
+                },
+                {
+                    "x": 2260,
+                    "y": 1739
+                },
+                {
+                    "x": 2260,
+                    "y": 2455
+                },
+                {
+                    "x": 289,
+                    "y": 2455
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:20px'>(keep/repeal/neutral); topic identification (six classes); a first set of frames (content moderation<br>as a problem, as a solution, or neutral); and a second set of frames (fourteen classes). We then<br>performed these exact same classifications with ChatGPT and with crowd-workers recruited on<br>MTurk, using the same codebook we developed for our research assistants (see SI Appendix). For<br>ChatGPT, we conducted four sets of annotations. To explore the effect of ChatGPT's temperature<br>parameter, which controls the degree of randomness of the output, we conducted the annotations<br>with the default value of 1 as well as with a value of 0.2, which implies less randomness. For<br>each temperature value, we conducted two sets of annotations to compute ChatGPT's intercoder<br>agreement. For MTurk, we aimed to select high-quality crowd-workers, notably by filtering for<br>workers who are classified as \"MTurk Masters\" by Amazon, who have an approval rate of over<br>90%, and who are located in the US. Our procedures are described more in detail in the Materials<br>and Methods section.</p>",
+            "id": 18,
+            "page": 3,
+            "text": "(keep/repeal/neutral); topic identification (six classes); a first set of frames (content moderation as a problem, as a solution, or neutral); and a second set of frames (fourteen classes). We then performed these exact same classifications with ChatGPT and with crowd-workers recruited on MTurk, using the same codebook we developed for our research assistants (see SI Appendix). For ChatGPT, we conducted four sets of annotations. To explore the effect of ChatGPT's temperature parameter, which controls the degree of randomness of the output, we conducted the annotations with the default value of 1 as well as with a value of 0.2, which implies less randomness. For each temperature value, we conducted two sets of annotations to compute ChatGPT's intercoder agreement. For MTurk, we aimed to select high-quality crowd-workers, notably by filtering for workers who are classified as \"MTurk Masters\" by Amazon, who have an approval rate of over 90%, and who are located in the US. Our procedures are described more in detail in the Materials and Methods section."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2478
+                },
+                {
+                    "x": 2262,
+                    "y": 2478
+                },
+                {
+                    "x": 2262,
+                    "y": 3018
+                },
+                {
+                    "x": 289,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:22px'>Across the four datasets, we report ChatGPT's zero-shot performance for two different metrics:<br>accuracy and intercoder agreement (Figure 1). Accuracy is measured as the percentage of correct<br>annotations (using our trained annotators as a benchmark), while intercoder agreement is computed<br>as the percentage of tweets that were assigned the same label by two different annotators (research<br>assistant, crowd-workers, or ChatGPT runs). Regarding accuracy, Figure 1 shows that ChatGPT<br>outperforms MTurk for most tasks across the four datasets. On average, ChatGPT's accuracy<br>exceeds that of MTurk by about 25 percentage points. Moreover, ChatGPT demonstrates adequate<br>accuracy overall, considering the challenging tasks, number of classes, and zero-shot annotations.<br>Accuracy rates for relevance tasks, with two classes (relevant/irrelevant) are 70% for content</p>",
+            "id": 19,
+            "page": 3,
+            "text": "Across the four datasets, we report ChatGPT's zero-shot performance for two different metrics: accuracy and intercoder agreement (Figure 1). Accuracy is measured as the percentage of correct annotations (using our trained annotators as a benchmark), while intercoder agreement is computed as the percentage of tweets that were assigned the same label by two different annotators (research assistant, crowd-workers, or ChatGPT runs). Regarding accuracy, Figure 1 shows that ChatGPT outperforms MTurk for most tasks across the four datasets. On average, ChatGPT's accuracy exceeds that of MTurk by about 25 percentage points. Moreover, ChatGPT demonstrates adequate accuracy overall, considering the challenging tasks, number of classes, and zero-shot annotations. Accuracy rates for relevance tasks, with two classes (relevant/irrelevant) are 70% for content"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3093
+                },
+                {
+                    "x": 1290,
+                    "y": 3093
+                },
+                {
+                    "x": 1290,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='20' style='font-size:16px'>3</footer>",
+            "id": 20,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 747,
+                    "y": 145
+                },
+                {
+                    "x": 1802,
+                    "y": 145
+                },
+                {
+                    "x": 1802,
+                    "y": 191
+                },
+                {
+                    "x": 747,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='21' style='font-size:16px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 21,
+            "page": 4,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 301
+                },
+                {
+                    "x": 2259,
+                    "y": 301
+                },
+                {
+                    "x": 2259,
+                    "y": 597
+                },
+                {
+                    "x": 290,
+                    "y": 597
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:20px'>moderation tweets, 81 % for content moderation news articles, 83% for US Congress tweets, and<br>59% for 2023 content moderation tweets. In the 2023 sample, ChatGPT performed much better than<br>MTurk in the second task but struggled with misclassifying tweets about specific user suspensions<br>in the relevance task due to a lack of examples in the prompt. While these findings do not suggest<br>that memorization is a major issue, they underscore the importance of high-quality prompts.</p>",
+            "id": 22,
+            "page": 4,
+            "text": "moderation tweets, 81 % for content moderation news articles, 83% for US Congress tweets, and 59% for 2023 content moderation tweets. In the 2023 sample, ChatGPT performed much better than MTurk in the second task but struggled with misclassifying tweets about specific user suspensions in the relevance task due to a lack of examples in the prompt. While these findings do not suggest that memorization is a major issue, they underscore the importance of high-quality prompts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 618
+                },
+                {
+                    "x": 2260,
+                    "y": 618
+                },
+                {
+                    "x": 2260,
+                    "y": 978
+                },
+                {
+                    "x": 289,
+                    "y": 978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='23' style='font-size:20px'>Regarding intercoder agreement, Figure 1 shows that ChatGPT's performance is very high. On<br>average, intercoder agreement is about 56% for MTurk, 79% for trained annotators, 91% for<br>ChatGPT with temperature = 1, and 97% for ChatGPT with temperature = 0.2. The correlation<br>between intercoder agreement and accuracy is positive (Pearson's r = 0.36). This suggests that a<br>lower temperature value may be preferable for annotation tasks, as it seems to increase consistency<br>without decreasing accuracy.</p>",
+            "id": 23,
+            "page": 4,
+            "text": "Regarding intercoder agreement, Figure 1 shows that ChatGPT's performance is very high. On average, intercoder agreement is about 56% for MTurk, 79% for trained annotators, 91% for ChatGPT with temperature = 1, and 97% for ChatGPT with temperature = 0.2. The correlation between intercoder agreement and accuracy is positive (Pearson's r = 0.36). This suggests that a lower temperature value may be preferable for annotation tasks, as it seems to increase consistency without decreasing accuracy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1000
+                },
+                {
+                    "x": 2262,
+                    "y": 1000
+                },
+                {
+                    "x": 2262,
+                    "y": 1541
+                },
+                {
+                    "x": 289,
+                    "y": 1541
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:20px'>We underscore that the test to which we subjected ChatGPT is hard. Our tasks were originally<br>conducted in the context of a previous study (Alizadeh et al., 2022), and required considerable<br>resources. We developed most of the conceptual categories for our particular research purposes.<br>Moreover, some of the tasks involve a large number of classes and exhibit lower levels of inter-<br>coder agreement, which indicates a higher degree of annotation difficulty (Bayerl and Paul, 2011).<br>ChatGPT's accuracy is positively correlated with the intercoder agreement of trained annotators<br>(Pearson's r = 0.46), suggesting better performance for easier tasks. Conversely, ChatGPT's outper-<br>formance of MTurk is negatively correlated with the intercoder agreement of trained annotators<br>(Pearson's r = -0.37), potentially indicating stronger overperformance for more complex tasks.</p>",
+            "id": 24,
+            "page": 4,
+            "text": "We underscore that the test to which we subjected ChatGPT is hard. Our tasks were originally conducted in the context of a previous study (Alizadeh , 2022), and required considerable resources. We developed most of the conceptual categories for our particular research purposes. Moreover, some of the tasks involve a large number of classes and exhibit lower levels of intercoder agreement, which indicates a higher degree of annotation difficulty (Bayerl and Paul, 2011). ChatGPT's accuracy is positively correlated with the intercoder agreement of trained annotators (Pearson's r = 0.46), suggesting better performance for easier tasks. Conversely, ChatGPT's outperformance of MTurk is negatively correlated with the intercoder agreement of trained annotators (Pearson's r = -0.37), potentially indicating stronger overperformance for more complex tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1562
+                },
+                {
+                    "x": 2259,
+                    "y": 1562
+                },
+                {
+                    "x": 2259,
+                    "y": 1679
+                },
+                {
+                    "x": 291,
+                    "y": 1679
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:22px'>We conclude that ChatGPT's performance is impressive, particularly considering that its annotations<br>are zero-shot.</p>",
+            "id": 25,
+            "page": 4,
+            "text": "We conclude that ChatGPT's performance is impressive, particularly considering that its annotations are zero-shot."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1756
+                },
+                {
+                    "x": 604,
+                    "y": 1756
+                },
+                {
+                    "x": 604,
+                    "y": 1811
+                },
+                {
+                    "x": 292,
+                    "y": 1811
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:18px'>3 Discussion</p>",
+            "id": 26,
+            "page": 4,
+            "text": "3 Discussion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1877
+                },
+                {
+                    "x": 2260,
+                    "y": 1877
+                },
+                {
+                    "x": 2260,
+                    "y": 2479
+                },
+                {
+                    "x": 290,
+                    "y": 2479
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:22px'>This paper demonstrates the potential of LLMs to transform text-annotation procedures for a variety<br>of tasks common to many research projects. The evidence is consistent across different types of texts<br>and time periods. It strongly suggests that ChatGPT may already be a superior approach compared<br>to crowd-annotations on platforms such as MTurk. At the very least, the findings demonstrate the<br>importance of studying the text-annotation properties and capabilities of LLMs more in depth. The<br>following questions seem particularly promising: (i) performance across multiple languages; (ii)<br>implementation of few-shot learning; (iii) construction of semi-automated data labeling systems in<br>which a model learns from human annotations and then recommends labeling procedures (Desmond<br>et al., 2021); (iv) using chain of thought prompting and other strategies to increase the performance<br>of zero-shot reasoning (Kojima et al., 2022); and (V) comparison across different types of LLMs.</p>",
+            "id": 27,
+            "page": 4,
+            "text": "This paper demonstrates the potential of LLMs to transform text-annotation procedures for a variety of tasks common to many research projects. The evidence is consistent across different types of texts and time periods. It strongly suggests that ChatGPT may already be a superior approach compared to crowd-annotations on platforms such as MTurk. At the very least, the findings demonstrate the importance of studying the text-annotation properties and capabilities of LLMs more in depth. The following questions seem particularly promising: (i) performance across multiple languages; (ii) implementation of few-shot learning; (iii) construction of semi-automated data labeling systems in which a model learns from human annotations and then recommends labeling procedures (Desmond , 2021); (iv) using chain of thought prompting and other strategies to increase the performance of zero-shot reasoning (Kojima , 2022); and (V) comparison across different types of LLMs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2552
+                },
+                {
+                    "x": 876,
+                    "y": 2552
+                },
+                {
+                    "x": 876,
+                    "y": 2609
+                },
+                {
+                    "x": 292,
+                    "y": 2609
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:18px'>4 Materials and Methods</p>",
+            "id": 28,
+            "page": 4,
+            "text": "4 Materials and Methods"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2675
+                },
+                {
+                    "x": 598,
+                    "y": 2675
+                },
+                {
+                    "x": 598,
+                    "y": 2729
+                },
+                {
+                    "x": 291,
+                    "y": 2729
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:22px'>4.1 Datasets</p>",
+            "id": 29,
+            "page": 4,
+            "text": "4.1 Datasets"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2775
+                },
+                {
+                    "x": 2261,
+                    "y": 2775
+                },
+                {
+                    "x": 2261,
+                    "y": 3017
+                },
+                {
+                    "x": 289,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:18px'>The analysis relies on four datasets: (i) a random sample of 2,382 tweets drawn from a dataset of 2.6<br>million tweets on content moderation posted from January 2020 to April 2021; (ii) a random sample<br>of 1,856 tweets posted by members of the US Congress from 2017 to 2022, drawn from a dataset of<br>20 million tweets; (iii) a random sample of 1,606 articles newspaper articles on content moderation</p>",
+            "id": 30,
+            "page": 4,
+            "text": "The analysis relies on four datasets: (i) a random sample of 2,382 tweets drawn from a dataset of 2.6 million tweets on content moderation posted from January 2020 to April 2021; (ii) a random sample of 1,856 tweets posted by members of the US Congress from 2017 to 2022, drawn from a dataset of 20 million tweets; (iii) a random sample of 1,606 articles newspaper articles on content moderation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1258,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3127
+                },
+                {
+                    "x": 1258,
+                    "y": 3127
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='31' style='font-size:14px'>4</footer>",
+            "id": 31,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 191
+                },
+                {
+                    "x": 748,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='32' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 32,
+            "page": 5,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 297
+                },
+                {
+                    "x": 2262,
+                    "y": 297
+                },
+                {
+                    "x": 2262,
+                    "y": 599
+                },
+                {
+                    "x": 289,
+                    "y": 599
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:20px'>published from January 2020 to April 2021, drawn from a dataset of 980k articles collected via<br>LexisNexis. Sample size was determined by the number of texts needed to build a training set for<br>a machine learning classifier. The fourth dataset (iv) replicated the data collection for (i), but for<br>January 2023. It includes a random sample of 500 tweets (of which 339 were in English) drawn<br>from a dataset of 1.3 million tweets.</p>",
+            "id": 33,
+            "page": 5,
+            "text": "published from January 2020 to April 2021, drawn from a dataset of 980k articles collected via LexisNexis. Sample size was determined by the number of texts needed to build a training set for a machine learning classifier. The fourth dataset (iv) replicated the data collection for (i), but for January 2023. It includes a random sample of 500 tweets (of which 339 were in English) drawn from a dataset of 1.3 million tweets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 666
+                },
+                {
+                    "x": 793,
+                    "y": 666
+                },
+                {
+                    "x": 793,
+                    "y": 723
+                },
+                {
+                    "x": 290,
+                    "y": 723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:22px'>4.2 Annotation Tasks</p>",
+            "id": 34,
+            "page": 5,
+            "text": "4.2 Annotation Tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 767
+                },
+                {
+                    "x": 2263,
+                    "y": 767
+                },
+                {
+                    "x": 2263,
+                    "y": 1484
+                },
+                {
+                    "x": 289,
+                    "y": 1484
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>We implemented several annotation tasks: (1) relevance: whether a tweet is about content modera-<br>tion or, in a separate task, about politics; (2) topic detection: whether a tweet is about a set of six<br>pre-defined topics (i.e. Section 230, Trump Ban, Complaint, Platform Policies, Twitter Support,<br>and others); (3) stance detection: whether a tweet is in favor of, against, or neutral about repealing<br>Section 230 (a piece of US legislation central to content moderation); (4) general frame detection:<br>whether a tweet contains a set of two opposing frames (\"problem' and \"solution\"). The solution<br>frame describes tweets framing content moderation as a solution to other issues (e.g., hate speech).<br>The problem frame describes tweets framing content moderation as a problem on its own as well<br>as to other issues (e.g., free speech); (5) policy frame detection: whether a tweet contains a set<br>of fourteen policy frames proposed in (Card et al., 2015). The full text of instruction for the five<br>annotation tasks is presented in SI Appendix. We used the exact same wordings for ChatGPT and<br>MTurk.</p>",
+            "id": 35,
+            "page": 5,
+            "text": "We implemented several annotation tasks: (1) relevance: whether a tweet is about content moderation or, in a separate task, about politics; (2) topic detection: whether a tweet is about a set of six pre-defined topics (i.e. Section 230, Trump Ban, Complaint, Platform Policies, Twitter Support, and others); (3) stance detection: whether a tweet is in favor of, against, or neutral about repealing Section 230 (a piece of US legislation central to content moderation); (4) general frame detection: whether a tweet contains a set of two opposing frames (\"problem' and \"solution\"). The solution frame describes tweets framing content moderation as a solution to other issues (e.g., hate speech). The problem frame describes tweets framing content moderation as a problem on its own as well as to other issues (e.g., free speech); (5) policy frame detection: whether a tweet contains a set of fourteen policy frames proposed in (Card , 2015). The full text of instruction for the five annotation tasks is presented in SI Appendix. We used the exact same wordings for ChatGPT and MTurk."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1554
+                },
+                {
+                    "x": 829,
+                    "y": 1554
+                },
+                {
+                    "x": 829,
+                    "y": 1612
+                },
+                {
+                    "x": 292,
+                    "y": 1612
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:20px'>4.3 Trained annotators</p>",
+            "id": 36,
+            "page": 5,
+            "text": "4.3 Trained annotators"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1656
+                },
+                {
+                    "x": 2260,
+                    "y": 1656
+                },
+                {
+                    "x": 2260,
+                    "y": 1837
+                },
+                {
+                    "x": 289,
+                    "y": 1837
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:18px'>We trained three political science students to conduct the annotation tasks. For each task, they<br>were given the same set of instructions described above and detailed in SI Appendix. The coders<br>annotated the tweets independently task by task.</p>",
+            "id": 37,
+            "page": 5,
+            "text": "We trained three political science students to conduct the annotation tasks. For each task, they were given the same set of instructions described above and detailed in SI Appendix. The coders annotated the tweets independently task by task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1905
+                },
+                {
+                    "x": 755,
+                    "y": 1905
+                },
+                {
+                    "x": 755,
+                    "y": 1962
+                },
+                {
+                    "x": 290,
+                    "y": 1962
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:22px'>4.4 Crowd-workers</p>",
+            "id": 38,
+            "page": 5,
+            "text": "4.4 Crowd-workers"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2005
+                },
+                {
+                    "x": 2261,
+                    "y": 2005
+                },
+                {
+                    "x": 2261,
+                    "y": 2424
+                },
+                {
+                    "x": 290,
+                    "y": 2424
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:16px'>We employed MTurk workers to perform the same set of tasks as trained annotators and ChatGPT,<br>using the same set of instructions (SI Appendix). To ensure annotation quality, we restricted access<br>to the tasks to workers who are classified as \"MTurk Masters\" by Amazon, who have a HIT (Human<br>Intelligence Task) approval rate greater than 90% with at least 50 approved HITs, and who are<br>located in the US. Moreover, we ensured that no worker could annotate more than 20% of the tweets<br>for a given task. As with the trained human annotators, each tweet was annotated by two different<br>crowd-workers.</p>",
+            "id": 39,
+            "page": 5,
+            "text": "We employed MTurk workers to perform the same set of tasks as trained annotators and ChatGPT, using the same set of instructions (SI Appendix). To ensure annotation quality, we restricted access to the tasks to workers who are classified as \"MTurk Masters\" by Amazon, who have a HIT (Human Intelligence Task) approval rate greater than 90% with at least 50 approved HITs, and who are located in the US. Moreover, we ensured that no worker could annotate more than 20% of the tweets for a given task. As with the trained human annotators, each tweet was annotated by two different crowd-workers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2495
+                },
+                {
+                    "x": 626,
+                    "y": 2495
+                },
+                {
+                    "x": 626,
+                    "y": 2550
+                },
+                {
+                    "x": 290,
+                    "y": 2550
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:20px'>4.5 ChatGPT</p>",
+            "id": 40,
+            "page": 5,
+            "text": "4.5 ChatGPT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2596
+                },
+                {
+                    "x": 2260,
+                    "y": 2596
+                },
+                {
+                    "x": 2260,
+                    "y": 3018
+                },
+                {
+                    "x": 289,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:20px'>We used the ChatGPT API with the 'gpt-3.5-turbo'. The annotations were conducted between March<br>9-20 and April 27-May 4, 2023. For each task, we prompted ChatGPT with the corresponding<br>annotation instruction text (SI Appendix). We intentionally avoided adding any ChatGPT-specific<br>prompts to ensure comparability between ChatGPT and MTurk crowd-workers. After testing several<br>variations, we decided to feed tweets one by one to ChatGPT using the following prompt: \"Here's<br>the tweet I picked, please label it as [Task Specific Instruction (e.g. 'one of the topics in the<br>instruction ')].\" We set the temperature parameter at 1 (default value) and 0.2 (which makes the</p>",
+            "id": 41,
+            "page": 5,
+            "text": "We used the ChatGPT API with the 'gpt-3.5-turbo'. The annotations were conducted between March 9-20 and April 27-May 4, 2023. For each task, we prompted ChatGPT with the corresponding annotation instruction text (SI Appendix). We intentionally avoided adding any ChatGPT-specific prompts to ensure comparability between ChatGPT and MTurk crowd-workers. After testing several variations, we decided to feed tweets one by one to ChatGPT using the following prompt: \"Here's the tweet I picked, please label it as [Task Specific Instruction (e.g. 'one of the topics in the instruction ')].\" We set the temperature parameter at 1 (default value) and 0.2 (which makes the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='42' style='font-size:14px'>5</footer>",
+            "id": 42,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 191
+                },
+                {
+                    "x": 748,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='43' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 43,
+            "page": 6,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 301
+                },
+                {
+                    "x": 2262,
+                    "y": 301
+                },
+                {
+                    "x": 2262,
+                    "y": 538
+                },
+                {
+                    "x": 290,
+                    "y": 538
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>output more deterministic; higher values make the output more random). For each temperature<br>setting, we collected two responses from ChatGPT to compute the intercoder agreement. That is,<br>we collected four ChatGPT responses for each tweet. We created a new chat session for every tweet<br>to ensure that the ChatGPT results are not influenced by the history of annotations.</p>",
+            "id": 44,
+            "page": 6,
+            "text": "output more deterministic; higher values make the output more random). For each temperature setting, we collected two responses from ChatGPT to compute the intercoder agreement. That is, we collected four ChatGPT responses for each tweet. We created a new chat session for every tweet to ensure that the ChatGPT results are not influenced by the history of annotations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 597
+                },
+                {
+                    "x": 826,
+                    "y": 597
+                },
+                {
+                    "x": 826,
+                    "y": 656
+                },
+                {
+                    "x": 290,
+                    "y": 656
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>4.6 Evaluation Metrics</p>",
+            "id": 45,
+            "page": 6,
+            "text": "4.6 Evaluation Metrics"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 697
+                },
+                {
+                    "x": 2263,
+                    "y": 697
+                },
+                {
+                    "x": 2263,
+                    "y": 998
+                },
+                {
+                    "x": 290,
+                    "y": 998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>First, we computed average accuracy (i.e. percentage of correct predictions), that is, the number of<br>correctly classified instances over the total number of cases to be classified, using trained human<br>annotations as our gold standard and considering only texts that both annotators agreed upon.<br>Second, intercoder agreement refers to the percentage of instances for which both annotators in a<br>given group report the same class.</p>",
+            "id": 46,
+            "page": 6,
+            "text": "First, we computed average accuracy (i.e. percentage of correct predictions), that is, the number of correctly classified instances over the total number of cases to be classified, using trained human annotations as our gold standard and considering only texts that both annotators agreed upon. Second, intercoder agreement refers to the percentage of instances for which both annotators in a given group report the same class."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1057
+                },
+                {
+                    "x": 776,
+                    "y": 1057
+                },
+                {
+                    "x": 776,
+                    "y": 1115
+                },
+                {
+                    "x": 291,
+                    "y": 1115
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:20px'>4.7 Data Availability</p>",
+            "id": 47,
+            "page": 6,
+            "text": "4.7 Data Availability"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1160
+                },
+                {
+                    "x": 2260,
+                    "y": 1160
+                },
+                {
+                    "x": 2260,
+                    "y": 1276
+                },
+                {
+                    "x": 291,
+                    "y": 1276
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:16px'>Replication materials are available at the Harvard Dataverse, https://doi.org/10.7910/DVN/<br>PQYF6M.</p>",
+            "id": 48,
+            "page": 6,
+            "text": "Replication materials are available at the Harvard Dataverse, https://doi.org/10.7910/DVN/ PQYF6M."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1343
+                },
+                {
+                    "x": 696,
+                    "y": 1343
+                },
+                {
+                    "x": 696,
+                    "y": 1402
+                },
+                {
+                    "x": 292,
+                    "y": 1402
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:22px'>Acknowledgments</p>",
+            "id": 49,
+            "page": 6,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1458
+                },
+                {
+                    "x": 2258,
+                    "y": 1458
+                },
+                {
+                    "x": 2258,
+                    "y": 1635
+                },
+                {
+                    "x": 290,
+                    "y": 1635
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:18px'>This project received funding from the European Research Council (ERC) under the European<br>Union's Horizon 2020 research and innovation program (grant agreement nr. 883121). We thank<br>Fabio Melliger, Paula Moser, and Sophie van IJzendoorn for excellent research assistance.</p>",
+            "id": 50,
+            "page": 6,
+            "text": "This project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation program (grant agreement nr. 883121). We thank Fabio Melliger, Paula Moser, and Sophie van IJzendoorn for excellent research assistance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1700
+                },
+                {
+                    "x": 537,
+                    "y": 1700
+                },
+                {
+                    "x": 537,
+                    "y": 1756
+                },
+                {
+                    "x": 293,
+                    "y": 1756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:20px'>References</p>",
+            "id": 51,
+            "page": 6,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1780
+                },
+                {
+                    "x": 2270,
+                    "y": 1780
+                },
+                {
+                    "x": 2270,
+                    "y": 3013
+                },
+                {
+                    "x": 289,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='52' style='font-size:20px'>Alizadeh, Meysam, Fabrizio Gilardi, Emma Hoes, K Jonathan Kluser, Mael Kubli and Nahema<br>Marchal. 2022. \"Content Moderation As a Political Issue: The Twitter Discourse Around Trump's<br>Ban.\" Journal of Quantitative Description: Digital Media 2.<br>Argyle, Lisa P., Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher Rytting and David<br>Wingate. 2023. \"Out of One, Many: Using Language Models to Simulate Human Samples.\"<br>Political Analysis pp. 1-15.<br>Bayerl, Petra Saskia and Karsten Ingmar Paul. 2011. \"What Determines Inter-Coder Agreement in<br>Manual Annotations? A Meta-Analytic Investigation.\" Computational Linguistics 37(4):699-725.<br>Benoit, Kenneth, Drew Conway, Benjamin E. Lauderdale, Michael Laver and Slava Mikhaylov.<br>2016. \"Crowd-Sourced Text Analysis: Reproducible and Agile Production of Political Data.\"<br>American Political Science Review 116(2):278-295.<br>Binz, Marcel and Eric Schulz. 2023. \"Using cognitive psychology to understand GPT-3.\" Proceed-<br>ings of the National Academy of Sciences 120(6):e2218523120.<br>Card, Dallas, Amber Boydstun, Justin H Gross, Philip Resnik and Noah A Smith. 2015. The media<br>frames corpus: Annotations of frames across issues. In Proceedings of the 53rd Annual Meeting<br>of the Association for Computational Linguistics and the 7th International Joint Conference on<br>Natural Language Processing (Volume 2: Short Papers). pp. 438-444.<br>Chmielewski, Michael and Sarah C. Kucker. 2020. \"An MTurk Crisis? Shifts in Data Quality and<br>the Impact on Study Results.\" Social Psychological and Personality Science 11(4):464-473.</p>",
+            "id": 52,
+            "page": 6,
+            "text": "Alizadeh, Meysam, Fabrizio Gilardi, Emma Hoes, K Jonathan Kluser, Mael Kubli and Nahema Marchal. 2022. \"Content Moderation As a Political Issue: The Twitter Discourse Around Trump's Ban.\" Journal of Quantitative Description: Digital Media 2. Argyle, Lisa P., Ethan C. Busby, Nancy Fulda, Joshua R. Gubler, Christopher Rytting and David Wingate. 2023. \"Out of One, Many: Using Language Models to Simulate Human Samples.\" Political Analysis pp. 1-15. Bayerl, Petra Saskia and Karsten Ingmar Paul. 2011. \"What Determines Inter-Coder Agreement in Manual Annotations? A Meta-Analytic Investigation.\" Computational Linguistics 37(4):699-725. Benoit, Kenneth, Drew Conway, Benjamin E. Lauderdale, Michael Laver and Slava Mikhaylov. 2016. \"Crowd-Sourced Text Analysis: Reproducible and Agile Production of Political Data.\" American Political Science Review 116(2):278-295. Binz, Marcel and Eric Schulz. 2023. \"Using cognitive psychology to understand GPT-3.\" Proceedings of the National Academy of Sciences 120(6):e2218523120. Card, Dallas, Amber Boydstun, Justin H Gross, Philip Resnik and Noah A Smith. 2015. The media frames corpus: Annotations of frames across issues. In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers). pp. 438-444. Chmielewski, Michael and Sarah C. Kucker. 2020. \"An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results.\" Social Psychological and Personality Science 11(4):464-473."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3130
+                },
+                {
+                    "x": 1260,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='53' style='font-size:14px'>6</footer>",
+            "id": 53,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 747,
+                    "y": 145
+                },
+                {
+                    "x": 1802,
+                    "y": 145
+                },
+                {
+                    "x": 1802,
+                    "y": 191
+                },
+                {
+                    "x": 747,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='54' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 54,
+            "page": 7,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 298
+                },
+                {
+                    "x": 2268,
+                    "y": 298
+                },
+                {
+                    "x": 2268,
+                    "y": 1422
+                },
+                {
+                    "x": 289,
+                    "y": 1422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>Desmond, Michael, Evelyn Duesterwald, Kristina Brimijoin, Michelle Brachman and Qian Pan.<br>2021. Semi-automated data labeling. In NeurIPS 2020 Competition and Demonstration Track.<br>PMLR pp. 156-169.<br>Emerson, Guy, Natalie Schluter, Gabriel Stanovsky, Ritesh Kumar, Alexis Palmer, Nathan Schneider,<br>Siddharth Singh and Shyam Ratan, eds. 2022. Proceedings of the 16th International Workshop<br>on Semantic Evaluation (SemEval-2022). Seattle: Association for Computational Linguistics.<br>Huang, Fan, Haewoon Kwak and Jisun An. 2023. \"Is ChatGPT better than Human Annotators?<br>Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech.\" arXiv preprint<br>arXiv:2302.07736<br>Kojima, Takeshi, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo and Yusuke Iwasawa. 2022.<br>\"Large language models are zero-shot reasoners.' , arXiv preprint arXiv:2205.11916<br>Kuzman, Taja, Igor Mozetic and Nikola Ljube�i�. 2023. \"ChatGPT: Beginning of an End of<br>Manual Linguistic Data Annotation? Use Case of Automatic Genre Identification.\" arXiv e-prints<br>pp. arXiv-2303.<br>Nay, John J. 2023. \"Large Language Models as Corporate Lobbyists.\" ,<br>Wu, Patrick Y., Joshua A. Tucker, Jonathan Nagler and Solomon Messing. 2023. \"Large Language<br>Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.\" ·</p>",
+            "id": 55,
+            "page": 7,
+            "text": "Desmond, Michael, Evelyn Duesterwald, Kristina Brimijoin, Michelle Brachman and Qian Pan. 2021. Semi-automated data labeling. In NeurIPS 2020 Competition and Demonstration Track. PMLR pp. 156-169. Emerson, Guy, Natalie Schluter, Gabriel Stanovsky, Ritesh Kumar, Alexis Palmer, Nathan Schneider, Siddharth Singh and Shyam Ratan, eds. 2022. Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022). Seattle: Association for Computational Linguistics. Huang, Fan, Haewoon Kwak and Jisun An. 2023. \"Is ChatGPT better than Human Annotators? Potential and Limitations of ChatGPT in Explaining Implicit Hate Speech.\" arXiv preprint arXiv:2302.07736 Kojima, Takeshi, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo and Yusuke Iwasawa. 2022. \"Large language models are zero-shot reasoners.' , arXiv preprint arXiv:2205.11916 Kuzman, Taja, Igor Mozetic and Nikola Ljube�i�. 2023. \"ChatGPT: Beginning of an End of Manual Linguistic Data Annotation? Use Case of Automatic Genre Identification.\" arXiv e-prints pp. arXiv-2303. Nay, John J. 2023. \"Large Language Models as Corporate Lobbyists.\" , Wu, Patrick Y., Joshua A. Tucker, Jonathan Nagler and Solomon Messing. 2023. \"Large Language Models Can Be Used to Estimate the Ideologies of Politicians in a Zero-Shot Learning Setting.\" ·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 747,
+                    "y": 144
+                },
+                {
+                    "x": 1801,
+                    "y": 144
+                },
+                {
+                    "x": 1801,
+                    "y": 192
+                },
+                {
+                    "x": 747,
+                    "y": 192
+                }
+            ],
+            "category": "header",
+            "html": "<header id='56' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 56,
+            "page": 8,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 298
+                },
+                {
+                    "x": 898,
+                    "y": 298
+                },
+                {
+                    "x": 898,
+                    "y": 355
+                },
+                {
+                    "x": 289,
+                    "y": 355
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:22px'>S1 Annotation Codebooks</p>",
+            "id": 57,
+            "page": 8,
+            "text": "S1 Annotation Codebooks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 433
+                },
+                {
+                    "x": 2263,
+                    "y": 433
+                },
+                {
+                    "x": 2263,
+                    "y": 972
+                },
+                {
+                    "x": 288,
+                    "y": 972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:18px'>Not all of the annotations described in these codebooks were conducted for every dataset in our study.<br>First, the manual annotations we use as a benchmark were performed in a previous study, except<br>for the new 2023 sample, which was specifically annotated for this current study. Second, certain<br>annotation tasks are not applicable to all datasets. For instance, stance analysis, problem/solution,<br>and topic modeling were not suitable for analyzing tweets from US Congress members. This is<br>because these tweets cover a wide range of issues and topics, unlike content moderation topics,<br>which are more focused. For news articles, our attempts at human annotation for stance, topic, and<br>policy frames were not successful. This was because the articles primarily revolved around platform<br>policies, actions, and criticisms thereof.</p>",
+            "id": 58,
+            "page": 8,
+            "text": "Not all of the annotations described in these codebooks were conducted for every dataset in our study. First, the manual annotations we use as a benchmark were performed in a previous study, except for the new 2023 sample, which was specifically annotated for this current study. Second, certain annotation tasks are not applicable to all datasets. For instance, stance analysis, problem/solution, and topic modeling were not suitable for analyzing tweets from US Congress members. This is because these tweets cover a wide range of issues and topics, unlike content moderation topics, which are more focused. For news articles, our attempts at human annotation for stance, topic, and policy frames were not successful. This was because the articles primarily revolved around platform policies, actions, and criticisms thereof."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1068
+                },
+                {
+                    "x": 2258,
+                    "y": 1068
+                },
+                {
+                    "x": 2258,
+                    "y": 1187
+                },
+                {
+                    "x": 291,
+                    "y": 1187
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:20px'>S1.1 Background on content moderation (to be used for all tasks except the tweets from US<br>Congressmembers)</p>",
+            "id": 59,
+            "page": 8,
+            "text": "S1.1 Background on content moderation (to be used for all tasks except the tweets from US Congressmembers)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1242
+                },
+                {
+                    "x": 2257,
+                    "y": 1242
+                },
+                {
+                    "x": 2257,
+                    "y": 1360
+                },
+                {
+                    "x": 290,
+                    "y": 1360
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:16px'>For this task, you will be asked to annotate a sample of tweets about content moderation. Before<br>describing the task, we explain what we mean by \"content moderation\".</p>",
+            "id": 60,
+            "page": 8,
+            "text": "For this task, you will be asked to annotate a sample of tweets about content moderation. Before describing the task, we explain what we mean by \"content moderation\"."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 1386
+                },
+                {
+                    "x": 2262,
+                    "y": 1386
+                },
+                {
+                    "x": 2262,
+                    "y": 1744
+                },
+                {
+                    "x": 288,
+                    "y": 1744
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:18px'>\"Content moderation\" refers to the practice of screening and monitoring content posted by users on<br>social media sites to determine if the content should be published or not, based on specific rules<br>and guidelines. Every time someone posts something on a platform like Facebook or Twitter, that<br>piece of content goes through a review process (\"content moderation\") to ensure that it is not illegal,<br>hateful or inappropriate and that it complies with the rules of the site. When that is not the case, that<br>piece of content can be removed, flagged, labeled as or 'disputed.'</p>",
+            "id": 61,
+            "page": 8,
+            "text": "\"Content moderation\" refers to the practice of screening and monitoring content posted by users on social media sites to determine if the content should be published or not, based on specific rules and guidelines. Every time someone posts something on a platform like Facebook or Twitter, that piece of content goes through a review process (\"content moderation\") to ensure that it is not illegal, hateful or inappropriate and that it complies with the rules of the site. When that is not the case, that piece of content can be removed, flagged, labeled as or 'disputed.'"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 1766
+                },
+                {
+                    "x": 2260,
+                    "y": 1766
+                },
+                {
+                    "x": 2260,
+                    "y": 2124
+                },
+                {
+                    "x": 288,
+                    "y": 2124
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>Deciding what should be allowed on social media is not always easy. For example, many sites ban<br>child pornography and terrorist content as it is illegal. However, things are less clear when it comes<br>to content about the safety of vaccines or politics, for example. Even when people agree that some<br>content should be blocked, they do not always agree about the best way to do so, how effective<br>it is, and who should do it (the government or private companies, human moderators, or artificial<br>intelligence).</p>",
+            "id": 62,
+            "page": 8,
+            "text": "Deciding what should be allowed on social media is not always easy. For example, many sites ban child pornography and terrorist content as it is illegal. However, things are less clear when it comes to content about the safety of vaccines or politics, for example. Even when people agree that some content should be blocked, they do not always agree about the best way to do so, how effective it is, and who should do it (the government or private companies, human moderators, or artificial intelligence)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2221
+                },
+                {
+                    "x": 2215,
+                    "y": 2221
+                },
+                {
+                    "x": 2215,
+                    "y": 2283
+                },
+                {
+                    "x": 289,
+                    "y": 2283
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:22px'>S1.2 Background on political tweets (to be used for tweets by the US Congress members)</p>",
+            "id": 63,
+            "page": 8,
+            "text": "S1.2 Background on political tweets (to be used for tweets by the US Congress members)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2334
+                },
+                {
+                    "x": 2261,
+                    "y": 2334
+                },
+                {
+                    "x": 2261,
+                    "y": 2570
+                },
+                {
+                    "x": 289,
+                    "y": 2570
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:18px'>For this task, you will be asked to annotate a sample of tweets to determine if they include political<br>content or not. For the purposes of this task, tweets are \"relevant\" if they include political content,<br>and \"irrelevant\" if they do not. Before describing the task, we explain what we mean by \"political<br>content\".</p>",
+            "id": 64,
+            "page": 8,
+            "text": "For this task, you will be asked to annotate a sample of tweets to determine if they include political content or not. For the purposes of this task, tweets are \"relevant\" if they include political content, and \"irrelevant\" if they do not. Before describing the task, we explain what we mean by \"political content\"."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 2598
+                },
+                {
+                    "x": 2262,
+                    "y": 2598
+                },
+                {
+                    "x": 2262,
+                    "y": 3017
+                },
+                {
+                    "x": 288,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:18px'>\"Political content\" refers to any tweets that pertain to politics or government policies at the local,<br>national, or international level. This can include tweets that discuss political figures, events, or<br>issues, as well as tweets that use political language or hashtags. To determine if tweets include<br>political content or not, consider several factors, such as the use of political keywords or hashtags,<br>the mention of political figures or events, the inclusion of links to news articles or other political<br>sources, and the overall tone and sentiment of the tweet, which may indicate whether it is conveying<br>a political message or viewpoint.</p>",
+            "id": 65,
+            "page": 8,
+            "text": "\"Political content\" refers to any tweets that pertain to politics or government policies at the local, national, or international level. This can include tweets that discuss political figures, events, or issues, as well as tweets that use political language or hashtags. To determine if tweets include political content or not, consider several factors, such as the use of political keywords or hashtags, the mention of political figures or events, the inclusion of links to news articles or other political sources, and the overall tone and sentiment of the tweet, which may indicate whether it is conveying a political message or viewpoint."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1258,
+                    "y": 3091
+                },
+                {
+                    "x": 1288,
+                    "y": 3091
+                },
+                {
+                    "x": 1288,
+                    "y": 3131
+                },
+                {
+                    "x": 1258,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='66' style='font-size:14px'>1</footer>",
+            "id": 66,
+            "page": 8,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 145
+                },
+                {
+                    "x": 1800,
+                    "y": 191
+                },
+                {
+                    "x": 748,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='67' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 67,
+            "page": 9,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 298
+                },
+                {
+                    "x": 1309,
+                    "y": 298
+                },
+                {
+                    "x": 1309,
+                    "y": 354
+                },
+                {
+                    "x": 289,
+                    "y": 354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:22px'>S1.3 Task 1: Relevance (Content Moderation)</p>",
+            "id": 68,
+            "page": 9,
+            "text": "S1.3 Task 1: Relevance (Content Moderation)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 400
+                },
+                {
+                    "x": 1404,
+                    "y": 400
+                },
+                {
+                    "x": 1404,
+                    "y": 455
+                },
+                {
+                    "x": 292,
+                    "y": 455
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:18px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 69,
+            "page": 9,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 382,
+                    "y": 492
+                },
+                {
+                    "x": 1819,
+                    "y": 492
+                },
+                {
+                    "x": 1819,
+                    "y": 627
+                },
+                {
+                    "x": 382,
+                    "y": 627
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:18px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet as either relevant (1) or irrelevant (0)</p>",
+            "id": 70,
+            "page": 9,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet as either relevant (1) or irrelevant (0)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 660
+                },
+                {
+                    "x": 2260,
+                    "y": 660
+                },
+                {
+                    "x": 2260,
+                    "y": 900
+                },
+                {
+                    "x": 289,
+                    "y": 900
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:18px'>Tweets should be coded as RELEVANT when they directly relate to content moderation, as defined<br>above. This includes tweets that discuss: social media platforms' content moderation rules and<br>practices, governments' regulation of online content moderation, and/or mild forms of content<br>moderation like flagging.</p>",
+            "id": 71,
+            "page": 9,
+            "text": "Tweets should be coded as RELEVANT when they directly relate to content moderation, as defined above. This includes tweets that discuss: social media platforms' content moderation rules and practices, governments' regulation of online content moderation, and/or mild forms of content moderation like flagging."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 924
+                },
+                {
+                    "x": 2260,
+                    "y": 924
+                },
+                {
+                    "x": 2260,
+                    "y": 1285
+                },
+                {
+                    "x": 288,
+                    "y": 1285
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:18px'>Tweets should be coded as IRRELEVANT if they do not refer to content moderation, as defined<br>above, or if they are themselves examples of moderated content. This would include, for example, a<br>Tweet by Donald Trump that Twitter has labeled as \"disputed\", a tweet claiming that something is<br>false, or a tweet containing sensitive content. Such tweets might be subject to content moderation,<br>but are not discussing content moderation. Therefore, they should be coded as irrelevant for our<br>purposes.</p>",
+            "id": 72,
+            "page": 9,
+            "text": "Tweets should be coded as IRRELEVANT if they do not refer to content moderation, as defined above, or if they are themselves examples of moderated content. This would include, for example, a Tweet by Donald Trump that Twitter has labeled as \"disputed\", a tweet claiming that something is false, or a tweet containing sensitive content. Such tweets might be subject to content moderation, but are not discussing content moderation. Therefore, they should be coded as irrelevant for our purposes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1342
+                },
+                {
+                    "x": 1235,
+                    "y": 1342
+                },
+                {
+                    "x": 1235,
+                    "y": 1399
+                },
+                {
+                    "x": 289,
+                    "y": 1399
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:20px'>S1.4 Task 2: Relevance (Political Content)</p>",
+            "id": 73,
+            "page": 9,
+            "text": "S1.4 Task 2: Relevance (Political Content)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1445
+                },
+                {
+                    "x": 1406,
+                    "y": 1445
+                },
+                {
+                    "x": 1406,
+                    "y": 1500
+                },
+                {
+                    "x": 291,
+                    "y": 1500
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 74,
+            "page": 9,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 383,
+                    "y": 1534
+                },
+                {
+                    "x": 1819,
+                    "y": 1534
+                },
+                {
+                    "x": 1819,
+                    "y": 1672
+                },
+                {
+                    "x": 383,
+                    "y": 1672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet as either relevant (1) or irrelevant (0)</p>",
+            "id": 75,
+            "page": 9,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet as either relevant (1) or irrelevant (0)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1704
+                },
+                {
+                    "x": 2262,
+                    "y": 1704
+                },
+                {
+                    "x": 2262,
+                    "y": 1886
+                },
+                {
+                    "x": 289,
+                    "y": 1886
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:18px'>Tweets should be coded as RELEVANT if they include POLITICAL CONTENT, as defined above.<br>Tweets should be coded as IRRELEVANT if they do NOT include POLITICAL CONTENT, as<br>defined above.</p>",
+            "id": 76,
+            "page": 9,
+            "text": "Tweets should be coded as RELEVANT if they include POLITICAL CONTENT, as defined above. Tweets should be coded as IRRELEVANT if they do NOT include POLITICAL CONTENT, as defined above."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 1945
+                },
+                {
+                    "x": 1163,
+                    "y": 1945
+                },
+                {
+                    "x": 1163,
+                    "y": 2005
+                },
+                {
+                    "x": 288,
+                    "y": 2005
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>S1.5 Task 3: Problem/Solution Frames</p>",
+            "id": 77,
+            "page": 9,
+            "text": "S1.5 Task 3: Problem/Solution Frames"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2049
+                },
+                {
+                    "x": 1594,
+                    "y": 2049
+                },
+                {
+                    "x": 1594,
+                    "y": 2107
+                },
+                {
+                    "x": 291,
+                    "y": 2107
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:16px'>Content moderation can be seen from two different perspectives:</p>",
+            "id": 78,
+            "page": 9,
+            "text": "Content moderation can be seen from two different perspectives:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 402,
+                    "y": 2139
+                },
+                {
+                    "x": 2258,
+                    "y": 2139
+                },
+                {
+                    "x": 2258,
+                    "y": 2333
+                },
+                {
+                    "x": 402,
+                    "y": 2333
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:14px'>● Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech<br>● Content moderation can be seen as a SOLUTION; for example, as a protection from harmful<br>speech</p>",
+            "id": 79,
+            "page": 9,
+            "text": "● Content moderation can be seen as a PROBLEM; for example, as a restriction of free speech ● Content moderation can be seen as a SOLUTION; for example, as a protection from harmful speech"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2370
+                },
+                {
+                    "x": 1404,
+                    "y": 2370
+                },
+                {
+                    "x": 1404,
+                    "y": 2428
+                },
+                {
+                    "x": 290,
+                    "y": 2428
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:18px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 80,
+            "page": 9,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 382,
+                    "y": 2465
+                },
+                {
+                    "x": 2253,
+                    "y": 2465
+                },
+                {
+                    "x": 2253,
+                    "y": 2598
+                },
+                {
+                    "x": 382,
+                    "y": 2598
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:16px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet as describing content moderation as a problem, as a solution, or neither.</p>",
+            "id": 81,
+            "page": 9,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet as describing content moderation as a problem, as a solution, or neither."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2634
+                },
+                {
+                    "x": 2259,
+                    "y": 2634
+                },
+                {
+                    "x": 2259,
+                    "y": 2814
+                },
+                {
+                    "x": 290,
+                    "y": 2814
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:18px'>Tweets should be classified as describing content moderation as a PROBLEM if they emphasize<br>negative effects of content moderation, such as restrictions to free speech, or the biases that can<br>emerge from decisions regarding what users are allowed to post.</p>",
+            "id": 82,
+            "page": 9,
+            "text": "Tweets should be classified as describing content moderation as a PROBLEM if they emphasize negative effects of content moderation, such as restrictions to free speech, or the biases that can emerge from decisions regarding what users are allowed to post."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2837
+                },
+                {
+                    "x": 2258,
+                    "y": 2837
+                },
+                {
+                    "x": 2258,
+                    "y": 3018
+                },
+                {
+                    "x": 290,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:18px'>Tweets should be classified as describing content moderation as a SOLUTION if they emphasize<br>positive effects of content moderation, such as protecting users from various kinds of harmful<br>content, including hate speech, misinformation, illegal adult content, or spam.</p>",
+            "id": 83,
+            "page": 9,
+            "text": "Tweets should be classified as describing content moderation as a SOLUTION if they emphasize positive effects of content moderation, such as protecting users from various kinds of harmful content, including hate speech, misinformation, illegal adult content, or spam."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1257,
+                    "y": 3089
+                },
+                {
+                    "x": 1292,
+                    "y": 3089
+                },
+                {
+                    "x": 1292,
+                    "y": 3132
+                },
+                {
+                    "x": 1257,
+                    "y": 3132
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='84' style='font-size:14px'>2</footer>",
+            "id": 84,
+            "page": 9,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 191
+                },
+                {
+                    "x": 748,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='85' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 85,
+            "page": 10,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 296
+                },
+                {
+                    "x": 2260,
+                    "y": 296
+                },
+                {
+                    "x": 2260,
+                    "y": 538
+                },
+                {
+                    "x": 288,
+                    "y": 538
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:20px'>Tweets should be classified as describing content moderation as NEUTRAL if they do not emphasize<br>possible negative or positive effects of content moderation, for example if they simply report on the<br>content moderation activity of social media platforms without linking them to potential advantages<br>or disadvantages for users or stakeholders.</p>",
+            "id": 86,
+            "page": 10,
+            "text": "Tweets should be classified as describing content moderation as NEUTRAL if they do not emphasize possible negative or positive effects of content moderation, for example if they simply report on the content moderation activity of social media platforms without linking them to potential advantages or disadvantages for users or stakeholders."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 605
+                },
+                {
+                    "x": 1398,
+                    "y": 605
+                },
+                {
+                    "x": 1398,
+                    "y": 665
+                },
+                {
+                    "x": 289,
+                    "y": 665
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:22px'>S1.6 Task 4: Policy Frames (Content Moderation)</p>",
+            "id": 87,
+            "page": 10,
+            "text": "S1.6 Task 4: Policy Frames (Content Moderation)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 711
+                },
+                {
+                    "x": 2262,
+                    "y": 711
+                },
+                {
+                    "x": 2262,
+                    "y": 828
+                },
+                {
+                    "x": 289,
+                    "y": 828
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:16px'>Content moderation, as described above, can be linked to various other topics, such as health, crime,<br>or equality.</p>",
+            "id": 88,
+            "page": 10,
+            "text": "Content moderation, as described above, can be linked to various other topics, such as health, crime, or equality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 852
+                },
+                {
+                    "x": 1405,
+                    "y": 852
+                },
+                {
+                    "x": 1405,
+                    "y": 909
+                },
+                {
+                    "x": 291,
+                    "y": 909
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:20px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 89,
+            "page": 10,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 383,
+                    "y": 959
+                },
+                {
+                    "x": 1817,
+                    "y": 959
+                },
+                {
+                    "x": 1817,
+                    "y": 1098
+                },
+                {
+                    "x": 383,
+                    "y": 1098
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:18px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet into one of the topics defined below.</p>",
+            "id": 90,
+            "page": 10,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet into one of the topics defined below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 287,
+                    "y": 1146
+                },
+                {
+                    "x": 975,
+                    "y": 1146
+                },
+                {
+                    "x": 975,
+                    "y": 1204
+                },
+                {
+                    "x": 287,
+                    "y": 1204
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:16px'>The topics are defined as follows:</p>",
+            "id": 91,
+            "page": 10,
+            "text": "The topics are defined as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 399,
+                    "y": 1242
+                },
+                {
+                    "x": 2264,
+                    "y": 1242
+                },
+                {
+                    "x": 2264,
+                    "y": 3024
+                },
+                {
+                    "x": 399,
+                    "y": 3024
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:18px'>● ECONOMY: The costs, benefits, or monetary/financial implications of the issue (to an<br>individual, family, community, or to the economy as a whole).<br>● Capacity and resources: The lack of or availability of physical, geographical, spatial, human,<br>and financial resources, or the capacity of existing systems and resources to implement or<br>carry out policy goals.<br>● MORALITY: Any perspective-or policy objective or action (including proposed action)that<br>is compelled by religious doctrine or interpretation, duty, honor, righteousness or any other<br>sense of ethics or social responsibility.<br>● FAIRNESS AND EQUALITY: Equality or inequality with which laws, punishment, rewards,<br>and resources are applied or distributed among individuals or groups. Also the balance<br>between the rights or interests of one individual or group compared to another individual or<br>group.<br>● CONSTITUTIONALITY AND JURISPRUDENCE: The constraints imposed on or free-<br>doms granted to individuals, government, and corporations via the Constitution, Bill of<br>Rights and other amendments, or judicial interpretation. This deals specifically with the<br>authority of government to regulate, and the authority of individuals/corporations to act<br>independently of government.<br>● POLICY PRESCRIPTION AND EVALUATION: Particular policies proposed for address-<br>ing an identified problem, and figuring out if certain policies will work, or if existing policies<br>are effective.<br>● LAW AND ORDER, CRIME AND JUSTICE: Specific policies in practice and their enforce-<br>ment, incentives, and implications. Includes stories about enforcement and interpretation of<br>laws by individuals and law enforcement, breaking laws, loopholes, fines, sentencing and<br>punishment. Increases or reductions in crime.<br>● SECURITY AND DEFENSE: Security, threats to security, and protection of one's person,<br>family, in-group, nation, etc. Generally an action or a call to action that can be taken to<br>protect the welfare of a person, group, nation sometimes from a not yet manifested threat.</p>",
+            "id": 92,
+            "page": 10,
+            "text": "● ECONOMY: The costs, benefits, or monetary/financial implications of the issue (to an individual, family, community, or to the economy as a whole). ● Capacity and resources: The lack of or availability of physical, geographical, spatial, human, and financial resources, or the capacity of existing systems and resources to implement or carry out policy goals. ● MORALITY: Any perspective-or policy objective or action (including proposed action)that is compelled by religious doctrine or interpretation, duty, honor, righteousness or any other sense of ethics or social responsibility. ● FAIRNESS AND EQUALITY: Equality or inequality with which laws, punishment, rewards, and resources are applied or distributed among individuals or groups. Also the balance between the rights or interests of one individual or group compared to another individual or group. ● CONSTITUTIONALITY AND JURISPRUDENCE: The constraints imposed on or freedoms granted to individuals, government, and corporations via the Constitution, Bill of Rights and other amendments, or judicial interpretation. This deals specifically with the authority of government to regulate, and the authority of individuals/corporations to act independently of government. ● POLICY PRESCRIPTION AND EVALUATION: Particular policies proposed for addressing an identified problem, and figuring out if certain policies will work, or if existing policies are effective. ● LAW AND ORDER, CRIME AND JUSTICE: Specific policies in practice and their enforcement, incentives, and implications. Includes stories about enforcement and interpretation of laws by individuals and law enforcement, breaking laws, loopholes, fines, sentencing and punishment. Increases or reductions in crime. ● SECURITY AND DEFENSE: Security, threats to security, and protection of one's person, family, in-group, nation, etc. Generally an action or a call to action that can be taken to protect the welfare of a person, group, nation sometimes from a not yet manifested threat."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='93' style='font-size:14px'>3</footer>",
+            "id": 93,
+            "page": 10,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 748,
+                    "y": 146
+                },
+                {
+                    "x": 1802,
+                    "y": 146
+                },
+                {
+                    "x": 1802,
+                    "y": 191
+                },
+                {
+                    "x": 748,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='94' style='font-size:16px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 94,
+            "page": 11,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 401,
+                    "y": 292
+                },
+                {
+                    "x": 2265,
+                    "y": 292
+                },
+                {
+                    "x": 2265,
+                    "y": 1583
+                },
+                {
+                    "x": 401,
+                    "y": 1583
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:20px'>● HEALTH AND SAFETY: Health care access and effectiveness, illness, disease, sanitation,<br>obesity, mental health effects, prevention of or perpetuation of gun violence, infrastructure<br>and building safety.<br>● QUALITY OF LIFE: The effects of a policy on individuals' wealth, mobility, access to<br>resources, happiness, social structures, ease of day-to-day routines, quality of community<br>life, etc.<br>● CULTURAL IDENTITY: The social norms, trends, values and customs constituting cul-<br>ture(s), as they relate to a specific policy issue.<br>● PUBLIC OPINION: References to general social attitudes, polling and demographic infor-<br>mation, as well as implied or actual consequences of diverging from or \"getting ahead of\"<br>public opinion or polls.<br>● POLITICAL: Any political considerations surrounding an issue. Issue actions or efforts or<br>stances that are political, such as partisan filibusters, lobbyist involvement, bipartisan efforts,<br>deal-making and vote trading, appealing to one's base, mentions of political maneuvering.<br>Explicit statements that a policy issue is good or bad for a particular political party.<br>● EXTERNAL REGULATION AND REPUTATION: The United States' external relations<br>with another nation; the external relations of one state with another; or relations between<br>groups. This includes trade agreements and outcomes, comparisons of policy outcomes or<br>desired policy outcomes.<br>● OTHER: Any topic that does not fit into the above categories.</p>",
+            "id": 95,
+            "page": 11,
+            "text": "● HEALTH AND SAFETY: Health care access and effectiveness, illness, disease, sanitation, obesity, mental health effects, prevention of or perpetuation of gun violence, infrastructure and building safety. ● QUALITY OF LIFE: The effects of a policy on individuals' wealth, mobility, access to resources, happiness, social structures, ease of day-to-day routines, quality of community life, etc. ● CULTURAL IDENTITY: The social norms, trends, values and customs constituting culture(s), as they relate to a specific policy issue. ● PUBLIC OPINION: References to general social attitudes, polling and demographic information, as well as implied or actual consequences of diverging from or \"getting ahead of\" public opinion or polls. ● POLITICAL: Any political considerations surrounding an issue. Issue actions or efforts or stances that are political, such as partisan filibusters, lobbyist involvement, bipartisan efforts, deal-making and vote trading, appealing to one's base, mentions of political maneuvering. Explicit statements that a policy issue is good or bad for a particular political party. ● EXTERNAL REGULATION AND REPUTATION: The United States' external relations with another nation; the external relations of one state with another; or relations between groups. This includes trade agreements and outcomes, comparisons of policy outcomes or desired policy outcomes. ● OTHER: Any topic that does not fit into the above categories."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1641
+                },
+                {
+                    "x": 1319,
+                    "y": 1641
+                },
+                {
+                    "x": 1319,
+                    "y": 1700
+                },
+                {
+                    "x": 289,
+                    "y": 1700
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:22px'>S1.7 Task 5: Policy Frames (Political Content)</p>",
+            "id": 96,
+            "page": 11,
+            "text": "S1.7 Task 5: Policy Frames (Political Content)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1743
+                },
+                {
+                    "x": 2258,
+                    "y": 1743
+                },
+                {
+                    "x": 2258,
+                    "y": 1860
+                },
+                {
+                    "x": 290,
+                    "y": 1860
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:20px'>Political content, as described above, can be linked to various other topics, such as health, crime, or<br>equality.</p>",
+            "id": 97,
+            "page": 11,
+            "text": "Political content, as described above, can be linked to various other topics, such as health, crime, or equality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1887
+                },
+                {
+                    "x": 1404,
+                    "y": 1887
+                },
+                {
+                    "x": 1404,
+                    "y": 1943
+                },
+                {
+                    "x": 294,
+                    "y": 1943
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:20px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 98,
+            "page": 11,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 385,
+                    "y": 1983
+                },
+                {
+                    "x": 1818,
+                    "y": 1983
+                },
+                {
+                    "x": 1818,
+                    "y": 2117
+                },
+                {
+                    "x": 385,
+                    "y": 2117
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:20px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet into one of the topics defined below.</p>",
+            "id": 99,
+            "page": 11,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet into one of the topics defined below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2156
+                },
+                {
+                    "x": 975,
+                    "y": 2156
+                },
+                {
+                    "x": 975,
+                    "y": 2215
+                },
+                {
+                    "x": 290,
+                    "y": 2215
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>The topics are defined as follows:</p>",
+            "id": 100,
+            "page": 11,
+            "text": "The topics are defined as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 398,
+                    "y": 2253
+                },
+                {
+                    "x": 2263,
+                    "y": 2253
+                },
+                {
+                    "x": 2263,
+                    "y": 3023
+                },
+                {
+                    "x": 398,
+                    "y": 3023
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:20px'>● ECONOMY: The costs, benefits, or monetary/financial implications of the issue (to an<br>individual, family, community, or to the economy as a whole).<br>● Capacity and resources: The lack of or availability of physical, geographical, spatial, human,<br>and financial resources, or the capacity of existing systems and resources to implement or<br>carry out policy goals.<br>● MORALITY: Any perspective-or policy objective or action (including proposed action)that<br>is compelled by religious doctrine or interpretation, duty, honor, righteousness or any other<br>sense of ethics or social responsibility.<br>● FAIRNESS AND EQUALITY: Equality or inequality with which laws, punishment, rewards,<br>and resources are applied or distributed among individuals or groups. Also the balance<br>between the rights or interests of one individual or group compared to another individual or<br>group.</p>",
+            "id": 101,
+            "page": 11,
+            "text": "● ECONOMY: The costs, benefits, or monetary/financial implications of the issue (to an individual, family, community, or to the economy as a whole). ● Capacity and resources: The lack of or availability of physical, geographical, spatial, human, and financial resources, or the capacity of existing systems and resources to implement or carry out policy goals. ● MORALITY: Any perspective-or policy objective or action (including proposed action)that is compelled by religious doctrine or interpretation, duty, honor, righteousness or any other sense of ethics or social responsibility. ● FAIRNESS AND EQUALITY: Equality or inequality with which laws, punishment, rewards, and resources are applied or distributed among individuals or groups. Also the balance between the rights or interests of one individual or group compared to another individual or group."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1257,
+                    "y": 3090
+                },
+                {
+                    "x": 1290,
+                    "y": 3090
+                },
+                {
+                    "x": 1290,
+                    "y": 3128
+                },
+                {
+                    "x": 1257,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='102' style='font-size:14px'>4</footer>",
+            "id": 102,
+            "page": 11,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 747,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 191
+                },
+                {
+                    "x": 747,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='103' style='font-size:16px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 103,
+            "page": 12,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 399,
+                    "y": 292
+                },
+                {
+                    "x": 2266,
+                    "y": 292
+                },
+                {
+                    "x": 2266,
+                    "y": 2552
+                },
+                {
+                    "x": 399,
+                    "y": 2552
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:20px'>● CONSTITUTIONALITY AND JURISPRUDENCE: The constraints imposed on or free-<br>doms granted to individuals, government, and corporations via the Constitution, Bill of<br>Rights and other amendments, or judicial interpretation. This deals specifically with the<br>authority of government to regulate, and the authority of individuals/corporations to act<br>independently of government.<br>● POLICY PRESCRIPTION AND EVALUATION: Particular policies proposed for address-<br>ing an identified problem, and figuring out if certain policies will work, or if existing policies<br>are effective.<br>● LAW AND ORDER, CRIME AND JUSTICE: Specific policies in practice and their enforce-<br>ment, incentives, and implications. Includes stories about enforcement and interpretation of<br>laws by individuals and law enforcement, breaking laws, loopholes, fines, sentencing and<br>punishment. Increases or reductions in crime.<br>● SECURITY AND DEFENSE: Security, threats to security, and protection of one's person,<br>family, in-group, nation, etc. Generally an action or a call to action that can be taken to<br>protect the welfare of a person, group, nation sometimes from a not yet manifested threat.<br>● HEALTH AND SAFETY: Health care access and effectiveness, illness, disease, sanitation,<br>obesity, mental health effects, prevention of or perpetuation of gun violence, infrastructure<br>and building safety.<br>● QUALITY OF LIFE: The effects of a policy on individuals' wealth, mobility, access to<br>resources, happiness, social structures, ease of day-to-day routines, quality of community<br>life, etc.<br>● CULTURAL IDENTITY: The social norms, trends, values and customs constituting cul-<br>ture(s), as they relate to a specific policy issue.<br>● PUBLIC OPINION: References to general social attitudes, polling and demographic infor-<br>mation, as well as implied or actual consequences of diverging from or \"getting ahead of\"<br>public opinion or polls.<br>● POLITICAL: Any political considerations surrounding an issue. Issue actions or efforts or<br>stances that are political, such as partisan filibusters, lobbyist involvement, bipartisan efforts,<br>deal-making and vote trading, appealing to one's base, mentions of political maneuvering.<br>Explicit statements that a policy issue is good or bad for a particular political party.<br>● EXTERNAL REGULATION AND REPUTATION: The United States' external relations<br>with another nation; the external relations of one state with another; or relations between<br>groups. This includes trade agreements and outcomes, comparisons of policy outcomes or<br>desired policy outcomes.<br>● OTHER: Any topic that does not fit into the above categories.</p>",
+            "id": 104,
+            "page": 12,
+            "text": "● CONSTITUTIONALITY AND JURISPRUDENCE: The constraints imposed on or freedoms granted to individuals, government, and corporations via the Constitution, Bill of Rights and other amendments, or judicial interpretation. This deals specifically with the authority of government to regulate, and the authority of individuals/corporations to act independently of government. ● POLICY PRESCRIPTION AND EVALUATION: Particular policies proposed for addressing an identified problem, and figuring out if certain policies will work, or if existing policies are effective. ● LAW AND ORDER, CRIME AND JUSTICE: Specific policies in practice and their enforcement, incentives, and implications. Includes stories about enforcement and interpretation of laws by individuals and law enforcement, breaking laws, loopholes, fines, sentencing and punishment. Increases or reductions in crime. ● SECURITY AND DEFENSE: Security, threats to security, and protection of one's person, family, in-group, nation, etc. Generally an action or a call to action that can be taken to protect the welfare of a person, group, nation sometimes from a not yet manifested threat. ● HEALTH AND SAFETY: Health care access and effectiveness, illness, disease, sanitation, obesity, mental health effects, prevention of or perpetuation of gun violence, infrastructure and building safety. ● QUALITY OF LIFE: The effects of a policy on individuals' wealth, mobility, access to resources, happiness, social structures, ease of day-to-day routines, quality of community life, etc. ● CULTURAL IDENTITY: The social norms, trends, values and customs constituting culture(s), as they relate to a specific policy issue. ● PUBLIC OPINION: References to general social attitudes, polling and demographic information, as well as implied or actual consequences of diverging from or \"getting ahead of\" public opinion or polls. ● POLITICAL: Any political considerations surrounding an issue. Issue actions or efforts or stances that are political, such as partisan filibusters, lobbyist involvement, bipartisan efforts, deal-making and vote trading, appealing to one's base, mentions of political maneuvering. Explicit statements that a policy issue is good or bad for a particular political party. ● EXTERNAL REGULATION AND REPUTATION: The United States' external relations with another nation; the external relations of one state with another; or relations between groups. This includes trade agreements and outcomes, comparisons of policy outcomes or desired policy outcomes. ● OTHER: Any topic that does not fit into the above categories."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2615
+                },
+                {
+                    "x": 973,
+                    "y": 2615
+                },
+                {
+                    "x": 973,
+                    "y": 2674
+                },
+                {
+                    "x": 290,
+                    "y": 2674
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:22px'>S1.8 Task 6: Stance Detection</p>",
+            "id": 105,
+            "page": 12,
+            "text": "S1.8 Task 6: Stance Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2717
+                },
+                {
+                    "x": 2263,
+                    "y": 2717
+                },
+                {
+                    "x": 2263,
+                    "y": 3017
+                },
+                {
+                    "x": 289,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:18px'>In the context of content moderation, Section 230 is a law in the United States that protects websites<br>and other online platforms from being held legally responsible for the content posted by their users.<br>This means that if someone posts something illegal or harmful on a website, the website itself<br>cannot be sued for allowing it to be posted. However, websites can still choose to moderate content<br>and remove anything that violates their own policies.</p>",
+            "id": 106,
+            "page": 12,
+            "text": "In the context of content moderation, Section 230 is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users. This means that if someone posts something illegal or harmful on a website, the website itself cannot be sued for allowing it to be posted. However, websites can still choose to moderate content and remove anything that violates their own policies."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1258,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3092
+                },
+                {
+                    "x": 1290,
+                    "y": 3130
+                },
+                {
+                    "x": 1258,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='107' style='font-size:14px'>5</footer>",
+            "id": 107,
+            "page": 12,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 747,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 145
+                },
+                {
+                    "x": 1801,
+                    "y": 191
+                },
+                {
+                    "x": 747,
+                    "y": 191
+                }
+            ],
+            "category": "header",
+            "html": "<header id='108' style='font-size:14px'>ChatGPT outperforms crowd-workers for text-annotation tasks</header>",
+            "id": 108,
+            "page": 13,
+            "text": "ChatGPT outperforms crowd-workers for text-annotation tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 300
+                },
+                {
+                    "x": 1403,
+                    "y": 300
+                },
+                {
+                    "x": 1403,
+                    "y": 355
+                },
+                {
+                    "x": 292,
+                    "y": 355
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='109' style='font-size:18px'>For each tweet in the sample, follow these instructions:</caption>",
+            "id": 109,
+            "page": 13,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 383,
+                    "y": 400
+                },
+                {
+                    "x": 2256,
+                    "y": 400
+                },
+                {
+                    "x": 2256,
+                    "y": 595
+                },
+                {
+                    "x": 383,
+                    "y": 595
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:16px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a<br>neutral stance.</p>",
+            "id": 110,
+            "page": 13,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Classify the tweet as having a positive stance towards Section 230, a negative stance, or a neutral stance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 659
+                },
+                {
+                    "x": 947,
+                    "y": 659
+                },
+                {
+                    "x": 947,
+                    "y": 717
+                },
+                {
+                    "x": 290,
+                    "y": 717
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:22px'>S1.9 Task 7: Topic Detection</p>",
+            "id": 111,
+            "page": 13,
+            "text": "S1.9 Task 7: Topic Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 762
+                },
+                {
+                    "x": 1890,
+                    "y": 762
+                },
+                {
+                    "x": 1890,
+                    "y": 819
+                },
+                {
+                    "x": 291,
+                    "y": 819
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:18px'>Tweets about content moderation may also discuss other related topics, such as:</p>",
+            "id": 112,
+            "page": 13,
+            "text": "Tweets about content moderation may also discuss other related topics, such as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 381,
+                    "y": 860
+                },
+                {
+                    "x": 2264,
+                    "y": 860
+                },
+                {
+                    "x": 2264,
+                    "y": 1781
+                },
+                {
+                    "x": 381,
+                    "y": 1781
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:20px'>1. Section 230, which is a law in the United States that protects websites and other online plat-<br>forms from being held legally responsible for the content posted by their users (SECTION<br>230).<br>2. The decision by many social media platforms, such as Twitter and Facebook, to suspend<br>Donald Trump's account (TRUMP BAN).<br>3. Requests directed to Twitter's support account or help center (TWITTER SUPPORT).<br>4. Social media platforms' policies and practices, such as community guidelines or terms of<br>service (PLATFORM POLICIES).<br>5. Complaints about platform's policy and practices in deplatforming and content moderation<br>or suggestions to suspend particular accounts, or complaints about accounts being suspended<br>or reported (COMPLAINTS).<br>6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWITTER<br>SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class<br>(OTHER).</p>",
+            "id": 113,
+            "page": 13,
+            "text": "1. Section 230, which is a law in the United States that protects websites and other online platforms from being held legally responsible for the content posted by their users (SECTION 230). 2. The decision by many social media platforms, such as Twitter and Facebook, to suspend Donald Trump's account (TRUMP BAN). 3. Requests directed to Twitter's support account or help center (TWITTER SUPPORT). 4. Social media platforms' policies and practices, such as community guidelines or terms of service (PLATFORM POLICIES). 5. Complaints about platform's policy and practices in deplatforming and content moderation or suggestions to suspend particular accounts, or complaints about accounts being suspended or reported (COMPLAINTS). 6. If a text is not about the SECTION 230, COMPLAINTS, TRUMP BAN, TWITTER SUPPORT, and PLATFORM POLICIES, then it should be classified in OTHER class (OTHER)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1829
+                },
+                {
+                    "x": 1405,
+                    "y": 1829
+                },
+                {
+                    "x": 1405,
+                    "y": 1885
+                },
+                {
+                    "x": 291,
+                    "y": 1885
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:20px'>For each tweet in the sample, follow these instructions:</p>",
+            "id": 114,
+            "page": 13,
+            "text": "For each tweet in the sample, follow these instructions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 382,
+                    "y": 1928
+                },
+                {
+                    "x": 2261,
+                    "y": 1928
+                },
+                {
+                    "x": 2261,
+                    "y": 2246
+                },
+                {
+                    "x": 382,
+                    "y": 2246
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:22px'>1. Carefully read the text of the tweet, paying close attention to details.<br>2. Please classify the following text according to topic (defined by function of the text, author's<br>purpose and form of the text). You can choose from the following classes: SECTION<br>230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and<br>OTHER</p>",
+            "id": 115,
+            "page": 13,
+            "text": "1. Carefully read the text of the tweet, paying close attention to details. 2. Please classify the following text according to topic (defined by function of the text, author's purpose and form of the text). You can choose from the following classes: SECTION 230, TRUMP BAN, COMPLAINTS, TWITTER SUPPORT, PLATFORM POLICIES, and OTHER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1257,
+                    "y": 3091
+                },
+                {
+                    "x": 1291,
+                    "y": 3091
+                },
+                {
+                    "x": 1291,
+                    "y": 3131
+                },
+                {
+                    "x": 1257,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='116' style='font-size:14px'>6</footer>",
+            "id": 116,
+            "page": 13,
+            "text": "6"
+        }
+    ]
+}

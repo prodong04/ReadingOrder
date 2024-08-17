@@ -1,0 +1,4931 @@
+{
+  "id": "62994586-0f92-11ef-8230-426932df3dcf",
+  "pdf_path": "./pdf/AI_VIT_O/2010.04159v4.pdf",
+  "elements": [
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 109
+        },
+        {
+          "x": 1220,
+          "y": 109
+        },
+        {
+          "x": 1220,
+          "y": 158
+        },
+        {
+          "x": 444,
+          "y": 158
+        }
+      ],
+      "category": "header",
+      "html": "<header id='0' style='font-size:16px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 0,
+      "page": 1,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 329
+        },
+        {
+          "x": 2106,
+          "y": 329
+        },
+        {
+          "x": 2106,
+          "y": 482
+        },
+        {
+          "x": 442,
+          "y": 482
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='1' style='font-size:22px'>DEFORMABLE DETR: DEFORMABLE TRANSFORMERS<br>FOR END-TO-END OBJECT DETECTION</p>",
+      "id": 1,
+      "page": 1,
+      "text": "DEFORMABLE DETR: DEFORMABLE TRANSFORMERS\nFOR END-TO-END OBJECT DETECTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 466,
+          "y": 560
+        },
+        {
+          "x": 1912,
+          "y": 560
+        },
+        {
+          "x": 1912,
+          "y": 613
+        },
+        {
+          "x": 466,
+          "y": 613
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='2' style='font-size:20px'>Xizhou Zhu1*, Weijie Su2*‡, Lewei Lu1, Bin Li2, Xiaogang Wang1,3 , Jifeng Dai1†</p>",
+      "id": 2,
+      "page": 1,
+      "text": "Xizhou Zhu1*, Weijie Su2*‡, Lewei Lu1, Bin Li2, Xiaogang Wang1,3 , Jifeng Dai1†"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 470,
+          "y": 611
+        },
+        {
+          "x": 1542,
+          "y": 611
+        },
+        {
+          "x": 1542,
+          "y": 893
+        },
+        {
+          "x": 470,
+          "y": 893
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='3' style='font-size:14px'>1SenseTime Research<br>2University of Science and Technology of China<br>3The Chinese University of Hong Kong<br>{zhuwalter , luotto, dai jifeng}@sensetime · com<br>jackroos@mail · ustc · edu · cn, binli@ustc · edu · cn<br>xgwang@ee · cuhk · edu · hk</p>",
+      "id": 3,
+      "page": 1,
+      "text": "1SenseTime Research\n2University of Science and Technology of China\n3The Chinese University of Hong Kong\n{zhuwalter , luotto, dai jifeng}@sensetime · com\njackroos@mail · ustc · edu · cn, binli@ustc · edu · cn\nxgwang@ee · cuhk · edu · hk"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1154,
+          "y": 1015
+        },
+        {
+          "x": 1395,
+          "y": 1015
+        },
+        {
+          "x": 1395,
+          "y": 1062
+        },
+        {
+          "x": 1154,
+          "y": 1062
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='4' style='font-size:22px'>ABSTRACT</p>",
+      "id": 4,
+      "page": 1,
+      "text": "ABSTRACT"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 590,
+          "y": 1122
+        },
+        {
+          "x": 1961,
+          "y": 1122
+        },
+        {
+          "x": 1961,
+          "y": 1584
+        },
+        {
+          "x": 590,
+          "y": 1584
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='5' style='font-size:16px'>DETR has been recently proposed to eliminate the need for many hand-designed<br>components in object detection while demonstrating good performance. However,<br>it suffers from slow convergence and limited feature spatial resolution, due to the<br>limitation of Transformer attention modules in processing image feature maps. To<br>mitigate these issues, we proposed Deformable DETR, whose attention modules<br>only attend to a small set of key sampling points around a reference. Deformable<br>DETR can achieve better performance than DETR (especially on small objects)<br>with 10x less training epochs. Extensive experiments on the COCO benchmark<br>demonstrate the effectiveness of our approach. Code is released at https : / /<br>github · com/ fundamentalvision /Deformable-DETR.</p>",
+      "id": 5,
+      "page": 1,
+      "text": "DETR has been recently proposed to eliminate the need for many hand-designed\ncomponents in object detection while demonstrating good performance. However,\nit suffers from slow convergence and limited feature spatial resolution, due to the\nlimitation of Transformer attention modules in processing image feature maps. To\nmitigate these issues, we proposed Deformable DETR, whose attention modules\nonly attend to a small set of key sampling points around a reference. Deformable\nDETR can achieve better performance than DETR (especially on small objects)\nwith 10x less training epochs. Extensive experiments on the COCO benchmark\ndemonstrate the effectiveness of our approach. Code is released at https : / /\ngithub · com/ fundamentalvision /Deformable-DETR."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 449,
+          "y": 1693
+        },
+        {
+          "x": 863,
+          "y": 1693
+        },
+        {
+          "x": 863,
+          "y": 1746
+        },
+        {
+          "x": 449,
+          "y": 1746
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='6' style='font-size:20px'>1 INTRODUCTION</p>",
+      "id": 6,
+      "page": 1,
+      "text": "1 INTRODUCTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1803
+        },
+        {
+          "x": 2109,
+          "y": 1803
+        },
+        {
+          "x": 2109,
+          "y": 2172
+        },
+        {
+          "x": 441,
+          "y": 2172
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='7' style='font-size:18px'>Modern object detectors employ many hand-crafted components (Liu et al., 2020), e.g., anchor gen-<br>eration, rule-based training target assignment, non-maximum suppression (NMS) post-processing.<br>They are not fully end-to-end. Recently, Carion et al. (2020) proposed DETR to eliminate the need<br>for such hand-crafted components, and built the first fully end-to-end object detector, achieving very<br>competitive performance. DETR utilizes a simple architecture, by combining convolutional neural<br>networks (CNNs) and Transformer (Vaswani et al., 2017) encoder-decoders. They exploit the ver-<br>satile and powerful relation modeling capability of Transformers to replace the hand-crafted rules,<br>under properly designed training signals.</p>",
+      "id": 7,
+      "page": 1,
+      "text": "Modern object detectors employ many hand-crafted components (Liu et al., 2020), e.g., anchor gen-\neration, rule-based training target assignment, non-maximum suppression (NMS) post-processing.\nThey are not fully end-to-end. Recently, Carion et al. (2020) proposed DETR to eliminate the need\nfor such hand-crafted components, and built the first fully end-to-end object detector, achieving very\ncompetitive performance. DETR utilizes a simple architecture, by combining convolutional neural\nnetworks (CNNs) and Transformer (Vaswani et al., 2017) encoder-decoders. They exploit the ver-\nsatile and powerful relation modeling capability of Transformers to replace the hand-crafted rules,\nunder properly designed training signals."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2194
+        },
+        {
+          "x": 2109,
+          "y": 2194
+        },
+        {
+          "x": 2109,
+          "y": 2793
+        },
+        {
+          "x": 441,
+          "y": 2793
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='8' style='font-size:18px'>Despite its interesting design and good performance, DETR has its own issues: (1) It requires<br>much longer training epochs to converge than the existing object detectors. For example, on the<br>COCO (Lin et al., 2014) benchmark, DETR needs 500 epochs to converge, which is around 10 to 20<br>times slower than Faster R-CNN (Ren et al., 2015). (2) DETR delivers relatively low performance<br>at detecting small objects. Modern object detectors usually exploit multi-scale features, where small<br>objects are detected from high-resolution feature maps. Meanwhile, high-resolution feature maps<br>lead to unacceptable complexities for DETR. The above-mentioned issues can be mainly attributed<br>to the deficit of Transformer components in processing image feature maps. At initialization, the<br>attention modules cast nearly uniform attention weights to all the pixels in the feature maps. Long<br>training epoches is necessary for the attention weights to be learned to focus on sparse meaning-<br>ful locations. On the other hand, the attention weights computation in Transformer encoder is of<br>quadratic computation w.r.t. pixel numbers. Thus, it is of very high computational and memory<br>complexities to process high-resolution feature maps.</p>",
+      "id": 8,
+      "page": 1,
+      "text": "Despite its interesting design and good performance, DETR has its own issues: (1) It requires\nmuch longer training epochs to converge than the existing object detectors. For example, on the\nCOCO (Lin et al., 2014) benchmark, DETR needs 500 epochs to converge, which is around 10 to 20\ntimes slower than Faster R-CNN (Ren et al., 2015). (2) DETR delivers relatively low performance\nat detecting small objects. Modern object detectors usually exploit multi-scale features, where small\nobjects are detected from high-resolution feature maps. Meanwhile, high-resolution feature maps\nlead to unacceptable complexities for DETR. The above-mentioned issues can be mainly attributed\nto the deficit of Transformer components in processing image feature maps. At initialization, the\nattention modules cast nearly uniform attention weights to all the pixels in the feature maps. Long\ntraining epoches is necessary for the attention weights to be learned to focus on sparse meaning-\nful locations. On the other hand, the attention weights computation in Transformer encoder is of\nquadratic computation w.r.t. pixel numbers. Thus, it is of very high computational and memory\ncomplexities to process high-resolution feature maps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2813
+        },
+        {
+          "x": 2108,
+          "y": 2813
+        },
+        {
+          "x": 2108,
+          "y": 2953
+        },
+        {
+          "x": 442,
+          "y": 2953
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='9' style='font-size:16px'>In the image domain, deformable convolution (Dai et al., 2017) is of a powerful and efficient mech-<br>anism to attend to sparse spatial locations. It naturally avoids the above-mentioned issues. While it<br>lacks the element relation modeling mechanism, which is the key for the success of DETR.</p>",
+      "id": 9,
+      "page": 1,
+      "text": "In the image domain, deformable convolution (Dai et al., 2017) is of a powerful and efficient mech-\nanism to attend to sparse spatial locations. It naturally avoids the above-mentioned issues. While it\nlacks the element relation modeling mechanism, which is the key for the success of DETR."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 495,
+          "y": 3005
+        },
+        {
+          "x": 2073,
+          "y": 3005
+        },
+        {
+          "x": 2073,
+          "y": 3053
+        },
+        {
+          "x": 495,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='10' style='font-size:16px'>Equal contribution. †Corresponding author. :Work is done during an internship at SenseTime Research.</p>",
+      "id": 10,
+      "page": 1,
+      "text": "Equal contribution. †Corresponding author. :Work is done during an internship at SenseTime Research."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 64,
+          "y": 867
+        },
+        {
+          "x": 149,
+          "y": 867
+        },
+        {
+          "x": 149,
+          "y": 2337
+        },
+        {
+          "x": 64,
+          "y": 2337
+        }
+      ],
+      "category": "footer",
+      "html": "<br><footer id='11' style='font-size:14px'>2021<br>Mar<br>18<br>[cs.CV]<br>arXiv:2010.04159v4</footer>",
+      "id": 11,
+      "page": 1,
+      "text": "2021\nMar\n18\n[cs.CV]\narXiv:2010.04159v4"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1263,
+          "y": 3133
+        },
+        {
+          "x": 1287,
+          "y": 3133
+        },
+        {
+          "x": 1287,
+          "y": 3171
+        },
+        {
+          "x": 1263,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='12' style='font-size:14px'>1</footer>",
+      "id": 12,
+      "page": 1,
+      "text": "1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 111
+        },
+        {
+          "x": 1221,
+          "y": 111
+        },
+        {
+          "x": 1221,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='13' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 13,
+      "page": 2,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 573,
+          "y": 332
+        },
+        {
+          "x": 1980,
+          "y": 332
+        },
+        {
+          "x": 1980,
+          "y": 1247
+        },
+        {
+          "x": 573,
+          "y": 1247
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='14' style='font-size:14px' alt=\"Bounding Box Predictions\nMulti-scale Deformable Multi-scale Feature Maps\nSelf-Attention in Encoder\nMulti-scale Deformable\nCross-Attention in Decoder\nTransformer\nSelf-Attention in Decoder\nImage Feature Maps\nx 4\nx 4\nDecoder|\nAcronis\nEncoder|\nImage Object Queries\" data-coord=\"top-left:(573,332); bottom-right:(1980,1247)\" /></figure>",
+      "id": 14,
+      "page": 2,
+      "text": "Bounding Box Predictions\nMulti-scale Deformable Multi-scale Feature Maps\nSelf-Attention in Encoder\nMulti-scale Deformable\nCross-Attention in Decoder\nTransformer\nSelf-Attention in Decoder\nImage Feature Maps\nx 4\nx 4\nDecoder|\nAcronis\nEncoder|\nImage Object Queries"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 667,
+          "y": 1296
+        },
+        {
+          "x": 1879,
+          "y": 1296
+        },
+        {
+          "x": 1879,
+          "y": 1345
+        },
+        {
+          "x": 667,
+          "y": 1345
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='15' style='font-size:20px'>Figure 1: Illustration of the proposed Deformable DETR object detector.</caption>",
+      "id": 15,
+      "page": 2,
+      "text": "Figure 1: Illustration of the proposed Deformable DETR object detector."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1414
+        },
+        {
+          "x": 2107,
+          "y": 1414
+        },
+        {
+          "x": 2107,
+          "y": 1785
+        },
+        {
+          "x": 442,
+          "y": 1785
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='16' style='font-size:16px'>In this paper, we propose Deformable DETR, which mitigates the slow convergence and high com-<br>plexity issues of DETR. It combines the best of the sparse spatial sampling of deformable convo-<br>lution, and the relation modeling capability of Transformers. We propose the deformable attention<br>module, which attends to a small set of sampling locations as a pre-filter for prominent key elements<br>out of all the feature map pixels. The module can be naturally extended to aggregating multi-scale<br>features, without the help of FPN (Lin et al., 2017a). In Deformable DETR , we utilize (multi-scale)<br>deformable attention modules to replace the Transformer attention modules processing feature maps,<br>as shown in Fig. 1.</p>",
+      "id": 16,
+      "page": 2,
+      "text": "In this paper, we propose Deformable DETR, which mitigates the slow convergence and high com-\nplexity issues of DETR. It combines the best of the sparse spatial sampling of deformable convo-\nlution, and the relation modeling capability of Transformers. We propose the deformable attention\nmodule, which attends to a small set of sampling locations as a pre-filter for prominent key elements\nout of all the feature map pixels. The module can be naturally extended to aggregating multi-scale\nfeatures, without the help of FPN (Lin et al., 2017a). In Deformable DETR , we utilize (multi-scale)\ndeformable attention modules to replace the Transformer attention modules processing feature maps,\nas shown in Fig. 1."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1807
+        },
+        {
+          "x": 2107,
+          "y": 1807
+        },
+        {
+          "x": 2107,
+          "y": 2038
+        },
+        {
+          "x": 441,
+          "y": 2038
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='17' style='font-size:16px'>Deformable DETR opens up possibilities for us to exploit variants of end-to-end object detectors,<br>thanks to its fast convergence, and computational and memory efficiency. We explore a simple and<br>effective iterative bounding box refinement mechanism to improve the detection performance. We<br>also try a two-stage Deformable DETR, where the region proposals are also generated by a vaiant of<br>Deformable DETR, which are further fed into the decoder for iterative bounding box refinement.</p>",
+      "id": 17,
+      "page": 2,
+      "text": "Deformable DETR opens up possibilities for us to exploit variants of end-to-end object detectors,\nthanks to its fast convergence, and computational and memory efficiency. We explore a simple and\neffective iterative bounding box refinement mechanism to improve the detection performance. We\nalso try a two-stage Deformable DETR, where the region proposals are also generated by a vaiant of\nDeformable DETR, which are further fed into the decoder for iterative bounding box refinement."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2062
+        },
+        {
+          "x": 2109,
+          "y": 2062
+        },
+        {
+          "x": 2109,
+          "y": 2291
+        },
+        {
+          "x": 441,
+          "y": 2291
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='18' style='font-size:16px'>Extensive experiments on the COCO (Lin et al., 2014) benchmark demonstrate the effectiveness<br>of our approach. Compared with DETR, Deformable DETR can achieve better performance (es-<br>pecially on small objects) with 10x less training epochs. The proposed variant of two-stage De-<br>formable DETR can further improve the performance. Code is released at https : / / github.<br>com/ fundamentalvision /Deformable-DETR.</p>",
+      "id": 18,
+      "page": 2,
+      "text": "Extensive experiments on the COCO (Lin et al., 2014) benchmark demonstrate the effectiveness\nof our approach. Compared with DETR, Deformable DETR can achieve better performance (es-\npecially on small objects) with 10x less training epochs. The proposed variant of two-stage De-\nformable DETR can further improve the performance. Code is released at https : / / github.\ncom/ fundamentalvision /Deformable-DETR."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2366
+        },
+        {
+          "x": 885,
+          "y": 2366
+        },
+        {
+          "x": 885,
+          "y": 2420
+        },
+        {
+          "x": 445,
+          "y": 2420
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='19' style='font-size:22px'>2 RELATED WORK</p>",
+      "id": 19,
+      "page": 2,
+      "text": "2 RELATED WORK"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2475
+        },
+        {
+          "x": 2108,
+          "y": 2475
+        },
+        {
+          "x": 2108,
+          "y": 2710
+        },
+        {
+          "x": 441,
+          "y": 2710
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='20' style='font-size:18px'>Efficient Attention Mechanism. Transformers (Vaswani et al., 2017) involve both self-attention<br>and cross-attention mechanisms. One of the most well-known concern of Transformers is the high<br>time and memory complexity at vast key element numbers, which hinders model scalability in many<br>cases. Recently, many efforts have been made to address this problem (Tay et al., 2020b), which can<br>be roughly divided into three categories in practice.</p>",
+      "id": 20,
+      "page": 2,
+      "text": "Efficient Attention Mechanism. Transformers (Vaswani et al., 2017) involve both self-attention\nand cross-attention mechanisms. One of the most well-known concern of Transformers is the high\ntime and memory complexity at vast key element numbers, which hinders model scalability in many\ncases. Recently, many efforts have been made to address this problem (Tay et al., 2020b), which can\nbe roughly divided into three categories in practice."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2731
+        },
+        {
+          "x": 2109,
+          "y": 2731
+        },
+        {
+          "x": 2109,
+          "y": 3055
+        },
+        {
+          "x": 441,
+          "y": 3055
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='21' style='font-size:18px'>The first category is to use pre-defined sparse attention patterns on keys. The most straightforward<br>paradigm is restricting the attention pattern to be fixed local windows. Most works (Liu et al.,<br>2018a; Parmar et al., 2018; Child et al., 2019; Huang et al., 2019; Ho et al., 2019; Wang et al.,<br>2020a; Hu et al., 2019; Ramachandran et al., 2019; Qiu et al., 2019; Beltagy et al., 2020; Ainslie<br>et al., 2020; Zaheer et al., 2020) follow this paradigm. Although restricting the attention pattern<br>to a local neighborhood can decrease the complexity, it loses global information. To compensate,<br>Child et al. (2019); Huang et al. (2019); Ho et al. (2019); Wang et al. (2020a) attend key elements</p>",
+      "id": 21,
+      "page": 2,
+      "text": "The first category is to use pre-defined sparse attention patterns on keys. The most straightforward\nparadigm is restricting the attention pattern to be fixed local windows. Most works (Liu et al.,\n2018a; Parmar et al., 2018; Child et al., 2019; Huang et al., 2019; Ho et al., 2019; Wang et al.,\n2020a; Hu et al., 2019; Ramachandran et al., 2019; Qiu et al., 2019; Beltagy et al., 2020; Ainslie\net al., 2020; Zaheer et al., 2020) follow this paradigm. Although restricting the attention pattern\nto a local neighborhood can decrease the complexity, it loses global information. To compensate,\nChild et al. (2019); Huang et al. (2019); Ho et al. (2019); Wang et al. (2020a) attend key elements"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3171
+        },
+        {
+          "x": 1260,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='22' style='font-size:16px'>2</footer>",
+      "id": 22,
+      "page": 2,
+      "text": "2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='23' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 23,
+      "page": 3,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 346
+        },
+        {
+          "x": 2109,
+          "y": 346
+        },
+        {
+          "x": 2109,
+          "y": 531
+        },
+        {
+          "x": 440,
+          "y": 531
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='24' style='font-size:16px'>at fixed intervals to significantly increase the receptive field on keys. Beltagy et al. (2020); Ainslie<br>et al. (2020); Zaheer et al. (2020) allow a small number of special tokens having access to all key<br>elements. Zaheer et al. (2020); Qiu et al. (2019) also add some pre-fixed sparse attention patterns to<br>attend distant key elements directly.</p>",
+      "id": 24,
+      "page": 3,
+      "text": "at fixed intervals to significantly increase the receptive field on keys. Beltagy et al. (2020); Ainslie\net al. (2020); Zaheer et al. (2020) allow a small number of special tokens having access to all key\nelements. Zaheer et al. (2020); Qiu et al. (2019) also add some pre-fixed sparse attention patterns to\nattend distant key elements directly."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 553
+        },
+        {
+          "x": 2108,
+          "y": 553
+        },
+        {
+          "x": 2108,
+          "y": 739
+        },
+        {
+          "x": 440,
+          "y": 739
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='25' style='font-size:16px'>The second category is to learn data-dependent sparse attention. Kitaev et al. (2020) proposes a<br>locality sensitive hashing (LSH) based attention, which hashes both the query and key elements to<br>different bins. A similar idea is proposed by Roy et al. (2020), where k-means finds out the most<br>related keys. Tay et al. (2020a) learns block permutation for block-wise sparse attention.</p>",
+      "id": 25,
+      "page": 3,
+      "text": "The second category is to learn data-dependent sparse attention. Kitaev et al. (2020) proposes a\nlocality sensitive hashing (LSH) based attention, which hashes both the query and key elements to\ndifferent bins. A similar idea is proposed by Roy et al. (2020), where k-means finds out the most\nrelated keys. Tay et al. (2020a) learns block permutation for block-wise sparse attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 761
+        },
+        {
+          "x": 2108,
+          "y": 761
+        },
+        {
+          "x": 2108,
+          "y": 947
+        },
+        {
+          "x": 440,
+          "y": 947
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='26' style='font-size:18px'>The third category is to explore the low-rank property in self-attention. Wang et al. (2020b) reduces<br>the number of key elements through a linear projection on the size dimension instead of the channel<br>dimension. Katharopoulos et al. (2020); Choromanski et al. (2020) rewrite the calculation of self-<br>attention through kernelization approximation.</p>",
+      "id": 26,
+      "page": 3,
+      "text": "The third category is to explore the low-rank property in self-attention. Wang et al. (2020b) reduces\nthe number of key elements through a linear projection on the size dimension instead of the channel\ndimension. Katharopoulos et al. (2020); Choromanski et al. (2020) rewrite the calculation of self-\nattention through kernelization approximation."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 969
+        },
+        {
+          "x": 2108,
+          "y": 969
+        },
+        {
+          "x": 2108,
+          "y": 1246
+        },
+        {
+          "x": 440,
+          "y": 1246
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='27' style='font-size:18px'>In the image domain, the designs of efficient attention mechanism (e.g., Parmar et al. (2018); Child<br>et al. (2019); Huang et al. (2019); Ho et al. (2019); Wang et al. (2020a); Hu et al. (2019); Ramachan-<br>dran et al. (2019)) are still limited to the first category. Despite the theoretically reduced complexity,<br>Ramachandran et al. (2019); Hu et al. (2019) admit such approaches are much slower in implemen-<br>tation than traditional convolution with the same FLOPs (at least 3x slower), due to the intrinsic<br>limitation in memory access patterns.</p>",
+      "id": 27,
+      "page": 3,
+      "text": "In the image domain, the designs of efficient attention mechanism (e.g., Parmar et al. (2018); Child\net al. (2019); Huang et al. (2019); Ho et al. (2019); Wang et al. (2020a); Hu et al. (2019); Ramachan-\ndran et al. (2019)) are still limited to the first category. Despite the theoretically reduced complexity,\nRamachandran et al. (2019); Hu et al. (2019) admit such approaches are much slower in implemen-\ntation than traditional convolution with the same FLOPs (at least 3x slower), due to the intrinsic\nlimitation in memory access patterns."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 1268
+        },
+        {
+          "x": 2108,
+          "y": 1268
+        },
+        {
+          "x": 2108,
+          "y": 1498
+        },
+        {
+          "x": 440,
+          "y": 1498
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='28' style='font-size:16px'>On the other hand, as discussed in Zhu et al. (2019a), there are variants of convolution, such as<br>deformable convolution (Dai et al., 2017; Zhu et al., 2019b) and dynamic convolution (Wu et al.,<br>2019), that also can be viewed as self-attention mechanisms. Especially, deformable convolution<br>operates much more effectively and efficiently on image recognition than Transformer self-attention.<br>Meanwhile, it lacks the element relation modeling mechanism.</p>",
+      "id": 28,
+      "page": 3,
+      "text": "On the other hand, as discussed in Zhu et al. (2019a), there are variants of convolution, such as\ndeformable convolution (Dai et al., 2017; Zhu et al., 2019b) and dynamic convolution (Wu et al.,\n2019), that also can be viewed as self-attention mechanisms. Especially, deformable convolution\noperates much more effectively and efficiently on image recognition than Transformer self-attention.\nMeanwhile, it lacks the element relation modeling mechanism."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1521
+        },
+        {
+          "x": 2108,
+          "y": 1521
+        },
+        {
+          "x": 2108,
+          "y": 1706
+        },
+        {
+          "x": 441,
+          "y": 1706
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='29' style='font-size:18px'>Our proposed deformable attention module is inspired by deformable convolution, and belongs to<br>the second category. It only focuses on a small fixed set of sampling points predicted from the<br>feature of query elements. Different from Ramachandran et al. (2019); Hu et al. (2019), deformable<br>attention is just slightly slower than the traditional convolution under the same FLOPs.</p>",
+      "id": 29,
+      "page": 3,
+      "text": "Our proposed deformable attention module is inspired by deformable convolution, and belongs to\nthe second category. It only focuses on a small fixed set of sampling points predicted from the\nfeature of query elements. Different from Ramachandran et al. (2019); Hu et al. (2019), deformable\nattention is just slightly slower than the traditional convolution under the same FLOPs."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1726
+        },
+        {
+          "x": 2107,
+          "y": 1726
+        },
+        {
+          "x": 2107,
+          "y": 2235
+        },
+        {
+          "x": 441,
+          "y": 2235
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='30' style='font-size:18px'>Multi-scale Feature Representation for Object Detection. One of the main difficulties in object<br>detection is to effectively represent objects at vastly different scales. Modern object detectors usually<br>exploit multi-scale features to accommodate this. As one of the pioneering works, FPN (Lin et al.,<br>2017a) proposes a top-down path to combine multi-scale features. PANet (Liu et al., 2018b) further<br>adds an bottom-up path on the top of FPN. Kong et al. (2018) combines features from all scales<br>by a global attention operation. Zhao et al. (2019) proposes a U-shape module to fuse multi-scale<br>features. Recently, NAS-FPN (Ghiasi et al., 2019) and Auto-FPN (Xu et al., 2019) are proposed<br>to automatically design cross-scale connections via neural architecture search. Tan et al. (2020)<br>proposes the BiFPN, which is a repeated simplified version of PANet. Our proposed multi-scale<br>deformable attention module can naturally aggregate multi-scale feature maps via attention mecha-<br>nism, without the help of these feature pyramid networks.</p>",
+      "id": 30,
+      "page": 3,
+      "text": "Multi-scale Feature Representation for Object Detection. One of the main difficulties in object\ndetection is to effectively represent objects at vastly different scales. Modern object detectors usually\nexploit multi-scale features to accommodate this. As one of the pioneering works, FPN (Lin et al.,\n2017a) proposes a top-down path to combine multi-scale features. PANet (Liu et al., 2018b) further\nadds an bottom-up path on the top of FPN. Kong et al. (2018) combines features from all scales\nby a global attention operation. Zhao et al. (2019) proposes a U-shape module to fuse multi-scale\nfeatures. Recently, NAS-FPN (Ghiasi et al., 2019) and Auto-FPN (Xu et al., 2019) are proposed\nto automatically design cross-scale connections via neural architecture search. Tan et al. (2020)\nproposes the BiFPN, which is a repeated simplified version of PANet. Our proposed multi-scale\ndeformable attention module can naturally aggregate multi-scale feature maps via attention mecha-\nnism, without the help of these feature pyramid networks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2307
+        },
+        {
+          "x": 1409,
+          "y": 2307
+        },
+        {
+          "x": 1409,
+          "y": 2363
+        },
+        {
+          "x": 443,
+          "y": 2363
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='31' style='font-size:20px'>3 REVISITING TRANSFORMERS AND DETR</p>",
+      "id": 31,
+      "page": 3,
+      "text": "3 REVISITING TRANSFORMERS AND DETR"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2413
+        },
+        {
+          "x": 2108,
+          "y": 2413
+        },
+        {
+          "x": 2108,
+          "y": 2891
+        },
+        {
+          "x": 441,
+          "y": 2891
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='32' style='font-size:16px'>Multi-Head Attention in Transformers. Transformers (Vaswani et al., 2017) are of a network<br>architecture based on attention mechanisms for machine translation. Given a query element (e.g.,<br>a target word in the output sentence) and a set of key elements (e.g., source words in the input<br>sentence), the multi-head attention module adaptively aggregates the key contents according to the<br>attention weights that measure the compatibility of query-key pairs. To allow the model focusing<br>on contents from different representation subspaces and different positions, the outputs of different<br>attention heads are linearly aggregated with learnable weights. Let q E �q indexes a query element<br>with representation feature zq E RC, and k E �k indexes a key element with representation feature<br>Xk E RC, where C is the feature dimension, �q and �k specify the set of query and key elements,<br>respectively. Then the multi-head attention feature is calculated by</p>",
+      "id": 32,
+      "page": 3,
+      "text": "Multi-Head Attention in Transformers. Transformers (Vaswani et al., 2017) are of a network\narchitecture based on attention mechanisms for machine translation. Given a query element (e.g.,\na target word in the output sentence) and a set of key elements (e.g., source words in the input\nsentence), the multi-head attention module adaptively aggregates the key contents according to the\nattention weights that measure the compatibility of query-key pairs. To allow the model focusing\non contents from different representation subspaces and different positions, the outputs of different\nattention heads are linearly aggregated with learnable weights. Let q E �q indexes a query element\nwith representation feature zq E RC, and k E �k indexes a key element with representation feature\nXk E RC, where C is the feature dimension, �q and �k specify the set of query and key elements,\nrespectively. Then the multi-head attention feature is calculated by"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3171
+        },
+        {
+          "x": 1260,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='33' style='font-size:16px'>3</footer>",
+      "id": 33,
+      "page": 3,
+      "text": "3"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='34' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 34,
+      "page": 4,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 439,
+          "y": 338
+        },
+        {
+          "x": 2109,
+          "y": 338
+        },
+        {
+          "x": 2109,
+          "y": 615
+        },
+        {
+          "x": 439,
+          "y": 615
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='35' style='font-size:20px'>where m indexes the attention head, Wm E RCvxC and Wm E RCxCv are of learnable weights<br>z Tq UTm Vmxk<br>(Cv = C/M by default). The attention weights Amqk � exp{ } are normalized as<br>VCU<br>EKESUK Amqk = 1, in which Um, Vm E RCvxC are also learnable weights. To disambiguate<br>different spatial positions, the representation features zq and Xk are usually of the concatena-<br>tion/summation of element contents and positional embeddings.</p>",
+      "id": 35,
+      "page": 4,
+      "text": "where m indexes the attention head, Wm E RCvxC and Wm E RCxCv are of learnable weights\nz Tq UTm Vmxk\n(Cv = C/M by default). The attention weights Amqk � exp{ } are normalized as\nVCU\nEKESUK Amqk = 1, in which Um, Vm E RCvxC are also learnable weights. To disambiguate\ndifferent spatial positions, the representation features zq and Xk are usually of the concatena-\ntion/summation of element contents and positional embeddings."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 635
+        },
+        {
+          "x": 2108,
+          "y": 635
+        },
+        {
+          "x": 2108,
+          "y": 971
+        },
+        {
+          "x": 441,
+          "y": 971
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='36' style='font-size:20px'>There are two known issues with Transformers. One is Transformers need long training schedules<br>before convergence. Suppose the number of query and key elements are of Nq and Nk, respectively.<br>Typically, with proper parameter initialization, Um zq and VmXk follow distribution with mean of<br>when Nk is large. It will lead<br>0 and variance of 1, which makes attention weights Amqk 22 Nk ,<br>to ambiguous gradients for input features. Thus, long training schedules are required SO that the<br>attention weights can focus on specific keys. In the image domain, where the key elements are<br>usually of image pixels, Nk can be very large and the convergence is tedious.</p>",
+      "id": 36,
+      "page": 4,
+      "text": "There are two known issues with Transformers. One is Transformers need long training schedules\nbefore convergence. Suppose the number of query and key elements are of Nq and Nk, respectively.\nTypically, with proper parameter initialization, Um zq and VmXk follow distribution with mean of\nwhen Nk is large. It will lead\n0 and variance of 1, which makes attention weights Amqk 22 Nk ,\nto ambiguous gradients for input features. Thus, long training schedules are required SO that the\nattention weights can focus on specific keys. In the image domain, where the key elements are\nusually of image pixels, Nk can be very large and the convergence is tedious."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 992
+        },
+        {
+          "x": 2110,
+          "y": 992
+        },
+        {
+          "x": 2110,
+          "y": 1224
+        },
+        {
+          "x": 440,
+          "y": 1224
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='37' style='font-size:22px'>On the other hand, the computational and memory complexity for multi-head attention can be<br>very high with numerous query and key elements. The computational complexity of Eq. 1 is of<br>O(Nq C2 + NkC2 + NqNkC). In the image domain, where the query and key elements are both of<br>pixels, Nq = Nk 》 C, the complexity is dominated by the third term, as O(NqNkC). Thus, the<br>multi-head attention module suffers from a quadratic complexity growth with the feature map size.</p>",
+      "id": 37,
+      "page": 4,
+      "text": "On the other hand, the computational and memory complexity for multi-head attention can be\nvery high with numerous query and key elements. The computational complexity of Eq. 1 is of\nO(Nq C2 + NkC2 + NqNkC). In the image domain, where the query and key elements are both of\npixels, Nq = Nk 》 C, the complexity is dominated by the third term, as O(NqNkC). Thus, the\nmulti-head attention module suffers from a quadratic complexity growth with the feature map size."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1245
+        },
+        {
+          "x": 2107,
+          "y": 1245
+        },
+        {
+          "x": 2107,
+          "y": 1386
+        },
+        {
+          "x": 442,
+          "y": 1386
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='38' style='font-size:20px'>DETR. DETR (Carion et al., 2020) is built upon the Transformer encoder-decoder architecture,<br>combined with a set-based Hungarian loss that forces unique predictions for each ground-truth<br>bounding box via bipartite matching. We briefly review the network architecture as follows.</p>",
+      "id": 38,
+      "page": 4,
+      "text": "DETR. DETR (Carion et al., 2020) is built upon the Transformer encoder-decoder architecture,\ncombined with a set-based Hungarian loss that forces unique predictions for each ground-truth\nbounding box via bipartite matching. We briefly review the network architecture as follows."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1405
+        },
+        {
+          "x": 2108,
+          "y": 1405
+        },
+        {
+          "x": 2108,
+          "y": 1775
+        },
+        {
+          "x": 441,
+          "y": 1775
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='39' style='font-size:18px'>Given the input feature maps x E RCxHxW<br>extracted by a CNN backbone (e.g., ResNet (He et al.,<br>2016)), DETR exploits a standard Transformer encoder-decoder architecture to transform the input<br>feature maps to be features of a set of object queries. A 3-layer feed-forward neural network (FFN)<br>and a linear projection are added on top of the object query features (produced by the decoder) as<br>the detection head. The FFN acts as the regression branch to predict the bounding box coordinates<br>b E [0, 1]4 , where b = {bx, by, bw, bh} encodes the normalized box center coordinates, box height<br>and width (relative to the image size). The linear projection acts as the classification branch to<br>produce the classification results.</p>",
+      "id": 39,
+      "page": 4,
+      "text": "Given the input feature maps x E RCxHxW\nextracted by a CNN backbone (e.g., ResNet (He et al.,\n2016)), DETR exploits a standard Transformer encoder-decoder architecture to transform the input\nfeature maps to be features of a set of object queries. A 3-layer feed-forward neural network (FFN)\nand a linear projection are added on top of the object query features (produced by the decoder) as\nthe detection head. The FFN acts as the regression branch to predict the bounding box coordinates\nb E [0, 1]4 , where b = {bx, by, bw, bh} encodes the normalized box center coordinates, box height\nand width (relative to the image size). The linear projection acts as the classification branch to\nproduce the classification results."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1797
+        },
+        {
+          "x": 2107,
+          "y": 1797
+        },
+        {
+          "x": 2107,
+          "y": 1981
+        },
+        {
+          "x": 441,
+          "y": 1981
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='40' style='font-size:20px'>For the Transformer encoder in DETR, both query and key elements are of pixels in the feature maps.<br>The inputs are of ResNet feature maps (with encoded positional embeddings). Let H and W denote<br>the feature map height and width, respectively. The computational complexity of self-attention is of<br>O(H2W2C), which grows quadratically with the spatial size.</p>",
+      "id": 40,
+      "page": 4,
+      "text": "For the Transformer encoder in DETR, both query and key elements are of pixels in the feature maps.\nThe inputs are of ResNet feature maps (with encoded positional embeddings). Let H and W denote\nthe feature map height and width, respectively. The computational complexity of self-attention is of\nO(H2W2C), which grows quadratically with the spatial size."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2004
+        },
+        {
+          "x": 2107,
+          "y": 2004
+        },
+        {
+          "x": 2107,
+          "y": 2469
+        },
+        {
+          "x": 441,
+          "y": 2469
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='41' style='font-size:20px'>For the Transformer decoder in DETR, the input includes both feature maps from the encoder, and<br>N object queries represented by learnable positional embeddings (e.g., N = 100). There are two<br>types of attention modules in the decoder, namely, cross-attention and self-attention modules. In the<br>cross-attention modules, object queries extract features from the feature maps. The query elements<br>are of the object queries, and key elements are of the output feature maps from the encoder. In it,<br>Nq = N, Nk = H x W and the complexity of the cross-attention is of O(HWC2 + NHW C).<br>The complexity grows linearly with the spatial size of feature maps. In the self-attention modules,<br>object queries interact with each other, SO as to capture their relations. The query and key elements<br>are both of the object queries. In it, Nq = Nk = N, and the complexity of the self-attention module<br>is of O(2NC2 + N2C). The complexity is acceptable with moderate number of object queries.</p>",
+      "id": 41,
+      "page": 4,
+      "text": "For the Transformer decoder in DETR, the input includes both feature maps from the encoder, and\nN object queries represented by learnable positional embeddings (e.g., N = 100). There are two\ntypes of attention modules in the decoder, namely, cross-attention and self-attention modules. In the\ncross-attention modules, object queries extract features from the feature maps. The query elements\nare of the object queries, and key elements are of the output feature maps from the encoder. In it,\nNq = N, Nk = H x W and the complexity of the cross-attention is of O(HWC2 + NHW C).\nThe complexity grows linearly with the spatial size of feature maps. In the self-attention modules,\nobject queries interact with each other, SO as to capture their relations. The query and key elements\nare both of the object queries. In it, Nq = Nk = N, and the complexity of the self-attention module\nis of O(2NC2 + N2C). The complexity is acceptable with moderate number of object queries."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2491
+        },
+        {
+          "x": 2107,
+          "y": 2491
+        },
+        {
+          "x": 2107,
+          "y": 2998
+        },
+        {
+          "x": 441,
+          "y": 2998
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='42' style='font-size:18px'>DETR is an attractive design for object detection, which removes the need for many hand-designed<br>components. However, it also has its own issues. These issues can be mainly attributed to the<br>deficits of Transformer attention in handling image feature maps as key elements: (1) DETR has<br>relatively low performance in detecting small objects. Modern object detectors use high-resolution<br>feature maps to better detect small objects. However, high-resolution feature maps would lead to an<br>unacceptable complexity for the self-attention module in the Transformer encoder of DETR, which<br>has a quadratic complexity with the spatial size of input feature maps. (2) Compared with modern<br>object detectors, DETR requires many more training epochs to converge. This is mainly because<br>the attention modules processing image features are difficult to train. For example, at initialization,<br>the cross-attention modules are almost of average attention on the whole feature maps. While, at<br>the end of the training, the attention maps are learned to be very sparse, focusing only on the object</p>",
+      "id": 42,
+      "page": 4,
+      "text": "DETR is an attractive design for object detection, which removes the need for many hand-designed\ncomponents. However, it also has its own issues. These issues can be mainly attributed to the\ndeficits of Transformer attention in handling image feature maps as key elements: (1) DETR has\nrelatively low performance in detecting small objects. Modern object detectors use high-resolution\nfeature maps to better detect small objects. However, high-resolution feature maps would lead to an\nunacceptable complexity for the self-attention module in the Transformer encoder of DETR, which\nhas a quadratic complexity with the spatial size of input feature maps. (2) Compared with modern\nobject detectors, DETR requires many more training epochs to converge. This is mainly because\nthe attention modules processing image features are difficult to train. For example, at initialization,\nthe cross-attention modules are almost of average attention on the whole feature maps. While, at\nthe end of the training, the attention maps are learned to be very sparse, focusing only on the object"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1258,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3170
+        },
+        {
+          "x": 1258,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='43' style='font-size:16px'>4</footer>",
+      "id": 43,
+      "page": 4,
+      "text": "4"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='44' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 44,
+      "page": 5,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 487,
+          "y": 321
+        },
+        {
+          "x": 2068,
+          "y": 321
+        },
+        {
+          "x": 2068,
+          "y": 1212
+        },
+        {
+          "x": 487,
+          "y": 1212
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='45' style='font-size:14px' alt=\"Query Feature Zq\nLinear\nLinear\nReference Point Pq (pqx,pqy)\nSoftmax\nSampling Offsets {△Pmqk} Attention Weights {Amqk}\nI\nI Head 1 Head 2 Head 3 I Head 1 Head 2 Head 3\n0.5 0.4 0.3\n0.3 0.2 0.4\n0.2 0.4 0.3\nAggregate\nAggregate\nInput Feature Map x Linear\nAggregate\nHead 1\nHead 2\nLinear Output\nHead 1 Head 2 Head 3\nHead 3\nValues {W'mx} Aggregated Sampled Values\" data-coord=\"top-left:(487,321); bottom-right:(2068,1212)\" /></figure>",
+      "id": 45,
+      "page": 5,
+      "text": "Query Feature Zq\nLinear\nLinear\nReference Point Pq (pqx,pqy)\nSoftmax\nSampling Offsets {△Pmqk} Attention Weights {Amqk}\nI\nI Head 1 Head 2 Head 3 I Head 1 Head 2 Head 3\n0.5 0.4 0.3\n0.3 0.2 0.4\n0.2 0.4 0.3\nAggregate\nAggregate\nInput Feature Map x Linear\nAggregate\nHead 1\nHead 2\nLinear Output\nHead 1 Head 2 Head 3\nHead 3\nValues {W'mx} Aggregated Sampled Values"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 710,
+          "y": 1252
+        },
+        {
+          "x": 1834,
+          "y": 1252
+        },
+        {
+          "x": 1834,
+          "y": 1303
+        },
+        {
+          "x": 710,
+          "y": 1303
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='46' style='font-size:18px'>Figure 2: Illustration of the proposed deformable attention module.</caption>",
+      "id": 46,
+      "page": 5,
+      "text": "Figure 2: Illustration of the proposed deformable attention module."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1370
+        },
+        {
+          "x": 2104,
+          "y": 1370
+        },
+        {
+          "x": 2104,
+          "y": 1464
+        },
+        {
+          "x": 441,
+          "y": 1464
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='47' style='font-size:18px'>extremities. It seems that DETR requires a long training schedule to learn such significant changes<br>in the attention maps.</p>",
+      "id": 47,
+      "page": 5,
+      "text": "extremities. It seems that DETR requires a long training schedule to learn such significant changes\nin the attention maps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1534
+        },
+        {
+          "x": 726,
+          "y": 1534
+        },
+        {
+          "x": 726,
+          "y": 1585
+        },
+        {
+          "x": 442,
+          "y": 1585
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='48' style='font-size:22px'>4 METHOD</p>",
+      "id": 48,
+      "page": 5,
+      "text": "4 METHOD"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1640
+        },
+        {
+          "x": 1810,
+          "y": 1640
+        },
+        {
+          "x": 1810,
+          "y": 1688
+        },
+        {
+          "x": 443,
+          "y": 1688
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='49' style='font-size:16px'>4.1 DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION</p>",
+      "id": 49,
+      "page": 5,
+      "text": "4.1 DEFORMABLE TRANSFORMERS FOR END-TO-END OBJECT DETECTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1725
+        },
+        {
+          "x": 2108,
+          "y": 1725
+        },
+        {
+          "x": 2108,
+          "y": 2049
+        },
+        {
+          "x": 443,
+          "y": 2049
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='50' style='font-size:18px'>Deformable Attention Module. The core issue of applying Transformer attention on image feature<br>maps is that it would look over all possible spatial locations. To address this, we present a deformable<br>attention module. Inspired by deformable convolution (Dai et al., 2017; Zhu et al., 2019b), the<br>deformable attention module only attends to a small set of key sampling points around a reference<br>point, regardless of the spatial size of the feature maps, as shown in Fig. 2. By assigning only a<br>small fixed number of keys for each query, the issues of convergence and feature spatial resolution<br>can be mitigated.</p>",
+      "id": 50,
+      "page": 5,
+      "text": "Deformable Attention Module. The core issue of applying Transformer attention on image feature\nmaps is that it would look over all possible spatial locations. To address this, we present a deformable\nattention module. Inspired by deformable convolution (Dai et al., 2017; Zhu et al., 2019b), the\ndeformable attention module only attends to a small set of key sampling points around a reference\npoint, regardless of the spatial size of the feature maps, as shown in Fig. 2. By assigning only a\nsmall fixed number of keys for each query, the issues of convergence and feature spatial resolution\ncan be mitigated."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 2068
+        },
+        {
+          "x": 2107,
+          "y": 2068
+        },
+        {
+          "x": 2107,
+          "y": 2169
+        },
+        {
+          "x": 440,
+          "y": 2169
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='51' style='font-size:16px'>Given an input feature map x E RCxHxW let q index a query element with content feature zq and<br>,<br>a 2-d reference point pq, the deformable attention feature is calculated by</p>",
+      "id": 51,
+      "page": 5,
+      "text": "Given an input feature map x E RCxHxW let q index a query element with content feature zq and\n,\na 2-d reference point pq, the deformable attention feature is calculated by"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2362
+        },
+        {
+          "x": 2107,
+          "y": 2362
+        },
+        {
+          "x": 2107,
+          "y": 2793
+        },
+        {
+          "x": 441,
+          "y": 2793
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='52' style='font-size:20px'>where m indexes the attention head, k indexes the sampled keys, and K is the total sampled key<br>number (K 《 HW). △pmqk and Amqk denote the sampling offset and attention weight of the<br>kth sampling point in the mth attention head, respectively. The scalar attention weight Amqk lies<br>in the range [0, 1], normalized by � K=1 Amqk = 1. △pmqk E R2 are of 2-d real numbers with<br>unconstrained range. As Pq + △pmqk 1S fractional, bilinear interpolation is applied as in Dai et al.<br>(2017) in computing x(pg+△pmgk). Both △pmqk and Amqk are obtained via linear projection over<br>the query feature zq. In implementation, the query feature zq is fed to a linear projection operator<br>of 3MK channels, where the first 2MK channels encode the sampling offsets △Pmqk, and the<br>remaining MK channels are fed to a softmax operator to obtain the attention weights Amqk.</p>",
+      "id": 52,
+      "page": 5,
+      "text": "where m indexes the attention head, k indexes the sampled keys, and K is the total sampled key\nnumber (K 《 HW). △pmqk and Amqk denote the sampling offset and attention weight of the\nkth sampling point in the mth attention head, respectively. The scalar attention weight Amqk lies\nin the range [0, 1], normalized by � K=1 Amqk = 1. △pmqk E R2 are of 2-d real numbers with\nunconstrained range. As Pq + △pmqk 1S fractional, bilinear interpolation is applied as in Dai et al.\n(2017) in computing x(pg+△pmgk). Both △pmqk and Amqk are obtained via linear projection over\nthe query feature zq. In implementation, the query feature zq is fed to a linear projection operator\nof 3MK channels, where the first 2MK channels encode the sampling offsets △Pmqk, and the\nremaining MK channels are fed to a softmax operator to obtain the attention weights Amqk."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2813
+        },
+        {
+          "x": 2109,
+          "y": 2813
+        },
+        {
+          "x": 2109,
+          "y": 3055
+        },
+        {
+          "x": 441,
+          "y": 3055
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='53' style='font-size:20px'>The deformable attention module is designed for processing convolutional feature maps as key ele-<br>ments. Let Nq be the number of query elements, when MK is relatively small, the complexity of the<br>deformable attention module is of O(2NqC2 + min (HWC2 , NqKC2)) (See Appendix A.1 for de-<br>tails). When itis applied in DETR encoder, where Nq = HW, the complexity becomes O(HWC2),<br>which is of linear complexity with the spatial size. When it is applied as the cross-attention modules</p>",
+      "id": 53,
+      "page": 5,
+      "text": "The deformable attention module is designed for processing convolutional feature maps as key ele-\nments. Let Nq be the number of query elements, when MK is relatively small, the complexity of the\ndeformable attention module is of O(2NqC2 + min (HWC2 , NqKC2)) (See Appendix A.1 for de-\ntails). When itis applied in DETR encoder, where Nq = HW, the complexity becomes O(HWC2),\nwhich is of linear complexity with the spatial size. When it is applied as the cross-attention modules"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3171
+        },
+        {
+          "x": 1260,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='54' style='font-size:14px'>5</footer>",
+      "id": 54,
+      "page": 5,
+      "text": "5"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 156
+        },
+        {
+          "x": 445,
+          "y": 156
+        }
+      ],
+      "category": "header",
+      "html": "<header id='55' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 55,
+      "page": 6,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 347
+        },
+        {
+          "x": 2105,
+          "y": 347
+        },
+        {
+          "x": 2105,
+          "y": 442
+        },
+        {
+          "x": 442,
+          "y": 442
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='56' style='font-size:18px'>in DETR decoder, where Nq = N (N is the number of object queries), the complexity becomes<br>O(NKC2), which is irrelevant to the spatial size HW.</p>",
+      "id": 56,
+      "page": 6,
+      "text": "in DETR decoder, where Nq = N (N is the number of object queries), the complexity becomes\nO(NKC2), which is irrelevant to the spatial size HW."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 467
+        },
+        {
+          "x": 2106,
+          "y": 467
+        },
+        {
+          "x": 2106,
+          "y": 604
+        },
+        {
+          "x": 442,
+          "y": 604
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='57' style='font-size:16px'>Multi-scale Deformable Attention Module. Most modern object detection frameworks benefit<br>from multi-scale feature maps (Liu et al., 2020). Our proposed deformable attention module can be<br>naturally extended for multi-scale feature maps.</p>",
+      "id": 57,
+      "page": 6,
+      "text": "Multi-scale Deformable Attention Module. Most modern object detection frameworks benefit\nfrom multi-scale feature maps (Liu et al., 2020). Our proposed deformable attention module can be\nnaturally extended for multi-scale feature maps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 627
+        },
+        {
+          "x": 2107,
+          "y": 627
+        },
+        {
+          "x": 2107,
+          "y": 768
+        },
+        {
+          "x": 440,
+          "y": 768
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='58' style='font-size:20px'>Let {x'}{=1 be the input multi-scale feature maps, where xl E RCxHlxW1. Let pq E [0, 1]2 be<br>the normalized coordinates of the reference point for each query element q, then the multi-scale<br>deformable attention module is applied as</p>",
+      "id": 58,
+      "page": 6,
+      "text": "Let {x'}{=1 be the input multi-scale feature maps, where xl E RCxHlxW1. Let pq E [0, 1]2 be\nthe normalized coordinates of the reference point for each query element q, then the multi-scale\ndeformable attention module is applied as"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 960
+        },
+        {
+          "x": 2107,
+          "y": 960
+        },
+        {
+          "x": 2107,
+          "y": 1390
+        },
+        {
+          "x": 442,
+          "y": 1390
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='59' style='font-size:20px'>where m indexes the attention head, 1 indexes the input feature level, and k indexes the sampling<br>point. △pmlqk and Amlqk denote the sampling offset and attention weight of the kth sampling point<br>in the lth feature level and the mth attention head, respectively. The scalar attention weight Amlqk<br>is normalized by �i=1 EK=1 Amlqk = 1. Here, we use normalized coordinates pq E [0, 1]2 for<br>the clarity of scale formulation, in which the normalized coordinates (0, 0) and (1, 1) indicate the<br>top-left and the bottom-right image corners, respectively. Function ⌀1(Pq) in Equation 3 re-scales<br>the normalized coordinates Pq to the input feature map of the l-th level. The multi-scale deformable<br>attention is very similar to the previous single-scale version, except that it samples LK points from<br>multi-scale feature maps instead of K points from single-scale feature maps.</p>",
+      "id": 59,
+      "page": 6,
+      "text": "where m indexes the attention head, 1 indexes the input feature level, and k indexes the sampling\npoint. △pmlqk and Amlqk denote the sampling offset and attention weight of the kth sampling point\nin the lth feature level and the mth attention head, respectively. The scalar attention weight Amlqk\nis normalized by �i=1 EK=1 Amlqk = 1. Here, we use normalized coordinates pq E [0, 1]2 for\nthe clarity of scale formulation, in which the normalized coordinates (0, 0) and (1, 1) indicate the\ntop-left and the bottom-right image corners, respectively. Function ⌀1(Pq) in Equation 3 re-scales\nthe normalized coordinates Pq to the input feature map of the l-th level. The multi-scale deformable\nattention is very similar to the previous single-scale version, except that it samples LK points from\nmulti-scale feature maps instead of K points from single-scale feature maps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1411
+        },
+        {
+          "x": 2107,
+          "y": 1411
+        },
+        {
+          "x": 2107,
+          "y": 1781
+        },
+        {
+          "x": 441,
+          "y": 1781
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='60' style='font-size:16px'>The proposed attention module will degenerate to deformable convolution (Dai et al., 2017), when<br>L = 1, K = 1, and Wm E RCv xC is fixed as an identity matrix. Deformable convolution is<br>designed for single-scale inputs, focusing only on one sampling point for each attention head. How-<br>ever, our multi-scale deformable attention looks over multiple sampling points from multi-scale in-<br>puts. The proposed (multi-scale) deformable attention module can also be perceived as an efficient<br>variant of Transformer attention, where a pre-filtering mechanism is introduced by the deformable<br>sampling locations. When the sampling points traverse all possible locations, the proposed attention<br>module is equivalent to Transformer attention.</p>",
+      "id": 60,
+      "page": 6,
+      "text": "The proposed attention module will degenerate to deformable convolution (Dai et al., 2017), when\nL = 1, K = 1, and Wm E RCv xC is fixed as an identity matrix. Deformable convolution is\ndesigned for single-scale inputs, focusing only on one sampling point for each attention head. How-\never, our multi-scale deformable attention looks over multiple sampling points from multi-scale in-\nputs. The proposed (multi-scale) deformable attention module can also be perceived as an efficient\nvariant of Transformer attention, where a pre-filtering mechanism is introduced by the deformable\nsampling locations. When the sampling points traverse all possible locations, the proposed attention\nmodule is equivalent to Transformer attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1800
+        },
+        {
+          "x": 2106,
+          "y": 1800
+        },
+        {
+          "x": 2106,
+          "y": 2319
+        },
+        {
+          "x": 441,
+          "y": 2319
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='61' style='font-size:16px'>Deformable Transformer Encoder. We replace the Transformer attention modules processing<br>feature maps in DETR with the proposed multi-scale deformable attention module. Both the input<br>and output of the encoder are of multi-scale feature maps with the same resolutions. In encoder, we<br>extract multi-scale feature maps {x1}[x] (L = 4) from the output feature maps of stages C3 through<br>C5 in ResNet (He et al., 2016) (transformed by a 1 x 1 convolution), where Cl is of resolution 2<br>lower than the input image. The lowest resolution feature map xL is obtained via a 3 x 3 stride 2<br>convolution on the final C5 stage, denoted as C6. All the multi-scale feature maps are of C = 256<br>channels. Note that the top-down structure in FPN (Lin et al., 2017a) is not used, because our<br>proposed multi-scale deformable attention in itself can exchange information among multi-scale<br>feature maps. The constructing of multi-scale feature maps are also illustrated in Appendix A.2.<br>Experiments in Section 5.2 show that adding FPN will not improve the performance.</p>",
+      "id": 61,
+      "page": 6,
+      "text": "Deformable Transformer Encoder. We replace the Transformer attention modules processing\nfeature maps in DETR with the proposed multi-scale deformable attention module. Both the input\nand output of the encoder are of multi-scale feature maps with the same resolutions. In encoder, we\nextract multi-scale feature maps {x1}[x] (L = 4) from the output feature maps of stages C3 through\nC5 in ResNet (He et al., 2016) (transformed by a 1 x 1 convolution), where Cl is of resolution 2\nlower than the input image. The lowest resolution feature map xL is obtained via a 3 x 3 stride 2\nconvolution on the final C5 stage, denoted as C6. All the multi-scale feature maps are of C = 256\nchannels. Note that the top-down structure in FPN (Lin et al., 2017a) is not used, because our\nproposed multi-scale deformable attention in itself can exchange information among multi-scale\nfeature maps. The constructing of multi-scale feature maps are also illustrated in Appendix A.2.\nExperiments in Section 5.2 show that adding FPN will not improve the performance."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2341
+        },
+        {
+          "x": 2108,
+          "y": 2341
+        },
+        {
+          "x": 2108,
+          "y": 2662
+        },
+        {
+          "x": 441,
+          "y": 2662
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='62' style='font-size:18px'>In application of the multi-scale deformable attention module in encoder, the output are of multi-<br>scale feature maps with the same resolutions as the input. Both the key and query elements are<br>of pixels from the multi-scale feature maps. For each query pixel, the reference point is itself. To<br>identify which feature level each query pixel lies in, we add a scale-level embedding, denoted as el,<br>to the feature representation, in addition to the positional embedding. Different from the positional<br>embedding with fixed encodings, the scale-level embedding {el}i=1 are randomly initialized and<br>jointly trained with the network.</p>",
+      "id": 62,
+      "page": 6,
+      "text": "In application of the multi-scale deformable attention module in encoder, the output are of multi-\nscale feature maps with the same resolutions as the input. Both the key and query elements are\nof pixels from the multi-scale feature maps. For each query pixel, the reference point is itself. To\nidentify which feature level each query pixel lies in, we add a scale-level embedding, denoted as el,\nto the feature representation, in addition to the positional embedding. Different from the positional\nembedding with fixed encodings, the scale-level embedding {el}i=1 are randomly initialized and\njointly trained with the network."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2684
+        },
+        {
+          "x": 2107,
+          "y": 2684
+        },
+        {
+          "x": 2107,
+          "y": 3057
+        },
+        {
+          "x": 441,
+          "y": 3057
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='63' style='font-size:18px'>Deformable Transformer Decoder. There are cross-attention and self-attention modules in the<br>decoder. The query elements for both types of attention modules are of object queries. In the cross-<br>attention modules, object queries extract features from the feature maps, where the key elements are<br>of the output feature maps from the encoder. In the self-attention modules, object queries interact<br>with each other, where the key elements are of the object queries. Since our proposed deformable<br>attention module is designed for processing convolutional feature maps as key elements, we only<br>replace each cross-attention module to be the multi-scale deformable attention module, while leaving<br>the self-attention modules unchanged. For each object query, the 2-d normalized coordinate of the</p>",
+      "id": 63,
+      "page": 6,
+      "text": "Deformable Transformer Decoder. There are cross-attention and self-attention modules in the\ndecoder. The query elements for both types of attention modules are of object queries. In the cross-\nattention modules, object queries extract features from the feature maps, where the key elements are\nof the output feature maps from the encoder. In the self-attention modules, object queries interact\nwith each other, where the key elements are of the object queries. Since our proposed deformable\nattention module is designed for processing convolutional feature maps as key elements, we only\nreplace each cross-attention module to be the multi-scale deformable attention module, while leaving\nthe self-attention modules unchanged. For each object query, the 2-d normalized coordinate of the"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3170
+        },
+        {
+          "x": 1260,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='64' style='font-size:14px'>6</footer>",
+      "id": 64,
+      "page": 6,
+      "text": "6"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='65' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 65,
+      "page": 7,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 349
+        },
+        {
+          "x": 2106,
+          "y": 349
+        },
+        {
+          "x": 2106,
+          "y": 438
+        },
+        {
+          "x": 442,
+          "y": 438
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='66' style='font-size:18px'>reference point pq is predicted from its object query embedding via a learnable linear projection<br>followed by a sigmoid function.</p>",
+      "id": 66,
+      "page": 7,
+      "text": "reference point pq is predicted from its object query embedding via a learnable linear projection\nfollowed by a sigmoid function."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 462
+        },
+        {
+          "x": 2107,
+          "y": 462
+        },
+        {
+          "x": 2107,
+          "y": 739
+        },
+        {
+          "x": 441,
+          "y": 739
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='67' style='font-size:18px'>Because the multi-scale deformable attention module extracts image features around the reference<br>point, we let the detection head predict the bounding box as relative offsets w.r.t. the reference<br>point to further reduce the optimization difficulty. The reference point is used as the initial guess<br>of the box center. The detection head predicts the relative offsets w.r.t. the reference point. Check<br>Appendix A.3 for the details. In this way, the learned decoder attention will have strong correlation<br>with the predicted bounding boxes, which also accelerates the training convergence.</p>",
+      "id": 67,
+      "page": 7,
+      "text": "Because the multi-scale deformable attention module extracts image features around the reference\npoint, we let the detection head predict the bounding box as relative offsets w.r.t. the reference\npoint to further reduce the optimization difficulty. The reference point is used as the initial guess\nof the box center. The detection head predicts the relative offsets w.r.t. the reference point. Check\nAppendix A.3 for the details. In this way, the learned decoder attention will have strong correlation\nwith the predicted bounding boxes, which also accelerates the training convergence."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 760
+        },
+        {
+          "x": 2107,
+          "y": 760
+        },
+        {
+          "x": 2107,
+          "y": 858
+        },
+        {
+          "x": 441,
+          "y": 858
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='68' style='font-size:18px'>By replacing Transformer attention modules with deformable attention modules in DETR, we es-<br>tablish an efficient and fast converging detection system, dubbed as Deformable DETR (see Fig. 1).</p>",
+      "id": 68,
+      "page": 7,
+      "text": "By replacing Transformer attention modules with deformable attention modules in DETR, we es-\ntablish an efficient and fast converging detection system, dubbed as Deformable DETR (see Fig. 1)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 910
+        },
+        {
+          "x": 1836,
+          "y": 910
+        },
+        {
+          "x": 1836,
+          "y": 956
+        },
+        {
+          "x": 445,
+          "y": 956
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='69' style='font-size:14px'>4.2 ADDITIONAL IMPROVEMENTS AND VARIANTS FOR DEFORMABLE DETR</p>",
+      "id": 69,
+      "page": 7,
+      "text": "4.2 ADDITIONAL IMPROVEMENTS AND VARIANTS FOR DEFORMABLE DETR"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 993
+        },
+        {
+          "x": 2108,
+          "y": 993
+        },
+        {
+          "x": 2108,
+          "y": 1180
+        },
+        {
+          "x": 441,
+          "y": 1180
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='70' style='font-size:18px'>Deformable DETR opens up possibilities for us to exploit various variants of end-to-end object de-<br>tectors, thanks to its fast convergence, and computational and memory efficiency. Due to limited<br>space, we only introduce the core ideas of these improvements and variants here. The implementa-<br>tion details are given in Appendix A.4.</p>",
+      "id": 70,
+      "page": 7,
+      "text": "Deformable DETR opens up possibilities for us to exploit various variants of end-to-end object de-\ntectors, thanks to its fast convergence, and computational and memory efficiency. Due to limited\nspace, we only introduce the core ideas of these improvements and variants here. The implementa-\ntion details are given in Appendix A.4."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1202
+        },
+        {
+          "x": 2108,
+          "y": 1202
+        },
+        {
+          "x": 2108,
+          "y": 1388
+        },
+        {
+          "x": 441,
+          "y": 1388
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='71' style='font-size:20px'>Iterative Bounding Box Refinement. This is inspired by the iterative refinement developed in<br>optical flow estimation (Teed & Deng, 2020). We establish a simple and effective iterative bounding<br>box refinement mechanism to improve detection performance. Here, each decoder layer refines the<br>bounding boxes based on the predictions from the previous layer.</p>",
+      "id": 71,
+      "page": 7,
+      "text": "Iterative Bounding Box Refinement. This is inspired by the iterative refinement developed in\noptical flow estimation (Teed & Deng, 2020). We establish a simple and effective iterative bounding\nbox refinement mechanism to improve detection performance. Here, each decoder layer refines the\nbounding boxes based on the predictions from the previous layer."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1410
+        },
+        {
+          "x": 2108,
+          "y": 1410
+        },
+        {
+          "x": 2108,
+          "y": 1596
+        },
+        {
+          "x": 442,
+          "y": 1596
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='72' style='font-size:18px'>Two-Stage Deformable DETR. In the original DETR, object queries in the decoder are irrelevant<br>to the current image. Inspired by two-stage object detectors, we explore a variant of Deformable<br>DETR for generating region proposals as the first stage. The generated region proposals will be fed<br>into the decoder as object queries for further refinement, forming a two-stage Deformable DETR.</p>",
+      "id": 72,
+      "page": 7,
+      "text": "Two-Stage Deformable DETR. In the original DETR, object queries in the decoder are irrelevant\nto the current image. Inspired by two-stage object detectors, we explore a variant of Deformable\nDETR for generating region proposals as the first stage. The generated region proposals will be fed\ninto the decoder as object queries for further refinement, forming a two-stage Deformable DETR."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1618
+        },
+        {
+          "x": 2108,
+          "y": 1618
+        },
+        {
+          "x": 2108,
+          "y": 1944
+        },
+        {
+          "x": 441,
+          "y": 1944
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='73' style='font-size:18px'>In the first stage, to achieve high-recall proposals, each pixel in the multi-scale feature maps would<br>serve as an object query. However, directly setting object queries as pixels will bring unacceptable<br>computational and memory cost for the self-attention modules in the decoder, whose complexity<br>grows quadratically with the number of queries. To avoid this problem, we remove the decoder and<br>form an encoder-only Deformable DETR for region proposal generation. In it, each pixel is assigned<br>as an object query, which directly predicts a bounding box. Top scoring bounding boxes are picked<br>as region proposals. No NMS is applied before feeding the region proposals to the second stage.</p>",
+      "id": 73,
+      "page": 7,
+      "text": "In the first stage, to achieve high-recall proposals, each pixel in the multi-scale feature maps would\nserve as an object query. However, directly setting object queries as pixels will bring unacceptable\ncomputational and memory cost for the self-attention modules in the decoder, whose complexity\ngrows quadratically with the number of queries. To avoid this problem, we remove the decoder and\nform an encoder-only Deformable DETR for region proposal generation. In it, each pixel is assigned\nas an object query, which directly predicts a bounding box. Top scoring bounding boxes are picked\nas region proposals. No NMS is applied before feeding the region proposals to the second stage."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 446,
+          "y": 2007
+        },
+        {
+          "x": 812,
+          "y": 2007
+        },
+        {
+          "x": 812,
+          "y": 2057
+        },
+        {
+          "x": 446,
+          "y": 2057
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='74' style='font-size:22px'>5 EXPERIMENT</p>",
+      "id": 74,
+      "page": 7,
+      "text": "5 EXPERIMENT"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2106
+        },
+        {
+          "x": 2106,
+          "y": 2106
+        },
+        {
+          "x": 2106,
+          "y": 2201
+        },
+        {
+          "x": 442,
+          "y": 2201
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='75' style='font-size:14px'>Dataset. We conduct experiments on COCO 2017 dataset (Lin et al., 2014). Our models are trained<br>on the train set, and evaluated on the val set and test-dev set.</p>",
+      "id": 75,
+      "page": 7,
+      "text": "Dataset. We conduct experiments on COCO 2017 dataset (Lin et al., 2014). Our models are trained\non the train set, and evaluated on the val set and test-dev set."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2224
+        },
+        {
+          "x": 2108,
+          "y": 2224
+        },
+        {
+          "x": 2108,
+          "y": 2820
+        },
+        {
+          "x": 441,
+          "y": 2820
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='76' style='font-size:18px'>Implementation Details. ImageNet (Deng et al., 2009) pre-trained ResNet-50 (He et al., 2016)<br>is utilized as the backbone for ablations. Multi-scale feature maps are extracted without FPN (Lin<br>et al., 2017a). M = 8 and K = 4 are set for deformable attentions by default. Parameters of the<br>deformable Transformer encoder are shared among different feature levels. Other hyper-parameter<br>setting and training strategy mainly follow DETR (Carion et al., 2020), except that Focal Loss (Lin<br>et al., 2017b) with loss weight of 2 is used for bounding box classification, and the number of<br>object queries is increased from 100 to 300. We also report the performance of DETR-DC5 with<br>these modifications for a fair comparison, denoted as DETR-DC5+ · By default, models are trained<br>for 50 epochs and the learning rate is decayed at the 40-th epoch by a factor of 0.1. Following<br>DETR(Carion et al., 2020), we train our models using Adam optimizer (Kingma & Ba, 2015) with<br>base learning rate of 2 x 10 -4 B1 = 0.9, B2 = 0.999, and weight decay of 10-4. Learning rates<br>,<br>of the linear projections, used for predicting object query reference points and sampling offsets, are<br>multiplied by a factor of 0.1. Run time is evaluated on NVIDIA Tesla V100 GPU.</p>",
+      "id": 76,
+      "page": 7,
+      "text": "Implementation Details. ImageNet (Deng et al., 2009) pre-trained ResNet-50 (He et al., 2016)\nis utilized as the backbone for ablations. Multi-scale feature maps are extracted without FPN (Lin\net al., 2017a). M = 8 and K = 4 are set for deformable attentions by default. Parameters of the\ndeformable Transformer encoder are shared among different feature levels. Other hyper-parameter\nsetting and training strategy mainly follow DETR (Carion et al., 2020), except that Focal Loss (Lin\net al., 2017b) with loss weight of 2 is used for bounding box classification, and the number of\nobject queries is increased from 100 to 300. We also report the performance of DETR-DC5 with\nthese modifications for a fair comparison, denoted as DETR-DC5+ · By default, models are trained\nfor 50 epochs and the learning rate is decayed at the 40-th epoch by a factor of 0.1. Following\nDETR(Carion et al., 2020), we train our models using Adam optimizer (Kingma & Ba, 2015) with\nbase learning rate of 2 x 10 -4 B1 = 0.9, B2 = 0.999, and weight decay of 10-4. Learning rates\n,\nof the linear projections, used for predicting object query reference points and sampling offsets, are\nmultiplied by a factor of 0.1. Run time is evaluated on NVIDIA Tesla V100 GPU."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2873
+        },
+        {
+          "x": 1025,
+          "y": 2873
+        },
+        {
+          "x": 1025,
+          "y": 2919
+        },
+        {
+          "x": 444,
+          "y": 2919
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='77' style='font-size:16px'>5.1 COMPARISON WITH DETR</p>",
+      "id": 77,
+      "page": 7,
+      "text": "5.1 COMPARISON WITH DETR"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2959
+        },
+        {
+          "x": 2107,
+          "y": 2959
+        },
+        {
+          "x": 2107,
+          "y": 3054
+        },
+        {
+          "x": 443,
+          "y": 3054
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='78' style='font-size:18px'>As shown in Table 1, compared with Faster R-CNN + FPN, DETR requires many more training<br>epochs to converge, and delivers lower performance at detecting small objects. Compared with</p>",
+      "id": 78,
+      "page": 7,
+      "text": "As shown in Table 1, compared with Faster R-CNN + FPN, DETR requires many more training\nepochs to converge, and delivers lower performance at detecting small objects. Compared with"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3171
+        },
+        {
+          "x": 1260,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='79' style='font-size:14px'>7</footer>",
+      "id": 79,
+      "page": 7,
+      "text": "7"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='80' style='font-size:16px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 80,
+      "page": 8,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 346
+        },
+        {
+          "x": 2107,
+          "y": 346
+        },
+        {
+          "x": 2107,
+          "y": 486
+        },
+        {
+          "x": 442,
+          "y": 486
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='81' style='font-size:20px'>DETR, Deformable DETR achieves better performance (especially on small objects) with 10x less<br>training epochs. Detailed convergence curves are shown in Fig. 3. With the aid of iterative bounding<br>box refinement and two-stage paradigm, our method can further improve the detection accuracy.</p>",
+      "id": 81,
+      "page": 8,
+      "text": "DETR, Deformable DETR achieves better performance (especially on small objects) with 10x less\ntraining epochs. Detailed convergence curves are shown in Fig. 3. With the aid of iterative bounding\nbox refinement and two-stage paradigm, our method can further improve the detection accuracy."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 509
+        },
+        {
+          "x": 2107,
+          "y": 509
+        },
+        {
+          "x": 2107,
+          "y": 739
+        },
+        {
+          "x": 442,
+          "y": 739
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='82' style='font-size:18px'>Our proposed Deformable DETR has on par FLOPs with Faster R-CNN + FPN and DETR-DC5.<br>But the runtime speed is much faster (1.6x) than DETR-DC5, and is just 25% slower than Faster<br>R-CNN + FPN. The speed issue of DETR-DC5 is mainly due to the large amount of memory access<br>in Transformer attention. Our proposed deformable attention can mitigate this issue, at the cost of<br>unordered memory access. Thus, itis still slightly slower than traditional convolution.</p>",
+      "id": 82,
+      "page": 8,
+      "text": "Our proposed Deformable DETR has on par FLOPs with Faster R-CNN + FPN and DETR-DC5.\nBut the runtime speed is much faster (1.6x) than DETR-DC5, and is just 25% slower than Faster\nR-CNN + FPN. The speed issue of DETR-DC5 is mainly due to the large amount of memory access\nin Transformer attention. Our proposed deformable attention can mitigate this issue, at the cost of\nunordered memory access. Thus, itis still slightly slower than traditional convolution."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 785
+        },
+        {
+          "x": 2100,
+          "y": 785
+        },
+        {
+          "x": 2100,
+          "y": 880
+        },
+        {
+          "x": 442,
+          "y": 880
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='83' style='font-size:18px'>Table 1: Comparision of Deformable DETR with DETR on COCO 2017 val set. DETR-DC5+<br>denotes DETR-DC5 with Focal Loss and 300 object queries.</p>",
+      "id": 83,
+      "page": 8,
+      "text": "Table 1: Comparision of Deformable DETR with DETR on COCO 2017 val set. DETR-DC5+\ndenotes DETR-DC5 with Focal Loss and 300 object queries."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 450,
+          "y": 930
+        },
+        {
+          "x": 2097,
+          "y": 930
+        },
+        {
+          "x": 2097,
+          "y": 1380
+        },
+        {
+          "x": 450,
+          "y": 1380
+        }
+      ],
+      "category": "table",
+      "html": "<table id='84' style='font-size:14px'><tr><td>Method</td><td>Epochs</td><td>AP</td><td>AP50</td><td>AP75</td><td>APs</td><td>APM</td><td>APL</td><td>params</td><td>FLOPs</td><td>Training GPU hours</td><td>Inference FPS</td></tr><tr><td>Faster R-CNN + FPN</td><td>109</td><td>42.0</td><td>62.1</td><td>45.5</td><td>26.6</td><td>45.4</td><td>53.4</td><td>42M</td><td>180G</td><td>380</td><td>26</td></tr><tr><td>DETR</td><td>500</td><td>42.0</td><td>62.4</td><td>44.2</td><td>20.5</td><td>45.8</td><td>61.1</td><td>41M</td><td>86G</td><td>2000</td><td>28</td></tr><tr><td>DETR-DC5</td><td>500</td><td>43.3</td><td>63.1</td><td>45.9</td><td>22.5</td><td>47.3</td><td>61.1</td><td>41M</td><td>187G</td><td>7000</td><td>12</td></tr><tr><td>DETR-DC5</td><td>50</td><td>35.3</td><td>55.7</td><td>36.8</td><td>15.2</td><td>37.5</td><td>53.6</td><td>41M</td><td>187G</td><td>700</td><td>12</td></tr><tr><td>DETR-DC5+</td><td>50</td><td>36.2</td><td>57.0</td><td>37.4</td><td>16.3</td><td>39.2</td><td>53.9</td><td>41M</td><td>187G</td><td>700</td><td>12</td></tr><tr><td>Deformable DETR</td><td>50</td><td>43.8</td><td>62.6</td><td>47.7</td><td>26.4</td><td>47.1</td><td>58.0</td><td>40M</td><td>173G</td><td>325</td><td>19</td></tr><tr><td>+ iterative bounding box refinement</td><td>50</td><td>45.4</td><td>64.7</td><td>49.0</td><td>26.8</td><td>48.3</td><td>61.7</td><td>40M</td><td>173G</td><td>325</td><td>19</td></tr><tr><td>++ two-stage Deformable DETR</td><td>50</td><td>46.2</td><td>65.2</td><td>50.0</td><td>28.8</td><td>49.2</td><td>61.7</td><td>40M</td><td>173G</td><td>340</td><td>19</td></tr></table>",
+      "id": 84,
+      "page": 8,
+      "text": "Method Epochs AP AP50 AP75 APs APM APL params FLOPs Training GPU hours Inference FPS\n Faster R-CNN + FPN 109 42.0 62.1 45.5 26.6 45.4 53.4 42M 180G 380 26\n DETR 500 42.0 62.4 44.2 20.5 45.8 61.1 41M 86G 2000 28\n DETR-DC5 500 43.3 63.1 45.9 22.5 47.3 61.1 41M 187G 7000 12\n DETR-DC5 50 35.3 55.7 36.8 15.2 37.5 53.6 41M 187G 700 12\n DETR-DC5+ 50 36.2 57.0 37.4 16.3 39.2 53.9 41M 187G 700 12\n Deformable DETR 50 43.8 62.6 47.7 26.4 47.1 58.0 40M 173G 325 19\n + iterative bounding box refinement 50 45.4 64.7 49.0 26.8 48.3 61.7 40M 173G 325 19\n ++ two-stage Deformable DETR 50 46.2 65.2 50.0 28.8 49.2 61.7 40M 173G 340"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 726,
+          "y": 1424
+        },
+        {
+          "x": 1822,
+          "y": 1424
+        },
+        {
+          "x": 1822,
+          "y": 2001
+        },
+        {
+          "x": 726,
+          "y": 2001
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='85' style='font-size:14px' alt=\"44.9 45.3 45.5\n45 43.8 43.6\n41.1 whimmerry\n---------------------------------------------------\n40\nAP 35\n30\nDeformable DETR\n25 DETR-DC5\n50 100 150 200 250 300 350 400 450 500\nEpochs\" data-coord=\"top-left:(726,1424); bottom-right:(1822,2001)\" /></figure>",
+      "id": 85,
+      "page": 8,
+      "text": "44.9 45.3 45.5\n45 43.8 43.6\n41.1 whimmerry\n---------------------------------------------------\n40\nAP 35\n30\nDeformable DETR\n25 DETR-DC5\n50 100 150 200 250 300 350 400 450 500\nEpochs"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2024
+        },
+        {
+          "x": 2110,
+          "y": 2024
+        },
+        {
+          "x": 2110,
+          "y": 2167
+        },
+        {
+          "x": 441,
+          "y": 2167
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='86' style='font-size:20px'>Figure 3: Convergence curves of Deformable DETR and DETR-DC5 on COCO 2017 val set. For<br>Deformable DETR, we explore different training schedules by varying the epochs at which the<br>learning rate is reduced (where the AP score leaps).</caption>",
+      "id": 86,
+      "page": 8,
+      "text": "Figure 3: Convergence curves of Deformable DETR and DETR-DC5 on COCO 2017 val set. For\nDeformable DETR, we explore different training schedules by varying the epochs at which the\nlearning rate is reduced (where the AP score leaps)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2253
+        },
+        {
+          "x": 1418,
+          "y": 2253
+        },
+        {
+          "x": 1418,
+          "y": 2301
+        },
+        {
+          "x": 444,
+          "y": 2301
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='87' style='font-size:18px'>5.2 ABLATION STUDY ON DEFORMABLE ATTENTION</p>",
+      "id": 87,
+      "page": 8,
+      "text": "5.2 ABLATION STUDY ON DEFORMABLE ATTENTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2339
+        },
+        {
+          "x": 2107,
+          "y": 2339
+        },
+        {
+          "x": 2107,
+          "y": 2708
+        },
+        {
+          "x": 443,
+          "y": 2708
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='88' style='font-size:22px'>Table 2 presents ablations for various design choices of the proposed deformable attention module.<br>Using multi-scale inputs instead of single-scale inputs can effectively improve detection accuracy<br>with 1. 7% AP, especially on small objects with 2.9% APs. Increasing the number of sampling points<br>K can further improve 0.9% AP. Using multi-scale deformable attention, which allows information<br>exchange among different scale levels, can bring additional 1.5% improvement in AP. Because the<br>cross-level feature exchange is already adopted, adding FPNs will not improve the performance.<br>When multi-scale attention is not applied, and K = 1, our (multi-scale) deformable attention module<br>degenerates to deformable convolution, delivering noticeable lower accuracy.</p>",
+      "id": 88,
+      "page": 8,
+      "text": "Table 2 presents ablations for various design choices of the proposed deformable attention module.\nUsing multi-scale inputs instead of single-scale inputs can effectively improve detection accuracy\nwith 1. 7% AP, especially on small objects with 2.9% APs. Increasing the number of sampling points\nK can further improve 0.9% AP. Using multi-scale deformable attention, which allows information\nexchange among different scale levels, can bring additional 1.5% improvement in AP. Because the\ncross-level feature exchange is already adopted, adding FPNs will not improve the performance.\nWhen multi-scale attention is not applied, and K = 1, our (multi-scale) deformable attention module\ndegenerates to deformable convolution, delivering noticeable lower accuracy."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2767
+        },
+        {
+          "x": 1449,
+          "y": 2767
+        },
+        {
+          "x": 1449,
+          "y": 2815
+        },
+        {
+          "x": 444,
+          "y": 2815
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='89' style='font-size:20px'>5.3 COMPARISON WITH STATE-OF-THE-ART METHODS</p>",
+      "id": 89,
+      "page": 8,
+      "text": "5.3 COMPARISON WITH STATE-OF-THE-ART METHODS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2853
+        },
+        {
+          "x": 2108,
+          "y": 2853
+        },
+        {
+          "x": 2108,
+          "y": 3087
+        },
+        {
+          "x": 442,
+          "y": 3087
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='90' style='font-size:18px'>Table 3 compares the proposed method with other state-of-the-art methods. Iterative bounding box<br>refinement and two-stage mechanism are both utilized by our models in Table 3. With ResNet-101<br>and ResNeXt-101 (Xie et al., 2017), our method achieves 48.7 AP and 49.0 AP without bells and<br>whistles, respectively. By using ResNeXt-101 with DCN (Zhu et al., 2019b), the accuracy rises to<br>50.1 AP. With additional test-time augmentations, the proposed method achieves 52.3 AP.</p>",
+      "id": 90,
+      "page": 8,
+      "text": "Table 3 compares the proposed method with other state-of-the-art methods. Iterative bounding box\nrefinement and two-stage mechanism are both utilized by our models in Table 3. With ResNet-101\nand ResNeXt-101 (Xie et al., 2017), our method achieves 48.7 AP and 49.0 AP without bells and\nwhistles, respectively. By using ResNeXt-101 with DCN (Zhu et al., 2019b), the accuracy rises to\n50.1 AP. With additional test-time augmentations, the proposed method achieves 52.3 AP."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3133
+        },
+        {
+          "x": 1288,
+          "y": 3133
+        },
+        {
+          "x": 1288,
+          "y": 3170
+        },
+        {
+          "x": 1260,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='91' style='font-size:18px'>8</footer>",
+      "id": 91,
+      "page": 8,
+      "text": "8"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 112
+        },
+        {
+          "x": 1219,
+          "y": 112
+        },
+        {
+          "x": 1219,
+          "y": 156
+        },
+        {
+          "x": 445,
+          "y": 156
+        }
+      ],
+      "category": "header",
+      "html": "<header id='92' style='font-size:16px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 92,
+      "page": 9,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 373
+        },
+        {
+          "x": 2107,
+          "y": 373
+        },
+        {
+          "x": 2107,
+          "y": 512
+        },
+        {
+          "x": 442,
+          "y": 512
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='93' style='font-size:16px'>Table 2: Ablations for deformable attention on COCO 2017 val set. \"MS inputs\" indicates us-<br>ing multi-scale inputs. \"MS attention\" indicates using multi-scale deformable attention. K is the<br>number of sampling points for each attention head on each feature level.</caption>",
+      "id": 93,
+      "page": 9,
+      "text": "Table 2: Ablations for deformable attention on COCO 2017 val set. \"MS inputs\" indicates us-\ning multi-scale inputs. \"MS attention\" indicates using multi-scale deformable attention. K is the\nnumber of sampling points for each attention head on each feature level."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 576,
+          "y": 528
+        },
+        {
+          "x": 1973,
+          "y": 528
+        },
+        {
+          "x": 1973,
+          "y": 887
+        },
+        {
+          "x": 576,
+          "y": 887
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='94' style='font-size:14px'><tr><td>MS inputs</td><td>MS attention</td><td>K</td><td>FPNs</td><td>AP</td><td>AP50</td><td>AP75</td><td>APs</td><td>APM</td><td>APL</td></tr><tr><td>V</td><td>V</td><td>4</td><td>FPN (Lin et al., 2017a)</td><td>43.8</td><td>62.6</td><td>47.8</td><td>26.5</td><td>47.3</td><td>58.1</td></tr><tr><td>V</td><td>V</td><td>4</td><td>BiFPN (Tan et al., 2020)</td><td>43.9</td><td>62.5</td><td>47.7</td><td>25.6</td><td>47.4</td><td>57.7</td></tr><tr><td></td><td></td><td>1</td><td rowspan=\"4\">w/o</td><td>39.7</td><td>60.1</td><td>42.4</td><td>21.2</td><td>44.3</td><td>56.0</td></tr><tr><td></td><td></td><td>1</td><td>41.4</td><td>60.9</td><td>44.9</td><td>24.1</td><td>44.6</td><td>56.1</td></tr><tr><td></td><td></td><td>4</td><td>42.3</td><td>61.4</td><td>46.0</td><td>24.8</td><td>45.1</td><td>56.3</td></tr><tr><td></td><td></td><td>4</td><td>43.8</td><td>62.6</td><td>47.7</td><td>26.4</td><td>47.1</td><td>58.0</td></tr></table>",
+      "id": 94,
+      "page": 9,
+      "text": "MS inputs MS attention K FPNs AP AP50 AP75 APs APM APL\n V V 4 FPN (Lin et al., 2017a) 43.8 62.6 47.8 26.5 47.3 58.1\n V V 4 BiFPN (Tan et al., 2020) 43.9 62.5 47.7 25.6 47.4 57.7\n   1 w/o 39.7 60.1 42.4 21.2 44.3 56.0\n   1 41.4 60.9 44.9 24.1 44.6 56.1\n   4 42.3 61.4 46.0 24.8 45.1 56.3\n   4 43.8 62.6 47.7 26.4 47.1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 951
+        },
+        {
+          "x": 2104,
+          "y": 951
+        },
+        {
+          "x": 2104,
+          "y": 1046
+        },
+        {
+          "x": 443,
+          "y": 1046
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='95' style='font-size:18px'>Table 3: Comparison of Deformable DETR with state-of-the-art methods on COCO 2017 test-dev<br>set. \"TTA\" indicates test-time augmentations including horizontal flip and multi-scale testing.</caption>",
+      "id": 95,
+      "page": 9,
+      "text": "Table 3: Comparison of Deformable DETR with state-of-the-art methods on COCO 2017 test-dev\nset. \"TTA\" indicates test-time augmentations including horizontal flip and multi-scale testing."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 534,
+          "y": 1059
+        },
+        {
+          "x": 2017,
+          "y": 1059
+        },
+        {
+          "x": 2017,
+          "y": 1554
+        },
+        {
+          "x": 534,
+          "y": 1554
+        }
+      ],
+      "category": "table",
+      "html": "<table id='96' style='font-size:14px'><tr><td>Method</td><td>Backbone</td><td>TTA</td><td>AP</td><td>AP50</td><td>AP75</td><td>APs</td><td>APM</td><td>APL</td></tr><tr><td>FCOS (Tian et al., 2019)</td><td>ResNeXt-101</td><td rowspan=\"4\">V</td><td>44.7</td><td>64.1</td><td>48.4</td><td>27.6</td><td>47.5</td><td>55.6</td></tr><tr><td>ATSS (Zhang et al., 2020)</td><td>ResNeXt-101 + DCN</td><td>50.7</td><td>68.9</td><td>56.3</td><td>33.2</td><td>52.9</td><td>62.4</td></tr><tr><td>TSD (Song et al., 2020)</td><td>SENet154 + DCN</td><td>51.2</td><td>71.9</td><td>56.0</td><td>33.8</td><td>54.8</td><td>64.2</td></tr><tr><td>EfficientDet-D7 (Tan et al., 2020)</td><td>EfficientNet-B6</td><td>52.2</td><td>71.4</td><td>56.3</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Deformable DETR</td><td>ResNet-50</td><td></td><td>46.9</td><td>66.4</td><td>50.8</td><td>27.7</td><td>49.7</td><td>59.9</td></tr><tr><td>Deformable DETR</td><td>ResNet-101</td><td></td><td>48.7</td><td>68.1</td><td>52.9</td><td>29.1</td><td>51.5</td><td>62.0</td></tr><tr><td>Deformable DETR</td><td>ResNeXt-101</td><td></td><td>49.0</td><td>68.5</td><td>53.2</td><td>29.7</td><td>51.7</td><td>62.8</td></tr><tr><td>Deformable DETR</td><td>ResNeXt-101 + DCN</td><td></td><td>50.1</td><td>69.7</td><td>54.6</td><td>30.6</td><td>52.8</td><td>64.7</td></tr><tr><td>Deformable DETR</td><td>ResNeXt-101 + DCN</td><td>V</td><td>52.3</td><td>71.9</td><td>58.1</td><td>34.4</td><td>54.4</td><td>65.6</td></tr></table>",
+      "id": 96,
+      "page": 9,
+      "text": "Method Backbone TTA AP AP50 AP75 APs APM APL\n FCOS (Tian et al., 2019) ResNeXt-101 V 44.7 64.1 48.4 27.6 47.5 55.6\n ATSS (Zhang et al., 2020) ResNeXt-101 + DCN 50.7 68.9 56.3 33.2 52.9 62.4\n TSD (Song et al., 2020) SENet154 + DCN 51.2 71.9 56.0 33.8 54.8 64.2\n EfficientDet-D7 (Tan et al., 2020) EfficientNet-B6 52.2 71.4 56.3 - - -\n Deformable DETR ResNet-50  46.9 66.4 50.8 27.7 49.7 59.9\n Deformable DETR ResNet-101  48.7 68.1 52.9 29.1 51.5 62.0\n Deformable DETR ResNeXt-101  49.0 68.5 53.2 29.7 51.7 62.8\n Deformable DETR ResNeXt-101 + DCN  50.1 69.7 54.6 30.6 52.8 64.7\n Deformable DETR ResNeXt-101 + DCN V 52.3 71.9 58.1 34.4 54.4"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1640
+        },
+        {
+          "x": 818,
+          "y": 1640
+        },
+        {
+          "x": 818,
+          "y": 1687
+        },
+        {
+          "x": 445,
+          "y": 1687
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='97' style='font-size:22px'>6 CONCLUSION</p>",
+      "id": 97,
+      "page": 9,
+      "text": "6 CONCLUSION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1743
+        },
+        {
+          "x": 2107,
+          "y": 1743
+        },
+        {
+          "x": 2107,
+          "y": 1973
+        },
+        {
+          "x": 443,
+          "y": 1973
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='98' style='font-size:18px'>Deformable DETR is an end-to-end object detector, which is efficient and fast-converging. It enables<br>us to explore more interesting and practical variants of end-to-end object detectors. At the core of<br>Deformable DETR are the (multi-scale) deformable attention modules, which is an efficient attention<br>mechanism in processing image feature maps. We hope our work opens up new possibilities in<br>exploring end-to-end object detection.</p>",
+      "id": 98,
+      "page": 9,
+      "text": "Deformable DETR is an end-to-end object detector, which is efficient and fast-converging. It enables\nus to explore more interesting and practical variants of end-to-end object detectors. At the core of\nDeformable DETR are the (multi-scale) deformable attention modules, which is an efficient attention\nmechanism in processing image feature maps. We hope our work opens up new possibilities in\nexploring end-to-end object detection."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 447,
+          "y": 2029
+        },
+        {
+          "x": 838,
+          "y": 2029
+        },
+        {
+          "x": 838,
+          "y": 2071
+        },
+        {
+          "x": 447,
+          "y": 2071
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='99' style='font-size:18px'>ACKNOWLEDGMENTS</p>",
+      "id": 99,
+      "page": 9,
+      "text": "ACKNOWLEDGMENTS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2106
+        },
+        {
+          "x": 2105,
+          "y": 2106
+        },
+        {
+          "x": 2105,
+          "y": 2245
+        },
+        {
+          "x": 443,
+          "y": 2245
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='100' style='font-size:18px'>The work is supported by the National Key R&D Program of China (2020AAA0105200), Beijing<br>Academy of Artificial Intelligence, and the National Natural Science Foundation of China under<br>grand No.U19B2044 and No.61836011.</p>",
+      "id": 100,
+      "page": 9,
+      "text": "The work is supported by the National Key R&D Program of China (2020AAA0105200), Beijing\nAcademy of Artificial Intelligence, and the National Natural Science Foundation of China under\ngrand No.U19B2044 and No.61836011."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 446,
+          "y": 2317
+        },
+        {
+          "x": 734,
+          "y": 2317
+        },
+        {
+          "x": 734,
+          "y": 2367
+        },
+        {
+          "x": 446,
+          "y": 2367
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='101' style='font-size:22px'>REFERENCES</p>",
+      "id": 101,
+      "page": 9,
+      "text": "REFERENCES"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2398
+        },
+        {
+          "x": 2105,
+          "y": 2398
+        },
+        {
+          "x": 2105,
+          "y": 2489
+        },
+        {
+          "x": 444,
+          "y": 2489
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='102' style='font-size:20px'>Joshua Ainslie, Santiago Ontanon, Chris Alberti, Philip Pham, Anirudh Ravula, and Sumit Sanghai.<br>Etc: Encoding long and structured data in transformers. arXiv preprint arXiv:2004.08483, 2020.</p>",
+      "id": 102,
+      "page": 9,
+      "text": "Joshua Ainslie, Santiago Ontanon, Chris Alberti, Philip Pham, Anirudh Ravula, and Sumit Sanghai.\nEtc: Encoding long and structured data in transformers. arXiv preprint arXiv:2004.08483, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2526
+        },
+        {
+          "x": 2102,
+          "y": 2526
+        },
+        {
+          "x": 2102,
+          "y": 2618
+        },
+        {
+          "x": 443,
+          "y": 2618
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='103' style='font-size:20px'>Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer.<br>arXiv preprint arXiv:2004.05150, 2020.</p>",
+      "id": 103,
+      "page": 9,
+      "text": "Iz Beltagy, Matthew E Peters, and Arman Cohan. Longformer: The long-document transformer.\narXiv preprint arXiv:2004.05150, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2655
+        },
+        {
+          "x": 2106,
+          "y": 2655
+        },
+        {
+          "x": 2106,
+          "y": 2747
+        },
+        {
+          "x": 442,
+          "y": 2747
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='104' style='font-size:18px'>Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and<br>Sergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020.</p>",
+      "id": 104,
+      "page": 9,
+      "text": "Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and\nSergey Zagoruyko. End-to-end object detection with transformers. In ECCV, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2786
+        },
+        {
+          "x": 2104,
+          "y": 2786
+        },
+        {
+          "x": 2104,
+          "y": 2877
+        },
+        {
+          "x": 444,
+          "y": 2877
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='105' style='font-size:20px'>Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse<br>transformers. arXiv preprint arXiv:1904.10509, 2019.</p>",
+      "id": 105,
+      "page": 9,
+      "text": "Rewon Child, Scott Gray, Alec Radford, and Ilya Sutskever. Generating long sequences with sparse\ntransformers. arXiv preprint arXiv:1904.10509, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2916
+        },
+        {
+          "x": 2106,
+          "y": 2916
+        },
+        {
+          "x": 2106,
+          "y": 3053
+        },
+        {
+          "x": 443,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='106' style='font-size:20px'>Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Jared Davis, Tamas<br>Sarlos, David Belanger, Lucy Colwell, and Adrian Weller. Masked language modeling for pro-<br>teins via linearly scalable long-context transformers. arXiv preprint arXiv:2006.03555, 2020.</p>",
+      "id": 106,
+      "page": 9,
+      "text": "Krzysztof Choromanski, Valerii Likhosherstov, David Dohan, Xingyou Song, Jared Davis, Tamas\nSarlos, David Belanger, Lucy Colwell, and Adrian Weller. Masked language modeling for pro-\nteins via linearly scalable long-context transformers. arXiv preprint arXiv:2006.03555, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1259,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3169
+        },
+        {
+          "x": 1259,
+          "y": 3169
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='107' style='font-size:16px'>9</footer>",
+      "id": 107,
+      "page": 9,
+      "text": "9"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 112
+        },
+        {
+          "x": 1219,
+          "y": 112
+        },
+        {
+          "x": 1219,
+          "y": 156
+        },
+        {
+          "x": 444,
+          "y": 156
+        }
+      ],
+      "category": "header",
+      "html": "<header id='108' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 108,
+      "page": 10,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 346
+        },
+        {
+          "x": 2106,
+          "y": 346
+        },
+        {
+          "x": 2106,
+          "y": 437
+        },
+        {
+          "x": 443,
+          "y": 437
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='109' style='font-size:20px'>Jifeng Dai, Haozhi Qi, Yuwen Xiong, YiLi, Guodong Zhang, Han Hu, and Yichen Wei. Deformable<br>convolutional networks. In ICCV, 2017.</p>",
+      "id": 109,
+      "page": 10,
+      "text": "Jifeng Dai, Haozhi Qi, Yuwen Xiong, YiLi, Guodong Zhang, Han Hu, and Yichen Wei. Deformable\nconvolutional networks. In ICCV, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 563
+        },
+        {
+          "x": 443,
+          "y": 563
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='110' style='font-size:20px'>Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale<br>hierarchical image database. In CVPR, 2009.</p>",
+      "id": 110,
+      "page": 10,
+      "text": "Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale\nhierarchical image database. In CVPR, 2009."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 595
+        },
+        {
+          "x": 2104,
+          "y": 595
+        },
+        {
+          "x": 2104,
+          "y": 687
+        },
+        {
+          "x": 442,
+          "y": 687
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='111' style='font-size:18px'>Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid archi-<br>tecture for object detection. In CVPR, 2019.</p>",
+      "id": 111,
+      "page": 10,
+      "text": "Golnaz Ghiasi, Tsung-Yi Lin, and Quoc V Le. Nas-fpn: Learning scalable feature pyramid archi-\ntecture for object detection. In CVPR, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 721
+        },
+        {
+          "x": 2105,
+          "y": 721
+        },
+        {
+          "x": 2105,
+          "y": 812
+        },
+        {
+          "x": 444,
+          "y": 812
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='112' style='font-size:22px'>Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recog-<br>nition. In CVPR, 2016.</p>",
+      "id": 112,
+      "page": 10,
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recog-\nnition. In CVPR, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 844
+        },
+        {
+          "x": 2105,
+          "y": 844
+        },
+        {
+          "x": 2105,
+          "y": 936
+        },
+        {
+          "x": 443,
+          "y": 936
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='113' style='font-size:16px'>Jonathan Ho, Nal Kalchbrenner, Dirk Weissenborn, and Tim Salimans. Axial attention in multidi-<br>mensional transformers. arXiv preprint arXiv:1912.12180, 2019.</p>",
+      "id": 113,
+      "page": 10,
+      "text": "Jonathan Ho, Nal Kalchbrenner, Dirk Weissenborn, and Tim Salimans. Axial attention in multidi-\nmensional transformers. arXiv preprint arXiv:1912.12180, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 970
+        },
+        {
+          "x": 2105,
+          "y": 970
+        },
+        {
+          "x": 2105,
+          "y": 1059
+        },
+        {
+          "x": 443,
+          "y": 1059
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='114' style='font-size:20px'>Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local relation networks for image recognition.<br>In ICCV, 2019.</p>",
+      "id": 114,
+      "page": 10,
+      "text": "Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local relation networks for image recognition.\nIn ICCV, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1094
+        },
+        {
+          "x": 2105,
+          "y": 1094
+        },
+        {
+          "x": 2105,
+          "y": 1186
+        },
+        {
+          "x": 441,
+          "y": 1186
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='115' style='font-size:22px'>Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. Ccnet:<br>Criss-cross attention for semantic segmentation. In ICCV, 2019.</p>",
+      "id": 115,
+      "page": 10,
+      "text": "Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. Ccnet:\nCriss-cross attention for semantic segmentation. In ICCV, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1218
+        },
+        {
+          "x": 2107,
+          "y": 1218
+        },
+        {
+          "x": 2107,
+          "y": 1353
+        },
+        {
+          "x": 443,
+          "y": 1353
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='116' style='font-size:18px'>Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Fran�ois Fleuret. Transformers are<br>rnns: Fast autoregressive transformers with linear attention. arXiv preprint arXiv:2006.16236,<br>2020.</p>",
+      "id": 116,
+      "page": 10,
+      "text": "Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, and Fran�ois Fleuret. Transformers are\nrnns: Fast autoregressive transformers with linear attention. arXiv preprint arXiv:2006.16236,\n2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1388
+        },
+        {
+          "x": 2070,
+          "y": 1388
+        },
+        {
+          "x": 2070,
+          "y": 1436
+        },
+        {
+          "x": 443,
+          "y": 1436
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='117' style='font-size:16px'>Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.</p>",
+      "id": 117,
+      "page": 10,
+      "text": "Diederik P Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1467
+        },
+        {
+          "x": 2105,
+          "y": 1467
+        },
+        {
+          "x": 2105,
+          "y": 1557
+        },
+        {
+          "x": 442,
+          "y": 1557
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='118' style='font-size:18px'>Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In ICLR,<br>2020.</p>",
+      "id": 118,
+      "page": 10,
+      "text": "Nikita Kitaev, Lukasz Kaiser, and Anselm Levskaya. Reformer: The efficient transformer. In ICLR,\n2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1590
+        },
+        {
+          "x": 2106,
+          "y": 1590
+        },
+        {
+          "x": 2106,
+          "y": 1682
+        },
+        {
+          "x": 443,
+          "y": 1682
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='119' style='font-size:22px'>Tao Kong, Fuchun Sun, Chuanqi Tan, Huaping Liu, and Wenbing Huang. Deep feature pyramid<br>reconfiguration for object detection. In ECCV, 2018.</p>",
+      "id": 119,
+      "page": 10,
+      "text": "Tao Kong, Fuchun Sun, Chuanqi Tan, Huaping Liu, and Wenbing Huang. Deep feature pyramid\nreconfiguration for object detection. In ECCV, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1715
+        },
+        {
+          "x": 2105,
+          "y": 1715
+        },
+        {
+          "x": 2105,
+          "y": 1807
+        },
+        {
+          "x": 443,
+          "y": 1807
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='120' style='font-size:18px'>Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr<br>Dollar, and C Lawrence Zitnick. Microsoft COCO: Common objects in context. In ECCV, 2014.</p>",
+      "id": 120,
+      "page": 10,
+      "text": "Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr\nDollar, and C Lawrence Zitnick. Microsoft COCO: Common objects in context. In ECCV, 2014."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1839
+        },
+        {
+          "x": 2107,
+          "y": 1839
+        },
+        {
+          "x": 2107,
+          "y": 1930
+        },
+        {
+          "x": 443,
+          "y": 1930
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='121' style='font-size:20px'>Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie.<br>Feature pyramid networks for object detection. In CVPR, 2017a.</p>",
+      "id": 121,
+      "page": 10,
+      "text": "Tsung-Yi Lin, Piotr Dollar, Ross Girshick, Kaiming He, Bharath Hariharan, and Serge Belongie.\nFeature pyramid networks for object detection. In CVPR, 2017a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1964
+        },
+        {
+          "x": 2106,
+          "y": 1964
+        },
+        {
+          "x": 2106,
+          "y": 2055
+        },
+        {
+          "x": 443,
+          "y": 2055
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='122' style='font-size:22px'>Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object<br>detection. In ICCV, 2017b.</p>",
+      "id": 122,
+      "page": 10,
+      "text": "Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and Piotr Dollar. Focal loss for dense object\ndetection. In ICCV, 2017b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2088
+        },
+        {
+          "x": 2105,
+          "y": 2088
+        },
+        {
+          "x": 2105,
+          "y": 2180
+        },
+        {
+          "x": 442,
+          "y": 2180
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='123' style='font-size:22px'>LiLiu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Jie Chen, Xinwang Liu, and Matti Pietik�inen.<br>Deep learning for generic object detection: A survey. IJCV, 2020.</p>",
+      "id": 123,
+      "page": 10,
+      "text": "LiLiu, Wanli Ouyang, Xiaogang Wang, Paul Fieguth, Jie Chen, Xinwang Liu, and Matti Pietik�inen.\nDeep learning for generic object detection: A survey. IJCV, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2213
+        },
+        {
+          "x": 2107,
+          "y": 2213
+        },
+        {
+          "x": 2107,
+          "y": 2307
+        },
+        {
+          "x": 442,
+          "y": 2307
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='124' style='font-size:20px'>Peter J Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam<br>Shazeer. Generating wikipedia by summarizing long sequences. In ICLR, 2018a.</p>",
+      "id": 124,
+      "page": 10,
+      "text": "Peter J Liu, Mohammad Saleh, Etienne Pot, Ben Goodrich, Ryan Sepassi, Lukasz Kaiser, and Noam\nShazeer. Generating wikipedia by summarizing long sequences. In ICLR, 2018a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2338
+        },
+        {
+          "x": 2107,
+          "y": 2338
+        },
+        {
+          "x": 2107,
+          "y": 2428
+        },
+        {
+          "x": 443,
+          "y": 2428
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='125' style='font-size:20px'>Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance<br>segmentation. In CVPR, 2018b.</p>",
+      "id": 125,
+      "page": 10,
+      "text": "Shu Liu, Lu Qi, Haifang Qin, Jianping Shi, and Jiaya Jia. Path aggregation network for instance\nsegmentation. In CVPR, 2018b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2462
+        },
+        {
+          "x": 2107,
+          "y": 2462
+        },
+        {
+          "x": 2107,
+          "y": 2554
+        },
+        {
+          "x": 443,
+          "y": 2554
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='126' style='font-size:18px'>Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, Alexander Ku, and<br>Dustin Tran. Image transformer. In ICML, 2018.</p>",
+      "id": 126,
+      "page": 10,
+      "text": "Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer, Alexander Ku, and\nDustin Tran. Image transformer. In ICML, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2586
+        },
+        {
+          "x": 2105,
+          "y": 2586
+        },
+        {
+          "x": 2105,
+          "y": 2679
+        },
+        {
+          "x": 443,
+          "y": 2679
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='127' style='font-size:22px'>Jiezhong Qiu, Hao Ma, Omer Levy, Scott Wen-tau Yih, Sinong Wang, and Jie Tang. Blockwise<br>self-attention for long document understanding. arXiv preprint arXiv:1911.02972, 2019.</p>",
+      "id": 127,
+      "page": 10,
+      "text": "Jiezhong Qiu, Hao Ma, Omer Levy, Scott Wen-tau Yih, Sinong Wang, and Jie Tang. Blockwise\nself-attention for long document understanding. arXiv preprint arXiv:1911.02972, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2711
+        },
+        {
+          "x": 2107,
+          "y": 2711
+        },
+        {
+          "x": 2107,
+          "y": 2803
+        },
+        {
+          "x": 442,
+          "y": 2803
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='128' style='font-size:18px'>Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, and Jonathon<br>Shlens. Stand-alone self-attention in vision models. In NeurIPS, 2019.</p>",
+      "id": 128,
+      "page": 10,
+      "text": "Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, and Jonathon\nShlens. Stand-alone self-attention in vision models. In NeurIPS, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2835
+        },
+        {
+          "x": 2105,
+          "y": 2835
+        },
+        {
+          "x": 2105,
+          "y": 2927
+        },
+        {
+          "x": 442,
+          "y": 2927
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='129' style='font-size:18px'>Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object<br>detection with region proposal networks. In NeurIPS, 2015.</p>",
+      "id": 129,
+      "page": 10,
+      "text": "Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object\ndetection with region proposal networks. In NeurIPS, 2015."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2960
+        },
+        {
+          "x": 2107,
+          "y": 2960
+        },
+        {
+          "x": 2107,
+          "y": 3052
+        },
+        {
+          "x": 443,
+          "y": 3052
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='130' style='font-size:18px'>Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse<br>attention with routing transformers. arXiv preprint arXiv:2003.05997, 2020.</p>",
+      "id": 130,
+      "page": 10,
+      "text": "Aurko Roy, Mohammad Saffar, Ashish Vaswani, and David Grangier. Efficient content-based sparse\nattention with routing transformers. arXiv preprint arXiv:2003.05997, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3133
+        },
+        {
+          "x": 1300,
+          "y": 3133
+        },
+        {
+          "x": 1300,
+          "y": 3172
+        },
+        {
+          "x": 1252,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='131' style='font-size:14px'>10</footer>",
+      "id": 131,
+      "page": 10,
+      "text": "10"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 110
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='132' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 132,
+      "page": 11,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 346
+        },
+        {
+          "x": 2106,
+          "y": 346
+        },
+        {
+          "x": 2106,
+          "y": 435
+        },
+        {
+          "x": 442,
+          "y": 435
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='133' style='font-size:22px'>Guanglu Song, Yu Liu, and Xiaogang Wang. Revisiting the sibling head in object detector. In CVPR,<br>2020.</p>",
+      "id": 133,
+      "page": 11,
+      "text": "Guanglu Song, Yu Liu, and Xiaogang Wang. Revisiting the sibling head in object detector. In CVPR,\n2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 563
+        },
+        {
+          "x": 442,
+          "y": 563
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='134' style='font-size:20px'>Mingxing Tan, Ruoming Pang, and Quoc V Le. Efficientdet: Scalable and efficient object detection.<br>In CVPR, 2020.</p>",
+      "id": 134,
+      "page": 11,
+      "text": "Mingxing Tan, Ruoming Pang, and Quoc V Le. Efficientdet: Scalable and efficient object detection.\nIn CVPR, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 594
+        },
+        {
+          "x": 2105,
+          "y": 594
+        },
+        {
+          "x": 2105,
+          "y": 686
+        },
+        {
+          "x": 443,
+          "y": 686
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='135' style='font-size:20px'>Yi Tay, Dara Bahri, Liu Yang, Donald Metzler, and Da-Cheng Juan. Sparse sinkhorn attention. In<br>ICML, 2020a.</p>",
+      "id": 135,
+      "page": 11,
+      "text": "Yi Tay, Dara Bahri, Liu Yang, Donald Metzler, and Da-Cheng Juan. Sparse sinkhorn attention. In\nICML, 2020a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 719
+        },
+        {
+          "x": 2106,
+          "y": 719
+        },
+        {
+          "x": 2106,
+          "y": 812
+        },
+        {
+          "x": 443,
+          "y": 812
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='136' style='font-size:18px'>Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. Efficient transformers: A survey. arXiv<br>preprint arXiv:2009.06732, 2020b.</p>",
+      "id": 136,
+      "page": 11,
+      "text": "Yi Tay, Mostafa Dehghani, Dara Bahri, and Donald Metzler. Efficient transformers: A survey. arXiv\npreprint arXiv:2009.06732, 2020b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 845
+        },
+        {
+          "x": 2104,
+          "y": 845
+        },
+        {
+          "x": 2104,
+          "y": 934
+        },
+        {
+          "x": 442,
+          "y": 934
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='137' style='font-size:18px'>Zachary Teed and Jia Deng. Raft: Recurrent all-pairs field transforms for optical flow. In ECCV,<br>2020.</p>",
+      "id": 137,
+      "page": 11,
+      "text": "Zachary Teed and Jia Deng. Raft: Recurrent all-pairs field transforms for optical flow. In ECCV,\n2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 969
+        },
+        {
+          "x": 2107,
+          "y": 969
+        },
+        {
+          "x": 2107,
+          "y": 1060
+        },
+        {
+          "x": 443,
+          "y": 1060
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='138' style='font-size:20px'>Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos: Fully convolutional one-stage object<br>detection. In ICCV, 2019.</p>",
+      "id": 138,
+      "page": 11,
+      "text": "Zhi Tian, Chunhua Shen, Hao Chen, and Tong He. Fcos: Fully convolutional one-stage object\ndetection. In ICCV, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1094
+        },
+        {
+          "x": 2104,
+          "y": 1094
+        },
+        {
+          "x": 2104,
+          "y": 1185
+        },
+        {
+          "x": 443,
+          "y": 1185
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='139' style='font-size:16px'>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez,<br>Lukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NeurIPS, 2017.</p>",
+      "id": 139,
+      "page": 11,
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez,\nLukasz Kaiser, and Illia Polosukhin. Attention is all you need. In NeurIPS, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1217
+        },
+        {
+          "x": 2108,
+          "y": 1217
+        },
+        {
+          "x": 2108,
+          "y": 1356
+        },
+        {
+          "x": 441,
+          "y": 1356
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='140' style='font-size:22px'>Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam, Alan Yuille, and Liang-Chieh<br>Chen. Axial-deeplab: Stand-alone axial-attention for panoptic segmentation. arXiv preprint<br>arXiv:2003.07853, 2020a.</p>",
+      "id": 140,
+      "page": 11,
+      "text": "Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam, Alan Yuille, and Liang-Chieh\nChen. Axial-deeplab: Stand-alone axial-attention for panoptic segmentation. arXiv preprint\narXiv:2003.07853, 2020a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1390
+        },
+        {
+          "x": 2106,
+          "y": 1390
+        },
+        {
+          "x": 2106,
+          "y": 1481
+        },
+        {
+          "x": 442,
+          "y": 1481
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='141' style='font-size:18px'>Sinong Wang, Belinda Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with<br>linear complexity. arXiv preprint arXiv:2006.04768, 2020b.</p>",
+      "id": 141,
+      "page": 11,
+      "text": "Sinong Wang, Belinda Li, Madian Khabsa, Han Fang, and Hao Ma. Linformer: Self-attention with\nlinear complexity. arXiv preprint arXiv:2006.04768, 2020b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1513
+        },
+        {
+          "x": 2106,
+          "y": 1513
+        },
+        {
+          "x": 2106,
+          "y": 1605
+        },
+        {
+          "x": 441,
+          "y": 1605
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='142' style='font-size:18px'>Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli. Pay less attention with<br>lightweight and dynamic convolutions. In ICLR, 2019.</p>",
+      "id": 142,
+      "page": 11,
+      "text": "Felix Wu, Angela Fan, Alexei Baevski, Yann N Dauphin, and Michael Auli. Pay less attention with\nlightweight and dynamic convolutions. In ICLR, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1638
+        },
+        {
+          "x": 2105,
+          "y": 1638
+        },
+        {
+          "x": 2105,
+          "y": 1729
+        },
+        {
+          "x": 441,
+          "y": 1729
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='143' style='font-size:20px'>Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and Kaiming He. Aggregated residual trans-<br>formations for deep neural networks. In CVPR, 2017.</p>",
+      "id": 143,
+      "page": 11,
+      "text": "Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and Kaiming He. Aggregated residual trans-\nformations for deep neural networks. In CVPR, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1761
+        },
+        {
+          "x": 2105,
+          "y": 1761
+        },
+        {
+          "x": 2105,
+          "y": 1855
+        },
+        {
+          "x": 442,
+          "y": 1855
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='144' style='font-size:22px'>Hang Xu, Lewei Yao, Wei Zhang, Xiaodan Liang, and Zhenguo Li. Auto-fpn: Automatic network<br>architecture adaptation for object detection beyond classification. In ICCV, 2019.</p>",
+      "id": 144,
+      "page": 11,
+      "text": "Hang Xu, Lewei Yao, Wei Zhang, Xiaodan Liang, and Zhenguo Li. Auto-fpn: Automatic network\narchitecture adaptation for object detection beyond classification. In ICCV, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1888
+        },
+        {
+          "x": 2107,
+          "y": 1888
+        },
+        {
+          "x": 2107,
+          "y": 2025
+        },
+        {
+          "x": 441,
+          "y": 2025
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='145' style='font-size:22px'>Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon,<br>Philip Pham, Anirudh Ravula, Qifan Wang, Li Yang, et al. Big bird: Transformers for longer<br>sequences. arXiv preprint arXiv:2007.14062, 2020.</p>",
+      "id": 145,
+      "page": 11,
+      "text": "Manzil Zaheer, Guru Guruganesh, Avinava Dubey, Joshua Ainslie, Chris Alberti, Santiago Ontanon,\nPhilip Pham, Anirudh Ravula, Qifan Wang, Li Yang, et al. Big bird: Transformers for longer\nsequences. arXiv preprint arXiv:2007.14062, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2057
+        },
+        {
+          "x": 2107,
+          "y": 2057
+        },
+        {
+          "x": 2107,
+          "y": 2152
+        },
+        {
+          "x": 442,
+          "y": 2152
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='146' style='font-size:20px'>Shifeng Zhang, Cheng Chi, Yongqiang Yao, Zhen Lei, and Stan Z Li. Bridging the gap between<br>anchor-based and anchor-free detection via adaptive training sample selection. In CVPR, 2020.</p>",
+      "id": 146,
+      "page": 11,
+      "text": "Shifeng Zhang, Cheng Chi, Yongqiang Yao, Zhen Lei, and Stan Z Li. Bridging the gap between\nanchor-based and anchor-free detection via adaptive training sample selection. In CVPR, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2180
+        },
+        {
+          "x": 2106,
+          "y": 2180
+        },
+        {
+          "x": 2106,
+          "y": 2273
+        },
+        {
+          "x": 443,
+          "y": 2273
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='147' style='font-size:20px'>Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai, and Haibin Ling. M2det: A<br>single-shot object detector based on multi-level feature pyramid network. In AAAI, 2019.</p>",
+      "id": 147,
+      "page": 11,
+      "text": "Qijie Zhao, Tao Sheng, Yongtao Wang, Zhi Tang, Ying Chen, Ling Cai, and Haibin Ling. M2det: A\nsingle-shot object detector based on multi-level feature pyramid network. In AAAI, 2019."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2306
+        },
+        {
+          "x": 2108,
+          "y": 2306
+        },
+        {
+          "x": 2108,
+          "y": 2399
+        },
+        {
+          "x": 443,
+          "y": 2399
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='148' style='font-size:20px'>Xizhou Zhu, Dazhi Cheng, Zheng Zhang, Stephen Lin, and Jifeng Dai. An empirical study of spatial<br>attention mechanisms in deep networks. In ICCV, 2019a.</p>",
+      "id": 148,
+      "page": 11,
+      "text": "Xizhou Zhu, Dazhi Cheng, Zheng Zhang, Stephen Lin, and Jifeng Dai. An empirical study of spatial\nattention mechanisms in deep networks. In ICCV, 2019a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2429
+        },
+        {
+          "x": 2106,
+          "y": 2429
+        },
+        {
+          "x": 2106,
+          "y": 2523
+        },
+        {
+          "x": 442,
+          "y": 2523
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='149' style='font-size:18px'>Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2: More deformable,<br>better results. In CVPR, 2019b.</p>",
+      "id": 149,
+      "page": 11,
+      "text": "Xizhou Zhu, Han Hu, Stephen Lin, and Jifeng Dai. Deformable convnets v2: More deformable,\nbetter results. In CVPR, 2019b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3132
+        },
+        {
+          "x": 1298,
+          "y": 3132
+        },
+        {
+          "x": 1298,
+          "y": 3172
+        },
+        {
+          "x": 1252,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='150' style='font-size:14px'>11</footer>",
+      "id": 150,
+      "page": 11,
+      "text": "11"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='151' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 151,
+      "page": 12,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 343
+        },
+        {
+          "x": 765,
+          "y": 343
+        },
+        {
+          "x": 765,
+          "y": 394
+        },
+        {
+          "x": 445,
+          "y": 394
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='152' style='font-size:22px'>A APPENDIX</p>",
+      "id": 152,
+      "page": 12,
+      "text": "A APPENDIX"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 449
+        },
+        {
+          "x": 1368,
+          "y": 449
+        },
+        {
+          "x": 1368,
+          "y": 496
+        },
+        {
+          "x": 445,
+          "y": 496
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='153' style='font-size:14px'>A.1 COMPLEXITY FOR DEFORMABLE ATTENTION</p>",
+      "id": 153,
+      "page": 12,
+      "text": "A.1 COMPLEXITY FOR DEFORMABLE ATTENTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 534
+        },
+        {
+          "x": 2108,
+          "y": 534
+        },
+        {
+          "x": 2108,
+          "y": 1006
+        },
+        {
+          "x": 442,
+          "y": 1006
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='154' style='font-size:20px'>Supposes the number of query elements is Nq, in the deformable attention module (see Equation 2),<br>the complexity for calculating the sampling coordinate offsets △pmqk and attention weights Amqk<br>is of O(3NgCMK). Given the sampling coordinate offsets and attention weights, the complexity<br>of computing Equation 2 is O(NgC2 + NqKC2 + 5NqKC), where the factor of 5 in 5NqKC<br>is because of bilinear interpolation and the weighted sum in attention. On the other hand, we can<br>also calculate Wm x before sampling, as itis independent to query, and the complexity of computing<br>Equation 2 will become as O(NgC2 + HWC2 +5NgKC). So the overall complexity of deformable<br>attention is O(NgC2 + min(HWC2 , NqKC2) + 5Nq KC + 3NgCMK). In our experiments,<br>M = 8, K ≤ 4 and C = 256 by default, thus 5K + 3MK < C and the complexity is of<br>O(2NqC2 + min(HWC2 , NqKC2)).</p>",
+      "id": 154,
+      "page": 12,
+      "text": "Supposes the number of query elements is Nq, in the deformable attention module (see Equation 2),\nthe complexity for calculating the sampling coordinate offsets △pmqk and attention weights Amqk\nis of O(3NgCMK). Given the sampling coordinate offsets and attention weights, the complexity\nof computing Equation 2 is O(NgC2 + NqKC2 + 5NqKC), where the factor of 5 in 5NqKC\nis because of bilinear interpolation and the weighted sum in attention. On the other hand, we can\nalso calculate Wm x before sampling, as itis independent to query, and the complexity of computing\nEquation 2 will become as O(NgC2 + HWC2 +5NgKC). So the overall complexity of deformable\nattention is O(NgC2 + min(HWC2 , NqKC2) + 5Nq KC + 3NgCMK). In our experiments,\nM = 8, K ≤ 4 and C = 256 by default, thus 5K + 3MK < C and the complexity is of\nO(2NqC2 + min(HWC2 , NqKC2))."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1065
+        },
+        {
+          "x": 1853,
+          "y": 1065
+        },
+        {
+          "x": 1853,
+          "y": 1112
+        },
+        {
+          "x": 445,
+          "y": 1112
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='155' style='font-size:16px'>A.2 CONSTRUCTING MULT-SCALE FEATURE MAPS FOR DEFORMABLE DETR</p>",
+      "id": 155,
+      "page": 12,
+      "text": "A.2 CONSTRUCTING MULT-SCALE FEATURE MAPS FOR DEFORMABLE DETR"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1153
+        },
+        {
+          "x": 2108,
+          "y": 1153
+        },
+        {
+          "x": 2108,
+          "y": 1442
+        },
+        {
+          "x": 441,
+          "y": 1442
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='156' style='font-size:18px'>As discussed in Section 4.1 and illustrated in Figure 4, the input multi-scale feature maps of the<br>encoder {x1}[x] (L = 4) are extracted from the output feature maps of stages C3 through C5 in<br>ResNet (He et al., 2016) (transformed by a 1 x 1 convolution). The lowest resolution feature map xL<br>is obtained via a 3 x 3 stride 2 convolution on the final C5 stage. Note that FPN (Lin et al., 2017a) is<br>not used, because our proposed multi-scale deformable attention in itself can exchange information<br>among multi-scale feature maps.</p>",
+      "id": 156,
+      "page": 12,
+      "text": "As discussed in Section 4.1 and illustrated in Figure 4, the input multi-scale feature maps of the\nencoder {x1}[x] (L = 4) are extracted from the output feature maps of stages C3 through C5 in\nResNet (He et al., 2016) (transformed by a 1 x 1 convolution). The lowest resolution feature map xL\nis obtained via a 3 x 3 stride 2 convolution on the final C5 stage. Note that FPN (Lin et al., 2017a) is\nnot used, because our proposed multi-scale deformable attention in itself can exchange information\namong multi-scale feature maps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 623,
+          "y": 1475
+        },
+        {
+          "x": 1943,
+          "y": 1475
+        },
+        {
+          "x": 1943,
+          "y": 2012
+        },
+        {
+          "x": 623,
+          "y": 2012
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='157' style='font-size:14px' alt=\"Conv3x 3,stride2\nH/64 x W/64 x 256\nConv 1 x 1,stride 1\nC5\nH/32x W/32 x 2048 H/32x W/32x 256\nConv 1 x 1,stride 1\nH/16 x W/16 x 1024 H/16x W/16x 256\nConv 1 x 1,stride1\n0 3\nH/8xW/8x 512 H/8 x W/8x 256\nResNet Feature Maps InputMulti-scale Feature Maps{xl}�=1\" data-coord=\"top-left:(623,1475); bottom-right:(1943,2012)\" /></figure>",
+      "id": 157,
+      "page": 12,
+      "text": "Conv3x 3,stride2\nH/64 x W/64 x 256\nConv 1 x 1,stride 1\nC5\nH/32x W/32 x 2048 H/32x W/32x 256\nConv 1 x 1,stride 1\nH/16 x W/16 x 1024 H/16x W/16x 256\nConv 1 x 1,stride1\n0 3\nH/8xW/8x 512 H/8 x W/8x 256\nResNet Feature Maps InputMulti-scale Feature Maps{xl}�=1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 677,
+          "y": 2080
+        },
+        {
+          "x": 1869,
+          "y": 2080
+        },
+        {
+          "x": 1869,
+          "y": 2134
+        },
+        {
+          "x": 677,
+          "y": 2134
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='158' style='font-size:20px'>Figure 4: Constructing mult-scale feature maps for Deformable DETR.</caption>",
+      "id": 158,
+      "page": 12,
+      "text": "Figure 4: Constructing mult-scale feature maps for Deformable DETR."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 447,
+          "y": 2222
+        },
+        {
+          "x": 1523,
+          "y": 2222
+        },
+        {
+          "x": 1523,
+          "y": 2269
+        },
+        {
+          "x": 447,
+          "y": 2269
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='159' style='font-size:16px'>A.3 BOUNDING Box PREDICTION IN DEFORMABLE DETR</p>",
+      "id": 159,
+      "page": 12,
+      "text": "A.3 BOUNDING Box PREDICTION IN DEFORMABLE DETR"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2310
+        },
+        {
+          "x": 2109,
+          "y": 2310
+        },
+        {
+          "x": 2109,
+          "y": 2757
+        },
+        {
+          "x": 442,
+          "y": 2757
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='160' style='font-size:18px'>Since the multi-scale deformable attention module extracts image features around the reference<br>point, we design the detection head to predict the bounding box as relative offsets w.r.t. the reference<br>point to further reduce the optimization difficulty. The reference point is used as the initial guess<br>of the box center. The detection head predicts the relative offsets w.r.t. the reference point pq =<br>(Pqx, Pqy), i.e., bq = {o(bqx +�-1 (pqx)), �(bqy +�- 1 (pqy)) , �(bqw), �(bqh)}, where bq{x,y,w,h} E<br>R are predicted by the detection head. 0 and 0 denote the sigmoid and the inverse sigmoid<br>- 1<br>function, respectively. The usage of 0 and 0 is to ensure 6 is of normalized coordinates, as<br>- 1<br>bq E [0, 1]4 In this way, the learned decoder attention will have strong correlation with the predicted<br>bounding boxes, which also accelerates the training convergence.</p>",
+      "id": 160,
+      "page": 12,
+      "text": "Since the multi-scale deformable attention module extracts image features around the reference\npoint, we design the detection head to predict the bounding box as relative offsets w.r.t. the reference\npoint to further reduce the optimization difficulty. The reference point is used as the initial guess\nof the box center. The detection head predicts the relative offsets w.r.t. the reference point pq =\n(Pqx, Pqy), i.e., bq = {o(bqx +�-1 (pqx)), �(bqy +�- 1 (pqy)) , �(bqw), �(bqh)}, where bq{x,y,w,h} E\nR are predicted by the detection head. 0 and 0 denote the sigmoid and the inverse sigmoid\n- 1\nfunction, respectively. The usage of 0 and 0 is to ensure 6 is of normalized coordinates, as\n- 1\nbq E [0, 1]4 In this way, the learned decoder attention will have strong correlation with the predicted\nbounding boxes, which also accelerates the training convergence."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2821
+        },
+        {
+          "x": 1173,
+          "y": 2821
+        },
+        {
+          "x": 1173,
+          "y": 2865
+        },
+        {
+          "x": 445,
+          "y": 2865
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='161' style='font-size:16px'>A.4 MORE IMPLEMENTATION DETAILS</p>",
+      "id": 161,
+      "page": 12,
+      "text": "A.4 MORE IMPLEMENTATION DETAILS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2907
+        },
+        {
+          "x": 2108,
+          "y": 2907
+        },
+        {
+          "x": 2108,
+          "y": 3054
+        },
+        {
+          "x": 443,
+          "y": 3054
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='162' style='font-size:18px'>Iterative Bounding Box Refinement. Here, each decoder layer refines the bounding boxes based<br>on the predictions from the previous layer. Suppose there are D number of decoder layers (e.g.,<br>D = 6), given a normalized bounding box bd-1 predicted by the (d - 1)-th decoder layer, the d-th</p>",
+      "id": 162,
+      "page": 12,
+      "text": "Iterative Bounding Box Refinement. Here, each decoder layer refines the bounding boxes based\non the predictions from the previous layer. Suppose there are D number of decoder layers (e.g.,\nD = 6), given a normalized bounding box bd-1 predicted by the (d - 1)-th decoder layer, the d-th"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1253,
+          "y": 3133
+        },
+        {
+          "x": 1299,
+          "y": 3133
+        },
+        {
+          "x": 1299,
+          "y": 3171
+        },
+        {
+          "x": 1253,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='163' style='font-size:18px'>12</footer>",
+      "id": 163,
+      "page": 12,
+      "text": "12"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 111
+        },
+        {
+          "x": 1220,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='164' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 164,
+      "page": 13,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 347
+        },
+        {
+          "x": 979,
+          "y": 347
+        },
+        {
+          "x": 979,
+          "y": 393
+        },
+        {
+          "x": 442,
+          "y": 393
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='165' style='font-size:14px'>decoder layer refines the box as</p>",
+      "id": 165,
+      "page": 13,
+      "text": "decoder layer refines the box as"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 526
+        },
+        {
+          "x": 2107,
+          "y": 526
+        },
+        {
+          "x": 2107,
+          "y": 807
+        },
+        {
+          "x": 440,
+          "y": 807
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='166' style='font-size:18px'>where d E {1,2, · .., D}, △bg{x,y,w,h} E R are predicted at the d-th decoder layer. Prediction<br>heads for different decoder layers do not share parameters. The initial box is set as bqx = Pqx,<br>bay = Pqy, 60 3 = 0.1, and 행동 = 0.1. The system is robust to the choice of bqw and bogh.<br>We tried<br>setting them as 0.05, 0.1, 0.2, 0.5, and achieved similar performance. To stabilize training, similar<br>to Teed & Deng (2020), the gradients only back propagate through △bd{x,y,w,h}, and are blocked at</p>",
+      "id": 166,
+      "page": 13,
+      "text": "where d E {1,2, · .., D}, △bg{x,y,w,h} E R are predicted at the d-th decoder layer. Prediction\nheads for different decoder layers do not share parameters. The initial box is set as bqx = Pqx,\nbay = Pqy, 60 3 = 0.1, and 행동 = 0.1. The system is robust to the choice of bqw and bogh.\nWe tried\nsetting them as 0.05, 0.1, 0.2, 0.5, and achieved similar performance. To stabilize training, similar\nto Teed & Deng (2020), the gradients only back propagate through △bd{x,y,w,h}, and are blocked at"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 810
+        },
+        {
+          "x": 749,
+          "y": 810
+        },
+        {
+          "x": 749,
+          "y": 882
+        },
+        {
+          "x": 442,
+          "y": 882
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='167' style='font-size:20px'>0 1 (bqtx,y,w,h}).</p>",
+      "id": 167,
+      "page": 13,
+      "text": "0 1 (bqtx,y,w,h})."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 896
+        },
+        {
+          "x": 2109,
+          "y": 896
+        },
+        {
+          "x": 2109,
+          "y": 1169
+        },
+        {
+          "x": 440,
+          "y": 1169
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='168' style='font-size:18px'>In iterative bounding box refinement, for the d-th decoder layer, we sample key elements respective<br>to the box bd-1 predicted from the (d - 1)-th decoder layer. For Equation 3 in the cross-attention<br>module of the d-th decoder layer, (bd-1 , bd-1) serves as the new reference point. The sampling<br>offset △Pmlqk is also modulated by the box size, as (△pmlqkx bqw1 , △pmlqky bd-1). Such modifi-<br>cations make the sampling locations related to the center and size of previously predicted boxes.</p>",
+      "id": 168,
+      "page": 13,
+      "text": "In iterative bounding box refinement, for the d-th decoder layer, we sample key elements respective\nto the box bd-1 predicted from the (d - 1)-th decoder layer. For Equation 3 in the cross-attention\nmodule of the d-th decoder layer, (bd-1 , bd-1) serves as the new reference point. The sampling\noffset △Pmlqk is also modulated by the box size, as (△pmlqkx bqw1 , △pmlqky bd-1). Such modifi-\ncations make the sampling locations related to the center and size of previously predicted boxes."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1189
+        },
+        {
+          "x": 2108,
+          "y": 1189
+        },
+        {
+          "x": 2108,
+          "y": 1422
+        },
+        {
+          "x": 441,
+          "y": 1422
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='169' style='font-size:16px'>Two-Stage Deformable DETR. In the first stage, given the output feature maps of the encoder, a<br>detection head is applied to each pixel. The detection head is of a 3-layer FFN for bounding box<br>regression, and a linear projection for bounding box binary classification (i.e., foreground and back-<br>ground), respectively. Let 2 index a pixel from feature level li E {1, 2, · · · , L} with 2-d normalized<br>coordinates Pi = (Pix, piy) E [0, 1]2 , its corresponding bounding box is predicted by</p>",
+      "id": 169,
+      "page": 13,
+      "text": "Two-Stage Deformable DETR. In the first stage, given the output feature maps of the encoder, a\ndetection head is applied to each pixel. The detection head is of a 3-layer FFN for bounding box\nregression, and a linear projection for bounding box binary classification (i.e., foreground and back-\nground), respectively. Let 2 index a pixel from feature level li E {1, 2, · · · , L} with 2-d normalized\ncoordinates Pi = (Pix, piy) E [0, 1]2 , its corresponding bounding box is predicted by"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1550
+        },
+        {
+          "x": 2105,
+          "y": 1550
+        },
+        {
+          "x": 2105,
+          "y": 1644
+        },
+        {
+          "x": 442,
+          "y": 1644
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='170' style='font-size:16px'>where the base object scale s is set as 0.05, △bi{x,y,w,h} E R are predicted by the bounding box<br>regression branch. The Hungarian loss in DETR is used for training the detection head.</p>",
+      "id": 170,
+      "page": 13,
+      "text": "where the base object scale s is set as 0.05, △bi{x,y,w,h} E R are predicted by the bounding box\nregression branch. The Hungarian loss in DETR is used for training the detection head."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1667
+        },
+        {
+          "x": 2106,
+          "y": 1667
+        },
+        {
+          "x": 2106,
+          "y": 1850
+        },
+        {
+          "x": 441,
+          "y": 1850
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='171' style='font-size:16px'>Given the predicted bounding boxes in the first stage, top scoring bounding boxes are picked as<br>region proposals. In the second stage, these region proposals are fed into the decoder as initial boxes<br>for the iterative bounding box refinement, where the positional embeddings of object queries are set<br>as positional embeddings of region proposal coordinates.</p>",
+      "id": 171,
+      "page": 13,
+      "text": "Given the predicted bounding boxes in the first stage, top scoring bounding boxes are picked as\nregion proposals. In the second stage, these region proposals are fed into the decoder as initial boxes\nfor the iterative bounding box refinement, where the positional embeddings of object queries are set\nas positional embeddings of region proposal coordinates."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1871
+        },
+        {
+          "x": 2106,
+          "y": 1871
+        },
+        {
+          "x": 2106,
+          "y": 2205
+        },
+        {
+          "x": 441,
+          "y": 2205
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='172' style='font-size:18px'>Initialization for Multi-scale Deformable Attention. In our experiments, the number of at-<br>tention heads is set as M = 8. In multi-scale deformable attention modules, Wm E RCvxC<br>and Wm E RCxCv are randomly initialized. Weight parameters of the linear projection for<br>predicting Amlqk and △Pmlqk are initialized to zero. Bias parameters of the linear projection<br>1 {△p1lqk = (-k, -k), △p2lqk = (-k, 0), △p3lqk<br>are initialized to make Amlqk = LK and<br>(-k, k), △p4lqk = (0, -k), △p5lqk = (0, k), △p6lqk = (k, -k), △p7lqk = (k, 0), △p8lqk<br>(k, k)} (k E {1,2, · .K}) at initialization.</p>",
+      "id": 172,
+      "page": 13,
+      "text": "Initialization for Multi-scale Deformable Attention. In our experiments, the number of at-\ntention heads is set as M = 8. In multi-scale deformable attention modules, Wm E RCvxC\nand Wm E RCxCv are randomly initialized. Weight parameters of the linear projection for\npredicting Amlqk and △Pmlqk are initialized to zero. Bias parameters of the linear projection\n1 {△p1lqk = (-k, -k), △p2lqk = (-k, 0), △p3lqk\nare initialized to make Amlqk = LK and\n(-k, k), △p4lqk = (0, -k), △p5lqk = (0, k), △p6lqk = (k, -k), △p7lqk = (k, 0), △p8lqk\n(k, k)} (k E {1,2, · .K}) at initialization."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2223
+        },
+        {
+          "x": 2106,
+          "y": 2223
+        },
+        {
+          "x": 2106,
+          "y": 2369
+        },
+        {
+          "x": 441,
+          "y": 2369
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='173' style='font-size:18px'>For iterative bounding box refinement, the initialized bias parameters for △Pmlqk prediction in the<br>decoder are further multiplied with 2K , so that all the sampling points at initialization are within the<br>corresponding bounding boxes predicted from the previous decoder layer.</p>",
+      "id": 173,
+      "page": 13,
+      "text": "For iterative bounding box refinement, the initialized bias parameters for △Pmlqk prediction in the\ndecoder are further multiplied with 2K , so that all the sampling points at initialization are within the\ncorresponding bounding boxes predicted from the previous decoder layer."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2433
+        },
+        {
+          "x": 1270,
+          "y": 2433
+        },
+        {
+          "x": 1270,
+          "y": 2481
+        },
+        {
+          "x": 445,
+          "y": 2481
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='174' style='font-size:14px'>A.5 WHAT DEFORMABLE DETR LOOKS AT?</p>",
+      "id": 174,
+      "page": 13,
+      "text": "A.5 WHAT DEFORMABLE DETR LOOKS AT?"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2522
+        },
+        {
+          "x": 2107,
+          "y": 2522
+        },
+        {
+          "x": 2107,
+          "y": 2800
+        },
+        {
+          "x": 441,
+          "y": 2800
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='175' style='font-size:16px'>For studying what Deformable DETR looks at to give final detection result, we draw the gradient<br>norm of each item in final prediction (i.e., x/y coordinate of object center, width/height of object<br>bounding box, category score of this object) with respect to each pixel in the image, as shown in<br>Fig. 5. According to Taylor's theorem, the gradient norm can reflect how much the output would<br>be changed relative to the perturbation of the pixel, thus it could show us which pixels the model<br>mainly relys on for predicting each item.</p>",
+      "id": 175,
+      "page": 13,
+      "text": "For studying what Deformable DETR looks at to give final detection result, we draw the gradient\nnorm of each item in final prediction (i.e., x/y coordinate of object center, width/height of object\nbounding box, category score of this object) with respect to each pixel in the image, as shown in\nFig. 5. According to Taylor's theorem, the gradient norm can reflect how much the output would\nbe changed relative to the perturbation of the pixel, thus it could show us which pixels the model\nmainly relys on for predicting each item."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2821
+        },
+        {
+          "x": 2108,
+          "y": 2821
+        },
+        {
+          "x": 2108,
+          "y": 3055
+        },
+        {
+          "x": 441,
+          "y": 3055
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='176' style='font-size:16px'>The visualization indicates that Deformable DETR looks at extreme points of the object to deter-<br>mine its bounding box, which is similar to the observation in DETR (Carion et al., 2020). More con-<br>cretely, Deformable DETR attends to left/right boundary of the object for X coordinate and width,<br>and top/bottom boundary for y coordinate and height. Meanwhile, different to DETR (Carion et al.,<br>2020), our Deformable DETR also looks at pixels inside the object for predicting its category.</p>",
+      "id": 176,
+      "page": 13,
+      "text": "The visualization indicates that Deformable DETR looks at extreme points of the object to deter-\nmine its bounding box, which is similar to the observation in DETR (Carion et al., 2020). More con-\ncretely, Deformable DETR attends to left/right boundary of the object for X coordinate and width,\nand top/bottom boundary for y coordinate and height. Meanwhile, different to DETR (Carion et al.,\n2020), our Deformable DETR also looks at pixels inside the object for predicting its category."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1253,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3171
+        },
+        {
+          "x": 1253,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='177' style='font-size:16px'>13</footer>",
+      "id": 177,
+      "page": 13,
+      "text": "13"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='178' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 178,
+      "page": 14,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 478,
+          "y": 344
+        },
+        {
+          "x": 2049,
+          "y": 344
+        },
+        {
+          "x": 2049,
+          "y": 2086
+        },
+        {
+          "x": 478,
+          "y": 2086
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='179' style='font-size:14px' alt=\" 다양한\n한인 II\n 985\n|음악||\n 985\nII ala\n����� 985\n한인 II\n양감증빙수입니다. 985\nII 응위\" data-coord=\"top-left:(478,344); bottom-right:(2049,2086)\" /></figure>",
+      "id": 179,
+      "page": 14,
+      "text": " 다양한\n한인 II\n 985\n|음악||\n 985\nII ala\n����� 985\n한인 II\n양감증빙수입니다. 985\nII 응위"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2134
+        },
+        {
+          "x": 2107,
+          "y": 2134
+        },
+        {
+          "x": 2107,
+          "y": 2276
+        },
+        {
+          "x": 441,
+          "y": 2276
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='180' style='font-size:22px'>Figure 5: The gradient norm of each item (coordinate of object center (x, y), width/height of object<br>bounding box w/h, category score c of this object) in final detection result with respect to each pixel<br>in input image I.</caption>",
+      "id": 180,
+      "page": 14,
+      "text": "Figure 5: The gradient norm of each item (coordinate of object center (x, y), width/height of object\nbounding box w/h, category score c of this object) in final detection result with respect to each pixel\nin input image I."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 447,
+          "y": 2340
+        },
+        {
+          "x": 1646,
+          "y": 2340
+        },
+        {
+          "x": 1646,
+          "y": 2385
+        },
+        {
+          "x": 447,
+          "y": 2385
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='181' style='font-size:18px'>A.6 VISUALIZATION OF MULTI-SCALE DEFORMABLE ATTENTION</p>",
+      "id": 181,
+      "page": 14,
+      "text": "A.6 VISUALIZATION OF MULTI-SCALE DEFORMABLE ATTENTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2423
+        },
+        {
+          "x": 2108,
+          "y": 2423
+        },
+        {
+          "x": 2108,
+          "y": 2608
+        },
+        {
+          "x": 441,
+          "y": 2608
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='182' style='font-size:20px'>For better understanding learned multi-scale deformable attention modules, we visualize sampling<br>points and attention weights of the last layer in encoder and decoder, as shown in Fig. 6. For<br>readibility, we combine the sampling points and attention weights from feature maps of different<br>resolutions into one picture.</p>",
+      "id": 182,
+      "page": 14,
+      "text": "For better understanding learned multi-scale deformable attention modules, we visualize sampling\npoints and attention weights of the last layer in encoder and decoder, as shown in Fig. 6. For\nreadibility, we combine the sampling points and attention weights from feature maps of different\nresolutions into one picture."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2630
+        },
+        {
+          "x": 2108,
+          "y": 2630
+        },
+        {
+          "x": 2108,
+          "y": 2957
+        },
+        {
+          "x": 442,
+          "y": 2957
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='183' style='font-size:20px'>Similar to DETR (Carion et al., 2020), the instances are already separated in the encoder of De-<br>formable DETR. While in the decoder, our model is focused on the whole foreground instance<br>instead of only extreme points as observed in DETR (Carion et al., 2020). Combined with the visu-<br>alization of 11% II in Fig. 5, we can guess the reason is that our Deformable DETR needs not only<br>extreme points but also interior points to detemine object category. The visualization also demon-<br>strates that the proposed multi-scale deformable attention module can adapt its sampling points and<br>attention weights according to different scales and shapes of the foreground object.</p>",
+      "id": 183,
+      "page": 14,
+      "text": "Similar to DETR (Carion et al., 2020), the instances are already separated in the encoder of De-\nformable DETR. While in the decoder, our model is focused on the whole foreground instance\ninstead of only extreme points as observed in DETR (Carion et al., 2020). Combined with the visu-\nalization of 11% II in Fig. 5, we can guess the reason is that our Deformable DETR needs not only\nextreme points but also interior points to detemine object category. The visualization also demon-\nstrates that the proposed multi-scale deformable attention module can adapt its sampling points and\nattention weights according to different scales and shapes of the foreground object."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3173
+        },
+        {
+          "x": 1252,
+          "y": 3173
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='184' style='font-size:16px'>14</footer>",
+      "id": 184,
+      "page": 14,
+      "text": "14"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 110
+        },
+        {
+          "x": 1221,
+          "y": 157
+        },
+        {
+          "x": 444,
+          "y": 157
+        }
+      ],
+      "category": "header",
+      "html": "<header id='185' style='font-size:16px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 185,
+      "page": 15,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 471,
+          "y": 353
+        },
+        {
+          "x": 2080,
+          "y": 353
+        },
+        {
+          "x": 2080,
+          "y": 1466
+        },
+        {
+          "x": 471,
+          "y": 1466
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='186' style='font-size:14px' alt=\"high\nlow\" data-coord=\"top-left:(471,353); bottom-right:(2080,1466)\" /></figure>",
+      "id": 186,
+      "page": 15,
+      "text": "high\nlow"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 842,
+          "y": 1480
+        },
+        {
+          "x": 1707,
+          "y": 1480
+        },
+        {
+          "x": 1707,
+          "y": 1525
+        },
+        {
+          "x": 842,
+          "y": 1525
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='187' style='font-size:18px'>(a) multi-scale deformable self-attention in encoder</caption>",
+      "id": 187,
+      "page": 15,
+      "text": "(a) multi-scale deformable self-attention in encoder"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 472,
+          "y": 1543
+        },
+        {
+          "x": 2086,
+          "y": 1543
+        },
+        {
+          "x": 2086,
+          "y": 2693
+        },
+        {
+          "x": 472,
+          "y": 2693
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='188' style='font-size:14px' alt=\"high\nbus 0.848\n �� 985  985  985\ncar 0860\nlow\nper 0.712\nperson 0.797\nmotorcycle 0.869\ntv 0.864\ncat0\n827\" data-coord=\"top-left:(472,1543); bottom-right:(2086,2693)\" /></figure>",
+      "id": 188,
+      "page": 15,
+      "text": "high\nbus 0.848\n �� 985  985  985\ncar 0860\nlow\nper 0.712\nperson 0.797\nmotorcycle 0.869\ntv 0.864\ncat0\n827"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 828,
+          "y": 2709
+        },
+        {
+          "x": 1720,
+          "y": 2709
+        },
+        {
+          "x": 1720,
+          "y": 2752
+        },
+        {
+          "x": 828,
+          "y": 2752
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='189' style='font-size:22px'>(b) multi-scale deformable cross-attention in decoder</caption>",
+      "id": 189,
+      "page": 15,
+      "text": "(b) multi-scale deformable cross-attention in decoder"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2779
+        },
+        {
+          "x": 2109,
+          "y": 2779
+        },
+        {
+          "x": 2109,
+          "y": 3058
+        },
+        {
+          "x": 442,
+          "y": 3058
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='190' style='font-size:20px'>Figure 6: Visualization of multi-scale deformable attention. For readibility, we draw the sampling<br>points and attention weights from feature maps of different resolutions in one picture. Each sampling<br>point is marked as a filled circle whose color indicates its correspoinding attention weight. The<br>reference point is shown as green cross marker, which is also equivalent to query point in encoder. In<br>decoder, the predicted bounding box is shown as a green rectangle and the category and confidence<br>score are texted just above it.</p>",
+      "id": 190,
+      "page": 15,
+      "text": "Figure 6: Visualization of multi-scale deformable attention. For readibility, we draw the sampling\npoints and attention weights from feature maps of different resolutions in one picture. Each sampling\npoint is marked as a filled circle whose color indicates its correspoinding attention weight. The\nreference point is shown as green cross marker, which is also equivalent to query point in encoder. In\ndecoder, the predicted bounding box is shown as a green rectangle and the category and confidence\nscore are texted just above it."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3131
+        },
+        {
+          "x": 1299,
+          "y": 3131
+        },
+        {
+          "x": 1299,
+          "y": 3172
+        },
+        {
+          "x": 1252,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='191' style='font-size:20px'>15</footer>",
+      "id": 191,
+      "page": 15,
+      "text": "15"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 109
+        },
+        {
+          "x": 1221,
+          "y": 109
+        },
+        {
+          "x": 1221,
+          "y": 158
+        },
+        {
+          "x": 443,
+          "y": 158
+        }
+      ],
+      "category": "header",
+      "html": "<header id='192' style='font-size:14px'>Published as a conference paper at ICLR 2021</header>",
+      "id": 192,
+      "page": 16,
+      "text": "Published as a conference paper at ICLR 2021"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 345
+        },
+        {
+          "x": 771,
+          "y": 345
+        },
+        {
+          "x": 771,
+          "y": 395
+        },
+        {
+          "x": 444,
+          "y": 395
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='193' style='font-size:18px'>A.7 NOTATIONS</p>",
+      "id": 193,
+      "page": 16,
+      "text": "A.7 NOTATIONS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 866,
+          "y": 481
+        },
+        {
+          "x": 1678,
+          "y": 481
+        },
+        {
+          "x": 1678,
+          "y": 531
+        },
+        {
+          "x": 866,
+          "y": 531
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='194' style='font-size:18px'>Table 4: Lookup table for notations in the paper.</caption>",
+      "id": 194,
+      "page": 16,
+      "text": "Table 4: Lookup table for notations in the paper."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 577,
+          "y": 536
+        },
+        {
+          "x": 1983,
+          "y": 536
+        },
+        {
+          "x": 1983,
+          "y": 2434
+        },
+        {
+          "x": 577,
+          "y": 2434
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='195' style='font-size:20px'><tr><td>Notation</td><td>Description</td></tr><tr><td>m</td><td>index for attention head</td></tr><tr><td>1</td><td>index for feature level of key element</td></tr><tr><td>q</td><td>index for query element</td></tr><tr><td>k</td><td>index for key element</td></tr><tr><td>N q</td><td>number of query elements</td></tr><tr><td>Nk</td><td>number of key elements</td></tr><tr><td>M</td><td>number of attention heads</td></tr><tr><td>L</td><td>number of input feature levels</td></tr><tr><td>K</td><td>number of sampled keys in each feature level for each attention head</td></tr><tr><td>C</td><td>input feature dimension</td></tr><tr><td>Cv</td><td>feature dimension at each attention head</td></tr><tr><td>H</td><td>height of input feature map</td></tr><tr><td>W</td><td>width of input feature map</td></tr><tr><td>Hl</td><td>height of input feature map of lth feature level</td></tr><tr><td>Wi</td><td>width of input feature map of lth feature level</td></tr><tr><td>Amqk</td><td>attention weight of qth query to kth key at mth head</td></tr><tr><td>Amlqk</td><td>th head attention weight of qth query to kth key in lth feature level at m</td></tr><tr><td>Zq</td><td>input feature of qth query</td></tr><tr><td>Pq</td><td>2-d coordinate of reference point for qth query</td></tr><tr><td>Pq</td><td>normalized 2-d coordinate of reference point for qth query</td></tr><tr><td>x</td><td>input feature map (input feature of key elements)</td></tr><tr><td>Xk</td><td>input feature of kth key</td></tr><tr><td>xl</td><td>input feature map of lth feature level</td></tr><tr><td>△pmqk</td><td>sampling offset of qth query to kth key at mth head</td></tr><tr><td>△Pmlqk</td><td>th head sampling offset of qth query to kth key in lth feature level at m</td></tr><tr><td>Wm</td><td>output projection matrix at mth head</td></tr><tr><td>Um</td><td>input query projection matrix at mth head</td></tr><tr><td>Vm</td><td>input key projection matrix at mth head</td></tr><tr><td>W' m</td><td>input value projection matrix at mth head</td></tr><tr><td>⌀1 (p)</td><td>unnormalized 2-d coordinate of p in lth feature level</td></tr><tr><td>exp</td><td>exponential function</td></tr><tr><td>0</td><td>sigmoid function</td></tr><tr><td>-1 0</td><td>inverse sigmoid function</td></tr></table>",
+      "id": 195,
+      "page": 16,
+      "text": "Notation Description\n m index for attention head\n 1 index for feature level of key element\n q index for query element\n k index for key element\n N q number of query elements\n Nk number of key elements\n M number of attention heads\n L number of input feature levels\n K number of sampled keys in each feature level for each attention head\n C input feature dimension\n Cv feature dimension at each attention head\n H height of input feature map\n W width of input feature map\n Hl height of input feature map of lth feature level\n Wi width of input feature map of lth feature level\n Amqk attention weight of qth query to kth key at mth head\n Amlqk th head attention weight of qth query to kth key in lth feature level at m\n Zq input feature of qth query\n Pq 2-d coordinate of reference point for qth query\n Pq normalized 2-d coordinate of reference point for qth query\n x input feature map (input feature of key elements)\n Xk input feature of kth key\n xl input feature map of lth feature level\n △pmqk sampling offset of qth query to kth key at mth head\n △Pmlqk th head sampling offset of qth query to kth key in lth feature level at m\n Wm output projection matrix at mth head\n Um input query projection matrix at mth head\n Vm input key projection matrix at mth head\n W' m input value projection matrix at mth head\n ⌀1 (p) unnormalized 2-d coordinate of p in lth feature level\n exp exponential function\n 0 sigmoid function\n -1 0"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3131
+        },
+        {
+          "x": 1301,
+          "y": 3131
+        },
+        {
+          "x": 1301,
+          "y": 3174
+        },
+        {
+          "x": 1252,
+          "y": 3174
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='196' style='font-size:16px'>16</footer>",
+      "id": 196,
+      "page": 16,
+      "text": "16"
+    }
+  ]
+}

@@ -1,0 +1,2731 @@
+{
+    "id": "62a7ffea-0f92-11ef-8230-426932df3dcf",
+    "pdf_path": "/root/data/pdf/2106.02277v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 691,
+                    "y": 411
+                },
+                {
+                    "x": 1858,
+                    "y": 411
+                },
+                {
+                    "x": 1858,
+                    "y": 488
+                },
+                {
+                    "x": 691,
+                    "y": 488
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:20px'>Glance-and-Gaze Vision Transformer</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Glance-and-Gaze Vision Transformer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 589,
+                    "y": 647
+                },
+                {
+                    "x": 1955,
+                    "y": 647
+                },
+                {
+                    "x": 1955,
+                    "y": 705
+                },
+                {
+                    "x": 589,
+                    "y": 705
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Qihang Yu1, Yingda Xia1, Yutong Bail, Yongyi Lu1, Alan Yuille1, Wei Shen2</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Qihang Yu1, Yingda Xia1, Yutong Bail, Yongyi Lu1, Alan Yuille1, Wei Shen2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 708,
+                    "y": 701
+                },
+                {
+                    "x": 1854,
+                    "y": 701
+                },
+                {
+                    "x": 1854,
+                    "y": 750
+                },
+                {
+                    "x": 708,
+                    "y": 750
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:16px'>1 The Johns Hopkins University 2 Shanghai Jiaotong University</p>",
+            "id": 2,
+            "page": 1,
+            "text": "1 The Johns Hopkins University 2 Shanghai Jiaotong University"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1174,
+                    "y": 866
+                },
+                {
+                    "x": 1374,
+                    "y": 866
+                },
+                {
+                    "x": 1374,
+                    "y": 922
+                },
+                {
+                    "x": 1174,
+                    "y": 922
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 591,
+                    "y": 979
+                },
+                {
+                    "x": 1959,
+                    "y": 979
+                },
+                {
+                    "x": 1959,
+                    "y": 1392
+                },
+                {
+                    "x": 591,
+                    "y": 1392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:14px'>Recently, there emerges a series of vision Transformers, which show superior<br>performance with a more compact model size than conventional convolutional<br>neural networks, thanks to the strong ability of Transformers to model long-range<br>dependencies. However, the advantages of vision Transformers also come with a<br>price: Self-attention, the core part of Transformer, has a quadratic complexity to<br>the input sequence length. This leads to a dramatic increase of computation and<br>memory cost with the increase of sequence length, thus introducing difficulties<br>when applying Transformers to the vision tasks that require dense predictions based<br>on high-resolution feature maps.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Recently, there emerges a series of vision Transformers, which show superior\nperformance with a more compact model size than conventional convolutional\nneural networks, thanks to the strong ability of Transformers to model long-range\ndependencies. However, the advantages of vision Transformers also come with a\nprice: Self-attention, the core part of Transformer, has a quadratic complexity to\nthe input sequence length. This leads to a dramatic increase of computation and\nmemory cost with the increase of sequence length, thus introducing difficulties\nwhen applying Transformers to the vision tasks that require dense predictions based\non high-resolution feature maps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 590,
+                    "y": 1404
+                },
+                {
+                    "x": 1960,
+                    "y": 1404
+                },
+                {
+                    "x": 1960,
+                    "y": 2001
+                },
+                {
+                    "x": 590,
+                    "y": 2001
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:14px'>In this paper, we propose a new vision Transformer, named Glance-and-Gaze Trans-<br>former (GG-Transformer), to address the aforementioned issues. It is motivated<br>by the Glance and Gaze behavior of human beings when recognizing objects in<br>natural scenes, with the ability to efficiently model both long-range dependencies<br>and local context. In GG-Transformer, the Glance and Gaze behavior is realized by<br>two parallel branches: The Glance branch is achieved by performing self-attention<br>on the adaptively-dilated partitions of the input, which leads to a linear complexity<br>while still enjoying a global receptive field; The Gaze branch is implemented by a<br>simple depth-wise convolutional layer, which compensates local image context to<br>the features obtained by the Glance mechanism. We empirically demonstrate our<br>method achieves consistently superior performance over previous state-of-the-art<br>Transformers on various vision tasks and benchmarks. The codes and models will<br>be made available at https : / / github · com/ yucornetto / GG-Transf ormer.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "In this paper, we propose a new vision Transformer, named Glance-and-Gaze Trans-\nformer (GG-Transformer), to address the aforementioned issues. It is motivated\nby the Glance and Gaze behavior of human beings when recognizing objects in\nnatural scenes, with the ability to efficiently model both long-range dependencies\nand local context. In GG-Transformer, the Glance and Gaze behavior is realized by\ntwo parallel branches: The Glance branch is achieved by performing self-attention\non the adaptively-dilated partitions of the input, which leads to a linear complexity\nwhile still enjoying a global receptive field; The Gaze branch is implemented by a\nsimple depth-wise convolutional layer, which compensates local image context to\nthe features obtained by the Glance mechanism. We empirically demonstrate our\nmethod achieves consistently superior performance over previous state-of-the-art\nTransformers on various vision tasks and benchmarks. The codes and models will\nbe made available at https : / / github · com/ yucornetto / GG-Transf ormer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2099
+                },
+                {
+                    "x": 800,
+                    "y": 2099
+                },
+                {
+                    "x": 800,
+                    "y": 2160
+                },
+                {
+                    "x": 444,
+                    "y": 2160
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>1 Introduction</p>",
+            "id": 6,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2211
+                },
+                {
+                    "x": 2112,
+                    "y": 2211
+                },
+                {
+                    "x": 2112,
+                    "y": 2582
+                },
+                {
+                    "x": 441,
+                    "y": 2582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:16px'>Convolution Neural Networks (CNNs) have been dominating the field of computer vision, which<br>have been a de-facto standard and achieved tremendous success in various tasks, e.g., image clas-<br>sification [16], object detection [15], semantic segmentation [5], etc. CNNs model images from a<br>local-to-global perspective, starting with extracting local features such as edges and textures, and<br>forming high-level semantic concepts gradually. Although CNNs prove to be successful for various<br>vision tasks, they lack the ability to globally represent long-range dependencies. To compensate<br>a global view to CNN, researchers explored different methods such as non-local operation [36],<br>self-attention [33], Atrous Spatial Pyramid Pooling (ASPP) [5].</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Convolution Neural Networks (CNNs) have been dominating the field of computer vision, which\nhave been a de-facto standard and achieved tremendous success in various tasks, e.g., image clas-\nsification [16], object detection [15], semantic segmentation [5], etc. CNNs model images from a\nlocal-to-global perspective, starting with extracting local features such as edges and textures, and\nforming high-level semantic concepts gradually. Although CNNs prove to be successful for various\nvision tasks, they lack the ability to globally represent long-range dependencies. To compensate\na global view to CNN, researchers explored different methods such as non-local operation [36],\nself-attention [33], Atrous Spatial Pyramid Pooling (ASPP) [5]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2597
+                },
+                {
+                    "x": 2112,
+                    "y": 2597
+                },
+                {
+                    "x": 2112,
+                    "y": 2970
+                },
+                {
+                    "x": 441,
+                    "y": 2970
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:16px'>Recently, another type of networks with stacked Transformer blocks emerged. Unlike CNNs,<br>Transformers naturally learn global features in a parameter-free manner, which makes them stronger<br>alternatives and raises questions about the necessity of CNNs in vision systems. Since the advent<br>of Vision Transformer (ViT) [12], which applied Transformers to vision tasks by projecting and<br>tokenizing natural images into sequences, various improvements have been introduced rapidly, e.g.,<br>better training and distillation strategies [32], tokenization [41], position encoding [7], local feature<br>learning [14]. Moreover, besides Transformers' success on image classification, many efforts have<br>been made to explore Transformers for various down-stream vision tasks [35, 24, 13, 3, 46].</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Recently, another type of networks with stacked Transformer blocks emerged. Unlike CNNs,\nTransformers naturally learn global features in a parameter-free manner, which makes them stronger\nalternatives and raises questions about the necessity of CNNs in vision systems. Since the advent\nof Vision Transformer (ViT) [12], which applied Transformers to vision tasks by projecting and\ntokenizing natural images into sequences, various improvements have been introduced rapidly, e.g.,\nbetter training and distillation strategies [32], tokenization [41], position encoding [7], local feature\nlearning [14]. Moreover, besides Transformers' success on image classification, many efforts have\nbeen made to explore Transformers for various down-stream vision tasks [35, 24, 13, 3, 46]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 3048
+                },
+                {
+                    "x": 802,
+                    "y": 3048
+                },
+                {
+                    "x": 802,
+                    "y": 3095
+                },
+                {
+                    "x": 444,
+                    "y": 3095
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:14px'>Preprint. Under review.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "Preprint. Under review."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 64,
+                    "y": 915
+                },
+                {
+                    "x": 149,
+                    "y": 915
+                },
+                {
+                    "x": 149,
+                    "y": 2320
+                },
+                {
+                    "x": 64,
+                    "y": 2320
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='10' style='font-size:22px'>2021<br>Jun<br>4<br>[cs.CV]<br>ariz:70.10177:77.18</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "2021\nJun\n4\n[cs.CV]\nariz:70.10177:77.18"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 306
+                },
+                {
+                    "x": 2109,
+                    "y": 306
+                },
+                {
+                    "x": 2109,
+                    "y": 900
+                },
+                {
+                    "x": 441,
+                    "y": 900
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:16px'>Nevertheless, the advantages of Transformers come at a price. Since self-attention operates on the<br>whole sequences, it incurs much more memory and computation costs than convolution, especially<br>when it comes to natural images, whose lengths are usually much longer than word sequences, if<br>treating each pixel as a token Therefore, most existing works have to adopt a compromised strategy<br>to embed a large image patch for each token, although treating smaller patches for tokens leads<br>to a better performance (e.g., ViT-32 compared to ViT-16 [12]). To address this dilemma, various<br>strategies have been proposed. For instance, Pyramid Vision Transformer (PVT) [35] introduced a<br>progressive shrinking pyramid to reduce the sequence length of the Transformer with the increase of<br>network depth, and adopted spatial-reduction attention, where key and value in the attention module<br>are down-sampled to a lower resolution. Swin-Transformer [24] also adopted the pyramid structure,<br>and further proposed to divide input feature maps into different fix-sized local windows, SO that<br>self-attention is computed within each window, which reduces the computation cost and makes it<br>scalable to large image scales with linear complexity.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "Nevertheless, the advantages of Transformers come at a price. Since self-attention operates on the\nwhole sequences, it incurs much more memory and computation costs than convolution, especially\nwhen it comes to natural images, whose lengths are usually much longer than word sequences, if\ntreating each pixel as a token Therefore, most existing works have to adopt a compromised strategy\nto embed a large image patch for each token, although treating smaller patches for tokens leads\nto a better performance (e.g., ViT-32 compared to ViT-16 [12]). To address this dilemma, various\nstrategies have been proposed. For instance, Pyramid Vision Transformer (PVT) [35] introduced a\nprogressive shrinking pyramid to reduce the sequence length of the Transformer with the increase of\nnetwork depth, and adopted spatial-reduction attention, where key and value in the attention module\nare down-sampled to a lower resolution. Swin-Transformer [24] also adopted the pyramid structure,\nand further proposed to divide input feature maps into different fix-sized local windows, SO that\nself-attention is computed within each window, which reduces the computation cost and makes it\nscalable to large image scales with linear complexity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 919
+                },
+                {
+                    "x": 2108,
+                    "y": 919
+                },
+                {
+                    "x": 2108,
+                    "y": 1149
+                },
+                {
+                    "x": 441,
+                    "y": 1149
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:18px'>Nonetheless, we notice that these strategies have some limitations: Spatial-reduction attention can<br>reduce memory and computation costs to learn high-resolution feature maps, yet with a price of losing<br>details which are expected from the high-resolution feature maps. Adopting self-attention within<br>local windows is efficient with linear complexity, but it sacrifices the most significant advantage of<br>Transformers in modeling long-range dependencies.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "Nonetheless, we notice that these strategies have some limitations: Spatial-reduction attention can\nreduce memory and computation costs to learn high-resolution feature maps, yet with a price of losing\ndetails which are expected from the high-resolution feature maps. Adopting self-attention within\nlocal windows is efficient with linear complexity, but it sacrifices the most significant advantage of\nTransformers in modeling long-range dependencies."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1169
+                },
+                {
+                    "x": 2109,
+                    "y": 1169
+                },
+                {
+                    "x": 2109,
+                    "y": 1808
+                },
+                {
+                    "x": 441,
+                    "y": 1808
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:18px'>To address these limitations, we propose Glance-and-Gaze Transformer (GG-Transformer), in-<br>spired by the Glance-and-Gaze human behavior when recognizing objects in natural scenes [11],<br>which takes advantage of both the long-range dependency modeling ability of Transformers and<br>locality of convolutions in a complementary manner. A GG-Transformer block consists of two<br>parallel branches: A Glance branch performs self-attention within adaptively-dilated partitions of<br>input images or feature maps, which preserves the global receptive field of the self-attention operation,<br>meanwhile reduces its computation cost to a linear complexity as local window attention [24] does;<br>A Gaze branch compensates locality to the features obtained by the Glance branch, which is imple-<br>mented by a light-weight depth-wise convolutional layer. A merging operation finally re-arranges the<br>points in each partition to their original locations, ensuring that the output of the GG-Transformer<br>block has the same size as the input. We evaluate GG-Transformer on several vision tasks and<br>benchmarks including image classification on ImageNet [10], object detection on COCO [23], and<br>semantic segmentation on ADE20K [48], and show its efficiency and superior performance, compared<br>to previous state-of-the-art Transformers.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "To address these limitations, we propose Glance-and-Gaze Transformer (GG-Transformer), in-\nspired by the Glance-and-Gaze human behavior when recognizing objects in natural scenes [11],\nwhich takes advantage of both the long-range dependency modeling ability of Transformers and\nlocality of convolutions in a complementary manner. A GG-Transformer block consists of two\nparallel branches: A Glance branch performs self-attention within adaptively-dilated partitions of\ninput images or feature maps, which preserves the global receptive field of the self-attention operation,\nmeanwhile reduces its computation cost to a linear complexity as local window attention [24] does;\nA Gaze branch compensates locality to the features obtained by the Glance branch, which is imple-\nmented by a light-weight depth-wise convolutional layer. A merging operation finally re-arranges the\npoints in each partition to their original locations, ensuring that the output of the GG-Transformer\nblock has the same size as the input. We evaluate GG-Transformer on several vision tasks and\nbenchmarks including image classification on ImageNet [10], object detection on COCO [23], and\nsemantic segmentation on ADE20K [48], and show its efficiency and superior performance, compared\nto previous state-of-the-art Transformers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1882
+                },
+                {
+                    "x": 825,
+                    "y": 1882
+                },
+                {
+                    "x": 825,
+                    "y": 1933
+                },
+                {
+                    "x": 445,
+                    "y": 1933
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:20px'>2 Related Work</p>",
+            "id": 14,
+            "page": 2,
+            "text": "2 Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1985
+                },
+                {
+                    "x": 2107,
+                    "y": 1985
+                },
+                {
+                    "x": 2107,
+                    "y": 2489
+                },
+                {
+                    "x": 442,
+                    "y": 2489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:16px'>CNN and self-attention. Convolution has been the basic unit in deep neural networks for computer<br>vision problems. Since standard CNN blocks were proposed in [22], researchers have been working<br>on designing stronger and more efficient network architectures, e.g., VGG [30], ResNet [16], Mo-<br>bileNet [29], and EfficientNet [31]. In addition to studying how to organize convolutional blocks into<br>a network, several variants of the convolution layer have also been proposed, e.g., group convolu-<br>tion [21], depth-wise convolution [6], and dilated convolution [40]. With the development of CNN<br>architectures, researchers also seeked to improve contextual representation of CNNs. Representative<br>works, such as ASPP [5] and PPM [45] enhance CNNs with multi-scale context, and NLNet [36]<br>and CCNet [20] provided a non-local mechanism to CNNs. Moreover, instead of just using them<br>as an add-on to CNNs, some works explored to use attention modules to replace convolutional<br>blocks [18, 28, 34, 44].</p>",
+            "id": 15,
+            "page": 2,
+            "text": "CNN and self-attention. Convolution has been the basic unit in deep neural networks for computer\nvision problems. Since standard CNN blocks were proposed in [22], researchers have been working\non designing stronger and more efficient network architectures, e.g., VGG [30], ResNet [16], Mo-\nbileNet [29], and EfficientNet [31]. In addition to studying how to organize convolutional blocks into\na network, several variants of the convolution layer have also been proposed, e.g., group convolu-\ntion [21], depth-wise convolution [6], and dilated convolution [40]. With the development of CNN\narchitectures, researchers also seeked to improve contextual representation of CNNs. Representative\nworks, such as ASPP [5] and PPM [45] enhance CNNs with multi-scale context, and NLNet [36]\nand CCNet [20] provided a non-local mechanism to CNNs. Moreover, instead of just using them\nas an add-on to CNNs, some works explored to use attention modules to replace convolutional\nblocks [18, 28, 34, 44]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2509
+                },
+                {
+                    "x": 2109,
+                    "y": 2509
+                },
+                {
+                    "x": 2109,
+                    "y": 3014
+                },
+                {
+                    "x": 441,
+                    "y": 3014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:18px'>Vision Transformer. Recently, ViT [12] was proposed to adapt the Transformer [33] for image<br>recognition by tokenizing and flattening 2D images into sequence of tokens. Since then, many works<br>have been done to improve Transformers, making them more suitable for vision tasks. These works<br>can be roughly categorized into three types: (1) Type I made efforts to improve the ViT design<br>itself. For example, DeiT [32] introduced a training scheme to get rid of large-scale pre-training and<br>distillation method to further improve the performance. T2T-ViT [41] presented a token-to-token<br>operation as alternatives to patch embedding, which keeps better local details. (2) Type II tried to<br>introduce convolution back into the ViT design. E.g., Chu et al. [7] proposed to use convolution<br>for position encoding. Wu et al. [37] used convolution to replace the linear projection layers in<br>Transformers. (3) Type III tried to replace CNNs by building hierarchical Transformers as a plug-in<br>backbone in many downstream tasks. Wang et al. [35] proposed a pyramid vision Transformer,</p>",
+            "id": 16,
+            "page": 2,
+            "text": "Vision Transformer. Recently, ViT [12] was proposed to adapt the Transformer [33] for image\nrecognition by tokenizing and flattening 2D images into sequence of tokens. Since then, many works\nhave been done to improve Transformers, making them more suitable for vision tasks. These works\ncan be roughly categorized into three types: (1) Type I made efforts to improve the ViT design\nitself. For example, DeiT [32] introduced a training scheme to get rid of large-scale pre-training and\ndistillation method to further improve the performance. T2T-ViT [41] presented a token-to-token\noperation as alternatives to patch embedding, which keeps better local details. (2) Type II tried to\nintroduce convolution back into the ViT design. E.g., Chu et al. [7] proposed to use convolution\nfor position encoding. Wu et al. [37] used convolution to replace the linear projection layers in\nTransformers. (3) Type III tried to replace CNNs by building hierarchical Transformers as a plug-in\nbackbone in many downstream tasks. Wang et al. [35] proposed a pyramid vision Transformer,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3129
+                },
+                {
+                    "x": 1260,
+                    "y": 3129
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='17' style='font-size:14px'>2</footer>",
+            "id": 17,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 523,
+                    "y": 283
+                },
+                {
+                    "x": 2033,
+                    "y": 283
+                },
+                {
+                    "x": 2033,
+                    "y": 889
+                },
+                {
+                    "x": 523,
+                    "y": 889
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='18' style='font-size:22px' alt=\"(a) (b) (c)\" data-coord=\"top-left:(523,283); bottom-right:(2033,889)\" /></figure>",
+            "id": 18,
+            "page": 3,
+            "text": "(a) (b) (c)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 439,
+                    "y": 902
+                },
+                {
+                    "x": 2111,
+                    "y": 902
+                },
+                {
+                    "x": 2111,
+                    "y": 1094
+                },
+                {
+                    "x": 439,
+                    "y": 1094
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='19' style='font-size:18px'>Figure 1: Toy examples illustrating different methods to reduce computation and memory cost<br>of self-attention. (a) Spatial reduction [35, 13] spatially downsamples the feature map; (b) Local<br>window [24] restricts self-attention inside local windows; (c) Glance attention (ours) applies self-<br>attention to adaptively-dilated partitions.</caption>",
+            "id": 19,
+            "page": 3,
+            "text": "Figure 1: Toy examples illustrating different methods to reduce computation and memory cost\nof self-attention. (a) Spatial reduction [35, 13] spatially downsamples the feature map; (b) Local\nwindow [24] restricts self-attention inside local windows; (c) Glance attention (ours) applies self-\nattention to adaptively-dilated partitions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1192
+                },
+                {
+                    "x": 2109,
+                    "y": 1192
+                },
+                {
+                    "x": 2109,
+                    "y": 1650
+                },
+                {
+                    "x": 441,
+                    "y": 1650
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:14px'>which gradually downsamples the feature map and extract multi-scale features as common CNN<br>backbones do. However, applying self-attention on high-resolution features is not affordable in<br>terms of both memory and computation cost, thus they used spatial-reduction attention, which<br>downsamples key and value in self-attention as a trade-off between efficiency and accuracy. Later,<br>Liu et al. [24] proposed a new hierarchical Transformer architecture, named Swin-Transformer. To<br>handle the expensive computation burden incurred with self-attention, they divided feature maps into<br>several non-overlapped windows, and limited the self-attention operation to be performed within<br>each window. By doing so, Swin-Transformer is more efficient and also scalable to large resolution<br>input. Besides, to compensate the missing global information, a shifted window strategy is proposed<br>to exchange information between different windows.</p>",
+            "id": 20,
+            "page": 3,
+            "text": "which gradually downsamples the feature map and extract multi-scale features as common CNN\nbackbones do. However, applying self-attention on high-resolution features is not affordable in\nterms of both memory and computation cost, thus they used spatial-reduction attention, which\ndownsamples key and value in self-attention as a trade-off between efficiency and accuracy. Later,\nLiu et al. [24] proposed a new hierarchical Transformer architecture, named Swin-Transformer. To\nhandle the expensive computation burden incurred with self-attention, they divided feature maps into\nseveral non-overlapped windows, and limited the self-attention operation to be performed within\neach window. By doing so, Swin-Transformer is more efficient and also scalable to large resolution\ninput. Besides, to compensate the missing global information, a shifted window strategy is proposed\nto exchange information between different windows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1669
+                },
+                {
+                    "x": 2108,
+                    "y": 1669
+                },
+                {
+                    "x": 2108,
+                    "y": 1993
+                },
+                {
+                    "x": 441,
+                    "y": 1993
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:14px'>Our method differs from aforementioned works in the following aspects: Type I, II methods usually<br>utilize a large patch size and thus incompatible to work with high-resolution feature map. Type III<br>methods proposed new attention mechanism to handle the extreme memory and computation burden<br>with long sequences, but they sacrifices accuracy as a trade-off with efficiency. In contrast, GG-<br>Transformer proposes a more efficient Transformer block with a novel Glance-and-Gaze mechanism,<br>which not only enables it to handle long sequences and scalable to high-resolution feature maps, but<br>also leads to a better performance than other efficient alternatives.</p>",
+            "id": 21,
+            "page": 3,
+            "text": "Our method differs from aforementioned works in the following aspects: Type I, II methods usually\nutilize a large patch size and thus incompatible to work with high-resolution feature map. Type III\nmethods proposed new attention mechanism to handle the extreme memory and computation burden\nwith long sequences, but they sacrifices accuracy as a trade-off with efficiency. In contrast, GG-\nTransformer proposes a more efficient Transformer block with a novel Glance-and-Gaze mechanism,\nwhich not only enables it to handle long sequences and scalable to high-resolution feature maps, but\nalso leads to a better performance than other efficient alternatives."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2071
+                },
+                {
+                    "x": 695,
+                    "y": 2071
+                },
+                {
+                    "x": 695,
+                    "y": 2123
+                },
+                {
+                    "x": 442,
+                    "y": 2123
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:20px'>3 Method</p>",
+            "id": 22,
+            "page": 3,
+            "text": "3 Method"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2180
+                },
+                {
+                    "x": 2109,
+                    "y": 2180
+                },
+                {
+                    "x": 2109,
+                    "y": 2553
+                },
+                {
+                    "x": 442,
+                    "y": 2553
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:16px'>The design of GG-Transformer draws inspiration from how human beings observe the world, which<br>follows the Glance and Gaze mechanism. Specifically, humans will glance at the global view, and<br>meanwhile gaze into local details to obtain a comprehensive understanding to the environment. We<br>note that these behaviors surprisingly match the property of self-attention and convolution, which<br>models long-range dependencies and local context, respectively. Inspired from this, we propose<br>GG-Transformer, whose Transformer block consists of two parallel branches: A Glance branch,<br>where self-attention is performed to adaptively-dilated partitions of the input, and a Gaze branch,<br>where a depth-wise convolutional layer is adopted to capture the local patterns.</p>",
+            "id": 23,
+            "page": 3,
+            "text": "The design of GG-Transformer draws inspiration from how human beings observe the world, which\nfollows the Glance and Gaze mechanism. Specifically, humans will glance at the global view, and\nmeanwhile gaze into local details to obtain a comprehensive understanding to the environment. We\nnote that these behaviors surprisingly match the property of self-attention and convolution, which\nmodels long-range dependencies and local context, respectively. Inspired from this, we propose\nGG-Transformer, whose Transformer block consists of two parallel branches: A Glance branch,\nwhere self-attention is performed to adaptively-dilated partitions of the input, and a Gaze branch,\nwhere a depth-wise convolutional layer is adopted to capture the local patterns."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2617
+                },
+                {
+                    "x": 1029,
+                    "y": 2617
+                },
+                {
+                    "x": 1029,
+                    "y": 2666
+                },
+                {
+                    "x": 442,
+                    "y": 2666
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:14px'>3.1 Revisit Vision Transformer</p>",
+            "id": 24,
+            "page": 3,
+            "text": "3.1 Revisit Vision Transformer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2707
+                },
+                {
+                    "x": 2108,
+                    "y": 2707
+                },
+                {
+                    "x": 2108,
+                    "y": 2846
+                },
+                {
+                    "x": 441,
+                    "y": 2846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:16px'>We start with revisiting the formulation of vision Transformer block, which consists of multi-head<br>self-attention (MSA), layer normalization (LN), and multi-layer perceptron (MLP). A Transformer<br>block processes input features as follows:</p>",
+            "id": 25,
+            "page": 3,
+            "text": "We start with revisiting the formulation of vision Transformer block, which consists of multi-head\nself-attention (MSA), layer normalization (LN), and multi-layer perceptron (MLP). A Transformer\nblock processes input features as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3095
+                },
+                {
+                    "x": 1289,
+                    "y": 3095
+                },
+                {
+                    "x": 1289,
+                    "y": 3129
+                },
+                {
+                    "x": 1260,
+                    "y": 3129
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='26' style='font-size:14px'>3</footer>",
+            "id": 26,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 522,
+                    "y": 281
+                },
+                {
+                    "x": 2026,
+                    "y": 281
+                },
+                {
+                    "x": 2026,
+                    "y": 1040
+                },
+                {
+                    "x": 522,
+                    "y": 1040
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='27' style='font-size:14px' alt=\"Glance Branch\n0 Softmax\nAdaptively K\nMerging\nDilated MLP\nSplitting\nV\nMerging\nDepthwise\nConv Adaptively\nDilated\nSplitting\nGaze Branch\" data-coord=\"top-left:(522,281); bottom-right:(2026,1040)\" /></figure>",
+            "id": 27,
+            "page": 4,
+            "text": "Glance Branch\n0 Softmax\nAdaptively K\nMerging\nDilated MLP\nSplitting\nV\nMerging\nDepthwise\nConv Adaptively\nDilated\nSplitting\nGaze Branch"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1061
+                },
+                {
+                    "x": 2103,
+                    "y": 1061
+                },
+                {
+                    "x": 2103,
+                    "y": 1154
+                },
+                {
+                    "x": 442,
+                    "y": 1154
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='28' style='font-size:16px'>Figure 2: A visual illustration of GG Transformer block, where the Glance and Gaze branches<br>parallely extract complementary information.</caption>",
+            "id": 28,
+            "page": 4,
+            "text": "Figure 2: A visual illustration of GG Transformer block, where the Glance and Gaze branches\nparallely extract complementary information."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1249
+                },
+                {
+                    "x": 2104,
+                    "y": 1249
+                },
+                {
+                    "x": 2104,
+                    "y": 1340
+                },
+                {
+                    "x": 442,
+                    "y": 1340
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:16px'>where Zl is the encoded image representation at the l-th block. MSA gives Transformers the<br>advantages of modeling a global relationship in a parameter-free manner, which is formulated as:</p>",
+            "id": 29,
+            "page": 4,
+            "text": "where Zl is the encoded image representation at the l-th block. MSA gives Transformers the\nadvantages of modeling a global relationship in a parameter-free manner, which is formulated as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1504
+                },
+                {
+                    "x": 2107,
+                    "y": 1504
+                },
+                {
+                    "x": 2107,
+                    "y": 1737
+                },
+                {
+                    "x": 440,
+                    "y": 1737
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>where Q, K, V E RNxC<br>are the query, key, and value matrices which are linear mappings of input<br>Cis the channel dimension of the input, and N is the length of input sequence. Note<br>X E RNxC<br>that for simplified derivation, we assume the number of heads is 1 in the multi-head self attention,<br>which will not affect the following complexity analysis and can be easily generalize to more complex<br>cases.</p>",
+            "id": 30,
+            "page": 4,
+            "text": "where Q, K, V E RNxC\nare the query, key, and value matrices which are linear mappings of input\nCis the channel dimension of the input, and N is the length of input sequence. Note\nX E RNxC\nthat for simplified derivation, we assume the number of heads is 1 in the multi-head self attention,\nwhich will not affect the following complexity analysis and can be easily generalize to more complex\ncases."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1759
+                },
+                {
+                    "x": 2107,
+                    "y": 1759
+                },
+                {
+                    "x": 2107,
+                    "y": 1987
+                },
+                {
+                    "x": 442,
+                    "y": 1987
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:18px'>For vision tasks, N is often related to the input height H and width W. In practice, a 2D image<br>is often first tokenized based on non-overlapping image patch grids, which maps a 2D input with<br>HxW (P, P) is the grid<br>size H x W into a sequence of token embeddings with length N = where<br>P2 ,<br>size. In MSA, the relationships between a token and all tokens are computed. Such designs, though<br>effectively capturing long-range features, incur a computation complexity quadratic to N:</p>",
+            "id": 31,
+            "page": 4,
+            "text": "For vision tasks, N is often related to the input height H and width W. In practice, a 2D image\nis often first tokenized based on non-overlapping image patch grids, which maps a 2D input with\nHxW (P, P) is the grid\nsize H x W into a sequence of token embeddings with length N = where\nP2 ,\nsize. In MSA, the relationships between a token and all tokens are computed. Such designs, though\neffectively capturing long-range features, incur a computation complexity quadratic to N:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2094
+                },
+                {
+                    "x": 2107,
+                    "y": 2094
+                },
+                {
+                    "x": 2107,
+                    "y": 2552
+                },
+                {
+                    "x": 442,
+                    "y": 2552
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:16px'>For ViTs that only work on 16x down-sampled feature maps (i.e., P = 16), the computation cost<br>is affordable, since in this scenario N = 14 x 14 = 196 (for a typical ImageNet setting with<br>input size 224 x 224). However, when it comes to a more general vision scenario with the need of<br>dense prediction based on high-resolution feature maps (such as semantic segmentation), where the<br>cost dramatically increases by thousands of times or even more. Naively applying MSA to such<br>high-resolution feature maps can easily lead to the problem of out-of-memory (OOM), and extremely<br>high computational cost. Although some efficient alternatives [35, 24] were brought up recently,<br>accuracy is often sacrificed as a trade-off of efficiency. To address this issue, we propose a new vision<br>Transformer that can be applied to longer sequence while keeping high accuracy, inspired by the<br>Glance-and-Gaze human behavior when recognizing objects in natural scenes [11].</p>",
+            "id": 32,
+            "page": 4,
+            "text": "For ViTs that only work on 16x down-sampled feature maps (i.e., P = 16), the computation cost\nis affordable, since in this scenario N = 14 x 14 = 196 (for a typical ImageNet setting with\ninput size 224 x 224). However, when it comes to a more general vision scenario with the need of\ndense prediction based on high-resolution feature maps (such as semantic segmentation), where the\ncost dramatically increases by thousands of times or even more. Naively applying MSA to such\nhigh-resolution feature maps can easily lead to the problem of out-of-memory (OOM), and extremely\nhigh computational cost. Although some efficient alternatives [35, 24] were brought up recently,\naccuracy is often sacrificed as a trade-off of efficiency. To address this issue, we propose a new vision\nTransformer that can be applied to longer sequence while keeping high accuracy, inspired by the\nGlance-and-Gaze human behavior when recognizing objects in natural scenes [11]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 2608
+                },
+                {
+                    "x": 1747,
+                    "y": 2608
+                },
+                {
+                    "x": 1747,
+                    "y": 2654
+                },
+                {
+                    "x": 445,
+                    "y": 2654
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:22px'>3.2 Glance: Efficient Global Modeling with Adaptively-dilated Splitting</p>",
+            "id": 33,
+            "page": 4,
+            "text": "3.2 Glance: Efficient Global Modeling with Adaptively-dilated Splitting"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2691
+                },
+                {
+                    "x": 2107,
+                    "y": 2691
+                },
+                {
+                    "x": 2107,
+                    "y": 3014
+                },
+                {
+                    "x": 442,
+                    "y": 3014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:18px'>To address the efficiency problem of Transformers, existing solutions often adapt Transformers to<br>high-resolution feature maps by down-sampling the key and value during the attention process [35], or<br>limit self-attention to be computed in a local region then exchange information through shifting these<br>local regions to mimic a global view [24]. But limitations exist in these methods. For down-sampling<br>methods, although the output feature maps keep to be high-resolution, they lose some details during<br>the down-sampling processes. Besides, they still has a quadratic complexity and thus may not scale up<br>to a larger input size. For local-region based methods, though they successfully reduce the complexity</p>",
+            "id": 34,
+            "page": 4,
+            "text": "To address the efficiency problem of Transformers, existing solutions often adapt Transformers to\nhigh-resolution feature maps by down-sampling the key and value during the attention process [35], or\nlimit self-attention to be computed in a local region then exchange information through shifting these\nlocal regions to mimic a global view [24]. But limitations exist in these methods. For down-sampling\nmethods, although the output feature maps keep to be high-resolution, they lose some details during\nthe down-sampling processes. Besides, they still has a quadratic complexity and thus may not scale up\nto a larger input size. For local-region based methods, though they successfully reduce the complexity"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3096
+                },
+                {
+                    "x": 1287,
+                    "y": 3096
+                },
+                {
+                    "x": 1287,
+                    "y": 3125
+                },
+                {
+                    "x": 1260,
+                    "y": 3125
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='35' style='font-size:14px'>4</footer>",
+            "id": 35,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 308
+                },
+                {
+                    "x": 2107,
+                    "y": 308
+                },
+                {
+                    "x": 2107,
+                    "y": 488
+                },
+                {
+                    "x": 441,
+                    "y": 488
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:16px'>to a linear level, they cannot directly model a long-range dependency but instead are stuck within<br>local context, which counters the design intuition of Transformer and self-attention for long-range<br>dependency modeling. Besides, two consecutive blocks need to work together to mimic a global<br>receptive field, which may not achieve as good performance as MSA (see Table. 4b).</p>",
+            "id": 36,
+            "page": 5,
+            "text": "to a linear level, they cannot directly model a long-range dependency but instead are stuck within\nlocal context, which counters the design intuition of Transformer and self-attention for long-range\ndependency modeling. Besides, two consecutive blocks need to work together to mimic a global\nreceptive field, which may not achieve as good performance as MSA (see Table. 4b)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 510
+                },
+                {
+                    "x": 2106,
+                    "y": 510
+                },
+                {
+                    "x": 2106,
+                    "y": 927
+                },
+                {
+                    "x": 442,
+                    "y": 927
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>Thus, we propose Glance attention, which performs self-attention efficiently with a global receptive<br>field. It shares same time complexity as [24], but directly models long-range dependencies, as shown<br>in Fig. 1. Specifically, we first splits an input feature map to several dilated partitions, i.e., the points<br>in a partition are not from a local region but from the whole input feature map with a dilation rate<br>adaptive to the feature map size and the token size. We name this operation Adaptively-dilated<br>Splitting. For example, a partition contains M x M tokens and it is obtained with an adaptive dilation<br>rate = (M, �), where h, w is the height and width of current feature map respectively, and hw = N.<br>Here we assume all divisions have no remainder for simplicity. These partitions are easily to be split<br>from the input feature map or merged back. Specifically, we formulate this process as follows:</p>",
+            "id": 37,
+            "page": 5,
+            "text": "Thus, we propose Glance attention, which performs self-attention efficiently with a global receptive\nfield. It shares same time complexity as [24], but directly models long-range dependencies, as shown\nin Fig. 1. Specifically, we first splits an input feature map to several dilated partitions, i.e., the points\nin a partition are not from a local region but from the whole input feature map with a dilation rate\nadaptive to the feature map size and the token size. We name this operation Adaptively-dilated\nSplitting. For example, a partition contains M x M tokens and it is obtained with an adaptive dilation\nrate = (M, �), where h, w is the height and width of current feature map respectively, and hw = N.\nHere we assume all divisions have no remainder for simplicity. These partitions are easily to be split\nfrom the input feature map or merged back. Specifically, we formulate this process as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1043
+                },
+                {
+                    "x": 2105,
+                    "y": 1043
+                },
+                {
+                    "x": 2105,
+                    "y": 1187
+                },
+                {
+                    "x": 442,
+                    "y": 1187
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:18px'>where ziej1 is the feature token at position (i,j) if reshaping the sequence of token embedding Zl-1<br>back into a 2D feature map and use the 2D coordinates accordingly. To reduce the memory and<br>computation burden, while keeping a global receptive field, Zl-1 is split into several partitions:</p>",
+            "id": 38,
+            "page": 5,
+            "text": "where ziej1 is the feature token at position (i,j) if reshaping the sequence of token embedding Zl-1\nback into a 2D feature map and use the 2D coordinates accordingly. To reduce the memory and\ncomputation burden, while keeping a global receptive field, Zl-1 is split into several partitions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1465
+                },
+                {
+                    "x": 2107,
+                    "y": 1465
+                },
+                {
+                    "x": 2107,
+                    "y": 1663
+                },
+                {
+                    "x": 441,
+                    "y": 1663
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>where ze-1 E RNxC zt,i,j E RM2xC<br>Afterwards, MSA is applied to each partition, which<br>,<br>substantially reduces the computation and memory cost yet does not lose the global feature represen-<br>tation. And then all partitions are merged back into one feature map and go through the remaining<br>modules:</p>",
+            "id": 39,
+            "page": 5,
+            "text": "where ze-1 E RNxC zt,i,j E RM2xC\nAfterwards, MSA is applied to each partition, which\n,\nsubstantially reduces the computation and memory cost yet does not lose the global feature represen-\ntation. And then all partitions are merged back into one feature map and go through the remaining\nmodules:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1914
+                },
+                {
+                    "x": 2102,
+                    "y": 1914
+                },
+                {
+                    "x": 2102,
+                    "y": 2002
+                },
+                {
+                    "x": 443,
+                    "y": 2002
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:18px'>where Merging is an inverse operation of AdaptivelyDilatedSplitting which re-arranges points in<br>each partition back in their original orders.</p>",
+            "id": 40,
+            "page": 5,
+            "text": "where Merging is an inverse operation of AdaptivelyDilatedSplitting which re-arranges points in\neach partition back in their original orders."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2025
+                },
+                {
+                    "x": 2103,
+                    "y": 2025
+                },
+                {
+                    "x": 2103,
+                    "y": 2116
+                },
+                {
+                    "x": 443,
+                    "y": 2116
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:18px'>This new self-attention module (formulated in Eq. 6 to 10), namely Glance multi-head self attention<br>module (G-MSA), enables a global feature learning with linear complexity:</p>",
+            "id": 41,
+            "page": 5,
+            "text": "This new self-attention module (formulated in Eq. 6 to 10), namely Glance multi-head self attention\nmodule (G-MSA), enables a global feature learning with linear complexity:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2245
+                },
+                {
+                    "x": 1774,
+                    "y": 2245
+                },
+                {
+                    "x": 1774,
+                    "y": 2291
+                },
+                {
+                    "x": 443,
+                    "y": 2291
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:18px'>3.3 Gaze: Compensating Local Relationship with Depthwise Convolution</p>",
+            "id": 42,
+            "page": 5,
+            "text": "3.3 Gaze: Compensating Local Relationship with Depthwise Convolution"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2328
+                },
+                {
+                    "x": 2106,
+                    "y": 2328
+                },
+                {
+                    "x": 2106,
+                    "y": 2511
+                },
+                {
+                    "x": 442,
+                    "y": 2511
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>Although the Glance branch can effectively capture long-range representations, it misses the local<br>connections across partitions, which can be crucial for vision tasks relying on local cues. To this end,<br>we propose a Gaze branch to compensate the missing relationship and enhance the modeling power<br>at a negligible cost.</p>",
+            "id": 43,
+            "page": 5,
+            "text": "Although the Glance branch can effectively capture long-range representations, it misses the local\nconnections across partitions, which can be crucial for vision tasks relying on local cues. To this end,\nwe propose a Gaze branch to compensate the missing relationship and enhance the modeling power\nat a negligible cost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2535
+                },
+                {
+                    "x": 2103,
+                    "y": 2535
+                },
+                {
+                    "x": 2103,
+                    "y": 2624
+                },
+                {
+                    "x": 442,
+                    "y": 2624
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>Specifically, to compensate the local patterns missed in the Glance branch, we propose to apply an<br>additional depthwise convolution on the value in G-MSA:</p>",
+            "id": 44,
+            "page": 5,
+            "text": "Specifically, to compensate the local patterns missed in the Glance branch, we propose to apply an\nadditional depthwise convolution on the value in G-MSA:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2727
+                },
+                {
+                    "x": 2067,
+                    "y": 2727
+                },
+                {
+                    "x": 2067,
+                    "y": 2773
+                },
+                {
+                    "x": 444,
+                    "y": 2773
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>which has a neglectable computational cost and thus the overall cost is still significantly reduced:</p>",
+            "id": 45,
+            "page": 5,
+            "text": "which has a neglectable computational cost and thus the overall cost is still significantly reduced:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2874
+                },
+                {
+                    "x": 2105,
+                    "y": 2874
+                },
+                {
+                    "x": 2105,
+                    "y": 3013
+                },
+                {
+                    "x": 443,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>where k is the Gaze branch kernel size, and M is the partition size set in Glance branch, both k and<br>M are constants that are much smaller than N. We note that in this way, long-range and short-range<br>features are naturally and effectively learned. Besides, unlike [24], GG-MSA does not require</p>",
+            "id": 46,
+            "page": 5,
+            "text": "where k is the Gaze branch kernel size, and M is the partition size set in Glance branch, both k and\nM are constants that are much smaller than N. We note that in this way, long-range and short-range\nfeatures are naturally and effectively learned. Besides, unlike [24], GG-MSA does not require"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3128
+                },
+                {
+                    "x": 1260,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='47' style='font-size:14px'>5</footer>",
+            "id": 47,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 309
+                },
+                {
+                    "x": 2107,
+                    "y": 309
+                },
+                {
+                    "x": 2107,
+                    "y": 396
+                },
+                {
+                    "x": 442,
+                    "y": 396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:16px'>two consecutive blocks (e.g., W-MSA and SW-MSA) to be always used together, instead, it is a<br>standalone module as the original MSA [12].</p>",
+            "id": 48,
+            "page": 6,
+            "text": "two consecutive blocks (e.g., W-MSA and SW-MSA) to be always used together, instead, it is a\nstandalone module as the original MSA [12]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 421
+                },
+                {
+                    "x": 2032,
+                    "y": 421
+                },
+                {
+                    "x": 2032,
+                    "y": 467
+                },
+                {
+                    "x": 443,
+                    "y": 467
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:14px'>We propose two ways to determine the kernel size k for better compensating the local features:</p>",
+            "id": 49,
+            "page": 6,
+            "text": "We propose two ways to determine the kernel size k for better compensating the local features:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 490
+                },
+                {
+                    "x": 2106,
+                    "y": 490
+                },
+                {
+                    "x": 2106,
+                    "y": 579
+                },
+                {
+                    "x": 444,
+                    "y": 579
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:16px'>Fixed Gazing. A straightforward way is to adopt the same kernel size (e.g., 3 x 3) for all Gaze<br>branches, which can ensure same local feature learning regardless of the dilation rate.</p>",
+            "id": 50,
+            "page": 6,
+            "text": "Fixed Gazing. A straightforward way is to adopt the same kernel size (e.g., 3 x 3) for all Gaze\nbranches, which can ensure same local feature learning regardless of the dilation rate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 603
+                },
+                {
+                    "x": 2106,
+                    "y": 603
+                },
+                {
+                    "x": 2106,
+                    "y": 738
+                },
+                {
+                    "x": 443,
+                    "y": 738
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:20px'>Adaptive Gazing. Another way is implementing Gazing branch with adaptive kernels, where the<br>kernel size should be the same as dilation rate (h /M, w/M). In this way, GG-MSA still enjoys a<br>complete view of the input.</p>",
+            "id": 51,
+            "page": 6,
+            "text": "Adaptive Gazing. Another way is implementing Gazing branch with adaptive kernels, where the\nkernel size should be the same as dilation rate (h /M, w/M). In this way, GG-MSA still enjoys a\ncomplete view of the input."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 762
+                },
+                {
+                    "x": 2106,
+                    "y": 762
+                },
+                {
+                    "x": 2106,
+                    "y": 854
+                },
+                {
+                    "x": 443,
+                    "y": 854
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:18px'>By combining Glance and Gaze branches together, GG-MSA can achieve superior performance to<br>other counterparts while remaining a low cost.</p>",
+            "id": 52,
+            "page": 6,
+            "text": "By combining Glance and Gaze branches together, GG-MSA can achieve superior performance to\nother counterparts while remaining a low cost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 929
+                },
+                {
+                    "x": 940,
+                    "y": 929
+                },
+                {
+                    "x": 940,
+                    "y": 977
+                },
+                {
+                    "x": 444,
+                    "y": 977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:16px'>3.4 Network Instantiation</p>",
+            "id": 53,
+            "page": 6,
+            "text": "3.4 Network Instantiation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1020
+                },
+                {
+                    "x": 2109,
+                    "y": 1020
+                },
+                {
+                    "x": 2109,
+                    "y": 1296
+                },
+                {
+                    "x": 442,
+                    "y": 1296
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:16px'>We build a hierarchical GG-Transformer with the proposed Glance-and-Gaze branches as shown<br>in Fig. 2. For fair comparison, we follow the same settings as Swin-Transformer [24] in terms of<br>network depth and width, with only difference in the attention methods used in Transformer blocks.<br>Furthermore, we set M to be same as the window size in [24], so that the model size and computation<br>cost are also directly comparable. Note that GG-Transformer has not been specifically tuned by<br>scaling depth and width for a better accuracy-cost trade-off.</p>",
+            "id": 54,
+            "page": 6,
+            "text": "We build a hierarchical GG-Transformer with the proposed Glance-and-Gaze branches as shown\nin Fig. 2. For fair comparison, we follow the same settings as Swin-Transformer [24] in terms of\nnetwork depth and width, with only difference in the attention methods used in Transformer blocks.\nFurthermore, we set M to be same as the window size in [24], so that the model size and computation\ncost are also directly comparable. Note that GG-Transformer has not been specifically tuned by\nscaling depth and width for a better accuracy-cost trade-off."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1317
+                },
+                {
+                    "x": 2108,
+                    "y": 1317
+                },
+                {
+                    "x": 2108,
+                    "y": 1639
+                },
+                {
+                    "x": 441,
+                    "y": 1639
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:16px'>We build GG-T and GG-S, which share the same model size and computation costs as Swin-T and<br>Swin-S, respectively. For all GG-Transformers, we set the fixed patch size M = 7, expansion<br>ratio of MLP a = 4. All GG-Transformer consists of 4 hierarchical stages, which corresponds to<br>feature maps with down-sampling ratio 4, 8, 16, 32, respectively. The first patch embedding layer<br>projects input to a feature map with channel C = 96. When transitioning from one stage to the next<br>one, we follow CNN design principles [16] to expand the channel by 2x when the spatial size is<br>down-sampled by 4x.</p>",
+            "id": 55,
+            "page": 6,
+            "text": "We build GG-T and GG-S, which share the same model size and computation costs as Swin-T and\nSwin-S, respectively. For all GG-Transformers, we set the fixed patch size M = 7, expansion\nratio of MLP a = 4. All GG-Transformer consists of 4 hierarchical stages, which corresponds to\nfeature maps with down-sampling ratio 4, 8, 16, 32, respectively. The first patch embedding layer\nprojects input to a feature map with channel C = 96. When transitioning from one stage to the next\none, we follow CNN design principles [16] to expand the channel by 2x when the spatial size is\ndown-sampled by 4x."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1726
+                },
+                {
+                    "x": 800,
+                    "y": 1726
+                },
+                {
+                    "x": 800,
+                    "y": 1777
+                },
+                {
+                    "x": 444,
+                    "y": 1777
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:22px'>4 Experiments</p>",
+            "id": 56,
+            "page": 6,
+            "text": "4 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1840
+                },
+                {
+                    "x": 2108,
+                    "y": 1840
+                },
+                {
+                    "x": 2108,
+                    "y": 2024
+                },
+                {
+                    "x": 441,
+                    "y": 2024
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>In the following parts, we report results on ImageNet [10] classification, COCO [23] object detection,<br>and ADE20K [48] semantic segmentation to compare GG-Transformer with those state-of-the-art<br>CNNs and ViTs. Afterwards, we conduct ablation studies to verify the design of Glance and Gaze<br>branches and also compare effectiveness of different alternative self-attention designs.</p>",
+            "id": 57,
+            "page": 6,
+            "text": "In the following parts, we report results on ImageNet [10] classification, COCO [23] object detection,\nand ADE20K [48] semantic segmentation to compare GG-Transformer with those state-of-the-art\nCNNs and ViTs. Afterwards, we conduct ablation studies to verify the design of Glance and Gaze\nbranches and also compare effectiveness of different alternative self-attention designs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2100
+                },
+                {
+                    "x": 969,
+                    "y": 2100
+                },
+                {
+                    "x": 969,
+                    "y": 2146
+                },
+                {
+                    "x": 443,
+                    "y": 2146
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:20px'>4.1 ImageNet Classification</p>",
+            "id": 58,
+            "page": 6,
+            "text": "4.1 ImageNet Classification"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2192
+                },
+                {
+                    "x": 2106,
+                    "y": 2192
+                },
+                {
+                    "x": 2106,
+                    "y": 2328
+                },
+                {
+                    "x": 442,
+                    "y": 2328
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:16px'>We validate the performance of GG-Transformer on ImageNet-1K [10] classification task, which<br>contains 1.28M training images and 50K validation images for 1000 classes. We report top-1 accuracy<br>with a single 224 x 224 crop.</p>",
+            "id": 59,
+            "page": 6,
+            "text": "We validate the performance of GG-Transformer on ImageNet-1K [10] classification task, which\ncontains 1.28M training images and 50K validation images for 1000 classes. We report top-1 accuracy\nwith a single 224 x 224 crop."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2350
+                },
+                {
+                    "x": 2107,
+                    "y": 2350
+                },
+                {
+                    "x": 2107,
+                    "y": 2626
+                },
+                {
+                    "x": 442,
+                    "y": 2626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:20px'>Implementation Details. To ensure a fair comparison, we follow the same training settings of [24].<br>Specifically, we use AdamW [25] optimizer for 300 epochs with cosine learning rate decay including<br>20 epochs for linear warm-up. The training batch size is 1024 with 8 GPUs. Initial learning rate starts<br>at 0.001, and weight decay is 0.05. Augmentations and regularizations setting follows [32] including<br>rand-augment [9], mixup [43], cutmix [42], random erasing [47], stochastic depth [19], but excluding<br>repeated repeated augmentation [17] and EMA [26].</p>",
+            "id": 60,
+            "page": 6,
+            "text": "Implementation Details. To ensure a fair comparison, we follow the same training settings of [24].\nSpecifically, we use AdamW [25] optimizer for 300 epochs with cosine learning rate decay including\n20 epochs for linear warm-up. The training batch size is 1024 with 8 GPUs. Initial learning rate starts\nat 0.001, and weight decay is 0.05. Augmentations and regularizations setting follows [32] including\nrand-augment [9], mixup [43], cutmix [42], random erasing [47], stochastic depth [19], but excluding\nrepeated repeated augmentation [17] and EMA [26]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2646
+                },
+                {
+                    "x": 2109,
+                    "y": 2646
+                },
+                {
+                    "x": 2109,
+                    "y": 3012
+                },
+                {
+                    "x": 442,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:14px'>Results. A summary of results in Table 1, where we compare GG-Transformer with various<br>CNNs and ViTs. It is shown that GG-Transformer achieve better accuracy-cost trade-off com-<br>pared to other models. Moreover, GG-T, a light-weight model (28M/4.5G/82.0%), can achieve<br>comparable performance to those even much large models such as DeiT-B (86M/17.5G/81.8%),<br>T2T-ViT-24 (64M/14. 1G/82.3%), and PVT-Large (61M/9.8G/81.7%). Furthermore, compared to<br>Swin-Transformer, which we follows the architecture and ensures the same model size and computa-<br>tion costs to ensure a fair comparison, our model consistently brings an improvement to baseline,<br>with a consistent improvement of 0.8% and 0.2% for T and S models respectively.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "Results. A summary of results in Table 1, where we compare GG-Transformer with various\nCNNs and ViTs. It is shown that GG-Transformer achieve better accuracy-cost trade-off com-\npared to other models. Moreover, GG-T, a light-weight model (28M/4.5G/82.0%), can achieve\ncomparable performance to those even much large models such as DeiT-B (86M/17.5G/81.8%),\nT2T-ViT-24 (64M/14. 1G/82.3%), and PVT-Large (61M/9.8G/81.7%). Furthermore, compared to\nSwin-Transformer, which we follows the architecture and ensures the same model size and computa-\ntion costs to ensure a fair comparison, our model consistently brings an improvement to baseline,\nwith a consistent improvement of 0.8% and 0.2% for T and S models respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='62' style='font-size:14px'>6</footer>",
+            "id": 62,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 666,
+                    "y": 325
+                },
+                {
+                    "x": 1877,
+                    "y": 325
+                },
+                {
+                    "x": 1877,
+                    "y": 370
+                },
+                {
+                    "x": 666,
+                    "y": 370
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='63' style='font-size:16px'>Table 1: Comparison of different models on ImageNet-1K classification.</caption>",
+            "id": 63,
+            "page": 7,
+            "text": "Table 1: Comparison of different models on ImageNet-1K classification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 767,
+                    "y": 377
+                },
+                {
+                    "x": 1786,
+                    "y": 377
+                },
+                {
+                    "x": 1786,
+                    "y": 1454
+                },
+                {
+                    "x": 767,
+                    "y": 1454
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='64' style='font-size:14px'><tr><td>method</td><td>image size</td><td>#param.</td><td>FLOPs</td><td>ImageNet top-1 acc.</td></tr><tr><td>RegNetY-4G [27]</td><td>2242</td><td>21M</td><td>4.0G</td><td>80.0</td></tr><tr><td>RegNetY-8G [27]</td><td>2242</td><td>39M</td><td>8.0G</td><td>81.7</td></tr><tr><td>RegNetY-16G [27]</td><td>2242</td><td>84M</td><td>16.0G</td><td>82.9</td></tr><tr><td>EffNet-B3 [31]</td><td>3002</td><td>12M</td><td>1.8G</td><td>81.6</td></tr><tr><td>EffNet-B4 [31]</td><td>3802</td><td>19M</td><td>4.2G</td><td>82.9</td></tr><tr><td>EffNet-B5 [31]</td><td>4562</td><td>30M</td><td>9.9G</td><td>83.6</td></tr><tr><td>DeiT-T [32]</td><td>2242</td><td>5M</td><td>1.3G</td><td>72.2</td></tr><tr><td>DeiT-S [32]</td><td>2242</td><td>22M</td><td>4.6G</td><td>79.8</td></tr><tr><td>DeiT-B [32]</td><td>2242</td><td>86M</td><td>17.5G</td><td>81.8</td></tr><tr><td>TNT-S [14]</td><td>2242</td><td>24M</td><td>5.2G</td><td>81.3</td></tr><tr><td>TNS-B [14]</td><td>2242</td><td>66M</td><td>14.1G</td><td>82.8</td></tr><tr><td>T2T-ViT-7 [41]</td><td>2242</td><td>4M</td><td>1.2G</td><td>71.7</td></tr><tr><td>T2T-ViT-14 [41]</td><td>2242</td><td>22M</td><td>5.2G</td><td>81.5</td></tr><tr><td>T2T-ViT-24 [41]</td><td>2242</td><td>64M</td><td>14.1G</td><td>82.3</td></tr><tr><td>PVT-Tiny [35]</td><td>2242</td><td>13M</td><td>1.9G</td><td>75.1</td></tr><tr><td>PVT-Small [35]</td><td>2242</td><td>25M</td><td>3.8G</td><td>79.8</td></tr><tr><td>PVT-Medium [35]</td><td>2242</td><td>44M</td><td>6.7G</td><td>81.2</td></tr><tr><td>PVT-Large [35]</td><td>2242</td><td>61M</td><td>9.8G</td><td>81.7</td></tr><tr><td>Swin-T [24]</td><td>2242</td><td>28M</td><td>4.5G</td><td>81.2</td></tr><tr><td>Swin-S [24]</td><td>2242</td><td>50M</td><td>8.7G</td><td>83.2</td></tr><tr><td>GG-T</td><td>2242</td><td>28M</td><td>4.5G</td><td>82.0</td></tr><tr><td>GG-S</td><td>2242</td><td>50M</td><td>8.7G</td><td>83.4</td></tr></table>",
+            "id": 64,
+            "page": 7,
+            "text": "method image size #param. FLOPs ImageNet top-1 acc.\n RegNetY-4G [27] 2242 21M 4.0G 80.0\n RegNetY-8G [27] 2242 39M 8.0G 81.7\n RegNetY-16G [27] 2242 84M 16.0G 82.9\n EffNet-B3 [31] 3002 12M 1.8G 81.6\n EffNet-B4 [31] 3802 19M 4.2G 82.9\n EffNet-B5 [31] 4562 30M 9.9G 83.6\n DeiT-T [32] 2242 5M 1.3G 72.2\n DeiT-S [32] 2242 22M 4.6G 79.8\n DeiT-B [32] 2242 86M 17.5G 81.8\n TNT-S [14] 2242 24M 5.2G 81.3\n TNS-B [14] 2242 66M 14.1G 82.8\n T2T-ViT-7 [41] 2242 4M 1.2G 71.7\n T2T-ViT-14 [41] 2242 22M 5.2G 81.5\n T2T-ViT-24 [41] 2242 64M 14.1G 82.3\n PVT-Tiny [35] 2242 13M 1.9G 75.1\n PVT-Small [35] 2242 25M 3.8G 79.8\n PVT-Medium [35] 2242 44M 6.7G 81.2\n PVT-Large [35] 2242 61M 9.8G 81.7\n Swin-T [24] 2242 28M 4.5G 81.2\n Swin-S [24] 2242 50M 8.7G 83.2\n GG-T 2242 28M 4.5G 82.0\n GG-S 2242 50M 8.7G"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1536
+                },
+                {
+                    "x": 1136,
+                    "y": 1536
+                },
+                {
+                    "x": 1136,
+                    "y": 1583
+                },
+                {
+                    "x": 444,
+                    "y": 1583
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:22px'>4.2 ADE20K Semantic Segmentation</p>",
+            "id": 65,
+            "page": 7,
+            "text": "4.2 ADE20K Semantic Segmentation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1620
+                },
+                {
+                    "x": 2106,
+                    "y": 1620
+                },
+                {
+                    "x": 2106,
+                    "y": 1802
+                },
+                {
+                    "x": 442,
+                    "y": 1802
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:18px'>ADE20K [48] is a challenging semantic segmentation dataset, containing 20K images for training<br>and 2K images for validation. We follow common practices to use the training set for training and<br>report mIoU results on the validation sets. We use UperNet [38] as the segmentation framework and<br>replace the backbone with GG-Transformer.</p>",
+            "id": 66,
+            "page": 7,
+            "text": "ADE20K [48] is a challenging semantic segmentation dataset, containing 20K images for training\nand 2K images for validation. We follow common practices to use the training set for training and\nreport mIoU results on the validation sets. We use UperNet [38] as the segmentation framework and\nreplace the backbone with GG-Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1823
+                },
+                {
+                    "x": 2107,
+                    "y": 1823
+                },
+                {
+                    "x": 2107,
+                    "y": 2192
+                },
+                {
+                    "x": 442,
+                    "y": 2192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>Implementation Details. We follow [24] and use MMSegmentation [8] to implement all related<br>experiments. We use AdamW [25] with a learning rate starting at 6 x 10-5 weight decay of<br>,<br>0.01, batch size of 16, crop size of 512 x 512. The learning rate schedule contains a warmup<br>of 1500 iterations and linear learning rate decay. The training is conducted with 8 GPUs and the<br>training procedure lasts for 160K iterations in total. The augmentations follows the default setting<br>of MMSegmentation, including random horizontal flipping, random re-scaling within ratio range<br>[0.5, 2.0] and random photometric distortion. For testing, we follow [46] to utilize a sliding window<br>manner with crop size 512 and stride 341. ImageNet-1K pretrained weights are used for initialization.</p>",
+            "id": 67,
+            "page": 7,
+            "text": "Implementation Details. We follow [24] and use MMSegmentation [8] to implement all related\nexperiments. We use AdamW [25] with a learning rate starting at 6 x 10-5 weight decay of\n,\n0.01, batch size of 16, crop size of 512 x 512. The learning rate schedule contains a warmup\nof 1500 iterations and linear learning rate decay. The training is conducted with 8 GPUs and the\ntraining procedure lasts for 160K iterations in total. The augmentations follows the default setting\nof MMSegmentation, including random horizontal flipping, random re-scaling within ratio range\n[0.5, 2.0] and random photometric distortion. For testing, we follow [46] to utilize a sliding window\nmanner with crop size 512 and stride 341. ImageNet-1K pretrained weights are used for initialization."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2210
+                },
+                {
+                    "x": 2109,
+                    "y": 2210
+                },
+                {
+                    "x": 2109,
+                    "y": 2487
+                },
+                {
+                    "x": 441,
+                    "y": 2487
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='68' style='font-size:18px'>Results. We show results in Table 2, where results both w/ and w/o test-time augmentation are<br>reported. Noticeably, GG-Transformer not only achieves better results to baselines, but also obtain a<br>comparable single-scale testing performance to those with multi-scale testing results. Specifically,<br>GG-T achieves 46.4% mIoU with single-scale testing, which surpasses ResNet50, PVT-Small, Swin-<br>T's multi-scale testing results by 3.6%, 1.6%, 0.6%, respectively. Moreover, our tiny model even can<br>be comparable to those much larger models (e.g., 47.2% of GG-T compared to 47.6% of Swin-S).</p>",
+            "id": 68,
+            "page": 7,
+            "text": "Results. We show results in Table 2, where results both w/ and w/o test-time augmentation are\nreported. Noticeably, GG-Transformer not only achieves better results to baselines, but also obtain a\ncomparable single-scale testing performance to those with multi-scale testing results. Specifically,\nGG-T achieves 46.4% mIoU with single-scale testing, which surpasses ResNet50, PVT-Small, Swin-\nT's multi-scale testing results by 3.6%, 1.6%, 0.6%, respectively. Moreover, our tiny model even can\nbe comparable to those much larger models (e.g., 47.2% of GG-T compared to 47.6% of Swin-S)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2540
+                },
+                {
+                    "x": 981,
+                    "y": 2540
+                },
+                {
+                    "x": 981,
+                    "y": 2587
+                },
+                {
+                    "x": 443,
+                    "y": 2587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:20px'>4.3 COCO Object Detection</p>",
+            "id": 69,
+            "page": 7,
+            "text": "4.3 COCO Object Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2623
+                },
+                {
+                    "x": 2108,
+                    "y": 2623
+                },
+                {
+                    "x": 2108,
+                    "y": 2806
+                },
+                {
+                    "x": 442,
+                    "y": 2806
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:16px'>We further verify the performance of GG-Transformer when used as a plug-in backbone to object<br>detection task on COCO dataset [23], which contains 118K, 5K, 20K images for training, validation<br>and test respectively. We use Mask-RCNN [15] and Cascaded Mask R-CNN [1] as the detection<br>frameworks, and compare GG-Transformer to various CNN and ViT backbones.</p>",
+            "id": 70,
+            "page": 7,
+            "text": "We further verify the performance of GG-Transformer when used as a plug-in backbone to object\ndetection task on COCO dataset [23], which contains 118K, 5K, 20K images for training, validation\nand test respectively. We use Mask-RCNN [15] and Cascaded Mask R-CNN [1] as the detection\nframeworks, and compare GG-Transformer to various CNN and ViT backbones."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2829
+                },
+                {
+                    "x": 2108,
+                    "y": 2829
+                },
+                {
+                    "x": 2108,
+                    "y": 3012
+                },
+                {
+                    "x": 442,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:20px'>Implementation Details. We follow the setting of [24] and use MMDetection [4] to conduct all the<br>experiments. We adopt multi-scale training [2], AdamW optimizer [25] with initial learning rate of<br>0.0001, weight decay of 0.05, batch size of 16. The training is conducted with 8 GPUs and a 1x<br>schedule. All models are initialized with ImageNet-1K pretrained weights.</p>",
+            "id": 71,
+            "page": 7,
+            "text": "Implementation Details. We follow the setting of [24] and use MMDetection [4] to conduct all the\nexperiments. We adopt multi-scale training [2], AdamW optimizer [25] with initial learning rate of\n0.0001, weight decay of 0.05, batch size of 16. The training is conducted with 8 GPUs and a 1x\nschedule. All models are initialized with ImageNet-1K pretrained weights."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3128
+                },
+                {
+                    "x": 1261,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='72' style='font-size:14px'>7</footer>",
+            "id": 72,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 251
+                },
+                {
+                    "x": 2105,
+                    "y": 251
+                },
+                {
+                    "x": 2105,
+                    "y": 340
+                },
+                {
+                    "x": 443,
+                    "y": 340
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='73' style='font-size:20px'>Table 2: Performance comparisons with different backbones on ADE20K validation dataset. FLOPs<br>is tested on 1024x 1024 resolution. All backbones are pretrained on ImageNet-1k.</caption>",
+            "id": 73,
+            "page": 8,
+            "text": "Table 2: Performance comparisons with different backbones on ADE20K validation dataset. FLOPs\nis tested on 1024x 1024 resolution. All backbones are pretrained on ImageNet-1k."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 635,
+                    "y": 344
+                },
+                {
+                    "x": 1910,
+                    "y": 344
+                },
+                {
+                    "x": 1910,
+                    "y": 853
+                },
+                {
+                    "x": 635,
+                    "y": 853
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='74' style='font-size:18px'><tr><td rowspan=\"2\">Backbone</td><td colspan=\"4\">UperNet</td></tr><tr><td>Prams (M)</td><td>FLOPs (G)</td><td>mIoU (%)</td><td>mloU(ms+flip) (%)</td></tr><tr><td>ResNet50 [16]</td><td>67</td><td>952</td><td>42.1</td><td>42.8</td></tr><tr><td>PVT-Small [35]</td><td>55</td><td>919</td><td>43.9</td><td>44.8</td></tr><tr><td>Swin-T [24]</td><td>60</td><td>941</td><td>44.5</td><td>45.8</td></tr><tr><td>GG- (ours)</td><td>60</td><td>942</td><td>46.4</td><td>47.2</td></tr><tr><td>ResNet101 [16]</td><td>86</td><td>1029</td><td>43.8</td><td>44.9</td></tr><tr><td>PVT-Medium [35]</td><td>74</td><td>977</td><td>44.9</td><td>45.3</td></tr><tr><td>Swin-S [24]</td><td>81</td><td>1034</td><td>47.6</td><td>49.5</td></tr><tr><td>GG-S (ours)</td><td>81</td><td>1035</td><td>48.4</td><td>49.6</td></tr></table>",
+            "id": 74,
+            "page": 8,
+            "text": "Backbone UperNet\n Prams (M) FLOPs (G) mIoU (%) mloU(ms+flip) (%)\n ResNet50 [16] 67 952 42.1 42.8\n PVT-Small [35] 55 919 43.9 44.8\n Swin-T [24] 60 941 44.5 45.8\n GG- (ours) 60 942 46.4 47.2\n ResNet101 [16] 86 1029 43.8 44.9\n PVT-Medium [35] 74 977 44.9 45.3\n Swin-S [24] 81 1034 47.6 49.5\n GG-S (ours) 81 1035 48.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 926
+                },
+                {
+                    "x": 2107,
+                    "y": 926
+                },
+                {
+                    "x": 2107,
+                    "y": 1061
+                },
+                {
+                    "x": 442,
+                    "y": 1061
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='75' style='font-size:20px'>Table 3: Object detection and instance segmentation performance on the COCO val2017 dataset<br>using the Mask R-CNN framework. Params/FLOPs is evaluated with Mask R-CNN architecture on a<br>1280 x 800 image.</caption>",
+            "id": 75,
+            "page": 8,
+            "text": "Table 3: Object detection and instance segmentation performance on the COCO val2017 dataset\nusing the Mask R-CNN framework. Params/FLOPs is evaluated with Mask R-CNN architecture on a\n1280 x 800 image."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1066
+                },
+                {
+                    "x": 2105,
+                    "y": 1066
+                },
+                {
+                    "x": 2105,
+                    "y": 1621
+                },
+                {
+                    "x": 443,
+                    "y": 1621
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='76' style='font-size:14px'><tr><td rowspan=\"2\">Backbone</td><td colspan=\"2\">Params FLOPs</td><td colspan=\"6\">Mask R-CNN</td><td colspan=\"5\">Cascaded Mask R-CNN</td></tr><tr><td>(M)</td><td>(G)</td><td>APb AP50</td><td>AP75</td><td></td><td>APm</td><td>APm APm</td><td></td><td>APb AP50</td><td>AP75</td><td></td><td>APm</td><td>APm APm</td></tr><tr><td>ResNet50 [16]</td><td>44</td><td>260</td><td>38.2</td><td>58.8</td><td>41.4</td><td>34.7</td><td>55.7</td><td>37.2</td><td>41.2 59.4</td><td></td><td>45.0</td><td>35.9</td><td>56.6 38.4</td></tr><tr><td>PVT-Small [35]</td><td>44</td><td>245</td><td>40.4</td><td>62.9</td><td>43.8</td><td>37.8</td><td>60.1</td><td>40.3</td><td>-</td><td>-</td><td>-</td><td>-</td><td>- -</td></tr><tr><td>Swin-T [24]</td><td>48</td><td>264</td><td>43.7</td><td>66.6</td><td>47.7</td><td>39.8</td><td>63.3</td><td>42.7</td><td>48.1</td><td>67.1</td><td>52.2</td><td>41.7</td><td>64.4 45.0</td></tr><tr><td>GG-T (ours)</td><td>48</td><td>265</td><td>44.1</td><td>66.7</td><td>48.3</td><td>39.9</td><td>63.3</td><td>42.4</td><td>48.4</td><td>67.4</td><td>52.3</td><td>41.9</td><td>64.5 45.0</td></tr><tr><td>ResNet101 [16]</td><td>63</td><td>336</td><td>40.0</td><td>60.6</td><td>44.0</td><td>36.1</td><td>57.5</td><td>38.6</td><td>42.9</td><td>61.0</td><td>46.6</td><td>37.3</td><td>58.2 40.1</td></tr><tr><td>ResNeXt101-32x4d [39]</td><td>63</td><td>340</td><td>41.9</td><td>62.5</td><td>45.9</td><td>37.5</td><td>59.4</td><td>40.2</td><td>44.3 62.8</td><td></td><td>48.4</td><td>38.3 59.7</td><td>41.2</td></tr><tr><td>PVT-Medium [35]</td><td>64</td><td>302</td><td>42.0</td><td>64.4</td><td>45.6</td><td>39.0</td><td>61.6</td><td>42.1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>- -</td></tr><tr><td>Swin-S [24]</td><td>69</td><td>354</td><td>45.4</td><td>67.9</td><td>49.6</td><td>41.4</td><td>65.1</td><td>44.6</td><td>49.7</td><td>68.8</td><td>53.8</td><td>42.8</td><td>66.0 46.4</td></tr><tr><td>GG-S (ours)</td><td>69</td><td>355</td><td>45.7</td><td>68.3</td><td>49.9</td><td>41.3</td><td>65.3</td><td>44.0</td><td>49.9 69.0</td><td>54.0</td><td>43.1</td><td>66.2</td><td>46.4</td></tr></table>",
+            "id": 76,
+            "page": 8,
+            "text": "Backbone Params FLOPs Mask R-CNN Cascaded Mask R-CNN\n (M) (G) APb AP50 AP75  APm APm APm  APb AP50 AP75  APm APm APm\n ResNet50 [16] 44 260 38.2 58.8 41.4 34.7 55.7 37.2 41.2 59.4  45.0 35.9 56.6 38.4\n PVT-Small [35] 44 245 40.4 62.9 43.8 37.8 60.1 40.3 - - - - - -\n Swin-T [24] 48 264 43.7 66.6 47.7 39.8 63.3 42.7 48.1 67.1 52.2 41.7 64.4 45.0\n GG-T (ours) 48 265 44.1 66.7 48.3 39.9 63.3 42.4 48.4 67.4 52.3 41.9 64.5 45.0\n ResNet101 [16] 63 336 40.0 60.6 44.0 36.1 57.5 38.6 42.9 61.0 46.6 37.3 58.2 40.1\n ResNeXt101-32x4d [39] 63 340 41.9 62.5 45.9 37.5 59.4 40.2 44.3 62.8  48.4 38.3 59.7 41.2\n PVT-Medium [35] 64 302 42.0 64.4 45.6 39.0 61.6 42.1 - - - - - -\n Swin-S [24] 69 354 45.4 67.9 49.6 41.4 65.1 44.6 49.7 68.8 53.8 42.8 66.0 46.4\n GG-S (ours) 69 355 45.7 68.3 49.9 41.3 65.3 44.0 49.9 69.0 54.0 43.1 66.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1709
+                },
+                {
+                    "x": 2108,
+                    "y": 1709
+                },
+                {
+                    "x": 2108,
+                    "y": 1939
+                },
+                {
+                    "x": 442,
+                    "y": 1939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>Results. As shown in Table 3, GG-Transformer achieves superior performance to other backbones in<br>the two widely-used detection frameworks. Specifically, GG-T achieves 44.1 box AP and 39.9 mask<br>AP, which surpasses both CNNs and other ViTs with a similar model size and computation costs.<br>Compared with the state-of-the-art Swin-Transformer, GG-Transformer achieves better performance<br>while keeping the same model size and computation costs for both T and S models.</p>",
+            "id": 77,
+            "page": 8,
+            "text": "Results. As shown in Table 3, GG-Transformer achieves superior performance to other backbones in\nthe two widely-used detection frameworks. Specifically, GG-T achieves 44.1 box AP and 39.9 mask\nAP, which surpasses both CNNs and other ViTs with a similar model size and computation costs.\nCompared with the state-of-the-art Swin-Transformer, GG-Transformer achieves better performance\nwhile keeping the same model size and computation costs for both T and S models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1994
+                },
+                {
+                    "x": 843,
+                    "y": 1994
+                },
+                {
+                    "x": 843,
+                    "y": 2039
+                },
+                {
+                    "x": 445,
+                    "y": 2039
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:20px'>4.4 Ablation Studies</p>",
+            "id": 78,
+            "page": 8,
+            "text": "4.4 Ablation Studies"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2077
+                },
+                {
+                    "x": 2107,
+                    "y": 2077
+                },
+                {
+                    "x": 2107,
+                    "y": 2262
+                },
+                {
+                    "x": 442,
+                    "y": 2262
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:22px'>In this part, we conduct ablation studies regarding to the designs of GG-Transformer. Meanwhile, we<br>also compare among different efficient alternatives to MSA. Besides, we verify GG-MSA on another<br>ViT architecture [32] to compare its capacity to MSA directly. We conduct all these experiments<br>based on Swin-T [24] with 100 epochs training and DeiT [32] architectures with 300 epochs training.</p>",
+            "id": 79,
+            "page": 8,
+            "text": "In this part, we conduct ablation studies regarding to the designs of GG-Transformer. Meanwhile, we\nalso compare among different efficient alternatives to MSA. Besides, we verify GG-MSA on another\nViT architecture [32] to compare its capacity to MSA directly. We conduct all these experiments\nbased on Swin-T [24] with 100 epochs training and DeiT [32] architectures with 300 epochs training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2282
+                },
+                {
+                    "x": 2107,
+                    "y": 2282
+                },
+                {
+                    "x": 2107,
+                    "y": 2512
+                },
+                {
+                    "x": 442,
+                    "y": 2512
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:20px'>Kernel Choice of Gaze Branch. We study the choice of Gaze branch in terms of fixed or adaptive<br>mechanism. The kernel sizes for each stage and results are summarized in Table 4a, where we observe<br>that both mechanisms work well. Using a larger kernel leads to a non-significant improvement. In<br>contrast, adaptive manner leads to a slightly better performance. Considering the adaptive manner<br>provides a complete view as the original MSA has, we choose it in our final design.</p>",
+            "id": 80,
+            "page": 8,
+            "text": "Kernel Choice of Gaze Branch. We study the choice of Gaze branch in terms of fixed or adaptive\nmechanism. The kernel sizes for each stage and results are summarized in Table 4a, where we observe\nthat both mechanisms work well. Using a larger kernel leads to a non-significant improvement. In\ncontrast, adaptive manner leads to a slightly better performance. Considering the adaptive manner\nprovides a complete view as the original MSA has, we choose it in our final design."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2535
+                },
+                {
+                    "x": 2107,
+                    "y": 2535
+                },
+                {
+                    "x": 2107,
+                    "y": 2627
+                },
+                {
+                    "x": 442,
+                    "y": 2627
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:20px'>Glance/Gaze Branch. We study the necessity of both Glance and Gaze branches. Meanwhile, a<br>comparison between different ways to conduct self-attention is also studied. Results are in Table 4b.</p>",
+            "id": 81,
+            "page": 8,
+            "text": "Glance/Gaze Branch. We study the necessity of both Glance and Gaze branches. Meanwhile, a\ncomparison between different ways to conduct self-attention is also studied. Results are in Table 4b."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2646
+                },
+                {
+                    "x": 2108,
+                    "y": 2646
+                },
+                {
+                    "x": 2108,
+                    "y": 3013
+                },
+                {
+                    "x": 443,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:22px'>Swin-T [24] serves as the baseline for all variants, which achieves 78.50% top-1 accuracy on<br>ImageNet validation set. Firstly, we note that the local window attention and shifted window attention<br>(W&SW-MSA) in [24] although can significantly reduce the computation complexity and makes<br>Transformer easier to scale-up, it sacrifices the accuracy and the combination of W&SW-MSA to<br>mimic a global view is not as good as the original MSA. We replace the W&SW-MSA with MSA for<br>all blocks in stage 3 and 4 (i.e., stages with down-sampling rate 16 and 32), which leads to a 1.29%<br>performance improvement, indicating there exists a significant performance gap between MSA and<br>its efficient alternative. Notably, when adopting the proposed Glance and Gaze mechanism instead,</p>",
+            "id": 82,
+            "page": 8,
+            "text": "Swin-T [24] serves as the baseline for all variants, which achieves 78.50% top-1 accuracy on\nImageNet validation set. Firstly, we note that the local window attention and shifted window attention\n(W&SW-MSA) in [24] although can significantly reduce the computation complexity and makes\nTransformer easier to scale-up, it sacrifices the accuracy and the combination of W&SW-MSA to\nmimic a global view is not as good as the original MSA. We replace the W&SW-MSA with MSA for\nall blocks in stage 3 and 4 (i.e., stages with down-sampling rate 16 and 32), which leads to a 1.29%\nperformance improvement, indicating there exists a significant performance gap between MSA and\nits efficient alternative. Notably, when adopting the proposed Glance and Gaze mechanism instead,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3094
+                },
+                {
+                    "x": 1288,
+                    "y": 3094
+                },
+                {
+                    "x": 1288,
+                    "y": 3130
+                },
+                {
+                    "x": 1260,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='83' style='font-size:16px'>8</footer>",
+            "id": 83,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 327
+                },
+                {
+                    "x": 2107,
+                    "y": 327
+                },
+                {
+                    "x": 2107,
+                    "y": 416
+                },
+                {
+                    "x": 443,
+                    "y": 416
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:18px'>Table 4: Ablation studies regarding GG-Transformer design and comparison among different self-<br>attention mechanisms.</p>",
+            "id": 84,
+            "page": 9,
+            "text": "Table 4: Ablation studies regarding GG-Transformer design and comparison among different self-\nattention mechanisms."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 531
+                },
+                {
+                    "x": 951,
+                    "y": 531
+                },
+                {
+                    "x": 951,
+                    "y": 568
+                },
+                {
+                    "x": 509,
+                    "y": 568
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='85' style='font-size:14px'>(a) Choices of Gaze Kernels.</caption>",
+            "id": 85,
+            "page": 9,
+            "text": "(a) Choices of Gaze Kernels."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1009,
+                    "y": 447
+                },
+                {
+                    "x": 1516,
+                    "y": 447
+                },
+                {
+                    "x": 1516,
+                    "y": 527
+                },
+                {
+                    "x": 1009,
+                    "y": 527
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='86' style='font-size:16px'>(b) Comparison among different<br>self-attentions.</caption>",
+            "id": 86,
+            "page": 9,
+            "text": "(b) Comparison among different\nself-attentions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 477,
+                    "y": 589
+                },
+                {
+                    "x": 986,
+                    "y": 589
+                },
+                {
+                    "x": 986,
+                    "y": 774
+                },
+                {
+                    "x": 477,
+                    "y": 774
+                }
+            ],
+            "category": "table",
+            "html": "<table id='87' style='font-size:16px'><tr><td>Gaze Kernel</td><td>Top-1</td></tr><tr><td>Fixed-(3,3,3,3)</td><td>80.28%</td></tr><tr><td>Fixed-(5,5,5,5)</td><td>80.31%</td></tr><tr><td>Adaptive-(9,5,3,3)</td><td>80.38%</td></tr></table>",
+            "id": 87,
+            "page": 9,
+            "text": "Gaze Kernel Top-1\n Fixed-(3,3,3,3) 80.28%\n Fixed-(5,5,5,5) 80.31%\n Adaptive-(9,5,3,3)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1011,
+                    "y": 549
+                },
+                {
+                    "x": 1547,
+                    "y": 549
+                },
+                {
+                    "x": 1547,
+                    "y": 853
+                },
+                {
+                    "x": 1011,
+                    "y": 853
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='88' style='font-size:16px'><tr><td></td><td>Top-1</td></tr><tr><td>W& SW-MSA [24]</td><td>78.50%</td></tr><tr><td>MSA</td><td>79.79%</td></tr><tr><td>Glance Only</td><td>77.21%</td></tr><tr><td>Gaze Only</td><td>76.76%</td></tr><tr><td>Glance+Gaze (Attn)</td><td>79.07%</td></tr><tr><td>Glance+Gaze (Conv)</td><td>80.28%</td></tr></table>",
+            "id": 88,
+            "page": 9,
+            "text": "Top-1\n W& SW-MSA [24] 78.50%\n MSA 79.79%\n Glance Only 77.21%\n Gaze Only 76.76%\n Glance+Gaze (Attn) 79.07%\n Glance+Gaze (Conv)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1566,
+                    "y": 483
+                },
+                {
+                    "x": 2069,
+                    "y": 483
+                },
+                {
+                    "x": 2069,
+                    "y": 558
+                },
+                {
+                    "x": 1566,
+                    "y": 558
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='89' style='font-size:14px'>(c) Applying GG-MSA to DeiT<br>backbone.</caption>",
+            "id": 89,
+            "page": 9,
+            "text": "(c) Applying GG-MSA to DeiT\nbackbone."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1621,
+                    "y": 584
+                },
+                {
+                    "x": 2008,
+                    "y": 584
+                },
+                {
+                    "x": 2008,
+                    "y": 803
+                },
+                {
+                    "x": 1621,
+                    "y": 803
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='90' style='font-size:14px'><tr><td></td><td>Top-1</td></tr><tr><td>DeiT-T</td><td>72.2%</td></tr><tr><td>GG-DeiT-T</td><td>73.8%</td></tr><tr><td>DeiT-S</td><td>79.9%</td></tr><tr><td>GG-DeiT-S</td><td>80.5%</td></tr></table>",
+            "id": 90,
+            "page": 9,
+            "text": "Top-1\n DeiT-T 72.2%\n GG-DeiT-T 73.8%\n DeiT-S 79.9%\n GG-DeiT-S"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 956
+                },
+                {
+                    "x": 2106,
+                    "y": 956
+                },
+                {
+                    "x": 2106,
+                    "y": 1090
+                },
+                {
+                    "x": 443,
+                    "y": 1090
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:20px'>which shares a same complexity of W& SW-MSA, can achieves much better performance, where the<br>Glance+Gaze (Attn) improves the performance by 0.57%, and Glance+Gaze (Conv) (i.e., GG-T) by<br>1.78%, which is even higher than MSA by 0.49%.</p>",
+            "id": 91,
+            "page": 9,
+            "text": "which shares a same complexity of W& SW-MSA, can achieves much better performance, where the\nGlance+Gaze (Attn) improves the performance by 0.57%, and Glance+Gaze (Conv) (i.e., GG-T) by\n1.78%, which is even higher than MSA by 0.49%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1113
+                },
+                {
+                    "x": 2108,
+                    "y": 1113
+                },
+                {
+                    "x": 2108,
+                    "y": 1659
+                },
+                {
+                    "x": 442,
+                    "y": 1659
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:16px'>Besides using depthwise convolution, another natural choice is to also adopt self-attention for imple-<br>menting the Gaze branch. Therefore, we conduct experiments by using local window attention [24] as<br>the Gaze branch. Note that, unlike depthwise convolution, a self-attention variant of the Gaze branch<br>cannot be integrated with the Glance branch into the same Transformer block while keeping the<br>overall model size and computation cost at the same level. To ensure a fair comparison, we use two<br>consecutive Transformer blocks where one is Glance attention and another is Gaze attention. Using<br>either convolution or self-attention to implement the Gaze branch can both improve the performance<br>compared to [24], illustrating the effectiveness of the Glance and Gaze designs. However, using<br>self-attention is inferior to depth-wise convolution with a degrade of 1.21%, which may indicate<br>that convolution is still a better choice when it comes to learning local relationships. Besides, using<br>depth-wise convolution as Gaze branch can also naturally be integrated into the Transformer block<br>with Glance attention, thus makes it more flexible in terms of network designs.</p>",
+            "id": 92,
+            "page": 9,
+            "text": "Besides using depthwise convolution, another natural choice is to also adopt self-attention for imple-\nmenting the Gaze branch. Therefore, we conduct experiments by using local window attention [24] as\nthe Gaze branch. Note that, unlike depthwise convolution, a self-attention variant of the Gaze branch\ncannot be integrated with the Glance branch into the same Transformer block while keeping the\noverall model size and computation cost at the same level. To ensure a fair comparison, we use two\nconsecutive Transformer blocks where one is Glance attention and another is Gaze attention. Using\neither convolution or self-attention to implement the Gaze branch can both improve the performance\ncompared to [24], illustrating the effectiveness of the Glance and Gaze designs. However, using\nself-attention is inferior to depth-wise convolution with a degrade of 1.21%, which may indicate\nthat convolution is still a better choice when it comes to learning local relationships. Besides, using\ndepth-wise convolution as Gaze branch can also naturally be integrated into the Transformer block\nwith Glance attention, thus makes it more flexible in terms of network designs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1682
+                },
+                {
+                    "x": 2107,
+                    "y": 1682
+                },
+                {
+                    "x": 2107,
+                    "y": 2045
+                },
+                {
+                    "x": 442,
+                    "y": 2045
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:16px'>We also note that Glance or Gaze branch alone is far from enough, while only a combination of both<br>can lead to a performance gain, which matches the behavior that we human beings can not rely on<br>Glance or Gaze alone. For instance, using Glance alone can only lead to an inferior performance<br>with accuracy of 77.21%, and Gaze alone 76.76%, which is significantly lower than baseline with a<br>degrade of 1.29% and 1.74%, respectively. Nevertheless, we note that this is because Glance and<br>Gaze branches miss important local or global cues which can be compensated by each other. As a<br>result, a combination of both Glance and Gaze gives a high accuracy of 80.28%, which improves the<br>Glance alone and Gaze alone by 3.07% and 3.52% respectively.</p>",
+            "id": 93,
+            "page": 9,
+            "text": "We also note that Glance or Gaze branch alone is far from enough, while only a combination of both\ncan lead to a performance gain, which matches the behavior that we human beings can not rely on\nGlance or Gaze alone. For instance, using Glance alone can only lead to an inferior performance\nwith accuracy of 77.21%, and Gaze alone 76.76%, which is significantly lower than baseline with a\ndegrade of 1.29% and 1.74%, respectively. Nevertheless, we note that this is because Glance and\nGaze branches miss important local or global cues which can be compensated by each other. As a\nresult, a combination of both Glance and Gaze gives a high accuracy of 80.28%, which improves the\nGlance alone and Gaze alone by 3.07% and 3.52% respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2069
+                },
+                {
+                    "x": 2108,
+                    "y": 2069
+                },
+                {
+                    "x": 2108,
+                    "y": 2344
+                },
+                {
+                    "x": 441,
+                    "y": 2344
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:18px'>Apply to other backbone. We verify the effectiveness of GG-Transformer on another popular<br>ViT architecture DeiT [32], as shown in Table 4c. We replace MSA with GG-MSA for two DeiT<br>variants [32], DeiT-T and DeiT-S. We show that, although GG-MSA is an efficient alternative to<br>MSA, it can also lead to a performance gain. Compared to DeiT-T and DeiT-S, GG-DeiT-T and<br>GG-DeiT-S bring the performance up by 1.6% and 0.6% respectively, illustrating that it is not only<br>efficient but also effectively even compared to a fully self-attention.</p>",
+            "id": 94,
+            "page": 9,
+            "text": "Apply to other backbone. We verify the effectiveness of GG-Transformer on another popular\nViT architecture DeiT [32], as shown in Table 4c. We replace MSA with GG-MSA for two DeiT\nvariants [32], DeiT-T and DeiT-S. We show that, although GG-MSA is an efficient alternative to\nMSA, it can also lead to a performance gain. Compared to DeiT-T and DeiT-S, GG-DeiT-T and\nGG-DeiT-S bring the performance up by 1.6% and 0.6% respectively, illustrating that it is not only\nefficient but also effectively even compared to a fully self-attention."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2422
+                },
+                {
+                    "x": 756,
+                    "y": 2422
+                },
+                {
+                    "x": 756,
+                    "y": 2474
+                },
+                {
+                    "x": 444,
+                    "y": 2474
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:22px'>5 Limitation</p>",
+            "id": 95,
+            "page": 9,
+            "text": "5 Limitation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2534
+                },
+                {
+                    "x": 2103,
+                    "y": 2534
+                },
+                {
+                    "x": 2103,
+                    "y": 2624
+                },
+                {
+                    "x": 442,
+                    "y": 2624
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:16px'>Although GG-Transformer provides a powerful and efficient solution to make Transformers scalable<br>to large inputs, some limitations still exist and worth further exploring.</p>",
+            "id": 96,
+            "page": 9,
+            "text": "Although GG-Transformer provides a powerful and efficient solution to make Transformers scalable\nto large inputs, some limitations still exist and worth further exploring."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2647
+                },
+                {
+                    "x": 2108,
+                    "y": 2647
+                },
+                {
+                    "x": 2108,
+                    "y": 3013
+                },
+                {
+                    "x": 443,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:18px'>Firstly, over-fitting is a common problem [12] in Vision Transformers and can be alleviated by<br>large-scale pretraining [12] or strong augmentations and regularization [32]. This problem is more<br>serious for stronger models (GG-Transformer) and in the tasks with relatively small dataset (e.g.<br>semantic segmentation). Secondly, Transformers suffer from performance degradation in modeling<br>longer-range dependencies, when there exists large discrepancy in the training-testing image size.<br>The limitations can come from position encoding, which has fixed size and need to be interpolated<br>to different input sizes, or self-attention itself, which may not adapt well when significant changes<br>happen in input size. Lastly, there is a long-lasting debate on the impacts of AI on human world. As a</p>",
+            "id": 97,
+            "page": 9,
+            "text": "Firstly, over-fitting is a common problem [12] in Vision Transformers and can be alleviated by\nlarge-scale pretraining [12] or strong augmentations and regularization [32]. This problem is more\nserious for stronger models (GG-Transformer) and in the tasks with relatively small dataset (e.g.\nsemantic segmentation). Secondly, Transformers suffer from performance degradation in modeling\nlonger-range dependencies, when there exists large discrepancy in the training-testing image size.\nThe limitations can come from position encoding, which has fixed size and need to be interpolated\nto different input sizes, or self-attention itself, which may not adapt well when significant changes\nhappen in input size. Lastly, there is a long-lasting debate on the impacts of AI on human world. As a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3093
+                },
+                {
+                    "x": 1288,
+                    "y": 3127
+                },
+                {
+                    "x": 1260,
+                    "y": 3127
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='98' style='font-size:14px'>9</footer>",
+            "id": 98,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 307
+                },
+                {
+                    "x": 2107,
+                    "y": 307
+                },
+                {
+                    "x": 2107,
+                    "y": 399
+                },
+                {
+                    "x": 441,
+                    "y": 399
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:16px'>method improving the fundamental ability of deep learning, our work also advances the development<br>of AI, which means there could be both beneficial and harmful influences depending on the users.</p>",
+            "id": 99,
+            "page": 10,
+            "text": "method improving the fundamental ability of deep learning, our work also advances the development\nof AI, which means there could be both beneficial and harmful influences depending on the users."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 468
+                },
+                {
+                    "x": 768,
+                    "y": 468
+                },
+                {
+                    "x": 768,
+                    "y": 519
+                },
+                {
+                    "x": 445,
+                    "y": 519
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>6 Conclusion</p>",
+            "id": 100,
+            "page": 10,
+            "text": "6 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 571
+                },
+                {
+                    "x": 2110,
+                    "y": 571
+                },
+                {
+                    "x": 2110,
+                    "y": 848
+                },
+                {
+                    "x": 442,
+                    "y": 848
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:16px'>In this paper, we present GG-Transformer, which offers an efficient and effective solution to adapting<br>Transformers for vision tasks. GG-Transformer, inspired by how human beings learn from the world,<br>is equipped with parallel and complementary Glance branch and Gaze branch, which offer long-range<br>relationship and short-range modeling, respectively. The two branches can specialize in their tasks<br>and collaborate with each other, which leads to a much more efficient ViT design for vision tasks.<br>Experiments on various architectures and benchmarks validate the advantages of GG-Transformer.</p>",
+            "id": 101,
+            "page": 10,
+            "text": "In this paper, we present GG-Transformer, which offers an efficient and effective solution to adapting\nTransformers for vision tasks. GG-Transformer, inspired by how human beings learn from the world,\nis equipped with parallel and complementary Glance branch and Gaze branch, which offer long-range\nrelationship and short-range modeling, respectively. The two branches can specialize in their tasks\nand collaborate with each other, which leads to a much more efficient ViT design for vision tasks.\nExperiments on various architectures and benchmarks validate the advantages of GG-Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 911
+                },
+                {
+                    "x": 687,
+                    "y": 911
+                },
+                {
+                    "x": 687,
+                    "y": 962
+                },
+                {
+                    "x": 443,
+                    "y": 962
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:20px'>References</p>",
+            "id": 102,
+            "page": 10,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 452,
+                    "y": 985
+                },
+                {
+                    "x": 2116,
+                    "y": 985
+                },
+                {
+                    "x": 2116,
+                    "y": 3015
+                },
+                {
+                    "x": 452,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='103' style='font-size:14px'>[1] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: Delving into high quality object detection. In<br>Proceedings of the IEEE conference on computer vision and pattern recognition, pages 6154-6162, 2018.<br>[2] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey<br>Zagoruyko. End-to-end object detection with transformers. In European Conference on Computer Vision,<br>pages 213-229. Springer, 2020.<br>[3] Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L Yuille, and<br>Yuyin Zhou. Transunet: Transformers make strong encoders for medical image segmentation. arXiv<br>preprint arXiv:2102.04306, 2021.<br>[4] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng,<br>Ziwei Liu, Jiarui Xu, et al. Mmdetection: Open mmlab detection toolbox and benchmark. arXiv preprint<br>arXiv:1906.07155, 2019.<br>[5] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution<br>for semantic image segmentation. arXiv preprint arXiv: 1706.05587, 2017.<br>[6] Fran�ois Chollet. Xception: Deep learning with depthwise separable convolutions. In Proceedings of the<br>IEEE conference on computer vision and pattern recognition, pages 1251-1258, 2017.<br>[7] Xiangxiang Chu, Zhi Tian, Bo Zhang, Xinlong Wang, Xiaolin Wei, Huaxia Xia, and Chunhua Shen.<br>Conditional positional encodings for vision transformers. Arxiv preprint 2102.10882, 2021.<br>[8] MMSegmentation Contributors. MMSegmentation: Openmmlab semantic segmentation toolbox and<br>benchmark. https : / /github · com/ open-mnlab/mmsegmentation, 2020.<br>[9] Ekin D Cubuk, Barret Zoph, Jonathon Shlens, and Quoc V Le. Randaugment: Practical automated data<br>augmentation with a reduced search space. In Proceedings of the IEEE/CVF Conference on Computer<br>Vision and Pattern Recognition Workshops, pages 702-703, 2020.<br>[10] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical<br>image database. In 2009 IEEE conference on computer vision and pattern recognition, pages 248-255.<br>Ieee, 2009.<br>[11] Heiner Deubel and Werner X. Schneider. Saccade target selection and object recognition: Evidence for a<br>common attentional mechanism. Vision Research, 36(12):1827-1837, 1996.<br>[12] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas<br>Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth<br>16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.<br>[13] Haoqi Fan, Bo Xiong, Karttikeya Mangalam, Yanghao Li, Zhicheng Yan, Jitendra Malik, and Christoph<br>Feichtenhofer. Multiscale vision transformers. arXiv preprint arXiv:2104. 11227, 2021.<br>[14] Kai Han, An Xiao, Enhua Wu, Jianyuan Guo, Chunjing Xu, and Yunhe Wang. Transformer in transformer.<br>arXiv preprint arXiv:2103.00112, 2021.<br>[15] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Girshick. Mask r-cnn. In Proceedings of the IEEE<br>international conference on computer vision, pages 2961-2969, 2017.<br>[16] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition.<br>In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778, 2016.<br>[17] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten Hoefler, and Daniel Soudry. Augment your<br>batch: Improving generalization through instance repetition. In Proceedings of the IEEE/CVF Conference<br>on Computer Vision and Pattern Recognition, pages 8129-8138, 2020.</p>",
+            "id": 103,
+            "page": 10,
+            "text": "[1] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: Delving into high quality object detection. In\nProceedings of the IEEE conference on computer vision and pattern recognition, pages 6154-6162, 2018.\n[2] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander Kirillov, and Sergey\nZagoruyko. End-to-end object detection with transformers. In European Conference on Computer Vision,\npages 213-229. Springer, 2020.\n[3] Jieneng Chen, Yongyi Lu, Qihang Yu, Xiangde Luo, Ehsan Adeli, Yan Wang, Le Lu, Alan L Yuille, and\nYuyin Zhou. Transunet: Transformers make strong encoders for medical image segmentation. arXiv\npreprint arXiv:2102.04306, 2021.\n[4] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng,\nZiwei Liu, Jiarui Xu, et al. Mmdetection: Open mmlab detection toolbox and benchmark. arXiv preprint\narXiv:1906.07155, 2019.\n[5] Liang-Chieh Chen, George Papandreou, Florian Schroff, and Hartwig Adam. Rethinking atrous convolution\nfor semantic image segmentation. arXiv preprint arXiv: 1706.05587, 2017.\n[6] Fran�ois Chollet. Xception: Deep learning with depthwise separable convolutions. In Proceedings of the\nIEEE conference on computer vision and pattern recognition, pages 1251-1258, 2017.\n[7] Xiangxiang Chu, Zhi Tian, Bo Zhang, Xinlong Wang, Xiaolin Wei, Huaxia Xia, and Chunhua Shen.\nConditional positional encodings for vision transformers. Arxiv preprint 2102.10882, 2021.\n[8] MMSegmentation Contributors. MMSegmentation: Openmmlab semantic segmentation toolbox and\nbenchmark. https : / /github · com/ open-mnlab/mmsegmentation, 2020.\n[9] Ekin D Cubuk, Barret Zoph, Jonathon Shlens, and Quoc V Le. Randaugment: Practical automated data\naugmentation with a reduced search space. In Proceedings of the IEEE/CVF Conference on Computer\nVision and Pattern Recognition Workshops, pages 702-703, 2020.\n[10] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li Fei-Fei. Imagenet: A large-scale hierarchical\nimage database. In 2009 IEEE conference on computer vision and pattern recognition, pages 248-255.\nIeee, 2009.\n[11] Heiner Deubel and Werner X. Schneider. Saccade target selection and object recognition: Evidence for a\ncommon attentional mechanism. Vision Research, 36(12):1827-1837, 1996.\n[12] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas\nUnterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, et al. An image is worth\n16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.\n[13] Haoqi Fan, Bo Xiong, Karttikeya Mangalam, Yanghao Li, Zhicheng Yan, Jitendra Malik, and Christoph\nFeichtenhofer. Multiscale vision transformers. arXiv preprint arXiv:2104. 11227, 2021.\n[14] Kai Han, An Xiao, Enhua Wu, Jianyuan Guo, Chunjing Xu, and Yunhe Wang. Transformer in transformer.\narXiv preprint arXiv:2103.00112, 2021.\n[15] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Girshick. Mask r-cnn. In Proceedings of the IEEE\ninternational conference on computer vision, pages 2961-2969, 2017.\n[16] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for image recognition.\nIn Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770-778, 2016.\n[17] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten Hoefler, and Daniel Soudry. Augment your\nbatch: Improving generalization through instance repetition. In Proceedings of the IEEE/CVF Conference\non Computer Vision and Pattern Recognition, pages 8129-8138, 2020."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1253,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3130
+                },
+                {
+                    "x": 1253,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='104' style='font-size:14px'>10</footer>",
+            "id": 104,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 291
+                },
+                {
+                    "x": 2122,
+                    "y": 291
+                },
+                {
+                    "x": 2122,
+                    "y": 3008
+                },
+                {
+                    "x": 442,
+                    "y": 3008
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:14px'>[18] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local relation networks for image recognition. In<br>Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 3464-3473, 2019.<br>[19] Gao Huang, Yu Sun, Zhuang Liu, Daniel Sedra, and Kilian Q Weinberger. Deep networks with stochastic<br>depth. In European conference on computer vision, pages 646-661. Springer, 2016.<br>[20] Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. Ccnet:<br>Criss-cross attention for semantic segmentation. In Proceedings of the IEEE/CVF International Conference<br>on Computer Vision, pages 603-612, 2019.<br>[21] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional<br>neural networks. Advances in neural information processing systems, 25:1097-1105, 2012.<br>[22] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to<br>document recognition. Proceedings of the IEEE, 86(11):2278-2324, 1998.<br>[23] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,<br>and C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on<br>computer vision, pages 740-755. Springer, 2014.<br>[24] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin<br>transformer: Hierarchical vision transformer using shifted windows. arXiv preprint arXiv:2103.14030,<br>2021.<br>[25] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint<br>arXiv:1711.05101, 2017.<br>[26] Boris T Polyak and Anatoli B Juditsky. Acceleration of stochastic approximation by averaging. SIAM<br>journal on control and optimization, 30(4):838-855, 1992.<br>[27] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick, Kaiming He, and Piotr Dollar. Designing network<br>design spaces. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,<br>pages 10428-10436, 2020.<br>[28] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, and Jonathon Shlens.<br>Stand-alone self-attention in vision models. arXiv preprint arXiv:1906.05909, 2019.<br>[29] Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2:<br>Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and<br>pattern recognition, pages 4510-4520, 2018.<br>[30] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recogni-<br>tion. arXiv preprint arXiv:1409.1556, 2014.<br>[31] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model scaling for convolutional neural networks. In<br>International Conference on Machine Learning, pages 6105-6114. PMLR, 2019.<br>[32] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, and Herve<br>Jegou. Training data-efficient image transformers & distillation through attention. arXiv preprint<br>arXiv:2012.12877, 2020.<br>[33] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz<br>Kaiser, and Illia Polosukhin. Attention is all you need. arXiv preprint arXiv:1706.03762, 2017.<br>[34] Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. Axial-<br>deeplab: Stand-alone axial-attention for panoptic segmentation. In European Conference on Computer<br>Vision, pages 108-126. Springer, 2020.<br>[35] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao Song, Ding Liang, Tong Lu, Ping Luo, and<br>Ling Shao. Pyramid vision transformer: A versatile backbone for dense prediction without convolutions.<br>arXiv preprint arXiv:2102.12122, 2021.<br>[36] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In<br>Proceedings of the IEEE conference on computer vision and pattern recognition, pages 7794-7803, 2018.<br>[37] Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan, and Lei Zhang. Cvt:<br>Introducing convolutions to vision transformers. arXiv preprint arXiv:2103.15808, 2021.<br>[38] Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun. Unified perceptual parsing for scene<br>understanding. In Proceedings of the European Conference on Computer Vision (ECCV), pages 418-434,<br>2018.<br>[39] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and Kaiming He. Aggregated residual transforma-<br>tions for deep neural networks. In Proceedings of the IEEE conference on computer vision and pattern<br>recognition, pages 1492-1500, 2017.<br>[40] Fisher Yu and Vladlen Koltun. Multi-scale context aggregation by dilated convolutions. arXiv preprint<br>arXiv:1511.07122, 2015.</p>",
+            "id": 105,
+            "page": 11,
+            "text": "[18] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local relation networks for image recognition. In\nProceedings of the IEEE/CVF International Conference on Computer Vision, pages 3464-3473, 2019.\n[19] Gao Huang, Yu Sun, Zhuang Liu, Daniel Sedra, and Kilian Q Weinberger. Deep networks with stochastic\ndepth. In European conference on computer vision, pages 646-661. Springer, 2016.\n[20] Zilong Huang, Xinggang Wang, Lichao Huang, Chang Huang, Yunchao Wei, and Wenyu Liu. Ccnet:\nCriss-cross attention for semantic segmentation. In Proceedings of the IEEE/CVF International Conference\non Computer Vision, pages 603-612, 2019.\n[21] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Imagenet classification with deep convolutional\nneural networks. Advances in neural information processing systems, 25:1097-1105, 2012.\n[22] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to\ndocument recognition. Proceedings of the IEEE, 86(11):2278-2324, 1998.\n[23] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva Ramanan, Piotr Dollar,\nand C Lawrence Zitnick. Microsoft coco: Common objects in context. In European conference on\ncomputer vision, pages 740-755. Springer, 2014.\n[24] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng Zhang, Stephen Lin, and Baining Guo. Swin\ntransformer: Hierarchical vision transformer using shifted windows. arXiv preprint arXiv:2103.14030,\n2021.\n[25] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint\narXiv:1711.05101, 2017.\n[26] Boris T Polyak and Anatoli B Juditsky. Acceleration of stochastic approximation by averaging. SIAM\njournal on control and optimization, 30(4):838-855, 1992.\n[27] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick, Kaiming He, and Piotr Dollar. Designing network\ndesign spaces. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition,\npages 10428-10436, 2020.\n[28] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan Bello, Anselm Levskaya, and Jonathon Shlens.\nStand-alone self-attention in vision models. arXiv preprint arXiv:1906.05909, 2019.\n[29] Mark Sandler, Andrew Howard, Menglong Zhu, Andrey Zhmoginov, and Liang-Chieh Chen. Mobilenetv2:\nInverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and\npattern recognition, pages 4510-4520, 2018.\n[30] Karen Simonyan and Andrew Zisserman. Very deep convolutional networks for large-scale image recogni-\ntion. arXiv preprint arXiv:1409.1556, 2014.\n[31] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model scaling for convolutional neural networks. In\nInternational Conference on Machine Learning, pages 6105-6114. PMLR, 2019.\n[32] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco Massa, Alexandre Sablayrolles, and Herve\nJegou. Training data-efficient image transformers & distillation through attention. arXiv preprint\narXiv:2012.12877, 2020.\n[33] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz\nKaiser, and Illia Polosukhin. Attention is all you need. arXiv preprint arXiv:1706.03762, 2017.\n[34] Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam, Alan Yuille, and Liang-Chieh Chen. Axial-\ndeeplab: Stand-alone axial-attention for panoptic segmentation. In European Conference on Computer\nVision, pages 108-126. Springer, 2020.\n[35] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao Song, Ding Liang, Tong Lu, Ping Luo, and\nLing Shao. Pyramid vision transformer: A versatile backbone for dense prediction without convolutions.\narXiv preprint arXiv:2102.12122, 2021.\n[36] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He. Non-local neural networks. In\nProceedings of the IEEE conference on computer vision and pattern recognition, pages 7794-7803, 2018.\n[37] Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu, Xiyang Dai, Lu Yuan, and Lei Zhang. Cvt:\nIntroducing convolutions to vision transformers. arXiv preprint arXiv:2103.15808, 2021.\n[38] Tete Xiao, Yingcheng Liu, Bolei Zhou, Yuning Jiang, and Jian Sun. Unified perceptual parsing for scene\nunderstanding. In Proceedings of the European Conference on Computer Vision (ECCV), pages 418-434,\n2018.\n[39] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and Kaiming He. Aggregated residual transforma-\ntions for deep neural networks. In Proceedings of the IEEE conference on computer vision and pattern\nrecognition, pages 1492-1500, 2017.\n[40] Fisher Yu and Vladlen Koltun. Multi-scale context aggregation by dilated convolutions. arXiv preprint\narXiv:1511.07122, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3093
+                },
+                {
+                    "x": 1296,
+                    "y": 3093
+                },
+                {
+                    "x": 1296,
+                    "y": 3130
+                },
+                {
+                    "x": 1252,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='106' style='font-size:14px'>11</footer>",
+            "id": 106,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 303
+                },
+                {
+                    "x": 2113,
+                    "y": 303
+                },
+                {
+                    "x": 2113,
+                    "y": 1345
+                },
+                {
+                    "x": 441,
+                    "y": 1345
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:18px'>[41] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi, Francis EH Tay, Jiashi Feng, and Shuicheng<br>Yan. Tokens-to-token vit: Training vision transformers from scratch on imagenet. arXiv preprint<br>arXiv:2101.11986, 2021.<br>[42] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, and Youngjoon Yoo.<br>Cutmix: Regularization strategy to train strong classifiers with localizable features. In Proceedings of the<br>IEEE/CVF International Conference on Computer Vision, pages 6023-6032, 2019.<br>[43] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and David Lopez-Paz. mixup: Beyond empirical risk<br>minimization. arXiv preprint arXiv:1710.09412, 2017.<br>[44] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring self-attention for image recognition. In<br>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10076-<br>10085, 2020.<br>[45] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing<br>network. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages<br>2881-2890, 2017.<br>[46] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng<br>Feng, Tao Xiang, Philip HS Torr, et al. Rethinking semantic segmentation from a sequence-to-sequence<br>perspective with transformers. arXiv preprint arXiv:2012.15840, 2020.<br>[47] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. Random erasing data augmentation.<br>In Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 13001-13008, 2020.<br>[48] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing<br>through ade20k dataset. In Proceedings of the IEEE conference on computer vision and pattern recognition,<br>pages 633-641, 2017.</p>",
+            "id": 107,
+            "page": 12,
+            "text": "[41] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi, Francis EH Tay, Jiashi Feng, and Shuicheng\nYan. Tokens-to-token vit: Training vision transformers from scratch on imagenet. arXiv preprint\narXiv:2101.11986, 2021.\n[42] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk Chun, Junsuk Choe, and Youngjoon Yoo.\nCutmix: Regularization strategy to train strong classifiers with localizable features. In Proceedings of the\nIEEE/CVF International Conference on Computer Vision, pages 6023-6032, 2019.\n[43] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and David Lopez-Paz. mixup: Beyond empirical risk\nminimization. arXiv preprint arXiv:1710.09412, 2017.\n[44] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring self-attention for image recognition. In\nProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10076-\n10085, 2020.\n[45] Hengshuang Zhao, Jianping Shi, Xiaojuan Qi, Xiaogang Wang, and Jiaya Jia. Pyramid scene parsing\nnetwork. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages\n2881-2890, 2017.\n[46] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu, Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng\nFeng, Tao Xiang, Philip HS Torr, et al. Rethinking semantic segmentation from a sequence-to-sequence\nperspective with transformers. arXiv preprint arXiv:2012.15840, 2020.\n[47] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and Yi Yang. Random erasing data augmentation.\nIn Proceedings of the AAAI Conference on Artificial Intelligence, volume 34, pages 13001-13008, 2020.\n[48] Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso, and Antonio Torralba. Scene parsing\nthrough ade20k dataset. In Proceedings of the IEEE conference on computer vision and pattern recognition,\npages 633-641, 2017."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3091
+                },
+                {
+                    "x": 1300,
+                    "y": 3091
+                },
+                {
+                    "x": 1300,
+                    "y": 3131
+                },
+                {
+                    "x": 1252,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='108' style='font-size:14px'>12</footer>",
+            "id": 108,
+            "page": 12,
+            "text": "12"
+        }
+    ]
+}

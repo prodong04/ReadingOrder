@@ -1,0 +1,3781 @@
+{
+    "id": "329ac312-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1511.06391v4.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 109
+                },
+                {
+                    "x": 1226,
+                    "y": 109
+                },
+                {
+                    "x": 1226,
+                    "y": 158
+                },
+                {
+                    "x": 444,
+                    "y": 158
+                }
+            ],
+            "category": "header",
+            "html": "<header id='0' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 0,
+            "page": 1,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 331
+                },
+                {
+                    "x": 2105,
+                    "y": 331
+                },
+                {
+                    "x": 2105,
+                    "y": 405
+                },
+                {
+                    "x": 440,
+                    "y": 405
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:22px'>ORDER MATTERS: SEQUENCE TO SEQUENCE FOR SETS</p>",
+            "id": 1,
+            "page": 1,
+            "text": "ORDER MATTERS: SEQUENCE TO SEQUENCE FOR SETS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 467,
+                    "y": 491
+                },
+                {
+                    "x": 1333,
+                    "y": 491
+                },
+                {
+                    "x": 1333,
+                    "y": 540
+                },
+                {
+                    "x": 467,
+                    "y": 540
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Oriol Vinyals, Samy Bengio, Manjunath Kudlur</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Oriol Vinyals, Samy Bengio, Manjunath Kudlur"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 469,
+                    "y": 541
+                },
+                {
+                    "x": 708,
+                    "y": 541
+                },
+                {
+                    "x": 708,
+                    "y": 581
+                },
+                {
+                    "x": 469,
+                    "y": 581
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='3' style='font-size:18px'>Google Brain</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Google Brain"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 475,
+                    "y": 586
+                },
+                {
+                    "x": 1393,
+                    "y": 586
+                },
+                {
+                    "x": 1393,
+                    "y": 633
+                },
+                {
+                    "x": 475,
+                    "y": 633
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='4' style='font-size:18px'>{vinyals, bengio, keveman}@google · com</p>",
+            "id": 4,
+            "page": 1,
+            "text": "{vinyals, bengio, keveman}@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1155,
+                    "y": 753
+                },
+                {
+                    "x": 1395,
+                    "y": 753
+                },
+                {
+                    "x": 1395,
+                    "y": 802
+                },
+                {
+                    "x": 1155,
+                    "y": 802
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:22px'>ABSTRACT</p>",
+            "id": 5,
+            "page": 1,
+            "text": "ABSTRACT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 591,
+                    "y": 847
+                },
+                {
+                    "x": 1960,
+                    "y": 847
+                },
+                {
+                    "x": 1960,
+                    "y": 1680
+                },
+                {
+                    "x": 591,
+                    "y": 1680
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Sequences have become first class citizens in supervised learning thanks to the<br>resurgence of recurrent neural networks. Many complex tasks that require map-<br>ping from or to a sequence of observations can now be formulated with the<br>sequence-to-sequence (seq2seq) framework which employs the chain rule to ef-<br>ficiently represent the joint probability of sequences. In many cases, however,<br>variable sized inputs and/or outputs might not be naturally expressed as sequences.<br>For instance, it is not clear how to input a set of numbers into a model where the<br>task is to sort them; similarly, we do not know how to organize outputs when<br>they correspond to random variables and the task is to model their unknown joint<br>probability. In this paper, we first show using various examples that the order in<br>which we organize input and/or output data matters significantly when learning an<br>underlying model. We then discuss an extension of the seq2seq framework that<br>goes beyond sequences and handles input sets in a principled way. In addition,<br>we propose a loss which, by searching over possible orders during training, deals<br>with the lack of structure of output sets. We show empirical evidence of our claims<br>regarding ordering, and on the modifications to the seq2seq framework on bench-<br>mark language modeling and parsing tasks, as well as two artificial tasks - sorting<br>numbers and estimating the joint probability of unknown graphical models.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Sequences have become first class citizens in supervised learning thanks to the resurgence of recurrent neural networks. Many complex tasks that require mapping from or to a sequence of observations can now be formulated with the sequence-to-sequence (seq2seq) framework which employs the chain rule to efficiently represent the joint probability of sequences. In many cases, however, variable sized inputs and/or outputs might not be naturally expressed as sequences. For instance, it is not clear how to input a set of numbers into a model where the task is to sort them; similarly, we do not know how to organize outputs when they correspond to random variables and the task is to model their unknown joint probability. In this paper, we first show using various examples that the order in which we organize input and/or output data matters significantly when learning an underlying model. We then discuss an extension of the seq2seq framework that goes beyond sequences and handles input sets in a principled way. In addition, we propose a loss which, by searching over possible orders during training, deals with the lack of structure of output sets. We show empirical evidence of our claims regarding ordering, and on the modifications to the seq2seq framework on benchmark language modeling and parsing tasks, as well as two artificial tasks - sorting numbers and estimating the joint probability of unknown graphical models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 449,
+                    "y": 1757
+                },
+                {
+                    "x": 863,
+                    "y": 1757
+                },
+                {
+                    "x": 863,
+                    "y": 1810
+                },
+                {
+                    "x": 449,
+                    "y": 1810
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:20px'>1 INTRODUCTION</p>",
+            "id": 7,
+            "page": 1,
+            "text": "1 INTRODUCTION"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1857
+                },
+                {
+                    "x": 2109,
+                    "y": 1857
+                },
+                {
+                    "x": 2109,
+                    "y": 2455
+                },
+                {
+                    "x": 442,
+                    "y": 2455
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:18px'>Deep architectures have shown in the last few years that they often yield state-of-the-art perfor-<br>mance on several tasks, ranging from image classification (Ioffe & Szegedy, 2015) to speech recog-<br>nition (Hinton et al., 2012). More recently, recurrent neural networks (RNNs) and variants such as<br>the Long Short Term Memory network (LSTMs) proposed by Hochreiter & Schmidhuber (1997)<br>have shown similar impressive performance on several inherently sequential tasks. Such examples<br>range from machine translation (Sutskever et al., 2014; Bahdanau et al., 2015a), to image caption-<br>ing (Vinyals et al., 2015c; Mao et al., 2015; Donahue et al., 2015), speech recognition (Chan et al.,<br>2015; Bahdanau et al., 2015b), constituency parsing (Vinyals et al., 2015b) and learning to com-<br>pute (Zaremba & Sutskever, 2014; Vinyals et al., 2015a). These approaches all follow a simple<br>architecture, dubbed sequence-to-sequence (seq2seq), where the input is read completely using an<br>encoder, which is either an LSTM when the input is a sequence, or a convolutional network for<br>images. The final state of the encoder is then fed to a decoder LSTM whose purpose is to produce<br>the target sequence, one token at a time.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Deep architectures have shown in the last few years that they often yield state-of-the-art performance on several tasks, ranging from image classification (Ioffe & Szegedy, 2015) to speech recognition (Hinton , 2012). More recently, recurrent neural networks (RNNs) and variants such as the Long Short Term Memory network (LSTMs) proposed by Hochreiter & Schmidhuber (1997) have shown similar impressive performance on several inherently sequential tasks. Such examples range from machine translation (Sutskever , 2014; Bahdanau , 2015a), to image captioning (Vinyals , 2015c; Mao , 2015; Donahue , 2015), speech recognition (Chan , 2015; Bahdanau , 2015b), constituency parsing (Vinyals , 2015b) and learning to compute (Zaremba & Sutskever, 2014; Vinyals , 2015a). These approaches all follow a simple architecture, dubbed sequence-to-sequence (seq2seq), where the input is read completely using an encoder, which is either an LSTM when the input is a sequence, or a convolutional network for images. The final state of the encoder is then fed to a decoder LSTM whose purpose is to produce the target sequence, one token at a time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2476
+                },
+                {
+                    "x": 2109,
+                    "y": 2476
+                },
+                {
+                    "x": 2109,
+                    "y": 2848
+                },
+                {
+                    "x": 441,
+                    "y": 2848
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:16px'>When the data is naturally organized as a sequence, the sequence-to-sequence framework is well<br>suited. For example, the chain rule is used to decompose the joint probability of sequences of words,<br>and can be implemented by an LSTM without making any conditional independence assumption.<br>But how should we represent data, either inputs or outputs, for problems where an obvious order<br>cannot be determined? For instance, how should we encode a set of numbers when the task is to sort<br>them? Alternatively, how should we output a set of detected objects in an image when there is no<br>specific known order among them? Does the a priori choice of ordering of the data to be presented<br>to the model matter?</p>",
+            "id": 9,
+            "page": 1,
+            "text": "When the data is naturally organized as a sequence, the sequence-to-sequence framework is well suited. For example, the chain rule is used to decompose the joint probability of sequences of words, and can be implemented by an LSTM without making any conditional independence assumption. But how should we represent data, either inputs or outputs, for problems where an obvious order cannot be determined? For instance, how should we encode a set of numbers when the task is to sort them? Alternatively, how should we output a set of detected objects in an image when there is no specific known order among them? Does the a priori choice of ordering of the data to be presented to the model matter?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2867
+                },
+                {
+                    "x": 2111,
+                    "y": 2867
+                },
+                {
+                    "x": 2111,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:16px'>The purpose of this paper is two-fold. First, we show that even when no natural order is known<br>among input or output objects, there might still be one that yields better performance, hence, order<br>matters. Second, we propose two approaches to consider sets either as inputs and/or outputs in our<br>models and evaluate how they perform on various artificial and real datasets.</p>",
+            "id": 10,
+            "page": 1,
+            "text": "The purpose of this paper is two-fold. First, we show that even when no natural order is known among input or output objects, there might still be one that yields better performance, hence, order matters. Second, we propose two approaches to consider sets either as inputs and/or outputs in our models and evaluate how they perform on various artificial and real datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 58,
+                    "y": 862
+                },
+                {
+                    "x": 147,
+                    "y": 862
+                },
+                {
+                    "x": 147,
+                    "y": 2373
+                },
+                {
+                    "x": 58,
+                    "y": 2373
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='11' style='font-size:14px'>2016<br>Feb<br>23<br>[stat.ML]<br>arXiv:1511.06391v4</footer>",
+            "id": 11,
+            "page": 1,
+            "text": "2016 Feb 23 [stat.ML] arXiv:1511.06391v4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3172
+                },
+                {
+                    "x": 1260,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='12' style='font-size:14px'>1</footer>",
+            "id": 12,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 444,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='13' style='font-size:16px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 13,
+            "page": 2,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 340
+                },
+                {
+                    "x": 885,
+                    "y": 340
+                },
+                {
+                    "x": 885,
+                    "y": 394
+                },
+                {
+                    "x": 445,
+                    "y": 394
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:22px'>2 RELATED WORK</p>",
+            "id": 14,
+            "page": 2,
+            "text": "2 RELATED WORK"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 443
+                },
+                {
+                    "x": 2108,
+                    "y": 443
+                },
+                {
+                    "x": 2108,
+                    "y": 903
+                },
+                {
+                    "x": 441,
+                    "y": 903
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:18px'>Since sequence-to-sequence models were proposed for machine translation (Sutskever et al., 2014;<br>Cho et al., 2014; Kalchbrenner & Blunsom, 2013), the research community has proposed several<br>applications in which these models can perform mappings from and/or to sequences. For example,<br>image captioning maps from an image to a sentence (Vinyals et al., 2015c; Mao et al., 2015; Donahue<br>et al., 2015), parsing maps from a sentence to a (linearized) parse tree (Vinyals et al., 2015b), and<br>models for computation map from problem statements (e.g. a python program or a set of points<br>on the plane) to their solutions (the answer to the program (Zaremba & Sutskever, 2014), or the<br>traveling salesman problem tour for the set of points (Vinyals et al., 2015a)). Itis out of the scope of<br>this paper to review all successful applications of seq2seq, but the list above already includes some<br>non-trivial examples of mapping to/from objects that are not necessarily sequences.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "Since sequence-to-sequence models were proposed for machine translation (Sutskever , 2014; Cho , 2014; Kalchbrenner & Blunsom, 2013), the research community has proposed several applications in which these models can perform mappings from and/or to sequences. For example, image captioning maps from an image to a sentence (Vinyals , 2015c; Mao , 2015; Donahue , 2015), parsing maps from a sentence to a (linearized) parse tree (Vinyals , 2015b), and models for computation map from problem statements (e.g. a python program or a set of points on the plane) to their solutions (the answer to the program (Zaremba & Sutskever, 2014), or the traveling salesman problem tour for the set of points (Vinyals , 2015a)). Itis out of the scope of this paper to review all successful applications of seq2seq, but the list above already includes some non-trivial examples of mapping to/from objects that are not necessarily sequences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 924
+                },
+                {
+                    "x": 2108,
+                    "y": 924
+                },
+                {
+                    "x": 2108,
+                    "y": 1200
+                },
+                {
+                    "x": 442,
+                    "y": 1200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:20px'>More recently, many related models and key contributions have been proposed, that utilize the con-<br>cept of external memories, including RNNSearch (Bahdanau et al., 2015a), Memory Networks (We-<br>ston et al., 2015) and Neural Turing Machines (Graves et al., 2014). The key element that these<br>models utilize is a reading (or attention) mechanism to read these external memories in a fully dif-<br>ferentiable way (though there has also been work with discrete reading mechanism, most notably<br>RL-NTM (Zaremba & Sutskever, 2015)).</p>",
+            "id": 16,
+            "page": 2,
+            "text": "More recently, many related models and key contributions have been proposed, that utilize the concept of external memories, including RNNSearch (Bahdanau , 2015a), Memory Networks (Weston , 2015) and Neural Turing Machines (Graves , 2014). The key element that these models utilize is a reading (or attention) mechanism to read these external memories in a fully differentiable way (though there has also been work with discrete reading mechanism, most notably RL-NTM (Zaremba & Sutskever, 2015))."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1223
+                },
+                {
+                    "x": 2107,
+                    "y": 1223
+                },
+                {
+                    "x": 2107,
+                    "y": 1456
+                },
+                {
+                    "x": 440,
+                    "y": 1456
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Unlike traditional structured prediction algorithms (Bakir et al., 2007), our approach relies on the<br>chain rule to serialize output random variables through the strong capabilities of LSTM networks<br>to model long-term correlation. Similarly, we do not want to assume a known structured input, as<br>is done for instance with recursive neural networks (Socher et al., 2010) which encode sentences<br>recursively as (given) trees.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Unlike traditional structured prediction algorithms (Bakir , 2007), our approach relies on the chain rule to serialize output random variables through the strong capabilities of LSTM networks to model long-term correlation. Similarly, we do not want to assume a known structured input, as is done for instance with recursive neural networks (Socher , 2010) which encode sentences recursively as (given) trees."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1520
+                },
+                {
+                    "x": 1568,
+                    "y": 1520
+                },
+                {
+                    "x": 1568,
+                    "y": 1574
+                },
+                {
+                    "x": 444,
+                    "y": 1574
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:22px'>3 NEURAL NETWORKS FOR SEQUENCES AND SETS</p>",
+            "id": 18,
+            "page": 2,
+            "text": "3 NEURAL NETWORKS FOR SEQUENCES AND SETS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1622
+                },
+                {
+                    "x": 2107,
+                    "y": 1622
+                },
+                {
+                    "x": 2107,
+                    "y": 1904
+                },
+                {
+                    "x": 440,
+                    "y": 1904
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:18px'>Let us consider a generic supervised task with a given training set of n pairs (Xi, Yi)n=1 where<br>(Xi , Yi) is the ith pair of an input and its corresponding target. The sequence-to-sequence paradigm<br>corresponds to tasks where both Xi and Yv are represented by sequences, of possibly different<br>lengths: X2 = {xi, xi2, · · · , xisi } and Yi = {yi , y2, · · · , yti }. In this case, it is reasonable to model<br>each example using the conditional probability P(Y|X) and to use the chain rule to decompose it<br>as follows (we drop the example index 2 in the rest of this section for readability):</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Let us consider a generic supervised task with a given training set of n pairs (Xi, Yi)n=1 where (Xi , Yi) is the ith pair of an input and its corresponding target. The sequence-to-sequence paradigm corresponds to tasks where both Xi and Yv are represented by sequences, of possibly different lengths: X2 = {xi, xi2, · · · , xisi } and Yi = {yi , y2, · · · , yti }. In this case, it is reasonable to model each example using the conditional probability P(Y|X) and to use the chain rule to decompose it as follows (we drop the example index 2 in the rest of this section for readability):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2074
+                },
+                {
+                    "x": 2102,
+                    "y": 2074
+                },
+                {
+                    "x": 2102,
+                    "y": 2163
+                },
+                {
+                    "x": 440,
+                    "y": 2163
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>and implement it as an encoder recurrent neural network (RNN) to read sequentially each Xs E X<br>as follows:</p>",
+            "id": 20,
+            "page": 2,
+            "text": "and implement it as an encoder recurrent neural network (RNN) to read sequentially each Xs E X as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2225
+                },
+                {
+                    "x": 2096,
+                    "y": 2225
+                },
+                {
+                    "x": 2096,
+                    "y": 2319
+                },
+                {
+                    "x": 441,
+                    "y": 2319
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:18px'>where hs is the state of the encoder at time s, followed by a decoder RNN to produce each Yt E Y<br>one at a time, given the current state 9t and the previous Yt-1 symbol:</p>",
+            "id": 21,
+            "page": 2,
+            "text": "where hs is the state of the encoder at time s, followed by a decoder RNN to produce each Yt E Y one at a time, given the current state 9t and the previous Yt-1 symbol:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2590
+                },
+                {
+                    "x": 2106,
+                    "y": 2590
+                },
+                {
+                    "x": 2106,
+                    "y": 2773
+                },
+                {
+                    "x": 442,
+                    "y": 2773
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>The use of the chain rule makes this approach assumption free, SO when the input X corresponds<br>to a sequence (like a sentence), it is reasonable to read it sequentially into an RNN, as in eq. (1).<br>However, how should we encode X ifit does not correspond naturally to a sequence? For instance,<br>what if it corresponds to an unordered set of elements?</p>",
+            "id": 22,
+            "page": 2,
+            "text": "The use of the chain rule makes this approach assumption free, SO when the input X corresponds to a sequence (like a sentence), it is reasonable to read it sequentially into an RNN, as in eq. (1). However, how should we encode X ifit does not correspond naturally to a sequence? For instance, what if it corresponds to an unordered set of elements?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2799
+                },
+                {
+                    "x": 2106,
+                    "y": 2799
+                },
+                {
+                    "x": 2106,
+                    "y": 2934
+                },
+                {
+                    "x": 443,
+                    "y": 2934
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:18px'>Similarly, when the target Y corresponds to a sequence, it is reasonable to produce it sequentially<br>with an RNN, as in eq. (2), but how should we produce Y if it does not correspond naturally to a<br>sequence?</p>",
+            "id": 23,
+            "page": 2,
+            "text": "Similarly, when the target Y corresponds to a sequence, it is reasonable to produce it sequentially with an RNN, as in eq. (2), but how should we produce Y if it does not correspond naturally to a sequence?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2960
+                },
+                {
+                    "x": 2107,
+                    "y": 2960
+                },
+                {
+                    "x": 2107,
+                    "y": 3054
+                },
+                {
+                    "x": 443,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:18px'>Note that sequences can be encoded as sets. Indeed, if we associate to each element of a sequence the<br>index it occupies in it, forming a tuple, we effectively convert this sequence to a set. For example, the</p>",
+            "id": 24,
+            "page": 2,
+            "text": "Note that sequences can be encoded as sets. Indeed, if we associate to each element of a sequence the index it occupies in it, forming a tuple, we effectively convert this sequence to a set. For example, the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='25' style='font-size:18px'>2</footer>",
+            "id": 25,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 445,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='26' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 26,
+            "page": 3,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 346
+                },
+                {
+                    "x": 2109,
+                    "y": 346
+                },
+                {
+                    "x": 2109,
+                    "y": 623
+                },
+                {
+                    "x": 441,
+                    "y": 623
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:18px'>sequence \"I like cats\" becomes the set {(I,1), (like,2), (cats,3)} (note that we can permute elements<br>in the set but still recover the original sequence). Although this may be unnecessary in some cases,<br>we argue that, even for sequences, inputting and/or outputting them in a different order could be<br>beneficial. For example, in sorting we may want to employ a divide-and-conquer strategy which<br>finds the median element first (i.e., we may output the solution in neither increasing nor decreasing<br>sequential order).</p>",
+            "id": 27,
+            "page": 3,
+            "text": "sequence \"I like cats\" becomes the set {(I,1), (like,2), (cats,3)} (note that we can permute elements in the set but still recover the original sequence). Although this may be unnecessary in some cases, we argue that, even for sequences, inputting and/or outputting them in a different order could be beneficial. For example, in sorting we may want to employ a divide-and-conquer strategy which finds the median element first (i.e., we may output the solution in neither increasing nor decreasing sequential order)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 644
+                },
+                {
+                    "x": 2109,
+                    "y": 644
+                },
+                {
+                    "x": 2109,
+                    "y": 830
+                },
+                {
+                    "x": 441,
+                    "y": 830
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:20px'>In the following two sections we discuss how to extend seq2seq to handle input sets (Section 4)<br>and output sets (Section 5). We also show the importance of ordering in a variety of tasks in which<br>seq2seq has successfully been applied, and include experimental results to support our claims and<br>extensions to the existing models.</p>",
+            "id": 28,
+            "page": 3,
+            "text": "In the following two sections we discuss how to extend seq2seq to handle input sets (Section 4) and output sets (Section 5). We also show the importance of ordering in a variety of tasks in which seq2seq has successfully been applied, and include experimental results to support our claims and extensions to the existing models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 928
+                },
+                {
+                    "x": 784,
+                    "y": 928
+                },
+                {
+                    "x": 784,
+                    "y": 979
+                },
+                {
+                    "x": 444,
+                    "y": 979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:22px'>4 INPUT SETS</p>",
+            "id": 29,
+            "page": 3,
+            "text": "4 INPUT SETS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1048
+                },
+                {
+                    "x": 2108,
+                    "y": 1048
+                },
+                {
+                    "x": 2108,
+                    "y": 1236
+                },
+                {
+                    "x": 441,
+                    "y": 1236
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:14px'>We first study extensions to encoding (reading) sets. As we discussed in the previous section, se-<br>quences can be read with a recurrent neural network which can compress its contents into a vector.<br>An important invariance property that must be satisfied when the input is a set (i.e., the order does<br>not matter) is that swapping two elements Xi and xj in the set X should not alter its encoding.</p>",
+            "id": 30,
+            "page": 3,
+            "text": "We first study extensions to encoding (reading) sets. As we discussed in the previous section, sequences can be read with a recurrent neural network which can compress its contents into a vector. An important invariance property that must be satisfied when the input is a set (i.e., the order does not matter) is that swapping two elements Xi and xj in the set X should not alter its encoding."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1258
+                },
+                {
+                    "x": 2108,
+                    "y": 1258
+                },
+                {
+                    "x": 2108,
+                    "y": 1533
+                },
+                {
+                    "x": 441,
+                    "y": 1533
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:20px'>A simple approach which satisfies this, and which in fact has been commonly used for encoding<br>sentences, is the bag-of-words approach. In this case, the representation is simply a reduction (e.g.,<br>addition) of counts, word embeddings, or similar embedding functions, and is naturally permutation<br>invariant. For language and other domains which are naturally sequential, this is replaced with more<br>complex encoders such as recurrent neural networks that take order into account and model higher<br>order statistics of the data.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "A simple approach which satisfies this, and which in fact has been commonly used for encoding sentences, is the bag-of-words approach. In this case, the representation is simply a reduction (e.g., addition) of counts, word embeddings, or similar embedding functions, and is naturally permutation invariant. For language and other domains which are naturally sequential, this is replaced with more complex encoders such as recurrent neural networks that take order into account and model higher order statistics of the data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1557
+                },
+                {
+                    "x": 2108,
+                    "y": 1557
+                },
+                {
+                    "x": 2108,
+                    "y": 1832
+                },
+                {
+                    "x": 441,
+                    "y": 1832
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:18px'>An unsatisfying property of using a reduction operation (such as addition) is that it makes the rep-<br>resentation quite inefficient: the model operates over a fixed dimensional embedding regardless of<br>the length of the set. It is unlikely that such representation will succeed, as the amount of memory<br>required to encode a length T set (or sequence, for that matter) should increase as a function of T.<br>Thus, we argue that even deep convolutional architectures will suffer from this limitation - though<br>some modifications exist (Maas et al., 2012).</p>",
+            "id": 32,
+            "page": 3,
+            "text": "An unsatisfying property of using a reduction operation (such as addition) is that it makes the representation quite inefficient: the model operates over a fixed dimensional embedding regardless of the length of the set. It is unlikely that such representation will succeed, as the amount of memory required to encode a length T set (or sequence, for that matter) should increase as a function of T. Thus, we argue that even deep convolutional architectures will suffer from this limitation - though some modifications exist (Maas , 2012)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1856
+                },
+                {
+                    "x": 2107,
+                    "y": 1856
+                },
+                {
+                    "x": 2107,
+                    "y": 1950
+                },
+                {
+                    "x": 442,
+                    "y": 1950
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>In our work, we largely rely on attention mechanisms to integrate information from a variable length<br>structure, which we describe in Section 4.2.</p>",
+            "id": 33,
+            "page": 3,
+            "text": "In our work, we largely rely on attention mechanisms to integrate information from a variable length structure, which we describe in Section 4.2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2035
+                },
+                {
+                    "x": 987,
+                    "y": 2035
+                },
+                {
+                    "x": 987,
+                    "y": 2082
+                },
+                {
+                    "x": 444,
+                    "y": 2082
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:20px'>4.1 INPUT ORDER MATTERS</p>",
+            "id": 34,
+            "page": 3,
+            "text": "4.1 INPUT ORDER MATTERS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2131
+                },
+                {
+                    "x": 2108,
+                    "y": 2131
+                },
+                {
+                    "x": 2108,
+                    "y": 2408
+                },
+                {
+                    "x": 441,
+                    "y": 2408
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>In this section, we highlight prior work where we observed that the order of inputs impacted the per-<br>formance of seq2seq models taking sequences as input. In principle, order should not matter when<br>using a complex encoder such as a recurrent neural network, as these are universal approximators<br>that can encode complex features from the input sequence (e.g., n-grams of any order). We believe<br>that the reason order seems to matter is due to the underlying non-convex optimization and more<br>suitable prior.</p>",
+            "id": 35,
+            "page": 3,
+            "text": "In this section, we highlight prior work where we observed that the order of inputs impacted the performance of seq2seq models taking sequences as input. In principle, order should not matter when using a complex encoder such as a recurrent neural network, as these are universal approximators that can encode complex features from the input sequence (e.g., n-grams of any order). We believe that the reason order seems to matter is due to the underlying non-convex optimization and more suitable prior."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2846
+                },
+                {
+                    "x": 442,
+                    "y": 2846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>The first example which we experimented with was altering the order of sequences in the context of<br>machine translation. In machine translation, the mapping function encodes a sentence in a source<br>language (e.g., English), and decodes it to its translation in a target language (e.g., French). By<br>reversing the order of the input English sentence, Sutskever et al. (2014) got a 5.0 BLEU score<br>improvement which allowed them to close the gap between their model - a fully end-to-end model<br>for machine translation - and state-of-the-art models which were highly engineered. Similarly, for<br>constituency parsing, in which the mapping is from an English sentence to a flattened version of<br>its constituency parse tree, a 0.5% absolute increase in F1 score was observed when reversing the<br>English sentence (Vinyals et al., 2015b).</p>",
+            "id": 36,
+            "page": 3,
+            "text": "The first example which we experimented with was altering the order of sequences in the context of machine translation. In machine translation, the mapping function encodes a sentence in a source language (e.g., English), and decodes it to its translation in a target language (e.g., French). By reversing the order of the input English sentence, Sutskever  (2014) got a 5.0 BLEU score improvement which allowed them to close the gap between their model - a fully end-to-end model for machine translation - and state-of-the-art models which were highly engineered. Similarly, for constituency parsing, in which the mapping is from an English sentence to a flattened version of its constituency parse tree, a 0.5% absolute increase in F1 score was observed when reversing the English sentence (Vinyals , 2015b)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2868
+                },
+                {
+                    "x": 2108,
+                    "y": 2868
+                },
+                {
+                    "x": 2108,
+                    "y": 3053
+                },
+                {
+                    "x": 441,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:20px'>Furthermore, if we preprocess the data for, e.g., convex hull computation that was presented in<br>Vinyals et al. (2015a) by sorting the points by angle, the task becomes simpler (from O(n log n) to<br>O(n)), and as a result the models obtained are much faster to train and better (increasing accuracy<br>by up to 10% absolute in the most challenging cases).</p>",
+            "id": 37,
+            "page": 3,
+            "text": "Furthermore, if we preprocess the data for, e.g., convex hull computation that was presented in Vinyals  (2015a) by sorting the points by angle, the task becomes simpler (from O(n log n) to O(n)), and as a result the models obtained are much faster to train and better (increasing accuracy by up to 10% absolute in the most challenging cases)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='38' style='font-size:18px'>3</footer>",
+            "id": 38,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 158
+                },
+                {
+                    "x": 444,
+                    "y": 158
+                }
+            ],
+            "category": "header",
+            "html": "<header id='39' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 39,
+            "page": 4,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 346
+                },
+                {
+                    "x": 2107,
+                    "y": 346
+                },
+                {
+                    "x": 2107,
+                    "y": 439
+                },
+                {
+                    "x": 441,
+                    "y": 439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:18px'>All these empirical findings point to the same story: often for optimization purposes, the order in<br>which input data is shown to the model has an impact on the learning performance.</p>",
+            "id": 40,
+            "page": 4,
+            "text": "All these empirical findings point to the same story: often for optimization purposes, the order in which input data is shown to the model has an impact on the learning performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 463
+                },
+                {
+                    "x": 2109,
+                    "y": 463
+                },
+                {
+                    "x": 2109,
+                    "y": 647
+                },
+                {
+                    "x": 441,
+                    "y": 647
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:20px'>Note that we can define an ordering which is independent of the input sequence or set X (e.g., always<br>reversing the words in a translation task), but also an ordering which is input dependent (e.g., sorting<br>the input points in the convex hull case). This distinction also applies in the discussion about output<br>sequences and sets in Section 5.1.</p>",
+            "id": 41,
+            "page": 4,
+            "text": "Note that we can define an ordering which is independent of the input sequence or set X (e.g., always reversing the words in a translation task), but also an ordering which is input dependent (e.g., sorting the input points in the convex hull case). This distinction also applies in the discussion about output sequences and sets in Section 5.1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 669
+                },
+                {
+                    "x": 2109,
+                    "y": 669
+                },
+                {
+                    "x": 2109,
+                    "y": 948
+                },
+                {
+                    "x": 441,
+                    "y": 948
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:18px'>Recent approaches which pushed the seq2seq paradigm further by adding memory and computation<br>to these models allowed us to define a model which makes no assumptions about input ordering,<br>whilst preserving the right properties which we just discussed: a memory that increases with the<br>size of the set, and which is order invariant. In the next sections, we explain such a modification,<br>which could also be seen as a special case of a Memory Network (Weston et al., 2015) or Neural<br>Turing Machine (Graves et al., 2014) - with a computation flow as depicted in Figure 1.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "Recent approaches which pushed the seq2seq paradigm further by adding memory and computation to these models allowed us to define a model which makes no assumptions about input ordering, whilst preserving the right properties which we just discussed: a memory that increases with the size of the set, and which is order invariant. In the next sections, we explain such a modification, which could also be seen as a special case of a Memory Network (Weston , 2015) or Neural Turing Machine (Graves , 2014) - with a computation flow as depicted in Figure 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1017
+                },
+                {
+                    "x": 1022,
+                    "y": 1017
+                },
+                {
+                    "x": 1022,
+                    "y": 1066
+                },
+                {
+                    "x": 443,
+                    "y": 1066
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:20px'>4.2 ATTENTION MECHANISMS</p>",
+            "id": 43,
+            "page": 4,
+            "text": "4.2 ATTENTION MECHANISMS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1107
+                },
+                {
+                    "x": 2108,
+                    "y": 1107
+                },
+                {
+                    "x": 2108,
+                    "y": 1431
+                },
+                {
+                    "x": 442,
+                    "y": 1431
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:18px'>Neural models with memories coupled to differentiable addressing mechanism have been success-<br>fully applied to handwriting generation and recognition (Graves, 2012), machine translation (Bah-<br>danau et al., 2015a), and more general computation machines (Graves et al., 2014; Weston et al.,<br>2015). Since we are interested in associative memories we employed a \"content\" based attention.<br>This has the property that the vector retrieved from our memory would not change if we randomly<br>shuffled the memory. This is crucial for proper treatment of the input set X as such. In particular,<br>our process block based on an attention mechanism uses the following:</p>",
+            "id": 44,
+            "page": 4,
+            "text": "Neural models with memories coupled to differentiable addressing mechanism have been successfully applied to handwriting generation and recognition (Graves, 2012), machine translation (Bahdanau , 2015a), and more general computation machines (Graves , 2014; Weston , 2015). Since we are interested in associative memories we employed a \"content\" based attention. This has the property that the vector retrieved from our memory would not change if we randomly shuffled the memory. This is crucial for proper treatment of the input set X as such. In particular, our process block based on an attention mechanism uses the following:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1295,
+                    "y": 1468
+                },
+                {
+                    "x": 2089,
+                    "y": 1468
+                },
+                {
+                    "x": 2089,
+                    "y": 1964
+                },
+                {
+                    "x": 1295,
+                    "y": 1964
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='45' style='font-size:14px' alt=\"y1, y2 , · · · , yt, ◁\nProcess Write\n▷,y1,y2, · · · , yt\nRead\nX1, X2, · · · , Xs\" data-coord=\"top-left:(1295,1468); bottom-right:(2089,1964)\" /></figure>",
+            "id": 45,
+            "page": 4,
+            "text": "y1, y2 , · · · , yt, ◁ Process Write ▷,y1,y2, · · · , yt Read X1, X2, · · · , Xs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1302,
+                    "y": 1998
+                },
+                {
+                    "x": 2083,
+                    "y": 1998
+                },
+                {
+                    "x": 2083,
+                    "y": 2048
+                },
+                {
+                    "x": 1302,
+                    "y": 2048
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='46' style='font-size:20px'>Figure 1: The Read-Process-and- Write model.</caption>",
+            "id": 46,
+            "page": 4,
+            "text": "Figure 1: The Read-Process-and- Write model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2069
+                },
+                {
+                    "x": 2108,
+                    "y": 2069
+                },
+                {
+                    "x": 2108,
+                    "y": 2394
+                },
+                {
+                    "x": 441,
+                    "y": 2394
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:16px'>where i indexes through each memory vector mi (typically equal to the cardinality of X), qt is<br>a query vector which allows us to read rt from the memories, f is a function that computes a<br>single scalar from mi and qt (e.g., a dot product), and LSTM is an LSTM which computes a<br>recurrent state but which takes no inputs. q* is the state which this LSTM evolves, and is formed<br>by concatenating the query qt with the resulting attention readout rt. t is the index which indicates<br>how many \"processing steps\" are being carried to compute the state to be fed to the decoder. Note<br>that permuting mi and mi' has no effect on the read vector rt.</p>",
+            "id": 47,
+            "page": 4,
+            "text": "where i indexes through each memory vector mi (typically equal to the cardinality of X), qt is a query vector which allows us to read rt from the memories, f is a function that computes a single scalar from mi and qt (e.g., a dot product), and LSTM is an LSTM which computes a recurrent state but which takes no inputs. q* is the state which this LSTM evolves, and is formed by concatenating the query qt with the resulting attention readout rt. t is the index which indicates how many \"processing steps\" are being carried to compute the state to be fed to the decoder. Note that permuting mi and mi' has no effect on the read vector rt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2462
+                },
+                {
+                    "x": 990,
+                    "y": 2462
+                },
+                {
+                    "x": 990,
+                    "y": 2510
+                },
+                {
+                    "x": 443,
+                    "y": 2510
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:22px'>4.3 READ, PROCESS, WRITE</p>",
+            "id": 48,
+            "page": 4,
+            "text": "4.3 READ, PROCESS, WRITE"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2555
+                },
+                {
+                    "x": 2106,
+                    "y": 2555
+                },
+                {
+                    "x": 2106,
+                    "y": 2649
+                },
+                {
+                    "x": 441,
+                    "y": 2649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:20px'>Our model, which naturally handles input sets, has three components (the exact equations and im-<br>plementation will be released in an appendix prior to publication):</p>",
+            "id": 49,
+            "page": 4,
+            "text": "Our model, which naturally handles input sets, has three components (the exact equations and implementation will be released in an appendix prior to publication):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 558,
+                    "y": 2700
+                },
+                {
+                    "x": 2106,
+                    "y": 2700
+                },
+                {
+                    "x": 2106,
+                    "y": 2795
+                },
+                {
+                    "x": 558,
+                    "y": 2795
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:16px'>· A reading block, which simply embeds each element Xi E X using a small neural network<br>onto a memory vector mi (the same neural network is used for all i).</p>",
+            "id": 50,
+            "page": 4,
+            "text": "· A reading block, which simply embeds each element Xi E X using a small neural network onto a memory vector mi (the same neural network is used for all i)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 555,
+                    "y": 2823
+                },
+                {
+                    "x": 2108,
+                    "y": 2823
+                },
+                {
+                    "x": 2108,
+                    "y": 3053
+                },
+                {
+                    "x": 555,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:18px'>· A process block, which is an LSTM without inputs or outputs performing T steps of com-<br>putation over the memories mi. This LSTM keeps updating its state by reading mi repeat-<br>edly using the attention mechanism described in the previous section. At the end of this<br>block, its hidden state 9* is an embedding which is permutation invariant to the inputs. See<br>eqs. (3)-(7) for more details.</p>",
+            "id": 51,
+            "page": 4,
+            "text": "· A process block, which is an LSTM without inputs or outputs performing T steps of computation over the memories mi. This LSTM keeps updating its state by reading mi repeatedly using the attention mechanism described in the previous section. At the end of this block, its hidden state 9* is an embedding which is permutation invariant to the inputs. See eqs. (3)-(7) for more details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1258,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1258,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='52' style='font-size:16px'>4</footer>",
+            "id": 52,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 110
+                },
+                {
+                    "x": 1226,
+                    "y": 110
+                },
+                {
+                    "x": 1226,
+                    "y": 157
+                },
+                {
+                    "x": 444,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='53' style='font-size:16px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 53,
+            "page": 5,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 547,
+                    "y": 343
+                },
+                {
+                    "x": 2109,
+                    "y": 343
+                },
+                {
+                    "x": 2109,
+                    "y": 761
+                },
+                {
+                    "x": 547,
+                    "y": 761
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:18px'>· A write block, which is an LSTM pointer network (Vinyals et al., 2015a) that takes in q* (as<br>the context it needs from which to produce the output from the input set), and points at ele-<br>ments of mi (implicitly, xi), one step at a time. The original work in Vinyals et al. (2015a)<br>used a pointer mechanism which, instead of issuing a readout of memory by a weighted<br>sum with a soft pointer (see eq. 6), it uses the pointer as part of the loss. We extended this<br>by adding an extra attention step before the pointer (we called this glimpse). This is related<br>to the process block described above, but with the difference that the attention reads happen<br>interleaved between each pointer output. As described later in the results, we found these<br>two mechanisms to complement each other.</p>",
+            "id": 54,
+            "page": 5,
+            "text": "· A write block, which is an LSTM pointer network (Vinyals , 2015a) that takes in q* (as the context it needs from which to produce the output from the input set), and points at elements of mi (implicitly, xi), one step at a time. The original work in Vinyals  (2015a) used a pointer mechanism which, instead of issuing a readout of memory by a weighted sum with a soft pointer (see eq. 6), it uses the pointer as part of the loss. We extended this by adding an extra attention step before the pointer (we called this glimpse). This is related to the process block described above, but with the difference that the attention reads happen interleaved between each pointer output. As described later in the results, we found these two mechanisms to complement each other."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 819
+                },
+                {
+                    "x": 2108,
+                    "y": 819
+                },
+                {
+                    "x": 2108,
+                    "y": 1055
+                },
+                {
+                    "x": 440,
+                    "y": 1055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>The architecture is depicted in Figure 1 and can be seen as a special case of a Neural Turing Machine<br>or Memory Network. It satisfies the key property of being invariant to the order of the elements in X,<br>thus effectively processing the inputs as a set. Also note that the write component could simply be an<br>LSTM if the outputs were from a fixed dictionary. For this model, though, we study combinatorial<br>problems where the outputs are pointers to the inputs, SO we use a pointer network.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "The architecture is depicted in Figure 1 and can be seen as a special case of a Neural Turing Machine or Memory Network. It satisfies the key property of being invariant to the order of the elements in X, thus effectively processing the inputs as a set. Also note that the write component could simply be an LSTM if the outputs were from a fixed dictionary. For this model, though, we study combinatorial problems where the outputs are pointers to the inputs, SO we use a pointer network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1137
+                },
+                {
+                    "x": 963,
+                    "y": 1137
+                },
+                {
+                    "x": 963,
+                    "y": 1183
+                },
+                {
+                    "x": 443,
+                    "y": 1183
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>4.4 SORTING EXPERIMENT</p>",
+            "id": 56,
+            "page": 5,
+            "text": "4.4 SORTING EXPERIMENT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1232
+                },
+                {
+                    "x": 2108,
+                    "y": 1232
+                },
+                {
+                    "x": 2108,
+                    "y": 1877
+                },
+                {
+                    "x": 440,
+                    "y": 1877
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>In order to verify if our model handles sets more efficiently than the vanilla seq2seq approach, we<br>ran the following experiment on artificial data for the task of sorting numbers: given N unordered<br>random floating point numbers between 0 and 1, we return them in a sorted order. Note that this<br>problem is an instance of set2seq. We used the architecture defined in Figure 1, where the Read<br>module is a small multilayer perceptron for each number, the Process module is an attention mech-<br>anism over the read numbers, implemented as T steps over an LSTM with no input nor output, but<br>attending the input embeddings, followed by an LSTM to produce indices in the input numbers with<br>a pointer network (Vinyals et al., 2015a), in the proper sorted order. We also compared this archi-<br>tecture with a vanilla seq2seq architecture made of an input LSTM connected to an output LSTM<br>which produces indices in the input numbers with a pointer network (Ptr-Net). Note that the only<br>difference between these two models is the encoding of the set using either an LSTM (as in previ-<br>ous work), or with the architecture proposed in the previous section. We ran multiple experiments,<br>varying the number N of numbers to sort, as well as the number T of processing steps of the Read,<br>Process, Write model.</p>",
+            "id": 57,
+            "page": 5,
+            "text": "In order to verify if our model handles sets more efficiently than the vanilla seq2seq approach, we ran the following experiment on artificial data for the task of sorting numbers: given N unordered random floating point numbers between 0 and 1, we return them in a sorted order. Note that this problem is an instance of set2seq. We used the architecture defined in Figure 1, where the Read module is a small multilayer perceptron for each number, the Process module is an attention mechanism over the read numbers, implemented as T steps over an LSTM with no input nor output, but attending the input embeddings, followed by an LSTM to produce indices in the input numbers with a pointer network (Vinyals , 2015a), in the proper sorted order. We also compared this architecture with a vanilla seq2seq architecture made of an input LSTM connected to an output LSTM which produces indices in the input numbers with a pointer network (Ptr-Net). Note that the only difference between these two models is the encoding of the set using either an LSTM (as in previous work), or with the architecture proposed in the previous section. We ran multiple experiments, varying the number N of numbers to sort, as well as the number T of processing steps of the Read, Process, Write model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1897
+                },
+                {
+                    "x": 2107,
+                    "y": 1897
+                },
+                {
+                    "x": 2107,
+                    "y": 2449
+                },
+                {
+                    "x": 441,
+                    "y": 2449
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:18px'>The out-of-sample accuracies (whether we succeeded in sorting all numbers or not) of these experi-<br>ments are summarized in Table 1. We can see that the baseline pointer network LSTM input model is<br>better than the Read-Process-and- Write model when no processing steps (P = 0 step) are used, but<br>as soon as at least one processing step is allowed, the performance of the Read-Process-and- Write<br>model gets better, increasing with the number of processing steps. We can also see that, as the size<br>of the task (expressed in the number of elements to sort N) grows, the performance gets worse, as<br>expected. Also note that with 0 processing steps and 0 glimpses, the writing module is effectively<br>unconditioned on X and has to \"blindly\" point at the elements of X. Thus, itis unsurprising to see it<br>performing worse than any other model considered in Table 1. Lastly, equipping the writing module<br>with glimpses (i.e., adding an attention mechanism prior to \"pointing\") improves both the baseline<br>model (Ptr-Net), and our proposed modification quite significantly (in the most challenging cases, it<br>more than doubles accuracy).</p>",
+            "id": 58,
+            "page": 5,
+            "text": "The out-of-sample accuracies (whether we succeeded in sorting all numbers or not) of these experiments are summarized in Table 1. We can see that the baseline pointer network LSTM input model is better than the Read-Process-and- Write model when no processing steps (P = 0 step) are used, but as soon as at least one processing step is allowed, the performance of the Read-Process-and- Write model gets better, increasing with the number of processing steps. We can also see that, as the size of the task (expressed in the number of elements to sort N) grows, the performance gets worse, as expected. Also note that with 0 processing steps and 0 glimpses, the writing module is effectively unconditioned on X and has to \"blindly\" point at the elements of X. Thus, itis unsurprising to see it performing worse than any other model considered in Table 1. Lastly, equipping the writing module with glimpses (i.e., adding an attention mechanism prior to \"pointing\") improves both the baseline model (Ptr-Net), and our proposed modification quite significantly (in the most challenging cases, it more than doubles accuracy)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2513
+                },
+                {
+                    "x": 2108,
+                    "y": 2513
+                },
+                {
+                    "x": 2108,
+                    "y": 2702
+                },
+                {
+                    "x": 441,
+                    "y": 2702
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:20px'>Table 1: The sorting experiment: out-of-sample sorting accuracy for various problem sizes and<br>processing steps, with or without glimpses. All the reported accuracies are shown after reaching<br>10000 training iterations, at which point all models had converged but none overfitted. Higher is<br>better.</p>",
+            "id": 59,
+            "page": 5,
+            "text": "Table 1: The sorting experiment: out-of-sample sorting accuracy for various problem sizes and processing steps, with or without glimpses. All the reported accuracies are shown after reaching 10000 training iterations, at which point all models had converged but none overfitted. Higher is better."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 508,
+                    "y": 2735
+                },
+                {
+                    "x": 2038,
+                    "y": 2735
+                },
+                {
+                    "x": 2038,
+                    "y": 2997
+                },
+                {
+                    "x": 508,
+                    "y": 2997
+                }
+            ],
+            "category": "table",
+            "html": "<table id='60' style='font-size:16px'><tr><td>Length N</td><td>Ptr-Net</td><td>P = 0 step</td><td>P = 1 step</td><td>P = 5 steps</td><td>P = 10 steps</td></tr><tr><td>glimpses</td><td>0 1</td><td>0 I</td><td>0 1</td><td>0 I</td><td>0 I</td></tr><tr><td>N = 5</td><td>81% 90%</td><td>65% 84%</td><td>84% 92%</td><td>88% 94%</td><td>90% 94%</td></tr><tr><td>N = 10</td><td>8% 28%</td><td>7% 30%</td><td>14% 44%</td><td>17% 57%</td><td>19% 50%</td></tr><tr><td>N = 15</td><td>0% 4%</td><td>1% 2%</td><td>0% 5%</td><td>2% 4%</td><td>0% 10%</td></tr></table>",
+            "id": 60,
+            "page": 5,
+            "text": "Length N Ptr-Net P = 0 step P = 1 step P = 5 steps P = 10 steps  glimpses 0 1 0 I 0 1 0 I 0 I  N = 5 81% 90% 65% 84% 84% 92% 88% 94% 90% 94%  N = 10 8% 28% 7% 30% 14% 44% 17% 57% 19% 50%  N = 15 0% 4% 1% 2% 0% 5% 2% 4%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='61' style='font-size:14px'>5</footer>",
+            "id": 61,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 110
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 444,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='62' style='font-size:16px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 62,
+            "page": 6,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 341
+                },
+                {
+                    "x": 831,
+                    "y": 341
+                },
+                {
+                    "x": 831,
+                    "y": 392
+                },
+                {
+                    "x": 446,
+                    "y": 392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:22px'>5 OUTPUT SETS</p>",
+            "id": 63,
+            "page": 6,
+            "text": "5 OUTPUT SETS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 445
+                },
+                {
+                    "x": 2108,
+                    "y": 445
+                },
+                {
+                    "x": 2108,
+                    "y": 815
+                },
+                {
+                    "x": 442,
+                    "y": 815
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:18px'>So far, we have considered the problem of encoding input sets; let us now turn our attention to out-<br>put representations. The chain rule which describes joint probabilities over sets of random variables<br>Y is, perhaps, the simplest decomposition of the joint probability which does not incur arbitrary<br>restrictions (such as conditional independence). Thus, as long as a powerful model that is trainable<br>exists (which can cope with long range correlations), any order should work without any prior order<br>information of the underlying problem that generated Y. Despite this, and even when a very pow-<br>erful model (in terms of modeling power, and resilience to vanishing long term gradients) like the<br>LSTM is employed, output ordering still plays a key role in successfully training models.</p>",
+            "id": 64,
+            "page": 6,
+            "text": "So far, we have considered the problem of encoding input sets; let us now turn our attention to output representations. The chain rule which describes joint probabilities over sets of random variables Y is, perhaps, the simplest decomposition of the joint probability which does not incur arbitrary restrictions (such as conditional independence). Thus, as long as a powerful model that is trainable exists (which can cope with long range correlations), any order should work without any prior order information of the underlying problem that generated Y. Despite this, and even when a very powerful model (in terms of modeling power, and resilience to vanishing long term gradients) like the LSTM is employed, output ordering still plays a key role in successfully training models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 837
+                },
+                {
+                    "x": 2106,
+                    "y": 837
+                },
+                {
+                    "x": 2106,
+                    "y": 929
+                },
+                {
+                    "x": 442,
+                    "y": 929
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='65' style='font-size:18px'>In the next subsection, we describe how the order in which we apply the chain rule affects the<br>performance on various tasks.</p>",
+            "id": 65,
+            "page": 6,
+            "text": "In the next subsection, we describe how the order in which we apply the chain rule affects the performance on various tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 986
+                },
+                {
+                    "x": 1025,
+                    "y": 986
+                },
+                {
+                    "x": 1025,
+                    "y": 1034
+                },
+                {
+                    "x": 445,
+                    "y": 1034
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:18px'>5.1 OUTPUT ORDER MATTERS</p>",
+            "id": 66,
+            "page": 6,
+            "text": "5.1 OUTPUT ORDER MATTERS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1071
+                },
+                {
+                    "x": 2108,
+                    "y": 1071
+                },
+                {
+                    "x": 2108,
+                    "y": 1306
+                },
+                {
+                    "x": 442,
+                    "y": 1306
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>Let Y be a set (or a sequence). In this section, we will study the effect that ordering has on the per-<br>formance of seq2seq models on several tasks. Namely, we will consider arbitrary (and non-arbitrary)<br>orders over the variables in Y, and model the conditional probability distribution P(Y|X) following<br>that order for all training examples. As we will see, order matters (even when considering that the<br>formulation through the chain rule works regardless of the ordering of Y, at least in principle).</p>",
+            "id": 67,
+            "page": 6,
+            "text": "Let Y be a set (or a sequence). In this section, we will study the effect that ordering has on the performance of seq2seq models on several tasks. Namely, we will consider arbitrary (and non-arbitrary) orders over the variables in Y, and model the conditional probability distribution P(Y|X) following that order for all training examples. As we will see, order matters (even when considering that the formulation through the chain rule works regardless of the ordering of Y, at least in principle)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1355
+                },
+                {
+                    "x": 1004,
+                    "y": 1355
+                },
+                {
+                    "x": 1004,
+                    "y": 1403
+                },
+                {
+                    "x": 444,
+                    "y": 1403
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:18px'>5.1.1 LANGUAGE MODELING</p>",
+            "id": 68,
+            "page": 6,
+            "text": "5.1.1 LANGUAGE MODELING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1435
+                },
+                {
+                    "x": 2107,
+                    "y": 1435
+                },
+                {
+                    "x": 2107,
+                    "y": 1667
+                },
+                {
+                    "x": 442,
+                    "y": 1667
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:18px'>For this experiment, we use the PennTree Bank, which is a standard language modeling bench-<br>mark. This dataset is quite small for language modeling standards, SO most models are data<br>starved. We trained medium sized LSTMs with large amounts of regularization (see medium model<br>from Zaremba et al. (2014)) to estimate probabilities over sequences of words. We consider three<br>version of the dataset with three orderings: natural, reverse, and a fixed, 3-word reversal:</p>",
+            "id": 69,
+            "page": 6,
+            "text": "For this experiment, we use the PennTree Bank, which is a standard language modeling benchmark. This dataset is quite small for language modeling standards, SO most models are data starved. We trained medium sized LSTMs with large amounts of regularization (see medium model from Zaremba  (2014)) to estimate probabilities over sequences of words. We consider three version of the dataset with three orderings: natural, reverse, and a fixed, 3-word reversal:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1688
+                },
+                {
+                    "x": 1090,
+                    "y": 1688
+                },
+                {
+                    "x": 1090,
+                    "y": 1828
+                },
+                {
+                    "x": 443,
+                    "y": 1828
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:14px'>Natural: \"This is a sentence ·<br>\"<br>Reverse: \" is This\"<br>· sentence a<br>3-word: \"a is This <pad> · sentence\"</p>",
+            "id": 70,
+            "page": 6,
+            "text": "Natural: \"This is a sentence · \" Reverse: \" is This\" · sentence a 3-word: \"a is This <pad> · sentence\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1850
+                },
+                {
+                    "x": 2108,
+                    "y": 1850
+                },
+                {
+                    "x": 2108,
+                    "y": 2266
+                },
+                {
+                    "x": 441,
+                    "y": 2266
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:20px'>Note that the 3-word reversal destroys the underlying structure of the sentence, and makes modeling<br>the joint probability much more difficult since many higher order n-grams are scrambled. For each<br>ordering we trained a different model. The results for both natural and reverse matched each other<br>at 86 perplexity on the development set (using the same setup as Zaremba et al. (2014)). Surpris-<br>ingly, the 3-word reversal degraded only 10 perplexity points, still achieving an impressive result in<br>this corpus at 96 perplexity. We note, however, that training perplexities were also 10 points higher,<br>which indicates that the model had trouble handling the awkward ordering. Thus, even when consid-<br>ering that the chain rule still properly models the joint probability, some degradation was observed<br>when a confounding ordering was chosen.</p>",
+            "id": 71,
+            "page": 6,
+            "text": "Note that the 3-word reversal destroys the underlying structure of the sentence, and makes modeling the joint probability much more difficult since many higher order n-grams are scrambled. For each ordering we trained a different model. The results for both natural and reverse matched each other at 86 perplexity on the development set (using the same setup as Zaremba  (2014)). Surprisingly, the 3-word reversal degraded only 10 perplexity points, still achieving an impressive result in this corpus at 96 perplexity. We note, however, that training perplexities were also 10 points higher, which indicates that the model had trouble handling the awkward ordering. Thus, even when considering that the chain rule still properly models the joint probability, some degradation was observed when a confounding ordering was chosen."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2315
+                },
+                {
+                    "x": 747,
+                    "y": 2315
+                },
+                {
+                    "x": 747,
+                    "y": 2363
+                },
+                {
+                    "x": 444,
+                    "y": 2363
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:18px'>5.1.2 PARSING</p>",
+            "id": 72,
+            "page": 6,
+            "text": "5.1.2 PARSING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2397
+                },
+                {
+                    "x": 2106,
+                    "y": 2397
+                },
+                {
+                    "x": 2106,
+                    "y": 2581
+                },
+                {
+                    "x": 443,
+                    "y": 2581
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:18px'>The task of constituency parsing consists in producing a parse tree given a sentence. The model<br>proposed by Vinyals et al. (2015b) is a sentence encoder LSTM followed by a decoder LSTM<br>trained to generate a depth first traversal encoding of the parse tree, using an attention mechanism.<br>This approach matched state-of-the-art results on this task.</p>",
+            "id": 73,
+            "page": 6,
+            "text": "The task of constituency parsing consists in producing a parse tree given a sentence. The model proposed by Vinyals  (2015b) is a sentence encoder LSTM followed by a decoder LSTM trained to generate a depth first traversal encoding of the parse tree, using an attention mechanism. This approach matched state-of-the-art results on this task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2604
+                },
+                {
+                    "x": 2107,
+                    "y": 2604
+                },
+                {
+                    "x": 2107,
+                    "y": 2973
+                },
+                {
+                    "x": 443,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>Even though it seemed more sensible, depth first traversal is only one of the many ways one can<br>uniquely encode a tree onto a sequence. We thus tried to train a small model using depth first<br>traversal (which matches the baseline of Vinyals et al. (2015b)) and another one using breadth first<br>traversal (note that these orderings are input dependent). See Figure 2 for an example on how the tree<br>linearizes under both traversal schemes. The model trained to produce depth first traversal linearized<br>trees obtained 89.5% F1 score (as reported by Vinyals et al. (2015b)), whereas the one producing<br>breadth first traversal trees had a much lower F1 score at 81.5%,1 showing again the importance of<br>picking the right output ordering.</p>",
+            "id": 74,
+            "page": 6,
+            "text": "Even though it seemed more sensible, depth first traversal is only one of the many ways one can uniquely encode a tree onto a sequence. We thus tried to train a small model using depth first traversal (which matches the baseline of Vinyals  (2015b)) and another one using breadth first traversal (note that these orderings are input dependent). See Figure 2 for an example on how the tree linearizes under both traversal schemes. The model trained to produce depth first traversal linearized trees obtained 89.5% F1 score (as reported by Vinyals  (2015b)), whereas the one producing breadth first traversal trees had a much lower F1 score at 81.5%,1 showing again the importance of picking the right output ordering."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 500,
+                    "y": 3007
+                },
+                {
+                    "x": 2004,
+                    "y": 3007
+                },
+                {
+                    "x": 2004,
+                    "y": 3052
+                },
+                {
+                    "x": 500,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:14px'>1In fact, in many cases the decoder failed to produce a valid tree, SO the real F1 score is likely lower.</p>",
+            "id": 75,
+            "page": 6,
+            "text": "1In fact, in many cases the decoder failed to produce a valid tree, SO the real F1 score is likely lower."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='76' style='font-size:16px'>6</footer>",
+            "id": 76,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 110
+                },
+                {
+                    "x": 1226,
+                    "y": 110
+                },
+                {
+                    "x": 1226,
+                    "y": 158
+                },
+                {
+                    "x": 444,
+                    "y": 158
+                }
+            ],
+            "category": "header",
+            "html": "<header id='77' style='font-size:16px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 77,
+            "page": 7,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 550,
+                    "y": 351
+                },
+                {
+                    "x": 1967,
+                    "y": 351
+                },
+                {
+                    "x": 1967,
+                    "y": 774
+                },
+                {
+                    "x": 550,
+                    "y": 774
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='78' style='font-size:14px' alt=\"S\nNP VP\n↓\nDT VBZ NP\nThis is\nDT NN\na sentence\nDepth First Traversal: s NP DT !DT !NP VP VBZ !VBZ NP DT !DT NN !NN !NP !VP !. !S\nBreadth First Traversal: s LEV NP VP · LEV DT PAR VBZ NP LEV PAR PAR DT NN DONE\" data-coord=\"top-left:(550,351); bottom-right:(1967,774)\" /></figure>",
+            "id": 78,
+            "page": 7,
+            "text": "S NP VP ↓ DT VBZ NP This is DT NN a sentence Depth First Traversal: s NP DT !DT !NP VP VBZ !VBZ NP DT !DT NN !NN !NP !VP !. !S Breadth First Traversal: s LEV NP VP · LEV DT PAR VBZ NP LEV PAR PAR DT NN DONE"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 847
+                },
+                {
+                    "x": 2107,
+                    "y": 847
+                },
+                {
+                    "x": 2107,
+                    "y": 945
+                },
+                {
+                    "x": 441,
+                    "y": 945
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='79' style='font-size:20px'>Figure 2: Depth first and breadth first linearizations of a parse tree which shows our different setups<br>for output ordering in the parsing task.</caption>",
+            "id": 79,
+            "page": 7,
+            "text": "Figure 2: Depth first and breadth first linearizations of a parse tree which shows our different setups for output ordering in the parsing task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1031
+                },
+                {
+                    "x": 1099,
+                    "y": 1031
+                },
+                {
+                    "x": 1099,
+                    "y": 1079
+                },
+                {
+                    "x": 445,
+                    "y": 1079
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:22px'>5.1.3 COMBINATORIAL PROBLEMS</p>",
+            "id": 80,
+            "page": 7,
+            "text": "5.1.3 COMBINATORIAL PROBLEMS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1112
+                },
+                {
+                    "x": 2108,
+                    "y": 1112
+                },
+                {
+                    "x": 2108,
+                    "y": 1250
+                },
+                {
+                    "x": 442,
+                    "y": 1250
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>Unlike in the previous two examples, a problem that more commonly comes up as we try to represent<br>non-sequential data (like tours, triangulations, etc., discussed by (Vinyals et al., 2015a)), is the fact<br>that there may exist a large equivalence class of solutions.</p>",
+            "id": 81,
+            "page": 7,
+            "text": "Unlike in the previous two examples, a problem that more commonly comes up as we try to represent non-sequential data (like tours, triangulations, etc., discussed by (Vinyals , 2015a)), is the fact that there may exist a large equivalence class of solutions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1273
+                },
+                {
+                    "x": 2107,
+                    "y": 1273
+                },
+                {
+                    "x": 2107,
+                    "y": 1639
+                },
+                {
+                    "x": 442,
+                    "y": 1639
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:22px'>Take, as an example, outputting the indices for the sorted inputs of a set of random numbers, X.<br>Indeed, this is a deterministic function. We can choose to output these indices in some order (e.g.,<br>increasing, decreasing, or using any arbitrary fixed permutation), or treat them as a set (a tuple of<br>argsort indices with corresponding ranking). As a result, there are n! possible outputs for a given X,<br>all of which are perfectly valid. If our training setis generated with any of these permutations picked<br>uniformly at random, our mapping (when perfectly trained) will have to place equal probability on<br>n! output configurations for the same input X. Thus, this formulation is much less statistically<br>efficient.</p>",
+            "id": 82,
+            "page": 7,
+            "text": "Take, as an example, outputting the indices for the sorted inputs of a set of random numbers, X. Indeed, this is a deterministic function. We can choose to output these indices in some order (e.g., increasing, decreasing, or using any arbitrary fixed permutation), or treat them as a set (a tuple of argsort indices with corresponding ranking). As a result, there are n! possible outputs for a given X, all of which are perfectly valid. If our training setis generated with any of these permutations picked uniformly at random, our mapping (when perfectly trained) will have to place equal probability on n! output configurations for the same input X. Thus, this formulation is much less statistically efficient."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1664
+                },
+                {
+                    "x": 2108,
+                    "y": 1664
+                },
+                {
+                    "x": 2108,
+                    "y": 1941
+                },
+                {
+                    "x": 441,
+                    "y": 1941
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:20px'>In previous work (Vinyals et al., 2015a), it was found that restricting as much as possible the equiv-<br>alence class for the outputs was always better. For instance, to output a tour (i.e. a sequence of cities<br>one has to visit for the traveling salesman problem), we started from the lower indexed city (i.e.,<br>the first city that we input), and followed a counter-clockwise ordering. Similarly, to output a set<br>of triangles (which triangulate the set of input points), we sorted them in lexicographical order and<br>moved left to right. In all cases, improvements of 5% absolute accuracy or more were observed.</p>",
+            "id": 83,
+            "page": 7,
+            "text": "In previous work (Vinyals , 2015a), it was found that restricting as much as possible the equivalence class for the outputs was always better. For instance, to output a tour (i.e. a sequence of cities one has to visit for the traveling salesman problem), we started from the lower indexed city (i.e., the first city that we input), and followed a counter-clockwise ordering. Similarly, to output a set of triangles (which triangulate the set of input points), we sorted them in lexicographical order and moved left to right. In all cases, improvements of 5% absolute accuracy or more were observed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1963
+                },
+                {
+                    "x": 2107,
+                    "y": 1963
+                },
+                {
+                    "x": 2107,
+                    "y": 2147
+                },
+                {
+                    "x": 441,
+                    "y": 2147
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:22px'>Failing to restrict the output equivalence class generally implies much slower convergence (and,<br>thus, requires much more training data). For instance, for sorting, if considering the outputs as sets<br>which we output in any of the possible n! orderings, convergence for n as small as 5 never reached<br>the same performance.</p>",
+            "id": 84,
+            "page": 7,
+            "text": "Failing to restrict the output equivalence class generally implies much slower convergence (and, thus, requires much more training data). For instance, for sorting, if considering the outputs as sets which we output in any of the possible n! orderings, convergence for n as small as 5 never reached the same performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2197
+                },
+                {
+                    "x": 970,
+                    "y": 2197
+                },
+                {
+                    "x": 970,
+                    "y": 2245
+                },
+                {
+                    "x": 444,
+                    "y": 2245
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:20px'>5.1.4 GRAPHICAL MODELS</p>",
+            "id": 85,
+            "page": 7,
+            "text": "5.1.4 GRAPHICAL MODELS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2277
+                },
+                {
+                    "x": 2106,
+                    "y": 2277
+                },
+                {
+                    "x": 2106,
+                    "y": 2414
+                },
+                {
+                    "x": 442,
+                    "y": 2414
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:16px'>Let us consider the joint probability of a set of T random variables P(y1, Y2, · · · , YT). Having no<br>prior on how these random variables interact with each other, one way to model their joint probability<br>is to use the chain rule as follows:</p>",
+            "id": 86,
+            "page": 7,
+            "text": "Let us consider the joint probability of a set of T random variables P(y1, Y2, · · · , YT). Having no prior on how these random variables interact with each other, one way to model their joint probability is to use the chain rule as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2590
+                },
+                {
+                    "x": 1523,
+                    "y": 2590
+                },
+                {
+                    "x": 1523,
+                    "y": 2638
+                },
+                {
+                    "x": 443,
+                    "y": 2638
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:22px'>and model this using an RNN, similar to RNN language models.</p>",
+            "id": 87,
+            "page": 7,
+            "text": "and model this using an RNN, similar to RNN language models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2659
+                },
+                {
+                    "x": 2108,
+                    "y": 2659
+                },
+                {
+                    "x": 2108,
+                    "y": 2891
+                },
+                {
+                    "x": 442,
+                    "y": 2891
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:18px'>While for sentences the natural order of words gives a good clue of how to order the random variables<br>in the model, for other kind of data it might be harder to decide on it. Furthermore, in theory, the<br>order should not matter, because of Bayes rule which lets us reorder all the conditional probabilities<br>as needed. In practice however, it might be that one order is easier to model than another, as we have<br>shown in this paper.</p>",
+            "id": 88,
+            "page": 7,
+            "text": "While for sentences the natural order of words gives a good clue of how to order the random variables in the model, for other kind of data it might be harder to decide on it. Furthermore, in theory, the order should not matter, because of Bayes rule which lets us reorder all the conditional probabilities as needed. In practice however, it might be that one order is easier to model than another, as we have shown in this paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2914
+                },
+                {
+                    "x": 2107,
+                    "y": 2914
+                },
+                {
+                    "x": 2107,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:18px'>The purpose of this experiment is to demonstrate this using a controlled toy experiment. We gen-<br>erated star-like graphical models over random variables where one variable (the head) follows an<br>unconditional distribution, while the others follow a conditional distribution based on the value of</p>",
+            "id": 89,
+            "page": 7,
+            "text": "The purpose of this experiment is to demonstrate this using a controlled toy experiment. We generated star-like graphical models over random variables where one variable (the head) follows an unconditional distribution, while the others follow a conditional distribution based on the value of"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='90' style='font-size:20px'>7</footer>",
+            "id": 90,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 445,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='91' style='font-size:16px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 91,
+            "page": 8,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 346
+                },
+                {
+                    "x": 2108,
+                    "y": 346
+                },
+                {
+                    "x": 2108,
+                    "y": 670
+                },
+                {
+                    "x": 441,
+                    "y": 670
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:18px'>the head variable. We expect that it should be easier to model the joint distribution by choosing any<br>ordering which starts with the head variable. We created several artificial datasets by varying the<br>number of random variables to model (between 10 and 50, each of which was a multinomial over 10<br>symbols), the training set size (between 200 and 20000 training samples), and the randomness of the<br>marginal distributions, or how deterministic, or peaky, they were. For each problem, we trained two<br>LSTMs for 10,000 mini-batch iterations to model the joint probability, one where the head random<br>variable was shown first, and one where it was shown last.</p>",
+            "id": 92,
+            "page": 8,
+            "text": "the head variable. We expect that it should be easier to model the joint distribution by choosing any ordering which starts with the head variable. We created several artificial datasets by varying the number of random variables to model (between 10 and 50, each of which was a multinomial over 10 symbols), the training set size (between 200 and 20000 training samples), and the randomness of the marginal distributions, or how deterministic, or peaky, they were. For each problem, we trained two LSTMs for 10,000 mini-batch iterations to model the joint probability, one where the head random variable was shown first, and one where it was shown last."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 692
+                },
+                {
+                    "x": 919,
+                    "y": 692
+                },
+                {
+                    "x": 919,
+                    "y": 737
+                },
+                {
+                    "x": 443,
+                    "y": 737
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:14px'>The results were as follows:</p>",
+            "id": 93,
+            "page": 8,
+            "text": "The results were as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 555,
+                    "y": 777
+                },
+                {
+                    "x": 2111,
+                    "y": 777
+                },
+                {
+                    "x": 2111,
+                    "y": 1158
+                },
+                {
+                    "x": 555,
+                    "y": 1158
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:18px'>· when the training set size is large enough (20000), the LSTM is able to learn the joint<br>probability in whichever order;<br>· when the marginal distributions are very peaky (and thus almost deterministic), the LSTM<br>is also able to learn the joint probability independently of the order;<br>· in all other cases (small training set size, small or large number of random variables, and<br>some amount of randomness in the marginal distributions), it was always easier to learn an<br>LSTM with the optimal order of random variables than any other order.</p>",
+            "id": 94,
+            "page": 8,
+            "text": "· when the training set size is large enough (20000), the LSTM is able to learn the joint probability in whichever order; · when the marginal distributions are very peaky (and thus almost deterministic), the LSTM is also able to learn the joint probability independently of the order; · in all other cases (small training set size, small or large number of random variables, and some amount of randomness in the marginal distributions), it was always easier to learn an LSTM with the optimal order of random variables than any other order."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1221
+                },
+                {
+                    "x": 1432,
+                    "y": 1221
+                },
+                {
+                    "x": 1432,
+                    "y": 1269
+                },
+                {
+                    "x": 445,
+                    "y": 1269
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:18px'>5.2 FINDING OPTIMAL ORDERINGS WHILE TRAINING</p>",
+            "id": 95,
+            "page": 8,
+            "text": "5.2 FINDING OPTIMAL ORDERINGS WHILE TRAINING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1310
+                },
+                {
+                    "x": 2107,
+                    "y": 1310
+                },
+                {
+                    "x": 2107,
+                    "y": 1495
+                },
+                {
+                    "x": 441,
+                    "y": 1495
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:20px'>Recall the model we proposed for dealing with input sets: given an embedding for each of the inputs,<br>we have a generic module that is able to process its inputs in any order. This yields an embedding<br>satisfying the key property of being invariant to reorderings, whilst being generic in the kinds of<br>computations to do over the input set.</p>",
+            "id": 96,
+            "page": 8,
+            "text": "Recall the model we proposed for dealing with input sets: given an embedding for each of the inputs, we have a generic module that is able to process its inputs in any order. This yields an embedding satisfying the key property of being invariant to reorderings, whilst being generic in the kinds of computations to do over the input set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1520
+                },
+                {
+                    "x": 2107,
+                    "y": 1520
+                },
+                {
+                    "x": 2107,
+                    "y": 1794
+                },
+                {
+                    "x": 442,
+                    "y": 1794
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:18px'>Unfortunately, placing a joint probability over a set of random variables y1, · · · Yn when the structure<br>of the joint probability function is unknown is a hard problem. Fortunately, and thanks to recurrent<br>neural networks, we can apply the chain rule which decomposes this joint probability sequentially<br>(see eq. 8) without independence assumptions. In this work, we focus on using the chain rule,<br>discarding more naive decompositions that have strong and unrealistic assumptions (e.g., conditional<br>independence).</p>",
+            "id": 97,
+            "page": 8,
+            "text": "Unfortunately, placing a joint probability over a set of random variables y1, · · · Yn when the structure of the joint probability function is unknown is a hard problem. Fortunately, and thanks to recurrent neural networks, we can apply the chain rule which decomposes this joint probability sequentially (see eq. 8) without independence assumptions. In this work, we focus on using the chain rule, discarding more naive decompositions that have strong and unrealistic assumptions (e.g., conditional independence)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1818
+                },
+                {
+                    "x": 2107,
+                    "y": 1818
+                },
+                {
+                    "x": 2107,
+                    "y": 2050
+                },
+                {
+                    "x": 441,
+                    "y": 2050
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:16px'>An obvious drawback of the chain rule which violates the argument of treating y1, · · · Yn as a set is<br>that we condition these random variables in a particular order. Even though, in principle, the order<br>should not matter, in the previous section we have shown that this is indeed not the case, and that<br>certain orderings are better than others in a variety of tasks - most likely due to the parameterization<br>of the joint probability (using an LSTM), and the non-convex nature of the optimization problem.</p>",
+            "id": 98,
+            "page": 8,
+            "text": "An obvious drawback of the chain rule which violates the argument of treating y1, · · · Yn as a set is that we condition these random variables in a particular order. Even though, in principle, the order should not matter, in the previous section we have shown that this is indeed not the case, and that certain orderings are better than others in a variety of tasks - most likely due to the parameterization of the joint probability (using an LSTM), and the non-convex nature of the optimization problem."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2071
+                },
+                {
+                    "x": 2108,
+                    "y": 2071
+                },
+                {
+                    "x": 2108,
+                    "y": 2345
+                },
+                {
+                    "x": 442,
+                    "y": 2345
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:18px'>Our proposed solution to deal with the aforementioned drawback is extremely simple: as we train,<br>we let the model decide which is the best ordering in which it will apply the chain rule. More<br>formally, assume there exists an ordering which maximally simplifies the task, �(X) (where X is<br>the input sequence or set, which can be empty). We would like to train the model as p(Y�(X)|X).<br>The number of possible orderings is large - n! where n is the length of the output, and the best order<br>is unknown a priori.</p>",
+            "id": 99,
+            "page": 8,
+            "text": "Our proposed solution to deal with the aforementioned drawback is extremely simple: as we train, we let the model decide which is the best ordering in which it will apply the chain rule. More formally, assume there exists an ordering which maximally simplifies the task, �(X) (where X is the input sequence or set, which can be empty). We would like to train the model as p(Y�(X)|X). The number of possible orderings is large - n! where n is the length of the output, and the best order is unknown a priori."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2371
+                },
+                {
+                    "x": 2106,
+                    "y": 2371
+                },
+                {
+                    "x": 2106,
+                    "y": 2508
+                },
+                {
+                    "x": 442,
+                    "y": 2508
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>Since n! can be very large, we could attempt to do (inexact) search as we train the model. Instead of<br>maximizing the log probability of p(Y |X) for each training example pair, we also maximize over<br>orderings as follows:</p>",
+            "id": 100,
+            "page": 8,
+            "text": "Since n! can be very large, we could attempt to do (inexact) search as we train the model. Instead of maximizing the log probability of p(Y |X) for each training example pair, we also maximize over orderings as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2709
+                },
+                {
+                    "x": 2105,
+                    "y": 2709
+                },
+                {
+                    "x": 2105,
+                    "y": 2845
+                },
+                {
+                    "x": 441,
+                    "y": 2845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:18px'>is computed either naively, or with an inexact search. Note that Equation (9) may<br>where max�(Xi)<br>not strictly improve the regular maximum likelihood framework due to non-convexity, but we found<br>this to not be an issue in practice.</p>",
+            "id": 101,
+            "page": 8,
+            "text": "is computed either naively, or with an inexact search. Note that Equation (9) may where max�(Xi) not strictly improve the regular maximum likelihood framework due to non-convexity, but we found this to not be an issue in practice."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2868
+                },
+                {
+                    "x": 2108,
+                    "y": 2868
+                },
+                {
+                    "x": 2108,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='102' style='font-size:18px'>Besides not being scalable, we found that, if done naively and picking the max over ordering as we<br>train, the model would pick a random ordering (as a function of the initial parameters), and would<br>get stuck on it permanently (since it would reinforce it through learning). We added two ways to<br>explore the space of all orderings as follows:</p>",
+            "id": 102,
+            "page": 8,
+            "text": "Besides not being scalable, we found that, if done naively and picking the max over ordering as we train, the model would pick a random ordering (as a function of the initial parameters), and would get stuck on it permanently (since it would reinforce it through learning). We added two ways to explore the space of all orderings as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='103' style='font-size:18px'>8</footer>",
+            "id": 103,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 445,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='104' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 104,
+            "page": 9,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 555,
+                    "y": 346
+                },
+                {
+                    "x": 2108,
+                    "y": 346
+                },
+                {
+                    "x": 2108,
+                    "y": 567
+                },
+                {
+                    "x": 555,
+                    "y": 567
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:18px'>· We pretrain the model with a uniform prior over �(X) for 1000 steps, which amounts to<br>replacing the max�(Xi) eq. (9) by a E�(Xi)·<br>in<br>· We then pick an ordering by sampling �(X) according to a distribution proportional to<br>p(Y�(X)|X). This costs 0(1) model evaluations (VS. naive search which would be O(n!)).</p>",
+            "id": 105,
+            "page": 9,
+            "text": "· We pretrain the model with a uniform prior over �(X) for 1000 steps, which amounts to replacing the max�(Xi) eq. (9) by a E�(Xi)· in · We then pick an ordering by sampling �(X) according to a distribution proportional to p(Y�(X)|X). This costs 0(1) model evaluations (VS. naive search which would be O(n!))."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 615
+                },
+                {
+                    "x": 2105,
+                    "y": 615
+                },
+                {
+                    "x": 2105,
+                    "y": 715
+                },
+                {
+                    "x": 441,
+                    "y": 715
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:18px'>Crucially, sampling p(Y�(X) |X) can be done very efficiently as we can use ancestral sampling (left-<br>to-right) which requires to evaluate p(.) only once instead of n!.</p>",
+            "id": 106,
+            "page": 9,
+            "text": "Crucially, sampling p(Y�(X) |X) can be done very efficiently as we can use ancestral sampling (leftto-right) which requires to evaluate p(.) only once instead of n!."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 769
+                },
+                {
+                    "x": 947,
+                    "y": 769
+                },
+                {
+                    "x": 947,
+                    "y": 815
+                },
+                {
+                    "x": 445,
+                    "y": 815
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:18px'>5.2.1 5-GRAM MODELING</p>",
+            "id": 107,
+            "page": 9,
+            "text": "5.2.1 5-GRAM MODELING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 851
+                },
+                {
+                    "x": 2106,
+                    "y": 851
+                },
+                {
+                    "x": 2106,
+                    "y": 1311
+                },
+                {
+                    "x": 442,
+                    "y": 1311
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:18px'>In our initial attempt to solve (9), we considered a simplified version of the language modeling<br>task described in Section 5.1.1. The simplified task consists of modeling the joint probability of 5-<br>grams without any further context (i.e., there is no input X). This choice allowed us to have a small<br>enough n as initially we were trying to exactly find the best ordering out of the n! possible ones.<br>Thus, we disregarded possible effects of inexact search, and focused on the essential of the training<br>dynamics where the model being optimized picks the best ordering � which maximizes p(Y�) under<br>its current parameters, and reinforces that ordering by applying updates on the gradient of log p(Y�)<br>w.r.t. the parameters. Eventually, as noted in Section 5.2, we found sampling to be superior in terms<br>of convergence, whilst simplifying the complexity from O(n!) down to 0(1), and is the preferred<br>solution which we used in the rest of this section.</p>",
+            "id": 108,
+            "page": 9,
+            "text": "In our initial attempt to solve (9), we considered a simplified version of the language modeling task described in Section 5.1.1. The simplified task consists of modeling the joint probability of 5grams without any further context (i.e., there is no input X). This choice allowed us to have a small enough n as initially we were trying to exactly find the best ordering out of the n! possible ones. Thus, we disregarded possible effects of inexact search, and focused on the essential of the training dynamics where the model being optimized picks the best ordering � which maximizes p(Y�) under its current parameters, and reinforces that ordering by applying updates on the gradient of log p(Y�) w.r.t. the parameters. Eventually, as noted in Section 5.2, we found sampling to be superior in terms of convergence, whilst simplifying the complexity from O(n!) down to 0(1), and is the preferred solution which we used in the rest of this section."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1334
+                },
+                {
+                    "x": 2104,
+                    "y": 1334
+                },
+                {
+                    "x": 2104,
+                    "y": 1426
+                },
+                {
+                    "x": 442,
+                    "y": 1426
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:14px'>To test this framework, we converted 5-grams (i.e., sequences of words) to a set in the following<br>way:</p>",
+            "id": 109,
+            "page": 9,
+            "text": "To test this framework, we converted 5-grams (i.e., sequences of words) to a set in the following way:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1452
+                },
+                {
+                    "x": 1639,
+                    "y": 1452
+                },
+                {
+                    "x": 1639,
+                    "y": 1546
+                },
+                {
+                    "x": 442,
+                    "y": 1546
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:22px'>5-gram (sequence): y1=This, y2=is, y3=a, y4=five, y5=gram<br>5-gram (set): y1=(This,1), y2=(is,2), y3=(a,3), y4=(five,4), y5=(gram,5)</p>",
+            "id": 110,
+            "page": 9,
+            "text": "5-gram (sequence): y1=This, y2=is, y3=a, y4=five, y5=gram 5-gram (set): y1=(This,1), y2=(is,2), y3=(a,3), y4=(five,4), y5=(gram,5)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1566
+                },
+                {
+                    "x": 2108,
+                    "y": 1566
+                },
+                {
+                    "x": 2108,
+                    "y": 1842
+                },
+                {
+                    "x": 441,
+                    "y": 1842
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='111' style='font-size:18px'>Note that adding the original position alongside the words makes Y a set. Thus, we can shuffle<br>Y in arbitrarily without losing the original structure of the sequence. The first experiment, which<br>reinforces our result in Section 5.1.1, tests the hypothesis once again that order matters. Training<br>a model which follows the natural order (i.e., produces (This,1), followed by (is,2) conditioned on<br>(This,1), etc.), achieves a validation perplexity of 225.2 If, instead of picking (1,2,3,4,5), we use<br>(5,1,3, 4, 2), perplexity drops to 280.</p>",
+            "id": 111,
+            "page": 9,
+            "text": "Note that adding the original position alongside the words makes Y a set. Thus, we can shuffle Y in arbitrarily without losing the original structure of the sequence. The first experiment, which reinforces our result in Section 5.1.1, tests the hypothesis once again that order matters. Training a model which follows the natural order (i.e., produces (This,1), followed by (is,2) conditioned on (This,1), etc.), achieves a validation perplexity of 225.2 If, instead of picking (1,2,3,4,5), we use (5,1,3, 4, 2), perplexity drops to 280."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1866
+                },
+                {
+                    "x": 1280,
+                    "y": 1866
+                },
+                {
+                    "x": 1280,
+                    "y": 1913
+                },
+                {
+                    "x": 445,
+                    "y": 1913
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='112' style='font-size:16px'>We then test optimization of eq. (9) in two setups:</p>",
+            "id": 112,
+            "page": 9,
+            "text": "We then test optimization of eq. (9) in two setups:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1936
+                },
+                {
+                    "x": 2083,
+                    "y": 1936
+                },
+                {
+                    "x": 2083,
+                    "y": 2027
+                },
+                {
+                    "x": 442,
+                    "y": 2027
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:20px'>Easy: The training set contains examples from (1, 2, 3,4, 5) and (5,1,3,4, 2), uniformly sampled.<br>Hard: The training set contains examples from the 5! possible orderings, uniformly sampled.</p>",
+            "id": 113,
+            "page": 9,
+            "text": "Easy: The training set contains examples from (1, 2, 3,4, 5) and (5,1,3,4, 2), uniformly sampled. Hard: The training set contains examples from the 5! possible orderings, uniformly sampled."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2053
+                },
+                {
+                    "x": 2106,
+                    "y": 2053
+                },
+                {
+                    "x": 2106,
+                    "y": 2466
+                },
+                {
+                    "x": 443,
+                    "y": 2466
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:18px'>Our results are shown in Table 2. Note that, in the easy case, we restrict the search space over<br>orderings to only 2, where one order is clearly better than the other. We note that, after the pretraining<br>phase, we decide which of the two orderings is better to represent the data under the model being<br>trained. Very quickly, the model settles on the natural (1, 2, 3, 4, 5) ordering, yielding a perplexity<br>of 225. In the most difficult case, where any order is possible, the model settles to orders such as<br>(1, 2, 3, 4, 5), (5, 4, 3, 2, 1), and small variations of them. In all cases, the final perplexity is 225.<br>Thus, the framework we propose is able to find good orderings without any prior knowledge. We<br>plan to not only recover optimal orderings, but find ones that were unknown to us when applying<br>the seq2seq framework naively.</p>",
+            "id": 114,
+            "page": 9,
+            "text": "Our results are shown in Table 2. Note that, in the easy case, we restrict the search space over orderings to only 2, where one order is clearly better than the other. We note that, after the pretraining phase, we decide which of the two orderings is better to represent the data under the model being trained. Very quickly, the model settles on the natural (1, 2, 3, 4, 5) ordering, yielding a perplexity of 225. In the most difficult case, where any order is possible, the model settles to orders such as (1, 2, 3, 4, 5), (5, 4, 3, 2, 1), and small variations of them. In all cases, the final perplexity is 225. Thus, the framework we propose is able to find good orderings without any prior knowledge. We plan to not only recover optimal orderings, but find ones that were unknown to us when applying the seq2seq framework naively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2513
+                },
+                {
+                    "x": 2105,
+                    "y": 2513
+                },
+                {
+                    "x": 2105,
+                    "y": 2608
+                },
+                {
+                    "x": 442,
+                    "y": 2608
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:18px'>Table 2: Experiments in which the model finds the optimal ordering of a set for the 5-gram language<br>modeling task. Perplexities are reported on the validation set (lower is better).</p>",
+            "id": 115,
+            "page": 9,
+            "text": "Table 2: Experiments in which the model finds the optimal ordering of a set for the 5-gram language modeling task. Perplexities are reported on the validation set (lower is better)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 864,
+                    "y": 2643
+                },
+                {
+                    "x": 1696,
+                    "y": 2643
+                },
+                {
+                    "x": 1696,
+                    "y": 2892
+                },
+                {
+                    "x": 864,
+                    "y": 2892
+                }
+            ],
+            "category": "table",
+            "html": "<table id='116' style='font-size:18px'><tr><td>Task</td><td>Orders considered</td><td>Perplexity</td></tr><tr><td>(1,2,3,4,5)</td><td>1</td><td>225</td></tr><tr><td>(5, 1,3,4,2)</td><td>1</td><td>280</td></tr><tr><td>Easy</td><td>2</td><td>225</td></tr><tr><td>Hard</td><td>5!</td><td>225</td></tr></table>",
+            "id": 116,
+            "page": 9,
+            "text": "Task Orders considered Perplexity  (1,2,3,4,5) 1 225  (5, 1,3,4,2) 1 280  Easy 2 225  Hard 5!"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2967
+                },
+                {
+                    "x": 2105,
+                    "y": 2967
+                },
+                {
+                    "x": 2105,
+                    "y": 3053
+                },
+                {
+                    "x": 444,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:14px'>2This is much worse than the results reported in Section 5.1.1 since modeling 5-grams without context is<br>much harder than standard language modeling.</p>",
+            "id": 117,
+            "page": 9,
+            "text": "2This is much worse than the results reported in Section 5.1.1 since modeling 5-grams without context is much harder than standard language modeling."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3168
+                },
+                {
+                    "x": 1261,
+                    "y": 3168
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='118' style='font-size:14px'>9</footer>",
+            "id": 118,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 112
+                },
+                {
+                    "x": 1225,
+                    "y": 112
+                },
+                {
+                    "x": 1225,
+                    "y": 156
+                },
+                {
+                    "x": 445,
+                    "y": 156
+                }
+            ],
+            "category": "header",
+            "html": "<header id='119' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 119,
+            "page": 10,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 343
+                },
+                {
+                    "x": 819,
+                    "y": 343
+                },
+                {
+                    "x": 819,
+                    "y": 392
+                },
+                {
+                    "x": 445,
+                    "y": 392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:22px'>6 CONCLUSION</p>",
+            "id": 120,
+            "page": 10,
+            "text": "6 CONCLUSION"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 444
+                },
+                {
+                    "x": 2108,
+                    "y": 444
+                },
+                {
+                    "x": 2108,
+                    "y": 998
+                },
+                {
+                    "x": 442,
+                    "y": 998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:18px'>LSTMs have shown to be powerful models to represent variable length sequential data thanks to<br>their ability to handle reasonably long term dependencies and the use of the chain rule to efficiently<br>decompose joint distributions. On the other hand, some problems are expressed in terms of an<br>unordered set of elements, either as input or as outputs; in some other cases, the data is represented<br>by some structure that needs to be linearized to be fed to the LSTM, and there might be more<br>than one way to do so. The first goal of this paper was to shed some light on these problems:<br>indeed, we show that order matters to obtain the best performance. We then considered the case<br>of unordered input data, for which we proposed the Read-Process-and- Write architecture, and the<br>case of unordered output data, for which we proposed an efficient training algorithm that includes a<br>search over possible orders during training and inference. We illustrated our proposed approaches<br>for input and output sets through various experiments such as sorting, graphical models, language<br>modeling, and parsing.</p>",
+            "id": 121,
+            "page": 10,
+            "text": "LSTMs have shown to be powerful models to represent variable length sequential data thanks to their ability to handle reasonably long term dependencies and the use of the chain rule to efficiently decompose joint distributions. On the other hand, some problems are expressed in terms of an unordered set of elements, either as input or as outputs; in some other cases, the data is represented by some structure that needs to be linearized to be fed to the LSTM, and there might be more than one way to do so. The first goal of this paper was to shed some light on these problems: indeed, we show that order matters to obtain the best performance. We then considered the case of unordered input data, for which we proposed the Read-Process-and- Write architecture, and the case of unordered output data, for which we proposed an efficient training algorithm that includes a search over possible orders during training and inference. We illustrated our proposed approaches for input and output sets through various experiments such as sorting, graphical models, language modeling, and parsing."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1049
+                },
+                {
+                    "x": 838,
+                    "y": 1049
+                },
+                {
+                    "x": 838,
+                    "y": 1092
+                },
+                {
+                    "x": 445,
+                    "y": 1092
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='122' style='font-size:18px'>ACKNOWLEDGMENTS</p>",
+            "id": 122,
+            "page": 10,
+            "text": "ACKNOWLEDGMENTS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1128
+                },
+                {
+                    "x": 2106,
+                    "y": 1128
+                },
+                {
+                    "x": 2106,
+                    "y": 1267
+                },
+                {
+                    "x": 443,
+                    "y": 1267
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:18px'>We would like to thank Ilya Sutskever, Navdeep Jaitly, Rafal Jozefowicz, Quoc Le, Lukasz Kaiser,<br>Geoffrey Hinton, Jeff Dean, Shane Gu and the Google Brain Team for useful discussions on this<br>topic. We also thank the anonymous reviewers which helped improving our paper.</p>",
+            "id": 123,
+            "page": 10,
+            "text": "We would like to thank Ilya Sutskever, Navdeep Jaitly, Rafal Jozefowicz, Quoc Le, Lukasz Kaiser, Geoffrey Hinton, Jeff Dean, Shane Gu and the Google Brain Team for useful discussions on this topic. We also thank the anonymous reviewers which helped improving our paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1331
+                },
+                {
+                    "x": 734,
+                    "y": 1331
+                },
+                {
+                    "x": 734,
+                    "y": 1381
+                },
+                {
+                    "x": 444,
+                    "y": 1381
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:20px'>REFERENCES</p>",
+            "id": 124,
+            "page": 10,
+            "text": "REFERENCES"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1405
+                },
+                {
+                    "x": 2104,
+                    "y": 1405
+                },
+                {
+                    "x": 2104,
+                    "y": 1490
+                },
+                {
+                    "x": 444,
+                    "y": 1490
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='125' style='font-size:18px'>Bahdanau, D., Cho, K., and Bengio, Y. Neural machine translation by jointly learning to align and translate. In<br>Proc. ICLR, 2015a.</p>",
+            "id": 125,
+            "page": 10,
+            "text": "Bahdanau, D., Cho, K., and Bengio, Y. Neural machine translation by jointly learning to align and translate. In Proc. ICLR, 2015a."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1523
+                },
+                {
+                    "x": 2104,
+                    "y": 1523
+                },
+                {
+                    "x": 2104,
+                    "y": 1609
+                },
+                {
+                    "x": 443,
+                    "y": 1609
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:16px'>Bahdanau, D., Chorowski, J., Serdyuk, D., Brakel, P., and Bengio, Y. End-to-end attention-based large vocab-<br>ulary speech recognition. arXiv preprint arXiv:1508.04395, 2015b.</p>",
+            "id": 126,
+            "page": 10,
+            "text": "Bahdanau, D., Chorowski, J., Serdyuk, D., Brakel, P., and Bengio, Y. End-to-end attention-based large vocabulary speech recognition. arXiv preprint arXiv:1508.04395, 2015b."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1641
+                },
+                {
+                    "x": 2106,
+                    "y": 1641
+                },
+                {
+                    "x": 2106,
+                    "y": 1723
+                },
+                {
+                    "x": 444,
+                    "y": 1723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:18px'>Bakir, G., Hofmann, T., Scholkopf, B., Smola, A. J., Taskar, B., and Vishwanathan, S.V.N. (eds.). Predicting<br>Structured Data. MIT Press, 2007.</p>",
+            "id": 127,
+            "page": 10,
+            "text": "Bakir, G., Hofmann, T., Scholkopf, B., Smola, A. J., Taskar, B., and Vishwanathan, S.V.N. (eds.). Predicting Structured Data. MIT Press, 2007."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1757
+                },
+                {
+                    "x": 2103,
+                    "y": 1757
+                },
+                {
+                    "x": 2103,
+                    "y": 1843
+                },
+                {
+                    "x": 443,
+                    "y": 1843
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='128' style='font-size:14px'>Chan, W., Jaitly, N., Le, Q. V., and Vinyals, 0. Listen, attend and spell. arXiv, abs/1508.01211, 2015. URL<br>http : / / arxiv · org/ abs /1508 · 01211.</p>",
+            "id": 128,
+            "page": 10,
+            "text": "Chan, W., Jaitly, N., Le, Q. V., and Vinyals, 0. Listen, attend and spell. arXiv, abs/1508.01211, 2015. URL http : / / arxiv · org/ abs /1508 · 01211."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1875
+                },
+                {
+                    "x": 2106,
+                    "y": 1875
+                },
+                {
+                    "x": 2106,
+                    "y": 1999
+                },
+                {
+                    "x": 442,
+                    "y": 1999
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:16px'>Cho, K., van Merrienboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., and Bengio, Y. Learning<br>phrase representations using RNN encoder-decoder for statistical machine translation. In Proc. EMNLP,<br>2014.</p>",
+            "id": 129,
+            "page": 10,
+            "text": "Cho, K., van Merrienboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., and Bengio, Y. Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Proc. EMNLP, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2033
+                },
+                {
+                    "x": 2103,
+                    "y": 2033
+                },
+                {
+                    "x": 2103,
+                    "y": 2121
+                },
+                {
+                    "x": 441,
+                    "y": 2121
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:16px'>Donahue, J., Hendricks, L. A., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., and Darrell, T.<br>Long-term recurrent convolutional networks for visual recognition and description. In Proc. CVPR, 2015.</p>",
+            "id": 130,
+            "page": 10,
+            "text": "Donahue, J., Hendricks, L. A., Guadarrama, S., Rohrbach, M., Venugopalan, S., Saenko, K., and Darrell, T. Long-term recurrent convolutional networks for visual recognition and description. In Proc. CVPR, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2153
+                },
+                {
+                    "x": 1837,
+                    "y": 2153
+                },
+                {
+                    "x": 1837,
+                    "y": 2197
+                },
+                {
+                    "x": 444,
+                    "y": 2197
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='131' style='font-size:18px'>Graves, A. Supervised Sequence Labelling with Recurrent Neural Networks. Springer, 2012.</p>",
+            "id": 131,
+            "page": 10,
+            "text": "Graves, A. Supervised Sequence Labelling with Recurrent Neural Networks. Springer, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2228
+                },
+                {
+                    "x": 2072,
+                    "y": 2228
+                },
+                {
+                    "x": 2072,
+                    "y": 2272
+                },
+                {
+                    "x": 444,
+                    "y": 2272
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='132' style='font-size:16px'>Graves, A., Wayne, G., and Danihelka, I. Neural turing machines. In arXiv preprint arXiv:1410.5401, 2014.</p>",
+            "id": 132,
+            "page": 10,
+            "text": "Graves, A., Wayne, G., and Danihelka, I. Neural turing machines. In arXiv preprint arXiv:1410.5401, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2305
+                },
+                {
+                    "x": 2105,
+                    "y": 2305
+                },
+                {
+                    "x": 2105,
+                    "y": 2430
+                },
+                {
+                    "x": 442,
+                    "y": 2430
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:18px'>Hinton, G., Deng, L., Yu, D., Dahl, G., Mohamed, A., Jaitly, N., Senior, A., Vanhoucke, V., Nguyen, P., Sainath,<br>T. N., and Kingsbury, B. Deep neural networks for acoustic modeling in speech recognition. IEEE Signal<br>Processing Magazine, 29:82-97, 2012.</p>",
+            "id": 133,
+            "page": 10,
+            "text": "Hinton, G., Deng, L., Yu, D., Dahl, G., Mohamed, A., Jaitly, N., Senior, A., Vanhoucke, V., Nguyen, P., Sainath, T. N., and Kingsbury, B. Deep neural networks for acoustic modeling in speech recognition. IEEE Signal Processing Magazine, 29:82-97, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2464
+                },
+                {
+                    "x": 1874,
+                    "y": 2464
+                },
+                {
+                    "x": 1874,
+                    "y": 2508
+                },
+                {
+                    "x": 444,
+                    "y": 2508
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='134' style='font-size:16px'>Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural Computation, 9(8), 1997.</p>",
+            "id": 134,
+            "page": 10,
+            "text": "Hochreiter, S. and Schmidhuber, J. Long short-term memory. Neural Computation, 9(8), 1997."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2538
+                },
+                {
+                    "x": 2104,
+                    "y": 2538
+                },
+                {
+                    "x": 2104,
+                    "y": 2624
+                },
+                {
+                    "x": 443,
+                    "y": 2624
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='135' style='font-size:16px'>Ioffe, S. and Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covari-<br>ate shift. In Proceedings of the 32nd International Conference on Machine Learning, ICML, 2015.</p>",
+            "id": 135,
+            "page": 10,
+            "text": "Ioffe, S. and Szegedy, C. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In Proceedings of the 32nd International Conference on Machine Learning, ICML, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2656
+                },
+                {
+                    "x": 1959,
+                    "y": 2656
+                },
+                {
+                    "x": 1959,
+                    "y": 2700
+                },
+                {
+                    "x": 444,
+                    "y": 2700
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='136' style='font-size:14px'>Kalchbrenner, N. and Blunsom, P. Recurrent continuous translation models. In Proc. EMNLP, 2013.</p>",
+            "id": 136,
+            "page": 10,
+            "text": "Kalchbrenner, N. and Blunsom, P. Recurrent continuous translation models. In Proc. EMNLP, 2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2732
+                },
+                {
+                    "x": 2105,
+                    "y": 2732
+                },
+                {
+                    "x": 2105,
+                    "y": 2817
+                },
+                {
+                    "x": 444,
+                    "y": 2817
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='137' style='font-size:14px'>Maas, A. L., Miller, S. D., O'Neil, T. M., and Ng, A. Y. Word-level acoustic modeling with convolutional<br>vector regression. In ICML 2012 Workshop on Representation Learning, 2012.</p>",
+            "id": 137,
+            "page": 10,
+            "text": "Maas, A. L., Miller, S. D., O'Neil, T. M., and Ng, A. Y. Word-level acoustic modeling with convolutional vector regression. In ICML 2012 Workshop on Representation Learning, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2849
+                },
+                {
+                    "x": 2104,
+                    "y": 2849
+                },
+                {
+                    "x": 2104,
+                    "y": 2933
+                },
+                {
+                    "x": 444,
+                    "y": 2933
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='138' style='font-size:18px'>Mao, J., Xu, W., Yang, Y., Wang, J., Huang, Z., and Yuille, A. L. Deep captioning with multimodal recurrent<br>neural networks (m-RNN). In International Conference on Learning Representations, 2015.</p>",
+            "id": 138,
+            "page": 10,
+            "text": "Mao, J., Xu, W., Yang, Y., Wang, J., Huang, Z., and Yuille, A. L. Deep captioning with multimodal recurrent neural networks (m-RNN). In International Conference on Learning Representations, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2969
+                },
+                {
+                    "x": 2107,
+                    "y": 2969
+                },
+                {
+                    "x": 2107,
+                    "y": 3052
+                },
+                {
+                    "x": 443,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='139' style='font-size:16px'>Socher, R., Manning, C. D., and Ng, A. Y. Learning continuous phrase representations and syntactic parsing<br>with recursive neural networks. In Advances in Neural Information Processing Systems, 2010.</p>",
+            "id": 139,
+            "page": 10,
+            "text": "Socher, R., Manning, C. D., and Ng, A. Y. Learning continuous phrase representations and syntactic parsing with recursive neural networks. In Advances in Neural Information Processing Systems, 2010."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1253,
+                    "y": 3133
+                },
+                {
+                    "x": 1299,
+                    "y": 3133
+                },
+                {
+                    "x": 1299,
+                    "y": 3172
+                },
+                {
+                    "x": 1253,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='140' style='font-size:18px'>10</footer>",
+            "id": 140,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 111
+                },
+                {
+                    "x": 1225,
+                    "y": 157
+                },
+                {
+                    "x": 444,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='141' style='font-size:14px'>Published as a conference paper at ICLR 2016</header>",
+            "id": 141,
+            "page": 11,
+            "text": "Published as a conference paper at ICLR 2016"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 350
+                },
+                {
+                    "x": 2104,
+                    "y": 350
+                },
+                {
+                    "x": 2104,
+                    "y": 433
+                },
+                {
+                    "x": 442,
+                    "y": 433
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='142' style='font-size:14px'>Sutskever, Ilya, Vinyals, Oriol, and Le, Quoc V. Sequence to sequence learning with neural networks. In Proc.<br>NIPS, 2014.</p>",
+            "id": 142,
+            "page": 11,
+            "text": "Sutskever, Ilya, Vinyals, Oriol, and Le, Quoc V. Sequence to sequence learning with neural networks. In Proc. NIPS, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 465
+                },
+                {
+                    "x": 2106,
+                    "y": 465
+                },
+                {
+                    "x": 2106,
+                    "y": 549
+                },
+                {
+                    "x": 444,
+                    "y": 549
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='143' style='font-size:18px'>Vinyals, 0., Fortunato, M., and Jaitly, N. Pointer networks. In Advances in Neural Information Processing<br>Systems, NIPS, 2015a.</p>",
+            "id": 143,
+            "page": 11,
+            "text": "Vinyals, 0., Fortunato, M., and Jaitly, N. Pointer networks. In Advances in Neural Information Processing Systems, NIPS, 2015a."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 581
+                },
+                {
+                    "x": 2107,
+                    "y": 581
+                },
+                {
+                    "x": 2107,
+                    "y": 668
+                },
+                {
+                    "x": 443,
+                    "y": 668
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='144' style='font-size:14px'>Vinyals, 0., Kaiser, L., Koo, T., Petrov, S., Sutskever, I., and Hinton, G. Grammar as a foreign language. In<br>Advances in Neural Information Processing Systems, 2015b.</p>",
+            "id": 144,
+            "page": 11,
+            "text": "Vinyals, 0., Kaiser, L., Koo, T., Petrov, S., Sutskever, I., and Hinton, G. Grammar as a foreign language. In Advances in Neural Information Processing Systems, 2015b."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 697
+                },
+                {
+                    "x": 2102,
+                    "y": 697
+                },
+                {
+                    "x": 2102,
+                    "y": 781
+                },
+                {
+                    "x": 443,
+                    "y": 781
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='145' style='font-size:14px'>Vinyals, 0., Toshev, A., Bengio, S., and Erhan, D. Show and tell: A neural image caption generator. In Proc.<br>CVPR, 2015c.</p>",
+            "id": 145,
+            "page": 11,
+            "text": "Vinyals, 0., Toshev, A., Bengio, S., and Erhan, D. Show and tell: A neural image caption generator. In Proc. CVPR, 2015c."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 815
+                },
+                {
+                    "x": 2103,
+                    "y": 815
+                },
+                {
+                    "x": 2103,
+                    "y": 899
+                },
+                {
+                    "x": 442,
+                    "y": 899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='146' style='font-size:14px'>Weston, J., Chopra, S., and Bordes, A. Memory networks. In International Conference on Learning Represen-<br>tations, ICLR, 2015.</p>",
+            "id": 146,
+            "page": 11,
+            "text": "Weston, J., Chopra, S., and Bordes, A. Memory networks. In International Conference on Learning Representations, ICLR, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 930
+                },
+                {
+                    "x": 1657,
+                    "y": 930
+                },
+                {
+                    "x": 1657,
+                    "y": 975
+                },
+                {
+                    "x": 443,
+                    "y": 975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='147' style='font-size:14px'>Zaremba, W. and Sutskever, I. Learning to execute. arXiv, abs/1410.4615, 2014.</p>",
+            "id": 147,
+            "page": 11,
+            "text": "Zaremba, W. and Sutskever, I. Learning to execute. arXiv, abs/1410.4615, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1004
+                },
+                {
+                    "x": 2088,
+                    "y": 1004
+                },
+                {
+                    "x": 2088,
+                    "y": 1049
+                },
+                {
+                    "x": 442,
+                    "y": 1049
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='148' style='font-size:14px'>Zaremba, W. and Sutskever, I. Reinforcement learning neural turing machines. arXiv, abs/1505.00521, 2015.</p>",
+            "id": 148,
+            "page": 11,
+            "text": "Zaremba, W. and Sutskever, I. Reinforcement learning neural turing machines. arXiv, abs/1505.00521, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1080
+                },
+                {
+                    "x": 2108,
+                    "y": 1080
+                },
+                {
+                    "x": 2108,
+                    "y": 1164
+                },
+                {
+                    "x": 442,
+                    "y": 1164
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='149' style='font-size:18px'>Zaremba, W., Sutskever, I., and Vinyals, 0. Recurrent neural network regularization. arXiv, abs/1409.2329,<br>2014.</p>",
+            "id": 149,
+            "page": 11,
+            "text": "Zaremba, W., Sutskever, I., and Vinyals, 0. Recurrent neural network regularization. arXiv, abs/1409.2329, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3131
+                },
+                {
+                    "x": 1298,
+                    "y": 3131
+                },
+                {
+                    "x": 1298,
+                    "y": 3172
+                },
+                {
+                    "x": 1252,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='150' style='font-size:14px'>11</footer>",
+            "id": 150,
+            "page": 11,
+            "text": "11"
+        }
+    ]
+}

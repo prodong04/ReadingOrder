@@ -1,0 +1,2781 @@
+{
+  "id": "62a45296-0f92-11ef-8230-426932df3dcf",
+  "pdf_path": "./pdf/AI_VIT_O/2104.06399v2.pdf",
+  "elements": [
+    {
+      "bounding_box": [
+        {
+          "x": 621,
+          "y": 436
+        },
+        {
+          "x": 1859,
+          "y": 436
+        },
+        {
+          "x": 1859,
+          "y": 500
+        },
+        {
+          "x": 621,
+          "y": 500
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='0' style='font-size:22px'>Co-Scale Conv-Attentional Image Transformers</p>",
+      "id": 0,
+      "page": 1,
+      "text": "Co-Scale Conv-Attentional Image Transformers"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 689,
+          "y": 601
+        },
+        {
+          "x": 1791,
+          "y": 601
+        },
+        {
+          "x": 1791,
+          "y": 715
+        },
+        {
+          "x": 689,
+          "y": 715
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='1' style='font-size:20px'>Weijian Xu* Yifan Xu* Tyler Chang Zhuowen Tu<br>University of California San Diego</p>",
+      "id": 1,
+      "page": 1,
+      "text": "Weijian Xu* Yifan Xu* Tyler Chang Zhuowen Tu\nUniversity of California San Diego"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 793,
+          "y": 729
+        },
+        {
+          "x": 1668,
+          "y": 729
+        },
+        {
+          "x": 1668,
+          "y": 775
+        },
+        {
+          "x": 793,
+          "y": 775
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='2' style='font-size:18px'>{wex041, yix081, tachang, ztu}@ucsd . edu</p>",
+      "id": 2,
+      "page": 1,
+      "text": "{wex041, yix081, tachang, ztu}@ucsd . edu"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 602,
+          "y": 889
+        },
+        {
+          "x": 798,
+          "y": 889
+        },
+        {
+          "x": 798,
+          "y": 944
+        },
+        {
+          "x": 602,
+          "y": 944
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+      "id": 3,
+      "page": 1,
+      "text": "Abstract"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 995
+        },
+        {
+          "x": 1203,
+          "y": 995
+        },
+        {
+          "x": 1203,
+          "y": 1943
+        },
+        {
+          "x": 199,
+          "y": 1943
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='4' style='font-size:18px'>In this paper, we present Co-scale conv-attentional image<br>Transformers (CoaT), a Transformer-based image classifier<br>equipped with co-scale and conv-attentional mechanisms.<br>First, the co-scale mechanism maintains the integrity of<br>Transformers' encoder branches at individual scales, while<br>allowing representations learned at different scales to ef-<br>fectively communicate with each other; we design a series<br>of serial and parallel blocks to realize the co-scale mecha-<br>nism. Second, we devise a conv-attentional mechanism by<br>realizing a relative position embedding formulation in the<br>factorized attention module with an efficient convolution-like<br>implementation. CoaT empowers image Transformers with<br>enriched multi-scale and contextual modeling capabilities.<br>On ImageNet, relatively small CoaT models attain superior<br>classification results compared with similar-sized convolu-<br>tional neural networks and image/vision Transformers. The<br>effectiveness of CoaT's backbone is also illustrated on ob-<br>ject detection and instance segmentation, demonstrating its<br>applicability to downstream computer vision tasks.</p>",
+      "id": 4,
+      "page": 1,
+      "text": "In this paper, we present Co-scale conv-attentional image\nTransformers (CoaT), a Transformer-based image classifier\nequipped with co-scale and conv-attentional mechanisms.\nFirst, the co-scale mechanism maintains the integrity of\nTransformers' encoder branches at individual scales, while\nallowing representations learned at different scales to ef-\nfectively communicate with each other; we design a series\nof serial and parallel blocks to realize the co-scale mecha-\nnism. Second, we devise a conv-attentional mechanism by\nrealizing a relative position embedding formulation in the\nfactorized attention module with an efficient convolution-like\nimplementation. CoaT empowers image Transformers with\nenriched multi-scale and contextual modeling capabilities.\nOn ImageNet, relatively small CoaT models attain superior\nclassification results compared with similar-sized convolu-\ntional neural networks and image/vision Transformers. The\neffectiveness of CoaT's backbone is also illustrated on ob-\nject detection and instance segmentation, demonstrating its\napplicability to downstream computer vision tasks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 204,
+          "y": 2033
+        },
+        {
+          "x": 532,
+          "y": 2033
+        },
+        {
+          "x": 532,
+          "y": 2086
+        },
+        {
+          "x": 204,
+          "y": 2086
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='5' style='font-size:20px'>1. Introduction</p>",
+      "id": 5,
+      "page": 1,
+      "text": "1. Introduction"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2116
+        },
+        {
+          "x": 1200,
+          "y": 2116
+        },
+        {
+          "x": 1200,
+          "y": 2663
+        },
+        {
+          "x": 201,
+          "y": 2663
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='6' style='font-size:18px'>A notable recent development in artificial intelligence is<br>the creation of attention mechanisms [38] and Transform-<br>ers [31], which have made a profound impact in a range of<br>fields including natural language processing [7, 20], docu-<br>ment analysis [39], speech recognition [8], and computer<br>vision [9, 3]. In the past, state-of-the-art image classifiers<br>have been built primarily on convolutional neural networks<br>(CNNs) [15, 14, 27, 26, 11, 36] that operate on layers of<br>filtering processes. Recent developments [30, 9] however<br>begin to show encouraging results for Transformer-based<br>image classifiers.</p>",
+      "id": 6,
+      "page": 1,
+      "text": "A notable recent development in artificial intelligence is\nthe creation of attention mechanisms [38] and Transform-\ners [31], which have made a profound impact in a range of\nfields including natural language processing [7, 20], docu-\nment analysis [39], speech recognition [8], and computer\nvision [9, 3]. In the past, state-of-the-art image classifiers\nhave been built primarily on convolutional neural networks\n(CNNs) [15, 14, 27, 26, 11, 36] that operate on layers of\nfiltering processes. Recent developments [30, 9] however\nbegin to show encouraging results for Transformer-based\nimage classifiers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2666
+        },
+        {
+          "x": 1201,
+          "y": 2666
+        },
+        {
+          "x": 1201,
+          "y": 2866
+        },
+        {
+          "x": 201,
+          "y": 2866
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='7' style='font-size:18px'>In essence, both the convolution [15] and attention [38]<br>operations address the fundamental representation problem<br>for structured data (e.g. images and text) by modeling the<br>local contents, as well as the contexts. The receptive fields</p>",
+      "id": 7,
+      "page": 1,
+      "text": "In essence, both the convolution [15] and attention [38]\noperations address the fundamental representation problem\nfor structured data (e.g. images and text) by modeling the\nlocal contents, as well as the contexts. The receptive fields"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 255,
+          "y": 2893
+        },
+        {
+          "x": 1052,
+          "y": 2893
+        },
+        {
+          "x": 1052,
+          "y": 2973
+        },
+        {
+          "x": 255,
+          "y": 2973
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='8' style='font-size:14px'>* indicates equal contribution.<br>Code at https : / /github · com/mlpc-ucsd/CoaT.</p>",
+      "id": 8,
+      "page": 1,
+      "text": "* indicates equal contribution.\nCode at https : / /github · com/mlpc-ucsd/CoaT."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 883
+        },
+        {
+          "x": 2280,
+          "y": 883
+        },
+        {
+          "x": 2280,
+          "y": 1546
+        },
+        {
+          "x": 1280,
+          "y": 1546
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='9' style='font-size:14px' alt=\"84\nCoa ★CoaT-Li\n82\nT2T-ViT-19 ●PVT-L DeiT-B\nCoaT-LVT2T-ViT-14\n(%) COaT S) PVT-M\nAccuracy 80 CoaT-Li DeiT-S\nM PVT-S R101\nCoaT/ R50\nViT-B\n78\nTop-1 CoaT-Li\n(T)\n76 T2T-ViT-12\n●PVT-T\nImageNet\nCoaT-Lite (ours)\n74 CoaT (ours)\nDeiT (baseline)\nDeiT-T T2T\n72\nPVT\nT2T-ViT-7\nResNet\n70 ViT\n▲R18\n0 10 20 30 40 50 60 70 80 90\nNumber of Parameters (Millions)\" data-coord=\"top-left:(1280,883); bottom-right:(2280,1546)\" /></figure>",
+      "id": 9,
+      "page": 1,
+      "text": "84\nCoa ★CoaT-Li\n82\nT2T-ViT-19 ●PVT-L DeiT-B\nCoaT-LVT2T-ViT-14\n(%) COaT S) PVT-M\nAccuracy 80 CoaT-Li DeiT-S\nM PVT-S R101\nCoaT/ R50\nViT-B\n78\nTop-1 CoaT-Li\n(T)\n76 T2T-ViT-12\n●PVT-T\nImageNet\nCoaT-Lite (ours)\n74 CoaT (ours)\nDeiT (baseline)\nDeiT-T T2T\n72\nPVT\nT2T-ViT-7\nResNet\n70 ViT\n▲R18\n0 10 20 30 40 50 60 70 80 90\nNumber of Parameters (Millions)"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1573
+        },
+        {
+          "x": 2279,
+          "y": 1573
+        },
+        {
+          "x": 2279,
+          "y": 1708
+        },
+        {
+          "x": 1280,
+          "y": 1708
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='10' style='font-size:16px'>Figure 1. Model Size vs. ImageNet Accuracy. Our CoaT model<br>significantly outperforms other image Transformers. Details are in<br>Table 2.</caption>",
+      "id": 10,
+      "page": 1,
+      "text": "Figure 1. Model Size vs. ImageNet Accuracy. Our CoaT model\nsignificantly outperforms other image Transformers. Details are in\nTable 2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1765
+        },
+        {
+          "x": 2280,
+          "y": 1765
+        },
+        {
+          "x": 2280,
+          "y": 2263
+        },
+        {
+          "x": 1280,
+          "y": 2263
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='11' style='font-size:18px'>in CNNs are gradually expanded through a series of con-<br>volution operations. The attention mechanism [38, 31] is,<br>however, different from the convolution operations: (1) the<br>receptive field at each location or token in self-attention<br>[31] readily covers the entire input space since each token<br>is \"matched\" with all tokens including itself; (2) the self-<br>attention operation for each pair of tokens computes a dot<br>product between the \"query\" (the token in consideration)<br>and the \"key\" (the token being matched with) to weight the<br>\"value\" (of the token being matched with).</p>",
+      "id": 11,
+      "page": 1,
+      "text": "in CNNs are gradually expanded through a series of con-\nvolution operations. The attention mechanism [38, 31] is,\nhowever, different from the convolution operations: (1) the\nreceptive field at each location or token in self-attention\n[31] readily covers the entire input space since each token\nis \"matched\" with all tokens including itself; (2) the self-\nattention operation for each pair of tokens computes a dot\nproduct between the \"query\" (the token in consideration)\nand the \"key\" (the token being matched with) to weight the\n\"value\" (of the token being matched with)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 2271
+        },
+        {
+          "x": 2281,
+          "y": 2271
+        },
+        {
+          "x": 2281,
+          "y": 2920
+        },
+        {
+          "x": 1278,
+          "y": 2920
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='12' style='font-size:18px'>Moreover, although the convolution and the self-attention<br>operations both perform a weighted sum, their weights are<br>computed differently: in CNNs, the weights are learned dur-<br>ing training but fixed during testing; in the self-attention<br>mechanism, the weights are dynamically computed based<br>on the similarity or affinity between every pair of tokens.<br>As a consequence, the self-similarity operation in the self-<br>attention mechanism provides modeling means that are po-<br>tentially more adaptive and general than convolution oper-<br>ations. In addition, the introduction of position encodings<br>and embeddings [31] provides Transformers with additional<br>flexibility to model spatial configurations beyond fixed input<br>structures.</p>",
+      "id": 12,
+      "page": 1,
+      "text": "Moreover, although the convolution and the self-attention\noperations both perform a weighted sum, their weights are\ncomputed differently: in CNNs, the weights are learned dur-\ning training but fixed during testing; in the self-attention\nmechanism, the weights are dynamically computed based\non the similarity or affinity between every pair of tokens.\nAs a consequence, the self-similarity operation in the self-\nattention mechanism provides modeling means that are po-\ntentially more adaptive and general than convolution oper-\nations. In addition, the introduction of position encodings\nand embeddings [31] provides Transformers with additional\nflexibility to model spatial configurations beyond fixed input\nstructures."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1328,
+          "y": 2927
+        },
+        {
+          "x": 2276,
+          "y": 2927
+        },
+        {
+          "x": 2276,
+          "y": 2974
+        },
+        {
+          "x": 1328,
+          "y": 2974
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='13' style='font-size:16px'>Of course, the advantages of the attention mechanism are</p>",
+      "id": 13,
+      "page": 1,
+      "text": "Of course, the advantages of the attention mechanism are"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 307
+        },
+        {
+          "x": 1203,
+          "y": 307
+        },
+        {
+          "x": 1203,
+          "y": 853
+        },
+        {
+          "x": 199,
+          "y": 853
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='14' style='font-size:16px'>not given for free, since the self-attention operation com-<br>putes an affinity/similarity that is more computationally de-<br>manding than linear filtering in convolution. The early de-<br>velopment of Transformers has mainly focused on natural<br>language processing tasks [31, 7, 20] since text is \"shorter\"<br>than an image, and text is easier to tokenize. In computer<br>vision, self-attention has been adopted to provide added mod-<br>eling capability for various applications [34, 37, 44]. With<br>the underlying framework increasingly developed [9, 30],<br>Transformers start to bear fruit in computer vision [3, 9] by<br>demonstrating their enriched modeling capabilities.</p>",
+      "id": 14,
+      "page": 2,
+      "text": "not given for free, since the self-attention operation com-\nputes an affinity/similarity that is more computationally de-\nmanding than linear filtering in convolution. The early de-\nvelopment of Transformers has mainly focused on natural\nlanguage processing tasks [31, 7, 20] since text is \"shorter\"\nthan an image, and text is easier to tokenize. In computer\nvision, self-attention has been adopted to provide added mod-\neling capability for various applications [34, 37, 44]. With\nthe underlying framework increasingly developed [9, 30],\nTransformers start to bear fruit in computer vision [3, 9] by\ndemonstrating their enriched modeling capabilities."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 856
+        },
+        {
+          "x": 1203,
+          "y": 856
+        },
+        {
+          "x": 1203,
+          "y": 1552
+        },
+        {
+          "x": 200,
+          "y": 1552
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='15' style='font-size:14px'>In the seminal DEtection TRansformer (DETR) [3] algo-<br>rithm, Transformers are adopted to perform object detection<br>and panoptic segmentation, but DETR still uses CNN back-<br>bones to extract the basic image features. Efforts have re-<br>cently been made to build image classifiers from scratch, all<br>based on Transformers [9, 30, 33]. While Transformer-based<br>image classifiers have reported encouraging results, perfor-<br>mance and design gaps to the well-developed CNN models<br>still exist. For example, in [9, 30], an input image is divided<br>into a single grid of fixed patch size. In this paper, we de-<br>velop Co-scale conv-attentional image Transformers (CoaT)<br>by introducing two mechanisms of practical significance to<br>Transformer-based image classifiers. The contributions of<br>our work are summarized as follows:</p>",
+      "id": 15,
+      "page": 2,
+      "text": "In the seminal DEtection TRansformer (DETR) [3] algo-\nrithm, Transformers are adopted to perform object detection\nand panoptic segmentation, but DETR still uses CNN back-\nbones to extract the basic image features. Efforts have re-\ncently been made to build image classifiers from scratch, all\nbased on Transformers [9, 30, 33]. While Transformer-based\nimage classifiers have reported encouraging results, perfor-\nmance and design gaps to the well-developed CNN models\nstill exist. For example, in [9, 30], an input image is divided\ninto a single grid of fixed patch size. In this paper, we de-\nvelop Co-scale conv-attentional image Transformers (CoaT)\nby introducing two mechanisms of practical significance to\nTransformer-based image classifiers. The contributions of\nour work are summarized as follows:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 237,
+          "y": 1587
+        },
+        {
+          "x": 1202,
+          "y": 1587
+        },
+        {
+          "x": 1202,
+          "y": 2158
+        },
+        {
+          "x": 237,
+          "y": 2158
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='16' style='font-size:14px'>· We introduce a co-scale mechanism to image Trans-<br>formers by maintaining encoder branches at separate<br>scales while engaging attention across scales. Two<br>types of building blocks are developed, namely a serial<br>and a parallel block, realizing fine-to-coarse, coarse-<br>to-fine, and cross-scale image modeling.<br>· We design a conv-attention module to realize relative<br>position embeddings with convolutions in the factor-<br>ized attention module that achieves significantly en-<br>hanced computation efficiency when compared with<br>vanilla self-attention layers in Transformers.</p>",
+      "id": 16,
+      "page": 2,
+      "text": "· We introduce a co-scale mechanism to image Trans-\nformers by maintaining encoder branches at separate\nscales while engaging attention across scales. Two\ntypes of building blocks are developed, namely a serial\nand a parallel block, realizing fine-to-coarse, coarse-\nto-fine, and cross-scale image modeling.\n· We design a conv-attention module to realize relative\nposition embeddings with convolutions in the factor-\nized attention module that achieves significantly en-\nhanced computation efficiency when compared with\nvanilla self-attention layers in Transformers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2192
+        },
+        {
+          "x": 1203,
+          "y": 2192
+        },
+        {
+          "x": 1203,
+          "y": 2546
+        },
+        {
+          "x": 200,
+          "y": 2546
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='17' style='font-size:16px'>Our resulting Co-scale conv-attentional image Transformers<br>(CoaT) learn effective representations under a modularized<br>architecture. On the ImageNet benchmark, CoaT achieves<br>state-of-the-art classification results when compared with the<br>competitive convolutional neural networks (e.g. Efficient-<br>Net [29]), while outperforming the competing Transformer-<br>based image classifiers [9, 30, 33], as shown in Figure 1.</p>",
+      "id": 17,
+      "page": 2,
+      "text": "Our resulting Co-scale conv-attentional image Transformers\n(CoaT) learn effective representations under a modularized\narchitecture. On the ImageNet benchmark, CoaT achieves\nstate-of-the-art classification results when compared with the\ncompetitive convolutional neural networks (e.g. Efficient-\nNet [29]), while outperforming the competing Transformer-\nbased image classifiers [9, 30, 33], as shown in Figure 1."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2589
+        },
+        {
+          "x": 579,
+          "y": 2589
+        },
+        {
+          "x": 579,
+          "y": 2644
+        },
+        {
+          "x": 201,
+          "y": 2644
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='18' style='font-size:20px'>2. Related Works</p>",
+      "id": 18,
+      "page": 2,
+      "text": "2. Related Works"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2676
+        },
+        {
+          "x": 1202,
+          "y": 2676
+        },
+        {
+          "x": 1202,
+          "y": 2976
+        },
+        {
+          "x": 202,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='19' style='font-size:16px'>Our work is inspired by the recent efforts [9, 30] to realize<br>Transformer-based image classifiers. ViT [9] demonstrates<br>the feasibility of building Transformer-based image classi-<br>fiers from scratch, but its performance on ImageNet [23]<br>is not achieved without including additional training data;<br>DeiT [30] attains results comparable to convolution-based</p>",
+      "id": 19,
+      "page": 2,
+      "text": "Our work is inspired by the recent efforts [9, 30] to realize\nTransformer-based image classifiers. ViT [9] demonstrates\nthe feasibility of building Transformer-based image classi-\nfiers from scratch, but its performance on ImageNet [23]\nis not achieved without including additional training data;\nDeiT [30] attains results comparable to convolution-based"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 307
+        },
+        {
+          "x": 2281,
+          "y": 307
+        },
+        {
+          "x": 2281,
+          "y": 502
+        },
+        {
+          "x": 1278,
+          "y": 502
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='20' style='font-size:16px'>classifiers by using an effective training strategy together<br>with model distillation, removing the data requirement in [9].<br>Both ViT [9] and DeiT [30] are however based on a single<br>image grid of fixed patch size.</p>",
+      "id": 20,
+      "page": 2,
+      "text": "classifiers by using an effective training strategy together\nwith model distillation, removing the data requirement in [9].\nBoth ViT [9] and DeiT [30] are however based on a single\nimage grid of fixed patch size."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 506
+        },
+        {
+          "x": 2281,
+          "y": 506
+        },
+        {
+          "x": 2281,
+          "y": 1153
+        },
+        {
+          "x": 1277,
+          "y": 1153
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='21' style='font-size:14px'>The development of our co-scale conv-attentional trans-<br>formers (CoaT) is motivated by two observations: (1) multi-<br>scale modeling typically brings enhanced capability to rep-<br>resentation learning [11, 22, 32]; (2) the intrinsic connection<br>between relative position encoding and convolution makes it<br>possible to carry out efficient self-attention using conv-like<br>operations. As a consequence, the superior performance of<br>the CoaT models shown in the experiments comes from two<br>of our new designs in Transformers: (1) a co-scale mecha-<br>nism that allows cross-scale interaction; (2) a conv-attention<br>module to realize an efficient self-attention operation. Next,<br>we highlight the differences of the two proposed modules<br>with the standard operations and concepts.</p>",
+      "id": 21,
+      "page": 2,
+      "text": "The development of our co-scale conv-attentional trans-\nformers (CoaT) is motivated by two observations: (1) multi-\nscale modeling typically brings enhanced capability to rep-\nresentation learning [11, 22, 32]; (2) the intrinsic connection\nbetween relative position encoding and convolution makes it\npossible to carry out efficient self-attention using conv-like\noperations. As a consequence, the superior performance of\nthe CoaT models shown in the experiments comes from two\nof our new designs in Transformers: (1) a co-scale mecha-\nnism that allows cross-scale interaction; (2) a conv-attention\nmodule to realize an efficient self-attention operation. Next,\nwe highlight the differences of the two proposed modules\nwith the standard operations and concepts."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1318,
+          "y": 1153
+        },
+        {
+          "x": 2281,
+          "y": 1153
+        },
+        {
+          "x": 2281,
+          "y": 2984
+        },
+        {
+          "x": 1318,
+          "y": 2984
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='22' style='font-size:14px'>● Co-Scale VS. Multi-Scale. Multi-scale approaches<br>have a long history in computer vision [35, 19]. Con-<br>volutional neural networks [15, 14, 11] naturally im-<br>plement a fine-to-coarse strategy. U-Net [22] enforces<br>an extra coarse-to-fine route in addition to the standard<br>fine-to-coarse path; HRNet [32] provides a further en-<br>hanced modeling capability by keeping simultaneous<br>fine and coarse scales throughout the convolution lay-<br>ers. In a parallel development [33] to ours, layers of<br>different scales are in tandem for the image Transform-<br>ers but [33] merely carries out a fine-to-coarse strategy.<br>The co-scale mechanism proposed here differs from the<br>existing methods in how the responses are computed<br>and interact with each other: CoaT consists of a series<br>of highly modularized serial and parallel blocks to en-<br>able attention with fine-to-coarse, coarse-to-fine, and<br>cross-scale information on tokenized representations.<br>The joint attention mechanism across different scales<br>in our co-scale module provides enhanced modeling<br>power beyond existing vision Transformers [9, 30, 33].<br>· Conv-Attention VS. Attention. Pure attention-based<br>models [21, 13, 44, 9, 30] have been introduced to the<br>vision domain. [21, 13, 44] replace convolutions in<br>ResNet-like architectures with self-attention modules<br>for better local and non-local relation modeling. In<br>contrast, [9, 30] directly adapt the Transformer [31] for<br>image recognition. Recently, there have been works<br>[1, 6] enhancing the attention mechanism by introduc-<br>ing convolution. LambdaNets [1] introduce an efficient<br>self-attention alternative for global context modeling<br>and employ convolutions to realize the relative posi-<br>tion embeddings in local context modeling. CPVT [6]<br>designs 2-D depthwise convolutions as the conditional<br>positional encoding after self-attention. In our conv-<br>attention, we: (1) adopt an efficient factorized atten-<br>tion following [1]; (2) extend it to be a combination of</p>",
+      "id": 22,
+      "page": 2,
+      "text": "● Co-Scale VS. Multi-Scale. Multi-scale approaches\nhave a long history in computer vision [35, 19]. Con-\nvolutional neural networks [15, 14, 11] naturally im-\nplement a fine-to-coarse strategy. U-Net [22] enforces\nan extra coarse-to-fine route in addition to the standard\nfine-to-coarse path; HRNet [32] provides a further en-\nhanced modeling capability by keeping simultaneous\nfine and coarse scales throughout the convolution lay-\ners. In a parallel development [33] to ours, layers of\ndifferent scales are in tandem for the image Transform-\ners but [33] merely carries out a fine-to-coarse strategy.\nThe co-scale mechanism proposed here differs from the\nexisting methods in how the responses are computed\nand interact with each other: CoaT consists of a series\nof highly modularized serial and parallel blocks to en-\nable attention with fine-to-coarse, coarse-to-fine, and\ncross-scale information on tokenized representations.\nThe joint attention mechanism across different scales\nin our co-scale module provides enhanced modeling\npower beyond existing vision Transformers [9, 30, 33].\n· Conv-Attention VS. Attention. Pure attention-based\nmodels [21, 13, 44, 9, 30] have been introduced to the\nvision domain. [21, 13, 44] replace convolutions in\nResNet-like architectures with self-attention modules\nfor better local and non-local relation modeling. In\ncontrast, [9, 30] directly adapt the Transformer [31] for\nimage recognition. Recently, there have been works\n[1, 6] enhancing the attention mechanism by introduc-\ning convolution. LambdaNets [1] introduce an efficient\nself-attention alternative for global context modeling\nand employ convolutions to realize the relative posi-\ntion embeddings in local context modeling. CPVT [6]\ndesigns 2-D depthwise convolutions as the conditional\npositional encoding after self-attention. In our conv-\nattention, we: (1) adopt an efficient factorized atten-\ntion following [1]; (2) extend it to be a combination of"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 284,
+          "y": 306
+        },
+        {
+          "x": 1202,
+          "y": 306
+        },
+        {
+          "x": 1202,
+          "y": 553
+        },
+        {
+          "x": 284,
+          "y": 553
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='23' style='font-size:16px'>depthwise convolutional relative position encoding and<br>convolutional position encoding, related to CPVT [6].<br>Detailed discussion of our network design and its rela-<br>tion with LambdaNets [1] and CPVT [6] can be found<br>in Section 4.1 and 4.2.</p>",
+      "id": 23,
+      "page": 3,
+      "text": "depthwise convolutional relative position encoding and\nconvolutional position encoding, related to CPVT [6].\nDetailed discussion of our network design and its rela-\ntion with LambdaNets [1] and CPVT [6] can be found\nin Section 4.1 and 4.2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 599
+        },
+        {
+          "x": 1050,
+          "y": 599
+        },
+        {
+          "x": 1050,
+          "y": 652
+        },
+        {
+          "x": 201,
+          "y": 652
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='24' style='font-size:20px'>3. Revisit Scaled Dot-Product Attention</p>",
+      "id": 24,
+      "page": 3,
+      "text": "3. Revisit Scaled Dot-Product Attention"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 683
+        },
+        {
+          "x": 1202,
+          "y": 683
+        },
+        {
+          "x": 1202,
+          "y": 1083
+        },
+        {
+          "x": 200,
+          "y": 1083
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='25' style='font-size:16px'>Transformers take as input a sequence of vector represen-<br>tations (i.e. tokens) X1, ..., XN, or equivalently X E RNxC<br>The self-attention mechanism in Transformers projects each<br>Xi into corresponding query, key, and value vectors, using<br>learned linear transformations WQ, WK and WV E RCxC<br>Thus, the projection of the whole sequence generates rep-<br>resentations Q, K, V E RNxC. The scaled dot-product<br>attention from original Transformers [31] is formulated as :</p>",
+      "id": 25,
+      "page": 3,
+      "text": "Transformers take as input a sequence of vector represen-\ntations (i.e. tokens) X1, ..., XN, or equivalently X E RNxC\nThe self-attention mechanism in Transformers projects each\nXi into corresponding query, key, and value vectors, using\nlearned linear transformations WQ, WK and WV E RCxC\nThus, the projection of the whole sequence generates rep-\nresentations Q, K, V E RNxC. The scaled dot-product\nattention from original Transformers [31] is formulated as :"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1263
+        },
+        {
+          "x": 1202,
+          "y": 1263
+        },
+        {
+          "x": 1202,
+          "y": 2016
+        },
+        {
+          "x": 200,
+          "y": 2016
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='26' style='font-size:16px'>In vision Transformers [9, 30], the input sequence of<br>vectors is formulated by the concatenation of a class token<br>CLS and the flattened feature vectors X1, · .., XHW as image<br>for a total<br>tokens from the feature maps F E RHxWxC<br>,<br>length of N = HW + 1. The softmax logits in Equation 1<br>become not affordable for high-resolution images (i.e. N 》<br>C) due to its O(N2) space complexity and O(N2C) time<br>complexity. To reduce the length of the sequence, ViT [9, 30]<br>tokenizes the image by patches instead of pixels. However,<br>the coarse splitting (e.g. 16x 16 patches) limits the ability to<br>model details within each patch. To address this dilemma, we<br>propose a co-scale mechanism that provides enhanced multi-<br>scale image representation with the help of an efficient conv-<br>attentional module that lowers the computation complexity<br>for high-resolution images.</p>",
+      "id": 26,
+      "page": 3,
+      "text": "In vision Transformers [9, 30], the input sequence of\nvectors is formulated by the concatenation of a class token\nCLS and the flattened feature vectors X1, · .., XHW as image\nfor a total\ntokens from the feature maps F E RHxWxC\n,\nlength of N = HW + 1. The softmax logits in Equation 1\nbecome not affordable for high-resolution images (i.e. N 》\nC) due to its O(N2) space complexity and O(N2C) time\ncomplexity. To reduce the length of the sequence, ViT [9, 30]\ntokenizes the image by patches instead of pixels. However,\nthe coarse splitting (e.g. 16x 16 patches) limits the ability to\nmodel details within each patch. To address this dilemma, we\npropose a co-scale mechanism that provides enhanced multi-\nscale image representation with the help of an efficient conv-\nattentional module that lowers the computation complexity\nfor high-resolution images."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2058
+        },
+        {
+          "x": 767,
+          "y": 2058
+        },
+        {
+          "x": 767,
+          "y": 2112
+        },
+        {
+          "x": 201,
+          "y": 2112
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='27' style='font-size:20px'>4. Conv-Attention Module</p>",
+      "id": 27,
+      "page": 3,
+      "text": "4. Conv-Attention Module"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2142
+        },
+        {
+          "x": 932,
+          "y": 2142
+        },
+        {
+          "x": 932,
+          "y": 2192
+        },
+        {
+          "x": 202,
+          "y": 2192
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='28' style='font-size:18px'>4.1. Factorized Attention Mechanism</p>",
+      "id": 28,
+      "page": 3,
+      "text": "4.1. Factorized Attention Mechanism"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2220
+        },
+        {
+          "x": 1202,
+          "y": 2220
+        },
+        {
+          "x": 1202,
+          "y": 2569
+        },
+        {
+          "x": 200,
+          "y": 2569
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='29' style='font-size:16px'>In Equation 1, the materialization of the softmax logits<br>and attention maps leads to the O(N2) space complexity<br>and O(N2C) time complexity. Inspired by recent works [5,<br>25, 1] on linearization of self-attention, we approximate the<br>softmax attention map by factorizing it using two functions<br>�(·), ⌀(·) : RNxC → RNxC'<br>and compute the second<br>matrix multiplication (keys and values) together:</p>",
+      "id": 29,
+      "page": 3,
+      "text": "In Equation 1, the materialization of the softmax logits\nand attention maps leads to the O(N2) space complexity\nand O(N2C) time complexity. Inspired by recent works [5,\n25, 1] on linearization of self-attention, we approximate the\nsoftmax attention map by factorizing it using two functions\n�(·), ⌀(·) : RNxC → RNxC'\nand compute the second\nmatrix multiplication (keys and values) together:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2724
+        },
+        {
+          "x": 1201,
+          "y": 2724
+        },
+        {
+          "x": 1201,
+          "y": 2977
+        },
+        {
+          "x": 201,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='30' style='font-size:16px'>The factorization leads to a O(NC' + NC + CC') space<br>complexity (including output of �(·), ⌀(·) and intermediate<br>steps in the matrix product) and O(NCC') time complex-<br>ity, where both are linear functions of the sequence length<br>N. Performer [5] uses random projections in 0 and V for a</p>",
+      "id": 30,
+      "page": 3,
+      "text": "The factorization leads to a O(NC' + NC + CC') space\ncomplexity (including output of �(·), ⌀(·) and intermediate\nsteps in the matrix product) and O(NCC') time complex-\nity, where both are linear functions of the sequence length\nN. Performer [5] uses random projections in 0 and V for a"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1307,
+          "y": 287
+        },
+        {
+          "x": 2254,
+          "y": 287
+        },
+        {
+          "x": 2254,
+          "y": 1217
+        },
+        {
+          "x": 1307,
+          "y": 1217
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='31' style='font-size:14px' alt=\"Output Feature Map\nN x C\nN x C N x C\nFactorized Convolutional\nAttention Relative Position\nC x C\nEncoding\n○\nN x C\nSoftmax Depthwise Conv*\nN x C C x N N x C\nN x C\nconcat\nN x C reshape\nDepthwise Conv\nN xC\nH x W x C\nDepthwise Conv* reshape\nConvolutional\nPosition\nEncoding\n↑\nN x C Matrix Product\nHadamard Product\nInput Feature Map Elementwise Sum\" data-coord=\"top-left:(1307,287); bottom-right:(2254,1217)\" /></figure>",
+      "id": 31,
+      "page": 3,
+      "text": "Output Feature Map\nN x C\nN x C N x C\nFactorized Convolutional\nAttention Relative Position\nC x C\nEncoding\n○\nN x C\nSoftmax Depthwise Conv*\nN x C C x N N x C\nN x C\nconcat\nN x C reshape\nDepthwise Conv\nN xC\nH x W x C\nDepthwise Conv* reshape\nConvolutional\nPosition\nEncoding\n↑\nN x C Matrix Product\nHadamard Product\nInput Feature Map Elementwise Sum"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1226
+        },
+        {
+          "x": 2278,
+          "y": 1226
+        },
+        {
+          "x": 2278,
+          "y": 1409
+        },
+        {
+          "x": 1278,
+          "y": 1409
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='32' style='font-size:14px'>Figure 2. Illustration of the conv-attentional module. We apply<br>a convolutional position encoding to the image tokens from the<br>input. The resulting features are fed into a factorized attention with<br>a convolutional relative position encoding.</caption>",
+      "id": 32,
+      "page": 3,
+      "text": "Figure 2. Illustration of the conv-attentional module. We apply\na convolutional position encoding to the image tokens from the\ninput. The resulting features are fed into a factorized attention with\na convolutional relative position encoding."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1496
+        },
+        {
+          "x": 2281,
+          "y": 1496
+        },
+        {
+          "x": 2281,
+          "y": 1841
+        },
+        {
+          "x": 1279,
+          "y": 1841
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='33' style='font-size:16px'>provable approximation, but with the cost of relatively large<br>C\". Efficient-Attention [25] applies the softmax function for<br>both O and ⌀, which is efficient but causes a significant per-<br>formance drop on the vision tasks in our experiments. Here,<br>we develop our factorized attention mechanism following<br>LambdaNets [1] with O as the identity function and V as the<br>softmax:</p>",
+      "id": 33,
+      "page": 3,
+      "text": "provable approximation, but with the cost of relatively large\nC\". Efficient-Attention [25] applies the softmax function for\nboth O and ⌀, which is efficient but causes a significant per-\nformance drop on the vision tasks in our experiments. Here,\nwe develop our factorized attention mechanism following\nLambdaNets [1] with O as the identity function and V as the\nsoftmax:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 2015
+        },
+        {
+          "x": 2280,
+          "y": 2015
+        },
+        {
+          "x": 2280,
+          "y": 2614
+        },
+        {
+          "x": 1277,
+          "y": 2614
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='34' style='font-size:16px'>where softmax(·) is applied across the tokens in the se-<br>quence in an element-wise manner and the projected chan-<br>nels C\" = C. In LambdaNets [1], the scaling factor 1 / VC<br>is implicitly included in the weight initialization, while our<br>factorized attention applies the scaling factor explicitly. This<br>factorized attention takes O(NC + C2) space complexity<br>and O(NC2) time complexity. It is noteworthy that the<br>proposed factorized attention following [1] is not a direct<br>approximation of the scaled dot-product attention, but it<br>can still be regarded as a generalized attention mechanism<br>modeling the feature interactions using query, key and value<br>vectors.</p>",
+      "id": 34,
+      "page": 3,
+      "text": "where softmax(·) is applied across the tokens in the se-\nquence in an element-wise manner and the projected chan-\nnels C\" = C. In LambdaNets [1], the scaling factor 1 / VC\nis implicitly included in the weight initialization, while our\nfactorized attention applies the scaling factor explicitly. This\nfactorized attention takes O(NC + C2) space complexity\nand O(NC2) time complexity. It is noteworthy that the\nproposed factorized attention following [1] is not a direct\napproximation of the scaled dot-product attention, but it\ncan still be regarded as a generalized attention mechanism\nmodeling the feature interactions using query, key and value\nvectors."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2647
+        },
+        {
+          "x": 2026,
+          "y": 2647
+        },
+        {
+          "x": 2026,
+          "y": 2700
+        },
+        {
+          "x": 1280,
+          "y": 2700
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='35' style='font-size:20px'>4.2. Convolution as Position Encoding</p>",
+      "id": 35,
+      "page": 3,
+      "text": "4.2. Convolution as Position Encoding"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2727
+        },
+        {
+          "x": 2279,
+          "y": 2727
+        },
+        {
+          "x": 2279,
+          "y": 2978
+        },
+        {
+          "x": 1280,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='36' style='font-size:16px'>Our factorized attention module mitigates the compu-<br>tational burden from the original scaled dot-product atten-<br>tion. However, because we compute L = softmax(K) T V E<br>RCxC first, L can be seen as a global data-dependent linear<br>transformation for every feature vector in the query map Q.</p>",
+      "id": 36,
+      "page": 3,
+      "text": "Our factorized attention module mitigates the compu-\ntational burden from the original scaled dot-product atten-\ntion. However, because we compute L = softmax(K) T V E\nRCxC first, L can be seen as a global data-dependent linear\ntransformation for every feature vector in the query map Q."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 207,
+          "y": 288
+        },
+        {
+          "x": 2276,
+          "y": 288
+        },
+        {
+          "x": 2276,
+          "y": 1057
+        },
+        {
+          "x": 207,
+          "y": 1057
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='37' style='font-size:14px' alt=\"1000-class logits\n↑\nH W\nxC4 Linear\nx ㉜\n32\n↑\nSerial Block Serial Block Parallel Block Parallel Block\n↑\nH W Image and Class Tokens\nxC3\n16 x 16\n↑ ↑ Conv1D Linear 1000-class\nSerial Block Serial Block Parallel Block Parallel Block Concat\nlogits\nH W\nxC2\n8 x 8\nSerial Block Serial Block Parallel Block Parallel Block\nImage and Class Tokens\nH4 x 4 xC1 Parallel Group Parallel Group\nW\nSerial Block Serial Block\nInput Image Input Image\" data-coord=\"top-left:(207,288); bottom-right:(2276,1057)\" /></figure>",
+      "id": 37,
+      "page": 4,
+      "text": "1000-class logits\n↑\nH W\nxC4 Linear\nx ㉜\n32\n↑\nSerial Block Serial Block Parallel Block Parallel Block\n↑\nH W Image and Class Tokens\nxC3\n16 x 16\n↑ ↑ Conv1D Linear 1000-class\nSerial Block Serial Block Parallel Block Parallel Block Concat\nlogits\nH W\nxC2\n8 x 8\nSerial Block Serial Block Parallel Block Parallel Block\nImage and Class Tokens\nH4 x 4 xC1 Parallel Group Parallel Group\nW\nSerial Block Serial Block\nInput Image Input Image"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 1072
+        },
+        {
+          "x": 2280,
+          "y": 1072
+        },
+        {
+          "x": 2280,
+          "y": 1212
+        },
+        {
+          "x": 199,
+          "y": 1212
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='38' style='font-size:14px'>Figure 3. CoaT model architecture. (Left) The overall network architecture of CoaT-Lite. CoaT-Lite consists of serial blocks only, where<br>image features are down-sampled and processed in a sequential order. (Right) The overall network architecture of CoaT. CoaT consists of<br>serial blocks and parallel blocks. Both blocks enable the co-scale mechanism.</caption>",
+      "id": 38,
+      "page": 4,
+      "text": "Figure 3. CoaT model architecture. (Left) The overall network architecture of CoaT-Lite. CoaT-Lite consists of serial blocks only, where\nimage features are down-sampled and processed in a sequential order. (Right) The overall network architecture of CoaT. CoaT consists of\nserial blocks and parallel blocks. Both blocks enable the co-scale mechanism."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1293
+        },
+        {
+          "x": 1200,
+          "y": 1293
+        },
+        {
+          "x": 1200,
+          "y": 1443
+        },
+        {
+          "x": 201,
+          "y": 1443
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='39' style='font-size:16px'>This indicates that if we have two query vectors q1, q2 E RC<br>from Q and q1 = q2, then their corresponding self-attention<br>outputs will be the same:</p>",
+      "id": 39,
+      "page": 4,
+      "text": "This indicates that if we have two query vectors q1, q2 E RC\nfrom Q and q1 = q2, then their corresponding self-attention\noutputs will be the same:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1601
+        },
+        {
+          "x": 1201,
+          "y": 1601
+        },
+        {
+          "x": 1201,
+          "y": 1950
+        },
+        {
+          "x": 201,
+          "y": 1950
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='40' style='font-size:16px'>Without the position encoding, the Transformer is only com-<br>posed of linear layers and self-attention modules. Thus, the<br>output of a token is dependent on the corresponding input<br>without awareness of any difference in its locally nearby<br>features. This property is unfavorable for vision tasks such<br>as semantic segmentation (e.g. the same blue patches in the<br>sky and the sea are segmented as the same category).</p>",
+      "id": 40,
+      "page": 4,
+      "text": "Without the position encoding, the Transformer is only com-\nposed of linear layers and self-attention modules. Thus, the\noutput of a token is dependent on the corresponding input\nwithout awareness of any difference in its locally nearby\nfeatures. This property is unfavorable for vision tasks such\nas semantic segmentation (e.g. the same blue patches in the\nsky and the sea are segmented as the same category)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1974
+        },
+        {
+          "x": 1202,
+          "y": 1974
+        },
+        {
+          "x": 1202,
+          "y": 2371
+        },
+        {
+          "x": 201,
+          "y": 2371
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='41' style='font-size:16px'>Convolutional Relative Position Encoding. To enable vi-<br>sion tasks, ViT and DeiT [9, 30] insert absolute position<br>embeddings into the input, which may have limitations<br>in modeling relations between local tokens. Instead, fol-<br>lowing [24], we can integrate a relative position encoding<br>M-1 M21 } with window size<br>P = {Pi E RC , 2 , ...,<br>i = -<br>M to obtain the relative attention map EV E RNxC; in at-<br>tention formulation, if tokens are regarded as a 1-D sequence:</p>",
+      "id": 41,
+      "page": 4,
+      "text": "Convolutional Relative Position Encoding. To enable vi-\nsion tasks, ViT and DeiT [9, 30] insert absolute position\nembeddings into the input, which may have limitations\nin modeling relations between local tokens. Instead, fol-\nlowing [24], we can integrate a relative position encoding\nM-1 M21 } with window size\nP = {Pi E RC , 2 , ...,\ni = -\nM to obtain the relative attention map EV E RNxC; in at-\ntention formulation, if tokens are regarded as a 1-D sequence:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2547
+        },
+        {
+          "x": 1102,
+          "y": 2547
+        },
+        {
+          "x": 1102,
+          "y": 2603
+        },
+        {
+          "x": 202,
+          "y": 2603
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='42' style='font-size:16px'>where the encoding matrix E E RNxN<br>has elements:</p>",
+      "id": 42,
+      "page": 4,
+      "text": "where the encoding matrix E E RNxN\nhas elements:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2726
+        },
+        {
+          "x": 1200,
+          "y": 2726
+        },
+        {
+          "x": 1200,
+          "y": 2978
+        },
+        {
+          "x": 200,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='43' style='font-size:18px'>in which 1(i,j) = 1{15-이≤(M-1)/2}(8,1) is an indicator<br>function. Each element Eij represents the relation from<br>query qi to the value Vj within window M, and (EV)i<br>aggregates all related value vectors with respect to query<br>qi. Unfortunately, the EV term still requires O(N2) space</p>",
+      "id": 43,
+      "page": 4,
+      "text": "in which 1(i,j) = 1{15-이≤(M-1)/2}(8,1) is an indicator\nfunction. Each element Eij represents the relation from\nquery qi to the value Vj within window M, and (EV)i\naggregates all related value vectors with respect to query\nqi. Unfortunately, the EV term still requires O(N2) space"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1295
+        },
+        {
+          "x": 2280,
+          "y": 1295
+        },
+        {
+          "x": 2280,
+          "y": 1492
+        },
+        {
+          "x": 1278,
+          "y": 1492
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='44' style='font-size:18px'>complexity and O(N2C) time complexity. In CoaT, we<br>propose to simplify the EV term to EV by considering each<br>channel in the query, position encoding and value vectors as<br>internal heads. Thus, for each internal head l, we have:</p>",
+      "id": 44,
+      "page": 4,
+      "text": "complexity and O(N2C) time complexity. In CoaT, we\npropose to simplify the EV term to EV by considering each\nchannel in the query, position encoding and value vectors as\ninternal heads. Thus, for each internal head l, we have:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1635
+        },
+        {
+          "x": 2277,
+          "y": 1635
+        },
+        {
+          "x": 2277,
+          "y": 1730
+        },
+        {
+          "x": 1278,
+          "y": 1730
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='45' style='font-size:16px'>In practice, we can use a 1-D depthwise convolution to<br>compute EV:</p>",
+      "id": 45,
+      "page": 4,
+      "text": "In practice, we can use a 1-D depthwise convolution to\ncompute EV:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 1947
+        },
+        {
+          "x": 2278,
+          "y": 1947
+        },
+        {
+          "x": 2278,
+          "y": 2245
+        },
+        {
+          "x": 1277,
+          "y": 2245
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='46' style='font-size:16px'>where ○ is the Hadamard product. It is noteworthy that<br>in vision Transformers, we have two types of tokens, the<br>class (CLS) token and image tokens. Thus, we use a 2-D<br>depthwise convolution (with window size M x M and kernel<br>weights P) and apply it only to the reshaped image tokens<br>from Q, V respectively):<br>(i.e. Qimg Vimg E RHxWxC<br>,</p>",
+      "id": 46,
+      "page": 4,
+      "text": "where ○ is the Hadamard product. It is noteworthy that\nin vision Transformers, we have two types of tokens, the\nclass (CLS) token and image tokens. Thus, we use a 2-D\ndepthwise convolution (with window size M x M and kernel\nweights P) and apply it only to the reshaped image tokens\nfrom Q, V respectively):\n(i.e. Qimg Vimg E RHxWxC\n,"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2579
+        },
+        {
+          "x": 2278,
+          "y": 2579
+        },
+        {
+          "x": 2278,
+          "y": 2976
+        },
+        {
+          "x": 1279,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='47' style='font-size:16px'>Based on our derivation, the depthwise convolution can be<br>seen as a special case of relative position encoding.<br>Convolutional Relative Position Encoding VS Other Relative<br>Position Encodings. The commonly referenced relative po-<br>sition encoding [24] works in standard scaled dot-product<br>attention settings since the encoding matrix E is combined<br>with the softmax logits in the attention maps, which are<br>not materialized in our factorized attention. Related to our</p>",
+      "id": 47,
+      "page": 4,
+      "text": "Based on our derivation, the depthwise convolution can be\nseen as a special case of relative position encoding.\nConvolutional Relative Position Encoding VS Other Relative\nPosition Encodings. The commonly referenced relative po-\nsition encoding [24] works in standard scaled dot-product\nattention settings since the encoding matrix E is combined\nwith the softmax logits in the attention maps, which are\nnot materialized in our factorized attention. Related to our"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 269,
+          "y": 286
+        },
+        {
+          "x": 1135,
+          "y": 286
+        },
+        {
+          "x": 1135,
+          "y": 1050
+        },
+        {
+          "x": 269,
+          "y": 1050
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='48' style='font-size:14px' alt=\"Output Feature Maps\nReshape\nTo Linear Layer\nOr Parallel Block\nFeed-Forward\nConv-Attention\nFeed-Forward\nSerial Block\nConv-Attention\nImage Class\nTokens Token\nFlatten\nPatch Embed\nInput Feature Maps\" data-coord=\"top-left:(269,286); bottom-right:(1135,1050)\" /></figure>",
+      "id": 48,
+      "page": 5,
+      "text": "Output Feature Maps\nReshape\nTo Linear Layer\nOr Parallel Block\nFeed-Forward\nConv-Attention\nFeed-Forward\nSerial Block\nConv-Attention\nImage Class\nTokens Token\nFlatten\nPatch Embed\nInput Feature Maps"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1060
+        },
+        {
+          "x": 1202,
+          "y": 1060
+        },
+        {
+          "x": 1202,
+          "y": 1243
+        },
+        {
+          "x": 201,
+          "y": 1243
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='49' style='font-size:14px'>Figure 4. Schematic illustration of the serial block in CoaT. In-<br>put feature maps are first down-sampled by a patch embedding<br>layer, and then tokenized features (along with a class token) are<br>processed by multiple conv-attention and feed-forward layers.</caption>",
+      "id": 49,
+      "page": 5,
+      "text": "Figure 4. Schematic illustration of the serial block in CoaT. In-\nput feature maps are first down-sampled by a patch embedding\nlayer, and then tokenized features (along with a class token) are\nprocessed by multiple conv-attention and feed-forward layers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1336
+        },
+        {
+          "x": 1202,
+          "y": 1336
+        },
+        {
+          "x": 1202,
+          "y": 1880
+        },
+        {
+          "x": 200,
+          "y": 1880
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='50' style='font-size:20px'>work, the main results of the original LambdaNets [1] use<br>a 3-D convolution to compute EV directly and reduce the<br>channels of queries and keys to CK where CK < C, but<br>it costs O(NCCK) space complexity and O(NCCKM2)<br>time complexity, which leads to relatively heavy compu-<br>tation when channel sizes CK, C are large. A recent up-<br>date in LambdaNets [1] provides an efficient variant with<br>depth-wise convolution under resource constrained scenarios.<br>Our factorized attention computes EV with only O(NC)<br>space complexity and O(NCM2) time complexity, aiming<br>to achieve better efficiency.</p>",
+      "id": 50,
+      "page": 5,
+      "text": "work, the main results of the original LambdaNets [1] use\na 3-D convolution to compute EV directly and reduce the\nchannels of queries and keys to CK where CK < C, but\nit costs O(NCCK) space complexity and O(NCCKM2)\ntime complexity, which leads to relatively heavy compu-\ntation when channel sizes CK, C are large. A recent up-\ndate in LambdaNets [1] provides an efficient variant with\ndepth-wise convolution under resource constrained scenarios.\nOur factorized attention computes EV with only O(NC)\nspace complexity and O(NCM2) time complexity, aiming\nto achieve better efficiency."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 1926
+        },
+        {
+          "x": 1201,
+          "y": 1926
+        },
+        {
+          "x": 1201,
+          "y": 2626
+        },
+        {
+          "x": 199,
+          "y": 2626
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='51' style='font-size:18px'>Convolutional Position Encoding. We then extend the<br>idea of convolutional relative position encoding to a general<br>convolutional position encoding case. Convolutional relative<br>position encoding models local position-based relationships<br>between queries and values. Similar to the absolute posi-<br>tion encoding used in most image Transformers [9, 30], we<br>would like to insert the position relationship into the input<br>image features directly to enrich the effects of relative posi-<br>tion encoding. In each conv-attentional module, we insert<br>a depthwise convolution into the input features X and con-<br>catenate the resulting position-aware features back to the<br>input features following the standard absolute position en-<br>coding scheme (see Figure 2 lower part), which resembles<br>the realization of conditional position encoding in CPVT [6].</p>",
+      "id": 51,
+      "page": 5,
+      "text": "Convolutional Position Encoding. We then extend the\nidea of convolutional relative position encoding to a general\nconvolutional position encoding case. Convolutional relative\nposition encoding models local position-based relationships\nbetween queries and values. Similar to the absolute posi-\ntion encoding used in most image Transformers [9, 30], we\nwould like to insert the position relationship into the input\nimage features directly to enrich the effects of relative posi-\ntion encoding. In each conv-attentional module, we insert\na depthwise convolution into the input features X and con-\ncatenate the resulting position-aware features back to the\ninput features following the standard absolute position en-\ncoding scheme (see Figure 2 lower part), which resembles\nthe realization of conditional position encoding in CPVT [6]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2630
+        },
+        {
+          "x": 1201,
+          "y": 2630
+        },
+        {
+          "x": 1201,
+          "y": 2974
+        },
+        {
+          "x": 200,
+          "y": 2974
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='52' style='font-size:16px'>CoaT and CoaT-Lite share the convolutional position en-<br>coding weights and convolutional relative position encoding<br>weights for the serial and parallel modules within the same<br>scale. We set convolution kernel size to 3 for the convolu-<br>tional position encoding. We set convolution kernel size to<br>3, 5 and 7 for image features from different attention heads<br>for convolutional relative position encoding.</p>",
+      "id": 52,
+      "page": 5,
+      "text": "CoaT and CoaT-Lite share the convolutional position en-\ncoding weights and convolutional relative position encoding\nweights for the serial and parallel modules within the same\nscale. We set convolution kernel size to 3 for the convolu-\ntional position encoding. We set convolution kernel size to\n3, 5 and 7 for image features from different attention heads\nfor convolutional relative position encoding."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 305
+        },
+        {
+          "x": 2278,
+          "y": 305
+        },
+        {
+          "x": 2278,
+          "y": 603
+        },
+        {
+          "x": 1278,
+          "y": 603
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='53' style='font-size:18px'>The work of CPVT [6] explores the use of convolution<br>as conditional position encodings by inserting it after the<br>feed-forward network under a single scale ( H16 x 등). Our<br>work focuses on applying convolution as relative position<br>encoding and a general position encoding with the factorized<br>attention.</p>",
+      "id": 53,
+      "page": 5,
+      "text": "The work of CPVT [6] explores the use of convolution\nas conditional position encodings by inserting it after the\nfeed-forward network under a single scale ( H16 x 등). Our\nwork focuses on applying convolution as relative position\nencoding and a general position encoding with the factorized\nattention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 629
+        },
+        {
+          "x": 2278,
+          "y": 629
+        },
+        {
+          "x": 2278,
+          "y": 976
+        },
+        {
+          "x": 1279,
+          "y": 976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='54' style='font-size:18px'>Conv-Attentional Mechanism The final conv-attentional<br>module is shown in Figure 2: We apply the first convo-<br>lutional position encoding on the image tokens from the<br>input. Then, we feed it into ConvAtt(·) including factorized<br>attention and the convolutional relative position encoding.<br>The resulting map is used for the subsequent feed-forward<br>networks.</p>",
+      "id": 54,
+      "page": 5,
+      "text": "Conv-Attentional Mechanism The final conv-attentional\nmodule is shown in Figure 2: We apply the first convo-\nlutional position encoding on the image tokens from the\ninput. Then, we feed it into ConvAtt(·) including factorized\nattention and the convolutional relative position encoding.\nThe resulting map is used for the subsequent feed-forward\nnetworks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1024
+        },
+        {
+          "x": 2215,
+          "y": 1024
+        },
+        {
+          "x": 2215,
+          "y": 1154
+        },
+        {
+          "x": 1280,
+          "y": 1154
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='55' style='font-size:22px'>5. Co-Scale Conv-Attentional Transformers<br>5.1. Co-Scale Mechanism</p>",
+      "id": 55,
+      "page": 5,
+      "text": "5. Co-Scale Conv-Attentional Transformers\n5.1. Co-Scale Mechanism"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1182
+        },
+        {
+          "x": 2279,
+          "y": 1182
+        },
+        {
+          "x": 2279,
+          "y": 1479
+        },
+        {
+          "x": 1279,
+          "y": 1479
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='56' style='font-size:18px'>The proposed co-scale mechanism is designed to intro-<br>duce fine-to-coarse, coarse-to-fine and cross-scale informa-<br>tion into image transformers. Here, we describe two types of<br>building blocks in the CoaT architecture, namely serial and<br>parallel blocks, in order to model multiple scales and enable<br>the co-scale mechanism.</p>",
+      "id": 56,
+      "page": 5,
+      "text": "The proposed co-scale mechanism is designed to intro-\nduce fine-to-coarse, coarse-to-fine and cross-scale informa-\ntion into image transformers. Here, we describe two types of\nbuilding blocks in the CoaT architecture, namely serial and\nparallel blocks, in order to model multiple scales and enable\nthe co-scale mechanism."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1505
+        },
+        {
+          "x": 2279,
+          "y": 1505
+        },
+        {
+          "x": 2279,
+          "y": 2104
+        },
+        {
+          "x": 1278,
+          "y": 2104
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='57' style='font-size:18px'>CoaT Serial Block. A serial block (shown in Figure 4)<br>models image representations in a reduced resolution. In a<br>typical serial block, we first down-sample input feature maps<br>by a certain ratio using a patch embedding layer, and flatten<br>the reduced feature maps into a sequence of image tokens.<br>We then concatenate image tokens with an additional CLS<br>token, a specialized vector to perform image classification,<br>and apply multiple conv-attentional modules as described in<br>Section 4 to learn internal relationships among image tokens<br>and the CLS token. Finally, we separate the CLS token from<br>the image tokens and reshape the image tokens to 2-D feature<br>maps for the next serial block.</p>",
+      "id": 57,
+      "page": 5,
+      "text": "CoaT Serial Block. A serial block (shown in Figure 4)\nmodels image representations in a reduced resolution. In a\ntypical serial block, we first down-sample input feature maps\nby a certain ratio using a patch embedding layer, and flatten\nthe reduced feature maps into a sequence of image tokens.\nWe then concatenate image tokens with an additional CLS\ntoken, a specialized vector to perform image classification,\nand apply multiple conv-attentional modules as described in\nSection 4 to learn internal relationships among image tokens\nand the CLS token. Finally, we separate the CLS token from\nthe image tokens and reshape the image tokens to 2-D feature\nmaps for the next serial block."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 2127
+        },
+        {
+          "x": 2278,
+          "y": 2127
+        },
+        {
+          "x": 2278,
+          "y": 2671
+        },
+        {
+          "x": 1277,
+          "y": 2671
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='58' style='font-size:18px'>CoaT Parallel Block. We realize a co-scale mechanism<br>between parallel blocks in each parallel group (shown in<br>Figure 5). In a typical parallel group, we have sequences<br>of input features (image tokens and CLS token) from serial<br>blocks with different scales. To enable fine-to-coarse, coarse-<br>to-fine, and cross-scale interaction in the parallel group, we<br>develop two strategies: (1) direct cross-layer attention; (2)<br>attention with feature interpolation. In this paper, we adopt<br>attention with feature interpolation for better empirical per-<br>formance. The effectiveness of both strategies is shown in<br>Section 6.4.</p>",
+      "id": 58,
+      "page": 5,
+      "text": "CoaT Parallel Block. We realize a co-scale mechanism\nbetween parallel blocks in each parallel group (shown in\nFigure 5). In a typical parallel group, we have sequences\nof input features (image tokens and CLS token) from serial\nblocks with different scales. To enable fine-to-coarse, coarse-\nto-fine, and cross-scale interaction in the parallel group, we\ndevelop two strategies: (1) direct cross-layer attention; (2)\nattention with feature interpolation. In this paper, we adopt\nattention with feature interpolation for better empirical per-\nformance. The effectiveness of both strategies is shown in\nSection 6.4."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2677
+        },
+        {
+          "x": 2279,
+          "y": 2677
+        },
+        {
+          "x": 2279,
+          "y": 2979
+        },
+        {
+          "x": 1280,
+          "y": 2979
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='59' style='font-size:16px'>Direct cross-layer attention. In direct cross-layer attention,<br>we form query, key, and value vectors from input features<br>for each scale. For attention within the same layer, we use<br>the conv-attention (Figure 2) with the query, key and value<br>vectors from current scale. For attention across different<br>layers, we down-sample or up-sample the key and value</p>",
+      "id": 59,
+      "page": 5,
+      "text": "Direct cross-layer attention. In direct cross-layer attention,\nwe form query, key, and value vectors from input features\nfor each scale. For attention within the same layer, we use\nthe conv-attention (Figure 2) with the query, key and value\nvectors from current scale. For attention across different\nlayers, we down-sample or up-sample the key and value"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 430,
+          "y": 266
+        },
+        {
+          "x": 2037,
+          "y": 266
+        },
+        {
+          "x": 2037,
+          "y": 813
+        },
+        {
+          "x": 430,
+          "y": 813
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='60' style='font-size:14px' alt=\"Conv-Att\nConv-At\nParallel Block\nFFN\nFFN\nFFN\nCross-Att\nCross-Att Conv-Att\nCross-Att\nConv-Att\nFFN\nFFN\nFFN\nParallel Block Conv-Att\nCross-Att Conv-Att\nCross-Att\nConv-Att\nFFN\nCross-Att Conv-Att FFN\nParallel Block FFN\nConv-Att\nCo-Scale w/ Co-Scale w/\nParallel Group w/o Co-Scale\nDirect Cross-Layer Attention Feature Interpolation\" data-coord=\"top-left:(430,266); bottom-right:(2037,813)\" /></figure>",
+      "id": 60,
+      "page": 6,
+      "text": "Conv-Att\nConv-At\nParallel Block\nFFN\nFFN\nFFN\nCross-Att\nCross-Att Conv-Att\nCross-Att\nConv-Att\nFFN\nFFN\nFFN\nParallel Block Conv-Att\nCross-Att Conv-Att\nCross-Att\nConv-Att\nFFN\nCross-Att Conv-Att FFN\nParallel Block FFN\nConv-Att\nCo-Scale w/ Co-Scale w/\nParallel Group w/o Co-Scale\nDirect Cross-Layer Attention Feature Interpolation"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 829
+        },
+        {
+          "x": 2279,
+          "y": 829
+        },
+        {
+          "x": 2279,
+          "y": 1014
+        },
+        {
+          "x": 201,
+          "y": 1014
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='61' style='font-size:16px'>Figure 5. Schematic illustration of the parallel group in CoaT. For \"w/o Co-Scale\", tokens learned at the individual scales are combined<br>to perform the classification but absent intermediate co-scale interaction for the individual paths of the parallel blocks. We propose two<br>co-scale variants, namely direct cross-layer attention and attention with feature interpolation. Co-scale with feature interpolation is adopted<br>in the final CoaT-Lite and CoaT models reported on the ImageNet benchmark.</caption>",
+      "id": 61,
+      "page": 6,
+      "text": "Figure 5. Schematic illustration of the parallel group in CoaT. For \"w/o Co-Scale\", tokens learned at the individual scales are combined\nto perform the classification but absent intermediate co-scale interaction for the individual paths of the parallel blocks. We propose two\nco-scale variants, namely direct cross-layer attention and attention with feature interpolation. Co-scale with feature interpolation is adopted\nin the final CoaT-Lite and CoaT models reported on the ImageNet benchmark."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 1050
+        },
+        {
+          "x": 2276,
+          "y": 1050
+        },
+        {
+          "x": 2276,
+          "y": 1187
+        },
+        {
+          "x": 203,
+          "y": 1187
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='62' style='font-size:18px'>Table 1. Architecture details of CoaT-Lite and CoaT models. Ci represents the hidden dimension of the attention layers in block i; Hi<br>represents the number of attention heads in the attention layers in block i; Ri represents the expansion ratio for the feed-forward hidden<br>layer dimension between attention layers in block i. Multipliers indicate the number of conv-attentional modules in block i.</caption>",
+      "id": 62,
+      "page": 6,
+      "text": "Table 1. Architecture details of CoaT-Lite and CoaT models. Ci represents the hidden dimension of the attention layers in block i; Hi\nrepresents the number of attention heads in the attention layers in block i; Ri represents the expansion ratio for the feed-forward hidden\nlayer dimension between attention layers in block i. Multipliers indicate the number of conv-attentional modules in block i."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 208,
+          "y": 1191
+        },
+        {
+          "x": 2267,
+          "y": 1191
+        },
+        {
+          "x": 2267,
+          "y": 1905
+        },
+        {
+          "x": 208,
+          "y": 1905
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='63' style='font-size:14px'><tr><td rowspan=\"2\">Blocks</td><td rowspan=\"2\">Output</td><td colspan=\"7\">CoaT-Lite</td><td colspan=\"6\">CoaT</td></tr><tr><td colspan=\"2\">Tiny</td><td colspan=\"2\">Mini</td><td colspan=\"2\">Small</td><td colspan=\"2\">Medium</td><td colspan=\"3\">Tiny Mini</td><td colspan=\"2\">Small</td></tr><tr><td>Serial Block (S1)</td><td>56 x 56</td><td>C1 = 64 H1 = 8 x R1 = 8</td><td>2</td><td>C1 = 64 H1 = 8 x R1 = 8</td><td>2</td><td>C1 = 64 H1 = 8 x 3 R1 = 8</td><td>C1 = 128 H1 = 8 R1 =4</td><td>x 3</td><td>C1 = 152 H1 = 8 x 2 R1 = 4</td><td></td><td>C1 = 152 H1 = 8 R1 = 4</td><td>x 2</td><td>C1 = 152 H1 = 8 R1 = 4</td><td>x 2</td></tr><tr><td>Serial Block (S2)</td><td>28 x 28</td><td>C2 = 128 H2 = 8 x R2 = 8</td><td>2</td><td>C2 = 128 H2 = 8 x R2 = 8</td><td>2</td><td>C2 = 128 H2 = 8 x 4 R2 = 8</td><td>C1 = 256 H1 = 8 R1 = 4</td><td>x 6</td><td>C2 = 152 H2 = 8 x 2 R2 = 4</td><td></td><td>C2 = 216 H2 = 8 R2 = 4</td><td>x 2</td><td>C1 = 320 H1 = 8 R1 =4</td><td>x 2</td></tr><tr><td>Serial Block (S3)</td><td>14 x 14</td><td>C3 = 256 H3 = 8 R3 = 4</td><td>x 2</td><td>C3 = 320 H3 = 8 x R3 = 4</td><td>2</td><td>C3 = 320 H3 = 8 x 6 R3 = 4</td><td></td><td>C1 = 320 H1 = 8 x 10 R1 = 4</td><td>C3 = 152 H3 = 8 x 2 R3 = 4</td><td></td><td>C3 = 216 H3 = 8 R3 = 4</td><td>x 2</td><td>C1 = 320 H1 = 8 R1 = 4</td><td>x 2</td></tr><tr><td>Serial Block (S4)</td><td>7 x 7</td><td>C4 = 320 H4 = 8 R4 = 4</td><td>x 2</td><td>C4 = 512 H4 = 8 R4 = 4</td><td>x 2</td><td>C4 = 512 H4 = 8 x R4 = 4</td><td>3</td><td>C1 = 512 H1 = 8 x 8 R1 = 4</td><td>C4 = 152 H4 = 8 x 2 R4 = 4</td><td></td><td>C4 = 216 H4 = 8 R4 = 4</td><td>x 2</td><td>C1 = 320 H1 = 8 R1 = 4</td><td>x 2</td></tr><tr><td>Parallel Group</td><td>28 x28 14x14 7x7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>C4 = 152 H4 = 8 x 6 R4 = 4</td><td></td><td>C4 = 216 H4 = 8 R4 = 4</td><td>x 6</td><td>C1 = 320 H1 = 8 R1 = 4</td><td>x 6</td></tr><tr><td colspan=\"2\">#Params</td><td colspan=\"2\">5.7M</td><td colspan=\"2\">11M</td><td colspan=\"2\">20M</td><td colspan=\"2\">45M</td><td colspan=\"3\">5.5M 10M</td><td colspan=\"2\">22M</td></tr></table>",
+      "id": 63,
+      "page": 6,
+      "text": "Blocks Output CoaT-Lite CoaT\n Tiny Mini Small Medium Tiny Mini Small\n Serial Block (S1) 56 x 56 C1 = 64 H1 = 8 x R1 = 8 2 C1 = 64 H1 = 8 x R1 = 8 2 C1 = 64 H1 = 8 x 3 R1 = 8 C1 = 128 H1 = 8 R1 =4 x 3 C1 = 152 H1 = 8 x 2 R1 = 4  C1 = 152 H1 = 8 R1 = 4 x 2 C1 = 152 H1 = 8 R1 = 4 x 2\n Serial Block (S2) 28 x 28 C2 = 128 H2 = 8 x R2 = 8 2 C2 = 128 H2 = 8 x R2 = 8 2 C2 = 128 H2 = 8 x 4 R2 = 8 C1 = 256 H1 = 8 R1 = 4 x 6 C2 = 152 H2 = 8 x 2 R2 = 4  C2 = 216 H2 = 8 R2 = 4 x 2 C1 = 320 H1 = 8 R1 =4 x 2\n Serial Block (S3) 14 x 14 C3 = 256 H3 = 8 R3 = 4 x 2 C3 = 320 H3 = 8 x R3 = 4 2 C3 = 320 H3 = 8 x 6 R3 = 4  C1 = 320 H1 = 8 x 10 R1 = 4 C3 = 152 H3 = 8 x 2 R3 = 4  C3 = 216 H3 = 8 R3 = 4 x 2 C1 = 320 H1 = 8 R1 = 4 x 2\n Serial Block (S4) 7 x 7 C4 = 320 H4 = 8 R4 = 4 x 2 C4 = 512 H4 = 8 R4 = 4 x 2 C4 = 512 H4 = 8 x R4 = 4 3 C1 = 512 H1 = 8 x 8 R1 = 4 C4 = 152 H4 = 8 x 2 R4 = 4  C4 = 216 H4 = 8 R4 = 4 x 2 C1 = 320 H1 = 8 R1 = 4 x 2\n Parallel Group 28 x28 14x14 7x7        C4 = 152 H4 = 8 x 6 R4 = 4  C4 = 216 H4 = 8 R4 = 4 x 6 C1 = 320 H1 = 8 R1 = 4 x 6\n #Params 5.7M 11M 20M 45M 5.5M 10M"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2017
+        },
+        {
+          "x": 1201,
+          "y": 2017
+        },
+        {
+          "x": 1201,
+          "y": 2412
+        },
+        {
+          "x": 201,
+          "y": 2412
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='64' style='font-size:18px'>vectors to match the resolution of other scales, which en-<br>ables fine-to-coarse and coarse-to-fine interaction. We then<br>perform cross-attention, which extends the conv-attention<br>with queries from the current scale with keys and values<br>from another scale. Finally, we sum the outputs of conv-<br>attention and cross-attention together and apply a shared<br>feed-forward layer. With direct cross-layer attention, the<br>cross-scale information is fused in a cross-attention fashion.</p>",
+      "id": 64,
+      "page": 6,
+      "text": "vectors to match the resolution of other scales, which en-\nables fine-to-coarse and coarse-to-fine interaction. We then\nperform cross-attention, which extends the conv-attention\nwith queries from the current scale with keys and values\nfrom another scale. Finally, we sum the outputs of conv-\nattention and cross-attention together and apply a shared\nfeed-forward layer. With direct cross-layer attention, the\ncross-scale information is fused in a cross-attention fashion."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2426
+        },
+        {
+          "x": 1199,
+          "y": 2426
+        },
+        {
+          "x": 1199,
+          "y": 2977
+        },
+        {
+          "x": 200,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='65' style='font-size:18px'>Attention with feature interpolation. Instead of performing<br>cross-layer attention directly, we also present attention with<br>feature interpolation. First, the input image features from<br>different scales are processed by independent conv-attention<br>modules. Then, we down-sample or up-sample image fea-<br>tures from each scale to match the dimensions of other scales<br>using bilinear interpolation, or keep the same for its own<br>scale. The features belonging to the same scale are summed<br>in the parallel group, and they are further passed into a shared<br>feed-forward layer. In this way, the conv-attentional module<br>in the next step can learn cross-scale information based on</p>",
+      "id": 65,
+      "page": 6,
+      "text": "Attention with feature interpolation. Instead of performing\ncross-layer attention directly, we also present attention with\nfeature interpolation. First, the input image features from\ndifferent scales are processed by independent conv-attention\nmodules. Then, we down-sample or up-sample image fea-\ntures from each scale to match the dimensions of other scales\nusing bilinear interpolation, or keep the same for its own\nscale. The features belonging to the same scale are summed\nin the parallel group, and they are further passed into a shared\nfeed-forward layer. In this way, the conv-attentional module\nin the next step can learn cross-scale information based on"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2016
+        },
+        {
+          "x": 2007,
+          "y": 2016
+        },
+        {
+          "x": 2007,
+          "y": 2063
+        },
+        {
+          "x": 1280,
+          "y": 2063
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='66' style='font-size:18px'>the feature interpolation in the current step.</p>",
+      "id": 66,
+      "page": 6,
+      "text": "the feature interpolation in the current step."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2100
+        },
+        {
+          "x": 1753,
+          "y": 2100
+        },
+        {
+          "x": 1753,
+          "y": 2150
+        },
+        {
+          "x": 1281,
+          "y": 2150
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='67' style='font-size:22px'>5.2. Model Architecture</p>",
+      "id": 67,
+      "page": 6,
+      "text": "5.2. Model Architecture"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 2179
+        },
+        {
+          "x": 2278,
+          "y": 2179
+        },
+        {
+          "x": 2278,
+          "y": 2628
+        },
+        {
+          "x": 1278,
+          "y": 2628
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='68' style='font-size:20px'>CoaT-Lite. CoaT-Lite, Figure 3 (Left), processes input im-<br>ages with a series of serial blocks following a fine-to-coarse<br>pyramid structure. Given an input image I E RHxW xC<br>,<br>each serial block down-samples the image features into lower<br>resolution, resulting in a sequence of four resolutions:F1 E<br>R Hx⌀ xC1 F2 E R블xW XC2, F3 E R2xxxC3, F4 E<br>,<br>R � x V32 XC4 In CoaT-Lite, we obtain the CLS token in the<br>last serial block, and perform image classification via a linear<br>projection layer based on the CLS token.</p>",
+      "id": 68,
+      "page": 6,
+      "text": "CoaT-Lite. CoaT-Lite, Figure 3 (Left), processes input im-\nages with a series of serial blocks following a fine-to-coarse\npyramid structure. Given an input image I E RHxW xC\n,\neach serial block down-samples the image features into lower\nresolution, resulting in a sequence of four resolutions:F1 E\nR Hx⌀ xC1 F2 E R블xW XC2, F3 E R2xxxC3, F4 E\n,\nR � x V32 XC4 In CoaT-Lite, we obtain the CLS token in the\nlast serial block, and perform image classification via a linear\nprojection layer based on the CLS token."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2675
+        },
+        {
+          "x": 2278,
+          "y": 2675
+        },
+        {
+          "x": 2278,
+          "y": 2978
+        },
+        {
+          "x": 1280,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='69' style='font-size:20px'>CoaT. Our CoaT model, shown in Figure 3 (Right), con-<br>sists of both serial and parallel blocks. Once we obtain<br>multi-scale feature maps {F1, F2, F3, F4} from the serial<br>blocks, we pass F2, F3, F4 and corresponding CLS tokens<br>into the parallel group with three separate parallel blocks.<br>To perform classification with CoaT, we aggregate the CLS</p>",
+      "id": 69,
+      "page": 6,
+      "text": "CoaT. Our CoaT model, shown in Figure 3 (Right), con-\nsists of both serial and parallel blocks. Once we obtain\nmulti-scale feature maps {F1, F2, F3, F4} from the serial\nblocks, we pass F2, F3, F4 and corresponding CLS tokens\ninto the parallel group with three separate parallel blocks.\nTo perform classification with CoaT, we aggregate the CLS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 293
+        },
+        {
+          "x": 1201,
+          "y": 293
+        },
+        {
+          "x": 1201,
+          "y": 565
+        },
+        {
+          "x": 202,
+          "y": 565
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='70' style='font-size:16px'>Table 2. CoaT performance on ImageNet-1K validation set.<br>Our CoaT models consistently outperform other methods while<br>being parameter efficient. ConvNets and ViTNets with similar<br>model size are grouped together for comparison. \"#GFLOPs\" and<br>Top-1 Acc are measured at input image size. \"*\" results are adopted<br>from [33].</caption>",
+      "id": 70,
+      "page": 7,
+      "text": "Table 2. CoaT performance on ImageNet-1K validation set.\nOur CoaT models consistently outperform other methods while\nbeing parameter efficient. ConvNets and ViTNets with similar\nmodel size are grouped together for comparison. \"#GFLOPs\" and\nTop-1 Acc are measured at input image size. \"*\" results are adopted\nfrom [33]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 206,
+          "y": 567
+        },
+        {
+          "x": 1197,
+          "y": 567
+        },
+        {
+          "x": 1197,
+          "y": 1762
+        },
+        {
+          "x": 206,
+          "y": 1762
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='71' style='font-size:14px'><tr><td>Arch.</td><td>Model</td><td>#Params</td><td>Input</td><td>#GFLOPs</td><td>Top-1 Acc.</td></tr><tr><td rowspan=\"2\">ConvNets</td><td>EfficientNet-B0 [29]</td><td>5.3M</td><td>2242</td><td>0.4</td><td>77.1%</td></tr><tr><td>ShuffleNet [43]</td><td>5.4M</td><td>2242</td><td>0.5</td><td>73.7%</td></tr><tr><td rowspan=\"2\">ViTNets</td><td>DeiT-Tiny [30]</td><td>5.7M</td><td>2242</td><td>1.3</td><td>72.2%</td></tr><tr><td>CPVT-Tiny [6]</td><td>5.7M</td><td>2242</td><td>-</td><td>73.4%</td></tr><tr><td rowspan=\"2\"></td><td>CoaT-Lite Tiny (Ours)</td><td>5.7M</td><td>2242</td><td>1.6</td><td>77.5%</td></tr><tr><td>CoaT Tiny (Ours)</td><td>5.5M</td><td>2242</td><td>4.4</td><td>78.3%</td></tr><tr><td rowspan=\"2\">ConvNets</td><td>EfficientNet-B2[29]</td><td>9M</td><td>2602</td><td>1.0</td><td>80.1%</td></tr><tr><td>ResNet-18* [11]</td><td>12M</td><td>2242</td><td>1.8</td><td>69.8%</td></tr><tr><td>ViTNets</td><td>PVT-Tiny [33]</td><td>13M</td><td>2242</td><td>1.9</td><td>75.1%</td></tr><tr><td rowspan=\"2\"></td><td>CoaT-Lite Mini (Ours)</td><td>11M</td><td>2242</td><td>2.0</td><td>79.1%</td></tr><tr><td>CoaT Mini (Ours)</td><td>10M</td><td>2242</td><td>6.8</td><td>81.0%</td></tr><tr><td rowspan=\"3\">ConvNets</td><td>EfficientNet-B4 [29]</td><td>19M</td><td>3802</td><td>4.2</td><td>82.9%</td></tr><tr><td>ResNet-50* [11]</td><td>25M</td><td>2242</td><td>4.1</td><td>78.5%</td></tr><tr><td>ResNeXt50-32x4d* [36]</td><td>25M</td><td>2242</td><td>4.3</td><td>79.5%</td></tr><tr><td rowspan=\"5\">ViTNets</td><td>DeiT-Small [30]</td><td>22M</td><td>2242</td><td>4.6</td><td>79.8%</td></tr><tr><td>PVT-Small [33]</td><td>24M</td><td>2242</td><td>3.8</td><td>79.8%</td></tr><tr><td>CPVT-Small [6]</td><td>22M</td><td>2242</td><td>-</td><td>80.5%</td></tr><tr><td>T2T-ViTt-14 [40]</td><td>22M</td><td>2242</td><td>6.1</td><td>81.7%</td></tr><tr><td>Swin-T [17]</td><td>29M</td><td>2242</td><td>4.5</td><td>81.3%</td></tr><tr><td rowspan=\"2\"></td><td>CoaT-Lite Small (Ours)</td><td>20M</td><td>2242</td><td>4.0</td><td>81.9%</td></tr><tr><td>CoaT Small (Ours)</td><td>22M</td><td>2242</td><td>12.6</td><td>82.1%</td></tr><tr><td rowspan=\"3\">ConvNets</td><td>EfficientNet-B6 [29]</td><td>43M</td><td>5282</td><td>19</td><td>84.0%</td></tr><tr><td>ResNet-101* [11]</td><td>45M</td><td>2242</td><td>7.9</td><td>79.8%</td></tr><tr><td>ResNeXt101-64x4d* [36]</td><td>84M</td><td>2242</td><td>15.6</td><td>81.5%</td></tr><tr><td rowspan=\"6\">ViTNets</td><td>PVT-Large [33]</td><td>61M</td><td>2242</td><td>9.8</td><td>81.7%</td></tr><tr><td>T2T-ViTt-24 [40]</td><td>64M</td><td>2242</td><td>15</td><td>82.6%</td></tr><tr><td>DeiT-Base [30]</td><td>86M</td><td>2242</td><td>17.6</td><td>81.8%</td></tr><tr><td>CPVT-Base [6]</td><td>86M</td><td>2242</td><td>-</td><td>82.3%</td></tr><tr><td>Swin-B [17]</td><td>88M</td><td>2242</td><td>15.4</td><td>83.5%</td></tr><tr><td>Swin-B [17]</td><td>88M</td><td>3842</td><td>47</td><td>84.5%</td></tr><tr><td rowspan=\"2\"></td><td>CoaT-Lite Medium (Ours)</td><td>45M</td><td>2242</td><td>9.8</td><td>83.6%</td></tr><tr><td>CoaT-Lite Medium (Ours)</td><td>45M</td><td>3842</td><td>28.7</td><td>84.5%</td></tr></table>",
+      "id": 71,
+      "page": 7,
+      "text": "Arch. Model #Params Input #GFLOPs Top-1 Acc.\n ConvNets EfficientNet-B0 [29] 5.3M 2242 0.4 77.1%\n ShuffleNet [43] 5.4M 2242 0.5 73.7%\n ViTNets DeiT-Tiny [30] 5.7M 2242 1.3 72.2%\n CPVT-Tiny [6] 5.7M 2242 - 73.4%\n  CoaT-Lite Tiny (Ours) 5.7M 2242 1.6 77.5%\n CoaT Tiny (Ours) 5.5M 2242 4.4 78.3%\n ConvNets EfficientNet-B2[29] 9M 2602 1.0 80.1%\n ResNet-18* [11] 12M 2242 1.8 69.8%\n ViTNets PVT-Tiny [33] 13M 2242 1.9 75.1%\n  CoaT-Lite Mini (Ours) 11M 2242 2.0 79.1%\n CoaT Mini (Ours) 10M 2242 6.8 81.0%\n ConvNets EfficientNet-B4 [29] 19M 3802 4.2 82.9%\n ResNet-50* [11] 25M 2242 4.1 78.5%\n ResNeXt50-32x4d* [36] 25M 2242 4.3 79.5%\n ViTNets DeiT-Small [30] 22M 2242 4.6 79.8%\n PVT-Small [33] 24M 2242 3.8 79.8%\n CPVT-Small [6] 22M 2242 - 80.5%\n T2T-ViTt-14 [40] 22M 2242 6.1 81.7%\n Swin-T [17] 29M 2242 4.5 81.3%\n  CoaT-Lite Small (Ours) 20M 2242 4.0 81.9%\n CoaT Small (Ours) 22M 2242 12.6 82.1%\n ConvNets EfficientNet-B6 [29] 43M 5282 19 84.0%\n ResNet-101* [11] 45M 2242 7.9 79.8%\n ResNeXt101-64x4d* [36] 84M 2242 15.6 81.5%\n ViTNets PVT-Large [33] 61M 2242 9.8 81.7%\n T2T-ViTt-24 [40] 64M 2242 15 82.6%\n DeiT-Base [30] 86M 2242 17.6 81.8%\n CPVT-Base [6] 86M 2242 - 82.3%\n Swin-B [17] 88M 2242 15.4 83.5%\n Swin-B [17] 88M 3842 47 84.5%\n  CoaT-Lite Medium (Ours) 45M 2242 9.8 83.6%\n CoaT-Lite Medium (Ours) 45M 3842 28.7"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 1805
+        },
+        {
+          "x": 674,
+          "y": 1805
+        },
+        {
+          "x": 674,
+          "y": 1846
+        },
+        {
+          "x": 203,
+          "y": 1846
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='72' style='font-size:18px'>tokens from all three scales.</p>",
+      "id": 72,
+      "page": 7,
+      "text": "tokens from all three scales."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1876
+        },
+        {
+          "x": 1201,
+          "y": 1876
+        },
+        {
+          "x": 1201,
+          "y": 2575
+        },
+        {
+          "x": 201,
+          "y": 2575
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='73' style='font-size:18px'>Model Variants. In this paper, we explore CoaT and CoaT-<br>Lite with several different model sizes, namely Tiny, Mini,<br>Small and Medium. Architecture details are shown in Ta-<br>ble 1. For example, tiny models represent those with a 5M<br>parameter budget constraint. Specifically, these tiny mod-<br>els have four serial blocks, each with two conv-attentional<br>modules. In CoaT-Lite Tiny architectures, the hidden dimen-<br>sions of the attention layers increase in later blocks. CoaT<br>Tiny sets the hidden dimensions of the attention layers in<br>the parallel group to be equal, and performs the co-scale<br>mechanism within the six parallel groups. Mini, small and<br>medium models follow the same architecture design but with<br>increased embedding dimensions and increased numbers of<br>conv-attentional modules within blocks.</p>",
+      "id": 73,
+      "page": 7,
+      "text": "Model Variants. In this paper, we explore CoaT and CoaT-\nLite with several different model sizes, namely Tiny, Mini,\nSmall and Medium. Architecture details are shown in Ta-\nble 1. For example, tiny models represent those with a 5M\nparameter budget constraint. Specifically, these tiny mod-\nels have four serial blocks, each with two conv-attentional\nmodules. In CoaT-Lite Tiny architectures, the hidden dimen-\nsions of the attention layers increase in later blocks. CoaT\nTiny sets the hidden dimensions of the attention layers in\nthe parallel group to be equal, and performs the co-scale\nmechanism within the six parallel groups. Mini, small and\nmedium models follow the same architecture design but with\nincreased embedding dimensions and increased numbers of\nconv-attentional modules within blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 2618
+        },
+        {
+          "x": 533,
+          "y": 2618
+        },
+        {
+          "x": 533,
+          "y": 2670
+        },
+        {
+          "x": 203,
+          "y": 2670
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='74' style='font-size:22px'>6. Experiments</p>",
+      "id": 74,
+      "page": 7,
+      "text": "6. Experiments"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 204,
+          "y": 2701
+        },
+        {
+          "x": 670,
+          "y": 2701
+        },
+        {
+          "x": 670,
+          "y": 2749
+        },
+        {
+          "x": 204,
+          "y": 2749
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='75' style='font-size:22px'>6.1. Experiment Details</p>",
+      "id": 75,
+      "page": 7,
+      "text": "6.1. Experiment Details"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2777
+        },
+        {
+          "x": 1202,
+          "y": 2777
+        },
+        {
+          "x": 1202,
+          "y": 2976
+        },
+        {
+          "x": 202,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='76' style='font-size:18px'>Image Classification. We perform image classification on<br>the standard ILSVRC-2012 ImageNet dataset [23]. The stan-<br>dard ImageNet benchmark contains 1.3 million images in<br>the training set and 50K images in the validation set, COV-</p>",
+      "id": 76,
+      "page": 7,
+      "text": "Image Classification. We perform image classification on\nthe standard ILSVRC-2012 ImageNet dataset [23]. The stan-\ndard ImageNet benchmark contains 1.3 million images in\nthe training set and 50K images in the validation set, COV-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 293
+        },
+        {
+          "x": 2278,
+          "y": 293
+        },
+        {
+          "x": 2278,
+          "y": 471
+        },
+        {
+          "x": 1279,
+          "y": 471
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='77' style='font-size:16px'>Table 3. Object detection and instance segmentation results<br>based on Mask R-CNN on COCO val2017. Experiments are<br>performed under the MMDetection framework [4]. \"*\" results are<br>adopted from Detectron2.</caption>",
+      "id": 77,
+      "page": 7,
+      "text": "Table 3. Object detection and instance segmentation results\nbased on Mask R-CNN on COCO val2017. Experiments are\nperformed under the MMDetection framework [4]. \"*\" results are\nadopted from Detectron2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1362,
+          "y": 471
+        },
+        {
+          "x": 2182,
+          "y": 471
+        },
+        {
+          "x": 2182,
+          "y": 886
+        },
+        {
+          "x": 1362,
+          "y": 886
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='78' style='font-size:14px'><tr><td rowspan=\"2\">Backbone</td><td rowspan=\"2\">#Params (M)</td><td colspan=\"2\">w/ FPN 1x</td><td colspan=\"2\">w/ FPN 3x</td></tr><tr><td>APb</td><td>APm</td><td>APb</td><td>APm</td></tr><tr><td>ResNet-18*</td><td>31.3</td><td>34.2</td><td>31.3</td><td>36.3</td><td>33.2</td></tr><tr><td>PVT-Tiny [33]</td><td>32.9</td><td>36.7</td><td>35.1</td><td>39.8</td><td>37.4</td></tr><tr><td>CoaT-Lite Mini (Ours)</td><td>30.7</td><td>41.4</td><td>38.0</td><td>42.9</td><td>38.9</td></tr><tr><td>CoaT Mini (Ours)</td><td>30.2</td><td>45.1</td><td>40.6</td><td>46.5</td><td>41.8</td></tr><tr><td>ResNet-50*</td><td>44.3</td><td>38.6</td><td>35.2</td><td>41.0</td><td>37.2</td></tr><tr><td>PVT-Small [33]</td><td>44.1</td><td>40.4</td><td>37.8</td><td>43.0</td><td>39.9</td></tr><tr><td>Swin-T [17]</td><td>47.8</td><td>43.7</td><td>39.8</td><td>46.0</td><td>41.6</td></tr><tr><td>CoaT-Lite Small (Ours)</td><td>39.5</td><td>45.2</td><td>40.7</td><td>45.7</td><td>41.1</td></tr><tr><td>CoaT Small (Ours)</td><td>41.6</td><td>46.5</td><td>41.8</td><td>49.0</td><td>43.7</td></tr></table>",
+      "id": 78,
+      "page": 7,
+      "text": "Backbone #Params (M) w/ FPN 1x w/ FPN 3x\n APb APm APb APm\n ResNet-18* 31.3 34.2 31.3 36.3 33.2\n PVT-Tiny [33] 32.9 36.7 35.1 39.8 37.4\n CoaT-Lite Mini (Ours) 30.7 41.4 38.0 42.9 38.9\n CoaT Mini (Ours) 30.2 45.1 40.6 46.5 41.8\n ResNet-50* 44.3 38.6 35.2 41.0 37.2\n PVT-Small [33] 44.1 40.4 37.8 43.0 39.9\n Swin-T [17] 47.8 43.7 39.8 46.0 41.6\n CoaT-Lite Small (Ours) 39.5 45.2 40.7 45.7 41.1\n CoaT Small (Ours) 41.6 46.5 41.8 49.0"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 903
+        },
+        {
+          "x": 2277,
+          "y": 903
+        },
+        {
+          "x": 2277,
+          "y": 1041
+        },
+        {
+          "x": 1280,
+          "y": 1041
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='79' style='font-size:16px'>Table 4. Object detection and instance segmentation results<br>based on Cascade Mask R-CNN on COCO val2017. Experi-<br>ments are performed using the MMDetection framework [4].</caption>",
+      "id": 79,
+      "page": 7,
+      "text": "Table 4. Object detection and instance segmentation results\nbased on Cascade Mask R-CNN on COCO val2017. Experi-\nments are performed using the MMDetection framework [4]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1365,
+          "y": 1072
+        },
+        {
+          "x": 2183,
+          "y": 1072
+        },
+        {
+          "x": 2183,
+          "y": 1268
+        },
+        {
+          "x": 1365,
+          "y": 1268
+        }
+      ],
+      "category": "table",
+      "html": "<table id='80' style='font-size:14px'><tr><td rowspan=\"2\">Backbone</td><td rowspan=\"2\">#Params (M)</td><td colspan=\"2\">w/ FPN 1x</td><td colspan=\"2\">w/ FPN 3x</td></tr><tr><td>APb</td><td>APm</td><td>APb</td><td>APm</td></tr><tr><td>Swin-T [17]</td><td>85.6</td><td>48.1</td><td>41.7</td><td>50.4</td><td>43.7</td></tr><tr><td>CoaT-Lite Small (Ours)</td><td>77.3</td><td>49.1</td><td>42.5</td><td>48.9</td><td>42.6</td></tr><tr><td>CoaT Small (Ours)</td><td>79.4</td><td>50.4</td><td>43.5</td><td>52.2</td><td>45.1</td></tr></table>",
+      "id": 80,
+      "page": 7,
+      "text": "Backbone #Params (M) w/ FPN 1x w/ FPN 3x\n APb APm APb APm\n Swin-T [17] 85.6 48.1 41.7 50.4 43.7\n CoaT-Lite Small (Ours) 77.3 49.1 42.5 48.9 42.6\n CoaT Small (Ours) 79.4 50.4 43.5 52.2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1290
+        },
+        {
+          "x": 2276,
+          "y": 1290
+        },
+        {
+          "x": 2276,
+          "y": 1472
+        },
+        {
+          "x": 1279,
+          "y": 1472
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='81' style='font-size:16px'>Table 5. Object detection results based on Deformable DETR<br>on COCO val2017. DD ResNet-50 represents the baseline result<br>using the official checkpoint. ResNet-50 and our CoaT-Lite as DD<br>backbones are directly comparable due to similar model size.</caption>",
+      "id": 81,
+      "page": 7,
+      "text": "Table 5. Object detection results based on Deformable DETR\non COCO val2017. DD ResNet-50 represents the baseline result\nusing the official checkpoint. ResNet-50 and our CoaT-Lite as DD\nbackbones are directly comparable due to similar model size."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1314,
+          "y": 1494
+        },
+        {
+          "x": 2232,
+          "y": 1494
+        },
+        {
+          "x": 2232,
+          "y": 1683
+        },
+        {
+          "x": 1314,
+          "y": 1683
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='82' style='font-size:14px'><tr><td rowspan=\"2\">Backbone</td><td colspan=\"6\">Deformable DETR (Multi-Scale)</td></tr><tr><td>AP</td><td>AP50</td><td>AP75</td><td>APs</td><td>APM</td><td>APL</td></tr><tr><td>DD ResNet-50 [46]</td><td>44.5</td><td>63.7</td><td>48.7</td><td>26.8</td><td>47.6</td><td>59.6</td></tr><tr><td>DD CoaT-Lite Small (Ours)</td><td>47.0</td><td>66.5</td><td>51.2</td><td>28.8</td><td>50.3</td><td>63.3</td></tr><tr><td>DD CoaT Small (Ours)</td><td>48.4</td><td>68.5</td><td>52.4</td><td>30.2</td><td>51.8</td><td>63.8</td></tr></table>",
+      "id": 82,
+      "page": 7,
+      "text": "Backbone Deformable DETR (Multi-Scale)\n AP AP50 AP75 APs APM APL\n DD ResNet-50 [46] 44.5 63.7 48.7 26.8 47.6 59.6\n DD CoaT-Lite Small (Ours) 47.0 66.5 51.2 28.8 50.3 63.3\n DD CoaT Small (Ours) 48.4 68.5 52.4 30.2 51.8"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1709
+        },
+        {
+          "x": 2278,
+          "y": 1709
+        },
+        {
+          "x": 2278,
+          "y": 1953
+        },
+        {
+          "x": 1279,
+          "y": 1953
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='83' style='font-size:20px'>ering 1000 object classes. Image cropping sizes are set to<br>224x224. For fair comparison, we perform data augmen-<br>tation such as MixUp [42], CutMix [41], random erasing<br>[45], repeated augmentation [12], and label smoothing [28],<br>following identical procedures in DeiT [30].</p>",
+      "id": 83,
+      "page": 7,
+      "text": "ering 1000 object classes. Image cropping sizes are set to\n224x224. For fair comparison, we perform data augmen-\ntation such as MixUp [42], CutMix [41], random erasing\n[45], repeated augmentation [12], and label smoothing [28],\nfollowing identical procedures in DeiT [30]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1959
+        },
+        {
+          "x": 2279,
+          "y": 1959
+        },
+        {
+          "x": 2279,
+          "y": 2211
+        },
+        {
+          "x": 1280,
+          "y": 2211
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='84' style='font-size:18px'>All experimental results for our models in Table 2 are re-<br>ported at 300 epochs, consistent with previous methods [30].<br>All models are trained with the AdamW [18] optimizer under<br>the NVIDIA Automatic Mixed Precision (AMP) framework.<br>global batch size<br>The learning rate is scaled as 5 x 10-4 x<br>512</p>",
+      "id": 84,
+      "page": 7,
+      "text": "All experimental results for our models in Table 2 are re-\nported at 300 epochs, consistent with previous methods [30].\nAll models are trained with the AdamW [18] optimizer under\nthe NVIDIA Automatic Mixed Precision (AMP) framework.\nglobal batch size\nThe learning rate is scaled as 5 x 10-4 x\n512"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 2226
+        },
+        {
+          "x": 2278,
+          "y": 2226
+        },
+        {
+          "x": 2278,
+          "y": 2772
+        },
+        {
+          "x": 1278,
+          "y": 2772
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='85' style='font-size:20px'>Object Detection and Instance Segmentation. We con-<br>duct object detection and instance segmentation experiments<br>on the Common Objects in Context (COCO2017) dataset<br>[16]. The COCO2017 benchmark contains 118K training<br>images and 5K validation images. We evaluate the gener-<br>alization ability of CoaT in object detection and instance<br>segmentation with the Mask R-CNN [10] and Cascade Mask<br>R-CNN [2]. We use the MMDetection [4] framework and<br>follow the settings from Swin Transformers [17]. In addition,<br>we perform object detection based on Deformable DETR<br>[46] following its data processing settings.</p>",
+      "id": 85,
+      "page": 7,
+      "text": "Object Detection and Instance Segmentation. We con-\nduct object detection and instance segmentation experiments\non the Common Objects in Context (COCO2017) dataset\n[16]. The COCO2017 benchmark contains 118K training\nimages and 5K validation images. We evaluate the gener-\nalization ability of CoaT in object detection and instance\nsegmentation with the Mask R-CNN [10] and Cascade Mask\nR-CNN [2]. We use the MMDetection [4] framework and\nfollow the settings from Swin Transformers [17]. In addition,\nwe perform object detection based on Deformable DETR\n[46] following its data processing settings."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2778
+        },
+        {
+          "x": 2279,
+          "y": 2778
+        },
+        {
+          "x": 2279,
+          "y": 2977
+        },
+        {
+          "x": 1279,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='86' style='font-size:18px'>For Mask R-CNN optimization, we train the model with<br>the ImageNet-pretrained backbone on 8 GPUs via AdamW<br>optimizer with learning rate 0.0001. The training period<br>contains 12 epochs in 1 x setting and 36 epochs in 3x setting.</p>",
+      "id": 86,
+      "page": 7,
+      "text": "For Mask R-CNN optimization, we train the model with\nthe ImageNet-pretrained backbone on 8 GPUs via AdamW\noptimizer with learning rate 0.0001. The training period\ncontains 12 epochs in 1 x setting and 36 epochs in 3x setting."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 303
+        },
+        {
+          "x": 1202,
+          "y": 303
+        },
+        {
+          "x": 1202,
+          "y": 652
+        },
+        {
+          "x": 201,
+          "y": 652
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='87' style='font-size:18px'>For Cascade R-CNN experiments, we use three detection<br>heads, with the same optimization and training period as<br>Mask R-CNN. For Deformable DETR optimization, we train<br>the model with the pretrained backbone for 50 epochs, using<br>an AdamW optimizer with initial learning rate 2 x 10-4<br>B1 = 0.9, and B2 = 0.999. We reduce the learning rate by a<br>factor of 10 at epoch 40.</p>",
+      "id": 87,
+      "page": 8,
+      "text": "For Cascade R-CNN experiments, we use three detection\nheads, with the same optimization and training period as\nMask R-CNN. For Deformable DETR optimization, we train\nthe model with the pretrained backbone for 50 epochs, using\nan AdamW optimizer with initial learning rate 2 x 10-4\nB1 = 0.9, and B2 = 0.999. We reduce the learning rate by a\nfactor of 10 at epoch 40."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 686
+        },
+        {
+          "x": 944,
+          "y": 686
+        },
+        {
+          "x": 944,
+          "y": 735
+        },
+        {
+          "x": 203,
+          "y": 735
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='88' style='font-size:22px'>6.2. CoaT for ImageNet Classification</p>",
+      "id": 88,
+      "page": 8,
+      "text": "6.2. CoaT for ImageNet Classification"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 762
+        },
+        {
+          "x": 1204,
+          "y": 762
+        },
+        {
+          "x": 1204,
+          "y": 1110
+        },
+        {
+          "x": 201,
+          "y": 1110
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='89' style='font-size:18px'>Table 2 shows top-1 accuracy results for our models on<br>the ImageNet validation set comparing with state-of-the-art<br>methods. We separate model architectures into two cate-<br>gories: convolutional networks (ConvNets), and Transform-<br>ers (ViTNets). Under different parameter budget constraints,<br>CoaT and CoaT-Lite show strong results compared to other<br>ConvNet and ViTNet methods.</p>",
+      "id": 89,
+      "page": 8,
+      "text": "Table 2 shows top-1 accuracy results for our models on\nthe ImageNet validation set comparing with state-of-the-art\nmethods. We separate model architectures into two cate-\ngories: convolutional networks (ConvNets), and Transform-\ners (ViTNets). Under different parameter budget constraints,\nCoaT and CoaT-Lite show strong results compared to other\nConvNet and ViTNet methods."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1144
+        },
+        {
+          "x": 1160,
+          "y": 1144
+        },
+        {
+          "x": 1160,
+          "y": 1194
+        },
+        {
+          "x": 202,
+          "y": 1194
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='90' style='font-size:22px'>6.3. Object Detection and Instance Segmentation</p>",
+      "id": 90,
+      "page": 8,
+      "text": "6.3. Object Detection and Instance Segmentation"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1220
+        },
+        {
+          "x": 1201,
+          "y": 1220
+        },
+        {
+          "x": 1201,
+          "y": 1716
+        },
+        {
+          "x": 202,
+          "y": 1716
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='91' style='font-size:20px'>Tables 3 and 4 demonstrate CoaT object detection and<br>instance segmentation results under the Mask R-CNN and<br>Cascade Mask R-CNN frameworks on the COCO val2017<br>dataset. Our CoaT and CoaT-Lite models show clear perfor-<br>mance advantages over the ResNet, PVT [33] and Swin [17]<br>backbones under both the 1 x setting and the 3x setting. In<br>particular, our CoaT models bring a large performance gain,<br>demonstrating that our co-scale mechanism is essential to<br>improve the performance of Transformer-based architectures<br>for downstream tasks.</p>",
+      "id": 91,
+      "page": 8,
+      "text": "Tables 3 and 4 demonstrate CoaT object detection and\ninstance segmentation results under the Mask R-CNN and\nCascade Mask R-CNN frameworks on the COCO val2017\ndataset. Our CoaT and CoaT-Lite models show clear perfor-\nmance advantages over the ResNet, PVT [33] and Swin [17]\nbackbones under both the 1 x setting and the 3x setting. In\nparticular, our CoaT models bring a large performance gain,\ndemonstrating that our co-scale mechanism is essential to\nimprove the performance of Transformer-based architectures\nfor downstream tasks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1720
+        },
+        {
+          "x": 1203,
+          "y": 1720
+        },
+        {
+          "x": 1203,
+          "y": 2017
+        },
+        {
+          "x": 202,
+          "y": 2017
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='92' style='font-size:20px'>We additionally perform object detection with the De-<br>formable DETR (DD) framework in Table 5. We compare<br>our models with the standard ResNet-50 backbone on the<br>COCO dataset [16]. Our CoaT backbone achieves 3.9%<br>improvement on average precision (AP) over the results of<br>Deformable DETR with ResNet-50 [46].</p>",
+      "id": 92,
+      "page": 8,
+      "text": "We additionally perform object detection with the De-\nformable DETR (DD) framework in Table 5. We compare\nour models with the standard ResNet-50 backbone on the\nCOCO dataset [16]. Our CoaT backbone achieves 3.9%\nimprovement on average precision (AP) over the results of\nDeformable DETR with ResNet-50 [46]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 2050
+        },
+        {
+          "x": 585,
+          "y": 2050
+        },
+        {
+          "x": 585,
+          "y": 2099
+        },
+        {
+          "x": 203,
+          "y": 2099
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='93' style='font-size:22px'>6.4. Ablation Study</p>",
+      "id": 93,
+      "page": 8,
+      "text": "6.4. Ablation Study"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2124
+        },
+        {
+          "x": 1202,
+          "y": 2124
+        },
+        {
+          "x": 1202,
+          "y": 2675
+        },
+        {
+          "x": 201,
+          "y": 2675
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='94' style='font-size:20px'>Effectiveness of Position Encodings. We study the effec-<br>tiveness of the combination of the convolutional relative<br>position encoding (CRPE) and convolutional position en-<br>coding (CPE) in our conv-attention module in Table 6. Our<br>CoaT-Lite without any position encoding results in poor<br>performance, indicating that position encoding is essential<br>for vision Transformers. We observe great improvement<br>for CoaT-Lite variants with either CRPE or CPE, and the<br>combination of CRPE and CPE leads to the best perfor-<br>mance (77.5% top-1 accuracy), making both position encod-<br>ing schemes complementary rather than conflicting.</p>",
+      "id": 94,
+      "page": 8,
+      "text": "Effectiveness of Position Encodings. We study the effec-\ntiveness of the combination of the convolutional relative\nposition encoding (CRPE) and convolutional position en-\ncoding (CPE) in our conv-attention module in Table 6. Our\nCoaT-Lite without any position encoding results in poor\nperformance, indicating that position encoding is essential\nfor vision Transformers. We observe great improvement\nfor CoaT-Lite variants with either CRPE or CPE, and the\ncombination of CRPE and CPE leads to the best perfor-\nmance (77.5% top-1 accuracy), making both position encod-\ning schemes complementary rather than conflicting."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2725
+        },
+        {
+          "x": 1202,
+          "y": 2725
+        },
+        {
+          "x": 1202,
+          "y": 2976
+        },
+        {
+          "x": 201,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='95' style='font-size:18px'>Effectiveness of Co-Scale. In Table 7, we present perfor-<br>mance results for two co-scale variants in CoaT, direct cross-<br>layer attention and attention with feature interpolation. We<br>also report CoaT without co-scale as a baseline. Comparing<br>to CoaT without a co-scale mechanism, CoaT with feature</p>",
+      "id": 95,
+      "page": 8,
+      "text": "Effectiveness of Co-Scale. In Table 7, we present perfor-\nmance results for two co-scale variants in CoaT, direct cross-\nlayer attention and attention with feature interpolation. We\nalso report CoaT without co-scale as a baseline. Comparing\nto CoaT without a co-scale mechanism, CoaT with feature"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 295
+        },
+        {
+          "x": 2278,
+          "y": 295
+        },
+        {
+          "x": 2278,
+          "y": 426
+        },
+        {
+          "x": 1281,
+          "y": 426
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='96' style='font-size:16px'>Table 6. Effectiveness of position encodings. All experiments<br>are performed with the CoaT-Lite Tiny architecture. Performance<br>is evaluated on the ImageNet-1K validation set.</caption>",
+      "id": 96,
+      "page": 8,
+      "text": "Table 6. Effectiveness of position encodings. All experiments\nare performed with the CoaT-Lite Tiny architecture. Performance\nis evaluated on the ImageNet-1K validation set."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1466,
+          "y": 439
+        },
+        {
+          "x": 2080,
+          "y": 439
+        },
+        {
+          "x": 2080,
+          "y": 667
+        },
+        {
+          "x": 1466,
+          "y": 667
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='97' style='font-size:16px'><tr><td>Model</td><td>CPE</td><td>CRPE</td><td>Top-1 Acc.</td></tr><tr><td>CoaT-Lite Tiny</td><td>X</td><td>X</td><td>68.8%</td></tr><tr><td></td><td>X</td><td>V</td><td>75.0%</td></tr><tr><td></td><td>V</td><td>X</td><td>75.9%</td></tr><tr><td></td><td>V</td><td>V</td><td>77.5%</td></tr></table>",
+      "id": 97,
+      "page": 8,
+      "text": "Model CPE CRPE Top-1 Acc.\n CoaT-Lite Tiny X X 68.8%\n  X V 75.0%\n  V X 75.9%\n  V V"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 709
+        },
+        {
+          "x": 2279,
+          "y": 709
+        },
+        {
+          "x": 2279,
+          "y": 956
+        },
+        {
+          "x": 1280,
+          "y": 956
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='98' style='font-size:20px'>interpolation shows performance improvements on both im-<br>age classification and object detection (Mask R-CNN w/<br>FPN 1 x). Attention with feature interpolation offers a clear<br>advantage over direct cross-layer attention due to less com-<br>putational complexity and higher accuracy.</p>",
+      "id": 98,
+      "page": 8,
+      "text": "interpolation shows performance improvements on both im-\nage classification and object detection (Mask R-CNN w/\nFPN 1 x). Attention with feature interpolation offers a clear\nadvantage over direct cross-layer attention due to less com-\nputational complexity and higher accuracy."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 998
+        },
+        {
+          "x": 2279,
+          "y": 998
+        },
+        {
+          "x": 2279,
+          "y": 1131
+        },
+        {
+          "x": 1281,
+          "y": 1131
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='99' style='font-size:16px'>Table 7. Effectiveness of co-scale. All experiments are performed<br>with the CoaT Tiny architecture. Performance is evaluated on the<br>ImageNet-1K validation set and the COCO val2017 dataset.</caption>",
+      "id": 99,
+      "page": 8,
+      "text": "Table 7. Effectiveness of co-scale. All experiments are performed\nwith the CoaT Tiny architecture. Performance is evaluated on the\nImageNet-1K validation set and the COCO val2017 dataset."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1286,
+          "y": 1144
+        },
+        {
+          "x": 2275,
+          "y": 1144
+        },
+        {
+          "x": 2275,
+          "y": 1315
+        },
+        {
+          "x": 1286,
+          "y": 1315
+        }
+      ],
+      "category": "table",
+      "html": "<table id='100' style='font-size:14px'><tr><td>Model</td><td>#Params</td><td>Input</td><td>#GFLOPs</td><td>Top-1 Acc. @input</td><td>APb</td><td>APm</td></tr><tr><td>CoaT w/o Co-Scale</td><td>5.5M</td><td>2242</td><td>4.4</td><td>77.8%</td><td>41.6</td><td>37.9</td></tr><tr><td>CoaT w/ Co-Scale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>- Direct Cross-Layer Attention</td><td>5.5M</td><td>2242</td><td>4.8</td><td>77.0%</td><td>42.1</td><td>38.3</td></tr><tr><td>- Attention w/ Feature Interp.</td><td>5.5M</td><td>2242</td><td>4.4</td><td>78.3%</td><td>42.5</td><td>38.6</td></tr></table>",
+      "id": 100,
+      "page": 8,
+      "text": "Model #Params Input #GFLOPs Top-1 Acc. @input APb APm\n CoaT w/o Co-Scale 5.5M 2242 4.4 77.8% 41.6 37.9\n CoaT w/ Co-Scale      \n - Direct Cross-Layer Attention 5.5M 2242 4.8 77.0% 42.1 38.3\n - Attention w/ Feature Interp. 5.5M 2242 4.4 78.3% 42.5"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1347
+        },
+        {
+          "x": 2280,
+          "y": 1347
+        },
+        {
+          "x": 2280,
+          "y": 1897
+        },
+        {
+          "x": 1279,
+          "y": 1897
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='101' style='font-size:20px'>Computational Cost. We report FLOPs, FPS, latency,<br>and GPU memory usage in Table 8. In summary, CoaT<br>models attain higher accuracy than similar-sized Swin Trans-<br>formers, but CoaT models in general do have larger la-<br>tency/FLOPs. The current parallel groups in CoaT are more<br>computationally demanding, which can be mitigated by re-<br>ducing high-resolution parallel blocks and re-using their<br>feature maps in the co-scale mechanism in future work. The<br>latency overhead in CoaT is possibly because operations (e.g.<br>layers, position encodings, upsamples/downsamples) are not<br>running in parallel.</p>",
+      "id": 101,
+      "page": 8,
+      "text": "Computational Cost. We report FLOPs, FPS, latency,\nand GPU memory usage in Table 8. In summary, CoaT\nmodels attain higher accuracy than similar-sized Swin Trans-\nformers, but CoaT models in general do have larger la-\ntency/FLOPs. The current parallel groups in CoaT are more\ncomputationally demanding, which can be mitigated by re-\nducing high-resolution parallel blocks and re-using their\nfeature maps in the co-scale mechanism in future work. The\nlatency overhead in CoaT is possibly because operations (e.g.\nlayers, position encodings, upsamples/downsamples) are not\nrunning in parallel."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1284,
+          "y": 1942
+        },
+        {
+          "x": 2272,
+          "y": 1942
+        },
+        {
+          "x": 2272,
+          "y": 2011
+        },
+        {
+          "x": 1284,
+          "y": 2011
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='102' style='font-size:14px'>Table 8. ImageNet-1K validation set results compared with the concurrent work<br>Swin Transformer[17]. Computational metrics are measured on a single V100 GPU.</caption>",
+      "id": 102,
+      "page": 8,
+      "text": "Table 8. ImageNet-1K validation set results compared with the concurrent work\nSwin Transformer[17]. Computational metrics are measured on a single V100 GPU."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1288,
+          "y": 2008
+        },
+        {
+          "x": 2275,
+          "y": 2008
+        },
+        {
+          "x": 2275,
+          "y": 2295
+        },
+        {
+          "x": 1288,
+          "y": 2295
+        }
+      ],
+      "category": "table",
+      "html": "<br><table id='103' style='font-size:14px'><tr><td>Model</td><td>#Params</td><td>Input</td><td>GFLOPs</td><td>FPS</td><td>Latency</td><td>Mem</td><td>Top-1 Acc.</td><td>Top-5 Acc.</td></tr><tr><td>Swin-T [17]</td><td>28M</td><td>2242</td><td>4.5</td><td>755</td><td>16ms</td><td>222M</td><td>81.2%</td><td>95.5%</td></tr><tr><td>CoaT-Lite Small (Ours)</td><td>20M</td><td>2242</td><td>4.0</td><td>634</td><td>32ms</td><td>224M</td><td>81.9%</td><td>95.6%</td></tr><tr><td>CoaT Small (Ours)</td><td>22M</td><td>2242</td><td>12.6</td><td>111</td><td>60ms</td><td>371M</td><td>82.1%</td><td>96.1%</td></tr><tr><td>Swin-S [17]</td><td>50M</td><td>2242</td><td>8.7</td><td>437</td><td>29ms</td><td>372M</td><td>83.2%</td><td>96.2%</td></tr><tr><td>Swin-B [17]</td><td>88M</td><td>2242</td><td>15.4</td><td>278</td><td>30ms</td><td>579M</td><td>83.5%</td><td>96.5%</td></tr><tr><td>CoaT-Lite Medium (Ours)</td><td>45M</td><td>2242</td><td>9.8</td><td>319</td><td>52ms</td><td>429M</td><td>83.6%</td><td>96.7%</td></tr><tr><td>Swin-B [17]</td><td>88M</td><td>3842</td><td>47.1</td><td>85</td><td>33ms</td><td>1250M</td><td>84.5%</td><td>97.0%</td></tr><tr><td>CoaT-Lite Medium (Ours)</td><td>45M</td><td>3842</td><td>28.7</td><td>97</td><td>56ms</td><td>937M</td><td>84.5%</td><td>97.1%</td></tr></table>",
+      "id": 103,
+      "page": 8,
+      "text": "Model #Params Input GFLOPs FPS Latency Mem Top-1 Acc. Top-5 Acc.\n Swin-T [17] 28M 2242 4.5 755 16ms 222M 81.2% 95.5%\n CoaT-Lite Small (Ours) 20M 2242 4.0 634 32ms 224M 81.9% 95.6%\n CoaT Small (Ours) 22M 2242 12.6 111 60ms 371M 82.1% 96.1%\n Swin-S [17] 50M 2242 8.7 437 29ms 372M 83.2% 96.2%\n Swin-B [17] 88M 2242 15.4 278 30ms 579M 83.5% 96.5%\n CoaT-Lite Medium (Ours) 45M 2242 9.8 319 52ms 429M 83.6% 96.7%\n Swin-B [17] 88M 3842 47.1 85 33ms 1250M 84.5% 97.0%\n CoaT-Lite Medium (Ours) 45M 3842 28.7 97 56ms 937M 84.5%"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2346
+        },
+        {
+          "x": 1578,
+          "y": 2346
+        },
+        {
+          "x": 1578,
+          "y": 2398
+        },
+        {
+          "x": 1281,
+          "y": 2398
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='104' style='font-size:22px'>7. Conclusion</p>",
+      "id": 104,
+      "page": 8,
+      "text": "7. Conclusion"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2409
+        },
+        {
+          "x": 2279,
+          "y": 2409
+        },
+        {
+          "x": 2279,
+          "y": 2758
+        },
+        {
+          "x": 1279,
+          "y": 2758
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='105' style='font-size:20px'>In this paper, we present a Transformer based image clas-<br>sifier, Co-scale conv-attentional image Transformer (CoaT),<br>in which cross-scale attention and efficient conv-attention<br>operations have been developed. CoaT models attain strong<br>classification results on ImageNet, and their applicability to<br>downstream computer vision tasks has been demonstrated<br>for object detection and instance segmentation.</p>",
+      "id": 105,
+      "page": 8,
+      "text": "In this paper, we present a Transformer based image clas-\nsifier, Co-scale conv-attentional image Transformer (CoaT),\nin which cross-scale attention and efficient conv-attention\noperations have been developed. CoaT models attain strong\nclassification results on ImageNet, and their applicability to\ndownstream computer vision tasks has been demonstrated\nfor object detection and instance segmentation."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1282,
+          "y": 2827
+        },
+        {
+          "x": 2276,
+          "y": 2827
+        },
+        {
+          "x": 2276,
+          "y": 2975
+        },
+        {
+          "x": 1282,
+          "y": 2975
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='106' style='font-size:20px'>Acknowledgments. This work is supported by NSF<br>Award IIS-1717431. Tyler Chang is partially supported by<br>the UCSD HDSI graduate fellowship.</p>",
+      "id": 106,
+      "page": 8,
+      "text": "Acknowledgments. This work is supported by NSF\nAward IIS-1717431. Tyler Chang is partially supported by\nthe UCSD HDSI graduate fellowship."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 299
+        },
+        {
+          "x": 446,
+          "y": 299
+        },
+        {
+          "x": 446,
+          "y": 354
+        },
+        {
+          "x": 203,
+          "y": 354
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='107' style='font-size:18px'>References</p>",
+      "id": 107,
+      "page": 9,
+      "text": "References"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 212,
+          "y": 369
+        },
+        {
+          "x": 1203,
+          "y": 369
+        },
+        {
+          "x": 1203,
+          "y": 2975
+        },
+        {
+          "x": 212,
+          "y": 2975
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='108' style='font-size:14px'>[1] Irwan Bello. Lambdanetworks: Modeling long-range interac-<br>tions without attention. In ICLR, 2021.<br>[2] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: High<br>quality object detection and instance segmentation. TPAMI,<br>2019.<br>[3] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas<br>Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-<br>end object detection with transformers. In ECCV, 2020.<br>[4] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu<br>Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu,<br>Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tian-<br>heng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue<br>Wu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang,<br>Chen Change Loy, and Dahua Lin. MMDetection: Open<br>mmlab detection toolbox and benchmark. arXiv preprint<br>arXiv:1906.07155, 2019.<br>[5] Krzysztof Choromanski, Valerii Likhosherstov, David Dohan,<br>Xingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins,<br>Jared Davis, Afroz Mohiuddin, Lukasz Kaiser, et al. Rethink-<br>ing attention with performers. In ICLR, 2021.<br>[6] Xiangxiang Chu, Bo Zhang, Zhi Tian, Xiaolin Wei, and<br>Huaxia Xia. Conditional positional encodings for vision<br>transformers. arXiv preprint arXiv:2102.10882, 2021.<br>[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina<br>Toutanova. Bert: Pre-training of deep bidirectional transform-<br>ers for language understanding. In NAACL-HLT, 2019.<br>[8] Linhao Dong, Shuang Xu, and Bo Xu. Speech-transformer: a<br>no-recurrence sequence-to-sequence model for speech recog-<br>nition. In Proc. IEEE Int. Conf. Acoust. Sph. Sig Process.,<br>2018.<br>[9] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,<br>Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,<br>Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-<br>vain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is<br>worth 16x16 words: Transformers for image recognition at<br>scale. In ICLR, 2021.<br>[10] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-<br>shick. Mask r-cnn. In ICCV, 2017.<br>[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.<br>Deep residual learning for image recognition. In CVPR, 2016.<br>[12] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten<br>Hoefler, and Daniel Soudry. Augment your batch: Improving<br>generalization through instance repetition. In CVPR, 2020.<br>[13] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local<br>relation networks for image recognition. In ICCV, 2019.<br>[14] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Im-<br>agenet classification with deep convolutional neural networks.<br>In NIPS, 2012.<br>[15] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick<br>Haffner. Gradient-based learning applied to document recog-<br>nition. Proceedings of the IEEE, 86(11):2278-2324, 1998.<br>[16] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays,<br>Pietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence<br>Zitnick. Microsoft coco: Common objects in context. In<br>ECCV, 2014.</p>",
+      "id": 108,
+      "page": 9,
+      "text": "[1] Irwan Bello. Lambdanetworks: Modeling long-range interac-\ntions without attention. In ICLR, 2021.\n[2] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: High\nquality object detection and instance segmentation. TPAMI,\n2019.\n[3] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas\nUsunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-\nend object detection with transformers. In ECCV, 2020.\n[4] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu\nXiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu,\nJiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tian-\nheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue\nWu, Jifeng Dai, Jingdong Wang, Jianping Shi, Wanli Ouyang,\nChen Change Loy, and Dahua Lin. MMDetection: Open\nmmlab detection toolbox and benchmark. arXiv preprint\narXiv:1906.07155, 2019.\n[5] Krzysztof Choromanski, Valerii Likhosherstov, David Dohan,\nXingyou Song, Andreea Gane, Tamas Sarlos, Peter Hawkins,\nJared Davis, Afroz Mohiuddin, Lukasz Kaiser, et al. Rethink-\ning attention with performers. In ICLR, 2021.\n[6] Xiangxiang Chu, Bo Zhang, Zhi Tian, Xiaolin Wei, and\nHuaxia Xia. Conditional positional encodings for vision\ntransformers. arXiv preprint arXiv:2102.10882, 2021.\n[7] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina\nToutanova. Bert: Pre-training of deep bidirectional transform-\ners for language understanding. In NAACL-HLT, 2019.\n[8] Linhao Dong, Shuang Xu, and Bo Xu. Speech-transformer: a\nno-recurrence sequence-to-sequence model for speech recog-\nnition. In Proc. IEEE Int. Conf. Acoust. Sph. Sig Process.,\n2018.\n[9] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,\nDirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,\nMostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-\nvain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is\nworth 16x16 words: Transformers for image recognition at\nscale. In ICLR, 2021.\n[10] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-\nshick. Mask r-cnn. In ICCV, 2017.\n[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.\nDeep residual learning for image recognition. In CVPR, 2016.\n[12] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten\nHoefler, and Daniel Soudry. Augment your batch: Improving\ngeneralization through instance repetition. In CVPR, 2020.\n[13] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local\nrelation networks for image recognition. In ICCV, 2019.\n[14] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Im-\nagenet classification with deep convolutional neural networks.\nIn NIPS, 2012.\n[15] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick\nHaffner. Gradient-based learning applied to document recog-\nnition. Proceedings of the IEEE, 86(11):2278-2324, 1998.\n[16] Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays,\nPietro Perona, Deva Ramanan, Piotr Dollar, and C Lawrence\nZitnick. Microsoft coco: Common objects in context. In\nECCV, 2014."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 304
+        },
+        {
+          "x": 2293,
+          "y": 304
+        },
+        {
+          "x": 2293,
+          "y": 2978
+        },
+        {
+          "x": 1278,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='109' style='font-size:14px'>[17] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng<br>Zhang, Stephen Lin, and Baining Guo. Swin transformer:<br>Hierarchical vision transformer using shifted windows. In<br>ICCV, 2021.<br>[18] Ilya Loshchilov and Frank Hutter. Decoupled weight decay<br>regularization. In ICLR, 2019.<br>[19] David G Lowe. Distinctive image features from scale-<br>invariant keypoints. IJCV, 60(2):91-110, 2004.<br>[20] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya<br>Sutskever. Improving language understanding by generative<br>pre-training. 2018.<br>[21] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan<br>Bello, Anselm Levskaya, and Jonathon Shlens. Stand-alone<br>self-attention in vision models. In NIPS, 2019.<br>[22] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net:<br>Convolutional networks for biomedical image segmentation.<br>In MICCAI, 2015.<br>[23] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, San-<br>jeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy,<br>Aditya Khosla, Michael Bernstein, Alexander C. Berg, and Li<br>Fei-Fei. ImageNet Large Scale Visual Recognition Challenge.<br>IJCV, 115(3):211-252, 2015.<br>[24] Peter Shaw, Jakob Uszkoreit, and Ashish Vaswani. Self-<br>attention with relative position representations. In NAACL-<br>HLT, 2018.<br>[25] Zhuoran Shen, Mingyuan Zhang, Haiyu Zhao, Shuai Yi, and<br>Hongsheng Li. Efficient attention: Attention with linear<br>complexities. In WACV, pages 3531-3539, 2021.<br>[26] Karen Simonyan and Andrew Zisserman. Very deep convolu-<br>tional networks for large-scale image recognition. In ICLR,<br>2015.<br>[27] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,<br>Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent<br>Vanhoucke, and Andrew Rabinovich. Going deeper with<br>convolutions. In CVPR, 2015.<br>[28] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon<br>Shlens, and Zbigniew Wojna. Rethinking the inception archi-<br>tecture for computer vision. In CVPR, 2016.<br>[29] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model<br>scaling for convolutional neural networks. In ICML, 2019.<br>[30] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco<br>Massa, Alexandre Sablayrolles, and Herve Jegou. Training<br>data-efficient image transformers & distillation through atten-<br>tion. arXiv preprint arXiv:2012.12877, 2020.<br>[31] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-<br>reit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia<br>Polosukhin. Attention is all you need. In NIPS, 2017.<br>[32] J Wang, K Sun, T Cheng, B Jiang, C Deng, Y Zhao, D<br>Liu, Y Mu, M Tan, X Wang, et al. Deep high-resolution<br>representation learning for visual recognition. TPAMI, 2020.<br>[33] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao<br>Song, Ding Liang, Tong Lu, Ping Luo, and Ling Shao. Pyra-<br>mid vision transformer: A versatile backbone for dense pre-<br>diction without convolutions. In ICCV, 2021.<br>[34] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming<br>He. Non-local neural networks. In CVPR, 2018.</p>",
+      "id": 109,
+      "page": 9,
+      "text": "[17] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng\nZhang, Stephen Lin, and Baining Guo. Swin transformer:\nHierarchical vision transformer using shifted windows. In\nICCV, 2021.\n[18] Ilya Loshchilov and Frank Hutter. Decoupled weight decay\nregularization. In ICLR, 2019.\n[19] David G Lowe. Distinctive image features from scale-\ninvariant keypoints. IJCV, 60(2):91-110, 2004.\n[20] Alec Radford, Karthik Narasimhan, Tim Salimans, and Ilya\nSutskever. Improving language understanding by generative\npre-training. 2018.\n[21] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan\nBello, Anselm Levskaya, and Jonathon Shlens. Stand-alone\nself-attention in vision models. In NIPS, 2019.\n[22] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net:\nConvolutional networks for biomedical image segmentation.\nIn MICCAI, 2015.\n[23] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, San-\njeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy,\nAditya Khosla, Michael Bernstein, Alexander C. Berg, and Li\nFei-Fei. ImageNet Large Scale Visual Recognition Challenge.\nIJCV, 115(3):211-252, 2015.\n[24] Peter Shaw, Jakob Uszkoreit, and Ashish Vaswani. Self-\nattention with relative position representations. In NAACL-\nHLT, 2018.\n[25] Zhuoran Shen, Mingyuan Zhang, Haiyu Zhao, Shuai Yi, and\nHongsheng Li. Efficient attention: Attention with linear\ncomplexities. In WACV, pages 3531-3539, 2021.\n[26] Karen Simonyan and Andrew Zisserman. Very deep convolu-\ntional networks for large-scale image recognition. In ICLR,\n2015.\n[27] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,\nScott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent\nVanhoucke, and Andrew Rabinovich. Going deeper with\nconvolutions. In CVPR, 2015.\n[28] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon\nShlens, and Zbigniew Wojna. Rethinking the inception archi-\ntecture for computer vision. In CVPR, 2016.\n[29] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model\nscaling for convolutional neural networks. In ICML, 2019.\n[30] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco\nMassa, Alexandre Sablayrolles, and Herve Jegou. Training\ndata-efficient image transformers & distillation through atten-\ntion. arXiv preprint arXiv:2012.12877, 2020.\n[31] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-\nreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia\nPolosukhin. Attention is all you need. In NIPS, 2017.\n[32] J Wang, K Sun, T Cheng, B Jiang, C Deng, Y Zhao, D\nLiu, Y Mu, M Tan, X Wang, et al. Deep high-resolution\nrepresentation learning for visual recognition. TPAMI, 2020.\n[33] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao\nSong, Ding Liang, Tong Lu, Ping Luo, and Ling Shao. Pyra-\nmid vision transformer: A versatile backbone for dense pre-\ndiction without convolutions. In ICCV, 2021.\n[34] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming\nHe. Non-local neural networks. In CVPR, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 298
+        },
+        {
+          "x": 1205,
+          "y": 298
+        },
+        {
+          "x": 1205,
+          "y": 2094
+        },
+        {
+          "x": 199,
+          "y": 2094
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='110' style='font-size:14px'>[35] Andrew Witkin. Scale-space filtering: A new approach to<br>multi-scale description. In Proc. IEEE Int. Conf. Acoust. Sph.<br>Sig Process., volume 9, pages 150-153, 1984.<br>[36] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and<br>Kaiming He. Aggregated residual transformations for deep<br>neural networks. In CVPR, 2017.<br>[37] Saining Xie, Sainan Liu, Zeyu Chen, and Zhuowen Tu. Atten-<br>tional shapecontextnet for point cloud recognition. In CVPR,<br>2018.<br>[38] Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron<br>Courville, Ruslan Salakhudinov, Rich Zemel, and Yoshua<br>Bengio. Show, attend and tell: Neural image caption genera-<br>tion with visual attention. In ICML, 2015.<br>[39] Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei,<br>and Ming Zhou. Layoutlm: Pre-training of text and layout<br>for document image understanding. In SIGKDD, 2020.<br>[40] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,<br>Francis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-<br>to-token vit: Training vision transformers from scratch on<br>imagenet. In ICCV, 2021.<br>[41] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk<br>Chun, Junsuk Choe, and Youngjoon Yoo. Cutmix: Regu-<br>larization strategy to train strong classifiers with localizable<br>features. In ICCV, 2019.<br>[42] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and David<br>Lopez-Paz. mixup: Beyond empirical risk minimization. In<br>ICLR, 2018.<br>[43] Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun.<br>Shufflenet: An extremely efficient convolutional neural net-<br>work for mobile devices. In CVPR, 2018.<br>[44] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring<br>self-attention for image recognition. In CVPR, 2020.<br>[45] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and<br>Yi Yang. Random erasing data augmentation. In Proc. AAAI<br>Conf. Artificial Intell., pages 13001-13008, 2020.<br>[46] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang,<br>and Jifeng Dai. Deformable detr: Deformable transformers<br>for end-to-end object detection. In ICLR, 2021.</p>",
+      "id": 110,
+      "page": 10,
+      "text": "[35] Andrew Witkin. Scale-space filtering: A new approach to\nmulti-scale description. In Proc. IEEE Int. Conf. Acoust. Sph.\nSig Process., volume 9, pages 150-153, 1984.\n[36] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and\nKaiming He. Aggregated residual transformations for deep\nneural networks. In CVPR, 2017.\n[37] Saining Xie, Sainan Liu, Zeyu Chen, and Zhuowen Tu. Atten-\ntional shapecontextnet for point cloud recognition. In CVPR,\n2018.\n[38] Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho, Aaron\nCourville, Ruslan Salakhudinov, Rich Zemel, and Yoshua\nBengio. Show, attend and tell: Neural image caption genera-\ntion with visual attention. In ICML, 2015.\n[39] Yiheng Xu, Minghao Li, Lei Cui, Shaohan Huang, Furu Wei,\nand Ming Zhou. Layoutlm: Pre-training of text and layout\nfor document image understanding. In SIGKDD, 2020.\n[40] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,\nFrancis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-\nto-token vit: Training vision transformers from scratch on\nimagenet. In ICCV, 2021.\n[41] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk\nChun, Junsuk Choe, and Youngjoon Yoo. Cutmix: Regu-\nlarization strategy to train strong classifiers with localizable\nfeatures. In ICCV, 2019.\n[42] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and David\nLopez-Paz. mixup: Beyond empirical risk minimization. In\nICLR, 2018.\n[43] Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun.\nShufflenet: An extremely efficient convolutional neural net-\nwork for mobile devices. In CVPR, 2018.\n[44] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring\nself-attention for image recognition. In CVPR, 2020.\n[45] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and\nYi Yang. Random erasing data augmentation. In Proc. AAAI\nConf. Artificial Intell., pages 13001-13008, 2020.\n[46] Xizhou Zhu, Weijie Su, Lewei Lu, Bin Li, Xiaogang Wang,\nand Jifeng Dai. Deformable detr: Deformable transformers\nfor end-to-end object detection. In ICLR, 2021."
+    }
+  ]
+}

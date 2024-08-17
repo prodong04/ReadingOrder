@@ -1,0 +1,3206 @@
+{
+    "id": "32a66014-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/nature14236.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 173,
+                    "y": 143
+                },
+                {
+                    "x": 715,
+                    "y": 143
+                },
+                {
+                    "x": 715,
+                    "y": 273
+                },
+                {
+                    "x": 173,
+                    "y": 273
+                }
+            ],
+            "category": "header",
+            "html": "<header id='0' style='font-size:22px'>LETTER</header>",
+            "id": 0,
+            "page": 1,
+            "text": "LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1954,
+                    "y": 266
+                },
+                {
+                    "x": 2330,
+                    "y": 266
+                },
+                {
+                    "x": 2330,
+                    "y": 306
+                },
+                {
+                    "x": 1954,
+                    "y": 306
+                }
+            ],
+            "category": "header",
+            "html": "<br><header id='1' style='font-size:18px'>doi:10.1038/nature14236</header>",
+            "id": 1,
+            "page": 1,
+            "text": "doi:10.1038/nature14236"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 171,
+                    "y": 399
+                },
+                {
+                    "x": 2251,
+                    "y": 399
+                },
+                {
+                    "x": 2251,
+                    "y": 606
+                },
+                {
+                    "x": 171,
+                    "y": 606
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:22px'>Human-level control through deep reinforcement<br>learning</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Human-level control through deep reinforcement learning"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 634
+                },
+                {
+                    "x": 2325,
+                    "y": 634
+                },
+                {
+                    "x": 2325,
+                    "y": 780
+                },
+                {
+                    "x": 170,
+                    "y": 780
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Volodymyr Mnih1*, Koray Kavukcuoglu1*, David Silver1*, Andrei A. Rusu1, Joel Veness1, Marc G. Bellemare1, Alex Graves1,<br>Martin Riedmiller1, Andreas K. Fidjeland1, Georg Ostrovski1, Stig Petersen1, Charles Beattie1, Amir Sadik1, Ioannis Antonoglou1,<br>Helen King1, Dharshan Kumaran1, Daan Wierstra1, Shane Legg1 & Demis Hassabis1</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Volodymyr Mnih1*, Koray Kavukcuoglu1*, David Silver1*, Andrei A. Rusu1, Joel Veness1, Marc G. Bellemare1, Alex Graves1, Martin Riedmiller1, Andreas K. Fidjeland1, Georg Ostrovski1, Stig Petersen1, Charles Beattie1, Amir Sadik1, Ioannis Antonoglou1, Helen King1, Dharshan Kumaran1, Daan Wierstra1, Shane Legg1 & Demis Hassabis1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 168,
+                    "y": 864
+                },
+                {
+                    "x": 1233,
+                    "y": 864
+                },
+                {
+                    "x": 1233,
+                    "y": 2190
+                },
+                {
+                    "x": 168,
+                    "y": 2190
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>The theory ofreinforcement learning provides a normative account1,<br>deeply rooted in psychological2 and neuroscientific3 perspectives on<br>animal behaviour, of how agents may optimize their control of an<br>environment. To use reinforcement learning successfully in situations<br>approaching real-world complexity, however, agents are confronted<br>with a difficult task: they must derive efficient representations ofthe<br>environment from high-dimensional sensory inputs, and use these<br>to generalize past experience to new situations. Remarkably, humans<br>and other animals seem to solve this problem through a harmonious<br>combination ofreinforcement learning and hierarchical sensory pro-<br>cessing systems4,5, the former evidenced by a wealth of neural data<br>revealing notable parallels between the phasic signals emitted by dopa-<br>minergic neurons and temporal difference reinforcement learning<br>algorithms3. While reinforcement learning agents have achieved some<br>successes in a variety of domains6-8, their applicability has previously<br>been limited to domains in which useful features can be handcrafted,<br>or to domains with fully observed, low-dimensional state spaces.<br>Here we use recent advances in training deep neural networks9-11 to<br>develop a novel artificial agent, termed a deep Q-network, that can<br>learn successful policies directly from high-dimensional sensory inputs<br>using end-to-end reinforcement learning. We tested this agent on<br>the challenging domain of classic Atari 2600 games12. We demon-<br>strate that the deep Q-network agent, receiving only the pixels and<br>the game score as inputs, was able to surpass the performance of all<br>previous algorithms and achieve a level comparable to that of a pro-<br>fessional human games tester across a set of 49 games, using the same<br>algorithm, network architecture and hyperparameters. This work<br>bridges the divide between high-dimensional sensory inputs and<br>actions, resulting in the first artificial agent that is capable oflearn-<br>ing to excel at a diverse array of challenging tasks.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "The theory ofreinforcement learning provides a normative account1, deeply rooted in psychological2 and neuroscientific3 perspectives on animal behaviour, of how agents may optimize their control of an environment. To use reinforcement learning successfully in situations approaching real-world complexity, however, agents are confronted with a difficult task: they must derive efficient representations ofthe environment from high-dimensional sensory inputs, and use these to generalize past experience to new situations. Remarkably, humans and other animals seem to solve this problem through a harmonious combination ofreinforcement learning and hierarchical sensory processing systems4,5, the former evidenced by a wealth of neural data revealing notable parallels between the phasic signals emitted by dopaminergic neurons and temporal difference reinforcement learning algorithms3. While reinforcement learning agents have achieved some successes in a variety of domains6-8, their applicability has previously been limited to domains in which useful features can be handcrafted, or to domains with fully observed, low-dimensional state spaces. Here we use recent advances in training deep neural networks9-11 to develop a novel artificial agent, termed a deep Q-network, that can learn successful policies directly from high-dimensional sensory inputs using end-to-end reinforcement learning. We tested this agent on the challenging domain of classic Atari 2600 games12. We demonstrate that the deep Q-network agent, receiving only the pixels and the game score as inputs, was able to surpass the performance of all previous algorithms and achieve a level comparable to that of a professional human games tester across a set of 49 games, using the same algorithm, network architecture and hyperparameters. This work bridges the divide between high-dimensional sensory inputs and actions, resulting in the first artificial agent that is capable oflearning to excel at a diverse array of challenging tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 168,
+                    "y": 2192
+                },
+                {
+                    "x": 1233,
+                    "y": 2192
+                },
+                {
+                    "x": 1233,
+                    "y": 2937
+                },
+                {
+                    "x": 168,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:18px'>We set out to create a single algorithm that would be able to develop<br>a wide range of competencies on a varied range of challenging tasks-a<br>central goal of general artificial intelligence13 that has eluded previous<br>efforts8,14,15 To achieve this, we developed a novel agent, a deep Q-network<br>(DQN), which is able to combine reinforcement learning with a class<br>ofartificial neural network16 known as deep neural networks. Notably,<br>recent advances in deep neural networks9-11, , in which several layers of<br>nodes are used to build up progressively more abstract representations<br>ofthe data, have made it possible for artificial neural networks to learn<br>concepts such as object categories directly from raw sensory data. We<br>use one particularly successful architecture, the deep convolutional<br>network17, which uses hierarchical layers of tiled convolutional filters<br>to mimic the effects ofreceptive fields-inspired by Hubel and Wiesel's<br>seminal work on feedforward processing in early visual cortex18 -thereby<br>exploiting the local spatial correlations presentin images, and building<br>in robustness to natural transformations such as changes of viewpoint<br>or scale.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "We set out to create a single algorithm that would be able to develop a wide range of competencies on a varied range of challenging tasks-a central goal of general artificial intelligence13 that has eluded previous efforts8,14,15 To achieve this, we developed a novel agent, a deep Q-network (DQN), which is able to combine reinforcement learning with a class ofartificial neural network16 known as deep neural networks. Notably, recent advances in deep neural networks9-11, , in which several layers of nodes are used to build up progressively more abstract representations ofthe data, have made it possible for artificial neural networks to learn concepts such as object categories directly from raw sensory data. We use one particularly successful architecture, the deep convolutional network17, which uses hierarchical layers of tiled convolutional filters to mimic the effects ofreceptive fields-inspired by Hubel and Wiesel's seminal work on feedforward processing in early visual cortex18 -thereby exploiting the local spatial correlations presentin images, and building in robustness to natural transformations such as changes of viewpoint or scale."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 870
+                },
+                {
+                    "x": 2334,
+                    "y": 870
+                },
+                {
+                    "x": 2334,
+                    "y": 1005
+                },
+                {
+                    "x": 1269,
+                    "y": 1005
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:16px'>agent is to select actions in a fashion that maximizes cumulative future<br>reward. More formally, we use a deep convolutional neural network to<br>approximate the optimal action-value function</p>",
+            "id": 6,
+            "page": 1,
+            "text": "agent is to select actions in a fashion that maximizes cumulative future reward. More formally, we use a deep convolutional neural network to approximate the optimal action-value function"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 1104
+                },
+                {
+                    "x": 2333,
+                    "y": 1104
+                },
+                {
+                    "x": 2333,
+                    "y": 1235
+                },
+                {
+                    "x": 1269,
+                    "y": 1235
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:18px'>which is the maximum sum ofrewards rt discounted by Y at each time-<br>step t, achievable by a behaviour policy � = P(a|s), after making an<br>observation (s) and taking an action (a) (see Methods)19.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "which is the maximum sum ofrewards rt discounted by Y at each timestep t, achievable by a behaviour policy � = P(a|s), after making an observation (s) and taking an action (a) (see Methods)19."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 1234
+                },
+                {
+                    "x": 2334,
+                    "y": 1234
+                },
+                {
+                    "x": 2334,
+                    "y": 1900
+                },
+                {
+                    "x": 1267,
+                    "y": 1900
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:18px'>Reinforcement learning is known to be unstable or even to diverge<br>when a nonlinear function approximator such as a neural network is<br>used to represent the action-value (also known as 2) function20. This<br>instability has several causes: the correlations present in the sequence<br>ofobservations, the fact that small updates to Q may significantly change<br>the policy and therefore change the data distribution, and the correlations<br>between the action-values (2) and the target values r + 2 max Q(s', a').<br>a<br>W e address these instabilities with a novel variant of Q-learning, which<br>uses two key ideas. First, we used a biologically inspired mechanism<br>termed experience replay21-23 that randomizes over the data, thereby<br>removing correlations in the observation sequence and smoothing over<br>changes in the data distribution (see below for details). Second, we used<br>an iterative update that adjusts the action-values (2) towards target<br>values thatare only periodically updated, thereby reducing correlations<br>with the target.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Reinforcement learning is known to be unstable or even to diverge when a nonlinear function approximator such as a neural network is used to represent the action-value (also known as 2) function20. This instability has several causes: the correlations present in the sequence ofobservations, the fact that small updates to Q may significantly change the policy and therefore change the data distribution, and the correlations between the action-values (2) and the target values r + 2 max Q(s', a'). a W e address these instabilities with a novel variant of Q-learning, which uses two key ideas. First, we used a biologically inspired mechanism termed experience replay21-23 that randomizes over the data, thereby removing correlations in the observation sequence and smoothing over changes in the data distribution (see below for details). Second, we used an iterative update that adjusts the action-values (2) towards target values thatare only periodically updated, thereby reducing correlations with the target."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 1900
+                },
+                {
+                    "x": 2333,
+                    "y": 1900
+                },
+                {
+                    "x": 2333,
+                    "y": 2515
+                },
+                {
+                    "x": 1267,
+                    "y": 2515
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:18px'>While other stable methods exist for training neural networks in the<br>reinforcement learning setting, such as neural fitted Q-iteration24, these<br>methods involve the repeated training ofnetworks de novo on hundreds<br>of iterations. Consequently, these methods, unlike our algorithm, are<br>too inefficient to be used successfully with large neural networks. We<br>parameterize an approximate value function Q(s,a;0i) using the deep<br>convolutional neural network shown in Fig. 1,in which 0i are the param-<br>eters (that is, weights) of the Q-network at iteration i. To perform<br>experience replay we store the agent's experiences et = (sbabrbst + 1)<br>at each time-step t in a data set Dt = {e1,...,et}. During learning, we<br>apply Q-learning updates, on samples (or minibatches) of experience<br>(s,a,r,s') ~ U(D), drawn uniformly at random from the pool of stored<br>samples. The Q-learning update at iteration i uses the following loss<br>function:</p>",
+            "id": 9,
+            "page": 1,
+            "text": "While other stable methods exist for training neural networks in the reinforcement learning setting, such as neural fitted Q-iteration24, these methods involve the repeated training ofnetworks de novo on hundreds of iterations. Consequently, these methods, unlike our algorithm, are too inefficient to be used successfully with large neural networks. We parameterize an approximate value function Q(s,a;0i) using the deep convolutional neural network shown in Fig. 1,in which 0i are the parameters (that is, weights) of the Q-network at iteration i. To perform experience replay we store the agent's experiences et = (sbabrbst + 1) at each time-step t in a data set Dt = {e1,...,et}. During learning, we apply Q-learning updates, on samples (or minibatches) of experience (s,a,r,s') ~ U(D), drawn uniformly at random from the pool of stored samples. The Q-learning update at iteration i uses the following loss function:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1268,
+                    "y": 2671
+                },
+                {
+                    "x": 2333,
+                    "y": 2671
+                },
+                {
+                    "x": 2333,
+                    "y": 2935
+                },
+                {
+                    "x": 1268,
+                    "y": 2935
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:18px'>in which yis the discount factor determining the agent' s horizon, 0i are<br>the parameters of the Q-network at iteration i and 0- are the network<br>parameters used to compute the target at iteration i. The target net-<br>work parameters 0i are only updated with the Q-network parameters<br>(0i) every C steps and are held fixed between individual updates (see<br>Methods).</p>",
+            "id": 10,
+            "page": 1,
+            "text": "in which yis the discount factor determining the agent' s horizon, 0i are the parameters of the Q-network at iteration i and 0- are the network parameters used to compute the target at iteration i. The target network parameters 0i are only updated with the Q-network parameters (0i) every C steps and are held fixed between individual updates (see Methods)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 2938
+                },
+                {
+                    "x": 1236,
+                    "y": 2938
+                },
+                {
+                    "x": 1236,
+                    "y": 3028
+                },
+                {
+                    "x": 170,
+                    "y": 3028
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:18px'>We consider tasks in which the agent interacts with an environment<br>through a sequence of observations, actions and rewards. The goal ofthe</p>",
+            "id": 11,
+            "page": 1,
+            "text": "We consider tasks in which the agent interacts with an environment through a sequence of observations, actions and rewards. The goal ofthe"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 2939
+                },
+                {
+                    "x": 2333,
+                    "y": 2939
+                },
+                {
+                    "x": 2333,
+                    "y": 3028
+                },
+                {
+                    "x": 1269,
+                    "y": 3028
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:18px'>To evaluate our DQN agent, we took advantage of the Atari 2600<br>platform, which offers a diverse array of tasks (n = 49) designed to be</p>",
+            "id": 12,
+            "page": 1,
+            "text": "To evaluate our DQN agent, we took advantage of the Atari 2600 platform, which offers a diverse array of tasks (n = 49) designed to be"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 172,
+                    "y": 3055
+                },
+                {
+                    "x": 880,
+                    "y": 3055
+                },
+                {
+                    "x": 880,
+                    "y": 3126
+                },
+                {
+                    "x": 172,
+                    "y": 3126
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='13' style='font-size:14px'>1Google DeepMind, 5 New Street Square, London EC4A 3TW, UK.<br>*These authors contributed equally to this work.</footer>",
+            "id": 13,
+            "page": 1,
+            "text": "1Google DeepMind, 5 New Street Square, London EC4A 3TW, UK. *These authors contributed equally to this work."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 815,
+                    "y": 3208
+                },
+                {
+                    "x": 1602,
+                    "y": 3208
+                },
+                {
+                    "x": 1602,
+                    "y": 3244
+                },
+                {
+                    "x": 815,
+                    "y": 3244
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='14' style='font-size:14px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 14,
+            "page": 1,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1536,
+                    "y": 3167
+                },
+                {
+                    "x": 2333,
+                    "y": 3167
+                },
+                {
+                    "x": 2333,
+                    "y": 3201
+                },
+                {
+                    "x": 1536,
+                    "y": 3201
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='15' style='font-size:14px'>2 6 F E B R U A R Y 2 0 1 5 I V 0 L 5 1 8 I N A T U R E I 5 2 9</footer>",
+            "id": 15,
+            "page": 1,
+            "text": "2 6 F E B R U A R Y 2 0 1 5 I V 0 L 5 1 8 I N A T U R E I 5 2 9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 162,
+                    "y": 97
+                },
+                {
+                    "x": 504,
+                    "y": 97
+                },
+                {
+                    "x": 504,
+                    "y": 154
+                },
+                {
+                    "x": 162,
+                    "y": 154
+                }
+            ],
+            "category": "header",
+            "html": "<header id='16' style='font-size:22px'>RESEARCH LETTER</header>",
+            "id": 16,
+            "page": 2,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 454,
+                    "y": 229
+                },
+                {
+                    "x": 2009,
+                    "y": 229
+                },
+                {
+                    "x": 2009,
+                    "y": 1129
+                },
+                {
+                    "x": 454,
+                    "y": 1129
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='17' style='font-size:16px' alt=\"Convolution Convolution Fully connected Fully connected\nNo input\nBREGBES →\n↗\n↘\n□□□□□□□ ↙\n↓\n←\n□□□□□□□\n↖\n●\n↑+\nO ------- ↗ +\n→+\n↘ +\n□ □□□□□□□ ↓+\n↙ +\n←+\n↖ +\" data-coord=\"top-left:(454,229); bottom-right:(2009,1129)\" /></figure>",
+            "id": 17,
+            "page": 2,
+            "text": "Convolution Convolution Fully connected Fully connected No input BREGBES → ↗ ↘ □□□□□□□ ↙ ↓ ← □□□□□□□ ↖ ● ↑+ O ------- ↗ + →+ ↘ + □ □□□□□□□ ↓+ ↙ + ←+ ↖ +"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 1159
+                },
+                {
+                    "x": 1209,
+                    "y": 1159
+                },
+                {
+                    "x": 1209,
+                    "y": 1321
+                },
+                {
+                    "x": 147,
+                    "y": 1321
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='18' style='font-size:16px'>Figure 1 I Schematic illustration of the convolutional neural network. The<br>details of the architecture are explained in the Methods. The input to the neural<br>network consists of an 84 x 84 x 4 image produced by the preprocessing<br>map ⌀, followed by three convolutional layers (note: snaking blue line</caption>",
+            "id": 18,
+            "page": 2,
+            "text": "Figure 1 I Schematic illustration of the convolutional neural network. The details of the architecture are explained in the Methods. The input to the neural network consists of an 84 x 84 x 4 image produced by the preprocessing map ⌀, followed by three convolutional layers (note: snaking blue line"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 146,
+                    "y": 1349
+                },
+                {
+                    "x": 1213,
+                    "y": 1349
+                },
+                {
+                    "x": 1213,
+                    "y": 1930
+                },
+                {
+                    "x": 146,
+                    "y": 1930
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:20px'>difficult and engaging for human players. We used the same network<br>architecture, hyperparameter values (see Extended Data Table 1) and<br>learningprocedure throughout-taking high-dimensional data (210 x 160<br>colour video at 60 Hz) as input-to demonstrate that our approach<br>robustly learns successful policies over a variety of games based solely<br>on sensory inputs with only very minimal prior knowledge (thatis, merely<br>the input data were visual images, and the number of actions available<br>in each game, but not their correspondences; see Methods). Notably,<br>our method was able to train large neural networks using a reinforce-<br>ment learning signal and stochastic gradient descentin a stable manner-<br>illustrated by the temporal evolution of two indices of learning (the<br>agent's average score-per-episode and average predicted Q-values; see<br>Fig. 2 and Supplementary Discussion for details).</p>",
+            "id": 19,
+            "page": 2,
+            "text": "difficult and engaging for human players. We used the same network architecture, hyperparameter values (see Extended Data Table 1) and learningprocedure throughout-taking high-dimensional data (210 x 160 colour video at 60 Hz) as input-to demonstrate that our approach robustly learns successful policies over a variety of games based solely on sensory inputs with only very minimal prior knowledge (thatis, merely the input data were visual images, and the number of actions available in each game, but not their correspondences; see Methods). Notably, our method was able to train large neural networks using a reinforcement learning signal and stochastic gradient descentin a stable mannerillustrated by the temporal evolution of two indices of learning (the agent's average score-per-episode and average predicted Q-values; see Fig. 2 and Supplementary Discussion for details)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1246,
+                    "y": 1163
+                },
+                {
+                    "x": 2304,
+                    "y": 1163
+                },
+                {
+                    "x": 2304,
+                    "y": 1281
+                },
+                {
+                    "x": 1246,
+                    "y": 1281
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='20' style='font-size:18px'>symbolizes sliding of each filter across input image) and two fully connected<br>layers with a single output for each valid action. Each hidden layer is followed<br>by a rectifier nonlinearity (that is, max(0,x)).</caption>",
+            "id": 20,
+            "page": 2,
+            "text": "symbolizes sliding of each filter across input image) and two fully connected layers with a single output for each valid action. Each hidden layer is followed by a rectifier nonlinearity (that is, max(0,x))."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1246,
+                    "y": 1349
+                },
+                {
+                    "x": 2311,
+                    "y": 1349
+                },
+                {
+                    "x": 2311,
+                    "y": 1931
+                },
+                {
+                    "x": 1246,
+                    "y": 1931
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:20px'>We compared DQN with the best performing methods from the<br>reinforcement learning literature on the 49 games where results were<br>available12.15 In addition to the learned agents, we also report scores for<br>a professional human games tester playingunder controlled conditions<br>and a policy that selects actions uniformly at random (Extended Data<br>Table 2 and Fig. 3, denoted by 100% (human) and 0% (random) on y<br>axis; see Methods). Our DQN method outperforms the best existing<br>reinforcement learning methods on 43 of the games without incorpo-<br>rating any of the additional prior knowledge about Atari 2600 games<br>used by other approaches (for example, refs 12, 15). Furthermore, our<br>DQN agent performed at a level that was comparable to that of a pro-<br>fessional human games tester across the set of49 games, achieving more<br>than 75% ofthe human score on more than half ofthe games (29 games;</p>",
+            "id": 21,
+            "page": 2,
+            "text": "We compared DQN with the best performing methods from the reinforcement learning literature on the 49 games where results were available12.15 In addition to the learned agents, we also report scores for a professional human games tester playingunder controlled conditions and a policy that selects actions uniformly at random (Extended Data Table 2 and Fig. 3, denoted by 100% (human) and 0% (random) on y axis; see Methods). Our DQN method outperforms the best existing reinforcement learning methods on 43 of the games without incorporating any of the additional prior knowledge about Atari 2600 games used by other approaches (for example, refs 12, 15). Furthermore, our DQN agent performed at a level that was comparable to that of a professional human games tester across the set of49 games, achieving more than 75% ofthe human score on more than half ofthe games (29 games;"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 544,
+                    "y": 1945
+                },
+                {
+                    "x": 1918,
+                    "y": 1945
+                },
+                {
+                    "x": 1918,
+                    "y": 2922
+                },
+                {
+                    "x": 544,
+                    "y": 2922
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='22' style='font-size:14px' alt=\"b 6,000\n2,200\n2,000\nepisode\nepisode\n1,800 5,000\n1,600\n4,000\nper\n1,400\n1,200 per\nscore\n3,000\n1,000\n800 score\nAverage\n600\n400 1,000\n200 Average 2,000\n0 0\n0 20 40 60 80 100 120 140 160 180 200 0 20 40 60 80 100 120 140 160 180 200\nTraining epochs Training epochs\nc 10 d 11\n9 10\n(○) � 9\n8\nvalue\nvalue\n8\n7\n7\n6\naction\n6\n5\n5\n4 action\nAverage\n4\n3\n3\n2\n2\n1 Average\n1\n0 0\n0 20 40 60 80 100 120 140 160 180 200 0 20 40 60 80 100 120 140 160 180 200\nTraining epochs Training epochs\" data-coord=\"top-left:(544,1945); bottom-right:(1918,2922)\" /></figure>",
+            "id": 22,
+            "page": 2,
+            "text": "b 6,000 2,200 2,000 episode episode 1,800 5,000 1,600 4,000 per 1,400 1,200 per score 3,000 1,000 800 score Average 600 400 1,000 200 Average 2,000 0 0 0 20 40 60 80 100 120 140 160 180 200 0 20 40 60 80 100 120 140 160 180 200 Training epochs Training epochs c 10 d 11 9 10 (○) � 9 8 value value 8 7 7 6 action 6 5 5 4 action Average 4 3 3 2 2 1 Average 1 0 0 0 20 40 60 80 100 120 140 160 180 200 0 20 40 60 80 100 120 140 160 180 200 Training epochs Training epochs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 146,
+                    "y": 2929
+                },
+                {
+                    "x": 1210,
+                    "y": 2929
+                },
+                {
+                    "x": 1210,
+                    "y": 3131
+                },
+                {
+                    "x": 146,
+                    "y": 3131
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='23' style='font-size:16px'>Figure 2 Training curves tracking the agent's average score and average<br>predicted action-value. a, Each pointis the average score achieved per episode<br>after the agent is run with E-greedy policy (8 = 0.05) for 520 k frames on Space<br>Invaders. b, Average score achieved per episode for Seaquest. c, Average<br>predicted action-value on a held-out set of states on Space Invaders. Each point</caption>",
+            "id": 23,
+            "page": 2,
+            "text": "Figure 2 Training curves tracking the agent's average score and average predicted action-value. a, Each pointis the average score achieved per episode after the agent is run with E-greedy policy (8 = 0.05) for 520 k frames on Space Invaders. b, Average score achieved per episode for Seaquest. c, Average predicted action-value on a held-out set of states on Space Invaders. Each point"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1244,
+                    "y": 2930
+                },
+                {
+                    "x": 2305,
+                    "y": 2930
+                },
+                {
+                    "x": 2305,
+                    "y": 3087
+                },
+                {
+                    "x": 1244,
+                    "y": 3087
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='24' style='font-size:16px'>on the curve is the average of the action-value Q computed over the held-out<br>set of states. Note that Q-values are scaled due to clipping of rewards (see<br>Methods). d, Average predicted action-value on Seaquest. See Supplementary<br>Discussion for details.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "on the curve is the average of the action-value Q computed over the held-out set of states. Note that Q-values are scaled due to clipping of rewards (see Methods). d, Average predicted action-value on Seaquest. See Supplementary Discussion for details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 142,
+                    "y": 3166
+                },
+                {
+                    "x": 1601,
+                    "y": 3166
+                },
+                {
+                    "x": 1601,
+                    "y": 3246
+                },
+                {
+                    "x": 142,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='25' style='font-size:14px'>5 3 0 I N A T U R E I v 0 L 5 1 8 I 2 6 F E B R U A R Y 2 0 1 5<br>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 25,
+            "page": 2,
+            "text": "5 3 0 I N A T U R E I v 0 L 5 1 8 I 2 6 F E B R U A R Y 2 0 1 5 Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1977,
+                    "y": 100
+                },
+                {
+                    "x": 2314,
+                    "y": 100
+                },
+                {
+                    "x": 2314,
+                    "y": 152
+                },
+                {
+                    "x": 1977,
+                    "y": 152
+                }
+            ],
+            "category": "header",
+            "html": "<header id='26' style='font-size:22px'>LETTER RESEARCH</header>",
+            "id": 26,
+            "page": 3,
+            "text": "LETTER RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 222
+                },
+                {
+                    "x": 1991,
+                    "y": 222
+                },
+                {
+                    "x": 1991,
+                    "y": 2140
+                },
+                {
+                    "x": 509,
+                    "y": 2140
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='27' style='font-size:14px' alt=\"Video Pinball 2539%\nBoxing 1707%\nBreakout 1327%\nStar Gunner 598%\nRobotank 508%\nAtlantis 449%\nCrazy Climber 419%\nGopher 400%\nDemon Attack 294%\nName This Game 278%\nKrull 277%\nAssault 246%\nRoad Runner 232%\nKangaroo 224%\nJames Bond 145%\nTennis 143%\nPong 132%\nSpace Invaders 121%\nBeam Rider 119%\nTutankham 112%\nKung-Fu Master 102%\nFreeway 102%\nTime Pilot 100%\nEnduro 97%\nFishing Derby 93%\nUp and Down 92%\nIce Hockey 79%\nQ*bert 78%\nH.E.R.O. 76% At human-level or above\nAsterix 69% Below human-level\nBattle Zone 67%\nWizard of Wor 67%\nChopper Command 64%\nCentipede 62%\nBank Heist 57%\nRiver Raid 57% 1\nZaxxon 54%\nAmidar 43%\nAlien 42%\nVenture 32%\nSeaquest +25%\nDouble Dunk 17%\nBowling -14%\nMs. Pac-Man + 13%\nAsteroids + 7%\nFrostbite 1 6%\nGravitar +5% DQN\nPrivate Eye +2%\nBest linear learner\nMontezuma's Revenge 0%\n0 100 200 300 400 500 600 1,000 4,500%\" data-coord=\"top-left:(509,222); bottom-right:(1991,2140)\" /></figure>",
+            "id": 27,
+            "page": 3,
+            "text": "Video Pinball 2539% Boxing 1707% Breakout 1327% Star Gunner 598% Robotank 508% Atlantis 449% Crazy Climber 419% Gopher 400% Demon Attack 294% Name This Game 278% Krull 277% Assault 246% Road Runner 232% Kangaroo 224% James Bond 145% Tennis 143% Pong 132% Space Invaders 121% Beam Rider 119% Tutankham 112% Kung-Fu Master 102% Freeway 102% Time Pilot 100% Enduro 97% Fishing Derby 93% Up and Down 92% Ice Hockey 79% Q*bert 78% H.E.R.O. 76% At human-level or above Asterix 69% Below human-level Battle Zone 67% Wizard of Wor 67% Chopper Command 64% Centipede 62% Bank Heist 57% River Raid 57% 1 Zaxxon 54% Amidar 43% Alien 42% Venture 32% Seaquest +25% Double Dunk 17% Bowling -14% Ms. Pac-Man + 13% Asteroids + 7% Frostbite 1 6% Gravitar +5% DQN Private Eye +2% Best linear learner Montezuma's Revenge 0% 0 100 200 300 400 500 600 1,000 4,500%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 2152
+                },
+                {
+                    "x": 1231,
+                    "y": 2152
+                },
+                {
+                    "x": 1231,
+                    "y": 2399
+                },
+                {
+                    "x": 170,
+                    "y": 2399
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='28' style='font-size:18px'>Figure 3 I Comparison of the DQN agent with the best reinforcement<br>learning methods15 in the literature. The performance ofDQN is normalized<br>with respect to a professional human games tester (that is, 100% level) and<br>random play (thatis, 0% level). Note that the normalized performance ofDQN,<br>expressed as a percentage, is calculated as: 100 x (DQN score - random play<br>score)/(human score - random play score). It can be seen that DQN</caption>",
+            "id": 28,
+            "page": 3,
+            "text": "Figure 3 I Comparison of the DQN agent with the best reinforcement learning methods15 in the literature. The performance ofDQN is normalized with respect to a professional human games tester (that is, 100% level) and random play (thatis, 0% level). Note that the normalized performance ofDQN, expressed as a percentage, is calculated as: 100 x (DQN score - random play score)/(human score - random play score). It can be seen that DQN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 171,
+                    "y": 2464
+                },
+                {
+                    "x": 1233,
+                    "y": 2464
+                },
+                {
+                    "x": 1233,
+                    "y": 2729
+                },
+                {
+                    "x": 171,
+                    "y": 2729
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:20px'>see Fig. 3, Supplementary Discussion and Extended Data Table 2). In<br>additional simulations (see Supplementary Discussion and Extended<br>Data Tables 3 and 4), we demonstrate the importance of the individual<br>core components ofthe DQN agent-the replay memory, separate target<br>Q-network and deep convolutional network architecture-by disabling<br>them and demonstrating the detrimental effects on performance.</p>",
+            "id": 29,
+            "page": 3,
+            "text": "see Fig. 3, Supplementary Discussion and Extended Data Table 2). In additional simulations (see Supplementary Discussion and Extended Data Tables 3 and 4), we demonstrate the importance of the individual core components ofthe DQN agent-the replay memory, separate target Q-network and deep convolutional network architecture-by disabling them and demonstrating the detrimental effects on performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 171,
+                    "y": 2730
+                },
+                {
+                    "x": 1234,
+                    "y": 2730
+                },
+                {
+                    "x": 1234,
+                    "y": 3130
+                },
+                {
+                    "x": 171,
+                    "y": 3130
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:18px'>W e next examined the representations learned by DQN that under-<br>pinned the successful performance ofthe agentin the context ofthe game<br>Space Invaders (see Supplementary Video 1 for a demonstration ofthe<br>performance of DQN), by using a technique developed for the visual-<br>ization ofhigh-dimensional data called 't-SNE'25 (Fig. 4). As expected,<br>the t-SNE algorithm tends to map the DQN representation of percep-<br>tually similar states to nearby points. Interestingly, we also found instances<br>in which the t-SNE algorithm generated similar embeddings for DQN<br>representations of states that are close in terms of expected reward but</p>",
+            "id": 30,
+            "page": 3,
+            "text": "W e next examined the representations learned by DQN that underpinned the successful performance ofthe agentin the context ofthe game Space Invaders (see Supplementary Video 1 for a demonstration ofthe performance of DQN), by using a technique developed for the visualization ofhigh-dimensional data called 't-SNE'25 (Fig. 4). As expected, the t-SNE algorithm tends to map the DQN representation of perceptually similar states to nearby points. Interestingly, we also found instances in which the t-SNE algorithm generated similar embeddings for DQN representations of states that are close in terms of expected reward but"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 2158
+                },
+                {
+                    "x": 2332,
+                    "y": 2158
+                },
+                {
+                    "x": 2332,
+                    "y": 2398
+                },
+                {
+                    "x": 1269,
+                    "y": 2398
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:18px'>outperforms competing methods (also see Extended Data Table 2) in almost all<br>the games, and performs at a level that is broadly comparable with or superior<br>to a professional human games tester (that is, operationalized as a level of<br>75% or above) in the majority of games. Audio output was disabled for both<br>human players and agents. Error bars indicate s.d. across the 30 evaluation<br>episodes, starting with different initial conditions.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "outperforms competing methods (also see Extended Data Table 2) in almost all the games, and performs at a level that is broadly comparable with or superior to a professional human games tester (that is, operationalized as a level of 75% or above) in the majority of games. Audio output was disabled for both human players and agents. Error bars indicate s.d. across the 30 evaluation episodes, starting with different initial conditions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 2460
+                },
+                {
+                    "x": 2334,
+                    "y": 2460
+                },
+                {
+                    "x": 2334,
+                    "y": 2994
+                },
+                {
+                    "x": 1267,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:18px'>perceptually dissimilar (Fig. 4, bottom right, top left and middle), con-<br>sistent with the notion that the networkis able to learn representations<br>that support adaptive behaviour from high-dimensional sensory inputs.<br>Furthermore, we also show that the representations learned by DQN<br>are able to generalize to data generated from policies other than its<br>own-in simulations where we presented as input to the network game<br>states experienced during human and agent play, recorded the repre-<br>sentations of the last hidden layer, and visualized the embeddings gen-<br>erated by the t-SNE algorithm (Extended Data Fig. 1 and Supplementary<br>Discussion). Extended Data Fig. 2 provides an additional illustration of<br>how the representations learned by DQN allow it to accurately predict<br>state and action values.</p>",
+            "id": 32,
+            "page": 3,
+            "text": "perceptually dissimilar (Fig. 4, bottom right, top left and middle), consistent with the notion that the networkis able to learn representations that support adaptive behaviour from high-dimensional sensory inputs. Furthermore, we also show that the representations learned by DQN are able to generalize to data generated from policies other than its own-in simulations where we presented as input to the network game states experienced during human and agent play, recorded the representations of the last hidden layer, and visualized the embeddings generated by the t-SNE algorithm (Extended Data Fig. 1 and Supplementary Discussion). Extended Data Fig. 2 provides an additional illustration of how the representations learned by DQN allow it to accurately predict state and action values."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 2998
+                },
+                {
+                    "x": 2331,
+                    "y": 2998
+                },
+                {
+                    "x": 2331,
+                    "y": 3132
+                },
+                {
+                    "x": 1269,
+                    "y": 3132
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:20px'>Itis worth noting that the games in which DQN excels are extremely<br>varied in their nature, from side-scrolling shooters (River Raid) to box-<br>ing games (Boxing) and three-dimensional car-racing games (Enduro).</p>",
+            "id": 33,
+            "page": 3,
+            "text": "Itis worth noting that the games in which DQN excels are extremely varied in their nature, from side-scrolling shooters (River Raid) to boxing games (Boxing) and three-dimensional car-racing games (Enduro)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1534,
+                    "y": 3174
+                },
+                {
+                    "x": 1555,
+                    "y": 3174
+                },
+                {
+                    "x": 1555,
+                    "y": 3198
+                },
+                {
+                    "x": 1534,
+                    "y": 3198
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:14px'>2</p>",
+            "id": 34,
+            "page": 3,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1548,
+                    "y": 3170
+                },
+                {
+                    "x": 2329,
+                    "y": 3170
+                },
+                {
+                    "x": 2329,
+                    "y": 3201
+                },
+                {
+                    "x": 1548,
+                    "y": 3201
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='35' style='font-size:14px'>6 F E B R U A R Y 2 0 1 5 I v 0 L 5 1 8 I N A T U R E I 5 3 1</footer>",
+            "id": 35,
+            "page": 3,
+            "text": "6 F E B R U A R Y 2 0 1 5 I v 0 L 5 1 8 I N A T U R E I 5 3 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3209
+                },
+                {
+                    "x": 1604,
+                    "y": 3209
+                },
+                {
+                    "x": 1604,
+                    "y": 3246
+                },
+                {
+                    "x": 814,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='36' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 36,
+            "page": 3,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 162,
+                    "y": 97
+                },
+                {
+                    "x": 504,
+                    "y": 97
+                },
+                {
+                    "x": 504,
+                    "y": 152
+                },
+                {
+                    "x": 162,
+                    "y": 152
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:22px'>RESEARCH LETTER</p>",
+            "id": 37,
+            "page": 4,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 477,
+                    "y": 238
+                },
+                {
+                    "x": 1973,
+                    "y": 238
+                },
+                {
+                    "x": 1973,
+                    "y": 1568
+                },
+                {
+                    "x": 477,
+                    "y": 1568
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='38' style='font-size:14px' alt=\"V\n0520 000\n480 0000 1280 0000\n1275 Good\n2520 nnt\n126 ona\nA\" data-coord=\"top-left:(477,238); bottom-right:(1973,1568)\" /></figure>",
+            "id": 38,
+            "page": 4,
+            "text": "V 0520 000 480 0000 1280 0000 1275 Good 2520 nnt 126 ona A"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 1599
+                },
+                {
+                    "x": 1211,
+                    "y": 1599
+                },
+                {
+                    "x": 1211,
+                    "y": 1959
+                },
+                {
+                    "x": 147,
+                    "y": 1959
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>Figure 4 I Two-dimensional t-SNE embedding of the representations in the<br>last hidden layer assigned by DQN to game states experienced while playing<br>Space Invaders. The plot was generated by letting the DQN agent play for<br>2h ofreal game time and running the t-SNE algorithm25 on the last hidden layer<br>representations assigned by DQN to each experienced game state. The<br>points are coloured according to the state values (V, maximum expected reward<br>of a state) predicted by DQN for the corresponding game states (ranging<br>from dark red (highest V) to dark blue (lowest V)). The screenshots<br>corresponding to a selected number of points are shown. The DQN agent</p>",
+            "id": 39,
+            "page": 4,
+            "text": "Figure 4 I Two-dimensional t-SNE embedding of the representations in the last hidden layer assigned by DQN to game states experienced while playing Space Invaders. The plot was generated by letting the DQN agent play for 2h ofreal game time and running the t-SNE algorithm25 on the last hidden layer representations assigned by DQN to each experienced game state. The points are coloured according to the state values (V, maximum expected reward of a state) predicted by DQN for the corresponding game states (ranging from dark red (highest V) to dark blue (lowest V)). The screenshots corresponding to a selected number of points are shown. The DQN agent"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 2020
+                },
+                {
+                    "x": 1209,
+                    "y": 2020
+                },
+                {
+                    "x": 1209,
+                    "y": 2418
+                },
+                {
+                    "x": 147,
+                    "y": 2418
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:20px'>Indeed, in certain games DQN is able to discover a relatively long-term<br>strategy (for example, Breakout: the agent learns the optimal strategy,<br>which is to first dig a tunnel around the side ofthe wall allowing the ball<br>to be sent around the back to destroy a large number ofblocks; see Sup-<br>plementary Video 2 for illustration of development of DQN's perfor-<br>mance over the course oftraining). Nevertheless, games demanding more<br>temporally extended planning strategies still constitute a major chal-<br>lenge for all existing agents including DQN (for example, Montezuma's<br>Revenge).</p>",
+            "id": 40,
+            "page": 4,
+            "text": "Indeed, in certain games DQN is able to discover a relatively long-term strategy (for example, Breakout: the agent learns the optimal strategy, which is to first dig a tunnel around the side ofthe wall allowing the ball to be sent around the back to destroy a large number ofblocks; see Supplementary Video 2 for illustration of development of DQN's performance over the course oftraining). Nevertheless, games demanding more temporally extended planning strategies still constitute a major challenge for all existing agents including DQN (for example, Montezuma's Revenge)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 2420
+                },
+                {
+                    "x": 1211,
+                    "y": 2420
+                },
+                {
+                    "x": 1211,
+                    "y": 3132
+                },
+                {
+                    "x": 148,
+                    "y": 3132
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:20px'>In this work, we demonstrate that a single architecture can success-<br>fully learn control policies in a range of different environments with only<br>very minimal prior knowledge, receiving only the pixels and the game<br>score as inputs, and using the same algorithm, network architecture and<br>hyperparameters on each game, privy only to the inputs a human player<br>would have. In contrast to previous work24,26, our approach incorpo-<br>rates 'end-to-end' reinforcement learning that uses reward to continu-<br>ously shape representations within the convolutional network towards<br>salient features of the environment that facilitate value estimation. This<br>principle draws on neurobiological evidence that reward signals during<br>perceptual learning may influence the characteristics ofrepresentations<br>within primate visual cortex27,28 Notably, the successful integration of<br>reinforcement learning with deep network architectures was critically<br>dependent on our incorporation ofa replay algorithm21-23 involving the<br>storage and representation ofrecently experienced transitions. Conver-<br>gent evidence suggests that the hippocampus may support the physical</p>",
+            "id": 41,
+            "page": 4,
+            "text": "In this work, we demonstrate that a single architecture can successfully learn control policies in a range of different environments with only very minimal prior knowledge, receiving only the pixels and the game score as inputs, and using the same algorithm, network architecture and hyperparameters on each game, privy only to the inputs a human player would have. In contrast to previous work24,26, our approach incorporates 'end-to-end' reinforcement learning that uses reward to continuously shape representations within the convolutional network towards salient features of the environment that facilitate value estimation. This principle draws on neurobiological evidence that reward signals during perceptual learning may influence the characteristics ofrepresentations within primate visual cortex27,28 Notably, the successful integration of reinforcement learning with deep network architectures was critically dependent on our incorporation ofa replay algorithm21-23 involving the storage and representation ofrecently experienced transitions. Convergent evidence suggests that the hippocampus may support the physical"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1245,
+                    "y": 1601
+                },
+                {
+                    "x": 2308,
+                    "y": 1601
+                },
+                {
+                    "x": 2308,
+                    "y": 1956
+                },
+                {
+                    "x": 1245,
+                    "y": 1956
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='42' style='font-size:18px'>predicts high state values for both full (top right screenshots) and nearly<br>complete screens (bottom left screenshots) because it has learned that<br>completing a screen leads to a new screen full of enemy ships. Partially<br>completed screens (bottom screenshots) are assigned lower state values because<br>less immediate reward is available. The screens shown on the bottom right<br>and top left and middle are less perceptually similar than the other examples but<br>are still mapped to nearby representations and similar values because the<br>orange bunkers do not carry great significance near the end of a level. With<br>permission from Square Enix Limited.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "predicts high state values for both full (top right screenshots) and nearly complete screens (bottom left screenshots) because it has learned that completing a screen leads to a new screen full of enemy ships. Partially completed screens (bottom screenshots) are assigned lower state values because less immediate reward is available. The screens shown on the bottom right and top left and middle are less perceptually similar than the other examples but are still mapped to nearby representations and similar values because the orange bunkers do not carry great significance near the end of a level. With permission from Square Enix Limited."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1248,
+                    "y": 2021
+                },
+                {
+                    "x": 2309,
+                    "y": 2021
+                },
+                {
+                    "x": 2309,
+                    "y": 2546
+                },
+                {
+                    "x": 1248,
+                    "y": 2546
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:20px'>realization of such a process in the mammalian brain, with the time-<br>compressed reactivation of recently experienced trajectories during<br>offline periods21,22 (for example, waking rest) providing a putative mech-<br>anism by which value functions may be efficiently updated through<br>interactions with the basal ganglia22. In the future, it will be important<br>to explore the potential use ofbiasing the content of experience replay<br>towards salient events, a phenomenon that characterizes empirically<br>observed hippocampal replay29, and relates to the notion of`prioritized<br>sweeping '30 in reinforcement learning. Taken together, our work illus-<br>trates the power of harnessing state-of-the-art machine learning tech-<br>niques with biologically inspired mechanisms to create agents that are<br>capable of learning to master a diverse array of challenging tasks.</p>",
+            "id": 43,
+            "page": 4,
+            "text": "realization of such a process in the mammalian brain, with the timecompressed reactivation of recently experienced trajectories during offline periods21,22 (for example, waking rest) providing a putative mechanism by which value functions may be efficiently updated through interactions with the basal ganglia22. In the future, it will be important to explore the potential use ofbiasing the content of experience replay towards salient events, a phenomenon that characterizes empirically observed hippocampal replay29, and relates to the notion of`prioritized sweeping '30 in reinforcement learning. Taken together, our work illustrates the power of harnessing state-of-the-art machine learning techniques with biologically inspired mechanisms to create agents that are capable of learning to master a diverse array of challenging tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1248,
+                    "y": 2573
+                },
+                {
+                    "x": 2306,
+                    "y": 2573
+                },
+                {
+                    "x": 2306,
+                    "y": 2674
+                },
+                {
+                    "x": 1248,
+                    "y": 2674
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>Online Content Methods, along with any additional Extended Data display items<br>and Source Data, are available in the online version of the paper; references unique<br>to these sections appear only in the online paper.</p>",
+            "id": 44,
+            "page": 4,
+            "text": "Online Content Methods, along with any additional Extended Data display items and Source Data, are available in the online version of the paper; references unique to these sections appear only in the online paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1248,
+                    "y": 2716
+                },
+                {
+                    "x": 1914,
+                    "y": 2716
+                },
+                {
+                    "x": 1914,
+                    "y": 2750
+                },
+                {
+                    "x": 1248,
+                    "y": 2750
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='45' style='font-size:18px'>Received 10 July 2014; accepted 16 January 2015.</caption>",
+            "id": 45,
+            "page": 4,
+            "text": "Received 10 July 2014; accepted 16 January 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1250,
+                    "y": 2783
+                },
+                {
+                    "x": 2305,
+                    "y": 2783
+                },
+                {
+                    "x": 2305,
+                    "y": 3125
+                },
+                {
+                    "x": 1250,
+                    "y": 3125
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:18px'>1. Sutton, R. & Barto, A. Reinforcement Learning: An Introduction (MIT Press, 1998).<br>2. Thorndike, E. L. Animal Intelligence: Experimental studies (Macmillan, 1911).<br>3. Schultz, W., Dayan, P. & Montague, P. R. A neural substrate of prediction and<br>reward. Science 275, 1593-1599 (1997).<br>4. Serre, T., Wolf, L. & Poggio, T. Object recognition with features inspired by visual<br>cortex. Proc. IEEE. Comput. Soc. Conf. Comput. Vis. Pattern. Recognit. 994-1000<br>(2005).<br>5. Fukushima, K. Neocognitron: A self-organizing neural network model for a<br>mechanism of pattern recognition unaffected by shift in position. Biol. Cybern. 36,<br>193-202 (1980).</p>",
+            "id": 46,
+            "page": 4,
+            "text": "1. Sutton, R. & Barto, A. Reinforcement Learning: An Introduction (MIT Press, 1998). 2. Thorndike, E. L. Animal Intelligence: Experimental studies (Macmillan, 1911). 3. Schultz, W., Dayan, P. & Montague, P. R. A neural substrate of prediction and reward. Science 275, 1593-1599 (1997). 4. Serre, T., Wolf, L. & Poggio, T. Object recognition with features inspired by visual cortex. Proc. IEEE. Comput. Soc. Conf. Comput. Vis. Pattern. Recognit. 994-1000 (2005). 5. Fukushima, K. Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position. Biol. Cybern. 36, 193-202 (1980)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 927,
+                    "y": 3172
+                },
+                {
+                    "x": 946,
+                    "y": 3172
+                },
+                {
+                    "x": 946,
+                    "y": 3196
+                },
+                {
+                    "x": 927,
+                    "y": 3196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:16px'>5</p>",
+            "id": 47,
+            "page": 4,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 149,
+                    "y": 3169
+                },
+                {
+                    "x": 936,
+                    "y": 3169
+                },
+                {
+                    "x": 936,
+                    "y": 3200
+                },
+                {
+                    "x": 149,
+                    "y": 3200
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='48' style='font-size:14px'>5 3 2 I N A T U R E I v 0 L 5 1 8 I 2 6 F E B R U A R Y 2 0 1</footer>",
+            "id": 48,
+            "page": 4,
+            "text": "5 3 2 I N A T U R E I v 0 L 5 1 8 I 2 6 F E B R U A R Y 2 0 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 816,
+                    "y": 3208
+                },
+                {
+                    "x": 1604,
+                    "y": 3208
+                },
+                {
+                    "x": 1604,
+                    "y": 3244
+                },
+                {
+                    "x": 816,
+                    "y": 3244
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='49' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 49,
+            "page": 4,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 2126,
+                    "y": 102
+                },
+                {
+                    "x": 2311,
+                    "y": 102
+                },
+                {
+                    "x": 2311,
+                    "y": 151
+                },
+                {
+                    "x": 2126,
+                    "y": 151
+                }
+            ],
+            "category": "header",
+            "html": "<header id='50' style='font-size:20px'>RESEARCH</header>",
+            "id": 50,
+            "page": 5,
+            "text": "RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1973,
+                    "y": 104
+                },
+                {
+                    "x": 2093,
+                    "y": 104
+                },
+                {
+                    "x": 2093,
+                    "y": 149
+                },
+                {
+                    "x": 1973,
+                    "y": 149
+                }
+            ],
+            "category": "header",
+            "html": "<br><header id='51' style='font-size:20px'>LETTER</header>",
+            "id": 51,
+            "page": 5,
+            "text": "LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 168,
+                    "y": 219
+                },
+                {
+                    "x": 1239,
+                    "y": 219
+                },
+                {
+                    "x": 1239,
+                    "y": 1442
+                },
+                {
+                    "x": 168,
+                    "y": 1442
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:18px'>6. Tesauro, G. Temporal difference learning and TD-Gammon. Commun. ACM 38,<br>58-68 (1995).<br>7. Riedmiller, M., Gabel, T., Hafner, R. & Lange, S. Reinforcement learning for robot<br>soccer. Auton. Robots 27, 55-73 (2009).<br>8. Diuk, C., Cohen, A. & Littman, M. L. An object-oriented representation for efficient<br>reinforcement learning. Proc. Int. Conf. Mach. Learn. 240-247 (2008).<br>9. Bengio, Y. Learning deep architectures for AI. Foundations and Trends in Machine<br>Learning 2, 1-127 (2009).<br>10. Krizhevsky, A., Sutskever, 1. & Hinton, G. ImageNet classification with deep<br>convolutional neural networks.Adv. NeuralInf. Process. Syst. 25, 1106-1114 (2012).<br>11. Hinton, G. E. & Salakhutdinov, R. R. Reducing the dimensionality of data with<br>neural networks. Science 313, 504-507 (2006).<br>12. Bellemare, M. G., Naddaf, Y., Veness,J. & Bowling, M. The arcade learning<br>environment: An evaluation platform for general agents. J. Artif. Intell. Res. 47,<br>253-279 (2013).<br>13. Legg, S. & Hutter, M. Universal Intelligence: a definition of machine intelligence.<br>Minds Mach. 17, 391-444 (2007).<br>14. Genesereth, M., Love, N. & Pell, B. General game playing: overview of the AAAI<br>competition. AI Mag. 26, 62-72 (2005).<br>15. Bellemare, M. G., Veness, J. & Bowling, M. Investigating contingency awareness<br>using Atari 2600 games. Proc. Conf. AAAI. Artif. Intell. 864-871 (2012).<br>16. McClelland, J. L., Rumelhart, D. E. & Group, T. P. R. Parallel Distributed Processing:<br>Explorations in the Microstructure of Cognition (MIT Press, 1986).<br>17. LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. Gradient-based learning applied to<br>document recognition. Proc. IEEE 86, 2278-2324 (1998).<br>18. Hubel, D. H. & Wiesel, T. N. Shape and arrangement of columns in cat's striate<br>cortex. J. Physiol. 165, 559-568 (1963).<br>19. Watkins, C. J. & Dayan, P. Q-learning. Mach. Learn. 8, 279-292 (1992).<br>20. Tsitsiklis, J. & Roy, B. V. An analysis of temporal-difference learning with function<br>approximation. IEEE Trans. Automat. Contr. 42, 674-690 (1997).<br>21. McClelland,J.L., McNaughton, B.L. & O'Reilly, R. C. Why there are complementary<br>learningsystems in the hippocampus and neocortex: insights from the successes<br>and failures of connectionist models of learning and memory. Psychol. Rev. 102,<br>419-457 (1995).<br>22. O'Neill,J., Pleydell-Bouverie, B., Dupret, D. & Csicsvari, J. Play it again: reactivation<br>of waking experience and memory. Trends Neurosci. 33, 220-229 (2010).</p>",
+            "id": 52,
+            "page": 5,
+            "text": "6. Tesauro, G. Temporal difference learning and TD-Gammon. Commun. ACM 38, 58-68 (1995). 7. Riedmiller, M., Gabel, T., Hafner, R. & Lange, S. Reinforcement learning for robot soccer. Auton. Robots 27, 55-73 (2009). 8. Diuk, C., Cohen, A. & Littman, M. L. An object-oriented representation for efficient reinforcement learning. Proc. Int. Conf. Mach. Learn. 240-247 (2008). 9. Bengio, Y. Learning deep architectures for AI. Foundations and Trends in Machine Learning 2, 1-127 (2009). 10. Krizhevsky, A., Sutskever, 1. & Hinton, G. ImageNet classification with deep convolutional neural networks.Adv. NeuralInf. Process. Syst. 25, 1106-1114 (2012). 11. Hinton, G. E. & Salakhutdinov, R. R. Reducing the dimensionality of data with neural networks. Science 313, 504-507 (2006). 12. Bellemare, M. G., Naddaf, Y., Veness,J. & Bowling, M. The arcade learning environment: An evaluation platform for general agents. J. Artif. Intell. Res. 47, 253-279 (2013). 13. Legg, S. & Hutter, M. Universal Intelligence: a definition of machine intelligence. Minds Mach. 17, 391-444 (2007). 14. Genesereth, M., Love, N. & Pell, B. General game playing: overview of the AAAI competition. AI Mag. 26, 62-72 (2005). 15. Bellemare, M. G., Veness, J. & Bowling, M. Investigating contingency awareness using Atari 2600 games. Proc. Conf. AAAI. Artif. Intell. 864-871 (2012). 16. McClelland, J. L., Rumelhart, D. E. & Group, T. P. R. Parallel Distributed Processing: Explorations in the Microstructure of Cognition (MIT Press, 1986). 17. LeCun, Y., Bottou, L., Bengio, Y. & Haffner, P. Gradient-based learning applied to document recognition. Proc. IEEE 86, 2278-2324 (1998). 18. Hubel, D. H. & Wiesel, T. N. Shape and arrangement of columns in cat's striate cortex. J. Physiol. 165, 559-568 (1963). 19. Watkins, C. J. & Dayan, P. Q-learning. Mach. Learn. 8, 279-292 (1992). 20. Tsitsiklis, J. & Roy, B. V. An analysis of temporal-difference learning with function approximation. IEEE Trans. Automat. Contr. 42, 674-690 (1997). 21. McClelland,J.L., McNaughton, B.L. & O'Reilly, R. C. Why there are complementary learningsystems in the hippocampus and neocortex: insights from the successes and failures of connectionist models of learning and memory. Psychol. Rev. 102, 419-457 (1995). 22. O'Neill,J., Pleydell-Bouverie, B., Dupret, D. & Csicsvari, J. Play it again: reactivation of waking experience and memory. Trends Neurosci. 33, 220-229 (2010)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 225
+                },
+                {
+                    "x": 2337,
+                    "y": 225
+                },
+                {
+                    "x": 2337,
+                    "y": 841
+                },
+                {
+                    "x": 1267,
+                    "y": 841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:18px'>23. Lin, L.-J. Reinforcement learning for robots using neural networks. Technical<br>Report, DTIC Document (1993).<br>24. Riedmiller, M. Neural fitted Q iteration - first experiences with a data efficient<br>neural reinforcement learning method. Mach. Learn.: ECML, 3720, 317-328<br>(Springer, 2005).<br>25. Van der Maaten, L. J. P. & Hinton, G. E. Visualizing high-dimensional data using<br>t-SNE. J. Mach. Learn. Res. 9, 2579-2605 (2008).<br>26. Lange, S. & Riedmiller, M. Deep auto-encoder neural networks in reinforcement<br>learning. Proc. Int. Jt. Conf. Neural. Netw. 1-8 (2010).<br>27. Law, C.-T. & Gold, J. 1. Reinforcement learning can account for associative<br>and perceptual learning on a visual decision task. Nature Neurosci. 12, 655<br>(2009).<br>28. Sigala, N. & Logothetis, N. K. Visual categorization shapes feature selectivity in the<br>primate temporal cortex. Nature 415, 318-320 (2002).<br>29. Bendor, D. & Wilson, M.A. Biasing the content of hippocampal replay during sleep.<br>Nature Neurosci. 15, 1439-1444 (2012).<br>30. Moore, A. & Atkeson, C. Prioritized sweeping: reinforcementlearning with less data<br>and less real time. Mach. Learn. 13, 103-130 (1993).</p>",
+            "id": 53,
+            "page": 5,
+            "text": "23. Lin, L.-J. Reinforcement learning for robots using neural networks. Technical Report, DTIC Document (1993). 24. Riedmiller, M. Neural fitted Q iteration - first experiences with a data efficient neural reinforcement learning method. Mach. Learn.: ECML, 3720, 317-328 (Springer, 2005). 25. Van der Maaten, L. J. P. & Hinton, G. E. Visualizing high-dimensional data using t-SNE. J. Mach. Learn. Res. 9, 2579-2605 (2008). 26. Lange, S. & Riedmiller, M. Deep auto-encoder neural networks in reinforcement learning. Proc. Int. Jt. Conf. Neural. Netw. 1-8 (2010). 27. Law, C.-T. & Gold, J. 1. Reinforcement learning can account for associative and perceptual learning on a visual decision task. Nature Neurosci. 12, 655 (2009). 28. Sigala, N. & Logothetis, N. K. Visual categorization shapes feature selectivity in the primate temporal cortex. Nature 415, 318-320 (2002). 29. Bendor, D. & Wilson, M.A. Biasing the content of hippocampal replay during sleep. Nature Neurosci. 15, 1439-1444 (2012). 30. Moore, A. & Atkeson, C. Prioritized sweeping: reinforcementlearning with less data and less real time. Mach. Learn. 13, 103-130 (1993)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 856
+                },
+                {
+                    "x": 2199,
+                    "y": 856
+                },
+                {
+                    "x": 2199,
+                    "y": 894
+                },
+                {
+                    "x": 1269,
+                    "y": 894
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:16px'>Supplementary Information is available in the online version of the paper.</p>",
+            "id": 54,
+            "page": 5,
+            "text": "Supplementary Information is available in the online version of the paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 911
+                },
+                {
+                    "x": 2332,
+                    "y": 911
+                },
+                {
+                    "x": 2332,
+                    "y": 1050
+                },
+                {
+                    "x": 1270,
+                    "y": 1050
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='55' style='font-size:16px'>Acknowledgements We thank G. Hinton, P. Dayan and M. Bowling for discussions,<br>A. Cain and J. Keene for work on the visuals, K. Keller and P. Rogers for help with the<br>visuals, G. Wayne for comments on an earlier version ofthe manuscript, and the rest of<br>the DeepMind team for their support, ideas and encouragement.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "Acknowledgements We thank G. Hinton, P. Dayan and M. Bowling for discussions, A. Cain and J. Keene for work on the visuals, K. Keller and P. Rogers for help with the visuals, G. Wayne for comments on an earlier version ofthe manuscript, and the rest of the DeepMind team for their support, ideas and encouragement."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 1067
+                },
+                {
+                    "x": 2331,
+                    "y": 1067
+                },
+                {
+                    "x": 2331,
+                    "y": 1239
+                },
+                {
+                    "x": 1269,
+                    "y": 1239
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>Author Contributions V.M., K.K., D.S., J.V., M.G.B., M.R., A.G., D.W., S.L. and D.H.<br>conceptualized the problem and the technical framework. V.M., K.K., A.A.R. and D.S.<br>developed and tested the algorithms. J.V., S.P ., C.B., A.A.R., M.G.B., I.A., A.K.F., G.O. and<br>A.S. created the testing platform. K.K., H.K., S.L. and D.H. managed the project. K.K., D.K.,<br>D.H., V.M., D.S., A.G., A.A.R., J.V. and M.G.B. wrote the paper.</p>",
+            "id": 56,
+            "page": 5,
+            "text": "Author Contributions V.M., K.K., D.S., J.V., M.G.B., M.R., A.G., D.W., S.L. and D.H. conceptualized the problem and the technical framework. V.M., K.K., A.A.R. and D.S. developed and tested the algorithms. J.V., S.P ., C.B., A.A.R., M.G.B., I.A., A.K.F., G.O. and A.S. created the testing platform. K.K., H.K., S.L. and D.H. managed the project. K.K., D.K., D.H., V.M., D.S., A.G., A.A.R., J.V. and M.G.B. wrote the paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 1257
+                },
+                {
+                    "x": 2334,
+                    "y": 1257
+                },
+                {
+                    "x": 2334,
+                    "y": 1430
+                },
+                {
+                    "x": 1269,
+                    "y": 1430
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:18px'>Author Information Reprints and permissions information is available at<br>www.nature.com/reprints. The authors declare no competing financial interests.<br>Readers are welcome to comment on the online version of the paper. Correspondence<br>and requests for materials should be addressed to K.K. (korayk@google.com) or<br>D.H. (demishassabis@google.com).</p>",
+            "id": 57,
+            "page": 5,
+            "text": "Author Information Reprints and permissions information is available at www.nature.com/reprints. The authors declare no competing financial interests. Readers are welcome to comment on the online version of the paper. Correspondence and requests for materials should be addressed to K.K. (korayk@google.com) or D.H. (demishassabis@google.com)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3207
+                },
+                {
+                    "x": 1603,
+                    "y": 3207
+                },
+                {
+                    "x": 1603,
+                    "y": 3246
+                },
+                {
+                    "x": 814,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='58' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 58,
+            "page": 5,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1532,
+                    "y": 3167
+                },
+                {
+                    "x": 2333,
+                    "y": 3167
+                },
+                {
+                    "x": 2333,
+                    "y": 3202
+                },
+                {
+                    "x": 1532,
+                    "y": 3202
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='59' style='font-size:14px'>2 6 F E B R U A R Y 2 0 1 5 I v 0 L 5 1 8 I N A T U R E I 5 3 3</footer>",
+            "id": 59,
+            "page": 5,
+            "text": "2 6 F E B R U A R Y 2 0 1 5 I v 0 L 5 1 8 I N A T U R E I 5 3 3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 162,
+                    "y": 97
+                },
+                {
+                    "x": 506,
+                    "y": 97
+                },
+                {
+                    "x": 506,
+                    "y": 153
+                },
+                {
+                    "x": 162,
+                    "y": 153
+                }
+            ],
+            "category": "header",
+            "html": "<header id='60' style='font-size:22px'>RESEARCH LETTER</header>",
+            "id": 60,
+            "page": 6,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 150,
+                    "y": 242
+                },
+                {
+                    "x": 364,
+                    "y": 242
+                },
+                {
+                    "x": 364,
+                    "y": 287
+                },
+                {
+                    "x": 150,
+                    "y": 287
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:20px'>METHODS</p>",
+            "id": 61,
+            "page": 6,
+            "text": "METHODS"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 293
+                },
+                {
+                    "x": 1213,
+                    "y": 293
+                },
+                {
+                    "x": 1213,
+                    "y": 847
+                },
+                {
+                    "x": 148,
+                    "y": 847
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:16px'>Preprocessing. Working directly with raw Atari 2600 frames, which are 210 x 160<br>pixel images with a 128-colour palette, can be demanding in terms of computation<br>and memory requirements. w e apply a basic preprocessing step aimed at reducing<br>the input dimensionality and dealing with some artefacts of the Atari 2600 emu-<br>lator. First, to encode a single frame we take the maximum value for each pixel colour<br>value over the frame being encoded and the previous frame. This was necessary to<br>remove flickering that is present in games where some objects appear only in even<br>frames while other objects appear only in odd frames, an artefact caused by the<br>limited number of sprites Atari 2600 can display at once. Second, we then extract<br>the Y channel, also known as luminance, from the RGB frame and rescale it to<br>84 x 84. The function 0 from algorithm 1 described below applies this preprocess-<br>ing to the m most recent frames and stacks them to produce the input to the<br>Q-function, in which m = 4, although the algorithm is robust to different values of<br>m (for example, 3 or 5).</p>",
+            "id": 62,
+            "page": 6,
+            "text": "Preprocessing. Working directly with raw Atari 2600 frames, which are 210 x 160 pixel images with a 128-colour palette, can be demanding in terms of computation and memory requirements. w e apply a basic preprocessing step aimed at reducing the input dimensionality and dealing with some artefacts of the Atari 2600 emulator. First, to encode a single frame we take the maximum value for each pixel colour value over the frame being encoded and the previous frame. This was necessary to remove flickering that is present in games where some objects appear only in even frames while other objects appear only in odd frames, an artefact caused by the limited number of sprites Atari 2600 can display at once. Second, we then extract the Y channel, also known as luminance, from the RGB frame and rescale it to 84 x 84. The function 0 from algorithm 1 described below applies this preprocessing to the m most recent frames and stacks them to produce the input to the Q-function, in which m = 4, although the algorithm is robust to different values of m (for example, 3 or 5)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 851
+                },
+                {
+                    "x": 1207,
+                    "y": 851
+                },
+                {
+                    "x": 1207,
+                    "y": 929
+                },
+                {
+                    "x": 148,
+                    "y": 929
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:16px'>Code availability. The source code can be accessed at https://sites.google.com/a/<br>deepmind.com/dqn for non-commercial uses only.</p>",
+            "id": 63,
+            "page": 6,
+            "text": "Code availability. The source code can be accessed at https://sites.google.com/a/ deepmind.com/dqn for non-commercial uses only."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 930
+                },
+                {
+                    "x": 1210,
+                    "y": 930
+                },
+                {
+                    "x": 1210,
+                    "y": 1370
+                },
+                {
+                    "x": 147,
+                    "y": 1370
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:16px'>Model architecture. There are several possible ways of parameterizing Q using a<br>neural network. Because Q maps history-action pairs to scalar estimates of their<br>Q-value, the history and the action have been used as inputs to the neural network<br>by some previous approaches24.26. The main drawback of this type of architecture<br>is that a separate forward pass is required to compute the Q-value of each action,<br>resulting in a cost that scales linearly with the number of actions. We instead use an<br>architecture in which there is a separate output unit for each possible action, and<br>only the state representation is an input to the neural network. The outputs cor-<br>respond to the predicted Q-values of the individual actions for the input state. The<br>main advantage of this type of architecture is the ability to compute Q-values for all<br>possible actions in a given state with only a single forward pass through the network.</p>",
+            "id": 64,
+            "page": 6,
+            "text": "Model architecture. There are several possible ways of parameterizing Q using a neural network. Because Q maps history-action pairs to scalar estimates of their Q-value, the history and the action have been used as inputs to the neural network by some previous approaches24.26. The main drawback of this type of architecture is that a separate forward pass is required to compute the Q-value of each action, resulting in a cost that scales linearly with the number of actions. We instead use an architecture in which there is a separate output unit for each possible action, and only the state representation is an input to the neural network. The outputs correspond to the predicted Q-values of the individual actions for the input state. The main advantage of this type of architecture is the ability to compute Q-values for all possible actions in a given state with only a single forward pass through the network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 1373
+                },
+                {
+                    "x": 1211,
+                    "y": 1373
+                },
+                {
+                    "x": 1211,
+                    "y": 1766
+                },
+                {
+                    "x": 148,
+                    "y": 1766
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='65' style='font-size:16px'>The exact architecture, shown schematically in Fig. 1, is as follows. The input to<br>the neural network consists of an 84 x 84 x 4 image produced by the preprocess-<br>ing map ⌀. The first hidden layer convolves 32 filters of 8 x 8 with stride 4 with the<br>input image and applies a rectifier nonlinearity31.32. The second hidden layer con-<br>volves 64 filters of 4 x 4 with stride 2, again followed by a rectifier nonlinearity.<br>This is followed by a third convolutional layer that convolves 64 filters of3 x 3 with<br>stride 1 followed by a rectifier. The final hidden layer is fully-connected and con-<br>sists of 512 rectifier units. The output layer is a fully-connected linear layer with a<br>single output for each valid action. The number of valid actions varied between 4<br>and 18 on the games we considered.</p>",
+            "id": 65,
+            "page": 6,
+            "text": "The exact architecture, shown schematically in Fig. 1, is as follows. The input to the neural network consists of an 84 x 84 x 4 image produced by the preprocessing map ⌀. The first hidden layer convolves 32 filters of 8 x 8 with stride 4 with the input image and applies a rectifier nonlinearity31.32. The second hidden layer convolves 64 filters of 4 x 4 with stride 2, again followed by a rectifier nonlinearity. This is followed by a third convolutional layer that convolves 64 filters of3 x 3 with stride 1 followed by a rectifier. The final hidden layer is fully-connected and consists of 512 rectifier units. The output layer is a fully-connected linear layer with a single output for each valid action. The number of valid actions varied between 4 and 18 on the games we considered."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 1770
+                },
+                {
+                    "x": 1211,
+                    "y": 1770
+                },
+                {
+                    "x": 1211,
+                    "y": 2366
+                },
+                {
+                    "x": 148,
+                    "y": 2366
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='66' style='font-size:16px'>Training details. We performed experiments on 49 Atari 2600 games whereresults<br>were available for all other comparable methods12.15. A different network was trained<br>on each game: the same network architecture, learning algorithm and hyperpara-<br>meter settings (see Extended Data Table 1) were used across all games, showing that<br>our approach is robust enough to work on a variety of games while incorporating<br>only minimal prior knowledge (see below). While we evaluated our agents on unmodi-<br>fied games, we made one change to the reward structure of the games during training<br>only. As the scale of scores varies greatly from game to game, we clipped all posi-<br>tive rewards at 1 and all negative rewards at - 1, leaving 0 rewards unchanged.<br>Clipping the rewards in this manner limits the scale of the error derivatives and<br>makes it easier to use the same learning rate across multiple games. At the same time,<br>it could affect the performance of our agent since it cannot differentiate between<br>rewards of different magnitude. For games where there is a life counter, the Atari<br>2600 emulator also sends the number oflives left in the game, which is then used to<br>mark the end of an episode during training.</p>",
+            "id": 66,
+            "page": 6,
+            "text": "Training details. We performed experiments on 49 Atari 2600 games whereresults were available for all other comparable methods12.15. A different network was trained on each game: the same network architecture, learning algorithm and hyperparameter settings (see Extended Data Table 1) were used across all games, showing that our approach is robust enough to work on a variety of games while incorporating only minimal prior knowledge (see below). While we evaluated our agents on unmodified games, we made one change to the reward structure of the games during training only. As the scale of scores varies greatly from game to game, we clipped all positive rewards at 1 and all negative rewards at - 1, leaving 0 rewards unchanged. Clipping the rewards in this manner limits the scale of the error derivatives and makes it easier to use the same learning rate across multiple games. At the same time, it could affect the performance of our agent since it cannot differentiate between rewards of different magnitude. For games where there is a life counter, the Atari 2600 emulator also sends the number oflives left in the game, which is then used to mark the end of an episode during training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 148,
+                    "y": 2371
+                },
+                {
+                    "x": 1210,
+                    "y": 2371
+                },
+                {
+                    "x": 1210,
+                    "y": 2608
+                },
+                {
+                    "x": 148,
+                    "y": 2608
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:16px'>In these experiments, we used the RMSProp (see http://www.cs.toronto.edu/<br>~tijmen/csd321/shis/lecture_stides_lac6.pdf) algorithm with minibatches ofsize<br>32. The behaviour policy during training was E-greedy with 3 annealed linearly<br>from 1.0 to 0.1 over the first million frames, and fixed at 0.1 thereafter. We trained<br>for a total of50 million frames (thatis, around 38 days of game experience in total)<br>and used a replay memory of 1 million most recent frames.</p>",
+            "id": 67,
+            "page": 6,
+            "text": "In these experiments, we used the RMSProp (see http://www.cs.toronto.edu/ ~tijmen/csd321/shis/lecture_stides_lac6.pdf) algorithm with minibatches ofsize 32. The behaviour policy during training was E-greedy with 3 annealed linearly from 1.0 to 0.1 over the first million frames, and fixed at 0.1 thereafter. We trained for a total of50 million frames (thatis, around 38 days of game experience in total) and used a replay memory of 1 million most recent frames."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 2611
+                },
+                {
+                    "x": 1211,
+                    "y": 2611
+                },
+                {
+                    "x": 1211,
+                    "y": 2886
+                },
+                {
+                    "x": 147,
+                    "y": 2886
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='68' style='font-size:16px'>Following previous approaches to playing Atari2600 games, we also use a simple<br>frame-skipping technique15. More precisely, the agent sees and selects actions on<br>every kth frame instead of every frame, and its last action is repeated on skipped<br>frames. Because running the emulator forward for one step requires much less<br>computation than having the agent select an action, this technique allows the agent<br>to play roughly k times more games without significantly increasing the runtime.<br>We use k = 4 for all games.</p>",
+            "id": 68,
+            "page": 6,
+            "text": "Following previous approaches to playing Atari2600 games, we also use a simple frame-skipping technique15. More precisely, the agent sees and selects actions on every kth frame instead of every frame, and its last action is repeated on skipped frames. Because running the emulator forward for one step requires much less computation than having the agent select an action, this technique allows the agent to play roughly k times more games without significantly increasing the runtime. We use k = 4 for all games."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 2889
+                },
+                {
+                    "x": 1211,
+                    "y": 2889
+                },
+                {
+                    "x": 1211,
+                    "y": 3127
+                },
+                {
+                    "x": 147,
+                    "y": 3127
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:16px'>The values ofall the hyperparameters and optimization parameters were selected<br>by performing an informal search on the games Pong, Breakout, Seaquest, Space<br>Invaders and Beam Rider. We did not perform a systematic grid search owing to<br>the high computational cost. These parameters were then held fixed across all other<br>games. The values and descriptions ofallhyperparameters are provided in Extended<br>Data Table 1.</p>",
+            "id": 69,
+            "page": 6,
+            "text": "The values ofall the hyperparameters and optimization parameters were selected by performing an informal search on the games Pong, Breakout, Seaquest, Space Invaders and Beam Rider. We did not perform a systematic grid search owing to the high computational cost. These parameters were then held fixed across all other games. The values and descriptions ofallhyperparameters are provided in Extended Data Table 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1245,
+                    "y": 234
+                },
+                {
+                    "x": 2308,
+                    "y": 234
+                },
+                {
+                    "x": 2308,
+                    "y": 431
+                },
+                {
+                    "x": 1245,
+                    "y": 431
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:18px'>Our experimental setup amounts to using the following minimal prior know-<br>ledge: that the input data consisted of visual images (motivating our use of a con-<br>volutional deep network), the game-specific score (with no modification), number<br>of actions, although not their correspondences (for example, specification of the<br>up 'button') and the life count.</p>",
+            "id": 70,
+            "page": 6,
+            "text": "Our experimental setup amounts to using the following minimal prior knowledge: that the input data consisted of visual images (motivating our use of a convolutional deep network), the game-specific score (with no modification), number of actions, although not their correspondences (for example, specification of the up 'button') and the life count."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1248,
+                    "y": 432
+                },
+                {
+                    "x": 2308,
+                    "y": 432
+                },
+                {
+                    "x": 2308,
+                    "y": 950
+                },
+                {
+                    "x": 1248,
+                    "y": 950
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:16px'>Evaluation procedure. The trained agents were evaluated by playing each game<br>30 times for up to 5 min each time with different initial random conditions ('no-<br>op'; see Extended Data Table 1) and an E-greedy policy with 3 = 0.05. This pro-<br>cedure is adopted to minimize the possibility of overfitting during evaluation. The<br>random agent served as a baseline comparison and chose a random action at 10 Hz<br>which is every sixth frame, repeating its last action on intervening frames. 10 Hz is<br>about the fastest that a human player can select the 'fire' button, and setting the<br>random agent to this frequency avoids spurious baseline scores in a handful of the<br>games. We did also assess the performance ofa random agent that selected an action<br>at 60 Hz (that is, every frame). This had a minimal effect: changing the normalized<br>DQN performance by more than 5% in only six games (Boxing, Breakout, Crazy<br>Climber, Demon Attack, Krull and Robotank), and in all these games DQN out-<br>performed the expert human by a considerable margin.</p>",
+            "id": 71,
+            "page": 6,
+            "text": "Evaluation procedure. The trained agents were evaluated by playing each game 30 times for up to 5 min each time with different initial random conditions ('noop'; see Extended Data Table 1) and an E-greedy policy with 3 = 0.05. This procedure is adopted to minimize the possibility of overfitting during evaluation. The random agent served as a baseline comparison and chose a random action at 10 Hz which is every sixth frame, repeating its last action on intervening frames. 10 Hz is about the fastest that a human player can select the 'fire' button, and setting the random agent to this frequency avoids spurious baseline scores in a handful of the games. We did also assess the performance ofa random agent that selected an action at 60 Hz (that is, every frame). This had a minimal effect: changing the normalized DQN performance by more than 5% in only six games (Boxing, Breakout, Crazy Climber, Demon Attack, Krull and Robotank), and in all these games DQN outperformed the expert human by a considerable margin."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1244,
+                    "y": 952
+                },
+                {
+                    "x": 2309,
+                    "y": 952
+                },
+                {
+                    "x": 2309,
+                    "y": 1228
+                },
+                {
+                    "x": 1244,
+                    "y": 1228
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:16px'>The professional human tester used the same emulator engine as the agents, and<br>played under controlled conditions. The human tester was not allowed to pause,<br>save or reload games. As in the original Atari 2600 environment, the emulator was<br>run at 60 Hz and the audio output was disabled: as such, the sensory input was<br>equated between human player and agents. The human performance is the average<br>reward achieved from around 20 episodes of each game lasting a maximum of5 min<br>each, following around 2h of practice playing each game.</p>",
+            "id": 72,
+            "page": 6,
+            "text": "The professional human tester used the same emulator engine as the agents, and played under controlled conditions. The human tester was not allowed to pause, save or reload games. As in the original Atari 2600 environment, the emulator was run at 60 Hz and the audio output was disabled: as such, the sensory input was equated between human player and agents. The human performance is the average reward achieved from around 20 episodes of each game lasting a maximum of5 min each, following around 2h of practice playing each game."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1246,
+                    "y": 1231
+                },
+                {
+                    "x": 2307,
+                    "y": 1231
+                },
+                {
+                    "x": 2307,
+                    "y": 1665
+                },
+                {
+                    "x": 1246,
+                    "y": 1665
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='73' style='font-size:14px'>Algorithm. We consider tasks in which an agent interacts with an environment,<br>in this case the Atari emulator, in a sequence of actions, observations and rewards.<br>At each time-step the agent selects an action at from the set oflegal game actions,<br>A= {1, · · . ,K}. The action is passed to the emulator and modifies its internal state<br>and the game score. In general the environment may be stochastic. The emulator's<br>internal state is not observed by the agent; instead the agent observes an image<br>xtERd from the emulator, which is a vector of pixel values representing the current<br>screen. In addition it receives a reward rt representing the change in game score.<br>Note thatin general the game score may depend on the whole previous sequence of<br>actions and observations; feedback about an action may only be received after many<br>thousands of time-steps have elapsed.</p>",
+            "id": 73,
+            "page": 6,
+            "text": "Algorithm. We consider tasks in which an agent interacts with an environment, in this case the Atari emulator, in a sequence of actions, observations and rewards. At each time-step the agent selects an action at from the set oflegal game actions, A= {1, · · . ,K}. The action is passed to the emulator and modifies its internal state and the game score. In general the environment may be stochastic. The emulator's internal state is not observed by the agent; instead the agent observes an image xtERd from the emulator, which is a vector of pixel values representing the current screen. In addition it receives a reward rt representing the change in game score. Note thatin general the game score may depend on the whole previous sequence of actions and observations; feedback about an action may only be received after many thousands of time-steps have elapsed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1245,
+                    "y": 1670
+                },
+                {
+                    "x": 2307,
+                    "y": 1670
+                },
+                {
+                    "x": 2307,
+                    "y": 2065
+                },
+                {
+                    "x": 1245,
+                    "y": 2065
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='74' style='font-size:16px'>Because the agent only observes the current screen, the task is partially observed33<br>and many emulator states are perceptually aliased (that is, it is impossible to fully<br>understand the current situation from only the current screen xt). Therefore,<br>sequences of actions and observations, St = x1,a1,x2,...,at-1,xt, are input to the<br>algorithm, which then learns gamestrategies depending upon these sequences. All<br>sequences in the emulator are assumed to terminate in a finite number of time-<br>steps. This formalism gives rise to a large but finite Markov decision process (MDP)<br>in which each sequence is a distinct state. As a result, we can apply standard rein-<br>forcement learning methods for MDPs, simply by using the complete sequence St<br>as the state representation at time t.</p>",
+            "id": 74,
+            "page": 6,
+            "text": "Because the agent only observes the current screen, the task is partially observed33 and many emulator states are perceptually aliased (that is, it is impossible to fully understand the current situation from only the current screen xt). Therefore, sequences of actions and observations, St = x1,a1,x2,...,at-1,xt, are input to the algorithm, which then learns gamestrategies depending upon these sequences. All sequences in the emulator are assumed to terminate in a finite number of timesteps. This formalism gives rise to a large but finite Markov decision process (MDP) in which each sequence is a distinct state. As a result, we can apply standard reinforcement learning methods for MDPs, simply by using the complete sequence St as the state representation at time t."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1245,
+                    "y": 2067
+                },
+                {
+                    "x": 2311,
+                    "y": 2067
+                },
+                {
+                    "x": 2311,
+                    "y": 2466
+                },
+                {
+                    "x": 1245,
+                    "y": 2466
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='75' style='font-size:16px'>The goal ofthe agentis to interact with the emulator by selecting actions in a way<br>that maximizes future rewards. We make the standard assumption that future rewards<br>are discounted by a factor of Y per time-step (y was set to 0.99 throughout), and<br>T<br>define the future discounted return at time t as Rt = � - t rt', in which Tis the<br>t' =t<br>time-step at which the game terminates. We define the optimal action-value<br>function Q* (s,a) as the maximum expected return achievable by following any<br>policy, after seeing some sequence s and then taking some action a, Q*(s,a) =<br>max�E[Rt|st = s,at = a,�] in which � is a policy mapping sequences to actions (or<br>distributions over actions).</p>",
+            "id": 75,
+            "page": 6,
+            "text": "The goal ofthe agentis to interact with the emulator by selecting actions in a way that maximizes future rewards. We make the standard assumption that future rewards are discounted by a factor of Y per time-step (y was set to 0.99 throughout), and T define the future discounted return at time t as Rt = � - t rt', in which Tis the t' =t time-step at which the game terminates. We define the optimal action-value function Q* (s,a) as the maximum expected return achievable by following any policy, after seeing some sequence s and then taking some action a, Q*(s,a) = max�E[Rt|st = s,at = a,�] in which � is a policy mapping sequences to actions (or distributions over actions)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1246,
+                    "y": 2467
+                },
+                {
+                    "x": 2309,
+                    "y": 2467
+                },
+                {
+                    "x": 2309,
+                    "y": 2667
+                },
+                {
+                    "x": 1246,
+                    "y": 2667
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:16px'>The optimal action-value function obeys an important identity known as the<br>Bellman equation. This is based on the following intuition: if the optimal value<br>Q* (s',a') ofthe sequences' at the next time-step was known for all possible actions<br>a , then the optimal strategyis to select the action a' maximizing the expected value<br>,<br>of r+y2* (s ,a'):</p>",
+            "id": 76,
+            "page": 6,
+            "text": "The optimal action-value function obeys an important identity known as the Bellman equation. This is based on the following intuition: if the optimal value Q* (s',a') ofthe sequences' at the next time-step was known for all possible actions a , then the optimal strategyis to select the action a' maximizing the expected value , of r+y2* (s ,a'):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1245,
+                    "y": 2811
+                },
+                {
+                    "x": 2309,
+                    "y": 2811
+                },
+                {
+                    "x": 2309,
+                    "y": 3130
+                },
+                {
+                    "x": 1245,
+                    "y": 3130
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>The basic idea behind many reinforcement learning algorithms is to estimate<br>the action-value function by using the Bellman equation as an iterative update,<br>Qi+1 (s,a) =Es [r +� max�' Qi(s' ,a')|s,a]. Such value iteration algorithms converge<br>to the optimal action-value function, Qi → Q* as i→ 8 . In practice, this basic approach<br>is impractical, because the action-value function is estimated separately for each<br>sequence, without any generalization. Instead, itis common to usea function approx-<br>imator to estimate the action-value function, Q(s,a; 0)~2* (s,a). In the reinforce-<br>ment learning community this is typically a linear function approximator, but</p>",
+            "id": 77,
+            "page": 6,
+            "text": "The basic idea behind many reinforcement learning algorithms is to estimate the action-value function by using the Bellman equation as an iterative update, Qi+1 (s,a) =Es [r +� max�' Qi(s' ,a')|s,a]. Such value iteration algorithms converge to the optimal action-value function, Qi → Q* as i→ 8 . In practice, this basic approach is impractical, because the action-value function is estimated separately for each sequence, without any generalization. Instead, itis common to usea function approximator to estimate the action-value function, Q(s,a; 0)~2* (s,a). In the reinforcement learning community this is typically a linear function approximator, but"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3208
+                },
+                {
+                    "x": 1606,
+                    "y": 3208
+                },
+                {
+                    "x": 1606,
+                    "y": 3246
+                },
+                {
+                    "x": 814,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='78' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 78,
+            "page": 6,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1977,
+                    "y": 99
+                },
+                {
+                    "x": 2317,
+                    "y": 99
+                },
+                {
+                    "x": 2317,
+                    "y": 152
+                },
+                {
+                    "x": 1977,
+                    "y": 152
+                }
+            ],
+            "category": "header",
+            "html": "<header id='79' style='font-size:22px'>LETTER RESEARCH</header>",
+            "id": 79,
+            "page": 7,
+            "text": "LETTER RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 169,
+                    "y": 234
+                },
+                {
+                    "x": 1235,
+                    "y": 234
+                },
+                {
+                    "x": 1235,
+                    "y": 511
+                },
+                {
+                    "x": 169,
+                    "y": 511
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:14px'>sometimes a nonlinear function approximator is used instead, such as a neural<br>network. We refer to a neural network function approximator with weights 0 as a<br>Q-network. A Q-network can be trained by adjusting the parameters 0i at iteration<br>i to reduce the mean-squared error in the Bellman equation, where the optimal<br>target values rty max�' Q* (s',a') are substituted with approximate target values<br>y=r+y max�' Q(s',a'; 0i), using parameters 0- from some previous iteration.<br>This leads to a sequence of loss functions Li(0i) that changes at each iteration i,</p>",
+            "id": 80,
+            "page": 7,
+            "text": "sometimes a nonlinear function approximator is used instead, such as a neural network. We refer to a neural network function approximator with weights 0 as a Q-network. A Q-network can be trained by adjusting the parameters 0i at iteration i to reduce the mean-squared error in the Bellman equation, where the optimal target values rty max�' Q* (s',a') are substituted with approximate target values y=r+y max�' Q(s',a'; 0i), using parameters 0- from some previous iteration. This leads to a sequence of loss functions Li(0i) that changes at each iteration i,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 679
+                },
+                {
+                    "x": 1235,
+                    "y": 679
+                },
+                {
+                    "x": 1235,
+                    "y": 998
+                },
+                {
+                    "x": 170,
+                    "y": 998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:16px'>Note that the targets depend on the network weights; this is in contrast with the<br>targets used for supervised learning, which are fixed before learning begins. At<br>each stage of optimization, we hold the parameters from the previous iteration 0i<br>fixed when optimizing the ith loss function Li(Ui), resulting in a sequence of well-<br>defined optimization problems. The final term is the variance of the targets, which<br>does not depend on the parameters 0i that we are currently optimizing, and may<br>therefore be ignored. Differentiating the loss function with respect to the weights<br>we arrive at the following gradient:</p>",
+            "id": 81,
+            "page": 7,
+            "text": "Note that the targets depend on the network weights; this is in contrast with the targets used for supervised learning, which are fixed before learning begins. At each stage of optimization, we hold the parameters from the previous iteration 0i fixed when optimizing the ith loss function Li(Ui), resulting in a sequence of welldefined optimization problems. The final term is the variance of the targets, which does not depend on the parameters 0i that we are currently optimizing, and may therefore be ignored. Differentiating the loss function with respect to the weights we arrive at the following gradient:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 168,
+                    "y": 1139
+                },
+                {
+                    "x": 1236,
+                    "y": 1139
+                },
+                {
+                    "x": 1236,
+                    "y": 1338
+                },
+                {
+                    "x": 168,
+                    "y": 1338
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:16px'>Rather than computing the full expectations in the above gradient, it is often<br>computationally expedient to optimize the loss function by stochastic gradient<br>descent. The familiar Q-learning algorithm19 can be recovered in this framework<br>by updating the weights after every time step, replacing the expectations using<br>single samples, and setting 0- = 0i-1.</p>",
+            "id": 82,
+            "page": 7,
+            "text": "Rather than computing the full expectations in the above gradient, it is often computationally expedient to optimize the loss function by stochastic gradient descent. The familiar Q-learning algorithm19 can be recovered in this framework by updating the weights after every time step, replacing the expectations using single samples, and setting 0- = 0i-1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 168,
+                    "y": 1335
+                },
+                {
+                    "x": 1232,
+                    "y": 1335
+                },
+                {
+                    "x": 1232,
+                    "y": 1890
+                },
+                {
+                    "x": 168,
+                    "y": 1890
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:16px'>Note that this algorithm is model-free: it solves the reinforcement learning task<br>directly using samples from the emulator, without explicitly estimating the reward<br>and transition dynamics P(r,s'|s,a). It is also off-policy: it learns about the greedy<br>policy a = argmaxa' Q(s,a'; 0), while following a behaviour distribution that ensures<br>adequate exploration of the state space. In practice, the behaviour distribution is<br>often selected by an E-greedy policy that follows the greedy policy with probability<br>1 - 8 and selects a random action with probability 8.<br>Training algorithm for deep Q-networks. The full algorithm for training deep<br>Q-networks is presented in Algorithm 1. The agent selects and executes actions<br>according to an E-greedy policy based on Q. Because using histories of arbitrary<br>length as inputs to a neural network can be difficult, our Q-function instead works<br>on a fixed length representation of histories produced by the function 0 described<br>above. The algorithm modifies standard online Q-learning in two ways to make it<br>suitable for training large neural networks without diverging.</p>",
+            "id": 83,
+            "page": 7,
+            "text": "Note that this algorithm is model-free: it solves the reinforcement learning task directly using samples from the emulator, without explicitly estimating the reward and transition dynamics P(r,s'|s,a). It is also off-policy: it learns about the greedy policy a = argmaxa' Q(s,a'; 0), while following a behaviour distribution that ensures adequate exploration of the state space. In practice, the behaviour distribution is often selected by an E-greedy policy that follows the greedy policy with probability 1 - 8 and selects a random action with probability 8. Training algorithm for deep Q-networks. The full algorithm for training deep Q-networks is presented in Algorithm 1. The agent selects and executes actions according to an E-greedy policy based on Q. Because using histories of arbitrary length as inputs to a neural network can be difficult, our Q-function instead works on a fixed length representation of histories produced by the function 0 described above. The algorithm modifies standard online Q-learning in two ways to make it suitable for training large neural networks without diverging."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 169,
+                    "y": 1890
+                },
+                {
+                    "x": 1230,
+                    "y": 1890
+                },
+                {
+                    "x": 1230,
+                    "y": 2563
+                },
+                {
+                    "x": 169,
+                    "y": 2563
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:16px'>First, we use a technique known as experience replay23 in which we store the<br>agent' s experiences at each time-step, et = (st at, rb St + 1), in a data set Dt = {e1,...,et},<br>pooled over many episodes (where the end of an episode occurs when a termi-<br>nal state is reached) into a replay memory. During the inner loop ofthe algorithm,<br>we apply Q-learning updates, or minibatch updates, to samples of experience,<br>(s,a, r,s') ~ U(D), drawn at random from the pool of stored samples. This approach<br>has several advantages over standard online Q-learning. First, each step of experience<br>is potentially used in many weight updates, which allows for greater data efficiency.<br>Second, learning directly from consecutive samples is inefficient, owing to the strong<br>correlations between the samples; randomizing the samples breaks these correla-<br>tions and therefore reduces the variance of the updates. Third, when learning on-<br>policy the current parameters determine the next data sample that the parameters<br>are trained on. For example, ifthe maximizing action is to move left then the train-<br>ing samples will be dominated by samples from the left-hand side; ifthe maximiz-<br>ing action then switches to the right then the training distribution will also switch.<br>Itis easy to see how unwanted feedbackloops may arise and the parameters could get<br>stuckin a poor local minimum, or even diverge catastrophically20. By using experience</p>",
+            "id": 84,
+            "page": 7,
+            "text": "First, we use a technique known as experience replay23 in which we store the agent' s experiences at each time-step, et = (st at, rb St + 1), in a data set Dt = {e1,...,et}, pooled over many episodes (where the end of an episode occurs when a terminal state is reached) into a replay memory. During the inner loop ofthe algorithm, we apply Q-learning updates, or minibatch updates, to samples of experience, (s,a, r,s') ~ U(D), drawn at random from the pool of stored samples. This approach has several advantages over standard online Q-learning. First, each step of experience is potentially used in many weight updates, which allows for greater data efficiency. Second, learning directly from consecutive samples is inefficient, owing to the strong correlations between the samples; randomizing the samples breaks these correlations and therefore reduces the variance of the updates. Third, when learning onpolicy the current parameters determine the next data sample that the parameters are trained on. For example, ifthe maximizing action is to move left then the training samples will be dominated by samples from the left-hand side; ifthe maximizing action then switches to the right then the training distribution will also switch. Itis easy to see how unwanted feedbackloops may arise and the parameters could get stuckin a poor local minimum, or even diverge catastrophically20. By using experience"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1268,
+                    "y": 234
+                },
+                {
+                    "x": 2332,
+                    "y": 234
+                },
+                {
+                    "x": 2332,
+                    "y": 433
+                },
+                {
+                    "x": 1268,
+                    "y": 433
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='85' style='font-size:16px'>replay the behaviour distribution is averaged over many of its previous states,<br>smoothing out learning and avoiding oscillations or divergence in the parameters.<br>Note that when learning by experience replay, it is necessary to learn off-policy<br>(because our current parameters are different to those used to generate the sam-<br>ple), which motivates the choice of Q-learning.</p>",
+            "id": 85,
+            "page": 7,
+            "text": "replay the behaviour distribution is averaged over many of its previous states, smoothing out learning and avoiding oscillations or divergence in the parameters. Note that when learning by experience replay, it is necessary to learn off-policy (because our current parameters are different to those used to generate the sample), which motivates the choice of Q-learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 435
+                },
+                {
+                    "x": 2333,
+                    "y": 435
+                },
+                {
+                    "x": 2333,
+                    "y": 750
+                },
+                {
+                    "x": 1267,
+                    "y": 750
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:16px'>In practice, our algorithm only stores the last N experience tuples in the replay<br>memory, and samples uniformly at random from D when performing updates. This<br>approach is in some respects limited because the memory buffer does not differ-<br>entiate important transitions and always overwrites with recent transitions owing<br>to the finite memory size N. Similarly, the uniform sampling gives equal impor-<br>tance to all transitions in the replay memory. A more sophisticated sampling strat-<br>egy might emphasize transitions from which we can learn the most, similar to<br>prioritized sweeping30.</p>",
+            "id": 86,
+            "page": 7,
+            "text": "In practice, our algorithm only stores the last N experience tuples in the replay memory, and samples uniformly at random from D when performing updates. This approach is in some respects limited because the memory buffer does not differentiate important transitions and always overwrites with recent transitions owing to the finite memory size N. Similarly, the uniform sampling gives equal importance to all transitions in the replay memory. A more sophisticated sampling strategy might emphasize transitions from which we can learn the most, similar to prioritized sweeping30."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1268,
+                    "y": 751
+                },
+                {
+                    "x": 2333,
+                    "y": 751
+                },
+                {
+                    "x": 2333,
+                    "y": 1185
+                },
+                {
+                    "x": 1268,
+                    "y": 1185
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='87' style='font-size:16px'>The second modification to online Q-learning aimed at further improving the<br>stability of our method with neural networks is to use a separate network for gen-<br>erating the targets yj in the Q-learning update. More precisely, every C updates we<br>clone the network Q to obtain a target network Q and use Q for generating the<br>Q-learning targets yj for the following C updates to Q. This modification makes the<br>algorithm more stable compared to standard online Q-learning, where an update<br>that increases Q(spat) often also increases Q(st + 1,a) for all a and hence also increases<br>the target yj, possibly leading to oscillations or divergence ofthe policy. Generating<br>the targets using an older set ofparameters adds a delay between the time an update<br>to Q is made and the time the update affects the targets Yj, making divergence or<br>oscillations much more unlikely.</p>",
+            "id": 87,
+            "page": 7,
+            "text": "The second modification to online Q-learning aimed at further improving the stability of our method with neural networks is to use a separate network for generating the targets yj in the Q-learning update. More precisely, every C updates we clone the network Q to obtain a target network Q and use Q for generating the Q-learning targets yj for the following C updates to Q. This modification makes the algorithm more stable compared to standard online Q-learning, where an update that increases Q(spat) often also increases Q(st + 1,a) for all a and hence also increases the target yj, possibly leading to oscillations or divergence ofthe policy. Generating the targets using an older set ofparameters adds a delay between the time an update to Q is made and the time the update affects the targets Yj, making divergence or oscillations much more unlikely."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 1187
+                },
+                {
+                    "x": 2333,
+                    "y": 1187
+                },
+                {
+                    "x": 2333,
+                    "y": 1429
+                },
+                {
+                    "x": 1269,
+                    "y": 1429
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:14px'>We also found it helpful to clip the error term from the update r +y max�' l<br>(s',a'; 0i ) - Q(s,a; 0i) to be between - 1 and 1. Because the absolute value loss<br>function |x| has a derivative of - 1 for all negative values of x and a derivative of1<br>for all positive values of x, clipping the squared error to be between - 1 and 1 cor-<br>responds to using an absolute value loss function for errors outside of the (-1,1)<br>interval. This form oferror clipping further improved the stability ofthe algorithm.</p>",
+            "id": 88,
+            "page": 7,
+            "text": "We also found it helpful to clip the error term from the update r +y max�' l (s',a'; 0i ) - Q(s,a; 0i) to be between - 1 and 1. Because the absolute value loss function |x| has a derivative of - 1 for all negative values of x and a derivative of1 for all positive values of x, clipping the squared error to be between - 1 and 1 corresponds to using an absolute value loss function for errors outside of the (-1,1) interval. This form oferror clipping further improved the stability ofthe algorithm."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1428
+                },
+                {
+                    "x": 2015,
+                    "y": 1428
+                },
+                {
+                    "x": 2015,
+                    "y": 1466
+                },
+                {
+                    "x": 1272,
+                    "y": 1466
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:18px'>Algorithm 1: deep Q-learning with experience replay.</p>",
+            "id": 89,
+            "page": 7,
+            "text": "Algorithm 1: deep Q-learning with experience replay."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 1468
+                },
+                {
+                    "x": 2077,
+                    "y": 1468
+                },
+                {
+                    "x": 2077,
+                    "y": 1628
+                },
+                {
+                    "x": 1270,
+                    "y": 1628
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:14px'>Initialize replay memory D to capacity N<br>Initialize action-value function Q with random weights 0<br>Initialize target action-value function Q with weights 0 = 0<br>For episode = 1, M do</p>",
+            "id": 90,
+            "page": 7,
+            "text": "Initialize replay memory D to capacity N Initialize action-value function Q with random weights 0 Initialize target action-value function Q with weights 0 = 0 For episode = 1, M do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1302,
+                    "y": 1633
+                },
+                {
+                    "x": 2184,
+                    "y": 1633
+                },
+                {
+                    "x": 2184,
+                    "y": 1710
+                },
+                {
+                    "x": 1302,
+                    "y": 1710
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='91' style='font-size:14px'>Initialize sequence S1 = {x1} and preprocessed sequence ⌀1 =⌀(s1)<br>For t = 1,T do</p>",
+            "id": 91,
+            "page": 7,
+            "text": "Initialize sequence S1 = {x1} and preprocessed sequence ⌀1 =⌀(s1) For t = 1,T do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1351,
+                    "y": 1715
+                },
+                {
+                    "x": 2269,
+                    "y": 1715
+                },
+                {
+                    "x": 2269,
+                    "y": 1970
+                },
+                {
+                    "x": 1351,
+                    "y": 1970
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='92' style='font-size:16px'>With probability 8 select a random action at<br>otherwise select at = argmaxa Q(⌀(st),a; 0)<br>Execute action at in emulator and observe reward rt and image Xt + 1<br>Set St+1 = st,at,xt+1 and preprocess ⌀t+1 =⌀(St+1 )<br>Store transition (�t,at,rt,⌀t+ 1 ) in D<br>Sample random minibatch of transitions (�j,aj,rj,⌀j + ) from D</p>",
+            "id": 92,
+            "page": 7,
+            "text": "With probability 8 select a random action at otherwise select at = argmaxa Q(⌀(st),a; 0) Execute action at in emulator and observe reward rt and image Xt + 1 Set St+1 = st,at,xt+1 and preprocess ⌀t+1 =⌀(St+1 ) Store transition (�t,at,rt,⌀t+ 1 ) in D Sample random minibatch of transitions (�j,aj,rj,⌀j + ) from D"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1349,
+                    "y": 2082
+                },
+                {
+                    "x": 2334,
+                    "y": 2082
+                },
+                {
+                    "x": 2334,
+                    "y": 2215
+                },
+                {
+                    "x": 1349,
+                    "y": 2215
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:18px'>2<br>Perform a gradient descent step on (yj - Q (⌀j,aj; 0)) with respect to the<br>network parameters 0<br>Every C steps reset Q= Q</p>",
+            "id": 93,
+            "page": 7,
+            "text": "2 Perform a gradient descent step on (yj - Q (⌀j,aj; 0)) with respect to the network parameters 0 Every C steps reset Q= Q"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1306,
+                    "y": 2212
+                },
+                {
+                    "x": 1424,
+                    "y": 2212
+                },
+                {
+                    "x": 1424,
+                    "y": 2247
+                },
+                {
+                    "x": 1306,
+                    "y": 2247
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:14px'>End For</p>",
+            "id": 94,
+            "page": 7,
+            "text": "End For"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2254
+                },
+                {
+                    "x": 1390,
+                    "y": 2254
+                },
+                {
+                    "x": 1390,
+                    "y": 2288
+                },
+                {
+                    "x": 1272,
+                    "y": 2288
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='95' style='font-size:14px'>End For</caption>",
+            "id": 95,
+            "page": 7,
+            "text": "End For"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 2316
+                },
+                {
+                    "x": 2332,
+                    "y": 2316
+                },
+                {
+                    "x": 2332,
+                    "y": 2561
+                },
+                {
+                    "x": 1270,
+                    "y": 2561
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:16px'>31. Jarrett, K., Kavukcuoglu, K., Ranzato, M. A. & LeCun, Y. Whatis the best multi-stage<br>architecture for object recognition? Proc. IEEE. Int. Conf. Comput. Vis. 2146-2153<br>(2009).<br>32. Nair, V. & Hinton, G. E. Rectified linear units improve restricted Boltzmann<br>machines. Proc. Int. Conf. Mach. Learn. 807-814 (2010).<br>33. Kaelbling, L. P., Littman, M. L. & Cassandra, A. R. Planning and acting in partially<br>observable stochastic domains. Artificial Intelligence 101, 99-134 (1994).</p>",
+            "id": 96,
+            "page": 7,
+            "text": "31. Jarrett, K., Kavukcuoglu, K., Ranzato, M. A. & LeCun, Y. Whatis the best multi-stage architecture for object recognition? Proc. IEEE. Int. Conf. Comput. Vis. 2146-2153 (2009). 32. Nair, V. & Hinton, G. E. Rectified linear units improve restricted Boltzmann machines. Proc. Int. Conf. Mach. Learn. 807-814 (2010). 33. Kaelbling, L. P., Littman, M. L. & Cassandra, A. R. Planning and acting in partially observable stochastic domains. Artificial Intelligence 101, 99-134 (1994)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3206
+                },
+                {
+                    "x": 1605,
+                    "y": 3206
+                },
+                {
+                    "x": 1605,
+                    "y": 3246
+                },
+                {
+                    "x": 814,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='97' style='font-size:14px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 97,
+            "page": 7,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 162,
+                    "y": 95
+                },
+                {
+                    "x": 509,
+                    "y": 95
+                },
+                {
+                    "x": 509,
+                    "y": 155
+                },
+                {
+                    "x": 162,
+                    "y": 155
+                }
+            ],
+            "category": "header",
+            "html": "<header id='98' style='font-size:20px'>RESEARCH LETTER</header>",
+            "id": 98,
+            "page": 8,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 149,
+                    "y": 243
+                },
+                {
+                    "x": 2312,
+                    "y": 243
+                },
+                {
+                    "x": 2312,
+                    "y": 1948
+                },
+                {
+                    "x": 149,
+                    "y": 1948
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='99' style='font-size:14px' alt=\"0740 0000 0630 0000\nA W � * A A 餐 ◈ 餐 ※ 餐 餐\n骨 骨 � 骨骨 南 Ⓡ 南 � 南 Ⓡ\n� � � 香香 못 봇 *** 못\n� � � � 餐 �\n8 ☎ :' � R ★★★ 只\nⓇ 角 餐 � 第1条 管 Ⓐ X X A M\n와 와 分 와 ft ☎ 운 ft ft ft\n管\n� 、 a カ カ ウ 步 ' ₩ \n0740 0000 0630 0000 1625 0000 1445 0000 1470 0000\n家 � 餐 餐 � �\n� ***** W W W W � � A W � � W �\n� 南 Ⓡ M 南\nⓇ 0000 の � � 价 � � 骨 � & � � 需\n못 못 못 火災\n봇 X 봇 못 � � 内\nR R RR\n� � ☎ ☎\n☎ ☎ ☎ ft\n☎ ☎ 와 分 와\n' 疑 カ カ t �\n27\" data-coord=\"top-left:(149,243); bottom-right:(2312,1948)\" /></figure>",
+            "id": 99,
+            "page": 8,
+            "text": "0740 0000 0630 0000 A W � * A A 餐 ◈ 餐 ※ 餐 餐 骨 骨 � 骨骨 南 Ⓡ 南 � 南 Ⓡ � � � 香香 못 봇 *** 못 � � � � 餐 � 8 ☎ :\" � R ★★★ 只 Ⓡ 角 餐 � 第1条 管 Ⓐ X X A M 와 와 分 와 ft ☎ 운 ft ft ft 管 � 、 a カ カ ウ 步 \" ₩  0740 0000 0630 0000 1625 0000 1445 0000 1470 0000 家 � 餐 餐 � � � ***** W W W W � � A W � � W � � 南 Ⓡ M 南 Ⓡ 0000 の � � 价 � � 骨 � & � � 需 못 못 못 火災 봇 X 봇 못 � � 内 R R RR � � ☎ ☎ ☎ ☎ ☎ ft ☎ ☎ 와 分 와 \" 疑 カ カ t � 27"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 146,
+                    "y": 1989
+                },
+                {
+                    "x": 1211,
+                    "y": 1989
+                },
+                {
+                    "x": 1211,
+                    "y": 2312
+                },
+                {
+                    "x": 146,
+                    "y": 2312
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='100' style='font-size:18px'>Extended Data Figure 1 I Two-dimensional t-SNE embedding of the<br>representations in the last hidden layer assigned by DQN to game states<br>experienced during a combination of human and agent play in Space<br>Invaders. The plot was generatedby running the t-SNE algorithm25 on the last<br>hidden layer representation assigned by DQN to game states experienced<br>during a combination of human (30 min) and agent (2h) play. The fact that<br>there is similar structure in the two-dimensional embeddings corresponding to<br>the DQN representation of states experienced during human play (orange</caption>",
+            "id": 100,
+            "page": 8,
+            "text": "Extended Data Figure 1 I Two-dimensional t-SNE embedding of the representations in the last hidden layer assigned by DQN to game states experienced during a combination of human and agent play in Space Invaders. The plot was generatedby running the t-SNE algorithm25 on the last hidden layer representation assigned by DQN to game states experienced during a combination of human (30 min) and agent (2h) play. The fact that there is similar structure in the two-dimensional embeddings corresponding to the DQN representation of states experienced during human play (orange"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1244,
+                    "y": 1993
+                },
+                {
+                    "x": 2304,
+                    "y": 1993
+                },
+                {
+                    "x": 2304,
+                    "y": 2271
+                },
+                {
+                    "x": 1244,
+                    "y": 2271
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='101' style='font-size:18px'>points) and DQN play (blue points) suggests that the representations learned<br>by DQN do indeed generalize to data generated from policies other than its<br>own. The presence in the t-SNE embedding of overlapping clusters of points<br>corresponding to the network representation of states experienced during<br>human and agent play shows that the DQN agent also follows sequences of<br>states similar to those found in human play. Screenshots corresponding to<br>selected states are shown (human: orange border; DQN: blue border).</p>",
+            "id": 101,
+            "page": 8,
+            "text": "points) and DQN play (blue points) suggests that the representations learned by DQN do indeed generalize to data generated from policies other than its own. The presence in the t-SNE embedding of overlapping clusters of points corresponding to the network representation of states experienced during human and agent play shows that the DQN agent also follows sequences of states similar to those found in human play. Screenshots corresponding to selected states are shown (human: orange border; DQN: blue border)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 815,
+                    "y": 3208
+                },
+                {
+                    "x": 1604,
+                    "y": 3208
+                },
+                {
+                    "x": 1604,
+                    "y": 3245
+                },
+                {
+                    "x": 815,
+                    "y": 3245
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='102' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 102,
+            "page": 8,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1977,
+                    "y": 96
+                },
+                {
+                    "x": 2318,
+                    "y": 96
+                },
+                {
+                    "x": 2318,
+                    "y": 154
+                },
+                {
+                    "x": 1977,
+                    "y": 154
+                }
+            ],
+            "category": "header",
+            "html": "<header id='103' style='font-size:20px'>LETTER RESEARCH</header>",
+            "id": 103,
+            "page": 9,
+            "text": "LETTER RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 218
+                },
+                {
+                    "x": 2341,
+                    "y": 218
+                },
+                {
+                    "x": 2341,
+                    "y": 2361
+                },
+                {
+                    "x": 170,
+                    "y": 2361
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='104' style='font-size:14px' alt=\"2 3 4\na ①  056 5 I 065 5 � � 72 5 \n052 5\n25 4\n24\n23 3\n22\n(V)\n21\nValue\n20\n19\n18 ① 2\n17\n16\n15\n0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105 110 115 120\nFrame #\nb 1 2 3 4\n2 2 2 2\n() 1\nNO-OP\nAction-Values\n0.5\nUP\n0\nDOWN\n-0.5\n-\" data-coord=\"top-left:(170,218); bottom-right:(2341,2361)\" /></figure>",
+            "id": 104,
+            "page": 9,
+            "text": "2 3 4 a ①  056 5 I 065 5 � � 72 5  052 5 25 4 24 23 3 22 (V) 21 Value 20 19 18 ① 2 17 16 15 0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 105 110 115 120 Frame # b 1 2 3 4 2 2 2 2 () 1 NO-OP Action-Values 0.5 UP 0 DOWN -0.5 -"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 166,
+                    "y": 2374
+                },
+                {
+                    "x": 1234,
+                    "y": 2374
+                },
+                {
+                    "x": 1234,
+                    "y": 2861
+                },
+                {
+                    "x": 166,
+                    "y": 2861
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='105' style='font-size:18px'>Extended Data Figure 2 I Visualization of learned value functions on two<br>games, Breakout and Pong. a, A visualization of the learned value function on<br>the game Breakout. At time points 1 and 2, the state value is predicted to be ~17<br>and the agent is clearing the bricks at the lowest level. Each of the peaks in<br>the value function curve corresponds to a reward obtained by clearing a brick.<br>At time point3, the agentis about to break through to the top level ofbricks and<br>the value increases to ~21 in anticipation of breaking out and clearing a<br>large set of bricks. At point 4, the value is above 23 and the agent has broken<br>through. After this point, the ball will bounce at the upper part of the bricks<br>clearing many of them by itself. b, A visualization of the learned action-value<br>function on the game Pong. At time point 1, the ball is moving towards the<br>paddle controlled by the agent on the right side of the screen and the values of</caption>",
+            "id": 105,
+            "page": 9,
+            "text": "Extended Data Figure 2 I Visualization of learned value functions on two games, Breakout and Pong. a, A visualization of the learned value function on the game Breakout. At time points 1 and 2, the state value is predicted to be ~17 and the agent is clearing the bricks at the lowest level. Each of the peaks in the value function curve corresponds to a reward obtained by clearing a brick. At time point3, the agentis about to break through to the top level ofbricks and the value increases to ~21 in anticipation of breaking out and clearing a large set of bricks. At point 4, the value is above 23 and the agent has broken through. After this point, the ball will bounce at the upper part of the bricks clearing many of them by itself. b, A visualization of the learned action-value function on the game Pong. At time point 1, the ball is moving towards the paddle controlled by the agent on the right side of the screen and the values of"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1267,
+                    "y": 2378
+                },
+                {
+                    "x": 2337,
+                    "y": 2378
+                },
+                {
+                    "x": 2337,
+                    "y": 2820
+                },
+                {
+                    "x": 1267,
+                    "y": 2820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='106' style='font-size:18px'>all actions are around 0.7, reflecting the expected value of this state based on<br>previous experience. At time point 2, the agent starts moving the paddle<br>towards the ball and the value ofthe 'up' action stays high while the value of the<br>'down' action falls to -0.9. This reflects the fact that pressing 'down' would lead<br>to the agent losing the ball and incurring a reward of - 1. At time point 3,<br>the agent hits the ball by pressing 'up' and the expected reward keeps increasing<br>until time point 4, when the ball reaches the left edge of the screen and the value<br>of all actions reflects that the agent is about to receive a reward of 1. Note,<br>the dashed line shows the past trajectory of the ball purely for illustrative<br>purposes (that is, not shown during the game). With permission from Atari<br>Interactive, Inc.</p>",
+            "id": 106,
+            "page": 9,
+            "text": "all actions are around 0.7, reflecting the expected value of this state based on previous experience. At time point 2, the agent starts moving the paddle towards the ball and the value ofthe 'up' action stays high while the value of the 'down' action falls to -0.9. This reflects the fact that pressing 'down' would lead to the agent losing the ball and incurring a reward of - 1. At time point 3, the agent hits the ball by pressing 'up' and the expected reward keeps increasing until time point 4, when the ball reaches the left edge of the screen and the value of all actions reflects that the agent is about to receive a reward of 1. Note, the dashed line shows the past trajectory of the ball purely for illustrative purposes (that is, not shown during the game). With permission from Atari Interactive, Inc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 813,
+                    "y": 3207
+                },
+                {
+                    "x": 1605,
+                    "y": 3207
+                },
+                {
+                    "x": 1605,
+                    "y": 3246
+                },
+                {
+                    "x": 813,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='107' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 107,
+            "page": 9,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 157,
+                    "y": 92
+                },
+                {
+                    "x": 513,
+                    "y": 92
+                },
+                {
+                    "x": 513,
+                    "y": 157
+                },
+                {
+                    "x": 157,
+                    "y": 157
+                }
+            ],
+            "category": "header",
+            "html": "<header id='108' style='font-size:22px'>RESEARCH LETTER</header>",
+            "id": 108,
+            "page": 10,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 144,
+                    "y": 230
+                },
+                {
+                    "x": 1179,
+                    "y": 230
+                },
+                {
+                    "x": 1179,
+                    "y": 276
+                },
+                {
+                    "x": 144,
+                    "y": 276
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='109' style='font-size:20px'>Extended Data Table 1 I List of hyperparameters and their values</caption>",
+            "id": 109,
+            "page": 10,
+            "text": "Extended Data Table 1 I List of hyperparameters and their values"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 231,
+                    "y": 282
+                },
+                {
+                    "x": 2232,
+                    "y": 282
+                },
+                {
+                    "x": 2232,
+                    "y": 1492
+                },
+                {
+                    "x": 231,
+                    "y": 1492
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='110' style='font-size:16px'><tr><td>Hyperparameter</td><td>Value</td><td>Description</td></tr><tr><td>minibatch size</td><td>32</td><td>Number of training cases over which each stochastic gradient descent (SGD) update is computed.</td></tr><tr><td>replay memory size</td><td>1000000</td><td>SGD updates are sampled from this number of most recent frames.</td></tr><tr><td>agent history length</td><td>4</td><td>The number of most recent frames experienced by the agent that are given as input to the Q network.</td></tr><tr><td>target network update frequency</td><td>10000</td><td>The frequency (measured in the number of parameter updates) with which the target network is updated (this corresponds to the parameter C from Algorithm 1).</td></tr><tr><td>discount factor</td><td>0.99</td><td>Discount factor gamma used in the Q-learning update.</td></tr><tr><td>action repeat</td><td>4</td><td>Repeat each action selected by the agent this many times. Using a value of 4 results in the agent seeing only every 4th input frame.</td></tr><tr><td>update frequency</td><td>4</td><td>The number of actions selected by the agent between successive SGD updates. Using a value of 4 results in the agent selecting 4 actions between each pair of successive updates.</td></tr><tr><td>learning rate</td><td>0.00025</td><td>The learning rate used by RMSProp.</td></tr><tr><td>gradient momentum</td><td>0.95</td><td>Gradient momentum used by RMSProp.</td></tr><tr><td>squared gradient momentum</td><td>0.95</td><td>Squared gradient (denominator) momentum used by RMSProp.</td></tr><tr><td>min squared gradient</td><td>0.01</td><td>Constant added to the squared gradient in the denominator of the RMSProp update.</td></tr><tr><td>initial exploration</td><td>1</td><td>Initial value of 3 in E-greedy exploration.</td></tr><tr><td>final exploration</td><td>0.1</td><td>Final value of 3 in E-greedy exploration.</td></tr><tr><td>final exploration frame</td><td>1000000</td><td>The number of frames over which the initial value of 3 is linearly annealed to its final value.</td></tr><tr><td>replay start size</td><td>50000</td><td>A uniform random policy is run for this number of frames before learning starts and the resulting experience is used to populate the replay memory.</td></tr><tr><td>no-op max</td><td>30</td><td>Maximum number of \"do nothing\" actions to be performed by the agent at the start of an episode.</td></tr></table>",
+            "id": 110,
+            "page": 10,
+            "text": "Hyperparameter Value Description  minibatch size 32 Number of training cases over which each stochastic gradient descent (SGD) update is computed.  replay memory size 1000000 SGD updates are sampled from this number of most recent frames.  agent history length 4 The number of most recent frames experienced by the agent that are given as input to the Q network.  target network update frequency 10000 The frequency (measured in the number of parameter updates) with which the target network is updated (this corresponds to the parameter C from Algorithm 1).  discount factor 0.99 Discount factor gamma used in the Q-learning update.  action repeat 4 Repeat each action selected by the agent this many times. Using a value of 4 results in the agent seeing only every 4th input frame.  update frequency 4 The number of actions selected by the agent between successive SGD updates. Using a value of 4 results in the agent selecting 4 actions between each pair of successive updates.  learning rate 0.00025 The learning rate used by RMSProp.  gradient momentum 0.95 Gradient momentum used by RMSProp.  squared gradient momentum 0.95 Squared gradient (denominator) momentum used by RMSProp.  min squared gradient 0.01 Constant added to the squared gradient in the denominator of the RMSProp update.  initial exploration 1 Initial value of 3 in E-greedy exploration.  final exploration 0.1 Final value of 3 in E-greedy exploration.  final exploration frame 1000000 The number of frames over which the initial value of 3 is linearly annealed to its final value.  replay start size 50000 A uniform random policy is run for this number of frames before learning starts and the resulting experience is used to populate the replay memory.  no-op max 30"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 145,
+                    "y": 1519
+                },
+                {
+                    "x": 2311,
+                    "y": 1519
+                },
+                {
+                    "x": 2311,
+                    "y": 1589
+                },
+                {
+                    "x": 145,
+                    "y": 1589
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:14px'>The values of all the hyperparameters were selected by performing an informal search on the games Pong, Breakout, Seaquest, Space Invaders and Beam Rider. We did not perform a systematic grid search owing<br>to the high computational cost, although it is conceivable that even better results could be obtained by systematically tuning the hyperparameter values.</p>",
+            "id": 111,
+            "page": 10,
+            "text": "The values of all the hyperparameters were selected by performing an informal search on the games Pong, Breakout, Seaquest, Space Invaders and Beam Rider. We did not perform a systematic grid search owing to the high computational cost, although it is conceivable that even better results could be obtained by systematically tuning the hyperparameter values."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3206
+                },
+                {
+                    "x": 1606,
+                    "y": 3206
+                },
+                {
+                    "x": 1606,
+                    "y": 3247
+                },
+                {
+                    "x": 814,
+                    "y": 3247
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='112' style='font-size:18px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 112,
+            "page": 10,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1978,
+                    "y": 99
+                },
+                {
+                    "x": 2320,
+                    "y": 99
+                },
+                {
+                    "x": 2320,
+                    "y": 153
+                },
+                {
+                    "x": 1978,
+                    "y": 153
+                }
+            ],
+            "category": "header",
+            "html": "<header id='113' style='font-size:22px'>LETTER RESEARCH</header>",
+            "id": 113,
+            "page": 11,
+            "text": "LETTER RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 170,
+                    "y": 233
+                },
+                {
+                    "x": 2334,
+                    "y": 233
+                },
+                {
+                    "x": 2334,
+                    "y": 311
+                },
+                {
+                    "x": 170,
+                    "y": 311
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:20px'>Extended Data Table 2 I Comparison of games scores obtained by DQN agents with methods from the literature12.15 and a professional<br>human games tester</p>",
+            "id": 114,
+            "page": 11,
+            "text": "Extended Data Table 2 I Comparison of games scores obtained by DQN agents with methods from the literature12.15 and a professional human games tester"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 326,
+                    "y": 323
+                },
+                {
+                    "x": 2199,
+                    "y": 323
+                },
+                {
+                    "x": 2199,
+                    "y": 3013
+                },
+                {
+                    "x": 326,
+                    "y": 3013
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='115' style='font-size:18px'><tr><td>Game</td><td>Random Play</td><td>Best Linear Learner</td><td>Contingency (SARSA)</td><td>Human</td><td>DQN (± std)</td><td>Normalized DQN (% Human)</td></tr><tr><td>Alien</td><td>227.8</td><td>939.2</td><td>103.2</td><td>6875</td><td>3069 (±1093)</td><td>42.7%</td></tr><tr><td>Amidar</td><td>5.8</td><td>103.4</td><td>183.6</td><td>1676</td><td>739.5 (±3024)</td><td>43.9%</td></tr><tr><td>Assault</td><td>222.4</td><td>628</td><td>537</td><td>1496</td><td>3359(±775)</td><td>246.2%</td></tr><tr><td>Asterix</td><td>210</td><td>987.3</td><td>1332</td><td>8503</td><td>6012 (±1744)</td><td>70.0%</td></tr><tr><td>Asteroids</td><td>719.1</td><td>907.3</td><td>89</td><td>13157</td><td>1629 (±542)</td><td>7.3%</td></tr><tr><td>Atlantis</td><td>12850</td><td>62687</td><td>852.9</td><td>29028</td><td>85641(±17600)</td><td>449.9%</td></tr><tr><td>Bank Heist</td><td>14.2</td><td>190.8</td><td>67.4</td><td>734.4</td><td>429.7 (±650)</td><td>57.7%</td></tr><tr><td>Battle Zone</td><td>2360</td><td>15820</td><td>16.2</td><td>37800</td><td>26300 (±7725)</td><td>67.6%</td></tr><tr><td>Beam Rider</td><td>363.9</td><td>929.4</td><td>1743</td><td>5775</td><td>6846 (±1619)</td><td>119.8%</td></tr><tr><td>Bowling</td><td>23.1</td><td>43.9</td><td>36.4</td><td>154.8</td><td>42.4 (±88)</td><td>14.7%</td></tr><tr><td>Boxing</td><td>0.1</td><td>44</td><td>9.8</td><td>4.3</td><td>71.8 (±8.4)</td><td>1707.9%</td></tr><tr><td>Breakout</td><td>1.7</td><td>5.2</td><td>6.1 11.4</td><td>31.8</td><td>401.2 (±26.9)</td><td>1327.2%</td></tr><tr><td>Centipede</td><td>2091</td><td>8803</td><td>4647</td><td>11963</td><td>8309(±5237)</td><td>63.0%</td></tr><tr><td>Chopper Command</td><td>811</td><td>1582</td><td>16.9</td><td>9882</td><td>6687 (±2916)</td><td>64.8%</td></tr><tr><td>Crazy Climber</td><td>10781</td><td>23411</td><td>149.8</td><td>35411</td><td>114103 (±22797)</td><td>419.5%</td></tr><tr><td>Demon Attack</td><td>152.1</td><td>520.5</td><td>0</td><td>3401</td><td>9711 (±2406)</td><td>294.2%</td></tr><tr><td>Double Dunk</td><td>-18.6</td><td>-13.1</td><td>-16</td><td>-15.5</td><td>-18.1 (±2.6)</td><td>17.1%</td></tr><tr><td>Enduro</td><td>0</td><td>129.1</td><td>159.4</td><td>309.6</td><td>301.8 (±24.6)</td><td>97.5%</td></tr><tr><td>Fishing Derby</td><td>-91.7</td><td>-89.5</td><td>-85.1</td><td>5.5</td><td>-0.8 (±19.0)</td><td>93.5%</td></tr><tr><td>Freeway</td><td>0</td><td>19.1</td><td>19.7</td><td>29.6</td><td>30.3 (±0.7)</td><td>102.4%</td></tr><tr><td>Frostbite</td><td>65.2</td><td>216.9 167.6</td><td>180.9</td><td>4335</td><td>328.3 (±250.5)</td><td>6.2%</td></tr><tr><td>Gopher</td><td>257.6</td><td>1288</td><td>2368</td><td>2321</td><td>8520 (±3279)</td><td>400.4%</td></tr><tr><td>Gravitar</td><td>173 3568</td><td>387.7</td><td>429</td><td>2672</td><td>306.7 (±223.9)</td><td>5.3%</td></tr><tr><td>H.E.R.O.</td><td>1027</td><td>6459</td><td>7295</td><td>25763 186.7</td><td>19950 (±158)</td><td>76.5% 98.2</td></tr><tr><td>Ice Hockey Tutankham</td><td>-11.2</td><td>-9.5</td><td>-3.2</td><td>0.9</td><td>-1.6 (±2.5)</td><td>79.3%</td></tr><tr><td>James Bond</td><td>29</td><td>202.8</td><td>354.1</td><td>406.7</td><td>576.7 (±175.5) 8456 (±3162)</td><td>145.0% 92.7%</td></tr><tr><td>Kangaroo</td><td>52</td><td>1622</td><td>8.8</td><td>3035</td><td>6740 (±2959)</td><td>224.2%</td></tr><tr><td>Krull</td><td>1598</td><td>3372</td><td>3341</td><td>2395</td><td>3805 (±1033)</td><td>277.0%</td></tr><tr><td>Kung-Fu Master</td><td>258.5</td><td>19544</td><td>29151</td><td>22736</td><td>23270 (±5955)</td><td>102.4%</td></tr><tr><td>Montezuma's Revenge</td><td>0</td><td>10.7</td><td>259</td><td>4367</td><td>0 (±0)</td><td>0.0%</td></tr><tr><td>Ms. Pacman</td><td>307.3</td><td>1692</td><td>1227</td><td>15693</td><td>2311(±525)</td><td>13.0%</td></tr><tr><td>Name This Game</td><td>2292</td><td>2500</td><td>2247</td><td>4076</td><td>7257 (±547)</td><td>278.3%</td></tr><tr><td>Pong</td><td>-20.7</td><td>-19</td><td>-17.4</td><td>9.3</td><td>18.9 (±1.3)</td><td>132.0%</td></tr><tr><td>Private Eye</td><td>24.9</td><td>684.3</td><td>86</td><td>69571</td><td>1788 (±5473)</td><td>2.5%</td></tr><tr><td>Q*Bert</td><td>163.9</td><td>613.5</td><td>960.3</td><td>13455</td><td>10596 (±3294)</td><td>78.5%</td></tr><tr><td>River Raid</td><td>1339</td><td>1904</td><td>2650</td><td>13513</td><td>8316 (±1049)</td><td>57.3%</td></tr><tr><td>Road Runner</td><td>11.5</td><td>67.7</td><td>89.1</td><td>7845 11.9</td><td>18257 (±4268) 51.6 (±4.7)</td><td>232.9% 509.0%</td></tr><tr><td>Robotank Seaquest</td><td>2.2</td><td>28.7 664.8</td><td>12.4 675.5</td><td>20182</td><td></td><td>25.9%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>68.4</td><td></td><td></td><td></td><td>5286(±1310)</td><td></td></tr><tr><td>Space Invaders</td><td>148</td><td>250.1</td><td>267.9</td><td>1652</td><td>1976 (±893) 57997 (±3152)</td><td>121.5% 598.1%</td></tr><tr><td>Star Gunner Tennis Time Pilot</td><td>664 -23.8</td><td>1070 -0.1 3741 114.3</td><td>9.4 0 24.9</td><td>10250 -8.9 5925</td><td>-2.5 (±1.9) 5947 (±1600) (±41.9)</td><td>143.2% 100.9% 112.2%</td></tr><tr><td>Up and Down Venture</td><td>533.4 0</td><td>3533 66</td><td>2449 0.6</td><td>9082 1188</td><td>380.0 (±238.6)</td><td>32.0%</td></tr><tr><td>Video Pinball</td><td>16257</td><td>16871</td><td>19761</td><td>17298</td><td>42684 (±16287)</td><td>2539.4%</td></tr><tr><td>Wizard of Wor</td><td>563.5</td><td>1981</td><td>36.9</td><td>4757</td><td>3393 (±2019)</td><td>67.5%</td></tr><tr><td>Zaxxon</td><td>32.5</td><td>3365</td><td>21.4</td><td>9173</td><td>4977 (±1235)</td><td>54.1%</td></tr></table>",
+            "id": 115,
+            "page": 11,
+            "text": "Game Random Play Best Linear Learner Contingency (SARSA) Human DQN (± std) Normalized DQN (% Human)  Alien 227.8 939.2 103.2 6875 3069 (±1093) 42.7%  Amidar 5.8 103.4 183.6 1676 739.5 (±3024) 43.9%  Assault 222.4 628 537 1496 3359(±775) 246.2%  Asterix 210 987.3 1332 8503 6012 (±1744) 70.0%  Asteroids 719.1 907.3 89 13157 1629 (±542) 7.3%  Atlantis 12850 62687 852.9 29028 85641(±17600) 449.9%  Bank Heist 14.2 190.8 67.4 734.4 429.7 (±650) 57.7%  Battle Zone 2360 15820 16.2 37800 26300 (±7725) 67.6%  Beam Rider 363.9 929.4 1743 5775 6846 (±1619) 119.8%  Bowling 23.1 43.9 36.4 154.8 42.4 (±88) 14.7%  Boxing 0.1 44 9.8 4.3 71.8 (±8.4) 1707.9%  Breakout 1.7 5.2 6.1 11.4 31.8 401.2 (±26.9) 1327.2%  Centipede 2091 8803 4647 11963 8309(±5237) 63.0%  Chopper Command 811 1582 16.9 9882 6687 (±2916) 64.8%  Crazy Climber 10781 23411 149.8 35411 114103 (±22797) 419.5%  Demon Attack 152.1 520.5 0 3401 9711 (±2406) 294.2%  Double Dunk -18.6 -13.1 -16 -15.5 -18.1 (±2.6) 17.1%  Enduro 0 129.1 159.4 309.6 301.8 (±24.6) 97.5%  Fishing Derby -91.7 -89.5 -85.1 5.5 -0.8 (±19.0) 93.5%  Freeway 0 19.1 19.7 29.6 30.3 (±0.7) 102.4%  Frostbite 65.2 216.9 167.6 180.9 4335 328.3 (±250.5) 6.2%  Gopher 257.6 1288 2368 2321 8520 (±3279) 400.4%  Gravitar 173 3568 387.7 429 2672 306.7 (±223.9) 5.3%  H.E.R.O. 1027 6459 7295 25763 186.7 19950 (±158) 76.5% 98.2  Ice Hockey Tutankham -11.2 -9.5 -3.2 0.9 -1.6 (±2.5) 79.3%  James Bond 29 202.8 354.1 406.7 576.7 (±175.5) 8456 (±3162) 145.0% 92.7%  Kangaroo 52 1622 8.8 3035 6740 (±2959) 224.2%  Krull 1598 3372 3341 2395 3805 (±1033) 277.0%  Kung-Fu Master 258.5 19544 29151 22736 23270 (±5955) 102.4%  Montezuma's Revenge 0 10.7 259 4367 0 (±0) 0.0%  Ms. Pacman 307.3 1692 1227 15693 2311(±525) 13.0%  Name This Game 2292 2500 2247 4076 7257 (±547) 278.3%  Pong -20.7 -19 -17.4 9.3 18.9 (±1.3) 132.0%  Private Eye 24.9 684.3 86 69571 1788 (±5473) 2.5%  Q*Bert 163.9 613.5 960.3 13455 10596 (±3294) 78.5%  River Raid 1339 1904 2650 13513 8316 (±1049) 57.3%  Road Runner 11.5 67.7 89.1 7845 11.9 18257 (±4268) 51.6 (±4.7) 232.9% 509.0%  Robotank Seaquest 2.2 28.7 664.8 12.4 675.5 20182  25.9%                                   68.4    5286(±1310)   Space Invaders 148 250.1 267.9 1652 1976 (±893) 57997 (±3152) 121.5% 598.1%  Star Gunner Tennis Time Pilot 664 -23.8 1070 -0.1 3741 114.3 9.4 0 24.9 10250 -8.9 5925 -2.5 (±1.9) 5947 (±1600) (±41.9) 143.2% 100.9% 112.2%  Up and Down Venture 533.4 0 3533 66 2449 0.6 9082 1188 380.0 (±238.6) 32.0%  Video Pinball 16257 16871 19761 17298 42684 (±16287) 2539.4%  Wizard of Wor 563.5 1981 36.9 4757 3393 (±2019) 67.5%  Zaxxon 32.5 3365 21.4 9173 4977 (±1235)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 166,
+                    "y": 3045
+                },
+                {
+                    "x": 2331,
+                    "y": 3045
+                },
+                {
+                    "x": 2331,
+                    "y": 3112
+                },
+                {
+                    "x": 166,
+                    "y": 3112
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:14px'>Best Linear Learner is the best result obtained by a linear function approximator on different types of hand designed features12. Contingency (SARSA) agent figures are the results obtained in ref. 15. Note the<br>figures in the last column indicate the performance of DQN relative to the human games tester, expressed as a percentage, thatis, 100 x (DQN score - random play score)/(human score - random play score).</p>",
+            "id": 116,
+            "page": 11,
+            "text": "Best Linear Learner is the best result obtained by a linear function approximator on different types of hand designed features12. Contingency (SARSA) agent figures are the results obtained in ref. 15. Note the figures in the last column indicate the performance of DQN relative to the human games tester, expressed as a percentage, thatis, 100 x (DQN score - random play score)/(human score - random play score)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 815,
+                    "y": 3207
+                },
+                {
+                    "x": 1606,
+                    "y": 3207
+                },
+                {
+                    "x": 1606,
+                    "y": 3246
+                },
+                {
+                    "x": 815,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='117' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 117,
+            "page": 11,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 160,
+                    "y": 96
+                },
+                {
+                    "x": 504,
+                    "y": 96
+                },
+                {
+                    "x": 504,
+                    "y": 154
+                },
+                {
+                    "x": 160,
+                    "y": 154
+                }
+            ],
+            "category": "header",
+            "html": "<header id='118' style='font-size:22px'>RESEARCH LETTER</header>",
+            "id": 118,
+            "page": 12,
+            "text": "RESEARCH LETTER"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 146,
+                    "y": 232
+                },
+                {
+                    "x": 1438,
+                    "y": 232
+                },
+                {
+                    "x": 1438,
+                    "y": 276
+                },
+                {
+                    "x": 146,
+                    "y": 276
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='119' style='font-size:20px'>Extended Data Table 3 I The effects of replay and separating the target Q-network</p>",
+            "id": 119,
+            "page": 12,
+            "text": "Extended Data Table 3 I The effects of replay and separating the target Q-network"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 392,
+                    "y": 282
+                },
+                {
+                    "x": 2065,
+                    "y": 282
+                },
+                {
+                    "x": 2065,
+                    "y": 728
+                },
+                {
+                    "x": 392,
+                    "y": 728
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='120' style='font-size:18px'><tr><td>Game</td><td>With replay, with target Q</td><td>With replay, without target Q</td><td>Without replay, with target Q</td><td>Without replay, without target Q</td></tr><tr><td>Breakout</td><td>316.8</td><td>240.7</td><td>10.2</td><td>3.2</td></tr><tr><td>Enduro</td><td>1006.3</td><td>831.4</td><td>141.9</td><td>29.1</td></tr><tr><td>River Raid</td><td>7446.6</td><td>4102.8</td><td>2867.7</td><td>1453.0</td></tr><tr><td>Seaquest</td><td>2894.4</td><td>822.6</td><td>1003.0</td><td>275.8</td></tr><tr><td>Space Invaders</td><td>1088.9</td><td>826.3</td><td>373.2</td><td>302.0</td></tr></table>",
+            "id": 120,
+            "page": 12,
+            "text": "Game With replay, with target Q With replay, without target Q Without replay, with target Q Without replay, without target Q  Breakout 316.8 240.7 10.2 3.2  Enduro 1006.3 831.4 141.9 29.1  River Raid 7446.6 4102.8 2867.7 1453.0  Seaquest 2894.4 822.6 1003.0 275.8  Space Invaders 1088.9 826.3 373.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 147,
+                    "y": 753
+                },
+                {
+                    "x": 2310,
+                    "y": 753
+                },
+                {
+                    "x": 2310,
+                    "y": 882
+                },
+                {
+                    "x": 147,
+                    "y": 882
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:14px'>DQN agents were trained for 10 million frames using standard hyperparameters for all possible combinations ofturning replay on oroff, using or notusinga separate target Q-network, and three differentlearning<br>rates. Each agent was evaluated every 250,000 training frames for 135,000 validation frames and the highest average episode score is reported. Note that these evaluation episodes were not truncated at 5 min<br>leading to higher scores on Enduro than the ones reported in Extended Data Table 2. Note also that the number oftraining frames was shorter (10 million frames) as compared to the main results presented in<br>Extended Data Table 2 (50 million frames).</p>",
+            "id": 121,
+            "page": 12,
+            "text": "DQN agents were trained for 10 million frames using standard hyperparameters for all possible combinations ofturning replay on oroff, using or notusinga separate target Q-network, and three differentlearning rates. Each agent was evaluated every 250,000 training frames for 135,000 validation frames and the highest average episode score is reported. Note that these evaluation episodes were not truncated at 5 min leading to higher scores on Enduro than the ones reported in Extended Data Table 2. Note also that the number oftraining frames was shorter (10 million frames) as compared to the main results presented in Extended Data Table 2 (50 million frames)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 816,
+                    "y": 3208
+                },
+                {
+                    "x": 1605,
+                    "y": 3208
+                },
+                {
+                    "x": 1605,
+                    "y": 3246
+                },
+                {
+                    "x": 816,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='122' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 122,
+            "page": 12,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1977,
+                    "y": 97
+                },
+                {
+                    "x": 2315,
+                    "y": 97
+                },
+                {
+                    "x": 2315,
+                    "y": 153
+                },
+                {
+                    "x": 1977,
+                    "y": 153
+                }
+            ],
+            "category": "header",
+            "html": "<header id='123' style='font-size:20px'>LETTER RESEARCH</header>",
+            "id": 123,
+            "page": 13,
+            "text": "LETTER RESEARCH"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 171,
+                    "y": 233
+                },
+                {
+                    "x": 1230,
+                    "y": 233
+                },
+                {
+                    "x": 1230,
+                    "y": 310
+                },
+                {
+                    "x": 171,
+                    "y": 310
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:18px'>Extended Data Table 4 I Comparison of DQN performance with lin-<br>ear function approximator</p>",
+            "id": 124,
+            "page": 13,
+            "text": "Extended Data Table 4 I Comparison of DQN performance with linear function approximator"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 317,
+                    "y": 320
+                },
+                {
+                    "x": 1076,
+                    "y": 320
+                },
+                {
+                    "x": 1076,
+                    "y": 683
+                },
+                {
+                    "x": 317,
+                    "y": 683
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='125' style='font-size:18px'><tr><td>Game</td><td>DQN</td><td>Linear</td></tr><tr><td>Breakout</td><td>316.8</td><td>3.00</td></tr><tr><td>Enduro</td><td>1006.3</td><td>62.0</td></tr><tr><td>River Raid</td><td>7446.6</td><td>2346.9</td></tr><tr><td>Seaquest</td><td>2894.4</td><td>656.9</td></tr><tr><td>Space Invaders</td><td>1088.9</td><td>301.3</td></tr></table>",
+            "id": 125,
+            "page": 13,
+            "text": "Game DQN Linear  Breakout 316.8 3.00  Enduro 1006.3 62.0  River Raid 7446.6 2346.9  Seaquest 2894.4 656.9  Space Invaders 1088.9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 171,
+                    "y": 711
+                },
+                {
+                    "x": 1236,
+                    "y": 711
+                },
+                {
+                    "x": 1236,
+                    "y": 996
+                },
+                {
+                    "x": 171,
+                    "y": 996
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:14px'>The performance ofthe DQN agentis compared with the performance of a linearfunction approximator<br>on the 5 validation games (that is, where a single linear layer was used instead of the convolutional<br>network, in combination with replay and separate target network). Agents were trained for 10 million<br>frames using standard hyperparameters, and three different learning rates. Each agent was evaluated<br>every 250,000 training frames for 135,000 validation frames and the highest average episode score is<br>reported. Note that these evaluation episodes were not truncated at 5 min leading to higher scores on<br>Enduro than the ones reported in Extended Data Table 2. Note also that the number of training frames<br>was shorter (10 million frames) as compared to the main results presented in Extended Data Table 2<br>(50 million frames).</p>",
+            "id": 126,
+            "page": 13,
+            "text": "The performance ofthe DQN agentis compared with the performance of a linearfunction approximator on the 5 validation games (that is, where a single linear layer was used instead of the convolutional network, in combination with replay and separate target network). Agents were trained for 10 million frames using standard hyperparameters, and three different learning rates. Each agent was evaluated every 250,000 training frames for 135,000 validation frames and the highest average episode score is reported. Note that these evaluation episodes were not truncated at 5 min leading to higher scores on Enduro than the ones reported in Extended Data Table 2. Note also that the number of training frames was shorter (10 million frames) as compared to the main results presented in Extended Data Table 2 (50 million frames)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 3206
+                },
+                {
+                    "x": 1604,
+                    "y": 3206
+                },
+                {
+                    "x": 1604,
+                    "y": 3246
+                },
+                {
+                    "x": 814,
+                    "y": 3246
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='127' style='font-size:16px'>Ⓒ2015 Macmillan Publishers Limited. All rights reserved</footer>",
+            "id": 127,
+            "page": 13,
+            "text": "Ⓒ2015 Macmillan Publishers Limited. All rights reserved"
+        }
+    ]
+}

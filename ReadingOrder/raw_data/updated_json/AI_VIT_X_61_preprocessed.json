@@ -1,0 +1,3131 @@
+{
+    "id": "32afbb32-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/2304.13731v2.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 495,
+                    "y": 406
+                },
+                {
+                    "x": 2060,
+                    "y": 406
+                },
+                {
+                    "x": 2060,
+                    "y": 571
+                },
+                {
+                    "x": 495,
+                    "y": 571
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Text-to-Audio Generation using Instruction-Tuned<br>LLM and Latent Diffusion Model</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Text-to-Audio Generation using Instruction-Tuned LLM and Latent Diffusion Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 583,
+                    "y": 732
+                },
+                {
+                    "x": 1960,
+                    "y": 732
+                },
+                {
+                    "x": 1960,
+                    "y": 787
+                },
+                {
+                    "x": 583,
+                    "y": 787
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Deepanway Ghosal*, Navonil Majumder*, Ambuj Mehrish*, Soujanya Poria‡</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Deepanway Ghosal*, Navonil Majumder*, Ambuj Mehrish*, Soujanya Poria‡"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 588,
+                    "y": 755
+                },
+                {
+                    "x": 1961,
+                    "y": 755
+                },
+                {
+                    "x": 1961,
+                    "y": 930
+                },
+                {
+                    "x": 588,
+                    "y": 930
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:14px'>: DeCLaRe Lab, Singapore University of Technology and Design, Singapore<br>deepanway _ghosal @mymail · sutd . edu. sg<br>{navonil_maj umder , ambuj _mehrish , sporia}@sutd · edu · sg</p>",
+            "id": 2,
+            "page": 1,
+            "text": ": DeCLaRe Lab, Singapore University of Technology and Design, Singapore deepanway _ghosal @mymail · sutd . edu. sg {navonil_maj umder , ambuj _mehrish , sporia}@sutd · edu · sg"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 847,
+                    "y": 1030
+                },
+                {
+                    "x": 1700,
+                    "y": 1030
+                },
+                {
+                    "x": 1700,
+                    "y": 1922
+                },
+                {
+                    "x": 847,
+                    "y": 1922
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='3' alt=\"\" data-coord=\"top-left:(847,1030); bottom-right:(1700,1922)\" /></figure>",
+            "id": 3,
+            "page": 1,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 841,
+                    "y": 1914
+                },
+                {
+                    "x": 1706,
+                    "y": 1914
+                },
+                {
+                    "x": 1706,
+                    "y": 2017
+                },
+                {
+                    "x": 841,
+                    "y": 2017
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='4' style='font-size:14px'>O: https : / / gi thub · com/declare-lab / tango<br>https : / / tango-web · gi thub · io/</caption>",
+            "id": 4,
+            "page": 1,
+            "text": "O: https : / / gi thub · com/declare-lab / tango https : / / tango-web · gi thub · io/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1175,
+                    "y": 2065
+                },
+                {
+                    "x": 1372,
+                    "y": 2065
+                },
+                {
+                    "x": 1372,
+                    "y": 2119
+                },
+                {
+                    "x": 1175,
+                    "y": 2119
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>Abstract</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 590,
+                    "y": 2209
+                },
+                {
+                    "x": 1959,
+                    "y": 2209
+                },
+                {
+                    "x": 1959,
+                    "y": 2856
+                },
+                {
+                    "x": 590,
+                    "y": 2856
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>The immense scale of the recent large language models (LLM) allows many in-<br>teresting properties, such as, instruction- and chain-of-thought-based fine-tuning,<br>that has significantly improved zero- and few-shot performance in many natu-<br>ral language processing (NLP) tasks. Inspired by such successes, we adopt such<br>an instruction-tuned LLM FLAN-T5 as the text encoder for text-to-audio (TTA)<br>generation-a task where the goal is to generate an audio from its textual de-<br>scription. The prior works on TTA either pre-trained a joint text-audio encoder<br>or used a non-instruction-tuned model, such as, T5. Consequently, our latent dif-<br>fusion model (LDM)-based approach (TANGO) outperforms the state-of-the-art<br>AudioLDM on most metrics and stays comparable on the rest on AudioCaps test<br>set, despite training the LDM on a 63 times smaller dataset and keeping the text<br>encoder frozen. This improvement might also be attributed to the adoption of au-<br>dio pressure level-based sound mixing for the training set augmentation, whereas<br>the prior methods take a random mix.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "The immense scale of the recent large language models (LLM) allows many interesting properties, such as, instruction- and chain-of-thought-based fine-tuning, that has significantly improved zero- and few-shot performance in many natural language processing (NLP) tasks. Inspired by such successes, we adopt such an instruction-tuned LLM FLAN-T5 as the text encoder for text-to-audio (TTA) generation-a task where the goal is to generate an audio from its textual description. The prior works on TTA either pre-trained a joint text-audio encoder or used a non-instruction-tuned model, such as, T5. Consequently, our latent diffusion model (LDM)-based approach (TANGO) outperforms the state-of-the-art AudioLDM on most metrics and stays comparable on the rest on AudioCaps test set, despite training the LDM on a 63 times smaller dataset and keeping the text encoder frozen. This improvement might also be attributed to the adoption of audio pressure level-based sound mixing for the training set augmentation, whereas the prior methods take a random mix."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 3046
+                },
+                {
+                    "x": 803,
+                    "y": 3046
+                },
+                {
+                    "x": 803,
+                    "y": 3098
+                },
+                {
+                    "x": 441,
+                    "y": 3098
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='7' style='font-size:16px'>Preprint. Under review.</footer>",
+            "id": 7,
+            "page": 1,
+            "text": "Preprint. Under review."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 57,
+                    "y": 837
+                },
+                {
+                    "x": 148,
+                    "y": 837
+                },
+                {
+                    "x": 148,
+                    "y": 2368
+                },
+                {
+                    "x": 57,
+                    "y": 2368
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='8' style='font-size:14px'>2023<br>May<br>29<br>[eess.AS]<br>arXiv:2304.13731v2</footer>",
+            "id": 8,
+            "page": 1,
+            "text": "2023 May 29 [eess.AS] arXiv:2304.13731v2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 447,
+                    "y": 301
+                },
+                {
+                    "x": 797,
+                    "y": 301
+                },
+                {
+                    "x": 797,
+                    "y": 353
+                },
+                {
+                    "x": 447,
+                    "y": 353
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:22px'>1 Introduction</p>",
+            "id": 9,
+            "page": 2,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 411
+                },
+                {
+                    "x": 2108,
+                    "y": 411
+                },
+                {
+                    "x": 2108,
+                    "y": 732
+                },
+                {
+                    "x": 442,
+                    "y": 732
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:20px'>Following the success of automatic text-to-image (TTI) generation [31-33], many researchers have<br>also succeeded in text-to-audio (TTA) generation [17, 18, 43] by employing similar techniques as the<br>former. Such models may have strong potential use cases in the media production where the creators<br>are always looking for novel sounds that fit their creations. This could be especially useful in pro-<br>totyping or small-scale projects where producing the exact sound could be infeasible. Beyond this,<br>these techniques also pave the path toward general-purpose multimodal AI that can simultaneously<br>recognize and generate multiple modalities.</p>",
+            "id": 10,
+            "page": 2,
+            "text": "Following the success of automatic text-to-image (TTI) generation [31-33], many researchers have also succeeded in text-to-audio (TTA) generation  by employing similar techniques as the former. Such models may have strong potential use cases in the media production where the creators are always looking for novel sounds that fit their creations. This could be especially useful in prototyping or small-scale projects where producing the exact sound could be infeasible. Beyond this, these techniques also pave the path toward general-purpose multimodal AI that can simultaneously recognize and generate multiple modalities."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 753
+                },
+                {
+                    "x": 2107,
+                    "y": 753
+                },
+                {
+                    "x": 2107,
+                    "y": 1255
+                },
+                {
+                    "x": 441,
+                    "y": 1255
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:18px'>To this end, the existing works use a large text encoder, such as, RoBERTa [19] and T5 [30], to encode<br>the textual description of the audio to be generated. Subsequently, a large transformer decoder or<br>a diffusion model generates the audio prior, which is subsequently decoded by a pre-trained VAE,<br>followed by a vocoder. We instead assume that replacing the text encoder with an instruction-<br>tuned large language model (LLM) would improve text understanding and overall audio generation<br>without any fine-tuning, due to its recently discovered gradient-descent mimicking property [4]. To<br>augment training samples, the existing methods take a randomly generated combination of audio<br>pairs, along with the concatenation of their descriptions. Such a mixture does not account for the<br>overall pressure level of the source audios, potentially leading to a louder audio overwhelming the<br>quieter one. Thus, we employ a pressure level-based mixing method, as suggested by Tokozume<br>et al. [39].</p>",
+            "id": 11,
+            "page": 2,
+            "text": "To this end, the existing works use a large text encoder, such as, RoBERTa  and T5 , to encode the textual description of the audio to be generated. Subsequently, a large transformer decoder or a diffusion model generates the audio prior, which is subsequently decoded by a pre-trained VAE, followed by a vocoder. We instead assume that replacing the text encoder with an instructiontuned large language model (LLM) would improve text understanding and overall audio generation without any fine-tuning, due to its recently discovered gradient-descent mimicking property . To augment training samples, the existing methods take a randomly generated combination of audio pairs, along with the concatenation of their descriptions. Such a mixture does not account for the overall pressure level of the source audios, potentially leading to a louder audio overwhelming the quieter one. Thus, we employ a pressure level-based mixing method, as suggested by Tokozume  ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1276
+                },
+                {
+                    "x": 2108,
+                    "y": 1276
+                },
+                {
+                    "x": 2108,
+                    "y": 1778
+                },
+                {
+                    "x": 441,
+                    "y": 1778
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:20px'>Our model (TANGO) 1 is inspired by latent diffusion model (LDM) [33] and AudioLDM [18] mod-<br>els. However, instead of using CLAP-based embeddings, we used a large language model (LLM)<br>due to its powerful representational ability and fine-tuning mechanism, which can help learn com-<br>plex concepts in the textual description. Our experimental results show that using an LLM greatly<br>improves text-to-audio generation and outperforms state-of-the-art models, even when using a sig-<br>nificantly smaller dataset. In the image generation literature, the effects of LLM has been studied be-<br>fore by Saharia et al. [35]. However, they considered T5 as the text encoder which is not pre-trained<br>on instruction-based datasets. FLAN-T5 [3] is initialized with a T5 checkpoint and fine-tuned on a<br>dataset of 1.8K NLP tasks in terms of instructions and chain-of-thought reasoning. By leveraging<br>instruction-based tuning, FLAN-T5 has achieved state-of-the-art performance on several NLP tasks,<br>matching the performance of LLMs with billions of parameters.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "Our model (TANGO) 1 is inspired by latent diffusion model (LDM)  and AudioLDM  models. However, instead of using CLAP-based embeddings, we used a large language model (LLM) due to its powerful representational ability and fine-tuning mechanism, which can help learn complex concepts in the textual description. Our experimental results show that using an LLM greatly improves text-to-audio generation and outperforms state-of-the-art models, even when using a significantly smaller dataset. In the image generation literature, the effects of LLM has been studied before by Saharia  . However, they considered T5 as the text encoder which is not pre-trained on instruction-based datasets. FLAN-T5  is initialized with a T5 checkpoint and fine-tuned on a dataset of 1.8K NLP tasks in terms of instructions and chain-of-thought reasoning. By leveraging instruction-based tuning, FLAN-T5 has achieved state-of-the-art performance on several NLP tasks, matching the performance of LLMs with billions of parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1799
+                },
+                {
+                    "x": 2107,
+                    "y": 1799
+                },
+                {
+                    "x": 2107,
+                    "y": 2028
+                },
+                {
+                    "x": 441,
+                    "y": 2028
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:18px'>In Section 3, we empirically show that TANGO outperforms AudioLDM and other baseline ap-<br>proaches on most of the metrics on AudioCaps test set under both objective and subjective evalua-<br>tions, despite training the LDM on a 63 times smaller dataset. We believe that if TANGO is trained<br>on a larger dataset such as AudioSet (as Liu et al. [18] did), it would be able to provide even better<br>results and improve its ability to recognize a wider range of sounds.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "In Section 3, we empirically show that TANGO outperforms AudioLDM and other baseline approaches on most of the metrics on AudioCaps test set under both objective and subjective evaluations, despite training the LDM on a 63 times smaller dataset. We believe that if TANGO is trained on a larger dataset such as AudioSet (as Liu   did), it would be able to provide even better results and improve its ability to recognize a wider range of sounds."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2049
+                },
+                {
+                    "x": 1281,
+                    "y": 2049
+                },
+                {
+                    "x": 1281,
+                    "y": 2097
+                },
+                {
+                    "x": 444,
+                    "y": 2097
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>The overall contribution of this paper is threefold:</p>",
+            "id": 14,
+            "page": 2,
+            "text": "The overall contribution of this paper is threefold:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2142
+                },
+                {
+                    "x": 2107,
+                    "y": 2142
+                },
+                {
+                    "x": 2107,
+                    "y": 2323
+                },
+                {
+                    "x": 442,
+                    "y": 2323
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:18px'>1. We do not use any joint text-audio encoder-such as CLAP-for guidance. Liu et al. [18] claim<br>that CLAP-based audio guidance is necessary during training for better performance. We instead<br>use a frozen instruction-tuned pre-trained LLM FLAN-T5 with strong text representation capacity<br>for text guidance in both training and inference.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "1. We do not use any joint text-audio encoder-such as CLAP-for guidance. Liu   claim that CLAP-based audio guidance is necessary during training for better performance. We instead use a frozen instruction-tuned pre-trained LLM FLAN-T5 with strong text representation capacity for text guidance in both training and inference."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2353
+                },
+                {
+                    "x": 2106,
+                    "y": 2353
+                },
+                {
+                    "x": 2106,
+                    "y": 2537
+                },
+                {
+                    "x": 441,
+                    "y": 2537
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:20px'>2. AudioLDM needed to fine-tune RoBERTa [19] text encoder to pre-train CLAP. We, however,<br>keep FLAN-T5 text encoder frozen during LDM training. Thus, we find that LDM itself is capable<br>of learning text-to-audio concept mapping and composition from a 63 times smaller training set, as<br>compared to AudioLDM, given an instruction-tuned LLM.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2. AudioLDM needed to fine-tune RoBERTa  text encoder to pre-train CLAP. We, however, keep FLAN-T5 text encoder frozen during LDM training. Thus, we find that LDM itself is capable of learning text-to-audio concept mapping and composition from a 63 times smaller training set, as compared to AudioLDM, given an instruction-tuned LLM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2567
+                },
+                {
+                    "x": 2107,
+                    "y": 2567
+                },
+                {
+                    "x": 2107,
+                    "y": 2705
+                },
+                {
+                    "x": 442,
+                    "y": 2705
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:16px'>3. To mix audio pairs for data augmentation, inspired by Tokozume et al. [39], we consider the<br>pressure levels of the audio pairs, instead of taking a random combination as the prior works like<br>AudioLDM. This ensures good representations of both source audios in the fused audio.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "3. To mix audio pairs for data augmentation, inspired by Tokozume  , we consider the pressure levels of the audio pairs, instead of taking a random combination as the prior works like AudioLDM. This ensures good representations of both source audios in the fused audio."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2757
+                },
+                {
+                    "x": 2108,
+                    "y": 2757
+                },
+                {
+                    "x": 2108,
+                    "y": 3011
+                },
+                {
+                    "x": 443,
+                    "y": 3011
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:14px'>1The acronym TANGO stands for Text-to-Audio using iNstruction Guided diffusiOn and was<br>suggested by ChatGPT. The word TANGO is often associated with music [42] and dance [41]. According to<br>Wikipedia [41], \"Tango is a partner dance and social dance that originated in the 1880s along the Rio de la<br>Plata, the natural border between Argentina and Uruguay.\" The image above resembles the TANGO dance form<br>and was generated by prompting Dalle-V2 with \"A couple dancing tango with musical notes in<br>the background\"</p>",
+            "id": 18,
+            "page": 2,
+            "text": "1The acronym TANGO stands for Text-to-Audio using iNstruction Guided diffusiOn and was suggested by ChatGPT. The word TANGO is often associated with music  and dance . According to Wikipedia , \"Tango is a partner dance and social dance that originated in the 1880s along the Rio de la Plata, the natural border between Argentina and Uruguay.\" The image above resembles the TANGO dance form and was generated by prompting Dalle-V2 with \"A couple dancing tango with musical notes in the background\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3091
+                },
+                {
+                    "x": 1289,
+                    "y": 3091
+                },
+                {
+                    "x": 1289,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='19' style='font-size:16px'>2</footer>",
+            "id": 19,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 291
+                },
+                {
+                    "x": 2111,
+                    "y": 291
+                },
+                {
+                    "x": 2111,
+                    "y": 1210
+                },
+                {
+                    "x": 441,
+                    "y": 1210
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='20' style='font-size:18px' alt=\"Audio\n Encoder\nZO Z.1 Z.2 ZN-1\nForward Process\nVAE ヘ Diffusion Model ZN\nReverse Process\nAudio\n20 21 순2 2N-1\nDecoder\nHiFi T\nMi \nGAN A dog is barking and\nN (0, I)\ngrowling, FLAN-T5\nas a siren is blaring\nLegend:\nInference only Train only Train + Inference Frozen Params. Trainable Params.\" data-coord=\"top-left:(441,291); bottom-right:(2111,1210)\" /></figure>",
+            "id": 20,
+            "page": 3,
+            "text": "Audio  Encoder ZO Z.1 Z.2 ZN-1 Forward Process VAE ヘ Diffusion Model ZN Reverse Process Audio 20 21 순2 2N-1 Decoder HiFi T Mi  GAN A dog is barking and N (0, I) growling, FLAN-T5 as a siren is blaring Legend: Inference only Train only Train + Inference Frozen Params. Trainable Params."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 923,
+                    "y": 1241
+                },
+                {
+                    "x": 1620,
+                    "y": 1241
+                },
+                {
+                    "x": 1620,
+                    "y": 1290
+                },
+                {
+                    "x": 923,
+                    "y": 1290
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='21' style='font-size:16px'>Figure 1: Overall architecture of TANGO.</caption>",
+            "id": 21,
+            "page": 3,
+            "text": "Figure 1: Overall architecture of TANGO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1448
+                },
+                {
+                    "x": 695,
+                    "y": 1448
+                },
+                {
+                    "x": 695,
+                    "y": 1501
+                },
+                {
+                    "x": 442,
+                    "y": 1501
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:22px'>2 Method</p>",
+            "id": 22,
+            "page": 3,
+            "text": "2 Method"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1605
+                },
+                {
+                    "x": 2107,
+                    "y": 1605
+                },
+                {
+                    "x": 2107,
+                    "y": 1883
+                },
+                {
+                    "x": 441,
+                    "y": 1883
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:14px'>TANGO, as depicted in Fig. 1, has three major components: i) textual-prompt encoder, ii) latent<br>diffusion model (LDM), and iii) mel-spectogram/audio VAE. The textual-prompt encoder encodes<br>the input description of the audio. Subsequently, the textual representation is used to construct a<br>latent representation of the audio or audio prior from standard Gaussian noise, using reverse dif-<br>fusion. Thereafter the decoder of the mel-spectogram VAE constructs a mel-spectogram from the<br>latent audio representation. This mel-spectogram is fed to a vocoder to generate the final audio.</p>",
+            "id": 23,
+            "page": 3,
+            "text": "TANGO, as depicted in Fig. 1, has three major components: i) textual-prompt encoder, ii) latent diffusion model (LDM), and iii) mel-spectogram/audio VAE. The textual-prompt encoder encodes the input description of the audio. Subsequently, the textual representation is used to construct a latent representation of the audio or audio prior from standard Gaussian noise, using reverse diffusion. Thereafter the decoder of the mel-spectogram VAE constructs a mel-spectogram from the latent audio representation. This mel-spectogram is fed to a vocoder to generate the final audio."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2025
+                },
+                {
+                    "x": 991,
+                    "y": 2025
+                },
+                {
+                    "x": 991,
+                    "y": 2074
+                },
+                {
+                    "x": 443,
+                    "y": 2074
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:20px'>2.1 Textual-Prompt Encoder</p>",
+            "id": 24,
+            "page": 3,
+            "text": "2.1 Textual-Prompt Encoder"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2144
+                },
+                {
+                    "x": 2109,
+                    "y": 2144
+                },
+                {
+                    "x": 2109,
+                    "y": 3015
+                },
+                {
+                    "x": 440,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:14px'>We use the pre-trained LLM FLAN-T5-LARGE (780M) [3] as the text encoder (Etext) to obtain<br>text encoding T E RLxdtext where L and dtext are the token count and token-embedding size,<br>respectively. Due to the pre-training of FLAN-T5 models on a large-scale chain-of-thought- (CoT)<br>and instruction-based dataset, Dai et al. [4] posit that they are able to learn a new task very well<br>from the in-context information by mimicking gradient descent through attention weights. This<br>property is missing in the older large models, such as RoBERTa [19] (used by Liu et al. [18]) and<br>T5 [30] (used by Kreuk et al. [17]). Considering each input sample a distinct task, it might be<br>reasonable to assume that the gradient-descent mimicking property could be pivotal in learning the<br>mapping between textual and acoustic concepts without fine-tuning the text encoder. The richer pre-<br>training may also allow the encoder to better emphasize the key details with less noise and enriched<br>context. This again may lead to the better transformation of the relevant textual concepts into their<br>acoustics counterparts. Consequently, we keep the text encoder frozen, assuming the subsequent<br>reverse diffusion process (see Section 2.2) would be able to learn the inter-modality mapping well<br>for audio prior to construction. We also suspect that fine-tuning Etext may degrade its in-context<br>learning ability due to gradients from the audio modality thatis out of distribution to the pre-training<br>dataset. This is in contrast with Liu et al. [18] that fine-tunes the pre-trained text encoder as a part<br>of the text-audio joint-representation learning (CLAP) to allow audio prior reconstruction from text.<br>In Section 3, we empirically show that such joint-representation learning may not be necessary for<br>text-to-audio transformation.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "We use the pre-trained LLM FLAN-T5-LARGE (780M)  as the text encoder (Etext) to obtain text encoding T E RLxdtext where L and dtext are the token count and token-embedding size, respectively. Due to the pre-training of FLAN-T5 models on a large-scale chain-of-thought- (CoT) and instruction-based dataset, Dai   posit that they are able to learn a new task very well from the in-context information by mimicking gradient descent through attention weights. This property is missing in the older large models, such as RoBERTa  (used by Liu  ) and T5  (used by Kreuk  ). Considering each input sample a distinct task, it might be reasonable to assume that the gradient-descent mimicking property could be pivotal in learning the mapping between textual and acoustic concepts without fine-tuning the text encoder. The richer pretraining may also allow the encoder to better emphasize the key details with less noise and enriched context. This again may lead to the better transformation of the relevant textual concepts into their acoustics counterparts. Consequently, we keep the text encoder frozen, assuming the subsequent reverse diffusion process (see Section 2.2) would be able to learn the inter-modality mapping well for audio prior to construction. We also suspect that fine-tuning Etext may degrade its in-context learning ability due to gradients from the audio modality thatis out of distribution to the pre-training dataset. This is in contrast with Liu   that fine-tunes the pre-trained text encoder as a part of the text-audio joint-representation learning (CLAP) to allow audio prior reconstruction from text. In Section 3, we empirically show that such joint-representation learning may not be necessary for text-to-audio transformation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3095
+                },
+                {
+                    "x": 1289,
+                    "y": 3095
+                },
+                {
+                    "x": 1289,
+                    "y": 3129
+                },
+                {
+                    "x": 1261,
+                    "y": 3129
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='26' style='font-size:14px'>3</footer>",
+            "id": 26,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 307
+                },
+                {
+                    "x": 1467,
+                    "y": 307
+                },
+                {
+                    "x": 1467,
+                    "y": 352
+                },
+                {
+                    "x": 443,
+                    "y": 352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:16px'>2.2 Latent Diffusion Model for Text-Guided Generation</p>",
+            "id": 27,
+            "page": 4,
+            "text": "2.2 Latent Diffusion Model for Text-Guided Generation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 389
+                },
+                {
+                    "x": 2106,
+                    "y": 389
+                },
+                {
+                    "x": 2106,
+                    "y": 528
+                },
+                {
+                    "x": 443,
+                    "y": 528
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>The latent diffusion model (LDM) [33] is adapted from Liu et al. [18], with the goal to construct the<br>audio prior zo (see Section 2.5) with the guidance of text encoding T. This essentially reduces to<br>approximating the true prior q(20|T) with parameterized po(zo|T).</p>",
+            "id": 28,
+            "page": 4,
+            "text": "The latent diffusion model (LDM)  is adapted from Liu  , with the goal to construct the audio prior zo (see Section 2.5) with the guidance of text encoding T. This essentially reduces to approximating the true prior q(20|T) with parameterized po(zo|T)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 550
+                },
+                {
+                    "x": 2106,
+                    "y": 550
+                },
+                {
+                    "x": 2106,
+                    "y": 686
+                },
+                {
+                    "x": 442,
+                    "y": 686
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:14px'>LDM can achieve the above through forward and reverse diffusion processes. The forward diffusion<br>is a Markov chain of Gaussian distributions with scheduled noise parameters 0 < B1 < B2 < · · · <<br>BN < 1 to sample noisier versions of zo:</p>",
+            "id": 29,
+            "page": 4,
+            "text": "LDM can achieve the above through forward and reverse diffusion processes. The forward diffusion is a Markov chain of Gaussian distributions with scheduled noise parameters 0 < B1 < B2 < · · · < BN < 1 to sample noisier versions of zo:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 857
+                },
+                {
+                    "x": 2105,
+                    "y": 857
+                },
+                {
+                    "x": 2105,
+                    "y": 996
+                },
+                {
+                    "x": 443,
+                    "y": 996
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>where N is the number of forward diffusion steps, an = 1 - Bn, and an = IIn=1 an. Song et al.<br>[38] show that Eq. (2) conveniently follows from Eq. (1) through reparametrization trick that allows<br>direct sampling of any Zn from zo via a non-Markovian process:</p>",
+            "id": 30,
+            "page": 4,
+            "text": "where N is the number of forward diffusion steps, an = 1 - Bn, and an = IIn=1 an. Song   show that Eq. (2) conveniently follows from Eq. (1) through reparametrization trick that allows direct sampling of any Zn from zo via a non-Markovian process:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1085
+                },
+                {
+                    "x": 2018,
+                    "y": 1085
+                },
+                {
+                    "x": 2018,
+                    "y": 1134
+                },
+                {
+                    "x": 444,
+                    "y": 1134
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:14px'>where the noise term E ~ N(0,I). The final step of the forward process yields ZN ~ N(0,I).</p>",
+            "id": 31,
+            "page": 4,
+            "text": "where the noise term E ~ N(0,I). The final step of the forward process yields ZN ~ N(0,I)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1157
+                },
+                {
+                    "x": 2105,
+                    "y": 1157
+                },
+                {
+                    "x": 2105,
+                    "y": 1243
+                },
+                {
+                    "x": 441,
+                    "y": 1243
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>The reverse process denoises and reconstructs zo through text-guided noise estimation (EO) using<br>loss</p>",
+            "id": 32,
+            "page": 4,
+            "text": "The reverse process denoises and reconstructs zo through text-guided noise estimation (EO) using loss"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1412
+                },
+                {
+                    "x": 2104,
+                    "y": 1412
+                },
+                {
+                    "x": 2104,
+                    "y": 1550
+                },
+                {
+                    "x": 442,
+                    "y": 1550
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>where Zn is sampled from Eq. (3) using standard normal noise En, T is the text encoding (see Sec-<br>tion 2.1) for guidance, and Yn is the weight of reverse step n [6], taken to be a measure of signal-to-<br>noise ratio (SNR) in terms of �1:N. The estimated noise is used to reconstruct zo:</p>",
+            "id": 33,
+            "page": 4,
+            "text": "where Zn is sampled from Eq. (3) using standard normal noise En, T is the text encoding (see Section 2.1) for guidance, and Yn is the weight of reverse step n , taken to be a measure of signal-tonoise ratio (SNR) in terms of �1:N. The estimated noise is used to reconstruct zo:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2014
+                },
+                {
+                    "x": 2105,
+                    "y": 2014
+                },
+                {
+                    "x": 2105,
+                    "y": 2245
+                },
+                {
+                    "x": 441,
+                    "y": 2245
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>The noise estimation eo is parameterized with U-Net [34] with a cross-attention component to in-<br>clude the text guidance T. In contrast, AudioLDM [18] uses audio as the guidance during train-<br>ing. During inference, they switch back to text guidance, as this is facilitated by pre-trained joint<br>text-audio embedding (CLAP). We did not find audio-guided training and pre-training CLAP to be<br>necessary, as argued in Section 2.1.</p>",
+            "id": 34,
+            "page": 4,
+            "text": "The noise estimation eo is parameterized with U-Net  with a cross-attention component to include the text guidance T. In contrast, AudioLDM  uses audio as the guidance during training. During inference, they switch back to text guidance, as this is facilitated by pre-trained joint text-audio embedding (CLAP). We did not find audio-guided training and pre-training CLAP to be necessary, as argued in Section 2.1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2297
+                },
+                {
+                    "x": 799,
+                    "y": 2297
+                },
+                {
+                    "x": 799,
+                    "y": 2344
+                },
+                {
+                    "x": 443,
+                    "y": 2344
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>2.3 Augmentation</p>",
+            "id": 35,
+            "page": 4,
+            "text": "2.3 Augmentation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2381
+                },
+                {
+                    "x": 2105,
+                    "y": 2381
+                },
+                {
+                    "x": 2105,
+                    "y": 2563
+                },
+                {
+                    "x": 443,
+                    "y": 2563
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>Many text-to-image [28] and text-to-audio [17] works have shown the efficacy of training with<br>fusion-based augmented samples to improve cross-modal concept-composition abilities of the dif-<br>fusion network. Therefore, we synthesize additional text-audio pairs by superimposing existing<br>audio pairs on each other and concatenating their captions.</p>",
+            "id": 36,
+            "page": 4,
+            "text": "Many text-to-image  and text-to-audio  works have shown the efficacy of training with fusion-based augmented samples to improve cross-modal concept-composition abilities of the diffusion network. Therefore, we synthesize additional text-audio pairs by superimposing existing audio pairs on each other and concatenating their captions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2585
+                },
+                {
+                    "x": 2105,
+                    "y": 2585
+                },
+                {
+                    "x": 2105,
+                    "y": 2816
+                },
+                {
+                    "x": 443,
+                    "y": 2816
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:16px'>Unlike Liu et al. [18] and Kreuk et al. [17], to mix audio pairs, we do not take a random combination<br>of them. Following Tokozume et al. [39], we instead consider the human auditory perception for<br>fusion. Specifically, the audio pressure level G is taken into account to ensure that a sample with<br>high pressure level do not overwhelm the sample with low pressure level. The weight of an audio<br>sample (x1) is calculated as a relative pressure level (see Fig. 2 in the appendix for its distribution)</p>",
+            "id": 37,
+            "page": 4,
+            "text": "Unlike Liu   and Kreuk  , to mix audio pairs, we do not take a random combination of them. Following Tokozume  , we instead consider the human auditory perception for fusion. Specifically, the audio pressure level G is taken into account to ensure that a sample with high pressure level do not overwhelm the sample with low pressure level. The weight of an audio sample (x1) is calculated as a relative pressure level (see Fig. 2 in the appendix for its distribution)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2921
+                },
+                {
+                    "x": 2104,
+                    "y": 2921
+                },
+                {
+                    "x": 2104,
+                    "y": 3012
+                },
+                {
+                    "x": 443,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>where G1 and G2 are pressure levels of two audio samples X1 and x2, respectively. This ensures<br>good representation of both audio samples, post mixing.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "where G1 and G2 are pressure levels of two audio samples X1 and x2, respectively. This ensures good representation of both audio samples, post mixing."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3127
+                },
+                {
+                    "x": 1259,
+                    "y": 3127
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='39' style='font-size:14px'>4</footer>",
+            "id": 39,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 307
+                },
+                {
+                    "x": 2106,
+                    "y": 307
+                },
+                {
+                    "x": 2106,
+                    "y": 398
+                },
+                {
+                    "x": 443,
+                    "y": 398
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:16px'>Furthermore, as pointed out by Tokozume et al. [39], the energy of a sound wave is proportional to<br>the square of its amplitude. Thus, we mix X1 and X2 as</p>",
+            "id": 40,
+            "page": 5,
+            "text": "Furthermore, as pointed out by Tokozume  , the energy of a sound wave is proportional to the square of its amplitude. Thus, we mix X1 and X2 as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 580
+                },
+                {
+                    "x": 988,
+                    "y": 580
+                },
+                {
+                    "x": 988,
+                    "y": 626
+                },
+                {
+                    "x": 443,
+                    "y": 626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:18px'>2.4 Classifier-Free Guidance</p>",
+            "id": 41,
+            "page": 5,
+            "text": "2.4 Classifier-Free Guidance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 661
+                },
+                {
+                    "x": 2107,
+                    "y": 661
+                },
+                {
+                    "x": 2107,
+                    "y": 802
+                },
+                {
+                    "x": 443,
+                    "y": 802
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>To guide the reverse diffusion process to reconstruct the audio prior zo, we employ a classifier-free<br>guidance [7] of text input T. During inference, a guidance scale w controls the contribution of text<br>guidance to the noise estimation Eo, with respect to unguided estimation, where empty text is passed:</p>",
+            "id": 42,
+            "page": 5,
+            "text": "To guide the reverse diffusion process to reconstruct the audio prior zo, we employ a classifier-free guidance  of text input T. During inference, a guidance scale w controls the contribution of text guidance to the noise estimation Eo, with respect to unguided estimation, where empty text is passed:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 923
+                },
+                {
+                    "x": 2105,
+                    "y": 923
+                },
+                {
+                    "x": 2105,
+                    "y": 1062
+                },
+                {
+                    "x": 442,
+                    "y": 1062
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>We also trained a model for which the text guidance was randomly dropped for 10% of the samples<br>during training. We found this model to perform equivalently to a model for which text guidance<br>was always used for all samples.</p>",
+            "id": 43,
+            "page": 5,
+            "text": "We also trained a model for which the text guidance was randomly dropped for 10% of the samples during training. We found this model to perform equivalently to a model for which text guidance was always used for all samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1113
+                },
+                {
+                    "x": 981,
+                    "y": 1113
+                },
+                {
+                    "x": 981,
+                    "y": 1161
+                },
+                {
+                    "x": 442,
+                    "y": 1161
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>2.5 Audio VAE and Vocoder</p>",
+            "id": 44,
+            "page": 5,
+            "text": "2.5 Audio VAE and Vocoder"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1197
+                },
+                {
+                    "x": 2107,
+                    "y": 1197
+                },
+                {
+                    "x": 2107,
+                    "y": 1569
+                },
+                {
+                    "x": 443,
+                    "y": 1569
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>Audio variational auto-encoder (VAE) [13] compresses the mel-spectogram of an audio sample,<br>into an audio prior zo E RCxT/rxF/r where C, T. , F, r are the number of channels,<br>m E RTxF<br>number of time-slots, number of frequency-slots, and compression level, respectively. The LDM<br>(see Section 2.2) reconstructs the audio prior 20 using input-text guidance T. The encoder and<br>decoder are composed of ResUNet blocks [15] and are trained by maximizing evidence lower-bound<br>(ELBO) [13] and minimizing adversarial loss [9]. We adopt the checkpoint of audio VAE provided<br>by Liu et al. [18]. Thus, we use their best reported setting, where C and r are set to 8 and 4,<br>respectively.</p>",
+            "id": 45,
+            "page": 5,
+            "text": "Audio variational auto-encoder (VAE)  compresses the mel-spectogram of an audio sample, into an audio prior zo E RCxT/rxF/r where C, T. , F, r are the number of channels, m E RTxF number of time-slots, number of frequency-slots, and compression level, respectively. The LDM (see Section 2.2) reconstructs the audio prior 20 using input-text guidance T. The encoder and decoder are composed of ResUNet blocks  and are trained by maximizing evidence lower-bound (ELBO)  and minimizing adversarial loss . We adopt the checkpoint of audio VAE provided by Liu  . Thus, we use their best reported setting, where C and r are set to 8 and 4, respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1591
+                },
+                {
+                    "x": 2105,
+                    "y": 1591
+                },
+                {
+                    "x": 2105,
+                    "y": 1683
+                },
+                {
+                    "x": 443,
+                    "y": 1683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:14px'>As a vocoder to turn the audio-VAE decoder-generated mel-spectogram into an audio, we also use<br>HiFi-GAN [14] as Liu et al. [18].</p>",
+            "id": 46,
+            "page": 5,
+            "text": "As a vocoder to turn the audio-VAE decoder-generated mel-spectogram into an audio, we also use HiFi-GAN  as Liu  ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1746
+                },
+                {
+                    "x": 800,
+                    "y": 1746
+                },
+                {
+                    "x": 800,
+                    "y": 1799
+                },
+                {
+                    "x": 444,
+                    "y": 1799
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:20px'>3 Experiments</p>",
+            "id": 47,
+            "page": 5,
+            "text": "3 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1846
+                },
+                {
+                    "x": 941,
+                    "y": 1846
+                },
+                {
+                    "x": 941,
+                    "y": 1894
+                },
+                {
+                    "x": 444,
+                    "y": 1894
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:18px'>3.1 Datasets and Training</p>",
+            "id": 48,
+            "page": 5,
+            "text": "3.1 Datasets and Training"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1928
+                },
+                {
+                    "x": 2107,
+                    "y": 1928
+                },
+                {
+                    "x": 2107,
+                    "y": 2159
+                },
+                {
+                    "x": 443,
+                    "y": 2159
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:18px'>Text-to-Audio Generation. We perform our main text-to-audio generation experiments on the<br>AudioCaps dataset [12]. The dataset contains 45,438 audio clips paired with human-written captions<br>for training. The validation set contains 2,240 instances. The audio clips are ten seconds long<br>and were collected from YouTube videos. The clips were originally crowd-sourced as part of the<br>significantly larger AudioSet dataset [5] for the audio classification task.</p>",
+            "id": 49,
+            "page": 5,
+            "text": "Text-to-Audio Generation. We perform our main text-to-audio generation experiments on the AudioCaps dataset . The dataset contains 45,438 audio clips paired with human-written captions for training. The validation set contains 2,240 instances. The audio clips are ten seconds long and were collected from YouTube videos. The clips were originally crowd-sourced as part of the significantly larger AudioSet dataset  for the audio classification task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2179
+                },
+                {
+                    "x": 2107,
+                    "y": 2179
+                },
+                {
+                    "x": 2107,
+                    "y": 2410
+                },
+                {
+                    "x": 442,
+                    "y": 2410
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:16px'>We train our LDM using only the paired (text, audio) instances from the AudioCaps dataset. We<br>use the AudioCaps test set as our evaluation data. The test set contains five human-written captions<br>for each audio clip. We use one caption for each clip chosen at random following Liu et al. [18]<br>for consistent evaluation with their work. The randomly chosen caption is used as the text prompt,<br>using which we generate the audio signal from our model.</p>",
+            "id": 50,
+            "page": 5,
+            "text": "We train our LDM using only the paired (text, audio) instances from the AudioCaps dataset. We use the AudioCaps test set as our evaluation data. The test set contains five human-written captions for each audio clip. We use one caption for each clip chosen at random following Liu   for consistent evaluation with their work. The randomly chosen caption is used as the text prompt, using which we generate the audio signal from our model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2456
+                },
+                {
+                    "x": 2108,
+                    "y": 2456
+                },
+                {
+                    "x": 2108,
+                    "y": 2730
+                },
+                {
+                    "x": 442,
+                    "y": 2730
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:16px'>Audio VAE and Vocoder. We use the audio VAE model from Liu et al. [18]. This VAE net-<br>work was trained on the AudioSet, AudioCaps, Freesound2, and BBC Sound Effect Library3 (SFX)<br>datasets. Longer audio clips in Freesound and BBC SFX were truncated to the first thirty seconds<br>and then segmented into three parts of ten seconds each. All audio clips were resampled in 16KHz<br>frequency for training the VAE network. We used a compression level of 4 with 8 latent channels<br>for the VAE network.</p>",
+            "id": 51,
+            "page": 5,
+            "text": "Audio VAE and Vocoder. We use the audio VAE model from Liu  . This VAE network was trained on the AudioSet, AudioCaps, Freesound2, and BBC Sound Effect Library3 (SFX) datasets. Longer audio clips in Freesound and BBC SFX were truncated to the first thirty seconds and then segmented into three parts of ten seconds each. All audio clips were resampled in 16KHz frequency for training the VAE network. We used a compression level of 4 with 8 latent channels for the VAE network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2752
+                },
+                {
+                    "x": 2106,
+                    "y": 2752
+                },
+                {
+                    "x": 2106,
+                    "y": 2890
+                },
+                {
+                    "x": 443,
+                    "y": 2890
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='52' style='font-size:16px'>We also use the vocoder from Liu et al. [18] for audio waveform generation from the mel spec-<br>trogram generated by the VAE decoder. The vocoder is a HiFi-GAN [14] network trained on the<br>AudioSet dataset. All audio clips were resampled at 16KHz for training the vocoder network.</p>",
+            "id": 52,
+            "page": 5,
+            "text": "We also use the vocoder from Liu   for audio waveform generation from the mel spectrogram generated by the VAE decoder. The vocoder is a HiFi-GAN  network trained on the AudioSet dataset. All audio clips were resampled at 16KHz for training the vocoder network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 495,
+                    "y": 2923
+                },
+                {
+                    "x": 1083,
+                    "y": 2923
+                },
+                {
+                    "x": 1083,
+                    "y": 3010
+                },
+                {
+                    "x": 495,
+                    "y": 3010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:22px'>2https://freesound.org/<br>\"https:/sound-effects.bbcrewind.co.uk</p>",
+            "id": 53,
+            "page": 5,
+            "text": "2https://freesound.org/ \"https:/sound-effects.bbcrewind.co.uk"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3128
+                },
+                {
+                    "x": 1260,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='54' style='font-size:14px'>5</footer>",
+            "id": 54,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 305
+                },
+                {
+                    "x": 2106,
+                    "y": 305
+                },
+                {
+                    "x": 2106,
+                    "y": 489
+                },
+                {
+                    "x": 442,
+                    "y": 489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:16px'>Model, Hyperparameters, and Training Details We freeze the FLAN-T5-LARGE text encoder<br>in TANGO and only train the parameters of the latent diffusion model. The diffusion model is based<br>on the Stable Diffusion U-Net architecture [33, 34] and has a total of 866M parameters. We use 8<br>channels and a cross-attention dimension of 1024 in the U-Net model.</p>",
+            "id": 55,
+            "page": 6,
+            "text": "Model, Hyperparameters, and Training Details We freeze the FLAN-T5-LARGE text encoder in TANGO and only train the parameters of the latent diffusion model. The diffusion model is based on the Stable Diffusion U-Net architecture  and has a total of 866M parameters. We use 8 channels and a cross-attention dimension of 1024 in the U-Net model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 511
+                },
+                {
+                    "x": 2108,
+                    "y": 511
+                },
+                {
+                    "x": 2108,
+                    "y": 829
+                },
+                {
+                    "x": 442,
+                    "y": 829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>We use the AdamW optimizer [20] with a learning rate of 3e-5 and a linear learning rate scheduler<br>for training. We train the model for 40 epochs on the AudioCaps dataset and report results for the<br>checkpoint with the best validation loss, which we obtained at epoch 39. We use four A6000 GPUs<br>for training TANGO, where it takes a total of 52 hours to train 40 epochs, with validation at the end of<br>every epoch. We use a per GPU batch size of 3 (2 original + 1 augmented instance) with 4 gradient<br>accumulation steps. The effective batch size for training is 3 (instance) *4 (accumulation) *4 (GPU)<br>= 48.</p>",
+            "id": 56,
+            "page": 6,
+            "text": "We use the AdamW optimizer  with a learning rate of 3e-5 and a linear learning rate scheduler for training. We train the model for 40 epochs on the AudioCaps dataset and report results for the checkpoint with the best validation loss, which we obtained at epoch 39. We use four A6000 GPUs for training TANGO, where it takes a total of 52 hours to train 40 epochs, with validation at the end of every epoch. We use a per GPU batch size of 3 (2 original + 1 augmented instance) with 4 gradient accumulation steps. The effective batch size for training is 3 (instance) *4 (accumulation) *4 (GPU) = 48."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 887
+                },
+                {
+                    "x": 837,
+                    "y": 887
+                },
+                {
+                    "x": 837,
+                    "y": 933
+                },
+                {
+                    "x": 444,
+                    "y": 933
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>3.2 Baseline Models</p>",
+            "id": 57,
+            "page": 6,
+            "text": "3.2 Baseline Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 972
+                },
+                {
+                    "x": 2107,
+                    "y": 972
+                },
+                {
+                    "x": 2107,
+                    "y": 1335
+                },
+                {
+                    "x": 443,
+                    "y": 1335
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:20px'>In our study, we examine three existing models: DiffSound by Yang et al. [43], AudioGen by Kreuk<br>et al. [17], and AudioLDM by Liu et al. [18]. AudioGen and DiffSound use text embeddings for con-<br>ditional generative training, while AudioLDM employs audio embeddings to avoid potential noise<br>from weak textual descriptions in the paired text-audio data. AudioLDM uses audio embeddings<br>from CLAP and asserts that they are effective in capturing cross-modal information. The models<br>were pre-trained on large datasets, including AudioSet, and fine-tuned on the AudioCaps dataset,<br>before evaluation, for enhanced performance. Thus, comparing them to our model TANGO would<br>not be entirely fair.</p>",
+            "id": 58,
+            "page": 6,
+            "text": "In our study, we examine three existing models: DiffSound by Yang  , AudioGen by Kreuk  , and AudioLDM by Liu  . AudioGen and DiffSound use text embeddings for conditional generative training, while AudioLDM employs audio embeddings to avoid potential noise from weak textual descriptions in the paired text-audio data. AudioLDM uses audio embeddings from CLAP and asserts that they are effective in capturing cross-modal information. The models were pre-trained on large datasets, including AudioSet, and fine-tuned on the AudioCaps dataset, before evaluation, for enhanced performance. Thus, comparing them to our model TANGO would not be entirely fair."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1358
+                },
+                {
+                    "x": 2107,
+                    "y": 1358
+                },
+                {
+                    "x": 2107,
+                    "y": 1541
+                },
+                {
+                    "x": 442,
+                    "y": 1541
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>Despite being trained on a much smaller dataset, our model TANGO outperformed the baselines<br>that were trained on significantly larger datasets. We may largely attribute this to the use of LLM<br>FLAN-T5. Therefore, our model TANGO sets itself apart from the three existing models, making it<br>an exciting addition to the current research in this area.</p>",
+            "id": 59,
+            "page": 6,
+            "text": "Despite being trained on a much smaller dataset, our model TANGO outperformed the baselines that were trained on significantly larger datasets. We may largely attribute this to the use of LLM FLAN-T5. Therefore, our model TANGO sets itself apart from the three existing models, making it an exciting addition to the current research in this area."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1564
+                },
+                {
+                    "x": 2107,
+                    "y": 1564
+                },
+                {
+                    "x": 2107,
+                    "y": 1883
+                },
+                {
+                    "x": 442,
+                    "y": 1883
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:18px'>Itis important to note that the Audi oLDM-L-Full-FT checkpoint from Liu et al. [18] was not avail-<br>able for our study. Therefore, we used the AudioLDM-M-Full-FT checkpoint, which was released<br>by the authors and has 416M parameters. This checkpoint was fine-tuned on both the AudioCaps<br>and MusicCaps datasets. We performed a subjective evaluation using this checkpoint in our study.<br>We attempted to fine-tune the AudioLDM-L-Full checkpoint on the AudioCaps dataset. However,<br>we were unable to reproduce the results reported in Liu et al. [18] due to a lack of information on<br>the hyperparameters used.</p>",
+            "id": 60,
+            "page": 6,
+            "text": "Itis important to note that the Audi oLDM-L-Full-FT checkpoint from Liu   was not available for our study. Therefore, we used the AudioLDM-M-Full-FT checkpoint, which was released by the authors and has 416M parameters. This checkpoint was fine-tuned on both the AudioCaps and MusicCaps datasets. We performed a subjective evaluation using this checkpoint in our study. We attempted to fine-tune the AudioLDM-L-Full checkpoint on the AudioCaps dataset. However, we were unable to reproduce the results reported in Liu   due to a lack of information on the hyperparameters used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1905
+                },
+                {
+                    "x": 2107,
+                    "y": 1905
+                },
+                {
+                    "x": 2107,
+                    "y": 2088
+                },
+                {
+                    "x": 441,
+                    "y": 2088
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>Our model can be compared directly to AudioLDM-L since it has almost the same number of pa-<br>rameters and was trained solely on the AudioCaps dataset. However, it is worth noting that Liu<br>et al. [18] did not release this checkpoint, which made it impossible for us to conduct a subjective<br>evaluation of its generated samples.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "Our model can be compared directly to AudioLDM-L since it has almost the same number of parameters and was trained solely on the AudioCaps dataset. However, it is worth noting that Liu   did not release this checkpoint, which made it impossible for us to conduct a subjective evaluation of its generated samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2146
+                },
+                {
+                    "x": 888,
+                    "y": 2146
+                },
+                {
+                    "x": 888,
+                    "y": 2191
+                },
+                {
+                    "x": 444,
+                    "y": 2191
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:18px'>3.3 Evaluation Metrics</p>",
+            "id": 62,
+            "page": 6,
+            "text": "3.3 Evaluation Metrics"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2228
+                },
+                {
+                    "x": 2107,
+                    "y": 2228
+                },
+                {
+                    "x": 2107,
+                    "y": 2777
+                },
+                {
+                    "x": 442,
+                    "y": 2777
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:18px'>Objective Evaluation. In this work, we used two commonly used objective metrics: Frechet Au-<br>dio Distance (FAD) and KL divergence. FAD [11] is a perceptual metric that is adapted from Fechet<br>Inception Distance (FID) for the audio domain. Unlike reference-based metrics, it measures the<br>distance between the generated audio distribution and the real audio distribution without using any<br>reference audio samples. On the other hand, KL divergence [43, 17] is a reference-dependent metric<br>that computes the divergence between the distributions of the original and generated audio sam-<br>ples based on the labels generated by a pre-trained classifier. While FAD is more related to human<br>perception, KL divergence captures the similarities between the original and generated audio sig-<br>nals based on broad concepts present in them. In addition to FAD, we also used Frechet Distance<br>(FD) [18] as an objective metric. FD is similar to FAD, but it replaces the VGGish classifier with<br>PANN. The use of different classifiers in FAD and FD allows us to evaluate the performance of the<br>generated audio using different feature representations.</p>",
+            "id": 63,
+            "page": 6,
+            "text": "Objective Evaluation. In this work, we used two commonly used objective metrics: Frechet Audio Distance (FAD) and KL divergence. FAD  is a perceptual metric that is adapted from Fechet Inception Distance (FID) for the audio domain. Unlike reference-based metrics, it measures the distance between the generated audio distribution and the real audio distribution without using any reference audio samples. On the other hand, KL divergence  is a reference-dependent metric that computes the divergence between the distributions of the original and generated audio samples based on the labels generated by a pre-trained classifier. While FAD is more related to human perception, KL divergence captures the similarities between the original and generated audio signals based on broad concepts present in them. In addition to FAD, we also used Frechet Distance (FD)  as an objective metric. FD is similar to FAD, but it replaces the VGGish classifier with PANN. The use of different classifiers in FAD and FD allows us to evaluate the performance of the generated audio using different feature representations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2828
+                },
+                {
+                    "x": 2108,
+                    "y": 2828
+                },
+                {
+                    "x": 2108,
+                    "y": 3013
+                },
+                {
+                    "x": 443,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:16px'>Subjective Evaluation. Following Liu et al. [18] and Kreuk et al. [17], we ask six human evalua-<br>tors to assess two aspects overall audio quality (OVL) and relevance to the input text (REL) - of<br>30 randomly selected baseline- and TANGO-generated audio samples on a scale from 1 to 100. The<br>evaluators were proficient in the English language and instructed well to make a fair assessment.</p>",
+            "id": 64,
+            "page": 6,
+            "text": "Subjective Evaluation. Following Liu   and Kreuk  , we ask six human evaluators to assess two aspects overall audio quality (OVL) and relevance to the input text (REL) - of 30 randomly selected baseline- and TANGO-generated audio samples on a scale from 1 to 100. The evaluators were proficient in the English language and instructed well to make a fair assessment."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3094
+                },
+                {
+                    "x": 1289,
+                    "y": 3130
+                },
+                {
+                    "x": 1259,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='65' style='font-size:14px'>6</footer>",
+            "id": 65,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 306
+                },
+                {
+                    "x": 914,
+                    "y": 306
+                },
+                {
+                    "x": 914,
+                    "y": 352
+                },
+                {
+                    "x": 444,
+                    "y": 352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:20px'>3.4 Results and Analysis</p>",
+            "id": 66,
+            "page": 7,
+            "text": "3.4 Results and Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 388
+                },
+                {
+                    "x": 2108,
+                    "y": 388
+                },
+                {
+                    "x": 2108,
+                    "y": 664
+                },
+                {
+                    "x": 441,
+                    "y": 664
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:16px'>Main Results. We report our main comparative study in Table 1. We comapre our proposed<br>method TANGO with DiffSound [43], AudioGen [17] and various configurations of AudioLDM [18].<br>AudioLDM obtained best results with 200 sampling steps from the LDM during inference. For<br>a fair comparison, we also use 200 inference steps in TANGO and in our additional AudioLDM<br>experiments. We used a classifier-free guidance scale of 3 for TANGO. AudioLDM used a guidance<br>scale among {2, 2.5, 3} in their various experiments.</p>",
+            "id": 67,
+            "page": 7,
+            "text": "Main Results. We report our main comparative study in Table 1. We comapre our proposed method TANGO with DiffSound , AudioGen  and various configurations of AudioLDM . AudioLDM obtained best results with 200 sampling steps from the LDM during inference. For a fair comparison, we also use 200 inference steps in TANGO and in our additional AudioLDM experiments. We used a classifier-free guidance scale of 3 for TANGO. AudioLDM used a guidance scale among {2, 2.5, 3} in their various experiments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 684
+                },
+                {
+                    "x": 2107,
+                    "y": 684
+                },
+                {
+                    "x": 2107,
+                    "y": 1050
+                },
+                {
+                    "x": 441,
+                    "y": 1050
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>TANGO achieves new state-of-the-art results for objective metrics when trained only on the Audio-<br>Caps dataset, with scores of 24.52 FD, 1.37 KL, and 1.59 FAD. This is significantly better than<br>the most direct baseline AudioLDM-L, which also used only the AudioCaps dataset for LDM train-<br>ing. We attribute this to the use of FLAN-T5 as text encoder in TANGO. We also note that TANGO<br>matches or beats the performance of AudioLDM-*-FT models, which used significantly (~ 63 times)<br>larger datasets for LDM training. The AudioLDM-*-FT models used two phases of LDM training<br>- first on the collection of the four datasets, and then only on AudioCaps. TANGO is thus far more<br>sample efficient as compared to the AudioLDM-*-FT model family.</p>",
+            "id": 68,
+            "page": 7,
+            "text": "TANGO achieves new state-of-the-art results for objective metrics when trained only on the AudioCaps dataset, with scores of 24.52 FD, 1.37 KL, and 1.59 FAD. This is significantly better than the most direct baseline AudioLDM-L, which also used only the AudioCaps dataset for LDM training. We attribute this to the use of FLAN-T5 as text encoder in TANGO. We also note that TANGO matches or beats the performance of AudioLDM-*-FT models, which used significantly (~ 63 times) larger datasets for LDM training. The AudioLDM-*-FT models used two phases of LDM training - first on the collection of the four datasets, and then only on AudioCaps. TANGO is thus far more sample efficient as compared to the AudioLDM-*-FT model family."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1072
+                },
+                {
+                    "x": 2107,
+                    "y": 1072
+                },
+                {
+                    "x": 2107,
+                    "y": 1210
+                },
+                {
+                    "x": 441,
+                    "y": 1210
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:18px'>TANGO also shows very promising results for subjective evaluation, with an overall audio quality<br>score of 85.94 and a relevance score of 80.36, indicating its significantly better audio generation<br>ability compared to AudioLDM and other baseline text-to-audio generation approaches.</p>",
+            "id": 69,
+            "page": 7,
+            "text": "TANGO also shows very promising results for subjective evaluation, with an overall audio quality score of 85.94 and a relevance score of 80.36, indicating its significantly better audio generation ability compared to AudioLDM and other baseline text-to-audio generation approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1270
+                },
+                {
+                    "x": 2106,
+                    "y": 1270
+                },
+                {
+                    "x": 2106,
+                    "y": 1589
+                },
+                {
+                    "x": 442,
+                    "y": 1589
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:18px'>Table 1: The comparison between TANGO and baseline TTA models. FT indicates the model is<br>fine-tuned on the Audiocaps (AC) dataset. The AS and AC stand for AudioSet and AudiocCaps<br>datasets respectively. We borrowed all the results from [18] except for AudioLDM-L-Full which was<br>evaluated using the model released by the authors on Huggingface. Despite the LDM being trained<br>on a much smaller dataset, TANGO outperforms AudioLDM and other baseline TTA models as per<br>both objective and subjective metrics. : indicates the results are obtained using the checkpoints<br>released by Liu et al. [18].</p>",
+            "id": 70,
+            "page": 7,
+            "text": "Table 1: The comparison between TANGO and baseline TTA models. FT indicates the model is fine-tuned on the Audiocaps (AC) dataset. The AS and AC stand for AudioSet and AudiocCaps datasets respectively. We borrowed all the results from  except for AudioLDM-L-Full which was evaluated using the model released by the authors on Huggingface. Despite the LDM being trained on a much smaller dataset, TANGO outperforms AudioLDM and other baseline TTA models as per both objective and subjective metrics. : indicates the results are obtained using the checkpoints released by Liu  ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 453,
+                    "y": 1593
+                },
+                {
+                    "x": 2098,
+                    "y": 1593
+                },
+                {
+                    "x": 2098,
+                    "y": 2136
+                },
+                {
+                    "x": 453,
+                    "y": 2136
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='71' style='font-size:14px'><tr><td rowspan=\"2\">Model</td><td rowspan=\"2\">Datasets</td><td rowspan=\"2\">Text</td><td rowspan=\"2\">#Params</td><td colspan=\"3\">Objective Metrics</td><td colspan=\"2\">Subjective Metrics</td></tr><tr><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td><td>OVL ↑</td><td>REL ↑</td></tr><tr><td>Ground truth</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>91.61</td><td>86.78</td></tr><tr><td>DiffSound [43]</td><td>AS+AC</td><td></td><td>400M</td><td>47.68</td><td>2.52</td><td>7.75</td><td>-</td><td></td></tr><tr><td>AudioGen [17]</td><td>AS+AC+8 others</td><td>V</td><td>285M</td><td>-</td><td>2.09</td><td>3.13</td><td>-</td><td></td></tr><tr><td>AudioLDM-S</td><td>AC</td><td>X</td><td>181M</td><td>29.48</td><td>1.97</td><td>2.43</td><td>-</td><td>-</td></tr><tr><td>AudioLDM-L</td><td>AC</td><td>X</td><td>739M</td><td>27.12</td><td>1.86</td><td>2.08</td><td>-</td><td>-</td></tr><tr><td>AudioLDM-M-Full-FT�</td><td>AS+AC+2 others</td><td>X</td><td>416M</td><td>26.12</td><td>1.26</td><td>2.57</td><td>79.85</td><td>76.84</td></tr><tr><td>AudioLDM-L-Full‡</td><td>AS+AC+2 others</td><td>X</td><td>739M</td><td>32.46</td><td>1.76</td><td>4.18</td><td>78.63</td><td>62.69</td></tr><tr><td>AudioLDM-L-Full-FT</td><td>AS+AC+2 others</td><td>X</td><td>739M</td><td>23.31</td><td>1.59</td><td>1.96</td><td>-</td><td>-</td></tr><tr><td>TANGO</td><td>AC</td><td></td><td>866M</td><td>24.52</td><td>1.37</td><td>1.59</td><td>85.94</td><td>80.36</td></tr></table>",
+            "id": 71,
+            "page": 7,
+            "text": "Model Datasets Text #Params Objective Metrics Subjective Metrics  FD ↓ KL ↓ FAD ↓ OVL ↑ REL ↑  Ground truth - - - - - - 91.61 86.78  DiffSound  AS+AC  400M 47.68 2.52 7.75 -   AudioGen  AS+AC+8 others V 285M - 2.09 3.13 -   AudioLDM-S AC X 181M 29.48 1.97 2.43 -  AudioLDM-L AC X 739M 27.12 1.86 2.08 -  AudioLDM-M-Full-FT� AS+AC+2 others X 416M 26.12 1.26 2.57 79.85 76.84  AudioLDM-L-Full‡ AS+AC+2 others X 739M 32.46 1.76 4.18 78.63 62.69  AudioLDM-L-Full-FT AS+AC+2 others X 739M 23.31 1.59 1.96 -  TANGO AC  866M 24.52 1.37 1.59 85.94"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2220
+                },
+                {
+                    "x": 2105,
+                    "y": 2220
+                },
+                {
+                    "x": 2105,
+                    "y": 2356
+                },
+                {
+                    "x": 442,
+                    "y": 2356
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='72' style='font-size:18px'>Table 2: The comparison between TANGO and baseline TTA models when trained on the corpus of<br>large datasets. TANGO-Full-FT was first pre-trained on a corpus comprising samples from AudioSet,<br>AudioCaps, Freesound, and BBC datasets followed by fine-tuning on AudioCaps.</caption>",
+            "id": 72,
+            "page": 7,
+            "text": "Table 2: The comparison between TANGO and baseline TTA models when trained on the corpus of large datasets. TANGO-Full-FT was first pre-trained on a corpus comprising samples from AudioSet, AudioCaps, Freesound, and BBC datasets followed by fine-tuning on AudioCaps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 458,
+                    "y": 2360
+                },
+                {
+                    "x": 2098,
+                    "y": 2360
+                },
+                {
+                    "x": 2098,
+                    "y": 2687
+                },
+                {
+                    "x": 458,
+                    "y": 2687
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='73' style='font-size:14px'><tr><td rowspan=\"2\">Model</td><td rowspan=\"2\">Datasets</td><td rowspan=\"2\">Dataset Size</td><td rowspan=\"2\">Text</td><td rowspan=\"2\">#Params</td><td colspan=\"2\">Objective Metrics</td></tr><tr><td>FD ↓</td><td>KL ↓</td></tr><tr><td>AudioLDM-M-Full-FT‡</td><td>AS+AC+2 others</td><td>3.3M</td><td>X</td><td>416M</td><td>26.12</td><td>1.26</td></tr><tr><td>AudioLDM-L-Full‡</td><td>AS+AC+2 others</td><td>3.3M</td><td>X</td><td>739M</td><td>32.46</td><td>1.76</td></tr><tr><td>AudioLDM-L-Full-FT</td><td>AS+AC+2 others</td><td>3.3M</td><td>X</td><td>739M</td><td>23.31</td><td>1.59</td></tr><tr><td>TANGO-FULL-FT</td><td>AS+AC+7 others</td><td>1.2M</td><td>V</td><td>866M</td><td>18.93</td><td>1.12</td></tr></table>",
+            "id": 73,
+            "page": 7,
+            "text": "Model Datasets Dataset Size Text #Params Objective Metrics  FD ↓ KL ↓  AudioLDM-M-Full-FT‡ AS+AC+2 others 3.3M X 416M 26.12 1.26  AudioLDM-L-Full‡ AS+AC+2 others 3.3M X 739M 32.46 1.76  AudioLDM-L-Full-FT AS+AC+2 others 3.3M X 739M 23.31 1.59  TANGO-FULL-FT AS+AC+7 others 1.2M V 866M 18.93"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2754
+                },
+                {
+                    "x": 2107,
+                    "y": 2754
+                },
+                {
+                    "x": 2107,
+                    "y": 2942
+                },
+                {
+                    "x": 442,
+                    "y": 2942
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:20px'>Training on Larger Datasets. In this experiment, we followed a two-step process to enhance<br>the performance of TANGO. First, we conducted pre-training using a diverse corpus consisting<br>of textual prompts and audio samples sourced from WavCaps [24], AudioCaps, ESC [26], Urban-<br>Sound [36], MusicCaps [1], GTZAN [40], and Musical Instruments4 dataset. The dataset statistics</p>",
+            "id": 74,
+            "page": 7,
+            "text": "Training on Larger Datasets. In this experiment, we followed a two-step process to enhance the performance of TANGO. First, we conducted pre-training using a diverse corpus consisting of textual prompts and audio samples sourced from WavCaps , AudioCaps, ESC , UrbanSound , MusicCaps , GTZAN , and Musical Instruments4 dataset. The dataset statistics"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 499,
+                    "y": 2967
+                },
+                {
+                    "x": 1820,
+                    "y": 2967
+                },
+                {
+                    "x": 1820,
+                    "y": 3010
+                },
+                {
+                    "x": 499,
+                    "y": 3010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='75' style='font-size:22px'>http://www.koomizex/amailaple/redectionagex.com/</p>",
+            "id": 75,
+            "page": 7,
+            "text": "http://www.koomizex/amailaple/redectionagex.com/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1262,
+                    "y": 3094
+                },
+                {
+                    "x": 1288,
+                    "y": 3094
+                },
+                {
+                    "x": 1288,
+                    "y": 3128
+                },
+                {
+                    "x": 1262,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='76' style='font-size:14px'>7</footer>",
+            "id": 76,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 308
+                },
+                {
+                    "x": 2107,
+                    "y": 308
+                },
+                {
+                    "x": 2107,
+                    "y": 718
+                },
+                {
+                    "x": 442,
+                    "y": 718
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>are reported Table 3. All audio clips of longer than 10 seconds were segmented into partitions of suc-<br>cessive 10 seconds or shorter. We also resampled all audio clips to 16KHz. The WavCaps dataset<br>consists of ChatGPT-generated captions for the FreeSound5, BBC Sound Effects6 (SFX), and the<br>AudioSet strongly labeled subset. The Urban Sound and ESC50 datasets contain various environ-<br>mental sounds. The Musical Instruments dataset contains sounds of guitar, drum, violin, and piano<br>instruments. The GTZAN dataset contains sounds of different musical genres - classical, jazz, etc.<br>These four datasets - Urban Sound, ESC50, Musical Instruments, GTZAN are audio classification<br>datasets. We use the classification label e.g. piano and a more natural prompt sound of piano to<br>create two different training instances for each audio sample for these datasets.</p>",
+            "id": 77,
+            "page": 8,
+            "text": "are reported Table 3. All audio clips of longer than 10 seconds were segmented into partitions of successive 10 seconds or shorter. We also resampled all audio clips to 16KHz. The WavCaps dataset consists of ChatGPT-generated captions for the FreeSound5, BBC Sound Effects6 (SFX), and the AudioSet strongly labeled subset. The Urban Sound and ESC50 datasets contain various environmental sounds. The Musical Instruments dataset contains sounds of guitar, drum, violin, and piano instruments. The GTZAN dataset contains sounds of different musical genres - classical, jazz, etc. These four datasets - Urban Sound, ESC50, Musical Instruments, GTZAN are audio classification datasets. We use the classification label e.g. piano and a more natural prompt sound of piano to create two different training instances for each audio sample for these datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 738
+                },
+                {
+                    "x": 2107,
+                    "y": 738
+                },
+                {
+                    "x": 2107,
+                    "y": 1195
+                },
+                {
+                    "x": 441,
+                    "y": 1195
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:20px'>The initial pre-training stage aimed to capture a broad understanding of audio and text interactions.<br>Next, we fine-tuned the pre-trained model specifically on the AudioCaps dataset. The obtained<br>results, as presented in Table 2, demonstrate a remarkable performance improvement achieved by<br>TANGO-FULL-FT compared to similar models in the AudioLDM family. These comparable models<br>underwent identical pre-training and fine-tuning approaches, highlighting the effectiveness of our<br>methodology in enhancing the model's overall performance. We conducted pre-training on TANGO<br>for a duration of 200, 000 steps using four A6000 GPUs. To optimize the training process, we set the<br>batch size per GPU to 2 and employed 8 gradient accumulation steps, which effectively increased<br>the batch size to 64. We fine-tuned the model on AudioCaps for 57K steps. To help open-source<br>research in TTA, we released this dataset publicly 7<br>·</p>",
+            "id": 78,
+            "page": 8,
+            "text": "The initial pre-training stage aimed to capture a broad understanding of audio and text interactions. Next, we fine-tuned the pre-trained model specifically on the AudioCaps dataset. The obtained results, as presented in Table 2, demonstrate a remarkable performance improvement achieved by TANGO-FULL-FT compared to similar models in the AudioLDM family. These comparable models underwent identical pre-training and fine-tuning approaches, highlighting the effectiveness of our methodology in enhancing the model's overall performance. We conducted pre-training on TANGO for a duration of 200, 000 steps using four A6000 GPUs. To optimize the training process, we set the batch size per GPU to 2 and employed 8 gradient accumulation steps, which effectively increased the batch size to 64. We fine-tuned the model on AudioCaps for 57K steps. To help open-source research in TTA, we released this dataset publicly 7 ·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 701,
+                    "y": 1236
+                },
+                {
+                    "x": 1850,
+                    "y": 1236
+                },
+                {
+                    "x": 1850,
+                    "y": 1281
+                },
+                {
+                    "x": 701,
+                    "y": 1281
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='79' style='font-size:18px'>Table 3: Statistics of the datasets used in training TANGO-FULL-FT.</caption>",
+            "id": 79,
+            "page": 8,
+            "text": "Table 3: Statistics of the datasets used in training TANGO-FULL-FT."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 452,
+                    "y": 1310
+                },
+                {
+                    "x": 2095,
+                    "y": 1310
+                },
+                {
+                    "x": 2095,
+                    "y": 1465
+                },
+                {
+                    "x": 452,
+                    "y": 1465
+                }
+            ],
+            "category": "table",
+            "html": "<table id='80' style='font-size:14px'><tr><td>Model</td><td>AudioSet</td><td>AudioCaps</td><td>Freesound</td><td>BBC</td><td>Urban Sound</td><td>Musical Instrument</td><td>MusicCaps</td><td>Gtzan Music Genre</td><td>ESC50</td><td>Total</td></tr><tr><td>TANGO</td><td>108K</td><td>45K</td><td>680K</td><td>374K</td><td>17K</td><td>12K</td><td>10K</td><td>6K</td><td>4K</td><td>1.2M</td></tr><tr><td>AudioLDM</td><td>2.1M</td><td>49K</td><td>680K</td><td>374K</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>3.3M</td></tr></table>",
+            "id": 80,
+            "page": 8,
+            "text": "Model AudioSet AudioCaps Freesound BBC Urban Sound Musical Instrument MusicCaps Gtzan Music Genre ESC50 Total  TANGO 108K 45K 680K 374K 17K 12K 10K 6K 4K 1.2M  AudioLDM 2.1M 49K 680K 374K - - - - -"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1566
+                },
+                {
+                    "x": 2106,
+                    "y": 1566
+                },
+                {
+                    "x": 2106,
+                    "y": 1887
+                },
+                {
+                    "x": 444,
+                    "y": 1887
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>Effect of Different Data Augmentation Strategies. Table 4 presents a comparison between<br>random and relative pressure-based data augmentation strategies. Notably, the relative pressure-<br>based augmentation strategy yields the most promising results. When evaluating TANGO<br>against AudioLDM-L, both utilizing random data augmentation strategies, TANGO outperforms<br>AudioLDM-L in two out of three objective metrics. This notable improvement can be attributed<br>to the integration of a powerful large language model (FLAN-T5) as a textual prompt encoder within<br>TANGO.</p>",
+            "id": 81,
+            "page": 8,
+            "text": "Effect of Different Data Augmentation Strategies. Table 4 presents a comparison between random and relative pressure-based data augmentation strategies. Notably, the relative pressurebased augmentation strategy yields the most promising results. When evaluating TANGO against AudioLDM-L, both utilizing random data augmentation strategies, TANGO outperforms AudioLDM-L in two out of three objective metrics. This notable improvement can be attributed to the integration of a powerful large language model (FLAN-T5) as a textual prompt encoder within TANGO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1921
+                },
+                {
+                    "x": 2103,
+                    "y": 1921
+                },
+                {
+                    "x": 2103,
+                    "y": 2013
+                },
+                {
+                    "x": 443,
+                    "y": 2013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:18px'>Table 4: Effect on the objective evaluation metrics with random VS. relative pressure-guided aug-<br>mentation. Scores were computed for a guidance scale of 3 and 200 inference steps.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "Table 4: Effect on the objective evaluation metrics with random VS. relative pressure-guided augmentation. Scores were computed for a guidance scale of 3 and 200 inference steps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 725,
+                    "y": 2040
+                },
+                {
+                    "x": 1815,
+                    "y": 2040
+                },
+                {
+                    "x": 1815,
+                    "y": 2299
+                },
+                {
+                    "x": 725,
+                    "y": 2299
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='83' style='font-size:20px'><tr><td>Model</td><td>Augmentation</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td></tr><tr><td rowspan=\"2\">TANGO</td><td>Random</td><td>25.84</td><td>1.38</td><td>2.72</td></tr><tr><td>Relative Pressure</td><td>24.52</td><td>1.37</td><td>1.59</td></tr><tr><td>AudioLDM-L</td><td>Random</td><td>27.12</td><td>1.86</td><td>2.08</td></tr></table>",
+            "id": 83,
+            "page": 8,
+            "text": "Model Augmentation FD ↓ KL ↓ FAD ↓  TANGO Random 25.84 1.38 2.72  Relative Pressure 24.52 1.37 1.59  AudioLDM-L Random 27.12 1.86"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2384
+                },
+                {
+                    "x": 2106,
+                    "y": 2384
+                },
+                {
+                    "x": 2106,
+                    "y": 2842
+                },
+                {
+                    "x": 442,
+                    "y": 2842
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:20px'>Effect of Inference Steps and Classifier-Free Guidance. The number of inference steps and<br>the classifier-free guidance scale are of crucial importance for sampling from latent diffusion mod-<br>els [38, 7]. We report the effect of varying number of steps and varying guidance scale for audio<br>generation in AudioCaps in Table 5. We found that a guidance scale of 3 provides the best results<br>for TANGO. In the left part of Table 5, we fix the guidance scale of 3 and vary the number of steps<br>from 10 to 200. The generated audio quality and resultant objective metrics consistently become<br>better with more steps. Liu et al. [18] reported that the performance for AudioLDM plateaus at<br>around 100 steps, with 200 steps providing only marginally better performance. However, we notice<br>a substantial improvement in performance when going from 100 to 200 inference steps for TANGO,<br>suggesting that there could be further gain in performance with more inference steps.</p>",
+            "id": 84,
+            "page": 8,
+            "text": "Effect of Inference Steps and Classifier-Free Guidance. The number of inference steps and the classifier-free guidance scale are of crucial importance for sampling from latent diffusion models . We report the effect of varying number of steps and varying guidance scale for audio generation in AudioCaps in Table 5. We found that a guidance scale of 3 provides the best results for TANGO. In the left part of Table 5, we fix the guidance scale of 3 and vary the number of steps from 10 to 200. The generated audio quality and resultant objective metrics consistently become better with more steps. Liu   reported that the performance for AudioLDM plateaus at around 100 steps, with 200 steps providing only marginally better performance. However, we notice a substantial improvement in performance when going from 100 to 200 inference steps for TANGO, suggesting that there could be further gain in performance with more inference steps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 498,
+                    "y": 2877
+                },
+                {
+                    "x": 1679,
+                    "y": 2877
+                },
+                {
+                    "x": 1679,
+                    "y": 3010
+                },
+                {
+                    "x": 498,
+                    "y": 3010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:22px'>Shttps://freesound.org/<br>*https://sound-effects.bbcrewind.co.uk<br>7https : / /huggingface . co/datasets/decl are-lab/TangoPromptBank</p>",
+            "id": 85,
+            "page": 8,
+            "text": "Shttps://freesound.org/ *https://sound-effects.bbcrewind.co.uk 7https : / /huggingface . co/datasets/decl are-lab/TangoPromptBank"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3095
+                },
+                {
+                    "x": 1288,
+                    "y": 3095
+                },
+                {
+                    "x": 1288,
+                    "y": 3130
+                },
+                {
+                    "x": 1260,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='86' style='font-size:16px'>8</footer>",
+            "id": 86,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 320
+                },
+                {
+                    "x": 2104,
+                    "y": 320
+                },
+                {
+                    "x": 2104,
+                    "y": 413
+                },
+                {
+                    "x": 442,
+                    "y": 413
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='87' style='font-size:20px'>Table 5: Effect on the objective evaluation metrics with a varying number of inference steps and<br>classifier-free guidance.</caption>",
+            "id": 87,
+            "page": 9,
+            "text": "Table 5: Effect on the objective evaluation metrics with a varying number of inference steps and classifier-free guidance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 461,
+                    "y": 416
+                },
+                {
+                    "x": 2097,
+                    "y": 416
+                },
+                {
+                    "x": 2097,
+                    "y": 750
+                },
+                {
+                    "x": 461,
+                    "y": 750
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='88' style='font-size:14px'><tr><td rowspan=\"2\">Model</td><td colspan=\"5\">Varying Steps</td><td colspan=\"5\">Varying Guidance</td></tr><tr><td>Guidance</td><td>Steps</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td><td>Steps</td><td>Guidance</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td></tr><tr><td rowspan=\"5\">TANGO</td><td rowspan=\"5\">3</td><td>10</td><td>45.12</td><td>1.66</td><td>11.38</td><td></td><td>-</td><td>35.76</td><td>2.02</td><td>6.22</td></tr><tr><td>20</td><td>31.38</td><td>1.39</td><td>4.52</td><td></td><td>2.5</td><td>26.32</td><td>1.39</td><td>1.97</td></tr><tr><td>50</td><td>25.33</td><td>1.27</td><td>2.13</td><td>100</td><td>3</td><td>26.13</td><td>1.37</td><td>1.87</td></tr><tr><td>100</td><td>26.13</td><td>1.37</td><td>1.87</td><td></td><td>5</td><td>24.28</td><td>1.28</td><td>2.32</td></tr><tr><td>200</td><td>24.52</td><td>1.37</td><td>1.59</td><td></td><td>10</td><td>26.10</td><td>1.31</td><td>3.30</td></tr></table>",
+            "id": 88,
+            "page": 9,
+            "text": "Model Varying Steps Varying Guidance  Guidance Steps FD ↓ KL ↓ FAD ↓ Steps Guidance FD ↓ KL ↓ FAD ↓  TANGO 3 10 45.12 1.66 11.38  - 35.76 2.02 6.22  20 31.38 1.39 4.52  2.5 26.32 1.39 1.97  50 25.33 1.27 2.13 100 3 26.13 1.37 1.87  100 26.13 1.37 1.87  5 24.28 1.28 2.32  200 24.52 1.37 1.59  10 26.10 1.31"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 856
+                },
+                {
+                    "x": 2107,
+                    "y": 856
+                },
+                {
+                    "x": 2107,
+                    "y": 1131
+                },
+                {
+                    "x": 442,
+                    "y": 1131
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:22px'>We report the effect of varying guidance scale with a fixed 100 steps in the right half of Table 5.<br>The first row uses a guidance scale of 1, thus effectively not applying classifier-free guidance at all<br>during inference. Not surprisingly, the performance of this configuration is poor, lagging far behind<br>the classifier-free guided models across all the objective measures. We obtain almost similar results<br>with a guidance scale of 2.5 and better FD and KL with a guidance scale of 5. We obtain the best<br>FAD metric at a guidance scale of 3 and the metric becomes poorer with larger guidance.</p>",
+            "id": 89,
+            "page": 9,
+            "text": "We report the effect of varying guidance scale with a fixed 100 steps in the right half of Table 5. The first row uses a guidance scale of 1, thus effectively not applying classifier-free guidance at all during inference. Not surprisingly, the performance of this configuration is poor, lagging far behind the classifier-free guided models across all the objective measures. We obtain almost similar results with a guidance scale of 2.5 and better FD and KL with a guidance scale of 5. We obtain the best FAD metric at a guidance scale of 3 and the metric becomes poorer with larger guidance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1193
+                },
+                {
+                    "x": 2108,
+                    "y": 1193
+                },
+                {
+                    "x": 2108,
+                    "y": 1698
+                },
+                {
+                    "x": 443,
+                    "y": 1698
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:22px'>Temporal Sequence Modelling. We analyze how TANGO and AudioLDM models perform audio<br>generation when the text prompt contains multiple sequential events. Consider the following ex-<br>amples: A toy train running as a young boy talks followed by plastic clanking then a child laughing contains<br>three separate sequential events, whereas Rolling thunder with lightning strikes contains only one. We<br>segregate the AudioCaps test set using the presence of temporal identifiers - while, before, after,<br>then, followed - into two subsets, one with multiple events and the other with single event. We show<br>the objective evaluation results for audio generation on these subsets in Table 6. TANGO achieves the<br>best FD and FAD scores for both multiple events and single event instances. The best KL divergence<br>score is achieved by the Audi oLDM-M-Full-FT model. We conjecture that the larger corpus from<br>the four training datasets in AudioLDM could be more helpful in improving the reference-based KL<br>metric, unlike the reference-free FD and FAD metrics.</p>",
+            "id": 90,
+            "page": 9,
+            "text": "Temporal Sequence Modelling. We analyze how TANGO and AudioLDM models perform audio generation when the text prompt contains multiple sequential events. Consider the following examples: A toy train running as a young boy talks followed by plastic clanking then a child laughing contains three separate sequential events, whereas Rolling thunder with lightning strikes contains only one. We segregate the AudioCaps test set using the presence of temporal identifiers - while, before, after, then, followed - into two subsets, one with multiple events and the other with single event. We show the objective evaluation results for audio generation on these subsets in Table 6. TANGO achieves the best FD and FAD scores for both multiple events and single event instances. The best KL divergence score is achieved by the Audi oLDM-M-Full-FT model. We conjecture that the larger corpus from the four training datasets in AudioLDM could be more helpful in improving the reference-based KL metric, unlike the reference-free FD and FAD metrics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1777
+                },
+                {
+                    "x": 2106,
+                    "y": 1777
+                },
+                {
+                    "x": 2106,
+                    "y": 2004
+                },
+                {
+                    "x": 442,
+                    "y": 2004
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:18px'>Table 6: Objective evaluation results for audio generation in the presence of multiple events or a<br>single event in the text prompt in the AudioCaps test set. The multiple events and single event<br>subsets collectively constitute the entire AudioCaps test set. It should be noted that FD and FAD<br>are corpus-level non-linear metrics, and hence the FD and FAD scores reported in Table 1 are not<br>average of the subset scores reported in this table.</p>",
+            "id": 91,
+            "page": 9,
+            "text": "Table 6: Objective evaluation results for audio generation in the presence of multiple events or a single event in the text prompt in the AudioCaps test set. The multiple events and single event subsets collectively constitute the entire AudioCaps test set. It should be noted that FD and FAD are corpus-level non-linear metrics, and hence the FD and FAD scores reported in Table 1 are not average of the subset scores reported in this table."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 489,
+                    "y": 2009
+                },
+                {
+                    "x": 2049,
+                    "y": 2009
+                },
+                {
+                    "x": 2049,
+                    "y": 2286
+                },
+                {
+                    "x": 489,
+                    "y": 2286
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='92' style='font-size:16px'><tr><td rowspan=\"2\">Model</td><td rowspan=\"2\">Datasets</td><td colspan=\"3\">Multiple Events</td><td colspan=\"3\">Single Event</td></tr><tr><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td></tr><tr><td rowspan=\"2\">AudioLDM-L-Full AudioLDM-M-Full-FT</td><td rowspan=\"2\">AS+AC+2 others</td><td>43.65</td><td>1.90</td><td>3.77</td><td>35.39</td><td>1.66</td><td>5.24</td></tr><tr><td>34.57</td><td>1.32</td><td>2.45</td><td>29.40</td><td>1.21</td><td>3.27</td></tr><tr><td>TANGO</td><td>AC</td><td>33.36</td><td>1.45</td><td>1.75</td><td>28.59</td><td>1.30</td><td>2.04</td></tr></table>",
+            "id": 92,
+            "page": 9,
+            "text": "Model Datasets Multiple Events Single Event  FD ↓ KL ↓ FAD ↓ FD ↓ KL ↓ FAD ↓  AudioLDM-L-Full AudioLDM-M-Full-FT AS+AC+2 others 43.65 1.90 3.77 35.39 1.66 5.24  34.57 1.32 2.45 29.40 1.21 3.27  TANGO AC 33.36 1.45 1.75 28.59 1.30"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2417
+                },
+                {
+                    "x": 2108,
+                    "y": 2417
+                },
+                {
+                    "x": 2108,
+                    "y": 2971
+                },
+                {
+                    "x": 443,
+                    "y": 2971
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:20px'>Performance against Number of Labels. Recall that the AudioCaps dataset was curated from the<br>annotations of the audio classification task in the AudioSet dataset. The text prompts in AudioCaps<br>can thus be paired with the discrete class labels of AudioSet. The AudioSet dataset contains a<br>total of 632 audio event classes. For instance, A woman and a baby are having a conversation and<br>its corresponding audio clip has the following three labels: Speech, Child speech kid speaking, Inside<br>small room. We group instances having one label, two labels, and multiple (two or more) labels<br>in AudioCaps and evaluate the generated audios across the objective metrics. We report the result<br>of the experiment in Table 7. TANGO outperforms AudioLDM models across all the objective<br>metrics for audio generation from texts with one label or two labels. For texts with multiple labels,<br>AudioLDM achieves a better KL divergence score and TANGO achieves better FD and FAD scores.<br>Interestingly, all the models achieve consistently better FD and KL scores with progressively more<br>labels, suggesting that such textual prompts are more effectively processed by the diffusion models.</p>",
+            "id": 93,
+            "page": 9,
+            "text": "Performance against Number of Labels. Recall that the AudioCaps dataset was curated from the annotations of the audio classification task in the AudioSet dataset. The text prompts in AudioCaps can thus be paired with the discrete class labels of AudioSet. The AudioSet dataset contains a total of 632 audio event classes. For instance, A woman and a baby are having a conversation and its corresponding audio clip has the following three labels: Speech, Child speech kid speaking, Inside small room. We group instances having one label, two labels, and multiple (two or more) labels in AudioCaps and evaluate the generated audios across the objective metrics. We report the result of the experiment in Table 7. TANGO outperforms AudioLDM models across all the objective metrics for audio generation from texts with one label or two labels. For texts with multiple labels, AudioLDM achieves a better KL divergence score and TANGO achieves better FD and FAD scores. Interestingly, all the models achieve consistently better FD and KL scores with progressively more labels, suggesting that such textual prompts are more effectively processed by the diffusion models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3093
+                },
+                {
+                    "x": 1289,
+                    "y": 3128
+                },
+                {
+                    "x": 1260,
+                    "y": 3128
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='94' style='font-size:14px'>9</footer>",
+            "id": 94,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 321
+                },
+                {
+                    "x": 2106,
+                    "y": 321
+                },
+                {
+                    "x": 2106,
+                    "y": 456
+                },
+                {
+                    "x": 442,
+                    "y": 456
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='95' style='font-size:18px'>Table 7: Performance of audio generation in AudioCaps for texts containing one, two, or multiple<br>(two or more) labels. Each text in AudioCaps has its corresponding multi-category labels from<br>AudioSet. We use these labels to segregate the AudioCaps dataset into three subsets.</caption>",
+            "id": 95,
+            "page": 10,
+            "text": "Table 7: Performance of audio generation in AudioCaps for texts containing one, two, or multiple (two or more) labels. Each text in AudioCaps has its corresponding multi-category labels from AudioSet. We use these labels to segregate the AudioCaps dataset into three subsets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 451,
+                    "y": 460
+                },
+                {
+                    "x": 2098,
+                    "y": 460
+                },
+                {
+                    "x": 2098,
+                    "y": 692
+                },
+                {
+                    "x": 451,
+                    "y": 692
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='96' style='font-size:16px'><tr><td rowspan=\"2\">Model</td><td rowspan=\"2\">Datasets</td><td colspan=\"3\">One Label</td><td colspan=\"3\">Two Labels</td><td colspan=\"3\">Multiple Labels</td></tr><tr><td>FD ↓</td><td>KL V</td><td>FAD ↓</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td><td>FD ↓</td><td>KL ↓</td><td>FAD ↓</td></tr><tr><td rowspan=\"2\">AudioLDM-L-Full AudioLDM-M-Full-FT</td><td rowspan=\"2\">AS+AC+2 others</td><td>48.11</td><td>2.07</td><td>4.71</td><td>44.93</td><td>1.90</td><td>4.09</td><td>34.94</td><td>1.68</td><td>4.59</td></tr><tr><td>46.44</td><td>1.85</td><td>3.77</td><td>39.01</td><td>1.29</td><td>3.52</td><td>26.74</td><td>1.10</td><td>2.62</td></tr><tr><td>TANGO</td><td>AC</td><td>40.81</td><td>1.84</td><td>1.79</td><td>35.09</td><td>1.56</td><td>2.53</td><td>26.05</td><td>1.24</td><td>1.96</td></tr></table>",
+            "id": 96,
+            "page": 10,
+            "text": "Model Datasets One Label Two Labels Multiple Labels  FD ↓ KL V FAD ↓ FD ↓ KL ↓ FAD ↓ FD ↓ KL ↓ FAD ↓  AudioLDM-L-Full AudioLDM-M-Full-FT AS+AC+2 others 48.11 2.07 4.71 44.93 1.90 4.09 34.94 1.68 4.59  46.44 1.85 3.77 39.01 1.29 3.52 26.74 1.10 2.62  TANGO AC 40.81 1.84 1.79 35.09 1.56 2.53 26.05 1.24"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 787
+                },
+                {
+                    "x": 2106,
+                    "y": 787
+                },
+                {
+                    "x": 2106,
+                    "y": 1059
+                },
+                {
+                    "x": 442,
+                    "y": 1059
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:20px'>Effect of Augmentation and Distribution of Relative Pressure-Level (p) for Augmentation We<br>described our augmentation strategy earlier in Section 2.3. The distribution of the relative pressure<br>level p in Equation (9) across the training samples is shown in Figure 2 that implies that the relative<br>pressure levels are roughly normally distributed and many samples have low levels of relative pres-<br>sure, which might be poorly represented in a random mixing. In contrast, our approach allows for<br>much equitable mixing.</p>",
+            "id": 97,
+            "page": 10,
+            "text": "Effect of Augmentation and Distribution of Relative Pressure-Level (p) for Augmentation We described our augmentation strategy earlier in Section 2.3. The distribution of the relative pressure level p in Equation (9) across the training samples is shown in Figure 2 that implies that the relative pressure levels are roughly normally distributed and many samples have low levels of relative pressure, which might be poorly represented in a random mixing. In contrast, our approach allows for much equitable mixing."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 621,
+                    "y": 1116
+                },
+                {
+                    "x": 1926,
+                    "y": 1116
+                },
+                {
+                    "x": 1926,
+                    "y": 2076
+                },
+                {
+                    "x": 621,
+                    "y": 2076
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='98' style='font-size:14px' alt=\"0.08\n0.07\n0.06\nProbability\n0.05\n0.04\n0.03\n0.02\n0.01\n0.00\n0.2 0.4 0.6 0.8\np\" data-coord=\"top-left:(621,1116); bottom-right:(1926,2076)\" /></figure>",
+            "id": 98,
+            "page": 10,
+            "text": "0.08 0.07 0.06 Probability 0.05 0.04 0.03 0.02 0.01 0.00 0.2 0.4 0.6 0.8 p"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 465,
+                    "y": 2134
+                },
+                {
+                    "x": 2083,
+                    "y": 2134
+                },
+                {
+                    "x": 2083,
+                    "y": 2182
+                },
+                {
+                    "x": 465,
+                    "y": 2182
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='99' style='font-size:20px'>Figure 2: Distribution of relative pressure level (see Equation (9)) across the augmented samples.</caption>",
+            "id": 99,
+            "page": 10,
+            "text": "Figure 2: Distribution of relative pressure level (see Equation (9)) across the augmented samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2301
+                },
+                {
+                    "x": 2106,
+                    "y": 2301
+                },
+                {
+                    "x": 2106,
+                    "y": 2437
+                },
+                {
+                    "x": 441,
+                    "y": 2437
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='100' style='font-size:20px'>Table 8: Performance of Audi oLDM-M-Full FT and TANGO for the most frequently occurring<br>categories in AudioCaps dataset. CEB indicates the Channel, environment, and background sounds<br>category.</caption>",
+            "id": 100,
+            "page": 10,
+            "text": "Table 8: Performance of Audi oLDM-M-Full FT and TANGO for the most frequently occurring categories in AudioCaps dataset. CEB indicates the Channel, environment, and background sounds category."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 451,
+                    "y": 2440
+                },
+                {
+                    "x": 2094,
+                    "y": 2440
+                },
+                {
+                    "x": 2094,
+                    "y": 2838
+                },
+                {
+                    "x": 451,
+                    "y": 2838
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='101' style='font-size:14px'><tr><td rowspan=\"2\">Human</td><td rowspan=\"2\">Animal</td><td rowspan=\"2\">Natural</td><td rowspan=\"2\">Things</td><td rowspan=\"2\">CEB</td><td colspan=\"2\">FD ↓</td><td colspan=\"2\">KL ↓</td><td colspan=\"2\">FAD ↓</td></tr><tr><td>AudioLDM</td><td>TANGO</td><td>AudioLDM</td><td>TANGO</td><td>AudioLDM</td><td>TANGO</td></tr><tr><td>V</td><td>X</td><td>X</td><td>X</td><td>X</td><td>38.15</td><td>34.06</td><td>1.01</td><td>0.99</td><td>2.81</td><td>2.13</td></tr><tr><td>X</td><td>V</td><td>X</td><td>X</td><td>X</td><td>78.62</td><td>77.78</td><td>1.82</td><td>1.92</td><td>4.28</td><td>4.62</td></tr><tr><td>V</td><td>V</td><td>X</td><td>X</td><td>X</td><td>61.91</td><td>70.32</td><td>0.89</td><td>1.29</td><td>6.32</td><td>5.19</td></tr><tr><td>X</td><td>X</td><td>V</td><td>X</td><td>X</td><td>51.61</td><td>57.75</td><td>1.89</td><td>1.96</td><td>6.75</td><td>5.15</td></tr><tr><td>X</td><td>X</td><td>X</td><td>V</td><td>X</td><td>35.60</td><td>33.13</td><td>1.35</td><td>1.43</td><td>5.42</td><td>3.40</td></tr><tr><td>X</td><td>X</td><td>V</td><td>V</td><td>X</td><td>55.06</td><td>42.00</td><td>1.46</td><td>1.12</td><td>6.57</td><td>3.89</td></tr><tr><td>V</td><td>X</td><td>X</td><td>V</td><td>X</td><td>37.57</td><td>39.22</td><td>1.11</td><td>1.34</td><td>3.26</td><td>3.18</td></tr><tr><td>X</td><td>X</td><td>X</td><td>V</td><td>V</td><td>54.25</td><td>52.77</td><td>1.43</td><td>1.33</td><td>11.49</td><td>9.26</td></tr></table>",
+            "id": 101,
+            "page": 10,
+            "text": "Human Animal Natural Things CEB FD ↓ KL ↓ FAD ↓  AudioLDM TANGO AudioLDM TANGO AudioLDM TANGO  V X X X X 38.15 34.06 1.01 0.99 2.81 2.13  X V X X X 78.62 77.78 1.82 1.92 4.28 4.62  V V X X X 61.91 70.32 0.89 1.29 6.32 5.19  X X V X X 51.61 57.75 1.89 1.96 6.75 5.15  X X X V X 35.60 33.13 1.35 1.43 5.42 3.40  X X V V X 55.06 42.00 1.46 1.12 6.57 3.89  V X X V X 37.57 39.22 1.11 1.34 3.26 3.18  X X X V V 54.25 52.77 1.43 1.33 11.49"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2920
+                },
+                {
+                    "x": 2104,
+                    "y": 2920
+                },
+                {
+                    "x": 2104,
+                    "y": 3013
+                },
+                {
+                    "x": 443,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:22px'>Categorical Modelling. The class labels in AudioSet can be arranged hierarchically to obtain the<br>following top-level categories: i) Human sounds, ii) Animal sounds, iii) Natural sounds, iv) Sounds</p>",
+            "id": 102,
+            "page": 10,
+            "text": "Categorical Modelling. The class labels in AudioSet can be arranged hierarchically to obtain the following top-level categories: i) Human sounds, ii) Animal sounds, iii) Natural sounds, iv) Sounds"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3093
+                },
+                {
+                    "x": 1299,
+                    "y": 3093
+                },
+                {
+                    "x": 1299,
+                    "y": 3131
+                },
+                {
+                    "x": 1252,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='103' style='font-size:16px'>10</footer>",
+            "id": 103,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 305
+                },
+                {
+                    "x": 2107,
+                    "y": 305
+                },
+                {
+                    "x": 2107,
+                    "y": 676
+                },
+                {
+                    "x": 441,
+                    "y": 676
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:18px'>of Things, v) Channel, environment, background sounds, vi) Source-ambiguous sounds, and vii)<br>Music. We map the class labels in AudioCaps to the seven main categories listed above. The Music<br>category is very rare in AudioCaps and the rest either appear on their own or in various combinations<br>with others. We select the most frequently occurring category combinations and analyze the perfor-<br>mance of various models within the constituting AudioCaps instances in Table 8. The performance<br>of the two models is pretty balanced across the FD and KL metrics, with TANGO being better in<br>some, and AudioLDM in others. However, TANGO achieves better FAD scores in all but one group,<br>with large improvements in (human, animal), (natural), (things), and (natural, things) categories.</p>",
+            "id": 104,
+            "page": 11,
+            "text": "of Things, v) Channel, environment, background sounds, vi) Source-ambiguous sounds, and vii) Music. We map the class labels in AudioCaps to the seven main categories listed above. The Music category is very rare in AudioCaps and the rest either appear on their own or in various combinations with others. We select the most frequently occurring category combinations and analyze the performance of various models within the constituting AudioCaps instances in Table 8. The performance of the two models is pretty balanced across the FD and KL metrics, with TANGO being better in some, and AudioLDM in others. However, TANGO achieves better FAD scores in all but one group, with large improvements in (human, animal), (natural), (things), and (natural, things) categories."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 742
+                },
+                {
+                    "x": 845,
+                    "y": 742
+                },
+                {
+                    "x": 845,
+                    "y": 791
+                },
+                {
+                    "x": 444,
+                    "y": 791
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:20px'>4 Related Works</p>",
+            "id": 105,
+            "page": 11,
+            "text": "4 Related Works"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 839
+                },
+                {
+                    "x": 2108,
+                    "y": 839
+                },
+                {
+                    "x": 2108,
+                    "y": 1896
+                },
+                {
+                    "x": 442,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:18px'>Diffusion Models. Recent years have seen a surge in diffusion models as a leading approach for<br>generating high-quality speech [2, 16, 27, 28, 10, 8]. These models utilize a fixed number of Markov<br>chain steps to transform white noise signals into structured waveforms. Among them, FastDiff has<br>achieved remarkable results in high-quality speech synthesis [8]. By leveraging a stack of time-<br>aware diffusion processes, FastDiff can generate speech samples of exceptional quality at an impres-<br>sive speed, 58 times faster than real-time on a V100 GPU, making it practical for speech synthesis<br>deployment. It surpasses other existing methods in end-to-end text-to-speech synthesis. Another<br>noteworthy probabilistic model for audio synthesis is DiffWave [16], which is non-autoregressive<br>and generates high-fidelity audio for various waveform generation tasks, including neural vocod-<br>ing conditioned on mel spectrogram, class-conditional generation, and unconditional generation.<br>DiffWave delivers speech quality that is on par with the powerful WaveNet vocoder [25] while syn-<br>thesizing audio much faster. Diffusion models have emerged as a promising approach for speech<br>processing, particularly in speech enhancement [21, 37, 29, 22]. Recent advancements in diffusion<br>probabilistic models have led to the development of a new speech enhancement algorithm that incor-<br>porates the characteristics of noisy speech signals into the forward and reverse diffusion processes<br>[23]. This new algorithm is a generalized form of the probabilistic diffusion model, known as the<br>conditional diffusion probabilistic model. During its reverse process, it can adapt to non-Gaussian<br>real noises in the estimated speech signal, making it highly effective in improving speech quality. In<br>addition, Qiu et al. [29] propose SRTNet, a novel method for speech enhancement that incorporates<br>the diffusion model as a module for stochastic refinement. The proposed method comprises a joint<br>network of deterministic and stochastic modules, forming the \"enhance-and-refine\" paradigm. The<br>paper also includes a theoretical demonstration of the proposed method's feasibility and presents ex-<br>perimental results to support its effectiveness, highlighting its potential in improving speech quality.</p>",
+            "id": 106,
+            "page": 11,
+            "text": "Diffusion Models. Recent years have seen a surge in diffusion models as a leading approach for generating high-quality speech . These models utilize a fixed number of Markov chain steps to transform white noise signals into structured waveforms. Among them, FastDiff has achieved remarkable results in high-quality speech synthesis . By leveraging a stack of timeaware diffusion processes, FastDiff can generate speech samples of exceptional quality at an impressive speed, 58 times faster than real-time on a V100 GPU, making it practical for speech synthesis deployment. It surpasses other existing methods in end-to-end text-to-speech synthesis. Another noteworthy probabilistic model for audio synthesis is DiffWave , which is non-autoregressive and generates high-fidelity audio for various waveform generation tasks, including neural vocoding conditioned on mel spectrogram, class-conditional generation, and unconditional generation. DiffWave delivers speech quality that is on par with the powerful WaveNet vocoder  while synthesizing audio much faster. Diffusion models have emerged as a promising approach for speech processing, particularly in speech enhancement . Recent advancements in diffusion probabilistic models have led to the development of a new speech enhancement algorithm that incorporates the characteristics of noisy speech signals into the forward and reverse diffusion processes . This new algorithm is a generalized form of the probabilistic diffusion model, known as the conditional diffusion probabilistic model. During its reverse process, it can adapt to non-Gaussian real noises in the estimated speech signal, making it highly effective in improving speech quality. In addition, Qiu   propose SRTNet, a novel method for speech enhancement that incorporates the diffusion model as a module for stochastic refinement. The proposed method comprises a joint network of deterministic and stochastic modules, forming the \"enhance-and-refine\" paradigm. The paper also includes a theoretical demonstration of the proposed method's feasibility and presents experimental results to support its effectiveness, highlighting its potential in improving speech quality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1939
+                },
+                {
+                    "x": 2107,
+                    "y": 1939
+                },
+                {
+                    "x": 2107,
+                    "y": 2626
+                },
+                {
+                    "x": 441,
+                    "y": 2626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:16px'>Text-to-Audio Generation. The field of text-to-audio generation has received limited attention<br>until recently [17, 43]. In Yang et al. [43], a text encoder is used to obtain text features, which are<br>then processed by a non-autoregressive decoder to generate spectrogram tokens. These tokens are<br>fed to a vector quantized VAE (VQ-VAE) to generate mel spectrograms that are used by a vocoder to<br>generate audio. The non-autoregressive decoder is a probabilistic diffusion model. In addition, Yang<br>et al. [43] introduced a novel data augmentation technique called the mask-based text generation<br>strategy (MBTG), which masks out portions of input text that do not represent any event, such as<br>those indicating temporality. The aim of MBTG is to learn augmented text descriptions from audio<br>during training. Although this approach seems promising, its fundamental limitation is the lack<br>of diversity in the generated data, as it fails to mix different audio samples. Later, Kreuk et al.<br>[17] proposed a correction to this method, mixing audio signals according to random signal-to-<br>noise ratios and concatenating the corresponding textual descriptions. This approach allows for the<br>generation of new (text, audio) pairs and mitigates the limitations of Yang et al. [43]. Unlike Yang<br>et al. [43], the architecture proposed in Kreuk et al. [17] uses a transformer encoder and decoder<br>network to autoregressively generate audio tokens from text input.</p>",
+            "id": 107,
+            "page": 11,
+            "text": "Text-to-Audio Generation. The field of text-to-audio generation has received limited attention until recently . In Yang  , a text encoder is used to obtain text features, which are then processed by a non-autoregressive decoder to generate spectrogram tokens. These tokens are fed to a vector quantized VAE (VQ-VAE) to generate mel spectrograms that are used by a vocoder to generate audio. The non-autoregressive decoder is a probabilistic diffusion model. In addition, Yang   introduced a novel data augmentation technique called the mask-based text generation strategy (MBTG), which masks out portions of input text that do not represent any event, such as those indicating temporality. The aim of MBTG is to learn augmented text descriptions from audio during training. Although this approach seems promising, its fundamental limitation is the lack of diversity in the generated data, as it fails to mix different audio samples. Later, Kreuk   proposed a correction to this method, mixing audio signals according to random signal-tonoise ratios and concatenating the corresponding textual descriptions. This approach allows for the generation of new (text, audio) pairs and mitigates the limitations of Yang  . Unlike Yang  , the architecture proposed in Kreuk   uses a transformer encoder and decoder network to autoregressively generate audio tokens from text input."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2646
+                },
+                {
+                    "x": 2107,
+                    "y": 2646
+                },
+                {
+                    "x": 2107,
+                    "y": 3013
+                },
+                {
+                    "x": 442,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='108' style='font-size:18px'>Recently, Liu et al. [18] proposed AudioLDM, which translates the Latent Diffusion Model of text-<br>to-visual to text-to-audio generation. They pre-trained VAE-based encoder-decoder networks to<br>learn a compressed latent representation of audio, which was then used to guide a diffusion model<br>to generate audio tokens from text input. They found that using audio embeddings instead of text<br>embeddings during the backward diffusion process improved conditional audio generation. During<br>inference time, they used text embeddings for text-to-audio generation. Audio and text embeddings<br>were obtained using pre-trained CLAP, which is the audio counterpart of CLIP embeddings used in<br>the original LDM model.</p>",
+            "id": 108,
+            "page": 11,
+            "text": "Recently, Liu   proposed AudioLDM, which translates the Latent Diffusion Model of textto-visual to text-to-audio generation. They pre-trained VAE-based encoder-decoder networks to learn a compressed latent representation of audio, which was then used to guide a diffusion model to generate audio tokens from text input. They found that using audio embeddings instead of text embeddings during the backward diffusion process improved conditional audio generation. During inference time, they used text embeddings for text-to-audio generation. Audio and text embeddings were obtained using pre-trained CLAP, which is the audio counterpart of CLIP embeddings used in the original LDM model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1253,
+                    "y": 3091
+                },
+                {
+                    "x": 1295,
+                    "y": 3091
+                },
+                {
+                    "x": 1295,
+                    "y": 3131
+                },
+                {
+                    "x": 1253,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='109' style='font-size:14px'>11</footer>",
+            "id": 109,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 301
+                },
+                {
+                    "x": 777,
+                    "y": 301
+                },
+                {
+                    "x": 777,
+                    "y": 353
+                },
+                {
+                    "x": 444,
+                    "y": 353
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:18px'>5 Limitations</p>",
+            "id": 110,
+            "page": 12,
+            "text": "5 Limitations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 398
+                },
+                {
+                    "x": 2108,
+                    "y": 398
+                },
+                {
+                    "x": 2108,
+                    "y": 724
+                },
+                {
+                    "x": 442,
+                    "y": 724
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:14px'>TANGO is not always able to finely control its generations over textual control prompts as itis trained<br>only on the small AudioCaps dataset. For example, the generations from TANGO for prompts Chop-<br>ping tomatoes on a wooden table and Chopping potatoes on a metal table are very similar. Chopping<br>vegetables on a table also produces similar audio samples. Training text-to-audio generation models<br>on larger datasets is thus required for the model to learn the composition of textual concepts and var-<br>ied text-audio mappings. In the future, we plan to improve TANGO by training it on larger datasets<br>and enhancing its compositional and controllable generation ability.</p>",
+            "id": 111,
+            "page": 12,
+            "text": "TANGO is not always able to finely control its generations over textual control prompts as itis trained only on the small AudioCaps dataset. For example, the generations from TANGO for prompts Chopping tomatoes on a wooden table and Chopping potatoes on a metal table are very similar. Chopping vegetables on a table also produces similar audio samples. Training text-to-audio generation models on larger datasets is thus required for the model to learn the composition of textual concepts and varied text-audio mappings. In the future, we plan to improve TANGO by training it on larger datasets and enhancing its compositional and controllable generation ability."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 787
+                },
+                {
+                    "x": 767,
+                    "y": 787
+                },
+                {
+                    "x": 767,
+                    "y": 837
+                },
+                {
+                    "x": 442,
+                    "y": 837
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:18px'>6 Conclusion</p>",
+            "id": 112,
+            "page": 12,
+            "text": "6 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 883
+                },
+                {
+                    "x": 2109,
+                    "y": 883
+                },
+                {
+                    "x": 2109,
+                    "y": 1345
+                },
+                {
+                    "x": 441,
+                    "y": 1345
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:16px'>In this work, we investigate the effectiveness of the instruction-tuned model, FLAN-T5, for text-<br>to-audio generation. Specifically, we use the textual embeddings produced by FLAN-T5 in the<br>latent diffusion model to generate mel-spectrogram tokens. These tokens are then fed to a pre-<br>trained variational auto-encoder (VAE) to generate mel-spectrograms, which are later used by a pre-<br>trained vocoder to generate audio. Our model achieved superior performance under both objective<br>and subjective evaluations compared to the state-of-the-art text-to-audio model, AudioLDM, despite<br>using only 63 times less training data. We primarily attribute this performance improvement to the<br>representational power of FLAN-T5, which is due to its instruction-based tuning in the pre-training<br>stage. In the future, we plan to investigate the effectiveness of FLAN-T5 in other audio tasks, such<br>as, audio super-resolution and inpainting.</p>",
+            "id": 113,
+            "page": 12,
+            "text": "In this work, we investigate the effectiveness of the instruction-tuned model, FLAN-T5, for textto-audio generation. Specifically, we use the textual embeddings produced by FLAN-T5 in the latent diffusion model to generate mel-spectrogram tokens. These tokens are then fed to a pretrained variational auto-encoder (VAE) to generate mel-spectrograms, which are later used by a pretrained vocoder to generate audio. Our model achieved superior performance under both objective and subjective evaluations compared to the state-of-the-art text-to-audio model, AudioLDM, despite using only 63 times less training data. We primarily attribute this performance improvement to the representational power of FLAN-T5, which is due to its instruction-based tuning in the pre-training stage. In the future, we plan to investigate the effectiveness of FLAN-T5 in other audio tasks, such as, audio super-resolution and inpainting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1406
+                },
+                {
+                    "x": 865,
+                    "y": 1406
+                },
+                {
+                    "x": 865,
+                    "y": 1459
+                },
+                {
+                    "x": 446,
+                    "y": 1459
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:22px'>Acknowledgements</p>",
+            "id": 114,
+            "page": 12,
+            "text": "Acknowledgements"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1505
+                },
+                {
+                    "x": 2103,
+                    "y": 1505
+                },
+                {
+                    "x": 2103,
+                    "y": 1599
+                },
+                {
+                    "x": 441,
+                    "y": 1599
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:14px'>We are grateful to ORACLE FOR RESEARCH and HUGGINGFACE for their generous support to the<br>project TANGO.</p>",
+            "id": 115,
+            "page": 12,
+            "text": "We are grateful to ORACLE FOR RESEARCH and HUGGINGFACE for their generous support to the project TANGO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1665
+                },
+                {
+                    "x": 686,
+                    "y": 1665
+                },
+                {
+                    "x": 686,
+                    "y": 1714
+                },
+                {
+                    "x": 445,
+                    "y": 1714
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:20px'>References</p>",
+            "id": 116,
+            "page": 12,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 461,
+                    "y": 1727
+                },
+                {
+                    "x": 2114,
+                    "y": 1727
+                },
+                {
+                    "x": 2114,
+                    "y": 3020
+                },
+                {
+                    "x": 461,
+                    "y": 3020
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:18px'>[1] Andrea Agostinelli, Timo I Denk, Zalan Borsos, Jesse Engel, Mauro Verzetti, Antoine Caillon,<br>Qingqing Huang, Aren Jansen, Adam Roberts, Marco Tagliasacchi, et al. Musiclm: Generating<br>music from text. arXiv preprint arXiv:2301.11325, 2023.<br>[2] Nanxin Chen, Yu Zhang, Heiga Zen, Ron J Weiss, Mohammad Norouzi, and William Chan.<br>Wavegrad: Estimating gradients for waveform generation. arXiv preprint arXiv:2009.00713,<br>2020.<br>[3] Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li,<br>Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, Albert Webson, Shixiang Shane Gu,<br>Zhuyun Dai, Mirac Suzgun, Xinyun Chen, Aakanksha Chowdhery, Sharan Narang, Gaurav<br>Mishra, Adams Yu, Vincent Zhao, Yanping Huang, Andrew Dai, Hongkun Yu, Slav Petrov,<br>Ed H. Chi, Jeff Dean, Jacob Devlin, Adam Roberts, Denny Zhou, Quoc V. Le, and Jason<br>Wei. Scaling instruction-finetuned language models, 2022. URL https : //arxiv · org/ abs/<br>2210. 11416.<br>[4] Damai Dai, Yutao Sun, Li Dong, Yaru Hao, Zhifang Sui, and Furu Wei. Why can gpt learn<br>in-context? language models secretly perform gradient descent as meta-optimizers. ArXiv,<br>abs/2212.10559, 2022.<br>[5] Jort F Gemmeke, Daniel PW Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R Chan-<br>ning Moore, Manoj Plakal, and Marvin Ritter. Audio set: An ontology and human-labeled<br>dataset for audio events. In 2017 IEEE international conference on acoustics, speech and<br>signal processing (ICASSP), pages 776-780. IEEE, 2017.<br>[6] Tiankai Hang, Shuyang Gu, Chen Li, Jianmin Bao, Dong Chen, Han Hu, Xin Geng, and<br>Baining Guo. Efficient diffusion training via min-snr weighting strategy, 2023.<br>[7] Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. NeurIPS 2021 Workshop<br>on Deep Generative Models and Downstream Applications, 2021.</p>",
+            "id": 117,
+            "page": 12,
+            "text": " Andrea Agostinelli, Timo I Denk, Zalan Borsos, Jesse Engel, Mauro Verzetti, Antoine Caillon, Qingqing Huang, Aren Jansen, Adam Roberts, Marco Tagliasacchi,  Musiclm: Generating music from text. arXiv preprint arXiv:2301.11325, 2023.  Nanxin Chen, Yu Zhang, Heiga Zen, Ron J Weiss, Mohammad Norouzi, and William Chan. Wavegrad: Estimating gradients for waveform generation. arXiv preprint arXiv:2009.00713, 2020.  Hyung Won Chung, Le Hou, Shayne Longpre, Barret Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi Wang, Mostafa Dehghani, Siddhartha Brahma, Albert Webson, Shixiang Shane Gu, Zhuyun Dai, Mirac Suzgun, Xinyun Chen, Aakanksha Chowdhery, Sharan Narang, Gaurav Mishra, Adams Yu, Vincent Zhao, Yanping Huang, Andrew Dai, Hongkun Yu, Slav Petrov, Ed H. Chi, Jeff Dean, Jacob Devlin, Adam Roberts, Denny Zhou, Quoc V. Le, and Jason Wei. Scaling instruction-finetuned language models, 2022. URL https : //arxiv · org/ abs/ 2210. 11416.  Damai Dai, Yutao Sun, Li Dong, Yaru Hao, Zhifang Sui, and Furu Wei. Why can gpt learn in-context? language models secretly perform gradient descent as meta-optimizers. ArXiv, abs/2212.10559, 2022.  Jort F Gemmeke, Daniel PW Ellis, Dylan Freedman, Aren Jansen, Wade Lawrence, R Channing Moore, Manoj Plakal, and Marvin Ritter. Audio set: An ontology and human-labeled dataset for audio events. In 2017 IEEE international conference on acoustics, speech and signal processing (ICASSP), pages 776-780. IEEE, 2017.  Tiankai Hang, Shuyang Gu, Chen Li, Jianmin Bao, Dong Chen, Han Hu, Xin Geng, and Baining Guo. Efficient diffusion training via min-snr weighting strategy, 2023.  Jonathan Ho and Tim Salimans. Classifier-free diffusion guidance. NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications, 2021."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3130
+                },
+                {
+                    "x": 1252,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='118' style='font-size:14px'>12</footer>",
+            "id": 118,
+            "page": 12,
+            "text": "12"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 295
+                },
+                {
+                    "x": 2117,
+                    "y": 295
+                },
+                {
+                    "x": 2117,
+                    "y": 3015
+                },
+                {
+                    "x": 444,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='119' style='font-size:18px'>[8] Rongjie Huang, Max WY Lam, Jun Wang, Dan Su, Dong Yu, Yi Ren, and Zhou Zhao. Fast-<br>diff: A fast conditional diffusion model for high-quality speech synthesis. arXiv preprint<br>arXiv:2204.09934, 2022.<br>[9] Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. Image-to-image translation<br>with conditional adversarial networks. 2017 IEEE Conference on Computer Vision and Pattern<br>Recognition (CVPR), pages 5967-5976, 2016.<br>[10] Myeonghun Jeong, Hyeongju Kim, Sung Jun Cheon, Byoung Jin Choi, and Nam Soo Kim.<br>Diff-tts: A denoising diffusion model for text-to-speech. arXiv preprint arXiv:2104.01409,<br>2021.<br>[11] Kevin Kilgour, Mauricio Zuluaga, Dominik Roblek, and Matthew Sharifi. Frechet audio<br>distance: A reference-free metric for evaluating music enhancement algorithms. In INTER-<br>SPEECH, pages 2350-2354, 2019.<br>[12] Chris Dongjoo Kim, Byeongchang Kim, Hyunmin Lee, and Gunhee Kim. Audiocaps: Gen-<br>erating captions for audios in the wild. In Proceedings of the 2019 Conference of the North<br>American Chapter of the Association for Computational Linguistics: Human Language Tech-<br>nologies, Volume 1 (Long and Short Papers), pages 119-132, 2019.<br>[13] Diederik P. Kingma and Max Welling. Auto-encoding variational bayes. CoRR,<br>abs/1312.6114, 2013.<br>[14] Jungil Kong, Jaehyeon Kim, and Jaekyoung Bae. Hifi-gan: Generative adversarial networks<br>for efficient and high fidelity speech synthesis. Advances in Neural Information Processing<br>Systems, 33:17022-17033, 2020.<br>[15] Qiuqiang Kong, Yin Cao, Haohe Liu, Keunwoo Choi, and Yuxuan Wang. Decoupling mag-<br>nitude and phase estimation with deep resunet for music source separation. In International<br>Society for Music Information Retrieval Conference, 2021.<br>[16] Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, and Bryan Catanzaro. Diffwave: A versatile<br>diffusion model for audio synthesis. arXiv preprint arXiv:2009.09761, 2020.<br>[17] Felix Kreuk, Gabriel Synnaeve, Adam Polyak, Uriel Singer, Alexandre D'efossez, Jade Copet,<br>Devi Parikh, Yaniv Taigman, and Yossi Adi. Audiogen: Textually guided audio generation.<br>ArXiv, abs/2209.15352, 2022.<br>[18] Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo P. Mandic, Wenwu Wang,<br>and Mark D · Plumbley. AudioLDM: Text-to-audio generation with latent diffusion models.<br>ArXiv, abs/2301.12503, 2023.<br>[19] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy,<br>Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert<br>pretraining approach. ArXiv, abs/1907.11692, 2019.<br>[20] Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint<br>arXiv:1711.05101, 2017.<br>[21] Yen-Ju Lu, Yu Tsao, and Shinji Watanabe. A study on speech enhancement based on diffu-<br>sion probabilistic model. In 2021 Asia-Pacific Signal and Information Processing Association<br>Annual Summit and Conference (APSIPA ASC), pages 659-666, 2021.<br>[22] Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, and Yu Tsao.<br>Conditional diffusion probabilistic model for speech enhancement. In ICASSP 2022 - 2022<br>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages<br>7402-7406, 2022. doi: 10.1109/ICASSP43922.2022.9746901.<br>[23] Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, and Yu Tsao.<br>Conditional diffusion probabilistic model for speech enhancement. In ICASSP 2022-2022<br>IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages<br>7402-7406. IEEE, 2022.</p>",
+            "id": 119,
+            "page": 13,
+            "text": " Rongjie Huang, Max WY Lam, Jun Wang, Dan Su, Dong Yu, Yi Ren, and Zhou Zhao. Fastdiff: A fast conditional diffusion model for high-quality speech synthesis. arXiv preprint arXiv:2204.09934, 2022.  Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. Image-to-image translation with conditional adversarial networks. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pages 5967-5976, 2016.  Myeonghun Jeong, Hyeongju Kim, Sung Jun Cheon, Byoung Jin Choi, and Nam Soo Kim. Diff-tts: A denoising diffusion model for text-to-speech. arXiv preprint arXiv:2104.01409, 2021.  Kevin Kilgour, Mauricio Zuluaga, Dominik Roblek, and Matthew Sharifi. Frechet audio distance: A reference-free metric for evaluating music enhancement algorithms. In INTERSPEECH, pages 2350-2354, 2019.  Chris Dongjoo Kim, Byeongchang Kim, Hyunmin Lee, and Gunhee Kim. Audiocaps: Generating captions for audios in the wild. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers), pages 119-132, 2019.  Diederik P. Kingma and Max Welling. Auto-encoding variational bayes. CoRR, abs/1312.6114, 2013.  Jungil Kong, Jaehyeon Kim, and Jaekyoung Bae. Hifi-gan: Generative adversarial networks for efficient and high fidelity speech synthesis. Advances in Neural Information Processing Systems, 33:17022-17033, 2020.  Qiuqiang Kong, Yin Cao, Haohe Liu, Keunwoo Choi, and Yuxuan Wang. Decoupling magnitude and phase estimation with deep resunet for music source separation. In International Society for Music Information Retrieval Conference, 2021.  Zhifeng Kong, Wei Ping, Jiaji Huang, Kexin Zhao, and Bryan Catanzaro. Diffwave: A versatile diffusion model for audio synthesis. arXiv preprint arXiv:2009.09761, 2020.  Felix Kreuk, Gabriel Synnaeve, Adam Polyak, Uriel Singer, Alexandre D'efossez, Jade Copet, Devi Parikh, Yaniv Taigman, and Yossi Adi. Audiogen: Textually guided audio generation. ArXiv, abs/2209.15352, 2022.  Haohe Liu, Zehua Chen, Yi Yuan, Xinhao Mei, Xubo Liu, Danilo P. Mandic, Wenwu Wang, and Mark D · Plumbley. AudioLDM: Text-to-audio generation with latent diffusion models. ArXiv, abs/2301.12503, 2023.  Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized bert pretraining approach. ArXiv, abs/1907.11692, 2019.  Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. arXiv preprint arXiv:1711.05101, 2017.  Yen-Ju Lu, Yu Tsao, and Shinji Watanabe. A study on speech enhancement based on diffusion probabilistic model. In 2021 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), pages 659-666, 2021.  Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, and Yu Tsao. Conditional diffusion probabilistic model for speech enhancement. In ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 7402-7406, 2022. doi: 10.1109/ICASSP43922.2022.9746901.  Yen-Ju Lu, Zhong-Qiu Wang, Shinji Watanabe, Alexander Richard, Cheng Yu, and Yu Tsao. Conditional diffusion probabilistic model for speech enhancement. In ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pages 7402-7406. IEEE, 2022."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3091
+                },
+                {
+                    "x": 1299,
+                    "y": 3091
+                },
+                {
+                    "x": 1299,
+                    "y": 3130
+                },
+                {
+                    "x": 1252,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='120' style='font-size:14px'>13</footer>",
+            "id": 120,
+            "page": 13,
+            "text": "13"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 296
+                },
+                {
+                    "x": 2116,
+                    "y": 296
+                },
+                {
+                    "x": 2116,
+                    "y": 3005
+                },
+                {
+                    "x": 441,
+                    "y": 3005
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:18px'>[24] Xinhao Mei, Chutong Meng, Haohe Liu, Qiuqiang Kong, Tom Ko, Chengqi Zhao,<br>Mark D Plumbley, Yuexian Zou, and Wenwu Wang. Wavcaps: A chatgpt-assisted weakly-<br>labelled audio captioning dataset for audio-language multimodal research. arXiv preprint<br>arXiv:2303.17395, 2023.<br>[25] Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex<br>Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu. Wavenet: A generative<br>model for raw audio. arXiv preprint arXiv:1609.03499, 2016.<br>[26] Karol J. Piczak. ESC: Dataset for Environmental Sound Classification. In Proceedings<br>of the 23rd Annual ACM Conference on Multimedia, pages 1015-1018. ACM Press, 2015.<br>ISBN 978-1-4503-3459-4. doi: 10.1145/2733373.2806390. URL http: //dl · acm. org/<br>citation cfm?doid=2733373 2806390.<br>[27] Vadim Popov, Ivan Vovk, Vladimir Gogoryan, Tasnima Sadekova, and Mikhail Kudinov. Grad-<br>tts: A diffusion probabilistic model for text-to-speech. In International Conference on Machine<br>Learning, pages 8599-8608. PMLR, 2021.<br>[28] Vadim Popov, Ivan Vovk, Vladimir Gogoryan, Tasnima Sadekova, Mikhail Kudinov, and Jian-<br>sheng Wei. Diffusion-based voice conversion with fast maximum likelihood sampling scheme.<br>arXiv preprint arXiv:2109.13821, 2021.<br>[29] Zhibin Qiu, Mengfan Fu, Yinfeng Yu, LiLi Yin, Fuchun Sun, and Hao Huang. Srtnet: Time do-<br>main speech enhancement via stochastic refinement. arXiv preprint arXiv:2210.16805, 2022.<br>[30] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena,<br>Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified<br>text-to-text transformer. Journal of Machine Learning Research, 21(140):1-67, 2020. URL<br>http : / / jmlr · org/papers/v21/20-074.html.<br>[31] Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark<br>Chen, and Ilya Sutskever. Zero-shot text-to-image generation. ArXiv, abs/2102.12092, 2021.<br>[32] Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen. Hierarchical<br>text-conditional image generation with clip latents. ArXiv, abs/2204.06125, 2022.<br>[33] Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjorn Ommer.<br>High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF<br>Conference on Computer Vision and Pattern Recognition, pages 10684-10695, 2022.<br>[34] Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for<br>biomedical image segmentation. In Nassir Navab, Joachim Hornegger, William M. Wells, and<br>Alejandro F. Frangi, editors, Medical Image Computing and Computer-Assisted Intervention -<br>MICCAI 2015, pages 234-241, Cham, 2015. Springer International Publishing. ISBN 978-3-<br>319-24574-4.<br>[35] Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L Denton, Kam-<br>yar Ghasemipour, Raphael Gontijo Lopes, Burcu Karagol Ayan, Tim Salimans, et al. Photore-<br>alistic text-to-image diffusion models with deep language understanding. Advances in Neural<br>Information Processing Systems, 35:36479-36494, 2022.<br>[36] Justin Salamon, Christopher Jacoby, and Juan Pablo Bello. A dataset and taxonomy for urban<br>sound research. In Proceedings of the 22nd ACM international conference on Multimedia,<br>pages 1041-1044, 2014.<br>[37] Joan Serra, Santiago Pascual, Jordi Pons, R Oguz Araz, and Davide Scaini. Universal speech<br>enhancement with score-based diffusion. arXiv preprint arXiv:2206.03065, 2022.<br>[38] Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models. ArXiv,<br>abs/2010.02502, 2020.<br>[39] Yuji Tokozume, Yoshitaka Ushiku, and Tatsuya Harada. Learning from between-class exam-<br>ples for deep sound recognition. CoRR, abs/1711.10282, 2017. URL http : // arxiv · org/<br>abs/1711 . 10282.</p>",
+            "id": 121,
+            "page": 14,
+            "text": " Xinhao Mei, Chutong Meng, Haohe Liu, Qiuqiang Kong, Tom Ko, Chengqi Zhao, Mark D Plumbley, Yuexian Zou, and Wenwu Wang. Wavcaps: A chatgpt-assisted weaklylabelled audio captioning dataset for audio-language multimodal research. arXiv preprint arXiv:2303.17395, 2023.  Aaron van den Oord, Sander Dieleman, Heiga Zen, Karen Simonyan, Oriol Vinyals, Alex Graves, Nal Kalchbrenner, Andrew Senior, and Koray Kavukcuoglu. Wavenet: A generative model for raw audio. arXiv preprint arXiv:1609.03499, 2016.  Karol J. Piczak. ESC: Dataset for Environmental Sound Classification. In Proceedings of the 23rd Annual ACM Conference on Multimedia, pages 1015-1018. ACM Press, 2015. ISBN 978-1-4503-3459-4. doi: 10.1145/2733373.2806390. URL http: //dl · acm. org/ citation cfm?doid=2733373 2806390.  Vadim Popov, Ivan Vovk, Vladimir Gogoryan, Tasnima Sadekova, and Mikhail Kudinov. Gradtts: A diffusion probabilistic model for text-to-speech. In International Conference on Machine Learning, pages 8599-8608. PMLR, 2021.  Vadim Popov, Ivan Vovk, Vladimir Gogoryan, Tasnima Sadekova, Mikhail Kudinov, and Jiansheng Wei. Diffusion-based voice conversion with fast maximum likelihood sampling scheme. arXiv preprint arXiv:2109.13821, 2021.  Zhibin Qiu, Mengfan Fu, Yinfeng Yu, LiLi Yin, Fuchun Sun, and Hao Huang. Srtnet: Time domain speech enhancement via stochastic refinement. arXiv preprint arXiv:2210.16805, 2022.  Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and Peter J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 21(140):1-67, 2020. URL http : / / jmlr · org/papers/v21/20-074.html.  Aditya Ramesh, Mikhail Pavlov, Gabriel Goh, Scott Gray, Chelsea Voss, Alec Radford, Mark Chen, and Ilya Sutskever. Zero-shot text-to-image generation. ArXiv, abs/2102.12092, 2021.  Aditya Ramesh, Prafulla Dhariwal, Alex Nichol, Casey Chu, and Mark Chen. Hierarchical text-conditional image generation with clip latents. ArXiv, abs/2204.06125, 2022.  Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bjorn Ommer. High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 10684-10695, 2022.  Olaf Ronneberger, Philipp Fischer, and Thomas Brox. U-net: Convolutional networks for biomedical image segmentation. In Nassir Navab, Joachim Hornegger, William M. Wells, and Alejandro F. Frangi, editors, Medical Image Computing and Computer-Assisted Intervention MICCAI 2015, pages 234-241, Cham, 2015. Springer International Publishing. ISBN 978-3319-24574-4.  Chitwan Saharia, William Chan, Saurabh Saxena, Lala Li, Jay Whang, Emily L Denton, Kamyar Ghasemipour, Raphael Gontijo Lopes, Burcu Karagol Ayan, Tim Salimans,  Photorealistic text-to-image diffusion models with deep language understanding. Advances in Neural Information Processing Systems, 35:36479-36494, 2022.  Justin Salamon, Christopher Jacoby, and Juan Pablo Bello. A dataset and taxonomy for urban sound research. In Proceedings of the 22nd ACM international conference on Multimedia, pages 1041-1044, 2014.  Joan Serra, Santiago Pascual, Jordi Pons, R Oguz Araz, and Davide Scaini. Universal speech enhancement with score-based diffusion. arXiv preprint arXiv:2206.03065, 2022.  Jiaming Song, Chenlin Meng, and Stefano Ermon. Denoising diffusion implicit models. ArXiv, abs/2010.02502, 2020.  Yuji Tokozume, Yoshitaka Ushiku, and Tatsuya Harada. Learning from between-class examples for deep sound recognition. CoRR, abs/1711.10282, 2017. URL http : // arxiv · org/ abs/1711 . 10282."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3092
+                },
+                {
+                    "x": 1299,
+                    "y": 3130
+                },
+                {
+                    "x": 1252,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='122' style='font-size:14px'>14</footer>",
+            "id": 122,
+            "page": 14,
+            "text": "14"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 299
+                },
+                {
+                    "x": 2114,
+                    "y": 299
+                },
+                {
+                    "x": 2114,
+                    "y": 820
+                },
+                {
+                    "x": 440,
+                    "y": 820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:18px'>[40] George Tzanetakis and Perry Cook. Musical genre classification of audio signals. IEEE Trans-<br>actions on speech and audio processing, 10(5):293-302, 2002.<br>[41] Wikipedia. Tango. https : / / en.wikipedia. org/wiki/Tango, 2021. [Online; accessed<br>21-April-2023].<br>[42] Wikipedia. Tango music. https : / / en · wikipedia · org/wiki /Tango _music, 2021. [On-<br>line; accessed 21-April-2023].<br>[43] Dongchao Yang, Jianwei Yu, Helin Wang, Wen Wang, Chao Weng, Yuexian Zou, and Dong<br>Yu. Diffsound: Discrete diffusion model for text-to-sound generation. arXiv preprint<br>arXiv:2207.09983, 2022.</p>",
+            "id": 123,
+            "page": 15,
+            "text": " George Tzanetakis and Perry Cook. Musical genre classification of audio signals. IEEE Transactions on speech and audio processing, 10(5):293-302, 2002.  Wikipedia. Tango. https : / / en.wikipedia. org/wiki/Tango, 2021. [Online; accessed 21-April-2023].  Wikipedia. Tango music. https : / / en · wikipedia · org/wiki /Tango _music, 2021. [Online; accessed 21-April-2023].  Dongchao Yang, Jianwei Yu, Helin Wang, Wen Wang, Chao Weng, Yuexian Zou, and Dong Yu. Diffsound: Discrete diffusion model for text-to-sound generation. arXiv preprint arXiv:2207.09983, 2022."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3090
+                },
+                {
+                    "x": 1300,
+                    "y": 3090
+                },
+                {
+                    "x": 1300,
+                    "y": 3131
+                },
+                {
+                    "x": 1252,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='124' style='font-size:14px'>15</footer>",
+            "id": 124,
+            "page": 15,
+            "text": "15"
+        }
+    ]
+}

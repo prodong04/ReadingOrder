@@ -1,0 +1,3581 @@
+{
+    "id": "32c213ea-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1606.05908v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 626,
+                    "y": 523
+                },
+                {
+                    "x": 1848,
+                    "y": 523
+                },
+                {
+                    "x": 1848,
+                    "y": 592
+                },
+                {
+                    "x": 626,
+                    "y": 592
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Tutorial on Variational Autoencoders</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Tutorial on Variational Autoencoders"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 609,
+                    "y": 806
+                },
+                {
+                    "x": 1859,
+                    "y": 806
+                },
+                {
+                    "x": 1859,
+                    "y": 981
+                },
+                {
+                    "x": 609,
+                    "y": 981
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>CARL DOERSCH<br>Carnegie Mellon / uC Berkeley<br>August 16, 2016, with very minor revisions on January 3, 2021</p>",
+            "id": 1,
+            "page": 1,
+            "text": "CARL DOERSCH Carnegie Mellon / uC Berkeley August 16, 2016, with very minor revisions on January 3, 2021"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1151,
+                    "y": 1198
+                },
+                {
+                    "x": 1322,
+                    "y": 1198
+                },
+                {
+                    "x": 1322,
+                    "y": 1245
+                },
+                {
+                    "x": 1151,
+                    "y": 1245
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:16px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 594,
+                    "y": 1278
+                },
+                {
+                    "x": 1882,
+                    "y": 1278
+                },
+                {
+                    "x": 1882,
+                    "y": 1907
+                },
+                {
+                    "x": 594,
+                    "y": 1907
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>In just three years, Variational Autoencoders (VAEs) have emerged<br>as one of the most popular approaches to unsupervised learning of<br>complicated distributions. VAEs are appealing because they are built<br>on top of standard function approximators (neural networks), and<br>can be trained with stochastic gradient descent. VAEs have already<br>shown promise in generating many kinds of complicated data, in-<br>cluding handwritten digits [1, 2], faces [1, 3, 4], house numbers [5, 6],<br>CIFAR images [6], physical models of scenes [4], segmentation [7], and<br>predicting the future from static images [8]. This tutorial introduces the<br>intuitions behind VAEs, explains the mathematics behind them, and<br>describes some empirical behavior. No prior knowledge of variational<br>Bayesian methods is assumed.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "In just three years, Variational Autoencoders (VAEs) have emerged as one of the most popular approaches to unsupervised learning of complicated distributions. VAEs are appealing because they are built on top of standard function approximators (neural networks), and can be trained with stochastic gradient descent. VAEs have already shown promise in generating many kinds of complicated data, including handwritten digits , faces , house numbers , CIFAR images , physical models of scenes , segmentation , and predicting the future from static images . This tutorial introduces the intuitions behind VAEs, explains the mathematics behind them, and describes some empirical behavior. No prior knowledge of variational Bayesian methods is assumed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1948
+                },
+                {
+                    "x": 1989,
+                    "y": 1948
+                },
+                {
+                    "x": 1989,
+                    "y": 2062
+                },
+                {
+                    "x": 482,
+                    "y": 2062
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>Keywords: variational autoencoders, unsupervised learning, structured<br>prediction, neural networks</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Keywords: variational autoencoders, unsupervised learning, structured prediction, neural networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2277
+                },
+                {
+                    "x": 929,
+                    "y": 2277
+                },
+                {
+                    "x": 929,
+                    "y": 2340
+                },
+                {
+                    "x": 482,
+                    "y": 2340
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2392
+                },
+                {
+                    "x": 1996,
+                    "y": 2392
+                },
+                {
+                    "x": 1996,
+                    "y": 2988
+                },
+                {
+                    "x": 480,
+                    "y": 2988
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:18px'>\"Generative modeling\" is a broad area of machine learning which deals with<br>models of distributions P(X), defined over datapoints X in some potentially<br>high-dimensional space X. For instance, images are a popular kind of data<br>for which we might create generative models. Each \"datapoint\" (image) has<br>thousands or millions of dimensions (pixels), and the generative model's job<br>is to somehow capture the dependencies between pixels, e.g., that nearby<br>pixels have similar color, and are organized into objects. Exactly what it<br>means to \"capture\" these dependencies depends on exactly what we want<br>to do with the model. One straightforward kind of generative model simply<br>allows us to compute P(X) numerically. In the case of images, X values</p>",
+            "id": 6,
+            "page": 1,
+            "text": "\"Generative modeling\" is a broad area of machine learning which deals with models of distributions P(X), defined over datapoints X in some potentially high-dimensional space X. For instance, images are a popular kind of data for which we might create generative models. Each \"datapoint\" (image) has thousands or millions of dimensions (pixels), and the generative model's job is to somehow capture the dependencies between pixels, e.g., that nearby pixels have similar color, and are organized into objects. Exactly what it means to \"capture\" these dependencies depends on exactly what we want to do with the model. One straightforward kind of generative model simply allows us to compute P(X) numerically. In the case of images, X values"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 61,
+                    "y": 1126
+                },
+                {
+                    "x": 145,
+                    "y": 1126
+                },
+                {
+                    "x": 145,
+                    "y": 2557
+                },
+                {
+                    "x": 61,
+                    "y": 2557
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='7' style='font-size:14px'>2021<br>Jan<br>3<br>[stat.ML]<br>arXiv:1606.05908v3</footer>",
+            "id": 7,
+            "page": 1,
+            "text": "2021 Jan 3 [stat.ML] arXiv:1606.05908v3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3089
+                },
+                {
+                    "x": 1253,
+                    "y": 3089
+                },
+                {
+                    "x": 1253,
+                    "y": 3133
+                },
+                {
+                    "x": 1222,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='8' style='font-size:14px'>1</footer>",
+            "id": 8,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 532
+                },
+                {
+                    "x": 1994,
+                    "y": 532
+                },
+                {
+                    "x": 1994,
+                    "y": 765
+                },
+                {
+                    "x": 481,
+                    "y": 765
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:20px'>which look like real images should get high probability, whereas images<br>that look like random noise should get low probability. However, models<br>like this are not necessarily useful: knowing that one image is unlikely does<br>not help us synthesize one that is likely.</p>",
+            "id": 9,
+            "page": 2,
+            "text": "which look like real images should get high probability, whereas images that look like random noise should get low probability. However, models like this are not necessarily useful: knowing that one image is unlikely does not help us synthesize one that is likely."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 772
+                },
+                {
+                    "x": 1997,
+                    "y": 772
+                },
+                {
+                    "x": 1997,
+                    "y": 1359
+                },
+                {
+                    "x": 480,
+                    "y": 1359
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:16px'>Instead, one often cares about producing more examples that are like<br>those already in a database, but not exactly the same. We could start with a<br>database of raw images and synthesize new, unseen images. We might take<br>in a database of 3D models of something like plants and produce more of<br>them to fill a forest in a video game. We could take handwritten text and try<br>to produce more handwritten text. Tools like this might actually be useful<br>for graphic designers. We can formalize this setup by saying that we get<br>examples X distributed according to some unknown distribution Pgt (X),<br>and our goal is to learn a model P which we can sample from, such that P is<br>as similar as possible to Pgt.</p>",
+            "id": 10,
+            "page": 2,
+            "text": "Instead, one often cares about producing more examples that are like those already in a database, but not exactly the same. We could start with a database of raw images and synthesize new, unseen images. We might take in a database of 3D models of something like plants and produce more of them to fill a forest in a video game. We could take handwritten text and try to produce more handwritten text. Tools like this might actually be useful for graphic designers. We can formalize this setup by saying that we get examples X distributed according to some unknown distribution Pgt (X), and our goal is to learn a model P which we can sample from, such that P is as similar as possible to Pgt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1364
+                },
+                {
+                    "x": 1999,
+                    "y": 1364
+                },
+                {
+                    "x": 1999,
+                    "y": 1952
+                },
+                {
+                    "x": 480,
+                    "y": 1952
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:20px'>Training this type of model has been a long-standing problem in the ma-<br>chine learning community, and classically, most approaches have had one of<br>three serious drawbacks. First, they might require strong assumptions about<br>the structure in the data. Second, they might make severe approximations,<br>leading to sub-optimal models. Or third, they might rely on computation-<br>ally expensive inference procedures like Markov Chain Monte Carlo. More<br>recently, some works have made tremendous progress in training neural<br>networks as powerful function approximators through backpropagation [9].<br>These advances have given rise to promising frameworks which can use<br>backpropagation-based function approximators to build generative models.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "Training this type of model has been a long-standing problem in the machine learning community, and classically, most approaches have had one of three serious drawbacks. First, they might require strong assumptions about the structure in the data. Second, they might make severe approximations, leading to sub-optimal models. Or third, they might rely on computationally expensive inference procedures like Markov Chain Monte Carlo. More recently, some works have made tremendous progress in training neural networks as powerful function approximators through backpropagation . These advances have given rise to promising frameworks which can use backpropagation-based function approximators to build generative models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1957
+                },
+                {
+                    "x": 1998,
+                    "y": 1957
+                },
+                {
+                    "x": 1998,
+                    "y": 2306
+                },
+                {
+                    "x": 480,
+                    "y": 2306
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:18px'>One of the most popular such frameworks is the Variational Autoen-<br>coder [1, 3], the subject of this tutorial. The assumptions of this model are<br>weak, and training is fast via backpropagation. VAEs do make an approxi-<br>mation, but the error introduced by this approximation is arguably small<br>given high-capacity models. These characteristics have contributed to a<br>quick rise in their popularity.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "One of the most popular such frameworks is the Variational Autoencoder , the subject of this tutorial. The assumptions of this model are weak, and training is fast via backpropagation. VAEs do make an approximation, but the error introduced by this approximation is arguably small given high-capacity models. These characteristics have contributed to a quick rise in their popularity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2311
+                },
+                {
+                    "x": 1997,
+                    "y": 2311
+                },
+                {
+                    "x": 1997,
+                    "y": 2784
+                },
+                {
+                    "x": 481,
+                    "y": 2784
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:16px'>This tutorial is intended to be an informal introduction to VAEs, and not<br>a formal scientific paper about them. It is aimed at people who might have<br>uses for generative models, but might not have a strong background in the<br>variatonal Bayesian methods and \"minimum description length\" coding<br>models on which VAEs are based. This tutorial began its life as a presentation<br>for computer vision reading groups at UC Berkeley and Carnegie Mellon,<br>and hence has a bias toward a vision audience. Suggestions for improvement<br>are appreciated.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "This tutorial is intended to be an informal introduction to VAEs, and not a formal scientific paper about them. It is aimed at people who might have uses for generative models, but might not have a strong background in the variatonal Bayesian methods and \"minimum description length\" coding models on which VAEs are based. This tutorial began its life as a presentation for computer vision reading groups at UC Berkeley and Carnegie Mellon, and hence has a bias toward a vision audience. Suggestions for improvement are appreciated."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1220,
+                    "y": 3087
+                },
+                {
+                    "x": 1256,
+                    "y": 3087
+                },
+                {
+                    "x": 1256,
+                    "y": 3133
+                },
+                {
+                    "x": 1220,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='14' style='font-size:14px'>2</footer>",
+            "id": 14,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 485,
+                    "y": 532
+                },
+                {
+                    "x": 1473,
+                    "y": 532
+                },
+                {
+                    "x": 1473,
+                    "y": 586
+                },
+                {
+                    "x": 485,
+                    "y": 586
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:20px'>1.1 Preliminaries: Latent Variable Models</p>",
+            "id": 15,
+            "page": 3,
+            "text": "1.1 Preliminaries: Latent Variable Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 622
+                },
+                {
+                    "x": 1998,
+                    "y": 622
+                },
+                {
+                    "x": 1998,
+                    "y": 1450
+                },
+                {
+                    "x": 480,
+                    "y": 1450
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:18px'>When training a generative model, the more complicated the dependencies<br>between the dimensions, the more difficult the models are to train. Take,<br>for example, the problem of generating images of handwritten characters.<br>Say for simplicity that we only care about modeling the digits 0-9. If the left<br>half of the character contains the left half of a 5, then the right half cannot<br>contain the left half of a 0, or the character will very clearly not look like any<br>real digit. Intuitively, it helps if the model first decides which character to<br>generate before it assigns a value to any specific pixel. This kind of decision<br>is formally called a latent variable. That is, before our model draws anything,<br>it first randomly samples a digit value Z from the set [0, ..., 9], and then makes<br>sure all the strokes match that character. Z is called 'latent' because given<br>just a character produced by the model, we don't necessarily know which<br>settings of the latent variables generated the character. We would need to<br>infer it using something like computer vision.</p>",
+            "id": 16,
+            "page": 3,
+            "text": "When training a generative model, the more complicated the dependencies between the dimensions, the more difficult the models are to train. Take, for example, the problem of generating images of handwritten characters. Say for simplicity that we only care about modeling the digits 0-9. If the left half of the character contains the left half of a 5, then the right half cannot contain the left half of a 0, or the character will very clearly not look like any real digit. Intuitively, it helps if the model first decides which character to generate before it assigns a value to any specific pixel. This kind of decision is formally called a latent variable. That is, before our model draws anything, it first randomly samples a digit value Z from the set [0, ..., 9], and then makes sure all the strokes match that character. Z is called 'latent' because given just a character produced by the model, we don't necessarily know which settings of the latent variables generated the character. We would need to infer it using something like computer vision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1457
+                },
+                {
+                    "x": 1997,
+                    "y": 1457
+                },
+                {
+                    "x": 1997,
+                    "y": 2103
+                },
+                {
+                    "x": 480,
+                    "y": 2103
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:16px'>Before we can say that our model is representative of our dataset, we<br>need to make sure that for every datapoint X in the dataset, there is one (or<br>many) settings of the latent variables which causes the model to generate<br>something very similar to X. Formally, say we have a vector of latent<br>variables Z in a high-dimensional space Z which we can easily sample<br>according to some probability density function (PDF) P(z) defined over Z.<br>Then, say we have a family of deterministic functions f(z;0), parameterized<br>by a vector 0 in some space Ⓗ, where f : Z x Ⓗ → X. f is deterministic, but<br>if z is random and 0 is fixed, then f(z;0) is a random variable in the space<br>X. We wish to optimize 0 such that we can sample Z from P(z) and, with<br>high probability, f(z;0) will be like the X's in our dataset.</p>",
+            "id": 17,
+            "page": 3,
+            "text": "Before we can say that our model is representative of our dataset, we need to make sure that for every datapoint X in the dataset, there is one (or many) settings of the latent variables which causes the model to generate something very similar to X. Formally, say we have a vector of latent variables Z in a high-dimensional space Z which we can easily sample according to some probability density function (PDF) P(z) defined over Z. Then, say we have a family of deterministic functions f(z;0), parameterized by a vector 0 in some space Ⓗ, where f : Z x Ⓗ → X. f is deterministic, but if z is random and 0 is fixed, then f(z;0) is a random variable in the space X. We wish to optimize 0 such that we can sample Z from P(z) and, with high probability, f(z;0) will be like the X's in our dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2108
+                },
+                {
+                    "x": 1995,
+                    "y": 2108
+                },
+                {
+                    "x": 1995,
+                    "y": 2282
+                },
+                {
+                    "x": 483,
+                    "y": 2282
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:16px'>To make this notion precise mathematically, we are aiming maximize the<br>probability of each X in the training set under the entire generative process,<br>according to:</p>",
+            "id": 18,
+            "page": 3,
+            "text": "To make this notion precise mathematically, we are aiming maximize the probability of each X in the training set under the entire generative process, according to:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2442
+                },
+                {
+                    "x": 1999,
+                    "y": 2442
+                },
+                {
+                    "x": 1999,
+                    "y": 2978
+                },
+                {
+                    "x": 480,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:18px'>Here, f(z;�) has been replaced by a distribution P(X|z;0), which allows us<br>to make the dependence of X on Z explicit by using the law of total probabil-<br>ity. The intuition behind this framework -called \"maximum likelihood\" -<br>is that if the model is likely to produce training set samples, then it is<br>also likely to produce similar samples, and unlikely to produce dissimilar<br>ones. In VAEs, the choice of this output distribution is often Gaussian, i.e.,<br>P(X|z;0) = N(X|f(z; 0), �2 * I). That is, it has mean f(z;0) and covariance<br>equal to the identity matrix I times some scalar 0 (which is a hyperparam-<br>eter). This replacement is necessary to formalize the intuition that some Z</p>",
+            "id": 19,
+            "page": 3,
+            "text": "Here, f(z;�) has been replaced by a distribution P(X|z;0), which allows us to make the dependence of X on Z explicit by using the law of total probability. The intuition behind this framework -called \"maximum likelihood\" is that if the model is likely to produce training set samples, then it is also likely to produce similar samples, and unlikely to produce dissimilar ones. In VAEs, the choice of this output distribution is often Gaussian, i.e., P(X|z;0) = N(X|f(z; 0), �2 * I). That is, it has mean f(z;0) and covariance equal to the identity matrix I times some scalar 0 (which is a hyperparameter). This replacement is necessary to formalize the intuition that some Z"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3090
+                },
+                {
+                    "x": 1254,
+                    "y": 3090
+                },
+                {
+                    "x": 1254,
+                    "y": 3130
+                },
+                {
+                    "x": 1221,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='20' style='font-size:14px'>3</footer>",
+            "id": 20,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 866,
+                    "y": 526
+                },
+                {
+                    "x": 1610,
+                    "y": 526
+                },
+                {
+                    "x": 1610,
+                    "y": 1125
+                },
+                {
+                    "x": 866,
+                    "y": 1125
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='21' style='font-size:22px' alt=\"N(0, I\nN\" data-coord=\"top-left:(866,526); bottom-right:(1610,1125)\" /></figure>",
+            "id": 21,
+            "page": 4,
+            "text": "N(0, I N"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1230
+                },
+                {
+                    "x": 1994,
+                    "y": 1230
+                },
+                {
+                    "x": 1994,
+                    "y": 1527
+                },
+                {
+                    "x": 481,
+                    "y": 1527
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='22' style='font-size:16px'>Figure 1: The standard VAE model represented as a graphical model. Note<br>the conspicuous lack of any structure or even an \"encoder\" pathway: it is<br>possible to sample from the model without any input. Here, the rectangle is<br>\"plate notation\" meaning that we can sample from Z and X N times while<br>the model parameters 0 remain fixed.</caption>",
+            "id": 22,
+            "page": 4,
+            "text": "Figure 1: The standard VAE model represented as a graphical model. Note the conspicuous lack of any structure or even an \"encoder\" pathway: it is possible to sample from the model without any input. Here, the rectangle is \"plate notation\" meaning that we can sample from Z and X N times while the model parameters 0 remain fixed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1611
+                },
+                {
+                    "x": 1997,
+                    "y": 1611
+                },
+                {
+                    "x": 1997,
+                    "y": 2318
+                },
+                {
+                    "x": 481,
+                    "y": 2318
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:18px'>needs to result in samples that are merely like X. In general, and particularly<br>early in training, our model will not produce outputs that are identical to<br>any particular X. By having a Gaussian distribution, we can use gradient<br>descent (or any other optimization technique) to increase P(X) by making<br>f(z; 0) approach X for some z, i.e., gradually making the training data more<br>likely under the generative model. This wouldn't be possible if P(X|z) was<br>a Dirac delta function, as it would be if we used X = f(z;0) deterministi-<br>cally! Note that the output distribution is not required to be Gaussian: for<br>instance, if X is binary, then P(X|z) might be a Bernoulli parameterized by<br>f(z;0). The important property is simply that P(X|z) can be computed, and<br>is continuous in 0. From here onward, we will omit 0 from f(z;0) to avoid<br>clutter.</p>",
+            "id": 23,
+            "page": 4,
+            "text": "needs to result in samples that are merely like X. In general, and particularly early in training, our model will not produce outputs that are identical to any particular X. By having a Gaussian distribution, we can use gradient descent (or any other optimization technique) to increase P(X) by making f(z; 0) approach X for some z, i.e., gradually making the training data more likely under the generative model. This wouldn't be possible if P(X|z) was a Dirac delta function, as it would be if we used X = f(z;0) deterministically! Note that the output distribution is not required to be Gaussian: for instance, if X is binary, then P(X|z) might be a Bernoulli parameterized by f(z;0). The important property is simply that P(X|z) can be computed, and is continuous in 0. From here onward, we will omit 0 from f(z;0) to avoid clutter."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2407
+                },
+                {
+                    "x": 1282,
+                    "y": 2407
+                },
+                {
+                    "x": 1282,
+                    "y": 2473
+                },
+                {
+                    "x": 483,
+                    "y": 2473
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:20px'>2 Variational Autoencoders</p>",
+            "id": 24,
+            "page": 4,
+            "text": "2 Variational Autoencoders"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2522
+                },
+                {
+                    "x": 1998,
+                    "y": 2522
+                },
+                {
+                    "x": 1998,
+                    "y": 3003
+                },
+                {
+                    "x": 480,
+                    "y": 3003
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:16px'>The mathematical basis of VAEs actually has relatively little to do with<br>classical autoencoders, e.g. sparse autoencoders [10, 11] or denoising au-<br>toencoders [12, 13]. VAEs approximately maximize Equation 1, according<br>to the model shown in Figure 1. They are called \"autoencoders\" only be-<br>cause the final training objective that derives from this setup does have<br>an encoder and a decoder, and resembles a traditional autoencoder. Unlike<br>sparse autoencoders, there are generally no tuning parameters analogous to<br>the sparsity penalties. And unlike sparse and denoising autoencoders, we</p>",
+            "id": 25,
+            "page": 4,
+            "text": "The mathematical basis of VAEs actually has relatively little to do with classical autoencoders, e.g. sparse autoencoders  or denoising autoencoders . VAEs approximately maximize Equation 1, according to the model shown in Figure 1. They are called \"autoencoders\" only because the final training objective that derives from this setup does have an encoder and a decoder, and resembles a traditional autoencoder. Unlike sparse autoencoders, there are generally no tuning parameters analogous to the sparsity penalties. And unlike sparse and denoising autoencoders, we"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3089
+                },
+                {
+                    "x": 1255,
+                    "y": 3089
+                },
+                {
+                    "x": 1255,
+                    "y": 3133
+                },
+                {
+                    "x": 1221,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='26' style='font-size:14px'>4</footer>",
+            "id": 26,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 539,
+                    "y": 581
+                },
+                {
+                    "x": 1964,
+                    "y": 581
+                },
+                {
+                    "x": 1964,
+                    "y": 1252
+                },
+                {
+                    "x": 539,
+                    "y": 1252
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='27' style='font-size:14px' alt=\"1.5\n1.0\n2\n0.5\n1\n0 0.0\n-1\n-0.5\n-2\n-1.0\n-3\n-1.5\n- 4 -3 -2 -1 0 1 2 3 4 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5\" data-coord=\"top-left:(539,581); bottom-right:(1964,1252)\" /></figure>",
+            "id": 27,
+            "page": 5,
+            "text": "1.5 1.0 2 0.5 1 0 0.0 -1 -0.5 -2 -1.0 -3 -1.5 - 4 -3 -2 -1 0 1 2 3 4 -1.5 -1.0 -0.5 0.0 0.5 1.0 1.5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1390
+                },
+                {
+                    "x": 1995,
+                    "y": 1390
+                },
+                {
+                    "x": 1995,
+                    "y": 1743
+                },
+                {
+                    "x": 482,
+                    "y": 1743
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='28' style='font-size:18px'>Figure 2: Given a random variable Z with one distribution, we can create<br>another random variable X = g(z) with a completely different distribution.<br>Left: samples from a gaussian distribution. Right: those same samples<br>mapped through the function g(z) = z/10 + z/||z|| to form a ring. This is<br>the strategy that VAEs use to create arbitrary distributions: the deterministic<br>function 8 is learned from data.</caption>",
+            "id": 28,
+            "page": 5,
+            "text": "Figure 2: Given a random variable Z with one distribution, we can create another random variable X = g(z) with a completely different distribution. Left: samples from a gaussian distribution. Right: those same samples mapped through the function g(z) = z/10 + z/||z|| to form a ring. This is the strategy that VAEs use to create arbitrary distributions: the deterministic function 8 is learned from data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1829
+                },
+                {
+                    "x": 1989,
+                    "y": 1829
+                },
+                {
+                    "x": 1989,
+                    "y": 1940
+                },
+                {
+                    "x": 482,
+                    "y": 1940
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:22px'>can sample directly from P(X) (without performing Markov Chain Monte<br>Carlo, as in [14]).</p>",
+            "id": 29,
+            "page": 5,
+            "text": "can sample directly from P(X) (without performing Markov Chain Monte Carlo, as in )."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 1949
+                },
+                {
+                    "x": 1994,
+                    "y": 1949
+                },
+                {
+                    "x": 1994,
+                    "y": 2177
+                },
+                {
+                    "x": 483,
+                    "y": 2177
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:18px'>To solve Equation 1, there are two problems that VAEs must deal with:<br>how to define the latent variables Z (i.e., decide what information they<br>represent), and how to deal with the integral over Z. VAEs give a definite<br>answer to both.</p>",
+            "id": 30,
+            "page": 5,
+            "text": "To solve Equation 1, there are two problems that VAEs must deal with: how to define the latent variables Z (i.e., decide what information they represent), and how to deal with the integral over Z. VAEs give a definite answer to both."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2189
+                },
+                {
+                    "x": 1994,
+                    "y": 2189
+                },
+                {
+                    "x": 1994,
+                    "y": 3014
+                },
+                {
+                    "x": 481,
+                    "y": 3014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:20px'>First, how do we choose the latent variables Z such that we capture latent<br>information? Returning to our digits example, the 'latent' decisions that the<br>model needs to make before it begins painting the digit are actually rather<br>complicated. It needs to choose not just the digit, but the angle that the digit<br>is drawn, the stroke width, and also abstract stylistic properties. Worse, these<br>properties may be correlated: a more angled digit may result if one writes<br>faster, which also might tend to result in a thinner stroke. Ideally, we want<br>to avoid deciding by hand what information each dimension of Z encodes<br>(although we may want to specify it by hand for some dimensions [4]). We<br>also want to avoid explicitly describing the dependencies-i.e., the latent<br>structure- between the dimensions of z. VAEs take an unusual approach to<br>dealing with this problem: they assume that there is no simple interpretation<br>of the dimensions of Z, and instead assert that samples of Z can be drawn<br>from a simple distribution, i.e., N(0,I), where I is the identity matrix. How</p>",
+            "id": 31,
+            "page": 5,
+            "text": "First, how do we choose the latent variables Z such that we capture latent information? Returning to our digits example, the 'latent' decisions that the model needs to make before it begins painting the digit are actually rather complicated. It needs to choose not just the digit, but the angle that the digit is drawn, the stroke width, and also abstract stylistic properties. Worse, these properties may be correlated: a more angled digit may result if one writes faster, which also might tend to result in a thinner stroke. Ideally, we want to avoid deciding by hand what information each dimension of Z encodes (although we may want to specify it by hand for some dimensions ). We also want to avoid explicitly describing the dependencies-i.e., the latent structure- between the dimensions of z. VAEs take an unusual approach to dealing with this problem: they assume that there is no simple interpretation of the dimensions of Z, and instead assert that samples of Z can be drawn from a simple distribution, i.e., N(0,I), where I is the identity matrix. How"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3089
+                },
+                {
+                    "x": 1255,
+                    "y": 3089
+                },
+                {
+                    "x": 1255,
+                    "y": 3131
+                },
+                {
+                    "x": 1222,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='32' style='font-size:16px'>5</footer>",
+            "id": 32,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 622,
+                    "y": 525
+                },
+                {
+                    "x": 1004,
+                    "y": 525
+                },
+                {
+                    "x": 1004,
+                    "y": 908
+                },
+                {
+                    "x": 622,
+                    "y": 908
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='33' alt=\"\" data-coord=\"top-left:(622,525); bottom-right:(1004,908)\" /></figure>",
+            "id": 33,
+            "page": 6,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 781,
+                    "y": 927
+                },
+                {
+                    "x": 847,
+                    "y": 927
+                },
+                {
+                    "x": 847,
+                    "y": 973
+                },
+                {
+                    "x": 781,
+                    "y": 973
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='34' style='font-size:20px'>(a)</caption>",
+            "id": 34,
+            "page": 6,
+            "text": "(a)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1050,
+                    "y": 524
+                },
+                {
+                    "x": 1427,
+                    "y": 524
+                },
+                {
+                    "x": 1427,
+                    "y": 904
+                },
+                {
+                    "x": 1050,
+                    "y": 904
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='35' alt=\"\" data-coord=\"top-left:(1050,524); bottom-right:(1427,904)\" /></figure>",
+            "id": 35,
+            "page": 6,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1470,
+                    "y": 525
+                },
+                {
+                    "x": 1852,
+                    "y": 525
+                },
+                {
+                    "x": 1852,
+                    "y": 907
+                },
+                {
+                    "x": 1470,
+                    "y": 907
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='36' alt=\"\" data-coord=\"top-left:(1470,525); bottom-right:(1852,907)\" /></figure>",
+            "id": 36,
+            "page": 6,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1202,
+                    "y": 920
+                },
+                {
+                    "x": 1695,
+                    "y": 920
+                },
+                {
+                    "x": 1695,
+                    "y": 978
+                },
+                {
+                    "x": 1202,
+                    "y": 978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:22px'>(b) (c)</p>",
+            "id": 37,
+            "page": 6,
+            "text": "(b) (c)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1063
+                },
+                {
+                    "x": 1997,
+                    "y": 1063
+                },
+                {
+                    "x": 1997,
+                    "y": 1420
+                },
+                {
+                    "x": 481,
+                    "y": 1420
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='38' style='font-size:18px'>Figure 3: It's hard to measure the likelihood of images under a model using<br>only sampling. Given an image X (a), the middle sample (b) is much closer<br>in Euclidean distance than the one on the right (c). Because pixel distance is<br>SO different from perceptual distance, a sample needs to be extremely close<br>in pixel distance to a datapoint X before it can be considered evidence that<br>X is likely under the model.</caption>",
+            "id": 38,
+            "page": 6,
+            "text": "Figure 3: It's hard to measure the likelihood of images under a model using only sampling. Given an image X (a), the middle sample (b) is much closer in Euclidean distance than the one on the right (c). Because pixel distance is SO different from perceptual distance, a sample needs to be extremely close in pixel distance to a datapoint X before it can be considered evidence that X is likely under the model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1499
+                },
+                {
+                    "x": 1999,
+                    "y": 1499
+                },
+                {
+                    "x": 1999,
+                    "y": 2507
+                },
+                {
+                    "x": 480,
+                    "y": 2507
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>is this possible? The key is to notice that any distribution in d dimensions can<br>be generated by taking a set of d variables that are normally distributed and<br>mapping them through a sufficiently complicated function1. For example,<br>say we wanted to construct a 2D random variable whose values lie on a<br>ring. If Z is 2D and normally distributed, g(z) = z/10 + z/||z|| is roughly<br>ring-shaped, as shown in Figure 2. Hence, provided powerful function<br>approximators, we can simply learn a function which maps our independent,<br>normally-distributed Z values to whatever latent variables might be needed<br>for the model, and then map those latent variables to X. In fact, recall that<br>P(X|z;0) = N (X|f(z;0), �2 * I). If f(z;0) is a multi-layer neural network,<br>then we can imagine the network using its first few layers to map the<br>normally distributed z's to the latent values (like digit identity, stroke weight,<br>angle, etc.) with exactly the right statistics. Then it can use later layers to<br>map those latent values to a fully-rendered digit. In general, we don`t<br>need to worry about ensuring that the latent structure exists. If such latent<br>structure helps the model accurately reproduce (i.e. maximize the likelihood<br>of) the training set, then the network will learn that structure at some layer.</p>",
+            "id": 39,
+            "page": 6,
+            "text": "is this possible? The key is to notice that any distribution in d dimensions can be generated by taking a set of d variables that are normally distributed and mapping them through a sufficiently complicated function1. For example, say we wanted to construct a 2D random variable whose values lie on a ring. If Z is 2D and normally distributed, g(z) = z/10 + z/||z|| is roughly ring-shaped, as shown in Figure 2. Hence, provided powerful function approximators, we can simply learn a function which maps our independent, normally-distributed Z values to whatever latent variables might be needed for the model, and then map those latent variables to X. In fact, recall that P(X|z;0) = N (X|f(z;0), �2 * I). If f(z;0) is a multi-layer neural network, then we can imagine the network using its first few layers to map the normally distributed z's to the latent values (like digit identity, stroke weight, angle, etc.) with exactly the right statistics. Then it can use later layers to map those latent values to a fully-rendered digit. In general, we don`t need to worry about ensuring that the latent structure exists. If such latent structure helps the model accurately reproduce (i.e. maximize the likelihood of) the training set, then the network will learn that structure at some layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2514
+                },
+                {
+                    "x": 1999,
+                    "y": 2514
+                },
+                {
+                    "x": 1999,
+                    "y": 2688
+                },
+                {
+                    "x": 481,
+                    "y": 2688
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:16px'>Now all that remains is to maximize Equation 1, where P(z) = N(z|0, I).<br>As is common in machine learning, if we can find a computable formula<br>for P(X), and we can take the gradient of that formula, then we can opti-</p>",
+            "id": 40,
+            "page": 6,
+            "text": "Now all that remains is to maximize Equation 1, where P(z) = N(z|0, I). As is common in machine learning, if we can find a computable formula for P(X), and we can take the gradient of that formula, then we can opti-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2725
+                },
+                {
+                    "x": 1995,
+                    "y": 2725
+                },
+                {
+                    "x": 1995,
+                    "y": 3013
+                },
+                {
+                    "x": 482,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:14px'>1In one dimension, you can use the inverse cumulative distribution function (CDF) of<br>the desired distribution composed with the CDF of a Gaussian. This is an extension of<br>\"inverse transform sampling.\" For multiple dimensions, do the stated process starting with<br>the marginal distribution for a single dimension, and repeat with the conditional distribution<br>of each additional dimension. See the \"inversion method\" and the \"conditional distribution<br>method\" in Devroye et al. [15]</p>",
+            "id": 41,
+            "page": 6,
+            "text": "1In one dimension, you can use the inverse cumulative distribution function (CDF) of the desired distribution composed with the CDF of a Gaussian. This is an extension of \"inverse transform sampling.\" For multiple dimensions, do the stated process starting with the marginal distribution for a single dimension, and repeat with the conditional distribution of each additional dimension. See the \"inversion method\" and the \"conditional distribution method\" in Devroye  "
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1223,
+                    "y": 3093
+                },
+                {
+                    "x": 1254,
+                    "y": 3093
+                },
+                {
+                    "x": 1254,
+                    "y": 3133
+                },
+                {
+                    "x": 1223,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='42' style='font-size:14px'>6</footer>",
+            "id": 42,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 478,
+                    "y": 526
+                },
+                {
+                    "x": 2000,
+                    "y": 526
+                },
+                {
+                    "x": 2000,
+                    "y": 2252
+                },
+                {
+                    "x": 478,
+                    "y": 2252
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>mize the model using stochastic gradient ascent. It is actually conceptually<br>straightforward to compute P(X) approximately: we first sample a large<br>number of Z values {Z1, ..., Zn}, and compute P(X) 22 1nEi P(X|zi). The prob-<br>lem here is that in high dimensional spaces, n might need to be extremely<br>large before we have an accurate estimate of P(X). To see why, consider<br>our example of handwritten digits. Say that our digit datapoints are stored<br>in pixel space, in 28x28 images as shown in Figure 3. Since P(X|z) is an<br>isotropic Gaussian, the negative log probability of X is proportional squared<br>Euclidean distance between f(z) and X. Say that Figure 3(a) is the target<br>(X) for which we are trying to find P(X). A model which produces the<br>image shown in Figure 3(b) is probably a bad model, since this digit is not<br>much like a 2. Hence, we should set the 0 hyperparameter of our Gaussian<br>distribution such that this kind of erroneous digit does not contribute to<br>P(X). On the other hand, a model which produces Figure 3(c) (identical to<br>X but shifted down and to the right by half a pixel) might be a good model.<br>We would hope that this sample would contribute to P(X). Unfortunately,<br>however, we can`t have it both ways: the squared distance between X and<br>Figure 3(c) is .2693 (assuming pixels range between 0 and 1), but between<br>X and Figure 3(b) it is just .0387. The lesson here is that in order to reject<br>samples like Figure 3(b), we need to set 0 very small, such that the model<br>needs to generate something significantly more like X than Figure 3(c)! Even<br>if our model is an accurate generator of digits, we would likely need to<br>sample many thousands of digits before we produce a 2 that is sufficiently<br>similar to the one in Figure 3(a). We might solve this problem by using<br>a better similarity metric, but in practice these are difficult to engineer in<br>complex domains like vision, and they`re difficult to train without labels<br>that indicate which datapoints are similar to each other. Instead, VAEs alter<br>the sampling procedure to make it faster, without changing the similarity<br>metric.</p>",
+            "id": 43,
+            "page": 7,
+            "text": "mize the model using stochastic gradient ascent. It is actually conceptually straightforward to compute P(X) approximately: we first sample a large number of Z values {Z1, ..., Zn}, and compute P(X) 22 1nEi P(X|zi). The problem here is that in high dimensional spaces, n might need to be extremely large before we have an accurate estimate of P(X). To see why, consider our example of handwritten digits. Say that our digit datapoints are stored in pixel space, in 28x28 images as shown in Figure 3. Since P(X|z) is an isotropic Gaussian, the negative log probability of X is proportional squared Euclidean distance between f(z) and X. Say that Figure 3(a) is the target (X) for which we are trying to find P(X). A model which produces the image shown in Figure 3(b) is probably a bad model, since this digit is not much like a 2. Hence, we should set the 0 hyperparameter of our Gaussian distribution such that this kind of erroneous digit does not contribute to P(X). On the other hand, a model which produces Figure 3(c) (identical to X but shifted down and to the right by half a pixel) might be a good model. We would hope that this sample would contribute to P(X). Unfortunately, however, we can`t have it both ways: the squared distance between X and Figure 3(c) is .2693 (assuming pixels range between 0 and 1), but between X and Figure 3(b) it is just .0387. The lesson here is that in order to reject samples like Figure 3(b), we need to set 0 very small, such that the model needs to generate something significantly more like X than Figure 3(c)! Even if our model is an accurate generator of digits, we would likely need to sample many thousands of digits before we produce a 2 that is sufficiently similar to the one in Figure 3(a). We might solve this problem by using a better similarity metric, but in practice these are difficult to engineer in complex domains like vision, and they`re difficult to train without labels that indicate which datapoints are similar to each other. Instead, VAEs alter the sampling procedure to make it faster, without changing the similarity metric."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2321
+                },
+                {
+                    "x": 1149,
+                    "y": 2321
+                },
+                {
+                    "x": 1149,
+                    "y": 2379
+                },
+                {
+                    "x": 483,
+                    "y": 2379
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:20px'>2.1 Setting up the objective</p>",
+            "id": 44,
+            "page": 7,
+            "text": "2.1 Setting up the objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2411
+                },
+                {
+                    "x": 1996,
+                    "y": 2411
+                },
+                {
+                    "x": 1996,
+                    "y": 3007
+                },
+                {
+                    "x": 480,
+                    "y": 3007
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>Is there a shortcut we can take when using sampling to compute Equation 1?<br>In practice, for most Z, P(X|z) will be nearly zero, and hence contribute<br>almost nothing to our estimate of P(X). The key idea behind the variational<br>autoencoder is to attempt to sample values of Z that are likely to have<br>produced X, and compute P(X) just from those. This means that we need a<br>new function Q(z|X) which can take a value of X and give us a distribution<br>over Z values that are likely to produce X. Hopefully the space of Z values<br>that are likely under Q will be much smaller than the space of all z's that are<br>likely under the prior P(z). This lets us, for example, compute Ez~QP(X|z)<br>relatively easily. However, if z is sampled from an arbitrary distribution</p>",
+            "id": 45,
+            "page": 7,
+            "text": "Is there a shortcut we can take when using sampling to compute Equation 1? In practice, for most Z, P(X|z) will be nearly zero, and hence contribute almost nothing to our estimate of P(X). The key idea behind the variational autoencoder is to attempt to sample values of Z that are likely to have produced X, and compute P(X) just from those. This means that we need a new function Q(z|X) which can take a value of X and give us a distribution over Z values that are likely to produce X. Hopefully the space of Z values that are likely under Q will be much smaller than the space of all z's that are likely under the prior P(z). This lets us, for example, compute Ez~QP(X|z) relatively easily. However, if z is sampled from an arbitrary distribution"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3089
+                },
+                {
+                    "x": 1254,
+                    "y": 3089
+                },
+                {
+                    "x": 1254,
+                    "y": 3130
+                },
+                {
+                    "x": 1221,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='46' style='font-size:14px'>7</footer>",
+            "id": 46,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 532
+                },
+                {
+                    "x": 1993,
+                    "y": 532
+                },
+                {
+                    "x": 1993,
+                    "y": 705
+                },
+                {
+                    "x": 482,
+                    "y": 705
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:16px'>with PDF Q(z), which is not N(0,I), then how does that help us optimize<br>P(X)? The first thing we need to do is relate Ez~QP(X|z) and P(X). We'll<br>see where Q comes from later.</p>",
+            "id": 47,
+            "page": 8,
+            "text": "with PDF Q(z), which is not N(0,I), then how does that help us optimize P(X)? The first thing we need to do is relate Ez~QP(X|z) and P(X). We'll see where Q comes from later."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 711
+                },
+                {
+                    "x": 1995,
+                    "y": 711
+                },
+                {
+                    "x": 1995,
+                    "y": 945
+                },
+                {
+                    "x": 483,
+                    "y": 945
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:18px'>The relationship between Ez~QP(X|z) and P(X) is one of the corner-<br>stones of variational Bayesian methods. We begin with the definition of<br>Kullback-Leibler divergence (KL divergence or D) between P(z|X) and<br>Q(z), for some arbitrary Q (which may or may not depend on X):</p>",
+            "id": 48,
+            "page": 8,
+            "text": "The relationship between Ez~QP(X|z) and P(X) is one of the cornerstones of variational Bayesian methods. We begin with the definition of Kullback-Leibler divergence (KL divergence or D) between P(z|X) and Q(z), for some arbitrary Q (which may or may not depend on X):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1096
+                },
+                {
+                    "x": 1990,
+                    "y": 1096
+                },
+                {
+                    "x": 1990,
+                    "y": 1210
+                },
+                {
+                    "x": 480,
+                    "y": 1210
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:20px'>We can get both P(X) and P(Xz) into this equation by applying Bayes rule<br>to P(z|X):</p>",
+            "id": 49,
+            "page": 8,
+            "text": "We can get both P(X) and P(Xz) into this equation by applying Bayes rule to P(z|X):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1375
+                },
+                {
+                    "x": 1991,
+                    "y": 1375
+                },
+                {
+                    "x": 1991,
+                    "y": 1551
+                },
+                {
+                    "x": 482,
+                    "y": 1551
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:16px'>Here, log P(X) comes out of the expectation because it does not depend on<br>z. Negating both sides, rearranging, and contracting part of Ez~Q into a<br>KL-divergence terms yields:</p>",
+            "id": 50,
+            "page": 8,
+            "text": "Here, log P(X) comes out of the expectation because it does not depend on z. Negating both sides, rearranging, and contracting part of Ez~Q into a KL-divergence terms yields:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1700
+                },
+                {
+                    "x": 1993,
+                    "y": 1700
+                },
+                {
+                    "x": 1993,
+                    "y": 1938
+                },
+                {
+                    "x": 482,
+                    "y": 1938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:16px'>Note that X is fixed, and Q can be any distribution, not just a distribution<br>which does a good job mapping X to the z's that can produce X. Since we`re<br>interested in inferring P(X), it makes sense to construct a Q which does<br>depend on X, and in particular, one which makes D [Q(z)||P(z|X)] small:</p>",
+            "id": 51,
+            "page": 8,
+            "text": "Note that X is fixed, and Q can be any distribution, not just a distribution which does a good job mapping X to the z's that can produce X. Since we`re interested in inferring P(X), it makes sense to construct a Q which does depend on X, and in particular, one which makes D [Q(z)||P(z|X)] small:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2097
+                },
+                {
+                    "x": 1995,
+                    "y": 2097
+                },
+                {
+                    "x": 1995,
+                    "y": 2745
+                },
+                {
+                    "x": 481,
+                    "y": 2745
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:16px'>This equation serves as the core of the variational autoencoder, and it`s<br>worth spending some time thinking about what it says2. In two sentences,<br>the left hand side has the quantity we want to maximize: log P(X) (plus<br>an error term, which makes Q produce z's that can reproduce a given X;<br>this term will become small if Q is high-capacity). The right hand side<br>is something we can optimize via stochastic gradient descent given the<br>right choice of Q (although it may not be obvious yet how). Note that the<br>framework-in particular, the right hand side of Equation 5-has suddenly<br>taken a form which looks like an autoencoder, since Q is \"encoding\" X into<br>Z, and P is \"decoding\" it to reconstruct X. We'll explore this connection in<br>more detail later.</p>",
+            "id": 52,
+            "page": 8,
+            "text": "This equation serves as the core of the variational autoencoder, and it`s worth spending some time thinking about what it says2. In two sentences, the left hand side has the quantity we want to maximize: log P(X) (plus an error term, which makes Q produce z's that can reproduce a given X; this term will become small if Q is high-capacity). The right hand side is something we can optimize via stochastic gradient descent given the right choice of Q (although it may not be obvious yet how). Note that the framework-in particular, the right hand side of Equation 5-has suddenly taken a form which looks like an autoencoder, since Q is \"encoding\" X into Z, and P is \"decoding\" it to reconstruct X. We'll explore this connection in more detail later."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2773
+                },
+                {
+                    "x": 1994,
+                    "y": 2773
+                },
+                {
+                    "x": 1994,
+                    "y": 3016
+                },
+                {
+                    "x": 482,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:14px'>2Historically, this math (particularly Equation 5) was known long before VAEs. For<br>example, Helmholtz Machines [16] (see Equation 5) use nearly identical mathematics, with<br>one crucial difference. The integral in our expectations is replaced with a sum in Dayan et<br>al. [16], because Helmholtz Machines assume a discrete distribution for the latent variables.<br>This choice prevents the transformations that make gradient descent tractable in VAEs.</p>",
+            "id": 53,
+            "page": 8,
+            "text": "2Historically, this math (particularly Equation 5) was known long before VAEs. For example, Helmholtz Machines  (see Equation 5) use nearly identical mathematics, with one crucial difference. The integral in our expectations is replaced with a sum in Dayan  , because Helmholtz Machines assume a discrete distribution for the latent variables. This choice prevents the transformations that make gradient descent tractable in VAEs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3091
+                },
+                {
+                    "x": 1253,
+                    "y": 3091
+                },
+                {
+                    "x": 1253,
+                    "y": 3131
+                },
+                {
+                    "x": 1222,
+                    "y": 3131
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='54' style='font-size:14px'>8</footer>",
+            "id": 54,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 529
+                },
+                {
+                    "x": 2124,
+                    "y": 529
+                },
+                {
+                    "x": 2124,
+                    "y": 1126
+                },
+                {
+                    "x": 479,
+                    "y": 1126
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:16px'>Now for a bit more detail on Equatinon 5. Starting with the left hand side,<br>we are maximizing log P(X) while simultaneously minimizing D [Q(z|X)|| P(z|X)].<br>P(z|X) is not something we can compute analytically: it describes the val-<br>ues of Z that are likely to give rise to a sample like X under our model in<br>Figure 1. However, the second term on the left is pulling Q(z|x) to match<br>P(z|X). Assuming we use an arbitrarily high-capacity model for Q(z|x),<br>then Q(z|x) will hopefully actually match P(z|X), in which case this KL-<br>divergence term will be zero, and we will be directly optimizing log P(X).<br>As an added bonus, we have made the intractable P(z|X) tractable: we can<br>just use Q(z|x) to compute it.</p>",
+            "id": 55,
+            "page": 9,
+            "text": "Now for a bit more detail on Equatinon 5. Starting with the left hand side, we are maximizing log P(X) while simultaneously minimizing D [Q(z|X)|| P(z|X)]. P(z|X) is not something we can compute analytically: it describes the values of Z that are likely to give rise to a sample like X under our model in Figure 1. However, the second term on the left is pulling Q(z|x) to match P(z|X). Assuming we use an arbitrarily high-capacity model for Q(z|x), then Q(z|x) will hopefully actually match P(z|X), in which case this KLdivergence term will be zero, and we will be directly optimizing log P(X). As an added bonus, we have made the intractable P(z|X) tractable: we can just use Q(z|x) to compute it."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1193
+                },
+                {
+                    "x": 1178,
+                    "y": 1193
+                },
+                {
+                    "x": 1178,
+                    "y": 1255
+                },
+                {
+                    "x": 481,
+                    "y": 1255
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>2.2 Optimizing the objective</p>",
+            "id": 56,
+            "page": 9,
+            "text": "2.2 Optimizing the objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1287
+                },
+                {
+                    "x": 1998,
+                    "y": 1287
+                },
+                {
+                    "x": 1998,
+                    "y": 1937
+                },
+                {
+                    "x": 480,
+                    "y": 1937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:14px'>So how can we perform stochastic gradient descent on the right hand<br>side of Equation 5? First we need to be a bit more specific about the<br>form that Q(z|X) will take. The usual choice is to say that Q(z|X) =<br>N(zu(X;�),�(X;8)), where 14 and � are arbitrary deterministic functions<br>with parameters 0 that can be learned from data (we will omit 0 in later<br>equations). In practice, 14 and � are again implemented via neural networks,<br>and � is constrained to be a diagonal matrix. The advantages of this choice<br>are computational, as they make it clear how to compute the right hand<br>side. The last term-D [Q(z|X)|P(z)]-is now a KL-divergence between<br>two multivariate Gaussian distributions, which can be computed in closed<br>form as:</p>",
+            "id": 57,
+            "page": 9,
+            "text": "So how can we perform stochastic gradient descent on the right hand side of Equation 5? First we need to be a bit more specific about the form that Q(z|X) will take. The usual choice is to say that Q(z|X) = N(zu(X;�),�(X;8)), where 14 and � are arbitrary deterministic functions with parameters 0 that can be learned from data (we will omit 0 in later equations). In practice, 14 and � are again implemented via neural networks, and � is constrained to be a diagonal matrix. The advantages of this choice are computational, as they make it clear how to compute the right hand side. The last term-D [Q(z|X)|P(z)]-is now a KL-divergence between two multivariate Gaussian distributions, which can be computed in closed form as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2168
+                },
+                {
+                    "x": 1990,
+                    "y": 2168
+                },
+                {
+                    "x": 1990,
+                    "y": 2281
+                },
+                {
+                    "x": 480,
+                    "y": 2281
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:14px'>where k is the dimensionality of the distribution. In our case, this simplifies<br>to:</p>",
+            "id": 58,
+            "page": 9,
+            "text": "where k is the dimensionality of the distribution. In our case, this simplifies to:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 2517
+                },
+                {
+                    "x": 1999,
+                    "y": 2517
+                },
+                {
+                    "x": 1999,
+                    "y": 2931
+                },
+                {
+                    "x": 479,
+                    "y": 2931
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:16px'>The first term on the right hand side of Equation 5 is a bit more tricky.<br>We could use sampling to estimate Ez~Q [log P(X|z)], but getting a good<br>estimate would require passing many samples of Z through f, which would<br>be expensive. Hence, as is standard in stochastic gradient descent, we<br>take one sample of Z and treat log P(X|z) for that Z as an approximation<br>of Ez~Q [log P(X|z)]. After all, we are already doing stochastic gradient<br>descent over different values of X sampled from a dataset D. The full</p>",
+            "id": 59,
+            "page": 9,
+            "text": "The first term on the right hand side of Equation 5 is a bit more tricky. We could use sampling to estimate Ez~Q [log P(X|z)], but getting a good estimate would require passing many samples of Z through f, which would be expensive. Hence, as is standard in stochastic gradient descent, we take one sample of Z and treat log P(X|z) for that Z as an approximation of Ez~Q [log P(X|z)]. After all, we are already doing stochastic gradient descent over different values of X sampled from a dataset D. The full"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1220,
+                    "y": 3088
+                },
+                {
+                    "x": 1254,
+                    "y": 3088
+                },
+                {
+                    "x": 1254,
+                    "y": 3130
+                },
+                {
+                    "x": 1220,
+                    "y": 3130
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='60' style='font-size:14px'>9</footer>",
+            "id": 60,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 506
+                },
+                {
+                    "x": 1982,
+                    "y": 506
+                },
+                {
+                    "x": 1982,
+                    "y": 1290
+                },
+                {
+                    "x": 480,
+                    "y": 1290
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='61' style='font-size:14px' alt=\"||X - f(z)||2 ||X -f(z)||2\nf(z) f(z\nDecoder KL(N(A(X),E(X))[W(0,I)] Decoder\n(P) (P)\nKL[N(�(X), �(X))||N(0, I)]\nSample z from N(�(X),�(X)) +\nm(X u *\nEncoder Encoder Sample E fromN(0, I)\n(인)\n↑\nX X\" data-coord=\"top-left:(480,506); bottom-right:(1982,1290)\" /></figure>",
+            "id": 61,
+            "page": 10,
+            "text": "||X - f(z)||2 ||X -f(z)||2 f(z) f(z Decoder KL(N(A(X),E(X))[W(0,I)] Decoder (P) (P) KL[N(�(X), �(X))||N(0, I)] Sample z from N(�(X),�(X)) + m(X u * Encoder Encoder Sample E fromN(0, I) (인) ↑ X X"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1391
+                },
+                {
+                    "x": 1997,
+                    "y": 1391
+                },
+                {
+                    "x": 1997,
+                    "y": 1744
+                },
+                {
+                    "x": 481,
+                    "y": 1744
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='62' style='font-size:20px'>Figure 4: A training-time variational autoencoder implemented as a feed-<br>forward neural network, where P(X|z) is Gaussian. Left is without the<br>\"reparameterization trick\", and right is with it. Red shows sampling opera-<br>tions that are non-differentiable. Blue shows loss layers. The feedforward<br>behavior of these networks is identical, but backpropagation can be applied<br>only to the right network.</caption>",
+            "id": 62,
+            "page": 10,
+            "text": "Figure 4: A training-time variational autoencoder implemented as a feedforward neural network, where P(X|z) is Gaussian. Left is without the \"reparameterization trick\", and right is with it. Red shows sampling operations that are non-differentiable. Blue shows loss layers. The feedforward behavior of these networks is identical, but backpropagation can be applied only to the right network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 1835
+                },
+                {
+                    "x": 1149,
+                    "y": 1835
+                },
+                {
+                    "x": 1149,
+                    "y": 1882
+                },
+                {
+                    "x": 483,
+                    "y": 1882
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='63' style='font-size:16px'>equation we want to optimize is:</caption>",
+            "id": 63,
+            "page": 10,
+            "text": "equation we want to optimize is:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2105
+                },
+                {
+                    "x": 1995,
+                    "y": 2105
+                },
+                {
+                    "x": 1995,
+                    "y": 2280
+                },
+                {
+                    "x": 483,
+                    "y": 2280
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:18px'>If we take the gradient of this equation, the gradient symbol can be moved<br>into the expectations. Therefore, we can sample a single value of X and a<br>single value of Z from the distribution Q(z|X), and compute the gradient of:</p>",
+            "id": 64,
+            "page": 10,
+            "text": "If we take the gradient of this equation, the gradient symbol can be moved into the expectations. Therefore, we can sample a single value of X and a single value of Z from the distribution Q(z|X), and compute the gradient of:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2430
+                },
+                {
+                    "x": 1994,
+                    "y": 2430
+                },
+                {
+                    "x": 1994,
+                    "y": 2541
+                },
+                {
+                    "x": 482,
+                    "y": 2541
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:18px'>We can then average the gradient of this function over arbitrarily many<br>samples of X and Z, and the result converges to the gradient of Equation 8.</p>",
+            "id": 65,
+            "page": 10,
+            "text": "We can then average the gradient of this function over arbitrarily many samples of X and Z, and the result converges to the gradient of Equation 8."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 2547
+                },
+                {
+                    "x": 2020,
+                    "y": 2547
+                },
+                {
+                    "x": 2020,
+                    "y": 3018
+                },
+                {
+                    "x": 479,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='66' style='font-size:20px'>There is, however, a significant problem with Equation 9. Ez~Q [log P(X|z)]<br>depends not just on the parameters of P, but also on the parameters of Q.<br>However, in Equation 9, this dependency has disappeared! In order to make<br>VAEs work, it`s essential to drive Q to produce codes for X that P can reliably<br>decode. To see the problem a different way, the network described in Equa-<br>tion 9 is much like the network shown in Figure 4 (left). The forward pass of<br>this network works fine and, if the output is averaged over many samples<br>of X and Z, produces the correct expected value. However, we need to</p>",
+            "id": 66,
+            "page": 10,
+            "text": "There is, however, a significant problem with Equation 9. Ez~Q [log P(X|z)] depends not just on the parameters of P, but also on the parameters of Q. However, in Equation 9, this dependency has disappeared! In order to make VAEs work, it`s essential to drive Q to produce codes for X that P can reliably decode. To see the problem a different way, the network described in Equation 9 is much like the network shown in Figure 4 (left). The forward pass of this network works fine and, if the output is averaged over many samples of X and Z, produces the correct expected value. However, we need to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1213,
+                    "y": 3090
+                },
+                {
+                    "x": 1264,
+                    "y": 3090
+                },
+                {
+                    "x": 1264,
+                    "y": 3133
+                },
+                {
+                    "x": 1213,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='67' style='font-size:16px'>10</footer>",
+            "id": 67,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1005,
+                    "y": 512
+                },
+                {
+                    "x": 1470,
+                    "y": 512
+                },
+                {
+                    "x": 1470,
+                    "y": 935
+                },
+                {
+                    "x": 1005,
+                    "y": 935
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='68' style='font-size:18px' alt=\"f(z\nDecoder\n(P)\nSample z fromN(0,I)\" data-coord=\"top-left:(1005,512); bottom-right:(1470,935)\" /></figure>",
+            "id": 68,
+            "page": 11,
+            "text": "f(z Decoder (P) Sample z fromN(0,I)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1027
+                },
+                {
+                    "x": 1993,
+                    "y": 1027
+                },
+                {
+                    "x": 1993,
+                    "y": 1148
+                },
+                {
+                    "x": 482,
+                    "y": 1148
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='69' style='font-size:16px'>Figure 5: The testing-time variational \"autoencoder,\" which allows us to<br>generate new samples. The \"encoder\" pathway is simply discarded.</caption>",
+            "id": 69,
+            "page": 11,
+            "text": "Figure 5: The testing-time variational \"autoencoder,\" which allows us to generate new samples. The \"encoder\" pathway is simply discarded."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1228
+                },
+                {
+                    "x": 1998,
+                    "y": 1228
+                },
+                {
+                    "x": 1998,
+                    "y": 1702
+                },
+                {
+                    "x": 481,
+                    "y": 1702
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:16px'>back-propagate the error through a layer that samples Z from Q(z|X), which<br>is a non-continuous operation and has no gradient. Stochastic gradient<br>descent via backpropagation can handle stochastic inputs, but not stochastic<br>units within the network! The solution, called the \"reparameterization trick\"<br>in [1], is to move the sampling to an input layer. Given �(X) and �(X)-the<br>mean and covariance of Q(z|X) -we can sample from N(�(X),�(X)) by<br>first sampling € ~ N(0, I), then computing Z = �(X) + �1/2(X) * €. Thus,<br>the equation we actually take the gradient of is:</p>",
+            "id": 70,
+            "page": 11,
+            "text": "back-propagate the error through a layer that samples Z from Q(z|X), which is a non-continuous operation and has no gradient. Stochastic gradient descent via backpropagation can handle stochastic inputs, but not stochastic units within the network! The solution, called the \"reparameterization trick\" in , is to move the sampling to an input layer. Given �(X) and �(X)-the mean and covariance of Q(z|X) -we can sample from N(�(X),�(X)) by first sampling € ~ N(0, I), then computing Z = �(X) + �1/2(X) * €. Thus, the equation we actually take the gradient of is:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1883
+                },
+                {
+                    "x": 1999,
+                    "y": 1883
+                },
+                {
+                    "x": 1999,
+                    "y": 2657
+                },
+                {
+                    "x": 480,
+                    "y": 2657
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:14px'>This is shown schematically in Figure 4 (right). Note that none of the<br>expectations are with respect to distributions that depend on our model<br>parameters, SO we can safely move a gradient symbol into them while main-<br>taning equality. That is, given a fixed X and €, this function is deterministic<br>and continuous in the parameters of P and Q, meaning backpropagation<br>can compute a gradient that will work for stochastic gradient descent. It's<br>worth pointing out that the \"reparameterization trick\" only works if we can<br>sample from Q(z|X) by evaluating a function h(n, X), where 7 is noise from<br>a distribution that is not learned. Furthermore, h must be continuous in X so<br>that we can backprop through it. This means Q(z|X) (and therefore P(z))<br>can`t be a discrete distribution! If Q is discrete, then for a fixed 7, either h<br>needs to ignore X, or there needs to be some point at which h(n, X) \"jumps\"<br>from one possible value in Q's sample space to another, i.e., a discontinuity.</p>",
+            "id": 71,
+            "page": 11,
+            "text": "This is shown schematically in Figure 4 (right). Note that none of the expectations are with respect to distributions that depend on our model parameters, SO we can safely move a gradient symbol into them while maintaning equality. That is, given a fixed X and €, this function is deterministic and continuous in the parameters of P and Q, meaning backpropagation can compute a gradient that will work for stochastic gradient descent. It's worth pointing out that the \"reparameterization trick\" only works if we can sample from Q(z|X) by evaluating a function h(n, X), where 7 is noise from a distribution that is not learned. Furthermore, h must be continuous in X so that we can backprop through it. This means Q(z|X) (and therefore P(z)) can`t be a discrete distribution! If Q is discrete, then for a fixed 7, either h needs to ignore X, or there needs to be some point at which h(n, X) \"jumps\" from one possible value in Q's sample space to another, i.e., a discontinuity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 2724
+                },
+                {
+                    "x": 1196,
+                    "y": 2724
+                },
+                {
+                    "x": 1196,
+                    "y": 2782
+                },
+                {
+                    "x": 484,
+                    "y": 2782
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:20px'>2.3 Testing the learned model</p>",
+            "id": 72,
+            "page": 11,
+            "text": "2.3 Testing the learned model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2816
+                },
+                {
+                    "x": 1997,
+                    "y": 2816
+                },
+                {
+                    "x": 1997,
+                    "y": 2996
+                },
+                {
+                    "x": 482,
+                    "y": 2996
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:14px'>At test time, when we want to generate new samples, we simply input<br>values of Z ~ N(0, I) into the decoder. That is, we remove the \"encoder,\"<br>including the multiplication and addition operations that would change the</p>",
+            "id": 73,
+            "page": 11,
+            "text": "At test time, when we want to generate new samples, we simply input values of Z ~ N(0, I) into the decoder. That is, we remove the \"encoder,\" including the multiplication and addition operations that would change the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1212,
+                    "y": 3089
+                },
+                {
+                    "x": 1261,
+                    "y": 3089
+                },
+                {
+                    "x": 1261,
+                    "y": 3133
+                },
+                {
+                    "x": 1212,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='74' style='font-size:14px'>11</footer>",
+            "id": 74,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 534
+                },
+                {
+                    "x": 1992,
+                    "y": 534
+                },
+                {
+                    "x": 1992,
+                    "y": 646
+                },
+                {
+                    "x": 483,
+                    "y": 646
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>distribution of z. This (remarkably simple) test-time network is shown in<br>Figure 5.</p>",
+            "id": 75,
+            "page": 12,
+            "text": "distribution of z. This (remarkably simple) test-time network is shown in Figure 5."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 654
+                },
+                {
+                    "x": 1999,
+                    "y": 654
+                },
+                {
+                    "x": 1999,
+                    "y": 1186
+                },
+                {
+                    "x": 480,
+                    "y": 1186
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:18px'>Say that we want to evaluate the probability of a testing example un-<br>der the model. This is, in general, not tractable. Note, however, that<br>D[Q(z)|P(z)] is positive, meaning that the right hand side of Equa-<br>tion 5 is a lower bound to P(X). This lower bound still can`t quite be<br>computed in closed form due to the expectation over Z, which requires sam-<br>pling. However, sampling Z from Q gives an estimator for the expectation<br>which generally converges much faster than sampling Z from N (0, I) as dis-<br>cussed in section 2. Hence, this lower bound can be a useful tool for getting<br>a rough idea of how well our model is capturing a particular datapoint X.</p>",
+            "id": 76,
+            "page": 12,
+            "text": "Say that we want to evaluate the probability of a testing example under the model. This is, in general, not tractable. Note, however, that D[Q(z)|P(z)] is positive, meaning that the right hand side of Equation 5 is a lower bound to P(X). This lower bound still can`t quite be computed in closed form due to the expectation over Z, which requires sampling. However, sampling Z from Q gives an estimator for the expectation which generally converges much faster than sampling Z from N (0, I) as discussed in section 2. Hence, this lower bound can be a useful tool for getting a rough idea of how well our model is capturing a particular datapoint X."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 1254
+                },
+                {
+                    "x": 1189,
+                    "y": 1254
+                },
+                {
+                    "x": 1189,
+                    "y": 1312
+                },
+                {
+                    "x": 484,
+                    "y": 1312
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>2.4 Interpreting the objective</p>",
+            "id": 77,
+            "page": 12,
+            "text": "2.4 Interpreting the objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1346
+                },
+                {
+                    "x": 2000,
+                    "y": 1346
+                },
+                {
+                    "x": 2000,
+                    "y": 1940
+                },
+                {
+                    "x": 481,
+                    "y": 1940
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:18px'>By now, you are hopefully convinced that the learning in VAEs is tractable,<br>and thatit optimizes something like log P(X) across our entire dataset. How-<br>ever, we are not optimizing exactly log P(X), SO this section aims to take a<br>deeper look at what the objective function is actually doing. We address<br>three topics. First, we ask how much error is introduced by optimizing<br>D[Q(z|X)|P(z|X)] in addition to log P(X). Second, we describe the VAE<br>framework-especially the r.h.s. of Equation 5-in terms of information the-<br>ory, linking it to other approaches based on Minimum Description Length.<br>Finally, we investigate whether VAEs have \"regularization parameters\" anal-<br>ogous to the sparsity penalty in sparse autoencoders.</p>",
+            "id": 78,
+            "page": 12,
+            "text": "By now, you are hopefully convinced that the learning in VAEs is tractable, and thatit optimizes something like log P(X) across our entire dataset. However, we are not optimizing exactly log P(X), SO this section aims to take a deeper look at what the objective function is actually doing. We address three topics. First, we ask how much error is introduced by optimizing D[Q(z|X)|P(z|X)] in addition to log P(X). Second, we describe the VAE framework-especially the r.h.s. of Equation 5-in terms of information theory, linking it to other approaches based on Minimum Description Length. Finally, we investigate whether VAEs have \"regularization parameters\" analogous to the sparsity penalty in sparse autoencoders."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 2008
+                },
+                {
+                    "x": 1324,
+                    "y": 2008
+                },
+                {
+                    "x": 1324,
+                    "y": 2067
+                },
+                {
+                    "x": 484,
+                    "y": 2067
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:16px'>2.4.1 The error from D[Q(z|X)|P(zX)]</p>",
+            "id": 79,
+            "page": 12,
+            "text": "2.4.1 The error from D[Q(z|X)|P(zX)]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 2097
+                },
+                {
+                    "x": 2021,
+                    "y": 2097
+                },
+                {
+                    "x": 2021,
+                    "y": 2994
+                },
+                {
+                    "x": 480,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:18px'>The tractability of this model relies on our assumption that Q(z|X) can be<br>modeled as a Gaussian with some mean �(X) and variance �(X). P(X) con-<br>verges (in distribution) to the true distribution if and only ifD[Q(z)|P(z)]<br>goes to zero. Unfortunately, it`s not straightforward to ensure that this hap-<br>pens. Even if we assume �(X) and �(X) are arbitrarily high capacity, the<br>posterior P(z|X) is not necessarily Gaussian for an arbitrary f function that<br>we`re using to define P. For fixed P, this might mean that DQ(zX)|P(z)]<br>never goes to zero. However, the good news is that given sufficiently high-<br>capacity neural networks, there are many f functions that result in our<br>model generating any given output distribution. Any of these functions will<br>maximize log P(X) equally well. Hence, all we need is one function f which<br>both maximizes log P(X) and results in P(z|X) being Gaussian for all X. If<br>SO, D[Q(zX)|P(Z)] will pull our model towards that parameterization of<br>the distribution. So, does such a function exist for all distributions we might<br>want to approximate? I'm not aware of anyone proving this in general just</p>",
+            "id": 80,
+            "page": 12,
+            "text": "The tractability of this model relies on our assumption that Q(z|X) can be modeled as a Gaussian with some mean �(X) and variance �(X). P(X) converges (in distribution) to the true distribution if and only ifD[Q(z)|P(z)] goes to zero. Unfortunately, it`s not straightforward to ensure that this happens. Even if we assume �(X) and �(X) are arbitrarily high capacity, the posterior P(z|X) is not necessarily Gaussian for an arbitrary f function that we`re using to define P. For fixed P, this might mean that DQ(zX)|P(z)] never goes to zero. However, the good news is that given sufficiently highcapacity neural networks, there are many f functions that result in our model generating any given output distribution. Any of these functions will maximize log P(X) equally well. Hence, all we need is one function f which both maximizes log P(X) and results in P(z|X) being Gaussian for all X. If SO, D[Q(zX)|P(Z)] will pull our model towards that parameterization of the distribution. So, does such a function exist for all distributions we might want to approximate? I'm not aware of anyone proving this in general just"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1211,
+                    "y": 3086
+                },
+                {
+                    "x": 1266,
+                    "y": 3086
+                },
+                {
+                    "x": 1266,
+                    "y": 3134
+                },
+                {
+                    "x": 1211,
+                    "y": 3134
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='81' style='font-size:14px'>12</footer>",
+            "id": 81,
+            "page": 12,
+            "text": "12"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 533
+                },
+                {
+                    "x": 1999,
+                    "y": 533
+                },
+                {
+                    "x": 1999,
+                    "y": 1123
+                },
+                {
+                    "x": 480,
+                    "y": 1123
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:16px'>yet, but it turns out that one can prove that such a function does exist, pro-<br>vided 0 is small relative to the curvature of the ground truth distribution's<br>CDF (at least in 1D; a proof is included in Appendix A). In practice such<br>a small 0 might cause problems for existing machine learning algorithms,<br>since the gradients would become badly scaled. However, itis comforting to<br>know that VAEs have zero approximation error in at least this one scenario.<br>This fact suggests that future theoretical work may show us how much<br>approximation error VAEs have in more practical setups. (It seems to me<br>like it should be possible to extend the proof technique in Appendix A to<br>multiple dimensions, but this is left for future work.)</p>",
+            "id": 82,
+            "page": 13,
+            "text": "yet, but it turns out that one can prove that such a function does exist, provided 0 is small relative to the curvature of the ground truth distribution's CDF (at least in 1D; a proof is included in Appendix A). In practice such a small 0 might cause problems for existing machine learning algorithms, since the gradients would become badly scaled. However, itis comforting to know that VAEs have zero approximation error in at least this one scenario. This fact suggests that future theoretical work may show us how much approximation error VAEs have in more practical setups. (It seems to me like it should be possible to extend the proof technique in Appendix A to multiple dimensions, but this is left for future work.)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1194
+                },
+                {
+                    "x": 1470,
+                    "y": 1194
+                },
+                {
+                    "x": 1470,
+                    "y": 1252
+                },
+                {
+                    "x": 481,
+                    "y": 1252
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:18px'>2.4.2 The information-theoretic interpretation</p>",
+            "id": 83,
+            "page": 13,
+            "text": "2.4.2 The information-theoretic interpretation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1283
+                },
+                {
+                    "x": 1997,
+                    "y": 1283
+                },
+                {
+                    "x": 1997,
+                    "y": 2355
+                },
+                {
+                    "x": 480,
+                    "y": 2355
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:18px'>Another important way to look at the right hand side of Equation 5 is<br>in terms of information theory, and in particular, the \"minimum descrip-<br>tion length\" principle which motivated many of the VAE's predecessors<br>like Helmholtz Machines [16], the Wake-Sleep Algorithm [17], Deep Belief<br>Nets [18], and Boltzmann Machines [19]. - log P(X) can be seen as the total<br>number of bits required to construct a given X under our model using an<br>ideal encoding. The right hand side of Equation 5 views this as a two-step<br>process to construct X. We first use some bits to construct Z. Recall that<br>a KL-divergence is in units of bits (or, more precisely, nats). Specifically,<br>D[Q(z|X)|P(z)] is the expected information that`s required to convert an<br>uninformative sample from P(z) into a sample from Q(z|X) (the so-called<br>\"information gain\" interpretation of KL-divergence). That is, it measures<br>the amount of extra information that we get about X when Z comes from<br>Q(z|X) instead of from P(z) (for more details, see the \"bits back\" argument<br>of [20, 21]). In the second step, P(X|z) measures the amount of information<br>required to reconstruct X from Z under an ideal encoding. Hence, the total<br>number of bits (一 log P(X)) is the sum of these two steps, minus a penalty<br>we pay for Q being a sub-optimal encoding (D[Q(zX)|P(z)]</p>",
+            "id": 84,
+            "page": 13,
+            "text": "Another important way to look at the right hand side of Equation 5 is in terms of information theory, and in particular, the \"minimum description length\" principle which motivated many of the VAE's predecessors like Helmholtz Machines , the Wake-Sleep Algorithm , Deep Belief Nets , and Boltzmann Machines . - log P(X) can be seen as the total number of bits required to construct a given X under our model using an ideal encoding. The right hand side of Equation 5 views this as a two-step process to construct X. We first use some bits to construct Z. Recall that a KL-divergence is in units of bits (or, more precisely, nats). Specifically, D[Q(z|X)|P(z)] is the expected information that`s required to convert an uninformative sample from P(z) into a sample from Q(z|X) (the so-called \"information gain\" interpretation of KL-divergence). That is, it measures the amount of extra information that we get about X when Z comes from Q(z|X) instead of from P(z) (for more details, see the \"bits back\" argument of ). In the second step, P(X|z) measures the amount of information required to reconstruct X from Z under an ideal encoding. Hence, the total number of bits (一 log P(X)) is the sum of these two steps, minus a penalty we pay for Q being a sub-optimal encoding (D[Q(zX)|P(z)]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2423
+                },
+                {
+                    "x": 1436,
+                    "y": 2423
+                },
+                {
+                    "x": 1436,
+                    "y": 2479
+                },
+                {
+                    "x": 481,
+                    "y": 2479
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:16px'>2.4.3 VAEs and the regularization parameter</p>",
+            "id": 85,
+            "page": 13,
+            "text": "2.4.3 VAEs and the regularization parameter"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2511
+                },
+                {
+                    "x": 1996,
+                    "y": 2511
+                },
+                {
+                    "x": 1996,
+                    "y": 2866
+                },
+                {
+                    "x": 481,
+                    "y": 2866
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:18px'>Looking at Equation 5, it`s interesting to view the D[Q(z|X)||P(z)] as a<br>regularization term, much like the sparsity regularization in sparse au-<br>toencoders [10]. From this standpoint, it's interesting to ask whether the<br>variational autoencoder has any \"regularization parameter.\" That is, in the<br>sparse autoencoder objective, we have a 入 regularization parameter in an<br>objective function that looks something like this:</p>",
+            "id": 86,
+            "page": 13,
+            "text": "Looking at Equation 5, it`s interesting to view the D[Q(z|X)||P(z)] as a regularization term, much like the sparsity regularization in sparse autoencoders . From this standpoint, it's interesting to ask whether the variational autoencoder has any \"regularization parameter.\" That is, in the sparse autoencoder objective, we have a 入 regularization parameter in an objective function that looks something like this:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1211,
+                    "y": 3087
+                },
+                {
+                    "x": 1266,
+                    "y": 3087
+                },
+                {
+                    "x": 1266,
+                    "y": 3134
+                },
+                {
+                    "x": 1211,
+                    "y": 3134
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='87' style='font-size:14px'>13</footer>",
+            "id": 87,
+            "page": 13,
+            "text": "13"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 533
+                },
+                {
+                    "x": 1994,
+                    "y": 533
+                },
+                {
+                    "x": 1994,
+                    "y": 706
+                },
+                {
+                    "x": 482,
+                    "y": 706
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:18px'>where 4 and � are the encoder and decoder functions, respectively, and<br>II · lIo is an Lo norm that encourages the encoding to be sparse. This 入 must<br>be set by hand.</p>",
+            "id": 88,
+            "page": 14,
+            "text": "where 4 and � are the encoder and decoder functions, respectively, and II · lIo is an Lo norm that encourages the encoding to be sparse. This 入 must be set by hand."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 713
+                },
+                {
+                    "x": 1996,
+                    "y": 713
+                },
+                {
+                    "x": 1996,
+                    "y": 1358
+                },
+                {
+                    "x": 480,
+                    "y": 1358
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:18px'>A variational autoencoder, however, does not, in general, have such a<br>regularization parameter, which is good because that`s one less parameter<br>that the programmer needs to adjust. However, for certain models, we can<br>make it appear like such a regularization parameter exists. It's tempting to<br>think that this parameter can come from changing Z ~ N(0, I) to something<br>like z' ~ N(0, 入 * I), but it turns out that this doesn't change the model. To<br>see this, note that we can absorb this constant into P and Q by writing them<br>in terms of f' (z') = f(z' /入), u'(X) = �(X) * 入, and �'(X) = �(X) * 入2.<br>This will produce an objective function whose value (right hand side of<br>Equation 5) is identical to the loss we had with Z ~ N(0, I). Also, the model<br>for sampling X will be identical, since z' / 入 ~ N(0,I).</p>",
+            "id": 89,
+            "page": 14,
+            "text": "A variational autoencoder, however, does not, in general, have such a regularization parameter, which is good because that`s one less parameter that the programmer needs to adjust. However, for certain models, we can make it appear like such a regularization parameter exists. It's tempting to think that this parameter can come from changing Z ~ N(0, I) to something like z' ~ N(0, 入 * I), but it turns out that this doesn't change the model. To see this, note that we can absorb this constant into P and Q by writing them in terms of f' (z') = f(z' /入), u'(X) = �(X) * 入, and �'(X) = �(X) * 入2. This will produce an objective function whose value (right hand side of Equation 5) is identical to the loss we had with Z ~ N(0, I). Also, the model for sampling X will be identical, since z' / 入 ~ N(0,I)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1363
+                },
+                {
+                    "x": 1997,
+                    "y": 1363
+                },
+                {
+                    "x": 1997,
+                    "y": 2427
+                },
+                {
+                    "x": 481,
+                    "y": 2427
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:16px'>However, there is another place where a regularization parameter can<br>come from. Recall that a good choice for the output distribution for con-<br>tinuous data is P(X|z) ~ N(f(z), o2 * I) for some 0 we supply. Therefore,<br>log P(X|z) = C - 1�� - f(z)|12/02 (where C is a constant that does not<br>depend on f, and can be ignored during optimization). When we write the<br>full optimization objective, 0 appears in the second term on the r.h.s. of<br>Equation 5, but not the first; in this sense, the 0 we choose behaves like a 入<br>controlling the weighting of the two terms. Note, however, that the existence<br>of this parameter relies on our choice of the distribution of X given z. If<br>X is binary and we use a Bernoulli output model, then this regularization<br>parameter disappears, and the only way to bring it back is to use hacks like<br>replicating the dimensions of X. From an information theory standpoint,<br>this makes sense: when X is binary, we can actually count the number of<br>bits that are required to encode X, and both terms on the right hand side of<br>Equation 5 are using the same units to count these bits. However, when X<br>is continuous, each sample contains infinite information. Our choice of 0<br>determines how accurately we expect the model to reconstruct X, which is<br>necessary SO that the information content can become finite.</p>",
+            "id": 90,
+            "page": 14,
+            "text": "However, there is another place where a regularization parameter can come from. Recall that a good choice for the output distribution for continuous data is P(X|z) ~ N(f(z), o2 * I) for some 0 we supply. Therefore, log P(X|z) = C - 1�� - f(z)|12/02 (where C is a constant that does not depend on f, and can be ignored during optimization). When we write the full optimization objective, 0 appears in the second term on the r.h.s. of Equation 5, but not the first; in this sense, the 0 we choose behaves like a 入 controlling the weighting of the two terms. Note, however, that the existence of this parameter relies on our choice of the distribution of X given z. If X is binary and we use a Bernoulli output model, then this regularization parameter disappears, and the only way to bring it back is to use hacks like replicating the dimensions of X. From an information theory standpoint, this makes sense: when X is binary, we can actually count the number of bits that are required to encode X, and both terms on the right hand side of Equation 5 are using the same units to count these bits. However, when X is continuous, each sample contains infinite information. Our choice of 0 determines how accurately we expect the model to reconstruct X, which is necessary SO that the information content can become finite."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2514
+                },
+                {
+                    "x": 1624,
+                    "y": 2514
+                },
+                {
+                    "x": 1624,
+                    "y": 2582
+                },
+                {
+                    "x": 483,
+                    "y": 2582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:22px'>3 Conditional Variational Autoencoders</p>",
+            "id": 91,
+            "page": 14,
+            "text": "3 Conditional Variational Autoencoders"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2631
+                },
+                {
+                    "x": 1994,
+                    "y": 2631
+                },
+                {
+                    "x": 1994,
+                    "y": 2990
+                },
+                {
+                    "x": 481,
+                    "y": 2990
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:20px'>Let's return to our running example of generating handwritten digits. Say<br>that we don't just want to generate new digits, but instead we want to add<br>digits to an existing string of digits written by a single person. This is similar<br>to a truly practical problem in computer graphics called hole filling: given<br>an existing image where a user has removed an unwanted object, the goal<br>is to fill in the hole with plausible-looking pixels. An important difficulty</p>",
+            "id": 92,
+            "page": 14,
+            "text": "Let's return to our running example of generating handwritten digits. Say that we don't just want to generate new digits, but instead we want to add digits to an existing string of digits written by a single person. This is similar to a truly practical problem in computer graphics called hole filling: given an existing image where a user has removed an unwanted object, the goal is to fill in the hole with plausible-looking pixels. An important difficulty"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1211,
+                    "y": 3085
+                },
+                {
+                    "x": 1265,
+                    "y": 3085
+                },
+                {
+                    "x": 1265,
+                    "y": 3135
+                },
+                {
+                    "x": 1211,
+                    "y": 3135
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='93' style='font-size:14px'>14</footer>",
+            "id": 93,
+            "page": 14,
+            "text": "14"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 503,
+                    "y": 504
+                },
+                {
+                    "x": 1971,
+                    "y": 504
+                },
+                {
+                    "x": 1971,
+                    "y": 1283
+                },
+                {
+                    "x": 503,
+                    "y": 1283
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='94' style='font-size:14px' alt=\"||Y - f(z, X)||2 f(z,\nf(z, X Decoder\n(P)\nKL[N(�(Y,X), �(Y, X ||N (O,I Decoder\n(P)\nSample z fromN(0,I)\n+\nu(Y, X � X *\nEncoder Sample E fromN(0,I)\n(인)\nY X\" data-coord=\"top-left:(503,504); bottom-right:(1971,1283)\" /></figure>",
+            "id": 94,
+            "page": 15,
+            "text": "||Y - f(z, X)||2 f(z, f(z, X Decoder (P) KL[N(�(Y,X), �(Y, X ||N (O,I Decoder (P) Sample z fromN(0,I) + u(Y, X � X * Encoder Sample E fromN(0,I) (인) Y X"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1372
+                },
+                {
+                    "x": 1996,
+                    "y": 1372
+                },
+                {
+                    "x": 1996,
+                    "y": 1608
+                },
+                {
+                    "x": 482,
+                    "y": 1608
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='95' style='font-size:20px'>Figure 6: Left: a training-time conditional variational autoencoder imple-<br>mented as a feedforward neural network, following the same notation as<br>Figure 4. Right: the same model at test time, when we want to sample from<br>P(Y|X).</caption>",
+            "id": 95,
+            "page": 15,
+            "text": "Figure 6: Left: a training-time conditional variational autoencoder implemented as a feedforward neural network, following the same notation as Figure 4. Right: the same model at test time, when we want to sample from P(Y|X)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1691
+                },
+                {
+                    "x": 1997,
+                    "y": 1691
+                },
+                {
+                    "x": 1997,
+                    "y": 2583
+                },
+                {
+                    "x": 482,
+                    "y": 2583
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:22px'>with both problems is that the space of plausible outputs is multi-modal:<br>there are many possibilities for the next digit or the extrapolated pixels. A<br>standard regression model will fail in this situation, because the training<br>objective generally penalizes the distance between a single prediction and<br>the ground truth. Faced with a problem like this, the best solution the<br>regressor can produce is something which is in between the possibilities,<br>since it minimizes the expected distance. In the case of digits, this will most<br>likely look like a meaningless blur that's an \"average image\" of all possible<br>digits and all possible styles that could occur3. What we need is an algorithm<br>that takes in a string or an image, and produces a complex, multimodal<br>distribution that we can sample from. Enter the conditional variational<br>autoencoder (CVAE) [7, 8], which modifies the math in the previous section<br>by simply conditioning the entire generative process on an input. CVAEs<br>allow us to tackle problems where the input-to-output mapping is one-to-<br>many4, without requiring us to explicitly specify the structure of the output</p>",
+            "id": 96,
+            "page": 15,
+            "text": "with both problems is that the space of plausible outputs is multi-modal: there are many possibilities for the next digit or the extrapolated pixels. A standard regression model will fail in this situation, because the training objective generally penalizes the distance between a single prediction and the ground truth. Faced with a problem like this, the best solution the regressor can produce is something which is in between the possibilities, since it minimizes the expected distance. In the case of digits, this will most likely look like a meaningless blur that's an \"average image\" of all possible digits and all possible styles that could occur3. What we need is an algorithm that takes in a string or an image, and produces a complex, multimodal distribution that we can sample from. Enter the conditional variational autoencoder (CVAE) , which modifies the math in the previous section by simply conditioning the entire generative process on an input. CVAEs allow us to tackle problems where the input-to-output mapping is one-tomany4, without requiring us to explicitly specify the structure of the output"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2614
+                },
+                {
+                    "x": 1994,
+                    "y": 2614
+                },
+                {
+                    "x": 1994,
+                    "y": 2963
+                },
+                {
+                    "x": 483,
+                    "y": 2963
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:16px'>3The denoising autoencoder [12, 13] can be seen as a slight generalization of the regres-<br>sion model, which might improve on its behavior. That is, we would say that the \"noise<br>distribution\" simply deletes pixels, and so the denoising autoencoder must reconstruct<br>the original image given the noisy version. Note, however, that this still doesn't solve the<br>problem. The standard denoising autoencoder still requires that the conditional distribution<br>of the original sample given the noisy sample follow a simple, parametric distribution. This<br>is not the case for complex data like image patches.</p>",
+            "id": 97,
+            "page": 15,
+            "text": "3The denoising autoencoder  can be seen as a slight generalization of the regression model, which might improve on its behavior. That is, we would say that the \"noise distribution\" simply deletes pixels, and so the denoising autoencoder must reconstruct the original image given the noisy version. Note, however, that this still doesn't solve the problem. The standard denoising autoencoder still requires that the conditional distribution of the original sample given the noisy sample follow a simple, parametric distribution. This is not the case for complex data like image patches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 536,
+                    "y": 2955
+                },
+                {
+                    "x": 1666,
+                    "y": 2955
+                },
+                {
+                    "x": 1666,
+                    "y": 2999
+                },
+                {
+                    "x": 536,
+                    "y": 2999
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:18px'>4Often called \"structured prediction\" in machine learning literature.</p>",
+            "id": 98,
+            "page": 15,
+            "text": "4Often called \"structured prediction\" in machine learning literature."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1212,
+                    "y": 3088
+                },
+                {
+                    "x": 1266,
+                    "y": 3088
+                },
+                {
+                    "x": 1266,
+                    "y": 3133
+                },
+                {
+                    "x": 1212,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='99' style='font-size:18px'>15</footer>",
+            "id": 99,
+            "page": 15,
+            "text": "15"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 535
+                },
+                {
+                    "x": 744,
+                    "y": 535
+                },
+                {
+                    "x": 744,
+                    "y": 582
+                },
+                {
+                    "x": 483,
+                    "y": 582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:16px'>distribution.</p>",
+            "id": 100,
+            "page": 16,
+            "text": "distribution."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 594
+                },
+                {
+                    "x": 1995,
+                    "y": 594
+                },
+                {
+                    "x": 1995,
+                    "y": 868
+                },
+                {
+                    "x": 483,
+                    "y": 868
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='101' style='font-size:16px'>Given an input X and an output Y, we want to create a model P(Y|X)<br>which maximizes the probability of the ground truth (I apologize for re-<br>defining X here. However, standard machine learning notation maps X<br>to Y, so I will too). We define the model by introducing a latent variable<br>Z ~ N(0,I), such that:</p>",
+            "id": 101,
+            "page": 16,
+            "text": "Given an input X and an output Y, we want to create a model P(Y|X) which maximizes the probability of the ground truth (I apologize for redefining X here. However, standard machine learning notation maps X to Y, so I will too). We define the model by introducing a latent variable Z ~ N(0,I), such that:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 1031
+                },
+                {
+                    "x": 1990,
+                    "y": 1031
+                },
+                {
+                    "x": 1990,
+                    "y": 1144
+                },
+                {
+                    "x": 483,
+                    "y": 1144
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:14px'>where f is a deterministic function that we can learn from data. We can<br>rewrite Equations 2 through 5 conditioning on X as follows:</p>",
+            "id": 102,
+            "page": 16,
+            "text": "where f is a deterministic function that we can learn from data. We can rewrite Equations 2 through 5 conditioning on X as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1827
+                },
+                {
+                    "x": 1993,
+                    "y": 1827
+                },
+                {
+                    "x": 1993,
+                    "y": 1998
+                },
+                {
+                    "x": 482,
+                    "y": 1998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='103' style='font-size:16px'>Note that P(z|X) is still N(0,I) because our model assumes Z is sampled<br>independently of X at test time. The structure of this model is shown in<br>Figure 6.</p>",
+            "id": 103,
+            "page": 16,
+            "text": "Note that P(z|X) is still N(0,I) because our model assumes Z is sampled independently of X at test time. The structure of this model is shown in Figure 6."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 2006
+                },
+                {
+                    "x": 1989,
+                    "y": 2006
+                },
+                {
+                    "x": 1989,
+                    "y": 2121
+                },
+                {
+                    "x": 484,
+                    "y": 2121
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:18px'>At test time, we can sample from the distribution P(Y|X) by simply<br>sampling Z ~ N(0, I).</p>",
+            "id": 104,
+            "page": 16,
+            "text": "At test time, we can sample from the distribution P(Y|X) by simply sampling Z ~ N(0, I)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 2207
+                },
+                {
+                    "x": 848,
+                    "y": 2207
+                },
+                {
+                    "x": 848,
+                    "y": 2275
+                },
+                {
+                    "x": 484,
+                    "y": 2275
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:22px'>4 Examples</p>",
+            "id": 105,
+            "page": 16,
+            "text": "4 Examples"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2326
+                },
+                {
+                    "x": 1989,
+                    "y": 2326
+                },
+                {
+                    "x": 1989,
+                    "y": 2439
+                },
+                {
+                    "x": 483,
+                    "y": 2439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:16px'>Implementations for these examples using Caffe [22] can be found online at:<br>http: / /github · com/ cdoersch/vae_ tutorial</p>",
+            "id": 106,
+            "page": 16,
+            "text": "Implementations for these examples using Caffe  can be found online at: http: / /github · com/ cdoersch/vae_ tutorial"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 485,
+                    "y": 2513
+                },
+                {
+                    "x": 1336,
+                    "y": 2513
+                },
+                {
+                    "x": 1336,
+                    "y": 2567
+                },
+                {
+                    "x": 485,
+                    "y": 2567
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:18px'>4.1 MNIST variational autoencoder</p>",
+            "id": 107,
+            "page": 16,
+            "text": "4.1 MNIST variational autoencoder"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2602
+                },
+                {
+                    "x": 1996,
+                    "y": 2602
+                },
+                {
+                    "x": 1996,
+                    "y": 3019
+                },
+                {
+                    "x": 481,
+                    "y": 3019
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:16px'>To demonstrate the distribution learning capabilities of the VAE framework,<br>let`s train a variational autoencoder on MNIST. To show that the framework<br>isn't heavily dependent on initialization or network structure, we don`t<br>use existing published VAE network structures, but instead adapt the basic<br>MNIST AutoEncoder example that's included with Caffe [22]. (However,<br>we use ReLU non-linearities [9] and ADAM [23], since both are standard<br>techniques to speed convergence.) Although MNIST is real-valued, it is</p>",
+            "id": 108,
+            "page": 16,
+            "text": "To demonstrate the distribution learning capabilities of the VAE framework, let`s train a variational autoencoder on MNIST. To show that the framework isn't heavily dependent on initialization or network structure, we don`t use existing published VAE network structures, but instead adapt the basic MNIST AutoEncoder example that's included with Caffe . (However, we use ReLU non-linearities  and ADAM , since both are standard techniques to speed convergence.) Although MNIST is real-valued, it is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1213,
+                    "y": 3089
+                },
+                {
+                    "x": 1266,
+                    "y": 3089
+                },
+                {
+                    "x": 1266,
+                    "y": 3133
+                },
+                {
+                    "x": 1213,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='109' style='font-size:14px'>16</footer>",
+            "id": 109,
+            "page": 16,
+            "text": "16"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 734,
+                    "y": 518
+                },
+                {
+                    "x": 1742,
+                    "y": 518
+                },
+                {
+                    "x": 1742,
+                    "y": 1521
+                },
+                {
+                    "x": 734,
+                    "y": 1521
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='110' style='font-size:20px' alt=\"9 8 9 8 7 / 6 8 8 S\n8 2 9 a | 0 I / 4 2\nY 9 / 8 o S 2 0 4 4\n6 o 3 2 O 4 6 2 8 1\n8 9 4 7 5 6 1 8 4 9\n8 6 4 8 っ 9 8 / g 0\n9 2 5 の S 8 0 9 4 3\n9 4 9 S 9 0 の 1 8 I\n4 / 4 O 9 8 | 。 8 3\n) 8 5 o 5 4 3 7 8 7\" data-coord=\"top-left:(734,518); bottom-right:(1742,1521)\" /></figure>",
+            "id": 110,
+            "page": 17,
+            "text": "9 8 9 8 7 / 6 8 8 S 8 2 9 a | 0 I / 4 2 Y 9 / 8 o S 2 0 4 4 6 o 3 2 O 4 6 2 8 1 8 9 4 7 5 6 1 8 4 9 8 6 4 8 っ 9 8 / g 0 9 2 5 の S 8 0 9 4 3 9 4 9 S 9 0 の 1 8 I 4 / 4 O 9 8 | 。 8 3 ) 8 5 o 5 4 3 7 8 7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 739,
+                    "y": 1625
+                },
+                {
+                    "x": 1733,
+                    "y": 1625
+                },
+                {
+                    "x": 1733,
+                    "y": 1677
+                },
+                {
+                    "x": 739,
+                    "y": 1677
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='111' style='font-size:16px'>Figure 7: Samples from a VAE trained on MNIST.</caption>",
+            "id": 111,
+            "page": 17,
+            "text": "Figure 7: Samples from a VAE trained on MNIST."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 1765
+                },
+                {
+                    "x": 2001,
+                    "y": 1765
+                },
+                {
+                    "x": 2001,
+                    "y": 2892
+                },
+                {
+                    "x": 480,
+                    "y": 2892
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:16px'>constrained between 0 and 1, SO we use the Sigmoid Cross Entropy loss<br>for P(X|z). This has a probabilistic interpretation: imagine that we cre-<br>ated a new datapoint X' by independently sampling each dimension as<br>X'i ~ Bernoulli(Xi). Cross entropy measures the expected probability of X'.<br>Thus we`re actually modeling X', the randomly binarized version of MNIST,<br>but we`re only giving 9 a summary of this data X. Admittedly this is not<br>quite what the VAE framework prescribes but works well in practice, and<br>is used in other VAE literature [6]. Even though our model is considerably<br>deeper than [1] and [3], training the model was not difficult. The training<br>was run to completion exactly once (though the training was re-started the<br>5 times to find the learning rate which made the loss descend the fastest).<br>Digits generated from noise are shown in Figure 7. It's worth noting that<br>these samples are difficult to evaluate since there`s no simple way to mea-<br>sure how different these are from the training set [24]. However, the failure<br>cases are interesting: while most of the digits look quite realistic, a signif-<br>icant number are 'in-between' different digits. For example, the seventh<br>digit from the top in the leftmost column is clearly in-between a 7 and a 9.<br>This happens because we are mapping a continuous distribution through a<br>smooth function.</p>",
+            "id": 112,
+            "page": 17,
+            "text": "constrained between 0 and 1, SO we use the Sigmoid Cross Entropy loss for P(X|z). This has a probabilistic interpretation: imagine that we created a new datapoint X' by independently sampling each dimension as X'i ~ Bernoulli(Xi). Cross entropy measures the expected probability of X'. Thus we`re actually modeling X', the randomly binarized version of MNIST, but we`re only giving 9 a summary of this data X. Admittedly this is not quite what the VAE framework prescribes but works well in practice, and is used in other VAE literature . Even though our model is considerably deeper than  and , training the model was not difficult. The training was run to completion exactly once (though the training was re-started the 5 times to find the learning rate which made the loss descend the fastest). Digits generated from noise are shown in Figure 7. It's worth noting that these samples are difficult to evaluate since there`s no simple way to measure how different these are from the training set . However, the failure cases are interesting: while most of the digits look quite realistic, a significant number are 'in-between' different digits. For example, the seventh digit from the top in the leftmost column is clearly in-between a 7 and a 9. This happens because we are mapping a continuous distribution through a smooth function."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2894
+                },
+                {
+                    "x": 1994,
+                    "y": 2894
+                },
+                {
+                    "x": 1994,
+                    "y": 3008
+                },
+                {
+                    "x": 482,
+                    "y": 3008
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:14px'>In practice, the model seems to be quite insensitive to the dimensionality<br>of z, unless Z is excessively large or small. Too few z's means the model can</p>",
+            "id": 113,
+            "page": 17,
+            "text": "In practice, the model seems to be quite insensitive to the dimensionality of z, unless Z is excessively large or small. Too few z's means the model can"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1213,
+                    "y": 3088
+                },
+                {
+                    "x": 1265,
+                    "y": 3088
+                },
+                {
+                    "x": 1265,
+                    "y": 3132
+                },
+                {
+                    "x": 1213,
+                    "y": 3132
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='114' style='font-size:16px'>17</footer>",
+            "id": 114,
+            "page": 17,
+            "text": "17"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 503,
+                    "y": 508
+                },
+                {
+                    "x": 1967,
+                    "y": 508
+                },
+                {
+                    "x": 1967,
+                    "y": 1866
+                },
+                {
+                    "x": 503,
+                    "y": 1866
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='115' style='font-size:22px' alt=\"0 し P 「 3 C 6 L / O\n$ V + C  ァ F 9 o cj 7 0 O\n4 ム / I ク 6 B 4 4\n0 시 4 4 ク ① 4 I 0 ス\n(a) CVAE\nb\n(b) Regressor\n7 2 / 0 4 / 4 9 の 9 o 6 9 0 J\n5 9 フ 3 4 9 6 6 5 4 0 7 4 ○ 1\n3 | 3 LI 7 2 7 | 2 1 ) ス 4 그 3\n5 / 2 4 4 6 3 5 5 6 0 4 1 9 5\nGround Truth\" data-coord=\"top-left:(503,508); bottom-right:(1967,1866)\" /></figure>",
+            "id": 115,
+            "page": 18,
+            "text": "0 し P 「 3 C 6 L / O $ V + C  ァ F 9 o cj 7 0 O 4 ム / I ク 6 B 4 4 0 시 4 4 ク ① 4 I 0 ス (a) CVAE b (b) Regressor 7 2 / 0 4 / 4 9 の 9 o 6 9 0 J 5 9 フ 3 4 9 6 6 5 4 0 7 4 ○ 1 3 | 3 LI 7 2 7 | 2 1 ) ス 4 그 3 5 / 2 4 4 6 3 5 5 6 0 4 1 9 5 Ground Truth"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1061,
+                    "y": 1843
+                },
+                {
+                    "x": 1410,
+                    "y": 1843
+                },
+                {
+                    "x": 1410,
+                    "y": 1893
+                },
+                {
+                    "x": 1061,
+                    "y": 1893
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='116' style='font-size:20px'>(c)</caption>",
+            "id": 116,
+            "page": 18,
+            "text": "(c)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 1991
+                },
+                {
+                    "x": 1993,
+                    "y": 1991
+                },
+                {
+                    "x": 1993,
+                    "y": 2288
+                },
+                {
+                    "x": 483,
+                    "y": 2288
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:18px'>Figure 8: Samples from a CVAE trained on MNIST. The input that the model<br>is conditioning on is the central column, highlighted in blue and orange in<br>the top two images. The model must complete the digit given only these<br>noisy binary values. The three sets above are aligned spatially, SO you can<br>compare the generated images to the ground truth.</p>",
+            "id": 117,
+            "page": 18,
+            "text": "Figure 8: Samples from a CVAE trained on MNIST. The input that the model is conditioning on is the central column, highlighted in blue and orange in the top two images. The model must complete the digit given only these noisy binary values. The three sets above are aligned spatially, SO you can compare the generated images to the ground truth."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 2370
+                },
+                {
+                    "x": 1993,
+                    "y": 2370
+                },
+                {
+                    "x": 1993,
+                    "y": 2788
+                },
+                {
+                    "x": 482,
+                    "y": 2788
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:16px'>no longer capture all of the variation: less than 4 Z dimensions produced<br>noticeably worse results. Results with 1,000 z's were good, but with 10,000<br>they were also degraded. In theory, if a model with n z's is good, then a<br>model with m >> n should not be worse, since the model can simply learn<br>to ignore the extra dimensions. However, in practice, it seems stochastic<br>gradient descent struggles to keep D[Q(z|X)||P(z)] low when Z is extremely<br>large.</p>",
+            "id": 118,
+            "page": 18,
+            "text": "no longer capture all of the variation: less than 4 Z dimensions produced noticeably worse results. Results with 1,000 z's were good, but with 10,000 they were also degraded. In theory, if a model with n z's is good, then a model with m >> n should not be worse, since the model can simply learn to ignore the extra dimensions. However, in practice, it seems stochastic gradient descent struggles to keep D[Q(z|X)||P(z)] low when Z is extremely large."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1213,
+                    "y": 3089
+                },
+                {
+                    "x": 1264,
+                    "y": 3089
+                },
+                {
+                    "x": 1264,
+                    "y": 3134
+                },
+                {
+                    "x": 1213,
+                    "y": 3134
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='119' style='font-size:14px'>18</footer>",
+            "id": 119,
+            "page": 18,
+            "text": "18"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 525
+                },
+                {
+                    "x": 1785,
+                    "y": 525
+                },
+                {
+                    "x": 1785,
+                    "y": 588
+                },
+                {
+                    "x": 483,
+                    "y": 588
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:22px'>5 MNIST conditional variational autoencoder</p>",
+            "id": 120,
+            "page": 19,
+            "text": "5 MNIST conditional variational autoencoder"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 635
+                },
+                {
+                    "x": 1997,
+                    "y": 635
+                },
+                {
+                    "x": 1997,
+                    "y": 2124
+                },
+                {
+                    "x": 479,
+                    "y": 2124
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:18px'>I had originally intended to show a conditional variational autoencoder<br>completing MNIST digits given only half of each digit. While a CVAE works<br>quite well for this purpose, unfortunately a regressor actually works quite<br>well also, producing relatively crisp samples. The apparent reason is the size<br>of MNIST. A network with similar capacity to the one in section 4.1 can easily<br>memorize the entire dataset, and so the regressor overfits badly. Thus, at test<br>time, it produces predictions that behave something like nearest-neighbor<br>matching, which are actually quite sharp. CVAE models are most likely<br>to outperform simple regression when the output is ambiguous given a<br>training example. Therefore, let`s make two modifications to the problem to<br>make it more ambiguous, at the cost of making it somewhat more artificial.<br>First, the input is a single column of pixels taken from the middle of the digit.<br>In MNIST, each pixel has a value between 0 and 1, meaning that there is still<br>enough information even in this single column of pixels for the network to<br>identify a specific training example. Therefore, the second modification is to<br>replace each pixel in our column with a binary value (0 or 1), choosing 1 with<br>probability equal to the pixel intensity. These binary values were resampled<br>each time a digit was passed to the network. Figure 8 shows the results.<br>Note that the regressor model handles the ambiguity by blurring its output<br>(although there are cases where the regressor is suspiciously confident when<br>making wrong guesses, suggesting overfitting is still an issue). The blur in<br>the regressor's output minimizes the distance to the set of many digits which<br>might have produced the input. The CVAE, on the other hand, generally<br>picks a specific digit to output and does SO without blur, resulting in more<br>believable images.</p>",
+            "id": 121,
+            "page": 19,
+            "text": "I had originally intended to show a conditional variational autoencoder completing MNIST digits given only half of each digit. While a CVAE works quite well for this purpose, unfortunately a regressor actually works quite well also, producing relatively crisp samples. The apparent reason is the size of MNIST. A network with similar capacity to the one in section 4.1 can easily memorize the entire dataset, and so the regressor overfits badly. Thus, at test time, it produces predictions that behave something like nearest-neighbor matching, which are actually quite sharp. CVAE models are most likely to outperform simple regression when the output is ambiguous given a training example. Therefore, let`s make two modifications to the problem to make it more ambiguous, at the cost of making it somewhat more artificial. First, the input is a single column of pixels taken from the middle of the digit. In MNIST, each pixel has a value between 0 and 1, meaning that there is still enough information even in this single column of pixels for the network to identify a specific training example. Therefore, the second modification is to replace each pixel in our column with a binary value (0 or 1), choosing 1 with probability equal to the pixel intensity. These binary values were resampled each time a digit was passed to the network. Figure 8 shows the results. Note that the regressor model handles the ambiguity by blurring its output (although there are cases where the regressor is suspiciously confident when making wrong guesses, suggesting overfitting is still an issue). The blur in the regressor's output minimizes the distance to the set of many digits which might have produced the input. The CVAE, on the other hand, generally picks a specific digit to output and does SO without blur, resulting in more believable images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2123
+                },
+                {
+                    "x": 1998,
+                    "y": 2123
+                },
+                {
+                    "x": 1998,
+                    "y": 2598
+                },
+                {
+                    "x": 481,
+                    "y": 2598
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='122' style='font-size:16px'>Acknowledgements: Thanks to everyone in the UCB CS294 Visual Ob-<br>ject And Activity Recognition group and CMU Misc-Read group, and to<br>many others who encouraged me to convert the presentation I gave there<br>into a tutorial. I would especially like to thank Philipp Kr�henbuhl, Jacob<br>Walker, and Deepak Pathak for helping me formulate and refine my de-<br>scription of the method, and Kenny Marino for help editing. I also thank<br>Abhinav Gupta and Alexei Efros for helpful discussions and support, and<br>Google for their fellowship supporting my research.</p>",
+            "id": 122,
+            "page": 19,
+            "text": "Acknowledgements: Thanks to everyone in the UCB CS294 Visual Object And Activity Recognition group and CMU Misc-Read group, and to many others who encouraged me to convert the presentation I gave there into a tutorial. I would especially like to thank Philipp Kr�henbuhl, Jacob Walker, and Deepak Pathak for helping me formulate and refine my description of the method, and Kenny Marino for help editing. I also thank Abhinav Gupta and Alexei Efros for helpful discussions and support, and Google for their fellowship supporting my research."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 485,
+                    "y": 2682
+                },
+                {
+                    "x": 2000,
+                    "y": 2682
+                },
+                {
+                    "x": 2000,
+                    "y": 2829
+                },
+                {
+                    "x": 485,
+                    "y": 2829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:20px'>A Proof in 1D that VAEs have zero approximation er-<br>ror given arbitrarily powerful learners.</p>",
+            "id": 123,
+            "page": 19,
+            "text": "A Proof in 1D that VAEs have zero approximation error given arbitrarily powerful learners."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 483,
+                    "y": 2876
+                },
+                {
+                    "x": 1997,
+                    "y": 2876
+                },
+                {
+                    "x": 1997,
+                    "y": 2997
+                },
+                {
+                    "x": 483,
+                    "y": 2997
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:14px'>Let Pgt (X) be a 1D distribution that we are trying to approximate using<br>a VAE. We assume that Pgt(X) > 0 everywhere, that it is infinitely dif-</p>",
+            "id": 124,
+            "page": 19,
+            "text": "Let Pgt (X) be a 1D distribution that we are trying to approximate using a VAE. We assume that Pgt(X) > 0 everywhere, that it is infinitely dif-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1212,
+                    "y": 3088
+                },
+                {
+                    "x": 1264,
+                    "y": 3088
+                },
+                {
+                    "x": 1264,
+                    "y": 3133
+                },
+                {
+                    "x": 1212,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='125' style='font-size:14px'>19</footer>",
+            "id": 125,
+            "page": 19,
+            "text": "19"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 533
+                },
+                {
+                    "x": 1991,
+                    "y": 533
+                },
+                {
+                    "x": 1991,
+                    "y": 646
+                },
+                {
+                    "x": 484,
+                    "y": 646
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:14px'>ferentiable, and all the derivatives are bounded. Recall that a variational<br>autoencoder optimizes</p>",
+            "id": 126,
+            "page": 20,
+            "text": "ferentiable, and all the derivatives are bounded. Recall that a variational autoencoder optimizes"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 798
+                },
+                {
+                    "x": 1998,
+                    "y": 798
+                },
+                {
+                    "x": 1998,
+                    "y": 1568
+                },
+                {
+                    "x": 479,
+                    "y": 1568
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:18px'>where Po(X|z) =N(X|f(z),02) forz ~ N(0,1), Po(X) = SZ Po(X|z)P(z)dz,<br>and Qo(z|X) = N(z|��(X),��(X)). We make the dependence on 0 explicit<br>here since we will send it to 0 to prove convergence. The theoretical best pos-<br>sible solution is where Po == Pgt and D[Qヶ(zX)|Pr(zX)] = 0. By \"arbitrar-<br>ily powerful\" learners, we mean that if there exist f, h and � which achieve<br>this bestpossible solution, then the learning algorithm will find them. Hence,<br>we must merely show that such an f, Ho, and �o exist. First off, Pgt can<br>actually be described arbitrarily well as Pgt(X) = Sz N(X|f(z), o2)P(z)dz as<br>0 approaches 0. To show this, let F be the cumulative distribution function<br>(CDF) of Pgt, and let G be the CDF of N(0, 1), which are both guaranteed<br>to exist. Then G(z) is distributed Unif(0,1) (the uniform distribution), and<br>therefore f(z) = F-1(G(z)) is distributed Pgt(X). This means that as 0 → 0,<br>the distribution P(X) converges to Pgt.</p>",
+            "id": 127,
+            "page": 20,
+            "text": "where Po(X|z) =N(X|f(z),02) forz ~ N(0,1), Po(X) = SZ Po(X|z)P(z)dz, and Qo(z|X) = N(z|��(X),��(X)). We make the dependence on 0 explicit here since we will send it to 0 to prove convergence. The theoretical best possible solution is where Po == Pgt and D[Qヶ(zX)|Pr(zX)] = 0. By \"arbitrarily powerful\" learners, we mean that if there exist f, h and � which achieve this bestpossible solution, then the learning algorithm will find them. Hence, we must merely show that such an f, Ho, and �o exist. First off, Pgt can actually be described arbitrarily well as Pgt(X) = Sz N(X|f(z), o2)P(z)dz as 0 approaches 0. To show this, let F be the cumulative distribution function (CDF) of Pgt, and let G be the CDF of N(0, 1), which are both guaranteed to exist. Then G(z) is distributed Unif(0,1) (the uniform distribution), and therefore f(z) = F-1(G(z)) is distributed Pgt(X). This means that as 0 → 0, the distribution P(X) converges to Pgt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 1573
+                },
+                {
+                    "x": 2176,
+                    "y": 1573
+                },
+                {
+                    "x": 2176,
+                    "y": 1984
+                },
+                {
+                    "x": 479,
+                    "y": 1984
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='128' style='font-size:18px'>From here, we must simply show that D[Qr(z|X)|Pr(z|X)] → 0 as<br>0 → 0. Let g(X) = G-1(F(X)), i.e., the inverse of f, and let Qo(z|X) =<br>N(z|g(X), (g'(X) * �)2). Note that D[Qg(z|X)|Pg(z|X)] is invariant to<br>affine transformations of the sample space. Hence, let Qo(zo|X) = N(z0lg(X),g'(X)2)<br>and Po(zo|X) = Po(z = g(X) + (zo - g(X)) * ��) * o. When I write<br>P(z = ...), I am using the PDF of Z as a function, and evaluating it at<br>some point. Then:</p>",
+            "id": 128,
+            "page": 20,
+            "text": "From here, we must simply show that D[Qr(z|X)|Pr(z|X)] → 0 as 0 → 0. Let g(X) = G-1(F(X)), i.e., the inverse of f, and let Qo(z|X) = N(z|g(X), (g'(X) * �)2). Note that D[Qg(z|X)|Pg(z|X)] is invariant to affine transformations of the sample space. Hence, let Qo(zo|X) = N(z0lg(X),g'(X)2) and Po(zo|X) = Po(z = g(X) + (zo - g(X)) * ��) * o. When I write P(z = ...), I am using the PDF of Z as a function, and evaluating it at some point. Then:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2136
+                },
+                {
+                    "x": 1993,
+                    "y": 2136
+                },
+                {
+                    "x": 1993,
+                    "y": 2292
+                },
+                {
+                    "x": 481,
+                    "y": 2292
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:16px'>where Qo(zo|X) does not depend on �, and its standard deviation is greater<br>than 0. Therefore, it is sufficient to show that Po(zo|X) → Qo(zo|X) for all z.<br>Let r = g(X) + (zo - g(X)) * 0. Then:</p>",
+            "id": 129,
+            "page": 20,
+            "text": "where Qo(zo|X) does not depend on �, and its standard deviation is greater than 0. Therefore, it is sufficient to show that Po(zo|X) → Qo(zo|X) for all z. Let r = g(X) + (zo - g(X)) * 0. Then:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 2617
+                },
+                {
+                    "x": 1994,
+                    "y": 2617
+                },
+                {
+                    "x": 1994,
+                    "y": 2846
+                },
+                {
+                    "x": 481,
+                    "y": 2846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:14px'>Here, Po(X) → Pgt(X) as 0 → 0, which is a constant, and r → g(X) as<br>0 → 0, so P(r) also tends to a constant. Together with �, they ensure that<br>the whole distribution normalizes. We will wrap them both in the constant<br>C.</p>",
+            "id": 130,
+            "page": 20,
+            "text": "Here, Po(X) → Pgt(X) as 0 → 0, which is a constant, and r → g(X) as 0 → 0, so P(r) also tends to a constant. Together with �, they ensure that the whole distribution normalizes. We will wrap them both in the constant C."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1209,
+                    "y": 3087
+                },
+                {
+                    "x": 1265,
+                    "y": 3087
+                },
+                {
+                    "x": 1265,
+                    "y": 3134
+                },
+                {
+                    "x": 1209,
+                    "y": 3134
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='131' style='font-size:14px'>20</footer>",
+            "id": 131,
+            "page": 20,
+            "text": "20"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 532
+                },
+                {
+                    "x": 1497,
+                    "y": 532
+                },
+                {
+                    "x": 1497,
+                    "y": 589
+                },
+                {
+                    "x": 484,
+                    "y": 589
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='132' style='font-size:18px'>Next, we do a Taylor expansion of f around g(X):</p>",
+            "id": 132,
+            "page": 21,
+            "text": "Next, we do a Taylor expansion of f around g(X):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 480,
+                    "y": 821
+                },
+                {
+                    "x": 1996,
+                    "y": 821
+                },
+                {
+                    "x": 1996,
+                    "y": 1014
+                },
+                {
+                    "x": 480,
+                    "y": 1014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:16px'>Note that N (��,�,�) = (V2��)-1 exp ( - (x-�): 2 ). We rewrite the above<br>using this formula, rearrange terms, and re-write the result as a Gaussian to<br>obtain:</p>",
+            "id": 133,
+            "page": 21,
+            "text": "Note that N (��,�,�) = (V2��)-1 exp ( - (x-�): 2 ). We rewrite the above using this formula, rearrange terms, and re-write the result as a Gaussian to obtain:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 1241
+                },
+                {
+                    "x": 1998,
+                    "y": 1241
+                },
+                {
+                    "x": 1998,
+                    "y": 1418
+                },
+                {
+                    "x": 481,
+                    "y": 1418
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='134' style='font-size:14px'>Note 1/f'(g(X)) = g'(X), since f = g-1. Furthermore, since f(n) is<br>bounded for all n, all terms in the sum tend to 0 as 0 → 0. C must make the<br>distribution normalize, SO we have that the above expression:</p>",
+            "id": 134,
+            "page": 21,
+            "text": "Note 1/f'(g(X)) = g'(X), since f = g-1. Furthermore, since f(n) is bounded for all n, all terms in the sum tend to 0 as 0 → 0. C must make the distribution normalize, SO we have that the above expression:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1570
+                },
+                {
+                    "x": 1993,
+                    "y": 1570
+                },
+                {
+                    "x": 1993,
+                    "y": 1748
+                },
+                {
+                    "x": 482,
+                    "y": 1748
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='135' style='font-size:16px'>Looking at Equation 21, the bulk of the approximation error in this setup<br>comes from the curvature of g, which is mostly determined by the curvature<br>of the c.d.f. of the ground truth distribution.</p>",
+            "id": 135,
+            "page": 21,
+            "text": "Looking at Equation 21, the bulk of the approximation error in this setup comes from the curvature of g, which is mostly determined by the curvature of the c.d.f. of the ground truth distribution."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 484,
+                    "y": 1834
+                },
+                {
+                    "x": 797,
+                    "y": 1834
+                },
+                {
+                    "x": 797,
+                    "y": 1900
+                },
+                {
+                    "x": 484,
+                    "y": 1900
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='136' style='font-size:22px'>References</p>",
+            "id": 136,
+            "page": 21,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 506,
+                    "y": 1951
+                },
+                {
+                    "x": 2006,
+                    "y": 1951
+                },
+                {
+                    "x": 2006,
+                    "y": 2933
+                },
+                {
+                    "x": 506,
+                    "y": 2933
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='137' style='font-size:16px'>1. Diederik P Kingma and Max Welling. Auto-encoding variational Bayes.<br>ICLR, 2014.<br>2. Tim Salimans, Diederik Kingma, and Max Welling. Markov chain monte<br>carlo and variational inference: Bridging the gap. ICML, 2015.<br>3. Danilo Jimenez Rezende, Shakir Mohamed, and Daan Wierstra. Stochas-<br>tic backpropagation and approximate inference in deep generative mod-<br>els. In ICML, 2014.<br>4. Tejas D Kulkarni, William F. Whitney, Pushmeet Kohli, and Josh Tenen-<br>baum. Deep convolutional inverse graphics network. In NIPS, 2015.<br>5. Diederik P Kingma, Shakir Mohamed, Danilo Jimenez Rezende, and<br>Max Welling. Semi-supervised learning with deep generative models.<br>In NIPS, 2014.<br>6. Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Rezende, and Daan<br>Wierstra. Draw: A recurrent neural network for image generation. In<br>ICCV, 2015.</p>",
+            "id": 137,
+            "page": 21,
+            "text": "1. Diederik P Kingma and Max Welling. Auto-encoding variational Bayes. ICLR, 2014. 2. Tim Salimans, Diederik Kingma, and Max Welling. Markov chain monte carlo and variational inference: Bridging the gap. ICML, 2015. 3. Danilo Jimenez Rezende, Shakir Mohamed, and Daan Wierstra. Stochastic backpropagation and approximate inference in deep generative models. In ICML, 2014. 4. Tejas D Kulkarni, William F. Whitney, Pushmeet Kohli, and Josh Tenenbaum. Deep convolutional inverse graphics network. In NIPS, 2015. 5. Diederik P Kingma, Shakir Mohamed, Danilo Jimenez Rezende, and Max Welling. Semi-supervised learning with deep generative models. In NIPS, 2014. 6. Karol Gregor, Ivo Danihelka, Alex Graves, Danilo Rezende, and Daan Wierstra. Draw: A recurrent neural network for image generation. In ICCV, 2015."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1208,
+                    "y": 3088
+                },
+                {
+                    "x": 1260,
+                    "y": 3088
+                },
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1208,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='138' style='font-size:14px'>21</footer>",
+            "id": 138,
+            "page": 21,
+            "text": "21"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 523
+                },
+                {
+                    "x": 2005,
+                    "y": 523
+                },
+                {
+                    "x": 2005,
+                    "y": 3024
+                },
+                {
+                    "x": 481,
+                    "y": 3024
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='139' style='font-size:18px'>7. Kihyuk Sohn, Honglak Lee, and Xinchen Yan. Learning structured<br>output representation using deep conditional generative models. In<br>NIPS, 2015.<br>8. Jacob Walker, Carl Doersch, Abhinav Gupta, and Martial Hebert. An<br>uncertain future: Forecasting from static images using variational au-<br>toencoders. In ECCV, 2016.<br>9. Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classifica-<br>tion with deep convolutional neural networks. In NIPS, 2012.<br>10. Bruno A Olshausen and David J Field. Emergence of simple-cell recep-<br>tive field properties by learning a sparse code for natural images. Nature,<br>381(6583):607-609, 1996.<br>11. Honglak Lee, Alexis Battle, Rajat Raina, and Andrew Y Ng. Efficient<br>sparse coding algorithms. In NIPS, 2006.<br>12. Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine<br>Manzagol. Extracting and composing robust features with denoising<br>autoencoders. In ICML, 2008.<br>13. Yoshua Bengio, Eric Thibodeau-Laufer, Guillaume Alain, and Jason<br>Yosinski. Deep generative stochastic networks trainable by backprop.<br>ICML, 2014.<br>14. Yoshua Bengio, Li Yao, Guillaume Alain, and Pascal Vincent. Gener-<br>alized denoising auto-encoders as generative models. In NIPS, pages<br>899-907, 2013.<br>15. Luc Devroye. Sample-based non-uniform random variate generation.<br>Springer-Verlag, New York, 1986.<br>16. Peter Dayan, Geoffrey E Hinton, Radford M Neal, and Richard S Zemel.<br>The helmholtz machine. Neural computation, 7(5):889-904, 1995.<br>17. Geoffrey E Hinton, Peter Dayan, Brendan J Frey, and Radford M Neal.<br>The\" wake-sleep\" algorithm for unsupervised neural networks. Science,<br>268(5214):1158-1161, 1995.<br>18. Geoffrey E Hinton, Simon Osindero, and Yee-Whye Teh. A fast learning<br>algorithm for deep belief nets. Neural computation, 18(7):1527-1554, 2006.<br>19. Ruslan Salakhutdinov and Geoffrey E Hinton. Deep boltzmann ma-<br>chines. In International conference on artificial intelligence and statistics,<br>pages 448-455, 2009.<br>20. Geoffrey E Hinton and Drew Van Camp. Keeping the neural networks<br>simple by minimizing the description length of the weights. In Pro-<br>ceedings of the sixth annual conference on Computational learning theory,<br>1993.</p>",
+            "id": 139,
+            "page": 22,
+            "text": "7. Kihyuk Sohn, Honglak Lee, and Xinchen Yan. Learning structured output representation using deep conditional generative models. In NIPS, 2015. 8. Jacob Walker, Carl Doersch, Abhinav Gupta, and Martial Hebert. An uncertain future: Forecasting from static images using variational autoencoders. In ECCV, 2016. 9. Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012. 10. Bruno A Olshausen and David J Field. Emergence of simple-cell receptive field properties by learning a sparse code for natural images. Nature, 381(6583):607-609, 1996. 11. Honglak Lee, Alexis Battle, Rajat Raina, and Andrew Y Ng. Efficient sparse coding algorithms. In NIPS, 2006. 12. Pascal Vincent, Hugo Larochelle, Yoshua Bengio, and Pierre-Antoine Manzagol. Extracting and composing robust features with denoising autoencoders. In ICML, 2008. 13. Yoshua Bengio, Eric Thibodeau-Laufer, Guillaume Alain, and Jason Yosinski. Deep generative stochastic networks trainable by backprop. ICML, 2014. 14. Yoshua Bengio, Li Yao, Guillaume Alain, and Pascal Vincent. Generalized denoising auto-encoders as generative models. In NIPS, pages 899-907, 2013. 15. Luc Devroye. Sample-based non-uniform random variate generation. Springer-Verlag, New York, 1986. 16. Peter Dayan, Geoffrey E Hinton, Radford M Neal, and Richard S Zemel. The helmholtz machine. Neural computation, 7(5):889-904, 1995. 17. Geoffrey E Hinton, Peter Dayan, Brendan J Frey, and Radford M Neal. The\" wake-sleep\" algorithm for unsupervised neural networks. Science, 268(5214):1158-1161, 1995. 18. Geoffrey E Hinton, Simon Osindero, and Yee-Whye Teh. A fast learning algorithm for deep belief nets. Neural computation, 18(7):1527-1554, 2006. 19. Ruslan Salakhutdinov and Geoffrey E Hinton. Deep boltzmann machines. In International conference on artificial intelligence and statistics, pages 448-455, 2009. 20. Geoffrey E Hinton and Drew Van Camp. Keeping the neural networks simple by minimizing the description length of the weights. In Proceedings of the sixth annual conference on Computational learning theory, 1993."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1208,
+                    "y": 3086
+                },
+                {
+                    "x": 1265,
+                    "y": 3086
+                },
+                {
+                    "x": 1265,
+                    "y": 3134
+                },
+                {
+                    "x": 1208,
+                    "y": 3134
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='140' style='font-size:14px'>22</footer>",
+            "id": 140,
+            "page": 22,
+            "text": "22"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 481,
+                    "y": 527
+                },
+                {
+                    "x": 2003,
+                    "y": 527
+                },
+                {
+                    "x": 2003,
+                    "y": 1185
+                },
+                {
+                    "x": 481,
+                    "y": 1185
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='141' style='font-size:18px'>21. Geoffrey E Hinton and Richard S Zemel. Autoencoders, minimum<br>description length, and helmholtz free energy. In NIPS, 1994.<br>22. Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan<br>Long, Ross Girshick, Sergio Guadarrama, and Trevor Darrell. Caffe:<br>Convolutional architecture for fast feature embedding. In ACM-MM,<br>2014.<br>23. Diederik Kingma and Jimmy Ba. Adam: A method for stochastic opti-<br>mization. ICLR, 2015.<br>24. Lucas Theis, Aaron van den Oord, and Matthias Bethge. A note on the<br>evaluation of generative models. ICLR, 2016.</p>",
+            "id": 141,
+            "page": 23,
+            "text": "21. Geoffrey E Hinton and Richard S Zemel. Autoencoders, minimum description length, and helmholtz free energy. In NIPS, 1994. 22. Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross Girshick, Sergio Guadarrama, and Trevor Darrell. Caffe: Convolutional architecture for fast feature embedding. In ACM-MM, 2014. 23. Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. ICLR, 2015. 24. Lucas Theis, Aaron van den Oord, and Matthias Bethge. A note on the evaluation of generative models. ICLR, 2016."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1209,
+                    "y": 3088
+                },
+                {
+                    "x": 1265,
+                    "y": 3088
+                },
+                {
+                    "x": 1265,
+                    "y": 3133
+                },
+                {
+                    "x": 1209,
+                    "y": 3133
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='142' style='font-size:14px'>23</footer>",
+            "id": 142,
+            "page": 23,
+            "text": "23"
+        }
+    ]
+}

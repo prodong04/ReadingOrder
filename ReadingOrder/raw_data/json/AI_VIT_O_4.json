@@ -1,0 +1,2506 @@
+{
+  "id": "62a6d8a4-0f92-11ef-8230-426932df3dcf",
+  "pdf_path": "./pdf/AI_VIT_O/2005.00928v2.pdf",
+  "elements": [
+    {
+      "bounding_box": [
+        {
+          "x": 662,
+          "y": 289
+        },
+        {
+          "x": 1821,
+          "y": 289
+        },
+        {
+          "x": 1821,
+          "y": 357
+        },
+        {
+          "x": 662,
+          "y": 357
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='0' style='font-size:22px'>Quantifying Attention Flow in Transformers</p>",
+      "id": 0,
+      "page": 1,
+      "text": "Quantifying Attention Flow in Transformers"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 673,
+          "y": 497
+        },
+        {
+          "x": 991,
+          "y": 497
+        },
+        {
+          "x": 991,
+          "y": 549
+        },
+        {
+          "x": 673,
+          "y": 549
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='1' style='font-size:20px'>Samira Abnar</p>",
+      "id": 1,
+      "page": 1,
+      "text": "Samira Abnar"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 510,
+          "y": 554
+        },
+        {
+          "x": 1164,
+          "y": 554
+        },
+        {
+          "x": 1164,
+          "y": 666
+        },
+        {
+          "x": 510,
+          "y": 666
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='2' style='font-size:16px'>ILLC, University of Amsterdam<br>S · abnar@uva · nl</p>",
+      "id": 2,
+      "page": 1,
+      "text": "ILLC, University of Amsterdam\nS · abnar@uva · nl"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1476,
+          "y": 498
+        },
+        {
+          "x": 1843,
+          "y": 498
+        },
+        {
+          "x": 1843,
+          "y": 547
+        },
+        {
+          "x": 1476,
+          "y": 547
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='3' style='font-size:20px'>Willem Zuidema</p>",
+      "id": 3,
+      "page": 1,
+      "text": "Willem Zuidema"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 656,
+          "y": 931
+        },
+        {
+          "x": 853,
+          "y": 931
+        },
+        {
+          "x": 853,
+          "y": 985
+        },
+        {
+          "x": 656,
+          "y": 985
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='4' style='font-size:20px'>Abstract</p>",
+      "id": 4,
+      "page": 1,
+      "text": "Abstract"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 359,
+          "y": 1031
+        },
+        {
+          "x": 1156,
+          "y": 1031
+        },
+        {
+          "x": 1156,
+          "y": 2037
+        },
+        {
+          "x": 359,
+          "y": 2037
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='5' style='font-size:16px'>In the Transformer model, \"self-attention\"<br>combines information from attended embed-<br>dings into the representation of the focal em-<br>bedding in the next layer. Thus, across lay-<br>ers of the Transformer, information originating<br>from different tokens gets increasingly mixed.<br>This makes attention weights unreliable as ex-<br>planations probes. In this paper, we consider<br>the problem of quantifying this flow of infor-<br>mation through self-attention. We propose two<br>methods for approximating the attention to in-<br>put tokens given attention weights, attention<br>rollout and attentionflow, as post hoc methods<br>when we use attention weights as the relative<br>relevance of the input tokens. We show that<br>these methods give complementary views on<br>the flow of information, and compared to raw<br>attention, both yield higher correlations with<br>importance scores of input tokens obtained us-<br>ing an ablation method and input gradients.</p>",
+      "id": 5,
+      "page": 1,
+      "text": "In the Transformer model, \"self-attention\"\ncombines information from attended embed-\ndings into the representation of the focal em-\nbedding in the next layer. Thus, across lay-\ners of the Transformer, information originating\nfrom different tokens gets increasingly mixed.\nThis makes attention weights unreliable as ex-\nplanations probes. In this paper, we consider\nthe problem of quantifying this flow of infor-\nmation through self-attention. We propose two\nmethods for approximating the attention to in-\nput tokens given attention weights, attention\nrollout and attentionflow, as post hoc methods\nwhen we use attention weights as the relative\nrelevance of the input tokens. We show that\nthese methods give complementary views on\nthe flow of information, and compared to raw\nattention, both yield higher correlations with\nimportance scores of input tokens obtained us-\ning an ablation method and input gradients."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 2086
+        },
+        {
+          "x": 649,
+          "y": 2086
+        },
+        {
+          "x": 649,
+          "y": 2139
+        },
+        {
+          "x": 293,
+          "y": 2139
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='6' style='font-size:18px'>1 Introduction</p>",
+      "id": 6,
+      "page": 1,
+      "text": "1 Introduction"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1331,
+          "y": 554
+        },
+        {
+          "x": 1987,
+          "y": 554
+        },
+        {
+          "x": 1987,
+          "y": 608
+        },
+        {
+          "x": 1331,
+          "y": 608
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='7' style='font-size:22px'>ILLC, University of Amsterdam</p>",
+      "id": 7,
+      "page": 1,
+      "text": "ILLC, University of Amsterdam"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1387,
+          "y": 619
+        },
+        {
+          "x": 1929,
+          "y": 619
+        },
+        {
+          "x": 1929,
+          "y": 665
+        },
+        {
+          "x": 1387,
+          "y": 665
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='8' style='font-size:14px'>w . h · zui dema@uva · nl</p>",
+      "id": 8,
+      "page": 1,
+      "text": "w . h · zui dema@uva · nl"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 290,
+          "y": 2175
+        },
+        {
+          "x": 1222,
+          "y": 2175
+        },
+        {
+          "x": 1222,
+          "y": 3195
+        },
+        {
+          "x": 290,
+          "y": 3195
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='9' style='font-size:18px'>Attention (Bahdanau et al., 2015; Vaswani et al.,<br>2017) has become the key building block of neu-<br>ral sequence processing models, and visualizing<br>attention weights is the easiest and most popular<br>approach to interpret a model's decisions and to<br>gain insights about its internals (Vaswani et al.,<br>2017; Xu et al., 2015; Wang et al., 2016; Lee et al.,<br>2017; Dehghani et al., 2019; Rocktaschel et al.,<br>2016; Chen and Ji, 2019; Coenen et al., 2019; Clark<br>et al., 2019). Although it is wrong to equate atten-<br>tion with explanation (Pruthi et al., 2019; Jain and<br>Wallace, 2019), it can offer plausible and mean-<br>ingful interpretations (Wiegreffe and Pinter, 2019;<br>Vashishth et al., 2019; Vig, 2019). In this paper,<br>we focus on problems arising when we move to the<br>higher layers of a model, due to lack of token iden-<br>tifiability of the embeddings in higher layers (Brun-<br>ner et al., 2020).</p>",
+      "id": 9,
+      "page": 1,
+      "text": "Attention (Bahdanau et al., 2015; Vaswani et al.,\n2017) has become the key building block of neu-\nral sequence processing models, and visualizing\nattention weights is the easiest and most popular\napproach to interpret a model's decisions and to\ngain insights about its internals (Vaswani et al.,\n2017; Xu et al., 2015; Wang et al., 2016; Lee et al.,\n2017; Dehghani et al., 2019; Rocktaschel et al.,\n2016; Chen and Ji, 2019; Coenen et al., 2019; Clark\net al., 2019). Although it is wrong to equate atten-\ntion with explanation (Pruthi et al., 2019; Jain and\nWallace, 2019), it can offer plausible and mean-\ningful interpretations (Wiegreffe and Pinter, 2019;\nVashishth et al., 2019; Vig, 2019). In this paper,\nwe focus on problems arising when we move to the\nhigher layers of a model, due to lack of token iden-\ntifiability of the embeddings in higher layers (Brun-\nner et al., 2020)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 928
+        },
+        {
+          "x": 2201,
+          "y": 928
+        },
+        {
+          "x": 2201,
+          "y": 2796
+        },
+        {
+          "x": 1271,
+          "y": 2796
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='10' style='font-size:16px'>We propose two simple but effective methods to<br>compute attention scores to input tokens (i.e., token<br>attention) at each layer, by taking raw attentions<br>(i.e., embedding attention) of that layer as well as<br>those from the precedent layers. These methods<br>are based on modelling the information flow in the<br>network with a DAG (Directed Acyclic Graph), in<br>which the nodes are input tokens and hidden em-<br>beddings, edges are the attentions from the nodes<br>in each layer to those in the previous layer, and<br>the weights of the edges are the attention weights.<br>The first method, attention rollout, assumes that<br>the identities of input tokens are linearly combined<br>through the layers based on the attention weights.<br>To adjust attention weights, it rolls out the weights<br>to capture the propagation of information from in-<br>put tokens to intermediate hidden embeddings. The<br>second method, attention flow, considers the atten-<br>tion graph as a flow network. Using a maximum<br>flow algorithm, it computes maximum flow values,<br>from hidden embeddings (sources) to input tokens<br>(sinks). In both methods, we take the residual con-<br>nection in the network into account to better model<br>the connections between input tokens and hidden<br>embedding. We show that compared to raw atten-<br>tion, the token attentions from attention rollout and<br>attention flow have higher correlations with the im-<br>portance scores obtained from input gradients as<br>well as blank-out, an input ablation based attribu-<br>tion method. Furthermore, we visualize the token<br>attention weights and demonstrate that they are bet-<br>ter approximations of how input tokens contribute<br>to a predicted output, compared to raw attention.</p>",
+      "id": 10,
+      "page": 1,
+      "text": "We propose two simple but effective methods to\ncompute attention scores to input tokens (i.e., token\nattention) at each layer, by taking raw attentions\n(i.e., embedding attention) of that layer as well as\nthose from the precedent layers. These methods\nare based on modelling the information flow in the\nnetwork with a DAG (Directed Acyclic Graph), in\nwhich the nodes are input tokens and hidden em-\nbeddings, edges are the attentions from the nodes\nin each layer to those in the previous layer, and\nthe weights of the edges are the attention weights.\nThe first method, attention rollout, assumes that\nthe identities of input tokens are linearly combined\nthrough the layers based on the attention weights.\nTo adjust attention weights, it rolls out the weights\nto capture the propagation of information from in-\nput tokens to intermediate hidden embeddings. The\nsecond method, attention flow, considers the atten-\ntion graph as a flow network. Using a maximum\nflow algorithm, it computes maximum flow values,\nfrom hidden embeddings (sources) to input tokens\n(sinks). In both methods, we take the residual con-\nnection in the network into account to better model\nthe connections between input tokens and hidden\nembedding. We show that compared to raw atten-\ntion, the token attentions from attention rollout and\nattention flow have higher correlations with the im-\nportance scores obtained from input gradients as\nwell as blank-out, an input ablation based attribu-\ntion method. Furthermore, we visualize the token\nattention weights and demonstrate that they are bet-\nter approximations of how input tokens contribute\nto a predicted output, compared to raw attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 2803
+        },
+        {
+          "x": 2201,
+          "y": 2803
+        },
+        {
+          "x": 2201,
+          "y": 3195
+        },
+        {
+          "x": 1271,
+          "y": 3195
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='11' style='font-size:16px'>Itis noteworthy that the techniques we propose<br>in this paper, are not toward making hidden embed-<br>dings more identifiable, or providing better atten-<br>tion weights for better performance, but a new set<br>of attention weights that take token identity prob-<br>lem into consideration and can serve as a better<br>diagnostic tool for visualization and debugging.</p>",
+      "id": 11,
+      "page": 1,
+      "text": "Itis noteworthy that the techniques we propose\nin this paper, are not toward making hidden embed-\ndings more identifiable, or providing better atten-\ntion weights for better performance, but a new set\nof attention weights that take token identity prob-\nlem into consideration and can serve as a better\ndiagnostic tool for visualization and debugging."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 58,
+          "y": 1058
+        },
+        {
+          "x": 147,
+          "y": 1058
+        },
+        {
+          "x": 147,
+          "y": 2536
+        },
+        {
+          "x": 58,
+          "y": 2536
+        }
+      ],
+      "category": "footer",
+      "html": "<br><footer id='12' style='font-size:14px'>2020<br>May<br>31<br>[cs.LG]<br>arXiv:2005.00928v2</footer>",
+      "id": 12,
+      "page": 1,
+      "text": "2020\nMay\n31\n[cs.LG]\narXiv:2005.00928v2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 263
+        },
+        {
+          "x": 894,
+          "y": 263
+        },
+        {
+          "x": 894,
+          "y": 630
+        },
+        {
+          "x": 293,
+          "y": 630
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='13' style='font-size:14px' alt=\"<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>\" data-coord=\"top-left:(293,263); bottom-right:(894,630)\" /></figure>",
+      "id": 13,
+      "page": 2,
+      "text": "<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 381,
+          "y": 652
+        },
+        {
+          "x": 772,
+          "y": 652
+        },
+        {
+          "x": 772,
+          "y": 692
+        },
+        {
+          "x": 381,
+          "y": 692
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='14' style='font-size:18px'>(a) Embedding attentions</caption>",
+      "id": 14,
+      "page": 2,
+      "text": "(a) Embedding attentions"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 952,
+          "y": 269
+        },
+        {
+          "x": 1531,
+          "y": 269
+        },
+        {
+          "x": 1531,
+          "y": 666
+        },
+        {
+          "x": 952,
+          "y": 666
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='15' style='font-size:14px' alt=\"<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>\" data-coord=\"top-left:(952,269); bottom-right:(1531,666)\" /></figure>",
+      "id": 15,
+      "page": 2,
+      "text": "<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1082,
+          "y": 652
+        },
+        {
+          "x": 1400,
+          "y": 652
+        },
+        {
+          "x": 1400,
+          "y": 694
+        },
+        {
+          "x": 1082,
+          "y": 694
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='16' style='font-size:16px'>(b) Attention rollout</p>",
+      "id": 16,
+      "page": 2,
+      "text": "(b) Attention rollout"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 865,
+          "y": 735
+        },
+        {
+          "x": 1607,
+          "y": 735
+        },
+        {
+          "x": 1607,
+          "y": 786
+        },
+        {
+          "x": 865,
+          "y": 786
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='17' style='font-size:20px'>Figure 1: Visualisation of attention weights.</caption>",
+      "id": 17,
+      "page": 2,
+      "text": "Figure 1: Visualisation of attention weights."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1615,
+          "y": 266
+        },
+        {
+          "x": 2197,
+          "y": 266
+        },
+        {
+          "x": 2197,
+          "y": 640
+        },
+        {
+          "x": 1615,
+          "y": 640
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='18' style='font-size:14px' alt=\"<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>\" data-coord=\"top-left:(1615,266); bottom-right:(2197,640)\" /></figure>",
+      "id": 18,
+      "page": 2,
+      "text": "<cls>\n<bos>\nthe\nkey\nto\nthe\ncabinets\n<verb>"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1761,
+          "y": 655
+        },
+        {
+          "x": 2033,
+          "y": 655
+        },
+        {
+          "x": 2033,
+          "y": 692
+        },
+        {
+          "x": 1761,
+          "y": 692
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='19' style='font-size:16px'>(c) Attention flow</caption>",
+      "id": 19,
+      "page": 2,
+      "text": "(c) Attention flow"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 298,
+          "y": 867
+        },
+        {
+          "x": 1211,
+          "y": 867
+        },
+        {
+          "x": 1211,
+          "y": 1111
+        },
+        {
+          "x": 298,
+          "y": 1111
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='20' style='font-size:14px' alt=\"o 0.25 o 0.60\n0.40\n5 0.20 5\n0 32 0.45\n>\n0.15\n0.24\n0.30\nm\n0.16 0.10\n0.15\n0.08\n0.00\n요 win 등 large the NSN differ 드 tra the female <dja^>\" data-coord=\"top-left:(298,867); bottom-right:(1211,1111)\" /></figure>",
+      "id": 20,
+      "page": 2,
+      "text": "o 0.25 o 0.60\n0.40\n5 0.20 5\n0 32 0.45\n>\n0.15\n0.24\n0.30\nm\n0.16 0.10\n0.15\n0.08\n0.00\n요 win 등 large the NSN differ 드 tra the female <dja^>"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 292,
+          "y": 1144
+        },
+        {
+          "x": 1216,
+          "y": 1144
+        },
+        {
+          "x": 1216,
+          "y": 1245
+        },
+        {
+          "x": 292,
+          "y": 1245
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='21' style='font-size:18px'>Figure 2: Raw Attention maps for the CLS token at<br>different layers.</caption>",
+      "id": 21,
+      "page": 2,
+      "text": "Figure 2: Raw Attention maps for the CLS token at\ndifferent layers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 292,
+          "y": 1292
+        },
+        {
+          "x": 1035,
+          "y": 1292
+        },
+        {
+          "x": 1035,
+          "y": 1351
+        },
+        {
+          "x": 292,
+          "y": 1351
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='22' style='font-size:22px'>2 Setups and Problem Statement</p>",
+      "id": 22,
+      "page": 2,
+      "text": "2 Setups and Problem Statement"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1384
+        },
+        {
+          "x": 1221,
+          "y": 1384
+        },
+        {
+          "x": 1221,
+          "y": 2117
+        },
+        {
+          "x": 291,
+          "y": 2117
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='23' style='font-size:20px'>In our analysis, we focus on the verb number pre-<br>diction task, i.e., predicting singularity or plurality<br>of a verb of a sentence, when the input is the sen-<br>tence up to the verb position. We use the subject-<br>verb agreement dataset (Linzen et al., 2016). This<br>task and dataset are convenient choices, as they of-<br>fer a clear hypothesis about what part of the input<br>is essential to get the right solution. For instance,<br>given \"the key to the cabinets\" as the input, we<br>know that attending to \"key\" helps the model pre-<br>dict singular as output while attending to \"cabinets\"<br>(an agreement attractor, with the opposite number)<br>is unhelpful.</p>",
+      "id": 23,
+      "page": 2,
+      "text": "In our analysis, we focus on the verb number pre-\ndiction task, i.e., predicting singularity or plurality\nof a verb of a sentence, when the input is the sen-\ntence up to the verb position. We use the subject-\nverb agreement dataset (Linzen et al., 2016). This\ntask and dataset are convenient choices, as they of-\nfer a clear hypothesis about what part of the input\nis essential to get the right solution. For instance,\ngiven \"the key to the cabinets\" as the input, we\nknow that attending to \"key\" helps the model pre-\ndict singular as output while attending to \"cabinets\"\n(an agreement attractor, with the opposite number)\nis unhelpful."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 2119
+        },
+        {
+          "x": 1219,
+          "y": 2119
+        },
+        {
+          "x": 1219,
+          "y": 2797
+        },
+        {
+          "x": 291,
+          "y": 2797
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='24' style='font-size:20px'>We train a Transformer encoder, with GPT-<br>2 Transformer blocks as described in (Radford<br>et al., 2019; Wolf et al., 2019) (without masking).<br>The model has 6 layers, and 8 heads, with hid-<br>den/embedding size of 128. Similar to Bert (De-<br>vlin et al., 2019) we add a CLS token and use<br>its embedding in the final layer as the input to<br>the classifier. The accuracy of the model on the<br>subject-verb agreement task is 0.96. To facilitate<br>replication of our experiments we will make the<br>implementations of the models we use and algo-<br>rithms we introduce publicly available at https:</p>",
+      "id": 24,
+      "page": 2,
+      "text": "We train a Transformer encoder, with GPT-\n2 Transformer blocks as described in (Radford\net al., 2019; Wolf et al., 2019) (without masking).\nThe model has 6 layers, and 8 heads, with hid-\nden/embedding size of 128. Similar to Bert (De-\nvlin et al., 2019) we add a CLS token and use\nits embedding in the final layer as the input to\nthe classifier. The accuracy of the model on the\nsubject-verb agreement task is 0.96. To facilitate\nreplication of our experiments we will make the\nimplementations of the models we use and algo-\nrithms we introduce publicly available at https:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 2808
+        },
+        {
+          "x": 1187,
+          "y": 2808
+        },
+        {
+          "x": 1187,
+          "y": 2851
+        },
+        {
+          "x": 293,
+          "y": 2851
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='25' style='font-size:16px'>/ / github · com/ samiraabnar / attention_flow.</p>",
+      "id": 25,
+      "page": 2,
+      "text": "/ / github · com/ samiraabnar / attention_flow."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 2862
+        },
+        {
+          "x": 1219,
+          "y": 2862
+        },
+        {
+          "x": 1219,
+          "y": 3196
+        },
+        {
+          "x": 291,
+          "y": 3196
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='26' style='font-size:20px'>We start by visualizing raw attention in Figure 1a<br>(like Vig 2019). The example given here is cor-<br>rectly classified. Crucially, only in the first couple<br>of layers, there are some distinctions in the atten-<br>tion patterns for different positions, while in higher<br>layers the attention weights are rather uniform. Fig-</p>",
+      "id": 26,
+      "page": 2,
+      "text": "We start by visualizing raw attention in Figure 1a\n(like Vig 2019). The example given here is cor-\nrectly classified. Crucially, only in the first couple\nof layers, there are some distinctions in the atten-\ntion patterns for different positions, while in higher\nlayers the attention weights are rather uniform. Fig-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 875
+        },
+        {
+          "x": 2200,
+          "y": 875
+        },
+        {
+          "x": 2200,
+          "y": 1550
+        },
+        {
+          "x": 1271,
+          "y": 1550
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='27' style='font-size:20px'>ure 2 (left) gives raw attention scores of the CLS<br>token over input tokens (x-axis) at different lay-<br>ers (y-axis), which similarly lack an interpretable<br>pattern.These observations reflect the fact that as<br>we go deeper into the model, the embeddings are<br>more contextualized and may all carry similar in-<br>formation. This underscores the need to track down<br>attention weights all the way back to the input layer<br>and is in line with findings of Serrano and Smith<br>(2019), who show that attention weights do not<br>necessarily correspond to the relative importance<br>of input tokens.</p>",
+      "id": 27,
+      "page": 2,
+      "text": "ure 2 (left) gives raw attention scores of the CLS\ntoken over input tokens (x-axis) at different lay-\ners (y-axis), which similarly lack an interpretable\npattern.These observations reflect the fact that as\nwe go deeper into the model, the embeddings are\nmore contextualized and may all carry similar in-\nformation. This underscores the need to track down\nattention weights all the way back to the input layer\nand is in line with findings of Serrano and Smith\n(2019), who show that attention weights do not\nnecessarily correspond to the relative importance\nof input tokens."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 1553
+        },
+        {
+          "x": 2201,
+          "y": 1553
+        },
+        {
+          "x": 2201,
+          "y": 2511
+        },
+        {
+          "x": 1272,
+          "y": 2511
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='28' style='font-size:20px'>To quantify the usefulness of raw attention<br>weights, and the two alternatives that we consider<br>in the next section, besides input gradients, we<br>employ an input ablation method, blank-out, to es-<br>timate an importance score for each input token.<br>Blank-out replaces each token in the input, one<br>by one, with UNK and measures how much it af-<br>fects the predicted probability of the correct class.<br>We compute the Spearman's rank correlation CO-<br>efficient between the attention weights of the CLS<br>embedding in the final layer and the importance<br>scores from blank-out. As shown in the first row<br>of Table 1, the correlation between raw attention<br>weights of the CLS token and blank-out scores is<br>rather low, except for the first layer. As we can see<br>in Table 2 this is also the case when we compute<br>the correlations with input gradients.</p>",
+      "id": 28,
+      "page": 2,
+      "text": "To quantify the usefulness of raw attention\nweights, and the two alternatives that we consider\nin the next section, besides input gradients, we\nemploy an input ablation method, blank-out, to es-\ntimate an importance score for each input token.\nBlank-out replaces each token in the input, one\nby one, with UNK and measures how much it af-\nfects the predicted probability of the correct class.\nWe compute the Spearman's rank correlation CO-\nefficient between the attention weights of the CLS\nembedding in the final layer and the importance\nscores from blank-out. As shown in the first row\nof Table 1, the correlation between raw attention\nweights of the CLS token and blank-out scores is\nrather low, except for the first layer. As we can see\nin Table 2 this is also the case when we compute\nthe correlations with input gradients."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 2556
+        },
+        {
+          "x": 2185,
+          "y": 2556
+        },
+        {
+          "x": 2185,
+          "y": 2703
+        },
+        {
+          "x": 1278,
+          "y": 2703
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='29' style='font-size:14px'>L1 L2 L3 L4 L5 L6<br>Raw 0.69±0.27 0.10±0.43 -0.11±0.49 -0.09±0.52 0.20±0.45 0.29±0.39<br>Rollout 0.32±0.26 0.38±0.27 0.51±0.26 0.62±0.26 0.70±0.25 0.71±0.24<br>Flow 0.32±0.26 0.44±0.29 0.70±0.25 0.70±0.22 0.71±0.22 0.70±0.22</p>",
+      "id": 29,
+      "page": 2,
+      "text": "L1 L2 L3 L4 L5 L6\nRaw 0.69±0.27 0.10±0.43 -0.11±0.49 -0.09±0.52 0.20±0.45 0.29±0.39\nRollout 0.32±0.26 0.38±0.27 0.51±0.26 0.62±0.26 0.70±0.25 0.71±0.24\nFlow 0.32±0.26 0.44±0.29 0.70±0.25 0.70±0.22 0.71±0.22 0.70±0.22"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 2743
+        },
+        {
+          "x": 2200,
+          "y": 2743
+        },
+        {
+          "x": 2200,
+          "y": 2896
+        },
+        {
+          "x": 1271,
+          "y": 2896
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='30' style='font-size:16px'>Table 1: SpearmanR correlation of attention based im-<br>portance with blank-out scores for 2000 samples from<br>the test set for the verb number prediction model.</p>",
+      "id": 30,
+      "page": 2,
+      "text": "Table 1: SpearmanR correlation of attention based im-\nportance with blank-out scores for 2000 samples from\nthe test set for the verb number prediction model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 2993
+        },
+        {
+          "x": 2155,
+          "y": 2993
+        },
+        {
+          "x": 2155,
+          "y": 3048
+        },
+        {
+          "x": 1272,
+          "y": 3048
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='31' style='font-size:22px'>3 Attention Rollout and Attention Flow</p>",
+      "id": 31,
+      "page": 2,
+      "text": "3 Attention Rollout and Attention Flow"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 3084
+        },
+        {
+          "x": 2198,
+          "y": 3084
+        },
+        {
+          "x": 2198,
+          "y": 3196
+        },
+        {
+          "x": 1272,
+          "y": 3196
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='32' style='font-size:20px'>Attention rollout and attention flow recursively<br>compute the token attentions in each layer of a</p>",
+      "id": 32,
+      "page": 2,
+      "text": "Attention rollout and attention flow recursively\ncompute the token attentions in each layer of a"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 297,
+          "y": 260
+        },
+        {
+          "x": 1211,
+          "y": 260
+        },
+        {
+          "x": 1211,
+          "y": 412
+        },
+        {
+          "x": 297,
+          "y": 412
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='33' style='font-size:14px'>L1 L2 L3 L4 L5 L6<br>Raw 0.53±0.33 0.16±0.38 -0.06±0.42 0.00±0.47 0.24±0.40 0.46±0.35<br>Rollout 0.22±0.31 0.27±0.32 0.39±0.32 0.47±0.32 0.53±0.32 0.54±0.31<br>Flow 0.22±0.31 0.31±0.34 0.54±0.32 0.61±0.28 0.60±0.28 0.61±0.28</p>",
+      "id": 33,
+      "page": 3,
+      "text": "L1 L2 L3 L4 L5 L6\nRaw 0.53±0.33 0.16±0.38 -0.06±0.42 0.00±0.47 0.24±0.40 0.46±0.35\nRollout 0.22±0.31 0.27±0.32 0.39±0.32 0.47±0.32 0.53±0.32 0.54±0.31\nFlow 0.22±0.31 0.31±0.34 0.54±0.32 0.61±0.28 0.60±0.28 0.61±0.28"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 450
+        },
+        {
+          "x": 1218,
+          "y": 450
+        },
+        {
+          "x": 1218,
+          "y": 603
+        },
+        {
+          "x": 291,
+          "y": 603
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='34' style='font-size:16px'>Table 2: SpearmanR correlation of attention based im-<br>portance with input gradients for 2000 samples from<br>the test set for the verb number prediction model.</caption>",
+      "id": 34,
+      "page": 3,
+      "text": "Table 2: SpearmanR correlation of attention based im-\nportance with input gradients for 2000 samples from\nthe test set for the verb number prediction model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 292,
+          "y": 707
+        },
+        {
+          "x": 1217,
+          "y": 707
+        },
+        {
+          "x": 1217,
+          "y": 1039
+        },
+        {
+          "x": 292,
+          "y": 1039
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='35' style='font-size:22px'>given model given the embedding attentions as in-<br>put. They differ in the assumptions they make<br>about how attention weights in lower layers affect<br>the flow of information to the higher layers and<br>whether to compute the token attentions relative to<br>each other or independently.</p>",
+      "id": 35,
+      "page": 3,
+      "text": "given model given the embedding attentions as in-\nput. They differ in the assumptions they make\nabout how attention weights in lower layers affect\nthe flow of information to the higher layers and\nwhether to compute the token attentions relative to\neach other or independently."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1048
+        },
+        {
+          "x": 1218,
+          "y": 1048
+        },
+        {
+          "x": 1218,
+          "y": 2345
+        },
+        {
+          "x": 291,
+          "y": 2345
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='36' style='font-size:20px'>To compute how information propagates from<br>the input layer to the embeddings in higher lay-<br>ers, it is crucial to take the residual connections<br>in the model into account as well as the attention<br>weights. In a Transformer block, both self-attention<br>and feed-forward networks are wrapped by resid-<br>ual connections, i.e., the input to these modules is<br>added to their output. When we only use attention<br>weights to approximate the flow of information in<br>Transformers, we ignore the residual connections.<br>But these connections play a significant role in<br>tying corresponding positions in different layers.<br>Hence, to compute attention rollout and attention<br>flow, we augment the attention graph with extra<br>weights to represent residual connections. Given<br>the attention module with residual connection, we<br>compute values in layer l+1 as Vl+1 = Vl+Watt V1,<br>where Watt is the attention matrix. Thus, we have<br>Vl+1 = (Watt + I)V1. So, to account for residual<br>connections, we add an identity matrix to the at-<br>tention matrix and re-normalize the weights. This<br>results in A = 0.5Watt + 0.5I, where A is the raw<br>attention updated by residual connections.</p>",
+      "id": 36,
+      "page": 3,
+      "text": "To compute how information propagates from\nthe input layer to the embeddings in higher lay-\ners, it is crucial to take the residual connections\nin the model into account as well as the attention\nweights. In a Transformer block, both self-attention\nand feed-forward networks are wrapped by resid-\nual connections, i.e., the input to these modules is\nadded to their output. When we only use attention\nweights to approximate the flow of information in\nTransformers, we ignore the residual connections.\nBut these connections play a significant role in\ntying corresponding positions in different layers.\nHence, to compute attention rollout and attention\nflow, we augment the attention graph with extra\nweights to represent residual connections. Given\nthe attention module with residual connection, we\ncompute values in layer l+1 as Vl+1 = Vl+Watt V1,\nwhere Watt is the attention matrix. Thus, we have\nVl+1 = (Watt + I)V1. So, to account for residual\nconnections, we add an identity matrix to the at-\ntention matrix and re-normalize the weights. This\nresults in A = 0.5Watt + 0.5I, where A is the raw\nattention updated by residual connections."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 2355
+        },
+        {
+          "x": 1219,
+          "y": 2355
+        },
+        {
+          "x": 1219,
+          "y": 2858
+        },
+        {
+          "x": 291,
+          "y": 2858
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='37' style='font-size:20px'>Furthermore, analyzing individual heads re-<br>quires accounting for mixing of information be-<br>tween heads through a position-wise feed-forward<br>network in Transformer block. Using attention roll-<br>out and attention flow, it is also possible to analyze<br>each head separately. We explain in more details<br>in Appendix A.1. However, in our analysis in this<br>paper, for simplicity, we average the attention at<br>each layer over all heads.</p>",
+      "id": 37,
+      "page": 3,
+      "text": "Furthermore, analyzing individual heads re-\nquires accounting for mixing of information be-\ntween heads through a position-wise feed-forward\nnetwork in Transformer block. Using attention roll-\nout and attention flow, it is also possible to analyze\neach head separately. We explain in more details\nin Appendix A.1. However, in our analysis in this\npaper, for simplicity, we average the attention at\neach layer over all heads."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 2913
+        },
+        {
+          "x": 1217,
+          "y": 2913
+        },
+        {
+          "x": 1217,
+          "y": 3196
+        },
+        {
+          "x": 291,
+          "y": 3196
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='38' style='font-size:20px'>Attention rollout Attention rolloutis an intuitive<br>way of tracking down the information propagated<br>from the input layer to the embeddings in the higher<br>layers. Given a Transformer with L layers, we want<br>to compute the attention from all positions in layer</p>",
+      "id": 38,
+      "page": 3,
+      "text": "Attention rollout Attention rolloutis an intuitive\nway of tracking down the information propagated\nfrom the input layer to the embeddings in the higher\nlayers. Given a Transformer with L layers, we want\nto compute the attention from all positions in layer"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 264
+        },
+        {
+          "x": 2200,
+          "y": 264
+        },
+        {
+          "x": 2200,
+          "y": 1170
+        },
+        {
+          "x": 1271,
+          "y": 1170
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='39' style='font-size:18px'>li to all positions in layer lj, where j < i. In the<br>attention graph, a path from node v at position k<br>in li, to node u at position m in lj, is a series of<br>edges that connect these two nodes. If we look<br>at the weight of each edge as the proportion of<br>information transferred between two nodes, we<br>can compute how much of the information at v<br>is propagated to u through a particular path by<br>multiplying the weights of all edges in that path.<br>Since there may be more than one path between<br>two nodes in the attention graph, to compute the<br>total amount of information propagated from v to u,<br>we sum over all possible paths between these two<br>nodes. At the implementation level, to compute the<br>attentions from li to lj, we recursively multiply the<br>attention weights matrices in all the layers below.</p>",
+      "id": 39,
+      "page": 3,
+      "text": "li to all positions in layer lj, where j < i. In the\nattention graph, a path from node v at position k\nin li, to node u at position m in lj, is a series of\nedges that connect these two nodes. If we look\nat the weight of each edge as the proportion of\ninformation transferred between two nodes, we\ncan compute how much of the information at v\nis propagated to u through a particular path by\nmultiplying the weights of all edges in that path.\nSince there may be more than one path between\ntwo nodes in the attention graph, to compute the\ntotal amount of information propagated from v to u,\nwe sum over all possible paths between these two\nnodes. At the implementation level, to compute the\nattentions from li to lj, we recursively multiply the\nattention weights matrices in all the layers below."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 1359
+        },
+        {
+          "x": 2198,
+          "y": 1359
+        },
+        {
+          "x": 2198,
+          "y": 1584
+        },
+        {
+          "x": 1271,
+          "y": 1584
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='40' style='font-size:18px'>In this equation, Ais attention rollout, A is raw at-<br>tention and the multiplication operation is a matrix<br>multiplication. With this formulation, to compute<br>input attention we set j = 0.</p>",
+      "id": 40,
+      "page": 3,
+      "text": "In this equation, Ais attention rollout, A is raw at-\ntention and the multiplication operation is a matrix\nmultiplication. With this formulation, to compute\ninput attention we set j = 0."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 1614
+        },
+        {
+          "x": 2199,
+          "y": 1614
+        },
+        {
+          "x": 2199,
+          "y": 2628
+        },
+        {
+          "x": 1272,
+          "y": 2628
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='41' style='font-size:20px'>Attention flow In graph theory, a flow network<br>is a directed graph with a \"capacity\" associated<br>with each edge. Formally, given G = (V, E) is a<br>graph, where V is the set of nodes, and E is the set<br>of edges in G; C = {cuv E R I Vu, v where eu,v E<br>E Au ≠ 아 denotes the capacities of the edges and<br>s, t E V are the source and target (sink) nodes re-<br>spectively; flow is a mapping of edges to real num-<br>bers, .f : E → R, that satisfies two conditions: (a)<br>capacity constraint: for each edge the flow value<br>should not exceed its capacity, |fuv ≤ cuv|; (b)<br>flow conservation: for all nodes except s and t the<br>input flow should be equal to output flow -sum<br>of the flow of outgoing edges should be equal to<br>sum of the flow of incoming edges. Given a flow<br>network, a maximum flow algorithm finds a flow<br>which has the maximum possible value between s<br>and t (Cormen et al., 2009).</p>",
+      "id": 41,
+      "page": 3,
+      "text": "Attention flow In graph theory, a flow network\nis a directed graph with a \"capacity\" associated\nwith each edge. Formally, given G = (V, E) is a\ngraph, where V is the set of nodes, and E is the set\nof edges in G; C = {cuv E R I Vu, v where eu,v E\nE Au ≠ 아 denotes the capacities of the edges and\ns, t E V are the source and target (sink) nodes re-\nspectively; flow is a mapping of edges to real num-\nbers, .f : E → R, that satisfies two conditions: (a)\ncapacity constraint: for each edge the flow value\nshould not exceed its capacity, |fuv ≤ cuv|; (b)\nflow conservation: for all nodes except s and t the\ninput flow should be equal to output flow -sum\nof the flow of outgoing edges should be equal to\nsum of the flow of incoming edges. Given a flow\nnetwork, a maximum flow algorithm finds a flow\nwhich has the maximum possible value between s\nand t (Cormen et al., 2009)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 2634
+        },
+        {
+          "x": 2200,
+          "y": 2634
+        },
+        {
+          "x": 2200,
+          "y": 3197
+        },
+        {
+          "x": 1271,
+          "y": 3197
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='42' style='font-size:18px'>Treating the attention graph as a flow network,<br>where the capacities of the edges are attention<br>weights, using any maximum flow algorithm, we<br>can compute the maximum attention flow from any<br>node in any of the layers to any of the input nodes.<br>We can use this maximum-flow-value as an approx-<br>imation of the attention to input nodes. In attention<br>flow, the weight of a single path is the minimum<br>value of the weights of the edges in the path, in-<br>stead of the product of the weights. Besides, we</p>",
+      "id": 42,
+      "page": 3,
+      "text": "Treating the attention graph as a flow network,\nwhere the capacities of the edges are attention\nweights, using any maximum flow algorithm, we\ncan compute the maximum attention flow from any\nnode in any of the layers to any of the input nodes.\nWe can use this maximum-flow-value as an approx-\nimation of the attention to input nodes. In attention\nflow, the weight of a single path is the minimum\nvalue of the weights of the edges in the path, in-\nstead of the product of the weights. Besides, we"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 300,
+          "y": 257
+        },
+        {
+          "x": 1234,
+          "y": 257
+        },
+        {
+          "x": 1234,
+          "y": 750
+        },
+        {
+          "x": 300,
+          "y": 750
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='43' style='font-size:14px' alt=\"rollout\n0.8\n0.8 0.75\n5\n0.6 0.60\n0.6\n4\n0.45\nattention\n0 4\n0.4\n0.30\n0.15\n<SP> <50g> the key 10 Free aul artice 등 ntenc 드 that aul alewal <QJa^>\nょ\nflow\n0.8 0.8\n0.8\nin\nV 0.6 寸 0.6 4 0.6\nattention\n3 0.4\n3 0.4\n0.4\n0.2 0.2 0.2\n<soq> ayl ke 요 <SP> You's article 등 dNN laga USE 7503 neen nre NIS diffel 드 that aut female <qre^>\" data-coord=\"top-left:(300,257); bottom-right:(1234,750)\" /></figure>",
+      "id": 43,
+      "page": 4,
+      "text": "rollout\n0.8\n0.8 0.75\n5\n0.6 0.60\n0.6\n4\n0.45\nattention\n0 4\n0.4\n0.30\n0.15\n<SP> <50g> the key 10 Free aul artice 등 ntenc 드 that aul alewal <QJa^>\nょ\nflow\n0.8 0.8\n0.8\nin\nV 0.6 寸 0.6 4 0.6\nattention\n3 0.4\n3 0.4\n0.4\n0.2 0.2 0.2\n<soq> ayl ke 요 <SP> You's article 등 dNN laga USE 7503 neen nre NIS diffel 드 that aut female <qre^>"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 385,
+          "y": 781
+        },
+        {
+          "x": 1122,
+          "y": 781
+        },
+        {
+          "x": 1122,
+          "y": 830
+        },
+        {
+          "x": 385,
+          "y": 830
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='44' style='font-size:16px'>Figure 3: Attention maps for the CLS token</caption>",
+      "id": 44,
+      "page": 4,
+      "text": "Figure 3: Attention maps for the CLS token"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 292,
+          "y": 902
+        },
+        {
+          "x": 1216,
+          "y": 902
+        },
+        {
+          "x": 1216,
+          "y": 1176
+        },
+        {
+          "x": 292,
+          "y": 1176
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='45' style='font-size:20px'>can not compute the attention for node s to node<br>t by adding up the weights of all paths between<br>these two nodes, since there might be an overlap<br>between the paths and this might result in overflow<br>in the overlapping edges.</p>",
+      "id": 45,
+      "page": 4,
+      "text": "can not compute the attention for node s to node\nt by adding up the weights of all paths between\nthese two nodes, since there might be an overlap\nbetween the paths and this might result in overflow\nin the overlapping edges."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1184
+        },
+        {
+          "x": 1220,
+          "y": 1184
+        },
+        {
+          "x": 1220,
+          "y": 1461
+        },
+        {
+          "x": 291,
+          "y": 1461
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='46' style='font-size:20px'>It is noteworthy that both of the proposed meth-<br>ods can be computed in polynomial time. O(d* n2)<br>for attention rollout and O(d2 * n4) for attention<br>flow, where d is the depth of the model, and n is<br>the number of tokens.</p>",
+      "id": 46,
+      "page": 4,
+      "text": "It is noteworthy that both of the proposed meth-\nods can be computed in polynomial time. O(d* n2)\nfor attention rollout and O(d2 * n4) for attention\nflow, where d is the depth of the model, and n is\nthe number of tokens."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 1513
+        },
+        {
+          "x": 888,
+          "y": 1513
+        },
+        {
+          "x": 888,
+          "y": 1570
+        },
+        {
+          "x": 293,
+          "y": 1570
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='47' style='font-size:22px'>4 Analysis and Discussion</p>",
+      "id": 47,
+      "page": 4,
+      "text": "4 Analysis and Discussion"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1611
+        },
+        {
+          "x": 1218,
+          "y": 1611
+        },
+        {
+          "x": 1218,
+          "y": 2284
+        },
+        {
+          "x": 291,
+          "y": 2284
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='48' style='font-size:18px'>Now, we take a closer look at these three views of<br>attention. Figure 1 depicts raw attention, attention<br>rollout and attention flow for a correctly classified<br>example across different layers. It is noteworthy<br>that the first layer of attention rollout and attention<br>flow are the same, and their only difference with<br>raw attention is the addition of residual connec-<br>tions. As we move to the higher layers, we see that<br>the residual connections fade away. Moreover, in<br>contrast to raw attention, the patterns of attention<br>rollout and attention flow become more distinctive<br>in the higher layers.</p>",
+      "id": 48,
+      "page": 4,
+      "text": "Now, we take a closer look at these three views of\nattention. Figure 1 depicts raw attention, attention\nrollout and attention flow for a correctly classified\nexample across different layers. It is noteworthy\nthat the first layer of attention rollout and attention\nflow are the same, and their only difference with\nraw attention is the addition of residual connec-\ntions. As we move to the higher layers, we see that\nthe residual connections fade away. Moreover, in\ncontrast to raw attention, the patterns of attention\nrollout and attention flow become more distinctive\nin the higher layers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 2293
+        },
+        {
+          "x": 1219,
+          "y": 2293
+        },
+        {
+          "x": 1219,
+          "y": 3077
+        },
+        {
+          "x": 291,
+          "y": 3077
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='49' style='font-size:20px'>Figures 2 and 3 show the weights from raw at-<br>tention, attention rollout and attention flow for the<br>CLS embedding over input tokens (x-axis) in all<br>6 layers (y-axis) for three examples. The first ex-<br>ample is the same as the one in Figure 1. The sec-<br>ond example is \"the article on NNP large systems<br><?>\" The model correctly classifies this exam-<br>ple and changing the subject of the missing verb<br>from \"article\" to \"articles\" flips the decision of the<br>model. The third example is \"here the NNS differ<br>in that the female <?>\". , which is a miss-classified<br>example and again changing \"NNS\" (plural noun)<br>to \"NNP\" (singular proper noun) flips the decision<br>of the model.</p>",
+      "id": 49,
+      "page": 4,
+      "text": "Figures 2 and 3 show the weights from raw at-\ntention, attention rollout and attention flow for the\nCLS embedding over input tokens (x-axis) in all\n6 layers (y-axis) for three examples. The first ex-\nample is the same as the one in Figure 1. The sec-\nond example is \"the article on NNP large systems\n<?>\" The model correctly classifies this exam-\nple and changing the subject of the missing verb\nfrom \"article\" to \"articles\" flips the decision of the\nmodel. The third example is \"here the NNS differ\nin that the female <?>\". , which is a miss-classified\nexample and again changing \"NNS\" (plural noun)\nto \"NNP\" (singular proper noun) flips the decision\nof the model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 3084
+        },
+        {
+          "x": 1220,
+          "y": 3084
+        },
+        {
+          "x": 1220,
+          "y": 3193
+        },
+        {
+          "x": 291,
+          "y": 3193
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='50' style='font-size:20px'>For all cases, the raw attention weights are al-<br>most uniform above layer three (discussed before).</p>",
+      "id": 50,
+      "page": 4,
+      "text": "For all cases, the raw attention weights are al-\nmost uniform above layer three (discussed before)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1274,
+          "y": 261
+        },
+        {
+          "x": 2185,
+          "y": 261
+        },
+        {
+          "x": 2185,
+          "y": 994
+        },
+        {
+          "x": 1274,
+          "y": 994
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='51' style='font-size:14px' alt=\"24 24\n22 0.07 24 0.035\n20 22 22 0.10\n20\n0.06 20\n0.030\n18\n0.08\n18\nrollout\n16 18\n0.05 16\nflow\n16\nattention\n14\n0.025 14\n0.06\n0.04 14\n12\n12\n12\nattention\n0.03 10\n0.020 10\n8 10\n8\n8\n0.04\nraw\n6\n6\n0.02 6\n4\n4 attention\n4 0.015\n0.02\n2 0.01 2\nhis her author Sara author Sara author Sara\n(a) 'The author talked to Sara about ma sk book.'\n24\n제 24\n2022 0.20 0.048\n2 2\n20 20 0.090\n0.045\n18 0.16\n18\nrollout\n16 18\nflow\n16\nattention\n0.075\n0.042 16\n14\n14\n14\n0.12\n12\n12\n0.039 12\nattention\n0.060\n0.08 10 10\n8 10\n8\nraw\n0.036 8\n6\n6\n6\n-0.045\n4 0.04 attention\n4\n4\n0.033\n2 2\nhis her Mary John Mary John Mary John\" data-coord=\"top-left:(1274,261); bottom-right:(2185,994)\" /></figure>",
+      "id": 51,
+      "page": 4,
+      "text": "24 24\n22 0.07 24 0.035\n20 22 22 0.10\n20\n0.06 20\n0.030\n18\n0.08\n18\nrollout\n16 18\n0.05 16\nflow\n16\nattention\n14\n0.025 14\n0.06\n0.04 14\n12\n12\n12\nattention\n0.03 10\n0.020 10\n8 10\n8\n8\n0.04\nraw\n6\n6\n0.02 6\n4\n4 attention\n4 0.015\n0.02\n2 0.01 2\nhis her author Sara author Sara author Sara\n(a) \"The author talked to Sara about ma sk book.\"\n24\n제 24\n2022 0.20 0.048\n2 2\n20 20 0.090\n0.045\n18 0.16\n18\nrollout\n16 18\nflow\n16\nattention\n0.075\n0.042 16\n14\n14\n14\n0.12\n12\n12\n0.039 12\nattention\n0.060\n0.08 10 10\n8 10\n8\nraw\n0.036 8\n6\n6\n6\n-0.045\n4 0.04 attention\n4\n4\n0.033\n2 2\nhis her Mary John Mary John Mary John"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1406,
+          "y": 978
+        },
+        {
+          "x": 2045,
+          "y": 978
+        },
+        {
+          "x": 2045,
+          "y": 1023
+        },
+        {
+          "x": 1406,
+          "y": 1023
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='52' style='font-size:16px'>(b) \"Mary convinced John of mask love.\"</caption>",
+      "id": 52,
+      "page": 4,
+      "text": "(b) \"Mary convinced John of mask love.\""
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 1064
+        },
+        {
+          "x": 2199,
+          "y": 1064
+        },
+        {
+          "x": 2199,
+          "y": 1363
+        },
+        {
+          "x": 1271,
+          "y": 1363
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='53' style='font-size:16px'>Figure 4: Bert attention maps. We look at the attention<br>weights from the mask embedding to the two potential<br>references for it, e.g. \"author\" and \"Sara\" in (a) and<br>\"Mary\" and \"John\" in (b). The bars, at the left, show<br>the relative predicted probability for the two possible<br>pronouns, \"his\" and \"her\".</p>",
+      "id": 53,
+      "page": 4,
+      "text": "Figure 4: Bert attention maps. We look at the attention\nweights from the mask embedding to the two potential\nreferences for it, e.g. \"author\" and \"Sara\" in (a) and\n\"Mary\" and \"John\" in (b). The bars, at the left, show\nthe relative predicted probability for the two possible\npronouns, \"his\" and \"her\"."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 1405
+        },
+        {
+          "x": 2200,
+          "y": 1405
+        },
+        {
+          "x": 2200,
+          "y": 1910
+        },
+        {
+          "x": 1272,
+          "y": 1910
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='54' style='font-size:20px'>In the case of the correctly classified example, we<br>observe that both attention rollout and attention<br>flow assign relatively high weights to both the sub-<br>ject of the verb, \"article' and the attractor, \"sys-<br>tems\". For the miss-classified example, both at-<br>tention rollout and attention flow assign relatively<br>high scores to the \"NNS\" token which is not the<br>subject of the verb. This can explain the wrong<br>prediction of the model.</p>",
+      "id": 54,
+      "page": 4,
+      "text": "In the case of the correctly classified example, we\nobserve that both attention rollout and attention\nflow assign relatively high weights to both the sub-\nject of the verb, \"article' and the attractor, \"sys-\ntems\". For the miss-classified example, both at-\ntention rollout and attention flow assign relatively\nhigh scores to the \"NNS\" token which is not the\nsubject of the verb. This can explain the wrong\nprediction of the model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1273,
+          "y": 1916
+        },
+        {
+          "x": 2199,
+          "y": 1916
+        },
+        {
+          "x": 2199,
+          "y": 2474
+        },
+        {
+          "x": 1273,
+          "y": 2474
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='55' style='font-size:18px'>The main difference between attention rollout<br>and attention flow is that attention flow weights are<br>amortized among the set of most attended tokens,<br>as expected. Attention flow can indicate a set of<br>input tokens that are important for the final decision.<br>Thus we do not get sharp distinctions among them.<br>On the other hand, attention rollout weights are<br>more focused compared to attention flow weights,<br>which is sensible for the third example but not as<br>much for the second one.</p>",
+      "id": 55,
+      "page": 4,
+      "text": "The main difference between attention rollout\nand attention flow is that attention flow weights are\namortized among the set of most attended tokens,\nas expected. Attention flow can indicate a set of\ninput tokens that are important for the final decision.\nThus we do not get sharp distinctions among them.\nOn the other hand, attention rollout weights are\nmore focused compared to attention flow weights,\nwhich is sensible for the third example but not as\nmuch for the second one."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 2513
+        },
+        {
+          "x": 2186,
+          "y": 2513
+        },
+        {
+          "x": 2186,
+          "y": 2711
+        },
+        {
+          "x": 1275,
+          "y": 2711
+        }
+      ],
+      "category": "table",
+      "html": "<table id='56' style='font-size:16px'><tr><td></td><td>L1</td><td>L3</td><td>L5</td><td>L6</td></tr><tr><td>Raw</td><td>0.12 土 0.21</td><td>0.09 土 0.21</td><td>0.08 土 0.20</td><td>0.09 土 0.21</td></tr><tr><td>Rollout</td><td>0.11 土 0.19</td><td>0.12 土 0.21</td><td>0.13 土 0.21</td><td>0.13 土 0.20</td></tr><tr><td>Flow</td><td>0.11 土 0.19</td><td>0.11 士 0.21</td><td>0.12 士 0.22</td><td>0.14 士 0.21</td></tr></table>",
+      "id": 56,
+      "page": 4,
+      "text": "L1 L3 L5 L6\n Raw 0.12 土 0.21 0.09 土 0.21 0.08 土 0.20 0.09 土 0.21\n Rollout 0.11 土 0.19 0.12 土 0.21 0.13 土 0.21 0.13 土 0.20\n Flow 0.11 土 0.19 0.11 士 0.21 0.12 士 0.22"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 2750
+        },
+        {
+          "x": 2199,
+          "y": 2750
+        },
+        {
+          "x": 2199,
+          "y": 2901
+        },
+        {
+          "x": 1272,
+          "y": 2901
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='57' style='font-size:18px'>Table 3: SpearmanR correlation of attention based im-<br>portance with input gradients for 100 samples from the<br>test set for the DistillBERT model fine tuned on SST-2.</p>",
+      "id": 57,
+      "page": 4,
+      "text": "Table 3: SpearmanR correlation of attention based im-\nportance with input gradients for 100 samples from the\ntest set for the DistillBERT model fine tuned on SST-2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1271,
+          "y": 2970
+        },
+        {
+          "x": 2201,
+          "y": 2970
+        },
+        {
+          "x": 2201,
+          "y": 3194
+        },
+        {
+          "x": 1271,
+          "y": 3194
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='58' style='font-size:18px'>Furthermore, as shown in Table 1 and 2 both<br>attention rollout and attention flow, are better<br>correlated with blank-out scores and input gradi-<br>ents compared to raw attention, but attention flow</p>",
+      "id": 58,
+      "page": 4,
+      "text": "Furthermore, as shown in Table 1 and 2 both\nattention rollout and attention flow, are better\ncorrelated with blank-out scores and input gradi-\nents compared to raw attention, but attention flow"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 268
+        },
+        {
+          "x": 1218,
+          "y": 268
+        },
+        {
+          "x": 1218,
+          "y": 1284
+        },
+        {
+          "x": 291,
+          "y": 1284
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='59' style='font-size:16px'>weights are more reliable than attention rollout.<br>The difference between these two methods is rooted<br>in their different views of attention weights. At-<br>tention flow views them as capacities, and at every<br>step of the algorithm, it uses as much of the capac-<br>ity as possible. Hence, attention flow computes the<br>maximum possibility of token identities to propa-<br>gate to the higher layers. Whereas attention rollout<br>views them as proportion factors and at every step,<br>it allows token identities to be propagated to higher<br>layers exactly based on this proportion factors. This<br>makes attention rollout stricter than attention flow,<br>and so we see that attention rollout provides us with<br>more focused attention patterns. However, since<br>we are making many simplifying assumptions, the<br>strictness of attention rollout does not lead to more<br>accurate results, and the relaxation of attention flow<br>seems to be a useful property.</p>",
+      "id": 59,
+      "page": 5,
+      "text": "weights are more reliable than attention rollout.\nThe difference between these two methods is rooted\nin their different views of attention weights. At-\ntention flow views them as capacities, and at every\nstep of the algorithm, it uses as much of the capac-\nity as possible. Hence, attention flow computes the\nmaximum possibility of token identities to propa-\ngate to the higher layers. Whereas attention rollout\nviews them as proportion factors and at every step,\nit allows token identities to be propagated to higher\nlayers exactly based on this proportion factors. This\nmakes attention rollout stricter than attention flow,\nand so we see that attention rollout provides us with\nmore focused attention patterns. However, since\nwe are making many simplifying assumptions, the\nstrictness of attention rollout does not lead to more\naccurate results, and the relaxation of attention flow\nseems to be a useful property."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1302
+        },
+        {
+          "x": 1219,
+          "y": 1302
+        },
+        {
+          "x": 1219,
+          "y": 1637
+        },
+        {
+          "x": 291,
+          "y": 1637
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='60' style='font-size:14px'>At last, to illustrate the application of atten-<br>tion flow and attention rollout on different tasks<br>and different models, we examine them on two<br>pretrained BERT models. We use the models<br>available at https : / / github. com/huggingface/<br>transformers.</p>",
+      "id": 60,
+      "page": 5,
+      "text": "At last, to illustrate the application of atten-\ntion flow and attention rollout on different tasks\nand different models, we examine them on two\npretrained BERT models. We use the models\navailable at https : / / github. com/huggingface/\ntransformers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 291,
+          "y": 1654
+        },
+        {
+          "x": 1216,
+          "y": 1654
+        },
+        {
+          "x": 1216,
+          "y": 2218
+        },
+        {
+          "x": 291,
+          "y": 2218
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='61' style='font-size:16px'>Table 3 shows the correlation of the importance<br>score obtained from raw attention, attention rollout<br>and attention flow from a DistillBERT (Sanh et al.,<br>2019) model fine-tuned to solve \"SST-2\" (Socher<br>et al., 2013), the sentiment analysis task from the<br>glue benchmark (Wang et al., 2018). Even though<br>for this model, all three methods have very low<br>correlation with the input gradients, we can still see<br>that attention rollout and attention flow are slightly<br>better than raw attention.</p>",
+      "id": 61,
+      "page": 5,
+      "text": "Table 3 shows the correlation of the importance\nscore obtained from raw attention, attention rollout\nand attention flow from a DistillBERT (Sanh et al.,\n2019) model fine-tuned to solve \"SST-2\" (Socher\net al., 2013), the sentiment analysis task from the\nglue benchmark (Wang et al., 2018). Even though\nfor this model, all three methods have very low\ncorrelation with the input gradients, we can still see\nthat attention rollout and attention flow are slightly\nbetter than raw attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 290,
+          "y": 2234
+        },
+        {
+          "x": 1217,
+          "y": 2234
+        },
+        {
+          "x": 1217,
+          "y": 3196
+        },
+        {
+          "x": 290,
+          "y": 3196
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='62' style='font-size:14px'>Furthermore, in Figure 4, we show an example<br>of applying these methods to a pre-trained Bert<br>to see how it resolves the pronouns in a sentence.<br>What we do here is to feed the model with a sen-<br>tence, masking a pronoun. Next, we look at the<br>prediction of the model for the masked word and<br>compare the probabilities assigned to \"her\" and<br>\"his\". Then we look at raw attention, attention roll-<br>out and attention flow weights of the embeddings<br>for the masked pronoun at all the layers. In the<br>first example, in Figure 4a, attention rollout and<br>attention flow are consistent with each other and<br>the prediction of the model. Whereas, the final<br>layer of raw attention does not seem to be consis-<br>tent with the prediction of the models, and it varies<br>a lot across different layers. In the second exam-<br>ple, in Figure 4b, only attention flow weights are</p>",
+      "id": 62,
+      "page": 5,
+      "text": "Furthermore, in Figure 4, we show an example\nof applying these methods to a pre-trained Bert\nto see how it resolves the pronouns in a sentence.\nWhat we do here is to feed the model with a sen-\ntence, masking a pronoun. Next, we look at the\nprediction of the model for the masked word and\ncompare the probabilities assigned to \"her\" and\n\"his\". Then we look at raw attention, attention roll-\nout and attention flow weights of the embeddings\nfor the masked pronoun at all the layers. In the\nfirst example, in Figure 4a, attention rollout and\nattention flow are consistent with each other and\nthe prediction of the model. Whereas, the final\nlayer of raw attention does not seem to be consis-\ntent with the prediction of the models, and it varies\na lot across different layers. In the second exam-\nple, in Figure 4b, only attention flow weights are"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 270
+        },
+        {
+          "x": 2072,
+          "y": 270
+        },
+        {
+          "x": 2072,
+          "y": 318
+        },
+        {
+          "x": 1272,
+          "y": 318
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='63' style='font-size:16px'>consistent with the prediction of the model.</p>",
+      "id": 63,
+      "page": 5,
+      "text": "consistent with the prediction of the model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1273,
+          "y": 364
+        },
+        {
+          "x": 1597,
+          "y": 364
+        },
+        {
+          "x": 1597,
+          "y": 416
+        },
+        {
+          "x": 1273,
+          "y": 416
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='64' style='font-size:18px'>5 Conclusion</p>",
+      "id": 64,
+      "page": 5,
+      "text": "5 Conclusion"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 452
+        },
+        {
+          "x": 2200,
+          "y": 452
+        },
+        {
+          "x": 2200,
+          "y": 1578
+        },
+        {
+          "x": 1272,
+          "y": 1578
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='65' style='font-size:16px'>Translating embedding attentions to token atten-<br>tions can provide us with better explanations about<br>models' internals. Yet, we should be cautious about<br>our interpretation of these weights, because, we<br>are making many simplifying assumptions when<br>we approximate information flow in a model with<br>the attention weights. Our ideas are simple and<br>task/architecture agnostic. In this paper, we in-<br>sisted on sticking with simple ideas that only re-<br>quire attention weights and can be easily employed<br>in any task or architecture that uses self-attention.<br>We should note that all our analysis in this paper is<br>for a Transformer encoder, with no casual masking.<br>Since in Transformer decoder, future tokens are<br>masked, naturally there is more attention toward<br>initial tokens in the input sequence, and both atten-<br>tion rollout and attention flow will be biased toward<br>these tokens. Hence, to apply these methods on a<br>Transformer decoder, we should first normalize<br>based on the receptive field of attention.</p>",
+      "id": 65,
+      "page": 5,
+      "text": "Translating embedding attentions to token atten-\ntions can provide us with better explanations about\nmodels' internals. Yet, we should be cautious about\nour interpretation of these weights, because, we\nare making many simplifying assumptions when\nwe approximate information flow in a model with\nthe attention weights. Our ideas are simple and\ntask/architecture agnostic. In this paper, we in-\nsisted on sticking with simple ideas that only re-\nquire attention weights and can be easily employed\nin any task or architecture that uses self-attention.\nWe should note that all our analysis in this paper is\nfor a Transformer encoder, with no casual masking.\nSince in Transformer decoder, future tokens are\nmasked, naturally there is more attention toward\ninitial tokens in the input sequence, and both atten-\ntion rollout and attention flow will be biased toward\nthese tokens. Hence, to apply these methods on a\nTransformer decoder, we should first normalize\nbased on the receptive field of attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 1582
+        },
+        {
+          "x": 2200,
+          "y": 1582
+        },
+        {
+          "x": 2200,
+          "y": 1918
+        },
+        {
+          "x": 1272,
+          "y": 1918
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='66' style='font-size:16px'>Following this work, we can build the attention<br>graph with effective attention weights (Brunner<br>et al., 2020) instead of raw attentions. Furthermore,<br>we can come up with a new method that adjusts the<br>attention weights using gradient-based attribution<br>methods (Ancona et al., 2019).</p>",
+      "id": 66,
+      "page": 5,
+      "text": "Following this work, we can build the attention\ngraph with effective attention weights (Brunner\net al., 2020) instead of raw attentions. Furthermore,\nwe can come up with a new method that adjusts the\nattention weights using gradient-based attribution\nmethods (Ancona et al., 2019)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1274,
+          "y": 1961
+        },
+        {
+          "x": 1699,
+          "y": 1961
+        },
+        {
+          "x": 1699,
+          "y": 2016
+        },
+        {
+          "x": 1274,
+          "y": 2016
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='67' style='font-size:22px'>Acknowledgements</p>",
+      "id": 67,
+      "page": 5,
+      "text": "Acknowledgements"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 2047
+        },
+        {
+          "x": 2200,
+          "y": 2047
+        },
+        {
+          "x": 2200,
+          "y": 2441
+        },
+        {
+          "x": 1272,
+          "y": 2441
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='68' style='font-size:16px'>We thank Mostafa Dehghani, Wilker Aziz, and the<br>anonymous reviewers for their valuable feedback<br>and comments on this work. The work presented<br>here was funded by the Netherlands Organization<br>for Scientific Research (NWO), through a Gravita-<br>tion Grant 024.001.006 to the Language in Interac-<br>tion Consortium.</p>",
+      "id": 68,
+      "page": 5,
+      "text": "We thank Mostafa Dehghani, Wilker Aziz, and the\nanonymous reviewers for their valuable feedback\nand comments on this work. The work presented\nhere was funded by the Netherlands Organization\nfor Scientific Research (NWO), through a Gravita-\ntion Grant 024.001.006 to the Language in Interac-\ntion Consortium."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 2534
+        },
+        {
+          "x": 1516,
+          "y": 2534
+        },
+        {
+          "x": 1516,
+          "y": 2589
+        },
+        {
+          "x": 1275,
+          "y": 2589
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='69' style='font-size:20px'>References</p>",
+      "id": 69,
+      "page": 5,
+      "text": "References"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1274,
+          "y": 2613
+        },
+        {
+          "x": 2198,
+          "y": 2613
+        },
+        {
+          "x": 2198,
+          "y": 2799
+        },
+        {
+          "x": 1274,
+          "y": 2799
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='70' style='font-size:18px'>Marco Ancona, Enea Ceolini, Cengiz Oztireli, and<br>Markus Gross. 2019. Gradient-Based Attribution<br>Methods, pages 169-191. Springer International<br>Publishing.</p>",
+      "id": 70,
+      "page": 5,
+      "text": "Marco Ancona, Enea Ceolini, Cengiz Oztireli, and\nMarkus Gross. 2019. Gradient-Based Attribution\nMethods, pages 169-191. Springer International\nPublishing."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1273,
+          "y": 2831
+        },
+        {
+          "x": 2202,
+          "y": 2831
+        },
+        {
+          "x": 2202,
+          "y": 3062
+        },
+        {
+          "x": 1273,
+          "y": 3062
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='71' style='font-size:16px'>Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Ben-<br>gio. 2015. Neural machine translation by jointly<br>learning to align and translate. In proceedings of<br>the 2015 International Conference on Learning Rep-<br>resentations.</p>",
+      "id": 71,
+      "page": 5,
+      "text": "Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Ben-\ngio. 2015. Neural machine translation by jointly\nlearning to align and translate. In proceedings of\nthe 2015 International Conference on Learning Rep-\nresentations."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1272,
+          "y": 3098
+        },
+        {
+          "x": 2203,
+          "y": 3098
+        },
+        {
+          "x": 2203,
+          "y": 3194
+        },
+        {
+          "x": 1272,
+          "y": 3194
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='72' style='font-size:16px'>Gino Brunner, Yang Liu, Damian Pascual, Oliver<br>Richter, Massimiliano Ciaramita, and Roger Watten-</p>",
+      "id": 72,
+      "page": 5,
+      "text": "Gino Brunner, Yang Liu, Damian Pascual, Oliver\nRichter, Massimiliano Ciaramita, and Roger Watten-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 337,
+          "y": 271
+        },
+        {
+          "x": 1218,
+          "y": 271
+        },
+        {
+          "x": 1218,
+          "y": 409
+        },
+        {
+          "x": 337,
+          "y": 409
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='73' style='font-size:16px'>hofer. 2020. On identifiability in transformers. In<br>International Conference on Learning Representa-<br>tions.</p>",
+      "id": 73,
+      "page": 6,
+      "text": "hofer. 2020. On identifiability in transformers. In\nInternational Conference on Learning Representa-\ntions."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 452
+        },
+        {
+          "x": 1218,
+          "y": 452
+        },
+        {
+          "x": 1218,
+          "y": 594
+        },
+        {
+          "x": 293,
+          "y": 594
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='74' style='font-size:14px'>Hanjie Chen and Yangfeng Ji. 2019. Improving the in-<br>terpretability of neural sentiment classifiers via data<br>augmentation. arXiv preprint arXiv:1909.04225.</p>",
+      "id": 74,
+      "page": 6,
+      "text": "Hanjie Chen and Yangfeng Ji. 2019. Improving the in-\nterpretability of neural sentiment classifiers via data\naugmentation. arXiv preprint arXiv:1909.04225."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 295,
+          "y": 635
+        },
+        {
+          "x": 1218,
+          "y": 635
+        },
+        {
+          "x": 1218,
+          "y": 960
+        },
+        {
+          "x": 295,
+          "y": 960
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='75' style='font-size:18px'>Kevin Clark, Urvashi Khandelwal, Omer Levy, and<br>Christopher D. Manning. 2019. What does BERT<br>look at? an analysis of BERT's attention. In Pro-<br>ceedings of the 2019 ACL Workshop BlackboxNLP:<br>Analyzing and Interpreting Neural Networks for<br>NLP, pages 276-286, Florence, Italy. Association<br>for Computational Linguistics.</p>",
+      "id": 75,
+      "page": 6,
+      "text": "Kevin Clark, Urvashi Khandelwal, Omer Levy, and\nChristopher D. Manning. 2019. What does BERT\nlook at? an analysis of BERT's attention. In Pro-\nceedings of the 2019 ACL Workshop BlackboxNLP:\nAnalyzing and Interpreting Neural Networks for\nNLP, pages 276-286, Florence, Italy. Association\nfor Computational Linguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 1001
+        },
+        {
+          "x": 1218,
+          "y": 1001
+        },
+        {
+          "x": 1218,
+          "y": 1185
+        },
+        {
+          "x": 294,
+          "y": 1185
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='76' style='font-size:18px'>Andy Coenen, Emily Reif, Ann Yuan, Been Kim,<br>Adam Pearce, Fernanda Viegas, and Martin Watten-<br>berg. 2019. Visualizing and measuring the geometry<br>of bert. arXiv preprint arXiv:1906.02715.</p>",
+      "id": 76,
+      "page": 6,
+      "text": "Andy Coenen, Emily Reif, Ann Yuan, Been Kim,\nAdam Pearce, Fernanda Viegas, and Martin Watten-\nberg. 2019. Visualizing and measuring the geometry\nof bert. arXiv preprint arXiv:1906.02715."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 295,
+          "y": 1227
+        },
+        {
+          "x": 1217,
+          "y": 1227
+        },
+        {
+          "x": 1217,
+          "y": 1411
+        },
+        {
+          "x": 295,
+          "y": 1411
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='77' style='font-size:14px'>Thomas H. Cormen, Charles E. Leiserson, Ronald L.<br>Rivest, and Clifford Stein. 2009. Introduction to<br>Algorithms, Third Edition, 3rd edition. The MIT<br>Press.</p>",
+      "id": 77,
+      "page": 6,
+      "text": "Thomas H. Cormen, Charles E. Leiserson, Ronald L.\nRivest, and Clifford Stein. 2009. Introduction to\nAlgorithms, Third Edition, 3rd edition. The MIT\nPress."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 1455
+        },
+        {
+          "x": 1218,
+          "y": 1455
+        },
+        {
+          "x": 1218,
+          "y": 1642
+        },
+        {
+          "x": 294,
+          "y": 1642
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='78' style='font-size:18px'>Mostafa Dehghani, Stephan Gouws, Oriol Vinyals,<br>Jakob Uszkoreit, and Lukasz Kaiser. 2019. Univer-<br>sal transformers. In proceedings of the 2019 Inter-<br>national Conference on Learning Representations.</p>",
+      "id": 78,
+      "page": 6,
+      "text": "Mostafa Dehghani, Stephan Gouws, Oriol Vinyals,\nJakob Uszkoreit, and Lukasz Kaiser. 2019. Univer-\nsal transformers. In proceedings of the 2019 Inter-\nnational Conference on Learning Representations."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 1682
+        },
+        {
+          "x": 1217,
+          "y": 1682
+        },
+        {
+          "x": 1217,
+          "y": 2051
+        },
+        {
+          "x": 294,
+          "y": 2051
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='79' style='font-size:20px'>Jacob Devlin, Ming-Wei Chang, Kenton Lee, and<br>Kristina Toutanova. 2019. BERT: Pre-training of<br>deep bidirectional transformers for language under-<br>standing. In proceedings of the 2019 Conference<br>of the North American Chapter of the Association<br>for Computational Linguistics: Human Language<br>Technologies. Association for Computational Lin-<br>guistics.</p>",
+      "id": 79,
+      "page": 6,
+      "text": "Jacob Devlin, Ming-Wei Chang, Kenton Lee, and\nKristina Toutanova. 2019. BERT: Pre-training of\ndeep bidirectional transformers for language under-\nstanding. In proceedings of the 2019 Conference\nof the North American Chapter of the Association\nfor Computational Linguistics: Human Language\nTechnologies. Association for Computational Lin-\nguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 2092
+        },
+        {
+          "x": 1217,
+          "y": 2092
+        },
+        {
+          "x": 1217,
+          "y": 2372
+        },
+        {
+          "x": 294,
+          "y": 2372
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='80' style='font-size:18px'>Sarthak Jain and Byron C. Wallace. 2019. Attention<br>is not Explanation. In proceedings of the 2019 Con-<br>ference of the North American Chapter of the Asso-<br>ciation for Computational Linguistics: Human Lan-<br>guage Technologies, pages 3543-3556. Association<br>for Computational Linguistics.</p>",
+      "id": 80,
+      "page": 6,
+      "text": "Sarthak Jain and Byron C. Wallace. 2019. Attention\nis not Explanation. In proceedings of the 2019 Con-\nference of the North American Chapter of the Asso-\nciation for Computational Linguistics: Human Lan-\nguage Technologies, pages 3543-3556. Association\nfor Computational Linguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 2411
+        },
+        {
+          "x": 1217,
+          "y": 2411
+        },
+        {
+          "x": 1217,
+          "y": 2690
+        },
+        {
+          "x": 294,
+          "y": 2690
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='81' style='font-size:18px'>Jaesong Lee, Joong-Hwi Shin, and Jun-Seok Kim.<br>2017. Interactive visualization and manipulation<br>of attention-based neural machine translation. In<br>proceedings of the 2017 Conference on Empirical<br>Methods in Natural Language Processing: System<br>Demonstrations, pages 121-126.</p>",
+      "id": 81,
+      "page": 6,
+      "text": "Jaesong Lee, Joong-Hwi Shin, and Jun-Seok Kim.\n2017. Interactive visualization and manipulation\nof attention-based neural machine translation. In\nproceedings of the 2017 Conference on Empirical\nMethods in Natural Language Processing: System\nDemonstrations, pages 121-126."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 2731
+        },
+        {
+          "x": 1218,
+          "y": 2731
+        },
+        {
+          "x": 1218,
+          "y": 2961
+        },
+        {
+          "x": 294,
+          "y": 2961
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='82' style='font-size:18px'>Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg.<br>2016. Assessing the ability of LSTMs to learn<br>syntax-sensitive dependencies. Transactions of the<br>Association for Computational Linguistics, 4:521-<br>535.</p>",
+      "id": 82,
+      "page": 6,
+      "text": "Tal Linzen, Emmanuel Dupoux, and Yoav Goldberg.\n2016. Assessing the ability of LSTMs to learn\nsyntax-sensitive dependencies. Transactions of the\nAssociation for Computational Linguistics, 4:521-\n535."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 3004
+        },
+        {
+          "x": 1218,
+          "y": 3004
+        },
+        {
+          "x": 1218,
+          "y": 3190
+        },
+        {
+          "x": 294,
+          "y": 3190
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='83' style='font-size:18px'>Danish Pruthi, Mansi Gupta, Bhuwan Dhingra, Gra-<br>ham Neubig, and Zachary C Lipton. 2019. Learning<br>to deceive with attention-based explanations. arXiv<br>preprint arXiv:1909.07913.</p>",
+      "id": 83,
+      "page": 6,
+      "text": "Danish Pruthi, Mansi Gupta, Bhuwan Dhingra, Gra-\nham Neubig, and Zachary C Lipton. 2019. Learning\nto deceive with attention-based explanations. arXiv\npreprint arXiv:1909.07913."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 270
+        },
+        {
+          "x": 2200,
+          "y": 270
+        },
+        {
+          "x": 2200,
+          "y": 456
+        },
+        {
+          "x": 1275,
+          "y": 456
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='84' style='font-size:18px'>Alec Radford, Jeffrey Wu, Rewon Child, David Luan,<br>Dario Amodei, and Ilya Sutskever. 2019. Language<br>models are unsupervised multitask learners. OpenAI<br>Blog, 1(8).</p>",
+      "id": 84,
+      "page": 6,
+      "text": "Alec Radford, Jeffrey Wu, Rewon Child, David Luan,\nDario Amodei, and Ilya Sutskever. 2019. Language\nmodels are unsupervised multitask learners. OpenAI\nBlog, 1(8)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 488
+        },
+        {
+          "x": 2201,
+          "y": 488
+        },
+        {
+          "x": 2201,
+          "y": 719
+        },
+        {
+          "x": 1277,
+          "y": 719
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='85' style='font-size:16px'>Tim Rockt�schel, Edward Grefenstette, Karl Moritz<br>Hermann, Tomas Kocisky, and Phil Blunsom. 2016.<br>Reasoning about entailment with neural attention.<br>In International Conference on Learning Represen-<br>tations (ICLR).</p>",
+      "id": 85,
+      "page": 6,
+      "text": "Tim Rockt�schel, Edward Grefenstette, Karl Moritz\nHermann, Tomas Kocisky, and Phil Blunsom. 2016.\nReasoning about entailment with neural attention.\nIn International Conference on Learning Represen-\ntations (ICLR)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 752
+        },
+        {
+          "x": 2199,
+          "y": 752
+        },
+        {
+          "x": 2199,
+          "y": 893
+        },
+        {
+          "x": 1275,
+          "y": 893
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='86' style='font-size:16px'>Victor Sanh, Lysandre Debut, Julien Chaumond, and<br>Thomas Wolf. 2019. Distilbert, a distilled version of<br>bert: smaller, faster, cheaper and lighter.</p>",
+      "id": 86,
+      "page": 6,
+      "text": "Victor Sanh, Lysandre Debut, Julien Chaumond, and\nThomas Wolf. 2019. Distilbert, a distilled version of\nbert: smaller, faster, cheaper and lighter."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1274,
+          "y": 926
+        },
+        {
+          "x": 2198,
+          "y": 926
+        },
+        {
+          "x": 2198,
+          "y": 1113
+        },
+        {
+          "x": 1274,
+          "y": 1113
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='87' style='font-size:18px'>Sofia Serrano and Noah A. Smith. 2019. Is attention<br>interpretable? In proceedings of the 57th Annual<br>Meeting of the Association for Computational Lin-<br>guistics. Association for Computational Linguistics.</p>",
+      "id": 87,
+      "page": 6,
+      "text": "Sofia Serrano and Noah A. Smith. 2019. Is attention\ninterpretable? In proceedings of the 57th Annual\nMeeting of the Association for Computational Lin-\nguistics. Association for Computational Linguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 1145
+        },
+        {
+          "x": 2200,
+          "y": 1145
+        },
+        {
+          "x": 2200,
+          "y": 1513
+        },
+        {
+          "x": 1276,
+          "y": 1513
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='88' style='font-size:18px'>Richard Socher, Alex Perelygin, Jean Wu, Jason<br>Chuang, Christopher D. Manning, Andrew Ng, and<br>Christopher Potts. 2013. Recursive deep models<br>for semantic compositionality over a sentiment tree-<br>bank. In Proceedings of the 2013 Conference on<br>Empirical Methods in Natural Language Processing,<br>pages 1631-1642, Seattle, Washington, USA. Asso-<br>ciation for Computational Linguistics.</p>",
+      "id": 88,
+      "page": 6,
+      "text": "Richard Socher, Alex Perelygin, Jean Wu, Jason\nChuang, Christopher D. Manning, Andrew Ng, and\nChristopher Potts. 2013. Recursive deep models\nfor semantic compositionality over a sentiment tree-\nbank. In Proceedings of the 2013 Conference on\nEmpirical Methods in Natural Language Processing,\npages 1631-1642, Seattle, Washington, USA. Asso-\nciation for Computational Linguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 1548
+        },
+        {
+          "x": 2201,
+          "y": 1548
+        },
+        {
+          "x": 2201,
+          "y": 1729
+        },
+        {
+          "x": 1275,
+          "y": 1729
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='89' style='font-size:16px'>Shikhar Vashishth, Shyam Upadhyay, Gaurav Singh<br>Tomar, and Manaal Faruqui. 2019. Attention in-<br>terpretability across nlp tasks. arXiv preprint<br>arXiv:1909.11218.</p>",
+      "id": 89,
+      "page": 6,
+      "text": "Shikhar Vashishth, Shyam Upadhyay, Gaurav Singh\nTomar, and Manaal Faruqui. 2019. Attention in-\nterpretability across nlp tasks. arXiv preprint\narXiv:1909.11218."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 1767
+        },
+        {
+          "x": 2199,
+          "y": 1767
+        },
+        {
+          "x": 2199,
+          "y": 1999
+        },
+        {
+          "x": 1277,
+          "y": 1999
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='90' style='font-size:14px'>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob<br>Uszkoreit, Llion Jones, Aidan N Gomez, Lukasz<br>Kaiser, and Illia Polosukhin. 2017. Attention is all<br>you need. In Advances in neural information pro-<br>cessing systems, pages 5998-6008.</p>",
+      "id": 90,
+      "page": 6,
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob\nUszkoreit, Llion Jones, Aidan N Gomez, Lukasz\nKaiser, and Illia Polosukhin. 2017. Attention is all\nyou need. In Advances in neural information pro-\ncessing systems, pages 5998-6008."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 2030
+        },
+        {
+          "x": 2201,
+          "y": 2030
+        },
+        {
+          "x": 2201,
+          "y": 2168
+        },
+        {
+          "x": 1275,
+          "y": 2168
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='91' style='font-size:18px'>Jesse Vig. 2019. Visualizing attention in transformer-<br>based language models. arXiv preprint<br>arXiv:1904.02679.</p>",
+      "id": 91,
+      "page": 6,
+      "text": "Jesse Vig. 2019. Visualizing attention in transformer-\nbased language models. arXiv preprint\narXiv:1904.02679."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 2202
+        },
+        {
+          "x": 2203,
+          "y": 2202
+        },
+        {
+          "x": 2203,
+          "y": 2570
+        },
+        {
+          "x": 1276,
+          "y": 2570
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='92' style='font-size:18px'>Alex Wang, Amanpreet Singh, Julian Michael, Fe-<br>lix Hill, Omer Levy, and Samuel Bowman. 2018.<br>GLUE: A multi-task benchmark and analysis plat-<br>form for natural language understanding. In Pro-<br>ceedings of the 2018 EMNLP Workshop Black-<br>boxNLP: Analyzing and Interpreting Neural Net-<br>works for NLP, pages 353-355, Brussels, Belgium.<br>Association for Computational Linguistics.</p>",
+      "id": 92,
+      "page": 6,
+      "text": "Alex Wang, Amanpreet Singh, Julian Michael, Fe-\nlix Hill, Omer Levy, and Samuel Bowman. 2018.\nGLUE: A multi-task benchmark and analysis plat-\nform for natural language understanding. In Pro-\nceedings of the 2018 EMNLP Workshop Black-\nboxNLP: Analyzing and Interpreting Neural Net-\nworks for NLP, pages 353-355, Brussels, Belgium.\nAssociation for Computational Linguistics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 2604
+        },
+        {
+          "x": 2201,
+          "y": 2604
+        },
+        {
+          "x": 2201,
+          "y": 2835
+        },
+        {
+          "x": 1276,
+          "y": 2835
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='93' style='font-size:16px'>Yequan Wang, Minlie Huang, Li Zhao, et al. 2016.<br>Attention-based lstm for aspect-level sentiment clas-<br>sification. In proceedings of the 2016 conference on<br>empirical methods in natural language processing,<br>pages 606-615.</p>",
+      "id": 93,
+      "page": 6,
+      "text": "Yequan Wang, Minlie Huang, Li Zhao, et al. 2016.\nAttention-based lstm for aspect-level sentiment clas-\nsification. In proceedings of the 2016 conference on\nempirical methods in natural language processing,\npages 606-615."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1275,
+          "y": 2868
+        },
+        {
+          "x": 2201,
+          "y": 2868
+        },
+        {
+          "x": 2201,
+          "y": 3189
+        },
+        {
+          "x": 1275,
+          "y": 3189
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='94' style='font-size:16px'>Sarah Wiegreffe and Yuval Pinter. 2019. Attention is<br>not not explanation. In proceedings of the 2019 Con-<br>ference on Empirical Methods in Natural Language<br>Processing and the 9th International Joint Confer-<br>ence on Natural Language Processing (EMNLP-<br>IJCNLP). Association for Computational Linguis-<br>tics.</p>",
+      "id": 94,
+      "page": 6,
+      "text": "Sarah Wiegreffe and Yuval Pinter. 2019. Attention is\nnot not explanation. In proceedings of the 2019 Con-\nference on Empirical Methods in Natural Language\nProcessing and the 9th International Joint Confer-\nence on Natural Language Processing (EMNLP-\nIJCNLP). Association for Computational Linguis-\ntics."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 270
+        },
+        {
+          "x": 1223,
+          "y": 270
+        },
+        {
+          "x": 1223,
+          "y": 549
+        },
+        {
+          "x": 294,
+          "y": 549
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='95' style='font-size:14px'>Thomas Wolf, Lysandre Debut, Victor Sanh, Julien<br>Chaumond, Clement Delangue, Anthony Moi, Pier-<br>ric Cistac, Tim Rault, R'emi Louf, Morgan Funtow-<br>icz, and Jamie Brew. 2019. Huggingface's trans-<br>formers: State-of-the-art natural language process-<br>ing. ArXiv, abs/1910.03771.</p>",
+      "id": 95,
+      "page": 7,
+      "text": "Thomas Wolf, Lysandre Debut, Victor Sanh, Julien\nChaumond, Clement Delangue, Anthony Moi, Pier-\nric Cistac, Tim Rault, R'emi Louf, Morgan Funtow-\nicz, and Jamie Brew. 2019. Huggingface's trans-\nformers: State-of-the-art natural language process-\ning. ArXiv, abs/1910.03771."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 294,
+          "y": 582
+        },
+        {
+          "x": 1223,
+          "y": 582
+        },
+        {
+          "x": 1223,
+          "y": 861
+        },
+        {
+          "x": 294,
+          "y": 861
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='96' style='font-size:14px'>Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho,<br>Aaron Courville, Ruslan Salakhudinov, Rich Zemel,<br>and Yoshua Bengio. 2015. Show, attend and tell:<br>Neural image caption generation with visual atten-<br>tion. In proceedings of International Conference on<br>Machine Learning, pages 2048-2057.</p>",
+      "id": 96,
+      "page": 7,
+      "text": "Kelvin Xu, Jimmy Ba, Ryan Kiros, Kyunghyun Cho,\nAaron Courville, Ruslan Salakhudinov, Rich Zemel,\nand Yoshua Bengio. 2015. Show, attend and tell:\nNeural image caption generation with visual atten-\ntion. In proceedings of International Conference on\nMachine Learning, pages 2048-2057."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 267
+        },
+        {
+          "x": 635,
+          "y": 267
+        },
+        {
+          "x": 635,
+          "y": 320
+        },
+        {
+          "x": 293,
+          "y": 320
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='97' style='font-size:20px'>A Appendices</p>",
+      "id": 97,
+      "page": 8,
+      "text": "A Appendices"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 293,
+          "y": 355
+        },
+        {
+          "x": 827,
+          "y": 355
+        },
+        {
+          "x": 827,
+          "y": 409
+        },
+        {
+          "x": 293,
+          "y": 409
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='98' style='font-size:16px'>A.1 Single Head Analysis</p>",
+      "id": 98,
+      "page": 8,
+      "text": "A.1 Single Head Analysis"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 290,
+          "y": 424
+        },
+        {
+          "x": 1220,
+          "y": 424
+        },
+        {
+          "x": 1220,
+          "y": 1615
+        },
+        {
+          "x": 290,
+          "y": 1615
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='99' style='font-size:14px'>For analysing the attention weights, with multi-<br>head setup, we could either analyze attention heads<br>separately, or we could average all heads and have a<br>single attention graph. However, we should be care-<br>ful that treating attention heads separately could<br>potentially mean that we are assuming there is no<br>mixing of information between heads, which is not<br>true as we combine information of heads in the<br>position-wise feed-forward network on top of self-<br>attention in a transformer block. It is possible to<br>analyse the role of each head in isolation of all other<br>heads using attention rollout and attention flow. To<br>not make the assumption that there is no mixing<br>of information between heads, for computing the<br>\"input attention\", we will treat all the layers below<br>the layer of interest as single head layers, i.e., we<br>sum the attentions of all heads in the layers below.<br>For example, we can compute attention rollout for<br>head k at layer i as A(i, k) = A(i, k)A(i), where,<br>A(i) is attention rollout computed for layer i with<br>the single head assumption.</p>",
+      "id": 99,
+      "page": 8,
+      "text": "For analysing the attention weights, with multi-\nhead setup, we could either analyze attention heads\nseparately, or we could average all heads and have a\nsingle attention graph. However, we should be care-\nful that treating attention heads separately could\npotentially mean that we are assuming there is no\nmixing of information between heads, which is not\ntrue as we combine information of heads in the\nposition-wise feed-forward network on top of self-\nattention in a transformer block. It is possible to\nanalyse the role of each head in isolation of all other\nheads using attention rollout and attention flow. To\nnot make the assumption that there is no mixing\nof information between heads, for computing the\n\"input attention\", we will treat all the layers below\nthe layer of interest as single head layers, i.e., we\nsum the attentions of all heads in the layers below.\nFor example, we can compute attention rollout for\nhead k at layer i as A(i, k) = A(i, k)A(i), where,\nA(i) is attention rollout computed for layer i with\nthe single head assumption."
+    }
+  ]
+}

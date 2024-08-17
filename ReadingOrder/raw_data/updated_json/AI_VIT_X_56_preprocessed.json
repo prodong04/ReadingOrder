@@ -1,0 +1,2306 @@
+{
+    "id": "32b704aa-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1409.3215v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 781,
+                    "y": 453
+                },
+                {
+                    "x": 1770,
+                    "y": 453
+                },
+                {
+                    "x": 1770,
+                    "y": 608
+                },
+                {
+                    "x": 781,
+                    "y": 608
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Sequence to Sequence Learning<br>with Neural Networks</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Sequence to Sequence Learning with Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 597,
+                    "y": 777
+                },
+                {
+                    "x": 914,
+                    "y": 777
+                },
+                {
+                    "x": 914,
+                    "y": 883
+                },
+                {
+                    "x": 597,
+                    "y": 883
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Ilya Sutskever<br>Google</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Ilya Sutskever Google"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 542,
+                    "y": 826
+                },
+                {
+                    "x": 978,
+                    "y": 826
+                },
+                {
+                    "x": 978,
+                    "y": 916
+                },
+                {
+                    "x": 542,
+                    "y": 916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:14px'>ilyasu@google · com</p>",
+            "id": 2,
+            "page": 1,
+            "text": "ilyasu@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1079,
+                    "y": 779
+                },
+                {
+                    "x": 1549,
+                    "y": 779
+                },
+                {
+                    "x": 1549,
+                    "y": 918
+                },
+                {
+                    "x": 1079,
+                    "y": 918
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='3' style='font-size:18px'>Oriol Vinyals<br>Google<br>vinyals@google · com</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Oriol Vinyals Google vinyals@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1651,
+                    "y": 779
+                },
+                {
+                    "x": 2014,
+                    "y": 779
+                },
+                {
+                    "x": 2014,
+                    "y": 916
+                },
+                {
+                    "x": 1651,
+                    "y": 916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='4' style='font-size:18px'>Quoc V. Le<br>Google<br>qvl @google · com</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Quoc V. Le Google qvl @google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1176,
+                    "y": 1035
+                },
+                {
+                    "x": 1371,
+                    "y": 1035
+                },
+                {
+                    "x": 1371,
+                    "y": 1087
+                },
+                {
+                    "x": 1176,
+                    "y": 1087
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>Abstract</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 590,
+                    "y": 1147
+                },
+                {
+                    "x": 1959,
+                    "y": 1147
+                },
+                {
+                    "x": 1959,
+                    "y": 2119
+                },
+                {
+                    "x": 590,
+                    "y": 2119
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Deep Neural Networks (DNNs) are powerful models that have achieved excel-<br>lent performance on difficult learning tasks. Although DNNs work well whenever<br>large labeled training sets are available, they cannot be used to map sequences to<br>sequences. In this paper, we present a general end-to-end approach to sequence<br>learning that makes minimal assumptions on the sequence structure. Our method<br>uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence<br>to a vector of a fixed dimensionality, and then another deep LSTM to decode the<br>target sequence from the vector. Our main result is that on an English to French<br>translation task from the WMT' 14 dataset, the translations produced by the LSTM<br>achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU<br>score was penalized on out-of-vocabulary words. Additionally, the LSTM did not<br>have difficulty on long sentences. For comparison, a phrase-based SMT system<br>achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM<br>to rerank the 1000 hypotheses produced by the aforementioned SMT system, its<br>BLEU score increases to 36.5, which is close to the previous best result on this<br>task. The LSTM also learned sensible phrase and sentence representations that<br>are sensitive to word order and are relatively invariant to the active and the pas-<br>sive voice. Finally, we found that reversing the order of the words in all source<br>sentences (but not target sentences) improved the LSTM's performance markedly,<br>because doing SO introduced many short term dependencies between the source<br>and the target sentence which made the optimization problem easier.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT' 14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing SO introduced many short term dependencies between the source and the target sentence which made the optimization problem easier."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 447,
+                    "y": 2227
+                },
+                {
+                    "x": 798,
+                    "y": 2227
+                },
+                {
+                    "x": 798,
+                    "y": 2280
+                },
+                {
+                    "x": 447,
+                    "y": 2280
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:20px'>1 Introduction</p>",
+            "id": 7,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2337
+                },
+                {
+                    "x": 2109,
+                    "y": 2337
+                },
+                {
+                    "x": 2109,
+                    "y": 2803
+                },
+                {
+                    "x": 442,
+                    "y": 2803
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:18px'>Deep Neural Networks (DNNs) are extremely powerful machine learning models that achieve ex-<br>cellent performance on difficult problems such as speech recognition [13, 7] and visual object recog-<br>nition [19, 6, 21, 20]. DNNs are powerful because they can perform arbitrary parallel computation<br>for a modest number of steps. A surprising example of the power of DNNs is their ability to sort<br>N N-bit numbers using only 2 hidden layers of quadratic size [27]. So, while neural networks are<br>related to conventional statistical models, they learn an intricate computation. Furthermore, large<br>DNNs can be trained with supervised backpropagation whenever the labeled training set has enough<br>information to specify the network's parameters. Thus, if there exists a parameter setting of a large<br>DNN that achieves good results (for example, because humans can solve the task very rapidly),<br>supervised backpropagation will find these parameters and solve the problem.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Deep Neural Networks (DNNs) are extremely powerful machine learning models that achieve excellent performance on difficult problems such as speech recognition  and visual object recognition . DNNs are powerful because they can perform arbitrary parallel computation for a modest number of steps. A surprising example of the power of DNNs is their ability to sort N N-bit numbers using only 2 hidden layers of quadratic size . So, while neural networks are related to conventional statistical models, they learn an intricate computation. Furthermore, large DNNs can be trained with supervised backpropagation whenever the labeled training set has enough information to specify the network's parameters. Thus, if there exists a parameter setting of a large DNN that achieves good results (for example, because humans can solve the task very rapidly), supervised backpropagation will find these parameters and solve the problem."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2820
+                },
+                {
+                    "x": 2110,
+                    "y": 2820
+                },
+                {
+                    "x": 2110,
+                    "y": 3055
+                },
+                {
+                    "x": 441,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:16px'>Despite their flexibility and power, DNNs can only be applied to problems whose inputs and targets<br>can be sensibly encoded with vectors of fixed dimensionality. It is a significant limitation, since<br>many important problems are best expressed with sequences whose lengths are not known a-priori.<br>For example, speech recognition and machine translation are sequential problems. Likewise, ques-<br>tion answering can also be seen as mapping a sequence of words representing the question to a</p>",
+            "id": 9,
+            "page": 1,
+            "text": "Despite their flexibility and power, DNNs can only be applied to problems whose inputs and targets can be sensibly encoded with vectors of fixed dimensionality. It is a significant limitation, since many important problems are best expressed with sequences whose lengths are not known a-priori. For example, speech recognition and machine translation are sequential problems. Likewise, question answering can also be seen as mapping a sequence of words representing the question to a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 63,
+                    "y": 818
+                },
+                {
+                    "x": 150,
+                    "y": 818
+                },
+                {
+                    "x": 150,
+                    "y": 2245
+                },
+                {
+                    "x": 63,
+                    "y": 2245
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='10' style='font-size:14px'>2014<br>Dec<br>14<br>[cs.CL]<br>arXiv:1409.3215v3</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "2014 Dec 14 [cs.CL] arXiv:1409.3215v3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1261,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='11' style='font-size:14px'>1</footer>",
+            "id": 11,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 349
+                },
+                {
+                    "x": 2105,
+                    "y": 349
+                },
+                {
+                    "x": 2105,
+                    "y": 439
+                },
+                {
+                    "x": 442,
+                    "y": 439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:18px'>sequence of words representing the answer. It is therefore clear that a domain-independent method<br>that learns to map sequences to sequences would be useful.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "sequence of words representing the answer. It is therefore clear that a domain-independent method that learns to map sequences to sequences would be useful."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 465
+                },
+                {
+                    "x": 2107,
+                    "y": 465
+                },
+                {
+                    "x": 2107,
+                    "y": 878
+                },
+                {
+                    "x": 442,
+                    "y": 878
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:22px'>Sequences pose a challenge for DNNs because they require that the dimensionality of the inputs and<br>outputs is known and fixed. In this paper, we show that a straightforward application of the Long<br>Short-Term Memory (LSTM) architecture [16] can solve general sequence to sequence problems.<br>The idea is to use one LSTM to read the input sequence, one timestep at a time, to obtain large fixed-<br>dimensional vector representation, and then to use another LSTM to extract the output sequence<br>from that vector (fig. 1). The second LSTM is essentially a recurrent neural network language model<br>[28, 23, 30] except that it is conditioned on the input sequence. The LSTM's ability to successfully<br>learn on data with long range temporal dependencies makes it a natural choice for this application<br>due to the considerable time lag between the inputs and their corresponding outputs (fig. 1).</p>",
+            "id": 13,
+            "page": 2,
+            "text": "Sequences pose a challenge for DNNs because they require that the dimensionality of the inputs and outputs is known and fixed. In this paper, we show that a straightforward application of the Long Short-Term Memory (LSTM) architecture  can solve general sequence to sequence problems. The idea is to use one LSTM to read the input sequence, one timestep at a time, to obtain large fixeddimensional vector representation, and then to use another LSTM to extract the output sequence from that vector (fig. 1). The second LSTM is essentially a recurrent neural network language model  except that it is conditioned on the input sequence. The LSTM's ability to successfully learn on data with long range temporal dependencies makes it a natural choice for this application due to the considerable time lag between the inputs and their corresponding outputs (fig. 1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 898
+                },
+                {
+                    "x": 2108,
+                    "y": 898
+                },
+                {
+                    "x": 2108,
+                    "y": 1313
+                },
+                {
+                    "x": 441,
+                    "y": 1313
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:20px'>There have been a number of related attempts to address the general sequence to sequence learning<br>problem with neural networks. Our approach is closely related to Kalchbrenner and Blunsom [18]<br>who were the first to map the entire input sentence to vector, and is related to Cho et al. [5] although<br>the latter was used only for rescoring hypotheses produced by a phrase-based system. Graves [10]<br>introduced a novel differentiable attention mechanism that allows neural networks to focus on dif-<br>ferent parts of their input, and an elegant variant of this idea was successfully applied to machine<br>translation by Bahdanau et al. [2]. The Connectionist Sequence Classification is another popular<br>technique for mapping sequences to sequences with neural networks, but it assumes a monotonic<br>alignment between the inputs and the outputs [11].</p>",
+            "id": 14,
+            "page": 2,
+            "text": "There have been a number of related attempts to address the general sequence to sequence learning problem with neural networks. Our approach is closely related to Kalchbrenner and Blunsom  who were the first to map the entire input sentence to vector, and is related to Cho   although the latter was used only for rescoring hypotheses produced by a phrase-based system. Graves  introduced a novel differentiable attention mechanism that allows neural networks to focus on different parts of their input, and an elegant variant of this idea was successfully applied to machine translation by Bahdanau  . The Connectionist Sequence Classification is another popular technique for mapping sequences to sequences with neural networks, but it assumes a monotonic alignment between the inputs and the outputs ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 517,
+                    "y": 1349
+                },
+                {
+                    "x": 2036,
+                    "y": 1349
+                },
+                {
+                    "x": 2036,
+                    "y": 1667
+                },
+                {
+                    "x": 517,
+                    "y": 1667
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='15' style='font-size:14px' alt=\"W X Z <EOS>\nA B C <EOS> W X Y Z\" data-coord=\"top-left:(517,1349); bottom-right:(2036,1667)\" /></figure>",
+            "id": 15,
+            "page": 2,
+            "text": "W X Z <EOS> A B C <EOS> W X Y Z"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1709
+                },
+                {
+                    "x": 2109,
+                    "y": 1709
+                },
+                {
+                    "x": 2109,
+                    "y": 1879
+                },
+                {
+                    "x": 442,
+                    "y": 1879
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='16' style='font-size:16px'>Figure 1: Our model reads an input sentence \"ABC\" and produces \"WXYZ\" as the output sentence. The<br>model stops making predictions after outputting the end-of-sentence token. Note that the LSTM reads the<br>input sentence in reverse, because doing so introduces many short term dependencies in the data that make the<br>optimization problem much easier.</caption>",
+            "id": 16,
+            "page": 2,
+            "text": "Figure 1: Our model reads an input sentence \"ABC\" and produces \"WXYZ\" as the output sentence. The model stops making predictions after outputting the end-of-sentence token. Note that the LSTM reads the input sentence in reverse, because doing so introduces many short term dependencies in the data that make the optimization problem much easier."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1926
+                },
+                {
+                    "x": 2106,
+                    "y": 1926
+                },
+                {
+                    "x": 2106,
+                    "y": 2339
+                },
+                {
+                    "x": 442,
+                    "y": 2339
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:20px'>The main result of this work is the following. On the WMT' 14 English to French translation task,<br>we obtained a BLEU score of 34.81 by directly extracting translations from an ensemble of 5 deep<br>LSTMs (with 384M parameters and 8,000 dimensional state each) using a simple left-to-right beam-<br>search decoder. This is by far the best result achieved by direct translation with large neural net-<br>works. For comparison, the BLEU score of an SMT baseline on this dataset is 33.30 [29]. The 34.81<br>BLEU score was achieved by an LSTM with a vocabulary of 80k words, SO the score was penalized<br>whenever the reference translation contained a word not covered by these 80k. This result shows<br>that a relatively unoptimized small-vocabulary neural network architecture which has much room<br>for improvement outperforms a phrase-based SMT system.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "The main result of this work is the following. On the WMT' 14 English to French translation task, we obtained a BLEU score of 34.81 by directly extracting translations from an ensemble of 5 deep LSTMs (with 384M parameters and 8,000 dimensional state each) using a simple left-to-right beamsearch decoder. This is by far the best result achieved by direct translation with large neural networks. For comparison, the BLEU score of an SMT baseline on this dataset is 33.30 . The 34.81 BLEU score was achieved by an LSTM with a vocabulary of 80k words, SO the score was penalized whenever the reference translation contained a word not covered by these 80k. This result shows that a relatively unoptimized small-vocabulary neural network architecture which has much room for improvement outperforms a phrase-based SMT system."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2361
+                },
+                {
+                    "x": 2107,
+                    "y": 2361
+                },
+                {
+                    "x": 2107,
+                    "y": 2502
+                },
+                {
+                    "x": 441,
+                    "y": 2502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:20px'>Finally, we used the LSTM to rescore the publicly available 1000-best lists of the SMT baseline on<br>the same task [29]. By doing SO, we obtained a BLEU score of 36.5, which improves the baseline by<br>3.2 BLEU points and is close to the previous best published result on this task (which is 37.0 [9]).</p>",
+            "id": 18,
+            "page": 2,
+            "text": "Finally, we used the LSTM to rescore the publicly available 1000-best lists of the SMT baseline on the same task . By doing SO, we obtained a BLEU score of 36.5, which improves the baseline by 3.2 BLEU points and is close to the previous best published result on this task (which is 37.0 )."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2524
+                },
+                {
+                    "x": 2108,
+                    "y": 2524
+                },
+                {
+                    "x": 2108,
+                    "y": 2845
+                },
+                {
+                    "x": 441,
+                    "y": 2845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:20px'>Surprisingly, the LSTM did not suffer on very long sentences, despite the recent experience of other<br>researchers with related architectures [26]. We were able to do well on long sentences because we<br>reversed the order of words in the source sentence but not the target sentences in the training and test<br>set. By doing so, we introduced many short term dependencies that made the optimization problem<br>much simpler (see sec. 2 and 3.3). As a result, SGD could learn LSTMs that had no trouble with<br>long sentences. The simple trick of reversing the words in the source sentence is one of the key<br>technical contributions of this work.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Surprisingly, the LSTM did not suffer on very long sentences, despite the recent experience of other researchers with related architectures . We were able to do well on long sentences because we reversed the order of words in the source sentence but not the target sentences in the training and test set. By doing so, we introduced many short term dependencies that made the optimization problem much simpler (see sec. 2 and 3.3). As a result, SGD could learn LSTMs that had no trouble with long sentences. The simple trick of reversing the words in the source sentence is one of the key technical contributions of this work."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2870
+                },
+                {
+                    "x": 2109,
+                    "y": 2870
+                },
+                {
+                    "x": 2109,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>A useful property of the LSTM is that it learns to map an input sentence of variable length into<br>a fixed-dimensional vector representation. Given that translations tend to be paraphrases of the<br>source sentences, the translation objective encourages the LSTM to find sentence representations<br>that capture their meaning, as sentences with similar meanings are close to each other while different</p>",
+            "id": 20,
+            "page": 2,
+            "text": "A useful property of the LSTM is that it learns to map an input sentence of variable length into a fixed-dimensional vector representation. Given that translations tend to be paraphrases of the source sentences, the translation objective encourages the LSTM to find sentence representations that capture their meaning, as sentences with similar meanings are close to each other while different"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='21' style='font-size:18px'>2</footer>",
+            "id": 21,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 348
+                },
+                {
+                    "x": 2106,
+                    "y": 348
+                },
+                {
+                    "x": 2106,
+                    "y": 439
+                },
+                {
+                    "x": 442,
+                    "y": 439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>sentences meanings will be far. A qualitative evaluation supports this claim, showing that our model<br>is aware of word order and is fairly invariant to the active and passive voice.</p>",
+            "id": 22,
+            "page": 3,
+            "text": "sentences meanings will be far. A qualitative evaluation supports this claim, showing that our model is aware of word order and is fairly invariant to the active and passive voice."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 505
+                },
+                {
+                    "x": 755,
+                    "y": 505
+                },
+                {
+                    "x": 755,
+                    "y": 559
+                },
+                {
+                    "x": 443,
+                    "y": 559
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:22px'>2 The model</p>",
+            "id": 23,
+            "page": 3,
+            "text": "2 The model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 608
+                },
+                {
+                    "x": 2107,
+                    "y": 608
+                },
+                {
+                    "x": 2107,
+                    "y": 752
+                },
+                {
+                    "x": 442,
+                    "y": 752
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:16px'>The Recurrent Neural Network (RNN) [31, 28] is a natural generalization of feedforward neural<br>networks to sequences. Given a sequence of inputs (x1, · · · , XT), a standard RNN computes a<br>sequence of outputs (y1, · · · , YT) by iterating the following equation:</p>",
+            "id": 24,
+            "page": 3,
+            "text": "The Recurrent Neural Network (RNN)  is a natural generalization of feedforward neural networks to sequences. Given a sequence of inputs (x1, · · · , XT), a standard RNN computes a sequence of outputs (y1, · · · , YT) by iterating the following equation:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 922
+                },
+                {
+                    "x": 2109,
+                    "y": 922
+                },
+                {
+                    "x": 2109,
+                    "y": 1107
+                },
+                {
+                    "x": 441,
+                    "y": 1107
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:18px'>The RNN can easily map sequences to sequences whenever the alignment between the inputs the<br>outputs is known ahead of time. However, it is not clear how to apply an RNN to problems whose<br>input and the output sequences have different lengths with complicated and non-monotonic relation-<br>ships.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "The RNN can easily map sequences to sequences whenever the alignment between the inputs the outputs is known ahead of time. However, it is not clear how to apply an RNN to problems whose input and the output sequences have different lengths with complicated and non-monotonic relationships."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1129
+                },
+                {
+                    "x": 2107,
+                    "y": 1129
+                },
+                {
+                    "x": 2107,
+                    "y": 1452
+                },
+                {
+                    "x": 441,
+                    "y": 1452
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:20px'>The simplest strategy for general sequence learning is to map the input sequence to a fixed-sized<br>vector using one RNN, and then to map the vector to the target sequence with another RNN (this<br>approach has also been taken by Cho et al. [5]). While it could work in principle since the RNN is<br>provided with all the relevant information, it would be difficult to train the RNNs due to the resulting<br>long term dependencies (figure 1) [14, 4, 16, 15]. However, the Long Short-Term Memory (LSTM)<br>[16] is known to learn problems with long range temporal dependencies, SO an LSTM may succeed<br>in this setting.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "The simplest strategy for general sequence learning is to map the input sequence to a fixed-sized vector using one RNN, and then to map the vector to the target sequence with another RNN (this approach has also been taken by Cho  ). While it could work in principle since the RNN is provided with all the relevant information, it would be difficult to train the RNNs due to the resulting long term dependencies (figure 1) . However, the Long Short-Term Memory (LSTM)  is known to learn problems with long range temporal dependencies, SO an LSTM may succeed in this setting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1473
+                },
+                {
+                    "x": 2108,
+                    "y": 1473
+                },
+                {
+                    "x": 2108,
+                    "y": 1752
+                },
+                {
+                    "x": 443,
+                    "y": 1752
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:14px'>The goal of the LSTM is to estimate the conditional probability p(y1, · · · , YT' x1, · · · , XT) where<br>(x1 , · · · , XT) is an input sequence and y1, · · · , YT' is its corresponding output sequence whose length<br>T' may differ from T. The LSTM computes this conditional probability by first obtaining the fixed-<br>dimensional representation v of the input sequence (x1, · · · , XT) given by the last hidden state of the<br>LSTM, and then computing the probability of y1, · · · , YT' with a standard LSTM-LM formulation<br>whose initial hidden state is set to the representation v of x1, · · · , XT:</p>",
+            "id": 27,
+            "page": 3,
+            "text": "The goal of the LSTM is to estimate the conditional probability p(y1, · · · , YT' x1, · · · , XT) where (x1 , · · · , XT) is an input sequence and y1, · · · , YT' is its corresponding output sequence whose length T' may differ from T. The LSTM computes this conditional probability by first obtaining the fixeddimensional representation v of the input sequence (x1, · · · , XT) given by the last hidden state of the LSTM, and then computing the probability of y1, · · · , YT' with a standard LSTM-LM formulation whose initial hidden state is set to the representation v of x1, · · · , XT:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1941
+                },
+                {
+                    "x": 2107,
+                    "y": 1941
+                },
+                {
+                    "x": 2107,
+                    "y": 2216
+                },
+                {
+                    "x": 441,
+                    "y": 2216
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>In this equation, each p(yt|v, y1, · · · , yt-1) distribution is represented with a softmax over all the<br>words in the vocabulary. We use the LSTM formulation from Graves [10]. Note that we require that<br>each sentence ends with a special end-of-sentence symbol \"<EOS>\" , which enables the model to<br>define a distribution over sequences of all possible lengths. The overall scheme is outlined in figure<br>1, where the shown LSTM computes the representation of \"A\", \"B\" \"C\" ' <EOS>\" and then uses<br>, ,<br>' <EOS>\" ·<br>this representation to compute the probability of \"W\" , \"X\", \"Y\" \"Z\" ,<br>,</p>",
+            "id": 28,
+            "page": 3,
+            "text": "In this equation, each p(yt|v, y1, · · · , yt-1) distribution is represented with a softmax over all the words in the vocabulary. We use the LSTM formulation from Graves . Note that we require that each sentence ends with a special end-of-sentence symbol \"<EOS>\" , which enables the model to define a distribution over sequences of all possible lengths. The overall scheme is outlined in figure 1, where the shown LSTM computes the representation of \"A\", \"B\" \"C\" ' <EOS>\" and then uses , , ' <EOS>\" · this representation to compute the probability of \"W\" , \"X\", \"Y\" \"Z\" , ,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2240
+                },
+                {
+                    "x": 2108,
+                    "y": 2240
+                },
+                {
+                    "x": 2108,
+                    "y": 2700
+                },
+                {
+                    "x": 441,
+                    "y": 2700
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:18px'>Our actual models differ from the above description in three important ways. First, we used two<br>different LSTMs: one for the input sequence and another for the output sequence, because doing<br>so increases the number model parameters at negligible computational cost and makes it natural to<br>train the LSTM on multiple language pairs simultaneously [18]. Second, we found that deep LSTMs<br>significantly outperformed shallow LSTMs, SO we chose an LSTM with four layers. Third, we found<br>it extremely valuable to reverse the order of the words of the input sentence. So for example, instead<br>of mapping the sentence a, 6, c to the sentence a, �, 2, the LSTM is asked to map c, 6, a to a, B, 2,<br>where a, B, 2 is the translation of a, 6, c. This way, a is in close proximity to a, 6 is fairly close to B,<br>and SO on, a fact that makes it easy for SGD to \"establish communication\" between the input and the<br>output. We found this simple data transformation to greatly improve the performance of the LSTM.</p>",
+            "id": 29,
+            "page": 3,
+            "text": "Our actual models differ from the above description in three important ways. First, we used two different LSTMs: one for the input sequence and another for the output sequence, because doing so increases the number model parameters at negligible computational cost and makes it natural to train the LSTM on multiple language pairs simultaneously . Second, we found that deep LSTMs significantly outperformed shallow LSTMs, SO we chose an LSTM with four layers. Third, we found it extremely valuable to reverse the order of the words of the input sentence. So for example, instead of mapping the sentence a, 6, c to the sentence a, �, 2, the LSTM is asked to map c, 6, a to a, B, 2, where a, B, 2 is the translation of a, 6, c. This way, a is in close proximity to a, 6 is fairly close to B, and SO on, a fact that makes it easy for SGD to \"establish communication\" between the input and the output. We found this simple data transformation to greatly improve the performance of the LSTM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2765
+                },
+                {
+                    "x": 799,
+                    "y": 2765
+                },
+                {
+                    "x": 799,
+                    "y": 2819
+                },
+                {
+                    "x": 444,
+                    "y": 2819
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:22px'>3 Experiments</p>",
+            "id": 30,
+            "page": 3,
+            "text": "3 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2867
+                },
+                {
+                    "x": 2108,
+                    "y": 2867
+                },
+                {
+                    "x": 2108,
+                    "y": 3053
+                },
+                {
+                    "x": 442,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:18px'>We applied our method to the WMT' 14 English to French MT task in two ways. We used it to<br>directly translate the input sentence without using a reference SMT system and we it to rescore the<br>n-best lists of an SMT baseline. We report the accuracy of these translation methods, present sample<br>translations, and visualize the resulting sentence representation.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "We applied our method to the WMT' 14 English to French MT task in two ways. We used it to directly translate the input sentence without using a reference SMT system and we it to rescore the n-best lists of an SMT baseline. We report the accuracy of these translation methods, present sample translations, and visualize the resulting sentence representation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3131
+                },
+                {
+                    "x": 1289,
+                    "y": 3131
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1259,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='32' style='font-size:16px'>3</footer>",
+            "id": 32,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 345
+                },
+                {
+                    "x": 808,
+                    "y": 345
+                },
+                {
+                    "x": 808,
+                    "y": 392
+                },
+                {
+                    "x": 444,
+                    "y": 392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>3.1 Dataset details</p>",
+            "id": 33,
+            "page": 4,
+            "text": "3.1 Dataset details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 432
+                },
+                {
+                    "x": 2109,
+                    "y": 432
+                },
+                {
+                    "x": 2109,
+                    "y": 663
+                },
+                {
+                    "x": 441,
+                    "y": 663
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>We used the WMT' 14 English to French dataset. We trained our models on a subset of 12M sen-<br>tences consisting of 348M French words and 304M English words, which is a clean \"selected\"<br>subset from [29]. We chose this translation task and this specific training set subset because of the<br>public availability of a tokenized training and test set together with 1000-best lists from the baseline<br>SMT [29].</p>",
+            "id": 34,
+            "page": 4,
+            "text": "We used the WMT' 14 English to French dataset. We trained our models on a subset of 12M sentences consisting of 348M French words and 304M English words, which is a clean \"selected\" subset from . We chose this translation task and this specific training set subset because of the public availability of a tokenized training and test set together with 1000-best lists from the baseline SMT ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 688
+                },
+                {
+                    "x": 2108,
+                    "y": 688
+                },
+                {
+                    "x": 2108,
+                    "y": 871
+                },
+                {
+                    "x": 442,
+                    "y": 871
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>As typical neural language models rely on a vector representation for each word, we used a fixed<br>vocabulary for both languages. We used 160,000 of the most frequent words for the source language<br>and 80,000 of the most frequent words for the target language. Every out-of-vocabulary word was<br>replaced with a special \"UNK\" token.</p>",
+            "id": 35,
+            "page": 4,
+            "text": "As typical neural language models rely on a vector representation for each word, we used a fixed vocabulary for both languages. We used 160,000 of the most frequent words for the source language and 80,000 of the most frequent words for the target language. Every out-of-vocabulary word was replaced with a special \"UNK\" token."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 928
+                },
+                {
+                    "x": 981,
+                    "y": 928
+                },
+                {
+                    "x": 981,
+                    "y": 979
+                },
+                {
+                    "x": 443,
+                    "y": 979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:20px'>3.2 Decoding and Rescoring</p>",
+            "id": 36,
+            "page": 4,
+            "text": "3.2 Decoding and Rescoring"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1014
+                },
+                {
+                    "x": 2108,
+                    "y": 1014
+                },
+                {
+                    "x": 2108,
+                    "y": 1153
+                },
+                {
+                    "x": 441,
+                    "y": 1153
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:18px'>The core of our experiments involved training a large deep LSTM on many sentence pairs. We<br>trained it by maximizing the log probability of a correct translation T given the source sentence S,<br>SO the training objective is</p>",
+            "id": 37,
+            "page": 4,
+            "text": "The core of our experiments involved training a large deep LSTM on many sentence pairs. We trained it by maximizing the log probability of a correct translation T given the source sentence S, SO the training objective is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1282
+                },
+                {
+                    "x": 2107,
+                    "y": 1282
+                },
+                {
+                    "x": 2107,
+                    "y": 1374
+                },
+                {
+                    "x": 441,
+                    "y": 1374
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:18px'>where S is the training set. Once training is complete, we produce translations by finding the most<br>likely translation according to the LSTM:</p>",
+            "id": 38,
+            "page": 4,
+            "text": "where S is the training set. Once training is complete, we produce translations by finding the most likely translation according to the LSTM:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1505
+                },
+                {
+                    "x": 2108,
+                    "y": 1505
+                },
+                {
+                    "x": 2108,
+                    "y": 1916
+                },
+                {
+                    "x": 442,
+                    "y": 1916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:16px'>We search for the most likely translation using a simple left-to-right beam search decoder which<br>maintains a small number B of partial hypotheses, where a partial hypothesis is a prefix of some<br>translation. At each timestep we extend each partial hypothesis in the beam with every possible<br>word in the vocabulary. This greatly increases the number of the hypotheses SO we discard all but<br>the B most likely hypotheses according to the model's log probability. As soon as the \"<EOS>\"<br>symbol is appended to a hypothesis, it is removed from the beam and is added to the set of complete<br>hypotheses. While this decoder is approximate, it is simple to implement. Interestingly, our system<br>performs well even with a beam size of 1, and a beam of size 2 provides most of the benefits of beam<br>search (Table 1).</p>",
+            "id": 39,
+            "page": 4,
+            "text": "We search for the most likely translation using a simple left-to-right beam search decoder which maintains a small number B of partial hypotheses, where a partial hypothesis is a prefix of some translation. At each timestep we extend each partial hypothesis in the beam with every possible word in the vocabulary. This greatly increases the number of the hypotheses SO we discard all but the B most likely hypotheses according to the model's log probability. As soon as the \"<EOS>\" symbol is appended to a hypothesis, it is removed from the beam and is added to the set of complete hypotheses. While this decoder is approximate, it is simple to implement. Interestingly, our system performs well even with a beam size of 1, and a beam of size 2 provides most of the benefits of beam search (Table 1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1940
+                },
+                {
+                    "x": 2107,
+                    "y": 1940
+                },
+                {
+                    "x": 2107,
+                    "y": 2081
+                },
+                {
+                    "x": 442,
+                    "y": 2081
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:14px'>We also used the LSTM to rescore the 1000-best lists produced by the baseline system [29]. To<br>rescore an n-best list, we computed the log probability of every hypothesis with our LSTM and took<br>an even average with their score and the LSTM's score.</p>",
+            "id": 40,
+            "page": 4,
+            "text": "We also used the LSTM to rescore the 1000-best lists produced by the baseline system . To rescore an n-best list, we computed the log probability of every hypothesis with our LSTM and took an even average with their score and the LSTM's score."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2137
+                },
+                {
+                    "x": 1106,
+                    "y": 2137
+                },
+                {
+                    "x": 1106,
+                    "y": 2186
+                },
+                {
+                    "x": 442,
+                    "y": 2186
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:18px'>3.3 Reversing the Source Sentences</p>",
+            "id": 41,
+            "page": 4,
+            "text": "3.3 Reversing the Source Sentences"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2223
+                },
+                {
+                    "x": 2107,
+                    "y": 2223
+                },
+                {
+                    "x": 2107,
+                    "y": 2408
+                },
+                {
+                    "x": 441,
+                    "y": 2408
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:14px'>While the LSTM is capable of solving problems with long term dependencies, we discovered that<br>the LSTM learns much better when the source sentences are reversed (the target sentences are not<br>reversed). By doing so, the LSTM's test perplexity dropped from 5.8 to 4.7, and the test BLEU<br>scores of its decoded translations increased from 25.9 to 30.6.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "While the LSTM is capable of solving problems with long term dependencies, we discovered that the LSTM learns much better when the source sentences are reversed (the target sentences are not reversed). By doing so, the LSTM's test perplexity dropped from 5.8 to 4.7, and the test BLEU scores of its decoded translations increased from 25.9 to 30.6."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2891
+                },
+                {
+                    "x": 442,
+                    "y": 2891
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>While we do not have a complete explanation to this phenomenon, we believe that it is caused by<br>the introduction of many short term dependencies to the dataset. Normally, when we concatenate a<br>source sentence with a target sentence, each word in the source sentence is far from its corresponding<br>word in the target sentence. As a result, the problem has a large \"minimal time lag\" [17]. By<br>reversing the words in the source sentence, the average distance between corresponding words in<br>the source and target language is unchanged. However, the first few words in the source language<br>are now very close to the first few words in the target language, so the problem's minimal time lag is<br>greatly reduced. Thus, backpropagation has an easier time \"establishing communication\" between<br>the source sentence and the target sentence, which in turn results in substantially improved overall<br>performance.</p>",
+            "id": 43,
+            "page": 4,
+            "text": "While we do not have a complete explanation to this phenomenon, we believe that it is caused by the introduction of many short term dependencies to the dataset. Normally, when we concatenate a source sentence with a target sentence, each word in the source sentence is far from its corresponding word in the target sentence. As a result, the problem has a large \"minimal time lag\" . By reversing the words in the source sentence, the average distance between corresponding words in the source and target language is unchanged. However, the first few words in the source language are now very close to the first few words in the target language, so the problem's minimal time lag is greatly reduced. Thus, backpropagation has an easier time \"establishing communication\" between the source sentence and the target sentence, which in turn results in substantially improved overall performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2915
+                },
+                {
+                    "x": 2107,
+                    "y": 2915
+                },
+                {
+                    "x": 2107,
+                    "y": 3055
+                },
+                {
+                    "x": 441,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:14px'>Initially, we believed that reversing the input sentences would only lead to more confident predic-<br>tions in the early parts of the target sentence and to less confident predictions in the later parts. How-<br>ever, LSTMs trained on reversed source sentences did much better on long sentences than LSTMs</p>",
+            "id": 44,
+            "page": 4,
+            "text": "Initially, we believed that reversing the input sentences would only lead to more confident predictions in the early parts of the target sentence and to less confident predictions in the later parts. However, LSTMs trained on reversed source sentences did much better on long sentences than LSTMs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3169
+                },
+                {
+                    "x": 1259,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='45' style='font-size:14px'>4</footer>",
+            "id": 45,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 347
+                },
+                {
+                    "x": 2106,
+                    "y": 347
+                },
+                {
+                    "x": 2106,
+                    "y": 440
+                },
+                {
+                    "x": 441,
+                    "y": 440
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>trained on the raw source sentences (see sec. 3.7), which suggests that reversing the input sentences<br>results in LSTMs with better memory utilization.</p>",
+            "id": 46,
+            "page": 5,
+            "text": "trained on the raw source sentences (see sec. 3.7), which suggests that reversing the input sentences results in LSTMs with better memory utilization."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 495
+                },
+                {
+                    "x": 829,
+                    "y": 495
+                },
+                {
+                    "x": 829,
+                    "y": 543
+                },
+                {
+                    "x": 444,
+                    "y": 543
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:22px'>3.4 Training details</p>",
+            "id": 47,
+            "page": 5,
+            "text": "3.4 Training details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 580
+                },
+                {
+                    "x": 2108,
+                    "y": 580
+                },
+                {
+                    "x": 2108,
+                    "y": 950
+                },
+                {
+                    "x": 442,
+                    "y": 950
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:18px'>We found that the LSTM models are fairly easy to train. We used deep LSTMs with 4 layers,<br>with 1000 cells at each layer and 1000 dimensional word embeddings, with an input vocabulary<br>of 160,000 and an output vocabulary of 80,000. Thus the deep LSTM uses 8000 real numbers to<br>represent a sentence. We found deep LSTMs to significantly outperform shallow LSTMs, where<br>each additional layer reduced perplexity by nearly 10%, possibly due to their much larger hidden<br>state. We used a naive softmax over 80,000 words at each output. The resulting LSTM has 384M<br>parameters of which 64M are pure recurrent connections (32M for the \"encoder\" LSTM and 32M<br>for the \"decoder\" LSTM). The complete training details are given below:</p>",
+            "id": 48,
+            "page": 5,
+            "text": "We found that the LSTM models are fairly easy to train. We used deep LSTMs with 4 layers, with 1000 cells at each layer and 1000 dimensional word embeddings, with an input vocabulary of 160,000 and an output vocabulary of 80,000. Thus the deep LSTM uses 8000 real numbers to represent a sentence. We found deep LSTMs to significantly outperform shallow LSTMs, where each additional layer reduced perplexity by nearly 10%, possibly due to their much larger hidden state. We used a naive softmax over 80,000 words at each output. The resulting LSTM has 384M parameters of which 64M are pure recurrent connections (32M for the \"encoder\" LSTM and 32M for the \"decoder\" LSTM). The complete training details are given below:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 549,
+                    "y": 983
+                },
+                {
+                    "x": 2110,
+                    "y": 983
+                },
+                {
+                    "x": 2110,
+                    "y": 1801
+                },
+                {
+                    "x": 549,
+                    "y": 1801
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:18px'>● We initialized all of the LSTM's parameters with the uniform distribution between -0.08<br>and 0.08<br>● We used stochastic gradient descent without momentum, with a fixed learning rate of 0.7.<br>After 5 epochs, we begun halving the learning rate every half epoch. We trained our models<br>for a total of 7.5 epochs.<br>● We used batches of 128 sequences for the gradient and divided it the size of the batch<br>(namely, 128).<br>● Although LSTMs tend to not suffer from the vanishing gradient problem, they can have<br>exploding gradients. Thus we enforced a hard constraint on the norm of the gradient [10,<br>25] by scaling it when its norm exceeded a threshold. For each training batch, we compute<br>5g.<br>s = ||9||2, where g is the gradient divided by 128. If s > 5, we set g =<br>s<br>● Different sentences have different lengths. Most sentences are short (e.g., length 20-30)<br>but some sentences are long (e.g., length > 100), SO a minibatch of 128 randomly chosen<br>training sentences will have many short sentences and few long sentences, and as a result,<br>much of the computation in the minibatch is wasted. To address this problem, we made sure<br>that all sentences in a minibatch are roughly of the same length, yielding a 2x speedup.</p>",
+            "id": 49,
+            "page": 5,
+            "text": "● We initialized all of the LSTM's parameters with the uniform distribution between -0.08 and 0.08 ● We used stochastic gradient descent without momentum, with a fixed learning rate of 0.7. After 5 epochs, we begun halving the learning rate every half epoch. We trained our models for a total of 7.5 epochs. ● We used batches of 128 sequences for the gradient and divided it the size of the batch (namely, 128). ● Although LSTMs tend to not suffer from the vanishing gradient problem, they can have exploding gradients. Thus we enforced a hard constraint on the norm of the gradient  by scaling it when its norm exceeded a threshold. For each training batch, we compute 5g. s = ||9||2, where g is the gradient divided by 128. If s > 5, we set g = s ● Different sentences have different lengths. Most sentences are short (e.g., length 20-30) but some sentences are long (e.g., length > 100), SO a minibatch of 128 randomly chosen training sentences will have many short sentences and few long sentences, and as a result, much of the computation in the minibatch is wasted. To address this problem, we made sure that all sentences in a minibatch are roughly of the same length, yielding a 2x speedup."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1847
+                },
+                {
+                    "x": 805,
+                    "y": 1847
+                },
+                {
+                    "x": 805,
+                    "y": 1896
+                },
+                {
+                    "x": 444,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:18px'>3.5 Parallelization</p>",
+            "id": 50,
+            "page": 5,
+            "text": "3.5 Parallelization"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1934
+                },
+                {
+                    "x": 2108,
+                    "y": 1934
+                },
+                {
+                    "x": 2108,
+                    "y": 2349
+                },
+                {
+                    "x": 442,
+                    "y": 2349
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:16px'>A C++ implementation of deep LSTM with the configuration from the previous section on a sin-<br>gle GPU processes a speed of approximately 1,700 words per second. This was too slow for our<br>purposes, SO we parallelized our model using an 8-GPU machine. Each layer of the LSTM was<br>executed on a different GPU and communicated its activations to the next GPU / layer as soon as<br>they were computed. Our models have 4 layers of LSTMs, each of which resides on a separate<br>GPU. The remaining 4 GPUs were used to parallelize the softmax, SO each GPU was responsible<br>for multiplying by a 1000 x 20000 matrix. The resulting implementation achieved a speed of 6,300<br>(both English and French) words per second with a minibatch size of 128. Training took about a ten<br>days with this implementation.</p>",
+            "id": 51,
+            "page": 5,
+            "text": "A C++ implementation of deep LSTM with the configuration from the previous section on a single GPU processes a speed of approximately 1,700 words per second. This was too slow for our purposes, SO we parallelized our model using an 8-GPU machine. Each layer of the LSTM was executed on a different GPU and communicated its activations to the next GPU / layer as soon as they were computed. Our models have 4 layers of LSTMs, each of which resides on a separate GPU. The remaining 4 GPUs were used to parallelize the softmax, SO each GPU was responsible for multiplying by a 1000 x 20000 matrix. The resulting implementation achieved a speed of 6,300 (both English and French) words per second with a minibatch size of 128. Training took about a ten days with this implementation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2402
+                },
+                {
+                    "x": 930,
+                    "y": 2402
+                },
+                {
+                    "x": 930,
+                    "y": 2453
+                },
+                {
+                    "x": 442,
+                    "y": 2453
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:20px'>3.6 Experimental Results</p>",
+            "id": 52,
+            "page": 5,
+            "text": "3.6 Experimental Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2489
+                },
+                {
+                    "x": 2108,
+                    "y": 2489
+                },
+                {
+                    "x": 2108,
+                    "y": 2766
+                },
+                {
+                    "x": 442,
+                    "y": 2766
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:16px'>We used the cased BLEU score [24] to evaluate the quality of our translations. We computed our<br>BLEU scores using mul ti-bleu · pl 1 the tokenized predictions and ground truth. This way<br>on<br>of evaluating the BELU score is consistent with [5] and [2], and reproduces the 33.3 score of [29].<br>However, if we evaluate the best WMT' 14 system [9] (whose predictions can be downloaded from<br>statmt · org\\matrix) in this manner, we get 37.0, which is greater than the 35.8 reported by<br>statmt · org\\matrix.</p>",
+            "id": 53,
+            "page": 5,
+            "text": "We used the cased BLEU score  to evaluate the quality of our translations. We computed our BLEU scores using mul ti-bleu · pl 1 the tokenized predictions and ground truth. This way on of evaluating the BELU score is consistent with  and , and reproduces the 33.3 score of . However, if we evaluate the best WMT' 14 system  (whose predictions can be downloaded from statmt · org\\matrix) in this manner, we get 37.0, which is greater than the 35.8 reported by statmt · org\\matrix."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2789
+                },
+                {
+                    "x": 2108,
+                    "y": 2789
+                },
+                {
+                    "x": 2108,
+                    "y": 2977
+                },
+                {
+                    "x": 443,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:16px'>The results are presented in tables 1 and 2. Our best results are obtained with an ensemble of LSTMs<br>that differ in their random initializations and in the random order of minibatches. While the decoded<br>translations of the LSTM ensemble do not outperform the best WMT' 14 system, it is the first time<br>that a pure neural translation system outperforms a phrase-based SMT baseline on a large scale MT</p>",
+            "id": 54,
+            "page": 5,
+            "text": "The results are presented in tables 1 and 2. Our best results are obtained with an ensemble of LSTMs that differ in their random initializations and in the random order of minibatches. While the decoded translations of the LSTM ensemble do not outperform the best WMT' 14 system, it is the first time that a pure neural translation system outperforms a phrase-based SMT baseline on a large scale MT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 502,
+                    "y": 3007
+                },
+                {
+                    "x": 1824,
+                    "y": 3007
+                },
+                {
+                    "x": 1824,
+                    "y": 3052
+                },
+                {
+                    "x": 502,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:14px'>1There several variants of the BLEU score, and each variant is defined with a perl script.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "1There several variants of the BLEU score, and each variant is defined with a perl script."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3131
+                },
+                {
+                    "x": 1288,
+                    "y": 3131
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='56' style='font-size:14px'>5</footer>",
+            "id": 56,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 669,
+                    "y": 334
+                },
+                {
+                    "x": 1870,
+                    "y": 334
+                },
+                {
+                    "x": 1870,
+                    "y": 744
+                },
+                {
+                    "x": 669,
+                    "y": 744
+                }
+            ],
+            "category": "table",
+            "html": "<table id='57' style='font-size:14px'><tr><td>Method</td><td>test BLEU score (ntst14)</td></tr><tr><td>Bahdanau et al. [2]</td><td>28.45</td></tr><tr><td>Baseline System [29]</td><td>33.30</td></tr><tr><td>Single forward LSTM, beam size 12</td><td>26.17</td></tr><tr><td>Single reversed LSTM, beam size 12</td><td>30.59</td></tr><tr><td>Ensemble of 5 reversed LSTMs, beam size 1</td><td>33.00</td></tr><tr><td>Ensemble of 2 reversed LSTMs, beam size 12</td><td>33.27</td></tr><tr><td>Ensemble of 5 reversed LSTMs, beam size 2</td><td>34.50</td></tr><tr><td>Ensemble of 5 reversed LSTMs, beam size 12</td><td>34.81</td></tr></table>",
+            "id": 57,
+            "page": 6,
+            "text": "Method test BLEU score (ntst14)  Bahdanau   28.45  Baseline System  33.30  Single forward LSTM, beam size 12 26.17  Single reversed LSTM, beam size 12 30.59  Ensemble of 5 reversed LSTMs, beam size 1 33.00  Ensemble of 2 reversed LSTMs, beam size 12 33.27  Ensemble of 5 reversed LSTMs, beam size 2 34.50  Ensemble of 5 reversed LSTMs, beam size 12"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 774
+                },
+                {
+                    "x": 2108,
+                    "y": 774
+                },
+                {
+                    "x": 2108,
+                    "y": 917
+                },
+                {
+                    "x": 441,
+                    "y": 917
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='58' style='font-size:18px'>Table 1: The performance of the LSTM on WMT' 14 English to French test set (ntst14). Note that<br>an ensemble of 5 LSTMs with a beam of size 2 is cheaper than of a single LSTM with a beam of<br>size 12.</caption>",
+            "id": 58,
+            "page": 6,
+            "text": "Table 1: The performance of the LSTM on WMT' 14 English to French test set (ntst14). Note that an ensemble of 5 LSTMs with a beam of size 2 is cheaper than of a single LSTM with a beam of size 12."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 466,
+                    "y": 946
+                },
+                {
+                    "x": 2076,
+                    "y": 946
+                },
+                {
+                    "x": 2076,
+                    "y": 1328
+                },
+                {
+                    "x": 466,
+                    "y": 1328
+                }
+            ],
+            "category": "table",
+            "html": "<table id='59' style='font-size:14px'><tr><td>Method</td><td>test BLEU score (ntst14)</td></tr><tr><td>Baseline System [29]</td><td>33.30</td></tr><tr><td>Cho et al. [5]</td><td>34.54</td></tr><tr><td>Best WMT' 14 result [9]</td><td>37.0</td></tr><tr><td>Rescoring the baseline 1000-best with a single forward LSTM</td><td>35.61</td></tr><tr><td>Rescoring the baseline 1000-best with a single reversed LSTM</td><td>35.85</td></tr><tr><td>Rescoring the baseline 1000-best with an ensemble of 5 reversed LSTMs</td><td>36.5</td></tr><tr><td>Oracle Rescoring of the Baseline 1000-best lists</td><td>~45</td></tr></table>",
+            "id": 59,
+            "page": 6,
+            "text": "Method test BLEU score (ntst14)  Baseline System  33.30  Cho   34.54  Best WMT' 14 result  37.0  Rescoring the baseline 1000-best with a single forward LSTM 35.61  Rescoring the baseline 1000-best with a single reversed LSTM 35.85  Rescoring the baseline 1000-best with an ensemble of 5 reversed LSTMs 36.5  Oracle Rescoring of the Baseline 1000-best lists"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1358
+                },
+                {
+                    "x": 2106,
+                    "y": 1358
+                },
+                {
+                    "x": 2106,
+                    "y": 1451
+                },
+                {
+                    "x": 441,
+                    "y": 1451
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:18px'>Table 2: Methods that use neural networks together with an SMT system on the WMT' 14 English<br>to French test set (ntstl 4).</p>",
+            "id": 60,
+            "page": 6,
+            "text": "Table 2: Methods that use neural networks together with an SMT system on the WMT' 14 English to French test set (ntstl 4)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1538
+                },
+                {
+                    "x": 2107,
+                    "y": 1538
+                },
+                {
+                    "x": 2107,
+                    "y": 1677
+                },
+                {
+                    "x": 441,
+                    "y": 1677
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:18px'>task by a sizeable margin, despite its inability to handle out-of-vocabulary words. The LSTM is<br>within 0.5 BLEU points of the best WMT' 14 result if it is used to rescore the 1000-best list of the<br>baseline system.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "task by a sizeable margin, despite its inability to handle out-of-vocabulary words. The LSTM is within 0.5 BLEU points of the best WMT' 14 result if it is used to rescore the 1000-best list of the baseline system."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1733
+                },
+                {
+                    "x": 1093,
+                    "y": 1733
+                },
+                {
+                    "x": 1093,
+                    "y": 1783
+                },
+                {
+                    "x": 443,
+                    "y": 1783
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:20px'>3.7 Performance on long sentences</p>",
+            "id": 62,
+            "page": 6,
+            "text": "3.7 Performance on long sentences"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1819
+                },
+                {
+                    "x": 2104,
+                    "y": 1819
+                },
+                {
+                    "x": 2104,
+                    "y": 1915
+                },
+                {
+                    "x": 442,
+                    "y": 1915
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:20px'>We were surprised to discover that the LSTM did well on long sentences, which is shown quantita-<br>tively in figure 3. Table 3 presents several examples of long sentences and their translations.</p>",
+            "id": 63,
+            "page": 6,
+            "text": "We were surprised to discover that the LSTM did well on long sentences, which is shown quantitatively in figure 3. Table 3 presents several examples of long sentences and their translations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1971
+                },
+                {
+                    "x": 822,
+                    "y": 1971
+                },
+                {
+                    "x": 822,
+                    "y": 2018
+                },
+                {
+                    "x": 444,
+                    "y": 2018
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='64' style='font-size:22px'>3.8 Model Analysis</caption>",
+            "id": 64,
+            "page": 6,
+            "text": "3.8 Model Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 566,
+                    "y": 2107
+                },
+                {
+                    "x": 2029,
+                    "y": 2107
+                },
+                {
+                    "x": 2029,
+                    "y": 2627
+                },
+                {
+                    "x": 566,
+                    "y": 2627
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='65' style='font-size:14px' alt=\"15\n○ I was given a card by her in the garden\n4\n3 ○Mary admires John 10 ○ In the garden , she gave me a card\n○ She gave me a card in the garden\n2 O Mary is in love with John\n5\n1\n0 0\n○Mary respects John\n○John admires Mary\n-1\n-5 O She was given a card by me in the garden\n-2 ○John is in love with Mary\nO In the garden I gave her a card\n-3 -10\n-4\n-15\n-5 ○John respects Mary O I gave her a card in the garden\n-6 -20\n-8 -6 -4 -2 0 2 4 6 8 10 -15 -10 -5 0 5 10 15 20\" data-coord=\"top-left:(566,2107); bottom-right:(2029,2627)\" /></figure>",
+            "id": 65,
+            "page": 6,
+            "text": "15 ○ I was given a card by her in the garden 4 3 ○Mary admires John 10 ○ In the garden , she gave me a card ○ She gave me a card in the garden 2 O Mary is in love with John 5 1 0 0 ○Mary respects John ○John admires Mary -1 -5 O She was given a card by me in the garden -2 ○John is in love with Mary O In the garden I gave her a card -3 -10 -4 -15 -5 ○John respects Mary O I gave her a card in the garden -6 -20 -8 -6 -4 -2 0 2 4 6 8 10 -15 -10 -5 0 5 10 15 20"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2700
+                },
+                {
+                    "x": 2109,
+                    "y": 2700
+                },
+                {
+                    "x": 2109,
+                    "y": 2874
+                },
+                {
+                    "x": 441,
+                    "y": 2874
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='66' style='font-size:16px'>Figure 2: The figure shows a 2-dimensional PCA projection of the LSTM hidden states that are obtained<br>after processing the phrases in the figures. The phrases are clustered by meaning, which in these examples is<br>primarily a function of word order, which would be difficult to capture with a bag-of-words model. Notice that<br>both clusters have similar internal structure.</caption>",
+            "id": 66,
+            "page": 6,
+            "text": "Figure 2: The figure shows a 2-dimensional PCA projection of the LSTM hidden states that are obtained after processing the phrases in the figures. The phrases are clustered by meaning, which in these examples is primarily a function of word order, which would be difficult to capture with a bag-of-words model. Notice that both clusters have similar internal structure."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2914
+                },
+                {
+                    "x": 2108,
+                    "y": 2914
+                },
+                {
+                    "x": 2108,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>One of the attractive features of our model is its ability to turn a sequence of words into a vector<br>of fixed dimensionality. Figure 2 visualizes some of the learned representations. The figure clearly<br>shows that the representations are sensitive to the order of words, while being fairly insensitive to the</p>",
+            "id": 67,
+            "page": 6,
+            "text": "One of the attractive features of our model is its ability to turn a sequence of words into a vector of fixed dimensionality. Figure 2 visualizes some of the learned representations. The figure clearly shows that the representations are sensitive to the order of words, while being fairly insensitive to the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3136
+                },
+                {
+                    "x": 1289,
+                    "y": 3136
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='68' style='font-size:18px'>6</footer>",
+            "id": 68,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 331
+                },
+                {
+                    "x": 2126,
+                    "y": 331
+                },
+                {
+                    "x": 2126,
+                    "y": 1339
+                },
+                {
+                    "x": 441,
+                    "y": 1339
+                }
+            ],
+            "category": "table",
+            "html": "<table id='69' style='font-size:14px'><tr><td>Type</td><td>Sentence</td></tr><tr><td>Our model</td><td>Ulrich UNK , membre du conseil d' administration du constructeur automobile Audi , affirme qu' il s' agit d' une pratique courante depuis des annees pour que les telephones portables puissent etre collectes avant les reunions du conseil d' administration afin qu' ils ne soient pas utilises comme appareils d' ecoute a distance ·</td></tr><tr><td>Truth</td><td>Ulrich Hackenberg , membre du conseil d' administration du constructeur automobile Audi , declare que la collecte des telephones portables avant les reunions du conseil , afin qu' ils ne puissent pas etre utilises comme appareils d' ecoute a distance , est une pratique courante depuis des annees ·</td></tr><tr><td>Our model</td><td>' ' Les telephones cellulaires , qui sont vraiment une question , non seulement parce qu' ils pourraient potentiellement causer des interferences avec les appareils de navigation , mais nous savons , selon la FCC , qu' ils pourraient interferer avec les tours de telephone cellulaire lorsqu' ils sont dans 1' air \" dit UNK ,</td></tr><tr><td>Truth</td><td>\" Les telephones portables sont veritablement un probleme , non seulement parce qu' ils pourraient eventuellement creer des interferences avec les instruments de navigation , mais parce que nous savons , d' apres la FCC , qu' ils pourraient perturber les antennes-relais de telephonie mobile s' ils sont utilises a bord \" declare Rosenker · , a</td></tr><tr><td>Our model</td><td>\" sentiment de violence contre le corps d' un etre cher \" Avec la cremation , il y a un , \" reduit a une pile de cendres \" tres peu de temps au lieu d' un processus de qui sera en decomposition \" qui accompagnera les etapes du deuil , , ·</td></tr><tr><td>Truth</td><td>I1 y a , avec la cremation , violence faite au corps aime , \" une qui va etre \" reduit a un tas de cendres \" tres peu de temps , et non apres un processus de en decomposition , qui \" accompagnerait les phases du deuil \" ·</td></tr></table>",
+            "id": 69,
+            "page": 7,
+            "text": "Type Sentence  Our model Ulrich UNK , membre du conseil d' administration du constructeur automobile Audi , affirme qu' il s' agit d' une pratique courante depuis des annees pour que les telephones portables puissent etre collectes avant les reunions du conseil d' administration afin qu' ils ne soient pas utilises comme appareils d' ecoute a distance ·  Truth Ulrich Hackenberg , membre du conseil d' administration du constructeur automobile Audi , declare que la collecte des telephones portables avant les reunions du conseil , afin qu' ils ne puissent pas etre utilises comme appareils d' ecoute a distance , est une pratique courante depuis des annees ·  Our model ' ' Les telephones cellulaires , qui sont vraiment une question , non seulement parce qu' ils pourraient potentiellement causer des interferences avec les appareils de navigation , mais nous savons , selon la FCC , qu' ils pourraient interferer avec les tours de telephone cellulaire lorsqu' ils sont dans 1' air \" dit UNK ,  Truth \" Les telephones portables sont veritablement un probleme , non seulement parce qu' ils pourraient eventuellement creer des interferences avec les instruments de navigation , mais parce que nous savons , d' apres la FCC , qu' ils pourraient perturber les antennes-relais de telephonie mobile s' ils sont utilises a bord \" declare Rosenker · , a  Our model \" sentiment de violence contre le corps d' un etre cher \" Avec la cremation , il y a un , \" reduit a une pile de cendres \" tres peu de temps au lieu d' un processus de qui sera en decomposition \" qui accompagnera les etapes du deuil , , ·  Truth"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1388
+                },
+                {
+                    "x": 2108,
+                    "y": 1388
+                },
+                {
+                    "x": 2108,
+                    "y": 1484
+                },
+                {
+                    "x": 442,
+                    "y": 1484
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='70' style='font-size:20px'>Table 3: A few examples of long translations produced by the LSTM alongside the ground truth<br>translations. The reader can verify that the translations are sensible using Google translate.</caption>",
+            "id": 70,
+            "page": 7,
+            "text": "Table 3: A few examples of long translations produced by the LSTM alongside the ground truth translations. The reader can verify that the translations are sensible using Google translate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 592,
+                    "y": 1600
+                },
+                {
+                    "x": 1975,
+                    "y": 1600
+                },
+                {
+                    "x": 1975,
+                    "y": 2311
+                },
+                {
+                    "x": 592,
+                    "y": 2311
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='71' style='font-size:14px' alt=\"LSTM (34.8) LSTM (34.8)\n40 baseline (33.3) 40 baseline (33.3)\n35 35\nscore\nscore\nBLEU\nBLEU\n30 30\n25 25\n20 20\n4 7 8 12 17 22 28 35 79 0 500 1000 1500 2000 2500 3000 3500\ntest sentences sorted by their length test sentences sorted by average word frequency rank\" data-coord=\"top-left:(592,1600); bottom-right:(1975,2311)\" /></figure>",
+            "id": 71,
+            "page": 7,
+            "text": "LSTM (34.8) LSTM (34.8) 40 baseline (33.3) 40 baseline (33.3) 35 35 score score BLEU BLEU 30 30 25 25 20 20 4 7 8 12 17 22 28 35 79 0 500 1000 1500 2000 2500 3000 3500 test sentences sorted by their length test sentences sorted by average word frequency rank"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2373
+                },
+                {
+                    "x": 2111,
+                    "y": 2373
+                },
+                {
+                    "x": 2111,
+                    "y": 2596
+                },
+                {
+                    "x": 440,
+                    "y": 2596
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='72' style='font-size:16px'>Figure 3: The left plot shows the performance of our system as a function of sentence length, where the<br>x-axis corresponds to the test sentences sorted by their length and is marked by the actual sequence lengths.<br>There is no degradation on sentences with less than 35 words, there is only a minor degradation on the longest<br>sentences. The right plot shows the LSTM's performance on sentences with progressively more rare words,<br>where the x-axis corresponds to the test sentences sorted by their \"average word frequency rank\".</caption>",
+            "id": 72,
+            "page": 7,
+            "text": "Figure 3: The left plot shows the performance of our system as a function of sentence length, where the x-axis corresponds to the test sentences sorted by their length and is marked by the actual sequence lengths. There is no degradation on sentences with less than 35 words, there is only a minor degradation on the longest sentences. The right plot shows the LSTM's performance on sentences with progressively more rare words, where the x-axis corresponds to the test sentences sorted by their \"average word frequency rank\"."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2684
+                },
+                {
+                    "x": 2105,
+                    "y": 2684
+                },
+                {
+                    "x": 2105,
+                    "y": 2776
+                },
+                {
+                    "x": 441,
+                    "y": 2776
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:18px'>replacement of an active voice with a passive voice. The two-dimensional projections are obtained<br>using PCA.</p>",
+            "id": 73,
+            "page": 7,
+            "text": "replacement of an active voice with a passive voice. The two-dimensional projections are obtained using PCA."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2852
+                },
+                {
+                    "x": 814,
+                    "y": 2852
+                },
+                {
+                    "x": 814,
+                    "y": 2904
+                },
+                {
+                    "x": 442,
+                    "y": 2904
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:22px'>4 Related work</p>",
+            "id": 74,
+            "page": 7,
+            "text": "4 Related work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2959
+                },
+                {
+                    "x": 2109,
+                    "y": 2959
+                },
+                {
+                    "x": 2109,
+                    "y": 3054
+                },
+                {
+                    "x": 444,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>There is a large body of work on applications of neural networks to machine translation. So far,<br>the simplest and most effective way of applying an RNN-Language Model (RNNLM) [23] or a</p>",
+            "id": 75,
+            "page": 7,
+            "text": "There is a large body of work on applications of neural networks to machine translation. So far, the simplest and most effective way of applying an RNN-Language Model (RNNLM)  or a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='76' style='font-size:18px'>7</footer>",
+            "id": 76,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 346
+                },
+                {
+                    "x": 2105,
+                    "y": 346
+                },
+                {
+                    "x": 2105,
+                    "y": 439
+                },
+                {
+                    "x": 442,
+                    "y": 439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>Feedforward Neural Network Language Model (NNLM) [3] to an MT task is by rescoring the n-<br>best lists of a strong MT baseline [22], which reliably improves translation quality.</p>",
+            "id": 77,
+            "page": 8,
+            "text": "Feedforward Neural Network Language Model (NNLM)  to an MT task is by rescoring the nbest lists of a strong MT baseline , which reliably improves translation quality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 465
+                },
+                {
+                    "x": 2108,
+                    "y": 465
+                },
+                {
+                    "x": 2108,
+                    "y": 784
+                },
+                {
+                    "x": 441,
+                    "y": 784
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:14px'>More recently, researchers have begun to look into ways of including information about the source<br>language into the NNLM. Examples of this work include Auli et al. [1], who combine an NNLM<br>with a topic model of the input sentence, which improves rescoring performance. Devlin et al. [8]<br>followed a similar approach, but they incorporated their NNLM into the decoder of an MT system<br>and used the decoder's alignment information to provide the NNLM with the most useful words in<br>the input sentence. Their approach was highly successful and it achieved large improvements over<br>their baseline.</p>",
+            "id": 78,
+            "page": 8,
+            "text": "More recently, researchers have begun to look into ways of including information about the source language into the NNLM. Examples of this work include Auli  , who combine an NNLM with a topic model of the input sentence, which improves rescoring performance. Devlin   followed a similar approach, but they incorporated their NNLM into the decoder of an MT system and used the decoder's alignment information to provide the NNLM with the most useful words in the input sentence. Their approach was highly successful and it achieved large improvements over their baseline."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 808
+                },
+                {
+                    "x": 2107,
+                    "y": 808
+                },
+                {
+                    "x": 2107,
+                    "y": 1313
+                },
+                {
+                    "x": 442,
+                    "y": 1313
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:14px'>Our work is closely related to Kalchbrenner and Blunsom [18], who were the first to map the input<br>sentence into a vector and then back to a sentence, although they map sentences to vectors using<br>convolutional neural networks, which lose the ordering of the words. Similarly to this work, Cho et<br>al. [5] used an LSTM-like RNN architecture to map sentences into vectors and back, although their<br>primary focus was on integrating their neural network into an SMT system. Bahdanau et al. [2] also<br>attempted direct translations with a neural network that used an attention mechanism to overcome<br>the poor performance on long sentences experienced by Cho et al. [5] and achieved encouraging<br>results. Likewise, Pouget-Abadie et al. [26] attempted to address the memory problem of Cho et<br>al. [5] by translating pieces of the source sentence in way that produces smooth translations, which<br>is similar to a phrase-based approach. We suspect that they could achieve similar improvements by<br>simply training their networks on reversed source sentences.</p>",
+            "id": 79,
+            "page": 8,
+            "text": "Our work is closely related to Kalchbrenner and Blunsom , who were the first to map the input sentence into a vector and then back to a sentence, although they map sentences to vectors using convolutional neural networks, which lose the ordering of the words. Similarly to this work, Cho   used an LSTM-like RNN architecture to map sentences into vectors and back, although their primary focus was on integrating their neural network into an SMT system. Bahdanau   also attempted direct translations with a neural network that used an attention mechanism to overcome the poor performance on long sentences experienced by Cho   and achieved encouraging results. Likewise, Pouget-Abadie   attempted to address the memory problem of Cho   by translating pieces of the source sentence in way that produces smooth translations, which is similar to a phrase-based approach. We suspect that they could achieve similar improvements by simply training their networks on reversed source sentences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1334
+                },
+                {
+                    "x": 2108,
+                    "y": 1334
+                },
+                {
+                    "x": 2108,
+                    "y": 1521
+                },
+                {
+                    "x": 441,
+                    "y": 1521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:14px'>End-to-end training is also the focus of Hermann et al. [12], whose model represents the inputs and<br>outputs by feedforward networks, and map them to similar points in space. However, their approach<br>cannot generate translations directly: to get a translation, they need to do a look up for closest vector<br>in the pre-computed database of sentences, or to rescore a sentence.</p>",
+            "id": 80,
+            "page": 8,
+            "text": "End-to-end training is also the focus of Hermann  , whose model represents the inputs and outputs by feedforward networks, and map them to similar points in space. However, their approach cannot generate translations directly: to get a translation, they need to do a look up for closest vector in the pre-computed database of sentences, or to rescore a sentence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1612
+                },
+                {
+                    "x": 768,
+                    "y": 1612
+                },
+                {
+                    "x": 768,
+                    "y": 1666
+                },
+                {
+                    "x": 443,
+                    "y": 1666
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>5 Conclusion</p>",
+            "id": 81,
+            "page": 8,
+            "text": "5 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1733
+                },
+                {
+                    "x": 2108,
+                    "y": 1733
+                },
+                {
+                    "x": 2108,
+                    "y": 1963
+                },
+                {
+                    "x": 441,
+                    "y": 1963
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:16px'>In this work, we showed that a large deep LSTM, that has a limited vocabulary and that makes<br>almost no assumption about problem structure can outperform a standard SMT-based system whose<br>vocabulary is unlimited on a large-scale MT task. The success of our simple LSTM-based approach<br>on MT suggests that it should do well on many other sequence learning problems, provided they<br>have enough training data.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "In this work, we showed that a large deep LSTM, that has a limited vocabulary and that makes almost no assumption about problem structure can outperform a standard SMT-based system whose vocabulary is unlimited on a large-scale MT task. The success of our simple LSTM-based approach on MT suggests that it should do well on many other sequence learning problems, provided they have enough training data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1986
+                },
+                {
+                    "x": 2107,
+                    "y": 1986
+                },
+                {
+                    "x": 2107,
+                    "y": 2262
+                },
+                {
+                    "x": 441,
+                    "y": 2262
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:14px'>We were surprised by the extent of the improvement obtained by reversing the words in the source<br>sentences. We conclude that it is important to find a problem encoding that has the greatest number<br>of short term dependencies, as they make the learning problem much simpler. In particular, while<br>we were unable to train a standard RNN on the non-reversed translation problem (shown in fig. 1),<br>we believe that a standard RNN should be easily trainable when the source sentences are reversed<br>(although we did not verify it experimentally).</p>",
+            "id": 83,
+            "page": 8,
+            "text": "We were surprised by the extent of the improvement obtained by reversing the words in the source sentences. We conclude that it is important to find a problem encoding that has the greatest number of short term dependencies, as they make the learning problem much simpler. In particular, while we were unable to train a standard RNN on the non-reversed translation problem (shown in fig. 1), we believe that a standard RNN should be easily trainable when the source sentences are reversed (although we did not verify it experimentally)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2286
+                },
+                {
+                    "x": 2108,
+                    "y": 2286
+                },
+                {
+                    "x": 2108,
+                    "y": 2514
+                },
+                {
+                    "x": 442,
+                    "y": 2514
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:14px'>We were also surprised by the ability of the LSTM to correctly translate very long sentences. We<br>were initially convinced that the LSTM would fail on long sentences due to its limited memory,<br>and other researchers reported poor performance on long sentences with a model similar to ours<br>[5, 2, 26]. And yet, LSTMs trained on the reversed dataset had little difficulty translating long<br>sentences.</p>",
+            "id": 84,
+            "page": 8,
+            "text": "We were also surprised by the ability of the LSTM to correctly translate very long sentences. We were initially convinced that the LSTM would fail on long sentences due to its limited memory, and other researchers reported poor performance on long sentences with a model similar to ours . And yet, LSTMs trained on the reversed dataset had little difficulty translating long sentences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2538
+                },
+                {
+                    "x": 2107,
+                    "y": 2538
+                },
+                {
+                    "x": 2107,
+                    "y": 2723
+                },
+                {
+                    "x": 442,
+                    "y": 2723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:14px'>Most importantly, we demonstrated that a simple, straightforward and a relatively unoptimized ap-<br>proach can outperform an SMT system, SO further work will likely lead to even greater translation<br>accuracies. These results suggest that our approach will likely do well on other challenging sequence<br>to sequence problems.</p>",
+            "id": 85,
+            "page": 8,
+            "text": "Most importantly, we demonstrated that a simple, straightforward and a relatively unoptimized approach can outperform an SMT system, SO further work will likely lead to even greater translation accuracies. These results suggest that our approach will likely do well on other challenging sequence to sequence problems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2813
+                },
+                {
+                    "x": 917,
+                    "y": 2813
+                },
+                {
+                    "x": 917,
+                    "y": 2866
+                },
+                {
+                    "x": 444,
+                    "y": 2866
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:22px'>6 Acknowledgments</p>",
+            "id": 86,
+            "page": 8,
+            "text": "6 Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2924
+                },
+                {
+                    "x": 2107,
+                    "y": 2924
+                },
+                {
+                    "x": 2107,
+                    "y": 3053
+                },
+                {
+                    "x": 443,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:14px'>We thank Samy Bengio, Jeff Dean, Matthieu Devin, Geoffrey Hinton, Nal Kalchbrenner, Thang Luong, Wolf-<br>gang Macherey, Rajat Monga, Vincent Vanhoucke, Peng Xu, Wojciech Zaremba, and the Google Brain team<br>for useful comments and discussions.</p>",
+            "id": 87,
+            "page": 8,
+            "text": "We thank Samy Bengio, Jeff Dean, Matthieu Devin, Geoffrey Hinton, Nal Kalchbrenner, Thang Luong, Wolfgang Macherey, Rajat Monga, Vincent Vanhoucke, Peng Xu, Wojciech Zaremba, and the Google Brain team for useful comments and discussions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3169
+                },
+                {
+                    "x": 1260,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='88' style='font-size:14px'>8</footer>",
+            "id": 88,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 345
+                },
+                {
+                    "x": 650,
+                    "y": 345
+                },
+                {
+                    "x": 650,
+                    "y": 392
+                },
+                {
+                    "x": 444,
+                    "y": 392
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='89' style='font-size:20px'>References</caption>",
+            "id": 89,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 395
+                },
+                {
+                    "x": 2117,
+                    "y": 395
+                },
+                {
+                    "x": 2117,
+                    "y": 3051
+                },
+                {
+                    "x": 441,
+                    "y": 3051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:14px'>[1] M. Auli, M. Galley, C. Quirk, and G. Zweig. Joint language and translation modeling with recurrent<br>neural networks. In EMNLP, 2013.<br>[2] D. Bahdanau, K. Cho, and Y. Bengio. Neural machine translation by jointly learning to align and translate.<br>arXiv preprint arXiv: 1409.0473, 2014.<br>[3] Y. Bengio, R. Ducharme, P. Vincent, and C. Jauvin. A neural probabilistic language model. In Journal of<br>Machine Learning Research, pages 1137-1155, 2003.<br>[4] Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult.<br>IEEE Transactions on Neural Networks, 5(2):157-166, 1994.<br>[5] K. Cho, B. Merrienboer, C. Gulcehre, F. Bougares, H. Schwenk, and Y. Bengio. Learning phrase represen-<br>tations using RNN encoder-decoder for statistical machine translation. In Arxiv preprint arXiv:1406.1078,<br>2014.<br>[6] D. Ciresan, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classification.<br>In CVPR, 2012.<br>[7] G. E. Dahl, D. Yu, L. Deng, and A. Acero. Context-dependent pre-trained deep neural networks for large<br>vocabulary speech recognition. IEEE Transactions on Audio, Speech, and Language Processing - Special<br>Issue on Deep Learning for Speech and Language Processing, 2012.<br>[8] J. Devlin, R. Zbib, Z. Huang, T. Lamar, R. Schwartz, and J. Makhoul. Fast and robust neural network<br>joint models for statistical machine translation. In ACL, 2014.<br>[9] Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh's phrase-based machine<br>translation systems for wmt-14. In WMT, 2014.<br>[10] A. Graves. Generating sequences with recurrent neural networks. In Arxiv preprint arXiv:1308.0850,<br>2013.<br>[11] A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber. Connectionist temporal classification: labelling<br>unsegmented sequence data with recurrent neural networks. In ICML, 2006.<br>[12] K. M. Hermann and P. Blunsom. Multilingual distributed representations without word alignment. In<br>ICLR, 2014.<br>[13] G. Hinton, L. Deng, D. Yu, G. Dahl, A. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen,<br>T. Sainath, and B. Kingsbury. Deep neural networks for acoustic modeling in speech recognition. IEEE<br>Signal Processing Magazine, 2012.<br>[14] S. Hochreiter. Untersuchungen zu dynamischen neuronalen netzen. Master's thesis, Institut fur Infor-<br>matik, Technische Universitat, Munchen, 1991.<br>[15] S. Hochreiter, Y. Bengio, P. Frasconi, and J. Schmidhuber. Gradient flow in recurrent nets: the difficulty<br>of learning long-term dependencies, 2001.<br>[16] S. Hochreiter and J. Schmidhuber. Long short-term memory. Neural Computation, 1997.<br>[17] S. Hochreiter and J. Schmidhuber. LSTM can solve hard long time lag problems. 1997.<br>[18] N. Kalchbrenner and P. Blunsom. Recurrent continuous translation models. In EMNLP, 2013.<br>[19] A. Krizhevsky, I. Sutskever, and G. E. Hinton. ImageNet classification with deep convolutional neural<br>networks. In NIPS, 2012.<br>[20] Q.V. Le, M.A. Ranzato, R. Monga, M. Devin, K. Chen, G.S. Corrado, J. Dean, and A.Y. Ng. Building<br>high-level features using large scale unsupervised learning. In ICML, 2012.<br>[21] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition.<br>Proceedings of the IEEE, 1998.<br>[22] T. Mikolov. Statistical Language Models based on Neural Networks. PhD thesis, Brno University of<br>Technology, 2012.<br>[23] T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, and S. Khudanpur. Recurrent neural network based<br>language model. In INTERSPEECH, pages 1045-1048, 2010.<br>[24] K. Papineni, S. Roukos, T. Ward, and W. J. Zhu. BLEU: a method for automatic evaluation of machine<br>translation. In ACL, 2002.<br>[25] R. Pascanu, T. Mikolov, and Y. Bengio. On the difficulty of training recurrent neural networks. arXiv<br>preprint arXiv:1211.5063, 2012.<br>[26] J. Pouget-Abadie, D. Bahdanau, B. van Merrienboer, K. Cho, and Y. Bengio. Overcoming the<br>curse of sentence length for neural machine translation using automatic segmentation. arXiv preprint<br>arXiv:1409.1257, 2014.<br>[27] A. Razborov. On small depth threshold circuits. In Proc. 3rd Scandinavian Workshop on Algorithm<br>Theory, 1992.<br>[28] D. Rumelhart, G. E. Hinton, and R. J. Williams. Learning representations by back-propagating errors.<br>Nature, 323(6088):533-536, 1986.<br>[29] H. Schwenk. University le mans. http : / / www-li um · univ- 1 emans · fr/ ~schwenk / cslm_<br>joint_paper /, 2014. [Online; accessed 03-September-2014].<br>[30] M. Sundermeyer, R. Schluter, and H. Ney. LSTM neural networks for language modeling. In INTER-<br>SPEECH, 2010.<br>[31] P. Werbos. Backpropagation through time: what it does and how to do it. Proceedings of IEEE, 1990.</p>",
+            "id": 90,
+            "page": 9,
+            "text": " M. Auli, M. Galley, C. Quirk, and G. Zweig. Joint language and translation modeling with recurrent neural networks. In EMNLP, 2013.  D. Bahdanau, K. Cho, and Y. Bengio. Neural machine translation by jointly learning to align and translate. arXiv preprint arXiv: 1409.0473, 2014.  Y. Bengio, R. Ducharme, P. Vincent, and C. Jauvin. A neural probabilistic language model. In Journal of Machine Learning Research, pages 1137-1155, 2003.  Y. Bengio, P. Simard, and P. Frasconi. Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5(2):157-166, 1994.  K. Cho, B. Merrienboer, C. Gulcehre, F. Bougares, H. Schwenk, and Y. Bengio. Learning phrase representations using RNN encoder-decoder for statistical machine translation. In Arxiv preprint arXiv:1406.1078, 2014.  D. Ciresan, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classification. In CVPR, 2012.  G. E. Dahl, D. Yu, L. Deng, and A. Acero. Context-dependent pre-trained deep neural networks for large vocabulary speech recognition. IEEE Transactions on Audio, Speech, and Language Processing - Special Issue on Deep Learning for Speech and Language Processing, 2012.  J. Devlin, R. Zbib, Z. Huang, T. Lamar, R. Schwartz, and J. Makhoul. Fast and robust neural network joint models for statistical machine translation. In ACL, 2014.  Nadir Durrani, Barry Haddow, Philipp Koehn, and Kenneth Heafield. Edinburgh's phrase-based machine translation systems for wmt-14. In WMT, 2014.  A. Graves. Generating sequences with recurrent neural networks. In Arxiv preprint arXiv:1308.0850, 2013.  A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber. Connectionist temporal classification: labelling unsegmented sequence data with recurrent neural networks. In ICML, 2006.  K. M. Hermann and P. Blunsom. Multilingual distributed representations without word alignment. In ICLR, 2014.  G. Hinton, L. Deng, D. Yu, G. Dahl, A. Mohamed, N. Jaitly, A. Senior, V. Vanhoucke, P. Nguyen, T. Sainath, and B. Kingsbury. Deep neural networks for acoustic modeling in speech recognition. IEEE Signal Processing Magazine, 2012.  S. Hochreiter. Untersuchungen zu dynamischen neuronalen netzen. Master's thesis, Institut fur Informatik, Technische Universitat, Munchen, 1991.  S. Hochreiter, Y. Bengio, P. Frasconi, and J. Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies, 2001.  S. Hochreiter and J. Schmidhuber. Long short-term memory. Neural Computation, 1997.  S. Hochreiter and J. Schmidhuber. LSTM can solve hard long time lag problems. 1997.  N. Kalchbrenner and P. Blunsom. Recurrent continuous translation models. In EMNLP, 2013.  A. Krizhevsky, I. Sutskever, and G. E. Hinton. ImageNet classification with deep convolutional neural networks. In NIPS, 2012.  Q.V. Le, M.A. Ranzato, R. Monga, M. Devin, K. Chen, G.S. Corrado, J. Dean, and A.Y. Ng. Building high-level features using large scale unsupervised learning. In ICML, 2012.  Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 1998.  T. Mikolov. Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012.  T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, and S. Khudanpur. Recurrent neural network based language model. In INTERSPEECH, pages 1045-1048, 2010.  K. Papineni, S. Roukos, T. Ward, and W. J. Zhu. BLEU: a method for automatic evaluation of machine translation. In ACL, 2002.  R. Pascanu, T. Mikolov, and Y. Bengio. On the difficulty of training recurrent neural networks. arXiv preprint arXiv:1211.5063, 2012.  J. Pouget-Abadie, D. Bahdanau, B. van Merrienboer, K. Cho, and Y. Bengio. Overcoming the curse of sentence length for neural machine translation using automatic segmentation. arXiv preprint arXiv:1409.1257, 2014.  A. Razborov. On small depth threshold circuits. In Proc. 3rd Scandinavian Workshop on Algorithm Theory, 1992.  D. Rumelhart, G. E. Hinton, and R. J. Williams. Learning representations by back-propagating errors. Nature, 323(6088):533-536, 1986.  H. Schwenk. University le mans. http : / / www-li um · univ- 1 emans · fr/ ~schwenk / cslm_ joint_paper /, 2014. [Online; accessed 03-September-2014].  M. Sundermeyer, R. Schluter, and H. Ney. LSTM neural networks for language modeling. In INTERSPEECH, 2010.  P. Werbos. Backpropagation through time: what it does and how to do it. Proceedings of IEEE, 1990."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3132
+                },
+                {
+                    "x": 1290,
+                    "y": 3132
+                },
+                {
+                    "x": 1290,
+                    "y": 3167
+                },
+                {
+                    "x": 1260,
+                    "y": 3167
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='91' style='font-size:16px'>9</footer>",
+            "id": 91,
+            "page": 9,
+            "text": "9"
+        }
+    ]
+}

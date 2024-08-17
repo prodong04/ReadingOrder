@@ -1,0 +1,2206 @@
+{
+    "id": "32988962-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 520,
+                    "y": 451
+                },
+                {
+                    "x": 2035,
+                    "y": 451
+                },
+                {
+                    "x": 2035,
+                    "y": 607
+                },
+                {
+                    "x": 520,
+                    "y": 607
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>ImageNet Classification with Deep Convolutional<br>Neural Networks</p>",
+            "id": 0,
+            "page": 1,
+            "text": "ImageNet Classification with Deep Convolutional Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 470,
+                    "y": 776
+                },
+                {
+                    "x": 2078,
+                    "y": 776
+                },
+                {
+                    "x": 2078,
+                    "y": 921
+                },
+                {
+                    "x": 470,
+                    "y": 921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:14px'>Alex Krizhevsky Ilya Sutskever Geoffrey E. Hinton<br>University of Toronto University of Toronto University of Toronto<br>kriz@cs · utoronto · ca ilya@cs · utoronto · ca hinton@cs · utoronto · ca</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Alex Krizhevsky Ilya Sutskever Geoffrey E. Hinton University of Toronto University of Toronto University of Toronto kriz@cs · utoronto · ca ilya@cs · utoronto · ca hinton@cs · utoronto · ca"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1176,
+                    "y": 1034
+                },
+                {
+                    "x": 1372,
+                    "y": 1034
+                },
+                {
+                    "x": 1372,
+                    "y": 1088
+                },
+                {
+                    "x": 1176,
+                    "y": 1088
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 590,
+                    "y": 1148
+                },
+                {
+                    "x": 1964,
+                    "y": 1148
+                },
+                {
+                    "x": 1964,
+                    "y": 1752
+                },
+                {
+                    "x": 590,
+                    "y": 1752
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>We trained a large, deep convolutional neural network to classify the 1.2 million<br>high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 dif-<br>ferent classes. On the test data, we achieved top-1 and top-5 error rates of 37.5%<br>and 17.0% which is considerably better than the previous state-of-the-art. The<br>neural network, which has 60 million parameters and 650,000 neurons, consists<br>of five convolutional layers, some of which are followed by max-pooling layers,<br>and three fully-connected layers with a final 1000-way softmax. To make train-<br>ing faster, we used non-saturating neurons and a very efficient GPU implemen-<br>tation of the convolution operation. To reduce overfitting in the fully-connected<br>layers we employed a recently-developed regularization method called \"dropout\"<br>that proved to be very effective. We also entered a variant of this model in the<br>ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%,<br>compared to 26.2% achieved by the second-best entry.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0% which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully-connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully-connected layers we employed a recently-developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 447,
+                    "y": 1862
+                },
+                {
+                    "x": 799,
+                    "y": 1862
+                },
+                {
+                    "x": 799,
+                    "y": 1916
+                },
+                {
+                    "x": 447,
+                    "y": 1916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1974
+                },
+                {
+                    "x": 2110,
+                    "y": 1974
+                },
+                {
+                    "x": 2110,
+                    "y": 2573
+                },
+                {
+                    "x": 442,
+                    "y": 2573
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>Current approaches to object recognition make essential use of machine learning methods. To im-<br>prove their performance, we can collect larger datasets, learn more powerful models, and use bet-<br>ter techniques for preventing overfitting. Until recently, datasets of labeled images were relatively<br>small  on the order of tens of thousands of images (e.g., NORB [16], Caltech-101/256 [8, 9], and<br>CIFAR-10/100 [12]). Simple recognition tasks can be solved quite well with datasets of this size,<br>especially if they are augmented with label-preserving transformations. For example, the current-<br>best error rate on the MNIST digit-recognition task (<0.3%) approaches human performance [4].<br>But objects in realistic settings exhibit considerable variability, SO to learn to recognize them it is<br>necessary to use much larger training sets. And indeed, the shortcomings of small image datasets<br>have been widely recognized (e.g., Pinto et al. [21]), but it has only recently become possible to col-<br>lect labeled datasets with millions of images. The new larger datasets include LabelMe [23], which<br>consists of hundreds of thousands of fully-segmented images, and ImageNet [6], which consists of<br>over 15 million labeled high-resolution images in over 22,000 categories.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Current approaches to object recognition make essential use of machine learning methods. To improve their performance, we can collect larger datasets, learn more powerful models, and use better techniques for preventing overfitting. Until recently, datasets of labeled images were relatively small  on the order of tens of thousands of images (e.g., NORB , Caltech-101/256 , and CIFAR-10/100 ). Simple recognition tasks can be solved quite well with datasets of this size, especially if they are augmented with label-preserving transformations. For example, the currentbest error rate on the MNIST digit-recognition task (<0.3%) approaches human performance . But objects in realistic settings exhibit considerable variability, SO to learn to recognize them it is necessary to use much larger training sets. And indeed, the shortcomings of small image datasets have been widely recognized (e.g., Pinto  ), but it has only recently become possible to collect labeled datasets with millions of images. The new larger datasets include LabelMe , which consists of hundreds of thousands of fully-segmented images, and ImageNet , which consists of over 15 million labeled high-resolution images in over 22,000 categories."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2594
+                },
+                {
+                    "x": 2109,
+                    "y": 2594
+                },
+                {
+                    "x": 2109,
+                    "y": 3056
+                },
+                {
+                    "x": 441,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:18px'>To learn about thousands of objects from millions of images, we need a model with a large learning<br>capacity. However, the immense complexity of the object recognition task means that this prob-<br>lem cannot be specified even by a dataset as large as ImageNet, SO our model should also have lots<br>of prior knowledge to compensate for all the data we don't have. Convolutional neural networks<br>(CNNs) constitute one such class of models [16, 11, 13, 18, 15, 22, 26]. Their capacity can be con-<br>trolled by varying their depth and breadth, and they also make strong and mostly correct assumptions<br>about the nature of images (namely, stationarity of statistics and locality of pixel dependencies).<br>Thus, compared to standard feedforward neural networks with similarly-sized layers, CNNs have<br>much fewer connections and parameters and SO they are easier to train, while their theoretically-best<br>performance is likely to be only slightly worse.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "To learn about thousands of objects from millions of images, we need a model with a large learning capacity. However, the immense complexity of the object recognition task means that this problem cannot be specified even by a dataset as large as ImageNet, SO our model should also have lots of prior knowledge to compensate for all the data we don't have. Convolutional neural networks (CNNs) constitute one such class of models . Their capacity can be controlled by varying their depth and breadth, and they also make strong and mostly correct assumptions about the nature of images (namely, stationarity of statistics and locality of pixel dependencies). Thus, compared to standard feedforward neural networks with similarly-sized layers, CNNs have much fewer connections and parameters and SO they are easier to train, while their theoretically-best performance is likely to be only slightly worse."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1261,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='7' style='font-size:14px'>1</footer>",
+            "id": 7,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 345
+                },
+                {
+                    "x": 2108,
+                    "y": 345
+                },
+                {
+                    "x": 2108,
+                    "y": 578
+                },
+                {
+                    "x": 441,
+                    "y": 578
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:16px'>Despite the attractive qualities of CNNs, and despite the relative efficiency of their local architecture,<br>they have still been prohibitively expensive to apply in large scale to high-resolution images. Luck-<br>ily, current GPUs, paired with a highly-optimized implementation of 2D convolution, are powerful<br>enough to facilitate the training of interestingly-large CNNs, and recent datasets such as ImageNet<br>contain enough labeled examples to train such models without severe overfitting.</p>",
+            "id": 8,
+            "page": 2,
+            "text": "Despite the attractive qualities of CNNs, and despite the relative efficiency of their local architecture, they have still been prohibitively expensive to apply in large scale to high-resolution images. Luckily, current GPUs, paired with a highly-optimized implementation of 2D convolution, are powerful enough to facilitate the training of interestingly-large CNNs, and recent datasets such as ImageNet contain enough labeled examples to train such models without severe overfitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 600
+                },
+                {
+                    "x": 2108,
+                    "y": 600
+                },
+                {
+                    "x": 2108,
+                    "y": 1150
+                },
+                {
+                    "x": 441,
+                    "y": 1150
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:14px'>The specific contributions of this paper are as follows: we trained one of the largest convolutional<br>neural networks to date on the subsets of ImageNet used in the ILSVRC-2010 and ILSVRC-2012<br>competitions [2] and achieved by far the best results ever reported on these datasets. We wrote a<br>highly-optimized GPU implementation of 2D convolution and all the other operations inherent in<br>training convolutional neural networks, which we make available publicly1. Our network contains<br>a number of new and unusual features which improve its performance and reduce its training time,<br>which are detailed in Section 3. The size of our network made overfitting a significant problem, even<br>with 1.2 million labeled training examples, SO we used several effective techniques for preventing<br>overfitting, which are described in Section 4. Our final network contains five convolutional and<br>three fully-connected layers, and this depth seems to be important: we found that removing any<br>convolutional layer (each of which contains no more than 1% of the model's parameters) resulted in<br>inferior performance.</p>",
+            "id": 9,
+            "page": 2,
+            "text": "The specific contributions of this paper are as follows: we trained one of the largest convolutional neural networks to date on the subsets of ImageNet used in the ILSVRC-2010 and ILSVRC-2012 competitions  and achieved by far the best results ever reported on these datasets. We wrote a highly-optimized GPU implementation of 2D convolution and all the other operations inherent in training convolutional neural networks, which we make available publicly1. Our network contains a number of new and unusual features which improve its performance and reduce its training time, which are detailed in Section 3. The size of our network made overfitting a significant problem, even with 1.2 million labeled training examples, SO we used several effective techniques for preventing overfitting, which are described in Section 4. Our final network contains five convolutional and three fully-connected layers, and this depth seems to be important: we found that removing any convolutional layer (each of which contains no more than 1% of the model's parameters) resulted in inferior performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1173
+                },
+                {
+                    "x": 2108,
+                    "y": 1173
+                },
+                {
+                    "x": 2108,
+                    "y": 1360
+                },
+                {
+                    "x": 441,
+                    "y": 1360
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:14px'>In the end, the network's size is limited mainly by the amount of memory available on current GPUs<br>and by the amount of training time that we are willing to tolerate. Our network takes between five<br>and six days to train on two GTX 580 3GB GPUs. All of our experiments suggest that our results<br>can be improved simply by waiting for faster GPUs and bigger datasets to become available.</p>",
+            "id": 10,
+            "page": 2,
+            "text": "In the end, the network's size is limited mainly by the amount of memory available on current GPUs and by the amount of training time that we are willing to tolerate. Our network takes between five and six days to train on two GTX 580 3GB GPUs. All of our experiments suggest that our results can be improved simply by waiting for faster GPUs and bigger datasets to become available."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1432
+                },
+                {
+                    "x": 787,
+                    "y": 1432
+                },
+                {
+                    "x": 787,
+                    "y": 1489
+                },
+                {
+                    "x": 443,
+                    "y": 1489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:18px'>2 The Dataset</p>",
+            "id": 11,
+            "page": 2,
+            "text": "2 The Dataset"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1543
+                },
+                {
+                    "x": 2108,
+                    "y": 1543
+                },
+                {
+                    "x": 2108,
+                    "y": 1868
+                },
+                {
+                    "x": 442,
+                    "y": 1868
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:16px'>ImageNet is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000<br>categories. The images were collected from the web and labeled by human labelers using Ama-<br>zon's Mechanical Turk crowd-sourcing tool. Starting in 2010, as part of the Pascal Visual Object<br>Challenge, an annual competition called the ImageNet Large-Scale Visual Recognition Challenge<br>(ILSVRC) has been held. ILSVRC uses a subset of ImageNet with roughly 1000 images in each of<br>1000 categories. In all, there are roughly 1.2 million training images, 50,000 validation images, and<br>150,000 testing images.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "ImageNet is a dataset of over 15 million labeled high-resolution images belonging to roughly 22,000 categories. The images were collected from the web and labeled by human labelers using Amazon's Mechanical Turk crowd-sourcing tool. Starting in 2010, as part of the Pascal Visual Object Challenge, an annual competition called the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC) has been held. ILSVRC uses a subset of ImageNet with roughly 1000 images in each of 1000 categories. In all, there are roughly 1.2 million training images, 50,000 validation images, and 150,000 testing images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1888
+                },
+                {
+                    "x": 2107,
+                    "y": 1888
+                },
+                {
+                    "x": 2107,
+                    "y": 2167
+                },
+                {
+                    "x": 441,
+                    "y": 2167
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:14px'>ILSVRC-2010 is the only version of ILSVRC for which the test set labels are available, SO this is<br>the version on which we performed most of our experiments. Since we also entered our model in<br>the ILSVRC-2012 competition, in Section 6 we report our results on this version of the dataset as<br>well, for which test set labels are unavailable. On ImageNet, itis customary to report two error rates:<br>top-1 and top-5, where the top-5 error rate is the fraction of test images for which the correct label<br>is not among the five labels considered most probable by the model.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "ILSVRC-2010 is the only version of ILSVRC for which the test set labels are available, SO this is the version on which we performed most of our experiments. Since we also entered our model in the ILSVRC-2012 competition, in Section 6 we report our results on this version of the dataset as well, for which test set labels are unavailable. On ImageNet, itis customary to report two error rates: top-1 and top-5, where the top-5 error rate is the fraction of test images for which the correct label is not among the five labels considered most probable by the model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2189
+                },
+                {
+                    "x": 2108,
+                    "y": 2189
+                },
+                {
+                    "x": 2108,
+                    "y": 2467
+                },
+                {
+                    "x": 441,
+                    "y": 2467
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:14px'>ImageNet consists of variable-resolution images, while our system requires a constant input dimen-<br>sionality. Therefore, we down-sampled the images to a fixed resolution of 256 x 256. Given a<br>rectangular image, we first rescaled the image such that the shorter side was of length 256, and then<br>cropped out the central 256 x 256 patch from the resulting image. We did not pre-process the images<br>in any other way, except for subtracting the mean activity over the training set from each pixel. So<br>we trained our network on the (centered) raw RGB values of the pixels.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "ImageNet consists of variable-resolution images, while our system requires a constant input dimensionality. Therefore, we down-sampled the images to a fixed resolution of 256 x 256. Given a rectangular image, we first rescaled the image such that the shorter side was of length 256, and then cropped out the central 256 x 256 patch from the resulting image. We did not pre-process the images in any other way, except for subtracting the mean activity over the training set from each pixel. So we trained our network on the (centered) raw RGB values of the pixels."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2541
+                },
+                {
+                    "x": 895,
+                    "y": 2541
+                },
+                {
+                    "x": 895,
+                    "y": 2598
+                },
+                {
+                    "x": 443,
+                    "y": 2598
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:20px'>3 The Architecture</p>",
+            "id": 15,
+            "page": 2,
+            "text": "3 The Architecture"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2649
+                },
+                {
+                    "x": 2108,
+                    "y": 2649
+                },
+                {
+                    "x": 2108,
+                    "y": 2839
+                },
+                {
+                    "x": 442,
+                    "y": 2839
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:14px'>The architecture of our network is summarized in Figure 2. It contains eight learned layers<br>five convolutional and three fully-connected. Below, we describe some of the novel or unusual<br>features of our network's architecture. Sections 3.1-3.4 are sorted according to our estimation of<br>their importance, with the most important first.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "The architecture of our network is summarized in Figure 2. It contains eight learned layers five convolutional and three fully-connected. Below, we describe some of the novel or unusual features of our network's architecture. Sections 3.1-3.4 are sorted according to our estimation of their importance, with the most important first."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 500,
+                    "y": 3007
+                },
+                {
+                    "x": 1117,
+                    "y": 3007
+                },
+                {
+                    "x": 1117,
+                    "y": 3053
+                },
+                {
+                    "x": 500,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:22px'>\"http://code.google.com/p/ouda-convneo/</p>",
+            "id": 17,
+            "page": 2,
+            "text": "\"http://code.google.com/p/ouda-convneo/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3133
+                },
+                {
+                    "x": 1290,
+                    "y": 3133
+                },
+                {
+                    "x": 1290,
+                    "y": 3171
+                },
+                {
+                    "x": 1259,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='18' style='font-size:14px'>2</footer>",
+            "id": 18,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 345
+                },
+                {
+                    "x": 886,
+                    "y": 345
+                },
+                {
+                    "x": 886,
+                    "y": 396
+                },
+                {
+                    "x": 443,
+                    "y": 396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:22px'>3.1 ReLU Nonlinearity</p>",
+            "id": 19,
+            "page": 3,
+            "text": "3.1 ReLU Nonlinearity"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 442
+                },
+                {
+                    "x": 1356,
+                    "y": 442
+                },
+                {
+                    "x": 1356,
+                    "y": 1226
+                },
+                {
+                    "x": 443,
+                    "y": 1226
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>The standard way to model a neuron's output f as<br>a function of its input x is with f(x) = tanh (x)<br>or f(x) = (1 + e -x) -1 In terms of training time<br>with gradient descent, these saturating nonlinearities<br>are much slower than the non-saturating nonlinearity<br>f(x) = max(0, x). Following Nair and Hinton [20],<br>we refer to neurons with this nonlinearity as Rectified<br>Linear Units (ReLUs). Deep convolutional neural net-<br>works with ReLUs train several times faster than their<br>equivalents with tanh units. This is demonstrated in<br>Figure 1, which shows the number of iterations re-<br>quired to reach 25% training error on the CIFAR-10<br>dataset for a particular four-layer convolutional net-<br>work. This plot shows that we would not have been<br>able to experiment with such large neural networks for<br>this work if we had used traditional saturating neuron<br>models.</p>",
+            "id": 20,
+            "page": 3,
+            "text": "The standard way to model a neuron's output f as a function of its input x is with f(x) = tanh (x) or f(x) = (1 + e -x) -1 In terms of training time with gradient descent, these saturating nonlinearities are much slower than the non-saturating nonlinearity f(x) = max(0, x). Following Nair and Hinton , we refer to neurons with this nonlinearity as Rectified Linear Units (ReLUs). Deep convolutional neural networks with ReLUs train several times faster than their equivalents with tanh units. This is demonstrated in Figure 1, which shows the number of iterations required to reach 25% training error on the CIFAR-10 dataset for a particular four-layer convolutional network. This plot shows that we would not have been able to experiment with such large neural networks for this work if we had used traditional saturating neuron models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1248
+                },
+                {
+                    "x": 1355,
+                    "y": 1248
+                },
+                {
+                    "x": 1355,
+                    "y": 1755
+                },
+                {
+                    "x": 441,
+                    "y": 1755
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:18px'>We are not the first to consider alternatives to tradi-<br>tional neuron models in CNNs. For example, Jarrett<br>et al. [11] claim that the nonlinearity f(x) = |tanh(x)|<br>works particularly well with their type of contrast nor-<br>malization followed by local average pooling on the<br>Caltech-101 dataset. However, on this dataset the pri-<br>mary concern is preventing overfitting, SO the effect<br>they are observing is different from the accelerated<br>ability to fit the training set which we report when us-<br>ing ReLUs. Faster learning has a great influence on the<br>performance of large models trained on large datasets.</p>",
+            "id": 21,
+            "page": 3,
+            "text": "We are not the first to consider alternatives to traditional neuron models in CNNs. For example, Jarrett   claim that the nonlinearity f(x) = |tanh(x)| works particularly well with their type of contrast normalization followed by local average pooling on the Caltech-101 dataset. However, on this dataset the primary concern is preventing overfitting, SO the effect they are observing is different from the accelerated ability to fit the training set which we report when using ReLUs. Faster learning has a great influence on the performance of large models trained on large datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1381,
+                    "y": 483
+                },
+                {
+                    "x": 2108,
+                    "y": 483
+                },
+                {
+                    "x": 2108,
+                    "y": 1085
+                },
+                {
+                    "x": 1381,
+                    "y": 1085
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='22' style='font-size:14px' alt=\"0.75\n0.5\nrate\nerror\nTraining\n0.25\n0\n0 5 10 15 20 25 30 35 40\nEpochs\" data-coord=\"top-left:(1381,483); bottom-right:(2108,1085)\" /></figure>",
+            "id": 22,
+            "page": 3,
+            "text": "0.75 0.5 rate error Training 0.25 0 0 5 10 15 20 25 30 35 40 Epochs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1846
+                },
+                {
+                    "x": 1033,
+                    "y": 1846
+                },
+                {
+                    "x": 1033,
+                    "y": 1897
+                },
+                {
+                    "x": 442,
+                    "y": 1897
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:20px'>3.2 Training on Multiple GPUs</p>",
+            "id": 23,
+            "page": 3,
+            "text": "3.2 Training on Multiple GPUs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1383,
+                    "y": 1131
+                },
+                {
+                    "x": 2107,
+                    "y": 1131
+                },
+                {
+                    "x": 2107,
+                    "y": 1685
+                },
+                {
+                    "x": 1383,
+                    "y": 1685
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='24' style='font-size:14px'>Figure 1: A four-layer convolutional neural<br>network with ReLUs (solid line) reaches a 25%<br>training error rate on CIFAR-10 six times faster<br>than an equivalent network with tanh neurons<br>(dashed line). The learning rates for each net-<br>work were chosen independently to make train-<br>ing as fast as possible. No regularization of<br>any kind was employed. The magnitude of the<br>effect demonstrated here varies with network<br>architecture, but networks with ReLUs consis-<br>tently learn several times faster than equivalents<br>with saturating neurons.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "Figure 1: A four-layer convolutional neural network with ReLUs (solid line) reaches a 25% training error rate on CIFAR-10 six times faster than an equivalent network with tanh neurons (dashed line). The learning rates for each network were chosen independently to make training as fast as possible. No regularization of any kind was employed. The magnitude of the effect demonstrated here varies with network architecture, but networks with ReLUs consistently learn several times faster than equivalents with saturating neurons."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1949
+                },
+                {
+                    "x": 2108,
+                    "y": 1949
+                },
+                {
+                    "x": 2108,
+                    "y": 2455
+                },
+                {
+                    "x": 441,
+                    "y": 2455
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:18px'>A single GTX 580 GPU has only 3GB of memory, which limits the maximum size of the networks<br>that can be trained on it. It turns out that 1.2 million training examples are enough to train networks<br>which are too big to fit on one GPU. Therefore we spread the net across two GPUs. Current GPUs<br>are particularly well-suited to cross-GPU parallelization, as they are able to read from and write to<br>one another's memory directly, without going through host machine memory. The parallelization<br>scheme that we employ essentially puts half of the kernels (or neurons) on each GPU, with one<br>additional trick: the GPUs communicate only in certain layers. This means that, for example, the<br>kernels of layer 3 take input from all kernel maps in layer 2. However, kernels in layer 4 take input<br>only from those kernel maps in layer 3 which reside on the same GPU. Choosing the pattern of<br>connectivity is a problem for cross-validation, but this allows us to precisely tune the amount of<br>communication until it is an acceptable fraction of the amount of computation.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "A single GTX 580 GPU has only 3GB of memory, which limits the maximum size of the networks that can be trained on it. It turns out that 1.2 million training examples are enough to train networks which are too big to fit on one GPU. Therefore we spread the net across two GPUs. Current GPUs are particularly well-suited to cross-GPU parallelization, as they are able to read from and write to one another's memory directly, without going through host machine memory. The parallelization scheme that we employ essentially puts half of the kernels (or neurons) on each GPU, with one additional trick: the GPUs communicate only in certain layers. This means that, for example, the kernels of layer 3 take input from all kernel maps in layer 2. However, kernels in layer 4 take input only from those kernel maps in layer 3 which reside on the same GPU. Choosing the pattern of connectivity is a problem for cross-validation, but this allows us to precisely tune the amount of communication until it is an acceptable fraction of the amount of computation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2475
+                },
+                {
+                    "x": 2107,
+                    "y": 2475
+                },
+                {
+                    "x": 2107,
+                    "y": 2708
+                },
+                {
+                    "x": 441,
+                    "y": 2708
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:18px'>The resultant architecture is somewhat similar to that of the \"columnar\" CNN employed by Cire�an<br>et al. [5], except that our columns are not independent (see Figure 2). This scheme reduces our top-1<br>and top-5 error rates by 1.7% and 1.2%, respectively, as compared with a net with half as many<br>kernels in each convolutional layer trained on one GPU. The two-GPU net takes slightly less time<br>to train than the one-GPU net2.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "The resultant architecture is somewhat similar to that of the \"columnar\" CNN employed by Cire�an  , except that our columns are not independent (see Figure 2). This scheme reduces our top-1 and top-5 error rates by 1.7% and 1.2%, respectively, as compared with a net with half as many kernels in each convolutional layer trained on one GPU. The two-GPU net takes slightly less time to train than the one-GPU net2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2797
+                },
+                {
+                    "x": 2107,
+                    "y": 2797
+                },
+                {
+                    "x": 2107,
+                    "y": 3051
+                },
+                {
+                    "x": 442,
+                    "y": 3051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:14px'>2The one-GPU net actually has the same number of kernels as the two-GPU net in the final convolutional<br>layer. This is because most of the net's parameters are in the first fully-connected layer, which takes the last<br>convolutional layer as input. So to make the two nets have approximately the same number of parameters, we<br>did not halve the size of the final convolutional layer (nor the fully-conneced layers which follow). Therefore<br>this comparison is biased in favor of the one-GPU net, since it is bigger than \"half the size\" of the two-GPU<br>net.</p>",
+            "id": 27,
+            "page": 3,
+            "text": "2The one-GPU net actually has the same number of kernels as the two-GPU net in the final convolutional layer. This is because most of the net's parameters are in the first fully-connected layer, which takes the last convolutional layer as input. So to make the two nets have approximately the same number of parameters, we did not halve the size of the final convolutional layer (nor the fully-conneced layers which follow). Therefore this comparison is biased in favor of the one-GPU net, since it is bigger than \"half the size\" of the two-GPU net."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3171
+                },
+                {
+                    "x": 1261,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='28' style='font-size:16px'>3</footer>",
+            "id": 28,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 345
+                },
+                {
+                    "x": 1090,
+                    "y": 345
+                },
+                {
+                    "x": 1090,
+                    "y": 395
+                },
+                {
+                    "x": 442,
+                    "y": 395
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:18px'>3.3 Local Response Normalization</p>",
+            "id": 29,
+            "page": 4,
+            "text": "3.3 Local Response Normalization"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 430
+                },
+                {
+                    "x": 2110,
+                    "y": 430
+                },
+                {
+                    "x": 2110,
+                    "y": 716
+                },
+                {
+                    "x": 442,
+                    "y": 716
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:18px'>ReLUs have the desirable property that they do not require input normalization to prevent them<br>from saturating. If at least some training examples produce a positive input to a ReLU, learning will<br>happen in that neuron. However, we still find that the following local normalization scheme aids<br>generalization. Denoting by a2x,y the activity of a neuron computed by applying kernel i at position<br>(x, y) and then applying the ReLU nonlinearity, the response-normalized activity bx,y is given by<br>the expression</p>",
+            "id": 30,
+            "page": 4,
+            "text": "ReLUs have the desirable property that they do not require input normalization to prevent them from saturating. If at least some training examples produce a positive input to a ReLU, learning will happen in that neuron. However, we still find that the following local normalization scheme aids generalization. Denoting by a2x,y the activity of a neuron computed by applying kernel i at position (x, y) and then applying the ReLU nonlinearity, the response-normalized activity bx,y is given by the expression"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 884
+                },
+                {
+                    "x": 2108,
+                    "y": 884
+                },
+                {
+                    "x": 2108,
+                    "y": 1210
+                },
+                {
+                    "x": 441,
+                    "y": 1210
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>where the sum runs over n \"adjacent\" kernel maps at the same spatial position, and N is the total<br>number of kernels in the layer. The ordering of the kernel maps is of course arbitrary and determined<br>before training begins. This sort of response normalization implements a form of lateral inhibition<br>inspired by the type found in real neurons, creating competition for big activities amongst neuron<br>outputs computed using different kernels. The constants k, n, a, and B are hyper-parameters whose<br>values are determined using a validation set; we used k = 2, n = 5, a = 10-4 and B = 0.75. We<br>,<br>applied this normalization after applying the ReLU nonlinearity in certain layers (see Section 3.5).</p>",
+            "id": 31,
+            "page": 4,
+            "text": "where the sum runs over n \"adjacent\" kernel maps at the same spatial position, and N is the total number of kernels in the layer. The ordering of the kernel maps is of course arbitrary and determined before training begins. This sort of response normalization implements a form of lateral inhibition inspired by the type found in real neurons, creating competition for big activities amongst neuron outputs computed using different kernels. The constants k, n, a, and B are hyper-parameters whose values are determined using a validation set; we used k = 2, n = 5, a = 10-4 and B = 0.75. We , applied this normalization after applying the ReLU nonlinearity in certain layers (see Section 3.5)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1229
+                },
+                {
+                    "x": 2108,
+                    "y": 1229
+                },
+                {
+                    "x": 2108,
+                    "y": 1461
+                },
+                {
+                    "x": 441,
+                    "y": 1461
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:14px'>This scheme bears some resemblance to the local contrast normalization scheme of Jarrett et al. [11],<br>but ours would be more correctly termed \"brightness normalization\", since we do not subtract the<br>mean activity. Response normalization reduces our top-1 and top-5 error rates by 1.4% and 1.2%,<br>respectively. We also verified the effectiveness of this scheme on the CIFAR-10 dataset: a four-layer<br>CNN achieved a 13% test error rate without normalization and 11% with normalization3</p>",
+            "id": 32,
+            "page": 4,
+            "text": "This scheme bears some resemblance to the local contrast normalization scheme of Jarrett  , but ours would be more correctly termed \"brightness normalization\", since we do not subtract the mean activity. Response normalization reduces our top-1 and top-5 error rates by 1.4% and 1.2%, respectively. We also verified the effectiveness of this scheme on the CIFAR-10 dataset: a four-layer CNN achieved a 13% test error rate without normalization and 11% with normalization3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1514
+                },
+                {
+                    "x": 916,
+                    "y": 1514
+                },
+                {
+                    "x": 916,
+                    "y": 1565
+                },
+                {
+                    "x": 442,
+                    "y": 1565
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:20px'>3.4 Overlapping Pooling</p>",
+            "id": 33,
+            "page": 4,
+            "text": "3.4 Overlapping Pooling"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1598
+                },
+                {
+                    "x": 2108,
+                    "y": 1598
+                },
+                {
+                    "x": 2108,
+                    "y": 2062
+                },
+                {
+                    "x": 442,
+                    "y": 2062
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>Pooling layers in CNNs summarize the outputs of neighboring groups of neurons in the same kernel<br>map. Traditionally, the neighborhoods summarized by adjacent pooling units do not overlap (e.g.,<br>[17, 11, 4]). To be more precise, a pooling layer can be thought of as consisting of a grid of pooling<br>units spaced s pixels apart, each summarizing a neighborhood of size 2 x 2 centered at the location<br>of the pooling unit. If we set s = z, we obtain traditional local pooling as commonly employed<br>in CNNs. If we set s < z, we obtain overlapping pooling. This is what we use throughout our<br>network, with s = 2 and 2 = 3. This scheme reduces the top-1 and top-5 error rates by 0.4% and<br>0.3%, respectively, as compared with the non-overlapping scheme s = 2, 2 = 2, which produces<br>output of equivalent dimensions. We generally observe during training that models with overlapping<br>pooling find it slightly more difficult to overfit.</p>",
+            "id": 34,
+            "page": 4,
+            "text": "Pooling layers in CNNs summarize the outputs of neighboring groups of neurons in the same kernel map. Traditionally, the neighborhoods summarized by adjacent pooling units do not overlap (e.g., ). To be more precise, a pooling layer can be thought of as consisting of a grid of pooling units spaced s pixels apart, each summarizing a neighborhood of size 2 x 2 centered at the location of the pooling unit. If we set s = z, we obtain traditional local pooling as commonly employed in CNNs. If we set s < z, we obtain overlapping pooling. This is what we use throughout our network, with s = 2 and 2 = 3. This scheme reduces the top-1 and top-5 error rates by 0.4% and 0.3%, respectively, as compared with the non-overlapping scheme s = 2, 2 = 2, which produces output of equivalent dimensions. We generally observe during training that models with overlapping pooling find it slightly more difficult to overfit."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2113
+                },
+                {
+                    "x": 915,
+                    "y": 2113
+                },
+                {
+                    "x": 915,
+                    "y": 2161
+                },
+                {
+                    "x": 444,
+                    "y": 2161
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>3.5 Overall Architecture</p>",
+            "id": 35,
+            "page": 4,
+            "text": "3.5 Overall Architecture"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2198
+                },
+                {
+                    "x": 2108,
+                    "y": 2198
+                },
+                {
+                    "x": 2108,
+                    "y": 2475
+                },
+                {
+                    "x": 441,
+                    "y": 2475
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:16px'>Now we are ready to describe the overall architecture of our CNN. As depicted in Figure 2, the net<br>contains eight layers with weights; the first five are convolutional and the remaining three are fully-<br>connected. The output of the last fully-connected layer is fed to a 1000-way softmax which produces<br>a distribution over the 1000 class labels. Our network maximizes the multinomial logistic regression<br>objective, which is equivalent to maximizing the average across training cases of the log-probability<br>of the correct label under the prediction distribution.</p>",
+            "id": 36,
+            "page": 4,
+            "text": "Now we are ready to describe the overall architecture of our CNN. As depicted in Figure 2, the net contains eight layers with weights; the first five are convolutional and the remaining three are fullyconnected. The output of the last fully-connected layer is fed to a 1000-way softmax which produces a distribution over the 1000 class labels. Our network maximizes the multinomial logistic regression objective, which is equivalent to maximizing the average across training cases of the log-probability of the correct label under the prediction distribution."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2497
+                },
+                {
+                    "x": 2107,
+                    "y": 2497
+                },
+                {
+                    "x": 2107,
+                    "y": 2821
+                },
+                {
+                    "x": 442,
+                    "y": 2821
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:16px'>The kernels of the second, fourth, and fifth convolutional layers are connected only to those kernel<br>maps in the previous layer which reside on the same GPU (see Figure 2). The kernels of the third<br>convolutional layer are connected to all kernel maps in the second layer. The neurons in the fully-<br>connected layers are connected to all neurons in the previous layer. Response-normalization layers<br>follow the first and second convolutional layers. Max-pooling layers, of the kind described in Section<br>3.4, follow both response-normalization layers as well as the fifth convolutional layer. The ReLU<br>non-linearity is applied to the output of every convolutional and fully-connected layer.</p>",
+            "id": 37,
+            "page": 4,
+            "text": "The kernels of the second, fourth, and fifth convolutional layers are connected only to those kernel maps in the previous layer which reside on the same GPU (see Figure 2). The kernels of the third convolutional layer are connected to all kernel maps in the second layer. The neurons in the fullyconnected layers are connected to all neurons in the previous layer. Response-normalization layers follow the first and second convolutional layers. Max-pooling layers, of the kind described in Section 3.4, follow both response-normalization layers as well as the fifth convolutional layer. The ReLU non-linearity is applied to the output of every convolutional and fully-connected layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2843
+                },
+                {
+                    "x": 2108,
+                    "y": 2843
+                },
+                {
+                    "x": 2108,
+                    "y": 2936
+                },
+                {
+                    "x": 442,
+                    "y": 2936
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:16px'>The first convolutional layer filters the 224 x 224 x 3 input image with 96 kernels of size 11 x 11 x 3<br>with a stride of 4 pixels (this is the distance between the receptive field centers of neighboring</p>",
+            "id": 38,
+            "page": 4,
+            "text": "The first convolutional layer filters the 224 x 224 x 3 input image with 96 kernels of size 11 x 11 x 3 with a stride of 4 pixels (this is the distance between the receptive field centers of neighboring"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2964
+                },
+                {
+                    "x": 2107,
+                    "y": 2964
+                },
+                {
+                    "x": 2107,
+                    "y": 3054
+                },
+                {
+                    "x": 444,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:14px'>3We cannot describe this network in detail due to space constraints, but it is specified precisely by the code<br>and parameter files provided here: http://code.google.com/plouda-commet/)</p>",
+            "id": 39,
+            "page": 4,
+            "text": "3We cannot describe this network in detail due to space constraints, but it is specified precisely by the code and parameter files provided here: http://code.google.com/plouda-commet/)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1259,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='40' style='font-size:14px'>4</footer>",
+            "id": 40,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 327
+                },
+                {
+                    "x": 2108,
+                    "y": 327
+                },
+                {
+                    "x": 2108,
+                    "y": 857
+                },
+                {
+                    "x": 441,
+                    "y": 857
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='41' style='font-size:14px' alt=\"3\n3\n3\n5 3\n3\n3\n5\n3\n1 1 dense\n192 192 128 2048 2048\n48\n1 1 128\n27\n55\n13 13 13\n5\n224 3 3\n5 3\n13 dense dense\n13  13\n27 3 3\n11 3\n1000\n55\n11 192 192 128 Max\n2048 2048\n224 Max Max pooling\nStride 128\nof 4 pooling pooling\n3 48\" data-coord=\"top-left:(441,327); bottom-right:(2108,857)\" /></figure>",
+            "id": 41,
+            "page": 5,
+            "text": "3 3 3 5 3 3 3 5 3 1 1 dense 192 192 128 2048 2048 48 1 1 128 27 55 13 13 13 5 224 3 3 5 3 13 dense dense 13  13 27 3 3 11 3 1000 55 11 192 192 128 Max 2048 2048 224 Max Max pooling Stride 128 of 4 pooling pooling 3 48"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 892
+                },
+                {
+                    "x": 2110,
+                    "y": 892
+                },
+                {
+                    "x": 2110,
+                    "y": 1127
+                },
+                {
+                    "x": 440,
+                    "y": 1127
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='42' style='font-size:16px'>Figure 2: An illustration of the architecture of our CNN, explicitly showing the delineation of responsibilities<br>between the two GPUs. One GPU runs the layer-parts at the top of the figure while the other runs the layer-parts<br>at the bottom. The GPUs communicate only at certain layers. The network's input is 150,528-dimensional, and<br>the number of neurons in the network's remaining layers is given by 253,440-186,624-64,896-64,896-43,264-<br>4096-4096-1000.</caption>",
+            "id": 42,
+            "page": 5,
+            "text": "Figure 2: An illustration of the architecture of our CNN, explicitly showing the delineation of responsibilities between the two GPUs. One GPU runs the layer-parts at the top of the figure while the other runs the layer-parts at the bottom. The GPUs communicate only at certain layers. The network's input is 150,528-dimensional, and the number of neurons in the network's remaining layers is given by 253,440-186,624-64,896-64,896-43,2644096-4096-1000."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1208
+                },
+                {
+                    "x": 2109,
+                    "y": 1208
+                },
+                {
+                    "x": 2109,
+                    "y": 1533
+                },
+                {
+                    "x": 442,
+                    "y": 1533
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>neurons in a kernel map). The second convolutional layer takes as input the (response-normalized<br>and pooled) output of the first convolutional layer and filters it with 256 kernels of size 5 x 5 x 48.<br>The third, fourth, and fifth convolutional layers are connected to one another without any intervening<br>pooling or normalization layers. The third convolutional layer has 384 kernels of size 3 x 3 x<br>256 connected to the (normalized, pooled) outputs of the second convolutional layer. The fourth<br>convolutional layer has 384 kernels of size 3 x 3 x 192 , and the fifth convolutional layer has 256<br>kernels of size 3 x 3 x 192. The fully-connected layers have 4096 neurons each.</p>",
+            "id": 43,
+            "page": 5,
+            "text": "neurons in a kernel map). The second convolutional layer takes as input the (response-normalized and pooled) output of the first convolutional layer and filters it with 256 kernels of size 5 x 5 x 48. The third, fourth, and fifth convolutional layers are connected to one another without any intervening pooling or normalization layers. The third convolutional layer has 384 kernels of size 3 x 3 x 256 connected to the (normalized, pooled) outputs of the second convolutional layer. The fourth convolutional layer has 384 kernels of size 3 x 3 x 192 , and the fifth convolutional layer has 256 kernels of size 3 x 3 x 192. The fully-connected layers have 4096 neurons each."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1603
+                },
+                {
+                    "x": 980,
+                    "y": 1603
+                },
+                {
+                    "x": 980,
+                    "y": 1660
+                },
+                {
+                    "x": 441,
+                    "y": 1660
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:22px'>4 Reducing Overfitting</p>",
+            "id": 44,
+            "page": 5,
+            "text": "4 Reducing Overfitting"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1708
+                },
+                {
+                    "x": 2108,
+                    "y": 1708
+                },
+                {
+                    "x": 2108,
+                    "y": 1896
+                },
+                {
+                    "x": 441,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>Our neural network architecture has 60 million parameters. Although the 1000 classes of ILSVRC<br>make each training example impose 10 bits of constraint on the mapping from image to label, this<br>turns out to be insufficient to learn SO many parameters without considerable overfitting. Below, we<br>describe the two primary ways in which we combat overfitting.</p>",
+            "id": 45,
+            "page": 5,
+            "text": "Our neural network architecture has 60 million parameters. Although the 1000 classes of ILSVRC make each training example impose 10 bits of constraint on the mapping from image to label, this turns out to be insufficient to learn SO many parameters without considerable overfitting. Below, we describe the two primary ways in which we combat overfitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1956
+                },
+                {
+                    "x": 896,
+                    "y": 1956
+                },
+                {
+                    "x": 896,
+                    "y": 2006
+                },
+                {
+                    "x": 441,
+                    "y": 2006
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:20px'>4.1 Data Augmentation</p>",
+            "id": 46,
+            "page": 5,
+            "text": "4.1 Data Augmentation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2043
+                },
+                {
+                    "x": 2108,
+                    "y": 2043
+                },
+                {
+                    "x": 2108,
+                    "y": 2367
+                },
+                {
+                    "x": 442,
+                    "y": 2367
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:18px'>The easiest and most common method to reduce overfitting on image data is to artificially enlarge<br>the dataset using label-preserving transformations (e.g., [25, 4, 5]). We employ two distinct forms<br>of data augmentation, both of which allow transformed images to be produced from the original<br>images with very little computation, SO the transformed images do not need to be stored on disk.<br>In our implementation, the transformed images are generated in Python code on the CPU while the<br>GPU is training on the previous batch of images. So these data augmentation schemes are, in effect,<br>computationally free.</p>",
+            "id": 47,
+            "page": 5,
+            "text": "The easiest and most common method to reduce overfitting on image data is to artificially enlarge the dataset using label-preserving transformations (e.g., ). We employ two distinct forms of data augmentation, both of which allow transformed images to be produced from the original images with very little computation, SO the transformed images do not need to be stored on disk. In our implementation, the transformed images are generated in Python code on the CPU while the GPU is training on the previous batch of images. So these data augmentation schemes are, in effect, computationally free."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2388
+                },
+                {
+                    "x": 2107,
+                    "y": 2388
+                },
+                {
+                    "x": 2107,
+                    "y": 2805
+                },
+                {
+                    "x": 441,
+                    "y": 2805
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:18px'>The first form of data augmentation consists of generating image translations and horizontal reflec-<br>tions. We do this by extracting random 224 x 224 patches (and their horizontal reflections) from the<br>256 x 256 images and training our network on these extracted patches4. This increases the size of our<br>training set by a factor of 2048, though the resulting training examples are, of course, highly inter-<br>dependent. Without this scheme, our network suffers from substantial overfitting, which would have<br>forced us to use much smaller networks. At test time, the network makes a prediction by extracting<br>five 224 x 224 patches (the four corner patches and the center patch) as well as their horizontal<br>reflections (hence ten patches in all), and averaging the predictions made by the network's softmax<br>layer on the ten patches.</p>",
+            "id": 48,
+            "page": 5,
+            "text": "The first form of data augmentation consists of generating image translations and horizontal reflections. We do this by extracting random 224 x 224 patches (and their horizontal reflections) from the 256 x 256 images and training our network on these extracted patches4. This increases the size of our training set by a factor of 2048, though the resulting training examples are, of course, highly interdependent. Without this scheme, our network suffers from substantial overfitting, which would have forced us to use much smaller networks. At test time, the network makes a prediction by extracting five 224 x 224 patches (the four corner patches and the center patch) as well as their horizontal reflections (hence ten patches in all), and averaging the predictions made by the network's softmax layer on the ten patches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2825
+                },
+                {
+                    "x": 2107,
+                    "y": 2825
+                },
+                {
+                    "x": 2107,
+                    "y": 2967
+                },
+                {
+                    "x": 442,
+                    "y": 2967
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:18px'>The second form of data augmentation consists of altering the intensities of the RGB channels in<br>training images. Specifically, we perform PCA on the set of RGB pixel values throughout the<br>ImageNet training set. To each training image, we add multiples of the found principal components,</p>",
+            "id": 49,
+            "page": 5,
+            "text": "The second form of data augmentation consists of altering the intensities of the RGB channels in training images. Specifically, we perform PCA on the set of RGB pixel values throughout the ImageNet training set. To each training image, we add multiples of the found principal components,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 496,
+                    "y": 3007
+                },
+                {
+                    "x": 1784,
+                    "y": 3007
+                },
+                {
+                    "x": 1784,
+                    "y": 3051
+                },
+                {
+                    "x": 496,
+                    "y": 3051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:14px'>4This is the reason why the input images in Figure 2 are 224 x 224 x 3-dimensional.</p>",
+            "id": 50,
+            "page": 5,
+            "text": "4This is the reason why the input images in Figure 2 are 224 x 224 x 3-dimensional."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='51' style='font-size:18px'>5</footer>",
+            "id": 51,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 348
+                },
+                {
+                    "x": 2108,
+                    "y": 348
+                },
+                {
+                    "x": 2108,
+                    "y": 498
+                },
+                {
+                    "x": 442,
+                    "y": 498
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:18px'>with magnitudes proportional to the corresponding eigenvalues times a random variable drawn from<br>a Gaussian with mean zero and standard deviation 0.1. Therefore to each RGB image pixel Ixy =<br>[IRy, Ixy, IBY]T we add the following quantity:</p>",
+            "id": 52,
+            "page": 6,
+            "text": "with magnitudes proportional to the corresponding eigenvalues times a random variable drawn from a Gaussian with mean zero and standard deviation 0.1. Therefore to each RGB image pixel Ixy = [IRy, Ixy, IBY]T we add the following quantity:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 594
+                },
+                {
+                    "x": 2107,
+                    "y": 594
+                },
+                {
+                    "x": 2107,
+                    "y": 871
+                },
+                {
+                    "x": 442,
+                    "y": 871
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:18px'>where Pi and 入 are ith eigenvector and eigenvalue of the 3 x 3 covariance matrix of RGB pixel<br>values, respectively, and ai is the aforementioned random variable. Each ai is drawn only once<br>for all the pixels of a particular training image until that image is used for training again, at which<br>point it is re-drawn. This scheme approximately captures an important property of natural images,<br>namely, that object identity is invariant to changes in the intensity and color of the illumination. This<br>scheme reduces the top-1 error rate by over 1%.</p>",
+            "id": 53,
+            "page": 6,
+            "text": "where Pi and 入 are ith eigenvector and eigenvalue of the 3 x 3 covariance matrix of RGB pixel values, respectively, and ai is the aforementioned random variable. Each ai is drawn only once for all the pixels of a particular training image until that image is used for training again, at which point it is re-drawn. This scheme approximately captures an important property of natural images, namely, that object identity is invariant to changes in the intensity and color of the illumination. This scheme reduces the top-1 error rate by over 1%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 924
+                },
+                {
+                    "x": 695,
+                    "y": 924
+                },
+                {
+                    "x": 695,
+                    "y": 971
+                },
+                {
+                    "x": 444,
+                    "y": 971
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:20px'>4.2 Dropout</p>",
+            "id": 54,
+            "page": 6,
+            "text": "4.2 Dropout"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1010
+                },
+                {
+                    "x": 2107,
+                    "y": 1010
+                },
+                {
+                    "x": 2107,
+                    "y": 1607
+                },
+                {
+                    "x": 442,
+                    "y": 1607
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>Combining the predictions of many different models is a very successful way to reduce test errors<br>[1, 3], but it appears to be too expensive for big neural networks that already take several days<br>to train. There is, however, a very efficient version of model combination that only costs about a<br>factor of two during training. The recently-introduced technique, called \"dropout\" [10], consists<br>of setting to zero the output of each hidden neuron with probability 0.5. The neurons which are<br>\"dropped out\" in this way do not contribute to the forward pass and do not participate in back-<br>propagation. So every time an inputis presented, the neural network samples a different architecture,<br>but all these architectures share weights. This technique reduces complex co-adaptations of neurons,<br>since a neuron cannot rely on the presence of particular other neurons. It is, therefore, forced to<br>learn more robust features that are useful in conjunction with many different random subsets of the<br>other neurons. At test time, we use all the neurons but multiply their outputs by 0.5, which is a<br>reasonable approximation to taking the geometric mean of the predictive distributions produced by<br>the exponentially-many dropout networks.</p>",
+            "id": 55,
+            "page": 6,
+            "text": "Combining the predictions of many different models is a very successful way to reduce test errors , but it appears to be too expensive for big neural networks that already take several days to train. There is, however, a very efficient version of model combination that only costs about a factor of two during training. The recently-introduced technique, called \"dropout\" , consists of setting to zero the output of each hidden neuron with probability 0.5. The neurons which are \"dropped out\" in this way do not contribute to the forward pass and do not participate in backpropagation. So every time an inputis presented, the neural network samples a different architecture, but all these architectures share weights. This technique reduces complex co-adaptations of neurons, since a neuron cannot rely on the presence of particular other neurons. It is, therefore, forced to learn more robust features that are useful in conjunction with many different random subsets of the other neurons. At test time, we use all the neurons but multiply their outputs by 0.5, which is a reasonable approximation to taking the geometric mean of the predictive distributions produced by the exponentially-many dropout networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1629
+                },
+                {
+                    "x": 2105,
+                    "y": 1629
+                },
+                {
+                    "x": 2105,
+                    "y": 1722
+                },
+                {
+                    "x": 443,
+                    "y": 1722
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='56' style='font-size:20px'>We use dropout in the first two fully-connected layers of Figure 2. Without dropout, our network ex-<br>hibits substantial overfitting. Dropout roughly doubles the number ofiterations required to converge.</p>",
+            "id": 56,
+            "page": 6,
+            "text": "We use dropout in the first two fully-connected layers of Figure 2. Without dropout, our network exhibits substantial overfitting. Dropout roughly doubles the number ofiterations required to converge."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1834
+                },
+                {
+                    "x": 919,
+                    "y": 1834
+                },
+                {
+                    "x": 919,
+                    "y": 1890
+                },
+                {
+                    "x": 445,
+                    "y": 1890
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:22px'>5 Details of learning</p>",
+            "id": 57,
+            "page": 6,
+            "text": "5 Details of learning"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1936
+                },
+                {
+                    "x": 1415,
+                    "y": 1936
+                },
+                {
+                    "x": 1415,
+                    "y": 2256
+                },
+                {
+                    "x": 443,
+                    "y": 2256
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:18px'>We trained our models using stochastic gradient descent<br>with a batch size of 128 examples, momentum of 0.9, and<br>weight decay of 0.0005. We found that this small amount<br>of weight decay was important for the model to learn. In<br>other words, weight decay here is not merely a regularizer:<br>it reduces the model's training error. The update rule for<br>weight w was</p>",
+            "id": 58,
+            "page": 6,
+            "text": "We trained our models using stochastic gradient descent with a batch size of 128 examples, momentum of 0.9, and weight decay of 0.0005. We found that this small amount of weight decay was important for the model to learn. In other words, weight decay here is not merely a regularizer: it reduces the model's training error. The update rule for weight w was"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1449,
+                    "y": 1776
+                },
+                {
+                    "x": 2104,
+                    "y": 1776
+                },
+                {
+                    "x": 2104,
+                    "y": 2031
+                },
+                {
+                    "x": 1449,
+                    "y": 2031
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='59' style='font-size:14px' alt=\"、\nI\" data-coord=\"top-left:(1449,1776); bottom-right:(2104,2031)\" /></figure>",
+            "id": 59,
+            "page": 6,
+            "text": "、 I"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1445,
+                    "y": 2082
+                },
+                {
+                    "x": 2108,
+                    "y": 2082
+                },
+                {
+                    "x": 2108,
+                    "y": 2360
+                },
+                {
+                    "x": 1445,
+                    "y": 2360
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:16px'>Figure 3: 96 convolutional kernels of size<br>11 x11 x3 learned by the first convolutional<br>layer on the 224x 224x3 input images. The<br>top 48 kernels were learned on GPU 1 while<br>the bottom 48 kernels were learned on GPU<br>2. See Section 6.1 for details.</p>",
+            "id": 60,
+            "page": 6,
+            "text": "Figure 3: 96 convolutional kernels of size 11 x11 x3 learned by the first convolutional layer on the 224x 224x3 input images. The top 48 kernels were learned on GPU 1 while the bottom 48 kernels were learned on GPU 2. See Section 6.1 for details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2467
+                },
+                {
+                    "x": 2108,
+                    "y": 2467
+                },
+                {
+                    "x": 2108,
+                    "y": 2638
+                },
+                {
+                    "x": 442,
+                    "y": 2638
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:18px'>where is the iteration index, v is the momentum variable, E is the learning rate, and < 한글 wi 〉 is<br>Di<br>the average over the ith batch Di of the derivative of the objective with respect to w, evaluated at<br>Wi.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "where is the iteration index, v is the momentum variable, E is the learning rate, and < 한글 wi 〉 is Di the average over the ith batch Di of the derivative of the objective with respect to w, evaluated at Wi."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2661
+                },
+                {
+                    "x": 2108,
+                    "y": 2661
+                },
+                {
+                    "x": 2108,
+                    "y": 2890
+                },
+                {
+                    "x": 442,
+                    "y": 2890
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>We initialized the weights in each layer from a zero-mean Gaussian distribution with standard de-<br>viation 0.01. We initialized the neuron biases in the second, fourth, and fifth convolutional layers,<br>as well as in the fully-connected hidden layers, with the constant 1. This initialization accelerates<br>the early stages of learning by providing the ReLUs with positive inputs. We initialized the neuron<br>biases in the remaining layers with the constant 0.</p>",
+            "id": 62,
+            "page": 6,
+            "text": "We initialized the weights in each layer from a zero-mean Gaussian distribution with standard deviation 0.01. We initialized the neuron biases in the second, fourth, and fifth convolutional layers, as well as in the fully-connected hidden layers, with the constant 1. This initialization accelerates the early stages of learning by providing the ReLUs with positive inputs. We initialized the neuron biases in the remaining layers with the constant 0."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2915
+                },
+                {
+                    "x": 2106,
+                    "y": 2915
+                },
+                {
+                    "x": 2106,
+                    "y": 3054
+                },
+                {
+                    "x": 443,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:18px'>We used an equal learning rate for all layers, which we adjusted manually throughout training.<br>The heuristic which we followed was to divide the learning rate by 10 when the validation error<br>rate stopped improving with the current learning rate. The learning rate was initialized at 0.01 and</p>",
+            "id": 63,
+            "page": 6,
+            "text": "We used an equal learning rate for all layers, which we adjusted manually throughout training. The heuristic which we followed was to divide the learning rate by 10 when the validation error rate stopped improving with the current learning rate. The learning rate was initialized at 0.01 and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3136
+                },
+                {
+                    "x": 1289,
+                    "y": 3136
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='64' style='font-size:16px'>6</footer>",
+            "id": 64,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 348
+                },
+                {
+                    "x": 2106,
+                    "y": 348
+                },
+                {
+                    "x": 2106,
+                    "y": 440
+                },
+                {
+                    "x": 442,
+                    "y": 440
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:18px'>reduced three times prior to termination. We trained the network for roughly 90 cycles through the<br>training set of 1.2 million images, which took five to six days on two NVIDIA GTX 580 3GB GPUs.</p>",
+            "id": 65,
+            "page": 7,
+            "text": "reduced three times prior to termination. We trained the network for roughly 90 cycles through the training set of 1.2 million images, which took five to six days on two NVIDIA GTX 580 3GB GPUs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 522
+                },
+                {
+                    "x": 685,
+                    "y": 522
+                },
+                {
+                    "x": 685,
+                    "y": 574
+                },
+                {
+                    "x": 444,
+                    "y": 574
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:22px'>6 Results</p>",
+            "id": 66,
+            "page": 7,
+            "text": "6 Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 635
+                },
+                {
+                    "x": 2108,
+                    "y": 635
+                },
+                {
+                    "x": 2108,
+                    "y": 912
+                },
+                {
+                    "x": 441,
+                    "y": 912
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>Our results on ILSVRC-2010 are summarized in Table 1. Our network achieves top-1 and top-5<br>test set error rates of 37.5% and 17.0%5. The best performance achieved during the ILSVRC-<br>2010 competition was 47.1% and 28.2% with an approach that averages the predictions produced<br>from six sparse-coding models trained on different features [2], and since then the best pub-<br>lished results are 45.7% and 25.7% with an approach that averages the predictions of two classi-<br>fiers trained on Fisher Vectors (FVs) computed from two types of densely-sampled features [24].</p>",
+            "id": 67,
+            "page": 7,
+            "text": "Our results on ILSVRC-2010 are summarized in Table 1. Our network achieves top-1 and top-5 test set error rates of 37.5% and 17.0%5. The best performance achieved during the ILSVRC2010 competition was 47.1% and 28.2% with an approach that averages the predictions produced from six sparse-coding models trained on different features , and since then the best published results are 45.7% and 25.7% with an approach that averages the predictions of two classifiers trained on Fisher Vectors (FVs) computed from two types of densely-sampled features ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 975
+                },
+                {
+                    "x": 2110,
+                    "y": 975
+                },
+                {
+                    "x": 2110,
+                    "y": 1712
+                },
+                {
+                    "x": 442,
+                    "y": 1712
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>Model Top-1 Top-5<br>We also entered our model in the ILSVRC-2012 com-<br>petition and report our results in Table 2. Since the Sparse coding [2] 47.1% 28.2%<br>ILSVRC-2012 test set labels are not publicly available, SIFT + FVs [24] 45.7% 25.7%<br>we cannot report test error rates for all the models that CNN 37.5% 17.0%<br>we tried. In the remainder of this paragraph, we use<br>validation and test error rates interchangeably because Table 1: Comparison of results on ILSVRC-<br>in our experience they do not differ by more than 0.1% 2010 test set. In italics are best results<br>(see Table 2). The CNN described in this paper achieves achieved by others.<br>a top-5 error rate of 18.2%. Averaging the predictions<br>of five similar CNNs gives an error rate of 16.4%. Training one CNN, with an extra sixth con-<br>volutional layer over the last pooling layer, to classify the entire ImageNet Fall 2011 release<br>(15M images, 22K categories), and then \"fine-tuning\" it on ILSVRC-2012 gives an error rate of<br>16.6%. Averaging the predictions of two CNNs that were pre-trained on the entire Fall 2011 re-<br>lease with the aforementioned five CNNs gives an error rate of 15.3%. The second-best con-<br>test entry achieved an error rate of 26.2% with an approach that averages the predictions of sev-<br>eral classifiers trained on FVs computed from different types of densely-sampled features [7].</p>",
+            "id": 68,
+            "page": 7,
+            "text": "Model Top-1 Top-5 We also entered our model in the ILSVRC-2012 competition and report our results in Table 2. Since the Sparse coding  47.1% 28.2% ILSVRC-2012 test set labels are not publicly available, SIFT + FVs  45.7% 25.7% we cannot report test error rates for all the models that CNN 37.5% 17.0% we tried. In the remainder of this paragraph, we use validation and test error rates interchangeably because Table 1: Comparison of results on ILSVRCin our experience they do not differ by more than 0.1% 2010 test set. In italics are best results (see Table 2). The CNN described in this paper achieves achieved by others. a top-5 error rate of 18.2%. Averaging the predictions of five similar CNNs gives an error rate of 16.4%. Training one CNN, with an extra sixth convolutional layer over the last pooling layer, to classify the entire ImageNet Fall 2011 release (15M images, 22K categories), and then \"fine-tuning\" it on ILSVRC-2012 gives an error rate of 16.6%. Averaging the predictions of two CNNs that were pre-trained on the entire Fall 2011 release with the aforementioned five CNNs gives an error rate of 15.3%. The second-best contest entry achieved an error rate of 26.2% with an approach that averages the predictions of several classifiers trained on FVs computed from different types of densely-sampled features ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1736
+                },
+                {
+                    "x": 1013,
+                    "y": 1736
+                },
+                {
+                    "x": 1013,
+                    "y": 2378
+                },
+                {
+                    "x": 442,
+                    "y": 2378
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:18px'>Finally, we also report our error<br>rates on the Fall 2009 version of<br>ImageNet with 10,184 categories<br>and 8.9 million images. On this<br>dataset we follow the convention<br>in the literature of using half of<br>the images for training and half<br>for testing. Since there is no es-<br>tablished test set, our split neces-<br>sarily differs from the splits used<br>by previous authors, but this does<br>not affect the results appreciably.<br>Our top-1 and top-5 error rates<br>on this dataset are 67.4% and</p>",
+            "id": 69,
+            "page": 7,
+            "text": "Finally, we also report our error rates on the Fall 2009 version of ImageNet with 10,184 categories and 8.9 million images. On this dataset we follow the convention in the literature of using half of the images for training and half for testing. Since there is no established test set, our split necessarily differs from the splits used by previous authors, but this does not affect the results appreciably. Our top-1 and top-5 error rates on this dataset are 67.4% and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1036,
+                    "y": 1788
+                },
+                {
+                    "x": 2100,
+                    "y": 1788
+                },
+                {
+                    "x": 2100,
+                    "y": 2092
+                },
+                {
+                    "x": 1036,
+                    "y": 2092
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='70' style='font-size:18px'><tr><td>Model</td><td>Top-1 (val)</td><td>Top-5 (val)</td><td>Top-5 (test)</td></tr><tr><td>SIFT + FVs [7]</td><td></td><td></td><td>26.2%</td></tr><tr><td>1 CNN</td><td>40.7%</td><td>18.2%</td><td></td></tr><tr><td>5 CNNs</td><td>38.1%</td><td>16.4%</td><td>16.4%</td></tr><tr><td>1 CNN*</td><td>39.0%</td><td>16.6%</td><td></td></tr><tr><td>7 CNNs*</td><td>36.7%</td><td>15.4%</td><td>15.3%</td></tr></table>",
+            "id": 70,
+            "page": 7,
+            "text": "Model Top-1 (val) Top-5 (val) Top-5 (test)  SIFT + FVs    26.2%  1 CNN 40.7% 18.2%   5 CNNs 38.1% 16.4% 16.4%  1 CNN* 39.0% 16.6%   7 CNNs* 36.7% 15.4%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1036,
+                    "y": 2125
+                },
+                {
+                    "x": 2106,
+                    "y": 2125
+                },
+                {
+                    "x": 2106,
+                    "y": 2311
+                },
+                {
+                    "x": 1036,
+                    "y": 2311
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:14px'>Table 2: Comparison of error rates on ILSVRC-2012 validation and<br>test sets. In italics are best results achieved by others. Models with an<br>asterisk* were \"pre-trained\" to classify the entire ImageNet 2011 Fall<br>release. See Section 6 for details.</p>",
+            "id": 71,
+            "page": 7,
+            "text": "Table 2: Comparison of error rates on ILSVRC-2012 validation and test sets. In italics are best results achieved by others. Models with an asterisk* were \"pre-trained\" to classify the entire ImageNet 2011 Fall release. See Section 6 for details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2376
+                },
+                {
+                    "x": 2105,
+                    "y": 2376
+                },
+                {
+                    "x": 2105,
+                    "y": 2470
+                },
+                {
+                    "x": 443,
+                    "y": 2470
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:18px'>40.9%, attained by the net described above but with an additional, sixth convolutional layer over the<br>last pooling layer. The best published results on this dataset are 78.1% and 60.9% [19].</p>",
+            "id": 72,
+            "page": 7,
+            "text": "40.9%, attained by the net described above but with an additional, sixth convolutional layer over the last pooling layer. The best published results on this dataset are 78.1% and 60.9% ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2539
+                },
+                {
+                    "x": 965,
+                    "y": 2539
+                },
+                {
+                    "x": 965,
+                    "y": 2587
+                },
+                {
+                    "x": 443,
+                    "y": 2587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:20px'>6.1 Qualitative Evaluations</p>",
+            "id": 73,
+            "page": 7,
+            "text": "6.1 Qualitative Evaluations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2630
+                },
+                {
+                    "x": 2107,
+                    "y": 2630
+                },
+                {
+                    "x": 2107,
+                    "y": 2909
+                },
+                {
+                    "x": 442,
+                    "y": 2909
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>Figure 3 shows the convolutional kernels learned by the network's two data-connected layers. The<br>network has learned a variety of frequency- and orientation-selective kernels, as well as various col-<br>ored blobs. Notice the specialization exhibited by the two GPUs, a result of the restricted connec-<br>tivity described in Section 3.5. The kernels on GPU 1 are largely color-agnostic, while the kernels<br>on on GPU 2 are largely color-specific. This kind of specialization occurs during every run and is<br>independent of any particular random weight initialization (modulo a renumbering of the GPUs).</p>",
+            "id": 74,
+            "page": 7,
+            "text": "Figure 3 shows the convolutional kernels learned by the network's two data-connected layers. The network has learned a variety of frequency- and orientation-selective kernels, as well as various colored blobs. Notice the specialization exhibited by the two GPUs, a result of the restricted connectivity described in Section 3.5. The kernels on GPU 1 are largely color-agnostic, while the kernels on on GPU 2 are largely color-specific. This kind of specialization occurs during every run and is independent of any particular random weight initialization (modulo a renumbering of the GPUs)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 2965
+                },
+                {
+                    "x": 2106,
+                    "y": 2965
+                },
+                {
+                    "x": 2106,
+                    "y": 3051
+                },
+                {
+                    "x": 446,
+                    "y": 3051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:14px'>5The error rates without averaging predictions over ten patches as described in Section 4.1 are 39.0% and<br>18.3%.</p>",
+            "id": 75,
+            "page": 7,
+            "text": "5The error rates without averaging predictions over ten patches as described in Section 4.1 are 39.0% and 18.3%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 330
+                },
+                {
+                    "x": 2101,
+                    "y": 330
+                },
+                {
+                    "x": 2101,
+                    "y": 967
+                },
+                {
+                    "x": 446,
+                    "y": 967
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='76' style='font-size:14px' alt=\"mite container ship motor scooter leopard\nmite container ship motor scooter leopard\nblack widow lifeboat go-kart jaguar\ncockroach amphibian moped cheetah\ntick fireboat bumper car snow leopard\nstarfish drilling platform golfcart Egyptian cat\nE S\nNAVI\ngrille mushroom cherry Madagascar cat\nconvertible agaric dalmatian squirrel monkey\ngrille mushroom grape spider monkey\npickup jelly fungus elderberry titi\nbeach wagon gill fungus ffordshire bullterrier indri\nfire engine dead-man 's-fingers currant howler monkey\" data-coord=\"top-left:(446,330); bottom-right:(2101,967)\" /></figure>",
+            "id": 76,
+            "page": 8,
+            "text": "mite container ship motor scooter leopard mite container ship motor scooter leopard black widow lifeboat go-kart jaguar cockroach amphibian moped cheetah tick fireboat bumper car snow leopard starfish drilling platform golfcart Egyptian cat E S NAVI grille mushroom cherry Madagascar cat convertible agaric dalmatian squirrel monkey grille mushroom grape spider monkey pickup jelly fungus elderberry titi beach wagon gill fungus ffordshire bullterrier indri fire engine dead-man 's-fingers currant howler monkey"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1007
+                },
+                {
+                    "x": 2110,
+                    "y": 1007
+                },
+                {
+                    "x": 2110,
+                    "y": 1246
+                },
+                {
+                    "x": 441,
+                    "y": 1246
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='77' style='font-size:16px'>Figure 4: (Left) Eight ILSVRC-2010 test images and the five labels considered most probable by our model.<br>The correct label is written under each image, and the probability assigned to the correct label is also shown<br>with a red bar (ifit happens to be in the top 5). (Right) Five ILSVRC-2010 test images in the first column. The<br>remaining columns show the six training images that produce feature vectors in the last hidden layer with the<br>smallest Euclidean distance from the feature vector for the test image.</caption>",
+            "id": 77,
+            "page": 8,
+            "text": "Figure 4: (Left) Eight ILSVRC-2010 test images and the five labels considered most probable by our model. The correct label is written under each image, and the probability assigned to the correct label is also shown with a red bar (ifit happens to be in the top 5). (Right) Five ILSVRC-2010 test images in the first column. The remaining columns show the six training images that produce feature vectors in the last hidden layer with the smallest Euclidean distance from the feature vector for the test image."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1348
+                },
+                {
+                    "x": 2108,
+                    "y": 1348
+                },
+                {
+                    "x": 2108,
+                    "y": 1581
+                },
+                {
+                    "x": 441,
+                    "y": 1581
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:18px'>In the left panel of Figure 4 we qualitatively assess what the network has learned by computing its<br>top-5 predictions on eight test images. Notice that even off-center objects, such as the mite in the<br>top-left, can be recognized by the net. Most of the top-5 labels appear reasonable. For example,<br>only other types of cat are considered plausible labels for the leopard. In some cases (grille, cherry)<br>there is genuine ambiguity about the intended focus of the photograph.</p>",
+            "id": 78,
+            "page": 8,
+            "text": "In the left panel of Figure 4 we qualitatively assess what the network has learned by computing its top-5 predictions on eight test images. Notice that even off-center objects, such as the mite in the top-left, can be recognized by the net. Most of the top-5 labels appear reasonable. For example, only other types of cat are considered plausible labels for the leopard. In some cases (grille, cherry) there is genuine ambiguity about the intended focus of the photograph."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1603
+                },
+                {
+                    "x": 2108,
+                    "y": 1603
+                },
+                {
+                    "x": 2108,
+                    "y": 1971
+                },
+                {
+                    "x": 441,
+                    "y": 1971
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:18px'>Another way to probe the network's visual knowledge is to consider the feature activations induced<br>by an image at the last, 4096-dimensional hidden layer. If two images produce feature activation<br>vectors with a small Euclidean separation, we can say that the higher levels of the neural network<br>consider them to be similar. Figure 4 shows five images from the test set and the six images from<br>the training set that are most similar to each of them according to this measure. Notice that at the<br>pixel level, the retrieved training images are generally not close in L2 to the query images in the first<br>column. For example, the retrieved dogs and elephants appear in a variety of poses. We present the<br>results for many more test images in the supplementary material.</p>",
+            "id": 79,
+            "page": 8,
+            "text": "Another way to probe the network's visual knowledge is to consider the feature activations induced by an image at the last, 4096-dimensional hidden layer. If two images produce feature activation vectors with a small Euclidean separation, we can say that the higher levels of the neural network consider them to be similar. Figure 4 shows five images from the test set and the six images from the training set that are most similar to each of them according to this measure. Notice that at the pixel level, the retrieved training images are generally not close in L2 to the query images in the first column. For example, the retrieved dogs and elephants appear in a variety of poses. We present the results for many more test images in the supplementary material."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1991
+                },
+                {
+                    "x": 2106,
+                    "y": 1991
+                },
+                {
+                    "x": 2106,
+                    "y": 2226
+                },
+                {
+                    "x": 440,
+                    "y": 2226
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:18px'>Computing similarity by using Euclidean distance between two 4096-dimensional, real-valued vec-<br>tors is inefficient, but it could be made efficient by training an auto-encoder to compress these vectors<br>to short binary codes. This should produce a much better image retrieval method than applying auto-<br>encoders to the raw pixels [14], which does not make use of image labels and hence has a tendency<br>to retrieve images with similar patterns of edges, whether or not they are semantically similar.</p>",
+            "id": 80,
+            "page": 8,
+            "text": "Computing similarity by using Euclidean distance between two 4096-dimensional, real-valued vectors is inefficient, but it could be made efficient by training an auto-encoder to compress these vectors to short binary codes. This should produce a much better image retrieval method than applying autoencoders to the raw pixels , which does not make use of image labels and hence has a tendency to retrieve images with similar patterns of edges, whether or not they are semantically similar."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2312
+                },
+                {
+                    "x": 754,
+                    "y": 2312
+                },
+                {
+                    "x": 754,
+                    "y": 2366
+                },
+                {
+                    "x": 444,
+                    "y": 2366
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:22px'>7 Discussion</p>",
+            "id": 81,
+            "page": 8,
+            "text": "7 Discussion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2665
+                },
+                {
+                    "x": 440,
+                    "y": 2665
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:20px'>Our results show that a large, deep convolutional neural network is capable of achieving record-<br>breaking results on a highly challenging dataset using purely supervised learning. It is notable<br>that our network's performance degrades if a single convolutional layer is removed. For example,<br>removing any of the middle layers results in a loss of about 2% for the top-1 performance of the<br>network. So the depth really is important for achieving our results.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "Our results show that a large, deep convolutional neural network is capable of achieving recordbreaking results on a highly challenging dataset using purely supervised learning. It is notable that our network's performance degrades if a single convolutional layer is removed. For example, removing any of the middle layers results in a loss of about 2% for the top-1 performance of the network. So the depth really is important for achieving our results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2684
+                },
+                {
+                    "x": 2107,
+                    "y": 2684
+                },
+                {
+                    "x": 2107,
+                    "y": 3056
+                },
+                {
+                    "x": 442,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:18px'>To simplify our experiments, we did not use any unsupervised pre-training even though we expect<br>that it will help, especially if we obtain enough computational power to significantly increase the<br>size of the network without obtaining a corresponding increase in the amount of labeled data. Thus<br>far, our results have improved as we have made our network larger and trained it longer but we still<br>have many orders of magnitude to go in order to match the infero-temporal pathway of the human<br>visual system. Ultimately we would like to use very large and deep convolutional nets on video<br>sequences where the temporal structure provides very helpful information that is missing or far less<br>obvious in static images.</p>",
+            "id": 83,
+            "page": 8,
+            "text": "To simplify our experiments, we did not use any unsupervised pre-training even though we expect that it will help, especially if we obtain enough computational power to significantly increase the size of the network without obtaining a corresponding increase in the amount of labeled data. Thus far, our results have improved as we have made our network larger and trained it longer but we still have many orders of magnitude to go in order to match the infero-temporal pathway of the human visual system. Ultimately we would like to use very large and deep convolutional nets on video sequences where the temporal structure provides very helpful information that is missing or far less obvious in static images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='84' style='font-size:18px'>8</footer>",
+            "id": 84,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 346
+                },
+                {
+                    "x": 649,
+                    "y": 346
+                },
+                {
+                    "x": 649,
+                    "y": 393
+                },
+                {
+                    "x": 444,
+                    "y": 393
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:20px'>References</p>",
+            "id": 85,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 398
+                },
+                {
+                    "x": 2115,
+                    "y": 398
+                },
+                {
+                    "x": 2115,
+                    "y": 2961
+                },
+                {
+                    "x": 445,
+                    "y": 2961
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:14px'>[1] R.M. Bell and Y. Koren. Lessons from the netflix prize challenge. ACM SIGKDD Explorations Newsletter,<br>9(2):75-79, 2007.<br>[2] A. Berg, J. Deng, and L. Fei-Fei. Large scale visual recognition challenge 2010. www.image-<br>net.org/challenges. 2010.<br>[3] L. Breiman. Random forests. Machine learning, 45(1):5-32, 2001.<br>[4] D. Cire�an, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classification.<br>Arxiv preprint arXiv: 1202.2745, 2012.<br>[5] D.C. Cire�an, U. Meier, J. Masci, L.M. Gambardella, and J. Schmidhuber. High-performance neural<br>networks for visual object classification. Arxiv preprint arXiv:1102.0183, 2011.<br>[6] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical<br>Image Database. In CVPR09, 2009.<br>[7] J. Deng, A. Berg, S. Satheesh, H. Su, A. Khosla, and L. Fei-Fei. ILSVRC-2012, 2012. URL<br>http : / / www · image-net · org/ challenges /LSVRC/ 2012/.<br>[8] L. Fei-Fei, R. Fergus, and P. Perona. Learning generative visual models from few training examples: An<br>incremental bayesian approach tested on 101 object categories. Computer Vision and Image Understand-<br>ing, 106(1):59-70, 2007.<br>[9] G. Griffin, A. Holub, and P. Perona. Caltech-256 object category dataset. Technical Report 7694, Cali-<br>fornia Institute of Technology, 2007. URL http : / / authors · library · cal tech · edu / 7 694.<br>[10] G.E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R.R. Salakhutdinov. Improving neural net-<br>works by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580, 2012.<br>[11] K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun. What is the best multi-stage architecture for<br>object recognition? In International Conference on Computer Vision, pages 2146-2153. IEEE, 2009.<br>[12] A. Krizhevsky. Learning multiple layers of features from tiny images. Master's thesis, Department of<br>Computer Science, University of Toronto, 2009.<br>[13] A. Krizhevsky. Convolutional deep belief networks on cifar-10. Unpublished manuscript, 2010.<br>[14] A. Krizhevsky and G.E. Hinton. Using very deep autoencoders for content-based image retrieval. In<br>ESANN, 2011.<br>[15] Y. Le Cun, B. Boser, J.S. Denker, D. Henderson, R.E. Howard, W. Hubbard, L.D. Jackel, et al. Hand-<br>written digit recognition with a back-propagation network. In Advances in neural information processing<br>systems, 1990.<br>[16] Y. LeCun, F.J. Huang, and L. Bottou. Learning methods for generic object recognition with invariance to<br>pose and lighting. In Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the<br>2004 IEEE Computer Society Conference on, volume 2, pages II-97. IEEE, 2004.<br>[17] Y. LeCun, K. Kavukcuoglu, and C. Farabet. Convolutional networks and applications in vision. In<br>Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pages 253-256.<br>IEEE, 2010.<br>[18] H. Lee, R. Grosse, R. Ranganath, and A. Y. Ng. Convolutional deep belief networks for scalable unsuper-<br>vised learning ofhierarchical representations. In Proceedings of the 26th Annual International Conference<br>on Machine Learning, pages 609-616. ACM, 2009.<br>[19] T. Mensink, J. Verbeek, F. Perronnin, and G. Csurka. Metric Learning for Large Scale Image Classifi-<br>cation: Generalizing to New Classes at Near-Zero Cost. In ECCV - European Conference on Computer<br>Vision, Florence, Italy, October 2012.<br>[20] V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann machines. In Proc. 27th<br>International Conference on Machine Learning, 2010.<br>[21] N. Pinto, D.D. Cox, and J.J. DiCarlo. Why is real-world visual object recognition hard? PLoS computa-<br>tional biology, 4(1):e27, 2008.<br>[22] N. Pinto, D. Doukhan, J.J. DiCarlo, and D.D. Cox. A high-throughput screening approach to discovering<br>good forms of biologically inspired visual representation. PLoS computational biology, 5(11):e1000579,<br>2009.<br>[23] B.C. Russell, A. Torralba, K.P. Murphy, and W.T. Freeman. Labelme: a database and web-based tool for<br>image annotation. International journal of computer vision, 77(1):157-173, 2008.<br>[24] J. Sanchez and F. Perronnin. High-dimensional signature compression for large-scale image classification.<br>In Computer Vision and Pattern Recognition (CVPR), 2011 IEEE Conference on, pages 1665-1672. IEEE,<br>2011.<br>[25] P.Y. Simard, D. Steinkraus, and J.C. Platt. Best practices for convolutional neural networks applied to<br>visual document analysis. In Proceedings of the Seventh International Conference on Document Analysis<br>and Recognition, volume 2, pages 958-962, 2003.<br>[26] S.C. Turaga, J.F. Murray, V. Jain, F. Roth, M. Helmstaedter, K. Briggman, W. Denk, and H.S. Seung. Con-<br>volutional networks can learn to generate affinity graphs for image segmentation. Neural Computation,<br>22(2):511-538, 2010.</p>",
+            "id": 86,
+            "page": 9,
+            "text": " R.M. Bell and Y. Koren. Lessons from the netflix prize challenge. ACM SIGKDD Explorations Newsletter, 9(2):75-79, 2007.  A. Berg, J. Deng, and L. Fei-Fei. Large scale visual recognition challenge 2010. www.imagenet.org/challenges. 2010.  L. Breiman. Random forests. Machine learning, 45(1):5-32, 2001.  D. Cire�an, U. Meier, and J. Schmidhuber. Multi-column deep neural networks for image classification. Arxiv preprint arXiv: 1202.2745, 2012.  D.C. Cire�an, U. Meier, J. Masci, L.M. Gambardella, and J. Schmidhuber. High-performance neural networks for visual object classification. Arxiv preprint arXiv:1102.0183, 2011.  J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei. ImageNet: A Large-Scale Hierarchical Image Database. In CVPR09, 2009.  J. Deng, A. Berg, S. Satheesh, H. Su, A. Khosla, and L. Fei-Fei. ILSVRC-2012, 2012. URL http : / / www · image-net · org/ challenges /LSVRC/ 2012/.  L. Fei-Fei, R. Fergus, and P. Perona. Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories. Computer Vision and Image Understanding, 106(1):59-70, 2007.  G. Griffin, A. Holub, and P. Perona. Caltech-256 object category dataset. Technical Report 7694, California Institute of Technology, 2007. URL http : / / authors · library · cal tech · edu / 7 694.  G.E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R.R. Salakhutdinov. Improving neural networks by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580, 2012.  K. Jarrett, K. Kavukcuoglu, M. A. Ranzato, and Y. LeCun. What is the best multi-stage architecture for object recognition? In International Conference on Computer Vision, pages 2146-2153. IEEE, 2009.  A. Krizhevsky. Learning multiple layers of features from tiny images. Master's thesis, Department of Computer Science, University of Toronto, 2009.  A. Krizhevsky. Convolutional deep belief networks on cifar-10. Unpublished manuscript, 2010.  A. Krizhevsky and G.E. Hinton. Using very deep autoencoders for content-based image retrieval. In ESANN, 2011.  Y. Le Cun, B. Boser, J.S. Denker, D. Henderson, R.E. Howard, W. Hubbard, L.D. Jackel,  Handwritten digit recognition with a back-propagation network. In Advances in neural information processing systems, 1990.  Y. LeCun, F.J. Huang, and L. Bottou. Learning methods for generic object recognition with invariance to pose and lighting. In Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the 2004 IEEE Computer Society Conference on, volume 2, pages II-97. IEEE, 2004.  Y. LeCun, K. Kavukcuoglu, and C. Farabet. Convolutional networks and applications in vision. In Circuits and Systems (ISCAS), Proceedings of 2010 IEEE International Symposium on, pages 253-256. IEEE, 2010.  H. Lee, R. Grosse, R. Ranganath, and A. Y. Ng. Convolutional deep belief networks for scalable unsupervised learning ofhierarchical representations. In Proceedings of the 26th Annual International Conference on Machine Learning, pages 609-616. ACM, 2009.  T. Mensink, J. Verbeek, F. Perronnin, and G. Csurka. Metric Learning for Large Scale Image Classification: Generalizing to New Classes at Near-Zero Cost. In ECCV - European Conference on Computer Vision, Florence, Italy, October 2012.  V. Nair and G. E. Hinton. Rectified linear units improve restricted boltzmann machines. In Proc. 27th International Conference on Machine Learning, 2010.  N. Pinto, D.D. Cox, and J.J. DiCarlo. Why is real-world visual object recognition hard? PLoS computational biology, 4(1):e27, 2008.  N. Pinto, D. Doukhan, J.J. DiCarlo, and D.D. Cox. A high-throughput screening approach to discovering good forms of biologically inspired visual representation. PLoS computational biology, 5(11):e1000579, 2009.  B.C. Russell, A. Torralba, K.P. Murphy, and W.T. Freeman. Labelme: a database and web-based tool for image annotation. International journal of computer vision, 77(1):157-173, 2008.  J. Sanchez and F. Perronnin. High-dimensional signature compression for large-scale image classification. In Computer Vision and Pattern Recognition (CVPR), 2011 IEEE Conference on, pages 1665-1672. IEEE, 2011.  P.Y. Simard, D. Steinkraus, and J.C. Platt. Best practices for convolutional neural networks applied to visual document analysis. In Proceedings of the Seventh International Conference on Document Analysis and Recognition, volume 2, pages 958-962, 2003.  S.C. Turaga, J.F. Murray, V. Jain, F. Roth, M. Helmstaedter, K. Briggman, W. Denk, and H.S. Seung. Convolutional networks can learn to generate affinity graphs for image segmentation. Neural Computation, 22(2):511-538, 2010."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3169
+                },
+                {
+                    "x": 1259,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='87' style='font-size:16px'>9</footer>",
+            "id": 87,
+            "page": 9,
+            "text": "9"
+        }
+    ]
+}

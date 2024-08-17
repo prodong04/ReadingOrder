@@ -1,0 +1,3006 @@
+{
+    "id": "32b8c0e2-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1301.3781v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 536,
+                    "y": 450
+                },
+                {
+                    "x": 2015,
+                    "y": 450
+                },
+                {
+                    "x": 2015,
+                    "y": 615
+                },
+                {
+                    "x": 536,
+                    "y": 615
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Efficient Estimation of Word Representations in<br>Vector Space</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Efficient Estimation of Word Representations in Vector Space"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 614,
+                    "y": 791
+                },
+                {
+                    "x": 1178,
+                    "y": 791
+                },
+                {
+                    "x": 1178,
+                    "y": 960
+                },
+                {
+                    "x": 614,
+                    "y": 960
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:16px'>Tomas Mikolov<br>Google Inc., Mountain View, CA<br>tmikolov@google · com</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Tomas Mikolov Google Inc., Mountain View, CA tmikolov@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 616,
+                    "y": 1026
+                },
+                {
+                    "x": 1177,
+                    "y": 1026
+                },
+                {
+                    "x": 1177,
+                    "y": 1200
+                },
+                {
+                    "x": 616,
+                    "y": 1200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:18px'>Greg Corrado<br>Google Inc., Mountain View, CA<br>gcorrado@google · com</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Greg Corrado Google Inc., Mountain View, CA gcorrado@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1365,
+                    "y": 790
+                },
+                {
+                    "x": 1930,
+                    "y": 790
+                },
+                {
+                    "x": 1930,
+                    "y": 963
+                },
+                {
+                    "x": 1365,
+                    "y": 963
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='3' style='font-size:18px'>Kai Chen<br>Google Inc., Mountain View, CA<br>kai chen@google · com</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Kai Chen Google Inc., Mountain View, CA kai chen@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1367,
+                    "y": 1029
+                },
+                {
+                    "x": 1932,
+                    "y": 1029
+                },
+                {
+                    "x": 1932,
+                    "y": 1200
+                },
+                {
+                    "x": 1367,
+                    "y": 1200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>Jeffrey Dean<br>Google Inc., Mountain View, CA<br>jeff@google · com</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Jeffrey Dean Google Inc., Mountain View, CA jeff@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1176,
+                    "y": 1322
+                },
+                {
+                    "x": 1372,
+                    "y": 1322
+                },
+                {
+                    "x": 1372,
+                    "y": 1373
+                },
+                {
+                    "x": 1176,
+                    "y": 1373
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>Abstract</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 591,
+                    "y": 1425
+                },
+                {
+                    "x": 1961,
+                    "y": 1425
+                },
+                {
+                    "x": 1961,
+                    "y": 1798
+                },
+                {
+                    "x": 591,
+                    "y": 1798
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>We propose two novel model architectures for computing continuous vector repre-<br>sentations of words from very large data sets. The quality of these representations<br>is measured in a word similarity task, and the results are compared to the previ-<br>ously best performing techniques based on different types of neural networks. We<br>observe large improvements in accuracy at much lower computational cost, i.e. it<br>takes less than a day to learn high quality word vectors from a 1.6 billion words<br>data set. Furthermore, we show that these vectors provide state-of-the-art perfor-<br>mance on our test set for measuring syntactic and semantic word similarities.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "We propose two novel model architectures for computing continuous vector representations of words from very large data sets. The quality of these representations is measured in a word similarity task, and the results are compared to the previously best performing techniques based on different types of neural networks. We observe large improvements in accuracy at much lower computational cost, i.e. it takes less than a day to learn high quality word vectors from a 1.6 billion words data set. Furthermore, we show that these vectors provide state-of-the-art performance on our test set for measuring syntactic and semantic word similarities."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1883
+                },
+                {
+                    "x": 798,
+                    "y": 1883
+                },
+                {
+                    "x": 798,
+                    "y": 1938
+                },
+                {
+                    "x": 446,
+                    "y": 1938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:20px'>1 Introduction</p>",
+            "id": 7,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1985
+                },
+                {
+                    "x": 2109,
+                    "y": 1985
+                },
+                {
+                    "x": 2109,
+                    "y": 2265
+                },
+                {
+                    "x": 442,
+                    "y": 2265
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:16px'>Many current NLP systems and techniques treat words as atomic units - there is no notion of similar-<br>ity between words, as these are represented as indices in a vocabulary. This choice has several good<br>reasons - simplicity, robustness and the observation that simple models trained on huge amounts of<br>data outperform complex systems trained on less data. An example is the popular N-gram model<br>used for statistical language modeling - today, itis possible to train N-grams on virtually all available<br>data (trillions of words [3]).</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Many current NLP systems and techniques treat words as atomic units - there is no notion of similarity between words, as these are represented as indices in a vocabulary. This choice has several good reasons - simplicity, robustness and the observation that simple models trained on huge amounts of data outperform complex systems trained on less data. An example is the popular N-gram model used for statistical language modeling - today, itis possible to train N-grams on virtually all available data (trillions of words )."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2285
+                },
+                {
+                    "x": 2109,
+                    "y": 2285
+                },
+                {
+                    "x": 2109,
+                    "y": 2566
+                },
+                {
+                    "x": 442,
+                    "y": 2566
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:18px'>However, the simple techniques are at their limits in many tasks. For example, the amount of<br>relevant in-domain data for automatic speech recognition is limited - the performance is usually<br>dominated by the size of high quality transcribed speech data (often just millions of words). In<br>machine translation, the existing corpora for many languages contain only a few billions of words<br>or less. Thus, there are situations where simple scaling up of the basic techniques will not result in<br>any significant progress, and we have to focus on more advanced techniques.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "However, the simple techniques are at their limits in many tasks. For example, the amount of relevant in-domain data for automatic speech recognition is limited - the performance is usually dominated by the size of high quality transcribed speech data (often just millions of words). In machine translation, the existing corpora for many languages contain only a few billions of words or less. Thus, there are situations where simple scaling up of the basic techniques will not result in any significant progress, and we have to focus on more advanced techniques."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2585
+                },
+                {
+                    "x": 2109,
+                    "y": 2585
+                },
+                {
+                    "x": 2109,
+                    "y": 2777
+                },
+                {
+                    "x": 442,
+                    "y": 2777
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:18px'>With progress of machine learning techniques in recent years, it has become possible to train more<br>complex models on much larger data set, and they typically outperform the simple models. Probably<br>the most successful concept is to use distributed representations of words [10]. For example, neural<br>network based language models significantly outperform N-gram models [1, 27, 17].</p>",
+            "id": 10,
+            "page": 1,
+            "text": "With progress of machine learning techniques in recent years, it has become possible to train more complex models on much larger data set, and they typically outperform the simple models. Probably the most successful concept is to use distributed representations of words . For example, neural network based language models significantly outperform N-gram models ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 2828
+                },
+                {
+                    "x": 876,
+                    "y": 2828
+                },
+                {
+                    "x": 876,
+                    "y": 2876
+                },
+                {
+                    "x": 446,
+                    "y": 2876
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:18px'>1.1 Goals of the Paper</p>",
+            "id": 11,
+            "page": 1,
+            "text": "1.1 Goals of the Paper"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2913
+                },
+                {
+                    "x": 2110,
+                    "y": 2913
+                },
+                {
+                    "x": 2110,
+                    "y": 3055
+                },
+                {
+                    "x": 443,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:16px'>The main goal of this paper is to introduce techniques that can be used for learning high-quality word<br>vectors from huge data sets with billions of words, and with millions of words in the vocabulary. As<br>far as we know, none of the previously proposed architectures has been successfully trained on more</p>",
+            "id": 12,
+            "page": 1,
+            "text": "The main goal of this paper is to introduce techniques that can be used for learning high-quality word vectors from huge data sets with billions of words, and with millions of words in the vocabulary. As far as we know, none of the previously proposed architectures has been successfully trained on more"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 63,
+                    "y": 921
+                },
+                {
+                    "x": 150,
+                    "y": 921
+                },
+                {
+                    "x": 150,
+                    "y": 2300
+                },
+                {
+                    "x": 63,
+                    "y": 2300
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='13' style='font-size:14px'>2013<br>Sep<br>L<br>[cs.CL]<br>arxiv:1301373731a</footer>",
+            "id": 13,
+            "page": 1,
+            "text": "2013 Sep L [cs.CL] arxiv:1301373731a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3173
+                },
+                {
+                    "x": 1261,
+                    "y": 3173
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='14' style='font-size:14px'>1</footer>",
+            "id": 14,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 348
+                },
+                {
+                    "x": 2104,
+                    "y": 348
+                },
+                {
+                    "x": 2104,
+                    "y": 434
+                },
+                {
+                    "x": 441,
+                    "y": 434
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:14px'>than a few hundred of millions of words, with a modest dimensionality of the word vectors between<br>50 - 100.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "than a few hundred of millions of words, with a modest dimensionality of the word vectors between 50 - 100."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 463
+                },
+                {
+                    "x": 2107,
+                    "y": 463
+                },
+                {
+                    "x": 2107,
+                    "y": 739
+                },
+                {
+                    "x": 442,
+                    "y": 739
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:18px'>We use recently proposed techniques for measuring the quality of the resulting vector representa-<br>tions, with the expectation that not only will similar words tend to be close to each other, but that<br>words can have multiple degrees of similarity [20]. This has been observed earlier in the context<br>of inflectional languages - for example, nouns can have multiple word endings, and if we search for<br>similar words in a subspace of the original vector space, it is possible to find words that have similar<br>endings [13, 14].</p>",
+            "id": 16,
+            "page": 2,
+            "text": "We use recently proposed techniques for measuring the quality of the resulting vector representations, with the expectation that not only will similar words tend to be close to each other, but that words can have multiple degrees of similarity . This has been observed earlier in the context of inflectional languages - for example, nouns can have multiple word endings, and if we search for similar words in a subspace of the original vector space, it is possible to find words that have similar endings ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 763
+                },
+                {
+                    "x": 2107,
+                    "y": 763
+                },
+                {
+                    "x": 2107,
+                    "y": 948
+                },
+                {
+                    "x": 442,
+                    "y": 948
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:18px'>Somewhat surprisingly, it was found that similarity of word representations goes beyond simple<br>syntactic regularities. Using a word offset technique where simple algebraic operations are per-<br>formed on the word vectors, it was shown for example that vector( \" King \") - vector( \"Man \") + vec-<br>tor( \"Woman \") results in a vector that is closest to the vector representation of the word Queen [20].</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Somewhat surprisingly, it was found that similarity of word representations goes beyond simple syntactic regularities. Using a word offset technique where simple algebraic operations are performed on the word vectors, it was shown for example that vector( \" King \") - vector( \"Man \") + vector( \"Woman \") results in a vector that is closest to the vector representation of the word Queen ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 970
+                },
+                {
+                    "x": 2108,
+                    "y": 970
+                },
+                {
+                    "x": 2108,
+                    "y": 1200
+                },
+                {
+                    "x": 441,
+                    "y": 1200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>In this paper, we try to maximize accuracy of these vector operations by developing new model<br>architectures that preserve the linear regularities among words. We design a new comprehensive test<br>set for measuring both syntactic and semantic regularities1 , and show that many such regularities<br>can be learned with high accuracy. Moreover, we discuss how training time and accuracy depends<br>on the dimensionality of the word vectors and on the amount of the training data.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "In this paper, we try to maximize accuracy of these vector operations by developing new model architectures that preserve the linear regularities among words. We design a new comprehensive test set for measuring both syntactic and semantic regularities1 , and show that many such regularities can be learned with high accuracy. Moreover, we discuss how training time and accuracy depends on the dimensionality of the word vectors and on the amount of the training data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1269
+                },
+                {
+                    "x": 812,
+                    "y": 1269
+                },
+                {
+                    "x": 812,
+                    "y": 1318
+                },
+                {
+                    "x": 446,
+                    "y": 1318
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:18px'>1.2 Previous Work</p>",
+            "id": 19,
+            "page": 2,
+            "text": "1.2 Previous Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1361
+                },
+                {
+                    "x": 2108,
+                    "y": 1361
+                },
+                {
+                    "x": 2108,
+                    "y": 1593
+                },
+                {
+                    "x": 442,
+                    "y": 1593
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:20px'>Representation of words as continuous vectors has a long history [10, 26, 8]. A very popular model<br>architecture for estimating neural network language model (NNLM) was proposed in [1], where a<br>feedforward neural network with a linear projection layer and a non-linear hidden layer was used to<br>learn jointly the word vector representation and a statistical language model. This work has been<br>followed by many others.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Representation of words as continuous vectors has a long history . A very popular model architecture for estimating neural network language model (NNLM) was proposed in , where a feedforward neural network with a linear projection layer and a non-linear hidden layer was used to learn jointly the word vector representation and a statistical language model. This work has been followed by many others."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1616
+                },
+                {
+                    "x": 2108,
+                    "y": 1616
+                },
+                {
+                    "x": 2108,
+                    "y": 1845
+                },
+                {
+                    "x": 442,
+                    "y": 1845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:18px'>Another interesting architecture of NNLM was presented in [13, 14], where the word vectors are<br>first learned using neural network with a single hidden layer. The word vectors are then used to train<br>the NNLM. Thus, the word vectors are learned even without constructing the full NNLM. In this<br>work, we directly extend this architecture, and focus just on the first step where the word vectors are<br>learned using a simple model.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Another interesting architecture of NNLM was presented in , where the word vectors are first learned using neural network with a single hidden layer. The word vectors are then used to train the NNLM. Thus, the word vectors are learned even without constructing the full NNLM. In this work, we directly extend this architecture, and focus just on the first step where the word vectors are learned using a simple model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1869
+                },
+                {
+                    "x": 2107,
+                    "y": 1869
+                },
+                {
+                    "x": 2107,
+                    "y": 2192
+                },
+                {
+                    "x": 442,
+                    "y": 2192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>It was later shown that the word vectors can be used to significantly improve and simplify many<br>NLP applications [4, 5, 29]. Estimation of the word vectors itself was performed using different<br>model architectures and trained on various corpora [4, 29, 23, 19, 9], and some of the resulting word<br>vectors were made available for future research and comparison2. However, as far as we know, these<br>architectures were significantly more computationally expensive for training than the one proposed<br>in [13], with the exception of certain version of log-bilinear model where diagonal weight matrices<br>are used [23].</p>",
+            "id": 22,
+            "page": 2,
+            "text": "It was later shown that the word vectors can be used to significantly improve and simplify many NLP applications . Estimation of the word vectors itself was performed using different model architectures and trained on various corpora , and some of the resulting word vectors were made available for future research and comparison2. However, as far as we know, these architectures were significantly more computationally expensive for training than the one proposed in , with the exception of certain version of log-bilinear model where diagonal weight matrices are used ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2272
+                },
+                {
+                    "x": 966,
+                    "y": 2272
+                },
+                {
+                    "x": 966,
+                    "y": 2327
+                },
+                {
+                    "x": 444,
+                    "y": 2327
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:22px'>2 Model Architectures</p>",
+            "id": 23,
+            "page": 2,
+            "text": "2 Model Architectures"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2383
+                },
+                {
+                    "x": 2107,
+                    "y": 2383
+                },
+                {
+                    "x": 2107,
+                    "y": 2618
+                },
+                {
+                    "x": 442,
+                    "y": 2618
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:20px'>Many different types of models were proposed for estimating continuous representations of words,<br>including the well-known Latent Semantic Analysis (LSA) and Latent Dirichlet Allocation (LDA).<br>In this paper, we focus on distributed representations of words learned by neural networks, as it was<br>previously shown that they perform significantly better than LSA for preserving linear regularities<br>among words [20, 31]; LDA moreover becomes computationally very expensive on large data sets.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "Many different types of models were proposed for estimating continuous representations of words, including the well-known Latent Semantic Analysis (LSA) and Latent Dirichlet Allocation (LDA). In this paper, we focus on distributed representations of words learned by neural networks, as it was previously shown that they perform significantly better than LSA for preserving linear regularities among words ; LDA moreover becomes computationally very expensive on large data sets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2639
+                },
+                {
+                    "x": 2105,
+                    "y": 2639
+                },
+                {
+                    "x": 2105,
+                    "y": 2779
+                },
+                {
+                    "x": 442,
+                    "y": 2779
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:18px'>Similar to [18], to compare different model architectures we define first the computational complex-<br>ity of a model as the number of parameters that need to be accessed to fully train the model. Next,<br>we will try to maximize the accuracy, while minimizing the computational complexity.</p>",
+            "id": 25,
+            "page": 2,
+            "text": "Similar to , to compare different model architectures we define first the computational complexity of a model as the number of parameters that need to be accessed to fully train the model. Next, we will try to maximize the accuracy, while minimizing the computational complexity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2838
+                },
+                {
+                    "x": 2018,
+                    "y": 2838
+                },
+                {
+                    "x": 2018,
+                    "y": 3052
+                },
+                {
+                    "x": 441,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:14px'>1The test set is available at www · fit · vutbr · CZ / ~ imikolov / rnnlm/word-test · v1 · txt<br>2http : / / ronan · collobert · com/ senna/<br>http : / /metaoptimize · com/projects/wordreprs/<br>http : / / www · fit · vutbr · CZ / ~ imikolov/ rnnlm/<br>http : / / ai · stanford. edu/ ~ehhuang/</p>",
+            "id": 26,
+            "page": 2,
+            "text": "1The test set is available at www · fit · vutbr · CZ / ~ imikolov / rnnlm/word-test · v1 · txt 2http : / / ronan · collobert · com/ senna/ http : / /metaoptimize · com/projects/wordreprs/ http : / / www · fit · vutbr · CZ / ~ imikolov/ rnnlm/ http : / / ai · stanford. edu/ ~ehhuang/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3172
+                },
+                {
+                    "x": 1259,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='27' style='font-size:18px'>2</footer>",
+            "id": 27,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 348
+                },
+                {
+                    "x": 1629,
+                    "y": 348
+                },
+                {
+                    "x": 1629,
+                    "y": 394
+                },
+                {
+                    "x": 444,
+                    "y": 394
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:22px'>For all the following models, the training complexity is proportional to</p>",
+            "id": 28,
+            "page": 3,
+            "text": "For all the following models, the training complexity is proportional to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 523
+                },
+                {
+                    "x": 2106,
+                    "y": 523
+                },
+                {
+                    "x": 2106,
+                    "y": 660
+                },
+                {
+                    "x": 442,
+                    "y": 660
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:16px'>where E is number of the training epochs, T is the number of the words in the training set and Q is<br>defined further for each model architecture. Common choice is E = 3 - 50 and T up to one billion.<br>All models are trained using stochastic gradient descent and backpropagation [26].</p>",
+            "id": 29,
+            "page": 3,
+            "text": "where E is number of the training epochs, T is the number of the words in the training set and Q is defined further for each model architecture. Common choice is E = 3 - 50 and T up to one billion. All models are trained using stochastic gradient descent and backpropagation ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 730
+                },
+                {
+                    "x": 1455,
+                    "y": 730
+                },
+                {
+                    "x": 1455,
+                    "y": 778
+                },
+                {
+                    "x": 443,
+                    "y": 778
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:20px'>2.1 Feedforward Neural Net Language Model (NNLM)</p>",
+            "id": 30,
+            "page": 3,
+            "text": "2.1 Feedforward Neural Net Language Model (NNLM)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 819
+                },
+                {
+                    "x": 2108,
+                    "y": 819
+                },
+                {
+                    "x": 2108,
+                    "y": 1351
+                },
+                {
+                    "x": 441,
+                    "y": 1351
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:18px'>The probabilistic feedforward neural network language model has been proposed in [1]. It consists<br>of input, projection, hidden and output layers. At the input layer, N previous words are encoded<br>using 1-of-V coding, where V is size of the vocabulary. The input layer is then projected to a<br>projection layer P that has dimensionality N x D, using a shared projection matrix. As only N<br>inputs are active at any given time, composition of the projection layer is a relatively cheap operation.<br>The NNLM architecture becomes complex for computation between the projection and the hidden<br>layer, as values in the projection layer are dense. For a common choice of N = 10, the size of the<br>projection layer (P) might be 500 to 2000, while the hidden layer size H is typically 500 to 1000<br>units. Moreover, the hidden layer is used to compute probability distribution over all the words in the<br>vocabulary, resulting in an output layer with dimensionality V. Thus, the computational complexity<br>per each training example is</p>",
+            "id": 31,
+            "page": 3,
+            "text": "The probabilistic feedforward neural network language model has been proposed in . It consists of input, projection, hidden and output layers. At the input layer, N previous words are encoded using 1-of-V coding, where V is size of the vocabulary. The input layer is then projected to a projection layer P that has dimensionality N x D, using a shared projection matrix. As only N inputs are active at any given time, composition of the projection layer is a relatively cheap operation. The NNLM architecture becomes complex for computation between the projection and the hidden layer, as values in the projection layer are dense. For a common choice of N = 10, the size of the projection layer (P) might be 500 to 2000, while the hidden layer size H is typically 500 to 1000 units. Moreover, the hidden layer is used to compute probability distribution over all the words in the vocabulary, resulting in an output layer with dimensionality V. Thus, the computational complexity per each training example is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1476
+                },
+                {
+                    "x": 2106,
+                    "y": 1476
+                },
+                {
+                    "x": 2106,
+                    "y": 1706
+                },
+                {
+                    "x": 441,
+                    "y": 1706
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:16px'>where the dominating term is H x V. However, several practical solutions were proposed for<br>avoiding it; either using hierarchical versions of the softmax [25, 23, 18], or avoiding normalized<br>models completely by using models that are not normalized during training [4, 9]. With binary tree<br>representations of the vocabulary, the number of output units that need to be evaluated can go down<br>to around log2 (V). Thus, most of the complexity is caused by the term N x D x H.</p>",
+            "id": 32,
+            "page": 3,
+            "text": "where the dominating term is H x V. However, several practical solutions were proposed for avoiding it; either using hierarchical versions of the softmax , or avoiding normalized models completely by using models that are not normalized during training . With binary tree representations of the vocabulary, the number of output units that need to be evaluated can go down to around log2 (V). Thus, most of the complexity is caused by the term N x D x H."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1731
+                },
+                {
+                    "x": 2107,
+                    "y": 1731
+                },
+                {
+                    "x": 2107,
+                    "y": 2189
+                },
+                {
+                    "x": 442,
+                    "y": 2189
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>In our models, we use hierarchical softmax where the vocabulary is represented as a Huffman binary<br>tree. This follows previous observations that the frequency of words works well for obtaining classes<br>in neural net language models [16]. Huffman trees assign short binary codes to frequent words, and<br>this further reduces the number of output units that need to be evaluated: while balanced binary tree<br>would require log2 (V) outputs to be evaluated, the Huffman tree based hierarchical softmax requires<br>only about log2 (U nigram_perplexity(V)). For example when the vocabulary size is one million<br>words, this results in about two times speedup in evaluation. While this is not crucial speedup for<br>neural network LMs as the computational bottleneck is in the N x D x H term, we will later propose<br>architectures that do not have hidden layers and thus depend heavily on the efficiency of the softmax<br>normalization.</p>",
+            "id": 33,
+            "page": 3,
+            "text": "In our models, we use hierarchical softmax where the vocabulary is represented as a Huffman binary tree. This follows previous observations that the frequency of words works well for obtaining classes in neural net language models . Huffman trees assign short binary codes to frequent words, and this further reduces the number of output units that need to be evaluated: while balanced binary tree would require log2 (V) outputs to be evaluated, the Huffman tree based hierarchical softmax requires only about log2 (U nigram_perplexity(V)). For example when the vocabulary size is one million words, this results in about two times speedup in evaluation. While this is not crucial speedup for neural network LMs as the computational bottleneck is in the N x D x H term, we will later propose architectures that do not have hidden layers and thus depend heavily on the efficiency of the softmax normalization."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2258
+                },
+                {
+                    "x": 1438,
+                    "y": 2258
+                },
+                {
+                    "x": 1438,
+                    "y": 2307
+                },
+                {
+                    "x": 443,
+                    "y": 2307
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:20px'>2.2 Recurrent Neural Net Language Model (RNNLM)</p>",
+            "id": 34,
+            "page": 3,
+            "text": "2.2 Recurrent Neural Net Language Model (RNNLM)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2348
+                },
+                {
+                    "x": 2106,
+                    "y": 2348
+                },
+                {
+                    "x": 2106,
+                    "y": 2720
+                },
+                {
+                    "x": 441,
+                    "y": 2720
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:16px'>Recurrent neural network based language model has been proposed to overcome certain limitations<br>of the feedforward NNLM, such as the need to specify the context length (the order of the model N),<br>and because theoretically RNNs can efficiently represent more complex patterns than the shallow<br>neural networks [15, 2]. The RNN model does not have a projection layer; only input, hidden and<br>output layer. What is special for this type of model is the recurrent matrix that connects hidden<br>layer to itself, using time-delayed connections. This allows the recurrent model to form some kind<br>of short term memory, as information from the past can be represented by the hidden layer state that<br>gets updated based on the current input and the state of the hidden layer in the previous time step.</p>",
+            "id": 35,
+            "page": 3,
+            "text": "Recurrent neural network based language model has been proposed to overcome certain limitations of the feedforward NNLM, such as the need to specify the context length (the order of the model N), and because theoretically RNNs can efficiently represent more complex patterns than the shallow neural networks . The RNN model does not have a projection layer; only input, hidden and output layer. What is special for this type of model is the recurrent matrix that connects hidden layer to itself, using time-delayed connections. This allows the recurrent model to form some kind of short term memory, as information from the past can be represented by the hidden layer state that gets updated based on the current input and the state of the hidden layer in the previous time step."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2741
+                },
+                {
+                    "x": 1427,
+                    "y": 2741
+                },
+                {
+                    "x": 1427,
+                    "y": 2787
+                },
+                {
+                    "x": 443,
+                    "y": 2787
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:18px'>The complexity per training example of the RNN model is</p>",
+            "id": 36,
+            "page": 3,
+            "text": "The complexity per training example of the RNN model is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2916
+                },
+                {
+                    "x": 2105,
+                    "y": 2916
+                },
+                {
+                    "x": 2105,
+                    "y": 3053
+                },
+                {
+                    "x": 442,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>where the word representations D have the same dimensionality as the hidden layer H. Again, the<br>term H x V can be efficiently reduced to H x log2 (V) by using hierarchical softmax. Most of the<br>complexity then comes from H x H.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "where the word representations D have the same dimensionality as the hidden layer H. Again, the term H x V can be efficiently reduced to H x log2 (V) by using hierarchical softmax. Most of the complexity then comes from H x H."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3172
+                },
+                {
+                    "x": 1260,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='38' style='font-size:16px'>3</footer>",
+            "id": 38,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 345
+                },
+                {
+                    "x": 1208,
+                    "y": 345
+                },
+                {
+                    "x": 1208,
+                    "y": 395
+                },
+                {
+                    "x": 443,
+                    "y": 395
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>2.3 Parallel Training of Neural Networks</p>",
+            "id": 39,
+            "page": 4,
+            "text": "2.3 Parallel Training of Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 429
+                },
+                {
+                    "x": 2109,
+                    "y": 429
+                },
+                {
+                    "x": 2109,
+                    "y": 800
+                },
+                {
+                    "x": 441,
+                    "y": 800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:14px'>To train models on huge data sets, we have implemented several models on top of a large-scale<br>distributed framework called DistBelief [6], including the feedforward NNLM and the new models<br>proposed in this paper. The framework allows us to run multiple replicas of the same model in<br>parallel, and each replica synchronizes its gradient updates through a centralized server that keeps<br>all the parameters. For this parallel training, we use mini-batch asynchronous gradient descent with<br>an adaptive learning rate procedure called Adagrad [7]. Under this framework, it is common to use<br>one hundred or more model replicas, each using many CPU cores at different machines in a data<br>center.</p>",
+            "id": 40,
+            "page": 4,
+            "text": "To train models on huge data sets, we have implemented several models on top of a large-scale distributed framework called DistBelief , including the feedforward NNLM and the new models proposed in this paper. The framework allows us to run multiple replicas of the same model in parallel, and each replica synchronizes its gradient updates through a centralized server that keeps all the parameters. For this parallel training, we use mini-batch asynchronous gradient descent with an adaptive learning rate procedure called Adagrad . Under this framework, it is common to use one hundred or more model replicas, each using many CPU cores at different machines in a data center."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 863
+                },
+                {
+                    "x": 1028,
+                    "y": 863
+                },
+                {
+                    "x": 1028,
+                    "y": 921
+                },
+                {
+                    "x": 443,
+                    "y": 921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:22px'>3 New Log-linear Models</p>",
+            "id": 41,
+            "page": 4,
+            "text": "3 New Log-linear Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 966
+                },
+                {
+                    "x": 2109,
+                    "y": 966
+                },
+                {
+                    "x": 2109,
+                    "y": 1245
+                },
+                {
+                    "x": 440,
+                    "y": 1245
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>In this section, we propose two new model architectures for learning distributed representations<br>of words that try to minimize computational complexity. The main observation from the previous<br>section was that most of the complexity is caused by the non-linear hidden layer in the model. While<br>this is what makes neural networks SO attractive, we decided to explore simpler models that might<br>not be able to represent the data as precisely as neural networks, but can possibly be trained on much<br>more data efficiently.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "In this section, we propose two new model architectures for learning distributed representations of words that try to minimize computational complexity. The main observation from the previous section was that most of the complexity is caused by the non-linear hidden layer in the model. While this is what makes neural networks SO attractive, we decided to explore simpler models that might not be able to represent the data as precisely as neural networks, but can possibly be trained on much more data efficiently."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1266
+                },
+                {
+                    "x": 2108,
+                    "y": 1266
+                },
+                {
+                    "x": 2108,
+                    "y": 1546
+                },
+                {
+                    "x": 442,
+                    "y": 1546
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='43' style='font-size:16px'>The new architectures directly follow those proposed in our earlier work [13, 14], where it was<br>found that neural network language model can be successfully trained in two steps: first, continuous<br>word vectors are learned using simple model, and then the N-gram NNLM is trained on top of these<br>distributed representations of words. While there has been later substantial amount of work that<br>focuses on learning word vectors, we consider the approach proposed in [13] to be the simplest one.<br>Note that related models have been proposed also much earlier [26, 8].</p>",
+            "id": 43,
+            "page": 4,
+            "text": "The new architectures directly follow those proposed in our earlier work , where it was found that neural network language model can be successfully trained in two steps: first, continuous word vectors are learned using simple model, and then the N-gram NNLM is trained on top of these distributed representations of words. While there has been later substantial amount of work that focuses on learning word vectors, we consider the approach proposed in  to be the simplest one. Note that related models have been proposed also much earlier ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1597
+                },
+                {
+                    "x": 1137,
+                    "y": 1597
+                },
+                {
+                    "x": 1137,
+                    "y": 1647
+                },
+                {
+                    "x": 441,
+                    "y": 1647
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:20px'>3.1 Continuous Bag-of- Words Model</p>",
+            "id": 44,
+            "page": 4,
+            "text": "3.1 Continuous Bag-of- Words Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1681
+                },
+                {
+                    "x": 2107,
+                    "y": 1681
+                },
+                {
+                    "x": 2107,
+                    "y": 2052
+                },
+                {
+                    "x": 443,
+                    "y": 2052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>The first proposed architecture is similar to the feedforward NNLM, where the non-linear hidden<br>layer is removed and the projection layer is shared for all words (not just the projection matrix);<br>thus, all words get projected into the same position (their vectors are averaged). We call this archi-<br>tecture a bag-of-words model as the order of words in the history does not influence the projection.<br>Furthermore, we also use words from the future; we have obtained the best performance on the task<br>introduced in the next section by building a log-linear classifier with four future and four history<br>words at the input, where the training criterion is to correctly classify the current (middle) word.<br>Training complexity is then</p>",
+            "id": 45,
+            "page": 4,
+            "text": "The first proposed architecture is similar to the feedforward NNLM, where the non-linear hidden layer is removed and the projection layer is shared for all words (not just the projection matrix); thus, all words get projected into the same position (their vectors are averaged). We call this architecture a bag-of-words model as the order of words in the history does not influence the projection. Furthermore, we also use words from the future; we have obtained the best performance on the task introduced in the next section by building a log-linear classifier with four future and four history words at the input, where the training criterion is to correctly classify the current (middle) word. Training complexity is then"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2109
+                },
+                {
+                    "x": 2107,
+                    "y": 2109
+                },
+                {
+                    "x": 2107,
+                    "y": 2292
+                },
+                {
+                    "x": 442,
+                    "y": 2292
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:14px'>We denote this model further as CBOW, as unlike standard bag-of-words model, it uses continuous<br>distributed representation of the context. The model architecture is shown at Figure 1. Note that the<br>weight matrix between the input and the projection layer is shared for all word positions in the same<br>way as in the NNLM.</p>",
+            "id": 46,
+            "page": 4,
+            "text": "We denote this model further as CBOW, as unlike standard bag-of-words model, it uses continuous distributed representation of the context. The model architecture is shown at Figure 1. Note that the weight matrix between the input and the projection layer is shared for all word positions in the same way as in the NNLM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2346
+                },
+                {
+                    "x": 1075,
+                    "y": 2346
+                },
+                {
+                    "x": 1075,
+                    "y": 2398
+                },
+                {
+                    "x": 443,
+                    "y": 2398
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:20px'>3.2 Continuous Skip-gram Model</p>",
+            "id": 47,
+            "page": 4,
+            "text": "3.2 Continuous Skip-gram Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2802
+                },
+                {
+                    "x": 442,
+                    "y": 2802
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:14px'>The second architecture is similar to CBOW, but instead of predicting the current word based on the<br>context, it tries to maximize classification of a word based on another word in the same sentence.<br>More precisely, we use each current word as an input to a log-linear classifier with continuous<br>projection layer, and predict words within a certain range before and after the current word. We<br>found that increasing the range improves quality of the resulting word vectors, but it also increases<br>the computational complexity. Since the more distant words are usually less related to the current<br>word than those close to it, we give less weight to the distant words by sampling less from those<br>words in our training examples.</p>",
+            "id": 48,
+            "page": 4,
+            "text": "The second architecture is similar to CBOW, but instead of predicting the current word based on the context, it tries to maximize classification of a word based on another word in the same sentence. More precisely, we use each current word as an input to a log-linear classifier with continuous projection layer, and predict words within a certain range before and after the current word. We found that increasing the range improves quality of the resulting word vectors, but it also increases the computational complexity. Since the more distant words are usually less related to the current word than those close to it, we give less weight to the distant words by sampling less from those words in our training examples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2824
+                },
+                {
+                    "x": 1475,
+                    "y": 2824
+                },
+                {
+                    "x": 1475,
+                    "y": 2871
+                },
+                {
+                    "x": 443,
+                    "y": 2871
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:20px'>The training complexity of this architecture is proportional to</p>",
+            "id": 49,
+            "page": 4,
+            "text": "The training complexity of this architecture is proportional to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2959
+                },
+                {
+                    "x": 2108,
+                    "y": 2959
+                },
+                {
+                    "x": 2108,
+                    "y": 3053
+                },
+                {
+                    "x": 442,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:14px'>where C is the maximum distance of the words. Thus, if we choose C = 5, for each training word<br>we will select randomly a number R in range < 1;C >, and then use R words from history and</p>",
+            "id": 50,
+            "page": 4,
+            "text": "where C is the maximum distance of the words. Thus, if we choose C = 5, for each training word we will select randomly a number R in range < 1;C >, and then use R words from history and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1259,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='51' style='font-size:14px'>4</footer>",
+            "id": 51,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 519,
+                    "y": 435
+                },
+                {
+                    "x": 2078,
+                    "y": 435
+                },
+                {
+                    "x": 2078,
+                    "y": 1359
+                },
+                {
+                    "x": 519,
+                    "y": 1359
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='52' style='font-size:16px' alt=\"INPUT PROJECTION OUTPUT INPUT PROJECTION OUTPUT\nw(t-2) w(t-2)\nW(t-1) W(t-1)\nSUM\nw(t) w(t)\nW(t+1) W(t+1)\nw(t+2) w(t+2)\nCBOW Skip-gram\" data-coord=\"top-left:(519,435); bottom-right:(2078,1359)\" /></figure>",
+            "id": 52,
+            "page": 5,
+            "text": "INPUT PROJECTION OUTPUT INPUT PROJECTION OUTPUT w(t-2) w(t-2) W(t-1) W(t-1) SUM w(t) w(t) W(t+1) W(t+1) w(t+2) w(t+2) CBOW Skip-gram"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1475
+                },
+                {
+                    "x": 2106,
+                    "y": 1475
+                },
+                {
+                    "x": 2106,
+                    "y": 1572
+                },
+                {
+                    "x": 441,
+                    "y": 1572
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='53' style='font-size:18px'>Figure 1: New model architectures. The CBOW architecture predicts the current word based on the<br>context, and the Skip-gram predicts surrounding words given the current word.</caption>",
+            "id": 53,
+            "page": 5,
+            "text": "Figure 1: New model architectures. The CBOW architecture predicts the current word based on the context, and the Skip-gram predicts surrounding words given the current word."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1666
+                },
+                {
+                    "x": 2107,
+                    "y": 1666
+                },
+                {
+                    "x": 2107,
+                    "y": 1806
+                },
+                {
+                    "x": 442,
+                    "y": 1806
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:14px'>R words from the future of the current word as correct labels. This will require us to do R x 2<br>word classifications, with the current word as input, and each of the R + R words as output. In the<br>following experiments, we use C = 10.</p>",
+            "id": 54,
+            "page": 5,
+            "text": "R words from the future of the current word as correct labels. This will require us to do R x 2 word classifications, with the current word as input, and each of the R + R words as output. In the following experiments, we use C = 10."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1884
+                },
+                {
+                    "x": 686,
+                    "y": 1884
+                },
+                {
+                    "x": 686,
+                    "y": 1938
+                },
+                {
+                    "x": 442,
+                    "y": 1938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:20px'>4 Results</p>",
+            "id": 55,
+            "page": 5,
+            "text": "4 Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1995
+                },
+                {
+                    "x": 2107,
+                    "y": 1995
+                },
+                {
+                    "x": 2107,
+                    "y": 2409
+                },
+                {
+                    "x": 442,
+                    "y": 2409
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>To compare the quality of different versions of word vectors, previous papers typically use a table<br>showing example words and their most similar words, and understand them intuitively. Although<br>it is easy to show that word France is similar to Italy and perhaps some other countries, it is much<br>more challenging when subjecting those vectors in a more complex similarity task, as follows. We<br>follow previous observation that there can be many different types of similarities between words, for<br>example, word big is similar to bigger in the same sense that small is similar to smaller. Example<br>of another type of relationship can be word pairs big - biggest and small - smallest [20]. We further<br>denote two pairs of words with the same relationship as a question, as we can ask: \"What is the<br>word that is similar to small in the same sense as biggest is similar to big?\"</p>",
+            "id": 56,
+            "page": 5,
+            "text": "To compare the quality of different versions of word vectors, previous papers typically use a table showing example words and their most similar words, and understand them intuitively. Although it is easy to show that word France is similar to Italy and perhaps some other countries, it is much more challenging when subjecting those vectors in a more complex similarity task, as follows. We follow previous observation that there can be many different types of similarities between words, for example, word big is similar to bigger in the same sense that small is similar to smaller. Example of another type of relationship can be word pairs big - biggest and small - smallest . We further denote two pairs of words with the same relationship as a question, as we can ask: \"What is the word that is similar to small in the same sense as biggest is similar to big?\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2432
+                },
+                {
+                    "x": 2107,
+                    "y": 2754
+                },
+                {
+                    "x": 442,
+                    "y": 2754
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>Somewhat surprisingly, these questions can be answered by performing simple algebraic operations<br>with the vector representation of words. To find a word that is similar to small in the same sense as<br>biggest is similar to big, we can simply compute vector X = vector(\" biggest\") vector(\" big\" ) +<br>vector(\" small\"). Then, we search in the vector space for the word closest to X measured by cosine<br>distance, and use it as the answer to the question (we discard the input question words during this<br>search). When the word vectors are well trained, it is possible to find the correct answer (word<br>smallest) using this method.</p>",
+            "id": 57,
+            "page": 5,
+            "text": "Somewhat surprisingly, these questions can be answered by performing simple algebraic operations with the vector representation of words. To find a word that is similar to small in the same sense as biggest is similar to big, we can simply compute vector X = vector(\" biggest\") vector(\" big\" ) + vector(\" small\"). Then, we search in the vector space for the word closest to X measured by cosine distance, and use it as the answer to the question (we discard the input question words during this search). When the word vectors are well trained, it is possible to find the correct answer (word smallest) using this method."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2776
+                },
+                {
+                    "x": 2108,
+                    "y": 2776
+                },
+                {
+                    "x": 2108,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:18px'>Finally, we found that when we train high dimensional word vectors on a large amount of data, the<br>resulting vectors can be used to answer very subtle semantic relationships between words, such as<br>a city and the country it belongs to, e.g. France is to Paris as Germany is to Berlin. Word vectors<br>with such semantic relationships could be used to improve many existing NLP applications, such<br>as machine translation, information retrieval and question answering systems, and may enable other<br>future applications yet to be invented.</p>",
+            "id": 58,
+            "page": 5,
+            "text": "Finally, we found that when we train high dimensional word vectors on a large amount of data, the resulting vectors can be used to answer very subtle semantic relationships between words, such as a city and the country it belongs to, e.g. France is to Paris as Germany is to Berlin. Word vectors with such semantic relationships could be used to improve many existing NLP applications, such as machine translation, information retrieval and question answering systems, and may enable other future applications yet to be invented."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1290,
+                    "y": 3133
+                },
+                {
+                    "x": 1290,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='59' style='font-size:14px'>5</footer>",
+            "id": 59,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 374
+                },
+                {
+                    "x": 2104,
+                    "y": 374
+                },
+                {
+                    "x": 2104,
+                    "y": 469
+                },
+                {
+                    "x": 441,
+                    "y": 469
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='60' style='font-size:18px'>Table 1: Examples offive types of semantic and nine types of syntactic questions in the Semantic-<br>Syntactic Word Relationship test set.</caption>",
+            "id": 60,
+            "page": 6,
+            "text": "Table 1: Examples offive types of semantic and nine types of syntactic questions in the SemanticSyntactic Word Relationship test set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 567,
+                    "y": 487
+                },
+                {
+                    "x": 1997,
+                    "y": 487
+                },
+                {
+                    "x": 1997,
+                    "y": 1391
+                },
+                {
+                    "x": 567,
+                    "y": 1391
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='61' style='font-size:18px'><tr><td>Type of relationship</td><td colspan=\"2\">Word Pair 1</td><td colspan=\"2\">Word Pair 2</td></tr><tr><td>Common capital city</td><td>Athens</td><td>Greece</td><td>Oslo</td><td>Norway</td></tr><tr><td>All capital cities</td><td>Astana</td><td>Kazakhstan</td><td>Harare</td><td>Zimbabwe</td></tr><tr><td>Currency</td><td>Angola</td><td>kwanza</td><td>Iran</td><td>rial</td></tr><tr><td>City-in-state</td><td>Chicago</td><td>Illinois</td><td>Stockton</td><td>California</td></tr><tr><td>Man-Woman</td><td>brother</td><td>sister</td><td>grandson</td><td>granddaughter</td></tr><tr><td>Adjective to adverb</td><td>apparent</td><td>apparently</td><td>rapid</td><td>rapidly</td></tr><tr><td>Opposite</td><td>possibly</td><td>impossibly</td><td>ethical</td><td>unethical</td></tr><tr><td>Comparative</td><td>great</td><td>greater</td><td>tough</td><td>tougher</td></tr><tr><td>Superlative</td><td>easy</td><td>easiest</td><td>lucky</td><td>luckiest</td></tr><tr><td>Present Participle</td><td>think</td><td>thinking</td><td>read</td><td>reading</td></tr><tr><td>Nationality adjective</td><td>Switzerland</td><td>Swiss</td><td>Cambodia</td><td>Cambodian</td></tr><tr><td>Past tense</td><td>walking</td><td>walked</td><td>swimming</td><td>swam</td></tr><tr><td>Plural nouns</td><td>mouse</td><td>mice</td><td>dollar</td><td>dollars</td></tr><tr><td>Plural verbs</td><td>work</td><td>works</td><td>speak</td><td>speaks</td></tr></table>",
+            "id": 61,
+            "page": 6,
+            "text": "Type of relationship Word Pair 1 Word Pair 2  Common capital city Athens Greece Oslo Norway  All capital cities Astana Kazakhstan Harare Zimbabwe  Currency Angola kwanza Iran rial  City-in-state Chicago Illinois Stockton California  Man-Woman brother sister grandson granddaughter  Adjective to adverb apparent apparently rapid rapidly  Opposite possibly impossibly ethical unethical  Comparative great greater tough tougher  Superlative easy easiest lucky luckiest  Present Participle think thinking read reading  Nationality adjective Switzerland Swiss Cambodia Cambodian  Past tense walking walked swimming swam  Plural nouns mouse mice dollar dollars  Plural verbs work works speak"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1483
+                },
+                {
+                    "x": 847,
+                    "y": 1483
+                },
+                {
+                    "x": 847,
+                    "y": 1531
+                },
+                {
+                    "x": 444,
+                    "y": 1531
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:20px'>4.1 Task Description</p>",
+            "id": 62,
+            "page": 6,
+            "text": "4.1 Task Description"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1570
+                },
+                {
+                    "x": 2107,
+                    "y": 1570
+                },
+                {
+                    "x": 2107,
+                    "y": 1940
+                },
+                {
+                    "x": 443,
+                    "y": 1940
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:16px'>To measure quality of the word vectors, we define a comprehensive test set that contains five types<br>of semantic questions, and nine types of syntactic questions. Two examples from each category are<br>shown in Table 1. Overall, there are 8869 semantic and 10675 syntactic questions. The questions<br>in each category were created in two steps: first, a list of similar word pairs was created manually.<br>Then, a large list of questions is formed by connecting two word pairs. For example, we made a<br>list of 68 large American cities and the states they belong to, and formed about 2.5K questions by<br>picking two word pairs at random. We have included in our test set only single token words, thus<br>multi-word entities are not present (such as New York).</p>",
+            "id": 63,
+            "page": 6,
+            "text": "To measure quality of the word vectors, we define a comprehensive test set that contains five types of semantic questions, and nine types of syntactic questions. Two examples from each category are shown in Table 1. Overall, there are 8869 semantic and 10675 syntactic questions. The questions in each category were created in two steps: first, a list of similar word pairs was created manually. Then, a large list of questions is formed by connecting two word pairs. For example, we made a list of 68 large American cities and the states they belong to, and formed about 2.5K questions by picking two word pairs at random. We have included in our test set only single token words, thus multi-word entities are not present (such as New York)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1962
+                },
+                {
+                    "x": 2107,
+                    "y": 1962
+                },
+                {
+                    "x": 2107,
+                    "y": 2329
+                },
+                {
+                    "x": 442,
+                    "y": 2329
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:16px'>We evaluate the overall accuracy for all question types, and for each question type separately (se-<br>mantic, syntactic). Question is assumed to be correctly answered only if the closest word to the<br>vector computed using the above method is exactly the same as the correct word in the question;<br>synonyms are thus counted as mistakes. This also means that reaching 100% accuracy is likely<br>to be impossible, as the current models do not have any input information about word morphology.<br>However, we believe that usefulness of the word vectors for certain applications should be positively<br>correlated with this accuracy metric. Further progress can be achieved by incorporating information<br>about structure of words, especially for the syntactic questions.</p>",
+            "id": 64,
+            "page": 6,
+            "text": "We evaluate the overall accuracy for all question types, and for each question type separately (semantic, syntactic). Question is assumed to be correctly answered only if the closest word to the vector computed using the above method is exactly the same as the correct word in the question; synonyms are thus counted as mistakes. This also means that reaching 100% accuracy is likely to be impossible, as the current models do not have any input information about word morphology. However, we believe that usefulness of the word vectors for certain applications should be positively correlated with this accuracy metric. Further progress can be achieved by incorporating information about structure of words, especially for the syntactic questions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2390
+                },
+                {
+                    "x": 1014,
+                    "y": 2390
+                },
+                {
+                    "x": 1014,
+                    "y": 2438
+                },
+                {
+                    "x": 443,
+                    "y": 2438
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:18px'>4.2 Maximization of Accuracy</p>",
+            "id": 65,
+            "page": 6,
+            "text": "4.2 Maximization of Accuracy"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2477
+                },
+                {
+                    "x": 2108,
+                    "y": 2477
+                },
+                {
+                    "x": 2108,
+                    "y": 2847
+                },
+                {
+                    "x": 442,
+                    "y": 2847
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:16px'>We have used a Google News corpus for training the word vectors. This corpus contains about<br>6B tokens. We have restricted the vocabulary size to 1 million most frequent words. Clearly, we<br>are facing time constrained optimization problem, as it can be expected that both using more data<br>and higher dimensional word vectors will improve the accuracy. To estimate the best choice of<br>model architecture for obtaining as good as possible results quickly, we have first evaluated models<br>trained on subsets of the training data, with vocabulary restricted to the most frequent 30k words.<br>The results using the CBOW architecture with different choice of word vector dimensionality and<br>increasing amount of the training data are shown in Table 2.</p>",
+            "id": 66,
+            "page": 6,
+            "text": "We have used a Google News corpus for training the word vectors. This corpus contains about 6B tokens. We have restricted the vocabulary size to 1 million most frequent words. Clearly, we are facing time constrained optimization problem, as it can be expected that both using more data and higher dimensional word vectors will improve the accuracy. To estimate the best choice of model architecture for obtaining as good as possible results quickly, we have first evaluated models trained on subsets of the training data, with vocabulary restricted to the most frequent 30k words. The results using the CBOW architecture with different choice of word vector dimensionality and increasing amount of the training data are shown in Table 2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2869
+                },
+                {
+                    "x": 2109,
+                    "y": 2869
+                },
+                {
+                    "x": 2109,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:16px'>It can be seen that after some point, adding more dimensions or adding more training data provides<br>diminishing improvements. So, we have to increase both vector dimensionality and the amount<br>of the training data together. While this observation might seem trivial, it must be noted that it is<br>currently popular to train word vectors on relatively large amounts of data, but with insufficient size</p>",
+            "id": 67,
+            "page": 6,
+            "text": "It can be seen that after some point, adding more dimensions or adding more training data provides diminishing improvements. So, we have to increase both vector dimensionality and the amount of the training data together. While this observation might seem trivial, it must be noted that it is currently popular to train word vectors on relatively large amounts of data, but with insufficient size"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3137
+                },
+                {
+                    "x": 1289,
+                    "y": 3137
+                },
+                {
+                    "x": 1289,
+                    "y": 3172
+                },
+                {
+                    "x": 1260,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='68' style='font-size:14px'>6</footer>",
+            "id": 68,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 374
+                },
+                {
+                    "x": 2107,
+                    "y": 374
+                },
+                {
+                    "x": 2107,
+                    "y": 512
+                },
+                {
+                    "x": 441,
+                    "y": 512
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='69' style='font-size:20px'>Table 2: Accuracy on subset of the Semantic-Syntactic Word Relationship test set, using word<br>vectors from the CBOW architecture with limited vocabulary. Only questions containing words from<br>the most frequent 30k words are used.</caption>",
+            "id": 69,
+            "page": 7,
+            "text": "Table 2: Accuracy on subset of the Semantic-Syntactic Word Relationship test set, using word vectors from the CBOW architecture with limited vocabulary. Only questions containing words from the most frequent 30k words are used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 551,
+                    "y": 532
+                },
+                {
+                    "x": 2002,
+                    "y": 532
+                },
+                {
+                    "x": 2002,
+                    "y": 847
+                },
+                {
+                    "x": 551,
+                    "y": 847
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='70' style='font-size:18px'><tr><td>Dimensionality / Training words</td><td>24M</td><td>49M</td><td>98M</td><td>196M</td><td>391M</td><td>783M</td></tr><tr><td>50</td><td>13.4</td><td>15.7</td><td>18.6</td><td>19.1</td><td>22.5</td><td>23.2</td></tr><tr><td>100</td><td>19.4</td><td>23.1</td><td>27.8</td><td>28.7</td><td>33.4</td><td>32.2</td></tr><tr><td>300</td><td>23.2</td><td>29.2</td><td>35.3</td><td>38.6</td><td>43.7</td><td>45.9</td></tr><tr><td>600</td><td>24.0</td><td>30.1</td><td>36.5</td><td>40.8</td><td>46.6</td><td>50.4</td></tr></table>",
+            "id": 70,
+            "page": 7,
+            "text": "Dimensionality / Training words 24M 49M 98M 196M 391M 783M  50 13.4 15.7 18.6 19.1 22.5 23.2  100 19.4 23.1 27.8 28.7 33.4 32.2  300 23.2 29.2 35.3 38.6 43.7 45.9  600 24.0 30.1 36.5 40.8 46.6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 932
+                },
+                {
+                    "x": 2106,
+                    "y": 932
+                },
+                {
+                    "x": 2106,
+                    "y": 1072
+                },
+                {
+                    "x": 441,
+                    "y": 1072
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='71' style='font-size:18px'>Table 3: Comparison of architectures using models trained on the same data, with 640-dimensional<br>word vectors. The accuracies are reported on our Semantic-Syntactic Word Relationship test set,<br>and on the syntactic relationship test set of [20]</caption>",
+            "id": 71,
+            "page": 7,
+            "text": "Table 3: Comparison of architectures using models trained on the same data, with 640-dimensional word vectors. The accuracies are reported on our Semantic-Syntactic Word Relationship test set, and on the syntactic relationship test set of "
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 467,
+                    "y": 1091
+                },
+                {
+                    "x": 2094,
+                    "y": 1091
+                },
+                {
+                    "x": 2094,
+                    "y": 1464
+                },
+                {
+                    "x": 467,
+                    "y": 1464
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='72' style='font-size:20px'><tr><td rowspan=\"2\">Model Architecture</td><td colspan=\"2\">Semantic-Syntactic Word Relationship test set</td><td rowspan=\"2\">MSR Word Relatedness Test Set [20]</td></tr><tr><td>Semantic Accuracy [%]</td><td>Syntactic Accuracy [%]</td></tr><tr><td>RNNLM</td><td>9</td><td>36</td><td>35</td></tr><tr><td>NNLM</td><td>23</td><td>53</td><td>47</td></tr><tr><td>CBOW</td><td>24</td><td>64</td><td>61</td></tr><tr><td>Skip-gram</td><td>55</td><td>59</td><td>56</td></tr></table>",
+            "id": 72,
+            "page": 7,
+            "text": "Model Architecture Semantic-Syntactic Word Relationship test set MSR Word Relatedness Test Set   Semantic Accuracy [%] Syntactic Accuracy [%]  RNNLM 9 36 35  NNLM 23 53 47  CBOW 24 64 61  Skip-gram 55 59"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1557
+                },
+                {
+                    "x": 2104,
+                    "y": 1557
+                },
+                {
+                    "x": 2104,
+                    "y": 1649
+                },
+                {
+                    "x": 442,
+                    "y": 1649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:18px'>(such as 50 - 100). Given Equation 4, increasing amount of training data twice results in about the<br>same increase of computational complexity as increasing vector size twice.</p>",
+            "id": 73,
+            "page": 7,
+            "text": "(such as 50 - 100). Given Equation 4, increasing amount of training data twice results in about the same increase of computational complexity as increasing vector size twice."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1673
+                },
+                {
+                    "x": 2105,
+                    "y": 1673
+                },
+                {
+                    "x": 2105,
+                    "y": 1812
+                },
+                {
+                    "x": 441,
+                    "y": 1812
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>For the experiments reported in Tables 2 and 4, we used three training epochs with stochastic gradi-<br>ent descent and backpropagation. We chose starting learning rate 0.025 and decreased it linearly, SO<br>that it approaches zero at the end of the last training epoch.</p>",
+            "id": 74,
+            "page": 7,
+            "text": "For the experiments reported in Tables 2 and 4, we used three training epochs with stochastic gradient descent and backpropagation. We chose starting learning rate 0.025 and decreased it linearly, SO that it approaches zero at the end of the last training epoch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1877
+                },
+                {
+                    "x": 1186,
+                    "y": 1877
+                },
+                {
+                    "x": 1186,
+                    "y": 1925
+                },
+                {
+                    "x": 443,
+                    "y": 1925
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:22px'>4.3 Comparison of Model Architectures</p>",
+            "id": 75,
+            "page": 7,
+            "text": "4.3 Comparison of Model Architectures"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1965
+                },
+                {
+                    "x": 2108,
+                    "y": 1965
+                },
+                {
+                    "x": 2108,
+                    "y": 2196
+                },
+                {
+                    "x": 441,
+                    "y": 2196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:18px'>First we compare different model architectures for deriving the word vectors using the same training<br>data and using the same dimensionality of 640 of the word vectors. In the further experiments, we<br>use full set of questions in the new Semantic-Syntactic Word Relationship test set, i.e. unrestricted to<br>the 30k vocabulary. We also include results on a test set introduced in [20] that focuses on syntactic<br>similarity between words3.</p>",
+            "id": 76,
+            "page": 7,
+            "text": "First we compare different model architectures for deriving the word vectors using the same training data and using the same dimensionality of 640 of the word vectors. In the further experiments, we use full set of questions in the new Semantic-Syntactic Word Relationship test set, i.e. unrestricted to the 30k vocabulary. We also include results on a test set introduced in  that focuses on syntactic similarity between words3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2220
+                },
+                {
+                    "x": 2108,
+                    "y": 2220
+                },
+                {
+                    "x": 2108,
+                    "y": 2495
+                },
+                {
+                    "x": 441,
+                    "y": 2495
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='77' style='font-size:18px'>The training data consists of several LDC corpora and is described in detail in [18] (320M words,<br>82K vocabulary). We used these data to provide a comparison to a previously trained recurrent<br>neural network language model that took about 8 weeks to train on a single CPU. We trained a feed-<br>forward NNLM with the same number of 640 hidden units using the DistBelief parallel training [6],<br>using a history of 8 previous words (thus, the NNLM has more parameters than the RNNLM, as the<br>projection layer has size 640 x 8).</p>",
+            "id": 77,
+            "page": 7,
+            "text": "The training data consists of several LDC corpora and is described in detail in  (320M words, 82K vocabulary). We used these data to provide a comparison to a previously trained recurrent neural network language model that took about 8 weeks to train on a single CPU. We trained a feedforward NNLM with the same number of 640 hidden units using the DistBelief parallel training , using a history of 8 previous words (thus, the NNLM has more parameters than the RNNLM, as the projection layer has size 640 x 8)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2517
+                },
+                {
+                    "x": 2107,
+                    "y": 2517
+                },
+                {
+                    "x": 2107,
+                    "y": 2841
+                },
+                {
+                    "x": 441,
+                    "y": 2841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:16px'>In Table 3, it can be seen that the word vectors from the RNN (as used in [20]) perform well mostly<br>on the syntactic questions. The NNLM vectors perform significantly better than the RNN - this is<br>not surprising, as the word vectors in the RNNLM are directly connected to a non-linear hidden<br>layer. The CBOW architecture works better than the NNLM on the syntactic tasks, and about the<br>same on the semantic one. Finally, the Skip-gram architecture works slightly worse on the syntactic<br>task than the CBOW model (but still better than the NNLM), and much better on the semantic part<br>of the test than all the other models.</p>",
+            "id": 78,
+            "page": 7,
+            "text": "In Table 3, it can be seen that the word vectors from the RNN (as used in ) perform well mostly on the syntactic questions. The NNLM vectors perform significantly better than the RNN - this is not surprising, as the word vectors in the RNNLM are directly connected to a non-linear hidden layer. The CBOW architecture works better than the NNLM on the syntactic tasks, and about the same on the semantic one. Finally, the Skip-gram architecture works slightly worse on the syntactic task than the CBOW model (but still better than the NNLM), and much better on the semantic part of the test than all the other models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2865
+                },
+                {
+                    "x": 2106,
+                    "y": 2865
+                },
+                {
+                    "x": 2106,
+                    "y": 2957
+                },
+                {
+                    "x": 442,
+                    "y": 2957
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:18px'>Next, we evaluated our models trained using one CPU only and compared the results against publicly<br>available word vectors. The comparison is given in Table 4. The CBOW model was trained on subset</p>",
+            "id": 79,
+            "page": 7,
+            "text": "Next, we evaluated our models trained using one CPU only and compared the results against publicly available word vectors. The comparison is given in Table 4. The CBOW model was trained on subset"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 499,
+                    "y": 3007
+                },
+                {
+                    "x": 1289,
+                    "y": 3007
+                },
+                {
+                    "x": 1289,
+                    "y": 3052
+                },
+                {
+                    "x": 499,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:14px'>3We thank Geoff Zweig for providing us the test set.</p>",
+            "id": 80,
+            "page": 7,
+            "text": "3We thank Geoff Zweig for providing us the test set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='81' style='font-size:14px'>7</footer>",
+            "id": 81,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 375
+                },
+                {
+                    "x": 2103,
+                    "y": 375
+                },
+                {
+                    "x": 2103,
+                    "y": 468
+                },
+                {
+                    "x": 442,
+                    "y": 468
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='82' style='font-size:16px'>Table 4: Comparison of publicly available word vectors on the Semantic-Syntactic Word Relation-<br>ship test set, and word vectors from our models. Full vocabularies are used.</caption>",
+            "id": 82,
+            "page": 8,
+            "text": "Table 4: Comparison of publicly available word vectors on the Semantic-Syntactic Word Relationship test set, and word vectors from our models. Full vocabularies are used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 488
+                },
+                {
+                    "x": 2055,
+                    "y": 488
+                },
+                {
+                    "x": 2055,
+                    "y": 1455
+                },
+                {
+                    "x": 509,
+                    "y": 1455
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='83' style='font-size:14px'><tr><td>Model</td><td>Vector Dimensionality</td><td>Training words</td><td colspan=\"3\">Accuracy [%]</td></tr><tr><td></td><td></td><td></td><td>Semantic</td><td>Syntactic</td><td>Total</td></tr><tr><td>Collobert- Weston NNLM</td><td>50</td><td>660M</td><td>9.3</td><td>12.3</td><td>11.0</td></tr><tr><td>Turian NNLM</td><td>50</td><td>37M</td><td>1.4</td><td>2.6</td><td>2.1</td></tr><tr><td>Turian NNLM</td><td>200</td><td>37M</td><td>1.4</td><td>2.2</td><td>1.8</td></tr><tr><td>Mnih NNLM</td><td>50</td><td>37M</td><td>1.8</td><td>9.1</td><td>5.8</td></tr><tr><td>Mnih NNLM</td><td>100</td><td>37M</td><td>3.3</td><td>13.2</td><td>8.8</td></tr><tr><td>Mikolov RNNLM</td><td>80</td><td>320M</td><td>4.9</td><td>18.4</td><td>12.7</td></tr><tr><td>Mikolov RNNLM</td><td>640</td><td>320M</td><td>8.6</td><td>36.5</td><td>24.6</td></tr><tr><td>Huang NNLM</td><td>50</td><td>990M</td><td>13.3</td><td>11.6</td><td>12.3</td></tr><tr><td>Our NNLM</td><td>20</td><td>6B</td><td>12.9</td><td>26.4</td><td>20.3</td></tr><tr><td>Our NNLM</td><td>50</td><td>6B</td><td>27.9</td><td>55.8</td><td>43.2</td></tr><tr><td>Our NNLM</td><td>100</td><td>6B</td><td>34.2</td><td>64.5</td><td>50.8</td></tr><tr><td>CBOW</td><td>300</td><td>783M</td><td>15.5</td><td>53.1</td><td>36.1</td></tr><tr><td>Skip-gram</td><td>300</td><td>783M</td><td>50.0</td><td>55.9</td><td>53.3</td></tr></table>",
+            "id": 83,
+            "page": 8,
+            "text": "Model Vector Dimensionality Training words Accuracy [%]     Semantic Syntactic Total  Collobert- Weston NNLM 50 660M 9.3 12.3 11.0  Turian NNLM 50 37M 1.4 2.6 2.1  Turian NNLM 200 37M 1.4 2.2 1.8  Mnih NNLM 50 37M 1.8 9.1 5.8  Mnih NNLM 100 37M 3.3 13.2 8.8  Mikolov RNNLM 80 320M 4.9 18.4 12.7  Mikolov RNNLM 640 320M 8.6 36.5 24.6  Huang NNLM 50 990M 13.3 11.6 12.3  Our NNLM 20 6B 12.9 26.4 20.3  Our NNLM 50 6B 27.9 55.8 43.2  Our NNLM 100 6B 34.2 64.5 50.8  CBOW 300 783M 15.5 53.1 36.1  Skip-gram 300 783M 50.0 55.9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1542
+                },
+                {
+                    "x": 2105,
+                    "y": 1542
+                },
+                {
+                    "x": 2105,
+                    "y": 1633
+                },
+                {
+                    "x": 441,
+                    "y": 1633
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='84' style='font-size:16px'>Table 5: Comparison of models trained for three epochs on the same data and models trained for<br>one epoch. Accuracy is reported on the full Semantic-Syntactic data set.</caption>",
+            "id": 84,
+            "page": 8,
+            "text": "Table 5: Comparison of models trained for three epochs on the same data and models trained for one epoch. Accuracy is reported on the full Semantic-Syntactic data set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 424,
+                    "y": 1653
+                },
+                {
+                    "x": 2139,
+                    "y": 1653
+                },
+                {
+                    "x": 2139,
+                    "y": 2326
+                },
+                {
+                    "x": 424,
+                    "y": 2326
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='85' style='font-size:16px'><tr><td>Model</td><td>Vector Dimensionality</td><td>Training words</td><td colspan=\"3\">Accuracy [%]</td><td>Training time [days]</td></tr><tr><td></td><td></td><td></td><td>Semantic</td><td>Syntactic</td><td>Total</td><td></td></tr><tr><td>3 epoch CBOW</td><td>300</td><td>783M</td><td>15.5</td><td>53.1</td><td>36.1</td><td>1</td></tr><tr><td>3 epoch Skip-gram</td><td>300</td><td>783M</td><td>50.0</td><td>55.9</td><td>53.3</td><td>3</td></tr><tr><td>1 epoch CBOW</td><td>300</td><td>783M</td><td>13.8</td><td>49.9</td><td>33.6</td><td>0.3</td></tr><tr><td>1 epoch CBOW</td><td>300</td><td>1.6B</td><td>16.1</td><td>52.6</td><td>36.1</td><td>0.6</td></tr><tr><td>1 epoch CBOW</td><td>600</td><td>783M</td><td>15.4</td><td>53.3</td><td>36.2</td><td>0.7</td></tr><tr><td>1 epoch Skip-gram</td><td>300</td><td>783M</td><td>45.6</td><td>52.2</td><td>49.2</td><td>1</td></tr><tr><td>1 epoch Skip-gram</td><td>300</td><td>1.6B</td><td>52.2</td><td>55.1</td><td>53.8</td><td>2</td></tr><tr><td>1 epoch Skip-gram</td><td>600</td><td>783M</td><td>56.7</td><td>54.5</td><td>55.5</td><td>2.5</td></tr></table>",
+            "id": 85,
+            "page": 8,
+            "text": "Model Vector Dimensionality Training words Accuracy [%] Training time [days]     Semantic Syntactic Total   3 epoch CBOW 300 783M 15.5 53.1 36.1 1  3 epoch Skip-gram 300 783M 50.0 55.9 53.3 3  1 epoch CBOW 300 783M 13.8 49.9 33.6 0.3  1 epoch CBOW 300 1.6B 16.1 52.6 36.1 0.6  1 epoch CBOW 600 783M 15.4 53.3 36.2 0.7  1 epoch Skip-gram 300 783M 45.6 52.2 49.2 1  1 epoch Skip-gram 300 1.6B 52.2 55.1 53.8 2  1 epoch Skip-gram 600 783M 56.7 54.5 55.5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2419
+                },
+                {
+                    "x": 2105,
+                    "y": 2419
+                },
+                {
+                    "x": 2105,
+                    "y": 2509
+                },
+                {
+                    "x": 441,
+                    "y": 2509
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:16px'>of the Google News data in about a day, while training time for the Skip-gram model was about three<br>days.</p>",
+            "id": 86,
+            "page": 8,
+            "text": "of the Google News data in about a day, while training time for the Skip-gram model was about three days."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2534
+                },
+                {
+                    "x": 2107,
+                    "y": 2534
+                },
+                {
+                    "x": 2107,
+                    "y": 2719
+                },
+                {
+                    "x": 441,
+                    "y": 2719
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:14px'>For experiments reported further, we used just one training epoch (again, we decrease the learning<br>rate linearly so that it approaches zero at the end of training). Training a model on twice as much<br>data using one epoch gives comparable or better results than iterating over the same data for three<br>epochs, as is shown in Table 5, and provides additional small speedup.</p>",
+            "id": 87,
+            "page": 8,
+            "text": "For experiments reported further, we used just one training epoch (again, we decrease the learning rate linearly so that it approaches zero at the end of training). Training a model on twice as much data using one epoch gives comparable or better results than iterating over the same data for three epochs, as is shown in Table 5, and provides additional small speedup."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2781
+                },
+                {
+                    "x": 1252,
+                    "y": 2781
+                },
+                {
+                    "x": 1252,
+                    "y": 2827
+                },
+                {
+                    "x": 444,
+                    "y": 2827
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:20px'>4.4 Large Scale Parallel Training of Models</p>",
+            "id": 88,
+            "page": 8,
+            "text": "4.4 Large Scale Parallel Training of Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2871
+                },
+                {
+                    "x": 2108,
+                    "y": 2871
+                },
+                {
+                    "x": 2108,
+                    "y": 3052
+                },
+                {
+                    "x": 442,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:14px'>As mentioned earlier, we have implemented various models in a distributed framework called Dis-<br>tBelief. Below we report the results of several models trained on the Google News 6B data set,<br>with mini-batch asynchronous gradient descent and the adaptive learning rate procedure called Ada-<br>grad [7]. We used 50 to 100 model replicas during the training. The number of CPU cores is an</p>",
+            "id": 89,
+            "page": 8,
+            "text": "As mentioned earlier, we have implemented various models in a distributed framework called DistBelief. Below we report the results of several models trained on the Google News 6B data set, with mini-batch asynchronous gradient descent and the adaptive learning rate procedure called Adagrad . We used 50 to 100 model replicas during the training. The number of CPU cores is an"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='90' style='font-size:14px'>8</footer>",
+            "id": 90,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 376
+                },
+                {
+                    "x": 2104,
+                    "y": 376
+                },
+                {
+                    "x": 2104,
+                    "y": 468
+                },
+                {
+                    "x": 442,
+                    "y": 468
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='91' style='font-size:18px'>Table 6: Comparison of models trained using the DistBelief distributed framework. Note that<br>training of NNLM with 1000-dimensional vectors would take too long to complete.</caption>",
+            "id": 91,
+            "page": 9,
+            "text": "Table 6: Comparison of models trained using the DistBelief distributed framework. Note that training of NNLM with 1000-dimensional vectors would take too long to complete."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 485
+                },
+                {
+                    "x": 2117,
+                    "y": 485
+                },
+                {
+                    "x": 2117,
+                    "y": 863
+                },
+                {
+                    "x": 444,
+                    "y": 863
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='92' style='font-size:16px'><tr><td>Model</td><td>Vector Dimensionality</td><td>Training words</td><td colspan=\"3\">Accuracy [%]</td><td>Training time [days X CPU cores]</td></tr><tr><td></td><td></td><td></td><td>Semantic</td><td>Syntactic</td><td>Total</td><td></td></tr><tr><td>NNLM</td><td>100</td><td>6B</td><td>34.2</td><td>64.5</td><td>50.8</td><td>14 x 180</td></tr><tr><td>CBOW</td><td>1000</td><td>6B</td><td>57.3</td><td>68.9</td><td>63.7</td><td>2 x 140</td></tr><tr><td>Skip-gram</td><td>1000</td><td>6B</td><td>66.1</td><td>65.1</td><td>65.6</td><td>2.5 x 125</td></tr></table>",
+            "id": 92,
+            "page": 9,
+            "text": "Model Vector Dimensionality Training words Accuracy [%] Training time [days X CPU cores]     Semantic Syntactic Total   NNLM 100 6B 34.2 64.5 50.8 14 x 180  CBOW 1000 6B 57.3 68.9 63.7 2 x 140  Skip-gram 1000 6B 66.1 65.1 65.6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 945
+                },
+                {
+                    "x": 2098,
+                    "y": 945
+                },
+                {
+                    "x": 2098,
+                    "y": 989
+                },
+                {
+                    "x": 445,
+                    "y": 989
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='93' style='font-size:20px'>Table 7: Comparison and combination of models on the Microsoft Sentence Completion Challenge.</caption>",
+            "id": 93,
+            "page": 9,
+            "text": "Table 7: Comparison and combination of models on the Microsoft Sentence Completion Challenge."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 864,
+                    "y": 1007
+                },
+                {
+                    "x": 1688,
+                    "y": 1007
+                },
+                {
+                    "x": 1688,
+                    "y": 1443
+                },
+                {
+                    "x": 864,
+                    "y": 1443
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='94' style='font-size:20px'><tr><td>Architecture</td><td>Accuracy [%]</td></tr><tr><td>4-gram [32]</td><td>39</td></tr><tr><td>Average LSA similarity [32]</td><td>49</td></tr><tr><td>Log-bilinear model [24]</td><td>54.8</td></tr><tr><td>RNNLMs [19]</td><td>55.4</td></tr><tr><td>Skip-gram</td><td>48.0</td></tr><tr><td>Skip-gram + RNNLMs</td><td>58.9</td></tr></table>",
+            "id": 94,
+            "page": 9,
+            "text": "Architecture Accuracy [%]  4-gram  39  Average LSA similarity  49  Log-bilinear model  54.8  RNNLMs  55.4  Skip-gram 48.0  Skip-gram + RNNLMs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1534
+                },
+                {
+                    "x": 2106,
+                    "y": 1534
+                },
+                {
+                    "x": 2106,
+                    "y": 1715
+                },
+                {
+                    "x": 442,
+                    "y": 1715
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:14px'>estimate since the data center machines are shared with other production tasks, and the usage can<br>fluctuate quite a bit. Note that due to the overhead of the distributed framework, the CPU usage of<br>the CBOW model and the Skip-gram model are much closer to each other than their single-machine<br>implementations. The result are reported in Table 6.</p>",
+            "id": 95,
+            "page": 9,
+            "text": "estimate since the data center machines are shared with other production tasks, and the usage can fluctuate quite a bit. Note that due to the overhead of the distributed framework, the CPU usage of the CBOW model and the Skip-gram model are much closer to each other than their single-machine implementations. The result are reported in Table 6."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1776
+                },
+                {
+                    "x": 1464,
+                    "y": 1776
+                },
+                {
+                    "x": 1464,
+                    "y": 1823
+                },
+                {
+                    "x": 444,
+                    "y": 1823
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:20px'>4.5 Microsoft Research Sentence Completion Challenge</p>",
+            "id": 96,
+            "page": 9,
+            "text": "4.5 Microsoft Research Sentence Completion Challenge"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1862
+                },
+                {
+                    "x": 2107,
+                    "y": 1862
+                },
+                {
+                    "x": 2107,
+                    "y": 2183
+                },
+                {
+                    "x": 443,
+                    "y": 2183
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:16px'>The Microsoft Sentence Completion Challenge has been recently introduced as a task for advancing<br>language modeling and other NLP techniques [32]. This task consists of 1040 sentences, where one<br>word is missing in each sentence and the goal is to select word that is the most coherent with the<br>rest of the sentence, given a list of five reasonable choices. Performance of several techniques has<br>been already reported on this set, including N-gram models, LSA-based model [32], log-bilinear<br>model [24] and a combination of recurrent neural networks that currently holds the state of the art<br>performance of 55.4% accuracy on this benchmark [19].</p>",
+            "id": 97,
+            "page": 9,
+            "text": "The Microsoft Sentence Completion Challenge has been recently introduced as a task for advancing language modeling and other NLP techniques . This task consists of 1040 sentences, where one word is missing in each sentence and the goal is to select word that is the most coherent with the rest of the sentence, given a list of five reasonable choices. Performance of several techniques has been already reported on this set, including N-gram models, LSA-based model , log-bilinear model  and a combination of recurrent neural networks that currently holds the state of the art performance of 55.4% accuracy on this benchmark ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2208
+                },
+                {
+                    "x": 2107,
+                    "y": 2208
+                },
+                {
+                    "x": 2107,
+                    "y": 2436
+                },
+                {
+                    "x": 443,
+                    "y": 2436
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:16px'>We have explored the performance of Skip-gram architecture on this task. First, we train the 640-<br>dimensional model on 50M words provided in [32]. Then, we compute score of each sentence in<br>the test set by using the unknown word at the input, and predict all surrounding words in a sentence.<br>The final sentence score is then the sum of these individual predictions. Using the sentence scores,<br>we choose the most likely sentence.</p>",
+            "id": 98,
+            "page": 9,
+            "text": "We have explored the performance of Skip-gram architecture on this task. First, we train the 640dimensional model on 50M words provided in . Then, we compute score of each sentence in the test set by using the unknown word at the input, and predict all surrounding words in a sentence. The final sentence score is then the sum of these individual predictions. Using the sentence scores, we choose the most likely sentence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2462
+                },
+                {
+                    "x": 2107,
+                    "y": 2462
+                },
+                {
+                    "x": 2107,
+                    "y": 2691
+                },
+                {
+                    "x": 442,
+                    "y": 2691
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:14px'>A short summary of some previous results together with the new results is presented in Table 7.<br>While the Skip-gram model itself does not perform on this task better than LSA similarity, the scores<br>from this model are complementary to scores obtained with RNNLMs, and a weighted combination<br>leads to a new state of the art result 58.9% accuracy (59.2% on the development part of the set and<br>58.7% on the test part of the set).</p>",
+            "id": 99,
+            "page": 9,
+            "text": "A short summary of some previous results together with the new results is presented in Table 7. While the Skip-gram model itself does not perform on this task better than LSA similarity, the scores from this model are complementary to scores obtained with RNNLMs, and a weighted combination leads to a new state of the art result 58.9% accuracy (59.2% on the development part of the set and 58.7% on the test part of the set)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2762
+                },
+                {
+                    "x": 1362,
+                    "y": 2762
+                },
+                {
+                    "x": 1362,
+                    "y": 2817
+                },
+                {
+                    "x": 443,
+                    "y": 2817
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:22px'>5 Examples of the Learned Relationships</p>",
+            "id": 100,
+            "page": 9,
+            "text": "5 Examples of the Learned Relationships"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2868
+                },
+                {
+                    "x": 2107,
+                    "y": 2868
+                },
+                {
+                    "x": 2107,
+                    "y": 3053
+                },
+                {
+                    "x": 442,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:16px'>Table 8 shows words that follow various relationships. We follow the approach described above: the<br>relationship is defined by subtracting two word vectors, and the result is added to another word. Thus<br>for example, Paris - France + Italy = Rome. As it can be seen, accuracy is quite good, although<br>there is clearly a lot of room for further improvements (note that using our accuracy metric that</p>",
+            "id": 101,
+            "page": 9,
+            "text": "Table 8 shows words that follow various relationships. We follow the approach described above: the relationship is defined by subtracting two word vectors, and the result is added to another word. Thus for example, Paris - France + Italy = Rome. As it can be seen, accuracy is quite good, although there is clearly a lot of room for further improvements (note that using our accuracy metric that"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3168
+                },
+                {
+                    "x": 1260,
+                    "y": 3168
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='102' style='font-size:14px'>9</footer>",
+            "id": 102,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 375
+                },
+                {
+                    "x": 2103,
+                    "y": 375
+                },
+                {
+                    "x": 2103,
+                    "y": 468
+                },
+                {
+                    "x": 442,
+                    "y": 468
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='103' style='font-size:18px'>Table 8: Examples of the word pair relationships, using the best word vectors from Table 4 (Skip-<br>gram model trained on 783M words with 300 dimensionality).</caption>",
+            "id": 103,
+            "page": 10,
+            "text": "Table 8: Examples of the word pair relationships, using the best word vectors from Table 4 (Skipgram model trained on 783M words with 300 dimensionality)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 497,
+                    "y": 488
+                },
+                {
+                    "x": 2058,
+                    "y": 488
+                },
+                {
+                    "x": 2058,
+                    "y": 1152
+                },
+                {
+                    "x": 497,
+                    "y": 1152
+                }
+            ],
+            "category": "table",
+            "html": "<table id='104' style='font-size:14px'><tr><td>Relationship</td><td>Example 1</td><td>Example 2</td><td>Example 3</td></tr><tr><td>France - Paris</td><td>Italy: Rome</td><td>Japan: Tokyo</td><td>Florida: Tallahassee</td></tr><tr><td>big - bigger</td><td>small: larger</td><td>cold: colder</td><td>quick: quicker</td></tr><tr><td>Miami - Florida</td><td>Baltimore: Maryland</td><td>Dallas: Texas</td><td>Kona: Hawaii</td></tr><tr><td>Einstein - scientist</td><td>Messi: midfielder</td><td>Mozart: violinist</td><td>Picasso: painter</td></tr><tr><td>Sarkozy - France</td><td>Berlusconi: Italy</td><td>Merkel: Germany</td><td>Koizumi: Japan</td></tr><tr><td>copper - Cu</td><td>zinc: Zn</td><td>gold: Au</td><td>uranium: plutonium</td></tr><tr><td>Berlusconi - Silvio</td><td>Sarkozy: Nicolas</td><td>Putin: Medvedev</td><td>Obama: Barack</td></tr><tr><td>Microsoft - Windows</td><td>Google: Android</td><td>IBM: Linux</td><td>Apple: iPhone</td></tr><tr><td>Microsoft - Ballmer</td><td>Google: Yahoo</td><td>IBM: McNealy</td><td>Apple: Jobs</td></tr><tr><td>Japan - sushi</td><td>Germany: bratwurst</td><td>France: tapas</td><td>USA: pizza</td></tr></table>",
+            "id": 104,
+            "page": 10,
+            "text": "Relationship Example 1 Example 2 Example 3  France - Paris Italy: Rome Japan: Tokyo Florida: Tallahassee  big - bigger small: larger cold: colder quick: quicker  Miami - Florida Baltimore: Maryland Dallas: Texas Kona: Hawaii  Einstein - scientist Messi: midfielder Mozart: violinist Picasso: painter  Sarkozy - France Berlusconi: Italy Merkel: Germany Koizumi: Japan  copper - Cu zinc: Zn gold: Au uranium: plutonium  Berlusconi - Silvio Sarkozy: Nicolas Putin: Medvedev Obama: Barack  Microsoft - Windows Google: Android IBM: Linux Apple: iPhone  Microsoft - Ballmer Google: Yahoo IBM: McNealy Apple: Jobs  Japan - sushi Germany: bratwurst France: tapas"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1296
+                },
+                {
+                    "x": 2106,
+                    "y": 1296
+                },
+                {
+                    "x": 2106,
+                    "y": 1568
+                },
+                {
+                    "x": 442,
+                    "y": 1568
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:16px'>assumes exact match, the results in Table 8 would score only about 60%). We believe that word<br>vectors trained on even larger data sets with larger dimensionality will perform significantly better,<br>and will enable the development of new innovative applications. Another way to improve accuracy is<br>to provide more than one example of the relationship. By using ten examples instead of one to form<br>the relationship vector (we average the individual vectors together), we have observed improvement<br>of accuracy of our best models by about 10% absolutely on the semantic-syntactic test.</p>",
+            "id": 105,
+            "page": 10,
+            "text": "assumes exact match, the results in Table 8 would score only about 60%). We believe that word vectors trained on even larger data sets with larger dimensionality will perform significantly better, and will enable the development of new innovative applications. Another way to improve accuracy is to provide more than one example of the relationship. By using ten examples instead of one to form the relationship vector (we average the individual vectors together), we have observed improvement of accuracy of our best models by about 10% absolutely on the semantic-syntactic test."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1591
+                },
+                {
+                    "x": 2107,
+                    "y": 1591
+                },
+                {
+                    "x": 2107,
+                    "y": 1777
+                },
+                {
+                    "x": 441,
+                    "y": 1777
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='106' style='font-size:16px'>It is also possible to apply the vector operations to solve different tasks. For example, we have<br>observed good accuracy for selecting out-of-the-list words, by computing average vector for a list of<br>words, and finding the most distant word vector. This is a popular type of problems in certain human<br>intelligence tests. Clearly, there is still a lot of discoveries to be made using these techniques.</p>",
+            "id": 106,
+            "page": 10,
+            "text": "It is also possible to apply the vector operations to solve different tasks. For example, we have observed good accuracy for selecting out-of-the-list words, by computing average vector for a list of words, and finding the most distant word vector. This is a popular type of problems in certain human intelligence tests. Clearly, there is still a lot of discoveries to be made using these techniques."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1904
+                },
+                {
+                    "x": 767,
+                    "y": 1904
+                },
+                {
+                    "x": 767,
+                    "y": 1955
+                },
+                {
+                    "x": 443,
+                    "y": 1955
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:20px'>6 Conclusion</p>",
+            "id": 107,
+            "page": 10,
+            "text": "6 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2042
+                },
+                {
+                    "x": 2107,
+                    "y": 2042
+                },
+                {
+                    "x": 2107,
+                    "y": 2410
+                },
+                {
+                    "x": 442,
+                    "y": 2410
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:16px'>In this paper we studied the quality of vector representations of words derived by various models on<br>a collection of syntactic and semantic language tasks. We observed that it is possible to train high<br>quality word vectors using very simple model architectures, compared to the popular neural network<br>models (both feedforward and recurrent). Because of the much lower computational complexity, it<br>is possible to compute very accurate high dimensional word vectors from a much larger data set.<br>Using the DistBelief distributed framework, it should be possible to train the CBOW and Skip-gram<br>models even on corpora with one trillion words, for basically unlimited size of the vocabulary. That<br>is several orders of magnitude larger than the best previously published results for similar models.</p>",
+            "id": 108,
+            "page": 10,
+            "text": "In this paper we studied the quality of vector representations of words derived by various models on a collection of syntactic and semantic language tasks. We observed that it is possible to train high quality word vectors using very simple model architectures, compared to the popular neural network models (both feedforward and recurrent). Because of the much lower computational complexity, it is possible to compute very accurate high dimensional word vectors from a much larger data set. Using the DistBelief distributed framework, it should be possible to train the CBOW and Skip-gram models even on corpora with one trillion words, for basically unlimited size of the vocabulary. That is several orders of magnitude larger than the best previously published results for similar models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2433
+                },
+                {
+                    "x": 2107,
+                    "y": 2433
+                },
+                {
+                    "x": 2107,
+                    "y": 2711
+                },
+                {
+                    "x": 441,
+                    "y": 2711
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='109' style='font-size:14px'>An interesting task where the word vectors have recently been shown to significantly outperform the<br>previous state of the art is the SemEval-2012 Task 2 [11]. The publicly available RNN vectors were<br>used together with other techniques to achieve over 50% increase in Spearman's rank correlation<br>over the previous best result [31]. The neural network based word vectors were previously applied<br>to many other NLP tasks, for example sentiment analysis [12] and paraphrase detection [28]. It can<br>be expected that these applications can benefit from the model architectures described in this paper.</p>",
+            "id": 109,
+            "page": 10,
+            "text": "An interesting task where the word vectors have recently been shown to significantly outperform the previous state of the art is the SemEval-2012 Task 2 . The publicly available RNN vectors were used together with other techniques to achieve over 50% increase in Spearman's rank correlation over the previous best result . The neural network based word vectors were previously applied to many other NLP tasks, for example sentiment analysis  and paraphrase detection . It can be expected that these applications can benefit from the model architectures described in this paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2731
+                },
+                {
+                    "x": 2107,
+                    "y": 2731
+                },
+                {
+                    "x": 2107,
+                    "y": 3055
+                },
+                {
+                    "x": 441,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:16px'>Our ongoing work shows that the word vectors can be successfully applied to automatic extension<br>of facts in Knowledge Bases, and also for verification of correctness of existing facts. Results<br>from machine translation experiments also look very promising. In the future, it would be also<br>interesting to compare our techniques to Latent Relational Analysis [30] and others. We believe that<br>our comprehensive test set will help the research community to improve the existing techniques for<br>estimating the word vectors. We also expect that high quality word vectors will become an important<br>building block for future NLP applications.</p>",
+            "id": 110,
+            "page": 10,
+            "text": "Our ongoing work shows that the word vectors can be successfully applied to automatic extension of facts in Knowledge Bases, and also for verification of correctness of existing facts. Results from machine translation experiments also look very promising. In the future, it would be also interesting to compare our techniques to Latent Relational Analysis  and others. We believe that our comprehensive test set will help the research community to improve the existing techniques for estimating the word vectors. We also expect that high quality word vectors will become an important building block for future NLP applications."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1253,
+                    "y": 3134
+                },
+                {
+                    "x": 1300,
+                    "y": 3134
+                },
+                {
+                    "x": 1300,
+                    "y": 3172
+                },
+                {
+                    "x": 1253,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='111' style='font-size:14px'>10</footer>",
+            "id": 111,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 340
+                },
+                {
+                    "x": 886,
+                    "y": 340
+                },
+                {
+                    "x": 886,
+                    "y": 396
+                },
+                {
+                    "x": 444,
+                    "y": 396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:22px'>7 Follow-Up Work</p>",
+            "id": 112,
+            "page": 11,
+            "text": "7 Follow-Up Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 447
+                },
+                {
+                    "x": 2108,
+                    "y": 447
+                },
+                {
+                    "x": 2108,
+                    "y": 724
+                },
+                {
+                    "x": 442,
+                    "y": 724
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:18px'>After the initial version of this paper was written, we published single-machine multi-threaded C++<br>code for computing the word vectors, using both the continuous bag-of-words and skip-gram archi-<br>tectures4. The training speed is significantly higher than reported earlier in this paper, i.e. it is in the<br>order of billions of words per hour for typical hyperparameter choices. We also published more than<br>1.4 million vectors that represent named entities, trained on more than 100 billion words. Some of<br>our follow-up work will be published in an upcoming NIPS 2013 paper [21].</p>",
+            "id": 113,
+            "page": 11,
+            "text": "After the initial version of this paper was written, we published single-machine multi-threaded C++ code for computing the word vectors, using both the continuous bag-of-words and skip-gram architectures4. The training speed is significantly higher than reported earlier in this paper, i.e. it is in the order of billions of words per hour for typical hyperparameter choices. We also published more than 1.4 million vectors that represent named entities, trained on more than 100 billion words. Some of our follow-up work will be published in an upcoming NIPS 2013 paper ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 790
+                },
+                {
+                    "x": 688,
+                    "y": 790
+                },
+                {
+                    "x": 688,
+                    "y": 843
+                },
+                {
+                    "x": 444,
+                    "y": 843
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:22px'>References</p>",
+            "id": 114,
+            "page": 11,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 452,
+                    "y": 867
+                },
+                {
+                    "x": 2116,
+                    "y": 867
+                },
+                {
+                    "x": 2116,
+                    "y": 2978
+                },
+                {
+                    "x": 452,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:20px'>[1] Y. Bengio, R. Ducharme, P. Vincent. A neural probabilistic language model. Journal of Ma-<br>chine Learning Research, 3:1137-1155, 2003.<br>[2] Y. Bengio, Y. LeCun. Scaling learning algorithms towards AI. In: Large-Scale Kernel Ma-<br>chines, MIT Press, 2007.<br>[3] T. Brants, A. C. Popat, P. Xu, F. J. Och, and J. Dean. Large language models in machine<br>translation. In Proceedings of the Joint Conference on Empirical Methods in Natural Language<br>Processing and Computational Language Learning, 2007.<br>[4] R. Collobert and J. Weston. A Unified Architecture for Natural Language Processing: Deep<br>Neural Networks with Multitask Learning. In International Conference on Machine Learning,<br>ICML, 2008.<br>[5] R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu and P. Kuksa. Natural Lan-<br>guage Processing (Almost) from Scratch. Journal of Machine Learning Research, 12:2493-<br>2537, 2011.<br>[6] J. Dean, G.S. Corrado, R. Monga, K. Chen, M. Devin, Q.V. Le, M.Z. Mao, M.A. Ranzato, A.<br>Senior, P. Tucker, K. Yang, A. Y. Ng., Large Scale Distributed Deep Networks, NIPS, 2012.<br>[7] J.C. Duchi, E. Hazan, and Y. Singer. Adaptive subgradient methods for online learning and<br>stochastic optimization. Journal of Machine Learning Research, 2011.<br>[8] J. Elman. Finding Structure in Time. Cognitive Science, 14, 179-211, 1990.<br>[9] Eric H. Huang, R. Socher, C. D. Manning and Andrew Y. Ng. Improving Word Representations<br>via Global Context and Multiple Word Prototypes. In: Proc. Association for Computational<br>Linguistics, 2012.<br>[10] G.E. Hinton, J.L. McClelland, D.E. Rumelhart. Distributed representations. In: Parallel dis-<br>tributed processing: Explorations in the microstructure of cognition. Volume 1: Foundations,<br>MIT Press, 1986.<br>[11] D.A. Jurgens, S.M. Mohammad, P.D. Turney, K.J. Holyoak. Semeval-2012 task 2: Measuring<br>degrees of relational similarity. In: Proceedings of the 6th International Workshop on Semantic<br>Evaluation (SemEval 2012), 2012.<br>[12] A.L. Maas, R.E. Daly, P.T. Pham, D. Huang, A.Y. Ng, and C. Potts. Learning word vectors for<br>sentiment analysis. In Proceedings of ACL, 2011.<br>[13] T. Mikolov. Language Modeling for Speech Recognition in Czech, Masters thesis, Brno Uni-<br>versity of Technology, 2007.<br>[14] T. Mikolov, J. Kopecky, L. Burget, 0. Glembek and J. Cernocky. Neural network based lan-<br>guage models for higly inflective languages, In: Proc. ICASSP 2009.<br>[15] T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, S. Khudanpur. Recurrent neural network<br>based language model, In: Proceedings of Interspeech, 2010.<br>[16] T. Mikolov, S. Kombrink, L. Burget, J. Cernocky, S. Khudanpur. Extensions of recurrent neural<br>network language model, In: Proceedings of ICASSP 2011.<br>[17] T. Mikolov, A. Deoras, S. Kombrink, L. Burget, J. Cernocky. Empirical Evaluation and Com-<br>bination of Advanced Language Modeling Techniques, In: Proceedings of Interspeech, 2011.</p>",
+            "id": 115,
+            "page": 11,
+            "text": " Y. Bengio, R. Ducharme, P. Vincent. A neural probabilistic language model. Journal of Machine Learning Research, 3:1137-1155, 2003.  Y. Bengio, Y. LeCun. Scaling learning algorithms towards AI. In: Large-Scale Kernel Machines, MIT Press, 2007.  T. Brants, A. C. Popat, P. Xu, F. J. Och, and J. Dean. Large language models in machine translation. In Proceedings of the Joint Conference on Empirical Methods in Natural Language Processing and Computational Language Learning, 2007.  R. Collobert and J. Weston. A Unified Architecture for Natural Language Processing: Deep Neural Networks with Multitask Learning. In International Conference on Machine Learning, ICML, 2008.  R. Collobert, J. Weston, L. Bottou, M. Karlen, K. Kavukcuoglu and P. Kuksa. Natural Language Processing (Almost) from Scratch. Journal of Machine Learning Research, 12:24932537, 2011.  J. Dean, G.S. Corrado, R. Monga, K. Chen, M. Devin, Q.V. Le, M.Z. Mao, M.A. Ranzato, A. Senior, P. Tucker, K. Yang, A. Y. Ng., Large Scale Distributed Deep Networks, NIPS, 2012.  J.C. Duchi, E. Hazan, and Y. Singer. Adaptive subgradient methods for online learning and stochastic optimization. Journal of Machine Learning Research, 2011.  J. Elman. Finding Structure in Time. Cognitive Science, 14, 179-211, 1990.  Eric H. Huang, R. Socher, C. D. Manning and Andrew Y. Ng. Improving Word Representations via Global Context and Multiple Word Prototypes. In: Proc. Association for Computational Linguistics, 2012.  G.E. Hinton, J.L. McClelland, D.E. Rumelhart. Distributed representations. In: Parallel distributed processing: Explorations in the microstructure of cognition. Volume 1: Foundations, MIT Press, 1986.  D.A. Jurgens, S.M. Mohammad, P.D. Turney, K.J. Holyoak. Semeval-2012 task 2: Measuring degrees of relational similarity. In: Proceedings of the 6th International Workshop on Semantic Evaluation (SemEval 2012), 2012.  A.L. Maas, R.E. Daly, P.T. Pham, D. Huang, A.Y. Ng, and C. Potts. Learning word vectors for sentiment analysis. In Proceedings of ACL, 2011.  T. Mikolov. Language Modeling for Speech Recognition in Czech, Masters thesis, Brno University of Technology, 2007.  T. Mikolov, J. Kopecky, L. Burget, 0. Glembek and J. Cernocky. Neural network based language models for higly inflective languages, In: Proc. ICASSP 2009.  T. Mikolov, M. Karafiat, L. Burget, J. Cernocky, S. Khudanpur. Recurrent neural network based language model, In: Proceedings of Interspeech, 2010.  T. Mikolov, S. Kombrink, L. Burget, J. Cernocky, S. Khudanpur. Extensions of recurrent neural network language model, In: Proceedings of ICASSP 2011.  T. Mikolov, A. Deoras, S. Kombrink, L. Burget, J. Cernocky. Empirical Evaluation and Combination of Advanced Language Modeling Techniques, In: Proceedings of Interspeech, 2011."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 498,
+                    "y": 3008
+                },
+                {
+                    "x": 1666,
+                    "y": 3008
+                },
+                {
+                    "x": 1666,
+                    "y": 3053
+                },
+                {
+                    "x": 498,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:14px'>4The code is available at https : / / code · google · com/p/word2vec/</p>",
+            "id": 116,
+            "page": 11,
+            "text": "4The code is available at https : / / code · google · com/p/word2vec/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3133
+                },
+                {
+                    "x": 1297,
+                    "y": 3133
+                },
+                {
+                    "x": 1297,
+                    "y": 3172
+                },
+                {
+                    "x": 1252,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='117' style='font-size:16px'>11</footer>",
+            "id": 117,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 439,
+                    "y": 329
+                },
+                {
+                    "x": 2116,
+                    "y": 329
+                },
+                {
+                    "x": 2116,
+                    "y": 2009
+                },
+                {
+                    "x": 439,
+                    "y": 2009
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:18px'>[18] T. Mikolov, A. Deoras, D. Povey, L. Burget, J. Cernocky. Strategies for Training Large Scale<br>Neural Network Language Models, In: Proc. Automatic Speech Recognition and Understand-<br>ing, 2011.<br>[19] T. Mikolov. Statistical Language Models based on Neural Networks. PhD thesis, Brno Univer-<br>sity of Technology, 2012.<br>[20] T. Mikolov, W.T. Yih, G. Zweig. Linguistic Regularities in Continuous Space Word Represen-<br>tations. NAACL HLT 2013.<br>[21] T. Mikolov, I. Sutskever, K. Chen, G. Corrado, and J. Dean. Distributed Representations of<br>Words and Phrases and their Compositionality. Accepted to NIPS 2013.<br>[22] A. Mnih, G. Hinton. Three new graphical models for statistical language modelling. ICML,<br>2007.<br>[23] A. Mnih, G. Hinton. A Scalable Hierarchical Distributed Language Model. Advances in Neural<br>Information Processing Systems 21, MIT Press, 2009.<br>[24] A. Mnih, Y.W. Teh. A fast and simple algorithm for training neural probabilistic language<br>models. ICML, 2012.<br>[25] F. Morin, Y. Bengio. Hierarchical Probabilistic Neural Network Language Model. AISTATS,<br>2005.<br>[26] D. E. Rumelhart, G. E. Hinton, R. J. Williams. Learning internal representations by back-<br>propagating errors. Nature, 323:533.536, 1986.<br>[27] H. Schwenk. Continuous space language models. Computer Speech and Language, vol. 21,<br>2007.<br>[28] R. Socher, E.H. Huang, J. Pennington, A.Y. Ng, and C.D. Manning. Dynamic Pooling and<br>Unfolding Recursive Autoencoders for Paraphrase Detection. In NIPS, 2011.<br>[29] J. Turian, L. Ratinov, Y. Bengio. Word Representations: A Simple and General Method for<br>Semi-Supervised Learning. In: Proc. Association for Computational Linguistics, 2010.<br>[30] P. D. Turney. Measuring Semantic Similarity by Latent Relational Analysis. In: Proc. Interna-<br>tional Joint Conference on Artificial Intelligence, 2005.<br>[31] A. Zhila, W.T. Yih, C. Meek, G. Zweig, T. Mikolov. Combining Heterogeneous Models for<br>Measuring Relational Similarity. NAACL HLT 2013.<br>[32] G. Zweig, C.J.C. Burges. The Microsoft Research Sentence Completion Challenge, Microsoft<br>Research Technical Report MSR-TR-2011-129, 2011.</p>",
+            "id": 118,
+            "page": 12,
+            "text": " T. Mikolov, A. Deoras, D. Povey, L. Burget, J. Cernocky. Strategies for Training Large Scale Neural Network Language Models, In: Proc. Automatic Speech Recognition and Understanding, 2011.  T. Mikolov. Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012.  T. Mikolov, W.T. Yih, G. Zweig. Linguistic Regularities in Continuous Space Word Representations. NAACL HLT 2013.  T. Mikolov, I. Sutskever, K. Chen, G. Corrado, and J. Dean. Distributed Representations of Words and Phrases and their Compositionality. Accepted to NIPS 2013.  A. Mnih, G. Hinton. Three new graphical models for statistical language modelling. ICML, 2007.  A. Mnih, G. Hinton. A Scalable Hierarchical Distributed Language Model. Advances in Neural Information Processing Systems 21, MIT Press, 2009.  A. Mnih, Y.W. Teh. A fast and simple algorithm for training neural probabilistic language models. ICML, 2012.  F. Morin, Y. Bengio. Hierarchical Probabilistic Neural Network Language Model. AISTATS, 2005.  D. E. Rumelhart, G. E. Hinton, R. J. Williams. Learning internal representations by backpropagating errors. Nature, 323:533.536, 1986.  H. Schwenk. Continuous space language models. Computer Speech and Language, vol. 21, 2007.  R. Socher, E.H. Huang, J. Pennington, A.Y. Ng, and C.D. Manning. Dynamic Pooling and Unfolding Recursive Autoencoders for Paraphrase Detection. In NIPS, 2011.  J. Turian, L. Ratinov, Y. Bengio. Word Representations: A Simple and General Method for Semi-Supervised Learning. In: Proc. Association for Computational Linguistics, 2010.  P. D. Turney. Measuring Semantic Similarity by Latent Relational Analysis. In: Proc. International Joint Conference on Artificial Intelligence, 2005.  A. Zhila, W.T. Yih, C. Meek, G. Zweig, T. Mikolov. Combining Heterogeneous Models for Measuring Relational Similarity. NAACL HLT 2013.  G. Zweig, C.J.C. Burges. The Microsoft Research Sentence Completion Challenge, Microsoft Research Technical Report MSR-TR-2011-129, 2011."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3132
+                },
+                {
+                    "x": 1300,
+                    "y": 3132
+                },
+                {
+                    "x": 1300,
+                    "y": 3172
+                },
+                {
+                    "x": 1252,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='119' style='font-size:14px'>12</footer>",
+            "id": 119,
+            "page": 12,
+            "text": "12"
+        }
+    ]
+}

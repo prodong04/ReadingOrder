@@ -1,0 +1,3456 @@
+{
+    "id": "32aacf28-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1811.08883v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 793,
+                    "y": 407
+                },
+                {
+                    "x": 1686,
+                    "y": 407
+                },
+                {
+                    "x": 1686,
+                    "y": 479
+                },
+                {
+                    "x": 793,
+                    "y": 479
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Rethinking ImageNet Pre-training</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Rethinking ImageNet Pre-training"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 783,
+                    "y": 542
+                },
+                {
+                    "x": 1681,
+                    "y": 542
+                },
+                {
+                    "x": 1681,
+                    "y": 689
+                },
+                {
+                    "x": 783,
+                    "y": 689
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Kaiming He Ross Girshick Piotr Dollar<br>Facebook AI Research (FAIR)</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Kaiming He Ross Girshick Piotr Dollar Facebook AI Research (FAIR)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 602,
+                    "y": 812
+                },
+                {
+                    "x": 798,
+                    "y": 812
+                },
+                {
+                    "x": 798,
+                    "y": 862
+                },
+                {
+                    "x": 602,
+                    "y": 862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:18px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 914
+                },
+                {
+                    "x": 1199,
+                    "y": 914
+                },
+                {
+                    "x": 1199,
+                    "y": 2063
+                },
+                {
+                    "x": 199,
+                    "y": 2063
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:18px'>We report competitive results on object detection and in-<br>stance segmentation on the COCO dataset using standard<br>models trained from random initialization. The results<br>are no worse than their ImageNet pre-training counterparts<br>even when using the hyper-parameters of the baseline sys-<br>tem (Mask R-CNN) that were optimized for fine-tuning pre-<br>trained models, with the sole exception of increasing the<br>number of training iterations SO the randomly initialized<br>models may converge. Training from random initialization<br>is surprisingly robust; our results hold even when: (i) us-<br>ing only 10% of the training data, (ii) for deeper and wider<br>models, and (iii) for multiple tasks and metrics. Experi-<br>ments show that ImageNet pre-training speeds up conver-<br>gence early in training, but does not necessarily provide<br>regularization or improve final target task accuracy. To<br>push the envelope we demonstrate 50.9 AP on COCO ob-<br>ject detection without using any external data-a result on<br>par with the top COCO 2017 competition results that used<br>ImageNet pre-training. These observations challenge the<br>conventional wisdom of ImageNet pre-training for depen-<br>dent tasks and we expect these discoveries will encourage<br>people to rethink the current de facto paradigm of 'pre-<br>training and fine-tuning' in computer vision.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "We report competitive results on object detection and instance segmentation on the COCO dataset using standard models trained from random initialization. The results are no worse than their ImageNet pre-training counterparts even when using the hyper-parameters of the baseline system (Mask R-CNN) that were optimized for fine-tuning pretrained models, with the sole exception of increasing the number of training iterations SO the randomly initialized models may converge. Training from random initialization is surprisingly robust; our results hold even when: (i) using only 10% of the training data, (ii) for deeper and wider models, and (iii) for multiple tasks and metrics. Experiments show that ImageNet pre-training speeds up convergence early in training, but does not necessarily provide regularization or improve final target task accuracy. To push the envelope we demonstrate 50.9 AP on COCO object detection without using any external data-a result on par with the top COCO 2017 competition results that used ImageNet pre-training. These observations challenge the conventional wisdom of ImageNet pre-training for dependent tasks and we expect these discoveries will encourage people to rethink the current de facto paradigm of 'pretraining and fine-tuning' in computer vision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2141
+                },
+                {
+                    "x": 532,
+                    "y": 2141
+                },
+                {
+                    "x": 532,
+                    "y": 2192
+                },
+                {
+                    "x": 203,
+                    "y": 2192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>1. Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2226
+                },
+                {
+                    "x": 1198,
+                    "y": 2226
+                },
+                {
+                    "x": 1198,
+                    "y": 2723
+                },
+                {
+                    "x": 201,
+                    "y": 2723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:16px'>Deep convolutional neural networks [21, 23] revolution-<br>ized computer vision arguably due to the discovery that fea-<br>ture representations learned on a pre-training task can trans-<br>fer useful information to target tasks [9, 6, 50]. In recent<br>years, a well-established paradigm has been to pre-train<br>models using large-scale data (e.g., ImageNet [39]) and then<br>to fine-tune the models on target tasks that often have less<br>training data. Pre-training has enabled state-of-the-art re-<br>sults on many tasks, including object detection [9, 8, 36],<br>image segmentation [29, 13], and action recognition [42, 4].</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Deep convolutional neural networks  revolutionized computer vision arguably due to the discovery that feature representations learned on a pre-training task can transfer useful information to target tasks . In recent years, a well-established paradigm has been to pre-train models using large-scale data (e.g., ImageNet ) and then to fine-tune the models on target tasks that often have less training data. Pre-training has enabled state-of-the-art results on many tasks, including object detection , image segmentation , and action recognition ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2728
+                },
+                {
+                    "x": 1199,
+                    "y": 2728
+                },
+                {
+                    "x": 1199,
+                    "y": 2975
+                },
+                {
+                    "x": 202,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:16px'>A path to 'solving' computer vision then appears to be<br>paved by pre-training a 'universal' feature representation<br>on ImageNet-like data at massive scale [44, 30]. Attempts<br>along this path have pushed the frontier to up to 3000x<br>[30] the size of ImageNet. However, the success of these</p>",
+            "id": 6,
+            "page": 1,
+            "text": "A path to 'solving' computer vision then appears to be paved by pre-training a 'universal' feature representation on ImageNet-like data at massive scale . Attempts along this path have pushed the frontier to up to 3000x  the size of ImageNet. However, the success of these"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 819
+                },
+                {
+                    "x": 2249,
+                    "y": 819
+                },
+                {
+                    "x": 2249,
+                    "y": 1627
+                },
+                {
+                    "x": 1298,
+                    "y": 1627
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='7' style='font-size:14px' alt=\"bbox AP: R50-FPN, GN\n45\n40\n35\n30\n25\ntypical\n20 fine-tuning\nT schedule\n15\n10\n5 random init\nw/ pre-train\n1 2 3 4 5\niterations (105)\" data-coord=\"top-left:(1298,819); bottom-right:(2249,1627)\" /></figure>",
+            "id": 7,
+            "page": 1,
+            "text": "bbox AP: R50-FPN, GN 45 40 35 30 25 typical 20 fine-tuning T schedule 15 10 5 random init w/ pre-train 1 2 3 4 5 iterations (105)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1641
+                },
+                {
+                    "x": 2276,
+                    "y": 1641
+                },
+                {
+                    "x": 2276,
+                    "y": 2053
+                },
+                {
+                    "x": 1279,
+                    "y": 2053
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='8' style='font-size:16px'>Figure 1. We train Mask R-CNN [13] with a ResNet-50 FPN [26]<br>and GroupNorm [48] backbone on the COCO train201 7 set<br>and evaluate bounding box AP on the val201 7 set, initializing<br>the model by random weights or ImageNet pre-training. We ex-<br>plore different training schedules by varying the iterations at which<br>the learning rate is reduced (where the accuracy leaps). The model<br>trained from random initialization needs more iterations to con-<br>verge, but converges to a solution that is no worse than the fine-<br>tuning counterpart. Table 1 shows the resulting AP numbers.</caption>",
+            "id": 8,
+            "page": 1,
+            "text": "Figure 1. We train Mask R-CNN  with a ResNet-50 FPN  and GroupNorm  backbone on the COCO train201 7 set and evaluate bounding box AP on the val201 7 set, initializing the model by random weights or ImageNet pre-training. We explore different training schedules by varying the iterations at which the learning rate is reduced (where the accuracy leaps). The model trained from random initialization needs more iterations to converge, but converges to a solution that is no worse than the finetuning counterpart. Table 1 shows the resulting AP numbers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2120
+                },
+                {
+                    "x": 2276,
+                    "y": 2120
+                },
+                {
+                    "x": 2276,
+                    "y": 2317
+                },
+                {
+                    "x": 1280,
+                    "y": 2317
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:16px'>experiments is mixed: although improvements have been<br>observed, for object detection in particular they are small<br>and scale poorly with the pre-training dataset size. That this<br>path will 'solve' computer vision is open to doubt.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "experiments is mixed: although improvements have been observed, for object detection in particular they are small and scale poorly with the pre-training dataset size. That this path will 'solve' computer vision is open to doubt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2332
+                },
+                {
+                    "x": 2277,
+                    "y": 2332
+                },
+                {
+                    "x": 2277,
+                    "y": 2977
+                },
+                {
+                    "x": 1278,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:18px'>This paper questions the paradigm of pre-training even<br>further by exploring the opposite regime: we report that<br>competitive object detection and instance segmentation ac-<br>curacy is achievable when training on COCO from random<br>initialization ( 'from scratch '), without any pre-training.<br>More surprisingly, we can achieve these results by using<br>baseline systems [8, 36, 26, 13] and their hyper-parameters<br>that were optimized for fine-tuning pre-trained models. We<br>find that there is no fundamental obstacle preventing us<br>from training from scratch, if: (i) we use normalization<br>techniques appropriately for optimization, and (ii) we train<br>the models sufficiently long to compensate for the lack of<br>pre-training (Figure 1).</p>",
+            "id": 10,
+            "page": 1,
+            "text": "This paper questions the paradigm of pre-training even further by exploring the opposite regime: we report that competitive object detection and instance segmentation accuracy is achievable when training on COCO from random initialization ( 'from scratch '), without any pre-training. More surprisingly, we can achieve these results by using baseline systems  and their hyper-parameters that were optimized for fine-tuning pre-trained models. We find that there is no fundamental obstacle preventing us from training from scratch, if: (i) we use normalization techniques appropriately for optimization, and (ii) we train the models sufficiently long to compensate for the lack of pre-training (Figure 1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 59,
+                    "y": 853
+                },
+                {
+                    "x": 150,
+                    "y": 853
+                },
+                {
+                    "x": 150,
+                    "y": 2331
+                },
+                {
+                    "x": 59,
+                    "y": 2331
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='11' style='font-size:14px'>2018<br>Nov<br>21<br>[cs.CV]<br>arXiv:1811.08883v1</footer>",
+            "id": 11,
+            "page": 1,
+            "text": "2018 Nov 21 [cs.CV] arXiv:1811.08883v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='12' style='font-size:16px'>1</footer>",
+            "id": 12,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 308
+                },
+                {
+                    "x": 1199,
+                    "y": 308
+                },
+                {
+                    "x": 1199,
+                    "y": 751
+                },
+                {
+                    "x": 201,
+                    "y": 751
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:14px'>We show that training from random initialization on<br>COCO can be on par with its ImageNet pre-training coun-<br>terparts for a variety of baselines that cover Average Preci-<br>sion (AP, in percentage) from 40 to over 50. Further, we find<br>that such comparability holds even if we train with as little<br>as 10% COCO training data. We also find that we can train<br>large models from scratch-up to 4x larger than a ResNet-<br>101 [17]- -without overfitting. Based on these experiments<br>and others, we observe the following:</p>",
+            "id": 13,
+            "page": 2,
+            "text": "We show that training from random initialization on COCO can be on par with its ImageNet pre-training counterparts for a variety of baselines that cover Average Precision (AP, in percentage) from 40 to over 50. Further, we find that such comparability holds even if we train with as little as 10% COCO training data. We also find that we can train large models from scratch-up to 4x larger than a ResNet101 - -without overfitting. Based on these experiments and others, we observe the following:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 764
+                },
+                {
+                    "x": 1198,
+                    "y": 764
+                },
+                {
+                    "x": 1198,
+                    "y": 1258
+                },
+                {
+                    "x": 201,
+                    "y": 1258
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>(i) ImageNet pre-training speeds up convergence, espe-<br>cially early on in training, but training from random ini-<br>tialization can catch up after training for a duration that is<br>roughly comparable to the total ImageNet pre-training plus<br>fine-tuning computation-it has to learn the low-/mid-level<br>features (such as edges, textures) that are otherwise given by<br>pre-training. As the cost of ImageNet pre-training is often<br>ignored when studying the target task, 'controlled' compar-<br>isons with a short training schedule can veil the true behav-<br>ior of training from random initialization.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "(i) ImageNet pre-training speeds up convergence, especially early on in training, but training from random initialization can catch up after training for a duration that is roughly comparable to the total ImageNet pre-training plus fine-tuning computation-it has to learn the low-/mid-level features (such as edges, textures) that are otherwise given by pre-training. As the cost of ImageNet pre-training is often ignored when studying the target task, 'controlled' comparisons with a short training schedule can veil the true behavior of training from random initialization."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1269
+                },
+                {
+                    "x": 1199,
+                    "y": 1269
+                },
+                {
+                    "x": 1199,
+                    "y": 1664
+                },
+                {
+                    "x": 201,
+                    "y": 1664
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:18px'>(ii) ImageNet pre-training does not automatically give<br>better regularization. When training with fewer im-<br>ages (down to 10% of COCO), we find that new hyper-<br>parameters must be selected for fine-tuning (from pre-<br>training) to avoid overfitting. Then, when training from<br>random initialization using these same hyper-parameters,<br>the model can match the pre-training accuracy without any<br>extra regularization, even with only 10% COCO data.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "(ii) ImageNet pre-training does not automatically give better regularization. When training with fewer images (down to 10% of COCO), we find that new hyperparameters must be selected for fine-tuning (from pretraining) to avoid overfitting. Then, when training from random initialization using these same hyper-parameters, the model can match the pre-training accuracy without any extra regularization, even with only 10% COCO data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1676
+                },
+                {
+                    "x": 1198,
+                    "y": 1676
+                },
+                {
+                    "x": 1198,
+                    "y": 2120
+                },
+                {
+                    "x": 202,
+                    "y": 2120
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:20px'>(iii) ImageNet pre-training shows no benefit when the<br>target tasks/metrics are more sensitive to spatially well-<br>localized predictions. We observe a noticeable AP improve-<br>ment for high box overlap thresholds when training from<br>scratch; we also find that keypoint AP, which requires fine<br>spatial localization, converges relatively faster from scratch.<br>Intuitively, the task gap between the classification-based,<br>ImageNet-like pre-training and localization-sensitive target<br>tasks may limit the benefits of pre-training.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "(iii) ImageNet pre-training shows no benefit when the target tasks/metrics are more sensitive to spatially welllocalized predictions. We observe a noticeable AP improvement for high box overlap thresholds when training from scratch; we also find that keypoint AP, which requires fine spatial localization, converges relatively faster from scratch. Intuitively, the task gap between the classification-based, ImageNet-like pre-training and localization-sensitive target tasks may limit the benefits of pre-training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 2132
+                },
+                {
+                    "x": 1199,
+                    "y": 2132
+                },
+                {
+                    "x": 1199,
+                    "y": 2978
+                },
+                {
+                    "x": 199,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Given the current literature, these results are surprising<br>and challenge our understanding of the effects of ImageNet<br>pre-training. These observations hint that ImageNet pre-<br>training is a historical workaround (and will likely be SO for<br>some time) for when the community does not have enough<br>target data or computational resources to make training on<br>the target task doable. In addition, ImageNet has been<br>largely thought of as a 'free' resource, thanks to the readily<br>conducted annotation efforts and wide availability of pre-<br>trained models. But looking forward, when the community<br>will proceed with more data and faster computation, our<br>study suggests that collecting data and training on the tar-<br>get tasks is a solution worth considering, especially when<br>there is a significant gap between the source pre-training<br>task and the target task. This paper provides new experi-<br>mental evidence and discussions for people to rethink the<br>ImageNet-like pre-training paradigm in computer vision.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Given the current literature, these results are surprising and challenge our understanding of the effects of ImageNet pre-training. These observations hint that ImageNet pretraining is a historical workaround (and will likely be SO for some time) for when the community does not have enough target data or computational resources to make training on the target task doable. In addition, ImageNet has been largely thought of as a 'free' resource, thanks to the readily conducted annotation efforts and wide availability of pretrained models. But looking forward, when the community will proceed with more data and faster computation, our study suggests that collecting data and training on the target tasks is a solution worth considering, especially when there is a significant gap between the source pre-training task and the target task. This paper provides new experimental evidence and discussions for people to rethink the ImageNet-like pre-training paradigm in computer vision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 302
+                },
+                {
+                    "x": 1637,
+                    "y": 302
+                },
+                {
+                    "x": 1637,
+                    "y": 351
+                },
+                {
+                    "x": 1282,
+                    "y": 351
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:22px'>2. Related Work</p>",
+            "id": 18,
+            "page": 2,
+            "text": "2. Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 397
+                },
+                {
+                    "x": 2276,
+                    "y": 397
+                },
+                {
+                    "x": 2276,
+                    "y": 1196
+                },
+                {
+                    "x": 1278,
+                    "y": 1196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:20px'>Pre-training and fine-tuning. The initial breakthrough of<br>applying deep learning to object detection (e.g., R-CNN<br>[9] and OverFeat [40]) were achieved by fine-tuning net-<br>works that were pre-trained for ImageNet classification.<br>Following these results, most modern object detectors and<br>many other computer vision algorithms employ the 'pre-<br>training and fine-tuning' paradigm. Recent work pushes<br>this paradigm further by pre-training on datasets that are<br>6x (ImageNet-5k [14]), 300x (JFT [44]), and even 3000x<br>(Instagram [30]) larger than ImageNet. While this body of<br>work demonstrates significant improvements on image clas-<br>sification transfer learning tasks, the improvements on ob-<br>ject detection are relatively small (on the scale of +1.5 AP<br>on COCO with 3000x larger pre-training data [30]). The<br>marginal benefit from the kind of large-scale pre-training<br>data used to date diminishes rapidly.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Pre-training and fine-tuning. The initial breakthrough of applying deep learning to object detection (e.g., R-CNN  and OverFeat ) were achieved by fine-tuning networks that were pre-trained for ImageNet classification. Following these results, most modern object detectors and many other computer vision algorithms employ the 'pretraining and fine-tuning' paradigm. Recent work pushes this paradigm further by pre-training on datasets that are 6x (ImageNet-5k ), 300x (JFT ), and even 3000x (Instagram ) larger than ImageNet. While this body of work demonstrates significant improvements on image classification transfer learning tasks, the improvements on object detection are relatively small (on the scale of +1.5 AP on COCO with 3000x larger pre-training data ). The marginal benefit from the kind of large-scale pre-training data used to date diminishes rapidly."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1291
+                },
+                {
+                    "x": 2277,
+                    "y": 1291
+                },
+                {
+                    "x": 2277,
+                    "y": 1541
+                },
+                {
+                    "x": 1280,
+                    "y": 1541
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>Detection from scratch. Before the prevalence of the 'pre-<br>training and fine-tuning' paradigm, object detectors were<br>trained with no pre-training (e.g., [31, 38, 45])- -a fact that<br>is somewhat overlooked today. In fact, it should not be sur-<br>prising that object detectors can be trained from scratch.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Detection from scratch. Before the prevalence of the 'pretraining and fine-tuning' paradigm, object detectors were trained with no pre-training (e.g., )- -a fact that is somewhat overlooked today. In fact, it should not be surprising that object detectors can be trained from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1555
+                },
+                {
+                    "x": 2278,
+                    "y": 1555
+                },
+                {
+                    "x": 2278,
+                    "y": 1850
+                },
+                {
+                    "x": 1280,
+                    "y": 1850
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:18px'>Given the success of pre-training in the R-CNN paper<br>[9], later analysis [1] found that pre-training plays an impor-<br>tant role in detector accuracy when training data is limited,<br>but also illustrated that training from scratch on more detec-<br>tion data is possible and can achieve 90% of the fine-tuning<br>accuracy, foreshadowing our results.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Given the success of pre-training in the R-CNN paper , later analysis  found that pre-training plays an important role in detector accuracy when training data is limited, but also illustrated that training from scratch on more detection data is possible and can achieve 90% of the fine-tuning accuracy, foreshadowing our results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1869
+                },
+                {
+                    "x": 2277,
+                    "y": 1869
+                },
+                {
+                    "x": 2277,
+                    "y": 2513
+                },
+                {
+                    "x": 1278,
+                    "y": 2513
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:18px'>As modern object detectors [9, 15, 8, 36, 35, 28, 26, 13]<br>evolved under the pre-training paradigm, the belief that<br>training from scratch is non-trivial became conventional<br>wisdom. Shen et al. [41] argued for a set of new design<br>principles to obtain a detector that is optimized for the ac-<br>curacy when trained from scratch. They designed a special-<br>ized detector driven by deeply supervised networks [24] and<br>dense connections [18]. DetNet [25] and CornerNet [22]<br>also present results when training detectors from scratch.<br>Similar to [41], these works [25, 22] focus on designing<br>detection-specific architectures. However, in [41, 25, 22]<br>there is little evidence that these specialized architectures<br>are required for models to be trainedfrom scratch.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "As modern object detectors  evolved under the pre-training paradigm, the belief that training from scratch is non-trivial became conventional wisdom. Shen   argued for a set of new design principles to obtain a detector that is optimized for the accuracy when trained from scratch. They designed a specialized detector driven by deeply supervised networks  and dense connections . DetNet  and CornerNet  also present results when training detectors from scratch. Similar to , these works  focus on designing detection-specific architectures. However, in  there is little evidence that these specialized architectures are required for models to be trainedfrom scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2529
+                },
+                {
+                    "x": 2277,
+                    "y": 2529
+                },
+                {
+                    "x": 2277,
+                    "y": 2977
+                },
+                {
+                    "x": 1280,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='23' style='font-size:16px'>Unlike these papers, our focus is on understanding the<br>role of ImageNet pre-training on unspecialized architec-<br>tures (i.e., models that were originally designed without the<br>consideration for training from scratch). Our work demon-<br>strates that it is often possible to match fine-tuning accuracy<br>when training from scratch even without making any archi-<br>tectural specializations. Our study is on the comparison be-<br>tween 'with vs. without pre-training', under controlled set-<br>tings in which the architectures are not tailored.</p>",
+            "id": 23,
+            "page": 2,
+            "text": "Unlike these papers, our focus is on understanding the role of ImageNet pre-training on unspecialized architectures (i.e., models that were originally designed without the consideration for training from scratch). Our work demonstrates that it is often possible to match fine-tuning accuracy when training from scratch even without making any architectural specializations. Our study is on the comparison between 'with vs. without pre-training', under controlled settings in which the architectures are not tailored."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3054
+                },
+                {
+                    "x": 1251,
+                    "y": 3054
+                },
+                {
+                    "x": 1251,
+                    "y": 3091
+                },
+                {
+                    "x": 1225,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='24' style='font-size:16px'>2</footer>",
+            "id": 24,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 302
+                },
+                {
+                    "x": 538,
+                    "y": 302
+                },
+                {
+                    "x": 538,
+                    "y": 355
+                },
+                {
+                    "x": 202,
+                    "y": 355
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:22px'>3. Methodology</p>",
+            "id": 25,
+            "page": 3,
+            "text": "3. Methodology"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 387
+                },
+                {
+                    "x": 1200,
+                    "y": 387
+                },
+                {
+                    "x": 1200,
+                    "y": 834
+                },
+                {
+                    "x": 202,
+                    "y": 834
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:18px'>Our goal is to ablate the role of ImageNet pre-<br>training via controlled experiments that can be done without<br>ImageNet pre-training. Given this goal, architectural im-<br>provements are not our purpose; actually, to better under-<br>stand what impact ImageNet pre-training can make, it is<br>desired to enable typical architectures to be trained from<br>scratch under minimal modifications. We describe the only<br>two modifications that we find to be necessary, related to<br>model normalization and training length, discussed next.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "Our goal is to ablate the role of ImageNet pretraining via controlled experiments that can be done without ImageNet pre-training. Given this goal, architectural improvements are not our purpose; actually, to better understand what impact ImageNet pre-training can make, it is desired to enable typical architectures to be trained from scratch under minimal modifications. We describe the only two modifications that we find to be necessary, related to model normalization and training length, discussed next."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 871
+                },
+                {
+                    "x": 573,
+                    "y": 871
+                },
+                {
+                    "x": 573,
+                    "y": 916
+                },
+                {
+                    "x": 204,
+                    "y": 916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:20px'>3.1. Normalization</p>",
+            "id": 27,
+            "page": 3,
+            "text": "3.1. Normalization"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 949
+                },
+                {
+                    "x": 1199,
+                    "y": 949
+                },
+                {
+                    "x": 1199,
+                    "y": 1341
+                },
+                {
+                    "x": 201,
+                    "y": 1341
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:20px'>Image classifier training requires normalization to help<br>optimization. Successful forms of normalization include<br>normalized parameter initialization [11, 16] and activation<br>normalization layers [20, 2, 46, 48]. When training object<br>detectors from scratch, they face issues similar to training<br>image classifiers from scratch [11, 16, 20]. Overlooking the<br>role of normalization can give the misperception that detec-<br>tors are hard to train from scratch.</p>",
+            "id": 28,
+            "page": 3,
+            "text": "Image classifier training requires normalization to help optimization. Successful forms of normalization include normalized parameter initialization  and activation normalization layers . When training object detectors from scratch, they face issues similar to training image classifiers from scratch . Overlooking the role of normalization can give the misperception that detectors are hard to train from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1348
+                },
+                {
+                    "x": 1199,
+                    "y": 1348
+                },
+                {
+                    "x": 1199,
+                    "y": 1841
+                },
+                {
+                    "x": 202,
+                    "y": 1841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:18px'>Batch Normalization (BN) [20], the popular normaliza-<br>tion method used to train modern networks, partially makes<br>training detectors from scratch difficult. Object detectors<br>are typically trained with high resolution inputs, unlike im-<br>age classifiers. This reduces batch sizes as constrained by<br>memory, and small batch sizes severely degrade the accu-<br>racy of BN [19, 34, 48]. This issue can be circumvented if<br>pre-training is used, because fine-tuning can adopt the pre-<br>training batch statistics as fixed parameters [17]; however,<br>freezing BN is invalid when training from scratch.</p>",
+            "id": 29,
+            "page": 3,
+            "text": "Batch Normalization (BN) , the popular normalization method used to train modern networks, partially makes training detectors from scratch difficult. Object detectors are typically trained with high resolution inputs, unlike image classifiers. This reduces batch sizes as constrained by memory, and small batch sizes severely degrade the accuracy of BN . This issue can be circumvented if pre-training is used, because fine-tuning can adopt the pretraining batch statistics as fixed parameters ; however, freezing BN is invalid when training from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 1849
+                },
+                {
+                    "x": 1196,
+                    "y": 1849
+                },
+                {
+                    "x": 1196,
+                    "y": 1943
+                },
+                {
+                    "x": 205,
+                    "y": 1943
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:18px'>We investigate two normalization strategies in recent<br>works that help relieve the small batch issue:</p>",
+            "id": 30,
+            "page": 3,
+            "text": "We investigate two normalization strategies in recent works that help relieve the small batch issue:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 211,
+                    "y": 1965
+                },
+                {
+                    "x": 1202,
+                    "y": 1965
+                },
+                {
+                    "x": 1202,
+                    "y": 2444
+                },
+                {
+                    "x": 211,
+                    "y": 2444
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:18px'>(i) Group Normalization (GN) [48]: as a recently pro-<br>posed alternative to BN, GN performs computation<br>that is independent of the batch dimension. GN's ac-<br>curacy is insensitive to batch sizes [48].<br>(ii) Synchronized Batch Normalization (SyncBN) [34, 27]:<br>this is an implementation of BN [20] with batch statis-<br>tics computed across multiple devices (GPUs). This<br>increases the effective batch size for BN when using<br>many GPUs, which avoids small batches.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "(i) Group Normalization (GN) : as a recently proposed alternative to BN, GN performs computation that is independent of the batch dimension. GN's accuracy is insensitive to batch sizes . (ii) Synchronized Batch Normalization (SyncBN) : this is an implementation of BN  with batch statistics computed across multiple devices (GPUs). This increases the effective batch size for BN when using many GPUs, which avoids small batches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2467
+                },
+                {
+                    "x": 1195,
+                    "y": 2467
+                },
+                {
+                    "x": 1195,
+                    "y": 2559
+                },
+                {
+                    "x": 203,
+                    "y": 2559
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>Our experiments show that both GN and SyncBN can en-<br>able detection models to train from scratch.</p>",
+            "id": 32,
+            "page": 3,
+            "text": "Our experiments show that both GN and SyncBN can enable detection models to train from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2568
+                },
+                {
+                    "x": 1197,
+                    "y": 2568
+                },
+                {
+                    "x": 1197,
+                    "y": 2713
+                },
+                {
+                    "x": 202,
+                    "y": 2713
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:18px'>We also report that using appropriately normalized ini-<br>tialization [16], we can train object detectors with VGG<br>nets [43] from random initialization without BN or GN.</p>",
+            "id": 33,
+            "page": 3,
+            "text": "We also report that using appropriately normalized initialization , we can train object detectors with VGG nets  from random initialization without BN or GN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2750
+                },
+                {
+                    "x": 543,
+                    "y": 2750
+                },
+                {
+                    "x": 543,
+                    "y": 2798
+                },
+                {
+                    "x": 203,
+                    "y": 2798
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='34' style='font-size:22px'>3.2. Convergence</p>",
+            "id": 34,
+            "page": 3,
+            "text": "3.2. Convergence"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2829
+                },
+                {
+                    "x": 1199,
+                    "y": 2829
+                },
+                {
+                    "x": 1199,
+                    "y": 2976
+                },
+                {
+                    "x": 203,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>It is unrealistic and unfair to expect models trained from<br>random initialization to converge similarly fast as those ini-<br>tialized from ImageNet pre-training. Overlooking this fact</p>",
+            "id": 35,
+            "page": 3,
+            "text": "It is unrealistic and unfair to expect models trained from random initialization to converge similarly fast as those initialized from ImageNet pre-training. Overlooking this fact"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 287
+                },
+                {
+                    "x": 2278,
+                    "y": 287
+                },
+                {
+                    "x": 2278,
+                    "y": 742
+                },
+                {
+                    "x": 1278,
+                    "y": 742
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='36' style='font-size:14px' alt=\"131.0M\nimages\n8.6M\n149.1M\ninstances\n62.8M\n9.5T\npixels\n9.2T\nImageNet pre-train COCO fine-tune\n1.28M im x 100 ep 115k im x 24 ep\nCOCO from random init\n115k im x 72 ep\" data-coord=\"top-left:(1278,287); bottom-right:(2278,742)\" /></figure>",
+            "id": 36,
+            "page": 3,
+            "text": "131.0M images 8.6M 149.1M instances 62.8M 9.5T pixels 9.2T ImageNet pre-train COCO fine-tune 1.28M im x 100 ep 115k im x 24 ep COCO from random init 115k im x 72 ep"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 751
+                },
+                {
+                    "x": 2277,
+                    "y": 751
+                },
+                {
+                    "x": 2277,
+                    "y": 1117
+                },
+                {
+                    "x": 1278,
+                    "y": 1117
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='37' style='font-size:16px'>Figure 2. Total numbers of images, instances, and pixels seen dur-<br>ing all training iterations, for pre-training + fine-tuning (green<br>bars) vs. from random initialization (purple bars). We consider<br>that pre-training takes 100 epochs in ImageNet, and fine-tuning<br>adopts the 2x schedule (~24 epochs over COCO) and random ini-<br>tialization adopts the 6x schedule (~72 epochs over COCO). We<br>count instances in ImageNet as 1 per image (vs. ~7 in COCO), and<br>pixels in ImageNet as 224x 224 and COCO as 800x 1333.</caption>",
+            "id": 37,
+            "page": 3,
+            "text": "Figure 2. Total numbers of images, instances, and pixels seen during all training iterations, for pre-training + fine-tuning (green bars) vs. from random initialization (purple bars). We consider that pre-training takes 100 epochs in ImageNet, and fine-tuning adopts the 2x schedule (~24 epochs over COCO) and random initialization adopts the 6x schedule (~72 epochs over COCO). We count instances in ImageNet as 1 per image (vs. ~7 in COCO), and pixels in ImageNet as 224x 224 and COCO as 800x 1333."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1185
+                },
+                {
+                    "x": 2276,
+                    "y": 1185
+                },
+                {
+                    "x": 2276,
+                    "y": 1275
+                },
+                {
+                    "x": 1281,
+                    "y": 1275
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>one can draw incomplete or incorrect conclusions about the<br>true capability of models that are trained from scratch.</p>",
+            "id": 38,
+            "page": 3,
+            "text": "one can draw incomplete or incorrect conclusions about the true capability of models that are trained from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1288
+                },
+                {
+                    "x": 2278,
+                    "y": 1288
+                },
+                {
+                    "x": 2278,
+                    "y": 1680
+                },
+                {
+                    "x": 1278,
+                    "y": 1680
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:18px'>Typical ImageNet pre-training involves over one million<br>images iterated for one hundred epochs. In addition to any<br>semantic information learned from this large-scale data, the<br>pre-training model has also learned low-level features (e.g.,<br>edges, textures) that do not need to be re-learned during<br>fine-tuning. 1 On the other hand, when training from scratch<br>the model has to learn low- and high-level semantics, SO<br>more iterations may be necessary for it to converge well.</p>",
+            "id": 39,
+            "page": 3,
+            "text": "Typical ImageNet pre-training involves over one million images iterated for one hundred epochs. In addition to any semantic information learned from this large-scale data, the pre-training model has also learned low-level features (e.g., edges, textures) that do not need to be re-learned during fine-tuning. 1 On the other hand, when training from scratch the model has to learn low- and high-level semantics, SO more iterations may be necessary for it to converge well."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1691
+                },
+                {
+                    "x": 2277,
+                    "y": 1691
+                },
+                {
+                    "x": 2277,
+                    "y": 2134
+                },
+                {
+                    "x": 1279,
+                    "y": 2134
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:18px'>With this motivation, we argue that models trained from<br>scratch must be trained for longer than typical fine-tuning<br>schedules. Actually, this is a fairer comparison in term of<br>the number of training samples provided. We consider three<br>rough definitions of 'samples' -the number of images, in-<br>stances, and pixels that have been seen during all training<br>iterations (e.g., one image for 100 epochs is counted as 100<br>image-level samples). We plot the comparisons on the num-<br>bers of samples in Figure 2.</p>",
+            "id": 40,
+            "page": 3,
+            "text": "With this motivation, we argue that models trained from scratch must be trained for longer than typical fine-tuning schedules. Actually, this is a fairer comparison in term of the number of training samples provided. We consider three rough definitions of 'samples' -the number of images, instances, and pixels that have been seen during all training iterations (e.g., one image for 100 epochs is counted as 100 image-level samples). We plot the comparisons on the numbers of samples in Figure 2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2144
+                },
+                {
+                    "x": 2276,
+                    "y": 2144
+                },
+                {
+                    "x": 2276,
+                    "y": 2838
+                },
+                {
+                    "x": 1277,
+                    "y": 2838
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:18px'>Figure 2 shows a from-scratch case trained for 3 times<br>more iterations than its fine-tuning counterpart on COCO.<br>Despite using more iterations on COCO, if counting image-<br>level samples, the from-scratch case still sees considerably<br>fewer samples than its fine-tuning counterpart-the 1.28<br>million ImageNet images for 100 epochs dominate. Actu-<br>ally, the sample numbers only get closer if we count pixel-<br>level samples (Figure 2, bottom)- -a consequence of object<br>detectors using higher-resolution images. Our experiments<br>show that under the schedules in Figure 2, the from-scratch<br>detectors can catch up with their fine-tuning counterparts.<br>This suggests that a sufficiently large number of total sam-<br>ples (arguably in terms of pixels) are required for the models<br>trained from random initialization to converge well.</p>",
+            "id": 41,
+            "page": 3,
+            "text": "Figure 2 shows a from-scratch case trained for 3 times more iterations than its fine-tuning counterpart on COCO. Despite using more iterations on COCO, if counting imagelevel samples, the from-scratch case still sees considerably fewer samples than its fine-tuning counterpart-the 1.28 million ImageNet images for 100 epochs dominate. Actually, the sample numbers only get closer if we count pixellevel samples (Figure 2, bottom)- -a consequence of object detectors using higher-resolution images. Our experiments show that under the schedules in Figure 2, the from-scratch detectors can catch up with their fine-tuning counterparts. This suggests that a sufficiently large number of total samples (arguably in terms of pixels) are required for the models trained from random initialization to converge well."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2892
+                },
+                {
+                    "x": 2276,
+                    "y": 2892
+                },
+                {
+                    "x": 2276,
+                    "y": 2972
+                },
+                {
+                    "x": 1280,
+                    "y": 2972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:14px'>1In fact, itis common practice [8, 36] to freeze the convolutional filters<br>in the first few layers when fine-tuning.</p>",
+            "id": 42,
+            "page": 3,
+            "text": "1In fact, itis common practice  to freeze the convolutional filters in the first few layers when fine-tuning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='43' style='font-size:18px'>3</footer>",
+            "id": 43,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 303
+                },
+                {
+                    "x": 734,
+                    "y": 303
+                },
+                {
+                    "x": 734,
+                    "y": 353
+                },
+                {
+                    "x": 202,
+                    "y": 353
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:22px'>4. Experimental Settings</p>",
+            "id": 44,
+            "page": 4,
+            "text": "4. Experimental Settings"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 387
+                },
+                {
+                    "x": 1199,
+                    "y": 387
+                },
+                {
+                    "x": 1199,
+                    "y": 683
+                },
+                {
+                    "x": 203,
+                    "y": 683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>We pursue minimal changes made to baseline systems<br>for pinpointing the keys to enabling training from scratch.<br>Overall, our baselines and hyper-parameters follow Mask<br>R-CNN [13] in the publicly available code of Detectron<br>[10], except we use normalization and vary the number of<br>training iterations. The implementation is as follows.</p>",
+            "id": 45,
+            "page": 4,
+            "text": "We pursue minimal changes made to baseline systems for pinpointing the keys to enabling training from scratch. Overall, our baselines and hyper-parameters follow Mask R-CNN  in the publicly available code of Detectron , except we use normalization and vary the number of training iterations. The implementation is as follows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 712
+                },
+                {
+                    "x": 1199,
+                    "y": 712
+                },
+                {
+                    "x": 1199,
+                    "y": 1211
+                },
+                {
+                    "x": 201,
+                    "y": 1211
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:20px'>Architecture. We investigate Mask R-CNN [13] with<br>ResNet [17] or ResNeXt [49] plus Feature Pyramid Net-<br>work (FPN) [26] backbones. We adopt the end-to-end<br>fashion [37] of training Region Proposal Networks (RPN)<br>jointly with Mask R-CNN. GN/SyncBN is used to replace<br>all 'frozen BN' (channel-wise affine) layers. For fair com-<br>parisons, in this paper the fine-tuned models (with pre-<br>training) are also tuned with GN or SyncBN, rather than<br>freezing them. They have higher accuracy than the frozen<br>ones [34, 27, 48].</p>",
+            "id": 46,
+            "page": 4,
+            "text": "Architecture. We investigate Mask R-CNN  with ResNet  or ResNeXt  plus Feature Pyramid Network (FPN)  backbones. We adopt the end-to-end fashion  of training Region Proposal Networks (RPN) jointly with Mask R-CNN. GN/SyncBN is used to replace all 'frozen BN' (channel-wise affine) layers. For fair comparisons, in this paper the fine-tuned models (with pretraining) are also tuned with GN or SyncBN, rather than freezing them. They have higher accuracy than the frozen ones ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1240
+                },
+                {
+                    "x": 1198,
+                    "y": 1240
+                },
+                {
+                    "x": 1198,
+                    "y": 1839
+                },
+                {
+                    "x": 200,
+                    "y": 1839
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:18px'>Learning rate scheduling. Original Mask R-CNN mod-<br>els in Detectron [10] were fine-tuned with 90k iterations<br>(namely, '1x schedule') or 180k iterations ('2x schedule').<br>For models in this paper, we investigate longer training and<br>we use similar terminology, e.g., a so-called '6x schedule'<br>has 540k iterations. Following the strategy in the 2x sched-<br>ule, we always reduce the learning rate by 10x in the last<br>60k and last 20k iterations respectively, no matter how many<br>total iterations (i.e., the reduced learning rates are always<br>run for the same number of iterations). We find that training<br>longer for the first (large) learning rate is useful, but training<br>for longer on small learning rates often leads to overfitting.</p>",
+            "id": 47,
+            "page": 4,
+            "text": "Learning rate scheduling. Original Mask R-CNN models in Detectron  were fine-tuned with 90k iterations (namely, '1x schedule') or 180k iterations ('2x schedule'). For models in this paper, we investigate longer training and we use similar terminology, e.g., a so-called '6x schedule' has 540k iterations. Following the strategy in the 2x schedule, we always reduce the learning rate by 10x in the last 60k and last 20k iterations respectively, no matter how many total iterations (i.e., the reduced learning rates are always run for the same number of iterations). We find that training longer for the first (large) learning rate is useful, but training for longer on small learning rates often leads to overfitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1865
+                },
+                {
+                    "x": 1199,
+                    "y": 1865
+                },
+                {
+                    "x": 1199,
+                    "y": 2162
+                },
+                {
+                    "x": 201,
+                    "y": 2162
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:18px'>Hyper-parameters. All other hyper-parameters follow<br>those in Detectron [10]. Specially, the initial learning rate<br>is 0.02 (with a linear warm-up [12]). The weight decay is<br>0.0001 and momentum is 0.9. All models are trained in 8<br>GPUs using synchronized SGD, with a mini-batch size of 2<br>images per GPU.</p>",
+            "id": 48,
+            "page": 4,
+            "text": "Hyper-parameters. All other hyper-parameters follow those in Detectron . Specially, the initial learning rate is 0.02 (with a linear warm-up ). The weight decay is 0.0001 and momentum is 0.9. All models are trained in 8 GPUs using synchronized SGD, with a mini-batch size of 2 images per GPU."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2168
+                },
+                {
+                    "x": 1199,
+                    "y": 2168
+                },
+                {
+                    "x": 1199,
+                    "y": 2365
+                },
+                {
+                    "x": 202,
+                    "y": 2365
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:18px'>By default Mask R-CNN in Detectron uses no data aug-<br>mentation for testing, and only horizontal flipping augmen-<br>tation for training. We use the same settings. Also, unless<br>noted, the image scale is 800 pixels for the shorter side.</p>",
+            "id": 49,
+            "page": 4,
+            "text": "By default Mask R-CNN in Detectron uses no data augmentation for testing, and only horizontal flipping augmentation for training. We use the same settings. Also, unless noted, the image scale is 800 pixels for the shorter side."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1294,
+                    "y": 319
+                },
+                {
+                    "x": 2252,
+                    "y": 319
+                },
+                {
+                    "x": 2252,
+                    "y": 1122
+                },
+                {
+                    "x": 1294,
+                    "y": 1122
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='50' style='font-size:14px' alt=\"bbox AP: R101-FPN, GN\n45\n40\n35\n30\n25\n20\n15\n10\n5 random init\nw/ pre-train\n0 1 2 3 4 5\niterations (105)\" data-coord=\"top-left:(1294,319); bottom-right:(2252,1122)\" /></figure>",
+            "id": 50,
+            "page": 4,
+            "text": "bbox AP: R101-FPN, GN 45 40 35 30 25 20 15 10 5 random init w/ pre-train 0 1 2 3 4 5 iterations (105)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1136
+                },
+                {
+                    "x": 2276,
+                    "y": 1136
+                },
+                {
+                    "x": 2276,
+                    "y": 1269
+                },
+                {
+                    "x": 1280,
+                    "y": 1269
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='51' style='font-size:16px'>Figure 3. Learning curves of Apbbox COCO val201 7 using<br>on<br>Mask R-CNN with R101-FPN and GN. Table 1 shows the result-<br>ing AP numbers.</caption>",
+            "id": 51,
+            "page": 4,
+            "text": "Figure 3. Learning curves of Apbbox COCO val201 7 using on Mask R-CNN with R101-FPN and GN. Table 1 shows the resulting AP numbers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2414
+                },
+                {
+                    "x": 701,
+                    "y": 2414
+                },
+                {
+                    "x": 701,
+                    "y": 2469
+                },
+                {
+                    "x": 203,
+                    "y": 2469
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:22px'>5. Results and Analysis</p>",
+            "id": 52,
+            "page": 4,
+            "text": "5. Results and Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2498
+                },
+                {
+                    "x": 1088,
+                    "y": 2498
+                },
+                {
+                    "x": 1088,
+                    "y": 2548
+                },
+                {
+                    "x": 202,
+                    "y": 2548
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:20px'>5.1. Training from scratch to match accuracy</p>",
+            "id": 53,
+            "page": 4,
+            "text": "5.1. Training from scratch to match accuracy"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1295,
+                    "y": 1332
+                },
+                {
+                    "x": 2252,
+                    "y": 1332
+                },
+                {
+                    "x": 2252,
+                    "y": 2146
+                },
+                {
+                    "x": 1295,
+                    "y": 2146
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='54' style='font-size:14px' alt=\"bbox AP: R50-FPN, SyncBN\n45\n40\n35\n30\n25\n20\n15\n10\n5 random init\nw/ pre-train\n1 2 3 4 5\niterations (105)\" data-coord=\"top-left:(1295,1332); bottom-right:(2252,2146)\" /></figure>",
+            "id": 54,
+            "page": 4,
+            "text": "bbox AP: R50-FPN, SyncBN 45 40 35 30 25 20 15 10 5 random init w/ pre-train 1 2 3 4 5 iterations (105)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2580
+                },
+                {
+                    "x": 1199,
+                    "y": 2580
+                },
+                {
+                    "x": 1199,
+                    "y": 2721
+                },
+                {
+                    "x": 203,
+                    "y": 2721
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>Our first surprising discovery is that when only using the<br>COCO data, models trained from scratch can catch up in<br>accuracy with ones that are fine-tuned.</p>",
+            "id": 55,
+            "page": 4,
+            "text": "Our first surprising discovery is that when only using the COCO data, models trained from scratch can catch up in accuracy with ones that are fine-tuned."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2729
+                },
+                {
+                    "x": 1199,
+                    "y": 2729
+                },
+                {
+                    "x": 1199,
+                    "y": 2975
+                },
+                {
+                    "x": 202,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='56' style='font-size:18px'>In this subsection, we train the models on the COCO<br>train2017 split that has ~118k (118,287) images, and<br>evaluate in the 5k COCO val201 7 split. We evaluate<br>bounding box (bbox) Average Precision (AP) for object de-<br>tection and mask AP for instance segmentation.</p>",
+            "id": 56,
+            "page": 4,
+            "text": "In this subsection, we train the models on the COCO train2017 split that has ~118k (118,287) images, and evaluate in the 5k COCO val201 7 split. We evaluate bounding box (bbox) Average Precision (AP) for object detection and mask AP for instance segmentation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2156
+                },
+                {
+                    "x": 2278,
+                    "y": 2156
+                },
+                {
+                    "x": 2278,
+                    "y": 2339
+                },
+                {
+                    "x": 1279,
+                    "y": 2339
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='57' style='font-size:16px'>Figure 4. Learning curves of Apbbox COCO val201 7 using<br>on<br>Mask R-CNN with R50-FPN and SyncBN [34, 27] (that synchro-<br>nizes batch statistics across GPUs). The results of the 6x schedule<br>are 39.3 (random initialization) and 39.0 (pre-training).</caption>",
+            "id": 57,
+            "page": 4,
+            "text": "Figure 4. Learning curves of Apbbox COCO val201 7 using on Mask R-CNN with R50-FPN and SyncBN  (that synchronizes batch statistics across GPUs). The results of the 6x schedule are 39.3 (random initialization) and 39.0 (pre-training)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2423
+                },
+                {
+                    "x": 2276,
+                    "y": 2423
+                },
+                {
+                    "x": 2276,
+                    "y": 2723
+                },
+                {
+                    "x": 1280,
+                    "y": 2723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:18px'>Baselines with GN and SyncBN. The validation bbox AP<br>curves are shown in Figures 1 and 3 when using GN for<br>ResNet-50 (R50) and ResNet-101 (R101) backbones and in<br>Figure 4 when using SyncBN for R50. For each figure, we<br>compare the curves between models trained from random<br>initialization vs. fine-tuned with ImageNet pre-training.</p>",
+            "id": 58,
+            "page": 4,
+            "text": "Baselines with GN and SyncBN. The validation bbox AP curves are shown in Figures 1 and 3 when using GN for ResNet-50 (R50) and ResNet-101 (R101) backbones and in Figure 4 when using SyncBN for R50. For each figure, we compare the curves between models trained from random initialization vs. fine-tuned with ImageNet pre-training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2730
+                },
+                {
+                    "x": 2278,
+                    "y": 2730
+                },
+                {
+                    "x": 2278,
+                    "y": 2975
+                },
+                {
+                    "x": 1281,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='59' style='font-size:18px'>We study five different schedules for each case, namely,<br>2x to 6x iterations (Sec. 4). Note that we overlay the five<br>schedules of one model in the same plot. The leaps in the<br>AP curves are a consequence of reducing learning rates, il-<br>lustrating the results of different schedules.</p>",
+            "id": 59,
+            "page": 4,
+            "text": "We study five different schedules for each case, namely, 2x to 6x iterations (Sec. 4). Note that we overlay the five schedules of one model in the same plot. The leaps in the AP curves are a consequence of reducing learning rates, illustrating the results of different schedules."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3088
+                },
+                {
+                    "x": 1226,
+                    "y": 3088
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='60' style='font-size:16px'>4</footer>",
+            "id": 60,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 256,
+                    "y": 295
+                },
+                {
+                    "x": 1140,
+                    "y": 295
+                },
+                {
+                    "x": 1140,
+                    "y": 555
+                },
+                {
+                    "x": 256,
+                    "y": 555
+                }
+            ],
+            "category": "table",
+            "html": "<table id='61' style='font-size:14px'><tr><td colspan=\"2\">schedule</td><td>2x</td><td>3x</td><td>4x</td><td>5x</td><td>6x</td></tr><tr><td rowspan=\"2\">R50</td><td>random init</td><td>36.8</td><td>39.5</td><td>40.6</td><td>40.7</td><td>41.3</td></tr><tr><td>w/ pre-train</td><td>40.3</td><td>40.8</td><td>40.9</td><td>40.9</td><td>41.1</td></tr><tr><td rowspan=\"2\">R101</td><td>random init</td><td>38.2</td><td>41.0</td><td>41.8</td><td>42.2</td><td>42.7</td></tr><tr><td>w/ pre-train</td><td>41.8</td><td>42.3</td><td>42.3</td><td>41.9</td><td>42.2</td></tr></table>",
+            "id": 61,
+            "page": 5,
+            "text": "schedule 2x 3x 4x 5x 6x  R50 random init 36.8 39.5 40.6 40.7 41.3  w/ pre-train 40.3 40.8 40.9 40.9 41.1  R101 random init 38.2 41.0 41.8 42.2 42.7  w/ pre-train 41.8 42.3 42.3 41.9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 592
+                },
+                {
+                    "x": 1200,
+                    "y": 592
+                },
+                {
+                    "x": 1200,
+                    "y": 725
+                },
+                {
+                    "x": 202,
+                    "y": 725
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='62' style='font-size:16px'>Table 1. Object detection Apbbox of training<br>on COCO val2017<br>schedules from 2x (180k iterations) to 6x (540k iterations). The<br>model is Mask R-CNN with FPN and GN (Figures 1 and 3).</caption>",
+            "id": 62,
+            "page": 5,
+            "text": "Table 1. Object detection Apbbox of training on COCO val2017 schedules from 2x (180k iterations) to 6x (540k iterations). The model is Mask R-CNN with FPN and GN (Figures 1 and 3)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 777
+                },
+                {
+                    "x": 1217,
+                    "y": 777
+                },
+                {
+                    "x": 1217,
+                    "y": 1144
+                },
+                {
+                    "x": 203,
+                    "y": 1144
+                }
+            ],
+            "category": "table",
+            "html": "<table id='63' style='font-size:14px'><tr><td></td><td>APbbox</td><td>APbbox</td><td>APbbox</td><td>APmask</td><td>APmask</td><td>APmask</td></tr><tr><td>random init</td><td>41.3</td><td>61.8</td><td>45.6</td><td>36.6</td><td>59.0</td><td>38.9</td></tr><tr><td>R50 w/ pre-train</td><td>41.1</td><td>61.7</td><td>44.6</td><td>36.4</td><td>58.5</td><td>38.7</td></tr><tr><td>△</td><td>+0.2</td><td>+0.1</td><td>+1.0</td><td>+0.2</td><td>+0.5</td><td>+0.2</td></tr><tr><td>random init</td><td>42.7</td><td>62.9</td><td>47.0</td><td>37.6</td><td>59.9</td><td>39.7</td></tr><tr><td>R101 w/ pre-train</td><td>42.3</td><td>62.6</td><td>46.2</td><td>37.2</td><td>59.7</td><td>39.7</td></tr><tr><td>△</td><td>+0.4</td><td>+0.3</td><td>+0.8</td><td>+0.4</td><td>+0.2</td><td>0.0</td></tr></table>",
+            "id": 63,
+            "page": 5,
+            "text": "APbbox APbbox APbbox APmask APmask APmask  random init 41.3 61.8 45.6 36.6 59.0 38.9  R50 w/ pre-train 41.1 61.7 44.6 36.4 58.5 38.7  △ +0.2 +0.1 +1.0 +0.2 +0.5 +0.2  random init 42.7 62.9 47.0 37.6 59.9 39.7  R101 w/ pre-train 42.3 62.6 46.2 37.2 59.7 39.7  △ +0.4 +0.3 +0.8 +0.4 +0.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1176
+                },
+                {
+                    "x": 1198,
+                    "y": 1176
+                },
+                {
+                    "x": 1198,
+                    "y": 1357
+                },
+                {
+                    "x": 201,
+                    "y": 1357
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='64' style='font-size:16px'>Table 2. Training from random initialization vs. with ImageNet<br>pre-training (Mask R-CNN with FPN and GN, Figures 1, 3), eval-<br>uated on COCO val2017. For each model, we show its results<br>corresponding to the schedule (2 to 6x) that gives the best Apbbox</caption>",
+            "id": 64,
+            "page": 5,
+            "text": "Table 2. Training from random initialization vs. with ImageNet pre-training (Mask R-CNN with FPN and GN, Figures 1, 3), evaluated on COCO val2017. For each model, we show its results corresponding to the schedule (2 to 6x) that gives the best Apbbox"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1454
+                },
+                {
+                    "x": 1195,
+                    "y": 1454
+                },
+                {
+                    "x": 1195,
+                    "y": 1548
+                },
+                {
+                    "x": 203,
+                    "y": 1548
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:20px'>Similar phenomena, summarized below, are consistently<br>present in Figures 1, 3, and 4:</p>",
+            "id": 65,
+            "page": 5,
+            "text": "Similar phenomena, summarized below, are consistently present in Figures 1, 3, and 4:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1577
+                },
+                {
+                    "x": 1199,
+                    "y": 1577
+                },
+                {
+                    "x": 1199,
+                    "y": 1824
+                },
+                {
+                    "x": 201,
+                    "y": 1824
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:20px'>(i) Typical fine-tuning schedules (2x) work well for the<br>models with pre-training to converge to near optimum (see<br>also Table 1, 'w/ pre-train'). But these schedules are not<br>enough for models trained from scratch, and they appear to<br>be inferior if they are only trained for a short period.</p>",
+            "id": 66,
+            "page": 5,
+            "text": "(i) Typical fine-tuning schedules (2x) work well for the models with pre-training to converge to near optimum (see also Table 1, 'w/ pre-train'). But these schedules are not enough for models trained from scratch, and they appear to be inferior if they are only trained for a short period."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1851
+                },
+                {
+                    "x": 1199,
+                    "y": 1851
+                },
+                {
+                    "x": 1199,
+                    "y": 2049
+                },
+                {
+                    "x": 202,
+                    "y": 2049
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>(ii) Models trained from scratch can catch up with their<br>fine-tuning counterparts, if a 5x or 6x schedule is used- -<br>actually, when they converge to an optimum, their detection<br>AP is no worse than their fine-tuning counterparts.</p>",
+            "id": 67,
+            "page": 5,
+            "text": "(ii) Models trained from scratch can catch up with their fine-tuning counterparts, if a 5x or 6x schedule is used- actually, when they converge to an optimum, their detection AP is no worse than their fine-tuning counterparts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2076
+                },
+                {
+                    "x": 1198,
+                    "y": 2076
+                },
+                {
+                    "x": 1198,
+                    "y": 2275
+                },
+                {
+                    "x": 202,
+                    "y": 2275
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:20px'>In the standard COCO training set, ImageNet pre-<br>training mainly helps to speed up convergence on the target<br>task early on in training, but shows little or no evidence of<br>improving the final detection accuracy.</p>",
+            "id": 68,
+            "page": 5,
+            "text": "In the standard COCO training set, ImageNet pretraining mainly helps to speed up convergence on the target task early on in training, but shows little or no evidence of improving the final detection accuracy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2319
+                },
+                {
+                    "x": 1199,
+                    "y": 2319
+                },
+                {
+                    "x": 1199,
+                    "y": 2617
+                },
+                {
+                    "x": 200,
+                    "y": 2617
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:20px'>Multiple detection metrics. In Table 2 we further com-<br>pare different detection metrics between models trained<br>from scratch and with pre-training, including box-level<br>and segmentation-level AP of Mask R-CNN, under<br>Intersection-over-Union (IoU) thresholds of 0.5 (AP50) and<br>0.75 (AP75).</p>",
+            "id": 69,
+            "page": 5,
+            "text": "Multiple detection metrics. In Table 2 we further compare different detection metrics between models trained from scratch and with pre-training, including box-level and segmentation-level AP of Mask R-CNN, under Intersection-over-Union (IoU) thresholds of 0.5 (AP50) and 0.75 (AP75)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2625
+                },
+                {
+                    "x": 1198,
+                    "y": 2625
+                },
+                {
+                    "x": 1198,
+                    "y": 2821
+                },
+                {
+                    "x": 201,
+                    "y": 2821
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:18px'>Table 2 reveals that models trained from scratch and with<br>pre-training have similar AP metrics under various criteria,<br>suggesting that the models trained from scratch catch up not<br>only by chance for a single metric.</p>",
+            "id": 70,
+            "page": 5,
+            "text": "Table 2 reveals that models trained from scratch and with pre-training have similar AP metrics under various criteria, suggesting that the models trained from scratch catch up not only by chance for a single metric."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2830
+                },
+                {
+                    "x": 1198,
+                    "y": 2830
+                },
+                {
+                    "x": 1198,
+                    "y": 2975
+                },
+                {
+                    "x": 203,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:22px'>Moreover, for the APbbox metric (using a high overlap<br>threshold), training from scratch is better than fine-tuning<br>by noticeable margins (1.0 or 0.8 AP).</p>",
+            "id": 71,
+            "page": 5,
+            "text": "Moreover, for the APbbox metric (using a high overlap threshold), training from scratch is better than fine-tuning by noticeable margins (1.0 or 0.8 AP)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 317
+                },
+                {
+                    "x": 2260,
+                    "y": 317
+                },
+                {
+                    "x": 2260,
+                    "y": 1613
+                },
+                {
+                    "x": 1279,
+                    "y": 1613
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='72' style='font-size:14px' alt=\"bbox AP, random init\n50\nbbox AP, w/ pre-train 48.6\n48.3\n48 mask AP, random init\nmask AP, w/ pre-train\n45.9 46.0\n46\n43.4\n44 43.3\n42 41.3 41.6\n41.1\n40.9\n40 39.4\n38.5 39.1\n38.2\n38\n36.6\n36.4\n36\n34\n32\n30\ntrain aug\nR50 baseline\ncascade + train aug\ncascade + train/test aug\nbbox AP, random init 49.8\n50 49.5\nbbox AP, w/ pre-train\n47.1\n48 mask AP, random init 47.4\nmask AP, w/ pre-train\n46 45.0\n44.5\n44\n42.7\n42.3 42.5\n41.9\n42\n40.5\n39.3 40.0\n40 39.5\n37.2\n38 37.6\n36\n34\n32\n30\ntrain aug\nR101 baseline\ncascade + train aug\ncascade + train/test aug\" data-coord=\"top-left:(1279,317); bottom-right:(2260,1613)\" /></figure>",
+            "id": 72,
+            "page": 5,
+            "text": "bbox AP, random init 50 bbox AP, w/ pre-train 48.6 48.3 48 mask AP, random init mask AP, w/ pre-train 45.9 46.0 46 43.4 44 43.3 42 41.3 41.6 41.1 40.9 40 39.4 38.5 39.1 38.2 38 36.6 36.4 36 34 32 30 train aug R50 baseline cascade + train aug cascade + train/test aug bbox AP, random init 49.8 50 49.5 bbox AP, w/ pre-train 47.1 48 mask AP, random init 47.4 mask AP, w/ pre-train 46 45.0 44.5 44 42.7 42.3 42.5 41.9 42 40.5 39.3 40.0 40 39.5 37.2 38 37.6 36 34 32 30 train aug R101 baseline cascade + train aug cascade + train/test aug"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1624
+                },
+                {
+                    "x": 2277,
+                    "y": 1624
+                },
+                {
+                    "x": 2277,
+                    "y": 1900
+                },
+                {
+                    "x": 1279,
+                    "y": 1900
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='73' style='font-size:18px'>Figure 5. Comparisons between from random initialization vs.<br>with pre-training on various systems using Mask R-CNN, includ-<br>ing: (i) baselines using FPN and GN, (ii) baselines with training-<br>time multi-scale augmentation, (iii) baselines with Cascade R-<br>CNN [3] and training-time augmentation, and (iv) plus test-time<br>multi-scale augmentation. Top: R50; Bottom: R101.</caption>",
+            "id": 73,
+            "page": 5,
+            "text": "Figure 5. Comparisons between from random initialization vs. with pre-training on various systems using Mask R-CNN, including: (i) baselines using FPN and GN, (ii) baselines with trainingtime multi-scale augmentation, (iii) baselines with Cascade RCNN  and training-time augmentation, and (iv) plus test-time multi-scale augmentation. Top: R50; Bottom: R101."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1959
+                },
+                {
+                    "x": 2276,
+                    "y": 1959
+                },
+                {
+                    "x": 2276,
+                    "y": 2157
+                },
+                {
+                    "x": 1280,
+                    "y": 2157
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:20px'>Enhanced baselines. The phenomenon that training with<br>and without pre-training can be comparable is also observed<br>in various enhanced baselines, as compared in Figure 5. We<br>ablate the experiments as follows:</p>",
+            "id": 74,
+            "page": 5,
+            "text": "Enhanced baselines. The phenomenon that training with and without pre-training can be comparable is also observed in various enhanced baselines, as compared in Figure 5. We ablate the experiments as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2190
+                },
+                {
+                    "x": 2277,
+                    "y": 2190
+                },
+                {
+                    "x": 2277,
+                    "y": 2588
+                },
+                {
+                    "x": 1278,
+                    "y": 2588
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>- Training-time scale augmentation: Thus far all mod-<br>els are trained with no data augmentation except horizontal<br>flipping. Next we use the simple training-time scale aug-<br>mentation implemented in Detectron: the shorter side ofim-<br>ages is randomly sampled from [640, 800] pixels. Stronger<br>data augmentation requires more iterations to converge, SO<br>we increase the schedule to 9x when training from scratch,<br>and to 6x when from ImageNet pre-training.</p>",
+            "id": 75,
+            "page": 5,
+            "text": "- Training-time scale augmentation: Thus far all models are trained with no data augmentation except horizontal flipping. Next we use the simple training-time scale augmentation implemented in Detectron: the shorter side ofimages is randomly sampled from  pixels. Stronger data augmentation requires more iterations to converge, SO we increase the schedule to 9x when training from scratch, and to 6x when from ImageNet pre-training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2598
+                },
+                {
+                    "x": 2277,
+                    "y": 2598
+                },
+                {
+                    "x": 2277,
+                    "y": 2846
+                },
+                {
+                    "x": 1278,
+                    "y": 2846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:20px'>Figure 5 ('train aug') shows that in this case models<br>trained with and without ImageNet pre-training are still<br>comparable. Actually, stronger data augmentation relieves<br>the problem ofinsufficient data, SO we may expect that mod-<br>els with pre-training have less of an advantage in this case.</p>",
+            "id": 76,
+            "page": 5,
+            "text": "Figure 5 ('train aug') shows that in this case models trained with and without ImageNet pre-training are still comparable. Actually, stronger data augmentation relieves the problem ofinsufficient data, SO we may expect that models with pre-training have less of an advantage in this case."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2879
+                },
+                {
+                    "x": 2274,
+                    "y": 2879
+                },
+                {
+                    "x": 2274,
+                    "y": 2977
+                },
+                {
+                    "x": 1281,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>- Cascade R-CNN [3]: as a method focusing on improv-<br>ing localization accuracy, Cascade R-CNN appends two ex-</p>",
+            "id": 77,
+            "page": 5,
+            "text": "- Cascade R-CNN : as a method focusing on improving localization accuracy, Cascade R-CNN appends two ex-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3090
+                },
+                {
+                    "x": 1226,
+                    "y": 3090
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='78' style='font-size:18px'>5</footer>",
+            "id": 78,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 310
+                },
+                {
+                    "x": 1199,
+                    "y": 310
+                },
+                {
+                    "x": 1199,
+                    "y": 701
+                },
+                {
+                    "x": 201,
+                    "y": 701
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:18px'>tra stages to the standard two-stage Faster R-CNN system.<br>We implement its Mask R-CNN version by simply adding<br>a mask head to the last stage. To save running time for the<br>from-scratch models, we train Mask R-CNN from scratch<br>without cascade, and switch to cascade in the final 270k it-<br>erations, noting that this does not alter the fact that the final<br>model uses no ImageNet pre-training. We train Cascade R-<br>CNN under the scale augmentation setting.</p>",
+            "id": 79,
+            "page": 6,
+            "text": "tra stages to the standard two-stage Faster R-CNN system. We implement its Mask R-CNN version by simply adding a mask head to the last stage. To save running time for the from-scratch models, we train Mask R-CNN from scratch without cascade, and switch to cascade in the final 270k iterations, noting that this does not alter the fact that the final model uses no ImageNet pre-training. We train Cascade RCNN under the scale augmentation setting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 710
+                },
+                {
+                    "x": 1199,
+                    "y": 710
+                },
+                {
+                    "x": 1199,
+                    "y": 1056
+                },
+                {
+                    "x": 201,
+                    "y": 1056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:22px'>Figure 5 ('cascade + train aug') again shows that<br>Cascade R-CNN models have similar AP numbers with<br>and without ImageNet pre-training. Supervision about<br>localization is mainly provided by the target dataset and<br>is not explicitly available from the classification-based<br>ImageNet pre-training. Thus we do not expect ImageNet<br>pre-training to provide additional benefits in this setting.</p>",
+            "id": 80,
+            "page": 6,
+            "text": "Figure 5 ('cascade + train aug') again shows that Cascade R-CNN models have similar AP numbers with and without ImageNet pre-training. Supervision about localization is mainly provided by the target dataset and is not explicitly available from the classification-based ImageNet pre-training. Thus we do not expect ImageNet pre-training to provide additional benefits in this setting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1084
+                },
+                {
+                    "x": 1197,
+                    "y": 1084
+                },
+                {
+                    "x": 1197,
+                    "y": 1279
+                },
+                {
+                    "x": 202,
+                    "y": 1279
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>- Test-time augmentation: thus far we have used no test-<br>time augmentation. Next we further perform test-time aug-<br>mentation by combining the predictions from multiple scal-<br>ing transformations, as implemented in Detectron [10].</p>",
+            "id": 81,
+            "page": 6,
+            "text": "- Test-time augmentation: thus far we have used no testtime augmentation. Next we further perform test-time augmentation by combining the predictions from multiple scaling transformations, as implemented in Detectron ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1288
+                },
+                {
+                    "x": 1200,
+                    "y": 1288
+                },
+                {
+                    "x": 1200,
+                    "y": 1532
+                },
+                {
+                    "x": 202,
+                    "y": 1532
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:18px'>Again, the models trained from scratch are no worse than<br>their pre-training counterparts. Actually, models trained<br>from scratch are even slightly better in this case-for ex-<br>ample, mask AP is 41.6 (from scratch) vs. 40.9 for R50,<br>and 42.5 vs. 41.9 for R101.</p>",
+            "id": 82,
+            "page": 6,
+            "text": "Again, the models trained from scratch are no worse than their pre-training counterparts. Actually, models trained from scratch are even slightly better in this case-for example, mask AP is 41.6 (from scratch) vs. 40.9 for R50, and 42.5 vs. 41.9 for R101."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1580
+                },
+                {
+                    "x": 1198,
+                    "y": 1580
+                },
+                {
+                    "x": 1198,
+                    "y": 1774
+                },
+                {
+                    "x": 202,
+                    "y": 1774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:18px'>Large models trained from scratch. We have also trained<br>a significantly larger Mask R-CNN model from scratch us-<br>ing a ResNeXt-152 8x32d [49] (in short 'X152') backbone<br>with GN. The results are in Table 3.</p>",
+            "id": 83,
+            "page": 6,
+            "text": "Large models trained from scratch. We have also trained a significantly larger Mask R-CNN model from scratch using a ResNeXt-152 8x32d  (in short 'X152') backbone with GN. The results are in Table 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1784
+                },
+                {
+                    "x": 1199,
+                    "y": 1784
+                },
+                {
+                    "x": 1199,
+                    "y": 2278
+                },
+                {
+                    "x": 202,
+                    "y": 2278
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:20px'>This backbone has ~4x more FLOPs than R101. De-<br>spite being substantially larger, this model shows no notice-<br>able overfitting. It achieves good results of 50.9 bbox AP<br>and 43.2 mask AP in val201 7 when trained from random<br>initialization. We submitted this model to COCO 2018<br>competition, and it has 51.3 bbox AP and 43.6 mask AP<br>in the test-challenge set. Our bbox AP is at the level<br>of the COCO 2017 winners (50.5 bbox AP, [34]), and is by<br>far the highest number of its kind (single model, without<br>ImageNet pre-training).</p>",
+            "id": 84,
+            "page": 6,
+            "text": "This backbone has ~4x more FLOPs than R101. Despite being substantially larger, this model shows no noticeable overfitting. It achieves good results of 50.9 bbox AP and 43.2 mask AP in val201 7 when trained from random initialization. We submitted this model to COCO 2018 competition, and it has 51.3 bbox AP and 43.6 mask AP in the test-challenge set. Our bbox AP is at the level of the COCO 2017 winners (50.5 bbox AP, ), and is by far the highest number of its kind (single model, without ImageNet pre-training)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2287
+                },
+                {
+                    "x": 1199,
+                    "y": 2287
+                },
+                {
+                    "x": 1199,
+                    "y": 2484
+                },
+                {
+                    "x": 202,
+                    "y": 2484
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='85' style='font-size:20px'>We have trained the same model with ImageNet pre-<br>training. It has bbox/mask AP of 50.3/42.5 in val2017<br>(vs. from-scratch's 50.9/43.2). Interestingly, even for this<br>large model, pre-training does not improve results.</p>",
+            "id": 85,
+            "page": 6,
+            "text": "We have trained the same model with ImageNet pretraining. It has bbox/mask AP of 50.3/42.5 in val2017 (vs. from-scratch's 50.9/43.2). Interestingly, even for this large model, pre-training does not improve results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2530
+                },
+                {
+                    "x": 1199,
+                    "y": 2530
+                },
+                {
+                    "x": 1199,
+                    "y": 2978
+                },
+                {
+                    "x": 202,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:20px'>vs. previous from-scratch results. DSOD [41] reported<br>29.3 bbox AP by using an architecture specially tailored for<br>results of training from scratch. A recent work of CornerNet<br>[22] reported 42.1 bbox AP (w/ multi-scale augmentation)<br>using no ImageNet pre-training. Our results, of various ver-<br>sions, are higher than previous ones. Again, we emphasize<br>that previous works [41, 22] reported no evidence that mod-<br>els without ImageNet pre-training can be comparably good<br>as their ImageNet pre-training counterparts.</p>",
+            "id": 86,
+            "page": 6,
+            "text": "vs. previous from-scratch results. DSOD  reported 29.3 bbox AP by using an architecture specially tailored for results of training from scratch. A recent work of CornerNet  reported 42.1 bbox AP (w/ multi-scale augmentation) using no ImageNet pre-training. Our results, of various versions, are higher than previous ones. Again, we emphasize that previous works  reported no evidence that models without ImageNet pre-training can be comparably good as their ImageNet pre-training counterparts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1295,
+                    "y": 295
+                },
+                {
+                    "x": 2249,
+                    "y": 295
+                },
+                {
+                    "x": 2249,
+                    "y": 556
+                },
+                {
+                    "x": 1295,
+                    "y": 556
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='87' style='font-size:16px'>Apbbox APbbox APbbox APmask<br>APmask APmask<br>R101 w/ train aug 45.0 65.7 49.3 39.5 62.5 42.1<br>X152 w/ train aug 46.4 67.1 51.1 40.5 63.9 43.4<br>+ cascade 48.6 66.8 52.9 41.4 64.2 44.6<br>+ test aug 50.9 68.7 55.4 43.2 66.1 46.8</p>",
+            "id": 87,
+            "page": 6,
+            "text": "Apbbox APbbox APbbox APmask APmask APmask R101 w/ train aug 45.0 65.7 49.3 39.5 62.5 42.1 X152 w/ train aug 46.4 67.1 51.1 40.5 63.9 43.4 + cascade 48.6 66.8 52.9 41.4 64.2 44.6 + test aug 50.9 68.7 55.4 43.2 66.1 46.8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 572
+                },
+                {
+                    "x": 2272,
+                    "y": 572
+                },
+                {
+                    "x": 2272,
+                    "y": 660
+                },
+                {
+                    "x": 1283,
+                    "y": 660
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='88' style='font-size:14px'>Table 3. Mask R-CNN with ResNeXt-152 trained from random<br>initialization (w/ FPN and GN), evaluated on COCO val201 7.</caption>",
+            "id": 88,
+            "page": 6,
+            "text": "Table 3. Mask R-CNN with ResNeXt-152 trained from random initialization (w/ FPN and GN), evaluated on COCO val201 7."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1287,
+                    "y": 689
+                },
+                {
+                    "x": 1721,
+                    "y": 689
+                },
+                {
+                    "x": 1721,
+                    "y": 1327
+                },
+                {
+                    "x": 1287,
+                    "y": 1327
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='89' style='font-size:14px' alt=\"keypoint AP: R50-FPN GN\n70\n60\n50\n40\n30\n20\n10 init\nrandom\nw/ pre-train\n0\n0 1 2 3\niterations (105)\" data-coord=\"top-left:(1287,689); bottom-right:(1721,1327)\" /></figure>",
+            "id": 89,
+            "page": 6,
+            "text": "keypoint AP: R50-FPN GN 70 60 50 40 30 20 10 init random w/ pre-train 0 0 1 2 3 iterations (105)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1728,
+                    "y": 698
+                },
+                {
+                    "x": 2273,
+                    "y": 698
+                },
+                {
+                    "x": 2273,
+                    "y": 1315
+                },
+                {
+                    "x": 1728,
+                    "y": 1315
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:16px'>Figure 6. Keypoint detection on<br>COCO using Mask R-CNN with<br>R50-FPN and GN. We show key-<br>point AP on COCO val2017.<br>ImageNet pre-training has little<br>benefit, and training from random<br>initialization can quickly catch up<br>without increasing training itera-<br>tions. We only need to use 2x and<br>3x schedules, unlike the object de-<br>tection case. The result is 65.6 vs.<br>65.5 (random initialization vs. pre-<br>training) with 2x schedules.</p>",
+            "id": 90,
+            "page": 6,
+            "text": "Figure 6. Keypoint detection on COCO using Mask R-CNN with R50-FPN and GN. We show keypoint AP on COCO val2017. ImageNet pre-training has little benefit, and training from random initialization can quickly catch up without increasing training iterations. We only need to use 2x and 3x schedules, unlike the object detection case. The result is 65.6 vs. 65.5 (random initialization vs. pretraining) with 2x schedules."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1361
+                },
+                {
+                    "x": 2276,
+                    "y": 1361
+                },
+                {
+                    "x": 2276,
+                    "y": 1808
+                },
+                {
+                    "x": 1281,
+                    "y": 1808
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:20px'>Keypoint detection. We also train Mask R-CNN for the<br>COCO human keypoint detection task. The results are in<br>Figure 6. In this case, the model trained from scratch can<br>catch up more quickly, and even when not increasing train-<br>ing iterations, it is comparable with its counterpart that uses<br>ImageNet pre-training. Keypoint detection is a task more<br>sensitive to fine spatial localization. Our experiment sug-<br>gests that ImageNet pre-training, which has little explicit<br>localization information, does not help keypoint detection.</p>",
+            "id": 91,
+            "page": 6,
+            "text": "Keypoint detection. We also train Mask R-CNN for the COCO human keypoint detection task. The results are in Figure 6. In this case, the model trained from scratch can catch up more quickly, and even when not increasing training iterations, it is comparable with its counterpart that uses ImageNet pre-training. Keypoint detection is a task more sensitive to fine spatial localization. Our experiment suggests that ImageNet pre-training, which has little explicit localization information, does not help keypoint detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1829
+                },
+                {
+                    "x": 2275,
+                    "y": 1829
+                },
+                {
+                    "x": 2275,
+                    "y": 2274
+                },
+                {
+                    "x": 1281,
+                    "y": 2274
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:18px'>Models without BN/GN - VGG nets. Thus far all of our<br>experiments involve ResNet-based models, which require<br>some form of activation normalization (e.g., BN or GN).<br>Shallower models like VGG-16 [43] can be trained from<br>scratch without activation normalization as long as a proper<br>initialization normalization is used [16]. Our next experi-<br>ment tests the generality of our observations by exploring<br>the behavior of training Faster R-CNN from scratch using<br>VGG-16 as the backbone.</p>",
+            "id": 92,
+            "page": 6,
+            "text": "Models without BN/GN - VGG nets. Thus far all of our experiments involve ResNet-based models, which require some form of activation normalization (e.g., BN or GN). Shallower models like VGG-16  can be trained from scratch without activation normalization as long as a proper initialization normalization is used . Our next experiment tests the generality of our observations by exploring the behavior of training Faster R-CNN from scratch using VGG-16 as the backbone."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2281
+                },
+                {
+                    "x": 2276,
+                    "y": 2281
+                },
+                {
+                    "x": 2276,
+                    "y": 2774
+                },
+                {
+                    "x": 1280,
+                    "y": 2774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:20px'>We implement the model following the original Faster<br>R-CNN paper [37] and its VGG-16 architecture; no FPN is<br>used. We adopt standard hyper-parameters with a learning<br>rate of 0.02, learning rate decay factor of 0.1, and weight<br>decay of 0.0001. We use scale augmentation during train-<br>ing. Following previous experiments, we use the exact<br>same hyper-parameters when fine-tuning and training from<br>scratch. When randomly initializing the model, we use the<br>same MSRA initialization [16] for ImageNet pre-training<br>and for COCO from scratch.</p>",
+            "id": 93,
+            "page": 6,
+            "text": "We implement the model following the original Faster R-CNN paper  and its VGG-16 architecture; no FPN is used. We adopt standard hyper-parameters with a learning rate of 0.02, learning rate decay factor of 0.1, and weight decay of 0.0001. We use scale augmentation during training. Following previous experiments, we use the exact same hyper-parameters when fine-tuning and training from scratch. When randomly initializing the model, we use the same MSRA initialization  for ImageNet pre-training and for COCO from scratch."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2780
+                },
+                {
+                    "x": 2276,
+                    "y": 2780
+                },
+                {
+                    "x": 2276,
+                    "y": 2978
+                },
+                {
+                    "x": 1281,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:18px'>The baseline model with pre-training is able to reach a<br>maximal bbox AP of 35.6 after an extremely long 9x train-<br>ing schedule (training for longer leads to a slight degra-<br>dation in AP). Here we note that even with pre-training,</p>",
+            "id": 94,
+            "page": 6,
+            "text": "The baseline model with pre-training is able to reach a maximal bbox AP of 35.6 after an extremely long 9x training schedule (training for longer leads to a slight degradation in AP). Here we note that even with pre-training,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3058
+                },
+                {
+                    "x": 1253,
+                    "y": 3058
+                },
+                {
+                    "x": 1253,
+                    "y": 3090
+                },
+                {
+                    "x": 1226,
+                    "y": 3090
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='95' style='font-size:16px'>6</footer>",
+            "id": 95,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 211,
+                    "y": 293
+                },
+                {
+                    "x": 2248,
+                    "y": 293
+                },
+                {
+                    "x": 2248,
+                    "y": 963
+                },
+                {
+                    "x": 211,
+                    "y": 963
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='96' style='font-size:14px' alt=\"bbox AP: 35k training images bbox AP: 35k training images bbox AP: 10k training images\n45 45 45\n40 40 40\n36.1 36.3\n35 35 35\n30 30 30\n26.0 25.9\n25 25 25\n20 20 20\n15 15 15\n10 10 10\n5 random init\n5 5 random init\nw/ pre-train w/ pre-train w/ pre-train\n0 0 0\n0 1 2 3 0 1 2 3 4 5 0 0.5 1 1.5 2\niterations (105) iterations (105) iterations (105)\" data-coord=\"top-left:(211,293); bottom-right:(2248,963)\" /></figure>",
+            "id": 96,
+            "page": 7,
+            "text": "bbox AP: 35k training images bbox AP: 35k training images bbox AP: 10k training images 45 45 45 40 40 40 36.1 36.3 35 35 35 30 30 30 26.0 25.9 25 25 25 20 20 20 15 15 15 10 10 10 5 random init 5 5 random init w/ pre-train w/ pre-train w/ pre-train 0 0 0 0 1 2 3 0 1 2 3 4 5 0 0.5 1 1.5 2 iterations (105) iterations (105) iterations (105)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 198,
+                    "y": 973
+                },
+                {
+                    "x": 2278,
+                    "y": 973
+                },
+                {
+                    "x": 2278,
+                    "y": 1206
+                },
+                {
+                    "x": 198,
+                    "y": 1206
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='97' style='font-size:16px'>Figure 7. Training with fewer COCO images (left/middle: 35k; right: 10k). The model is Mask R-CNN with R50-FPN and GN,<br>evaluated by bbox AP in val2017. Left: training with 35k COCO images, using the default hyper-parameters that were chosen for<br>the 118k train2017. It shows overfitting before and after the learning rate changes. Middle: training with 35k COCO images, using<br>hyper-parameters optimized for 'w/ pre-train' (the same hyper-parameters are then applied to the model from random initialization). Right:<br>training with 10k COCO images, using hyper-parameters optimized for 'w/ pre-training'.</caption>",
+            "id": 97,
+            "page": 7,
+            "text": "Figure 7. Training with fewer COCO images (left/middle: 35k; right: 10k). The model is Mask R-CNN with R50-FPN and GN, evaluated by bbox AP in val2017. Left: training with 35k COCO images, using the default hyper-parameters that were chosen for the 118k train2017. It shows overfitting before and after the learning rate changes. Middle: training with 35k COCO images, using hyper-parameters optimized for 'w/ pre-train' (the same hyper-parameters are then applied to the model from random initialization). Right: training with 10k COCO images, using hyper-parameters optimized for 'w/ pre-training'."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1287
+                },
+                {
+                    "x": 1199,
+                    "y": 1287
+                },
+                {
+                    "x": 1199,
+                    "y": 1736
+                },
+                {
+                    "x": 200,
+                    "y": 1736
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:20px'>full convergence for VGG-16 is slow. The model trained<br>from scratch reaches a similar level of performance with a<br>maximal bbox AP of 35.2 after an 11 x schedule (training<br>for longer resulted in a lower AP, too). These results indi-<br>cate that our methodology of 'making minimal/no changes'<br>(Sec. 3) but adopting good optimization strategies and train-<br>ing for longer are sufficient for training comparably perfor-<br>mant detectors on COCO, compared to the standard 'pre-<br>training and fine-tuning' paradigm.</p>",
+            "id": 98,
+            "page": 7,
+            "text": "full convergence for VGG-16 is slow. The model trained from scratch reaches a similar level of performance with a maximal bbox AP of 35.2 after an 11 x schedule (training for longer resulted in a lower AP, too). These results indicate that our methodology of 'making minimal/no changes' (Sec. 3) but adopting good optimization strategies and training for longer are sufficient for training comparably performant detectors on COCO, compared to the standard 'pretraining and fine-tuning' paradigm."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1780
+                },
+                {
+                    "x": 996,
+                    "y": 1780
+                },
+                {
+                    "x": 996,
+                    "y": 1828
+                },
+                {
+                    "x": 202,
+                    "y": 1828
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:22px'>5.2. Training from scratch with less data</p>",
+            "id": 99,
+            "page": 7,
+            "text": "5.2. Training from scratch with less data"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1861
+                },
+                {
+                    "x": 1198,
+                    "y": 1861
+                },
+                {
+                    "x": 1198,
+                    "y": 2057
+                },
+                {
+                    "x": 202,
+                    "y": 2057
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:16px'>Our second discovery, which is even more surprising,<br>is that with substantially less data (e.g., ~1/10 of COCO),<br>models trained from scratch are no worse than their coun-<br>terparts that are pre-trained.</p>",
+            "id": 100,
+            "page": 7,
+            "text": "Our second discovery, which is even more surprising, is that with substantially less data (e.g., ~1/10 of COCO), models trained from scratch are no worse than their counterparts that are pre-trained."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2101
+                },
+                {
+                    "x": 1198,
+                    "y": 2101
+                },
+                {
+                    "x": 1198,
+                    "y": 2299
+                },
+                {
+                    "x": 202,
+                    "y": 2299
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:20px'>35k COCO training images. We start our next investiga-<br>tion with ~1/3 of COCO training data (35k images from<br>train2017, equivalent to the older val35k). We train<br>models with or without ImageNet pre-training on this set.</p>",
+            "id": 101,
+            "page": 7,
+            "text": "35k COCO training images. We start our next investigation with ~1/3 of COCO training data (35k images from train2017, equivalent to the older val35k). We train models with or without ImageNet pre-training on this set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2309
+                },
+                {
+                    "x": 1199,
+                    "y": 2309
+                },
+                {
+                    "x": 1199,
+                    "y": 2602
+                },
+                {
+                    "x": 201,
+                    "y": 2602
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='102' style='font-size:20px'>Figure 7 (left) is the result using ImageNet pre-training<br>under the hyper-parameters of Mask R-CNN that were cho-<br>sen for the 118k COCO set. These hyper-parameters are<br>not optimal, and the model suffers from overfitting even<br>with ImageNet pre-training. It suggests that ImageNet pre-<br>training does not automatically help reduce overfitting.</p>",
+            "id": 102,
+            "page": 7,
+            "text": "Figure 7 (left) is the result using ImageNet pre-training under the hyper-parameters of Mask R-CNN that were chosen for the 118k COCO set. These hyper-parameters are not optimal, and the model suffers from overfitting even with ImageNet pre-training. It suggests that ImageNet pretraining does not automatically help reduce overfitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2610
+                },
+                {
+                    "x": 1199,
+                    "y": 2610
+                },
+                {
+                    "x": 1199,
+                    "y": 2806
+                },
+                {
+                    "x": 201,
+                    "y": 2806
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:18px'>To obtain a healthy baseline, we redo grid search for<br>hyper-parameters on the models that are with ImageNet pre-<br>training.2 The gray curve in Figure 7 (middle) shows the<br>results. It has optimally 36.3 AP with a 6x schedule.</p>",
+            "id": 103,
+            "page": 7,
+            "text": "To obtain a healthy baseline, we redo grid search for hyper-parameters on the models that are with ImageNet pretraining.2 The gray curve in Figure 7 (middle) shows the results. It has optimally 36.3 AP with a 6x schedule."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2855
+                },
+                {
+                    "x": 1198,
+                    "y": 2855
+                },
+                {
+                    "x": 1198,
+                    "y": 2973
+                },
+                {
+                    "x": 201,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:14px'>2Our new recipe changes are: training-time scale augmentation range<br>of [512, 800] (vs. baseline's no scale augmentation), a starting learning rate<br>of 0.04 (vs. 0.02), and a learning rate decay factor of 0.02 (vs. 0.1).</p>",
+            "id": 104,
+            "page": 7,
+            "text": "2Our new recipe changes are: training-time scale augmentation range of  (vs. baseline's no scale augmentation), a starting learning rate of 0.04 (vs. 0.02), and a learning rate decay factor of 0.02 (vs. 0.1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1289
+                },
+                {
+                    "x": 2278,
+                    "y": 1289
+                },
+                {
+                    "x": 2278,
+                    "y": 1587
+                },
+                {
+                    "x": 1280,
+                    "y": 1587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='105' style='font-size:18px'>Then we train our model from scratch using the exact<br>same new hyper-parameters that are chosen for the pre-<br>training case. This obviously biases results in favor of the<br>pre-training model. Nevertheless, the model trained from<br>scratch has 36.3 AP and catches up with its pre-training<br>counterpart (Figure 7, middle), despite less data.</p>",
+            "id": 105,
+            "page": 7,
+            "text": "Then we train our model from scratch using the exact same new hyper-parameters that are chosen for the pretraining case. This obviously biases results in favor of the pre-training model. Nevertheless, the model trained from scratch has 36.3 AP and catches up with its pre-training counterpart (Figure 7, middle), despite less data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1629
+                },
+                {
+                    "x": 2278,
+                    "y": 1629
+                },
+                {
+                    "x": 2278,
+                    "y": 1977
+                },
+                {
+                    "x": 1280,
+                    "y": 1977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:20px'>10k COCO training images. We repeat the same set of<br>experiments on a smaller training set of 10k COCO images<br>(i.e., less than 1/10th of the full COCO set). Again, we<br>perform grid search for hyper-parameters on the models that<br>use ImageNet pre-training, and apply them to the models<br>trained from scratch. We shorten the training schedules in<br>this small training set (noted by x-axis, Figure 7, right).</p>",
+            "id": 106,
+            "page": 7,
+            "text": "10k COCO training images. We repeat the same set of experiments on a smaller training set of 10k COCO images (i.e., less than 1/10th of the full COCO set). Again, we perform grid search for hyper-parameters on the models that use ImageNet pre-training, and apply them to the models trained from scratch. We shorten the training schedules in this small training set (noted by x-axis, Figure 7, right)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1984
+                },
+                {
+                    "x": 2277,
+                    "y": 1984
+                },
+                {
+                    "x": 2277,
+                    "y": 2181
+                },
+                {
+                    "x": 1282,
+                    "y": 2181
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='107' style='font-size:18px'>The model with pre-training reaches 26.0 AP with 60k<br>iterations, but has a slight degradation when training more.<br>The counterpart model trained from scratch has 25.9 AP at<br>220k iterations, which is comparably accurate.</p>",
+            "id": 107,
+            "page": 7,
+            "text": "The model with pre-training reaches 26.0 AP with 60k iterations, but has a slight degradation when training more. The counterpart model trained from scratch has 25.9 AP at 220k iterations, which is comparably accurate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2224
+                },
+                {
+                    "x": 2276,
+                    "y": 2224
+                },
+                {
+                    "x": 2276,
+                    "y": 2423
+                },
+                {
+                    "x": 1282,
+                    "y": 2423
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:18px'>Breakdown regime: 1k COCO training images. That<br>training from scratch in 10k images is comparably accurate<br>is surprising. But it is not reasonable to expect this trend<br>will last for arbitrarily small target data, as we report next.</p>",
+            "id": 108,
+            "page": 7,
+            "text": "Breakdown regime: 1k COCO training images. That training from scratch in 10k images is comparably accurate is surprising. But it is not reasonable to expect this trend will last for arbitrarily small target data, as we report next."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2428
+                },
+                {
+                    "x": 2277,
+                    "y": 2428
+                },
+                {
+                    "x": 2277,
+                    "y": 2977
+                },
+                {
+                    "x": 1278,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='109' style='font-size:20px'>In Figure 8 we repeat the same set of experiments<br>using only 1k COCO training images (~1/100th of full<br>COCO, again optimizing hyper-parameters for the pre-<br>training case) and show the training loss. In terms of opti-<br>mization (i.e., reducing training loss), training from scratch<br>is still no worse but only converges more slowly, as seen<br>previously. However, in this case, the training loss does<br>not translate into a good validation AP: the model with<br>ImageNet pre-training has 9.9 AP vs. the from scratch<br>model's 3.5 AP. For one experiment only we also per-<br>formed a grid search to optimize the from-scratch case: the</p>",
+            "id": 109,
+            "page": 7,
+            "text": "In Figure 8 we repeat the same set of experiments using only 1k COCO training images (~1/100th of full COCO, again optimizing hyper-parameters for the pretraining case) and show the training loss. In terms of optimization (i.e., reducing training loss), training from scratch is still no worse but only converges more slowly, as seen previously. However, in this case, the training loss does not translate into a good validation AP: the model with ImageNet pre-training has 9.9 AP vs. the from scratch model's 3.5 AP. For one experiment only we also performed a grid search to optimize the from-scratch case: the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3090
+                },
+                {
+                    "x": 1225,
+                    "y": 3090
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='110' style='font-size:16px'>7</footer>",
+            "id": 110,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 248,
+                    "y": 292
+                },
+                {
+                    "x": 1146,
+                    "y": 292
+                },
+                {
+                    "x": 1146,
+                    "y": 747
+                },
+                {
+                    "x": 248,
+                    "y": 747
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='111' style='font-size:14px' alt=\"Loss: 1k training images\n1.5 random init\nw/ pre-train\n1\n0.5\n0 1 2 3\niterations (104)\" data-coord=\"top-left:(248,292); bottom-right:(1146,747)\" /></figure>",
+            "id": 111,
+            "page": 8,
+            "text": "Loss: 1k training images 1.5 random init w/ pre-train 1 0.5 0 1 2 3 iterations (104)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 754
+                },
+                {
+                    "x": 1200,
+                    "y": 754
+                },
+                {
+                    "x": 1200,
+                    "y": 1077
+                },
+                {
+                    "x": 200,
+                    "y": 1077
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='112' style='font-size:14px'>Figure 8. Training with 1k COCO images (shown as the loss<br>in the training set). The model is Mask R-CNN with R50-FPN<br>and GN. As before, we use hyper-parameters optimized for the<br>model with pre-training, and apply the same hyper-parameters to<br>the model from random initialization. The randomly initialized<br>model can catch up for the training loss, but has lower validation<br>accuracy (3.4 AP) than the pre-training counterpart (9.9 AP).</caption>",
+            "id": 112,
+            "page": 8,
+            "text": "Figure 8. Training with 1k COCO images (shown as the loss in the training set). The model is Mask R-CNN with R50-FPN and GN. As before, we use hyper-parameters optimized for the model with pre-training, and apply the same hyper-parameters to the model from random initialization. The randomly initialized model can catch up for the training loss, but has lower validation accuracy (3.4 AP) than the pre-training counterpart (9.9 AP)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1131
+                },
+                {
+                    "x": 1197,
+                    "y": 1131
+                },
+                {
+                    "x": 1197,
+                    "y": 1222
+                },
+                {
+                    "x": 203,
+                    "y": 1222
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:18px'>result improves to 5.4 AP, but does not catch up. This is a<br>sign of strong overfitting due to the severe lack of data.</p>",
+            "id": 113,
+            "page": 8,
+            "text": "result improves to 5.4 AP, but does not catch up. This is a sign of strong overfitting due to the severe lack of data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1234
+                },
+                {
+                    "x": 1198,
+                    "y": 1234
+                },
+                {
+                    "x": 1198,
+                    "y": 1472
+                },
+                {
+                    "x": 201,
+                    "y": 1472
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='114' style='font-size:18px'>We also do similar experiments using 3.5k COCO train-<br>ing images. The model that uses pre-training has a peak<br>of 16.0 bbox AP vs. the trained from scratch counterpart's<br>9.3 AP. The breakdown point in the COCO dataset is some-<br>where between 3.5k to 10k training images.</p>",
+            "id": 114,
+            "page": 8,
+            "text": "We also do similar experiments using 3.5k COCO training images. The model that uses pre-training has a peak of 16.0 bbox AP vs. the trained from scratch counterpart's 9.3 AP. The breakdown point in the COCO dataset is somewhere between 3.5k to 10k training images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1499
+                },
+                {
+                    "x": 1199,
+                    "y": 1499
+                },
+                {
+                    "x": 1199,
+                    "y": 1896
+                },
+                {
+                    "x": 201,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:18px'>Breakdown regime: PASCAL VOC. Lastly we report the<br>comparison in PASCAL VOC object detection [7]. We train<br>on the set of trainval200 7 +train2012, and evaluate<br>on val2012. Using ImageNet pre-training, our Faster R-<br>CNN baseline (with R101-FPN, GN, and only training-time<br>augmentation) has 82.7 mAP at 18k iterations. Its counter-<br>part trained from scratch in VOC has 77.6 mAP at 144k<br>iterations and does not catch up even training longer.</p>",
+            "id": 115,
+            "page": 8,
+            "text": "Breakdown regime: PASCAL VOC. Lastly we report the comparison in PASCAL VOC object detection . We train on the set of trainval200 7 +train2012, and evaluate on val2012. Using ImageNet pre-training, our Faster RCNN baseline (with R101-FPN, GN, and only training-time augmentation) has 82.7 mAP at 18k iterations. Its counterpart trained from scratch in VOC has 77.6 mAP at 144k iterations and does not catch up even training longer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1901
+                },
+                {
+                    "x": 1199,
+                    "y": 1901
+                },
+                {
+                    "x": 1199,
+                    "y": 2296
+                },
+                {
+                    "x": 201,
+                    "y": 2296
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='116' style='font-size:20px'>There are 15k VOC images used for training. But<br>these images have on average 2.3 instances per image (vs.<br>COCO's ~7) and 20 categories (vs. COCO's 80). They are<br>not directly comparable to the same number of COCO im-<br>ages. We suspect that the fewer instances (and categories)<br>has a similar negative impact as insufficient training data,<br>which can explain why training from scratch on VOC is not<br>able to catch up as observed on COCO.</p>",
+            "id": 116,
+            "page": 8,
+            "text": "There are 15k VOC images used for training. But these images have on average 2.3 instances per image (vs. COCO's ~7) and 20 categories (vs. COCO's 80). They are not directly comparable to the same number of COCO images. We suspect that the fewer instances (and categories) has a similar negative impact as insufficient training data, which can explain why training from scratch on VOC is not able to catch up as observed on COCO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2344
+                },
+                {
+                    "x": 506,
+                    "y": 2344
+                },
+                {
+                    "x": 506,
+                    "y": 2392
+                },
+                {
+                    "x": 204,
+                    "y": 2392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:22px'>6. Discussions</p>",
+            "id": 117,
+            "page": 8,
+            "text": "6. Discussions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2430
+                },
+                {
+                    "x": 1193,
+                    "y": 2430
+                },
+                {
+                    "x": 1193,
+                    "y": 2521
+                },
+                {
+                    "x": 202,
+                    "y": 2521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:14px'>We summarize the main observations from our experi-<br>ments as follows:</p>",
+            "id": 118,
+            "page": 8,
+            "text": "We summarize the main observations from our experiments as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2531
+                },
+                {
+                    "x": 1198,
+                    "y": 2531
+                },
+                {
+                    "x": 1198,
+                    "y": 2621
+                },
+                {
+                    "x": 202,
+                    "y": 2621
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='119' style='font-size:18px'>- Training from scratch on target tasks is possible<br>without architectural changes.</p>",
+            "id": 119,
+            "page": 8,
+            "text": "- Training from scratch on target tasks is possible without architectural changes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2631
+                },
+                {
+                    "x": 1196,
+                    "y": 2631
+                },
+                {
+                    "x": 1196,
+                    "y": 2723
+                },
+                {
+                    "x": 202,
+                    "y": 2723
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='120' style='font-size:16px'>- Training from scratch requires more iterations to suffi-<br>ciently converge.</p>",
+            "id": 120,
+            "page": 8,
+            "text": "- Training from scratch requires more iterations to sufficiently converge."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2730
+                },
+                {
+                    "x": 1197,
+                    "y": 2730
+                },
+                {
+                    "x": 1197,
+                    "y": 2873
+                },
+                {
+                    "x": 204,
+                    "y": 2873
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='121' style='font-size:16px'>- Training from scratch can be no worse than its<br>ImageNet pre-training counterparts under many circum-<br>stances, down to as few as 10k COCO images.</p>",
+            "id": 121,
+            "page": 8,
+            "text": "- Training from scratch can be no worse than its ImageNet pre-training counterparts under many circumstances, down to as few as 10k COCO images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2883
+                },
+                {
+                    "x": 1196,
+                    "y": 2883
+                },
+                {
+                    "x": 1196,
+                    "y": 2974
+                },
+                {
+                    "x": 203,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='122' style='font-size:16px'>- ImageNet pre-training speeds up convergence on the<br>target task.</p>",
+            "id": 122,
+            "page": 8,
+            "text": "- ImageNet pre-training speeds up convergence on the target task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 309
+                },
+                {
+                    "x": 2275,
+                    "y": 309
+                },
+                {
+                    "x": 2275,
+                    "y": 401
+                },
+                {
+                    "x": 1279,
+                    "y": 401
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='123' style='font-size:18px'>- ImageNet pre-training does not necessarily help reduce<br>overfitting unless we enter a very small data regime.</p>",
+            "id": 123,
+            "page": 8,
+            "text": "- ImageNet pre-training does not necessarily help reduce overfitting unless we enter a very small data regime."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 414
+                },
+                {
+                    "x": 2274,
+                    "y": 414
+                },
+                {
+                    "x": 2274,
+                    "y": 504
+                },
+                {
+                    "x": 1278,
+                    "y": 504
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:20px'>- ImageNet pre-training helps less if the target task is<br>more sensitive to localization than classification.</p>",
+            "id": 124,
+            "page": 8,
+            "text": "- ImageNet pre-training helps less if the target task is more sensitive to localization than classification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 553
+                },
+                {
+                    "x": 2277,
+                    "y": 553
+                },
+                {
+                    "x": 2277,
+                    "y": 698
+                },
+                {
+                    "x": 1280,
+                    "y": 698
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:18px'>Based on these observations, we provide our answers to<br>a few important questions that may encourage people to re-<br>think ImageNet pre-training:</p>",
+            "id": 125,
+            "page": 8,
+            "text": "Based on these observations, we provide our answers to a few important questions that may encourage people to rethink ImageNet pre-training:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 706
+                },
+                {
+                    "x": 2276,
+                    "y": 706
+                },
+                {
+                    "x": 2276,
+                    "y": 1197
+                },
+                {
+                    "x": 1279,
+                    "y": 1197
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='126' style='font-size:20px'>Is ImageNet pre-training necessary? No-if we have<br>enough target data (and computation). Our experiments<br>show that ImageNet can help speed up convergence, but<br>does not necessarily improve accuracy unless the target<br>dataset is too small (e.g., <10k COCO images). It can be<br>sufficient to directly train on the target data if its dataset<br>scale is large enough. Looking forward, this suggests<br>that collecting annotations of target data (instead of pre-<br>training data) can be more useful for improving the target<br>task performance.</p>",
+            "id": 126,
+            "page": 8,
+            "text": "Is ImageNet pre-training necessary? No-if we have enough target data (and computation). Our experiments show that ImageNet can help speed up convergence, but does not necessarily improve accuracy unless the target dataset is too small (e.g., <10k COCO images). It can be sufficient to directly train on the target data if its dataset scale is large enough. Looking forward, this suggests that collecting annotations of target data (instead of pretraining data) can be more useful for improving the target task performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1205
+                },
+                {
+                    "x": 2276,
+                    "y": 1205
+                },
+                {
+                    "x": 2276,
+                    "y": 1899
+                },
+                {
+                    "x": 1278,
+                    "y": 1899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='127' style='font-size:20px'>Is ImageNet helpful? Yes. ImageNet pre-training has<br>been a critical auxiliary task for the computer vision com-<br>munity to progress. It enabled people to see significant im-<br>provements before larger-scale data was available (e.g., in<br>VOC for a long while). It also largely helped to circum-<br>vent optimization problems in the target data (e.g., under the<br>lack of normalization/initialization methods). Moreover,<br>ImageNet pre-training reduces research cycles, leading to<br>easier access to encouraging results- pre-trained models<br>are widely and freely available today, pre-training cost does<br>not need to be paid repeatedly, and fine-tuning from pre-<br>trained weights converges faster than from scratch. We<br>believe that these advantages will still make ImageNet un-<br>doubtedly helpful for computer vision research.</p>",
+            "id": 127,
+            "page": 8,
+            "text": "Is ImageNet helpful? Yes. ImageNet pre-training has been a critical auxiliary task for the computer vision community to progress. It enabled people to see significant improvements before larger-scale data was available (e.g., in VOC for a long while). It also largely helped to circumvent optimization problems in the target data (e.g., under the lack of normalization/initialization methods). Moreover, ImageNet pre-training reduces research cycles, leading to easier access to encouraging results- pre-trained models are widely and freely available today, pre-training cost does not need to be paid repeatedly, and fine-tuning from pretrained weights converges faster than from scratch. We believe that these advantages will still make ImageNet undoubtedly helpful for computer vision research."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1904
+                },
+                {
+                    "x": 2277,
+                    "y": 1904
+                },
+                {
+                    "x": 2277,
+                    "y": 2352
+                },
+                {
+                    "x": 1280,
+                    "y": 2352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='128' style='font-size:20px'>Do we need big data? Yes. But a generic large-<br>scale, classification-level pre-training set is not ideal if we<br>take into account the extra effort of collecting and clean-<br>ing data-the cost of collecting ImageNet has been largely<br>ignored, but the 'pre-training' step in the 'pre-training +<br>fine-tuning' paradigm is in fact not free when we scale out<br>this paradigm. If the gain of large-scale classification-level<br>pre-training becomes exponentially diminishing [44, 30], it<br>would be more effective to collect data in the target domain.</p>",
+            "id": 128,
+            "page": 8,
+            "text": "Do we need big data? Yes. But a generic largescale, classification-level pre-training set is not ideal if we take into account the extra effort of collecting and cleaning data-the cost of collecting ImageNet has been largely ignored, but the 'pre-training' step in the 'pre-training + fine-tuning' paradigm is in fact not free when we scale out this paradigm. If the gain of large-scale classification-level pre-training becomes exponentially diminishing , it would be more effective to collect data in the target domain."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2357
+                },
+                {
+                    "x": 2275,
+                    "y": 2357
+                },
+                {
+                    "x": 2275,
+                    "y": 2703
+                },
+                {
+                    "x": 1278,
+                    "y": 2703
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='129' style='font-size:20px'>Shall we pursuit universal representations? Yes. We<br>believe learning universal representations is a laudable goal.<br>Our results do not mean deviating from this goal. Actu-<br>ally, our study suggests that the community should be more<br>careful when evaluating pre-trained features (e.g., for self-<br>supervised learning [5, 47, 33, 32]), as now we learn that<br>even random initialization could produce excellent results.</p>",
+            "id": 129,
+            "page": 8,
+            "text": "Shall we pursuit universal representations? Yes. We believe learning universal representations is a laudable goal. Our results do not mean deviating from this goal. Actually, our study suggests that the community should be more careful when evaluating pre-trained features (e.g., for selfsupervised learning ), as now we learn that even random initialization could produce excellent results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2728
+                },
+                {
+                    "x": 2277,
+                    "y": 2728
+                },
+                {
+                    "x": 2277,
+                    "y": 2974
+                },
+                {
+                    "x": 1280,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:20px'>In closing, ImageNet and its pre-training role have been<br>incredibly influential in computer vision, and we hope that<br>our new experimental evidence about ImageNet and its role<br>will shed light into potential future directions for the com-<br>munity to move forward.</p>",
+            "id": 130,
+            "page": 8,
+            "text": "In closing, ImageNet and its pre-training role have been incredibly influential in computer vision, and we hope that our new experimental evidence about ImageNet and its role will shed light into potential future directions for the community to move forward."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1227,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3091
+                },
+                {
+                    "x": 1227,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='131' style='font-size:18px'>8</footer>",
+            "id": 131,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 302
+                },
+                {
+                    "x": 445,
+                    "y": 302
+                },
+                {
+                    "x": 445,
+                    "y": 352
+                },
+                {
+                    "x": 204,
+                    "y": 352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='132' style='font-size:20px'>References</p>",
+            "id": 132,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 210,
+                    "y": 372
+                },
+                {
+                    "x": 1202,
+                    "y": 372
+                },
+                {
+                    "x": 1202,
+                    "y": 2966
+                },
+                {
+                    "x": 210,
+                    "y": 2966
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:14px'>[1] P. Agrawal, R. Girshick, and J. Malik. Analyzing the perfor-<br>mance of multilayer neural networks for object recognition.<br>In ECCV, 2014. 2<br>[2] J. L. Ba, J. R. Kiros, and G. E. Hinton. Layer normalization.<br>arXiv:1607.06450, 2016. 3<br>[3] Z. Cai and N. Vasconcelos. Cascade R-CNN: Delving into<br>high quality object detection. In CVPR, 2018. 5<br>[4] J. Carreira and A. Zisserman. Quo vadis, action recognition?<br>a new model and the kinetics dataset. In CVPR, 2017. 1<br>[5] C. Doersch, A. Gupta, and A. A. Efros. Unsupervised vi-<br>sual representation learning by context prediction. In ICCV,<br>2015. 8<br>[6] J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang,<br>E. Tzeng, and T. Darrell. Decaf: A deep convolutional acti-<br>vation feature for generic visual recognition. In ICML, 2014.<br>1<br>[7] M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and<br>A. Zisserman. The Pascal Visual Object Classes (VOC)<br>Challenge. IJCV, 2010. 8<br>[8] R. Girshick. Fast R-CNN. In ICCV, 2015. 1, 2, 3<br>[9] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich fea-<br>ture hierarchies for accurate object detection and semantic<br>segmentation. In CVPR, 2014. 1, 2<br>[10] R. Girshick, I. Radosavovic, G. Gkioxari, P. Dollar,<br>and K. He. Detectron. https : / /github · com/<br>facebookresearch/ detectron, 2018. 4, 6<br>[11] X. Glorot and Y. Bengio. Understanding the difficulty of<br>training deep feedforward neural networks. In AISTATS,<br>2010. 3<br>[12] P. Goyal, P. Dollar, R. Girshick, P. Noordhuis,<br>L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He.<br>Accurate, large minibatch SGD: Training ImageNet in 1<br>hour. arXiv:1706.02677, 2017. 4<br>[13] K. He, G. Gkioxari, P. Dollar, and R. Girshick. Mask R-<br>CNN. In ICCV, 2017. 1, 2, 4<br>[14] K. He, G. Gkioxari, P. Dollar, and R. Girshick. Mask R-<br>CNN. TPAMI, 2018. 2<br>[15] K. He, X. Zhang, S. Ren, andJ. Sun. Spatial pyramid pooling<br>in deep convolutional networks for visual recognition. In<br>ECCV, 2014. 2<br>[16] K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into<br>rectifiers: Surpassing human-level performance on imagenet<br>classification. In ICCV, 2015. 3, 6<br>[17] K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning<br>for image recognition. In CVPR, 2016. 2, 3, 4<br>[18] G. Huang, Z. Liu, L. van der Maaten, and K. Q. Weinberger.<br>Densely connected convolutional networks. In CVPR, 2017.<br>2<br>[19] S. Ioffe. Batch renormalization: Towards reducing minibatch<br>dependence in batch-normalized models. In NIPS, 2017. 3<br>[20] S. Ioffe and C. Szegedy. Batch normalization: Accelerating<br>deep network training by reducing internal covariate shift. In<br>ICML, 2015. 3<br>[21] A. Krizhevsky, I. Sutskever, and G. Hinton. Imagenet clas-<br>sification with deep convolutional neural networks. In NIPS,<br>2012. 1</p>",
+            "id": 133,
+            "page": 9,
+            "text": " P. Agrawal, R. Girshick, and J. Malik. Analyzing the performance of multilayer neural networks for object recognition. In ECCV, 2014. 2  J. L. Ba, J. R. Kiros, and G. E. Hinton. Layer normalization. arXiv:1607.06450, 2016. 3  Z. Cai and N. Vasconcelos. Cascade R-CNN: Delving into high quality object detection. In CVPR, 2018. 5  J. Carreira and A. Zisserman. Quo vadis, action recognition? a new model and the kinetics dataset. In CVPR, 2017. 1  C. Doersch, A. Gupta, and A. A. Efros. Unsupervised visual representation learning by context prediction. In ICCV, 2015. 8  J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep convolutional activation feature for generic visual recognition. In ICML, 2014. 1  M. Everingham, L. Van Gool, C. K. Williams, J. Winn, and A. Zisserman. The Pascal Visual Object Classes (VOC) Challenge. IJCV, 2010. 8  R. Girshick. Fast R-CNN. In ICCV, 2015. 1, 2, 3  R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In CVPR, 2014. 1, 2  R. Girshick, I. Radosavovic, G. Gkioxari, P. Dollar, and K. He. Detectron. https : / /github · com/ facebookresearch/ detectron, 2018. 4, 6  X. Glorot and Y. Bengio. Understanding the difficulty of training deep feedforward neural networks. In AISTATS, 2010. 3  P. Goyal, P. Dollar, R. Girshick, P. Noordhuis, L. Wesolowski, A. Kyrola, A. Tulloch, Y. Jia, and K. He. Accurate, large minibatch SGD: Training ImageNet in 1 hour. arXiv:1706.02677, 2017. 4  K. He, G. Gkioxari, P. Dollar, and R. Girshick. Mask RCNN. In ICCV, 2017. 1, 2, 4  K. He, G. Gkioxari, P. Dollar, and R. Girshick. Mask RCNN. TPAMI, 2018. 2  K. He, X. Zhang, S. Ren, andJ. Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. In ECCV, 2014. 2  K. He, X. Zhang, S. Ren, and J. Sun. Delving deep into rectifiers: Surpassing human-level performance on imagenet classification. In ICCV, 2015. 3, 6  K. He, X. Zhang, S. Ren, and J. Sun. Deep residual learning for image recognition. In CVPR, 2016. 2, 3, 4  G. Huang, Z. Liu, L. van der Maaten, and K. Q. Weinberger. Densely connected convolutional networks. In CVPR, 2017. 2  S. Ioffe. Batch renormalization: Towards reducing minibatch dependence in batch-normalized models. In NIPS, 2017. 3  S. Ioffe and C. Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In ICML, 2015. 3  A. Krizhevsky, I. Sutskever, and G. Hinton. Imagenet classification with deep convolutional neural networks. In NIPS, 2012. 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 302
+                },
+                {
+                    "x": 2291,
+                    "y": 302
+                },
+                {
+                    "x": 2291,
+                    "y": 2975
+                },
+                {
+                    "x": 1280,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='134' style='font-size:14px'>[22] H. Law and J. Deng. CornerNet: Detecting objects as paired<br>keypoints. In ECCV, 2018. 2, 6<br>[23] Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E.<br>Howard, W. Hubbard, and L. D. Jackel. Backpropagation<br>applied to handwritten zip code recognition. Neural compu-<br>tation, 1989. 1<br>[24] C.-Y. Lee, S. Xie, P. Gallagher, Z. Zhang, and Z. Tu. Deeply-<br>supervised nets. In AISTATS, 2015. 2<br>[25] Z. Li, C. Peng, G. Yu, X. Zhang, Y. Deng, and<br>J. Sun. DetNet: A backbone network for object detection.<br>arXiv: 1804.06215, 2018. 2<br>[26] T.-Y. Lin, P. Dollar, R. Girshick, K. He, B. Hariharan, and<br>S. Belongie. Feature pyramid networks for object detection.<br>In CVPR, 2017. 1, 2, 4<br>[27] S. Liu, L. Qi, H. Qin, J. Shi, and J. Jia. Path aggregation<br>network for instance segmentation. In CVPR, 2018. 3, 4<br>[28] W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y.<br>Fu, and A. C. Berg. Ssd: Single shot multibox detector. In<br>ECCV, 2016. 2<br>[29] J. Long, E. Shelhamer, and T. Darrell. Fully convolutional<br>networks for semantic segmentation. In CVPR, 2015. 1<br>[30] D. Mahajan, R. Girshick, V. Ramanathan, K. He, M. Paluri,<br>Y. Li, A. Bharambe, and L. van der Maaten. Exploring the<br>limits of weakly supervised pretraining. In ECCV, 2018. 1,<br>2, 8<br>[31] 0. Matan, C. J. Burges, Y. LeCun, and J. S. Denker. Multi-<br>digit recognition using a space displacement neural network.<br>In NIPS, 1992. 2<br>[32] D. Pathak, R. Girshick, P. Dollar, T. Darrell, and B. Hariha-<br>ran. Learning features by watching objects move. In CVPR,<br>2017. 8<br>[33] D. Pathak, P. Krahenbuhl, J. Donahue, T. Darrell, and A. A.<br>Efros. Context encoders: Feature learning by inpainting. In<br>CVPR, 2016. 8<br>[34] C. Peng, T. Xiao, Z. Li, Y. Jiang, X. Zhang, K. Jia, G. Yu,<br>and J. Sun. MegDet: A large mini-batch object detector. In<br>CVPR, 2018. 3, 4, 6<br>[35] J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You<br>only look once: Unified, real-time object detection. In<br>CVPR, 2016. 2<br>[36] S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: To-<br>wards real-time object detection with region proposal net-<br>works. In NIPS, 2015. 1, 2, 3<br>[37] S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: To-<br>wards real-time object detection with region proposal net-<br>works. TPAMI, 2017. 4, 6<br>[38] H. A. Rowley, S. Baluja, and T. Kanade. Human face detec-<br>tion in visual scenes. In NIPS, 1996. 2<br>[39] 0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh,<br>S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein,<br>A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual<br>Recognition Challenge. IJCV, 2015. 1<br>[40] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,<br>and Y. LeCun. Overfeat: Integrated recognition, localization<br>and detection using convolutional networks. In ICLR, 2014.<br>2</p>",
+            "id": 134,
+            "page": 9,
+            "text": " H. Law and J. Deng. CornerNet: Detecting objects as paired keypoints. In ECCV, 2018. 2, 6  Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel. Backpropagation applied to handwritten zip code recognition. Neural computation, 1989. 1  C.-Y. Lee, S. Xie, P. Gallagher, Z. Zhang, and Z. Tu. Deeplysupervised nets. In AISTATS, 2015. 2  Z. Li, C. Peng, G. Yu, X. Zhang, Y. Deng, and J. Sun. DetNet: A backbone network for object detection. arXiv: 1804.06215, 2018. 2  T.-Y. Lin, P. Dollar, R. Girshick, K. He, B. Hariharan, and S. Belongie. Feature pyramid networks for object detection. In CVPR, 2017. 1, 2, 4  S. Liu, L. Qi, H. Qin, J. Shi, and J. Jia. Path aggregation network for instance segmentation. In CVPR, 2018. 3, 4  W. Liu, D. Anguelov, D. Erhan, C. Szegedy, S. Reed, C.-Y. Fu, and A. C. Berg. Ssd: Single shot multibox detector. In ECCV, 2016. 2  J. Long, E. Shelhamer, and T. Darrell. Fully convolutional networks for semantic segmentation. In CVPR, 2015. 1  D. Mahajan, R. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L. van der Maaten. Exploring the limits of weakly supervised pretraining. In ECCV, 2018. 1, 2, 8  0. Matan, C. J. Burges, Y. LeCun, and J. S. Denker. Multidigit recognition using a space displacement neural network. In NIPS, 1992. 2  D. Pathak, R. Girshick, P. Dollar, T. Darrell, and B. Hariharan. Learning features by watching objects move. In CVPR, 2017. 8  D. Pathak, P. Krahenbuhl, J. Donahue, T. Darrell, and A. A. Efros. Context encoders: Feature learning by inpainting. In CVPR, 2016. 8  C. Peng, T. Xiao, Z. Li, Y. Jiang, X. Zhang, K. Jia, G. Yu, and J. Sun. MegDet: A large mini-batch object detector. In CVPR, 2018. 3, 4, 6  J. Redmon, S. Divvala, R. Girshick, and A. Farhadi. You only look once: Unified, real-time object detection. In CVPR, 2016. 2  S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region proposal networks. In NIPS, 2015. 1, 2, 3  S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region proposal networks. TPAMI, 2017. 4, 6  H. A. Rowley, S. Baluja, and T. Kanade. Human face detection in visual scenes. In NIPS, 1996. 2  0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. IJCV, 2015. 1  P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. In ICLR, 2014. 2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3055
+                },
+                {
+                    "x": 1251,
+                    "y": 3055
+                },
+                {
+                    "x": 1251,
+                    "y": 3089
+                },
+                {
+                    "x": 1226,
+                    "y": 3089
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='135' style='font-size:16px'>9</footer>",
+            "id": 135,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 302
+                },
+                {
+                    "x": 1202,
+                    "y": 302
+                },
+                {
+                    "x": 1202,
+                    "y": 1488
+                },
+                {
+                    "x": 200,
+                    "y": 1488
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='136' style='font-size:14px'>[41] Z. Shen, Z. Liu, J. Li, Y.-G. Jiang, Y. Chen, and X. Xue.<br>DSOD: Learning deeply supervised object detectors from<br>scratch. In ICCV, 2017. 2, 6<br>[42] K. Simonyan and A. Zisserman. Two-stream convolutional<br>networks for action recognition in videos. In NIPS, 2014. 1<br>[43] K. Simonyan and A. Zisserman. Very deep convolutional<br>networks for large-scale image recognition. In ICLR, 2015.<br>3, 6<br>[44] C. Sun, A. Shrivastava, S. Singh, and A. Gupta. Revisiting<br>unreasonable effectiveness of data in deep learning era. In<br>ICCV, 2017. 1, 2, 8<br>[45] C. Szegedy, A. Toshev, and D. Erhan. Deep neural networks<br>for object detection. In NIPS, 2013. 2<br>[46] D. Ulyanov, A. Vedaldi, and V. Lempitsky. Instance nor-<br>malization: The missing ingredient for fast stylization.<br>arXiv:1607.08022, 2016. 3<br>[47] X. Wang and A. Gupta. Unsupervised learning of visual rep-<br>resentations using videos. In ICCV, 2015. 8<br>[48] Y. Wu and K. He. Group normalization. In ECCV, 2018. 1,<br>3,4<br>[49] S. Xie, R. Girshick, P. Dollar, Z. Tu, and K. He. Aggregated<br>residual transformations for deep neural networks. In CVPR,<br>2017. 4, 6<br>[50] M. D. Zeiler and R. Fergus. Visualizing and understanding<br>convolutional neural networks. In ECCV, 2014. 1</p>",
+            "id": 136,
+            "page": 10,
+            "text": " Z. Shen, Z. Liu, J. Li, Y.-G. Jiang, Y. Chen, and X. Xue. DSOD: Learning deeply supervised object detectors from scratch. In ICCV, 2017. 2, 6  K. Simonyan and A. Zisserman. Two-stream convolutional networks for action recognition in videos. In NIPS, 2014. 1  K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. In ICLR, 2015. 3, 6  C. Sun, A. Shrivastava, S. Singh, and A. Gupta. Revisiting unreasonable effectiveness of data in deep learning era. In ICCV, 2017. 1, 2, 8  C. Szegedy, A. Toshev, and D. Erhan. Deep neural networks for object detection. In NIPS, 2013. 2  D. Ulyanov, A. Vedaldi, and V. Lempitsky. Instance normalization: The missing ingredient for fast stylization. arXiv:1607.08022, 2016. 3  X. Wang and A. Gupta. Unsupervised learning of visual representations using videos. In ICCV, 2015. 8  Y. Wu and K. He. Group normalization. In ECCV, 2018. 1, 3,4  S. Xie, R. Girshick, P. Dollar, Z. Tu, and K. He. Aggregated residual transformations for deep neural networks. In CVPR, 2017. 4, 6  M. D. Zeiler and R. Fergus. Visualizing and understanding convolutional neural networks. In ECCV, 2014. 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1219,
+                    "y": 3054
+                },
+                {
+                    "x": 1264,
+                    "y": 3054
+                },
+                {
+                    "x": 1264,
+                    "y": 3092
+                },
+                {
+                    "x": 1219,
+                    "y": 3092
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='137' style='font-size:18px'>10</footer>",
+            "id": 137,
+            "page": 10,
+            "text": "10"
+        }
+    ]
+}

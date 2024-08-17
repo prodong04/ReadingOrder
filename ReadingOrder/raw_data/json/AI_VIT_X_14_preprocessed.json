@@ -1,0 +1,3206 @@
+{
+    "id": "32a6e2b4-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/silver14.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 702,
+                    "y": 371
+                },
+                {
+                    "x": 1781,
+                    "y": 371
+                },
+                {
+                    "x": 1781,
+                    "y": 439
+                },
+                {
+                    "x": 702,
+                    "y": 439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Deterministic Policy Gradient Algorithms</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 574
+                },
+                {
+                    "x": 1400,
+                    "y": 574
+                },
+                {
+                    "x": 1400,
+                    "y": 846
+                },
+                {
+                    "x": 222,
+                    "y": 846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>David Silver<br>DeepMind Technologies, London, UK<br>Guy Lever<br>University College London, UK<br>Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Riedmiller<br>DeepMind Technologies, London, UK</p>",
+            "id": 1,
+            "page": 1,
+            "text": "David Silver DeepMind Technologies, London, UK Guy Lever University College London, UK Nicolas Heess, Thomas Degris, Daan Wierstra, Martin Riedmiller DeepMind Technologies, London, UK"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1777,
+                    "y": 559
+                },
+                {
+                    "x": 2218,
+                    "y": 559
+                },
+                {
+                    "x": 2218,
+                    "y": 601
+                },
+                {
+                    "x": 1777,
+                    "y": 601
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:16px'>DAVID@DEEPMIND.COM</p>",
+            "id": 2,
+            "page": 1,
+            "text": "DAVID@DEEPMIND.COM"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1865,
+                    "y": 751
+                },
+                {
+                    "x": 2217,
+                    "y": 751
+                },
+                {
+                    "x": 2217,
+                    "y": 796
+                },
+                {
+                    "x": 1865,
+                    "y": 796
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:14px'>* @DEEPMIND.COM</p>",
+            "id": 3,
+            "page": 1,
+            "text": "* @DEEPMIND.COM"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 622,
+                    "y": 902
+                },
+                {
+                    "x": 815,
+                    "y": 902
+                },
+                {
+                    "x": 815,
+                    "y": 956
+                },
+                {
+                    "x": 622,
+                    "y": 956
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>Abstract</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 306,
+                    "y": 957
+                },
+                {
+                    "x": 1131,
+                    "y": 957
+                },
+                {
+                    "x": 1131,
+                    "y": 1710
+                },
+                {
+                    "x": 306,
+                    "y": 1710
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:18px'>In this paper we consider deterministic policy<br>gradient algorithms for reinforcement learning<br>with continuous actions. The deterministic pol-<br>icy gradient has a particularly appealing form: it<br>is the expected gradient of the action-value func-<br>tion. This simple form means that the deter-<br>ministic policy gradient can be estimated much<br>more efficiently than the usual stochastic pol-<br>icy gradient. To ensure adequate exploration,<br>we introduce an off-policy actor-critic algorithm<br>that learns a deterministic target policy from an<br>exploratory behaviour policy. We demonstrate<br>that deterministic policy gradient algorithms can<br>significantly outperform their stochastic counter-<br>parts in high-dimensional action spaces.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "In this paper we consider deterministic policy gradient algorithms for reinforcement learning with continuous actions. The deterministic policy gradient has a particularly appealing form: it is the expected gradient of the action-value function. This simple form means that the deterministic policy gradient can be estimated much more efficiently than the usual stochastic policy gradient. To ensure adequate exploration, we introduce an off-policy actor-critic algorithm that learns a deterministic target policy from an exploratory behaviour policy. We demonstrate that deterministic policy gradient algorithms can significantly outperform their stochastic counterparts in high-dimensional action spaces."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 228,
+                    "y": 1784
+                },
+                {
+                    "x": 554,
+                    "y": 1784
+                },
+                {
+                    "x": 554,
+                    "y": 1838
+                },
+                {
+                    "x": 228,
+                    "y": 1838
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:20px'>1. Introduction</p>",
+            "id": 6,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1846
+                },
+                {
+                    "x": 1214,
+                    "y": 1846
+                },
+                {
+                    "x": 1214,
+                    "y": 2810
+                },
+                {
+                    "x": 223,
+                    "y": 2810
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:18px'>Policy gradient algorithms are widely used in reinforce-<br>ment learning problems with continuous action spaces. The<br>basic idea is to represent the policy by a parametric prob-<br>ability distribution ��(a|s) = IP [a|s; 0] that stochastically<br>selects action a in state s according to parameter vector 0.<br>Policy gradient algorithms typically proceed by sampling<br>this stochastic policy and adjusting the policy parameters<br>in the direction of greater cumulative reward.<br>In this paper we instead consider deterministic policies<br>a = on (s). It is natural to wonder whether the same ap-<br>proach can be followed as for stochastic policies: adjusting<br>the policy parameters in the direction of the policy gradi-<br>ent. It was previously believed that the deterministic pol-<br>icy gradient did not exist, or could only be obtained when<br>using a model (Peters, 2010). However, we show that the<br>deterministic policy gradient does indeed exist, and further-<br>more it has a simple model-free form that simply follows<br>the gradient of the action-value function. In addition, we<br>show that the deterministic policy gradient is the limiting</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Policy gradient algorithms are widely used in reinforcement learning problems with continuous action spaces. The basic idea is to represent the policy by a parametric probability distribution ��(a|s) = IP [a|s; 0] that stochastically selects action a in state s according to parameter vector 0. Policy gradient algorithms typically proceed by sampling this stochastic policy and adjusting the policy parameters in the direction of greater cumulative reward. In this paper we instead consider deterministic policies a = on (s). It is natural to wonder whether the same approach can be followed as for stochastic policies: adjusting the policy parameters in the direction of the policy gradient. It was previously believed that the deterministic policy gradient did not exist, or could only be obtained when using a model (Peters, 2010). However, we show that the deterministic policy gradient does indeed exist, and furthermore it has a simple model-free form that simply follows the gradient of the action-value function. In addition, we show that the deterministic policy gradient is the limiting"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2840
+                },
+                {
+                    "x": 1217,
+                    "y": 2840
+                },
+                {
+                    "x": 1217,
+                    "y": 2973
+                },
+                {
+                    "x": 224,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:16px'>Proceedings of the 31 st International Conference on Machine<br>Learning, Beijing, China, 2014. JMLR: W &CP volume 32. Copy-<br>right 2014 by the author(s).</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Proceedings of the 31 st International Conference on Machine Learning, Beijing, China, 2014. JMLR: W &CP volume 32. Copyright 2014 by the author(s)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 910
+                },
+                {
+                    "x": 2261,
+                    "y": 910
+                },
+                {
+                    "x": 2261,
+                    "y": 1003
+                },
+                {
+                    "x": 1272,
+                    "y": 1003
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:18px'>case, as policy variance tends to zero, of the stochastic pol-<br>icy gradient.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "case, as policy variance tends to zero, of the stochastic policy gradient."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 958
+                },
+                {
+                    "x": 2265,
+                    "y": 958
+                },
+                {
+                    "x": 2265,
+                    "y": 2944
+                },
+                {
+                    "x": 1271,
+                    "y": 2944
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:18px'>From a practical viewpoint, there is a crucial difference be-<br>tween the stochastic and deterministic policy gradients. In<br>the stochastic case, the policy gradient integrates over both<br>state and action spaces, whereas in the deterministic case it<br>only integrates over the state space. As a result, computing<br>the stochastic policy gradient may require more samples,<br>especially if the action space has many dimensions.<br>In order to explore the full state and action space, a stochas-<br>tic policy is often necessary. To ensure that our determinis-<br>tic policy gradient algorithms continue to explore satisfac-<br>torily, we introduce an off-policy learning algorithm. The<br>basic idea is to choose actions according to a stochastic<br>behaviour policy (to ensure adequate exploration), but to<br>learn about a deterministic target policy (exploiting the ef-<br>ficiency of the deterministic policy gradient). We use the<br>deterministic policy gradient to derive an off-policy actor-<br>critic algorithm that estimates the action-value function us-<br>ing a differentiable function approximator, and then up-<br>dates the policy parameters in the direction of the approx-<br>imate action-value gradient. We also introduce a notion of<br>compatible function approximation for deterministic policy<br>gradients, to ensure that the approximation does not bias<br>the policy gradient.<br>We apply our deterministic actor-critic algorithms to sev-<br>eral benchmark problems: a high-dimensional bandit; sev-<br>eral standard benchmark reinforcement learning tasks with<br>low dimensional action spaces; and a high-dimensional<br>task for controlling an octopus arm. Our results demon-<br>strate a significant performance advantage to using deter-<br>ministic policy gradients over stochastic policy gradients,<br>particularly in high dimensional tasks. Furthermore, our<br>algorithms require no more computation than prior meth-<br>ods: the computational cost of each update is linear in the<br>action dimensionality and the number of policy parameters.<br>Finally, there are many applications (for example in<br>robotics) where a differentiable control policy is provided,<br>but where there is no functionality to inject noise into the<br>controller. In these cases, the stochastic policy gradient is</p>",
+            "id": 10,
+            "page": 1,
+            "text": "From a practical viewpoint, there is a crucial difference between the stochastic and deterministic policy gradients. In the stochastic case, the policy gradient integrates over both state and action spaces, whereas in the deterministic case it only integrates over the state space. As a result, computing the stochastic policy gradient may require more samples, especially if the action space has many dimensions. In order to explore the full state and action space, a stochastic policy is often necessary. To ensure that our deterministic policy gradient algorithms continue to explore satisfactorily, we introduce an off-policy learning algorithm. The basic idea is to choose actions according to a stochastic behaviour policy (to ensure adequate exploration), but to learn about a deterministic target policy (exploiting the efficiency of the deterministic policy gradient). We use the deterministic policy gradient to derive an off-policy actorcritic algorithm that estimates the action-value function using a differentiable function approximator, and then updates the policy parameters in the direction of the approximate action-value gradient. We also introduce a notion of compatible function approximation for deterministic policy gradients, to ensure that the approximation does not bias the policy gradient. We apply our deterministic actor-critic algorithms to several benchmark problems: a high-dimensional bandit; several standard benchmark reinforcement learning tasks with low dimensional action spaces; and a high-dimensional task for controlling an octopus arm. Our results demonstrate a significant performance advantage to using deterministic policy gradients over stochastic policy gradients, particularly in high dimensional tasks. Furthermore, our algorithms require no more computation than prior methods: the computational cost of each update is linear in the action dimensionality and the number of policy parameters. Finally, there are many applications (for example in robotics) where a differentiable control policy is provided, but where there is no functionality to inject noise into the controller. In these cases, the stochastic policy gradient is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 2922
+                },
+                {
+                    "x": 2189,
+                    "y": 2922
+                },
+                {
+                    "x": 2189,
+                    "y": 2977
+                },
+                {
+                    "x": 1271,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:16px'>inapplicable, whereas our methods may still be useful.</p>",
+            "id": 11,
+            "page": 1,
+            "text": "inapplicable, whereas our methods may still be useful."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 235
+                },
+                {
+                    "x": 903,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='12' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 12,
+            "page": 2,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 278
+                },
+                {
+                    "x": 546,
+                    "y": 278
+                },
+                {
+                    "x": 546,
+                    "y": 332
+                },
+                {
+                    "x": 224,
+                    "y": 332
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:20px'>2. Background</p>",
+            "id": 13,
+            "page": 2,
+            "text": "2. Background"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 345
+                },
+                {
+                    "x": 547,
+                    "y": 345
+                },
+                {
+                    "x": 547,
+                    "y": 394
+                },
+                {
+                    "x": 224,
+                    "y": 394
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:14px'>2.1. Preliminaries</p>",
+            "id": 14,
+            "page": 2,
+            "text": "2.1. Preliminaries"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 401
+                },
+                {
+                    "x": 1216,
+                    "y": 401
+                },
+                {
+                    "x": 1216,
+                    "y": 1748
+                },
+                {
+                    "x": 224,
+                    "y": 1748
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:14px'>We study reinforcement learning and control problems in<br>which an agent acts in a stochastic environment by sequen-<br>tially choosing actions over a sequence of time steps, in<br>order to maximise a cumulative reward. We model the<br>problem as a Markov decision process (MDP) which com-<br>prises: a state space S, an action space A, an initial state<br>distribution with density P1 (S1), a stationary transition dy-<br>namics distribution with conditional density p(st+1|st, at)<br>satisfying the Markov property p(st+1|s1, a1, · .., St, at) =<br>p(st+1 |St, at), for any trajectory S1, a1, S2, a2, · .., ST, aT<br>in state-action space, and a rewardfunction r : Sx A → R.<br>A policy is used to select actions in the MDP. In general<br>the policy is stochastic and denoted by �� : S → P(A),<br>where P(A) is the set of probability measures on A and<br>0 E Rn is a vector of n parameters, and ��(at|St) is<br>the conditional probability density at at associated with<br>the policy. The agent uses its policy to interact with the<br>MDP to give a trajectory of states, actions and rewards,<br>h1:T = S1, a1, r1 ..., ST, aT, rT over S x A x R. The<br>return rt is the total discounted reward from time-step t<br>onwards, rt = �k=t yk-tr(sk, ak) where 0 < 2 < 1.<br>Value functions are defined to be the expected total dis-<br>counted reward, V� (s) = E[r]|S1 = S; �] and Q�(s, a) =<br>E [ri]S1 = s, A1 = a; �]. 1 The agent's goal is to obtain a<br>policy which maximises the cumulative discounted reward<br>from the start state, denoted by the performance objective<br>J(�) = E [r일|�].</p>",
+            "id": 15,
+            "page": 2,
+            "text": "We study reinforcement learning and control problems in which an agent acts in a stochastic environment by sequentially choosing actions over a sequence of time steps, in order to maximise a cumulative reward. We model the problem as a Markov decision process (MDP) which comprises: a state space S, an action space A, an initial state distribution with density P1 (S1), a stationary transition dynamics distribution with conditional density p(st+1|st, at) satisfying the Markov property p(st+1|s1, a1, · .., St, at) = p(st+1 |St, at), for any trajectory S1, a1, S2, a2, · .., ST, aT in state-action space, and a rewardfunction r : Sx A → R. A policy is used to select actions in the MDP. In general the policy is stochastic and denoted by �� : S → P(A), where P(A) is the set of probability measures on A and 0 E Rn is a vector of n parameters, and ��(at|St) is the conditional probability density at at associated with the policy. The agent uses its policy to interact with the MDP to give a trajectory of states, actions and rewards, h1:T = S1, a1, r1 ..., ST, aT, rT over S x A x R. The return rt is the total discounted reward from time-step t onwards, rt = �k=t yk-tr(sk, ak) where 0 < 2 < 1. Value functions are defined to be the expected total discounted reward, V� (s) = E[r]|S1 = S; �] and Q�(s, a) = E [ri]S1 = s, A1 = a; �]. 1 The agent's goal is to obtain a policy which maximises the cumulative discounted reward from the start state, denoted by the performance objective J(�) = E [r일|�]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1756
+                },
+                {
+                    "x": 1214,
+                    "y": 1756
+                },
+                {
+                    "x": 1214,
+                    "y": 2004
+                },
+                {
+                    "x": 223,
+                    "y": 2004
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:16px'>We denote the density at state s' after transitioning for t<br>time steps from state s by p(s → s', t, �). We also denote<br>the (improper) discounted state distribution by �� (s') :=<br>�s �t=1 yt-1 p1 (s)p(s → s'. t, �)ds. We can then write<br>the performance objective as an expectation,</p>",
+            "id": 16,
+            "page": 2,
+            "text": "We denote the density at state s' after transitioning for t time steps from state s by p(s → s', t, �). We also denote the (improper) discounted state distribution by �� (s') := �s �t=1 yt-1 p1 (s)p(s → s'. t, �)ds. We can then write the performance objective as an expectation,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2215
+                },
+                {
+                    "x": 1213,
+                    "y": 2215
+                },
+                {
+                    "x": 1213,
+                    "y": 2416
+                },
+                {
+                    "x": 223,
+                    "y": 2416
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:14px'>where Es~p [] denotes the (improper) expected value with<br>respect to discounted state distribution p(s).2 In the re-<br>mainder of the paper we suppose for simplicity that A =<br>Rm and that S is a compact subset of Rd.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "where Es~p [] denotes the (improper) expected value with respect to discounted state distribution p(s).2 In the remainder of the paper we suppose for simplicity that A = Rm and that S is a compact subset of Rd."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2451
+                },
+                {
+                    "x": 948,
+                    "y": 2451
+                },
+                {
+                    "x": 948,
+                    "y": 2502
+                },
+                {
+                    "x": 222,
+                    "y": 2502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>2.2. Stochastic Policy Gradient Theorem</p>",
+            "id": 18,
+            "page": 2,
+            "text": "2.2. Stochastic Policy Gradient Theorem"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2512
+                },
+                {
+                    "x": 1212,
+                    "y": 2512
+                },
+                {
+                    "x": 1212,
+                    "y": 2661
+                },
+                {
+                    "x": 224,
+                    "y": 2661
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:16px'>Policy gradient algorithms are perhaps the most popular<br>class of continuous action reinforcement learning algo-<br>rithms. The basic idea behind these algorithms is to adjust</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Policy gradient algorithms are perhaps the most popular class of continuous action reinforcement learning algorithms. The basic idea behind these algorithms is to adjust"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2693
+                },
+                {
+                    "x": 1212,
+                    "y": 2693
+                },
+                {
+                    "x": 1212,
+                    "y": 2859
+                },
+                {
+                    "x": 224,
+                    "y": 2859
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:14px'>1To simplify notation, we frequently drop the random vari-<br>able in the conditional density and write p(st+1|st, at) =<br>p(st+1|St = St, At = at); furthermore we superscript value<br>functions by � rather than ��.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "1To simplify notation, we frequently drop the random variable in the conditional density and write p(st+1|st, at) = p(st+1|St = St, At = at); furthermore we superscript value functions by � rather than ��."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2863
+                },
+                {
+                    "x": 1212,
+                    "y": 2863
+                },
+                {
+                    "x": 1212,
+                    "y": 2992
+                },
+                {
+                    "x": 224,
+                    "y": 2992
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:14px'>2The results in this paper may be extended to an average re-<br>ward performance objective by choosing p(s) to be the stationary<br>distribution of an ergodic MDP.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "2The results in this paper may be extended to an average reward performance objective by choosing p(s) to be the stationary distribution of an ergodic MDP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 283
+                },
+                {
+                    "x": 2263,
+                    "y": 283
+                },
+                {
+                    "x": 2263,
+                    "y": 482
+                },
+                {
+                    "x": 1272,
+                    "y": 482
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:16px'>the parameters 0 of the policy in the direction of the perfor-<br>mance gradient ▽�J(��). The fundamental result underly-<br>ing these algorithms is the policy gradient theorem (Sutton<br>et al., 1999),</p>",
+            "id": 22,
+            "page": 2,
+            "text": "the parameters 0 of the policy in the direction of the performance gradient ▽�J(��). The fundamental result underlying these algorithms is the policy gradient theorem (Sutton , 1999),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 707
+                },
+                {
+                    "x": 2262,
+                    "y": 707
+                },
+                {
+                    "x": 2262,
+                    "y": 905
+                },
+                {
+                    "x": 1273,
+                    "y": 905
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:16px'>The policy gradient is surprisingly simple. In particular,<br>despite the fact that the state distribution �� (s) depends on<br>the policy parameters, the policy gradient does not depend<br>on the gradient of the state distribution.</p>",
+            "id": 23,
+            "page": 2,
+            "text": "The policy gradient is surprisingly simple. In particular, despite the fact that the state distribution �� (s) depends on the policy parameters, the policy gradient does not depend on the gradient of the state distribution."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 913
+                },
+                {
+                    "x": 2262,
+                    "y": 913
+                },
+                {
+                    "x": 2262,
+                    "y": 1410
+                },
+                {
+                    "x": 1273,
+                    "y": 1410
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='24' style='font-size:16px'>This theorem has important practical value, because it re-<br>duces the computation of the performance gradient to a<br>simple expectation. The policy gradient theorem has been<br>used to derive a variety of policy gradient algorithms (De-<br>gris et al., 2012a), by forming a sample-based estimate of<br>this expectation. One issue that these algorithms must ad-<br>dress is how to estimate the action-value function Q� (s, a).<br>Perhaps the simplest approach is to use a sample return rt<br>to estimate the value of Q� (St, at), which leads to a variant<br>of the REINFORCE algorithm (Williams, 1992).</p>",
+            "id": 24,
+            "page": 2,
+            "text": "This theorem has important practical value, because it reduces the computation of the performance gradient to a simple expectation. The policy gradient theorem has been used to derive a variety of policy gradient algorithms (Degris , 2012a), by forming a sample-based estimate of this expectation. One issue that these algorithms must address is how to estimate the action-value function Q� (s, a). Perhaps the simplest approach is to use a sample return rt to estimate the value of Q� (St, at), which leads to a variant of the REINFORCE algorithm (Williams, 1992)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1446
+                },
+                {
+                    "x": 1977,
+                    "y": 1446
+                },
+                {
+                    "x": 1977,
+                    "y": 1495
+                },
+                {
+                    "x": 1273,
+                    "y": 1495
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:16px'>2.3. Stochastic Actor-Critic Algorithms</p>",
+            "id": 25,
+            "page": 2,
+            "text": "2.3. Stochastic Actor-Critic Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 1505
+                },
+                {
+                    "x": 2264,
+                    "y": 1505
+                },
+                {
+                    "x": 2264,
+                    "y": 2049
+                },
+                {
+                    "x": 1270,
+                    "y": 2049
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:16px'>The actor-critic is a widely used architecture based on the<br>policy gradient theorem (Sutton et al., 1999; Peters et al.,<br>2005; Bhatnagar et al., 2007; Degris et al., 2012a). The<br>actor-critic consists of two eponymous components. An ac-<br>tor adjusts the parameters 0 of the stochastic policy ��(S)<br>by stochastic gradient ascent of Equation 2. Instead of the<br>unknown true action-value function Q� (s,a) in Equation<br>2, an action-value function Qw (s, a) is used, with param-<br>eter vector w. A critic estimates the action-value function<br>Qw(s, a) 2 Q� (s, a) using an appropriate policy evalua-<br>tion algorithm such as temporal-difference learning.</p>",
+            "id": 26,
+            "page": 2,
+            "text": "The actor-critic is a widely used architecture based on the policy gradient theorem (Sutton , 1999; Peters , 2005; Bhatnagar , 2007; Degris , 2012a). The actor-critic consists of two eponymous components. An actor adjusts the parameters 0 of the stochastic policy ��(S) by stochastic gradient ascent of Equation 2. Instead of the unknown true action-value function Q� (s,a) in Equation 2, an action-value function Qw (s, a) is used, with parameter vector w. A critic estimates the action-value function Qw(s, a) 2 Q� (s, a) using an appropriate policy evaluation algorithm such as temporal-difference learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2056
+                },
+                {
+                    "x": 2263,
+                    "y": 2056
+                },
+                {
+                    "x": 2263,
+                    "y": 2429
+                },
+                {
+                    "x": 1272,
+                    "y": 2429
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:16px'>In general, substituting a function approximator Qw(s,a)<br>for the true action-value function Q� (s, a) may introduce<br>bias. However, if the function approximator is compati-<br>ble such that i) Qw(s, a) = ▽� log ��(a|s) T w and ii) the<br>parameters w are chosen to minimise the mean-squared er-<br>ror e2(w) = Es~p� ,a~�� (Qw(s,a) - Q�(s,a))21, then<br>there is no bias (Sutton et al., 1999),</p>",
+            "id": 27,
+            "page": 2,
+            "text": "In general, substituting a function approximator Qw(s,a) for the true action-value function Q� (s, a) may introduce bias. However, if the function approximator is compatible such that i) Qw(s, a) = ▽� log ��(a|s) T w and ii) the parameters w are chosen to minimise the mean-squared error e2(w) = Es~p� ,a~�� (Qw(s,a) - Q�(s,a))21, then there is no bias (Sutton , 1999),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2545
+                },
+                {
+                    "x": 2263,
+                    "y": 2545
+                },
+                {
+                    "x": 2263,
+                    "y": 2993
+                },
+                {
+                    "x": 1273,
+                    "y": 2993
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>More intuitively, condition i) says that compatible function<br>approximators are linear in \"features\" of the stochastic pol-<br>icy, ▽� log �� (a|s), and condition ii) requires that the pa-<br>rameters are the solution to the linear regression problem<br>that estimates Q�(s, a) from these features. In practice,<br>condition ii) is usually relaxed in favour of policy evalu-<br>ation algorithms that estimate the value function more ef-<br>ficiently by temporal-difference learning (Bhatnagar et al.,<br>2007; Degris et al., 2012b; Peters et al., 2005); indeed if</p>",
+            "id": 28,
+            "page": 2,
+            "text": "More intuitively, condition i) says that compatible function approximators are linear in \"features\" of the stochastic policy, ▽� log �� (a|s), and condition ii) requires that the parameters are the solution to the linear regression problem that estimates Q�(s, a) from these features. In practice, condition ii) is usually relaxed in favour of policy evaluation algorithms that estimate the value function more efficiently by temporal-difference learning (Bhatnagar , 2007; Degris , 2012b; Peters , 2005); indeed if"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 904,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 235
+                },
+                {
+                    "x": 904,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='29' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 29,
+            "page": 3,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 285
+                },
+                {
+                    "x": 1213,
+                    "y": 285
+                },
+                {
+                    "x": 1213,
+                    "y": 434
+                },
+                {
+                    "x": 222,
+                    "y": 434
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:14px'>both i) and ii) are satisfied then the overall algorithm is<br>equivalent to not using a critic at all (Sutton et al., 2000),<br>much like the REINFORCE algorithm (Williams, 1992).</p>",
+            "id": 30,
+            "page": 3,
+            "text": "both i) and ii) are satisfied then the overall algorithm is equivalent to not using a critic at all (Sutton , 2000), much like the REINFORCE algorithm (Williams, 1992)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 468
+                },
+                {
+                    "x": 716,
+                    "y": 468
+                },
+                {
+                    "x": 716,
+                    "y": 518
+                },
+                {
+                    "x": 223,
+                    "y": 518
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:18px'>2.4. Off-Policy Actor-Critic</p>",
+            "id": 31,
+            "page": 3,
+            "text": "2.4. Off-Policy Actor-Critic"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 528
+                },
+                {
+                    "x": 1214,
+                    "y": 528
+                },
+                {
+                    "x": 1214,
+                    "y": 827
+                },
+                {
+                    "x": 222,
+                    "y": 827
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>It is often useful to estimate the policy gradient off-policy<br>from trajectories sampled from a distinct behaviour policy<br>B(a|s) ≠ ��(a|s). In an off-policy setting, the perfor-<br>mance objective is typically modified to be the value func-<br>tion of the target policy, averaged over the state distribution<br>of the behaviour policy (Degris et al., 2012b),</p>",
+            "id": 32,
+            "page": 3,
+            "text": "It is often useful to estimate the policy gradient off-policy from trajectories sampled from a distinct behaviour policy B(a|s) ≠ ��(a|s). In an off-policy setting, the performance objective is typically modified to be the value function of the target policy, averaged over the state distribution of the behaviour policy (Degris , 2012b),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1120
+                },
+                {
+                    "x": 1213,
+                    "y": 1120
+                },
+                {
+                    "x": 1213,
+                    "y": 1271
+                },
+                {
+                    "x": 222,
+                    "y": 1271
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:18px'>Differentiating the performance objective and applying an<br>approximation gives the off-policy policy-gradient (Degris<br>et al., 2012b)</p>",
+            "id": 33,
+            "page": 3,
+            "text": "Differentiating the performance objective and applying an approximation gives the off-policy policy-gradient (Degris , 2012b)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1623
+                },
+                {
+                    "x": 1215,
+                    "y": 1623
+                },
+                {
+                    "x": 1215,
+                    "y": 2536
+                },
+                {
+                    "x": 223,
+                    "y": 2536
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>This approximation drops a term that depends on the<br>action-value gradient V�Q� (s, a); Degris et al. (2012b)<br>argue that this is a good approximation since it can pre-<br>serve the set of local optima to which gradient ascent con-<br>verges. The Off-Policy Actor-Critic (OffPAC) algorithm<br>(Degris et al., 2012b) uses a behaviour policy B(a|s) to<br>generate trajectories. A critic estimates a state-value func-<br>tion, Vv (s) 21 V� (s), off-policy from these trajectories, by<br>gradient temporal-difference learning (Sutton et al., 2009).<br>An actor updates the policy parameters 0, also off-policy<br>from these trajectories, by stochastic gradient ascent of<br>Equation 5. Instead of the unknown action-value function<br>Q� (s, a) in Equation 5, the temporal-difference error St is<br>used, St = rt+1 +2V°(st+1) - Vu (st); this can be shown<br>to provide an approximation to the true gradient (Bhatna-<br>gar et al., 2007). Both the actor and the critic use an im-<br>��(a|s)<br>portance sampling ratio to adjust for the fact that<br>Bo(a|s)<br>actions were selected according to � rather than B.</p>",
+            "id": 34,
+            "page": 3,
+            "text": "This approximation drops a term that depends on the action-value gradient V�Q� (s, a); Degris  (2012b) argue that this is a good approximation since it can preserve the set of local optima to which gradient ascent converges. The Off-Policy Actor-Critic (OffPAC) algorithm (Degris , 2012b) uses a behaviour policy B(a|s) to generate trajectories. A critic estimates a state-value function, Vv (s) 21 V� (s), off-policy from these trajectories, by gradient temporal-difference learning (Sutton , 2009). An actor updates the policy parameters 0, also off-policy from these trajectories, by stochastic gradient ascent of Equation 5. Instead of the unknown action-value function Q� (s, a) in Equation 5, the temporal-difference error St is used, St = rt+1 +2V°(st+1) - Vu (st); this can be shown to provide an approximation to the true gradient (Bhatnagar , 2007). Both the actor and the critic use an im��(a|s) portance sampling ratio to adjust for the fact that Bo(a|s) actions were selected according to � rather than B."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2575
+                },
+                {
+                    "x": 1025,
+                    "y": 2575
+                },
+                {
+                    "x": 1025,
+                    "y": 2631
+                },
+                {
+                    "x": 222,
+                    "y": 2631
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:20px'>3. Gradients of Deterministic Policies</p>",
+            "id": 35,
+            "page": 3,
+            "text": "3. Gradients of Deterministic Policies"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2644
+                },
+                {
+                    "x": 1213,
+                    "y": 2644
+                },
+                {
+                    "x": 1213,
+                    "y": 2995
+                },
+                {
+                    "x": 222,
+                    "y": 2995
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:14px'>We now consider how the policy gradient framework may<br>be extended to deterministic policies. Our main result is<br>a deterministic policy gradient theorem, analogous to the<br>stochastic policy gradient theorem presented in the previ-<br>ous section. We provide several ways to derive and un-<br>derstand this result. First we provide an informal intuition<br>behind the form of the deterministic policy gradient. We</p>",
+            "id": 36,
+            "page": 3,
+            "text": "We now consider how the policy gradient framework may be extended to deterministic policies. Our main result is a deterministic policy gradient theorem, analogous to the stochastic policy gradient theorem presented in the previous section. We provide several ways to derive and understand this result. First we provide an informal intuition behind the form of the deterministic policy gradient. We"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 284
+                },
+                {
+                    "x": 2262,
+                    "y": 284
+                },
+                {
+                    "x": 2262,
+                    "y": 535
+                },
+                {
+                    "x": 1273,
+                    "y": 535
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:16px'>then give a formal proof of the deterministic policy gradi-<br>ent theorem from first principles. Finally, we show that the<br>deterministic policy gradient theorem is in fact a limiting<br>case of the stochastic policy gradient theorem. Details of<br>the proofs are deferred until the appendices.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "then give a formal proof of the deterministic policy gradient theorem from first principles. Finally, we show that the deterministic policy gradient theorem is in fact a limiting case of the stochastic policy gradient theorem. Details of the proofs are deferred until the appendices."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 568
+                },
+                {
+                    "x": 1778,
+                    "y": 568
+                },
+                {
+                    "x": 1778,
+                    "y": 617
+                },
+                {
+                    "x": 1273,
+                    "y": 617
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>3.1. Action-Value Gradients</p>",
+            "id": 38,
+            "page": 3,
+            "text": "3.1. Action-Value Gradients"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 626
+                },
+                {
+                    "x": 2263,
+                    "y": 626
+                },
+                {
+                    "x": 2263,
+                    "y": 1188
+                },
+                {
+                    "x": 1270,
+                    "y": 1188
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:16px'>The majority of model-free reinforcement learning algo-<br>rithms are based on generalised policy iteration: inter-<br>leaving policy evaluation with policy improvement (Sut-<br>ton and Barto, 1998). Policy evaluation methods estimate<br>the action-value function Q� (s, a) or Qu(s, a), for ex-<br>ample by Monte-Carlo evaluation or temporal-difference<br>learning. Policy improvement methods update the pol-<br>icy with respect to the (estimated) action-value function.<br>The most common approach is a greedy maximisation (or<br>soft maximisation) of the action-value function, �k+1(s) =<br>argmax Q m k (s, a).</p>",
+            "id": 39,
+            "page": 3,
+            "text": "The majority of model-free reinforcement learning algorithms are based on generalised policy iteration: interleaving policy evaluation with policy improvement (Sutton and Barto, 1998). Policy evaluation methods estimate the action-value function Q� (s, a) or Qu(s, a), for example by Monte-Carlo evaluation or temporal-difference learning. Policy improvement methods update the policy with respect to the (estimated) action-value function. The most common approach is a greedy maximisation (or soft maximisation) of the action-value function, �k+1(s) = argmax Q m k (s, a)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1363,
+                    "y": 1185
+                },
+                {
+                    "x": 1385,
+                    "y": 1185
+                },
+                {
+                    "x": 1385,
+                    "y": 1205
+                },
+                {
+                    "x": 1363,
+                    "y": 1205
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:14px'>a</p>",
+            "id": 40,
+            "page": 3,
+            "text": "a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1209
+                },
+                {
+                    "x": 2264,
+                    "y": 1209
+                },
+                {
+                    "x": 2264,
+                    "y": 1714
+                },
+                {
+                    "x": 1273,
+                    "y": 1714
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:16px'>In continuous action spaces, greedy policy improvement<br>becomes problematic, requiring a global maximisation at<br>every step. Instead, a simple and computationally attrac-<br>tive alternative is to move the policy in the direction of the<br>gradient of Q, rather than globally maximising Q. Specif-<br>ically, for each visited state s, the policy parameters 0k+1<br>are updated in proportion to the gradient ▽ OQuk (s, �0(s)).<br>Each state suggests a different direction of policy improve-<br>ment; these may be averaged together by taking an expec-<br>tation with respect to the state distribution pu(s),</p>",
+            "id": 41,
+            "page": 3,
+            "text": "In continuous action spaces, greedy policy improvement becomes problematic, requiring a global maximisation at every step. Instead, a simple and computationally attractive alternative is to move the policy in the direction of the gradient of Q, rather than globally maximising Q. Specifically, for each visited state s, the policy parameters 0k+1 are updated in proportion to the gradient ▽ OQuk (s, �0(s)). Each state suggests a different direction of policy improvement; these may be averaged together by taking an expectation with respect to the state distribution pu(s),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1908
+                },
+                {
+                    "x": 2262,
+                    "y": 1908
+                },
+                {
+                    "x": 2262,
+                    "y": 2113
+                },
+                {
+                    "x": 1273,
+                    "y": 2113
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>By applying the chain rule we see that the policy improve-<br>ment may be decomposed into the gradient of the action-<br>value with respect to actions, and the gradient of the policy<br>with respect to the policy parameters.</p>",
+            "id": 42,
+            "page": 3,
+            "text": "By applying the chain rule we see that the policy improvement may be decomposed into the gradient of the actionvalue with respect to actions, and the gradient of the policy with respect to the policy parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 2386
+                },
+                {
+                    "x": 2264,
+                    "y": 2386
+                },
+                {
+                    "x": 2264,
+                    "y": 2997
+                },
+                {
+                    "x": 1270,
+                    "y": 2997
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>By convention ▽ ome (s) is a Jacobian matrix such that each<br>column is the gradient ▽ 0 [��(s)]d of the dth action dimen-<br>sion of the policy with respect to the policy parameters 0.<br>However, by changing the policy, different states are vis-<br>ited and the state distribution pu will change. As a result<br>it is not immediately obvious that this approach guaran-<br>tees improvement, without taking account of the change to<br>distribution. However, the theory below shows that, like<br>the stochastic policy gradient theorem, there is no need to<br>compute the gradient of the state distribution; and that the<br>intuitive update outlined above is following precisely the<br>gradient of the performance objective.</p>",
+            "id": 43,
+            "page": 3,
+            "text": "By convention ▽ ome (s) is a Jacobian matrix such that each column is the gradient ▽ 0 [��(s)]d of the dth action dimension of the policy with respect to the policy parameters 0. However, by changing the policy, different states are visited and the state distribution pu will change. As a result it is not immediately obvious that this approach guarantees improvement, without taking account of the change to distribution. However, the theory below shows that, like the stochastic policy gradient theorem, there is no need to compute the gradient of the state distribution; and that the intuitive update outlined above is following precisely the gradient of the performance objective."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 234
+                },
+                {
+                    "x": 903,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='44' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 44,
+            "page": 4,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 282
+                },
+                {
+                    "x": 1009,
+                    "y": 282
+                },
+                {
+                    "x": 1009,
+                    "y": 332
+                },
+                {
+                    "x": 223,
+                    "y": 332
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>3.2. Deterministic Policy Gradient Theorem</p>",
+            "id": 45,
+            "page": 4,
+            "text": "3.2. Deterministic Policy Gradient Theorem"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 345
+                },
+                {
+                    "x": 1214,
+                    "y": 345
+                },
+                {
+                    "x": 1214,
+                    "y": 642
+                },
+                {
+                    "x": 222,
+                    "y": 642
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:14px'>We now formally consider a deterministic policy mu : S →<br>A with parameter vector 0 E Rn. We define a performance<br>objective J(mo) = E [ri|�], and define probability dis-<br>tribution p(s → s', t, 사) and discounted state distribution<br>pu(s) analogously to the stochastic case. This again lets us<br>to write the performance objective as an expectation,</p>",
+            "id": 46,
+            "page": 4,
+            "text": "We now formally consider a deterministic policy mu : S → A with parameter vector 0 E Rn. We define a performance objective J(mo) = E [ri|�], and define probability distribution p(s → s', t, 사) and discounted state distribution pu(s) analogously to the stochastic case. This again lets us to write the performance objective as an expectation,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 877
+                },
+                {
+                    "x": 1211,
+                    "y": 877
+                },
+                {
+                    "x": 1211,
+                    "y": 1027
+                },
+                {
+                    "x": 224,
+                    "y": 1027
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:14px'>We now provide the deterministic analogue to the policy<br>gradient theorem. The proof follows a similar scheme to<br>(Sutton et al., 1999) and is provided in Appendix B.</p>",
+            "id": 47,
+            "page": 4,
+            "text": "We now provide the deterministic analogue to the policy gradient theorem. The proof follows a similar scheme to (Sutton , 1999) and is provided in Appendix B."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1042
+                },
+                {
+                    "x": 1213,
+                    "y": 1042
+                },
+                {
+                    "x": 1213,
+                    "y": 1242
+                },
+                {
+                    "x": 223,
+                    "y": 1242
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:16px'>Theorem 1 (Deterministic Policy Gradient Theorem).<br>Suppose that the MDP satisfies conditions A.1 (see Ap-<br>pendix; these imply that ▽ emo(s) and VaQu(s,a) exist<br>and that the deterministic policy gradient exists. Then,</p>",
+            "id": 48,
+            "page": 4,
+            "text": "Theorem 1 (Deterministic Policy Gradient Theorem). Suppose that the MDP satisfies conditions A.1 (see Appendix; these imply that ▽ emo(s) and VaQu(s,a) exist and that the deterministic policy gradient exists. Then,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1505
+                },
+                {
+                    "x": 998,
+                    "y": 1505
+                },
+                {
+                    "x": 998,
+                    "y": 1553
+                },
+                {
+                    "x": 223,
+                    "y": 1553
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:14px'>3.3. Limit of the Stochastic Policy Gradient</p>",
+            "id": 49,
+            "page": 4,
+            "text": "3.3. Limit of the Stochastic Policy Gradient"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1564
+                },
+                {
+                    "x": 1215,
+                    "y": 1564
+                },
+                {
+                    "x": 1215,
+                    "y": 2162
+                },
+                {
+                    "x": 224,
+                    "y": 2162
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:14px'>The deterministic policy gradient theorem does not at first<br>glance look like the stochastic version (Equation 2). How-<br>ever, we now show that, for a wide class of stochastic<br>policies, including many bump functions, the determinis-<br>tic policy gradient is indeed a special (limiting) case of the<br>stochastic policy gradient. We parametrise stochastic poli-<br>cies ���,� by a deterministic policy th : S → A and a<br>variance parameter �, such that for 0 = 0 the stochastic<br>policy is equivalent to the deterministic policy, ���,0 ≡ mo.<br>Then we show that as 0 → 0 the stochastic policy gradi-<br>ent converges to the deterministic gradient (see Appendix<br>C for proof and technical conditions).</p>",
+            "id": 50,
+            "page": 4,
+            "text": "The deterministic policy gradient theorem does not at first glance look like the stochastic version (Equation 2). However, we now show that, for a wide class of stochastic policies, including many bump functions, the deterministic policy gradient is indeed a special (limiting) case of the stochastic policy gradient. We parametrise stochastic policies ���,� by a deterministic policy th : S → A and a variance parameter �, such that for 0 = 0 the stochastic policy is equivalent to the deterministic policy, ���,0 ≡ mo. Then we show that as 0 → 0 the stochastic policy gradient converges to the deterministic gradient (see Appendix C for proof and technical conditions)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2177
+                },
+                {
+                    "x": 1212,
+                    "y": 2177
+                },
+                {
+                    "x": 1212,
+                    "y": 2376
+                },
+                {
+                    "x": 224,
+                    "y": 2376
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:14px'>Theorem 2. Consider a stochastic policy ���,�<br>such that<br>���,� (a|s) = vo(��(s), a), where 0 is a parameter con-<br>trolling the variance and Vo satisfy conditions B.1 and the<br>MDP satisfies conditions A.1 and A.2. Then,</p>",
+            "id": 51,
+            "page": 4,
+            "text": "Theorem 2. Consider a stochastic policy ���,� such that ���,� (a|s) = vo(��(s), a), where 0 is a parameter controlling the variance and Vo satisfy conditions B.1 and the MDP satisfies conditions A.1 and A.2. Then,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2524
+                },
+                {
+                    "x": 1211,
+                    "y": 2524
+                },
+                {
+                    "x": 1211,
+                    "y": 2672
+                },
+                {
+                    "x": 224,
+                    "y": 2672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:14px'>where on the l.h.s. the gradient is the standard stochastic<br>policy gradient and on the r.h.s. the gradient is the deter-<br>ministic policy gradient.</p>",
+            "id": 52,
+            "page": 4,
+            "text": "where on the l.h.s. the gradient is the standard stochastic policy gradient and on the r.h.s. the gradient is the deterministic policy gradient."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2693
+                },
+                {
+                    "x": 1212,
+                    "y": 2693
+                },
+                {
+                    "x": 1212,
+                    "y": 2994
+                },
+                {
+                    "x": 222,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:16px'>This is an important result because it shows that the famil-<br>iar machinery of policy gradients, for example compatible<br>function approximation (Sutton et al., 1999), natural gradi-<br>ents (Kakade, 2001), actor-critic (Bhatnagar et al., 2007),<br>or episodic/batch methods (Peters et al., 2005), is also ap-<br>plicable to deterministic policy gradients.</p>",
+            "id": 53,
+            "page": 4,
+            "text": "This is an important result because it shows that the familiar machinery of policy gradients, for example compatible function approximation (Sutton , 1999), natural gradients (Kakade, 2001), actor-critic (Bhatnagar , 2007), or episodic/batch methods (Peters , 2005), is also applicable to deterministic policy gradients."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 278
+                },
+                {
+                    "x": 2151,
+                    "y": 278
+                },
+                {
+                    "x": 2151,
+                    "y": 333
+                },
+                {
+                    "x": 1274,
+                    "y": 333
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:20px'>4. Deterministic Actor-Critic Algorithms</p>",
+            "id": 54,
+            "page": 4,
+            "text": "4. Deterministic Actor-Critic Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 346
+                },
+                {
+                    "x": 2263,
+                    "y": 346
+                },
+                {
+                    "x": 2263,
+                    "y": 946
+                },
+                {
+                    "x": 1271,
+                    "y": 946
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:14px'>We now use the deterministic policy gradient theorem<br>to derive both on-policy and off-policy actor-critic algo-<br>rithms. We begin with the simplest case - on-policy up-<br>dates, using a simple Sarsa critic - SO as to illustrate the<br>ideas as clearly as possible. We then consider the off-policy<br>case, this time using a simple Q-learning critic to illustrate<br>the key ideas. These simple algorithms may have conver-<br>gence issues in practice, due both to bias introduced by the<br>function approximator, and also the instabilities caused by<br>off-policy learning. We then turn to a more principled ap-<br>proach using compatible function approximation and gra-<br>dient temporal-difference learning.</p>",
+            "id": 55,
+            "page": 4,
+            "text": "We now use the deterministic policy gradient theorem to derive both on-policy and off-policy actor-critic algorithms. We begin with the simplest case - on-policy updates, using a simple Sarsa critic - SO as to illustrate the ideas as clearly as possible. We then consider the off-policy case, this time using a simple Q-learning critic to illustrate the key ideas. These simple algorithms may have convergence issues in practice, due both to bias introduced by the function approximator, and also the instabilities caused by off-policy learning. We then turn to a more principled approach using compatible function approximation and gradient temporal-difference learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 978
+                },
+                {
+                    "x": 2014,
+                    "y": 978
+                },
+                {
+                    "x": 2014,
+                    "y": 1027
+                },
+                {
+                    "x": 1272,
+                    "y": 1027
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:16px'>4.1. On-Policy Deterministic Actor-Critic</p>",
+            "id": 56,
+            "page": 4,
+            "text": "4.1. On-Policy Deterministic Actor-Critic"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1054
+                },
+                {
+                    "x": 2264,
+                    "y": 1054
+                },
+                {
+                    "x": 2264,
+                    "y": 2090
+                },
+                {
+                    "x": 1271,
+                    "y": 2090
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:14px'>In general, behaving according to a deterministic policy<br>will not ensure adequate exploration and may lead to sub-<br>optimal solutions. Nevertheless, our first algorithm is an<br>on-policy actor-critic algorithm that learns and follows a<br>deterministic policy. Its primary purpose is didactic; how-<br>ever, it may be useful for environments in which there is<br>sufficient noise in the environment to ensure adequate ex-<br>ploration, even with a deterministic behaviour policy.<br>Like the stochastic actor-critic, the deterministic actor-<br>critic consists of two components. The critic estimates<br>the action-value function while the actor ascends the gradi-<br>ent of the action-value function. Specifically, an actor ad-<br>justs the parameters 0 of the deterministic policy M0(s) by<br>stochastic gradient ascent of Equation 9. As in the stochas-<br>tic actor-critic, we substitute a differentiable action-value<br>function Qw(s, a) in place of the true action-value func-<br>tion Qu(s, a). A critic estimates the action-value function<br>Qw(s, a) 2 Qu(s, a), using an appropriate policy evalua-<br>tion algorithm. For example, in the following deterministic<br>actor-critic algorithm, the critic uses Sarsa updates to esti-<br>mate the action-value function (Sutton and Barto, 1998),</p>",
+            "id": 57,
+            "page": 4,
+            "text": "In general, behaving according to a deterministic policy will not ensure adequate exploration and may lead to suboptimal solutions. Nevertheless, our first algorithm is an on-policy actor-critic algorithm that learns and follows a deterministic policy. Its primary purpose is didactic; however, it may be useful for environments in which there is sufficient noise in the environment to ensure adequate exploration, even with a deterministic behaviour policy. Like the stochastic actor-critic, the deterministic actorcritic consists of two components. The critic estimates the action-value function while the actor ascends the gradient of the action-value function. Specifically, an actor adjusts the parameters 0 of the deterministic policy M0(s) by stochastic gradient ascent of Equation 9. As in the stochastic actor-critic, we substitute a differentiable action-value function Qw(s, a) in place of the true action-value function Qu(s, a). A critic estimates the action-value function Qw(s, a) 2 Qu(s, a), using an appropriate policy evaluation algorithm. For example, in the following deterministic actor-critic algorithm, the critic uses Sarsa updates to estimate the action-value function (Sutton and Barto, 1998),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 2323
+                },
+                {
+                    "x": 2018,
+                    "y": 2323
+                },
+                {
+                    "x": 2018,
+                    "y": 2371
+                },
+                {
+                    "x": 1276,
+                    "y": 2371
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:16px'>4.2. Off-Policy Deterministic Actor-Critic</p>",
+            "id": 58,
+            "page": 4,
+            "text": "4.2. Off-Policy Deterministic Actor-Critic"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2383
+                },
+                {
+                    "x": 2263,
+                    "y": 2383
+                },
+                {
+                    "x": 2263,
+                    "y": 2681
+                },
+                {
+                    "x": 1272,
+                    "y": 2681
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='59' style='font-size:16px'>We now consider off-policy methods that learn a determin-<br>istic target policy M0(S) from trajectories generated by an<br>arbitrary stochastic behaviour policy �(S, a). As before, we<br>modify the performance objective to be the value function<br>of the target policy, averaged over the state distribution of<br>the behaviour policy,</p>",
+            "id": 59,
+            "page": 4,
+            "text": "We now consider off-policy methods that learn a deterministic target policy M0(S) from trajectories generated by an arbitrary stochastic behaviour policy �(S, a). As before, we modify the performance objective to be the value function of the target policy, averaged over the state distribution of the behaviour policy,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 235
+                },
+                {
+                    "x": 903,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='60' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 60,
+            "page": 5,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 559
+                },
+                {
+                    "x": 1213,
+                    "y": 559
+                },
+                {
+                    "x": 1213,
+                    "y": 807
+                },
+                {
+                    "x": 222,
+                    "y": 807
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:14px'>This equation gives the off-policy deterministic policy gra-<br>dient. Analogous to the stochastic case (see Equation 4),<br>we have dropped a term that depends on veQue (s, a); jus-<br>tification similar to Degris et al. (2012b) can be made in<br>support of this approximation.</p>",
+            "id": 61,
+            "page": 5,
+            "text": "This equation gives the off-policy deterministic policy gradient. Analogous to the stochastic case (see Equation 4), we have dropped a term that depends on veQue (s, a); justification similar to Degris  (2012b) can be made in support of this approximation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 815
+                },
+                {
+                    "x": 1214,
+                    "y": 815
+                },
+                {
+                    "x": 1214,
+                    "y": 1313
+                },
+                {
+                    "x": 223,
+                    "y": 1313
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:16px'>We now develop an actor-critic algorithm that updates the<br>policy in the direction of the off-policy deterministic policy<br>gradient. We again substitute a differentiable action-value<br>function Qw(s, a) in place of the true action-value function<br>Qu(s,a) in Equation 15. A critic estimates the action-value<br>function Qw(s, a) 21 Qu(s, a), off-policy from trajectories<br>generated by B(a|s), using an appropriate policy evaluation<br>algorithm. In the following off-policy deterministic actor-<br>critic (OPDAC) algorithm, the critic uses Q-learning up-<br>dates to estimate the action-value function.</p>",
+            "id": 62,
+            "page": 5,
+            "text": "We now develop an actor-critic algorithm that updates the policy in the direction of the off-policy deterministic policy gradient. We again substitute a differentiable action-value function Qw(s, a) in place of the true action-value function Qu(s,a) in Equation 15. A critic estimates the action-value function Qw(s, a) 21 Qu(s, a), off-policy from trajectories generated by B(a|s), using an appropriate policy evaluation algorithm. In the following off-policy deterministic actorcritic (OPDAC) algorithm, the critic uses Q-learning updates to estimate the action-value function."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1577
+                },
+                {
+                    "x": 1214,
+                    "y": 1577
+                },
+                {
+                    "x": 1214,
+                    "y": 1879
+                },
+                {
+                    "x": 223,
+                    "y": 1879
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:16px'>We note that stochastic off-policy actor-critic algorithms<br>typically use importance sampling for both actor and critic<br>(Degris et al., 2012b). However, because the deterministic<br>policy gradient removes the integral over actions, we can<br>avoid importance sampling in the actor; and by using Q-<br>learning, we can avoid importance sampling in the critic.</p>",
+            "id": 63,
+            "page": 5,
+            "text": "We note that stochastic off-policy actor-critic algorithms typically use importance sampling for both actor and critic (Degris , 2012b). However, because the deterministic policy gradient removes the integral over actions, we can avoid importance sampling in the actor; and by using Qlearning, we can avoid importance sampling in the critic."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1912
+                },
+                {
+                    "x": 966,
+                    "y": 1912
+                },
+                {
+                    "x": 966,
+                    "y": 1962
+                },
+                {
+                    "x": 223,
+                    "y": 1962
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:18px'>4.3. Compatible Function Approximation</p>",
+            "id": 64,
+            "page": 5,
+            "text": "4.3. Compatible Function Approximation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1971
+                },
+                {
+                    "x": 1214,
+                    "y": 1971
+                },
+                {
+                    "x": 1214,
+                    "y": 2474
+                },
+                {
+                    "x": 222,
+                    "y": 2474
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='65' style='font-size:16px'>In general, substituting an approximate Qw(s, a) into the<br>deterministic policy gradient will not necessarily follow the<br>true gradient (nor indeed will it necessarily be an ascent di-<br>rection at all). Similar to the stochastic case, we now find a<br>class of compatible function approximators Qw (s, a) such<br>that the true gradient is preserved. In other words, we find<br>a critic Qw(s, a) such that the gradient ▽ a Qu(s, a) can be<br>replaced by VaQw (s, a), without affecting the determinis-<br>tic policy gradient. The following theorem applies to both<br>on-policy, E[·] = Es~p� [·], and off-policy, E[·] = Es~p�[·],</p>",
+            "id": 65,
+            "page": 5,
+            "text": "In general, substituting an approximate Qw(s, a) into the deterministic policy gradient will not necessarily follow the true gradient (nor indeed will it necessarily be an ascent direction at all). Similar to the stochastic case, we now find a class of compatible function approximators Qw (s, a) such that the true gradient is preserved. In other words, we find a critic Qw(s, a) such that the gradient ▽ a Qu(s, a) can be replaced by VaQw (s, a), without affecting the deterministic policy gradient. The following theorem applies to both on-policy, E[·] = Es~p� [·], and off-policy, E[·] = Es~p�[·],"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2487
+                },
+                {
+                    "x": 1209,
+                    "y": 2487
+                },
+                {
+                    "x": 1209,
+                    "y": 2590
+                },
+                {
+                    "x": 224,
+                    "y": 2590
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='66' style='font-size:16px'>Theorem 3. A function approximator Qw(s,a) is com-<br>patible with a deterministic policy mo(s), ▽�JB(0) =</p>",
+            "id": 66,
+            "page": 5,
+            "text": "Theorem 3. A function approximator Qw(s,a) is compatible with a deterministic policy mo(s), ▽�JB(0) ="
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 282
+                },
+                {
+                    "x": 2261,
+                    "y": 282
+                },
+                {
+                    "x": 2261,
+                    "y": 433
+                },
+                {
+                    "x": 1272,
+                    "y": 433
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:14px'>Proof. If w minimises the MSE then the gradient of E2<br>w.r.t. w must be zero. We then use the fact that, by condi-<br>tion 1, ▽wE(s;�, w) = ▽omo(s),</p>",
+            "id": 67,
+            "page": 5,
+            "text": "Proof. If w minimises the MSE then the gradient of E2 w.r.t. w must be zero. We then use the fact that, by condition 1, ▽wE(s;�, w) = ▽omo(s),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 871
+                },
+                {
+                    "x": 2264,
+                    "y": 871
+                },
+                {
+                    "x": 2264,
+                    "y": 1726
+                },
+                {
+                    "x": 1270,
+                    "y": 1726
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:14px'>For any deterministic policy mo(s), there always exists a<br>compatible function approximator of the form Qw (s,a) =<br>(a - Mo(s)) 「▼���(s) T Vv(s), where Vv(s) may be<br>w +<br>any differentiable baseline function that is independent of<br>the action a; for example a linear combination of state fea-<br>tures ⌀(s) and parameters v, Vv(s) = UT ⌀(s) for param-<br>eters v. A natural interpretation is that Vv(s) estimates<br>the value of state s, while the first term estimates the ad-<br>vantage Aw (s, a) of taking action a over action M0(S) in<br>state s. The advantage function can be viewed as a linear<br>function approximator, Aw(s,a) = ⌀(s, a)T w with state-<br>def - mo(s)) and pa-<br>action features �(s,a) ▽���(s)(a<br>rameters w. Note that if there are m action dimensions and<br>n policy parameters, then ▽���(s) is an n x m Jacobian<br>matrix, SO the feature vector is n x 1, and the parameter<br>vector w is also n x 1. A function approximator of this<br>form satisfies condition 1 of Theorem 3.</p>",
+            "id": 68,
+            "page": 5,
+            "text": "For any deterministic policy mo(s), there always exists a compatible function approximator of the form Qw (s,a) = (a - Mo(s)) 「▼���(s) T Vv(s), where Vv(s) may be w + any differentiable baseline function that is independent of the action a; for example a linear combination of state features ⌀(s) and parameters v, Vv(s) = UT ⌀(s) for parameters v. A natural interpretation is that Vv(s) estimates the value of state s, while the first term estimates the advantage Aw (s, a) of taking action a over action M0(S) in state s. The advantage function can be viewed as a linear function approximator, Aw(s,a) = ⌀(s, a)T w with statedef - mo(s)) and paaction features �(s,a) ▽���(s)(a rameters w. Note that if there are m action dimensions and n policy parameters, then ▽���(s) is an n x m Jacobian matrix, SO the feature vector is n x 1, and the parameter vector w is also n x 1. A function approximator of this form satisfies condition 1 of Theorem 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1738
+                },
+                {
+                    "x": 2263,
+                    "y": 1738
+                },
+                {
+                    "x": 2263,
+                    "y": 2233
+                },
+                {
+                    "x": 1273,
+                    "y": 2233
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:14px'>We note that a linear function approximator is not very use-<br>ful for predicting action-values globally, since the action-<br>value diverges to ±00 for large actions. However, it can<br>still be highly effective as a local critic. In particular, it<br>represents the local advantage of deviating from the cur-<br>rent policy, Aw (s, MA(S) + 8) = 8T ▽ ���(s)� w, where 8<br>represents a small deviation from the deterministic policy.<br>As a result, a linear function approximator is sufficient to<br>select the direction in which the actor should adjust its pol-<br>icy parameters.</p>",
+            "id": 69,
+            "page": 5,
+            "text": "We note that a linear function approximator is not very useful for predicting action-values globally, since the actionvalue diverges to ±00 for large actions. However, it can still be highly effective as a local critic. In particular, it represents the local advantage of deviating from the current policy, Aw (s, MA(S) + 8) = 8T ▽ ���(s)� w, where 8 represents a small deviation from the deterministic policy. As a result, a linear function approximator is sufficient to select the direction in which the actor should adjust its policy parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 2241
+                },
+                {
+                    "x": 2263,
+                    "y": 2241
+                },
+                {
+                    "x": 2263,
+                    "y": 2994
+                },
+                {
+                    "x": 1270,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:14px'>To satisfy condition 2 we need to find the parameters w<br>that minimise the mean-squared error between the gradi-<br>ent of Qw and the true gradient. This can be viewed as a<br>linear regression problem with \"features\" ⌀(s, a) and \"tar-<br>gets\" ▽ a Qu(s, a)|a=��(s) · words, features of the<br>In other<br>policy are used to predict the true gradient VaQu(s, a) at<br>state s. However, acquiring unbiased samples of the true<br>gradient is difficult. In practice, we use a linear func-<br>tion approximator Qw(s, a) = ⌀(s, a) T w to satisfy con-<br>dition 1, but we learn w by a standard policy evaluation<br>method (for example Sarsa or Q-learning, for the on-policy<br>or off-policy deterministic actor-critic algorithms respec-<br>tively) that does not exactly satisfy condition 2. We note<br>that a reasonable solution to the policy evaluation prob-<br>lem will find Qw(s,a) 22 Qu(s, a) and will therefore ap-</p>",
+            "id": 70,
+            "page": 5,
+            "text": "To satisfy condition 2 we need to find the parameters w that minimise the mean-squared error between the gradient of Qw and the true gradient. This can be viewed as a linear regression problem with \"features\" ⌀(s, a) and \"targets\" ▽ a Qu(s, a)|a=��(s) · words, features of the In other policy are used to predict the true gradient VaQu(s, a) at state s. However, acquiring unbiased samples of the true gradient is difficult. In practice, we use a linear function approximator Qw(s, a) = ⌀(s, a) T w to satisfy condition 1, but we learn w by a standard policy evaluation method (for example Sarsa or Q-learning, for the on-policy or off-policy deterministic actor-critic algorithms respectively) that does not exactly satisfy condition 2. We note that a reasonable solution to the policy evaluation problem will find Qw(s,a) 22 Qu(s, a) and will therefore ap-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 904,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 235
+                },
+                {
+                    "x": 904,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='71' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 71,
+            "page": 6,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 282
+                },
+                {
+                    "x": 1212,
+                    "y": 282
+                },
+                {
+                    "x": 1212,
+                    "y": 839
+                },
+                {
+                    "x": 225,
+                    "y": 839
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:16px'>proximately (for smooth function approximators) satisfy<br>VaQw(s, a)|a=��(s) a=mo(s)·<br>21 ▽ a Qu(s, a)|<br>To summarise, a compatible off-policy deterministic actor-<br>critic (COPDAC) algorithm consists of two components.<br>The critic is a linear function approximator that estimates<br>T ▽ 0M0(s). This<br>the action-value from features ⌀(s, a) = a<br>may be learnt off-policy from samples of a behaviour pol-<br>icy B(a|s), for example using Q-learning or gradient Q-<br>learning. The actor then updates its parameters in the di-<br>rection of the critic's action-value gradient. The following<br>COPDAC-Q algorithm uses a simple Q-learning critic.</p>",
+            "id": 72,
+            "page": 6,
+            "text": "proximately (for smooth function approximators) satisfy VaQw(s, a)|a=��(s) a=mo(s)· 21 ▽ a Qu(s, a)| To summarise, a compatible off-policy deterministic actorcritic (COPDAC) algorithm consists of two components. The critic is a linear function approximator that estimates T ▽ 0M0(s). This the action-value from features ⌀(s, a) = a may be learnt off-policy from samples of a behaviour policy B(a|s), for example using Q-learning or gradient Qlearning. The actor then updates its parameters in the direction of the critic's action-value gradient. The following COPDAC-Q algorithm uses a simple Q-learning critic."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1161
+                },
+                {
+                    "x": 1215,
+                    "y": 1161
+                },
+                {
+                    "x": 1215,
+                    "y": 2009
+                },
+                {
+                    "x": 225,
+                    "y": 2009
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:14px'>It is well-known that off-policy Q-learning may diverge<br>when using linear function approximation. A more recent<br>family of methods, based on gradient temporal-difference<br>learning, are true gradient descent algorithm and are there-<br>fore sure to converge (Sutton et al., 2009). The basic idea of<br>these methods is to minimise the mean-squared projected<br>Bellman error (MSPBE) by stochastic gradient descent;<br>full details are beyond the scope of this paper. Similar to<br>the OffPAC algorithm (Degris et al., 2012b), we use gradi-<br>ent temporal-difference learning in the critic. Specifically,<br>we use gradient Q-learning in the critic (Maei et al., 2010),<br>and note that under suitable conditions on the step-sizes,<br>ao, aw, au, to ensure that the critic is updated on a faster<br>time-scale than the actor, the critic will converge to the pa-<br>rameters minimising the MSPBE (Sutton et al., 2009; De-<br>gris et al., 2012b). The following COPDAC-GQ algorithm<br>combines COPDAC with a gradient Q-learning critic,</p>",
+            "id": 73,
+            "page": 6,
+            "text": "It is well-known that off-policy Q-learning may diverge when using linear function approximation. A more recent family of methods, based on gradient temporal-difference learning, are true gradient descent algorithm and are therefore sure to converge (Sutton , 2009). The basic idea of these methods is to minimise the mean-squared projected Bellman error (MSPBE) by stochastic gradient descent; full details are beyond the scope of this paper. Similar to the OffPAC algorithm (Degris , 2012b), we use gradient temporal-difference learning in the critic. Specifically, we use gradient Q-learning in the critic (Maei , 2010), and note that under suitable conditions on the step-sizes, ao, aw, au, to ensure that the critic is updated on a faster time-scale than the actor, the critic will converge to the parameters minimising the MSPBE (Sutton , 2009; Degris , 2012b). The following COPDAC-GQ algorithm combines COPDAC with a gradient Q-learning critic,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2539
+                },
+                {
+                    "x": 1212,
+                    "y": 2539
+                },
+                {
+                    "x": 1212,
+                    "y": 2994
+                },
+                {
+                    "x": 224,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:16px'>Like stochastic actor-critic algorithms, the computational<br>complexity of all these updates is O(mn) per time-step.<br>Finally, we show that the natural policy gradient (Kakade,<br>2001; Peters et al., 2005) can be extended to deter-<br>ministic policies. The steepest ascent direction of our<br>performance objective with respect to any metric M(0)<br>is given by M(0)-1▽�J(��) (Toussaint, 2012). The<br>natural gradient is the steepest ascent direction with<br>respect to the Fisher information metric M�(0) =</p>",
+            "id": 74,
+            "page": 6,
+            "text": "Like stochastic actor-critic algorithms, the computational complexity of all these updates is O(mn) per time-step. Finally, we show that the natural policy gradient (Kakade, 2001; Peters , 2005) can be extended to deterministic policies. The steepest ascent direction of our performance objective with respect to any metric M(0) is given by M(0)-1▽�J(��) (Toussaint, 2012). The natural gradient is the steepest ascent direction with respect to the Fisher information metric M�(0) ="
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 279
+                },
+                {
+                    "x": 2264,
+                    "y": 279
+                },
+                {
+                    "x": 2264,
+                    "y": 883
+                },
+                {
+                    "x": 1270,
+                    "y": 883
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='75' style='font-size:16px'>Es~p�,a~�� [ V ] log ��(a|s)▽� log ��(a|s) T]; this metric<br>is invariant to reparameterisations of the policy (Bagnell<br>and Schneider, 2003). For deterministic policies, we use<br>the metric M�(0) = Es~p� [Vome(s)▽���(s)1] which<br>can be viewed as the limiting case of the Fisher informa-<br>tion metric as policy variance is reduced to zero. By com-<br>bining the deterministic policy gradient theorem with com-<br>patible function approximation we see that VoJ(mo) =<br>Es~p� [����(s)▽���(s)� w] and SO the steepest ascent<br>direction is simply Mu(0)-1▽0J3(��) = w. This algo-<br>rithm can be implemented by simplifying Equations 20 or<br>24 to 0t+1 = 0t + aowt.</p>",
+            "id": 75,
+            "page": 6,
+            "text": "Es~p�,a~�� [ V ] log ��(a|s)▽� log ��(a|s) T]; this metric is invariant to reparameterisations of the policy (Bagnell and Schneider, 2003). For deterministic policies, we use the metric M�(0) = Es~p� [Vome(s)▽���(s)1] which can be viewed as the limiting case of the Fisher information metric as policy variance is reduced to zero. By combining the deterministic policy gradient theorem with compatible function approximation we see that VoJ(mo) = Es~p� [����(s)▽���(s)� w] and SO the steepest ascent direction is simply Mu(0)-1▽0J3(��) = w. This algorithm can be implemented by simplifying Equations 20 or 24 to 0t+1 = 0t + aowt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 926
+                },
+                {
+                    "x": 1607,
+                    "y": 926
+                },
+                {
+                    "x": 1607,
+                    "y": 979
+                },
+                {
+                    "x": 1274,
+                    "y": 979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:22px'>5. Experiments</p>",
+            "id": 76,
+            "page": 6,
+            "text": "5. Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 993
+                },
+                {
+                    "x": 1693,
+                    "y": 993
+                },
+                {
+                    "x": 1693,
+                    "y": 1041
+                },
+                {
+                    "x": 1273,
+                    "y": 1041
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='77' style='font-size:16px'>5.1. Continuous Bandit</p>",
+            "id": 77,
+            "page": 6,
+            "text": "5.1. Continuous Bandit"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 1043
+                },
+                {
+                    "x": 2263,
+                    "y": 1043
+                },
+                {
+                    "x": 2263,
+                    "y": 2902
+                },
+                {
+                    "x": 1270,
+                    "y": 2902
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:14px'>Our first experiment focuses on a direct comparison be-<br>tween the stochastic policy gradient and the determinis-<br>tic policy gradient. The problem is a continuous ban-<br>dit problem with a high-dimensional quadratic cost func-<br>tion, -r(a) = (a - a*) T C(a - a*). The matrix C is<br>positive definite with eigenvalues chosen from {0.1, 1},<br>and a* = [4, · · · , 4]T We consider action dimensions of<br>m = 10, 25, 50. Although this problem could be solved<br>analytically, given full knowledge of the quadratic, we are<br>interested here in the relative performance of model-free<br>stochastic and deterministic policy gradient algorithms.<br>For the stochastic actor-critic in the bandit task (SAC-B) we<br>use an isotropic Gaussian policy, ��,y (·) ~ N(0, exp(y)),<br>and adapt both the mean and the variance of the policy. The<br>deterministic actor-critic algorithm is based on COPDAC,<br>using a target policy, mu = 0 and a fixed-width Gaussian<br>behaviour policy, B(·) ~ N(0, 02). The critic Q(a) is sim-<br>ply estimated by linear regression from the compatible fea-<br>tures to the costs: for SAC-B the compatible features are<br>▽ 0 log ��(a); for COPDAC-B they are ▽ eme(a)(a - 0); a<br>bias feature is also included in both cases. For this exper-<br>iment the critic is recomputed from each successive batch<br>of 2m steps; the actor is updated once per batch. To eval-<br>uate performance we measure the average cost per step in-<br>curred by the mean (i.e. exploration is not penalised for<br>the on-policy algorithm). We performed a parameter sweep<br>over all step-size parameters and variance parameters (ini-<br>tial y for SAC; 02 for COPDAC). Figure 1 shows the per-<br>formance of the best performing parameters for each algo-<br>rithm, averaged over 5 runs. The results illustrate a signif-<br>icant performance advantage to the deterministic update,<br>which grows larger with increasing dimensionality.<br>We also ran an experiment in which the stochastic actor-<br>critic used the same fixed variance 02 as the deterministic<br>actor-critic, SO that only the mean was adapted. This did<br>not improve the performance of the stochastic actor-critic:<br>COPDAC-B still outperforms SAC-B by a very wide mar-</p>",
+            "id": 78,
+            "page": 6,
+            "text": "Our first experiment focuses on a direct comparison between the stochastic policy gradient and the deterministic policy gradient. The problem is a continuous bandit problem with a high-dimensional quadratic cost function, -r(a) = (a - a*) T C(a - a*). The matrix C is positive definite with eigenvalues chosen from {0.1, 1}, and a* = [4, · · · , 4]T We consider action dimensions of m = 10, 25, 50. Although this problem could be solved analytically, given full knowledge of the quadratic, we are interested here in the relative performance of model-free stochastic and deterministic policy gradient algorithms. For the stochastic actor-critic in the bandit task (SAC-B) we use an isotropic Gaussian policy, ��,y (·) ~ N(0, exp(y)), and adapt both the mean and the variance of the policy. The deterministic actor-critic algorithm is based on COPDAC, using a target policy, mu = 0 and a fixed-width Gaussian behaviour policy, B(·) ~ N(0, 02). The critic Q(a) is simply estimated by linear regression from the compatible features to the costs: for SAC-B the compatible features are ▽ 0 log ��(a); for COPDAC-B they are ▽ eme(a)(a - 0); a bias feature is also included in both cases. For this experiment the critic is recomputed from each successive batch of 2m steps; the actor is updated once per batch. To evaluate performance we measure the average cost per step incurred by the mean (i.e. exploration is not penalised for the on-policy algorithm). We performed a parameter sweep over all step-size parameters and variance parameters (initial y for SAC; 02 for COPDAC). Figure 1 shows the performance of the best performing parameters for each algorithm, averaged over 5 runs. The results illustrate a significant performance advantage to the deterministic update, which grows larger with increasing dimensionality. We also ran an experiment in which the stochastic actorcritic used the same fixed variance 02 as the deterministic actor-critic, SO that only the mean was adapted. This did not improve the performance of the stochastic actor-critic: COPDAC-B still outperforms SAC-B by a very wide mar-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2909
+                },
+                {
+                    "x": 2087,
+                    "y": 2909
+                },
+                {
+                    "x": 2087,
+                    "y": 2960
+                },
+                {
+                    "x": 1273,
+                    "y": 2960
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:18px'>gin that grows larger with increasing dimension.</p>",
+            "id": 79,
+            "page": 6,
+            "text": "gin that grows larger with increasing dimension."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 235
+                },
+                {
+                    "x": 903,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='80' style='font-size:20px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 80,
+            "page": 7,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 230,
+                    "y": 251
+                },
+                {
+                    "x": 2248,
+                    "y": 251
+                },
+                {
+                    "x": 2248,
+                    "y": 793
+                },
+                {
+                    "x": 230,
+                    "y": 793
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='81' style='font-size:14px' alt=\"10 action dimensions 25 action dimensions 50 action dimensions\n102\n102 102\n10 101 10\n10 0 10 0 0\n10\n10~1 10 10\n1 1\nCost\n-2 -2 -2\n10 10 10\n10 - 3 3 3\n10 10\n4 4 4 SAC-B\n10 10 10\nCOPDAC-B\n102 103 104 102 103 104 102 103 10 4\nTime-steps Time-steps Time-steps\" data-coord=\"top-left:(230,251); bottom-right:(2248,793)\" /></figure>",
+            "id": 81,
+            "page": 7,
+            "text": "10 action dimensions 25 action dimensions 50 action dimensions 102 102 102 10 101 10 10 0 10 0 0 10 10~1 10 10 1 1 Cost -2 -2 -2 10 10 10 10 - 3 3 3 10 10 4 4 4 SAC-B 10 10 10 COPDAC-B 102 103 104 102 103 104 102 103 10 4 Time-steps Time-steps Time-steps"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 227,
+                    "y": 810
+                },
+                {
+                    "x": 2201,
+                    "y": 810
+                },
+                {
+                    "x": 2201,
+                    "y": 857
+                },
+                {
+                    "x": 227,
+                    "y": 857
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='82' style='font-size:16px'>Figure 1. Comparison of stochastic actor-critic (SAC-B) and deterministic actor-critic (COPDAC-B) on the continuous bandit task.</caption>",
+            "id": 82,
+            "page": 7,
+            "text": "Figure 1. Comparison of stochastic actor-critic (SAC-B) and deterministic actor-critic (COPDAC-B) on the continuous bandit task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 240,
+                    "y": 900
+                },
+                {
+                    "x": 2251,
+                    "y": 900
+                },
+                {
+                    "x": 2251,
+                    "y": 1426
+                },
+                {
+                    "x": 240,
+                    "y": 1426
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='83' style='font-size:14px' alt=\"0.0 6.0 0.0\nEpisode\n(x1000)\n(x1000)\n(x1000)\n-1.0 4.0\n-5.0\n-2.0 Episode\n2.0 Episode\nPer\n-10.0\n-3.0 Per\n0.0 Per\nReward\n-15.0\n-4.0 工 COPDAC-Q -2.0 工 COPDAC-Q H COPDAC-Q\nト--| SAC Reward\nF--| SAC Reward\n-20.0 F--| SAC\nTotal\nTotal\nTotal\n-5.0 -4.0\n工 OffPAC-TD H OffPAC-TD 工 OffPAC-TD\n-6.8.0 2.0 4.0 6.0 8.0 10.0 -6.8.0 10.0 20.0 30.0 40.0 50.0 -25.8.0 10.0 20.0 30.0 40.0 50.0\nTime-steps (x10000) Time-steps (x10000) Time-steps (x10000)\n(a) Mountain Car (b) Pendulum (c) 2D Puddle World\" data-coord=\"top-left:(240,900); bottom-right:(2251,1426)\" /></figure>",
+            "id": 83,
+            "page": 7,
+            "text": "0.0 6.0 0.0 Episode (x1000) (x1000) (x1000) -1.0 4.0 -5.0 -2.0 Episode 2.0 Episode Per -10.0 -3.0 Per 0.0 Per Reward -15.0 -4.0 工 COPDAC-Q -2.0 工 COPDAC-Q H COPDAC-Q ト--| SAC Reward F--| SAC Reward -20.0 F--| SAC Total Total Total -5.0 -4.0 工 OffPAC-TD H OffPAC-TD 工 OffPAC-TD -6.8.0 2.0 4.0 6.0 8.0 10.0 -6.8.0 10.0 20.0 30.0 40.0 50.0 -25.8.0 10.0 20.0 30.0 40.0 50.0 Time-steps (x10000) Time-steps (x10000) Time-steps (x10000) (a) Mountain Car (b) Pendulum (c) 2D Puddle World"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1450
+                },
+                {
+                    "x": 2261,
+                    "y": 1450
+                },
+                {
+                    "x": 2261,
+                    "y": 1547
+                },
+                {
+                    "x": 223,
+                    "y": 1547
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='84' style='font-size:18px'>Figure 2. Comparison of stochastic on-policy actor-critic (SAC), stochastic off-policy actor-critic (OffPAC), and deterministic off-policy<br>actor-critic (COPDAC) on continuous-action reinforcement learning. Each point is the average test performance of the mean policy.</caption>",
+            "id": 84,
+            "page": 7,
+            "text": "Figure 2. Comparison of stochastic on-policy actor-critic (SAC), stochastic off-policy actor-critic (OffPAC), and deterministic off-policy actor-critic (COPDAC) on continuous-action reinforcement learning. Each point is the average test performance of the mean policy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1596
+                },
+                {
+                    "x": 958,
+                    "y": 1596
+                },
+                {
+                    "x": 958,
+                    "y": 1647
+                },
+                {
+                    "x": 223,
+                    "y": 1647
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:22px'>5.2. Continuous Reinforcement Learning</p>",
+            "id": 85,
+            "page": 7,
+            "text": "5.2. Continuous Reinforcement Learning"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1654
+                },
+                {
+                    "x": 1216,
+                    "y": 1654
+                },
+                {
+                    "x": 1216,
+                    "y": 2964
+                },
+                {
+                    "x": 222,
+                    "y": 2964
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:18px'>In our second experiment we consider continuous-action<br>variants of standard reinforcement learning benchmarks:<br>mountain car, pendulum and 2D puddle world. Our goal<br>is to see whether stochastic or deterministic actor-critic is<br>more efficient under Gaussian exploration. The stochas-<br>tic actor-critic (SAC) algorithm was the actor-critic algo-<br>rithm in Degris et al. (2012a); this algorithm performed<br>best out of several incremental actor-critic methods in a<br>comparison on mountain car. It uses a Gaussian policy<br>based on a linear combination of features, ��,y(s, · ) ~<br>N(OT ⌀(s), exp(y T �(s))), which adapts both the mean<br>and the variance of the policy; the critic uses a linear value<br>function approximator V(s) = v T ⌀(s) with the same fea-<br>tures, updated by temporal-difference learning. The deter-<br>ministic algorithm is based on COPDAC-Q, using a lin-<br>ear target policy, M0(S) = OT ⌀(s) and a fixed-width Gaus-<br>sian behaviour policy, B(·|s) ~ N(OT ⌀(s), 02). The critic<br>T ⌀(s), as a<br>again uses a linear value function V(s) = v<br>baseline for the compatible action-value function. In both<br>cases the features ⌀(s) are generated by tile-coding the<br>state-space. We also compare to an off-policy stochastic<br>actor-critic algorithm (OffPAC), using the same behaviour<br>policy B as just described, but learning a stochastic pol-<br>icy ��,y(s, · ) as in SAC. This algorithm also used the same<br>T ⌀(s) algorithm and the update algorithm<br>critic V (s) = v<br>described in Degris et al. (2012b) with 入 = 0 and au = 0.</p>",
+            "id": 86,
+            "page": 7,
+            "text": "In our second experiment we consider continuous-action variants of standard reinforcement learning benchmarks: mountain car, pendulum and 2D puddle world. Our goal is to see whether stochastic or deterministic actor-critic is more efficient under Gaussian exploration. The stochastic actor-critic (SAC) algorithm was the actor-critic algorithm in Degris  (2012a); this algorithm performed best out of several incremental actor-critic methods in a comparison on mountain car. It uses a Gaussian policy based on a linear combination of features, ��,y(s, · ) ~ N(OT ⌀(s), exp(y T �(s))), which adapts both the mean and the variance of the policy; the critic uses a linear value function approximator V(s) = v T ⌀(s) with the same features, updated by temporal-difference learning. The deterministic algorithm is based on COPDAC-Q, using a linear target policy, M0(S) = OT ⌀(s) and a fixed-width Gaussian behaviour policy, B(·|s) ~ N(OT ⌀(s), 02). The critic T ⌀(s), as a again uses a linear value function V(s) = v baseline for the compatible action-value function. In both cases the features ⌀(s) are generated by tile-coding the state-space. We also compare to an off-policy stochastic actor-critic algorithm (OffPAC), using the same behaviour policy B as just described, but learning a stochastic policy ��,y(s, · ) as in SAC. This algorithm also used the same T ⌀(s) algorithm and the update algorithm critic V (s) = v described in Degris  (2012b) with 入 = 0 and au = 0."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1595
+                },
+                {
+                    "x": 2264,
+                    "y": 1595
+                },
+                {
+                    "x": 2264,
+                    "y": 2047
+                },
+                {
+                    "x": 1271,
+                    "y": 2047
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='87' style='font-size:18px'>For all algorithms, episodes were truncated after a maxi-<br>mum of 5000 steps. The discount was 2 = 0.99 for moun-<br>tain car and pendulum and 2 = 0.999 for puddle world.<br>Actions outside the legal range were capped. We performed<br>a parameter sweep over step-size parameters; variance was<br>initialised to 1/2 the legal range. Figure 2 shows the per-<br>formance of the best performing parameters for each algo-<br>rithm, averaged over 30 runs. COPDAC-Q slightly outper-<br>formed both SAC and OffPAC in all three domains.</p>",
+            "id": 87,
+            "page": 7,
+            "text": "For all algorithms, episodes were truncated after a maximum of 5000 steps. The discount was 2 = 0.99 for mountain car and pendulum and 2 = 0.999 for puddle world. Actions outside the legal range were capped. We performed a parameter sweep over step-size parameters; variance was initialised to 1/2 the legal range. Figure 2 shows the performance of the best performing parameters for each algorithm, averaged over 30 runs. COPDAC-Q slightly outperformed both SAC and OffPAC in all three domains."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2081
+                },
+                {
+                    "x": 1599,
+                    "y": 2081
+                },
+                {
+                    "x": 1599,
+                    "y": 2130
+                },
+                {
+                    "x": 1272,
+                    "y": 2130
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:22px'>5.3. Octopus Arm</p>",
+            "id": 88,
+            "page": 7,
+            "text": "5.3. Octopus Arm"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1269,
+                    "y": 2141
+                },
+                {
+                    "x": 2264,
+                    "y": 2141
+                },
+                {
+                    "x": 2264,
+                    "y": 2991
+                },
+                {
+                    "x": 1269,
+                    "y": 2991
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:18px'>Finally, we tested our algorithms on an octopus arm (Engel<br>et al., 2005) task. The aim is to learn to control a simulated<br>octopus arm to hit a target. The arm consists of 6 segments<br>and is attached to a rotating base. There are 50 continu-<br>ous state variables (x,y position/velocity of the nodes along<br>the upper/lower side of the arm; angular position/velocity<br>of the base) and 20 action variables that control three mus-<br>cles (dorsal, transversal, central) in each segment as well as<br>the clockwise and counter-clockwise rotation of the base.<br>The goal is to strike the target with any part of the arm.<br>The reward function is proportional to the change in dis-<br>tance between the arm and the target. An episode ends<br>when the target is hit (with an additional reward of +50)<br>or after 300 steps. Previous work (Engel et al., 2005) sim-<br>plified the high-dimensional action space using 6 \"macro-<br>actions\" corresponding to particular patterns of muscle ac-<br>tivations; or applied stochastic policy gradients to a lower</p>",
+            "id": 89,
+            "page": 7,
+            "text": "Finally, we tested our algorithms on an octopus arm (Engel , 2005) task. The aim is to learn to control a simulated octopus arm to hit a target. The arm consists of 6 segments and is attached to a rotating base. There are 50 continuous state variables (x,y position/velocity of the nodes along the upper/lower side of the arm; angular position/velocity of the base) and 20 action variables that control three muscles (dorsal, transversal, central) in each segment as well as the clockwise and counter-clockwise rotation of the base. The goal is to strike the target with any part of the arm. The reward function is proportional to the change in distance between the arm and the target. An episode ends when the target is hit (with an additional reward of +50) or after 300 steps. Previous work (Engel , 2005) simplified the high-dimensional action space using 6 \"macroactions\" corresponding to particular patterns of muscle activations; or applied stochastic policy gradients to a lower"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 191
+                },
+                {
+                    "x": 1582,
+                    "y": 236
+                },
+                {
+                    "x": 903,
+                    "y": 236
+                }
+            ],
+            "category": "header",
+            "html": "<header id='90' style='font-size:18px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 90,
+            "page": 8,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 349,
+                    "y": 273
+                },
+                {
+                    "x": 1091,
+                    "y": 273
+                },
+                {
+                    "x": 1091,
+                    "y": 825
+                },
+                {
+                    "x": 349,
+                    "y": 825
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='91' style='font-size:14px' alt=\"15\nepisode\n10\nper\nReturn 5\n0\n300\n200\n아 target\nSteps\n100\n0 100000 200000 300000\nTime steps\" data-coord=\"top-left:(349,273); bottom-right:(1091,825)\" /></figure>",
+            "id": 91,
+            "page": 8,
+            "text": "15 episode 10 per Return 5 0 300 200 아 target Steps 100 0 100000 200000 300000 Time steps"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 852
+                },
+                {
+                    "x": 1214,
+                    "y": 852
+                },
+                {
+                    "x": 1214,
+                    "y": 1040
+                },
+                {
+                    "x": 223,
+                    "y": 1040
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='92' style='font-size:14px'>Figure 3. Ten runs of COPDAC on a 6-segment octopus arm with<br>20 action dimensions and 50 state dimensions; each point repre-<br>sents the return per episode (above) and the number of time-steps<br>for the arm to reach the target (below).</caption>",
+            "id": 92,
+            "page": 8,
+            "text": "Figure 3. Ten runs of COPDAC on a 6-segment octopus arm with 20 action dimensions and 50 state dimensions; each point represents the return per episode (above) and the number of time-steps for the arm to reach the target (below)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1073
+                },
+                {
+                    "x": 1214,
+                    "y": 1073
+                },
+                {
+                    "x": 1214,
+                    "y": 1725
+                },
+                {
+                    "x": 224,
+                    "y": 1725
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:18px'>dimensional octopus arm with 4 segments (Heess et al.,<br>2012). Here, we apply deterministic policy gradients di-<br>rectly to a high-dimensional octopus arm with 6 segments.<br>We applied the COPDAC-Q algorithm, using a sigmoidal<br>multi-layer perceptron (8 hidden units and sigmoidal out-<br>put units) to represent the policy �(s). The advantage func-<br>tion Aw (s, a) was represented by compatible function ap-<br>proximation (see Section 4.3), while the state value func-<br>tion Vv(s) was represented by a second multi-layer percep-<br>tron (40 hidden units and linear output units). 3 The results<br>of 10 training runs are shown in Figure 3; the octopus arm<br>converged to a good solution in all cases. A video of an 8<br>segment arm, trained by COPDAC-Q, is also available.4</p>",
+            "id": 93,
+            "page": 8,
+            "text": "dimensional octopus arm with 4 segments (Heess , 2012). Here, we apply deterministic policy gradients directly to a high-dimensional octopus arm with 6 segments. We applied the COPDAC-Q algorithm, using a sigmoidal multi-layer perceptron (8 hidden units and sigmoidal output units) to represent the policy �(s). The advantage function Aw (s, a) was represented by compatible function approximation (see Section 4.3), while the state value function Vv(s) was represented by a second multi-layer perceptron (40 hidden units and linear output units). 3 The results of 10 training runs are shown in Figure 3; the octopus arm converged to a good solution in all cases. A video of an 8 segment arm, trained by COPDAC-Q, is also available.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1765
+                },
+                {
+                    "x": 908,
+                    "y": 1765
+                },
+                {
+                    "x": 908,
+                    "y": 1819
+                },
+                {
+                    "x": 224,
+                    "y": 1819
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:20px'>6. Discussion and Related Work</p>",
+            "id": 94,
+            "page": 8,
+            "text": "6. Discussion and Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1838
+                },
+                {
+                    "x": 1216,
+                    "y": 1838
+                },
+                {
+                    "x": 1216,
+                    "y": 2646
+                },
+                {
+                    "x": 224,
+                    "y": 2646
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='95' style='font-size:18px'>Using a stochastic policy gradient algorithm, the policy be-<br>comes more deterministic as the algorithm homes in on a<br>good strategy. Unfortunately this makes the stochastic pol-<br>icy gradient harder to estimate, because the policy gradient<br>▽ ��� (a|s) changes more rapidly near the mean. Indeed,<br>the variance of the stochastic policy gradient for a Gaus-<br>sian policy N(�, o2) is proportional to 1/02 (Zhao et al.,<br>2012), which grows to infinity as the policy becomes deter-<br>ministic. This problem is compounded in high dimensions,<br>as illustrated by the continuous bandit task. The stochas-<br>tic actor-critic estimates the stochastic policy gradient in<br>Equation 2. The inner integral, SA ▽���(a|s)Q� (s, a)da,<br>is computed by sampling a high dimensional action space.<br>In contrast, the deterministic policy gradient can be com-<br>puted immediately in closed form.<br>One may view our deterministic actor-critic as analogous,</p>",
+            "id": 95,
+            "page": 8,
+            "text": "Using a stochastic policy gradient algorithm, the policy becomes more deterministic as the algorithm homes in on a good strategy. Unfortunately this makes the stochastic policy gradient harder to estimate, because the policy gradient ▽ ��� (a|s) changes more rapidly near the mean. Indeed, the variance of the stochastic policy gradient for a Gaussian policy N(�, o2) is proportional to 1/02 (Zhao , 2012), which grows to infinity as the policy becomes deterministic. This problem is compounded in high dimensions, as illustrated by the continuous bandit task. The stochastic actor-critic estimates the stochastic policy gradient in Equation 2. The inner integral, SA ▽���(a|s)Q� (s, a)da, is computed by sampling a high dimensional action space. In contrast, the deterministic policy gradient can be computed immediately in closed form. One may view our deterministic actor-critic as analogous,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2587
+                },
+                {
+                    "x": 1212,
+                    "y": 2587
+                },
+                {
+                    "x": 1212,
+                    "y": 2789
+                },
+                {
+                    "x": 223,
+                    "y": 2789
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='96' style='font-size:20px'>in a policy gradient context, to Q-learning (Watkins and<br>Dayan, 1992). Q-learning learns a deterministic greedy<br>policy, off-policy, while executing a noisy version of the</p>",
+            "id": 96,
+            "page": 8,
+            "text": "in a policy gradient context, to Q-learning (Watkins and Dayan, 1992). Q-learning learns a deterministic greedy policy, off-policy, while executing a noisy version of the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2815
+                },
+                {
+                    "x": 1209,
+                    "y": 2815
+                },
+                {
+                    "x": 1209,
+                    "y": 2903
+                },
+                {
+                    "x": 222,
+                    "y": 2903
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:16px'>3Recall that the compatibility criteria apply to any differen-<br>tiable baseline, including non-linear state-value functions.</p>",
+            "id": 97,
+            "page": 8,
+            "text": "3Recall that the compatibility criteria apply to any differentiable baseline, including non-linear state-value functions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2906
+                },
+                {
+                    "x": 1198,
+                    "y": 2906
+                },
+                {
+                    "x": 1198,
+                    "y": 2991
+                },
+                {
+                    "x": 225,
+                    "y": 2991
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:14px'>4http : / / www0 · CS · ucl · ac · uk / staff/D . Silver /<br>web / Applications html</p>",
+            "id": 98,
+            "page": 8,
+            "text": "4http : / / www0 · CS · ucl · ac · uk / staff/D . Silver / web / Applications html"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 282
+                },
+                {
+                    "x": 2264,
+                    "y": 282
+                },
+                {
+                    "x": 2264,
+                    "y": 1310
+                },
+                {
+                    "x": 1271,
+                    "y": 1310
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='99' style='font-size:18px'>greedy policy. Similarly, in our experiments COPDAC-Q<br>was used to learn a deterministic policy, off-policy, while<br>executing a noisy version of that policy. Note that we com-<br>pared on-policy and off-policy algorithms in our experi-<br>ments, which may at first sight appear odd. However, it<br>is analogous to asking whether Q-learning or Sarsa is more<br>efficient, by measuring the greedy policy learnt by each al-<br>gorithm (Sutton and Barto, 1998).<br>Our actor-critic algorithms are based on model-free, in-<br>cremental, stochastic gradient updates; these methods are<br>suitable when the model is unknown, data is plentiful and<br>computation is the bottleneck. It is straightforward in prin-<br>ciple to extend these methods to batch/episodic updates, for<br>example by using LSTDQ (Lagoudakis and Parr, 2003) in<br>place of the incremental Q-learning critic. There has also<br>been a substantial literature on model-based policy gradi-<br>ent methods, largely focusing on deterministic and fully-<br>known transition dynamics (Werbos, 1990). These meth-<br>ods are strongly related to deterministic policy gradients<br>when the transition dynamics are also deterministic.</p>",
+            "id": 99,
+            "page": 8,
+            "text": "greedy policy. Similarly, in our experiments COPDAC-Q was used to learn a deterministic policy, off-policy, while executing a noisy version of that policy. Note that we compared on-policy and off-policy algorithms in our experiments, which may at first sight appear odd. However, it is analogous to asking whether Q-learning or Sarsa is more efficient, by measuring the greedy policy learnt by each algorithm (Sutton and Barto, 1998). Our actor-critic algorithms are based on model-free, incremental, stochastic gradient updates; these methods are suitable when the model is unknown, data is plentiful and computation is the bottleneck. It is straightforward in principle to extend these methods to batch/episodic updates, for example by using LSTDQ (Lagoudakis and Parr, 2003) in place of the incremental Q-learning critic. There has also been a substantial literature on model-based policy gradient methods, largely focusing on deterministic and fullyknown transition dynamics (Werbos, 1990). These methods are strongly related to deterministic policy gradients when the transition dynamics are also deterministic."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1295
+                },
+                {
+                    "x": 2265,
+                    "y": 1295
+                },
+                {
+                    "x": 2265,
+                    "y": 1944
+                },
+                {
+                    "x": 1272,
+                    "y": 1944
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='100' style='font-size:18px'>We are not the first to notice that the action-value gradient<br>provides a useful signal for reinforcement learning. The<br>NFQCA algorithm (Hafner and Riedmiller, 2011) uses two<br>neural networks to represent the actor and critic respec-<br>tively. The actor adjusts the policy, represented by the first<br>neural network, in the direction of the action-value gradi-<br>ent, using an update similar to Equation 7. The critic up-<br>dates the action-value function, represented by the second<br>neural network, using neural fitted-Q learning (a batch Q-<br>learning update for approximate value iteration). However,<br>its critic network is incompatible with the actor network; it<br>is unclear how the local optima learnt by the critic (assum-<br>ing it converges) will interact with actor updates.</p>",
+            "id": 100,
+            "page": 8,
+            "text": "We are not the first to notice that the action-value gradient provides a useful signal for reinforcement learning. The NFQCA algorithm (Hafner and Riedmiller, 2011) uses two neural networks to represent the actor and critic respectively. The actor adjusts the policy, represented by the first neural network, in the direction of the action-value gradient, using an update similar to Equation 7. The critic updates the action-value function, represented by the second neural network, using neural fitted-Q learning (a batch Qlearning update for approximate value iteration). However, its critic network is incompatible with the actor network; it is unclear how the local optima learnt by the critic (assuming it converges) will interact with actor updates."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1983
+                },
+                {
+                    "x": 1572,
+                    "y": 1983
+                },
+                {
+                    "x": 1572,
+                    "y": 2037
+                },
+                {
+                    "x": 1274,
+                    "y": 2037
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:22px'>7. Conclusion</p>",
+            "id": 101,
+            "page": 8,
+            "text": "7. Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2053
+                },
+                {
+                    "x": 2264,
+                    "y": 2053
+                },
+                {
+                    "x": 2264,
+                    "y": 2502
+                },
+                {
+                    "x": 1272,
+                    "y": 2502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='102' style='font-size:18px'>We have presented a framework for deterministic policy<br>gradient algorithms. These gradients can be estimated<br>more efficiently than their stochastic counterparts, avoiding<br>a problematic integral over the action space. In practice,<br>the deterministic actor-critic significantly outperformed its<br>stochastic counterpart by several orders of magnitude in a<br>bandit with 50 continuous action dimensions, and solved a<br>challenging reinforcement learning problem with 20 con-<br>tinuous action dimensions and 50 state dimensions.</p>",
+            "id": 102,
+            "page": 8,
+            "text": "We have presented a framework for deterministic policy gradient algorithms. These gradients can be estimated more efficiently than their stochastic counterparts, avoiding a problematic integral over the action space. In practice, the deterministic actor-critic significantly outperformed its stochastic counterpart by several orders of magnitude in a bandit with 50 continuous action dimensions, and solved a challenging reinforcement learning problem with 20 continuous action dimensions and 50 state dimensions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2545
+                },
+                {
+                    "x": 1698,
+                    "y": 2545
+                },
+                {
+                    "x": 1698,
+                    "y": 2599
+                },
+                {
+                    "x": 1274,
+                    "y": 2599
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:22px'>Acknowledgements</p>",
+            "id": 103,
+            "page": 8,
+            "text": "Acknowledgements"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2614
+                },
+                {
+                    "x": 2265,
+                    "y": 2614
+                },
+                {
+                    "x": 2265,
+                    "y": 2913
+                },
+                {
+                    "x": 1272,
+                    "y": 2913
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:16px'>This work was supported by the European Community Seventh<br>Framework Programme (FP7/2007-2013) under grant agreement<br>270327 (CompLACS), the Gatsby Charitable Foundation, the<br>Royal Society, the ANR MACSi project, INRIA Bordeaux Sud-<br>Ouest, Mesocentre de Calcul Intensif Aquitain, and the French<br>National Grid Infrastructure via France Grille.</p>",
+            "id": 104,
+            "page": 8,
+            "text": "This work was supported by the European Community Seventh Framework Programme (FP7/2007-2013) under grant agreement 270327 (CompLACS), the Gatsby Charitable Foundation, the Royal Society, the ANR MACSi project, INRIA Bordeaux SudOuest, Mesocentre de Calcul Intensif Aquitain, and the French National Grid Infrastructure via France Grille."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 903,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 191
+                },
+                {
+                    "x": 1581,
+                    "y": 235
+                },
+                {
+                    "x": 903,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='105' style='font-size:16px'>Deterministic Policy Gradient Algorithms</header>",
+            "id": 105,
+            "page": 9,
+            "text": "Deterministic Policy Gradient Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 278
+                },
+                {
+                    "x": 470,
+                    "y": 278
+                },
+                {
+                    "x": 470,
+                    "y": 331
+                },
+                {
+                    "x": 226,
+                    "y": 331
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:22px'>References</p>",
+            "id": 106,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 339
+                },
+                {
+                    "x": 1212,
+                    "y": 339
+                },
+                {
+                    "x": 1212,
+                    "y": 488
+                },
+                {
+                    "x": 226,
+                    "y": 488
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='107' style='font-size:16px'>Bagnell, J. A. D. and Schneider, J. (2003). Covariant policy<br>search. In Proceeding of the International Joint Confer-<br>ence on Artifical Intelligence.</p>",
+            "id": 107,
+            "page": 9,
+            "text": "Bagnell, J. A. D. and Schneider, J. (2003). Covariant policy search. In Proceeding of the International Joint Conference on Artifical Intelligence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 524
+                },
+                {
+                    "x": 1212,
+                    "y": 524
+                },
+                {
+                    "x": 1212,
+                    "y": 674
+                },
+                {
+                    "x": 224,
+                    "y": 674
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:16px'>Bhatnagar, S., Sutton, R. S., Ghavamzadeh, M., and Lee,<br>M. (2007). Incremental natural actor-critic algorithms.<br>In Neural Information Processing Systems 21.</p>",
+            "id": 108,
+            "page": 9,
+            "text": "Bhatnagar, S., Sutton, R. S., Ghavamzadeh, M., and Lee, M. (2007). Incremental natural actor-critic algorithms. In Neural Information Processing Systems 21."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 709
+                },
+                {
+                    "x": 1212,
+                    "y": 709
+                },
+                {
+                    "x": 1212,
+                    "y": 858
+                },
+                {
+                    "x": 223,
+                    "y": 858
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:14px'>Degris, T., Pilarski, P. M., and Sutton, R. S. (2012a).<br>Model-free reinforcement learning with continuous ac-<br>tion in practice. In American Control Conference.</p>",
+            "id": 109,
+            "page": 9,
+            "text": "Degris, T., Pilarski, P. M., and Sutton, R. S. (2012a). Model-free reinforcement learning with continuous action in practice. In American Control Conference."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 894
+                },
+                {
+                    "x": 1213,
+                    "y": 894
+                },
+                {
+                    "x": 1213,
+                    "y": 1042
+                },
+                {
+                    "x": 225,
+                    "y": 1042
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:16px'>Degris, T., White, M., and Sutton, R. S. (2012b). Linear<br>off-policy actor-critic. In 29th International Conference<br>on Machine Learning.</p>",
+            "id": 110,
+            "page": 9,
+            "text": "Degris, T., White, M., and Sutton, R. S. (2012b). Linear off-policy actor-critic. In 29th International Conference on Machine Learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1078
+                },
+                {
+                    "x": 1213,
+                    "y": 1078
+                },
+                {
+                    "x": 1213,
+                    "y": 1278
+                },
+                {
+                    "x": 225,
+                    "y": 1278
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:14px'>Engel, Y., Szabo, P., and Volkinshtein, D. (2005). Learning<br>to control an octopus arm with gaussian process tempo-<br>ral difference methods. In Neural Information Process-<br>ing Systems 18.</p>",
+            "id": 111,
+            "page": 9,
+            "text": "Engel, Y., Szabo, P., and Volkinshtein, D. (2005). Learning to control an octopus arm with gaussian process temporal difference methods. In Neural Information Processing Systems 18."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1313
+                },
+                {
+                    "x": 1213,
+                    "y": 1313
+                },
+                {
+                    "x": 1213,
+                    "y": 1462
+                },
+                {
+                    "x": 224,
+                    "y": 1462
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:14px'>Hafner, R. and Riedmiller, M. (2011). Reinforcement<br>learning in feedback control. Machine Learning, 84(1-<br>2):137-169.</p>",
+            "id": 112,
+            "page": 9,
+            "text": "Hafner, R. and Riedmiller, M. (2011). Reinforcement learning in feedback control. Machine Learning, 84(12):137-169."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1499
+                },
+                {
+                    "x": 1213,
+                    "y": 1499
+                },
+                {
+                    "x": 1213,
+                    "y": 1694
+                },
+                {
+                    "x": 225,
+                    "y": 1694
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:18px'>Heess, N., Silver, D., and Teh, Y. (2012). Actor-critic rein-<br>forcement learning with energy-based policies. JMLR<br>Workshop and Conference Proceedings: EWRL 2012,<br>24:43-58.</p>",
+            "id": 113,
+            "page": 9,
+            "text": "Heess, N., Silver, D., and Teh, Y. (2012). Actor-critic reinforcement learning with energy-based policies. JMLR Workshop and Conference Proceedings: EWRL 2012, 24:43-58."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1732
+                },
+                {
+                    "x": 1212,
+                    "y": 1732
+                },
+                {
+                    "x": 1212,
+                    "y": 1834
+                },
+                {
+                    "x": 224,
+                    "y": 1834
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:18px'>Kakade, S. (2001). A natural policy gradient. In Neural<br>Information Processing Systems 14, pages 1531-1538.</p>",
+            "id": 114,
+            "page": 9,
+            "text": "Kakade, S. (2001). A natural policy gradient. In Neural Information Processing Systems 14, pages 1531-1538."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1869
+                },
+                {
+                    "x": 1209,
+                    "y": 1869
+                },
+                {
+                    "x": 1209,
+                    "y": 2015
+                },
+                {
+                    "x": 224,
+                    "y": 2015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:16px'>Lagoudakis, M. G. and Parr, R. (2003). Least-squares pol-<br>icy iteration. Journal of Machine Learning Research,<br>4:1107-1149.</p>",
+            "id": 115,
+            "page": 9,
+            "text": "Lagoudakis, M. G. and Parr, R. (2003). Least-squares policy iteration. Journal of Machine Learning Research, 4:1107-1149."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 2053
+                },
+                {
+                    "x": 1212,
+                    "y": 2053
+                },
+                {
+                    "x": 1212,
+                    "y": 2253
+                },
+                {
+                    "x": 226,
+                    "y": 2253
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:14px'>Maei, H. R., Szepesvari, C., Bhatnagar, S., and Sutton,<br>R. S. (2010). Toward off-policy learning control with<br>function approximation. In 27th International Confer-<br>ence on Machine Learning, pages 719-726.</p>",
+            "id": 116,
+            "page": 9,
+            "text": "Maei, H. R., Szepesvari, C., Bhatnagar, S., and Sutton, R. S. (2010). Toward off-policy learning control with function approximation. In 27th International Conference on Machine Learning, pages 719-726."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2288
+                },
+                {
+                    "x": 1211,
+                    "y": 2288
+                },
+                {
+                    "x": 1211,
+                    "y": 2386
+                },
+                {
+                    "x": 224,
+                    "y": 2386
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:20px'>Peters, J. (2010). Policy gradient methods. Scholarpedia,<br>5(11):3698.</p>",
+            "id": 117,
+            "page": 9,
+            "text": "Peters, J. (2010). Policy gradient methods. Scholarpedia, 5(11):3698."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2423
+                },
+                {
+                    "x": 1212,
+                    "y": 2423
+                },
+                {
+                    "x": 1212,
+                    "y": 2572
+                },
+                {
+                    "x": 225,
+                    "y": 2572
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:16px'>Peters, J., Vijayakumar, S., and Schaal, S. (2005). Natural<br>actor-critic. In 16th European Conference on Machine<br>Learning, pages 280-291.</p>",
+            "id": 118,
+            "page": 9,
+            "text": "Peters, J., Vijayakumar, S., and Schaal, S. (2005). Natural actor-critic. In 16th European Conference on Machine Learning, pages 280-291."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2608
+                },
+                {
+                    "x": 1211,
+                    "y": 2608
+                },
+                {
+                    "x": 1211,
+                    "y": 2707
+                },
+                {
+                    "x": 222,
+                    "y": 2707
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='119' style='font-size:14px'>Sutton, R. and Barto, A. (1998). Reinforcement Learning:<br>an Introduction. MIT Press.</p>",
+            "id": 119,
+            "page": 9,
+            "text": "Sutton, R. and Barto, A. (1998). Reinforcement Learning: an Introduction. MIT Press."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2742
+                },
+                {
+                    "x": 1211,
+                    "y": 2742
+                },
+                {
+                    "x": 1211,
+                    "y": 2994
+                },
+                {
+                    "x": 225,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:16px'>Sutton, R. S., Maei, H. R., Precup, D., Bhatnagar, S., Sil-<br>ver, D., Szepesvari, C., and Wiewiora, E. (2009). Fast<br>gradient-descent methods for temporal-difference learn-<br>ing with linear function approximation. In 26th Interna-<br>tional Conference on Machine Learning, page 125.</p>",
+            "id": 120,
+            "page": 9,
+            "text": "Sutton, R. S., Maei, H. R., Precup, D., Bhatnagar, S., Silver, D., Szepesvari, C., and Wiewiora, E. (2009). Fast gradient-descent methods for temporal-difference learning with linear function approximation. In 26th International Conference on Machine Learning, page 125."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 284
+                },
+                {
+                    "x": 2264,
+                    "y": 284
+                },
+                {
+                    "x": 2264,
+                    "y": 483
+                },
+                {
+                    "x": 1271,
+                    "y": 483
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='121' style='font-size:16px'>Sutton, R. S., McAllester, D. A., Singh, S. P., and Man-<br>sour, Y. (1999). Policy gradient methods for reinforce-<br>ment learning with function approximation. In Neural<br>Information Processing Systems 12, pages 1057-1063.</p>",
+            "id": 121,
+            "page": 9,
+            "text": "Sutton, R. S., McAllester, D. A., Singh, S. P., and Mansour, Y. (1999). Policy gradient methods for reinforcement learning with function approximation. In Neural Information Processing Systems 12, pages 1057-1063."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 516
+                },
+                {
+                    "x": 2266,
+                    "y": 516
+                },
+                {
+                    "x": 2266,
+                    "y": 715
+                },
+                {
+                    "x": 1273,
+                    "y": 715
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='122' style='font-size:18px'>Sutton, R. S., Singh, S. P., and McAllester, D. A.<br>(2000). Comparing policy-gradient algorithms.<br>http://webdocs.cs.ualberta.ca/ sutton/papers/SSM-<br>unpublished.pdf.</p>",
+            "id": 122,
+            "page": 9,
+            "text": "Sutton, R. S., Singh, S. P., and McAllester, D. A. (2000). Comparing policy-gradient algorithms. http://webdocs.cs.ualberta.ca/ sutton/papers/SSMunpublished.pdf."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 749
+                },
+                {
+                    "x": 2261,
+                    "y": 749
+                },
+                {
+                    "x": 2261,
+                    "y": 896
+                },
+                {
+                    "x": 1275,
+                    "y": 896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:14px'>Toussaint, M. (2012). Some notes on gradient descent.<br>http : / / ipvs · informatik · uni-stuttgart ·<br>de /mlr /marc/notes/ gradientDescent · pdf.</p>",
+            "id": 123,
+            "page": 9,
+            "text": "Toussaint, M. (2012). Some notes on gradient descent. http : / / ipvs · informatik · uni-stuttgart · de /mlr /marc/notes/ gradientDescent · pdf."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 930
+                },
+                {
+                    "x": 2261,
+                    "y": 930
+                },
+                {
+                    "x": 2261,
+                    "y": 1029
+                },
+                {
+                    "x": 1274,
+                    "y": 1029
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:18px'>Watkins, C. and Dayan, P. (1992). Q-learning. Machine<br>Learning, 8(3):279-292.</p>",
+            "id": 124,
+            "page": 9,
+            "text": "Watkins, C. and Dayan, P. (1992). Q-learning. Machine Learning, 8(3):279-292."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1064
+                },
+                {
+                    "x": 2263,
+                    "y": 1064
+                },
+                {
+                    "x": 2263,
+                    "y": 1214
+                },
+                {
+                    "x": 1274,
+                    "y": 1214
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:14px'>Werbos, P. J. (1990). A menu of designs for reinforcement<br>learning over time. In Neural networks for control, pages<br>67-95. Bradford.</p>",
+            "id": 125,
+            "page": 9,
+            "text": "Werbos, P. J. (1990). A menu of designs for reinforcement learning over time. In Neural networks for control, pages 67-95. Bradford."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1246
+                },
+                {
+                    "x": 2262,
+                    "y": 1246
+                },
+                {
+                    "x": 2262,
+                    "y": 1397
+                },
+                {
+                    "x": 1275,
+                    "y": 1397
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:18px'>Williams, R. J. (1992). Simple statistical gradient-<br>following algorithms for connectionist reinforcement<br>learning. Machine Learning, 8:229-256.</p>",
+            "id": 126,
+            "page": 9,
+            "text": "Williams, R. J. (1992). Simple statistical gradientfollowing algorithms for connectionist reinforcement learning. Machine Learning, 8:229-256."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1430
+                },
+                {
+                    "x": 2262,
+                    "y": 1430
+                },
+                {
+                    "x": 2262,
+                    "y": 1579
+                },
+                {
+                    "x": 1275,
+                    "y": 1579
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:18px'>Zhao, T., Hachiya, H., Niu, G., and Sugiyama, M. (2012).<br>Analysis and improvement of policy gradient estimation.<br>Neural Networks, 26:118-129.</p>",
+            "id": 127,
+            "page": 9,
+            "text": "Zhao, T., Hachiya, H., Niu, G., and Sugiyama, M. (2012). Analysis and improvement of policy gradient estimation. Neural Networks, 26:118-129."
+        }
+    ]
+}

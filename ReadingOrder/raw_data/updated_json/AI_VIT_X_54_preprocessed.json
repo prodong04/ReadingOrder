@@ -1,0 +1,3306 @@
+{
+    "id": "32aa4d8c-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/P02-1040.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 664,
+                    "y": 181
+                },
+                {
+                    "x": 2251,
+                    "y": 181
+                },
+                {
+                    "x": 2251,
+                    "y": 265
+                },
+                {
+                    "x": 664,
+                    "y": 265
+                }
+            ],
+            "category": "header",
+            "html": "<header id='0' style='font-size:14px'>Proceedings of the 40th Annual Meeting of the Association for<br>Computational Linguistics (ACL) , Philadelphia, July 2002, pp. 311-318 ·</header>",
+            "id": 0,
+            "page": 1,
+            "text": "Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL) , Philadelphia, July 2002, pp. 311-318 ·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 417,
+                    "y": 328
+                },
+                {
+                    "x": 2132,
+                    "y": 328
+                },
+                {
+                    "x": 2132,
+                    "y": 396
+                },
+                {
+                    "x": 417,
+                    "y": 396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:22px'>BLEU: a Method for Automatic Evaluation of Machine Translation</p>",
+            "id": 1,
+            "page": 1,
+            "text": "BLEU: a Method for Automatic Evaluation of Machine Translation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 576,
+                    "y": 516
+                },
+                {
+                    "x": 1971,
+                    "y": 516
+                },
+                {
+                    "x": 1971,
+                    "y": 756
+                },
+                {
+                    "x": 576,
+                    "y": 756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu<br>IBM T. J. Watson Research Center<br>Yorktown Heights, NY 10598, USA<br>{papineni,roukos,toddward, weijing} @us.ibm.com</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu IBM T. J. Watson Research Center Yorktown Heights, NY 10598, USA {papineni,roukos,toddward, weijing} @us.ibm.com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 675,
+                    "y": 981
+                },
+                {
+                    "x": 869,
+                    "y": 981
+                },
+                {
+                    "x": 869,
+                    "y": 1032
+                },
+                {
+                    "x": 675,
+                    "y": 1032
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 380,
+                    "y": 1081
+                },
+                {
+                    "x": 1160,
+                    "y": 1081
+                },
+                {
+                    "x": 1160,
+                    "y": 1816
+                },
+                {
+                    "x": 380,
+                    "y": 1816
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:16px'>Human evaluations of machine translation<br>are extensive but expensive. Human eval-<br>uations can take months to finish and in-<br>volve human labor that can not be reused.<br>We propose a method of automatic ma-<br>chine translation evaluation that is quick,<br>inexpensive, and language-independent,<br>that correlates highly with human evalu-<br>ation, and that has little marginal cost per<br>run. We present this method as an auto-<br>mated understudy to skilled human judges<br>which substitutes for them when there is<br>need for quick or frequent evaluations. 1</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Human evaluations of machine translation are extensive but expensive. Human evaluations can take months to finish and involve human labor that can not be reused. We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run. We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations. 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 1890
+                },
+                {
+                    "x": 647,
+                    "y": 1890
+                },
+                {
+                    "x": 647,
+                    "y": 1943
+                },
+                {
+                    "x": 295,
+                    "y": 1943
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 1977
+                },
+                {
+                    "x": 594,
+                    "y": 1977
+                },
+                {
+                    "x": 594,
+                    "y": 2029
+                },
+                {
+                    "x": 295,
+                    "y": 2029
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>1.1 Rationale</p>",
+            "id": 6,
+            "page": 1,
+            "text": "1.1 Rationale"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2049
+                },
+                {
+                    "x": 1249,
+                    "y": 2049
+                },
+                {
+                    "x": 1249,
+                    "y": 2899
+                },
+                {
+                    "x": 291,
+                    "y": 2899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:18px'>Human evaluations of machine translation (MT)<br>weigh many aspects of translation, including ade-<br>quacy, fidelity , and fluency of the translation (Hovy,<br>1999; White and O'Connell, 1994). A compre-<br>hensive catalog of MT evaluation techniques and<br>their rich literature is given by Reeder (2001). For<br>the most part, these various human evaluation ap-<br>proaches are quite expensive (Hovy, 1999). More-<br>over, they can take weeks or months to finish. This is<br>a big problem because developers of machine trans-<br>lation systems need to monitor the effect of daily<br>changes to their systems in order to weed out bad<br>ideas from good ideas. We believe that MT progress<br>stems from evaluation and that there is a logjam of<br>fruitful research ideas waiting to be released from</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Human evaluations of machine translation (MT) weigh many aspects of translation, including adequacy, fidelity , and fluency of the translation (Hovy, 1999; White and O'Connell, 1994). A comprehensive catalog of MT evaluation techniques and their rich literature is given by Reeder (2001). For the most part, these various human evaluation approaches are quite expensive (Hovy, 1999). Moreover, they can take weeks or months to finish. This is a big problem because developers of machine translation systems need to monitor the effect of daily changes to their systems in order to weed out bad ideas from good ideas. We believe that MT progress stems from evaluation and that there is a logjam of fruitful research ideas waiting to be released from"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2925
+                },
+                {
+                    "x": 1248,
+                    "y": 2925
+                },
+                {
+                    "x": 1248,
+                    "y": 3012
+                },
+                {
+                    "x": 291,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:14px'>1So we call our method the bilingual evaluation understudy,<br>BLEU.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "1So we call our method the bilingual evaluation understudy, BLEU."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 981
+                },
+                {
+                    "x": 2254,
+                    "y": 981
+                },
+                {
+                    "x": 2254,
+                    "y": 1263
+                },
+                {
+                    "x": 1296,
+                    "y": 1263
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:18px'>the evaluation bottleneck. Developers would bene-<br>fit from an inexpensive automatic evaluation that is<br>quick, language-independent, and correlates highly<br>with human evaluation. We propose such an evalua-<br>tion method in this paper.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "the evaluation bottleneck. Developers would benefit from an inexpensive automatic evaluation that is quick, language-independent, and correlates highly with human evaluation. We propose such an evaluation method in this paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1312
+                },
+                {
+                    "x": 1609,
+                    "y": 1312
+                },
+                {
+                    "x": 1609,
+                    "y": 1364
+                },
+                {
+                    "x": 1299,
+                    "y": 1364
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:20px'>1.2 Viewpoint</p>",
+            "id": 10,
+            "page": 1,
+            "text": "1.2 Viewpoint"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 1392
+                },
+                {
+                    "x": 2256,
+                    "y": 1392
+                },
+                {
+                    "x": 2256,
+                    "y": 1843
+                },
+                {
+                    "x": 1296,
+                    "y": 1843
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:16px'>How does one measure translation performance?<br>The closer a machine translation is to a professional<br>human translation, the better it is. This is the cen-<br>tral idea behind our proposal. To judge the quality<br>of a machine translation, one measures its closeness<br>to one or more reference human translations accord-<br>ing to a numerical metric. Thus, our MT evaluation<br>system requires two ingredients:</p>",
+            "id": 11,
+            "page": 1,
+            "text": "How does one measure translation performance? The closer a machine translation is to a professional human translation, the better it is. This is the central idea behind our proposal. To judge the quality of a machine translation, one measures its closeness to one or more reference human translations according to a numerical metric. Thus, our MT evaluation system requires two ingredients:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1339,
+                    "y": 1896
+                },
+                {
+                    "x": 2170,
+                    "y": 1896
+                },
+                {
+                    "x": 2170,
+                    "y": 1948
+                },
+                {
+                    "x": 1339,
+                    "y": 1948
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:14px'>1. a numerical \"translation closeness\" metric</p>",
+            "id": 12,
+            "page": 1,
+            "text": "1. a numerical \"translation closeness\" metric"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1335,
+                    "y": 2002
+                },
+                {
+                    "x": 2251,
+                    "y": 2002
+                },
+                {
+                    "x": 2251,
+                    "y": 2110
+                },
+                {
+                    "x": 1335,
+                    "y": 2110
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:16px'>2. a corpus of good quality human reference trans-<br>lations</p>",
+            "id": 13,
+            "page": 1,
+            "text": "2. a corpus of good quality human reference translations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2164
+                },
+                {
+                    "x": 2256,
+                    "y": 2164
+                },
+                {
+                    "x": 2256,
+                    "y": 2726
+                },
+                {
+                    "x": 1297,
+                    "y": 2726
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:18px'>We fashion our closeness metric after the highly suc-<br>cessful word error rate metric used by the speech<br>recognition community, appropriately modified for<br>multiple reference translations and allowing for le-<br>gitimate differences in word choice and word or-<br>der. The main idea is to use a weighted average of<br>variable length phrase matches against the reference<br>translations. This view gives rise to a family of met-<br>rics using various weighting schemes. We have se-<br>lected a promising baseline metric from this family.</p>",
+            "id": 14,
+            "page": 1,
+            "text": "We fashion our closeness metric after the highly successful word error rate metric used by the speech recognition community, appropriately modified for multiple reference translations and allowing for legitimate differences in word choice and word order. The main idea is to use a weighted average of variable length phrase matches against the reference translations. This view gives rise to a family of metrics using various weighting schemes. We have selected a promising baseline metric from this family."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2736
+                },
+                {
+                    "x": 2255,
+                    "y": 2736
+                },
+                {
+                    "x": 2255,
+                    "y": 3015
+                },
+                {
+                    "x": 1296,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:16px'>In Section 2, we describe the baseline metric in<br>detail. In Section 3, we evaluate the performance of<br>BLEU. In Section 4, we describe a human evaluation<br>experiment. In Section 5, we compare our baseline<br>metric performance with human evaluations.</p>",
+            "id": 15,
+            "page": 1,
+            "text": "In Section 2, we describe the baseline metric in detail. In Section 3, we evaluate the performance of BLEU. In Section 4, we describe a human evaluation experiment. In Section 5, we compare our baseline metric performance with human evaluations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 302
+                },
+                {
+                    "x": 940,
+                    "y": 302
+                },
+                {
+                    "x": 940,
+                    "y": 359
+                },
+                {
+                    "x": 292,
+                    "y": 359
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:20px'>2 The Baseline BLEU Metric</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2 The Baseline BLEU Metric"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 393
+                },
+                {
+                    "x": 1250,
+                    "y": 393
+                },
+                {
+                    "x": 1250,
+                    "y": 787
+                },
+                {
+                    "x": 292,
+                    "y": 787
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:16px'>Typically, there are many \"perfect\" translations of a<br>given source sentence. These translations may vary<br>in word choice or in word order even when they use<br>the same words. And yet humans can clearly dis-<br>tinguish a good translation from a bad one. For ex-<br>ample, consider these two candidate translations of<br>a Chinese source sentence:</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Typically, there are many \"perfect\" translations of a given source sentence. These translations may vary in word choice or in word order even when they use the same words. And yet humans can clearly distinguish a good translation from a bad one. For example, consider these two candidate translations of a Chinese source sentence:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 793
+                },
+                {
+                    "x": 521,
+                    "y": 793
+                },
+                {
+                    "x": 521,
+                    "y": 842
+                },
+                {
+                    "x": 294,
+                    "y": 842
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:22px'>Example 1.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "Example 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 860
+                },
+                {
+                    "x": 1252,
+                    "y": 860
+                },
+                {
+                    "x": 1252,
+                    "y": 1212
+                },
+                {
+                    "x": 292,
+                    "y": 1212
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:18px'>Candidate 1: It is a guide to action which<br>ensures that the military always obeys<br>the commands of the party.<br>Candidate 2: It is to insure the troops<br>forever hearing the activity guidebook<br>that party direct.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Candidate 1: It is a guide to action which ensures that the military always obeys the commands of the party. Candidate 2: It is to insure the troops forever hearing the activity guidebook that party direct."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1243
+                },
+                {
+                    "x": 1250,
+                    "y": 1243
+                },
+                {
+                    "x": 1250,
+                    "y": 1462
+                },
+                {
+                    "x": 293,
+                    "y": 1462
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>Although they appear to be on the same subject, they<br>differ markedly in quality. For comparison, we pro-<br>vide three reference human translations of the same<br>sentence below.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Although they appear to be on the same subject, they differ markedly in quality. For comparison, we provide three reference human translations of the same sentence below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1493
+                },
+                {
+                    "x": 1250,
+                    "y": 1493
+                },
+                {
+                    "x": 1250,
+                    "y": 1657
+                },
+                {
+                    "x": 293,
+                    "y": 1657
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:16px'>Reference 1: It is a guide to action that<br>ensures that the military will forever<br>heed Party commands.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Reference 1: It is a guide to action that ensures that the military will forever heed Party commands."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1678
+                },
+                {
+                    "x": 1249,
+                    "y": 1678
+                },
+                {
+                    "x": 1249,
+                    "y": 1898
+                },
+                {
+                    "x": 292,
+                    "y": 1898
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:18px'>Reference 2: It is the guiding principle<br>which guarantees the military forces<br>always being under the command of the<br>Party.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "Reference 2: It is the guiding principle which guarantees the military forces always being under the command of the Party."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1915
+                },
+                {
+                    "x": 1249,
+                    "y": 1915
+                },
+                {
+                    "x": 1249,
+                    "y": 2084
+                },
+                {
+                    "x": 292,
+                    "y": 2084
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='23' style='font-size:18px'>Reference 3: It is the practical guide for<br>the army always to heed the directions<br>of the party.</p>",
+            "id": 23,
+            "page": 2,
+            "text": "Reference 3: It is the practical guide for the army always to heed the directions of the party."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2113
+                },
+                {
+                    "x": 1249,
+                    "y": 2113
+                },
+                {
+                    "x": 1249,
+                    "y": 2786
+                },
+                {
+                    "x": 291,
+                    "y": 2786
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:18px'>It is clear that the good translation, Candidate 1,<br>shares many words and phrases with these three ref-<br>erence translations, while Candidate 2 does not. We<br>will shortly quantify this notion of sharing in Sec-<br>tion 2.1. But first observe that Candidate 1 shares<br>\"It is a guide to action \" with Reference 1,<br>\"which\" with Reference 2, \" ensures that the<br>military\" with Reference 1, \"always\" with Ref-<br>erences 2 and 3, \"commands \" with Reference 1, and<br>finally \"of the party\" with Reference 2 (all ig-<br>noring capitalization). In contrast, Candidate 2 ex-<br>hibits far fewer matches, and their extent is less.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "It is clear that the good translation, Candidate 1, shares many words and phrases with these three reference translations, while Candidate 2 does not. We will shortly quantify this notion of sharing in Section 2.1. But first observe that Candidate 1 shares \"It is a guide to action \" with Reference 1, \"which\" with Reference 2, \" ensures that the military\" with Reference 1, \"always\" with References 2 and 3, \"commands \" with Reference 1, and finally \"of the party\" with Reference 2 (all ignoring capitalization). In contrast, Candidate 2 exhibits far fewer matches, and their extent is less."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2792
+                },
+                {
+                    "x": 1250,
+                    "y": 2792
+                },
+                {
+                    "x": 1250,
+                    "y": 3015
+                },
+                {
+                    "x": 291,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:18px'>It is clear that a program can rank Candidate 1<br>higher than Candidate 2 simply by comparing n-<br>gram matches between each candidate translation<br>and the reference translations. Experiments over</p>",
+            "id": 25,
+            "page": 2,
+            "text": "It is clear that a program can rank Candidate 1 higher than Candidate 2 simply by comparing ngram matches between each candidate translation and the reference translations. Experiments over"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 307
+                },
+                {
+                    "x": 2254,
+                    "y": 307
+                },
+                {
+                    "x": 2254,
+                    "y": 473
+                },
+                {
+                    "x": 1296,
+                    "y": 473
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:18px'>large collections of translations presented in Section<br>5 show that this ranking ability is a general phe-<br>nomenon, and not an artifact of a few toy examples.</p>",
+            "id": 26,
+            "page": 2,
+            "text": "large collections of translations presented in Section 5 show that this ranking ability is a general phenomenon, and not an artifact of a few toy examples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 480
+                },
+                {
+                    "x": 2254,
+                    "y": 480
+                },
+                {
+                    "x": 2254,
+                    "y": 870
+                },
+                {
+                    "x": 1297,
+                    "y": 870
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:18px'>The primary programming task for a BLEU imple-<br>mentor is to compare n-grams of the candidate with<br>the n-grams of the reference translation and count<br>the number of matches. These matches are position-<br>independent. The more the matches, the better the<br>candidate translation is. For simplicity, we first fo-<br>cus on computing unigram matches.</p>",
+            "id": 27,
+            "page": 2,
+            "text": "The primary programming task for a BLEU implementor is to compare n-grams of the candidate with the n-grams of the reference translation and count the number of matches. These matches are positionindependent. The more the matches, the better the candidate translation is. For simplicity, we first focus on computing unigram matches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 912
+                },
+                {
+                    "x": 1924,
+                    "y": 912
+                },
+                {
+                    "x": 1924,
+                    "y": 966
+                },
+                {
+                    "x": 1297,
+                    "y": 966
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:20px'>2.1 Modified n-gram precision</p>",
+            "id": 28,
+            "page": 2,
+            "text": "2.1 Modified n-gram precision"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 989
+                },
+                {
+                    "x": 2256,
+                    "y": 989
+                },
+                {
+                    "x": 2256,
+                    "y": 2054
+                },
+                {
+                    "x": 1298,
+                    "y": 2054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:18px'>The cornerstone of our metric is the familiar pre-<br>cision measure. To compute precision, one simply<br>counts up the number of candidate translation words<br>(unigrams) which occur in any reference translation<br>and then divides by the total number of words in<br>the candidate translation. Unfortunately, MT sys-<br>tems can overgenerate \"reasonable\" words, result-<br>ing in improbable, but high-precision, translations<br>like that of example 2 below. Intuitively the prob-<br>lem is clear: a reference word should be considered<br>exhausted after a matching candidate word is iden-<br>tified. We formalize this intuition as the modified<br>unigram precision. To compute this, one first counts<br>the maximum number of times a word occurs in any<br>single reference translation. Next, one clips the to-<br>tal count of each candidate word by its maximum<br>reference count, 2adds these clipped counts up, and<br>divides by the total (unclipped) number of candidate<br>words.</p>",
+            "id": 29,
+            "page": 2,
+            "text": "The cornerstone of our metric is the familiar precision measure. To compute precision, one simply counts up the number of candidate translation words (unigrams) which occur in any reference translation and then divides by the total number of words in the candidate translation. Unfortunately, MT systems can overgenerate \"reasonable\" words, resulting in improbable, but high-precision, translations like that of example 2 below. Intuitively the problem is clear: a reference word should be considered exhausted after a matching candidate word is identified. We formalize this intuition as the modified unigram precision. To compute this, one first counts the maximum number of times a word occurs in any single reference translation. Next, one clips the total count of each candidate word by its maximum reference count, 2adds these clipped counts up, and divides by the total (unclipped) number of candidate words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1300,
+                    "y": 2056
+                },
+                {
+                    "x": 1526,
+                    "y": 2056
+                },
+                {
+                    "x": 1526,
+                    "y": 2106
+                },
+                {
+                    "x": 1300,
+                    "y": 2106
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:22px'>Example 2.</p>",
+            "id": 30,
+            "page": 2,
+            "text": "Example 2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2118
+                },
+                {
+                    "x": 2188,
+                    "y": 2118
+                },
+                {
+                    "x": 2188,
+                    "y": 2391
+                },
+                {
+                    "x": 1296,
+                    "y": 2391
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:16px'>Candidate: the the the the the the the.<br>Reference 1: The cat is on the mat ·<br>Reference 2: There is a cat on the mat .<br>Modified Unigram Precision = 2/7.3</p>",
+            "id": 31,
+            "page": 2,
+            "text": "Candidate: the the the the the the the. Reference 1: The cat is on the mat · Reference 2: There is a cat on the mat . Modified Unigram Precision = 2/7.3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2420
+                },
+                {
+                    "x": 2254,
+                    "y": 2420
+                },
+                {
+                    "x": 2254,
+                    "y": 2755
+                },
+                {
+                    "x": 1297,
+                    "y": 2755
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:20px'>In Example 1, Candidate 1 achieves a modified<br>unigram precision of 17/18; whereas Candidate<br>2 achieves a modified unigram precision of 8/ 14.<br>Similarly, the modified unigram precision in Exam-<br>ple 2 is 2/7, even though its standard unigram pre-<br>cision is 7/7.</p>",
+            "id": 32,
+            "page": 2,
+            "text": "In Example 1, Candidate 1 achieves a modified unigram precision of 17/18; whereas Candidate 2 achieves a modified unigram precision of 8/ 14. Similarly, the modified unigram precision in Example 2 is 2/7, even though its standard unigram precision is 7/7."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 2798
+                },
+                {
+                    "x": 2255,
+                    "y": 2798
+                },
+                {
+                    "x": 2255,
+                    "y": 2922
+                },
+                {
+                    "x": 1298,
+                    "y": 2922
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:14px'>2Countclip = min(Count,Max_Ref_Counz). In other words,<br>one truncates each word's count, if necessary, to not exceed the<br>largest count observed in any single reference for that word.</p>",
+            "id": 33,
+            "page": 2,
+            "text": "2Countclip = min(Count,Max_Ref_Counz). In other words, one truncates each word's count, if necessary, to not exceed the largest count observed in any single reference for that word."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 2930
+                },
+                {
+                    "x": 2253,
+                    "y": 2930
+                },
+                {
+                    "x": 2253,
+                    "y": 3010
+                },
+                {
+                    "x": 1301,
+                    "y": 3010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='34' style='font-size:14px'>3 As a guide to the eye, we have underlined the important<br>words for computing modified precision.</p>",
+            "id": 34,
+            "page": 2,
+            "text": "3 As a guide to the eye, we have underlined the important words for computing modified precision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 305
+                },
+                {
+                    "x": 1250,
+                    "y": 305
+                },
+                {
+                    "x": 1250,
+                    "y": 1212
+                },
+                {
+                    "x": 290,
+                    "y": 1212
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>Modified n-gram precision is computed similarly<br>for any n: all candidate n-gram counts and their<br>corresponding maximum reference counts are col-<br>lected. The candidate counts are clipped by their<br>corresponding reference maximum value, summed,<br>and divided by the total number of candidate n-<br>grams. In Example 1, Candidate 1 achieves a mod-<br>ified bigram precision of 10/17, whereas the lower<br>quality Candidate 2 achieves a modified bigram pre-<br>cision of 1/13. In Example 2, the (implausible) can-<br>didate achieves a modified bigram precision of 0.<br>This sort of modified n-gram precision scoring cap-<br>tures two aspects of translation: adequacy and flu-<br>ency. A translation using the same words (1-grams)<br>as in the references tends to satisfy adequacy. The<br>4<br>longer n-gram matches account for fluency.</p>",
+            "id": 35,
+            "page": 3,
+            "text": "Modified n-gram precision is computed similarly for any n: all candidate n-gram counts and their corresponding maximum reference counts are collected. The candidate counts are clipped by their corresponding reference maximum value, summed, and divided by the total number of candidate ngrams. In Example 1, Candidate 1 achieves a modified bigram precision of 10/17, whereas the lower quality Candidate 2 achieves a modified bigram precision of 1/13. In Example 2, the (implausible) candidate achieves a modified bigram precision of 0. This sort of modified n-gram precision scoring captures two aspects of translation: adequacy and fluency. A translation using the same words (1-grams) as in the references tends to satisfy adequacy. The 4 longer n-gram matches account for fluency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1293
+                },
+                {
+                    "x": 1202,
+                    "y": 1293
+                },
+                {
+                    "x": 1202,
+                    "y": 1404
+                },
+                {
+                    "x": 291,
+                    "y": 1404
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>2.1.1 Modified n-gram precision on blocks of<br>text</p>",
+            "id": 36,
+            "page": 3,
+            "text": "2.1.1 Modified n-gram precision on blocks of text"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1448
+                },
+                {
+                    "x": 1249,
+                    "y": 1448
+                },
+                {
+                    "x": 1249,
+                    "y": 2184
+                },
+                {
+                    "x": 291,
+                    "y": 2184
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>How do we compute modified n-gram precision<br>on a multi-sentence test set? Although one typically<br>evaluates MT systems on a corpus of entire docu-<br>ments, our basic unit of evaluation is the sentence.<br>A source sentence may translate to many target sen-<br>tences, in which case we abuse terminology and re-<br>fer to the corresponding target sentences as a \"sen-<br>tence.\" We first compute the n-gram matches sen-<br>tence by sentence. Next, we add the clipped n-gram<br>counts for all the candidate sentences and divide by<br>the number of candidate n-grams in the test corpus<br>to compute a modified precision score, Pn, for the<br>entire test corpus.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "How do we compute modified n-gram precision on a multi-sentence test set? Although one typically evaluates MT systems on a corpus of entire documents, our basic unit of evaluation is the sentence. A source sentence may translate to many target sentences, in which case we abuse terminology and refer to the corresponding target sentences as a \"sentence.\" We first compute the n-gram matches sentence by sentence. Next, we add the clipped n-gram counts for all the candidate sentences and divide by the number of candidate n-grams in the test corpus to compute a modified precision score, Pn, for the entire test corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2632
+                },
+                {
+                    "x": 1252,
+                    "y": 2632
+                },
+                {
+                    "x": 1252,
+                    "y": 3013
+                },
+                {
+                    "x": 291,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:14px'>4BLEU only needs to match human judgment when averaged<br>over a test corpus; scores on individual sentences will often vary<br>from human judgments. For example, a system which produces<br>the fluent phrase \"East Asian economy\" is penalized heavily on<br>the longer n-gram precisions if all the references happen to read<br>\"economy of East Asia.\" The key to BLEU's success is that<br>all systems are treated similarly and multiple human translators<br>with different styles are used, so this effect cancels out in com-<br>parisons between systems.</p>",
+            "id": 38,
+            "page": 3,
+            "text": "4BLEU only needs to match human judgment when averaged over a test corpus; scores on individual sentences will often vary from human judgments. For example, a system which produces the fluent phrase \"East Asian economy\" is penalized heavily on the longer n-gram precisions if all the references happen to read \"economy of East Asia.\" The key to BLEU's success is that all systems are treated similarly and multiple human translators with different styles are used, so this effect cancels out in comparisons between systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 307
+                },
+                {
+                    "x": 2165,
+                    "y": 307
+                },
+                {
+                    "x": 2165,
+                    "y": 415
+                },
+                {
+                    "x": 1296,
+                    "y": 415
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:22px'>2.1.2 Ranking systems using only modified<br>n-gram precision</p>",
+            "id": 39,
+            "page": 3,
+            "text": "2.1.2 Ranking systems using only modified n-gram precision"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1295,
+                    "y": 436
+                },
+                {
+                    "x": 2255,
+                    "y": 436
+                },
+                {
+                    "x": 2255,
+                    "y": 886
+                },
+                {
+                    "x": 1295,
+                    "y": 886
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:18px'>To verify that modified n-gram precision distin-<br>guishes between very good translations and bad<br>translations, we computed the modified precision<br>numbers on the output of a (good) human transla-<br>tor and a standard (poor) machine translation system<br>using 4 reference translations for each of 127 source<br>sentences. The average precision results are shown<br>in Figure 1.</p>",
+            "id": 40,
+            "page": 3,
+            "text": "To verify that modified n-gram precision distinguishes between very good translations and bad translations, we computed the modified precision numbers on the output of a (good) human translator and a standard (poor) machine translation system using 4 reference translations for each of 127 source sentences. The average precision results are shown in Figure 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1339,
+                    "y": 969
+                },
+                {
+                    "x": 2211,
+                    "y": 969
+                },
+                {
+                    "x": 2211,
+                    "y": 1022
+                },
+                {
+                    "x": 1339,
+                    "y": 1022
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='41' style='font-size:20px'>Figure 1: Distinguishing Human from Machine</caption>",
+            "id": 41,
+            "page": 3,
+            "text": "Figure 1: Distinguishing Human from Machine"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1293,
+                    "y": 1032
+                },
+                {
+                    "x": 2253,
+                    "y": 1032
+                },
+                {
+                    "x": 2253,
+                    "y": 1525
+                },
+                {
+                    "x": 1293,
+                    "y": 1525
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='42' style='font-size:14px' alt=\"0.9\n0.8\n0.7\nPrecision\n0.6\n0.5\n0.4\n0.3\n0.2\n0.1\n0\n1 2 3 4\nPhrase (n-gram) Length\" data-coord=\"top-left:(1293,1032); bottom-right:(2253,1525)\" /></figure>",
+            "id": 42,
+            "page": 3,
+            "text": "0.9 0.8 0.7 Precision 0.6 0.5 0.4 0.3 0.2 0.1 0 1 2 3 4 Phrase (n-gram) Length"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 1599
+                },
+                {
+                    "x": 2256,
+                    "y": 1599
+                },
+                {
+                    "x": 2256,
+                    "y": 2329
+                },
+                {
+                    "x": 1296,
+                    "y": 2329
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>The strong signal differentiating human (high pre-<br>cision) from machine (low precision) is striking.<br>The difference becomes stronger as we go from un-<br>igram precision to 4-gram precision. It appears that<br>any single n-gram precision score can distinguish<br>between a good translation and a bad translation.<br>To be useful, however, the metric must also reliably<br>distinguish between translations that do not differ SO<br>greatly in quality. Furthermore, it must distinguish<br>between two human translations of differing quality.<br>This latter requirement ensures the continued valid-<br>ity of the metric as MT approaches human transla-<br>tion quality.</p>",
+            "id": 43,
+            "page": 3,
+            "text": "The strong signal differentiating human (high precision) from machine (low precision) is striking. The difference becomes stronger as we go from unigram precision to 4-gram precision. It appears that any single n-gram precision score can distinguish between a good translation and a bad translation. To be useful, however, the metric must also reliably distinguish between translations that do not differ SO greatly in quality. Furthermore, it must distinguish between two human translations of differing quality. This latter requirement ensures the continued validity of the metric as MT approaches human translation quality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2337
+                },
+                {
+                    "x": 2256,
+                    "y": 2337
+                },
+                {
+                    "x": 2256,
+                    "y": 2952
+                },
+                {
+                    "x": 1296,
+                    "y": 2952
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='44' style='font-size:18px'>To this end, we obtained a human translation<br>by someone lacking native proficiency in both the<br>source (Chinese) and the target language (English).<br>For comparison, we acquired human translations of<br>the same documents by a native English speaker. We<br>also obtained machine translations by three commer-<br>cial systems. These five \"systems\" two humans<br>and three machines - are scored against two refer-<br>ence professional human translations. The average<br>modified n-gram precision results are shown in Fig-<br>ure 2.</p>",
+            "id": 44,
+            "page": 3,
+            "text": "To this end, we obtained a human translation by someone lacking native proficiency in both the source (Chinese) and the target language (English). For comparison, we acquired human translations of the same documents by a native English speaker. We also obtained machine translations by three commercial systems. These five \"systems\" two humans and three machines - are scored against two reference professional human translations. The average modified n-gram precision results are shown in Figure 2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1344,
+                    "y": 2961
+                },
+                {
+                    "x": 2252,
+                    "y": 2961
+                },
+                {
+                    "x": 2252,
+                    "y": 3013
+                },
+                {
+                    "x": 1344,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:18px'>Each of these n-gram statistics implies the same</p>",
+            "id": 45,
+            "page": 3,
+            "text": "Each of these n-gram statistics implies the same"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 366,
+                    "y": 335
+                },
+                {
+                    "x": 1173,
+                    "y": 335
+                },
+                {
+                    "x": 1173,
+                    "y": 384
+                },
+                {
+                    "x": 366,
+                    "y": 384
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='46' style='font-size:20px'>Figure 2: Machine and Human Translations</caption>",
+            "id": 46,
+            "page": 4,
+            "text": "Figure 2: Machine and Human Translations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 395
+                },
+                {
+                    "x": 1253,
+                    "y": 395
+                },
+                {
+                    "x": 1253,
+                    "y": 901
+                },
+                {
+                    "x": 290,
+                    "y": 901
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='47' style='font-size:14px' alt=\"0.7\n0.6\n0.5\nPrecision\n0.4\n0.3\n0.2\n0.1\n0\n1 2 3 4\" data-coord=\"top-left:(290,395); bottom-right:(1253,901)\" /></figure>",
+            "id": 47,
+            "page": 4,
+            "text": "0.7 0.6 0.5 Precision 0.4 0.3 0.2 0.1 0 1 2 3 4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 586,
+                    "y": 915
+                },
+                {
+                    "x": 1066,
+                    "y": 915
+                },
+                {
+                    "x": 1066,
+                    "y": 1041
+                },
+                {
+                    "x": 586,
+                    "y": 1041
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='48' style='font-size:14px'>Phrase (n -gram) Length<br>■ H2 H1 S3 S2 □ S1</caption>",
+            "id": 48,
+            "page": 4,
+            "text": "Phrase (n -gram) Length ■ H2 H1 S3 S2 □ S1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1150
+                },
+                {
+                    "x": 1249,
+                    "y": 1150
+                },
+                {
+                    "x": 1249,
+                    "y": 1656
+                },
+                {
+                    "x": 291,
+                    "y": 1656
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:18px'>ranking: H2 (Human-2) is better than H1 (Human-<br>1), and there is a big drop in quality between H1 and<br>S3 (Machine/System-3). S3 appears better than S2<br>which in turn appears better than S1. Remarkably,<br>this is the same rank order assigned to these \"sys-<br>tems\" by human judges, as we discuss later. While<br>there seems to be ample signal in any single n-gram<br>precision, it is more robust to combine all these sig-<br>nals into a single number metric.</p>",
+            "id": 49,
+            "page": 4,
+            "text": "ranking: H2 (Human-2) is better than H1 (Human1), and there is a big drop in quality between H1 and S3 (Machine/System-3). S3 appears better than S2 which in turn appears better than S1. Remarkably, this is the same rank order assigned to these \"systems\" by human judges, as we discuss later. While there seems to be ample signal in any single n-gram precision, it is more robust to combine all these signals into a single number metric."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1691
+                },
+                {
+                    "x": 1064,
+                    "y": 1691
+                },
+                {
+                    "x": 1064,
+                    "y": 1800
+                },
+                {
+                    "x": 292,
+                    "y": 1800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:22px'>2.1.3 Combining the modified n-gram<br>precisions</p>",
+            "id": 50,
+            "page": 4,
+            "text": "2.1.3 Combining the modified n-gram precisions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1817
+                },
+                {
+                    "x": 1248,
+                    "y": 1817
+                },
+                {
+                    "x": 1248,
+                    "y": 2491
+                },
+                {
+                    "x": 291,
+                    "y": 2491
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:20px'>How should we combine the modified precisions<br>for the various n-gram sizes? A weighted linear av-<br>erage of the modified precisions resulted in encour-<br>aging results for the 5 systems. However, as can be<br>seen in Figure 2, the modified n-gram precision de-<br>cays roughly exponentially with n: the modified un-<br>igram precision is much larger than the modified bi-<br>gram precision which in turn is much bigger than the<br>modified trigram precision. A reasonable averag-<br>ing scheme must take this exponential decay into ac-<br>count; a weighted average of the logarithm of modi-<br>fied precisions satisifies this requirement.</p>",
+            "id": 51,
+            "page": 4,
+            "text": "How should we combine the modified precisions for the various n-gram sizes? A weighted linear average of the modified precisions resulted in encouraging results for the 5 systems. However, as can be seen in Figure 2, the modified n-gram precision decays roughly exponentially with n: the modified unigram precision is much larger than the modified bigram precision which in turn is much bigger than the modified trigram precision. A reasonable averaging scheme must take this exponential decay into account; a weighted average of the logarithm of modified precisions satisifies this requirement."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2497
+                },
+                {
+                    "x": 1249,
+                    "y": 2497
+                },
+                {
+                    "x": 1249,
+                    "y": 2719
+                },
+                {
+                    "x": 291,
+                    "y": 2719
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='52' style='font-size:18px'>BLEU uses the average logarithm with uniform<br>weights, which is equivalent to using the geometric<br>mean of the modified n-gram precisions. 5,6 Experi-<br>mentally, we obtain the best correlation with mono-</p>",
+            "id": 52,
+            "page": 4,
+            "text": "BLEU uses the average logarithm with uniform weights, which is equivalent to using the geometric mean of the modified n-gram precisions. 5,6 Experimentally, we obtain the best correlation with mono-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2754
+                },
+                {
+                    "x": 1250,
+                    "y": 2754
+                },
+                {
+                    "x": 1250,
+                    "y": 2881
+                },
+                {
+                    "x": 291,
+                    "y": 2881
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:14px'>5The geometric average is harsh if any of the modified pre-<br>cisions vanish, but this should be an extremely rare event in test<br>corpora of reasonable size (for Nmax ≤ 4).</p>",
+            "id": 53,
+            "page": 4,
+            "text": "5The geometric average is harsh if any of the modified precisions vanish, but this should be an extremely rare event in test corpora of reasonable size (for Nmax ≤ 4)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2885
+                },
+                {
+                    "x": 1251,
+                    "y": 2885
+                },
+                {
+                    "x": 1251,
+                    "y": 3011
+                },
+                {
+                    "x": 292,
+                    "y": 3011
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:16px'>6Using the geometric average also yields slightly stronger<br>correlation with human judgments than our best results using<br>an arithmetic average.</p>",
+            "id": 54,
+            "page": 4,
+            "text": "6Using the geometric average also yields slightly stronger correlation with human judgments than our best results using an arithmetic average."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 308
+                },
+                {
+                    "x": 2254,
+                    "y": 308
+                },
+                {
+                    "x": 2254,
+                    "y": 473
+                },
+                {
+                    "x": 1296,
+                    "y": 473
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='55' style='font-size:20px'>lingual human judgments using a maximum n-gram<br>order of 4, although 3-grams and 5-grams give com-<br>parable results.</p>",
+            "id": 55,
+            "page": 4,
+            "text": "lingual human judgments using a maximum n-gram order of 4, although 3-grams and 5-grams give comparable results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 517
+                },
+                {
+                    "x": 1715,
+                    "y": 517
+                },
+                {
+                    "x": 1715,
+                    "y": 571
+                },
+                {
+                    "x": 1298,
+                    "y": 571
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:22px'>2.2 Sentence length</p>",
+            "id": 56,
+            "page": 4,
+            "text": "2.2 Sentence length"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 593
+                },
+                {
+                    "x": 2256,
+                    "y": 593
+                },
+                {
+                    "x": 2256,
+                    "y": 1381
+                },
+                {
+                    "x": 1297,
+                    "y": 1381
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:18px'>A candidate translation should be neither too long<br>nor too short, and an evaluation metric should en-<br>force this. To some extent, the n-gram precision al-<br>ready accomplishes this. N-gram precision penal-<br>izes spurious words in the candidate that do not ap-<br>pear in any of the reference translations. Addition-<br>ally, modified precision is penalized if a word oc-<br>curs more frequently in a candidate translation than<br>its maximum reference count. This rewards using<br>a word as many times as warranted and penalizes<br>using a word more times than it occurs in any of<br>the references. However, modified n-gram precision<br>alone fails to enforce the proper translation length,<br>as is illustrated in the short, absurd example below.</p>",
+            "id": 57,
+            "page": 4,
+            "text": "A candidate translation should be neither too long nor too short, and an evaluation metric should enforce this. To some extent, the n-gram precision already accomplishes this. N-gram precision penalizes spurious words in the candidate that do not appear in any of the reference translations. Additionally, modified precision is penalized if a word occurs more frequently in a candidate translation than its maximum reference count. This rewards using a word as many times as warranted and penalizes using a word more times than it occurs in any of the references. However, modified n-gram precision alone fails to enforce the proper translation length, as is illustrated in the short, absurd example below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1302,
+                    "y": 1388
+                },
+                {
+                    "x": 1528,
+                    "y": 1388
+                },
+                {
+                    "x": 1528,
+                    "y": 1436
+                },
+                {
+                    "x": 1302,
+                    "y": 1436
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:22px'>Example 3:</p>",
+            "id": 58,
+            "page": 4,
+            "text": "Example 3:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 1460
+                },
+                {
+                    "x": 1661,
+                    "y": 1460
+                },
+                {
+                    "x": 1661,
+                    "y": 1506
+                },
+                {
+                    "x": 1301,
+                    "y": 1506
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='59' style='font-size:18px'>Candidate: of the</p>",
+            "id": 59,
+            "page": 4,
+            "text": "Candidate: of the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1494
+                },
+                {
+                    "x": 2255,
+                    "y": 1494
+                },
+                {
+                    "x": 2255,
+                    "y": 1939
+                },
+                {
+                    "x": 1297,
+                    "y": 1939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:18px'>Reference 1: It is a guide to action that<br>ensures that the military will forever<br>heed Party commands.<br>Reference 2: It is the guiding principle<br>which guarantees the military forces<br>always being under the command of the<br>Party.</p>",
+            "id": 60,
+            "page": 4,
+            "text": "Reference 1: It is a guide to action that ensures that the military will forever heed Party commands. Reference 2: It is the guiding principle which guarantees the military forces always being under the command of the Party."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1957
+                },
+                {
+                    "x": 2253,
+                    "y": 1957
+                },
+                {
+                    "x": 2253,
+                    "y": 2123
+                },
+                {
+                    "x": 1298,
+                    "y": 2123
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:16px'>Reference 3: It is the practical guide for<br>the army always to heed the directions<br>of the party.</p>",
+            "id": 61,
+            "page": 4,
+            "text": "Reference 3: It is the practical guide for the army always to heed the directions of the party."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2155
+                },
+                {
+                    "x": 2254,
+                    "y": 2155
+                },
+                {
+                    "x": 2254,
+                    "y": 2378
+                },
+                {
+                    "x": 1297,
+                    "y": 2378
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:18px'>Because this candidate is SO short compared to<br>the proper length, one expects to find inflated pre-<br>cisions: the modified unigram precision is 2/2, and<br>the modified bigram precision is 1/1.</p>",
+            "id": 62,
+            "page": 4,
+            "text": "Because this candidate is SO short compared to the proper length, one expects to find inflated precisions: the modified unigram precision is 2/2, and the modified bigram precision is 1/1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2415
+                },
+                {
+                    "x": 1887,
+                    "y": 2415
+                },
+                {
+                    "x": 1887,
+                    "y": 2466
+                },
+                {
+                    "x": 1299,
+                    "y": 2466
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:20px'>2.2.1 The trouble with recall</p>",
+            "id": 63,
+            "page": 4,
+            "text": "2.2.1 The trouble with recall"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2487
+                },
+                {
+                    "x": 2254,
+                    "y": 2487
+                },
+                {
+                    "x": 2254,
+                    "y": 2990
+                },
+                {
+                    "x": 1297,
+                    "y": 2990
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:18px'>Traditionally, precision has been paired with<br>recall to overcome such length-related problems.<br>However, BLEU considers multiple reference trans-<br>lations, each of which may use a different word<br>choice to translate the same source word. Further-<br>more, a good candidate translation will only use (re-<br>call) one of these possible choices, but not all. In-<br>deed, recalling all choices leads to a bad translation.<br>Here is an example.</p>",
+            "id": 64,
+            "page": 4,
+            "text": "Traditionally, precision has been paired with recall to overcome such length-related problems. However, BLEU considers multiple reference translations, each of which may use a different word choice to translate the same source word. Furthermore, a good candidate translation will only use (recall) one of these possible choices, but not all. Indeed, recalling all choices leads to a bad translation. Here is an example."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 305
+                },
+                {
+                    "x": 523,
+                    "y": 305
+                },
+                {
+                    "x": 523,
+                    "y": 359
+                },
+                {
+                    "x": 294,
+                    "y": 359
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:20px'>Example 4:</p>",
+            "id": 65,
+            "page": 5,
+            "text": "Example 4:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 373
+                },
+                {
+                    "x": 1246,
+                    "y": 373
+                },
+                {
+                    "x": 1246,
+                    "y": 754
+                },
+                {
+                    "x": 291,
+                    "y": 754
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='66' style='font-size:18px'>Candidate 1: I always invariably perpetu-<br>ally do.<br>Candidate 2: I always do.<br>Reference 1: I always do.<br>Reference 2: I invariably do.<br>Reference 3: I perpetually do.</p>",
+            "id": 66,
+            "page": 5,
+            "text": "Candidate 1: I always invariably perpetually do. Candidate 2: I always do. Reference 1: I always do. Reference 2: I invariably do. Reference 3: I perpetually do."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 775
+                },
+                {
+                    "x": 1250,
+                    "y": 775
+                },
+                {
+                    "x": 1250,
+                    "y": 1339
+                },
+                {
+                    "x": 291,
+                    "y": 1339
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:16px'>The first candidate recalls more words from the<br>references, but is obviously a poorer translation than<br>the second candidate. Thus, naive recall computed<br>over the set of all reference words is not a good<br>measure. Admittedly, one could align the refer-<br>ence translations to discover synonymous words and<br>compute recall on concepts rather than words. But,<br>given that reference translations vary in length and<br>differ in word order and syntax, such a computation<br>is complicated.</p>",
+            "id": 67,
+            "page": 5,
+            "text": "The first candidate recalls more words from the references, but is obviously a poorer translation than the second candidate. Thus, naive recall computed over the set of all reference words is not a good measure. Admittedly, one could align the reference translations to discover synonymous words and compute recall on concepts rather than words. But, given that reference translations vary in length and differ in word order and syntax, such a computation is complicated."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1369
+                },
+                {
+                    "x": 910,
+                    "y": 1369
+                },
+                {
+                    "x": 910,
+                    "y": 1422
+                },
+                {
+                    "x": 292,
+                    "y": 1422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='68' style='font-size:20px'>2.2.2 Sentence brevity penalty</p>",
+            "id": 68,
+            "page": 5,
+            "text": "2.2.2 Sentence brevity penalty"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1436
+                },
+                {
+                    "x": 1249,
+                    "y": 1436
+                },
+                {
+                    "x": 1249,
+                    "y": 2111
+                },
+                {
+                    "x": 291,
+                    "y": 2111
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:18px'>Candidate translations longer than their refer-<br>ences are already penalized by the modified n-gram<br>precision measure: there is no need to penalize them<br>again. Consequently, we introduce a multiplicative<br>brevity penalty factor. With this brevity penalty in<br>place, a high-scoring candidate translation must now<br>match the reference translations in length, in word<br>choice, and in word order. Note that neither this<br>brevity penalty nor the modified n-gram precision<br>length effect directly considers the source length; in-<br>stead, they consider the range of reference transla-<br>tion lengths in the target language.</p>",
+            "id": 69,
+            "page": 5,
+            "text": "Candidate translations longer than their references are already penalized by the modified n-gram precision measure: there is no need to penalize them again. Consequently, we introduce a multiplicative brevity penalty factor. With this brevity penalty in place, a high-scoring candidate translation must now match the reference translations in length, in word choice, and in word order. Note that neither this brevity penalty nor the modified n-gram precision length effect directly considers the source length; instead, they consider the range of reference translation lengths in the target language."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2115
+                },
+                {
+                    "x": 1251,
+                    "y": 2115
+                },
+                {
+                    "x": 1251,
+                    "y": 2506
+                },
+                {
+                    "x": 291,
+                    "y": 2506
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:16px'>We wish to make the brevity penalty 1.0 when the<br>candidate's length is the same as any reference trans-<br>lation's length. For example, if there are three ref-<br>erences with lengths 12, 15, and 17 words and the<br>candidate translation is a terse 12 words, we want<br>the brevity penalty to be 1. We call the closest refer-<br>ence sentence length the \"best match length.\"</p>",
+            "id": 70,
+            "page": 5,
+            "text": "We wish to make the brevity penalty 1.0 when the candidate's length is the same as any reference translation's length. For example, if there are three references with lengths 12, 15, and 17 words and the candidate translation is a terse 12 words, we want the brevity penalty to be 1. We call the closest reference sentence length the \"best match length.\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2511
+                },
+                {
+                    "x": 1249,
+                    "y": 2511
+                },
+                {
+                    "x": 1249,
+                    "y": 3016
+                },
+                {
+                    "x": 292,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:16px'>One consideration remains: if we computed the<br>brevity penalty sentence by sentence and averaged<br>the penalties, then length deviations on short sen-<br>tences would be punished harshly. Instead, we com-<br>pute the brevity penalty over the entire corpus to al-<br>low some freedom at the sentence level. We first<br>compute the test corpus' effective reference length,<br>r, by summing the best match lengths for each can-<br>didate sentence in the corpus. We choose the brevity</p>",
+            "id": 71,
+            "page": 5,
+            "text": "One consideration remains: if we computed the brevity penalty sentence by sentence and averaged the penalties, then length deviations on short sentences would be punished harshly. Instead, we compute the brevity penalty over the entire corpus to allow some freedom at the sentence level. We first compute the test corpus' effective reference length, r, by summing the best match lengths for each candidate sentence in the corpus. We choose the brevity"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 308
+                },
+                {
+                    "x": 2255,
+                    "y": 308
+                },
+                {
+                    "x": 2255,
+                    "y": 417
+                },
+                {
+                    "x": 1297,
+                    "y": 417
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:16px'>penalty to be a decaying exponential in r/c, where c<br>is the total length of the candidate translation corpus.</p>",
+            "id": 72,
+            "page": 5,
+            "text": "penalty to be a decaying exponential in r/c, where c is the total length of the candidate translation corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 454
+                },
+                {
+                    "x": 1657,
+                    "y": 454
+                },
+                {
+                    "x": 1657,
+                    "y": 504
+                },
+                {
+                    "x": 1296,
+                    "y": 504
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:18px'>2.3 BLEU details</p>",
+            "id": 73,
+            "page": 5,
+            "text": "2.3 BLEU details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 527
+                },
+                {
+                    "x": 2254,
+                    "y": 527
+                },
+                {
+                    "x": 2254,
+                    "y": 805
+                },
+                {
+                    "x": 1296,
+                    "y": 805
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='74' style='font-size:18px'>We take the geometric mean of the test corpus'<br>modified precision scores and then multiply the re-<br>sult by an exponential brevity penalty factor. Cur-<br>rently, case folding is the only text normalization<br>performed before computing the precision.</p>",
+            "id": 74,
+            "page": 5,
+            "text": "We take the geometric mean of the test corpus' modified precision scores and then multiply the result by an exponential brevity penalty factor. Currently, case folding is the only text normalization performed before computing the precision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 813
+                },
+                {
+                    "x": 2255,
+                    "y": 813
+                },
+                {
+                    "x": 2255,
+                    "y": 977
+                },
+                {
+                    "x": 1296,
+                    "y": 977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='75' style='font-size:18px'>We first compute the geometric average of the<br>modified n-gram precisions, Pn, using n-grams up to<br>length N and positive weights Wn summing to one.</p>",
+            "id": 75,
+            "page": 5,
+            "text": "We first compute the geometric average of the modified n-gram precisions, Pn, using n-grams up to length N and positive weights Wn summing to one."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 983
+                },
+                {
+                    "x": 2251,
+                    "y": 983
+                },
+                {
+                    "x": 2251,
+                    "y": 1145
+                },
+                {
+                    "x": 1296,
+                    "y": 1145
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:16px'>Next, let c be the length of the candidate transla-<br>tion and r be the effective reference corpus length.<br>We compute the brevity penalty BP,</p>",
+            "id": 76,
+            "page": 5,
+            "text": "Next, let c be the length of the candidate translation and r be the effective reference corpus length. We compute the brevity penalty BP,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1345,
+                    "y": 1326
+                },
+                {
+                    "x": 1458,
+                    "y": 1326
+                },
+                {
+                    "x": 1458,
+                    "y": 1373
+                },
+                {
+                    "x": 1345,
+                    "y": 1373
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>Then,</p>",
+            "id": 77,
+            "page": 5,
+            "text": "Then,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1574
+                },
+                {
+                    "x": 2251,
+                    "y": 1574
+                },
+                {
+                    "x": 2251,
+                    "y": 1685
+                },
+                {
+                    "x": 1298,
+                    "y": 1685
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:18px'>The ranking behavior is more immediately apparent<br>in the log domain,</p>",
+            "id": 78,
+            "page": 5,
+            "text": "The ranking behavior is more immediately apparent in the log domain,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1876
+                },
+                {
+                    "x": 2253,
+                    "y": 1876
+                },
+                {
+                    "x": 2253,
+                    "y": 1983
+                },
+                {
+                    "x": 1298,
+                    "y": 1983
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:14px'>In our baseline, we use N = 4 and uniform weights<br>Wn = 1/N.</p>",
+            "id": 79,
+            "page": 5,
+            "text": "In our baseline, we use N = 4 and uniform weights Wn = 1/N."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 2027
+                },
+                {
+                    "x": 1841,
+                    "y": 2027
+                },
+                {
+                    "x": 1841,
+                    "y": 2079
+                },
+                {
+                    "x": 1298,
+                    "y": 2079
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:20px'>3 The BLEU Evaluation</p>",
+            "id": 80,
+            "page": 5,
+            "text": "3 The BLEU Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2113
+                },
+                {
+                    "x": 2256,
+                    "y": 2113
+                },
+                {
+                    "x": 2256,
+                    "y": 2899
+                },
+                {
+                    "x": 1297,
+                    "y": 2899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:14px'>The BLEU metric ranges from 0 to 1. Few transla-<br>tions will attain a score of 1 unless they are identi-<br>cal to a reference translation. For this reason, even<br>a human translator will not necessarily score 1. It<br>is important to note that the more reference trans-<br>lations per sentence there are, the higher the score<br>is. Thus, one must be cautious making even \"rough\"<br>comparisons on evaluations with different numbers<br>of reference translations: on a test corpus of about<br>500 sentences (40 general news stories), a human<br>translator scored 0.3468 against four references and<br>scored 0.2571 against two references. Table 1 shows<br>the BLEU scores of the 5 systems against two refer-<br>ences on this test corpus.</p>",
+            "id": 81,
+            "page": 5,
+            "text": "The BLEU metric ranges from 0 to 1. Few translations will attain a score of 1 unless they are identical to a reference translation. For this reason, even a human translator will not necessarily score 1. It is important to note that the more reference translations per sentence there are, the higher the score is. Thus, one must be cautious making even \"rough\" comparisons on evaluations with different numbers of reference translations: on a test corpus of about 500 sentences (40 general news stories), a human translator scored 0.3468 against four references and scored 0.2571 against two references. Table 1 shows the BLEU scores of the 5 systems against two references on this test corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2906
+                },
+                {
+                    "x": 2252,
+                    "y": 2906
+                },
+                {
+                    "x": 2252,
+                    "y": 3013
+                },
+                {
+                    "x": 1297,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:16px'>The MT systems S2 and S3 are very close in this<br>metric. Hence, several questions arise:</p>",
+            "id": 82,
+            "page": 5,
+            "text": "The MT systems S2 and S3 are very close in this metric. Hence, several questions arise:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 475,
+                    "y": 334
+                },
+                {
+                    "x": 1069,
+                    "y": 334
+                },
+                {
+                    "x": 1069,
+                    "y": 382
+                },
+                {
+                    "x": 475,
+                    "y": 382
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='83' style='font-size:16px'>Table 1: BLEU on 500 sentences</caption>",
+            "id": 83,
+            "page": 6,
+            "text": "Table 1: BLEU on 500 sentences"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 402
+                },
+                {
+                    "x": 1182,
+                    "y": 402
+                },
+                {
+                    "x": 1182,
+                    "y": 529
+                },
+                {
+                    "x": 294,
+                    "y": 529
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='84' style='font-size:20px'><tr><td>S1</td><td>S2</td><td>S3</td><td>H1</td><td>H2</td></tr><tr><td>0.0527</td><td>0.0829</td><td>0.0930</td><td>0.1934</td><td>0.2571</td></tr></table>",
+            "id": 84,
+            "page": 6,
+            "text": "S1 S2 S3 H1 H2  0.0527 0.0829 0.0930 0.1934"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 409,
+                    "y": 607
+                },
+                {
+                    "x": 1130,
+                    "y": 607
+                },
+                {
+                    "x": 1130,
+                    "y": 656
+                },
+                {
+                    "x": 409,
+                    "y": 656
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='85' style='font-size:16px'>Table 2: Paired t-statistics on 20 blocks</caption>",
+            "id": 85,
+            "page": 6,
+            "text": "Table 2: Paired t-statistics on 20 blocks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 675
+                },
+                {
+                    "x": 1246,
+                    "y": 675
+                },
+                {
+                    "x": 1246,
+                    "y": 915
+                },
+                {
+                    "x": 293,
+                    "y": 915
+                }
+            ],
+            "category": "table",
+            "html": "<table id='86' style='font-size:16px'><tr><td></td><td>S1</td><td>S2</td><td>S3</td><td>H1</td><td>H2</td></tr><tr><td>Mean</td><td>0.051</td><td>0.081</td><td>0.090</td><td>0.192</td><td>0.256</td></tr><tr><td>StdDev</td><td>0.017</td><td>0.025</td><td>0.020</td><td>0.030</td><td>0.039</td></tr><tr><td>t</td><td>-</td><td>6</td><td>3.4</td><td>24</td><td>11</td></tr></table>",
+            "id": 86,
+            "page": 6,
+            "text": "S1 S2 S3 H1 H2  Mean 0.051 0.081 0.090 0.192 0.256  StdDev 0.017 0.025 0.020 0.030 0.039  t - 6 3.4 24"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 341,
+                    "y": 998
+                },
+                {
+                    "x": 1249,
+                    "y": 998
+                },
+                {
+                    "x": 1249,
+                    "y": 1343
+                },
+                {
+                    "x": 341,
+                    "y": 1343
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:14px'>● Is the difference in BLEU metric reliable?<br>● What is the variance of the BLEU score?<br>● If we were to pick another random set of 500<br>sentences, would we still judge S3 to be better<br>than S2?</p>",
+            "id": 87,
+            "page": 6,
+            "text": "● Is the difference in BLEU metric reliable? ● What is the variance of the BLEU score? ● If we were to pick another random set of 500 sentences, would we still judge S3 to be better than S2?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1378
+                },
+                {
+                    "x": 1249,
+                    "y": 1378
+                },
+                {
+                    "x": 1249,
+                    "y": 1882
+                },
+                {
+                    "x": 292,
+                    "y": 1882
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:16px'>To answer these questions, we divided the test cor-<br>pus into 20 blocks of 25 sentences each, and com-<br>puted the BLEU metric on these blocks individually.<br>We thus have 20 samples of the BLEU metric for<br>each system. We computed the means, variances,<br>and paired t-statistics which are displayed in Table<br>2. The t-statistic compares each system with its left<br>neighbor in the table. For example, t = 6 for the pair<br>S1 and S2.</p>",
+            "id": 88,
+            "page": 6,
+            "text": "To answer these questions, we divided the test corpus into 20 blocks of 25 sentences each, and computed the BLEU metric on these blocks individually. We thus have 20 samples of the BLEU metric for each system. We computed the means, variances, and paired t-statistics which are displayed in Table 2. The t-statistic compares each system with its left neighbor in the table. For example, t = 6 for the pair S1 and S2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1889
+                },
+                {
+                    "x": 1248,
+                    "y": 1889
+                },
+                {
+                    "x": 1248,
+                    "y": 2562
+                },
+                {
+                    "x": 291,
+                    "y": 2562
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:16px'>Note that the numbers in Table 1 are the BLEU<br>metric on an aggregate of 500 sentences, but the<br>means in Table 2 are averages of the BLEU metric<br>on aggregates of 25 sentences. As expected, these<br>two sets of results are close for each system and dif-<br>fer only by small finite block size effects. Since a<br>paired t-statistic of 1.7 or above is 95% significant,<br>the differences between the systems' scores are sta-<br>tistically very significant. The reported variance on<br>25-sentence blocks serves as an upper bound to the<br>variance of sizeable test sets like the 500 sentence<br>corpus.</p>",
+            "id": 89,
+            "page": 6,
+            "text": "Note that the numbers in Table 1 are the BLEU metric on an aggregate of 500 sentences, but the means in Table 2 are averages of the BLEU metric on aggregates of 25 sentences. As expected, these two sets of results are close for each system and differ only by small finite block size effects. Since a paired t-statistic of 1.7 or above is 95% significant, the differences between the systems' scores are statistically very significant. The reported variance on 25-sentence blocks serves as an upper bound to the variance of sizeable test sets like the 500 sentence corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2569
+                },
+                {
+                    "x": 1249,
+                    "y": 2569
+                },
+                {
+                    "x": 1249,
+                    "y": 3016
+                },
+                {
+                    "x": 292,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:16px'>How many reference translations do we need?<br>We simulated a single-reference test corpus by ran-<br>domly selecting one of the 4 reference translations<br>as the single reference for each of the 40 stories. In<br>this way, we ensured a degree of stylistic variation.<br>The systems maintain the same rank order as with<br>multiple references. This outcome suggests that we<br>may use a big test corpus with a single reference</p>",
+            "id": 90,
+            "page": 6,
+            "text": "How many reference translations do we need? We simulated a single-reference test corpus by randomly selecting one of the 4 reference translations as the single reference for each of the 40 stories. In this way, we ensured a degree of stylistic variation. The systems maintain the same rank order as with multiple references. This outcome suggests that we may use a big test corpus with a single reference"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 310
+                },
+                {
+                    "x": 2252,
+                    "y": 310
+                },
+                {
+                    "x": 2252,
+                    "y": 413
+                },
+                {
+                    "x": 1298,
+                    "y": 413
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='91' style='font-size:16px'>translation, provided that the translations are not all<br>from the same translator.</p>",
+            "id": 91,
+            "page": 6,
+            "text": "translation, provided that the translations are not all from the same translator."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 464
+                },
+                {
+                    "x": 1884,
+                    "y": 464
+                },
+                {
+                    "x": 1884,
+                    "y": 518
+                },
+                {
+                    "x": 1297,
+                    "y": 518
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:20px'>4 The Human Evaluation</p>",
+            "id": 92,
+            "page": 6,
+            "text": "4 The Human Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 555
+                },
+                {
+                    "x": 2256,
+                    "y": 555
+                },
+                {
+                    "x": 2256,
+                    "y": 1626
+                },
+                {
+                    "x": 1297,
+                    "y": 1626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:18px'>We had two groups of human judges. The first<br>group, called the monolingual group, consisted of 10<br>native speakers of English. The second group, called<br>the bilingual group, consisted of 10 native speakers<br>of Chinese who had lived in the United States for<br>the past several years. None of the human judges<br>was a professional translator. The humans judged<br>our 5 standard systems on a Chinese sentence sub-<br>set extracted at random from our 500 sentence test<br>corpus. We paired each source sentence with each<br>of its 5 translations, for a total of 250 pairs of Chi-<br>nese source and English translations. We prepared a<br>web page with these translation pairs randomly or-<br>dered to disperse the five translations of each source<br>sentence. All judges used this same webpage and<br>saw the sentence pairs in the same order. They rated<br>each translation from 1 (very bad) to 5 (very good).<br>The monolingual group made their judgments based<br>only on the translations' readability and fluency.</p>",
+            "id": 93,
+            "page": 6,
+            "text": "We had two groups of human judges. The first group, called the monolingual group, consisted of 10 native speakers of English. The second group, called the bilingual group, consisted of 10 native speakers of Chinese who had lived in the United States for the past several years. None of the human judges was a professional translator. The humans judged our 5 standard systems on a Chinese sentence subset extracted at random from our 500 sentence test corpus. We paired each source sentence with each of its 5 translations, for a total of 250 pairs of Chinese source and English translations. We prepared a web page with these translation pairs randomly ordered to disperse the five translations of each source sentence. All judges used this same webpage and saw the sentence pairs in the same order. They rated each translation from 1 (very bad) to 5 (very good). The monolingual group made their judgments based only on the translations' readability and fluency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1637
+                },
+                {
+                    "x": 2254,
+                    "y": 1637
+                },
+                {
+                    "x": 2254,
+                    "y": 2081
+                },
+                {
+                    "x": 1297,
+                    "y": 2081
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:16px'>As must be expected, some judges were more lib-<br>eral than others. And some sentences were easier<br>to translate than others. To account for the intrin-<br>sic difference between judges and the sentences, we<br>compared each judge's rating for a sentence across<br>systems. We performed four pairwise t-test compar-<br>isons between adjacent systems as ordered by their<br>aggregate average score.</p>",
+            "id": 94,
+            "page": 6,
+            "text": "As must be expected, some judges were more liberal than others. And some sentences were easier to translate than others. To account for the intrinsic difference between judges and the sentences, we compared each judge's rating for a sentence across systems. We performed four pairwise t-test comparisons between adjacent systems as ordered by their aggregate average score."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2126
+                },
+                {
+                    "x": 2175,
+                    "y": 2126
+                },
+                {
+                    "x": 2175,
+                    "y": 2179
+                },
+                {
+                    "x": 1299,
+                    "y": 2179
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:22px'>4.1 Monolingual group pairwise judgments</p>",
+            "id": 95,
+            "page": 6,
+            "text": "4.1 Monolingual group pairwise judgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 2201
+                },
+                {
+                    "x": 2254,
+                    "y": 2201
+                },
+                {
+                    "x": 2254,
+                    "y": 2765
+                },
+                {
+                    "x": 1298,
+                    "y": 2765
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='96' style='font-size:16px'>Figure 3 shows the mean difference between the<br>scores of two consecutive systems and the 95% con-<br>fidence interval about the mean. We see that S2 is<br>quite a bit better than S1 (by a mean opinion score<br>difference of 0.326 on the 5-point scale), while S3<br>is judged a little better (by 0.114). Both differences<br>are significant at the 95% level. 7 The human H1 is<br>much better than the best system, though a bit worse<br>than human H2. This is not surprising given that H1<br>is not a native speaker of either Chinese or English,</p>",
+            "id": 96,
+            "page": 6,
+            "text": "Figure 3 shows the mean difference between the scores of two consecutive systems and the 95% confidence interval about the mean. We see that S2 is quite a bit better than S1 (by a mean opinion score difference of 0.326 on the 5-point scale), while S3 is judged a little better (by 0.114). Both differences are significant at the 95% level. 7 The human H1 is much better than the best system, though a bit worse than human H2. This is not surprising given that H1 is not a native speaker of either Chinese or English,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2800
+                },
+                {
+                    "x": 2256,
+                    "y": 2800
+                },
+                {
+                    "x": 2256,
+                    "y": 3011
+                },
+                {
+                    "x": 1297,
+                    "y": 3011
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:14px'>7The 95% confidence interval comes from t-test, assuming<br>that the data comes from a T-distribution with N degrees offree-<br>dom. N varied from 350 to 470 as some judges have skipped<br>some sentences in their evaluation. Thus, the distribution is<br>close to Gaussian.</p>",
+            "id": 97,
+            "page": 6,
+            "text": "7The 95% confidence interval comes from t-test, assuming that the data comes from a T-distribution with N degrees offreedom. N varied from 350 to 470 as some judges have skipped some sentences in their evaluation. Thus, the distribution is close to Gaussian."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 308
+                },
+                {
+                    "x": 1251,
+                    "y": 308
+                },
+                {
+                    "x": 1251,
+                    "y": 474
+                },
+                {
+                    "x": 291,
+                    "y": 474
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:18px'>whereas H2 is a native English speaker. Again, the<br>difference between the human translators is signifi-<br>cant beyond the 95% level.</p>",
+            "id": 98,
+            "page": 7,
+            "text": "whereas H2 is a native English speaker. Again, the difference between the human translators is significant beyond the 95% level."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 552
+                },
+                {
+                    "x": 1248,
+                    "y": 552
+                },
+                {
+                    "x": 1248,
+                    "y": 662
+                },
+                {
+                    "x": 291,
+                    "y": 662
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='99' style='font-size:20px'>Figure 3: Monolingual Judgments - pairwise differ-<br>ential comparison</caption>",
+            "id": 99,
+            "page": 7,
+            "text": "Figure 3: Monolingual Judgments - pairwise differential comparison"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 287,
+                    "y": 678
+                },
+                {
+                    "x": 1209,
+                    "y": 678
+                },
+                {
+                    "x": 1209,
+                    "y": 1399
+                },
+                {
+                    "x": 287,
+                    "y": 1399
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='100' style='font-size:16px' alt=\"2.5\n2\n1.5\n1\n0.5\nT\n0\nS2-S1 S3-S2 H1-S3 H2-H1\n+95% 0.400 0.194 1,945 0.670\n-95% 0.252 0.034 1,705 0.400\nmonolingual 0.326 0.114 1.825 0.535\" data-coord=\"top-left:(287,678); bottom-right:(1209,1399)\" /></figure>",
+            "id": 100,
+            "page": 7,
+            "text": "2.5 2 1.5 1 0.5 T 0 S2-S1 S3-S2 H1-S3 H2-H1 +95% 0.400 0.194 1,945 0.670 -95% 0.252 0.034 1,705 0.400 monolingual 0.326 0.114 1.825 0.535"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 304
+                },
+                {
+                    "x": 2071,
+                    "y": 304
+                },
+                {
+                    "x": 2071,
+                    "y": 358
+                },
+                {
+                    "x": 1298,
+                    "y": 358
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='101' style='font-size:20px'>5 BLEU VS The Human Evaluation</p>",
+            "id": 101,
+            "page": 7,
+            "text": "5 BLEU VS The Human Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1504
+                },
+                {
+                    "x": 1100,
+                    "y": 1504
+                },
+                {
+                    "x": 1100,
+                    "y": 1559
+                },
+                {
+                    "x": 293,
+                    "y": 1559
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:22px'>4.2 Bilingual group pairwise judgments</p>",
+            "id": 102,
+            "page": 7,
+            "text": "4.2 Bilingual group pairwise judgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1580
+                },
+                {
+                    "x": 1250,
+                    "y": 1580
+                },
+                {
+                    "x": 1250,
+                    "y": 1974
+                },
+                {
+                    "x": 291,
+                    "y": 1974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:20px'>Figure 4 shows the same results for the bilingual<br>group. They also find that S3 is slightly better than<br>S2 (at 95% confidence) though they judge that the<br>human translations are much closer (indistinguish-<br>able at 95% confidence), suggesting that the bilin-<br>guals tended to focus more on adequacy than on flu-<br>ency.</p>",
+            "id": 103,
+            "page": 7,
+            "text": "Figure 4 shows the same results for the bilingual group. They also find that S3 is slightly better than S2 (at 95% confidence) though they judge that the human translations are much closer (indistinguishable at 95% confidence), suggesting that the bilinguals tended to focus more on adequacy than on fluency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 393
+                },
+                {
+                    "x": 2256,
+                    "y": 393
+                },
+                {
+                    "x": 2256,
+                    "y": 899
+                },
+                {
+                    "x": 1297,
+                    "y": 899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:18px'>Figure 5 shows a linear regression of the monolin-<br>gual group scores as a function of the BLEU score<br>over two reference translations for the 5 systems.<br>The high correlation coefficient of 0.99 indicates<br>that BLEU tracks human judgment well. Particularly<br>interesting is how well BLEU distinguishes between<br>S2 and S3 which are quite close. Figure 6 shows<br>the comparable regression results for the bilingual<br>group. The correlation coefficient is 0.96.</p>",
+            "id": 104,
+            "page": 7,
+            "text": "Figure 5 shows a linear regression of the monolingual group scores as a function of the BLEU score over two reference translations for the 5 systems. The high correlation coefficient of 0.99 indicates that BLEU tracks human judgment well. Particularly interesting is how well BLEU distinguishes between S2 and S3 which are quite close. Figure 6 shows the comparable regression results for the bilingual group. The correlation coefficient is 0.96."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1320,
+                    "y": 974
+                },
+                {
+                    "x": 2228,
+                    "y": 974
+                },
+                {
+                    "x": 2228,
+                    "y": 1028
+                },
+                {
+                    "x": 1320,
+                    "y": 1028
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='105' style='font-size:22px'>Figure 5: BLEU predicts Monolingual Judgments</caption>",
+            "id": 105,
+            "page": 7,
+            "text": "Figure 5: BLEU predicts Monolingual Judgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1304,
+                    "y": 1049
+                },
+                {
+                    "x": 2255,
+                    "y": 1049
+                },
+                {
+                    "x": 2255,
+                    "y": 1626
+                },
+                {
+                    "x": 1304,
+                    "y": 1626
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='106' style='font-size:14px' alt=\"Judgement\n3\n2.5\n2\n1.5\nMonolingual\n1\n0.5\n0\n-0.5\n0 0.1 0.2 0.3\" data-coord=\"top-left:(1304,1049); bottom-right:(2255,1626)\" /></figure>",
+            "id": 106,
+            "page": 7,
+            "text": "Judgement 3 2.5 2 1.5 Monolingual 1 0.5 0 -0.5 0 0.1 0.2 0.3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1734,
+                    "y": 1642
+                },
+                {
+                    "x": 1968,
+                    "y": 1642
+                },
+                {
+                    "x": 1968,
+                    "y": 1687
+                },
+                {
+                    "x": 1734,
+                    "y": 1687
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='107' style='font-size:18px'>Bleu score</p>",
+            "id": 107,
+            "page": 7,
+            "text": "Bleu score"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1557,
+                    "y": 1756
+                },
+                {
+                    "x": 2230,
+                    "y": 1756
+                },
+                {
+                    "x": 2230,
+                    "y": 1814
+                },
+                {
+                    "x": 1557,
+                    "y": 1814
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:20px'>Predicted ◆ Monolingual Group</p>",
+            "id": 108,
+            "page": 7,
+            "text": "Predicted ◆ Monolingual Group"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 2050
+                },
+                {
+                    "x": 1246,
+                    "y": 2050
+                },
+                {
+                    "x": 1246,
+                    "y": 2161
+                },
+                {
+                    "x": 289,
+                    "y": 2161
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='109' style='font-size:20px'>Figure 4: Bilingual Judgments - pairwise differential<br>comparison</caption>",
+            "id": 109,
+            "page": 7,
+            "text": "Figure 4: Bilingual Judgments - pairwise differential comparison"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 360,
+                    "y": 2190
+                },
+                {
+                    "x": 1180,
+                    "y": 2190
+                },
+                {
+                    "x": 1180,
+                    "y": 2700
+                },
+                {
+                    "x": 360,
+                    "y": 2700
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='110' style='font-size:14px' alt=\"2.5\n2\n1.5\n1\n0.5 ト\n0\n-0.5\nS2-S1 S3-S2 H1-S3 H2-H1\" data-coord=\"top-left:(360,2190); bottom-right:(1180,2700)\" /></figure>",
+            "id": 110,
+            "page": 7,
+            "text": "2.5 2 1.5 1 0.5 ト 0 -0.5 S2-S1 S3-S2 H1-S3 H2-H1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 333,
+                    "y": 2753
+                },
+                {
+                    "x": 2189,
+                    "y": 2753
+                },
+                {
+                    "x": 2189,
+                    "y": 2820
+                },
+                {
+                    "x": 333,
+                    "y": 2820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:18px'>+95% 0.667 0.238 2.007 0.145 Predicted ◆ Bilingual Group</p>",
+            "id": 111,
+            "page": 7,
+            "text": "+95% 0.667 0.238 2.007 0.145 Predicted ◆ Bilingual Group"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 341,
+                    "y": 2821
+                },
+                {
+                    "x": 1096,
+                    "y": 2821
+                },
+                {
+                    "x": 1096,
+                    "y": 2858
+                },
+                {
+                    "x": 341,
+                    "y": 2858
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='112' style='font-size:16px'>-95% 0.435 0.042 1.759 -0.069</p>",
+            "id": 112,
+            "page": 7,
+            "text": "-95% 0.435 0.042 1.759 -0.069"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2881
+                },
+                {
+                    "x": 1097,
+                    "y": 2881
+                },
+                {
+                    "x": 1097,
+                    "y": 2931
+                },
+                {
+                    "x": 292,
+                    "y": 2931
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:16px'>bilingual 0.551 0.140 1.883 0.038</p>",
+            "id": 113,
+            "page": 7,
+            "text": "bilingual 0.551 0.140 1.883 0.038"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1304,
+                    "y": 2050
+                },
+                {
+                    "x": 2259,
+                    "y": 2050
+                },
+                {
+                    "x": 2259,
+                    "y": 2734
+                },
+                {
+                    "x": 1304,
+                    "y": 2734
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='114' style='font-size:14px' alt=\"3.5\nJudgement\n3\n2.5\n2\n1.5\nBilingual\n1\n0.5\n0\n0 0.1 0.2 0.3\nBleu score\" data-coord=\"top-left:(1304,2050); bottom-right:(2259,2734)\" /></figure>",
+            "id": 114,
+            "page": 7,
+            "text": "3.5 Judgement 3 2.5 2 1.5 Bilingual 1 0.5 0 0 0.1 0.2 0.3 Bleu score"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1352,
+                    "y": 1977
+                },
+                {
+                    "x": 2196,
+                    "y": 1977
+                },
+                {
+                    "x": 2196,
+                    "y": 2030
+                },
+                {
+                    "x": 1352,
+                    "y": 2030
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='115' style='font-size:22px'>Figure 6: BLEU predicts Bilingual Judgments</caption>",
+            "id": 115,
+            "page": 7,
+            "text": "Figure 6: BLEU predicts Bilingual Judgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2904
+                },
+                {
+                    "x": 2255,
+                    "y": 2904
+                },
+                {
+                    "x": 2255,
+                    "y": 3019
+                },
+                {
+                    "x": 1299,
+                    "y": 3019
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:18px'>We now take the worst system as a reference point<br>and compare the BLEU scores with the human judg-</p>",
+            "id": 116,
+            "page": 7,
+            "text": "We now take the worst system as a reference point and compare the BLEU scores with the human judg-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 308
+                },
+                {
+                    "x": 1249,
+                    "y": 308
+                },
+                {
+                    "x": 1249,
+                    "y": 1266
+                },
+                {
+                    "x": 291,
+                    "y": 1266
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:18px'>ment scores of the remaining systems relative to<br>the worst system. We took the BLEU, monolingual<br>group, and bilingual group scores for the 5 systems<br>and linearly normalized them by their correspond-<br>ing range (the maximum and minimum score across<br>the 5 systems). The normalized scores are shown in<br>Figure 7. This figure illustrates the high correlation<br>between the BLEU score and the monolingual group.<br>Of particular interest is the accuracy of BLEU's esti-<br>mate of the small difference between S2 and S3 and<br>the larger difference between S3 and H1. The figure<br>also highlights the relatively large gap between MT<br>systems and human translators. 8 In addition, we sur-<br>mise that the bilingual group was very forgiving in<br>judging H1 relative to H2 because the monolingual<br>group found a rather large difference in the fluency<br>of their translations.</p>",
+            "id": 117,
+            "page": 8,
+            "text": "ment scores of the remaining systems relative to the worst system. We took the BLEU, monolingual group, and bilingual group scores for the 5 systems and linearly normalized them by their corresponding range (the maximum and minimum score across the 5 systems). The normalized scores are shown in Figure 7. This figure illustrates the high correlation between the BLEU score and the monolingual group. Of particular interest is the accuracy of BLEU's estimate of the small difference between S2 and S3 and the larger difference between S3 and H1. The figure also highlights the relatively large gap between MT systems and human translators. 8 In addition, we surmise that the bilingual group was very forgiving in judging H1 relative to H2 because the monolingual group found a rather large difference in the fluency of their translations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1331
+                },
+                {
+                    "x": 1247,
+                    "y": 1331
+                },
+                {
+                    "x": 1247,
+                    "y": 1439
+                },
+                {
+                    "x": 289,
+                    "y": 1439
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='118' style='font-size:20px'>Figure 7: BLEU VS Bilingual and Monolingual Judg-<br>ments</caption>",
+            "id": 118,
+            "page": 8,
+            "text": "Figure 7: BLEU VS Bilingual and Monolingual Judgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 1453
+                },
+                {
+                    "x": 1251,
+                    "y": 1453
+                },
+                {
+                    "x": 1251,
+                    "y": 2116
+                },
+                {
+                    "x": 295,
+                    "y": 2116
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='119' style='font-size:14px' alt=\"1\n0.9\n0.8\nscore\n0.7\n0.6\nNormalized\n0.5\n0.4\n0.3\n0.2\n0.1\n0\nS1 S2 S3 H1 H2\n Monolingual  Bilingual Bleu\" data-coord=\"top-left:(295,1453); bottom-right:(1251,2116)\" /></figure>",
+            "id": 119,
+            "page": 8,
+            "text": "1 0.9 0.8 score 0.7 0.6 Normalized 0.5 0.4 0.3 0.2 0.1 0 S1 S2 S3 H1 H2  Monolingual  Bilingual Bleu"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2255
+                },
+                {
+                    "x": 617,
+                    "y": 2255
+                },
+                {
+                    "x": 617,
+                    "y": 2309
+                },
+                {
+                    "x": 293,
+                    "y": 2309
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:20px'>6 Conclusion</p>",
+            "id": 120,
+            "page": 8,
+            "text": "6 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 310
+                },
+                {
+                    "x": 2254,
+                    "y": 310
+                },
+                {
+                    "x": 2254,
+                    "y": 527
+                },
+                {
+                    "x": 1296,
+                    "y": 527
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='121' style='font-size:16px'>ments by averaging out individual sentence judg-<br>ment errors over a test corpus rather than attempting<br>to divine the exact human judgment for every sen-<br>tence: quantity leads to quality.</p>",
+            "id": 121,
+            "page": 8,
+            "text": "ments by averaging out individual sentence judgment errors over a test corpus rather than attempting to divine the exact human judgment for every sentence: quantity leads to quality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2341
+                },
+                {
+                    "x": 1248,
+                    "y": 2341
+                },
+                {
+                    "x": 1248,
+                    "y": 2853
+                },
+                {
+                    "x": 291,
+                    "y": 2853
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='122' style='font-size:20px'>We believe that BLEU will accelerate the MT R&D<br>cycle by allowing researchers to rapidly home in on<br>effective modeling ideas. Our belief is reinforced<br>by a recent statistical analysis of BLEU's correla-<br>tion with human judgment for translation into En-<br>glish from four quite different languages (Arabic,<br>Chinese, French, Spanish) representing 3 different<br>language families (Papineni et al., 2002)! BLEU's<br>strength is that it correlates highly with human judg-</p>",
+            "id": 122,
+            "page": 8,
+            "text": "We believe that BLEU will accelerate the MT R&D cycle by allowing researchers to rapidly home in on effective modeling ideas. Our belief is reinforced by a recent statistical analysis of BLEU's correlation with human judgment for translation into English from four quite different languages (Arabic, Chinese, French, Spanish) representing 3 different language families (Papineni , 2002)! BLEU's strength is that it correlates highly with human judg-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2884
+                },
+                {
+                    "x": 1249,
+                    "y": 2884
+                },
+                {
+                    "x": 1249,
+                    "y": 3010
+                },
+                {
+                    "x": 291,
+                    "y": 3010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:14px'>8Crossing this chasm for Chinese-English translation ap-<br>pears to be a significant challenge for the current state-of-the-art<br>systems.</p>",
+            "id": 123,
+            "page": 8,
+            "text": "8Crossing this chasm for Chinese-English translation appears to be a significant challenge for the current state-of-the-art systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 534
+                },
+                {
+                    "x": 2254,
+                    "y": 534
+                },
+                {
+                    "x": 2254,
+                    "y": 756
+                },
+                {
+                    "x": 1296,
+                    "y": 756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='124' style='font-size:16px'>Finally, since MT and summarization can both be<br>viewed as natural language generation from a tex-<br>tual context, we believe BLEU could be adapted to<br>evaluating summarization or similar NLG tasks.</p>",
+            "id": 124,
+            "page": 8,
+            "text": "Finally, since MT and summarization can both be viewed as natural language generation from a textual context, we believe BLEU could be adapted to evaluating summarization or similar NLG tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 808
+                },
+                {
+                    "x": 2255,
+                    "y": 808
+                },
+                {
+                    "x": 2255,
+                    "y": 1255
+                },
+                {
+                    "x": 1297,
+                    "y": 1255
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:18px'>Acknowledgments This work was partially sup-<br>ported by the Defense Advanced Research Projects<br>Agency and monitored by SPAWAR under contract<br>No. N66001-99-2-8916. The views and findings<br>contained in this material are those of the authors<br>and do not necessarily reflect the position of pol-<br>icy of the Government and no official endorsement<br>should be inferred.</p>",
+            "id": 125,
+            "page": 8,
+            "text": "Acknowledgments This work was partially supported by the Defense Advanced Research Projects Agency and monitored by SPAWAR under contract No. N66001-99-2-8916. The views and findings contained in this material are those of the authors and do not necessarily reflect the position of policy of the Government and no official endorsement should be inferred."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1260
+                },
+                {
+                    "x": 2255,
+                    "y": 1260
+                },
+                {
+                    "x": 2255,
+                    "y": 1653
+                },
+                {
+                    "x": 1297,
+                    "y": 1653
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='126' style='font-size:18px'>We gratefully acknowledge comments about the<br>geometric mean by John Makhoul of BBN and dis-<br>cussions with George Doddington of NIST. We es-<br>pecially wish to thank our colleagues who served<br>in the monolingual and bilingual judge pools for<br>their perseverance in judging the output of Chinese-<br>English MT systems.</p>",
+            "id": 126,
+            "page": 8,
+            "text": "We gratefully acknowledge comments about the geometric mean by John Makhoul of BBN and discussions with George Doddington of NIST. We especially wish to thank our colleagues who served in the monolingual and bilingual judge pools for their perseverance in judging the output of ChineseEnglish MT systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1302,
+                    "y": 1747
+                },
+                {
+                    "x": 1539,
+                    "y": 1747
+                },
+                {
+                    "x": 1539,
+                    "y": 1800
+                },
+                {
+                    "x": 1302,
+                    "y": 1800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:22px'>References</p>",
+            "id": 127,
+            "page": 8,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1300,
+                    "y": 1824
+                },
+                {
+                    "x": 2255,
+                    "y": 1824
+                },
+                {
+                    "x": 2255,
+                    "y": 2011
+                },
+                {
+                    "x": 1300,
+                    "y": 2011
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='128' style='font-size:16px'>E.H. Hovy. 1999. Toward finely differentiated evaluation<br>metrics for machine translation. In Proceedings of the<br>Eagles Workshop on Standards and Evaluation, Pisa,<br>Italy.</p>",
+            "id": 128,
+            "page": 8,
+            "text": "E.H. Hovy. 1999. Toward finely differentiated evaluation metrics for machine translation. In Proceedings of the Eagles Workshop on Standards and Evaluation, Pisa, Italy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 2046
+                },
+                {
+                    "x": 2256,
+                    "y": 2046
+                },
+                {
+                    "x": 2256,
+                    "y": 2324
+                },
+                {
+                    "x": 1301,
+                    "y": 2324
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:18px'>Kishore Papineni, Salim Roukos, Todd Ward, John Hen-<br>derson, and Florence Reeder. 2002. Corpus-based<br>comprehensive and diagnostic MT evaluation: Initial<br>Arabic, Chinese, French, and Spanish results. In Pro-<br>ceedings of Human Language Technology 2002, San<br>Diego, CA. To appear.</p>",
+            "id": 129,
+            "page": 8,
+            "text": "Kishore Papineni, Salim Roukos, Todd Ward, John Henderson, and Florence Reeder. 2002. Corpus-based comprehensive and diagnostic MT evaluation: Initial Arabic, Chinese, French, and Spanish results. In Proceedings of Human Language Technology 2002, San Diego, CA. To appear."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1300,
+                    "y": 2360
+                },
+                {
+                    "x": 2256,
+                    "y": 2360
+                },
+                {
+                    "x": 2256,
+                    "y": 2544
+                },
+                {
+                    "x": 1300,
+                    "y": 2544
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:18px'>Florence Reeder. 2001. Additional mt-eval references.<br>Technical report, International Standards for Language<br>Engineering, Evaluation Working Group. http://issco-<br>www.unige.ch/projects/isle/taxonomy2/</p>",
+            "id": 130,
+            "page": 8,
+            "text": "Florence Reeder. 2001. Additional mt-eval references. Technical report, International Standards for Language Engineering, Evaluation Working Group. http://isscowww.unige.ch/projects/isle/taxonomy2/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 2578
+                },
+                {
+                    "x": 2257,
+                    "y": 2578
+                },
+                {
+                    "x": 2257,
+                    "y": 2810
+                },
+                {
+                    "x": 1301,
+                    "y": 2810
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='131' style='font-size:16px'>J.S. White and T. O'Connell. 1994. The ARPA MT eval-<br>uation methodologies: evolution, lessons, and future<br>approaches. In Proceedings of the First Conference of<br>the Associationfor Machine Translation in the Ameri-<br>cas, pages 193-205, Columbia, Maryland.</p>",
+            "id": 131,
+            "page": 8,
+            "text": "J.S. White and T. O'Connell. 1994. The ARPA MT evaluation methodologies: evolution, lessons, and future approaches. In Proceedings of the First Conference of the Associationfor Machine Translation in the Americas, pages 193-205, Columbia, Maryland."
+        }
+    ]
+}

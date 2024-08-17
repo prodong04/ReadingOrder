@@ -1,0 +1,3606 @@
+{
+    "id": "32b84360-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1506.02640v5.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 768,
+                    "y": 320
+                },
+                {
+                    "x": 1709,
+                    "y": 320
+                },
+                {
+                    "x": 1709,
+                    "y": 460
+                },
+                {
+                    "x": 768,
+                    "y": 460
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>You Only Look Once:<br>Unified, Real-Time Object Detection</p>",
+            "id": 0,
+            "page": 1,
+            "text": "You Only Look Once: Unified, Real-Time Object Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 565,
+                    "y": 530
+                },
+                {
+                    "x": 1909,
+                    "y": 530
+                },
+                {
+                    "x": 1909,
+                    "y": 584
+                },
+                {
+                    "x": 565,
+                    "y": 584
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Joseph Redmon* , Santosh Divvala*† Ross GirshickT, Ali Farhadi*†</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Joseph Redmon* , Santosh Divvala*† Ross GirshickT, Ali Farhadi*†"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 665,
+                    "y": 597
+                },
+                {
+                    "x": 1806,
+                    "y": 597
+                },
+                {
+                    "x": 1806,
+                    "y": 698
+                },
+                {
+                    "x": 665,
+                    "y": 698
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:18px'>University of Washington* , Allen Institute for AIt, Facebook AI Research 1<br>http : / /pjreddie · com / yolo /</p>",
+            "id": 2,
+            "page": 1,
+            "text": "University of Washington* , Allen Institute for AIt, Facebook AI Research 1 http : / /pjreddie · com / yolo /"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 603,
+                    "y": 819
+                },
+                {
+                    "x": 798,
+                    "y": 819
+                },
+                {
+                    "x": 798,
+                    "y": 869
+                },
+                {
+                    "x": 603,
+                    "y": 869
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 897
+                },
+                {
+                    "x": 1200,
+                    "y": 897
+                },
+                {
+                    "x": 1200,
+                    "y": 1341
+                },
+                {
+                    "x": 199,
+                    "y": 1341
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>We present YOLO, a new approach to object detection.<br>Prior work on object detection repurposes classifiers to per-<br>form detection. Instead, we frame object detection as a re-<br>gression problem to spatially separated bounding boxes and<br>associated class probabilities. A single neural network pre-<br>dicts bounding boxes and class probabilities directly from<br>full images in one evaluation. Since the whole detection<br>pipeline is a single network, it can be optimized end-to-end<br>directly on detection performance.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1346
+                },
+                {
+                    "x": 1199,
+                    "y": 1346
+                },
+                {
+                    "x": 1199,
+                    "y": 1895
+                },
+                {
+                    "x": 200,
+                    "y": 1895
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:18px'>Our unified architecture is extremely fast. Our base<br>YOLO model processes images in real-time at 45 frames<br>per second. A smaller version of the network, Fast YOLO,<br>processes an astounding 155 frames per second while<br>still achieving double the mAP of other real-time detec-<br>tors. Compared to state-of-the-art detection systems, YOLO<br>makes more localization errors but is less likely to predict<br>false positives on background. Finally, YOLO learns very<br>general representations of objects. It outperforms other de-<br>tection methods, including DPM and R-CNN, when gener-<br>alizing from natural images to other domains like artwork.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background. Finally, YOLO learns very general representations of objects. It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2041
+                },
+                {
+                    "x": 532,
+                    "y": 2041
+                },
+                {
+                    "x": 532,
+                    "y": 2092
+                },
+                {
+                    "x": 203,
+                    "y": 2092
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:22px'>1. Introduction</p>",
+            "id": 6,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2127
+                },
+                {
+                    "x": 1199,
+                    "y": 2127
+                },
+                {
+                    "x": 1199,
+                    "y": 2572
+                },
+                {
+                    "x": 201,
+                    "y": 2572
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:18px'>Humans glance at an image and instantly know what ob-<br>jects are in the image, where they are, and how they inter-<br>act. The human visual system is fast and accurate, allow-<br>ing us to perform complex tasks like driving with little con-<br>scious thought. Fast, accurate algorithms for object detec-<br>tion would allow computers to drive cars without special-<br>ized sensors, enable assistive devices to convey real-time<br>scene information to human users, and unlock the potential<br>for general purpose, responsive robotic systems.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Humans glance at an image and instantly know what objects are in the image, where they are, and how they interact. The human visual system is fast and accurate, allowing us to perform complex tasks like driving with little conscious thought. Fast, accurate algorithms for object detection would allow computers to drive cars without specialized sensors, enable assistive devices to convey real-time scene information to human users, and unlock the potential for general purpose, responsive robotic systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2579
+                },
+                {
+                    "x": 1200,
+                    "y": 2579
+                },
+                {
+                    "x": 1200,
+                    "y": 2921
+                },
+                {
+                    "x": 201,
+                    "y": 2921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:18px'>Current detection systems repurpose classifiers to per-<br>form detection. To detect an object, these systems take a<br>classifier for that object and evaluate it at various locations<br>and scales in a test image. Systems like deformable parts<br>models (DPM) use a sliding window approach where the<br>classifier is run at evenly spaced locations over the entire<br>image [10].</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Current detection systems repurpose classifiers to perform detection. To detect an object, these systems take a classifier for that object and evaluate it at various locations and scales in a test image. Systems like deformable parts models (DPM) use a sliding window approach where the classifier is run at evenly spaced locations over the entire image ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 251,
+                    "y": 2929
+                },
+                {
+                    "x": 1195,
+                    "y": 2929
+                },
+                {
+                    "x": 1195,
+                    "y": 2975
+                },
+                {
+                    "x": 251,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:18px'>More recent approaches like R-CNN use region proposal</p>",
+            "id": 9,
+            "page": 1,
+            "text": "More recent approaches like R-CNN use region proposal"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 810
+                },
+                {
+                    "x": 2276,
+                    "y": 810
+                },
+                {
+                    "x": 2276,
+                    "y": 1022
+                },
+                {
+                    "x": 1281,
+                    "y": 1022
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='10' style='font-size:14px' alt=\"0\n1. Resize image.\n2. Run convolutional network.\n3. Non-max suppression.\" data-coord=\"top-left:(1281,810); bottom-right:(2276,1022)\" /></figure>",
+            "id": 10,
+            "page": 1,
+            "text": "0 1. Resize image. 2. Run convolutional network. 3. Non-max suppression."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1096
+                },
+                {
+                    "x": 2278,
+                    "y": 1096
+                },
+                {
+                    "x": 2278,
+                    "y": 1329
+                },
+                {
+                    "x": 1279,
+                    "y": 1329
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='11' style='font-size:16px'>Figure 1: The YOLO Detection System. Processing images<br>with YOLO is simple and straightforward. Our system (1) resizes<br>the input image to 448 x 448, (2) runs a single convolutional net-<br>work on the image, and (3) thresholds the resulting detections by<br>the model's confidence.</caption>",
+            "id": 11,
+            "page": 1,
+            "text": "Figure 1: The YOLO Detection System. Processing images with YOLO is simple and straightforward. Our system (1) resizes the input image to 448 x 448, (2) runs a single convolutional network on the image, and (3) thresholds the resulting detections by the model's confidence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1424
+                },
+                {
+                    "x": 2276,
+                    "y": 1424
+                },
+                {
+                    "x": 2276,
+                    "y": 1770
+                },
+                {
+                    "x": 1281,
+                    "y": 1770
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:18px'>methods to first generate potential bounding boxes in an im-<br>age and then run a classifier on these proposed boxes. After<br>classification, post-processing is used to refine the bound-<br>ing boxes, eliminate duplicate detections, and rescore the<br>boxes based on other objects in the scene [13]. These com-<br>plex pipelines are slow and hard to optimize because each<br>individual component must be trained separately.</p>",
+            "id": 12,
+            "page": 1,
+            "text": "methods to first generate potential bounding boxes in an image and then run a classifier on these proposed boxes. After classification, post-processing is used to refine the bounding boxes, eliminate duplicate detections, and rescore the boxes based on other objects in the scene . These complex pipelines are slow and hard to optimize because each individual component must be trained separately."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1777
+                },
+                {
+                    "x": 2276,
+                    "y": 1777
+                },
+                {
+                    "x": 2276,
+                    "y": 2020
+                },
+                {
+                    "x": 1280,
+                    "y": 2020
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:18px'>We reframe object detection as a single regression prob-<br>lem, straight from image pixels to bounding box coordi-<br>nates and class probabilities. Using our system, you only<br>look once (YOLO) at an image to predict what objects are<br>present and where they are.</p>",
+            "id": 13,
+            "page": 1,
+            "text": "We reframe object detection as a single regression problem, straight from image pixels to bounding box coordinates and class probabilities. Using our system, you only look once (YOLO) at an image to predict what objects are present and where they are."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2027
+                },
+                {
+                    "x": 2276,
+                    "y": 2027
+                },
+                {
+                    "x": 2276,
+                    "y": 2321
+                },
+                {
+                    "x": 1282,
+                    "y": 2321
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>YOLO is refreshingly simple: see Figure 1. A sin-<br>gle convolutional network simultaneously predicts multi-<br>ple bounding boxes and class probabilities for those boxes.<br>YOLO trains on full images and directly optimizes detec-<br>tion performance. This unified model has several benefits<br>over traditional methods of object detection.</p>",
+            "id": 14,
+            "page": 1,
+            "text": "YOLO is refreshingly simple: see Figure 1. A single convolutional network simultaneously predicts multiple bounding boxes and class probabilities for those boxes. YOLO trains on full images and directly optimizes detection performance. This unified model has several benefits over traditional methods of object detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2328
+                },
+                {
+                    "x": 2275,
+                    "y": 2328
+                },
+                {
+                    "x": 2275,
+                    "y": 2874
+                },
+                {
+                    "x": 1278,
+                    "y": 2874
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:16px'>First, YOLO is extremely fast. Since we frame detection<br>as a regression problem we don't need a complex pipeline.<br>We simply run our neural network on a new image at test<br>time to predict detections. Our base network runs at 45<br>frames per second with no batch processing on a Titan X<br>GPU and a fast version runs at more than 150 fps. This<br>means we can process streaming video in real-time with<br>less than 25 milliseconds of latency. Furthermore, YOLO<br>achieves more than twice the mean average precision of<br>other real-time systems. For a demo of our system running<br>in real-time on a webcam please see our project webpage:</p>",
+            "id": 15,
+            "page": 1,
+            "text": "First, YOLO is extremely fast. Since we frame detection as a regression problem we don't need a complex pipeline. We simply run our neural network on a new image at test time to predict detections. Our base network runs at 45 frames per second with no batch processing on a Titan X GPU and a fast version runs at more than 150 fps. This means we can process streaming video in real-time with less than 25 milliseconds of latency. Furthermore, YOLO achieves more than twice the mean average precision of other real-time systems. For a demo of our system running in real-time on a webcam please see our project webpage:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 2879
+                },
+                {
+                    "x": 1911,
+                    "y": 2879
+                },
+                {
+                    "x": 1911,
+                    "y": 2919
+                },
+                {
+                    "x": 1283,
+                    "y": 2919
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:14px'>http : / /pjreddie · com / yolo/.</p>",
+            "id": 16,
+            "page": 1,
+            "text": "http : / /pjreddie · com / yolo/."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1330,
+                    "y": 2928
+                },
+                {
+                    "x": 2275,
+                    "y": 2928
+                },
+                {
+                    "x": 2275,
+                    "y": 2974
+                },
+                {
+                    "x": 1330,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Second, YOLO reasons globally about the image when</p>",
+            "id": 17,
+            "page": 1,
+            "text": "Second, YOLO reasons globally about the image when"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3092
+                },
+                {
+                    "x": 1225,
+                    "y": 3092
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='18' style='font-size:14px'>1</footer>",
+            "id": 18,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 58,
+                    "y": 863
+                },
+                {
+                    "x": 151,
+                    "y": 863
+                },
+                {
+                    "x": 151,
+                    "y": 2309
+                },
+                {
+                    "x": 58,
+                    "y": 2309
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='19' style='font-size:14px'>2016<br>May<br>6<br>[cs.CV]<br>arXiv:1506.02640v5</footer>",
+            "id": 19,
+            "page": 1,
+            "text": "2016 May 6 [cs.CV] arXiv:1506.02640v5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 307
+                },
+                {
+                    "x": 1200,
+                    "y": 307
+                },
+                {
+                    "x": 1200,
+                    "y": 702
+                },
+                {
+                    "x": 200,
+                    "y": 702
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>making predictions. Unlike sliding window and region<br>proposal-based techniques, YOLO sees the entire image<br>during training and test time so it implicitly encodes contex-<br>tual information about classes as well as their appearance.<br>Fast R-CNN, a top detection method [14], mistakes back-<br>ground patches in an image for objects because it can't see<br>the larger context. YOLO makes less than half the number<br>of background errors compared to Fast R-CNN.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "making predictions. Unlike sliding window and region proposal-based techniques, YOLO sees the entire image during training and test time so it implicitly encodes contextual information about classes as well as their appearance. Fast R-CNN, a top detection method , mistakes background patches in an image for objects because it can't see the larger context. YOLO makes less than half the number of background errors compared to Fast R-CNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 710
+                },
+                {
+                    "x": 1199,
+                    "y": 710
+                },
+                {
+                    "x": 1199,
+                    "y": 1006
+                },
+                {
+                    "x": 201,
+                    "y": 1006
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:18px'>Third, YOLO learns generalizable representations of ob-<br>jects. When trained on natural images and tested on art-<br>work, YOLO outperforms top detection methods like DPM<br>and R-CNN by a wide margin. Since YOLO is highly gen-<br>eralizable it is less likely to break down when applied to<br>new domains or unexpected inputs.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Third, YOLO learns generalizable representations of objects. When trained on natural images and tested on artwork, YOLO outperforms top detection methods like DPM and R-CNN by a wide margin. Since YOLO is highly generalizable it is less likely to break down when applied to new domains or unexpected inputs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1014
+                },
+                {
+                    "x": 1200,
+                    "y": 1014
+                },
+                {
+                    "x": 1200,
+                    "y": 1259
+                },
+                {
+                    "x": 200,
+                    "y": 1259
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:18px'>YOLO still lags behind state-of-the-art detection systems<br>in accuracy. While it can quickly identify objects in im-<br>ages it struggles to precisely localize some objects, espe-<br>cially small ones. We examine these tradeoffs further in our<br>experiments.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "YOLO still lags behind state-of-the-art detection systems in accuracy. While it can quickly identify objects in images it struggles to precisely localize some objects, especially small ones. We examine these tradeoffs further in our experiments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1267
+                },
+                {
+                    "x": 1197,
+                    "y": 1267
+                },
+                {
+                    "x": 1197,
+                    "y": 1366
+                },
+                {
+                    "x": 201,
+                    "y": 1366
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='23' style='font-size:16px'>All of our training and testing code is open source. A<br>variety of pretrained models are also available to download.</p>",
+            "id": 23,
+            "page": 2,
+            "text": "All of our training and testing code is open source. A variety of pretrained models are also available to download."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1422
+                },
+                {
+                    "x": 631,
+                    "y": 1422
+                },
+                {
+                    "x": 631,
+                    "y": 1476
+                },
+                {
+                    "x": 201,
+                    "y": 1476
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:22px'>2. Unified Detection</p>",
+            "id": 24,
+            "page": 2,
+            "text": "2. Unified Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1512
+                },
+                {
+                    "x": 1200,
+                    "y": 1512
+                },
+                {
+                    "x": 1200,
+                    "y": 1909
+                },
+                {
+                    "x": 201,
+                    "y": 1909
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:18px'>We unify the separate components of object detection<br>into a single neural network. Our network uses features<br>from the entire image to predict each bounding box. It also<br>predicts all bounding boxes across all classes for an im-<br>age simultaneously. This means our network reasons glob-<br>ally about the full image and all the objects in the image.<br>The YOLO design enables end-to-end training and real-<br>time speeds while maintaining high average precision.</p>",
+            "id": 25,
+            "page": 2,
+            "text": "We unify the separate components of object detection into a single neural network. Our network uses features from the entire image to predict each bounding box. It also predicts all bounding boxes across all classes for an image simultaneously. This means our network reasons globally about the full image and all the objects in the image. The YOLO design enables end-to-end training and realtime speeds while maintaining high average precision."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1915
+                },
+                {
+                    "x": 1199,
+                    "y": 1915
+                },
+                {
+                    "x": 1199,
+                    "y": 2063
+                },
+                {
+                    "x": 201,
+                    "y": 2063
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:18px'>Our system divides the input image into an S x S grid.<br>If the center of an object falls into a grid cell, that grid cell<br>is responsible for detecting that object.</p>",
+            "id": 26,
+            "page": 2,
+            "text": "Our system divides the input image into an S x S grid. If the center of an object falls into a grid cell, that grid cell is responsible for detecting that object."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2070
+                },
+                {
+                    "x": 1200,
+                    "y": 2070
+                },
+                {
+                    "x": 1200,
+                    "y": 2517
+                },
+                {
+                    "x": 200,
+                    "y": 2517
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:16px'>Each grid cell predicts B bounding boxes and confidence<br>scores for those boxes. These confidence scores reflect how<br>confident the model is that the box contains an object and<br>also how accurate it thinks the box is that it predicts. For-<br>mally we define confidence as Pr(Object) * IOUtruth. · If no<br>object exists in that cell, the confidence scores should be<br>zero. Otherwise we want the confidence score to equal the<br>intersection over union (IOU) between the predicted box<br>and the ground truth.</p>",
+            "id": 27,
+            "page": 2,
+            "text": "Each grid cell predicts B bounding boxes and confidence scores for those boxes. These confidence scores reflect how confident the model is that the box contains an object and also how accurate it thinks the box is that it predicts. Formally we define confidence as Pr(Object) * IOUtruth. · If no object exists in that cell, the confidence scores should be zero. Otherwise we want the confidence score to equal the intersection over union (IOU) between the predicted box and the ground truth."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2523
+                },
+                {
+                    "x": 1200,
+                    "y": 2523
+                },
+                {
+                    "x": 1200,
+                    "y": 2821
+                },
+                {
+                    "x": 200,
+                    "y": 2821
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:18px'>Each bounding box consists of 5 predictions: x, y, w, h,<br>and confidence. The (x, y) coordinates represent the center<br>of the box relative to the bounds of the grid cell. The width<br>and height are predicted relative to the whole image. Finally<br>the confidence prediction represents the IOU between the<br>predicted box and any ground truth box.</p>",
+            "id": 28,
+            "page": 2,
+            "text": "Each bounding box consists of 5 predictions: x, y, w, h, and confidence. The (x, y) coordinates represent the center of the box relative to the bounds of the grid cell. The width and height are predicted relative to the whole image. Finally the confidence prediction represents the IOU between the predicted box and any ground truth box."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2978
+                },
+                {
+                    "x": 202,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:20px'>Each grid cell also predicts C conditional class proba-<br>bilities, Pr(Classa|Object). These probabilities are condi-<br>tioned on the grid cell containing an object. We only predict</p>",
+            "id": 29,
+            "page": 2,
+            "text": "Each grid cell also predicts C conditional class probabilities, Pr(Classa|Object). These probabilities are conditioned on the grid cell containing an object. We only predict"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 309
+                },
+                {
+                    "x": 2277,
+                    "y": 309
+                },
+                {
+                    "x": 2277,
+                    "y": 399
+                },
+                {
+                    "x": 1279,
+                    "y": 399
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:18px'>one set of class probabilities per grid cell, regardless of the<br>number of boxes B.</p>",
+            "id": 30,
+            "page": 2,
+            "text": "one set of class probabilities per grid cell, regardless of the number of boxes B."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 408
+                },
+                {
+                    "x": 2276,
+                    "y": 408
+                },
+                {
+                    "x": 2276,
+                    "y": 502
+                },
+                {
+                    "x": 1279,
+                    "y": 502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:16px'>At test time we multiply the conditional class probabili-<br>ties and the individual box confidence predictions,</p>",
+            "id": 31,
+            "page": 2,
+            "text": "At test time we multiply the conditional class probabilities and the individual box confidence predictions,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 608
+                },
+                {
+                    "x": 2278,
+                    "y": 608
+                },
+                {
+                    "x": 2278,
+                    "y": 805
+                },
+                {
+                    "x": 1279,
+                    "y": 805
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:18px'>which gives us class-specific confidence scores for each<br>box. These scores encode both the probability of that class<br>appearing in the box and how well the predicted box fits the<br>object.</p>",
+            "id": 32,
+            "page": 2,
+            "text": "which gives us class-specific confidence scores for each box. These scores encode both the probability of that class appearing in the box and how well the predicted box fits the object."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 835
+                },
+                {
+                    "x": 2280,
+                    "y": 835
+                },
+                {
+                    "x": 2280,
+                    "y": 1474
+                },
+                {
+                    "x": 1279,
+                    "y": 1474
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='33' style='font-size:14px' alt=\"Bounding boxes + confidence\nSxS grid on input Final detections\nClass probability map\" data-coord=\"top-left:(1279,835); bottom-right:(2280,1474)\" /></figure>",
+            "id": 33,
+            "page": 2,
+            "text": "Bounding boxes + confidence SxS grid on input Final detections Class probability map"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1546
+                },
+                {
+                    "x": 2279,
+                    "y": 1546
+                },
+                {
+                    "x": 2279,
+                    "y": 1777
+                },
+                {
+                    "x": 1279,
+                    "y": 1777
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='34' style='font-size:14px'>Figure 2: The Model. Our system models detection as a regres-<br>sion problem. It divides the image into an S x S grid and for each<br>grid cell predicts B bounding boxes, confidence for those boxes,<br>and C class probabilities. These predictions are encoded as an<br>S x S x (B * 5 + C) tensor.</caption>",
+            "id": 34,
+            "page": 2,
+            "text": "Figure 2: The Model. Our system models detection as a regression problem. It divides the image into an S x S grid and for each grid cell predicts B bounding boxes, confidence for those boxes, and C class probabilities. These predictions are encoded as an S x S x (B * 5 + C) tensor."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1826
+                },
+                {
+                    "x": 2277,
+                    "y": 1826
+                },
+                {
+                    "x": 2277,
+                    "y": 1976
+                },
+                {
+                    "x": 1282,
+                    "y": 1976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:14px'>For evaluating YOLO on PASCAL VOC, we use S = 7,<br>B = 2. PASCAL VOC has 20 labelled classes SO C = 20.<br>Our final prediction is a 7 x 7 x 30 tensor.</p>",
+            "id": 35,
+            "page": 2,
+            "text": "For evaluating YOLO on PASCAL VOC, we use S = 7, B = 2. PASCAL VOC has 20 labelled classes SO C = 20. Our final prediction is a 7 x 7 x 30 tensor."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2003
+                },
+                {
+                    "x": 1681,
+                    "y": 2003
+                },
+                {
+                    "x": 1681,
+                    "y": 2052
+                },
+                {
+                    "x": 1279,
+                    "y": 2052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:20px'>2.1. Network Design</p>",
+            "id": 36,
+            "page": 2,
+            "text": "2.1. Network Design"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2079
+                },
+                {
+                    "x": 2279,
+                    "y": 2079
+                },
+                {
+                    "x": 2279,
+                    "y": 2326
+                },
+                {
+                    "x": 1281,
+                    "y": 2326
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:18px'>We implement this model as a convolutional neural net-<br>work and evaluate it on the PASCAL VOC detection dataset<br>[9]. The initial convolutional layers of the network extract<br>features from the image while the fully connected layers<br>predict the output probabilities and coordinates.</p>",
+            "id": 37,
+            "page": 2,
+            "text": "We implement this model as a convolutional neural network and evaluate it on the PASCAL VOC detection dataset . The initial convolutional layers of the network extract features from the image while the fully connected layers predict the output probabilities and coordinates."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2331
+                },
+                {
+                    "x": 2279,
+                    "y": 2331
+                },
+                {
+                    "x": 2279,
+                    "y": 2673
+                },
+                {
+                    "x": 1279,
+                    "y": 2673
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:18px'>Our network architecture is inspired by the GoogLeNet<br>model for image classification [34]. Our network has 24<br>convolutional layers followed by 2 fully connected layers.<br>Instead of the inception modules used by GoogLeNet, we<br>simply use 1 x 1 reduction layers followed by 3 x 3 convo-<br>lutional layers, similar to Lin et al [22]. The full network is<br>shown in Figure 3.</p>",
+            "id": 38,
+            "page": 2,
+            "text": "Our network architecture is inspired by the GoogLeNet model for image classification . Our network has 24 convolutional layers followed by 2 fully connected layers. Instead of the inception modules used by GoogLeNet, we simply use 1 x 1 reduction layers followed by 3 x 3 convolutional layers, similar to Lin et al . The full network is shown in Figure 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2677
+                },
+                {
+                    "x": 2280,
+                    "y": 2677
+                },
+                {
+                    "x": 2280,
+                    "y": 2975
+                },
+                {
+                    "x": 1280,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:16px'>We also train a fast version of YOLO designed to push<br>the boundaries of fast object detection. Fast YOLO uses a<br>neural network with fewer convolutional layers (9 instead<br>of 24) and fewer filters in those layers. Other than the size<br>of the network, all training and testing parameters are the<br>same between YOLO and Fast YOLO.</p>",
+            "id": 39,
+            "page": 2,
+            "text": "We also train a fast version of YOLO designed to push the boundaries of fast object detection. Fast YOLO uses a neural network with fewer convolutional layers (9 instead of 24) and fewer filters in those layers. Other than the size of the network, all training and testing parameters are the same between YOLO and Fast YOLO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 410,
+                    "y": 275
+                },
+                {
+                    "x": 2075,
+                    "y": 275
+                },
+                {
+                    "x": 2075,
+                    "y": 974
+                },
+                {
+                    "x": 410,
+                    "y": 974
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='40' style='font-size:14px' alt=\"448\n112\n3\n56\n3\n3\n448 3 28\n3\n14\n3 3\n112\n3\n56\n28\n14\n3 192 256 512 1024 1024 1024 4096 30\nConv. Layer Conv. Layer Conv. Layers Conv. Layers Conv. Layers Conv. Layers Conn. Layer Conn. Layer\n3x3x1024\n7x7x64-s-2 3x3x192 1x1x128 1x1x256 } x4 }x2 3x3x1024\n1x1x512\nMaxpool Layer Maxpool Layer 3x3x256 3x3x512\n3x3x1024\n2x2-s-2 2x2-s-2 1x1x256 1x1x512 3x3x1024\n3x3x512 3x3x1024 3x3x1024-s-2\nMaxpool Layer Maxpool Layer\n2x2-s-2 2x2-s-2\" data-coord=\"top-left:(410,275); bottom-right:(2075,974)\" /></figure>",
+            "id": 40,
+            "page": 3,
+            "text": "448 112 3 56 3 3 448 3 28 3 14 3 3 112 3 56 28 14 3 192 256 512 1024 1024 1024 4096 30 Conv. Layer Conv. Layer Conv. Layers Conv. Layers Conv. Layers Conv. Layers Conn. Layer Conn. Layer 3x3x1024 7x7x64-s-2 3x3x192 1x1x128 1x1x256 } x4 }x2 3x3x1024 1x1x512 Maxpool Layer Maxpool Layer 3x3x256 3x3x512 3x3x1024 2x2-s-2 2x2-s-2 1x1x256 1x1x512 3x3x1024 3x3x512 3x3x1024 3x3x1024-s-2 Maxpool Layer Maxpool Layer 2x2-s-2 2x2-s-2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1009
+                },
+                {
+                    "x": 2279,
+                    "y": 1009
+                },
+                {
+                    "x": 2279,
+                    "y": 1154
+                },
+                {
+                    "x": 199,
+                    "y": 1154
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='41' style='font-size:14px'>Figure 3: The Architecture. Our detection network has 24 convolutional layers followed by 2 fully connected layers. Alternating 1 x 1<br>convolutional layers reduce the features space from preceding layers. We pretrain the convolutional layers on the ImageNet classification<br>task at half the resolution (224 x 224 input image) and then double the resolution for detection.</caption>",
+            "id": 41,
+            "page": 3,
+            "text": "Figure 3: The Architecture. Our detection network has 24 convolutional layers followed by 2 fully connected layers. Alternating 1 x 1 convolutional layers reduce the features space from preceding layers. We pretrain the convolutional layers on the ImageNet classification task at half the resolution (224 x 224 input image) and then double the resolution for detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1239
+                },
+                {
+                    "x": 1200,
+                    "y": 1239
+                },
+                {
+                    "x": 1200,
+                    "y": 1339
+                },
+                {
+                    "x": 201,
+                    "y": 1339
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>The final output of our network is the 7 x 7 x 30 tensor<br>of predictions.</p>",
+            "id": 42,
+            "page": 3,
+            "text": "The final output of our network is the 7 x 7 x 30 tensor of predictions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1368
+                },
+                {
+                    "x": 462,
+                    "y": 1368
+                },
+                {
+                    "x": 462,
+                    "y": 1420
+                },
+                {
+                    "x": 203,
+                    "y": 1420
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='43' style='font-size:22px'>2.2. Training</p>",
+            "id": 43,
+            "page": 3,
+            "text": "2.2. Training"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1446
+                },
+                {
+                    "x": 1201,
+                    "y": 1446
+                },
+                {
+                    "x": 1201,
+                    "y": 1895
+                },
+                {
+                    "x": 200,
+                    "y": 1895
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:18px'>We pretrain our convolutional layers on the ImageNet<br>1000-class competition dataset [30]. For pretraining we use<br>the first 20 convolutional layers from Figure 3 followed by a<br>average-pooling layer and a fully connected layer. We train<br>this network for approximately a week and achieve a single<br>crop top-5 accuracy of 88% on the ImageNet 2012 valida-<br>tion set, comparable to the GoogLeNet models in Caffe's<br>Model Zoo [24]. We use the Darknet framework for all<br>training and inference [26].</p>",
+            "id": 44,
+            "page": 3,
+            "text": "We pretrain our convolutional layers on the ImageNet 1000-class competition dataset . For pretraining we use the first 20 convolutional layers from Figure 3 followed by a average-pooling layer and a fully connected layer. We train this network for approximately a week and achieve a single crop top-5 accuracy of 88% on the ImageNet 2012 validation set, comparable to the GoogLeNet models in Caffe's Model Zoo . We use the Darknet framework for all training and inference ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1896
+                },
+                {
+                    "x": 1201,
+                    "y": 1896
+                },
+                {
+                    "x": 1201,
+                    "y": 2290
+                },
+                {
+                    "x": 200,
+                    "y": 2290
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:16px'>We then convert the model to perform detection. Ren et<br>al. show that adding both convolutional and connected lay-<br>ers to pretrained networks can improve performance [29].<br>Following their example, we add four convolutional lay-<br>ers and two fully connected layers with randomly initialized<br>weights. Detection often requires fine-grained visual infor-<br>mation SO we increase the input resolution of the network<br>from 224 x 224 to 448 x 448.</p>",
+            "id": 45,
+            "page": 3,
+            "text": "We then convert the model to perform detection. Ren  show that adding both convolutional and connected layers to pretrained networks can improve performance . Following their example, we add four convolutional layers and two fully connected layers with randomly initialized weights. Detection often requires fine-grained visual information SO we increase the input resolution of the network from 224 x 224 to 448 x 448."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2295
+                },
+                {
+                    "x": 1200,
+                    "y": 2295
+                },
+                {
+                    "x": 1200,
+                    "y": 2590
+                },
+                {
+                    "x": 200,
+                    "y": 2590
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:16px'>Our final layer predicts both class probabilities and<br>bounding box coordinates. We normalize the bounding box<br>width and height by the image width and height so that they<br>fall between 0 and 1. We parametrize the bounding box x<br>and y coordinates to be offsets of a particular grid cell loca-<br>tion SO they are also bounded between 0 and 1.</p>",
+            "id": 46,
+            "page": 3,
+            "text": "Our final layer predicts both class probabilities and bounding box coordinates. We normalize the bounding box width and height by the image width and height so that they fall between 0 and 1. We parametrize the bounding box x and y coordinates to be offsets of a particular grid cell location SO they are also bounded between 0 and 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2594
+                },
+                {
+                    "x": 1199,
+                    "y": 2594
+                },
+                {
+                    "x": 1199,
+                    "y": 2742
+                },
+                {
+                    "x": 201,
+                    "y": 2742
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:16px'>We use a linear activation function for the final layer and<br>all other layers use the following leaky rectified linear acti-<br>vation:</p>",
+            "id": 47,
+            "page": 3,
+            "text": "We use a linear activation function for the final layer and all other layers use the following leaky rectified linear activation:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 1242
+                },
+                {
+                    "x": 2279,
+                    "y": 1242
+                },
+                {
+                    "x": 2279,
+                    "y": 1690
+                },
+                {
+                    "x": 1276,
+                    "y": 1690
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:18px'>model. We use sum-squared error because it is easy to op-<br>timize, however it does not perfectly align with our goal of<br>maximizing average precision. It weights localization er-<br>ror equally with classification error which may not be ideal.<br>Also, in every image many grid cells do not contain any<br>object. This pushes the \"confidence\" scores of those cells<br>towards zero, often overpowering the gradient from cells<br>that do contain objects. This can lead to model instability,<br>causing training to diverge early on.</p>",
+            "id": 48,
+            "page": 3,
+            "text": "model. We use sum-squared error because it is easy to optimize, however it does not perfectly align with our goal of maximizing average precision. It weights localization error equally with classification error which may not be ideal. Also, in every image many grid cells do not contain any object. This pushes the \"confidence\" scores of those cells towards zero, often overpowering the gradient from cells that do contain objects. This can lead to model instability, causing training to diverge early on."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1751
+                },
+                {
+                    "x": 2280,
+                    "y": 1751
+                },
+                {
+                    "x": 2280,
+                    "y": 2004
+                },
+                {
+                    "x": 1277,
+                    "y": 2004
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:16px'>To remedy this, we increase the loss from bounding box<br>coordinate predictions and decrease the loss from confi-<br>dence predictions for boxes that don't contain objects. We<br>use two parameters, 入coord and 入noobj to accomplish this. We<br>set 入coord = 5 and 入noobj = .5.</p>",
+            "id": 49,
+            "page": 3,
+            "text": "To remedy this, we increase the loss from bounding box coordinate predictions and decrease the loss from confidence predictions for boxes that don't contain objects. We use two parameters, 入coord and 入noobj to accomplish this. We set 入coord = 5 and 入noobj = .5."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2066
+                },
+                {
+                    "x": 2279,
+                    "y": 2066
+                },
+                {
+                    "x": 2279,
+                    "y": 2366
+                },
+                {
+                    "x": 1278,
+                    "y": 2366
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:16px'>Sum-squared error also equally weights errors in large<br>boxes and small boxes. Our error metric should reflect that<br>small deviations in large boxes matter less than in small<br>boxes. To partially address this we predict the square root<br>of the bounding box width and height instead of the width<br>and height directly.</p>",
+            "id": 50,
+            "page": 3,
+            "text": "Sum-squared error also equally weights errors in large boxes and small boxes. Our error metric should reflect that small deviations in large boxes matter less than in small boxes. To partially address this we predict the square root of the bounding box width and height instead of the width and height directly."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2429
+                },
+                {
+                    "x": 2279,
+                    "y": 2429
+                },
+                {
+                    "x": 2279,
+                    "y": 2878
+                },
+                {
+                    "x": 1279,
+                    "y": 2878
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:18px'>YOLO predicts multiple bounding boxes per grid cell.<br>At training time we only want one bounding box predictor<br>to be responsible for each object. We assign one predictor<br>to be \"responsible\" for predicting an object based on which<br>prediction has the highest current IOU with the ground<br>truth. This leads to specialization between the bounding box<br>predictors. Each predictor gets better at predicting certain<br>sizes, aspect ratios, or classes of object, improving overall<br>recall.</p>",
+            "id": 51,
+            "page": 3,
+            "text": "YOLO predicts multiple bounding boxes per grid cell. At training time we only want one bounding box predictor to be responsible for each object. We assign one predictor to be \"responsible\" for predicting an object based on which prediction has the highest current IOU with the ground truth. This leads to specialization between the bounding box predictors. Each predictor gets better at predicting certain sizes, aspect ratios, or classes of object, improving overall recall."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 253,
+                    "y": 2926
+                },
+                {
+                    "x": 1198,
+                    "y": 2926
+                },
+                {
+                    "x": 1198,
+                    "y": 2976
+                },
+                {
+                    "x": 253,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:16px'>We optimize for sum-squared error in the output of our</p>",
+            "id": 52,
+            "page": 3,
+            "text": "We optimize for sum-squared error in the output of our"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1329,
+                    "y": 2926
+                },
+                {
+                    "x": 2276,
+                    "y": 2926
+                },
+                {
+                    "x": 2276,
+                    "y": 2977
+                },
+                {
+                    "x": 1329,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:20px'>During training we optimize the following, multi-part</p>",
+            "id": 53,
+            "page": 3,
+            "text": "During training we optimize the following, multi-part"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 307
+                },
+                {
+                    "x": 438,
+                    "y": 307
+                },
+                {
+                    "x": 438,
+                    "y": 352
+                },
+                {
+                    "x": 204,
+                    "y": 352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:14px'>loss function:</p>",
+            "id": 54,
+            "page": 4,
+            "text": "loss function:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1014
+                },
+                {
+                    "x": 1199,
+                    "y": 1014
+                },
+                {
+                    "x": 1199,
+                    "y": 1176
+                },
+                {
+                    "x": 199,
+                    "y": 1176
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>where 1,obj denotes if object appears in cell i and 1obj de-<br>notes that the jth bounding box predictor in cell i is \"re-<br>sponsible\" for that prediction.</p>",
+            "id": 55,
+            "page": 4,
+            "text": "where 1,obj denotes if object appears in cell i and 1obj denotes that the jth bounding box predictor in cell i is \"responsible\" for that prediction."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1178
+                },
+                {
+                    "x": 1199,
+                    "y": 1178
+                },
+                {
+                    "x": 1199,
+                    "y": 1473
+                },
+                {
+                    "x": 200,
+                    "y": 1473
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='56' style='font-size:16px'>Note that the loss function only penalizes classification<br>error if an object is present in that grid cell (hence the con-<br>ditional class probability discussed earlier). It also only pe-<br>nalizes bounding box coordinate error if that predictor is<br>\"responsible\" for the ground truth box (i.e. has the highest<br>IOU of any predictor in that grid cell).</p>",
+            "id": 56,
+            "page": 4,
+            "text": "Note that the loss function only penalizes classification error if an object is present in that grid cell (hence the conditional class probability discussed earlier). It also only penalizes bounding box coordinate error if that predictor is \"responsible\" for the ground truth box (i.e. has the highest IOU of any predictor in that grid cell)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1478
+                },
+                {
+                    "x": 1199,
+                    "y": 1478
+                },
+                {
+                    "x": 1199,
+                    "y": 1722
+                },
+                {
+                    "x": 201,
+                    "y": 1722
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:14px'>We train the network for about 135 epochs on the train-<br>ing and validation data sets from PASCAL VOC 2007 and<br>2012. When testing on 2012 we also include the VOC 2007<br>test data for training. Throughout training we use a batch<br>size of 64, a momentum of 0.9 and a decay of 0.0005.</p>",
+            "id": 57,
+            "page": 4,
+            "text": "We train the network for about 135 epochs on the training and validation data sets from PASCAL VOC 2007 and 2012. When testing on 2012 we also include the VOC 2007 test data for training. Throughout training we use a batch size of 64, a momentum of 0.9 and a decay of 0.0005."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1728
+                },
+                {
+                    "x": 1198,
+                    "y": 1728
+                },
+                {
+                    "x": 1198,
+                    "y": 2020
+                },
+                {
+                    "x": 201,
+                    "y": 2020
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:16px'>Our learning rate schedule is as follows: For the first<br>epochs we slowly raise the learning rate from 10-3 to 10-2.<br>If we start at a high learning rate our model often diverges<br>due to unstable gradients. We continue training with 10-2<br>for 75 epochs, then 10-3 for 30 epochs, and finally 10-4<br>for 30 epochs.</p>",
+            "id": 58,
+            "page": 4,
+            "text": "Our learning rate schedule is as follows: For the first epochs we slowly raise the learning rate from 10-3 to 10-2. If we start at a high learning rate our model often diverges due to unstable gradients. We continue training with 10-2 for 75 epochs, then 10-3 for 30 epochs, and finally 10-4 for 30 epochs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2026
+                },
+                {
+                    "x": 1199,
+                    "y": 2026
+                },
+                {
+                    "x": 1199,
+                    "y": 2373
+                },
+                {
+                    "x": 200,
+                    "y": 2373
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='59' style='font-size:16px'>To avoid overfitting we use dropout and extensive data<br>augmentation. A dropout layer with rate = .5 after the first<br>connected layer prevents co-adaptation between layers [18].<br>For data augmentation we introduce random scaling and<br>translations of up to 20% of the original image size. We<br>also randomly adjust the exposure and saturation of the im-<br>age by up to a factor of 1.5 in the HSV color space.</p>",
+            "id": 59,
+            "page": 4,
+            "text": "To avoid overfitting we use dropout and extensive data augmentation. A dropout layer with rate = .5 after the first connected layer prevents co-adaptation between layers . For data augmentation we introduce random scaling and translations of up to 20% of the original image size. We also randomly adjust the exposure and saturation of the image by up to a factor of 1.5 in the HSV color space."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2400
+                },
+                {
+                    "x": 478,
+                    "y": 2400
+                },
+                {
+                    "x": 478,
+                    "y": 2449
+                },
+                {
+                    "x": 202,
+                    "y": 2449
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:20px'>2.3. Inference</p>",
+            "id": 60,
+            "page": 4,
+            "text": "2.3. Inference"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2479
+                },
+                {
+                    "x": 1199,
+                    "y": 2479
+                },
+                {
+                    "x": 1199,
+                    "y": 2773
+                },
+                {
+                    "x": 201,
+                    "y": 2773
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:16px'>Just like in training, predicting detections for a test image<br>only requires one network evaluation. On PASCAL VOC the<br>network predicts 98 bounding boxes per image and class<br>probabilities for each box. YOLO is extremely fast at test<br>time since it only requires a single network evaluation, un-<br>like classifier-based methods.</p>",
+            "id": 61,
+            "page": 4,
+            "text": "Just like in training, predicting detections for a test image only requires one network evaluation. On PASCAL VOC the network predicts 98 bounding boxes per image and class probabilities for each box. YOLO is extremely fast at test time since it only requires a single network evaluation, unlike classifier-based methods."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2779
+                },
+                {
+                    "x": 1199,
+                    "y": 2779
+                },
+                {
+                    "x": 1199,
+                    "y": 2977
+                },
+                {
+                    "x": 202,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>The grid design enforces spatial diversity in the bound-<br>ing box predictions. Often it is clear which grid cell an<br>object falls in to and the network only predicts one box for<br>each object. However, some large objects or objects near</p>",
+            "id": 62,
+            "page": 4,
+            "text": "The grid design enforces spatial diversity in the bounding box predictions. Often it is clear which grid cell an object falls in to and the network only predicts one box for each object. However, some large objects or objects near"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 306
+                },
+                {
+                    "x": 2277,
+                    "y": 306
+                },
+                {
+                    "x": 2277,
+                    "y": 552
+                },
+                {
+                    "x": 1279,
+                    "y": 552
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:16px'>the border of multiple cells can be well localized by multi-<br>ple cells. Non-maximal suppression can be used to fix these<br>multiple detections. While not critical to performance as it<br>is for R-CNN or DPM, non-maximal suppression adds 2-<br>3% in mAP.</p>",
+            "id": 63,
+            "page": 4,
+            "text": "the border of multiple cells can be well localized by multiple cells. Non-maximal suppression can be used to fix these multiple detections. While not critical to performance as it is for R-CNN or DPM, non-maximal suppression adds 23% in mAP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 596
+                },
+                {
+                    "x": 1790,
+                    "y": 596
+                },
+                {
+                    "x": 1790,
+                    "y": 645
+                },
+                {
+                    "x": 1280,
+                    "y": 645
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:20px'>2.4. Limitations of YOLO</p>",
+            "id": 64,
+            "page": 4,
+            "text": "2.4. Limitations of YOLO"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 677
+                },
+                {
+                    "x": 2278,
+                    "y": 677
+                },
+                {
+                    "x": 2278,
+                    "y": 975
+                },
+                {
+                    "x": 1279,
+                    "y": 975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:16px'>YOLO imposes strong spatial constraints on bounding<br>box predictions since each grid cell only predicts two boxes<br>and can only have one class. This spatial constraint lim-<br>its the number of nearby objects that our model can pre-<br>dict. Our model struggles with small objects that appear in<br>groups, such as flocks of birds.</p>",
+            "id": 65,
+            "page": 4,
+            "text": "YOLO imposes strong spatial constraints on bounding box predictions since each grid cell only predicts two boxes and can only have one class. This spatial constraint limits the number of nearby objects that our model can predict. Our model struggles with small objects that appear in groups, such as flocks of birds."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 980
+                },
+                {
+                    "x": 2278,
+                    "y": 980
+                },
+                {
+                    "x": 2278,
+                    "y": 1276
+                },
+                {
+                    "x": 1278,
+                    "y": 1276
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='66' style='font-size:16px'>Since our model learns to predict bounding boxes from<br>data, it struggles to generalize to objects in new or unusual<br>aspect ratios or configurations. Our model also uses rela-<br>tively coarse features for predicting bounding boxes since<br>our architecture has multiple downsampling layers from the<br>input image.</p>",
+            "id": 66,
+            "page": 4,
+            "text": "Since our model learns to predict bounding boxes from data, it struggles to generalize to objects in new or unusual aspect ratios or configurations. Our model also uses relatively coarse features for predicting bounding boxes since our architecture has multiple downsampling layers from the input image."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1282
+                },
+                {
+                    "x": 2279,
+                    "y": 1282
+                },
+                {
+                    "x": 2279,
+                    "y": 1581
+                },
+                {
+                    "x": 1278,
+                    "y": 1581
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:14px'>Finally, while we train on a loss function that approxi-<br>mates detection performance, our loss function treats errors<br>the same in small bounding boxes versus large bounding<br>boxes. A small error in a large box is generally benign but a<br>small error in a small box has a much greater effect on IOU.<br>Our main source of error is incorrect localizations.</p>",
+            "id": 67,
+            "page": 4,
+            "text": "Finally, while we train on a loss function that approximates detection performance, our loss function treats errors the same in small bounding boxes versus large bounding boxes. A small error in a large box is generally benign but a small error in a small box has a much greater effect on IOU. Our main source of error is incorrect localizations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1636
+                },
+                {
+                    "x": 2194,
+                    "y": 1636
+                },
+                {
+                    "x": 2194,
+                    "y": 1690
+                },
+                {
+                    "x": 1282,
+                    "y": 1690
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:22px'>3. Comparison to Other Detection Systems</p>",
+            "id": 68,
+            "page": 4,
+            "text": "3. Comparison to Other Detection Systems"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1723
+                },
+                {
+                    "x": 2277,
+                    "y": 1723
+                },
+                {
+                    "x": 2277,
+                    "y": 2268
+                },
+                {
+                    "x": 1278,
+                    "y": 2268
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:16px'>Object detection is a core problem in computer vision.<br>Detection pipelines generally start by extracting a set of<br>robust features from input images (Haar [25], SIFT [23],<br>HOG [4], convolutional features [6]). Then, classifiers<br>[36, 21, 13, 10] or localizers [1, 32] are used to identify<br>objects in the feature space. These classifiers or localizers<br>are run either in sliding window fashion over the whole im-<br>age or on some subset of regions in the image [35, 15, 39].<br>We compare the YOLO detection system to several top de-<br>tection frameworks, highlighting key similarities and differ-<br>ences.</p>",
+            "id": 69,
+            "page": 4,
+            "text": "Object detection is a core problem in computer vision. Detection pipelines generally start by extracting a set of robust features from input images (Haar , SIFT , HOG , convolutional features ). Then, classifiers  or localizers  are used to identify objects in the feature space. These classifiers or localizers are run either in sliding window fashion over the whole image or on some subset of regions in the image . We compare the YOLO detection system to several top detection frameworks, highlighting key similarities and differences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2273
+                },
+                {
+                    "x": 2277,
+                    "y": 2273
+                },
+                {
+                    "x": 2277,
+                    "y": 2870
+                },
+                {
+                    "x": 1277,
+                    "y": 2870
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:16px'>Deformable parts models. Deformable parts models<br>(DPM) use a sliding window approach to object detection<br>[10]. DPM uses a disjoint pipeline to extract static features,<br>classify regions, predict bounding boxes for high scoring<br>regions, etc. Our system replaces all of these disparate parts<br>with a single convolutional neural network. The network<br>performs feature extraction, bounding box prediction, non-<br>maximal suppression, and contextual reasoning all concur-<br>rently. Instead of static features, the network trains the fea-<br>tures in-line and optimizes them for the detection task. Our<br>unified architecture leads to a faster, more accurate model<br>than DPM.</p>",
+            "id": 70,
+            "page": 4,
+            "text": "Deformable parts models. Deformable parts models (DPM) use a sliding window approach to object detection . DPM uses a disjoint pipeline to extract static features, classify regions, predict bounding boxes for high scoring regions, etc. Our system replaces all of these disparate parts with a single convolutional neural network. The network performs feature extraction, bounding box prediction, nonmaximal suppression, and contextual reasoning all concurrently. Instead of static features, the network trains the features in-line and optimizes them for the detection task. Our unified architecture leads to a faster, more accurate model than DPM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2877
+                },
+                {
+                    "x": 2277,
+                    "y": 2877
+                },
+                {
+                    "x": 2277,
+                    "y": 2976
+                },
+                {
+                    "x": 1281,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:16px'>R-CNN. R-CNN and its variants use region proposals in-<br>stead of sliding windows to find objects in images. Selective</p>",
+            "id": 71,
+            "page": 4,
+            "text": "R-CNN. R-CNN and its variants use region proposals instead of sliding windows to find objects in images. Selective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 304
+                },
+                {
+                    "x": 1199,
+                    "y": 304
+                },
+                {
+                    "x": 1199,
+                    "y": 653
+                },
+                {
+                    "x": 200,
+                    "y": 653
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:16px'>Search [35] generates potential bounding boxes, a convolu-<br>tional network extracts features, an SVM scores the boxes, a<br>linear model adjusts the bounding boxes, and non-max sup-<br>pression eliminates duplicate detections. Each stage of this<br>complex pipeline must be precisely tuned independently<br>and the resulting system is very slow, taking more than 40<br>seconds per image at test time [14].</p>",
+            "id": 72,
+            "page": 5,
+            "text": "Search  generates potential bounding boxes, a convolutional network extracts features, an SVM scores the boxes, a linear model adjusts the bounding boxes, and non-max suppression eliminates duplicate detections. Each stage of this complex pipeline must be precisely tuned independently and the resulting system is very slow, taking more than 40 seconds per image at test time ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 660
+                },
+                {
+                    "x": 1200,
+                    "y": 660
+                },
+                {
+                    "x": 1200,
+                    "y": 1105
+                },
+                {
+                    "x": 201,
+                    "y": 1105
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='73' style='font-size:16px'>YOLO shares some similarities with R-CNN. Each grid<br>cell proposes potential bounding boxes and scores those<br>boxes using convolutional features. However, our system<br>puts spatial constraints on the grid cell proposals which<br>helps mitigate multiple detections of the same object. Our<br>system also proposes far fewer bounding boxes, only 98<br>per image compared to about 2000 from Selective Search.<br>Finally, our system combines these individual components<br>into a single, jointly optimized model.</p>",
+            "id": 73,
+            "page": 5,
+            "text": "YOLO shares some similarities with R-CNN. Each grid cell proposes potential bounding boxes and scores those boxes using convolutional features. However, our system puts spatial constraints on the grid cell proposals which helps mitigate multiple detections of the same object. Our system also proposes far fewer bounding boxes, only 98 per image compared to about 2000 from Selective Search. Finally, our system combines these individual components into a single, jointly optimized model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1111
+                },
+                {
+                    "x": 1200,
+                    "y": 1111
+                },
+                {
+                    "x": 1200,
+                    "y": 1406
+                },
+                {
+                    "x": 200,
+                    "y": 1406
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='74' style='font-size:16px'>Other Fast Detectors Fast and Faster R-CNN focus on<br>speeding up the R-CNN framework by sharing computa-<br>tion and using neural networks to propose regions instead<br>of Selective Search [14] [28]. While they offer speed and<br>accuracy improvements over R-CNN, both still fall short of<br>real-time performance.</p>",
+            "id": 74,
+            "page": 5,
+            "text": "Other Fast Detectors Fast and Faster R-CNN focus on speeding up the R-CNN framework by sharing computation and using neural networks to propose regions instead of Selective Search  . While they offer speed and accuracy improvements over R-CNN, both still fall short of real-time performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1415
+                },
+                {
+                    "x": 1200,
+                    "y": 1415
+                },
+                {
+                    "x": 1200,
+                    "y": 1609
+                },
+                {
+                    "x": 201,
+                    "y": 1609
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='75' style='font-size:18px'>Many research efforts focus on speeding up the DPM<br>pipeline [31] [38] [5]. They speed up HOG computation,<br>use cascades, and push computation to GPUs. However,<br>only 30Hz DPM [31] actually runs in real-time.</p>",
+            "id": 75,
+            "page": 5,
+            "text": "Many research efforts focus on speeding up the DPM pipeline   . They speed up HOG computation, use cascades, and push computation to GPUs. However, only 30Hz DPM  actually runs in real-time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1619
+                },
+                {
+                    "x": 1199,
+                    "y": 1619
+                },
+                {
+                    "x": 1199,
+                    "y": 1763
+                },
+                {
+                    "x": 201,
+                    "y": 1763
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:18px'>Instead of trying to optimize individual components of<br>a large detection pipeline, YOLO throws out the pipeline<br>entirely and is fast by design.</p>",
+            "id": 76,
+            "page": 5,
+            "text": "Instead of trying to optimize individual components of a large detection pipeline, YOLO throws out the pipeline entirely and is fast by design."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1771
+                },
+                {
+                    "x": 1199,
+                    "y": 1771
+                },
+                {
+                    "x": 1199,
+                    "y": 1966
+                },
+                {
+                    "x": 202,
+                    "y": 1966
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='77' style='font-size:16px'>Detectors for single classes like faces or people can be<br>highly optimized since they have to deal with much less<br>variation [37]. YOLO is a general purpose detector that<br>learns to detect a variety of objects simultaneously.</p>",
+            "id": 77,
+            "page": 5,
+            "text": "Detectors for single classes like faces or people can be highly optimized since they have to deal with much less variation . YOLO is a general purpose detector that learns to detect a variety of objects simultaneously."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1972
+                },
+                {
+                    "x": 1199,
+                    "y": 1972
+                },
+                {
+                    "x": 1199,
+                    "y": 2470
+                },
+                {
+                    "x": 201,
+                    "y": 2470
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:16px'>Deep MultiBox. Unlike R-CNN, Szegedy et al. train a<br>convolutional neural network to predict regions of interest<br>[8] instead of using Selective Search. MultiBox can also<br>perform single object detection by replacing the confidence<br>prediction with a single class prediction. However, Multi-<br>Box cannot perform general object detection and is still just<br>a piece in a larger detection pipeline, requiring further im-<br>age patch classification. Both YOLO and MultiBox use a<br>convolutional network to predict bounding boxes in an im-<br>age but YOLO is a complete detection system.</p>",
+            "id": 78,
+            "page": 5,
+            "text": "Deep MultiBox. Unlike R-CNN, Szegedy  train a convolutional neural network to predict regions of interest  instead of using Selective Search. MultiBox can also perform single object detection by replacing the confidence prediction with a single class prediction. However, MultiBox cannot perform general object detection and is still just a piece in a larger detection pipeline, requiring further image patch classification. Both YOLO and MultiBox use a convolutional network to predict bounding boxes in an image but YOLO is a complete detection system."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2474
+                },
+                {
+                    "x": 1200,
+                    "y": 2474
+                },
+                {
+                    "x": 1200,
+                    "y": 2920
+                },
+                {
+                    "x": 201,
+                    "y": 2920
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:16px'>OverFeat. Sermanet et al. train a convolutional neural<br>network to perform localization and adapt that localizer to<br>perform detection [32]. OverFeat efficiently performs slid-<br>ing window detection but it is still a disjoint system. Over-<br>Feat optimizes for localization, not detection performance.<br>Like DPM, the localizer only sees local information when<br>making a prediction. OverFeat cannot reason about global<br>context and thus requires significant post-processing to pro-<br>duce coherent detections.</p>",
+            "id": 79,
+            "page": 5,
+            "text": "OverFeat. Sermanet  train a convolutional neural network to perform localization and adapt that localizer to perform detection . OverFeat efficiently performs sliding window detection but it is still a disjoint system. OverFeat optimizes for localization, not detection performance. Like DPM, the localizer only sees local information when making a prediction. OverFeat cannot reason about global context and thus requires significant post-processing to produce coherent detections."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 247,
+                    "y": 2927
+                },
+                {
+                    "x": 1199,
+                    "y": 2927
+                },
+                {
+                    "x": 1199,
+                    "y": 2975
+                },
+                {
+                    "x": 247,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:16px'>MultiGrasp. Our work is similar in design to work on</p>",
+            "id": 80,
+            "page": 5,
+            "text": "MultiGrasp. Our work is similar in design to work on"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 307
+                },
+                {
+                    "x": 2279,
+                    "y": 307
+                },
+                {
+                    "x": 2279,
+                    "y": 804
+                },
+                {
+                    "x": 1278,
+                    "y": 804
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:18px'>grasp detection by Redmon et al [27]. Our grid approach to<br>bounding box prediction is based on the MultiGrasp system<br>for regression to grasps. However, grasp detection is a much<br>simpler task than object detection. MultiGrasp only needs<br>to predict a single graspable region for an image containing<br>one object. It doesn't have to estimate the size, location,<br>or boundaries of the object or predict it's class, only find a<br>region suitable for grasping. YOLO predicts both bounding<br>boxes and class probabilities for multiple objects of multi-<br>ple classes in an image.</p>",
+            "id": 81,
+            "page": 5,
+            "text": "grasp detection by Redmon et al . Our grid approach to bounding box prediction is based on the MultiGrasp system for regression to grasps. However, grasp detection is a much simpler task than object detection. MultiGrasp only needs to predict a single graspable region for an image containing one object. It doesn't have to estimate the size, location, or boundaries of the object or predict it's class, only find a region suitable for grasping. YOLO predicts both bounding boxes and class probabilities for multiple objects of multiple classes in an image."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 845
+                },
+                {
+                    "x": 1612,
+                    "y": 845
+                },
+                {
+                    "x": 1612,
+                    "y": 898
+                },
+                {
+                    "x": 1280,
+                    "y": 898
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:22px'>4. Experiments</p>",
+            "id": 82,
+            "page": 5,
+            "text": "4. Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 928
+                },
+                {
+                    "x": 2278,
+                    "y": 928
+                },
+                {
+                    "x": 2278,
+                    "y": 1526
+                },
+                {
+                    "x": 1277,
+                    "y": 1526
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:14px'>First we compare YOLO with other real-time detection<br>systems on PASCAL VOC 2007. To understand the differ-<br>ences between YOLO and R-CNN variants we explore the<br>errors on VOC 2007 made by YOLO and Fast R-CNN, one<br>of the highest performing versions of R-CNN [14]. Based<br>on the different error profiles we show that YOLO can be<br>used to rescore Fast R-CNN detections and reduce the er-<br>rors from background false positives, giving a significant<br>performance boost. We also present VOC 2012 results and<br>compare mAP to current state-of-the-art methods. Finally,<br>we show that YOLO generalizes to new domains better than<br>other detectors on two artwork datasets.</p>",
+            "id": 83,
+            "page": 5,
+            "text": "First we compare YOLO with other real-time detection systems on PASCAL VOC 2007. To understand the differences between YOLO and R-CNN variants we explore the errors on VOC 2007 made by YOLO and Fast R-CNN, one of the highest performing versions of R-CNN . Based on the different error profiles we show that YOLO can be used to rescore Fast R-CNN detections and reduce the errors from background false positives, giving a significant performance boost. We also present VOC 2012 results and compare mAP to current state-of-the-art methods. Finally, we show that YOLO generalizes to new domains better than other detectors on two artwork datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1554
+                },
+                {
+                    "x": 2175,
+                    "y": 1554
+                },
+                {
+                    "x": 2175,
+                    "y": 1605
+                },
+                {
+                    "x": 1279,
+                    "y": 1605
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:20px'>4.1. Comparison to Other Real-Time Systems</p>",
+            "id": 84,
+            "page": 5,
+            "text": "4.1. Comparison to Other Real-Time Systems"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1632
+                },
+                {
+                    "x": 2278,
+                    "y": 1632
+                },
+                {
+                    "x": 2278,
+                    "y": 2126
+                },
+                {
+                    "x": 1279,
+                    "y": 2126
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:16px'>Many research efforts in object detection focus on mak-<br>ing standard detection pipelines fast. [5] [38] [31] [14] [17]<br>[28] However, only Sadeghi et al. actually produce a de-<br>tection system that runs in real-time (30 frames per second<br>or better) [31]. We compare YOLO to their GPU imple-<br>mentation of DPM which runs either at 30Hz or 100Hz.<br>While the other efforts don't reach the real-time milestone<br>we also compare their relative mAP and speed to examine<br>the accuracy-performance tradeoffs available in object de-<br>tection systems.</p>",
+            "id": 85,
+            "page": 5,
+            "text": "Many research efforts in object detection focus on making standard detection pipelines fast.       However, only Sadeghi  actually produce a detection system that runs in real-time (30 frames per second or better) . We compare YOLO to their GPU implementation of DPM which runs either at 30Hz or 100Hz. While the other efforts don't reach the real-time milestone we also compare their relative mAP and speed to examine the accuracy-performance tradeoffs available in object detection systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2129
+                },
+                {
+                    "x": 2278,
+                    "y": 2129
+                },
+                {
+                    "x": 2278,
+                    "y": 2377
+                },
+                {
+                    "x": 1280,
+                    "y": 2377
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:14px'>Fast YOLO is the fastest object detection method on<br>PASCAL; as far as we know, it is the fastest extant object<br>detector. With 52.7% mAP, itis more than twice as accurate<br>as prior work on real-time detection. YOLO pushes mAP to<br>63.4% while still maintaining real-time performance.</p>",
+            "id": 86,
+            "page": 5,
+            "text": "Fast YOLO is the fastest object detection method on PASCAL; as far as we know, it is the fastest extant object detector. With 52.7% mAP, itis more than twice as accurate as prior work on real-time detection. YOLO pushes mAP to 63.4% while still maintaining real-time performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2380
+                },
+                {
+                    "x": 2278,
+                    "y": 2380
+                },
+                {
+                    "x": 2278,
+                    "y": 2625
+                },
+                {
+                    "x": 1280,
+                    "y": 2625
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='87' style='font-size:14px'>We also train YOLO using VGG-16. This model is more<br>accurate but also significantly slower than YOLO. It is use-<br>ful for comparison to other detection systems that rely on<br>VGG-16 but since it is slower than real-time the rest of the<br>paper focuses on our faster models.</p>",
+            "id": 87,
+            "page": 5,
+            "text": "We also train YOLO using VGG-16. This model is more accurate but also significantly slower than YOLO. It is useful for comparison to other detection systems that rely on VGG-16 but since it is slower than real-time the rest of the paper focuses on our faster models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2629
+                },
+                {
+                    "x": 2277,
+                    "y": 2629
+                },
+                {
+                    "x": 2277,
+                    "y": 2873
+                },
+                {
+                    "x": 1280,
+                    "y": 2873
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:16px'>Fastest DPM effectively speeds up DPM without sacri-<br>ficing much mAP but it still misses real-time performance<br>by a factor of 2 [38]. It also is limited by DPM's relatively<br>low accuracy on detection compared to neural network ap-<br>proaches.</p>",
+            "id": 88,
+            "page": 5,
+            "text": "Fastest DPM effectively speeds up DPM without sacrificing much mAP but it still misses real-time performance by a factor of 2 . It also is limited by DPM's relatively low accuracy on detection compared to neural network approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2878
+                },
+                {
+                    "x": 2277,
+                    "y": 2878
+                },
+                {
+                    "x": 2277,
+                    "y": 2978
+                },
+                {
+                    "x": 1281,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:16px'>R-CNN minus R replaces Selective Search with static<br>bounding box proposals [20]. While it is much faster than</p>",
+            "id": 89,
+            "page": 5,
+            "text": "R-CNN minus R replaces Selective Search with static bounding box proposals . While it is much faster than"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 208,
+                    "y": 296
+                },
+                {
+                    "x": 1213,
+                    "y": 296
+                },
+                {
+                    "x": 1213,
+                    "y": 923
+                },
+                {
+                    "x": 208,
+                    "y": 923
+                }
+            ],
+            "category": "table",
+            "html": "<table id='90' style='font-size:18px'><tr><td>Real-Time Detectors</td><td>Train</td><td>mAP</td><td>FPS</td></tr><tr><td>100Hz DPM [31]</td><td>2007</td><td>16.0</td><td>100</td></tr><tr><td>30Hz DPM [31]</td><td>2007</td><td>26.1</td><td>30</td></tr><tr><td>Fast YOLO</td><td>2007+2012</td><td>52.7</td><td>155</td></tr><tr><td>YOLO</td><td>2007+2012</td><td>63.4</td><td>45</td></tr><tr><td>Less Than Real-Time</td><td></td><td></td><td></td></tr><tr><td>Fastest DPM [38]</td><td>2007</td><td>30.4</td><td>15</td></tr><tr><td>R-CNN Minus R [20]</td><td>2007</td><td>53.5</td><td>6</td></tr><tr><td>Fast R-CNN [14]</td><td>2007+2012</td><td>70.0</td><td>0.5</td></tr><tr><td>Faster R-CNN VGG-16[28]</td><td>2007+2012</td><td>73.2</td><td>7</td></tr><tr><td>Faster R-CNN ZF [28]</td><td>2007+2012</td><td>62.1</td><td>18</td></tr><tr><td>YOLO VGG-16</td><td>2007+2012</td><td>66.4</td><td>21</td></tr></table>",
+            "id": 90,
+            "page": 6,
+            "text": "Real-Time Detectors Train mAP FPS  100Hz DPM  2007 16.0 100  30Hz DPM  2007 26.1 30  Fast YOLO 2007+2012 52.7 155  YOLO 2007+2012 63.4 45  Less Than Real-Time     Fastest DPM  2007 30.4 15  R-CNN Minus R  2007 53.5 6  Fast R-CNN  2007+2012 70.0 0.5  Faster R-CNN VGG-16 2007+2012 73.2 7  Faster R-CNN ZF  2007+2012 62.1 18  YOLO VGG-16 2007+2012 66.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 997
+                },
+                {
+                    "x": 1201,
+                    "y": 997
+                },
+                {
+                    "x": 1201,
+                    "y": 1275
+                },
+                {
+                    "x": 201,
+                    "y": 1275
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='91' style='font-size:14px'>Table 1: Real-Time Systems on PASCAL VOC 2007. Compar-<br>ing the performance and speed of fast detectors. Fast YOLO is<br>the fastest detector on record for PASCAL VOC detection and is<br>still twice as accurate as any other real-time detector. YOLO is<br>10 mAP more accurate than the fast version while still well above<br>real-time in speed.</caption>",
+            "id": 91,
+            "page": 6,
+            "text": "Table 1: Real-Time Systems on PASCAL VOC 2007. Comparing the performance and speed of fast detectors. Fast YOLO is the fastest detector on record for PASCAL VOC detection and is still twice as accurate as any other real-time detector. YOLO is 10 mAP more accurate than the fast version while still well above real-time in speed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1369
+                },
+                {
+                    "x": 1197,
+                    "y": 1369
+                },
+                {
+                    "x": 1197,
+                    "y": 1464
+                },
+                {
+                    "x": 202,
+                    "y": 1464
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:18px'>R-CNN, it still falls short of real-time and takes a significant<br>accuracy hit from not having good proposals.</p>",
+            "id": 92,
+            "page": 6,
+            "text": "R-CNN, it still falls short of real-time and takes a significant accuracy hit from not having good proposals."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1473
+                },
+                {
+                    "x": 1198,
+                    "y": 1473
+                },
+                {
+                    "x": 1198,
+                    "y": 1717
+                },
+                {
+                    "x": 202,
+                    "y": 1717
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:16px'>Fast R-CNN speeds up the classification stage of R-CNN<br>but it still relies on selective search which can take around<br>2 seconds per image to generate bounding box proposals.<br>Thus it has high mAP but at 0.5 fps it is still far from real-<br>time.</p>",
+            "id": 93,
+            "page": 6,
+            "text": "Fast R-CNN speeds up the classification stage of R-CNN but it still relies on selective search which can take around 2 seconds per image to generate bounding box proposals. Thus it has high mAP but at 0.5 fps it is still far from realtime."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1724
+                },
+                {
+                    "x": 1199,
+                    "y": 1724
+                },
+                {
+                    "x": 1199,
+                    "y": 2119
+                },
+                {
+                    "x": 202,
+                    "y": 2119
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:16px'>The recent Faster R-CNN replaces selective search with<br>a neural network to propose bounding boxes, similar to<br>Szegedy et al. [8] In our tests, their most accurate model<br>achieves 7 fps while a smaller, less accurate one runs at<br>18 fps. The VGG-16 version of Faster R-CNN is 10 mAP<br>higher but is also 6 times slower than YOLO. The Zeiler-<br>Fergus Faster R-CNN is only 2.5 times slower than YOLO<br>but is also less accurate.</p>",
+            "id": 94,
+            "page": 6,
+            "text": "The recent Faster R-CNN replaces selective search with a neural network to propose bounding boxes, similar to Szegedy   In our tests, their most accurate model achieves 7 fps while a smaller, less accurate one runs at 18 fps. The VGG-16 version of Faster R-CNN is 10 mAP higher but is also 6 times slower than YOLO. The ZeilerFergus Faster R-CNN is only 2.5 times slower than YOLO but is also less accurate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2157
+                },
+                {
+                    "x": 795,
+                    "y": 2157
+                },
+                {
+                    "x": 795,
+                    "y": 2209
+                },
+                {
+                    "x": 202,
+                    "y": 2209
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:22px'>4.2. VOC 2007 Error Analysis</p>",
+            "id": 95,
+            "page": 6,
+            "text": "4.2. VOC 2007 Error Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2237
+                },
+                {
+                    "x": 1201,
+                    "y": 2237
+                },
+                {
+                    "x": 1201,
+                    "y": 2530
+                },
+                {
+                    "x": 200,
+                    "y": 2530
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:16px'>To further examine the differences between YOLO and<br>state-of-the-art detectors, we look at a detailed breakdown<br>of results on VOC 2007. We compare YOLO to Fast R-<br>CNN since Fast R-CNN is one of the highest performing<br>detectors on PASCAL and it's detections are publicly avail-<br>able.</p>",
+            "id": 96,
+            "page": 6,
+            "text": "To further examine the differences between YOLO and state-of-the-art detectors, we look at a detailed breakdown of results on VOC 2007. We compare YOLO to Fast RCNN since Fast R-CNN is one of the highest performing detectors on PASCAL and it's detections are publicly available."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2539
+                },
+                {
+                    "x": 1200,
+                    "y": 2539
+                },
+                {
+                    "x": 1200,
+                    "y": 2735
+                },
+                {
+                    "x": 201,
+                    "y": 2735
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='97' style='font-size:16px'>We use the methodology and tools of Hoiem et al. [19]<br>For each category at test time we look at the top N predic-<br>tions for that category. Each prediction is either correct or<br>it is classified based on the type of error:</p>",
+            "id": 97,
+            "page": 6,
+            "text": "We use the methodology and tools of Hoiem   For each category at test time we look at the top N predictions for that category. Each prediction is either correct or it is classified based on the type of error:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 242,
+                    "y": 2786
+                },
+                {
+                    "x": 1008,
+                    "y": 2786
+                },
+                {
+                    "x": 1008,
+                    "y": 2973
+                },
+                {
+                    "x": 242,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:14px'>● Correct: correct class and IOU > .5<br>● Localization: correct class, .1 < IOU < .5<br>● Similar: class is similar, IOU > .1</p>",
+            "id": 98,
+            "page": 6,
+            "text": "● Correct: correct class and IOU > .5 ● Localization: correct class, .1 < IOU < .5 ● Similar: class is similar, IOU > .1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 297
+                },
+                {
+                    "x": 2279,
+                    "y": 297
+                },
+                {
+                    "x": 2279,
+                    "y": 831
+                },
+                {
+                    "x": 1281,
+                    "y": 831
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='99' style='font-size:14px' alt=\"Fast R-CNN YOLO\nBackground: 13.6% Background: 4.75%\nOther: 4.0%\nOther: 1.9% Sim: 6.75%\nSim: 4.3%\nLoc: 8.6% Loc: 19.0%\nCorrect: 71.6% Correct: 65.5%\" data-coord=\"top-left:(1281,297); bottom-right:(2279,831)\" /></figure>",
+            "id": 99,
+            "page": 6,
+            "text": "Fast R-CNN YOLO Background: 13.6% Background: 4.75% Other: 4.0% Other: 1.9% Sim: 6.75% Sim: 4.3% Loc: 8.6% Loc: 19.0% Correct: 71.6% Correct: 65.5%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 859
+                },
+                {
+                    "x": 2277,
+                    "y": 859
+                },
+                {
+                    "x": 2277,
+                    "y": 1048
+                },
+                {
+                    "x": 1278,
+                    "y": 1048
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='100' style='font-size:14px'>Figure 4: Error Analysis: Fast R-CNN vs. YOLO These<br>charts show the percentage of localization and background errors<br>in the top N detections for various categories (N = # objects in that<br>category).</caption>",
+            "id": 100,
+            "page": 6,
+            "text": "Figure 4: Error Analysis: Fast R-CNN vs. YOLO These charts show the percentage of localization and background errors in the top N detections for various categories (N = # objects in that category)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1132
+                },
+                {
+                    "x": 2008,
+                    "y": 1132
+                },
+                {
+                    "x": 2008,
+                    "y": 1244
+                },
+                {
+                    "x": 1324,
+                    "y": 1244
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:16px'>● Other: class is wrong, IOU > .1<br>● Background: IOU < .1 for any object</p>",
+            "id": 101,
+            "page": 6,
+            "text": "● Other: class is wrong, IOU > .1 ● Background: IOU < .1 for any object"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1278
+                },
+                {
+                    "x": 2274,
+                    "y": 1278
+                },
+                {
+                    "x": 2274,
+                    "y": 1371
+                },
+                {
+                    "x": 1282,
+                    "y": 1371
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:16px'>Figure 4 shows the breakdown of each error type aver-<br>aged across all 20 classes.</p>",
+            "id": 102,
+            "page": 6,
+            "text": "Figure 4 shows the breakdown of each error type averaged across all 20 classes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1378
+                },
+                {
+                    "x": 2277,
+                    "y": 1378
+                },
+                {
+                    "x": 2277,
+                    "y": 1722
+                },
+                {
+                    "x": 1279,
+                    "y": 1722
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:18px'>YOLO struggles to localize objects correctly. Localiza-<br>tion errors account for more of YOLO's errors than all other<br>sources combined. Fast R-CNN makes much fewer local-<br>ization errors but far more background errors. 13.6% of<br>it's top detections are false positives that don't contain any<br>objects. Fast R-CNN is almost 3x more likely to predict<br>background detections than YOLO.</p>",
+            "id": 103,
+            "page": 6,
+            "text": "YOLO struggles to localize objects correctly. Localization errors account for more of YOLO's errors than all other sources combined. Fast R-CNN makes much fewer localization errors but far more background errors. 13.6% of it's top detections are false positives that don't contain any objects. Fast R-CNN is almost 3x more likely to predict background detections than YOLO."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1753
+                },
+                {
+                    "x": 2070,
+                    "y": 1753
+                },
+                {
+                    "x": 2070,
+                    "y": 1801
+                },
+                {
+                    "x": 1280,
+                    "y": 1801
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:20px'>4.3. Combining Fast R-CNN and YOLO</p>",
+            "id": 104,
+            "page": 6,
+            "text": "4.3. Combining Fast R-CNN and YOLO"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1831
+                },
+                {
+                    "x": 2279,
+                    "y": 1831
+                },
+                {
+                    "x": 2279,
+                    "y": 2174
+                },
+                {
+                    "x": 1279,
+                    "y": 2174
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:18px'>YOLO makes far fewer background mistakes than Fast<br>R-CNN. By using YOLO to eliminate background detec-<br>tions from Fast R-CNN we get a significant boost in perfor-<br>mance. For every bounding box that R-CNN predicts we<br>check to see if YOLO predicts a similar box. If it does, we<br>give that prediction a boost based on the probability pre-<br>dicted by YOLO and the overlap between the two boxes.</p>",
+            "id": 105,
+            "page": 6,
+            "text": "YOLO makes far fewer background mistakes than Fast R-CNN. By using YOLO to eliminate background detections from Fast R-CNN we get a significant boost in performance. For every bounding box that R-CNN predicts we check to see if YOLO predicts a similar box. If it does, we give that prediction a boost based on the probability predicted by YOLO and the overlap between the two boxes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2179
+                },
+                {
+                    "x": 2275,
+                    "y": 2179
+                },
+                {
+                    "x": 2275,
+                    "y": 2276
+                },
+                {
+                    "x": 1281,
+                    "y": 2276
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='106' style='font-size:16px'>The best Fast R-CNN model achieves a mAP of 71.8%<br>on the VOC 2007 test set. When combined with YOLO, its</p>",
+            "id": 106,
+            "page": 6,
+            "text": "The best Fast R-CNN model achieves a mAP of 71.8% on the VOC 2007 test set. When combined with YOLO, its"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1781,
+                    "y": 2345
+                },
+                {
+                    "x": 2231,
+                    "y": 2345
+                },
+                {
+                    "x": 2231,
+                    "y": 2391
+                },
+                {
+                    "x": 1781,
+                    "y": 2391
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:14px'>mAP Combined Gain</p>",
+            "id": 107,
+            "page": 6,
+            "text": "mAP Combined Gain"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2379
+                },
+                {
+                    "x": 2260,
+                    "y": 2379
+                },
+                {
+                    "x": 2260,
+                    "y": 2647
+                },
+                {
+                    "x": 1297,
+                    "y": 2647
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='108' style='font-size:16px'><tr><td>Fast R-CNN</td><td>71.8</td><td>-</td><td>-</td></tr><tr><td>Fast R-CNN (2007 data)</td><td>66.9</td><td>72.4</td><td>.6</td></tr><tr><td>Fast R-CNN (VGG-M)</td><td>59.2</td><td>72.4</td><td>.6</td></tr><tr><td>Fast R-CNN (CaffeNet)</td><td>57.1</td><td>72.1</td><td>.3</td></tr><tr><td>YOLO</td><td>63.4</td><td>75.0</td><td>3.2</td></tr></table>",
+            "id": 108,
+            "page": 6,
+            "text": "Fast R-CNN 71.8 -  Fast R-CNN (2007 data) 66.9 72.4 .6  Fast R-CNN (VGG-M) 59.2 72.4 .6  Fast R-CNN (CaffeNet) 57.1 72.1 .3  YOLO 63.4 75.0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2730
+                },
+                {
+                    "x": 2277,
+                    "y": 2730
+                },
+                {
+                    "x": 2277,
+                    "y": 2960
+                },
+                {
+                    "x": 1278,
+                    "y": 2960
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='109' style='font-size:14px'>Table 2: Model combination experiments on VOC 2007. We<br>examine the effect of combining various models with the best ver-<br>sion of Fast R-CNN. Other versions of Fast R-CNN provide only<br>a small benefit while YOLO provides a significant performance<br>boost.</caption>",
+            "id": 109,
+            "page": 6,
+            "text": "Table 2: Model combination experiments on VOC 2007. We examine the effect of combining various models with the best version of Fast R-CNN. Other versions of Fast R-CNN provide only a small benefit while YOLO provides a significant performance boost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 194,
+                    "y": 292
+                },
+                {
+                    "x": 2274,
+                    "y": 292
+                },
+                {
+                    "x": 2274,
+                    "y": 1007
+                },
+                {
+                    "x": 194,
+                    "y": 1007
+                }
+            ],
+            "category": "table",
+            "html": "<table id='110' style='font-size:14px'><tr><td>VOC 2012 test</td><td>mAP</td><td>aero</td><td>bike</td><td>bird</td><td>boat</td><td>bottle</td><td>bus</td><td>car</td><td>cat</td><td>chair</td><td>COW</td><td>table</td><td>dog</td><td>horse</td><td>mbike</td><td></td><td>personplant</td><td>sheep</td><td>sofa</td><td>train</td><td>tv</td></tr><tr><td>MR_CNN_MORE_DATA [11]</td><td>73.9</td><td>85.5</td><td>82.9</td><td>76.6</td><td>57.8</td><td>62.7</td><td>79.4</td><td>77.2</td><td>86.6</td><td>55.0</td><td>79.1</td><td>62.2</td><td>87.0</td><td>83.4</td><td>84.7</td><td>78.9</td><td>45.3</td><td>73.4</td><td>65.8</td><td>80.3</td><td>74.0</td></tr><tr><td>HyperNet_ VGG</td><td>71.4</td><td>84.2</td><td>78.5</td><td>73.6</td><td>55.6</td><td>53.7</td><td>78.7</td><td>79.8</td><td>87.7</td><td>49.6</td><td>74.9</td><td>52.1</td><td>86.0</td><td>81.7</td><td>83.3</td><td>81.8</td><td>48.6</td><td>73.5</td><td>59.4</td><td>79.9</td><td>65.7</td></tr><tr><td>HyperNet_SP</td><td>71.3</td><td>84.1</td><td>78.3</td><td>73.3</td><td>55.5</td><td>53.6</td><td>78.6</td><td>79.6</td><td>87.5</td><td>49.5</td><td>74.9</td><td>52.1</td><td>85.6</td><td>81.6</td><td>83.2</td><td>81.6</td><td>48.4</td><td>73.2</td><td>59.3</td><td>79.7</td><td>65.6</td></tr><tr><td>Fast R-CNN + YOLO</td><td>70.7</td><td>83.4</td><td>78.5</td><td>73.5</td><td>55.8</td><td>43.4</td><td>79.1</td><td>73.1</td><td>89.4</td><td>49.4</td><td>75.5</td><td>57.0</td><td>87.5</td><td>80.9</td><td>81.0</td><td>74.7</td><td>41.8</td><td>71.5</td><td>68.5</td><td>82.1</td><td>67.2</td></tr><tr><td>MR_CNN_S_CNN [11]</td><td>70.7</td><td>85.0</td><td>79.6</td><td>71.5</td><td>55.3</td><td>57.7</td><td>76.0</td><td>73.9</td><td>84.6</td><td>50.5</td><td>74.3</td><td>61.7</td><td>85.5</td><td>79.9</td><td>81.7</td><td>76.4</td><td>41.0</td><td>69.0</td><td>61.2</td><td>77.7</td><td>72.1</td></tr><tr><td>Faster R-CNN [28]</td><td>70.4</td><td>84.9</td><td>79.8</td><td>74.3</td><td>53.9</td><td>49.8</td><td>77.5</td><td>75.9</td><td>88.5</td><td>45.6</td><td>77.1</td><td>55.3</td><td>86.9</td><td>81.7</td><td>80.9</td><td>79.6</td><td>40.1</td><td>72.6</td><td>60.9</td><td>81.2</td><td>61.5</td></tr><tr><td>DEEP_ENS_COCO</td><td>70.1</td><td>84.0</td><td>79.4</td><td>71.6</td><td>51.9</td><td>51.1</td><td>74.1</td><td>72.1</td><td>88.6</td><td>48.3</td><td>73.4</td><td>57.8</td><td>86.1</td><td>80.0</td><td>80.7</td><td>70.4</td><td>46.6</td><td>69.6</td><td>68.8</td><td>75.9</td><td>71.4</td></tr><tr><td>NoC [29]</td><td>68.8</td><td>82.8</td><td>79.0</td><td>71.6</td><td>52.3</td><td>53.7</td><td>74.1</td><td>69.0</td><td>84.9</td><td>46.9</td><td>74.3</td><td>53.1</td><td>85.0</td><td>81.3</td><td>79.5</td><td>72.2</td><td>38.9</td><td>72.4</td><td>59.5</td><td>76.7</td><td>68.1</td></tr><tr><td>Fast R-CNN [14]</td><td>68.4</td><td>82.3</td><td>78.4</td><td>70.8</td><td>52.3</td><td>38.7</td><td>77.8</td><td>71.6</td><td>89.3</td><td>44.2</td><td>73.0</td><td>55.0</td><td>87.5</td><td>80.5</td><td>80.8</td><td>72.0</td><td>35.1</td><td>68.3</td><td>65.7</td><td>80.4</td><td>64.2</td></tr><tr><td>UMICH_FGS_STRUCT</td><td>66.4</td><td>82.9</td><td>76.1</td><td>64.1</td><td>44.6</td><td>49.4</td><td>70.3</td><td>71.2</td><td>84.6</td><td>42.7</td><td>68.6</td><td>55.8</td><td>82.7</td><td>77.1</td><td>79.9</td><td>68.7</td><td>41.4</td><td>69.0</td><td>60.0</td><td>72.0</td><td>66.2</td></tr><tr><td>NUS_NIN_C2000 [7]</td><td>63.8</td><td>80.2</td><td>73.8</td><td>61.9</td><td>43.7</td><td>43.0</td><td>70.3</td><td>67.6</td><td>80.7</td><td>41.9</td><td>69.7</td><td>51.7</td><td>78.2</td><td>75.2</td><td>76.9</td><td>65.1</td><td>38.6</td><td>68.3</td><td>58.0</td><td>68.7</td><td>63.3</td></tr><tr><td>BabyLearning [7]</td><td>63.2</td><td>78.0</td><td>74.2</td><td>61.3</td><td>45.7</td><td>42.7</td><td>68.2</td><td>66.8</td><td>80.2</td><td>40.6</td><td>70.0</td><td>49.8</td><td>79.0</td><td>74.5</td><td>77.9</td><td>64.0</td><td>35.3</td><td>67.9</td><td>55.7</td><td>68.7</td><td>62.6</td></tr><tr><td>NUS_NIN</td><td>62.4</td><td>77.9</td><td>73.1</td><td>62.6</td><td>39.5</td><td>43.3</td><td>69.1</td><td>66.4</td><td>78.9</td><td>39.1</td><td>68.1</td><td>50.0</td><td>77.2</td><td>71.3</td><td>76.1</td><td>64.7</td><td>38.4</td><td>66.9</td><td>56.2</td><td>66.9</td><td>62.7</td></tr><tr><td>R-CNN VGG BB [13]</td><td>62.4</td><td>79.6</td><td>72.7</td><td>61.9</td><td>41.2</td><td>41.9</td><td>65.9</td><td>66.4</td><td>84.6</td><td>38.5</td><td>67.2</td><td>46.7</td><td>82.0</td><td>74.8</td><td>76.0</td><td>65.2</td><td>35.6</td><td>65.4</td><td>54.2</td><td>67.4</td><td>60.3</td></tr><tr><td>R-CNN VGG [13]</td><td>59.2</td><td>76.8</td><td>70.9</td><td>56.6</td><td>37.5</td><td>36.9</td><td>62.9</td><td>63.6</td><td>81.1</td><td>35.7</td><td>64.3</td><td>43.9</td><td>80.4</td><td>71.6</td><td>74.0</td><td>60.0</td><td>30.8</td><td>63.4</td><td>52.0</td><td>63.5</td><td>58.7</td></tr><tr><td>YOLO</td><td>57.9</td><td>77.0</td><td>67.2</td><td>57.7</td><td>38.3</td><td>22.7</td><td>68.3</td><td>55.9</td><td>81.4</td><td>36.2</td><td>60.8</td><td>48.5</td><td>77.2</td><td>72.3</td><td>71.3</td><td>63.5</td><td>28.9</td><td>52.2</td><td>54.8</td><td>73.9</td><td>50.8</td></tr><tr><td>Feature Edit [33]</td><td>56.3</td><td>74.6</td><td>69.1</td><td>54.4</td><td>39.1</td><td>33.1</td><td>65.2</td><td>62.7</td><td>69.7</td><td>30.8</td><td>56.0</td><td>44.6</td><td>70.0</td><td>64.4</td><td>71.1</td><td>60.2</td><td>33.3</td><td>61.3</td><td>46.4</td><td>61.7</td><td>57.8</td></tr><tr><td>R-CNN BB [13]</td><td>53.3</td><td>71.8</td><td>65.8</td><td>52.0</td><td>34.1</td><td>32.6</td><td>59.6</td><td>60.0</td><td>69.8</td><td>27.6</td><td>52.0</td><td>41.7</td><td>69.6</td><td>61.3</td><td>68.3</td><td>57.8</td><td>29.6</td><td>57.8</td><td>40.9</td><td>59.3</td><td>54.1</td></tr><tr><td>SDS [16]</td><td>50.7</td><td>69.7</td><td>58.4</td><td>48.5</td><td>28.3</td><td>28.8</td><td>61.3</td><td>57.5</td><td>70.8</td><td>24.1</td><td>50.7</td><td>35.9</td><td>64.9</td><td>59.1</td><td>65.8</td><td>57.1</td><td>26.0</td><td>58.8</td><td>38.6</td><td>58.9</td><td>50.7</td></tr><tr><td>R-CNN [13]</td><td>49.6</td><td>68.1</td><td>63.8</td><td>46.1</td><td>29.4</td><td>27.9</td><td>56.6</td><td>57.0</td><td>65.9</td><td>26.5</td><td>48.7</td><td>39.5</td><td>66.2</td><td>57.3</td><td>65.4</td><td>53.2</td><td>26.2</td><td>54.5</td><td>38.1</td><td>50.6</td><td>51.6</td></tr></table>",
+            "id": 110,
+            "page": 7,
+            "text": "VOC 2012 test mAP aero bike bird boat bottle bus car cat chair COW table dog horse mbike  personplant sheep sofa train tv  MR_CNN_MORE_DATA  73.9 85.5 82.9 76.6 57.8 62.7 79.4 77.2 86.6 55.0 79.1 62.2 87.0 83.4 84.7 78.9 45.3 73.4 65.8 80.3 74.0  HyperNet_ VGG 71.4 84.2 78.5 73.6 55.6 53.7 78.7 79.8 87.7 49.6 74.9 52.1 86.0 81.7 83.3 81.8 48.6 73.5 59.4 79.9 65.7  HyperNet_SP 71.3 84.1 78.3 73.3 55.5 53.6 78.6 79.6 87.5 49.5 74.9 52.1 85.6 81.6 83.2 81.6 48.4 73.2 59.3 79.7 65.6  Fast R-CNN + YOLO 70.7 83.4 78.5 73.5 55.8 43.4 79.1 73.1 89.4 49.4 75.5 57.0 87.5 80.9 81.0 74.7 41.8 71.5 68.5 82.1 67.2  MR_CNN_S_CNN  70.7 85.0 79.6 71.5 55.3 57.7 76.0 73.9 84.6 50.5 74.3 61.7 85.5 79.9 81.7 76.4 41.0 69.0 61.2 77.7 72.1  Faster R-CNN  70.4 84.9 79.8 74.3 53.9 49.8 77.5 75.9 88.5 45.6 77.1 55.3 86.9 81.7 80.9 79.6 40.1 72.6 60.9 81.2 61.5  DEEP_ENS_COCO 70.1 84.0 79.4 71.6 51.9 51.1 74.1 72.1 88.6 48.3 73.4 57.8 86.1 80.0 80.7 70.4 46.6 69.6 68.8 75.9 71.4  NoC  68.8 82.8 79.0 71.6 52.3 53.7 74.1 69.0 84.9 46.9 74.3 53.1 85.0 81.3 79.5 72.2 38.9 72.4 59.5 76.7 68.1  Fast R-CNN  68.4 82.3 78.4 70.8 52.3 38.7 77.8 71.6 89.3 44.2 73.0 55.0 87.5 80.5 80.8 72.0 35.1 68.3 65.7 80.4 64.2  UMICH_FGS_STRUCT 66.4 82.9 76.1 64.1 44.6 49.4 70.3 71.2 84.6 42.7 68.6 55.8 82.7 77.1 79.9 68.7 41.4 69.0 60.0 72.0 66.2  NUS_NIN_C2000  63.8 80.2 73.8 61.9 43.7 43.0 70.3 67.6 80.7 41.9 69.7 51.7 78.2 75.2 76.9 65.1 38.6 68.3 58.0 68.7 63.3  BabyLearning  63.2 78.0 74.2 61.3 45.7 42.7 68.2 66.8 80.2 40.6 70.0 49.8 79.0 74.5 77.9 64.0 35.3 67.9 55.7 68.7 62.6  NUS_NIN 62.4 77.9 73.1 62.6 39.5 43.3 69.1 66.4 78.9 39.1 68.1 50.0 77.2 71.3 76.1 64.7 38.4 66.9 56.2 66.9 62.7  R-CNN VGG BB  62.4 79.6 72.7 61.9 41.2 41.9 65.9 66.4 84.6 38.5 67.2 46.7 82.0 74.8 76.0 65.2 35.6 65.4 54.2 67.4 60.3  R-CNN VGG  59.2 76.8 70.9 56.6 37.5 36.9 62.9 63.6 81.1 35.7 64.3 43.9 80.4 71.6 74.0 60.0 30.8 63.4 52.0 63.5 58.7  YOLO 57.9 77.0 67.2 57.7 38.3 22.7 68.3 55.9 81.4 36.2 60.8 48.5 77.2 72.3 71.3 63.5 28.9 52.2 54.8 73.9 50.8  Feature Edit  56.3 74.6 69.1 54.4 39.1 33.1 65.2 62.7 69.7 30.8 56.0 44.6 70.0 64.4 71.1 60.2 33.3 61.3 46.4 61.7 57.8  R-CNN BB  53.3 71.8 65.8 52.0 34.1 32.6 59.6 60.0 69.8 27.6 52.0 41.7 69.6 61.3 68.3 57.8 29.6 57.8 40.9 59.3 54.1  SDS  50.7 69.7 58.4 48.5 28.3 28.8 61.3 57.5 70.8 24.1 50.7 35.9 64.9 59.1 65.8 57.1 26.0 58.8 38.6 58.9 50.7  R-CNN  49.6 68.1 63.8 46.1 29.4 27.9 56.6 57.0 65.9 26.5 48.7 39.5 66.2 57.3 65.4 53.2 26.2 54.5 38.1 50.6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1078
+                },
+                {
+                    "x": 2279,
+                    "y": 1078
+                },
+                {
+                    "x": 2279,
+                    "y": 1223
+                },
+                {
+                    "x": 199,
+                    "y": 1223
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='111' style='font-size:14px'>Table 3: PASCAL VOC 2012 Leaderboard. YOLO compared with the full comp4 (outside data allowed) public leaderboard as of<br>November 6th, 2015. Mean average precision and per-class average precision are shown for a variety of detection methods. YOLO is the<br>only real-time detector. Fast R-CNN + YOLO is the forth highest scoring method, with a 2.3% boost over Fast R-CNN.</caption>",
+            "id": 111,
+            "page": 7,
+            "text": "Table 3: PASCAL VOC 2012 Leaderboard. YOLO compared with the full comp4 (outside data allowed) public leaderboard as of November 6th, 2015. Mean average precision and per-class average precision are shown for a variety of detection methods. YOLO is the only real-time detector. Fast R-CNN + YOLO is the forth highest scoring method, with a 2.3% boost over Fast R-CNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1275
+                },
+                {
+                    "x": 1200,
+                    "y": 1275
+                },
+                {
+                    "x": 1200,
+                    "y": 1471
+                },
+                {
+                    "x": 200,
+                    "y": 1471
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:18px'>mAP increases by 3.2% to 75.0%. We also tried combining<br>the top Fast R-CNN model with several other versions of<br>Fast R-CNN. Those ensembles produced small increases in<br>mAP between .3 and .6%, see Table 2 for details.</p>",
+            "id": 112,
+            "page": 7,
+            "text": "mAP increases by 3.2% to 75.0%. We also tried combining the top Fast R-CNN model with several other versions of Fast R-CNN. Those ensembles produced small increases in mAP between .3 and .6%, see Table 2 for details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1476
+                },
+                {
+                    "x": 1200,
+                    "y": 1476
+                },
+                {
+                    "x": 1200,
+                    "y": 1770
+                },
+                {
+                    "x": 200,
+                    "y": 1770
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:18px'>The boost from YOLO is not simply a byproduct of<br>model ensembling since there is little benefit from combin-<br>ing different versions of Fast R-CNN. Rather, it is precisely<br>because YOLO makes different kinds of mistakes at test<br>time that it is SO effective at boosting Fast R-CNN's per-<br>formance.</p>",
+            "id": 113,
+            "page": 7,
+            "text": "The boost from YOLO is not simply a byproduct of model ensembling since there is little benefit from combining different versions of Fast R-CNN. Rather, it is precisely because YOLO makes different kinds of mistakes at test time that it is SO effective at boosting Fast R-CNN's performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1774
+                },
+                {
+                    "x": 1200,
+                    "y": 1774
+                },
+                {
+                    "x": 1200,
+                    "y": 2021
+                },
+                {
+                    "x": 200,
+                    "y": 2021
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='114' style='font-size:18px'>Unfortunately, this combination doesn't benefit from the<br>speed of YOLO since we run each model seperately and<br>then combine the results. However, since YOLO is SO fast<br>it doesn't add any significant computational time compared<br>to Fast R-CNN.</p>",
+            "id": 114,
+            "page": 7,
+            "text": "Unfortunately, this combination doesn't benefit from the speed of YOLO since we run each model seperately and then combine the results. However, since YOLO is SO fast it doesn't add any significant computational time compared to Fast R-CNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2047
+                },
+                {
+                    "x": 649,
+                    "y": 2047
+                },
+                {
+                    "x": 649,
+                    "y": 2098
+                },
+                {
+                    "x": 200,
+                    "y": 2098
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:20px'>4.4. VOC 2012 Results</p>",
+            "id": 115,
+            "page": 7,
+            "text": "4.4. VOC 2012 Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2124
+                },
+                {
+                    "x": 1200,
+                    "y": 2124
+                },
+                {
+                    "x": 1200,
+                    "y": 2521
+                },
+                {
+                    "x": 200,
+                    "y": 2521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:18px'>On the VOC 2012 test set, YOLO scores 57.9% mAP.<br>This is lower than the current state of the art, closer to<br>the original R-CNN using VGG-16, see Table 3. Our sys-<br>tem struggles with small objects compared to its closest<br>competitors. On categories like bottle, sheep, and<br>tv / monitor YOLO scores 8-10% lower than R-CNN or<br>Feature Edit. However, on other categories like cat and<br>train YOLO achieves higher performance.</p>",
+            "id": 116,
+            "page": 7,
+            "text": "On the VOC 2012 test set, YOLO scores 57.9% mAP. This is lower than the current state of the art, closer to the original R-CNN using VGG-16, see Table 3. Our system struggles with small objects compared to its closest competitors. On categories like bottle, sheep, and tv / monitor YOLO scores 8-10% lower than R-CNN or Feature Edit. However, on other categories like cat and train YOLO achieves higher performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2524
+                },
+                {
+                    "x": 1200,
+                    "y": 2524
+                },
+                {
+                    "x": 1200,
+                    "y": 2724
+                },
+                {
+                    "x": 200,
+                    "y": 2724
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='117' style='font-size:18px'>Our combined Fast R-CNN + YOLO model is one of the<br>highest performing detection methods. Fast R-CNN gets<br>a 2.3% improvement from the combination with YOLO,<br>boosting it 5 spots up on the public leaderboard.</p>",
+            "id": 117,
+            "page": 7,
+            "text": "Our combined Fast R-CNN + YOLO model is one of the highest performing detection methods. Fast R-CNN gets a 2.3% improvement from the combination with YOLO, boosting it 5 spots up on the public leaderboard."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2748
+                },
+                {
+                    "x": 1198,
+                    "y": 2748
+                },
+                {
+                    "x": 1198,
+                    "y": 2801
+                },
+                {
+                    "x": 200,
+                    "y": 2801
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='118' style='font-size:22px'>4.5. Generalizability: Person Detection in Artwork</p>",
+            "id": 118,
+            "page": 7,
+            "text": "4.5. Generalizability: Person Detection in Artwork"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2977
+                },
+                {
+                    "x": 201,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:18px'>Academic datasets for object detection draw the training<br>and testing data from the same distribution. In real-world<br>applications it is hard to predict all possible use cases and</p>",
+            "id": 119,
+            "page": 7,
+            "text": "Academic datasets for object detection draw the training and testing data from the same distribution. In real-world applications it is hard to predict all possible use cases and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1277
+                },
+                {
+                    "x": 2277,
+                    "y": 1277
+                },
+                {
+                    "x": 2277,
+                    "y": 1472
+                },
+                {
+                    "x": 1278,
+                    "y": 1472
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='120' style='font-size:16px'>the test data can diverge from what the system has seen be-<br>fore [3]. We compare YOLO to other detection systems on<br>the Picasso Dataset [12] and the People-Art Dataset [3], two<br>datasets for testing person detection on artwork.</p>",
+            "id": 120,
+            "page": 7,
+            "text": "the test data can diverge from what the system has seen before . We compare YOLO to other detection systems on the Picasso Dataset  and the People-Art Dataset , two datasets for testing person detection on artwork."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1479
+                },
+                {
+                    "x": 2279,
+                    "y": 1479
+                },
+                {
+                    "x": 2279,
+                    "y": 1773
+                },
+                {
+                    "x": 1278,
+                    "y": 1773
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='121' style='font-size:18px'>Figure 5 shows comparative performance between<br>YOLO and other detection methods. For reference, we give<br>VOC 2007 detection AP on person where all models are<br>trained only on VOC 2007 data. On Picasso models are<br>trained on VOC 2012 while on People-Art they are trained<br>on VOC 2010.</p>",
+            "id": 121,
+            "page": 7,
+            "text": "Figure 5 shows comparative performance between YOLO and other detection methods. For reference, we give VOC 2007 detection AP on person where all models are trained only on VOC 2007 data. On Picasso models are trained on VOC 2012 while on People-Art they are trained on VOC 2010."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1781
+                },
+                {
+                    "x": 2278,
+                    "y": 1781
+                },
+                {
+                    "x": 2278,
+                    "y": 2029
+                },
+                {
+                    "x": 1278,
+                    "y": 2029
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='122' style='font-size:18px'>R-CNN has high AP on VOC 2007. However, R-CNN<br>drops off considerably when applied to artwork. R-CNN<br>uses Selective Search for bounding box proposals which is<br>tuned for natural images. The classifier step in R-CNN only<br>sees small regions and needs good proposals.</p>",
+            "id": 122,
+            "page": 7,
+            "text": "R-CNN has high AP on VOC 2007. However, R-CNN drops off considerably when applied to artwork. R-CNN uses Selective Search for bounding box proposals which is tuned for natural images. The classifier step in R-CNN only sees small regions and needs good proposals."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2034
+                },
+                {
+                    "x": 2278,
+                    "y": 2034
+                },
+                {
+                    "x": 2278,
+                    "y": 2278
+                },
+                {
+                    "x": 1279,
+                    "y": 2278
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='123' style='font-size:18px'>DPM maintains its AP well when applied to artwork.<br>Prior work theorizes that DPM performs well because it has<br>strong spatial models of the shape and layout of objects.<br>Though DPM doesn't degrade as much as R-CNN, it starts<br>from a lower AP.</p>",
+            "id": 123,
+            "page": 7,
+            "text": "DPM maintains its AP well when applied to artwork. Prior work theorizes that DPM performs well because it has strong spatial models of the shape and layout of objects. Though DPM doesn't degrade as much as R-CNN, it starts from a lower AP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2285
+                },
+                {
+                    "x": 2278,
+                    "y": 2285
+                },
+                {
+                    "x": 2278,
+                    "y": 2686
+                },
+                {
+                    "x": 1279,
+                    "y": 2686
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='124' style='font-size:18px'>YOLO has good performance on VOC 2007 and its AP<br>degrades less than other methods when applied to artwork.<br>Like DPM, YOLO models the size and shape of objects,<br>as well as relationships between objects and where objects<br>commonly appear. Artwork and natural images are very<br>different on a pixel level but they are similar in terms of<br>the size and shape of objects, thus YOLO can still predict<br>good bounding boxes and detections.</p>",
+            "id": 124,
+            "page": 7,
+            "text": "YOLO has good performance on VOC 2007 and its AP degrades less than other methods when applied to artwork. Like DPM, YOLO models the size and shape of objects, as well as relationships between objects and where objects commonly appear. Artwork and natural images are very different on a pixel level but they are similar in terms of the size and shape of objects, thus YOLO can still predict good bounding boxes and detections."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2737
+                },
+                {
+                    "x": 2050,
+                    "y": 2737
+                },
+                {
+                    "x": 2050,
+                    "y": 2793
+                },
+                {
+                    "x": 1280,
+                    "y": 2793
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:22px'>5. Real-Time Detection In The Wild</p>",
+            "id": 125,
+            "page": 7,
+            "text": "5. Real-Time Detection In The Wild"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2826
+                },
+                {
+                    "x": 2278,
+                    "y": 2826
+                },
+                {
+                    "x": 2278,
+                    "y": 2977
+                },
+                {
+                    "x": 1280,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:18px'>YOLO is a fast, accurate object detector, making it ideal<br>for computer vision applications. We connect YOLO to a<br>webcam and verify that it maintains real-time performance,</p>",
+            "id": 126,
+            "page": 7,
+            "text": "YOLO is a fast, accurate object detector, making it ideal for computer vision applications. We connect YOLO to a webcam and verify that it maintains real-time performance,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 197,
+                    "y": 288
+                },
+                {
+                    "x": 2256,
+                    "y": 288
+                },
+                {
+                    "x": 2256,
+                    "y": 1066
+                },
+                {
+                    "x": 197,
+                    "y": 1066
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='127' style='font-size:16px' alt=\"1.0\nHumans\n0.8\nYOLO\nPrecision\n0.6\nVOC 2007 Picasso People-Art\n0.4 DPM\nAP AP Best F1 AP\nPoselets\nRCNN YOLO 59.2 53.3 0.590 45\n0.2 R-CNN 54.2 10.4 0.226 26\nDPM 43.2 37.8 0.458 32\nD&T Poselets [2] 36.5 17.8 0.271\n0.0\n0.2 0.4 0.6 0.8 1.0 D&T [4] - 1.9 0.051\nRecall\n(b) Quantitative results on the VOC 2007, Picasso, and People-Art Datasets.\n(a) Picasso Dataset precision-recall The Picasso Dataset evaluates both AP and best F1\" data-coord=\"top-left:(197,288); bottom-right:(2256,1066)\" /></figure>",
+            "id": 127,
+            "page": 8,
+            "text": "1.0 Humans 0.8 YOLO Precision 0.6 VOC 2007 Picasso People-Art 0.4 DPM AP AP Best F1 AP Poselets RCNN YOLO 59.2 53.3 0.590 45 0.2 R-CNN 54.2 10.4 0.226 26 DPM 43.2 37.8 0.458 32 D&T Poselets  36.5 17.8 0.271 0.0 0.2 0.4 0.6 0.8 1.0 D&T  - 1.9 0.051 Recall (b) Quantitative results on the VOC 2007, Picasso, and People-Art Datasets. (a) Picasso Dataset precision-recall The Picasso Dataset evaluates both AP and best F1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 343,
+                    "y": 1043
+                },
+                {
+                    "x": 999,
+                    "y": 1043
+                },
+                {
+                    "x": 999,
+                    "y": 1090
+                },
+                {
+                    "x": 343,
+                    "y": 1090
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='128' style='font-size:16px'>curves.</caption>",
+            "id": 128,
+            "page": 8,
+            "text": "curves."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1589,
+                    "y": 1051
+                },
+                {
+                    "x": 2048,
+                    "y": 1051
+                },
+                {
+                    "x": 2048,
+                    "y": 1082
+                },
+                {
+                    "x": 1589,
+                    "y": 1082
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='129' style='font-size:14px'>on score.</p>",
+            "id": 129,
+            "page": 8,
+            "text": "on score."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 680,
+                    "y": 1129
+                },
+                {
+                    "x": 1798,
+                    "y": 1129
+                },
+                {
+                    "x": 1798,
+                    "y": 1180
+                },
+                {
+                    "x": 680,
+                    "y": 1180
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='130' style='font-size:18px'>Figure 5: Generalization results on Picasso and People-Art datasets.</caption>",
+            "id": 130,
+            "page": 8,
+            "text": "Figure 5: Generalization results on Picasso and People-Art datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1227
+                },
+                {
+                    "x": 2270,
+                    "y": 1227
+                },
+                {
+                    "x": 2270,
+                    "y": 2082
+                },
+                {
+                    "x": 217,
+                    "y": 2082
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='131' style='font-size:14px' alt=\"person\nperson person\nperson\nperson\nhorse\nperson dog\nperson\nbottle\ncat\ndiningtable\naeroplane\naeroplane\naeroplane\nbird\naeroplane\nbird\ncar person aeroplane\ncar aeroplane\nboat\naeroplane\" data-coord=\"top-left:(217,1227); bottom-right:(2270,2082)\" /></figure>",
+            "id": 131,
+            "page": 8,
+            "text": "person person person person person horse person dog person bottle cat diningtable aeroplane aeroplane aeroplane bird aeroplane bird car person aeroplane car aeroplane boat aeroplane"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2157
+                },
+                {
+                    "x": 2278,
+                    "y": 2157
+                },
+                {
+                    "x": 2278,
+                    "y": 2259
+                },
+                {
+                    "x": 202,
+                    "y": 2259
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='132' style='font-size:18px'>Figure 6: Qualitative Results. YOLO running on sample artwork and natural images from the internet. It is mostly accurate although it<br>does think one person is an airplane.</caption>",
+            "id": 132,
+            "page": 8,
+            "text": "Figure 6: Qualitative Results. YOLO running on sample artwork and natural images from the internet. It is mostly accurate although it does think one person is an airplane."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2345
+                },
+                {
+                    "x": 1199,
+                    "y": 2345
+                },
+                {
+                    "x": 1199,
+                    "y": 2442
+                },
+                {
+                    "x": 201,
+                    "y": 2442
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:18px'>including the time to fetch images from the camera and dis-<br>play the detections.</p>",
+            "id": 133,
+            "page": 8,
+            "text": "including the time to fetch images from the camera and display the detections."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2447
+                },
+                {
+                    "x": 1202,
+                    "y": 2447
+                },
+                {
+                    "x": 1202,
+                    "y": 2747
+                },
+                {
+                    "x": 201,
+                    "y": 2747
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='134' style='font-size:18px'>The resulting system is interactive and engaging. While<br>YOLO processes images individually, when attached to a<br>webcam it functions like a tracking system, detecting ob-<br>jects as they move around and change in appearance. A<br>demo of the system and the source code can be found on<br>our project website: http: / /pjreddie · com/ yolo/.</p>",
+            "id": 134,
+            "page": 8,
+            "text": "The resulting system is interactive and engaging. While YOLO processes images individually, when attached to a webcam it functions like a tracking system, detecting objects as they move around and change in appearance. A demo of the system and the source code can be found on our project website: http: / /pjreddie · com/ yolo/."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2790
+                },
+                {
+                    "x": 501,
+                    "y": 2790
+                },
+                {
+                    "x": 501,
+                    "y": 2844
+                },
+                {
+                    "x": 203,
+                    "y": 2844
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='135' style='font-size:22px'>6. Conclusion</p>",
+            "id": 135,
+            "page": 8,
+            "text": "6. Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2876
+                },
+                {
+                    "x": 1201,
+                    "y": 2876
+                },
+                {
+                    "x": 1201,
+                    "y": 2976
+                },
+                {
+                    "x": 201,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='136' style='font-size:18px'>We introduce YOLO, a unified model for object detec-<br>tion. Our model is simple to construct and can be trained</p>",
+            "id": 136,
+            "page": 8,
+            "text": "We introduce YOLO, a unified model for object detection. Our model is simple to construct and can be trained"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2345
+                },
+                {
+                    "x": 2280,
+                    "y": 2345
+                },
+                {
+                    "x": 2280,
+                    "y": 2543
+                },
+                {
+                    "x": 1277,
+                    "y": 2543
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='137' style='font-size:20px'>directly on full images. Unlike classifier-based approaches,<br>YOLO is trained on a loss function that directly corresponds<br>to detection performance and the entire model is trained<br>jointly.</p>",
+            "id": 137,
+            "page": 8,
+            "text": "directly on full images. Unlike classifier-based approaches, YOLO is trained on a loss function that directly corresponds to detection performance and the entire model is trained jointly."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2559
+                },
+                {
+                    "x": 2281,
+                    "y": 2559
+                },
+                {
+                    "x": 2281,
+                    "y": 2809
+                },
+                {
+                    "x": 1277,
+                    "y": 2809
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='138' style='font-size:20px'>Fast YOLO is the fastest general-purpose object detec-<br>tor in the literature and YOLO pushes the state-of-the-art in<br>real-time object detection. YOLO also generalizes well to<br>new domains making it ideal for applications that rely on<br>fast, robust object detection.</p>",
+            "id": 138,
+            "page": 8,
+            "text": "Fast YOLO is the fastest general-purpose object detector in the literature and YOLO pushes the state-of-the-art in real-time object detection. YOLO also generalizes well to new domains making it ideal for applications that rely on fast, robust object detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2827
+                },
+                {
+                    "x": 2279,
+                    "y": 2827
+                },
+                {
+                    "x": 2279,
+                    "y": 2975
+                },
+                {
+                    "x": 1278,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='139' style='font-size:20px'>Acknowledgements: This work is partially supported by<br>ONR N00014-13-1-0720, NSF IIS-1338054, and The Allen<br>Distinguished Investigator Award.</p>",
+            "id": 139,
+            "page": 8,
+            "text": "Acknowledgements: This work is partially supported by ONR N00014-13-1-0720, NSF IIS-1338054, and The Allen Distinguished Investigator Award."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 299
+                },
+                {
+                    "x": 446,
+                    "y": 299
+                },
+                {
+                    "x": 446,
+                    "y": 354
+                },
+                {
+                    "x": 203,
+                    "y": 354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='140' style='font-size:18px'>References</p>",
+            "id": 140,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 211,
+                    "y": 375
+                },
+                {
+                    "x": 1201,
+                    "y": 375
+                },
+                {
+                    "x": 1201,
+                    "y": 2976
+                },
+                {
+                    "x": 211,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='141' style='font-size:14px'>[1] M. B. Blaschko and C. H. Lampert. Learning to localize ob-<br>jects with structured output regression. In Computer Vision-<br>ECCV 2008, pages 2-15. Springer, 2008. 4<br>[2] L. Bourdev and J. Malik. Poselets: Body part detectors<br>trained using 3d human pose annotations. In International<br>Conference on Computer Vision (ICCV), 2009. 8<br>[3] H. Cai, Q. Wu, T. Corradi, and P. Hall. The cross-<br>depiction problem: Computer vision algorithms for recog-<br>nising objects in artwork and in photographs. arXiv preprint<br>arXiv:1505.00110, 2015. 7<br>[4] N. Dalal and B. Triggs. Histograms of oriented gradients for<br>human detection. In Computer Vision and Pattern Recogni-<br>tion, 2005. CVPR 2005. IEEE Computer Society Conference<br>on, volume 1, pages 886-893. IEEE, 2005. 4, 8<br>[5] T. Dean, M. Ruzon, M. Segal, J. Shlens, S. Vijaya-<br>narasimhan, J. Yagnik, et al. Fast, accurate detection of<br>100,000 object classes on a single machine. In Computer<br>Vision and Pattern Recognition (CVPR), 2013 IEEE Confer-<br>ence on, pages 1814-1821. IEEE, 2013. 5<br>[6] J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang,<br>E. Tzeng, and T. Darrell. Decaf: A deep convolutional acti-<br>vation feature for generic visual recognition. arXiv preprint<br>arXiv:1310.1531, 2013. 4<br>[7] J. Dong, Q. Chen, S. Yan, and A. Yuille. Towards unified<br>object detection and semantic segmentation. In Computer<br>Vision-ECCV 2014, pages 299-314. Springer, 2014. 7<br>[8] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable<br>object detection using deep neural networks. In Computer<br>Vision and Pattern Recognition (CVPR), 2014 IEEE Confer-<br>ence on, pages 2155-2162. IEEE, 2014. 5, 6<br>[9] M. Everingham, S. M. A. Eslami, L. Van Gool, C. K. I.<br>Williams, J. Winn, and A. Zisserman. The pascal visual ob-<br>ject classes challenge: A retrospective. International Journal<br>of Computer Vision, 111(1):98-136, Jan. 2015. 2<br>[10] P.F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ra-<br>manan. Object detection with discriminatively trained part<br>based models. IEEE Transactions on Pattern Analysis and<br>Machine Intelligence, 32(9):1627-1645, 2010. 1, 4<br>[11] S. Gidaris and N. Komodakis. Object detection via a multi-<br>region & semantic segmentation-aware CNN model. CoRR,<br>abs/1505.01749, 2015. 7<br>[12] S. Ginosar, D. Haas, T. Brown, and J. Malik. Detecting peo-<br>ple in cubist art. In Computer Vision-ECCV 2014 Workshops,<br>pages 101-116. Springer, 2014. 7<br>[13] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich fea-<br>ture hierarchies for accurate object detection and semantic<br>segmentation. In Computer Vision and Pattern Recognition<br>(CVPR), 2014 IEEE Conference on, pages 580-587. IEEE,<br>2014. 1, 4, 7<br>[14] R. B. Girshick. Fast R-CNN. CoRR, abs/1504.08083, 2015.<br>2, 5, 6, 7<br>[15] S. Gould, T. Gao, and D. Koller. Region-based segmenta-<br>tion and object detection. In Advances in neural information<br>processing systems, pages 655-663, 2009. 4</p>",
+            "id": 141,
+            "page": 9,
+            "text": " M. B. Blaschko and C. H. Lampert. Learning to localize objects with structured output regression. In Computer VisionECCV 2008, pages 2-15. Springer, 2008. 4  L. Bourdev and J. Malik. Poselets: Body part detectors trained using 3d human pose annotations. In International Conference on Computer Vision (ICCV), 2009. 8  H. Cai, Q. Wu, T. Corradi, and P. Hall. The crossdepiction problem: Computer vision algorithms for recognising objects in artwork and in photographs. arXiv preprint arXiv:1505.00110, 2015. 7  N. Dalal and B. Triggs. Histograms of oriented gradients for human detection. In Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer Society Conference on, volume 1, pages 886-893. IEEE, 2005. 4, 8  T. Dean, M. Ruzon, M. Segal, J. Shlens, S. Vijayanarasimhan, J. Yagnik,  Fast, accurate detection of 100,000 object classes on a single machine. In Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on, pages 1814-1821. IEEE, 2013. 5  J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep convolutional activation feature for generic visual recognition. arXiv preprint arXiv:1310.1531, 2013. 4  J. Dong, Q. Chen, S. Yan, and A. Yuille. Towards unified object detection and semantic segmentation. In Computer Vision-ECCV 2014, pages 299-314. Springer, 2014. 7  D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable object detection using deep neural networks. In Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on, pages 2155-2162. IEEE, 2014. 5, 6  M. Everingham, S. M. A. Eslami, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. The pascal visual object classes challenge: A retrospective. International Journal of Computer Vision, 111(1):98-136, Jan. 2015. 2  P.F. Felzenszwalb, R. B. Girshick, D. McAllester, and D. Ramanan. Object detection with discriminatively trained part based models. IEEE Transactions on Pattern Analysis and Machine Intelligence, 32(9):1627-1645, 2010. 1, 4  S. Gidaris and N. Komodakis. Object detection via a multiregion & semantic segmentation-aware CNN model. CoRR, abs/1505.01749, 2015. 7  S. Ginosar, D. Haas, T. Brown, and J. Malik. Detecting people in cubist art. In Computer Vision-ECCV 2014 Workshops, pages 101-116. Springer, 2014. 7  R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on, pages 580-587. IEEE, 2014. 1, 4, 7  R. B. Girshick. Fast R-CNN. CoRR, abs/1504.08083, 2015. 2, 5, 6, 7  S. Gould, T. Gao, and D. Koller. Region-based segmentation and object detection. In Advances in neural information processing systems, pages 655-663, 2009. 4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 300
+                },
+                {
+                    "x": 2289,
+                    "y": 300
+                },
+                {
+                    "x": 2289,
+                    "y": 2978
+                },
+                {
+                    "x": 1274,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='142' style='font-size:14px'>[16] B. Hariharan, P. Arbelaez, R. Girshick, and J. Malik. Simul-<br>taneous detection and segmentation. In Computer Vision-<br>ECCV 2014, pages 297-312. Springer, 2014. 7<br>[17] K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling<br>in deep convolutional networks for visual recognition. arXiv<br>preprint arXiv:1406.4729, 2014. 5<br>[18] G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and<br>R. R. Salakhutdinov. Improving neural networks by pre-<br>venting co-adaptation of feature detectors. arXiv preprint<br>arXiv:1207.0580, 2012. 4<br>[19] D. Hoiem, Y. Chodpathumwan, and Q. Dai. Diagnosing error<br>in object detectors. In Computer Vision-ECCV 2012, pages<br>340-353. Springer, 2012. 6<br>[20] K. Lenc and A. Vedaldi. R-cnn minus r. arXiv preprint<br>arXiv:1506.06981, 2015. 5, 6<br>[21] R. Lienhart and J. Maydt. An extended set of haar-like fea-<br>tures for rapid object detection. In Image Processing. 2002.<br>Proceedings. 2002 International Conference on, volume 1,<br>pages I-900. IEEE, 2002. 4<br>[22] M. Lin, Q. Chen, and S. Yan. Network in network. CoRR,<br>abs/1312.4400, 2013. 2<br>[23] D. G. Lowe. Object recognition from local scale-invariant<br>features. In Computer vision, 1999. The proceedings of the<br>seventh IEEE international conference on, volume 2, pages<br>1150-1157. Ieee, 1999. 4<br>[24] D. Mishkin. Models accuracy on imagenet 2012<br>val. https : / / github · com/BVLC/caffe/wiki/<br>Models-ecorracy-cn-ImageNet-2012-wel. Ac-<br>cessed: 2015-10-2. 3<br>[25] C. P. Papageorgiou, M. Oren, and T. Poggio. A general<br>framework for object detection. In Computer vision, 1998.<br>sixth international conference on, pages 555-562. IEEE,<br>1998. 4<br>[26] J. Redmon. Darknet: Open source neural networks in c.<br>http : / /pjreddie com/darknet/, 2013-2016. 3<br>[27] J. Redmon and A. Angelova. Real-time grasp detection using<br>convolutional neural networks. CoRR, abs/1412.3128, 2014.<br>5<br>[28] S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn: To-<br>wards real-time object detection with region proposal net-<br>works. arXiv preprint arXiv:1506.01497, 2015. 5, 6, 7<br>[29] S. Ren, K. He, R. B. Girshick, X. Zhang, and J. Sun. Object<br>detection networks on convolutional feature maps. CoRR,<br>abs/1504.06066, 2015. 3, 7<br>[30] 0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh,<br>S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein,<br>A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual<br>Recognition Challenge. International Journal of Computer<br>Vision (IJCV), 2015. 3<br>[31] M. A. Sadeghi and D. Forsyth. 30hz object detection with<br>dpm v5. In Computer Vision-ECCV 2014, pages 65-79.<br>Springer, 2014. 5, 6<br>[32] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,<br>and Y. LeCun. Overfeat: Integrated recognition, localiza-<br>tion and detection using convolutional networks. CoRR,<br>abs/1312.6229, 2013. 4, 5</p>",
+            "id": 142,
+            "page": 9,
+            "text": " B. Hariharan, P. Arbelaez, R. Girshick, and J. Malik. Simultaneous detection and segmentation. In Computer VisionECCV 2014, pages 297-312. Springer, 2014. 7  K. He, X. Zhang, S. Ren, and J. Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. arXiv preprint arXiv:1406.4729, 2014. 5  G. E. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever, and R. R. Salakhutdinov. Improving neural networks by preventing co-adaptation of feature detectors. arXiv preprint arXiv:1207.0580, 2012. 4  D. Hoiem, Y. Chodpathumwan, and Q. Dai. Diagnosing error in object detectors. In Computer Vision-ECCV 2012, pages 340-353. Springer, 2012. 6  K. Lenc and A. Vedaldi. R-cnn minus r. arXiv preprint arXiv:1506.06981, 2015. 5, 6  R. Lienhart and J. Maydt. An extended set of haar-like features for rapid object detection. In Image Processing. 2002. Proceedings. 2002 International Conference on, volume 1, pages I-900. IEEE, 2002. 4  M. Lin, Q. Chen, and S. Yan. Network in network. CoRR, abs/1312.4400, 2013. 2  D. G. Lowe. Object recognition from local scale-invariant features. In Computer vision, 1999. The proceedings of the seventh IEEE international conference on, volume 2, pages 1150-1157. Ieee, 1999. 4  D. Mishkin. Models accuracy on imagenet 2012 val. https : / / github · com/BVLC/caffe/wiki/ Models-ecorracy-cn-ImageNet-2012-wel. Accessed: 2015-10-2. 3  C. P. Papageorgiou, M. Oren, and T. Poggio. A general framework for object detection. In Computer vision, 1998. sixth international conference on, pages 555-562. IEEE, 1998. 4  J. Redmon. Darknet: Open source neural networks in c. http : / /pjreddie com/darknet/, 2013-2016. 3  J. Redmon and A. Angelova. Real-time grasp detection using convolutional neural networks. CoRR, abs/1412.3128, 2014. 5  S. Ren, K. He, R. Girshick, and J. Sun. Faster r-cnn: Towards real-time object detection with region proposal networks. arXiv preprint arXiv:1506.01497, 2015. 5, 6, 7  S. Ren, K. He, R. B. Girshick, X. Zhang, and J. Sun. Object detection networks on convolutional feature maps. CoRR, abs/1504.06066, 2015. 3, 7  0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual Recognition Challenge. International Journal of Computer Vision (IJCV), 2015. 3  M. A. Sadeghi and D. Forsyth. 30hz object detection with dpm v5. In Computer Vision-ECCV 2014, pages 65-79. Springer, 2014. 5, 6  P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. CoRR, abs/1312.6229, 2013. 4, 5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 303
+                },
+                {
+                    "x": 1202,
+                    "y": 303
+                },
+                {
+                    "x": 1202,
+                    "y": 1383
+                },
+                {
+                    "x": 200,
+                    "y": 1383
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='143' style='font-size:14px'>[33] Z. Shen and X. Xue. Do more dropouts in pool5 feature maps<br>for better object detection. arXiv preprint arXiv:1409.6911,<br>2014. 7<br>[34] C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed,<br>D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich.<br>Going deeper with convolutions. CoRR, abs/1409.4842,<br>2014. 2<br>[35] J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W.<br>Smeulders. Selective search for object recognition. Inter-<br>national journal of computer vision, 104(2):154-171, 2013.<br>4<br>[36] P. Viola and M. Jones. Robust real-time object detection.<br>International Journal of Computer Vision, 4:34-47, 2001. 4<br>[37] P. Viola and M. J. Jones. Robust real-time face detection.<br>International journal of computer vision, 57(2):137-154,<br>2004. 5<br>[38] J. Yan, Z. Lei, L. Wen, and S. Z. Li. The fastest deformable<br>part model for object detection. In Computer Vision and Pat-<br>tern Recognition (CVPR), 2014 IEEE Conference on, pages<br>2497-2504. IEEE, 2014. 5, 6<br>[39] C. L. Zitnick and P. Dollar. Edge boxes: Locating object pro-<br>posals from edges. In Computer Vision-ECCV 2014, pages<br>391-405. Springer, 2014. 4</p>",
+            "id": 143,
+            "page": 10,
+            "text": " Z. Shen and X. Xue. Do more dropouts in pool5 feature maps for better object detection. arXiv preprint arXiv:1409.6911, 2014. 7  C. Szegedy, W. Liu, Y. Jia, P. Sermanet, S. Reed, D. Anguelov, D. Erhan, V. Vanhoucke, and A. Rabinovich. Going deeper with convolutions. CoRR, abs/1409.4842, 2014. 2  J. R. Uijlings, K. E. van de Sande, T. Gevers, and A. W. Smeulders. Selective search for object recognition. International journal of computer vision, 104(2):154-171, 2013. 4  P. Viola and M. Jones. Robust real-time object detection. International Journal of Computer Vision, 4:34-47, 2001. 4  P. Viola and M. J. Jones. Robust real-time face detection. International journal of computer vision, 57(2):137-154, 2004. 5  J. Yan, Z. Lei, L. Wen, and S. Z. Li. The fastest deformable part model for object detection. In Computer Vision and Pattern Recognition (CVPR), 2014 IEEE Conference on, pages 2497-2504. IEEE, 2014. 5, 6  C. L. Zitnick and P. Dollar. Edge boxes: Locating object proposals from edges. In Computer Vision-ECCV 2014, pages 391-405. Springer, 2014. 4"
+        }
+    ]
+}

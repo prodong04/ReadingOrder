@@ -1,0 +1,1406 @@
+{
+    "id": "329b404e-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1506.04834v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 449
+                },
+                {
+                    "x": 2044,
+                    "y": 449
+                },
+                {
+                    "x": 2044,
+                    "y": 613
+                },
+                {
+                    "x": 509,
+                    "y": 613
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Tree-Structured Composition in Neural Networks<br>without Tree-Structured Architectures</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Tree-Structured Composition in Neural Networks without Tree-Structured Architectures"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 663,
+                    "y": 780
+                },
+                {
+                    "x": 1909,
+                    "y": 780
+                },
+                {
+                    "x": 1909,
+                    "y": 963
+                },
+                {
+                    "x": 663,
+                    "y": 963
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Samuel R. Bowman, Christopher D. Manning, and Christopher Potts<br>Stanford University<br>Stanford, CA 94305-2150<br>{ sbowman, manning, cgpotts}@stanford. edu</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Samuel R. Bowman, Christopher D. Manning, and Christopher Potts Stanford University Stanford, CA 94305-2150 { sbowman, manning, cgpotts}@stanford. edu"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1174,
+                    "y": 1080
+                },
+                {
+                    "x": 1374,
+                    "y": 1080
+                },
+                {
+                    "x": 1374,
+                    "y": 1134
+                },
+                {
+                    "x": 1174,
+                    "y": 1134
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 592,
+                    "y": 1182
+                },
+                {
+                    "x": 1962,
+                    "y": 1182
+                },
+                {
+                    "x": 1962,
+                    "y": 1650
+                },
+                {
+                    "x": 592,
+                    "y": 1650
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>Tree-structured neural networks encode a particular tree geometry for a sentence<br>in the network design. However, these models have at best only slightly out-<br>performed simpler sequence-based models. We hypothesize that neural sequence<br>models like LSTMs are in fact able to discover and implicitly use recursive com-<br>positional structure, at least for tasks with clear cues to that structure in the data.<br>We demonstrate this possibility using an artificial data task for which recursive<br>compositional structure is crucial, and find an LSTM-based sequence model can<br>indeed learn to exploit the underlying tree structure. However, its performance<br>consistently lags behind that of tree models, even on large training sets, suggest-<br>ing that tree-structured models are more effective at exploiting recursive structure.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Tree-structured neural networks encode a particular tree geometry for a sentence in the network design. However, these models have at best only slightly outperformed simpler sequence-based models. We hypothesize that neural sequence models like LSTMs are in fact able to discover and implicitly use recursive compositional structure, at least for tasks with clear cues to that structure in the data. We demonstrate this possibility using an artificial data task for which recursive compositional structure is crucial, and find an LSTM-based sequence model can indeed learn to exploit the underlying tree structure. However, its performance consistently lags behind that of tree models, even on large training sets, suggesting that tree-structured models are more effective at exploiting recursive structure."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1729
+                },
+                {
+                    "x": 798,
+                    "y": 1729
+                },
+                {
+                    "x": 798,
+                    "y": 1785
+                },
+                {
+                    "x": 446,
+                    "y": 1785
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1833
+                },
+                {
+                    "x": 2109,
+                    "y": 1833
+                },
+                {
+                    "x": 2109,
+                    "y": 2112
+                },
+                {
+                    "x": 442,
+                    "y": 2112
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>Neural networks that encode sentences as real-valued vectors have been successfully used in a wide<br>array of NLP tasks, including translation [1], parsing [2], and sentiment analysis [3]. These models<br>are generally either sequence models based on recurrent neural networks, which build representa-<br>tions incrementally from left to right [4, 1], or tree-structured models based on recursive neural<br>networks, which build representations incrementally according to the hierarchical structure of lin-<br>guistic phrases [5, 6].</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Neural networks that encode sentences as real-valued vectors have been successfully used in a wide array of NLP tasks, including translation , parsing , and sentiment analysis . These models are generally either sequence models based on recurrent neural networks, which build representations incrementally from left to right , or tree-structured models based on recursive neural networks, which build representations incrementally according to the hierarchical structure of linguistic phrases ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2131
+                },
+                {
+                    "x": 2109,
+                    "y": 2131
+                },
+                {
+                    "x": 2109,
+                    "y": 2411
+                },
+                {
+                    "x": 443,
+                    "y": 2411
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:16px'>While both model classes perform well on many tasks, and both are under active development, tree<br>models are often presented as the more principled choice, since they align with standard linguis-<br>tic assumptions about constituent structure and the compositional derivation of complex meanings.<br>Nevertheless, tree models have not shown the kinds of dramatic performance improvements over se-<br>quence models that their billing would lead one to expect: head-to-head comparisons with sequence<br>models show either modest improvements [3] or none at all [7].</p>",
+            "id": 6,
+            "page": 1,
+            "text": "While both model classes perform well on many tasks, and both are under active development, tree models are often presented as the more principled choice, since they align with standard linguistic assumptions about constituent structure and the compositional derivation of complex meanings. Nevertheless, tree models have not shown the kinds of dramatic performance improvements over sequence models that their billing would lead one to expect: head-to-head comparisons with sequence models show either modest improvements  or none at all ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2431
+                },
+                {
+                    "x": 2108,
+                    "y": 2754
+                },
+                {
+                    "x": 442,
+                    "y": 2754
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:16px'>We propose a possible explanation for these results: standard sequence models can learn to exploit<br>recursive syntactic structure in generating representations of sentence meaning, thereby learning to<br>use the structure that tree models are explicitly designed around. This requires that sequence models<br>be able to identify syntactic structure in natural language. We believe this is plausible on the basis<br>of other recent research [8, 9]. In this paper, we evaluate whether LSTM sequence models are able<br>to use such structure to guide interpretation, focusing on cases where syntactic structure is clearly<br>indicated in the data.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "We propose a possible explanation for these results: standard sequence models can learn to exploit recursive syntactic structure in generating representations of sentence meaning, thereby learning to use the structure that tree models are explicitly designed around. This requires that sequence models be able to identify syntactic structure in natural language. We believe this is plausible on the basis of other recent research . In this paper, we evaluate whether LSTM sequence models are able to use such structure to guide interpretation, focusing on cases where syntactic structure is clearly indicated in the data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2776
+                },
+                {
+                    "x": 2110,
+                    "y": 2776
+                },
+                {
+                    "x": 2110,
+                    "y": 3055
+                },
+                {
+                    "x": 441,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:16px'>We compare standard tree and sequence models on their handling of recursive structure by training<br>the models on sentences whose length and recursion depth are limited, and then testing them on<br>longer and more complex sentences, such that only models that exploit the recursive structure will<br>be able to generalize in a way that yields correct interpretations for these test sentences. Our methods<br>extend those of our earlier work in [10], which introduces an experiment and corresponding artificial<br>dataset to test this ability in two tree models. We adapt that experiment to sequence models by</p>",
+            "id": 8,
+            "page": 1,
+            "text": "We compare standard tree and sequence models on their handling of recursive structure by training the models on sentences whose length and recursion depth are limited, and then testing them on longer and more complex sentences, such that only models that exploit the recursive structure will be able to generalize in a way that yields correct interpretations for these test sentences. Our methods extend those of our earlier work in , which introduces an experiment and corresponding artificial dataset to test this ability in two tree models. We adapt that experiment to sequence models by"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 64,
+                    "y": 886
+                },
+                {
+                    "x": 149,
+                    "y": 886
+                },
+                {
+                    "x": 149,
+                    "y": 2319
+                },
+                {
+                    "x": 64,
+                    "y": 2319
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='9' style='font-size:14px'>2015<br>Nov<br>6<br>[cs.CL]<br>arXiv:1506.04834v3</footer>",
+            "id": 9,
+            "page": 1,
+            "text": "2015 Nov 6 [cs.CL] arXiv:1506.04834v3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3173
+                },
+                {
+                    "x": 1261,
+                    "y": 3173
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='10' style='font-size:14px'>1</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 493,
+                    "y": 339
+                },
+                {
+                    "x": 2054,
+                    "y": 339
+                },
+                {
+                    "x": 2054,
+                    "y": 536
+                },
+                {
+                    "x": 493,
+                    "y": 536
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:14px'>△<br>not P3 P3<br>P3 □ P3 or P2<br>(not p2) and P6 I not (P6 or (P5 or p3))<br>p4 or (not ((p1 or p6) or p4)) □ not ((((not p6) or (not p4)) and (not p5)) and (P6 and p6))</p>",
+            "id": 11,
+            "page": 2,
+            "text": "△ not P3 P3 P3 □ P3 or P2 (not p2) and P6 I not (P6 or (P5 or p3)) p4 or (not ((p1 or p6) or p4)) □ not ((((not p6) or (not p4)) and (not p5)) and (P6 and p6))"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 570
+                },
+                {
+                    "x": 2106,
+                    "y": 570
+                },
+                {
+                    "x": 2106,
+                    "y": 710
+                },
+                {
+                    "x": 441,
+                    "y": 710
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='12' style='font-size:18px'>Table 1: Examples of short to moderate length pairs from the artificial data introduced in [10]. We<br>only show the parentheses that are needed to disambiguate the sentences rather than the full binary<br>bracketings that the models use.</caption>",
+            "id": 12,
+            "page": 2,
+            "text": "Table 1: Examples of short to moderate length pairs from the artificial data introduced in . We only show the parentheses that are needed to disambiguate the sentences rather than the full binary bracketings that the models use."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 803
+                },
+                {
+                    "x": 2106,
+                    "y": 803
+                },
+                {
+                    "x": 2106,
+                    "y": 938
+                },
+                {
+                    "x": 442,
+                    "y": 938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:16px'>decorating the statements with an explicit bracketing, and we use this design to compare an LSTM<br>sequence model with three tree models, with a focus on what data each model needs in order to<br>generalize well.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "decorating the statements with an explicit bracketing, and we use this design to compare an LSTM sequence model with three tree models, with a focus on what data each model needs in order to generalize well."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 966
+                },
+                {
+                    "x": 2107,
+                    "y": 966
+                },
+                {
+                    "x": 2107,
+                    "y": 1241
+                },
+                {
+                    "x": 442,
+                    "y": 1241
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:18px'>As in [10], we find that standard tree neural networks are able to make the necessary generalizations,<br>with their performance decaying gradually as the structures in the test set grow in size. We addi-<br>tionally find that extending the training set to include larger structures mitigates this decay. Then<br>considering sequence models, we find that a single-layer LSTM is also able to generalize to unseen<br>large structures, but that it does this only when trained on a larger and more complex training set<br>than is needed by the tree models to reach the same generalization performance.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "As in , we find that standard tree neural networks are able to make the necessary generalizations, with their performance decaying gradually as the structures in the test set grow in size. We additionally find that extending the training set to include larger structures mitigates this decay. Then considering sequence models, we find that a single-layer LSTM is also able to generalize to unseen large structures, but that it does this only when trained on a larger and more complex training set than is needed by the tree models to reach the same generalization performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1263
+                },
+                {
+                    "x": 2108,
+                    "y": 1263
+                },
+                {
+                    "x": 2108,
+                    "y": 1952
+                },
+                {
+                    "x": 441,
+                    "y": 1952
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:18px'>Our results engage with those of [8] and [2], who find that sequence models can learn to recognize<br>syntactic structure in natural language, at least when trained on explicitly syntactic tasks. The sim-<br>plest model presented in [8] uses an LSTM sequence model to encode each sentence as a vector,<br>and then generates a linearized parse (a sequence of brackets and constituent labels) with high accu-<br>racy using only the information present in the vector. This shows that the LSTM is able to identify<br>the correct syntactic structures and also hints that it is able to develop a generalizable method for<br>encoding these structures in vectors. However, the massive size of the dataset needed to train that<br>model, 250M tokens, leaves open the possibility that it primarily learns to generate only tree struc-<br>tures that it has already seen, representing them as simple hashes-which would not capture unseen<br>tree structures-rather than as structured objects. Our experiments, though, show that LSTMs can<br>learn to understand tree structures when given enough data, suggesting that there is no fundamental<br>obstacle to learning this kind of structured representation. We also find, though, that sequence mod-<br>els lag behind tree models across the board, even on training corpora that are quite large relative to<br>the complexity of the underlying grammar, suggesting that tree models can play a valuable role in<br>tasks that require recursive interpretation.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "Our results engage with those of  and , who find that sequence models can learn to recognize syntactic structure in natural language, at least when trained on explicitly syntactic tasks. The simplest model presented in  uses an LSTM sequence model to encode each sentence as a vector, and then generates a linearized parse (a sequence of brackets and constituent labels) with high accuracy using only the information present in the vector. This shows that the LSTM is able to identify the correct syntactic structures and also hints that it is able to develop a generalizable method for encoding these structures in vectors. However, the massive size of the dataset needed to train that model, 250M tokens, leaves open the possibility that it primarily learns to generate only tree structures that it has already seen, representing them as simple hashes-which would not capture unseen tree structures-rather than as structured objects. Our experiments, though, show that LSTMs can learn to understand tree structures when given enough data, suggesting that there is no fundamental obstacle to learning this kind of structured representation. We also find, though, that sequence models lag behind tree models across the board, even on training corpora that are quite large relative to the complexity of the underlying grammar, suggesting that tree models can play a valuable role in tasks that require recursive interpretation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2018
+                },
+                {
+                    "x": 1297,
+                    "y": 2018
+                },
+                {
+                    "x": 1297,
+                    "y": 2072
+                },
+                {
+                    "x": 443,
+                    "y": 2072
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:22px'>2 Recursive structure in artificial data</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2 Recursive structure in artificial data"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2122
+                },
+                {
+                    "x": 2108,
+                    "y": 2122
+                },
+                {
+                    "x": 2108,
+                    "y": 2446
+                },
+                {
+                    "x": 442,
+                    "y": 2446
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:18px'>Reasoning about entailment The data that we use define a version of the recognizing textual<br>entailment task, in which the goal is to determine what kind of logical consequence relation holds<br>between two sentences, drawing on a small fixed vocabulary of relations such as entailment, con-<br>tradiction, and synonymy. This task is well suited to evaluating neural network models for sentence<br>interpretation: models must develop comprehensive representations of the meanings of each sen-<br>tence to do well at the task, but the data do not force these representations to take a specific form,<br>allowing the model to learn whatever kind of representations it can use most effectively.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Reasoning about entailment The data that we use define a version of the recognizing textual entailment task, in which the goal is to determine what kind of logical consequence relation holds between two sentences, drawing on a small fixed vocabulary of relations such as entailment, contradiction, and synonymy. This task is well suited to evaluating neural network models for sentence interpretation: models must develop comprehensive representations of the meanings of each sentence to do well at the task, but the data do not force these representations to take a specific form, allowing the model to learn whatever kind of representations it can use most effectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2470
+                },
+                {
+                    "x": 2106,
+                    "y": 2470
+                },
+                {
+                    "x": 2106,
+                    "y": 2610
+                },
+                {
+                    "x": 442,
+                    "y": 2610
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:20px'>The data we use are labeled with the seven mutually exclusive logical relations of [11], which dis-<br>tinguish entailment in two directions (□, コ), equivalence (≡), exhaustive and non-exhaustive con-<br>tradiction (^, D, and two types of semantic independence (#, ~).</p>",
+            "id": 18,
+            "page": 2,
+            "text": "The data we use are labeled with the seven mutually exclusive logical relations of , which distinguish entailment in two directions (□, コ), equivalence (≡), exhaustive and non-exhaustive contradiction (^, D, and two types of semantic independence (#, ~)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2660
+                },
+                {
+                    "x": 2108,
+                    "y": 2660
+                },
+                {
+                    "x": 2108,
+                    "y": 2937
+                },
+                {
+                    "x": 442,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:20px'>The artificial language The language described in [10] (§4) is designed to highlight the use of re-<br>cursive structure with minimal additional complexity. Its vocabulary consists only of six unanalyzed<br>word types (p1, p2, p3, p4, P5, p6), and, or, and not. Sentences of the language can be straightfor-<br>wardly interpreted as statements of propositional logic (where the six unanalyzed words types are<br>variable names), and labeled sentence pairs can be interpreted as theorems of that logic. Some<br>example pairs are provided in Table 1.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "The artificial language The language described in  (§4) is designed to highlight the use of recursive structure with minimal additional complexity. Its vocabulary consists only of six unanalyzed word types (p1, p2, p3, p4, P5, p6), and, or, and not. Sentences of the language can be straightforwardly interpreted as statements of propositional logic (where the six unanalyzed words types are variable names), and labeled sentence pairs can be interpreted as theorems of that logic. Some example pairs are provided in Table 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2961
+                },
+                {
+                    "x": 2106,
+                    "y": 2961
+                },
+                {
+                    "x": 2106,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='20' style='font-size:16px'>Crucially, the language is defined such that any sentence can be embedded under negation or con-<br>junction to create a new sentence, allowing for arbitrary-depth recursion, and such that the scope of</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Crucially, the language is defined such that any sentence can be embedded under negation or conjunction to create a new sentence, allowing for arbitrary-depth recursion, and such that the scope of"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='21' style='font-size:18px'>2</footer>",
+            "id": 21,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 349
+                },
+                {
+                    "x": 2107,
+                    "y": 349
+                },
+                {
+                    "x": 2107,
+                    "y": 485
+                },
+                {
+                    "x": 441,
+                    "y": 485
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>negation and conjunction are determined only by bracketing with parentheses (rather than bare word<br>order). The compositional structure of each sentence can thus be an arbitrary tree, and interpreting<br>a sentence correctly requires using that structure.</p>",
+            "id": 22,
+            "page": 3,
+            "text": "negation and conjunction are determined only by bracketing with parentheses (rather than bare word order). The compositional structure of each sentence can thus be an arbitrary tree, and interpreting a sentence correctly requires using that structure."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 509
+                },
+                {
+                    "x": 2107,
+                    "y": 509
+                },
+                {
+                    "x": 2107,
+                    "y": 740
+                },
+                {
+                    "x": 441,
+                    "y": 740
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:16px'>The data come with parentheses representing a complete binary bracketing. Our models use this<br>information in two ways. For the tree models, the parentheses are not word tokens, but rather are<br>used in the expected way to build the tree. For the sequence model, the parentheses are word tokens<br>with associated learned embeddings. This approach provides the models with equivalent data, SO<br>their ability to handle unseen structures can be reasonably compared.</p>",
+            "id": 23,
+            "page": 3,
+            "text": "The data come with parentheses representing a complete binary bracketing. Our models use this information in two ways. For the tree models, the parentheses are not word tokens, but rather are used in the expected way to build the tree. For the sequence model, the parentheses are word tokens with associated learned embeddings. This approach provides the models with equivalent data, SO their ability to handle unseen structures can be reasonably compared."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 794
+                },
+                {
+                    "x": 2108,
+                    "y": 794
+                },
+                {
+                    "x": 2108,
+                    "y": 1302
+                },
+                {
+                    "x": 441,
+                    "y": 1302
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:16px'>The data Our sentence pairs are divided into thirteen bins according to the number of logical<br>connectives (and, or, not) in the longer of the two sentences in each pair. We test each model on<br>each bin separately (58k total examples, using an 80/20% train/test split) in order to evaluate how<br>each model's performance depends on the complexity of the sentences. In three experiments, we<br>train our models on the training portions of bins 0-3 (62k examples), 0-4 (90k), and 0-6 (160k), and<br>test on every bin but the trivial bin 0. Capping the size of the training sentences allows us to evaluate<br>how the models interpret the sentences: if a model's performance falls off abruptly above the cutoff,<br>itis reasonable to conclude that it relies heavily on specific sentence structures and cannot generalize<br>to new structures. If a model's performance decays gradually1 with no such abrupt change, then it<br>must have learned a more generally valid interpretation function for the language which respects its<br>recursive structure.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "The data Our sentence pairs are divided into thirteen bins according to the number of logical connectives (and, or, not) in the longer of the two sentences in each pair. We test each model on each bin separately (58k total examples, using an 80/20% train/test split) in order to evaluate how each model's performance depends on the complexity of the sentences. In three experiments, we train our models on the training portions of bins 0-3 (62k examples), 0-4 (90k), and 0-6 (160k), and test on every bin but the trivial bin 0. Capping the size of the training sentences allows us to evaluate how the models interpret the sentences: if a model's performance falls off abruptly above the cutoff, itis reasonable to conclude that it relies heavily on specific sentence structures and cannot generalize to new structures. If a model's performance decays gradually1 with no such abrupt change, then it must have learned a more generally valid interpretation function for the language which respects its recursive structure."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1375
+                },
+                {
+                    "x": 1341,
+                    "y": 1375
+                },
+                {
+                    "x": 1341,
+                    "y": 1433
+                },
+                {
+                    "x": 443,
+                    "y": 1433
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:22px'>3 Testing sentence models on entailment</p>",
+            "id": 25,
+            "page": 3,
+            "text": "3 Testing sentence models on entailment"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1484
+                },
+                {
+                    "x": 2107,
+                    "y": 1484
+                },
+                {
+                    "x": 2107,
+                    "y": 1763
+                },
+                {
+                    "x": 441,
+                    "y": 1763
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:16px'>We use the architecture depicted in Figure 1a, which builds on the one used in [10]. The model<br>architecture uses two copies of a single sentence model (a tree or sequence model) to encode the<br>premise and hypothesis (left and right side) expressions, and then uses those encodings as the fea-<br>tures for a multilayer classifier which predicts one of the seven relations. Since the encodings are<br>computed separately, the sentence models must encode complete representations of the meanings of<br>the two sentences for the downstream model to be able to succeed.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "We use the architecture depicted in Figure 1a, which builds on the one used in . The model architecture uses two copies of a single sentence model (a tree or sequence model) to encode the premise and hypothesis (left and right side) expressions, and then uses those encodings as the features for a multilayer classifier which predicts one of the seven relations. Since the encodings are computed separately, the sentence models must encode complete representations of the meanings of the two sentences for the downstream model to be able to succeed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1820
+                },
+                {
+                    "x": 2108,
+                    "y": 1820
+                },
+                {
+                    "x": 2108,
+                    "y": 2051
+                },
+                {
+                    "x": 441,
+                    "y": 2051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:16px'>Classifier The classifier component of the model consists of a combining layer which takes the two<br>sentence representations as inputs, followed by two neural network layers, then a softmax classifier.<br>For the combining layer, we use a neural tensor network (NTN, [12]) layer, which sums the output<br>of a plain recursive/recurrent neural network layer with a vector computed using two multiplications<br>with a learned (full rank) third-order tensor parameter:</p>",
+            "id": 27,
+            "page": 3,
+            "text": "Classifier The classifier component of the model consists of a combining layer which takes the two sentence representations as inputs, followed by two neural network layers, then a softmax classifier. For the combining layer, we use a neural tensor network (NTN, ) layer, which sums the output of a plain recursive/recurrent neural network layer with a vector computed using two multiplications with a learned (full rank) third-order tensor parameter:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2313
+                },
+                {
+                    "x": 2107,
+                    "y": 2313
+                },
+                {
+                    "x": 2107,
+                    "y": 2500
+                },
+                {
+                    "x": 441,
+                    "y": 2500
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:14px'>Our model is largely identical to the model from [10], but adds the two additional tanh NN layers,<br>which we found help performance across the board, and also uses the NTN combination layer when<br>evaluating all four models, rather than just the TreeRNTN model, SO as to ensure that the sentence<br>models are compared in as similar a setting as possible.</p>",
+            "id": 28,
+            "page": 3,
+            "text": "Our model is largely identical to the model from , but adds the two additional tanh NN layers, which we found help performance across the board, and also uses the NTN combination layer when evaluating all four models, rather than just the TreeRNTN model, SO as to ensure that the sentence models are compared in as similar a setting as possible."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2521
+                },
+                {
+                    "x": 2107,
+                    "y": 2521
+                },
+                {
+                    "x": 2107,
+                    "y": 2845
+                },
+                {
+                    "x": 442,
+                    "y": 2845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:16px'>We only study models that encode entire sentences in fixed length vectors, and we set aside models<br>with attention [13], a technique which gives the downstream model (here, the classifier) the potential<br>to access each input token individually through a soft content addressing system. While attention<br>simplifies the problem of learning complex correspondences between input and output, there is<br>no apparent reason to believe that it should improve or harm a model's ability to track structural<br>information like a given token's position in a tree. As such, we expect our results to reflect the same<br>basic behaviors that would be seen in attention-based models.</p>",
+            "id": 29,
+            "page": 3,
+            "text": "We only study models that encode entire sentences in fixed length vectors, and we set aside models with attention , a technique which gives the downstream model (here, the classifier) the potential to access each input token individually through a soft content addressing system. While attention simplifies the problem of learning complex correspondences between input and output, there is no apparent reason to believe that it should improve or harm a model's ability to track structural information like a given token's position in a tree. As such, we expect our results to reflect the same basic behaviors that would be seen in attention-based models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2885
+                },
+                {
+                    "x": 2108,
+                    "y": 2885
+                },
+                {
+                    "x": 2108,
+                    "y": 3052
+                },
+                {
+                    "x": 441,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:14px'>1Since sentences are fixed-dimensional vectors of fixed-precision floating point numbers, all models will<br>make errors on sentences above some length, and L2 regularization (which helps overall performance) ex-<br>acerbates this by discouraging the model from using the kind of numerically precise, nonlinearity-saturating<br>functions that generalize best.</p>",
+            "id": 30,
+            "page": 3,
+            "text": "1Since sentences are fixed-dimensional vectors of fixed-precision floating point numbers, all models will make errors on sentences above some length, and L2 regularization (which helps overall performance) exacerbates this by discouraging the model from using the kind of numerically precise, nonlinearity-saturating functions that generalize best."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='31' style='font-size:14px'>3</footer>",
+            "id": 31,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 478,
+                    "y": 324
+                },
+                {
+                    "x": 2060,
+                    "y": 324
+                },
+                {
+                    "x": 2060,
+                    "y": 1329
+                },
+                {
+                    "x": 478,
+                    "y": 1329
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='32' style='font-size:14px' alt=\"7-way softmax classifier\n100d tanh NN layer\n100d tanh NN layer\n100d tanh NTN layer\n50d premise 50d hypothesis\nsentence model sentence model\nwith premise input with hypothesis input\n(a) The general architecture shared across models.\na or b\na or b a a or a or b\nor b a or b\n(b) The architecture for the tree-structured sen- (c) The architecture for the sequence sentence\ntence models. Terminal nodes are learned em- model. Nodes in the lower row are learned em-\nbeddings and nonterminal nodes are NN, NTN, or beddings and nodes in the upper row are LSTM\nTreeLSTM layers. layers.\" data-coord=\"top-left:(478,324); bottom-right:(2060,1329)\" /></figure>",
+            "id": 32,
+            "page": 4,
+            "text": "7-way softmax classifier 100d tanh NN layer 100d tanh NN layer 100d tanh NTN layer 50d premise 50d hypothesis sentence model sentence model with premise input with hypothesis input (a) The general architecture shared across models. a or b a or b a a or a or b or b a or b (b) The architecture for the tree-structured sen- (c) The architecture for the sequence sentence tence models. Terminal nodes are learned em- model. Nodes in the lower row are learned embeddings and nonterminal nodes are NN, NTN, or beddings and nodes in the upper row are LSTM TreeLSTM layers. layers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1348
+                },
+                {
+                    "x": 2108,
+                    "y": 1348
+                },
+                {
+                    "x": 2108,
+                    "y": 1489
+                },
+                {
+                    "x": 442,
+                    "y": 1489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:16px'>Figure 1: In our model, two copies of a sentence model-based on either tree (b) or sequence<br>(c) models-encode the two input sentences. A multilayer classifier component (a) then uses the<br>resulting vectors to predict a label that reflects the logical relationship between the two sentences.</p>",
+            "id": 33,
+            "page": 4,
+            "text": "Figure 1: In our model, two copies of a sentence model-based on either tree (b) or sequence (c) models-encode the two input sentences. A multilayer classifier component (a) then uses the resulting vectors to predict a label that reflects the logical relationship between the two sentences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1608
+                },
+                {
+                    "x": 2108,
+                    "y": 1608
+                },
+                {
+                    "x": 2108,
+                    "y": 1931
+                },
+                {
+                    "x": 442,
+                    "y": 1931
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>Sentence models The sentence encoding component of the model transforms the (learned) em-<br>beddings of the input words for each sentence into a single vector representing that sentence. We<br>experiment with tree-structured models (Figure 1b) with TreeRNN (eqn. 1), TreeRNTN (eqn. 2),<br>and TreeLSTM [3] activation functions. In addition, we use a sequence model (Figure 1c) with an<br>LSTM activation function [14] implemented as in [15]. In experiments with a simpler non-LSTM<br>RNN sequence model, the model tended to badly underfit the training data, and those results are not<br>included here.</p>",
+            "id": 34,
+            "page": 4,
+            "text": "Sentence models The sentence encoding component of the model transforms the (learned) embeddings of the input words for each sentence into a single vector representing that sentence. We experiment with tree-structured models (Figure 1b) with TreeRNN (eqn. 1), TreeRNTN (eqn. 2), and TreeLSTM  activation functions. In addition, we use a sequence model (Figure 1c) with an LSTM activation function  implemented as in . In experiments with a simpler non-LSTM RNN sequence model, the model tended to badly underfit the training data, and those results are not included here."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2015
+                },
+                {
+                    "x": 2107,
+                    "y": 2015
+                },
+                {
+                    "x": 2107,
+                    "y": 2251
+                },
+                {
+                    "x": 441,
+                    "y": 2251
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:20px'>Training We randomly initialize all embeddings and layer parameters, and train them using mini-<br>batch stochastic gradient descent with AdaDelta [16] learning rates. Our objective is the standard<br>negative log likelihood classification objective with L2 regularization (tuned on a separate train/test<br>split). All models were trained for 100 epochs, after which all had largely converged without signif-<br>icantly declining from their peak performances.</p>",
+            "id": 35,
+            "page": 4,
+            "text": "Training We randomly initialize all embeddings and layer parameters, and train them using minibatch stochastic gradient descent with AdaDelta  learning rates. Our objective is the standard negative log likelihood classification objective with L2 regularization (tuned on a separate train/test split). All models were trained for 100 epochs, after which all had largely converged without significantly declining from their peak performances."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2352
+                },
+                {
+                    "x": 1005,
+                    "y": 2352
+                },
+                {
+                    "x": 1005,
+                    "y": 2407
+                },
+                {
+                    "x": 443,
+                    "y": 2407
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:22px'>4 Results and discussion</p>",
+            "id": 36,
+            "page": 4,
+            "text": "4 Results and discussion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2475
+                },
+                {
+                    "x": 2108,
+                    "y": 2475
+                },
+                {
+                    "x": 2108,
+                    "y": 2893
+                },
+                {
+                    "x": 441,
+                    "y": 2893
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:18px'>The results are shown in Figure 2. The tree models fit the training data well, reaching 98.9, 98.8,<br>and 98.4% overall accuracy respectively in the ≤6 setting, with the LSTM underfitting slightly at<br>94.8%. In that setting, all models generalized well to structures of familiar length, with the tree<br>models all surpassing 97% on examples in bin 4, and the LSTM reaching 94.8%. On the longer<br>test sentences, the tree models decay smoothly in performance across the board, while the LSTM<br>decays more quickly and more abruptly, with a striking difference in the ≤4 setting, where LSTM<br>performance falls 10% from bin 4 to bin 5, compared to 4.4% for the next worse model. However,<br>the LSTM improves considerably with more ample training data in the ≤6 condition, showing only<br>a 3% drop and generalization results better than the best model's in the ≤3 setting.</p>",
+            "id": 37,
+            "page": 4,
+            "text": "The results are shown in Figure 2. The tree models fit the training data well, reaching 98.9, 98.8, and 98.4% overall accuracy respectively in the ≤6 setting, with the LSTM underfitting slightly at 94.8%. In that setting, all models generalized well to structures of familiar length, with the tree models all surpassing 97% on examples in bin 4, and the LSTM reaching 94.8%. On the longer test sentences, the tree models decay smoothly in performance across the board, while the LSTM decays more quickly and more abruptly, with a striking difference in the ≤4 setting, where LSTM performance falls 10% from bin 4 to bin 5, compared to 4.4% for the next worse model. However, the LSTM improves considerably with more ample training data in the ≤6 condition, showing only a 3% drop and generalization results better than the best model's in the ≤3 setting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2914
+                },
+                {
+                    "x": 2108,
+                    "y": 2914
+                },
+                {
+                    "x": 2108,
+                    "y": 3053
+                },
+                {
+                    "x": 441,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:16px'>All four models robustly beat the simple baselines reported in [10]: the most frequent class occurs<br>just over 50% of the time and a neural bag of words model does reasonably on the shortest examples<br>but falls below 60% by bin 4.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "All four models robustly beat the simple baselines reported in : the most frequent class occurs just over 50% of the time and a neural bag of words model does reasonably on the shortest examples but falls below 60% by bin 4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3137
+                },
+                {
+                    "x": 1287,
+                    "y": 3137
+                },
+                {
+                    "x": 1287,
+                    "y": 3167
+                },
+                {
+                    "x": 1260,
+                    "y": 3167
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='39' style='font-size:14px'>4</footer>",
+            "id": 39,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 508,
+                    "y": 328
+                },
+                {
+                    "x": 2100,
+                    "y": 328
+                },
+                {
+                    "x": 2100,
+                    "y": 784
+                },
+                {
+                    "x": 508,
+                    "y": 784
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='40' style='font-size:14px' alt=\"100%\n90% 50d TreeRNN\nAccuracy 50d TreeRNTN\n80%\n50d TreeLSTM\n70%\n50d LSTM\n□\n60%\n50%\n40%\n1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12\n(a) Training on SZ. ≤3. (b) Training on SZ. ≤4. (c) Training on SZ. ≤6.\" data-coord=\"top-left:(508,328); bottom-right:(2100,784)\" /></figure>",
+            "id": 40,
+            "page": 5,
+            "text": "100% 90% 50d TreeRNN Accuracy 50d TreeRNTN 80% 50d TreeLSTM 70% 50d LSTM □ 60% 50% 40% 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 1 2 3 4 5 6 7 8 9 10 11 12 (a) Training on SZ. ≤3. (b) Training on SZ. ≤4. (c) Training on SZ. ≤6."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 818
+                },
+                {
+                    "x": 2110,
+                    "y": 818
+                },
+                {
+                    "x": 2110,
+                    "y": 1006
+                },
+                {
+                    "x": 440,
+                    "y": 1006
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='41' style='font-size:18px'>Figure 2: Test accuracy on three experiments with increasingly rich training sets. The horizontal<br>axis on each graph divides the test set expression pairs into bins by the number of logical operators<br>in the more complex of the two expressions in the pair. The dotted line shows the size of the largest<br>examples in the training set in each experiment.</caption>",
+            "id": 41,
+            "page": 5,
+            "text": "Figure 2: Test accuracy on three experiments with increasingly rich training sets. The horizontal axis on each graph divides the test set expression pairs into bins by the number of logical operators in the more complex of the two expressions in the pair. The dotted line shows the size of the largest examples in the training set in each experiment."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 912,
+                    "y": 1050
+                },
+                {
+                    "x": 1637,
+                    "y": 1050
+                },
+                {
+                    "x": 1637,
+                    "y": 1384
+                },
+                {
+                    "x": 912,
+                    "y": 1384
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='42' style='font-size:14px' alt=\"bins\n100%\n50d TreeRNN\n90%\nall\n50d TreeRNTN\nacross\n80%\n50d TreeLSTM\nAccuracy 70%\n0- 50d LSTM\n60%\n50%\n0% 3% 10% 30% 100%\nAmount of training data used (nonlinear scale)\" data-coord=\"top-left:(912,1050); bottom-right:(1637,1384)\" /></figure>",
+            "id": 42,
+            "page": 5,
+            "text": "bins 100% 50d TreeRNN 90% all 50d TreeRNTN across 80% 50d TreeLSTM Accuracy 70% 0- 50d LSTM 60% 50% 0% 3% 10% 30% 100% Amount of training data used (nonlinear scale)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 868,
+                    "y": 1422
+                },
+                {
+                    "x": 1680,
+                    "y": 1422
+                },
+                {
+                    "x": 1680,
+                    "y": 1472
+                },
+                {
+                    "x": 868,
+                    "y": 1472
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='43' style='font-size:20px'>Figure 3: Learning curve for the ≤6 experiment.</caption>",
+            "id": 43,
+            "page": 5,
+            "text": "Figure 3: Learning curve for the ≤6 experiment."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1556
+                },
+                {
+                    "x": 2104,
+                    "y": 1556
+                },
+                {
+                    "x": 2104,
+                    "y": 1693
+                },
+                {
+                    "x": 442,
+                    "y": 1693
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:18px'>The learning curve (Figure 3) suggests that additional data is unlikely to change these basic results.<br>The LSTM lags behind the tree models across the curve, but appears to gain accuracy at a similar<br>rate.</p>",
+            "id": 44,
+            "page": 5,
+            "text": "The learning curve (Figure 3) suggests that additional data is unlikely to change these basic results. The LSTM lags behind the tree models across the curve, but appears to gain accuracy at a similar rate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1762
+                },
+                {
+                    "x": 767,
+                    "y": 1762
+                },
+                {
+                    "x": 767,
+                    "y": 1815
+                },
+                {
+                    "x": 443,
+                    "y": 1815
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:22px'>5 Conclusion</p>",
+            "id": 45,
+            "page": 5,
+            "text": "5 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1863
+                },
+                {
+                    "x": 2107,
+                    "y": 1863
+                },
+                {
+                    "x": 2107,
+                    "y": 2142
+                },
+                {
+                    "x": 441,
+                    "y": 2142
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>We find that all four models are able to effectively exploit a recursively defined language to interpret<br>sentences with complex unseen structures. We find that tree models' biases allow them to do this<br>with greater efficiency, outperforming sequence-based models substantially in every experiment.<br>However, our sequence model is nonetheless able to generalize smoothly from seen sentence struc-<br>tures to unseen ones, showing that its lack of explicit recursive structure does not prevent it from<br>recognizing recursive structure in our artificial language.</p>",
+            "id": 46,
+            "page": 5,
+            "text": "We find that all four models are able to effectively exploit a recursively defined language to interpret sentences with complex unseen structures. We find that tree models' biases allow them to do this with greater efficiency, outperforming sequence-based models substantially in every experiment. However, our sequence model is nonetheless able to generalize smoothly from seen sentence structures to unseen ones, showing that its lack of explicit recursive structure does not prevent it from recognizing recursive structure in our artificial language."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2162
+                },
+                {
+                    "x": 2108,
+                    "y": 2162
+                },
+                {
+                    "x": 2108,
+                    "y": 2624
+                },
+                {
+                    "x": 441,
+                    "y": 2624
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:18px'>We interpret these results as evidence that both tree and sequence architectures can play valuable<br>roles in the construction of sentence models over data with recursive syntactic structure. Tree ar-<br>chitectures provide an explicit bias that makes it possible to efficiently learn to compositional in-<br>terpretation, which is difficult for sequence models. Sequence models, on the other hand, lack this<br>bias, but have other advantages. Since they use a consistent graph structure across examples, it is<br>easy to accelerate minibatch training in ways that yield substantially faster training times than are<br>possible with tree models, especially with GPUs. In addition, when sequence models integrate each<br>word into a partial sentence representation, they have access to the entire sentence representation up<br>to that point, which may provide valuable cues for the resolution of lexical ambiguity, which is not<br>present in our artificial language, but is a serious concern in natural language text.</p>",
+            "id": 47,
+            "page": 5,
+            "text": "We interpret these results as evidence that both tree and sequence architectures can play valuable roles in the construction of sentence models over data with recursive syntactic structure. Tree architectures provide an explicit bias that makes it possible to efficiently learn to compositional interpretation, which is difficult for sequence models. Sequence models, on the other hand, lack this bias, but have other advantages. Since they use a consistent graph structure across examples, it is easy to accelerate minibatch training in ways that yield substantially faster training times than are possible with tree models, especially with GPUs. In addition, when sequence models integrate each word into a partial sentence representation, they have access to the entire sentence representation up to that point, which may provide valuable cues for the resolution of lexical ambiguity, which is not present in our artificial language, but is a serious concern in natural language text."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2645
+                },
+                {
+                    "x": 2107,
+                    "y": 2645
+                },
+                {
+                    "x": 2107,
+                    "y": 2831
+                },
+                {
+                    "x": 441,
+                    "y": 2831
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:18px'>Finally, we suggest that, because of the well-supported linguistic claim that the kind of recursive<br>structure that we study here is key to the understanding of real natural languages, there is likely to<br>be value in developing sequence models that can more efficiently exploit this structure without fully<br>sacrificing the flexibility that makes them succeed.</p>",
+            "id": 48,
+            "page": 5,
+            "text": "Finally, we suggest that, because of the well-supported linguistic claim that the kind of recursive structure that we study here is key to the understanding of real natural languages, there is likely to be value in developing sequence models that can more efficiently exploit this structure without fully sacrificing the flexibility that makes them succeed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 2882
+                },
+                {
+                    "x": 779,
+                    "y": 2882
+                },
+                {
+                    "x": 779,
+                    "y": 2928
+                },
+                {
+                    "x": 445,
+                    "y": 2928
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:22px'>Acknowledgments</p>",
+            "id": 49,
+            "page": 5,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2959
+                },
+                {
+                    "x": 2106,
+                    "y": 2959
+                },
+                {
+                    "x": 2106,
+                    "y": 3053
+                },
+                {
+                    "x": 443,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:20px'>We gratefully acknowledge a Google Faculty Research Award, a gift from Bloomberg L.P., and<br>support from the Defense Advanced Research Projects Agency (DARPA) Deep Exploration and Fil-</p>",
+            "id": 50,
+            "page": 5,
+            "text": "We gratefully acknowledge a Google Faculty Research Award, a gift from Bloomberg L.P., and support from the Defense Advanced Research Projects Agency (DARPA) Deep Exploration and Fil-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='51' style='font-size:16px'>5</footer>",
+            "id": 51,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 345
+                },
+                {
+                    "x": 2110,
+                    "y": 345
+                },
+                {
+                    "x": 2110,
+                    "y": 625
+                },
+                {
+                    "x": 441,
+                    "y": 625
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:16px'>tering of Text (DEFT) Program under Air Force Research Laboratory (AFRL) contract no. FA8750-<br>13-2-0040, the National Science Foundation under grant no. IIS 1159679, and the Department of<br>the Navy, Office of Naval Research, under grant no. N00014-13-1-0287. Any opinions, findings,<br>and conclusions or recommendations expressed in this material are those of the authors and do not<br>necessarily reflect the views of Google, Bloomberg L.P., DARPA, AFRL, NSF, ONR, or the US<br>government.</p>",
+            "id": 52,
+            "page": 6,
+            "text": "tering of Text (DEFT) Program under Air Force Research Laboratory (AFRL) contract no. FA875013-2-0040, the National Science Foundation under grant no. IIS 1159679, and the Department of the Navy, Office of Naval Research, under grant no. N00014-13-1-0287. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of Google, Bloomberg L.P., DARPA, AFRL, NSF, ONR, or the US government."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 691
+                },
+                {
+                    "x": 687,
+                    "y": 691
+                },
+                {
+                    "x": 687,
+                    "y": 741
+                },
+                {
+                    "x": 445,
+                    "y": 741
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:20px'>References</p>",
+            "id": 53,
+            "page": 6,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 453,
+                    "y": 755
+                },
+                {
+                    "x": 2113,
+                    "y": 755
+                },
+                {
+                    "x": 2113,
+                    "y": 2589
+                },
+                {
+                    "x": 453,
+                    "y": 2589
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:18px'>[1] Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural<br>networks. In Proc. NIPS, 2014.<br>[2] Chris Dyer, Miguel Ballesteros, Wang Ling, Austin Matthews, and Noah A. Smith. Transition-<br>based dependency parsing with stack long short-term memory. In Proc. ACL, 2015.<br>[3] Kai Sheng Tai, Richard Socher, and Christopher D. Manning. Improved semantic representa-<br>tions from tree-structured long short-term memory networks. In Proc. ACL, 2015.<br>[4] Jeffrey L. Elman. Finding structure in time. Cognitive science, 14(2), 1990.<br>[5] Christoph Goller and Andreas Kuchler. Learning task-dependent distributed representations<br>by backpropagation through structure. In Proc. IEEE International Conference on Neural<br>Networks, 1996.<br>[6] Richard Socher, Jeffrey Pennington, Eric H. Huang, Andrew Y. Ng, and Christopher D. Man-<br>ning. Semi-supervised recursive autoencoders for predicting sentiment distributions. In Proc.<br>EMNLP, 2011.<br>[7] Minh-Thang Luong Li, Jiwei, Dan Jurafsky, and Eudard Hovy. When are tree structures nec-<br>essary for deep learning of representations? Proc. EMNLP, 2015.<br>[8] Oriol Vinyals, Lukasz Kaiser, Terry Koo, Slav Petrov, Ilya Sutskever, and Geoffrey Hinton.<br>Grammar as a foreign language. In Proc. NIPS, 2015.<br>[9] Andrej Karpathy, Justin Johnson, and Fei-Fei Li. Visualizing and understanding recurrent<br>networks. arXiv:1506.02078, 2015.<br>[10] Samuel R. Bowman, Christopher Potts, and Christopher D. Manning. Recursive neural net-<br>works can learn logical semantics. In Proc. of the 3rd Workshop on Continuous Vector Space<br>Models and their Compositionality, 2015.<br>[11] Bill MacCartney and Christopher D. Manning. An extended model of natural logic. In Proc.<br>of the Eighth International Conference on Computational Semantics, 2009.<br>[12] Danqi Chen, Richard Socher, Christopher D. Manning, and Andrew Y. Ng. Learning new facts<br>from knowledge bases with neural tensor networks and semantic word vectors. In Proc. ICLR,<br>2013.<br>[13] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by<br>jointly learning to align and translate. In Proc. ICLR, 2015.<br>[14] Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. Neural computation, 9<br>(8), 1997.<br>[15] Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals. Recurrent neural network regularization.<br>In Proc. ICLR, 2015.<br>[16] Matthew D. Zeiler. ADADELTA: an adaptive learning rate method. arXiv:1212.5701, 2012.</p>",
+            "id": 54,
+            "page": 6,
+            "text": " Ilya Sutskever, Oriol Vinyals, and Quoc V. Le. Sequence to sequence learning with neural networks. In Proc. NIPS, 2014.  Chris Dyer, Miguel Ballesteros, Wang Ling, Austin Matthews, and Noah A. Smith. Transitionbased dependency parsing with stack long short-term memory. In Proc. ACL, 2015.  Kai Sheng Tai, Richard Socher, and Christopher D. Manning. Improved semantic representations from tree-structured long short-term memory networks. In Proc. ACL, 2015.  Jeffrey L. Elman. Finding structure in time. Cognitive science, 14(2), 1990.  Christoph Goller and Andreas Kuchler. Learning task-dependent distributed representations by backpropagation through structure. In Proc. IEEE International Conference on Neural Networks, 1996.  Richard Socher, Jeffrey Pennington, Eric H. Huang, Andrew Y. Ng, and Christopher D. Manning. Semi-supervised recursive autoencoders for predicting sentiment distributions. In Proc. EMNLP, 2011.  Minh-Thang Luong Li, Jiwei, Dan Jurafsky, and Eudard Hovy. When are tree structures necessary for deep learning of representations? Proc. EMNLP, 2015.  Oriol Vinyals, Lukasz Kaiser, Terry Koo, Slav Petrov, Ilya Sutskever, and Geoffrey Hinton. Grammar as a foreign language. In Proc. NIPS, 2015.  Andrej Karpathy, Justin Johnson, and Fei-Fei Li. Visualizing and understanding recurrent networks. arXiv:1506.02078, 2015.  Samuel R. Bowman, Christopher Potts, and Christopher D. Manning. Recursive neural networks can learn logical semantics. In Proc. of the 3rd Workshop on Continuous Vector Space Models and their Compositionality, 2015.  Bill MacCartney and Christopher D. Manning. An extended model of natural logic. In Proc. of the Eighth International Conference on Computational Semantics, 2009.  Danqi Chen, Richard Socher, Christopher D. Manning, and Andrew Y. Ng. Learning new facts from knowledge bases with neural tensor networks and semantic word vectors. In Proc. ICLR, 2013.  Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly learning to align and translate. In Proc. ICLR, 2015.  Sepp Hochreiter and Jurgen Schmidhuber. Long short-term memory. Neural computation, 9 (8), 1997.  Wojciech Zaremba, Ilya Sutskever, and Oriol Vinyals. Recurrent neural network regularization. In Proc. ICLR, 2015.  Matthew D. Zeiler. ADADELTA: an adaptive learning rate method. arXiv:1212.5701, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3135
+                },
+                {
+                    "x": 1290,
+                    "y": 3135
+                },
+                {
+                    "x": 1290,
+                    "y": 3172
+                },
+                {
+                    "x": 1260,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='55' style='font-size:14px'>6</footer>",
+            "id": 55,
+            "page": 6,
+            "text": "6"
+        }
+    ]
+}

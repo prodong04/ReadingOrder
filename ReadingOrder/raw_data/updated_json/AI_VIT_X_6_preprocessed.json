@@ -1,0 +1,2606 @@
+{
+    "id": "32c3197a-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/0705.2011v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 554,
+                    "y": 675
+                },
+                {
+                    "x": 1918,
+                    "y": 675
+                },
+                {
+                    "x": 1918,
+                    "y": 1050
+                },
+                {
+                    "x": 554,
+                    "y": 1050
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Multi-Dimensional Recurrent Neural Networks<br>Alex Graves, Santiago Fernandez, Jurgen Schmidhuber<br>IDSIA<br>Galleria 2, 6928 Manno, Switzerland<br>{alex,santiago,juergen} @idsia.ch</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Multi-Dimensional Recurrent Neural Networks Alex Graves, Santiago Fernandez, Jurgen Schmidhuber IDSIA Galleria 2, 6928 Manno, Switzerland {alex,santiago,juergen} @idsia.ch"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1048,
+                    "y": 1088
+                },
+                {
+                    "x": 1422,
+                    "y": 1088
+                },
+                {
+                    "x": 1422,
+                    "y": 1145
+                },
+                {
+                    "x": 1048,
+                    "y": 1145
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='1' style='font-size:20px'>February 11, 2013</p>",
+            "id": 1,
+            "page": 1,
+            "text": "February 11, 2013"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1160,
+                    "y": 1235
+                },
+                {
+                    "x": 1310,
+                    "y": 1235
+                },
+                {
+                    "x": 1310,
+                    "y": 1277
+                },
+                {
+                    "x": 1160,
+                    "y": 1277
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:16px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 616,
+                    "y": 1288
+                },
+                {
+                    "x": 1858,
+                    "y": 1288
+                },
+                {
+                    "x": 1858,
+                    "y": 1794
+                },
+                {
+                    "x": 616,
+                    "y": 1794
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='3' style='font-size:16px'>Recurrent neural networks (RNNs) have proved effective at one dimensional<br>sequence learning tasks, such as speech and online handwriting recognition. Some<br>of the properties that make RNNs suitable for such tasks, for example robustness<br>to input warping, and the ability to access contextual information, are also desir-<br>able in multidimensional domains. However, there has SO far been no direct way<br>of applying RNNs to data with more than one spatio-temporal dimension. This pa-<br>per introduces multi-dimensional recurrent neural networks (MDRNNs), thereby<br>extending the potential applicability of RNNs to vision, video processing, medi-<br>cal imaging and many other areas, while avoiding the scaling problems that have<br>plagued other multi-dimensional models. Experimental results are provided for<br>two image segmentation tasks.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Recurrent neural networks (RNNs) have proved effective at one dimensional sequence learning tasks, such as speech and online handwriting recognition. Some of the properties that make RNNs suitable for such tasks, for example robustness to input warping, and the ability to access contextual information, are also desirable in multidimensional domains. However, there has SO far been no direct way of applying RNNs to data with more than one spatio-temporal dimension. This paper introduces multi-dimensional recurrent neural networks (MDRNNs), thereby extending the potential applicability of RNNs to vision, video processing, medical imaging and many other areas, while avoiding the scaling problems that have plagued other multi-dimensional models. Experimental results are provided for two image segmentation tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 516,
+                    "y": 1868
+                },
+                {
+                    "x": 938,
+                    "y": 1868
+                },
+                {
+                    "x": 938,
+                    "y": 1932
+                },
+                {
+                    "x": 516,
+                    "y": 1932
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:22px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1973
+                },
+                {
+                    "x": 1961,
+                    "y": 1973
+                },
+                {
+                    "x": 1961,
+                    "y": 2220
+                },
+                {
+                    "x": 512,
+                    "y": 2220
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>Recurrent neural networks (RNNs) were originally developed as a way of extending<br>neural networks to sequential data. Because of their recurrent connections, RNNs are<br>able to make use of previous context. Moreover, because RNNs can adapt to stretched<br>or compressed input patterns by varying the rate of change of their internal state, they<br>are more robust to temporal warping than non-recursive models.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Recurrent neural networks (RNNs) were originally developed as a way of extending neural networks to sequential data. Because of their recurrent connections, RNNs are able to make use of previous context. Moreover, because RNNs can adapt to stretched or compressed input patterns by varying the rate of change of their internal state, they are more robust to temporal warping than non-recursive models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2223
+                },
+                {
+                    "x": 1960,
+                    "y": 2223
+                },
+                {
+                    "x": 1960,
+                    "y": 2321
+                },
+                {
+                    "x": 512,
+                    "y": 2321
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:20px'>In recent experiments, RNNs have outperformed hidden Markov Models (HMMs)<br>in a variety of speech and online handwriting recognition tasks [5, 4, 3, 13].</p>",
+            "id": 6,
+            "page": 1,
+            "text": "In recent experiments, RNNs have outperformed hidden Markov Models (HMMs) in a variety of speech and online handwriting recognition tasks ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2327
+                },
+                {
+                    "x": 1962,
+                    "y": 2327
+                },
+                {
+                    "x": 1962,
+                    "y": 2520
+                },
+                {
+                    "x": 511,
+                    "y": 2520
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:18px'>Access to contextual information and robustness to warping are also important<br>when dealing with multi-dimensional data. For example, a face recognition algorithm<br>should be able to access the entire face at once, and it should be robust to changes in<br>perspective, distance etc. It therefore seems desirable to apply RNNs to such tasks.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Access to contextual information and robustness to warping are also important when dealing with multi-dimensional data. For example, a face recognition algorithm should be able to access the entire face at once, and it should be robust to changes in perspective, distance etc. It therefore seems desirable to apply RNNs to such tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 2522
+                },
+                {
+                    "x": 1963,
+                    "y": 2522
+                },
+                {
+                    "x": 1963,
+                    "y": 3023
+                },
+                {
+                    "x": 509,
+                    "y": 3023
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:18px'>However, the RNN architectures used SO far have been explicitly one dimensional,<br>meaning that in order to use them for multi-dimensional tasks, the data must be pre-<br>processed to one dimension, for example by presenting one vertical line of an image at a<br>time to the network. The most successful use of neural networks for multi-dimensional<br>data has been the application of convolution networks to image processing tasks such<br>as digit recognition [11, 15]. One disadvantage of convolution nets is that because they<br>are not recurrent, they rely on hand specified kernel sizes to introduce context. Another<br>disadvantage is that they don't scale well to large images. For example, sequences of<br>handwritten digits must be pre-segmented into individual characters before they can be<br>recognised by convolution nets [11].</p>",
+            "id": 8,
+            "page": 1,
+            "text": "However, the RNN architectures used SO far have been explicitly one dimensional, meaning that in order to use them for multi-dimensional tasks, the data must be preprocessed to one dimension, for example by presenting one vertical line of an image at a time to the network. The most successful use of neural networks for multi-dimensional data has been the application of convolution networks to image processing tasks such as digit recognition . One disadvantage of convolution nets is that because they are not recurrent, they rely on hand specified kernel sizes to introduce context. Another disadvantage is that they don't scale well to large images. For example, sequences of handwritten digits must be pre-segmented into individual characters before they can be recognised by convolution nets ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 64,
+                    "y": 1112
+                },
+                {
+                    "x": 150,
+                    "y": 1112
+                },
+                {
+                    "x": 150,
+                    "y": 2524
+                },
+                {
+                    "x": 64,
+                    "y": 2524
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='9' style='font-size:14px'>2007<br>May<br>14<br>[cs.AI]<br>arXiv:0705.2011v1</footer>",
+            "id": 9,
+            "page": 1,
+            "text": "2007 May 14 [cs.AI] arXiv:0705.2011v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3097
+                },
+                {
+                    "x": 1249,
+                    "y": 3097
+                },
+                {
+                    "x": 1249,
+                    "y": 3137
+                },
+                {
+                    "x": 1222,
+                    "y": 3137
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='10' style='font-size:14px'>1</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 507,
+                    "y": 499
+                },
+                {
+                    "x": 1178,
+                    "y": 499
+                },
+                {
+                    "x": 1178,
+                    "y": 802
+                },
+                {
+                    "x": 507,
+                    "y": 802
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='11' style='font-size:14px' alt=\"hidden layer\n(i-1,j) (ij) (ij-1)\ninput layer (ij)\" data-coord=\"top-left:(507,499); bottom-right:(1178,802)\" /></figure>",
+            "id": 11,
+            "page": 2,
+            "text": "hidden layer (i-1,j) (ij) (ij-1) input layer (ij)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 560,
+                    "y": 851
+                },
+                {
+                    "x": 1123,
+                    "y": 851
+                },
+                {
+                    "x": 1123,
+                    "y": 900
+                },
+                {
+                    "x": 560,
+                    "y": 900
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='12' style='font-size:18px'>Figure 1: 2D RNN Forward pass.</caption>",
+            "id": 12,
+            "page": 2,
+            "text": "Figure 1: 2D RNN Forward pass."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 509
+                },
+                {
+                    "x": 1961,
+                    "y": 509
+                },
+                {
+                    "x": 1961,
+                    "y": 801
+                },
+                {
+                    "x": 1297,
+                    "y": 801
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='13' style='font-size:14px' alt=\"output layer\n(ij)\nhidden layer\n(ij+1) (ij) (i+1,j)\" data-coord=\"top-left:(1297,509); bottom-right:(1961,801)\" /></figure>",
+            "id": 13,
+            "page": 2,
+            "text": "output layer (ij) hidden layer (ij+1) (ij) (i+1,j)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1332,
+                    "y": 850
+                },
+                {
+                    "x": 1926,
+                    "y": 850
+                },
+                {
+                    "x": 1926,
+                    "y": 900
+                },
+                {
+                    "x": 1332,
+                    "y": 900
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='14' style='font-size:20px'>Figure 2: 2D RNN Backward pass.</caption>",
+            "id": 14,
+            "page": 2,
+            "text": "Figure 2: 2D RNN Backward pass."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 983
+                },
+                {
+                    "x": 1961,
+                    "y": 983
+                },
+                {
+                    "x": 1961,
+                    "y": 1479
+                },
+                {
+                    "x": 509,
+                    "y": 1479
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:18px'>Various statistical models have been proposed for multi-dimensional data, notably<br>multi-dimensional HMMs. However, multi-dimensional HMMs suffer from two severe<br>drawbacks: (1) the time required to run the Viterbi algorithm, and thereby calculate<br>the optimal state sequences, grows exponentially with the number of data points; (2)<br>the number of transition probabilities, and hence the required memory, grows expo-<br>nentially with the data dimensionality. Numerous approximate methods have been<br>proposed to alleviate one or both of these problems, including pseudo 2D and 3D<br>HMMs [8], isolating elements [12], approximate Viterbi algorithms [10], and depen-<br>dency tree HMMs [9]. However, none of these methods are able to exploit the full<br>multi-dimensional structure of the data.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "Various statistical models have been proposed for multi-dimensional data, notably multi-dimensional HMMs. However, multi-dimensional HMMs suffer from two severe drawbacks: (1) the time required to run the Viterbi algorithm, and thereby calculate the optimal state sequences, grows exponentially with the number of data points; (2) the number of transition probabilities, and hence the required memory, grows exponentially with the data dimensionality. Numerous approximate methods have been proposed to alleviate one or both of these problems, including pseudo 2D and 3D HMMs , isolating elements , approximate Viterbi algorithms , and dependency tree HMMs . However, none of these methods are able to exploit the full multi-dimensional structure of the data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 1484
+                },
+                {
+                    "x": 1958,
+                    "y": 1484
+                },
+                {
+                    "x": 1958,
+                    "y": 1628
+                },
+                {
+                    "x": 510,
+                    "y": 1628
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:18px'>As we will see, multi dimensional recurrent neural networks (MDRNNs) bring<br>the benefits of RNNs to multi-dimensional data, without suffering from the scaling<br>problems described above.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "As we will see, multi dimensional recurrent neural networks (MDRNNs) bring the benefits of RNNs to multi-dimensional data, without suffering from the scaling problems described above."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1633
+                },
+                {
+                    "x": 1958,
+                    "y": 1633
+                },
+                {
+                    "x": 1958,
+                    "y": 1731
+                },
+                {
+                    "x": 513,
+                    "y": 1731
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Section 2 describes the MDRNN architecture, Section 3 presents two experiments<br>on image segmentation, and concluding remarks are given in Section 4.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Section 2 describes the MDRNN architecture, Section 3 presents two experiments on image segmentation, and concluding remarks are given in Section 4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 1809
+                },
+                {
+                    "x": 1823,
+                    "y": 1809
+                },
+                {
+                    "x": 1823,
+                    "y": 1870
+                },
+                {
+                    "x": 514,
+                    "y": 1870
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:22px'>2 Multi-Dimensional Recurrent Neural Networks</p>",
+            "id": 18,
+            "page": 2,
+            "text": "2 Multi-Dimensional Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1913
+                },
+                {
+                    "x": 1958,
+                    "y": 1913
+                },
+                {
+                    "x": 1958,
+                    "y": 2161
+                },
+                {
+                    "x": 511,
+                    "y": 2161
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:16px'>The basic idea of MDRNNs is to replace the single recurrent connection found in stan-<br>dard RNNs with as many recurrent connections as there are dimensions in the data.<br>During the forward pass, at each point in the data sequence, the hidden layer of the net-<br>work receives both an external input and its own activations from one step back along<br>all dimensions. Figure 1 illustrates the two dimensional case.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "The basic idea of MDRNNs is to replace the single recurrent connection found in standard RNNs with as many recurrent connections as there are dimensions in the data. During the forward pass, at each point in the data sequence, the hidden layer of the network receives both an external input and its own activations from one step back along all dimensions. Figure 1 illustrates the two dimensional case."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2165
+                },
+                {
+                    "x": 1959,
+                    "y": 2165
+                },
+                {
+                    "x": 1959,
+                    "y": 2358
+                },
+                {
+                    "x": 512,
+                    "y": 2358
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='20' style='font-size:16px'>Note that, although the word sequence usually connotes one dimensional data, we<br>will use it to refer to data examplars of any dimensionality. For example, an image is<br>a two dimensional sequence, a video is a three dimensional sequence, and a series of<br>fMRI brain scans is a four dimensional sequence.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Note that, although the word sequence usually connotes one dimensional data, we will use it to refer to data examplars of any dimensionality. For example, an image is a two dimensional sequence, a video is a three dimensional sequence, and a series of fMRI brain scans is a four dimensional sequence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 2364
+                },
+                {
+                    "x": 1960,
+                    "y": 2364
+                },
+                {
+                    "x": 1960,
+                    "y": 2807
+                },
+                {
+                    "x": 510,
+                    "y": 2807
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:14px'>Clearly, the data must be processed in such a way that when the network reaches a<br>point in an n-dimensional sequence, it has already passed through all the points from<br>which it will receive its previous activations. This can be ensured by following a<br>suitable ordering on the points {(x1, x2, · .. , xn)}. One example of a suitable order-<br>ing is (x1, · · · , xn) < (x'1, · · · , x'n) if ョ m E (1, · · · , n) such that Xm < x'm and<br>Xi = x'r V i E (1, · · . , m - 1). Note that this is not the only possible ordering, and that<br>its realisation for a particular sequence depends on an arbitrary choice of axes. We will<br>return to this point in Section 2.1. Figure 3 illustrates the ordering for a 2 dimensional<br>sequence.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Clearly, the data must be processed in such a way that when the network reaches a point in an n-dimensional sequence, it has already passed through all the points from which it will receive its previous activations. This can be ensured by following a suitable ordering on the points {(x1, x2, · .. , xn)}. One example of a suitable ordering is (x1, · · · , xn) < (x'1, · · · , x'n) if ョ m E (1, · · · , n) such that Xm < x'm and Xi = x'r V i E (1, · · . , m - 1). Note that this is not the only possible ordering, and that its realisation for a particular sequence depends on an arbitrary choice of axes. We will return to this point in Section 2.1. Figure 3 illustrates the ordering for a 2 dimensional sequence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2811
+                },
+                {
+                    "x": 1960,
+                    "y": 2811
+                },
+                {
+                    "x": 1960,
+                    "y": 3012
+                },
+                {
+                    "x": 512,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:16px'>The forward pass of an MDRNN can then be carried out by feeding forward the<br>input and the n previous hidden layer activations at each point in the ordered input<br>sequence, and storing the resulting hidden layer activations. Care must be taken at the<br>sequence boundaries not to feed forward activations from points outside the sequence.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "The forward pass of an MDRNN can then be carried out by feeding forward the input and the n previous hidden layer activations at each point in the ordered input sequence, and storing the resulting hidden layer activations. Care must be taken at the sequence boundaries not to feed forward activations from points outside the sequence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3098
+                },
+                {
+                    "x": 1250,
+                    "y": 3098
+                },
+                {
+                    "x": 1250,
+                    "y": 3137
+                },
+                {
+                    "x": 1221,
+                    "y": 3137
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='23' style='font-size:18px'>2</footer>",
+            "id": 23,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 931,
+                    "y": 510
+                },
+                {
+                    "x": 1533,
+                    "y": 510
+                },
+                {
+                    "x": 1533,
+                    "y": 869
+                },
+                {
+                    "x": 931,
+                    "y": 869
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='24' style='font-size:14px' alt=\"(0,0) ▶ x1\nx2\n(i,j)\" data-coord=\"top-left:(931,510); bottom-right:(1533,869)\" /></figure>",
+            "id": 24,
+            "page": 3,
+            "text": "(0,0) ▶ x1 x2 (i,j)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 912
+                },
+                {
+                    "x": 1962,
+                    "y": 912
+                },
+                {
+                    "x": 1962,
+                    "y": 1063
+                },
+                {
+                    "x": 512,
+                    "y": 1063
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='25' style='font-size:20px'>Figure 3: 2D sequence ordering. The MDRNN forward pass starts at the origin and<br>follows the direction of the arrows. The point (i,j) is never reached before both (i-1,j)<br>and (i,j-1).</caption>",
+            "id": 25,
+            "page": 3,
+            "text": "Figure 3: 2D sequence ordering. The MDRNN forward pass starts at the origin and follows the direction of the arrows. The point (i,j) is never reached before both (i-1,j) and (i,j-1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1190
+                },
+                {
+                    "x": 1959,
+                    "y": 1190
+                },
+                {
+                    "x": 1959,
+                    "y": 1385
+                },
+                {
+                    "x": 512,
+                    "y": 1385
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:20px'>Note that each 'point' in the input sequence will in general be a multivalued vector.<br>For example, in a two dimensional colour image, the inputs could be single pixels rep-<br>resented by RGB triples, or blocks of pixels, or the outputs of a preprocessing method<br>such as a discrete cosine transform.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "Note that each 'point' in the input sequence will in general be a multivalued vector. For example, in a two dimensional colour image, the inputs could be single pixels represented by RGB triples, or blocks of pixels, or the outputs of a preprocessing method such as a discrete cosine transform."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1389
+                },
+                {
+                    "x": 1963,
+                    "y": 1389
+                },
+                {
+                    "x": 1963,
+                    "y": 1734
+                },
+                {
+                    "x": 511,
+                    "y": 1734
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:20px'>The error gradient of an MDRNN (that is, the derivative of some objective function<br>with respect to the network weights) can be calculated with an n-dimensional extension<br>of the backpropagation through time (BPTT [16]) algorithm. As with one dimensional<br>BPTT, the sequence is processed in the reverse order of the forward pass. At each<br>timestep, the hidden layer receives both the output error derivatives and its own n<br>'future' derivatives. Figure 2 illustrates the BPTT backward pass for two dimensions.<br>Again, care must be taken at the sequence boundaries.</p>",
+            "id": 27,
+            "page": 3,
+            "text": "The error gradient of an MDRNN (that is, the derivative of some objective function with respect to the network weights) can be calculated with an n-dimensional extension of the backpropagation through time (BPTT ) algorithm. As with one dimensional BPTT, the sequence is processed in the reverse order of the forward pass. At each timestep, the hidden layer receives both the output error derivatives and its own n 'future' derivatives. Figure 2 illustrates the BPTT backward pass for two dimensions. Again, care must be taken at the sequence boundaries."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1739
+                },
+                {
+                    "x": 1961,
+                    "y": 1739
+                },
+                {
+                    "x": 1961,
+                    "y": 2039
+                },
+                {
+                    "x": 512,
+                    "y": 2039
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:18px'>At a point x = (x1, · · · , xn) in an n-dimensional sequence, define ix and hxk re-<br>spectively as the activations of the jth input unit and the kth hidden unit. Define Wkj<br>as the weight of the connection going from unit j to unit k. Then for an n-dimensional<br>MDRNN whose hidden layer consists of summation units with the tanh activation<br>function, the forward pass for a sequence with dimensions (X1, X2, · · · , Xn) can be<br>summarised as follows:</p>",
+            "id": 28,
+            "page": 3,
+            "text": "At a point x = (x1, · · · , xn) in an n-dimensional sequence, define ix and hxk respectively as the activations of the jth input unit and the kth hidden unit. Define Wkj as the weight of the connection going from unit j to unit k. Then for an n-dimensional MDRNN whose hidden layer consists of summation units with the tanh activation function, the forward pass for a sequence with dimensions (X1, X2, · · · , Xn) can be summarised as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 557,
+                    "y": 2087
+                },
+                {
+                    "x": 981,
+                    "y": 2087
+                },
+                {
+                    "x": 981,
+                    "y": 2130
+                },
+                {
+                    "x": 557,
+                    "y": 2130
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:16px'>for X1 = 0 to X1 - 1 do</p>",
+            "id": 29,
+            "page": 3,
+            "text": "for X1 = 0 to X1 - 1 do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 644,
+                    "y": 2213
+                },
+                {
+                    "x": 688,
+                    "y": 2213
+                },
+                {
+                    "x": 688,
+                    "y": 2225
+                },
+                {
+                    "x": 644,
+                    "y": 2225
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:14px'>· · ·</p>",
+            "id": 30,
+            "page": 3,
+            "text": "· · ·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 677,
+                    "y": 2281
+                },
+                {
+                    "x": 1128,
+                    "y": 2281
+                },
+                {
+                    "x": 1128,
+                    "y": 2344
+                },
+                {
+                    "x": 677,
+                    "y": 2344
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:20px'>initialize a ← � 0 inx Wkj</p>",
+            "id": 31,
+            "page": 3,
+            "text": "initialize a ← � 0 inx Wkj"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 679,
+                    "y": 2336
+                },
+                {
+                    "x": 977,
+                    "y": 2336
+                },
+                {
+                    "x": 977,
+                    "y": 2378
+                },
+                {
+                    "x": 679,
+                    "y": 2378
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>for i = 1 to n do</p>",
+            "id": 32,
+            "page": 3,
+            "text": "for i = 1 to n do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 918,
+                    "y": 2557
+                },
+                {
+                    "x": 1554,
+                    "y": 2557
+                },
+                {
+                    "x": 1554,
+                    "y": 2601
+                },
+                {
+                    "x": 918,
+                    "y": 2601
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:22px'>Algorithm 1: MDRNN Forward Pass</p>",
+            "id": 33,
+            "page": 3,
+            "text": "Algorithm 1: MDRNN Forward Pass"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2656
+                },
+                {
+                    "x": 1959,
+                    "y": 2656
+                },
+                {
+                    "x": 1959,
+                    "y": 2814
+                },
+                {
+                    "x": 512,
+                    "y": 2814
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:22px'>Defining ox and hx respectively as the derivatives of the objective function with<br>respect to the activations of the jth output unit and the kth hidden unit at point x, the<br>backward pass is:</p>",
+            "id": 34,
+            "page": 3,
+            "text": "Defining ox and hx respectively as the derivatives of the objective function with respect to the activations of the jth output unit and the kth hidden unit at point x, the backward pass is:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 2820
+                },
+                {
+                    "x": 1960,
+                    "y": 2820
+                },
+                {
+                    "x": 1960,
+                    "y": 2966
+                },
+                {
+                    "x": 513,
+                    "y": 2966
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='35' style='font-size:20px'>Since the forward and backward pass require one pass each through the data se-<br>quence, the overall complexity of MDRNN training is linear in the number of data<br>points and the number of network weights.</p>",
+            "id": 35,
+            "page": 3,
+            "text": "Since the forward and backward pass require one pass each through the data sequence, the overall complexity of MDRNN training is linear in the number of data points and the number of network weights."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3098
+                },
+                {
+                    "x": 1250,
+                    "y": 3098
+                },
+                {
+                    "x": 1250,
+                    "y": 3136
+                },
+                {
+                    "x": 1222,
+                    "y": 3136
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='36' style='font-size:20px'>3</footer>",
+            "id": 36,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 554,
+                    "y": 533
+                },
+                {
+                    "x": 983,
+                    "y": 533
+                },
+                {
+                    "x": 983,
+                    "y": 574
+                },
+                {
+                    "x": 554,
+                    "y": 574
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>for X1 = X1 - 1 to 0 do</p>",
+            "id": 37,
+            "page": 4,
+            "text": "for X1 = X1 - 1 to 0 do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 620,
+                    "y": 570
+                },
+                {
+                    "x": 1363,
+                    "y": 570
+                },
+                {
+                    "x": 1363,
+                    "y": 989
+                },
+                {
+                    "x": 620,
+                    "y": 989
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:16px'>for X2 = X2 - 1 to 0 do<br>· · ·<br>for Xn = Xn - 1 to 0 do<br>initialize e ← � 0 oxwjk<br>for i = 1 to n do<br>if Xi < Xi - 1 then<br>Wjk<br>e ← e + �j ん (x1,...,xi + 1,...,xn )<br>hx ← tanh' (e)</p>",
+            "id": 38,
+            "page": 4,
+            "text": "for X2 = X2 - 1 to 0 do · · · for Xn = Xn - 1 to 0 do initialize e ← � 0 oxwjk for i = 1 to n do if Xi < Xi - 1 then Wjk e ← e + �j ん (x1,...,xi + 1,...,xn ) hx ← tanh' (e)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 586,
+                    "y": 1108
+                },
+                {
+                    "x": 828,
+                    "y": 1108
+                },
+                {
+                    "x": 828,
+                    "y": 1430
+                },
+                {
+                    "x": 586,
+                    "y": 1430
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='39' style='font-size:14px' alt=\"context\nregion\n(i,j)\" data-coord=\"top-left:(586,1108); bottom-right:(828,1430)\" /></figure>",
+            "id": 39,
+            "page": 4,
+            "text": "context region (i,j)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 904,
+                    "y": 1016
+                },
+                {
+                    "x": 1568,
+                    "y": 1016
+                },
+                {
+                    "x": 1568,
+                    "y": 1059
+                },
+                {
+                    "x": 904,
+                    "y": 1059
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='40' style='font-size:20px'>Algorithm 2: MDRNN Backward Pass</caption>",
+            "id": 40,
+            "page": 4,
+            "text": "Algorithm 2: MDRNN Backward Pass"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1365,
+                    "y": 1100
+                },
+                {
+                    "x": 1894,
+                    "y": 1100
+                },
+                {
+                    "x": 1894,
+                    "y": 1464
+                },
+                {
+                    "x": 1365,
+                    "y": 1464
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='41' style='font-size:14px' alt=\"layer 1 layer 3\ncontext context\n(i,j)\nlayer 2 layer 4\ncontext context\" data-coord=\"top-left:(1365,1100); bottom-right:(1894,1464)\" /></figure>",
+            "id": 41,
+            "page": 4,
+            "text": "layer 1 layer 3 context context (i,j) layer 2 layer 4 context context"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 1511
+                },
+                {
+                    "x": 1958,
+                    "y": 1511
+                },
+                {
+                    "x": 1958,
+                    "y": 1610
+                },
+                {
+                    "x": 1301,
+                    "y": 1610
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='42' style='font-size:18px'>Figure 5: Context available at (i,j) to a<br>multi-directional 2D RNN.</caption>",
+            "id": 42,
+            "page": 4,
+            "text": "Figure 5: Context available at (i,j) to a multi-directional 2D RNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1512
+                },
+                {
+                    "x": 1172,
+                    "y": 1512
+                },
+                {
+                    "x": 1172,
+                    "y": 1611
+                },
+                {
+                    "x": 513,
+                    "y": 1611
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='43' style='font-size:20px'>Figure 4: Context available at (i,j) to a<br>2D RNN with a single hidden layer.</p>",
+            "id": 43,
+            "page": 4,
+            "text": "Figure 4: Context available at (i,j) to a 2D RNN with a single hidden layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1688
+                },
+                {
+                    "x": 1224,
+                    "y": 1688
+                },
+                {
+                    "x": 1224,
+                    "y": 1742
+                },
+                {
+                    "x": 513,
+                    "y": 1742
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:22px'>2.1 Multi-directional MDRNNs</p>",
+            "id": 44,
+            "page": 4,
+            "text": "2.1 Multi-directional MDRNNs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1771
+                },
+                {
+                    "x": 1961,
+                    "y": 1771
+                },
+                {
+                    "x": 1961,
+                    "y": 2068
+                },
+                {
+                    "x": 513,
+                    "y": 2068
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>At a point (x1, · .., xn) in the input sequence, the network described above has access to<br>all points (x'1 , · · · , x'n ) such that x'r ≤ XiV i E (1, ..., n). This defines an n-dimensional<br>'context region' of the full sequence, as shown in Figure 4. For some tasks, such as<br>object recognition, this would in principal be sufficient. The network could process the<br>image as usual, and output the object label at a point when the object to be recognized<br>is entirely contained in the context region.</p>",
+            "id": 45,
+            "page": 4,
+            "text": "At a point (x1, · .., xn) in the input sequence, the network described above has access to all points (x'1 , · · · , x'n ) such that x'r ≤ XiV i E (1, ..., n). This defines an n-dimensional 'context region' of the full sequence, as shown in Figure 4. For some tasks, such as object recognition, this would in principal be sufficient. The network could process the image as usual, and output the object label at a point when the object to be recognized is entirely contained in the context region."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2074
+                },
+                {
+                    "x": 1960,
+                    "y": 2074
+                },
+                {
+                    "x": 1960,
+                    "y": 2217
+                },
+                {
+                    "x": 511,
+                    "y": 2217
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:20px'>Intuitively however, we would prefer the network to have access to the surrounding<br>context in all directions. This is particularly true for tasks where precise localization is<br>required, such as image segmentation.</p>",
+            "id": 46,
+            "page": 4,
+            "text": "Intuitively however, we would prefer the network to have access to the surrounding context in all directions. This is particularly true for tasks where precise localization is required, such as image segmentation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 2222
+                },
+                {
+                    "x": 1958,
+                    "y": 2222
+                },
+                {
+                    "x": 1958,
+                    "y": 2467
+                },
+                {
+                    "x": 513,
+                    "y": 2467
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:18px'>For one dimensional RNNs, the problem of multi-directional context was solved<br>in 1997 by the introduction of bidirectional recurrent neural networks (BRNNs) [14].<br>BRNNs contain two separate hidden layers that process the input sequence in the for-<br>ward and reverse directions. The two hidden layers are connected to a single output<br>layer, thereby providing the network with access to both past and future context.</p>",
+            "id": 47,
+            "page": 4,
+            "text": "For one dimensional RNNs, the problem of multi-directional context was solved in 1997 by the introduction of bidirectional recurrent neural networks (BRNNs) . BRNNs contain two separate hidden layers that process the input sequence in the forward and reverse directions. The two hidden layers are connected to a single output layer, thereby providing the network with access to both past and future context."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2473
+                },
+                {
+                    "x": 1960,
+                    "y": 2473
+                },
+                {
+                    "x": 1960,
+                    "y": 2765
+                },
+                {
+                    "x": 512,
+                    "y": 2765
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:20px'>BRNNs can be extended to n-dimensional data by using 2n separate hidden layers,<br>each of which processes the sequence using the ordering defined above, but with a<br>different choice of axes. More specifically, the axes are chosen so that their origins lie<br>on the 2n vertices of the sequence. The 2 dimensional case is illustrated in Figure 6. As<br>before, the hidden layers are connected to a single output layer, which now has access<br>to all surrounding context (see Figure 5).</p>",
+            "id": 48,
+            "page": 4,
+            "text": "BRNNs can be extended to n-dimensional data by using 2n separate hidden layers, each of which processes the sequence using the ordering defined above, but with a different choice of axes. More specifically, the axes are chosen so that their origins lie on the 2n vertices of the sequence. The 2 dimensional case is illustrated in Figure 6. As before, the hidden layers are connected to a single output layer, which now has access to all surrounding context (see Figure 5)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2771
+                },
+                {
+                    "x": 1960,
+                    "y": 2771
+                },
+                {
+                    "x": 1960,
+                    "y": 3018
+                },
+                {
+                    "x": 512,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:20px'>If the size of the hidden layers is held constant, multi-directional MDRNNs scales<br>as O(2n) for n-dimensional data. In practice however, we have found that using 2n<br>small layers gives better results than 1 large layer with the same overall number of<br>weights, presumably because the data processing is shared between the hidden layers.<br>This also holds in one dimension, as previous experiments have demonstrated [5]. In</p>",
+            "id": 49,
+            "page": 4,
+            "text": "If the size of the hidden layers is held constant, multi-directional MDRNNs scales as O(2n) for n-dimensional data. In practice however, we have found that using 2n small layers gives better results than 1 large layer with the same overall number of weights, presumably because the data processing is shared between the hidden layers. This also holds in one dimension, as previous experiments have demonstrated . In"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3099
+                },
+                {
+                    "x": 1248,
+                    "y": 3099
+                },
+                {
+                    "x": 1248,
+                    "y": 3135
+                },
+                {
+                    "x": 1222,
+                    "y": 3135
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='50' style='font-size:18px'>4</footer>",
+            "id": 50,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 928,
+                    "y": 505
+                },
+                {
+                    "x": 1539,
+                    "y": 505
+                },
+                {
+                    "x": 1539,
+                    "y": 888
+                },
+                {
+                    "x": 928,
+                    "y": 888
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='51' style='font-size:14px' alt=\"(0,0) x1 x1 (0,0)\nx2 x2\nx2 x2\n(0,0) x1 x1 (0,0)\" data-coord=\"top-left:(928,505); bottom-right:(1539,888)\" /></figure>",
+            "id": 51,
+            "page": 5,
+            "text": "(0,0) x1 x1 (0,0) x2 x2 x2 x2 (0,0) x1 x1 (0,0)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 932
+                },
+                {
+                    "x": 1961,
+                    "y": 932
+                },
+                {
+                    "x": 1961,
+                    "y": 1085
+                },
+                {
+                    "x": 510,
+                    "y": 1085
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='52' style='font-size:18px'>Figure 6: Axes used by the 4 hidden layers in a multi-directional 2D network. The<br>arrows inside the rectangle indicate the direction of propagation during the forward<br>pass.</caption>",
+            "id": 52,
+            "page": 5,
+            "text": "Figure 6: Axes used by the 4 hidden layers in a multi-directional 2D network. The arrows inside the rectangle indicate the direction of propagation during the forward pass."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1212
+                },
+                {
+                    "x": 1959,
+                    "y": 1212
+                },
+                {
+                    "x": 1959,
+                    "y": 1354
+                },
+                {
+                    "x": 511,
+                    "y": 1354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:18px'>any case the complexity of the algorithm remains linear in the number of data points<br>and the number of parameters, and the number of parameters is independent of the data<br>dimensionality.</p>",
+            "id": 53,
+            "page": 5,
+            "text": "any case the complexity of the algorithm remains linear in the number of data points and the number of parameters, and the number of parameters is independent of the data dimensionality."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1361
+                },
+                {
+                    "x": 1954,
+                    "y": 1361
+                },
+                {
+                    "x": 1954,
+                    "y": 1456
+                },
+                {
+                    "x": 511,
+                    "y": 1456
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:16px'>For a multi-directional MDRNN, the forward and backward passes through an n-<br>dimensional sequence can be summarised as follows:</p>",
+            "id": 54,
+            "page": 5,
+            "text": "For a multi-directional MDRNN, the forward and backward passes through an ndimensional sequence can be summarised as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 526,
+                    "y": 1512
+                },
+                {
+                    "x": 1958,
+                    "y": 1512
+                },
+                {
+                    "x": 1958,
+                    "y": 1759
+                },
+                {
+                    "x": 526,
+                    "y": 1759
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>1: For each of the 2n hidden layers choose a distinct vertex of the sequence, then<br>define a set of axes such that the vertex is the origin and all sequence co-ordinates<br>are ≥ 0<br>2: Repeat Algorithm 1 for each hidden layer<br>3: At each point in the sequence, feed forward all hidden layers to the output layer</p>",
+            "id": 55,
+            "page": 5,
+            "text": "1: For each of the 2n hidden layers choose a distinct vertex of the sequence, then define a set of axes such that the vertex is the origin and all sequence co-ordinates are ≥ 0 2: Repeat Algorithm 1 for each hidden layer 3: At each point in the sequence, feed forward all hidden layers to the output layer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 770,
+                    "y": 1784
+                },
+                {
+                    "x": 1702,
+                    "y": 1784
+                },
+                {
+                    "x": 1702,
+                    "y": 1828
+                },
+                {
+                    "x": 770,
+                    "y": 1828
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='56' style='font-size:18px'>Algorithm 3: Multi-directional MDRNN Forward Pass</caption>",
+            "id": 56,
+            "page": 5,
+            "text": "Algorithm 3: Multi-directional MDRNN Forward Pass"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 533,
+                    "y": 1938
+                },
+                {
+                    "x": 1959,
+                    "y": 1938
+                },
+                {
+                    "x": 1959,
+                    "y": 2082
+                },
+                {
+                    "x": 533,
+                    "y": 2082
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>1: At each point in the sequence, calculate the derivative of the objective function<br>with respect to the activations of output layer<br>2: With the same axes as above, repeat Algorithm 2 for each hidden layer</p>",
+            "id": 57,
+            "page": 5,
+            "text": "1: At each point in the sequence, calculate the derivative of the objective function with respect to the activations of output layer 2: With the same axes as above, repeat Algorithm 2 for each hidden layer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 761,
+                    "y": 2105
+                },
+                {
+                    "x": 1717,
+                    "y": 2105
+                },
+                {
+                    "x": 1717,
+                    "y": 2149
+                },
+                {
+                    "x": 761,
+                    "y": 2149
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:20px'>Algorithm 4: Multi-directional MDRNN Backward Pass</p>",
+            "id": 58,
+            "page": 5,
+            "text": "Algorithm 4: Multi-directional MDRNN Backward Pass"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 2226
+                },
+                {
+                    "x": 1606,
+                    "y": 2226
+                },
+                {
+                    "x": 1606,
+                    "y": 2279
+                },
+                {
+                    "x": 514,
+                    "y": 2279
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:22px'>2.2 Multi-dimensional Long Short-Term Memory</p>",
+            "id": 59,
+            "page": 5,
+            "text": "2.2 Multi-dimensional Long Short-Term Memory"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 2307
+                },
+                {
+                    "x": 1960,
+                    "y": 2307
+                },
+                {
+                    "x": 1960,
+                    "y": 2604
+                },
+                {
+                    "x": 510,
+                    "y": 2604
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:18px'>So far we have implicitly assumed that the network can make use of all context to<br>which it has access. For standard RNN architectures however, the range of context that<br>can practically be used is limited. The problem is that the influence of a given input<br>on the hidden layer, and therefore on the network output, either decays or blows up<br>exponentially as it cycles around the network's recurrent connections. This is usually<br>referred to as the vanishing gradient problem [6].</p>",
+            "id": 60,
+            "page": 5,
+            "text": "So far we have implicitly assumed that the network can make use of all context to which it has access. For standard RNN architectures however, the range of context that can practically be used is limited. The problem is that the influence of a given input on the hidden layer, and therefore on the network output, either decays or blows up exponentially as it cycles around the network's recurrent connections. This is usually referred to as the vanishing gradient problem ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 2608
+                },
+                {
+                    "x": 1961,
+                    "y": 2608
+                },
+                {
+                    "x": 1961,
+                    "y": 2957
+                },
+                {
+                    "x": 510,
+                    "y": 2957
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:20px'>Long Short-Term Memory (LSTM) [7, 2] is an RNN architecture specifically de-<br>signed to address the vanishing gradient problem. An LSTM hidden layer consists of<br>multiple recurrently connected subnets, known as memory blocks. Each block con-<br>tains a set of internal units, known as cells, whose activation is controlled by three<br>multiplicative units: the input gate, forget gate and output gate. The effect of the gates<br>is to allow the cells to store and access information over long periods of time, thereby<br>avoiding the vanishing gradient problem.</p>",
+            "id": 61,
+            "page": 5,
+            "text": "Long Short-Term Memory (LSTM)  is an RNN architecture specifically designed to address the vanishing gradient problem. An LSTM hidden layer consists of multiple recurrently connected subnets, known as memory blocks. Each block contains a set of internal units, known as cells, whose activation is controlled by three multiplicative units: the input gate, forget gate and output gate. The effect of the gates is to allow the cells to store and access information over long periods of time, thereby avoiding the vanishing gradient problem."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1222,
+                    "y": 3100
+                },
+                {
+                    "x": 1248,
+                    "y": 3100
+                },
+                {
+                    "x": 1248,
+                    "y": 3135
+                },
+                {
+                    "x": 1222,
+                    "y": 3135
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='62' style='font-size:14px'>5</footer>",
+            "id": 62,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 832,
+                    "y": 518
+                },
+                {
+                    "x": 1645,
+                    "y": 518
+                },
+                {
+                    "x": 1645,
+                    "y": 795
+                },
+                {
+                    "x": 832,
+                    "y": 795
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='63' alt=\"\" data-coord=\"top-left:(832,518); bottom-right:(1645,795)\" /></figure>",
+            "id": 63,
+            "page": 6,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 888
+                },
+                {
+                    "x": 1958,
+                    "y": 888
+                },
+                {
+                    "x": 1958,
+                    "y": 990
+                },
+                {
+                    "x": 513,
+                    "y": 990
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='64' style='font-size:18px'>Figure 7: Frame from the Air Freight database, showing the original image (left) and<br>the colour-coded texture segmentation (right).</caption>",
+            "id": 64,
+            "page": 6,
+            "text": "Figure 7: Frame from the Air Freight database, showing the original image (left) and the colour-coded texture segmentation (right)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1070
+                },
+                {
+                    "x": 1959,
+                    "y": 1070
+                },
+                {
+                    "x": 1959,
+                    "y": 1274
+                },
+                {
+                    "x": 512,
+                    "y": 1274
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:18px'>The standard formulation of LSTM is explicitly one-dimensional, since the cell<br>contains a single self connection, whose activation is controlled by a single forget gate.<br>However we can easily extend this to n dimensions by using instead n self connections<br>(one for each of the cell's previous states along every dimension) with n forget gates.</p>",
+            "id": 65,
+            "page": 6,
+            "text": "The standard formulation of LSTM is explicitly one-dimensional, since the cell contains a single self connection, whose activation is controlled by a single forget gate. However we can easily extend this to n dimensions by using instead n self connections (one for each of the cell's previous states along every dimension) with n forget gates."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 515,
+                    "y": 1347
+                },
+                {
+                    "x": 940,
+                    "y": 1347
+                },
+                {
+                    "x": 940,
+                    "y": 1415
+                },
+                {
+                    "x": 515,
+                    "y": 1415
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:22px'>3 Experiments</p>",
+            "id": 66,
+            "page": 6,
+            "text": "3 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1453
+                },
+                {
+                    "x": 992,
+                    "y": 1453
+                },
+                {
+                    "x": 992,
+                    "y": 1513
+                },
+                {
+                    "x": 513,
+                    "y": 1513
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:20px'>3.1 Air Freight Data</p>",
+            "id": 67,
+            "page": 6,
+            "text": "3.1 Air Freight Data"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1540
+                },
+                {
+                    "x": 1960,
+                    "y": 1540
+                },
+                {
+                    "x": 1960,
+                    "y": 1736
+                },
+                {
+                    "x": 511,
+                    "y": 1736
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:18px'>The Air Freight database is a ray-traced colour image sequence that comes with a<br>ground truth segmentation based on textural characteristics (Figure 7). The sequence<br>is 455 frames long and contains 155 distinct textures. Each frame is 120 pixels high<br>and 160 pixels wide.</p>",
+            "id": 68,
+            "page": 6,
+            "text": "The Air Freight database is a ray-traced colour image sequence that comes with a ground truth segmentation based on textural characteristics (Figure 7). The sequence is 455 frames long and contains 155 distinct textures. Each frame is 120 pixels high and 160 pixels wide."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1742
+                },
+                {
+                    "x": 1960,
+                    "y": 1742
+                },
+                {
+                    "x": 1960,
+                    "y": 1888
+                },
+                {
+                    "x": 512,
+                    "y": 1888
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:18px'>The advantage of ray-traced data is the true segmentation can be defined directly<br>from the 3D models. Although the images are not real, they are realistic in the sense<br>that they have significant lighting, specular effects etc.</p>",
+            "id": 69,
+            "page": 6,
+            "text": "The advantage of ray-traced data is the true segmentation can be defined directly from the 3D models. Although the images are not real, they are realistic in the sense that they have significant lighting, specular effects etc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 1891
+                },
+                {
+                    "x": 1960,
+                    "y": 1891
+                },
+                {
+                    "x": 1960,
+                    "y": 2185
+                },
+                {
+                    "x": 510,
+                    "y": 2185
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:16px'>We used the sequence to define a 2D image segmentation task, where the aim was<br>to assign each pixel in the input data to the correct texture class. We divided the data<br>at random into a 250 frame train set, a 150 frame test set and a 55 frame validation<br>set. Note that we could have instead defined a 3D task where the network processed<br>the entire video as one sequence. However, this would have left us with only one<br>exemplar.</p>",
+            "id": 70,
+            "page": 6,
+            "text": "We used the sequence to define a 2D image segmentation task, where the aim was to assign each pixel in the input data to the correct texture class. We divided the data at random into a 250 frame train set, a 150 frame test set and a 55 frame validation set. Note that we could have instead defined a 3D task where the network processed the entire video as one sequence. However, this would have left us with only one exemplar."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 509,
+                    "y": 2188
+                },
+                {
+                    "x": 1961,
+                    "y": 2188
+                },
+                {
+                    "x": 1961,
+                    "y": 2735
+                },
+                {
+                    "x": 509,
+                    "y": 2735
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:18px'>For this task we used a multi-directional MDRNN with 4 LSTM hidden layers.<br>Each layer consisted of 25 memory blocks, each containing 1 cell, 2 forget gates, 1<br>input gate, 1 output gate and 5 peephole weights. This gave a total 600 hidden units.<br>The input and output activation functions of the cells were both tanh, and the activation<br>function for the gates was the logistic sigmoid in the range [0, 1]. The input layer was<br>size 3 (one each for the red, green and blue components of the pixels) and the output<br>layer was size 155 (one unit for each textural class). The network contained 43,257<br>trainable weights in total. As is standard for classification tasks, the softmax activation<br>function was used at the output layer, with the cross-entropy objective function [1]. The<br>network was trained using online gradient descent (weight updates after every training<br>sequence) with a learning rate of 10-6 and a momentum of 0.9.</p>",
+            "id": 71,
+            "page": 6,
+            "text": "For this task we used a multi-directional MDRNN with 4 LSTM hidden layers. Each layer consisted of 25 memory blocks, each containing 1 cell, 2 forget gates, 1 input gate, 1 output gate and 5 peephole weights. This gave a total 600 hidden units. The input and output activation functions of the cells were both tanh, and the activation function for the gates was the logistic sigmoid in the range . The input layer was size 3 (one each for the red, green and blue components of the pixels) and the output layer was size 155 (one unit for each textural class). The network contained 43,257 trainable weights in total. As is standard for classification tasks, the softmax activation function was used at the output layer, with the cross-entropy objective function . The network was trained using online gradient descent (weight updates after every training sequence) with a learning rate of 10-6 and a momentum of 0.9."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 573,
+                    "y": 2737
+                },
+                {
+                    "x": 1646,
+                    "y": 2737
+                },
+                {
+                    "x": 1646,
+                    "y": 2784
+                },
+                {
+                    "x": 573,
+                    "y": 2784
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:14px'>The final pixel classification error rate was 7.3 % on the test set.</p>",
+            "id": 72,
+            "page": 6,
+            "text": "The final pixel classification error rate was 7.3 % on the test set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3101
+                },
+                {
+                    "x": 1250,
+                    "y": 3101
+                },
+                {
+                    "x": 1250,
+                    "y": 3137
+                },
+                {
+                    "x": 1221,
+                    "y": 3137
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='73' style='font-size:14px'>6</footer>",
+            "id": 73,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 901,
+                    "y": 518
+                },
+                {
+                    "x": 1570,
+                    "y": 518
+                },
+                {
+                    "x": 1570,
+                    "y": 747
+                },
+                {
+                    "x": 901,
+                    "y": 747
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='74' alt=\"\" data-coord=\"top-left:(901,518); bottom-right:(1570,747)\" /></figure>",
+            "id": 74,
+            "page": 7,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 779,
+                    "y": 843
+                },
+                {
+                    "x": 1686,
+                    "y": 843
+                },
+                {
+                    "x": 1686,
+                    "y": 890
+                },
+                {
+                    "x": 779,
+                    "y": 890
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='75' style='font-size:20px'>Figure 8: MNIST image before and after deformation.</caption>",
+            "id": 75,
+            "page": 7,
+            "text": "Figure 8: MNIST image before and after deformation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 674,
+                    "y": 973
+                },
+                {
+                    "x": 1798,
+                    "y": 973
+                },
+                {
+                    "x": 1798,
+                    "y": 1019
+                },
+                {
+                    "x": 674,
+                    "y": 1019
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='76' style='font-size:14px'>Table 1: Image error rates on MNIST (pixel error rates in brackets)</caption>",
+            "id": 76,
+            "page": 7,
+            "text": "Table 1: Image error rates on MNIST (pixel error rates in brackets)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 808,
+                    "y": 1029
+                },
+                {
+                    "x": 1663,
+                    "y": 1029
+                },
+                {
+                    "x": 1663,
+                    "y": 1218
+                },
+                {
+                    "x": 808,
+                    "y": 1218
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='77' style='font-size:16px'><tr><td>Algorithm</td><td>Clean Test Set</td><td>Warped Test Set</td></tr><tr><td>MDRNN</td><td>1.1 % (0.5 %)</td><td>6.8 % (3.8 %)</td></tr><tr><td>Convolution</td><td>0.9 %</td><td>11.3 %</td></tr></table>",
+            "id": 77,
+            "page": 7,
+            "text": "Algorithm Clean Test Set Warped Test Set  MDRNN 1.1 % (0.5 %) 6.8 % (3.8 %)  Convolution 0.9 %"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1334
+                },
+                {
+                    "x": 914,
+                    "y": 1334
+                },
+                {
+                    "x": 914,
+                    "y": 1391
+                },
+                {
+                    "x": 512,
+                    "y": 1391
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:22px'>3.2 MNIST Data</p>",
+            "id": 78,
+            "page": 7,
+            "text": "3.2 MNIST Data"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1419
+                },
+                {
+                    "x": 1960,
+                    "y": 1419
+                },
+                {
+                    "x": 1960,
+                    "y": 1666
+                },
+                {
+                    "x": 512,
+                    "y": 1666
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:18px'>The MNIST database [11] of isolated handwritten digits is a subset of a larger database<br>available from NIST. It consists of size-normalized, centered images, each of which is<br>28 pixels high and 28 pixels wide and contains a single handwritten digit. The data<br>comes divided into a training set with 60,000 images and a test set with 10,000 images.<br>We used 10,000 of the training images for validation, leaving 50,000 for training.</p>",
+            "id": 79,
+            "page": 7,
+            "text": "The MNIST database  of isolated handwritten digits is a subset of a larger database available from NIST. It consists of size-normalized, centered images, each of which is 28 pixels high and 28 pixels wide and contains a single handwritten digit. The data comes divided into a training set with 60,000 images and a test set with 10,000 images. We used 10,000 of the training images for validation, leaving 50,000 for training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 1671
+                },
+                {
+                    "x": 1958,
+                    "y": 1671
+                },
+                {
+                    "x": 1958,
+                    "y": 1763
+                },
+                {
+                    "x": 514,
+                    "y": 1763
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:16px'>The usual task on MNIST is to label the images with the corresponding digits. This<br>is benchmark task for which many algorithms have been evaluated.</p>",
+            "id": 80,
+            "page": 7,
+            "text": "The usual task on MNIST is to label the images with the corresponding digits. This is benchmark task for which many algorithms have been evaluated."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1771
+                },
+                {
+                    "x": 1961,
+                    "y": 1771
+                },
+                {
+                    "x": 1961,
+                    "y": 1965
+                },
+                {
+                    "x": 512,
+                    "y": 1965
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:18px'>We carried out a slightly modified task where each pixel was classified according<br>to the digit it belonged to, with an additional class for background pixels. However,<br>the original task can be recovered by simply choosing the digit whose corresponding<br>output unit had the highest cumulative activation for the entire sequence.</p>",
+            "id": 81,
+            "page": 7,
+            "text": "We carried out a slightly modified task where each pixel was classified according to the digit it belonged to, with an additional class for background pixels. However, the original task can be recovered by simply choosing the digit whose corresponding output unit had the highest cumulative activation for the entire sequence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 1971
+                },
+                {
+                    "x": 1959,
+                    "y": 1971
+                },
+                {
+                    "x": 1959,
+                    "y": 2114
+                },
+                {
+                    "x": 512,
+                    "y": 2114
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:16px'>To test the network's robustness to input warping, we also evaluated it on an altered<br>version of the MNIST test set, where elastic deformations had been applied to every<br>image (Figure 8).</p>",
+            "id": 82,
+            "page": 7,
+            "text": "To test the network's robustness to input warping, we also evaluated it on an altered version of the MNIST test set, where elastic deformations had been applied to every image (Figure 8)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2118
+                },
+                {
+                    "x": 1961,
+                    "y": 2118
+                },
+                {
+                    "x": 1961,
+                    "y": 2313
+                },
+                {
+                    "x": 511,
+                    "y": 2313
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:14px'>We compared our results with the convolution neural network that has achieved<br>the best results so far on MNIST [15]. Note that we re-implemented the convolution<br>network ourselves, and we did not augment the training set with elastic distortions,<br>which gives a substantial improvement in performance.</p>",
+            "id": 83,
+            "page": 7,
+            "text": "We compared our results with the convolution neural network that has achieved the best results so far on MNIST . Note that we re-implemented the convolution network ourselves, and we did not augment the training set with elastic distortions, which gives a substantial improvement in performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2318
+                },
+                {
+                    "x": 1961,
+                    "y": 2318
+                },
+                {
+                    "x": 1961,
+                    "y": 2511
+                },
+                {
+                    "x": 511,
+                    "y": 2511
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:18px'>The MDRNN for this task was identical to that for the Air Freight task with the<br>following exceptions: the sizes of the input and output layers were now 1 (for grayscale<br>pixels) and 11 (one for each digit, plus background) respectively, giving 27,511 weights<br>in total, and the gradient descent learning rate was 10-5</p>",
+            "id": 84,
+            "page": 7,
+            "text": "The MDRNN for this task was identical to that for the Air Freight task with the following exceptions: the sizes of the input and output layers were now 1 (for grayscale pixels) and 11 (one for each digit, plus background) respectively, giving 27,511 weights in total, and the gradient descent learning rate was 10-5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 2518
+                },
+                {
+                    "x": 1960,
+                    "y": 2518
+                },
+                {
+                    "x": 1960,
+                    "y": 2662
+                },
+                {
+                    "x": 510,
+                    "y": 2662
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='85' style='font-size:14px'>For the distorted test set, we used the same degree of elastic deformation used by<br>Simard [15] to augment the training set (o = 4.0, a = 34.0), with a different initial<br>random field for every sample image.</p>",
+            "id": 85,
+            "page": 7,
+            "text": "For the distorted test set, we used the same degree of elastic deformation used by Simard  to augment the training set (o = 4.0, a = 34.0), with a different initial random field for every sample image."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2667
+                },
+                {
+                    "x": 1961,
+                    "y": 2667
+                },
+                {
+                    "x": 1961,
+                    "y": 2815
+                },
+                {
+                    "x": 512,
+                    "y": 2815
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:14px'>Table 1 shows thatlthough the MDRNN performed slightly worse on the clean test<br>set, its performance was considerably better on the warped test set. This suggests that<br>MDRNNs are more robust to input warping than convolution networks.</p>",
+            "id": 86,
+            "page": 7,
+            "text": "Table 1 shows thatlthough the MDRNN performed slightly worse on the clean test set, its performance was considerably better on the warped test set. This suggests that MDRNNs are more robust to input warping than convolution networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3098
+                },
+                {
+                    "x": 1249,
+                    "y": 3098
+                },
+                {
+                    "x": 1249,
+                    "y": 3135
+                },
+                {
+                    "x": 1221,
+                    "y": 3135
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='87' style='font-size:14px'>/</footer>",
+            "id": 87,
+            "page": 7,
+            "text": "/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 503
+                },
+                {
+                    "x": 1962,
+                    "y": 503
+                },
+                {
+                    "x": 1962,
+                    "y": 1268
+                },
+                {
+                    "x": 513,
+                    "y": 1268
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='88' style='font-size:16px' alt=\"hidden layer activations\nLayer 1 Layer 2 Layer 3 Layer 4\nnetwork input network output true segmentation\" data-coord=\"top-left:(513,503); bottom-right:(1962,1268)\" /></figure>",
+            "id": 88,
+            "page": 8,
+            "text": "hidden layer activations Layer 1 Layer 2 Layer 3 Layer 4 network input network output true segmentation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 513,
+                    "y": 1346
+                },
+                {
+                    "x": 1959,
+                    "y": 1346
+                },
+                {
+                    "x": 1959,
+                    "y": 1497
+                },
+                {
+                    "x": 513,
+                    "y": 1497
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='89' style='font-size:20px'>Figure 9: 2D MDRNN applied to an image from the Air Freight database. The hidden<br>layer activations display one unit from each of the layers. A common behaviour is to<br>'mask off' parts of the image, exhibited here by layers 2 and 3.</caption>",
+            "id": 89,
+            "page": 8,
+            "text": "Figure 9: 2D MDRNN applied to an image from the Air Freight database. The hidden layer activations display one unit from each of the layers. A common behaviour is to 'mask off' parts of the image, exhibited here by layers 2 and 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 635,
+                    "y": 1535
+                },
+                {
+                    "x": 1847,
+                    "y": 1535
+                },
+                {
+                    "x": 1847,
+                    "y": 1860
+                },
+                {
+                    "x": 635,
+                    "y": 1860
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='90' style='font-size:14px' alt=\"network input network output Jacobian\" data-coord=\"top-left:(635,1535); bottom-right:(1847,1860)\" /></figure>",
+            "id": 90,
+            "page": 8,
+            "text": "network input network output Jacobian"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 1978
+                },
+                {
+                    "x": 1960,
+                    "y": 1978
+                },
+                {
+                    "x": 1960,
+                    "y": 2229
+                },
+                {
+                    "x": 511,
+                    "y": 2229
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='91' style='font-size:18px'>Figure 10: Jacobian matrix of a 2D RNN for an image from the MNIST database. The<br>white outputs correspond to the class 'background' and the light grey ones to '8' The<br>black outputs represent misclassifications. The output pixel for which the Jacobian is<br>calculated is marked with a cross. Absolute values are plotted for the Jacobian, and<br>lighter colours are used for higher values.</caption>",
+            "id": 91,
+            "page": 8,
+            "text": "Figure 10: Jacobian matrix of a 2D RNN for an image from the MNIST database. The white outputs correspond to the class 'background' and the light grey ones to '8' The black outputs represent misclassifications. The output pixel for which the Jacobian is calculated is marked with a cross. Absolute values are plotted for the Jacobian, and lighter colours are used for higher values."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 512,
+                    "y": 2305
+                },
+                {
+                    "x": 817,
+                    "y": 2305
+                },
+                {
+                    "x": 817,
+                    "y": 2362
+                },
+                {
+                    "x": 512,
+                    "y": 2362
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:22px'>3.3 Analysis</p>",
+            "id": 92,
+            "page": 8,
+            "text": "3.3 Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2390
+                },
+                {
+                    "x": 1960,
+                    "y": 2390
+                },
+                {
+                    "x": 1960,
+                    "y": 2686
+                },
+                {
+                    "x": 511,
+                    "y": 2686
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:20px'>One benefit of two dimensional tasks is that the operation of the network can be easily<br>visualised. Figure 9 shows the network activations during a frames from the Air Freight<br>database. As can be seen, the network segments this image almost perfectly, in spite<br>of difficult, reflective surfaces such as the glass and metal tube running from left to<br>right. Clearly, classifying individual pixels in such a surface requires considerable use<br>of context.</p>",
+            "id": 93,
+            "page": 8,
+            "text": "One benefit of two dimensional tasks is that the operation of the network can be easily visualised. Figure 9 shows the network activations during a frames from the Air Freight database. As can be seen, the network segments this image almost perfectly, in spite of difficult, reflective surfaces such as the glass and metal tube running from left to right. Clearly, classifying individual pixels in such a surface requires considerable use of context."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 2690
+                },
+                {
+                    "x": 1960,
+                    "y": 2690
+                },
+                {
+                    "x": 1960,
+                    "y": 3011
+                },
+                {
+                    "x": 511,
+                    "y": 3011
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:18px'>A precise measure of the network's sensitivity to context can be found by analysing<br>the derivatives of the network outputs at a particular point x in the sequence with re-<br>dox<br>spect to the inputs at all points x' in the sequence. The matrix of these derivatives<br>dinx<br>is referred to as the Jacobian matrix. Figure 10 shows the absolute value of the Jacobian<br>matrix for a single output during classification of an image from the MNIST database.<br>It can be seen that the network responds to context from across the entire image, and</p>",
+            "id": 94,
+            "page": 8,
+            "text": "A precise measure of the network's sensitivity to context can be found by analysing the derivatives of the network outputs at a particular point x in the sequence with redox spect to the inputs at all points x' in the sequence. The matrix of these derivatives dinx is referred to as the Jacobian matrix. Figure 10 shows the absolute value of the Jacobian matrix for a single output during classification of an image from the MNIST database. It can be seen that the network responds to context from across the entire image, and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1221,
+                    "y": 3100
+                },
+                {
+                    "x": 1250,
+                    "y": 3100
+                },
+                {
+                    "x": 1250,
+                    "y": 3136
+                },
+                {
+                    "x": 1221,
+                    "y": 3136
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='95' style='font-size:18px'>8</footer>",
+            "id": 95,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 532
+                },
+                {
+                    "x": 1389,
+                    "y": 532
+                },
+                {
+                    "x": 1389,
+                    "y": 578
+                },
+                {
+                    "x": 514,
+                    "y": 578
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:16px'>seems particularly attuned to the outline of the digit.</p>",
+            "id": 96,
+            "page": 9,
+            "text": "seems particularly attuned to the outline of the digit."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 516,
+                    "y": 657
+                },
+                {
+                    "x": 898,
+                    "y": 657
+                },
+                {
+                    "x": 898,
+                    "y": 716
+                },
+                {
+                    "x": 516,
+                    "y": 716
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:20px'>4 Conclusion</p>",
+            "id": 97,
+            "page": 9,
+            "text": "4 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 511,
+                    "y": 758
+                },
+                {
+                    "x": 1960,
+                    "y": 758
+                },
+                {
+                    "x": 1960,
+                    "y": 1110
+                },
+                {
+                    "x": 511,
+                    "y": 1110
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:16px'>We have introduced multi-dimensional recurrent neural networks (MDRNNs), thereby<br>extending the applicabilty of RNNs to n-dimensional data. We have added multi-<br>directional hidden layers that provide the network with access to all contextual in-<br>formation, and we have developed a multi-dimensional variant of the Long Short-Term<br>Memory RNN architecture. We have tested MDRNNs on two image segmentation<br>tasks, and found that it was more robust to input warping than a state-of-the-art digit<br>recognition algorithm.</p>",
+            "id": 98,
+            "page": 9,
+            "text": "We have introduced multi-dimensional recurrent neural networks (MDRNNs), thereby extending the applicabilty of RNNs to n-dimensional data. We have added multidirectional hidden layers that provide the network with access to all contextual information, and we have developed a multi-dimensional variant of the Long Short-Term Memory RNN architecture. We have tested MDRNNs on two image segmentation tasks, and found that it was more robust to input warping than a state-of-the-art digit recognition algorithm."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 1188
+                },
+                {
+                    "x": 804,
+                    "y": 1188
+                },
+                {
+                    "x": 804,
+                    "y": 1247
+                },
+                {
+                    "x": 514,
+                    "y": 1247
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:22px'>References</p>",
+            "id": 99,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 535,
+                    "y": 1277
+                },
+                {
+                    "x": 1961,
+                    "y": 1277
+                },
+                {
+                    "x": 1961,
+                    "y": 3033
+                },
+                {
+                    "x": 535,
+                    "y": 3033
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>[1] J.S. Bridle. Probabilistic interpretation of feedforward classification network out-<br>puts, with relationships to statistical pattern recognition. In F.Fogleman Soulie<br>and J.Herault, editors, Neurocomputing: Algorithms, Architectures and Applica-<br>tions, pages 227-236. Springer-Verlag, 1990.<br>[2] F. Gers, N. Schraudolph, and J. Schmidhuber. Learning precise timing with<br>LSTM recurrent networks. Journal of Machine Learning Research, 3:115-143,<br>2002.<br>[3] A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber. Connectionist temporal<br>classification: Labelling unsegmented sequence data with recurrent neural net-<br>works. In Proceedings of the International Conference on Machine Learning,<br>ICML 2006, Pittsburgh, USA, 2006.<br>[4] A. Graves, S. Fernandez, and J. Schmidhuber. Bidirectional LSTM networks for<br>improved phoneme classification and recognition. In Proceedings of the 2005<br>International Conference on Artificial Neural Networks, Warsaw, Poland, 2005.<br>[5] A. Graves and J. Schmidhuber. Framewise phoneme classification with bidirec-<br>tional LSTM and other neural network architectures. Neural Networks, 18(5-<br>6):602-610, 2005.<br>[6] S. Hochreiter, Y. Bengio, P. Frasconi, and J. Schmidhuber. Gradient flow in re-<br>current nets: the difficulty of learning long-term dependencies. In S. C. Kremer<br>and J. F. Kolen, editors, A Field Guide to Dynamical Recurrent Neural Networks.<br>IEEE Press, 2001.<br>[7] S. Hochreiter and J. Schmidhuber. Long Short- Term Memory. Neural Computa-<br>tion, 9(8):1735-1780, 1997.<br>[8] F. H�lsken, F. Wallhoff, and G. Rigoll. Facial expression recognition with pseudo-<br>3d hidden markov models. In Proceedings of the 23rd DAGM-Symposium on<br>Pattern Recognition, pages 291-297, London, UK, 2001. Springer-Verlag.<br>[9] J. Jiten, B. Merialdo, and B. Huet. Multi-dimensional dependency-tree hidden<br>Markov models. In ICASSP 2006, 31st IEEE International Conference on Acous-<br>tics, Speech, and Signal Processing, May 14-19, 2006, Toulouse, France, May<br>2006.</p>",
+            "id": 100,
+            "page": 9,
+            "text": " J.S. Bridle. Probabilistic interpretation of feedforward classification network outputs, with relationships to statistical pattern recognition. In F.Fogleman Soulie and J.Herault, editors, Neurocomputing: Algorithms, Architectures and Applications, pages 227-236. Springer-Verlag, 1990.  F. Gers, N. Schraudolph, and J. Schmidhuber. Learning precise timing with LSTM recurrent networks. Journal of Machine Learning Research, 3:115-143, 2002.  A. Graves, S. Fernandez, F. Gomez, and J. Schmidhuber. Connectionist temporal classification: Labelling unsegmented sequence data with recurrent neural networks. In Proceedings of the International Conference on Machine Learning, ICML 2006, Pittsburgh, USA, 2006.  A. Graves, S. Fernandez, and J. Schmidhuber. Bidirectional LSTM networks for improved phoneme classification and recognition. In Proceedings of the 2005 International Conference on Artificial Neural Networks, Warsaw, Poland, 2005.  A. Graves and J. Schmidhuber. Framewise phoneme classification with bidirectional LSTM and other neural network architectures. Neural Networks, 18(56):602-610, 2005.  S. Hochreiter, Y. Bengio, P. Frasconi, and J. Schmidhuber. Gradient flow in recurrent nets: the difficulty of learning long-term dependencies. In S. C. Kremer and J. F. Kolen, editors, A Field Guide to Dynamical Recurrent Neural Networks. IEEE Press, 2001.  S. Hochreiter and J. Schmidhuber. Long Short- Term Memory. Neural Computation, 9(8):1735-1780, 1997.  F. H�lsken, F. Wallhoff, and G. Rigoll. Facial expression recognition with pseudo3d hidden markov models. In Proceedings of the 23rd DAGM-Symposium on Pattern Recognition, pages 291-297, London, UK, 2001. Springer-Verlag.  J. Jiten, B. Merialdo, and B. Huet. Multi-dimensional dependency-tree hidden Markov models. In ICASSP 2006, 31st IEEE International Conference on Acoustics, Speech, and Signal Processing, May 14-19, 2006, Toulouse, France, May 2006."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1223,
+                    "y": 3099
+                },
+                {
+                    "x": 1249,
+                    "y": 3099
+                },
+                {
+                    "x": 1249,
+                    "y": 3132
+                },
+                {
+                    "x": 1223,
+                    "y": 3132
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='101' style='font-size:14px'>9</footer>",
+            "id": 101,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 510,
+                    "y": 523
+                },
+                {
+                    "x": 1965,
+                    "y": 523
+                },
+                {
+                    "x": 1965,
+                    "y": 1837
+                },
+                {
+                    "x": 510,
+                    "y": 1837
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:18px'>[10] D. Joshi, J. Li, and J.Z. Wang. Parameter estimation of multi-dimensional hidden<br>markov models: A scalable approach. pages III: 149-152, 2005.<br>[11] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied<br>to document recognition. Proceedings of the IEEE, 86(11):2278-2324, Novem-<br>ber 1998.<br>[12] J. (Stanford Univ) Li, A. Najmi, and R. M. Gray. Image classification by a two-<br>dimensional hidden markov model. IEEE Transactions on Signal Processing,<br>48(2):517-533, 2000.<br>[13] M. Liwicki, A. Graves, H. Bunke, and J. Schmidhuber. A novel approach to<br>on-line handwriting recognition based on bidirectional long short-term memory<br>networks. In Proceedings of the 9th International Conference on Document Anal-<br>ysis and Recognition, ICDAR 2007, Curitiba, Brazil, 2007.<br>[14] M. Schuster and K. K. Paliwal. Bidirectional recurrent neural networks. IEEE<br>Transactions on Signal Processing, 45:2673-2681, November 1997.<br>[15] P. Y. Simard, D. Steinkraus, andJ. C. Platt. Best practices for convolutional neural<br>networks applied to visual document analysis. In ICDAR '03: Proceedings of the<br>Seventh International Conference on Document Analysis and Recognition, page<br>958, Washington, DC, USA, 2003. IEEE Computer Society.<br>[16] R. J. Williams and D. Zipser. Gradient-based learning algorithms for recurrent<br>networks and their computational complexity. In Y. Chauvin and D. E. Rumelhart,<br>editors, Back-propagation: Theory, Architectures and Applications, pages 433-<br>486. Lawrence Erlbaum Publishers, Hillsdale, N.J., 1995.</p>",
+            "id": 102,
+            "page": 10,
+            "text": " D. Joshi, J. Li, and J.Z. Wang. Parameter estimation of multi-dimensional hidden markov models: A scalable approach. pages III: 149-152, 2005.  Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278-2324, November 1998.  J. (Stanford Univ) Li, A. Najmi, and R. M. Gray. Image classification by a twodimensional hidden markov model. IEEE Transactions on Signal Processing, 48(2):517-533, 2000.  M. Liwicki, A. Graves, H. Bunke, and J. Schmidhuber. A novel approach to on-line handwriting recognition based on bidirectional long short-term memory networks. In Proceedings of the 9th International Conference on Document Analysis and Recognition, ICDAR 2007, Curitiba, Brazil, 2007.  M. Schuster and K. K. Paliwal. Bidirectional recurrent neural networks. IEEE Transactions on Signal Processing, 45:2673-2681, November 1997.  P. Y. Simard, D. Steinkraus, andJ. C. Platt. Best practices for convolutional neural networks applied to visual document analysis. In ICDAR '03: Proceedings of the Seventh International Conference on Document Analysis and Recognition, page 958, Washington, DC, USA, 2003. IEEE Computer Society.  R. J. Williams and D. Zipser. Gradient-based learning algorithms for recurrent networks and their computational complexity. In Y. Chauvin and D. E. Rumelhart, editors, Back-propagation: Theory, Architectures and Applications, pages 433486. Lawrence Erlbaum Publishers, Hillsdale, N.J., 1995."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1213,
+                    "y": 3095
+                },
+                {
+                    "x": 1261,
+                    "y": 3095
+                },
+                {
+                    "x": 1261,
+                    "y": 3138
+                },
+                {
+                    "x": 1213,
+                    "y": 3138
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='103' style='font-size:14px'>10</footer>",
+            "id": 103,
+            "page": 10,
+            "text": "10"
+        }
+    ]
+}

@@ -1,0 +1,3406 @@
+{
+  "id": "62a2f87e-0f92-11ef-8230-426932df3dcf",
+  "pdf_path": "./pdf/AI_VIT_O/2103.11886v4.pdf",
+  "elements": [
+    {
+      "bounding_box": [
+        {
+          "x": 634,
+          "y": 435
+        },
+        {
+          "x": 1842,
+          "y": 435
+        },
+        {
+          "x": 1842,
+          "y": 505
+        },
+        {
+          "x": 634,
+          "y": 505
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='0' style='font-size:22px'>Deep ViT: Towards Deeper Vision Transformer</p>",
+      "id": 0,
+      "page": 1,
+      "text": "Deep ViT: Towards Deeper Vision Transformer"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 638,
+          "y": 596
+        },
+        {
+          "x": 1854,
+          "y": 596
+        },
+        {
+          "x": 1854,
+          "y": 776
+        },
+        {
+          "x": 638,
+          "y": 776
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='1' style='font-size:22px'>Daquan Zhou1 , Bingyi Kang1 Xiaojie Jin2, Linjie Yang2,<br>Xiaochen Lian2, Zihang Jiang1 , Qibin Hou1 , Jiashi Feng1<br>1National University of Singapore, 2ByteDance US AI Lab</p>",
+      "id": 1,
+      "page": 1,
+      "text": "Daquan Zhou1 , Bingyi Kang1 Xiaojie Jin2, Linjie Yang2,\nXiaochen Lian2, Zihang Jiang1 , Qibin Hou1 , Jiashi Feng1\n1National University of Singapore, 2ByteDance US AI Lab"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 789
+        },
+        {
+          "x": 2036,
+          "y": 789
+        },
+        {
+          "x": 2036,
+          "y": 832
+        },
+        {
+          "x": 444,
+          "y": 832
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='2' style='font-size:18px'>{zhoudaquan21, xjjin0731, lianxiaochen, yljatthu, andrewhoux}@ gmail · com</p>",
+      "id": 2,
+      "page": 1,
+      "text": "{zhoudaquan21, xjjin0731, lianxiaochen, yljatthu, andrewhoux}@ gmail · com"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 869,
+          "y": 849
+        },
+        {
+          "x": 1613,
+          "y": 849
+        },
+        {
+          "x": 1613,
+          "y": 889
+        },
+        {
+          "x": 869,
+          "y": 889
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='3' style='font-size:14px'>jzihang, kang, elefjia@nus · edu · sg</p>",
+      "id": 3,
+      "page": 1,
+      "text": "jzihang, kang, elefjia@nus · edu · sg"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 602,
+          "y": 1006
+        },
+        {
+          "x": 800,
+          "y": 1006
+        },
+        {
+          "x": 800,
+          "y": 1062
+        },
+        {
+          "x": 602,
+          "y": 1062
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='4' style='font-size:20px'>Abstract</p>",
+      "id": 4,
+      "page": 1,
+      "text": "Abstract"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 1110
+        },
+        {
+          "x": 1199,
+          "y": 1110
+        },
+        {
+          "x": 1199,
+          "y": 2360
+        },
+        {
+          "x": 199,
+          "y": 2360
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='5' style='font-size:18px'>Vision transformers (ViTs) have been successfully ap-<br>plied in image classification tasks recently. In this paper,<br>we show that, unlike convolution neural networks (CNNs)<br>that can be improved by stacking more convolutional lay-<br>ers, the performance of ViTs saturate fast when scaled to<br>be deeper. More specifically, we empirically observe that<br>such scaling difficulty is caused by the attention collapse<br>issue: as the transformer goes deeper, the attention maps<br>gradually become similar and even much the same after<br>certain layers. In other words, the feature maps tend to<br>be identical in the top layers of deep ViT models. This<br>fact demonstrates that in deeper layers of ViTs, the self-<br>attention mechanism fails to learn effective concepts for<br>representation learning and hinders the model from get-<br>ting expected performance gain. Based on above obser-<br>vation, we propose a simple yet effective method, named<br>Re-attention, to re-generate the attention maps to increase<br>their diversity at different layers with negligible computa-<br>tion and memory cost. The proposed method makes it feasi-<br>ble to train deeper ViT models with consistent performance<br>improvements via minor modification to existing ViT mod-<br>els. Notably, when training a deep ViT model with 32 trans-<br>former blocks, the Top-1 classification accuracy can be im-<br>proved by 1.6% on ImageNet. Code is publicly available at<br>https : //github · com/ zhoudaquan/ dvit_repo.</p>",
+      "id": 5,
+      "page": 1,
+      "text": "Vision transformers (ViTs) have been successfully ap-\nplied in image classification tasks recently. In this paper,\nwe show that, unlike convolution neural networks (CNNs)\nthat can be improved by stacking more convolutional lay-\ners, the performance of ViTs saturate fast when scaled to\nbe deeper. More specifically, we empirically observe that\nsuch scaling difficulty is caused by the attention collapse\nissue: as the transformer goes deeper, the attention maps\ngradually become similar and even much the same after\ncertain layers. In other words, the feature maps tend to\nbe identical in the top layers of deep ViT models. This\nfact demonstrates that in deeper layers of ViTs, the self-\nattention mechanism fails to learn effective concepts for\nrepresentation learning and hinders the model from get-\nting expected performance gain. Based on above obser-\nvation, we propose a simple yet effective method, named\nRe-attention, to re-generate the attention maps to increase\ntheir diversity at different layers with negligible computa-\ntion and memory cost. The proposed method makes it feasi-\nble to train deeper ViT models with consistent performance\nimprovements via minor modification to existing ViT mod-\nels. Notably, when training a deep ViT model with 32 trans-\nformer blocks, the Top-1 classification accuracy can be im-\nproved by 1.6% on ImageNet. Code is publicly available at\nhttps : //github · com/ zhoudaquan/ dvit_repo."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 2442
+        },
+        {
+          "x": 533,
+          "y": 2442
+        },
+        {
+          "x": 533,
+          "y": 2496
+        },
+        {
+          "x": 203,
+          "y": 2496
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='6' style='font-size:20px'>1. Introduction</p>",
+      "id": 6,
+      "page": 1,
+      "text": "1. Introduction"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 2527
+        },
+        {
+          "x": 1200,
+          "y": 2527
+        },
+        {
+          "x": 1200,
+          "y": 2977
+        },
+        {
+          "x": 203,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='7' style='font-size:18px'>Recent studies [7, 37] have demonstrated that transform-<br>ers [38] can be successfully applied to vision tasks [18] with<br>competitive performance compared with convolutional neu-<br>ral networks (CNNs) [9, 35]. Different from CNNs that<br>aggregate global information by stacking multiple convo-<br>lutions (e.g., 3 x 3) [9, 10], vision transformers (ViTs)<br>[7] take advantages of the self-attention (SA) mechanism<br>[38] to capture spatial patterns and non-local dependen-<br>cies. This allows ViTs to aggregate rich global information</p>",
+      "id": 7,
+      "page": 1,
+      "text": "Recent studies [7, 37] have demonstrated that transform-\ners [38] can be successfully applied to vision tasks [18] with\ncompetitive performance compared with convolutional neu-\nral networks (CNNs) [9, 35]. Different from CNNs that\naggregate global information by stacking multiple convo-\nlutions (e.g., 3 x 3) [9, 10], vision transformers (ViTs)\n[7] take advantages of the self-attention (SA) mechanism\n[38] to capture spatial patterns and non-local dependen-\ncies. This allows ViTs to aggregate rich global information"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1557,
+          "y": 1002
+        },
+        {
+          "x": 2009,
+          "y": 1002
+        },
+        {
+          "x": 2009,
+          "y": 1051
+        },
+        {
+          "x": 1557,
+          "y": 1051
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='8' style='font-size:16px'>Top-1 Accuracy on ImageNet</caption>",
+      "id": 8,
+      "page": 1,
+      "text": "Top-1 Accuracy on ImageNet"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1298,
+          "y": 1053
+        },
+        {
+          "x": 2264,
+          "y": 1053
+        },
+        {
+          "x": 2264,
+          "y": 1732
+        },
+        {
+          "x": 1298,
+          "y": 1732
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='9' style='font-size:14px' alt=\"81.5\n80.9\n81 DeepViT\nViT[7]\n80.5 80.1\n(%)\nAccuracy 80\n79.5 79.1\n79 79.4\n79.3\nTop-1\n78.5 78.9\n77.9\n78\n77.5\n77.6\n77\n12 16 20 24 28 32\n#Transformer blocks\" data-coord=\"top-left:(1298,1053); bottom-right:(2264,1732)\" /></figure>",
+      "id": 9,
+      "page": 1,
+      "text": "81.5\n80.9\n81 DeepViT\nViT[7]\n80.5 80.1\n(%)\nAccuracy 80\n79.5 79.1\n79 79.4\n79.3\nTop-1\n78.5 78.9\n77.9\n78\n77.5\n77.6\n77\n12 16 20 24 28 32\n#Transformer blocks"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1763
+        },
+        {
+          "x": 2278,
+          "y": 1763
+        },
+        {
+          "x": 2278,
+          "y": 2087
+        },
+        {
+          "x": 1278,
+          "y": 2087
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='10' style='font-size:16px'>Figure 1: Top-1 classification performance of vision transform-<br>ers (ViTs) [7] on ImageNet with different network depth {12, 16,<br>24, 32}. Directly scaling the depth of ViT by stacking more trans-<br>former blocks cannot monotonically increase the performance. In-<br>stead, the model performance saturates when going deeper. In con-<br>trast, with the proposed Re-attention, our Deep ViT model success-<br>fully achieves better performance when it goes deeper.</caption>",
+      "id": 10,
+      "page": 1,
+      "text": "Figure 1: Top-1 classification performance of vision transform-\ners (ViTs) [7] on ImageNet with different network depth {12, 16,\n24, 32}. Directly scaling the depth of ViT by stacking more trans-\nformer blocks cannot monotonically increase the performance. In-\nstead, the model performance saturates when going deeper. In con-\ntrast, with the proposed Re-attention, our Deep ViT model success-\nfully achieves better performance when it goes deeper."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2176
+        },
+        {
+          "x": 2277,
+          "y": 2176
+        },
+        {
+          "x": 2277,
+          "y": 2473
+        },
+        {
+          "x": 1279,
+          "y": 2473
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='11' style='font-size:16px'>without handcrafting layer-wise local feature extractions as<br>CNNs and thus achieves better performance. For example,<br>as shown in [37], a 12-block ViT model with 22M learn-<br>able parameters achieves better results than the ResNet-101<br>model which has more than 30 bottleneck convolutional<br>blocks in ImageNet classification.</p>",
+      "id": 11,
+      "page": 1,
+      "text": "without handcrafting layer-wise local feature extractions as\nCNNs and thus achieves better performance. For example,\nas shown in [37], a 12-block ViT model with 22M learn-\nable parameters achieves better results than the ResNet-101\nmodel which has more than 30 bottleneck convolutional\nblocks in ImageNet classification."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2477
+        },
+        {
+          "x": 2277,
+          "y": 2477
+        },
+        {
+          "x": 2277,
+          "y": 2926
+        },
+        {
+          "x": 1280,
+          "y": 2926
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='12' style='font-size:18px'>The recent progress of deep CNN models is largely<br>driven by training very deep models with a large number<br>of layers which is enabled by novel model architecture de-<br>signs [9, 41, 31, 20, 47]. This is because a deeper CNN can<br>learn richer and more complex representations for the in-<br>put images and provide better performance on vision tasks<br>[1, 45, 29]. Thus, how to effectively scale CNNs to be<br>deeper is an important theme in recent deep learning fields,<br>which stimulates the techniques like residual learning [9].</p>",
+      "id": 12,
+      "page": 1,
+      "text": "The recent progress of deep CNN models is largely\ndriven by training very deep models with a large number\nof layers which is enabled by novel model architecture de-\nsigns [9, 41, 31, 20, 47]. This is because a deeper CNN can\nlearn richer and more complex representations for the in-\nput images and provide better performance on vision tasks\n[1, 45, 29]. Thus, how to effectively scale CNNs to be\ndeeper is an important theme in recent deep learning fields,\nwhich stimulates the techniques like residual learning [9]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1330,
+          "y": 2927
+        },
+        {
+          "x": 2276,
+          "y": 2927
+        },
+        {
+          "x": 2276,
+          "y": 2977
+        },
+        {
+          "x": 1330,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='13' style='font-size:18px'>Considering the remarkable performance of shallow</p>",
+      "id": 13,
+      "page": 1,
+      "text": "Considering the remarkable performance of shallow"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 59,
+          "y": 878
+        },
+        {
+          "x": 150,
+          "y": 878
+        },
+        {
+          "x": 150,
+          "y": 2338
+        },
+        {
+          "x": 59,
+          "y": 2338
+        }
+      ],
+      "category": "footer",
+      "html": "<br><footer id='14' style='font-size:14px'>2021<br>Apr<br>19<br>[cs.CV]<br>arXiv:2103.11886v4</footer>",
+      "id": 14,
+      "page": 1,
+      "text": "2021\nApr\n19\n[cs.CV]\narXiv:2103.11886v4"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 303
+        },
+        {
+          "x": 1201,
+          "y": 303
+        },
+        {
+          "x": 1201,
+          "y": 652
+        },
+        {
+          "x": 199,
+          "y": 652
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='15' style='font-size:16px'>ViTs, a natural question arises: can we further improve<br>performance of ViTs by making it deeper, just like CNNs?<br>Though it seems to be straightforward at the first glance,<br>the answer may not be trivial since ViT is essentially dif-<br>ferent from CNNs in its heavy reliance on the self-attention<br>mechanism. To settle the question, we investigate in detail<br>the scalability of ViTs along depth in this work.</p>",
+      "id": 15,
+      "page": 2,
+      "text": "ViTs, a natural question arises: can we further improve\nperformance of ViTs by making it deeper, just like CNNs?\nThough it seems to be straightforward at the first glance,\nthe answer may not be trivial since ViT is essentially dif-\nferent from CNNs in its heavy reliance on the self-attention\nmechanism. To settle the question, we investigate in detail\nthe scalability of ViTs along depth in this work."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 657
+        },
+        {
+          "x": 1199,
+          "y": 657
+        },
+        {
+          "x": 1199,
+          "y": 1601
+        },
+        {
+          "x": 199,
+          "y": 1601
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='16' style='font-size:16px'>We start with a pilot study on ImageNet to investigate<br>how the performance of ViT changes with increased model<br>depth. In Fig. 1, we show the performance of ViTs [7] with<br>different block numbers (green line), ranging from 12 to 32.<br>As shown, as the number of transformer blocks increases,<br>the model performance does not improve accordingly. To<br>our surprise, the ViT model with 32 transformer blocks per-<br>forms even worse than the one with 24 blocks. This means<br>that directly stacking more transformer blocks as performed<br>in CNNs [9] is inefficient at enhancing ViT models. We<br>then dig into the cause of this phenomenon. We empirically<br>observed that as the depth of ViTs increases, the attention<br>maps, used for aggregating the features for each transformer<br>block, tend to be overly similar after certain layers, which<br>makes the representations stop evolving after certain layers.<br>We name this specific issue as attention collapse. This in-<br>dicates that as the ViT goes deeper, the self-attention mech-<br>anism becomes less effective for generating diverse atten-<br>tions to capture rich representations.</p>",
+      "id": 16,
+      "page": 2,
+      "text": "We start with a pilot study on ImageNet to investigate\nhow the performance of ViT changes with increased model\ndepth. In Fig. 1, we show the performance of ViTs [7] with\ndifferent block numbers (green line), ranging from 12 to 32.\nAs shown, as the number of transformer blocks increases,\nthe model performance does not improve accordingly. To\nour surprise, the ViT model with 32 transformer blocks per-\nforms even worse than the one with 24 blocks. This means\nthat directly stacking more transformer blocks as performed\nin CNNs [9] is inefficient at enhancing ViT models. We\nthen dig into the cause of this phenomenon. We empirically\nobserved that as the depth of ViTs increases, the attention\nmaps, used for aggregating the features for each transformer\nblock, tend to be overly similar after certain layers, which\nmakes the representations stop evolving after certain layers.\nWe name this specific issue as attention collapse. This in-\ndicates that as the ViT goes deeper, the self-attention mech-\nanism becomes less effective for generating diverse atten-\ntions to capture rich representations."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1604
+        },
+        {
+          "x": 1199,
+          "y": 1604
+        },
+        {
+          "x": 1199,
+          "y": 2299
+        },
+        {
+          "x": 200,
+          "y": 2299
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='17' style='font-size:16px'>To resolve the attention collapse issue and effectively<br>scale the vision transformer to be deeper, We present a sim-<br>ple yet effective self-attention mechanism, named as Re-<br>attention. Our Re-attention takes advantage of the multi-<br>head self-attention(MHSA) structure and regenerates atten-<br>tion maps by exchanging the information from different at-<br>tention heads in a learnable manner. Experiments show that,<br>Without any extra augmentation and regularization poli-<br>cies, simply replacing the MHSA module in ViTs with Re-<br>attention allows us to train very deep vision transformers<br>with even 32 transformer blocks with consistent improve-<br>ments as shown in Fig. 1. In addition, we also provide ab-<br>lation analysis to help better understand of the role of Re-<br>attention in scaling vision transformers.</p>",
+      "id": 17,
+      "page": 2,
+      "text": "To resolve the attention collapse issue and effectively\nscale the vision transformer to be deeper, We present a sim-\nple yet effective self-attention mechanism, named as Re-\nattention. Our Re-attention takes advantage of the multi-\nhead self-attention(MHSA) structure and regenerates atten-\ntion maps by exchanging the information from different at-\ntention heads in a learnable manner. Experiments show that,\nWithout any extra augmentation and regularization poli-\ncies, simply replacing the MHSA module in ViTs with Re-\nattention allows us to train very deep vision transformers\nwith even 32 transformer blocks with consistent improve-\nments as shown in Fig. 1. In addition, we also provide ab-\nlation analysis to help better understand of the role of Re-\nattention in scaling vision transformers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 253,
+          "y": 2303
+        },
+        {
+          "x": 994,
+          "y": 2303
+        },
+        {
+          "x": 994,
+          "y": 2350
+        },
+        {
+          "x": 253,
+          "y": 2350
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='18' style='font-size:14px'>To sum up, our contributions are as follows:</p>",
+      "id": 18,
+      "page": 2,
+      "text": "To sum up, our contributions are as follows:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 244,
+          "y": 2388
+        },
+        {
+          "x": 1199,
+          "y": 2388
+        },
+        {
+          "x": 1199,
+          "y": 2978
+        },
+        {
+          "x": 244,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='19' style='font-size:14px'>· We deeply study the behaviour of vision transformers<br>and observe that they cannot continuously benefit from<br>stacking more layers as CNNs. We further identify<br>the underlying reasons behind such a counter-intuitive<br>phenomenon and conclude it as attention collapse for<br>the first time.<br>· We present Re-attention, a simple yet effective atten-<br>tion mechanism that considers information exchange<br>among different attention heads.<br>● To the best of our knowledge, we are the first to suc-<br>cessfully train a 32-block ViT on ImageNet-1k from</p>",
+      "id": 19,
+      "page": 2,
+      "text": "· We deeply study the behaviour of vision transformers\nand observe that they cannot continuously benefit from\nstacking more layers as CNNs. We further identify\nthe underlying reasons behind such a counter-intuitive\nphenomenon and conclude it as attention collapse for\nthe first time.\n· We present Re-attention, a simple yet effective atten-\ntion mechanism that considers information exchange\namong different attention heads.\n● To the best of our knowledge, we are the first to suc-\ncessfully train a 32-block ViT on ImageNet-1k from"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1362,
+          "y": 306
+        },
+        {
+          "x": 2280,
+          "y": 306
+        },
+        {
+          "x": 2280,
+          "y": 555
+        },
+        {
+          "x": 1362,
+          "y": 555
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='20' style='font-size:16px'>scratch with consistent performance improvement. We<br>show that by replacing the self-attention module with<br>our Re-attention, new state-of-the-art results can be<br>achieved on the ImageNet-1k dataset without any pre-<br>training on larger datasets.</p>",
+      "id": 20,
+      "page": 2,
+      "text": "scratch with consistent performance improvement. We\nshow that by replacing the self-attention module with\nour Re-attention, new state-of-the-art results can be\nachieved on the ImageNet-1k dataset without any pre-\ntraining on larger datasets."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 605
+        },
+        {
+          "x": 1636,
+          "y": 605
+        },
+        {
+          "x": 1636,
+          "y": 654
+        },
+        {
+          "x": 1281,
+          "y": 654
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='21' style='font-size:20px'>2. Related Work</p>",
+      "id": 21,
+      "page": 2,
+      "text": "2. Related Work"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 688
+        },
+        {
+          "x": 1962,
+          "y": 688
+        },
+        {
+          "x": 1962,
+          "y": 737
+        },
+        {
+          "x": 1280,
+          "y": 737
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='22' style='font-size:20px'>2.1. Transformers for Vision Tasks</p>",
+      "id": 22,
+      "page": 2,
+      "text": "2.1. Transformers for Vision Tasks"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 767
+        },
+        {
+          "x": 2279,
+          "y": 767
+        },
+        {
+          "x": 2279,
+          "y": 2115
+        },
+        {
+          "x": 1276,
+          "y": 2115
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='23' style='font-size:16px'>Transformers [38] are initially used for machine transla-<br>tion which replace the recurrence and convolutions entirely<br>with self-attention mechanisms [28, 14, 48, 1 1 , 39, 17] and<br>achieve outstanding performance. Later, transformers be-<br>come the dominant models for various natural language pro-<br>cessing (NLP) tasks [2, 26, 6, 21]. Motivated by their suc-<br>cess on the NLP tasks, recent researchers attempted to com-<br>bine the self-attention mechanism into CNNs for computer<br>vision tasks [40, 3, 4, 32, 24, 50, 49].. Those achievements<br>also stimulate interests of the community in building purely<br>transformer-based models (without convolutions and induc-<br>tive bias) for vision tasks. The vision transformer (ViT) [7]<br>is among the first attempt that uses the pure transformer ar-<br>chitecture to achieve competitive performance with CNNs<br>on the image classification task. However, due to the large<br>model complexity, ViT needs to be pre-trained on larger-<br>scale datasets (e.g., JFT300M) for performing well on the<br>ImageNet-1k dataset. To solve the data efficiency issue,<br>DeiT [37] deploys knowledge distillation to train the model<br>with a larger pre-trained teacher model. In this manner, vi-<br>sion transformer can perform well on ImageNet-1k without<br>the need of pre-training on larger dataset. Differently, in this<br>work, we target at a different problem with ViT, i.e., how to<br>effectively scale ViT to be deeper. We propose a new de-<br>sign for the self-attention mechanism SO that it can perform<br>well on vision tasks without the need of extra data, teacher<br>networks, and the domain specific inductive bias.</p>",
+      "id": 23,
+      "page": 2,
+      "text": "Transformers [38] are initially used for machine transla-\ntion which replace the recurrence and convolutions entirely\nwith self-attention mechanisms [28, 14, 48, 1 1 , 39, 17] and\nachieve outstanding performance. Later, transformers be-\ncome the dominant models for various natural language pro-\ncessing (NLP) tasks [2, 26, 6, 21]. Motivated by their suc-\ncess on the NLP tasks, recent researchers attempted to com-\nbine the self-attention mechanism into CNNs for computer\nvision tasks [40, 3, 4, 32, 24, 50, 49].. Those achievements\nalso stimulate interests of the community in building purely\ntransformer-based models (without convolutions and induc-\ntive bias) for vision tasks. The vision transformer (ViT) [7]\nis among the first attempt that uses the pure transformer ar-\nchitecture to achieve competitive performance with CNNs\non the image classification task. However, due to the large\nmodel complexity, ViT needs to be pre-trained on larger-\nscale datasets (e.g., JFT300M) for performing well on the\nImageNet-1k dataset. To solve the data efficiency issue,\nDeiT [37] deploys knowledge distillation to train the model\nwith a larger pre-trained teacher model. In this manner, vi-\nsion transformer can perform well on ImageNet-1k without\nthe need of pre-training on larger dataset. Differently, in this\nwork, we target at a different problem with ViT, i.e., how to\neffectively scale ViT to be deeper. We propose a new de-\nsign for the self-attention mechanism SO that it can perform\nwell on vision tasks without the need of extra data, teacher\nnetworks, and the domain specific inductive bias."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2149
+        },
+        {
+          "x": 1821,
+          "y": 2149
+        },
+        {
+          "x": 1821,
+          "y": 2201
+        },
+        {
+          "x": 1280,
+          "y": 2201
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='24' style='font-size:22px'>2.2. Depth Scaling of CNNs</p>",
+      "id": 24,
+      "page": 2,
+      "text": "2.2. Depth Scaling of CNNs"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 2228
+        },
+        {
+          "x": 2278,
+          "y": 2228
+        },
+        {
+          "x": 2278,
+          "y": 2980
+        },
+        {
+          "x": 1276,
+          "y": 2980
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='25' style='font-size:18px'>Increasing the network depth of a CNN model is deemed<br>to be an effective way to improve the model performance<br>[30, 33, 34, 10, 15]. However, very deep CNNs are gener-<br>ally harder to train to perform significantly better than the<br>shallow ones in the past [8, 44]. How to effectively scale<br>up the CNNs in depth was a long-standing and challeng-<br>ing problem [16]. The recent progress of CNNs largely<br>benefits from novel architecture design strategies that make<br>training deep CNNs more effective [9, 35, 13, 12, 36, 52].<br>Transformer-alike models have modularized architectures<br>and thus can be easily made deeper by repeating the basic<br>transformer blocks or using larger embedding dimensions<br>[2, 19]. However, those straightforward scaling strategies<br>only work well with larger datasets and stronger augmen-<br>tation policies [51, 46, 43] to alleviate the brought training</p>",
+      "id": 25,
+      "page": 2,
+      "text": "Increasing the network depth of a CNN model is deemed\nto be an effective way to improve the model performance\n[30, 33, 34, 10, 15]. However, very deep CNNs are gener-\nally harder to train to perform significantly better than the\nshallow ones in the past [8, 44]. How to effectively scale\nup the CNNs in depth was a long-standing and challeng-\ning problem [16]. The recent progress of CNNs largely\nbenefits from novel architecture design strategies that make\ntraining deep CNNs more effective [9, 35, 13, 12, 36, 52].\nTransformer-alike models have modularized architectures\nand thus can be easily made deeper by repeating the basic\ntransformer blocks or using larger embedding dimensions\n[2, 19]. However, those straightforward scaling strategies\nonly work well with larger datasets and stronger augmen-\ntation policies [51, 46, 43] to alleviate the brought training"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 206,
+          "y": 283
+        },
+        {
+          "x": 1199,
+          "y": 283
+        },
+        {
+          "x": 1199,
+          "y": 1155
+        },
+        {
+          "x": 206,
+          "y": 1155
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='26' alt=\"Linear + Loss Linear + Loss\nxN xN\nself-attention\nAdd Add\nRe-attention\nFeed Foward Feed Foward\nNorm Norm\nwith\nAdd with\nAdd\nblock\nSelf-Attention block\nRe-Attention\nTransformer\nTransformer\nNorm Norm\nPos. Embed Pos. Embed\nPatch Embed Patch Embed\nInput Input\n(a) (b)\" data-coord=\"top-left:(206,283); bottom-right:(1199,1155)\" /></figure>",
+      "id": 26,
+      "page": 3,
+      "text": "Linear + Loss Linear + Loss\nxN xN\nself-attention\nAdd Add\nRe-attention\nFeed Foward Feed Foward\nNorm Norm\nwith\nAdd with\nAdd\nblock\nSelf-Attention block\nRe-Attention\nTransformer\nTransformer\nNorm Norm\nPos. Embed Pos. Embed\nPatch Embed Patch Embed\nInput Input\n(a) (b)"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1183
+        },
+        {
+          "x": 1201,
+          "y": 1183
+        },
+        {
+          "x": 1201,
+          "y": 1460
+        },
+        {
+          "x": 200,
+          "y": 1460
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='27' style='font-size:14px'>Figure 2: Comparison between the (a) original ViT with N trans-<br>former blocks and (b) our proposed Deep ViT model. Different<br>from ViT, DeepViT replaces the self-attention layer within the<br>transformer block with the proposed Re-attention which effec-<br>tively addresses the attention collapse issue and enables training<br>deeper ViTs. More details are given in Sec. 4.2.</caption>",
+      "id": 27,
+      "page": 3,
+      "text": "Figure 2: Comparison between the (a) original ViT with N trans-\nformer blocks and (b) our proposed Deep ViT model. Different\nfrom ViT, DeepViT replaces the self-attention layer within the\ntransformer block with the proposed Re-attention which effec-\ntively addresses the attention collapse issue and enables training\ndeeper ViTs. More details are given in Sec. 4.2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1546
+        },
+        {
+          "x": 1200,
+          "y": 1546
+        },
+        {
+          "x": 1200,
+          "y": 1795
+        },
+        {
+          "x": 201,
+          "y": 1795
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='28' style='font-size:16px'>difficulties. In this paper, we observed that with the same<br>dataset, the performance of vision transformers do saturate<br>as the network depth rises. We rethink the self-attention<br>mechanism and present a simple but effective approach to<br>address the difficulties in scaling vision transformers.</p>",
+      "id": 28,
+      "page": 3,
+      "text": "difficulties. In this paper, we observed that with the same\ndataset, the performance of vision transformers do saturate\nas the network depth rises. We rethink the self-attention\nmechanism and present a simple but effective approach to\naddress the difficulties in scaling vision transformers."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 1838
+        },
+        {
+          "x": 904,
+          "y": 1838
+        },
+        {
+          "x": 904,
+          "y": 1892
+        },
+        {
+          "x": 203,
+          "y": 1892
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='29' style='font-size:22px'>3. Revisiting Vision Transformer</p>",
+      "id": 29,
+      "page": 3,
+      "text": "3. Revisiting Vision Transformer"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1921
+        },
+        {
+          "x": 1201,
+          "y": 1921
+        },
+        {
+          "x": 1201,
+          "y": 2420
+        },
+        {
+          "x": 201,
+          "y": 2420
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='30' style='font-size:18px'>A vision transformer (ViT) model [37, 7], as depicted<br>in Fig. 2(a), is composed of three main components: a<br>linear layer for patch embedding (i.e., mapping the high-<br>resolution input image to a low-resolution feature map), a<br>stack of transformer blocks with multi-head self-attention<br>and feed-forward layers for feature encoding, and a linear<br>layer for classification score prediction. In this section, we<br>first review its unique transformer blocks, in particular the<br>self-attention mechanism, and then we provide studies on<br>the collapse problem of self-attention.</p>",
+      "id": 30,
+      "page": 3,
+      "text": "A vision transformer (ViT) model [37, 7], as depicted\nin Fig. 2(a), is composed of three main components: a\nlinear layer for patch embedding (i.e., mapping the high-\nresolution input image to a low-resolution feature map), a\nstack of transformer blocks with multi-head self-attention\nand feed-forward layers for feature encoding, and a linear\nlayer for classification score prediction. In this section, we\nfirst review its unique transformer blocks, in particular the\nself-attention mechanism, and then we provide studies on\nthe collapse problem of self-attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2450
+        },
+        {
+          "x": 805,
+          "y": 2450
+        },
+        {
+          "x": 805,
+          "y": 2501
+        },
+        {
+          "x": 202,
+          "y": 2501
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='31' style='font-size:18px'>3.1. Multi-Head Self-Attention</p>",
+      "id": 31,
+      "page": 3,
+      "text": "3.1. Multi-Head Self-Attention"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2529
+        },
+        {
+          "x": 1201,
+          "y": 2529
+        },
+        {
+          "x": 1201,
+          "y": 2923
+        },
+        {
+          "x": 201,
+          "y": 2923
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='32' style='font-size:18px'>Transformers [38] were extensively used in natural lan-<br>guage for encoding a sequence of input word tokens into a<br>sequence of embeddings. To comply with such sequence-<br>to-sequence learning structure when processing images,<br>ViTs first divide an input image into multiple patches uni-<br>formly and encode each patch into a token embedding.<br>Then, all these tokens, together with a class token, are fed<br>into a stack of transformer blocks.</p>",
+      "id": 32,
+      "page": 3,
+      "text": "Transformers [38] were extensively used in natural lan-\nguage for encoding a sequence of input word tokens into a\nsequence of embeddings. To comply with such sequence-\nto-sequence learning structure when processing images,\nViTs first divide an input image into multiple patches uni-\nformly and encode each patch into a token embedding.\nThen, all these tokens, together with a class token, are fed\ninto a stack of transformer blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 248,
+          "y": 2927
+        },
+        {
+          "x": 1197,
+          "y": 2927
+        },
+        {
+          "x": 1197,
+          "y": 2973
+        },
+        {
+          "x": 248,
+          "y": 2973
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='33' style='font-size:16px'>Each transformer block consists of a multi-head self-</p>",
+      "id": 33,
+      "page": 3,
+      "text": "Each transformer block consists of a multi-head self-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 308
+        },
+        {
+          "x": 2278,
+          "y": 308
+        },
+        {
+          "x": 2278,
+          "y": 554
+        },
+        {
+          "x": 1277,
+          "y": 554
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='34' style='font-size:18px'>attention (MHSA) layer and a feed-forward multi-layer per-<br>ceptron (MLP). The MHSA generates a trainable associate<br>memory with a query (Q) and a pair of key (K)-value (V)<br>pairs to an output via linearly transforming the input. Math-<br>ematically, the output of a MHSA is calculated by:</p>",
+      "id": 34,
+      "page": 3,
+      "text": "attention (MHSA) layer and a feed-forward multi-layer per-\nceptron (MLP). The MHSA generates a trainable associate\nmemory with a query (Q) and a pair of key (K)-value (V)\npairs to an output via linearly transforming the input. Math-\nematically, the output of a MHSA is calculated by:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 689
+        },
+        {
+          "x": 2278,
+          "y": 689
+        },
+        {
+          "x": 2278,
+          "y": 1442
+        },
+        {
+          "x": 1277,
+          "y": 1442
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='35' style='font-size:16px'>where Vd is a scaling factor based on the depth of the net-<br>work. The output of the MHSA is then normalized and fed<br>into the MLP to generate the input to the next block. In<br>the above self-attention, Q and K are multiplied to gen-<br>erate the attention map, which represents the correlation<br>between all the tokens within each layer. It is used to re-<br>trieve and combine the embeddings in the value V. In<br>the following, we particularly analyze the role of the at-<br>tention map in scaling the ViT. For convenience, we use<br>A E RHxTxT<br>to denote the attention map, with H be-<br>ing the number of SA heads and T the number of tokens.<br>For the h-th SA head, the attention map is computed as<br>Ah,:,: = Softmax(QhKh T /Vd) with Qh and Kh from the<br>corresponding head. When the context is clear, we omit the<br>subscript h.</p>",
+      "id": 35,
+      "page": 3,
+      "text": "where Vd is a scaling factor based on the depth of the net-\nwork. The output of the MHSA is then normalized and fed\ninto the MLP to generate the input to the next block. In\nthe above self-attention, Q and K are multiplied to gen-\nerate the attention map, which represents the correlation\nbetween all the tokens within each layer. It is used to re-\ntrieve and combine the embeddings in the value V. In\nthe following, we particularly analyze the role of the at-\ntention map in scaling the ViT. For convenience, we use\nA E RHxTxT\nto denote the attention map, with H be-\ning the number of SA heads and T the number of tokens.\nFor the h-th SA head, the attention map is computed as\nAh,:,: = Softmax(QhKh T /Vd) with Qh and Kh from the\ncorresponding head. When the context is clear, we omit the\nsubscript h."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1478
+        },
+        {
+          "x": 1734,
+          "y": 1478
+        },
+        {
+          "x": 1734,
+          "y": 1528
+        },
+        {
+          "x": 1280,
+          "y": 1528
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='36' style='font-size:20px'>3.2. Attention Collapse</p>",
+      "id": 36,
+      "page": 3,
+      "text": "3.2. Attention Collapse"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 1554
+        },
+        {
+          "x": 2278,
+          "y": 1554
+        },
+        {
+          "x": 2278,
+          "y": 2356
+        },
+        {
+          "x": 1276,
+          "y": 2356
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='37' style='font-size:18px'>Motivated by the success of deep CNNs [9, 30, 35, 36],<br>we conduct systematic study in the changes of the perfor-<br>mance of ViTs as depth increases. Without loss of gen-<br>erality, we first fix the hidden dimension and the number<br>of heads to 384 and 12 respectively , following the com-<br>mon practice in [37]. Then we stack different number of<br>transformer blocks (varying from 12 to 32) to build multiple<br>ViT models corresponding to different depths. The overall<br>performances for image classification are evaluated on Im-<br>ageNet [18] and summarized in Fig. 1. As evidenced by<br>the performance curve, we surprisingly find that the clas-<br>sification accuracy improves slowly and saturates fast as<br>the model goes deeper. More specifically, we can observe<br>that the improvement stops after employing 24 transformer<br>blocks. This phenomenon demonstrates that existing ViTs<br>have difficulty in gaining benefits from deeper architectures.</p>",
+      "id": 37,
+      "page": 3,
+      "text": "Motivated by the success of deep CNNs [9, 30, 35, 36],\nwe conduct systematic study in the changes of the perfor-\nmance of ViTs as depth increases. Without loss of gen-\nerality, we first fix the hidden dimension and the number\nof heads to 384 and 12 respectively , following the com-\nmon practice in [37]. Then we stack different number of\ntransformer blocks (varying from 12 to 32) to build multiple\nViT models corresponding to different depths. The overall\nperformances for image classification are evaluated on Im-\nageNet [18] and summarized in Fig. 1. As evidenced by\nthe performance curve, we surprisingly find that the clas-\nsification accuracy improves slowly and saturates fast as\nthe model goes deeper. More specifically, we can observe\nthat the improvement stops after employing 24 transformer\nblocks. This phenomenon demonstrates that existing ViTs\nhave difficulty in gaining benefits from deeper architectures."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 2355
+        },
+        {
+          "x": 2276,
+          "y": 2355
+        },
+        {
+          "x": 2276,
+          "y": 2854
+        },
+        {
+          "x": 1278,
+          "y": 2854
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='38' style='font-size:18px'>Such a problem is quite counter-intuitive and worth ex-<br>ploration, as similar issues (i.e., how to effectively train a<br>deeper model) have also been observed for CNNs at its early<br>development stage [9], but properly solved later [9, 10]. By<br>taking a deeper look into the transfromer architecture, we<br>would like to highlight that the self-attention mechanism<br>plays a key role in ViTs, which makes it significantly differ-<br>ent from CNNs. Therefore, we start with investigating how<br>the self-attention, or more concretely, the generated atten-<br>tion map A varies as the model goes deeper.</p>",
+      "id": 38,
+      "page": 3,
+      "text": "Such a problem is quite counter-intuitive and worth ex-\nploration, as similar issues (i.e., how to effectively train a\ndeeper model) have also been observed for CNNs at its early\ndevelopment stage [9], but properly solved later [9, 10]. By\ntaking a deeper look into the transfromer architecture, we\nwould like to highlight that the self-attention mechanism\nplays a key role in ViTs, which makes it significantly differ-\nent from CNNs. Therefore, we start with investigating how\nthe self-attention, or more concretely, the generated atten-\ntion map A varies as the model goes deeper."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2893
+        },
+        {
+          "x": 2271,
+          "y": 2893
+        },
+        {
+          "x": 2271,
+          "y": 2972
+        },
+        {
+          "x": 1281,
+          "y": 2972
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='39' style='font-size:14px'>1Similar phenomenon can also be found when we vary the hidden di-<br>mension size according to our experiments.</p>",
+      "id": 39,
+      "page": 3,
+      "text": "1Similar phenomenon can also be found when we vary the hidden di-\nmension size according to our experiments."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 261,
+          "y": 309
+        },
+        {
+          "x": 2168,
+          "y": 309
+        },
+        {
+          "x": 2168,
+          "y": 850
+        },
+        {
+          "x": 261,
+          "y": 850
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='40' style='font-size:14px' alt=\"Attention Map Cross Layer Similarity Attention Map Similarity Ratio VS. Depth Inter-head Similarity of Block 32\n1.1 0.55 20 0.8\nSelf-attention cross layer similarity(%) similarity\nk= 1 50%\n1.0 k= 2 Number of blocks with similar attention map 18 0.7 Adjacent SA Matrix Similarity\nk= 3\n0.50\n16\nSimilarity 0.9 0.6\nSimilarity\n14 blocks\n0.8 block\n0.5\n0.45\n12\n0.7 0.4\nCosine\n0.40 10 of similar\n0.6 of similar\n0.3\nRatio\n8 Cosine\n0.5 0.2\n0.35\n6 Number\n0.4 0.1\n4\n0.3 0.30 0.0\n0 5 10 15 20 25 30 12.5 15.0 17.5 20.0 22.5 25.0 27.5 30.0 32.5 0 2 6 8 10\nBlock Index Number of blocks Head Index\n(a) (b) (c)\" data-coord=\"top-left:(261,309); bottom-right:(2168,850)\" /></figure>",
+      "id": 40,
+      "page": 4,
+      "text": "Attention Map Cross Layer Similarity Attention Map Similarity Ratio VS. Depth Inter-head Similarity of Block 32\n1.1 0.55 20 0.8\nSelf-attention cross layer similarity(%) similarity\nk= 1 50%\n1.0 k= 2 Number of blocks with similar attention map 18 0.7 Adjacent SA Matrix Similarity\nk= 3\n0.50\n16\nSimilarity 0.9 0.6\nSimilarity\n14 blocks\n0.8 block\n0.5\n0.45\n12\n0.7 0.4\nCosine\n0.40 10 of similar\n0.6 of similar\n0.3\nRatio\n8 Cosine\n0.5 0.2\n0.35\n6 Number\n0.4 0.1\n4\n0.3 0.30 0.0\n0 5 10 15 20 25 30 12.5 15.0 17.5 20.0 22.5 25.0 27.5 30.0 32.5 0 2 6 8 10\nBlock Index Number of blocks Head Index\n(a) (b) (c)"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 851
+        },
+        {
+          "x": 2279,
+          "y": 851
+        },
+        {
+          "x": 2279,
+          "y": 1130
+        },
+        {
+          "x": 199,
+          "y": 1130
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='41' style='font-size:16px'>Figure 3: (a) The similarity ratio of the generated self-attention maps across different layers. The visualization is based on ViT models with<br>32 blocks pre-trained on ImageNet. For visualization purpose, we plot the ratio of token-wise attention vectors with similarity in Eqn. (2)<br>larger than the average similarity within nearest k transformer blocks. As can be seen, the similarity ratio is larger than 90% for blocks<br>after the 17th one. (b) The ratio of similar blocks to the total number of blocks increases when the depth of the ViT model increases. (c)<br>Similarity of attention maps from different heads within the same block. The similarity between different heads within the blocks is all<br>lower than 30% and they present sufficient diversity.</caption>",
+      "id": 41,
+      "page": 4,
+      "text": "Figure 3: (a) The similarity ratio of the generated self-attention maps across different layers. The visualization is based on ViT models with\n32 blocks pre-trained on ImageNet. For visualization purpose, we plot the ratio of token-wise attention vectors with similarity in Eqn. (2)\nlarger than the average similarity within nearest k transformer blocks. As can be seen, the similarity ratio is larger than 90% for blocks\nafter the 17th one. (b) The ratio of similar blocks to the total number of blocks increases when the depth of the ViT model increases. (c)\nSimilarity of attention maps from different heads within the same block. The similarity between different heads within the blocks is all\nlower than 30% and they present sufficient diversity."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1174
+        },
+        {
+          "x": 1201,
+          "y": 1174
+        },
+        {
+          "x": 1201,
+          "y": 1324
+        },
+        {
+          "x": 200,
+          "y": 1324
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='42' style='font-size:18px'>To measure the evolution of the attention maps over lay-<br>ers, we compute the following cross-layer similarity be-<br>tween the attention maps from different layers:</p>",
+      "id": 42,
+      "page": 4,
+      "text": "To measure the evolution of the attention maps over lay-\ners, we compute the following cross-layer similarity be-\ntween the attention maps from different layers:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1530
+        },
+        {
+          "x": 1199,
+          "y": 1530
+        },
+        {
+          "x": 1199,
+          "y": 2027
+        },
+        {
+          "x": 200,
+          "y": 2027
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='43' style='font-size:18px'>where Mp,q is the cosine similarity matrix between the at-<br>tention map of layers p and q. Each element Mp,q measures<br>the similarity of attention for head h and token t. Consider<br>is<br>one specific self-attention layer and its h-th head, Ah,:,t<br>a T-dimensional vector representing how much the input<br>token t contributes to each of the T output tokens. Mp,q ,<br>thus, provides an appropriate measurement on how the con-<br>tribution of one token varies from layer p to q. When Mp,q<br>equals one, it means that token t plays exactly the same role<br>for self-attention in layers p and q.</p>",
+      "id": 43,
+      "page": 4,
+      "text": "where Mp,q is the cosine similarity matrix between the at-\ntention map of layers p and q. Each element Mp,q measures\nthe similarity of attention for head h and token t. Consider\nis\none specific self-attention layer and its h-th head, Ah,:,t\na T-dimensional vector representing how much the input\ntoken t contributes to each of the T output tokens. Mp,q ,\nthus, provides an appropriate measurement on how the con-\ntribution of one token varies from layer p to q. When Mp,q\nequals one, it means that token t plays exactly the same role\nfor self-attention in layers p and q."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2031
+        },
+        {
+          "x": 1200,
+          "y": 2031
+        },
+        {
+          "x": 1200,
+          "y": 2978
+        },
+        {
+          "x": 200,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='44' style='font-size:18px'>Given Eqn. (2), we then train a ViT model with 32 trans-<br>former blocks on ImageNet-1k and investigate the above<br>similarity among all the attention maps. As shown in<br>Fig. 3(a), the ratio of similar attention maps in M after<br>the 17th block is larger than 90% · This indicates that the<br>learned attention maps afterwards are similar and the trans-<br>former block may degenerate to an MLP. As a result, fur-<br>ther stacking such degenerated MHSA may introduce the<br>model rank degeneration issue (i.e., the rank of the model<br>parameter tensor from multiplying the layer-wise parame-<br>ters together will decrease) and limits the model learning<br>capacity. This is also validated by our analysis on the degen-<br>eration of learned features as shown below. Such observed<br>attention collapse could be one of the reasons for the ob-<br>served performance saturation of ViTs. To further validate<br>the existence of this phenomenon for ViTs with different<br>depths, we conduct the same experiments on ViTs with 12,<br>16, 24 and 32 transformer blocks respectively and calculate<br>the number of blocks with similar attention maps. The re-</p>",
+      "id": 44,
+      "page": 4,
+      "text": "Given Eqn. (2), we then train a ViT model with 32 trans-\nformer blocks on ImageNet-1k and investigate the above\nsimilarity among all the attention maps. As shown in\nFig. 3(a), the ratio of similar attention maps in M after\nthe 17th block is larger than 90% · This indicates that the\nlearned attention maps afterwards are similar and the trans-\nformer block may degenerate to an MLP. As a result, fur-\nther stacking such degenerated MHSA may introduce the\nmodel rank degeneration issue (i.e., the rank of the model\nparameter tensor from multiplying the layer-wise parame-\nters together will decrease) and limits the model learning\ncapacity. This is also validated by our analysis on the degen-\neration of learned features as shown below. Such observed\nattention collapse could be one of the reasons for the ob-\nserved performance saturation of ViTs. To further validate\nthe existence of this phenomenon for ViTs with different\ndepths, we conduct the same experiments on ViTs with 12,\n16, 24 and 32 transformer blocks respectively and calculate\nthe number of blocks with similar attention maps. The re-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1294,
+          "y": 1180
+        },
+        {
+          "x": 2253,
+          "y": 1180
+        },
+        {
+          "x": 2253,
+          "y": 1538
+        },
+        {
+          "x": 1294,
+          "y": 1538
+        }
+      ],
+      "category": "figure",
+      "html": "<br><figure><img id='45' style='font-size:14px' alt=\"Attention & Feature Map Cross Layer Similarity 2 1.2 1.2\nFeature Map Cross Layer Similarity\n1.2\nFeature map ViT-32B Baseline\n1.1\nAttention map 1.0 1.0 ViT-32B Re-Attention 1.0\n1.0\nSimilarity\nSimilarity\n0.8 0.8 0.8\n0.9\n0.8\n0.6 0.6 0.6\nCosine\nCosine\n0.7\n0.4 0.4 0.4\n0.6\n0.5 0.2 0.2 0.2\n0.4\n0.0 0.0 0.0\n0 5 10 15 20 25 30 0 5 10 .5 20 25 30\nBlock Index Block Index\" data-coord=\"top-left:(1294,1180); bottom-right:(2253,1538)\" /></figure>",
+      "id": 45,
+      "page": 4,
+      "text": "Attention & Feature Map Cross Layer Similarity 2 1.2 1.2\nFeature Map Cross Layer Similarity\n1.2\nFeature map ViT-32B Baseline\n1.1\nAttention map 1.0 1.0 ViT-32B Re-Attention 1.0\n1.0\nSimilarity\nSimilarity\n0.8 0.8 0.8\n0.9\n0.8\n0.6 0.6 0.6\nCosine\nCosine\n0.7\n0.4 0.4 0.4\n0.6\n0.5 0.2 0.2 0.2\n0.4\n0.0 0.0 0.0\n0 5 10 15 20 25 30 0 5 10 .5 20 25 30\nBlock Index Block Index"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1550
+        },
+        {
+          "x": 2278,
+          "y": 1550
+        },
+        {
+          "x": 2278,
+          "y": 1964
+        },
+        {
+          "x": 1278,
+          "y": 1964
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='46' style='font-size:16px'>Figure 4: (Left): Cross layer similarity of attention map and fea-<br>tures for ViTs. The black dotted line shows the cosine similarity<br>between feature maps of the last block and each of the previous<br>blocks. The red dotted line shows the ratio of similar attention<br>maps of adjacent blocks. The visualization is based on a 32-block<br>ViT model pre-trained on ImageNet-1k. (Right): Feature map<br>cross layer cosine similarity for both the original ViT model and<br>ours. As can be seen, replacing the original self-attention with<br>Re-attention could reduce the feature map similarity significantly.</p>",
+      "id": 46,
+      "page": 4,
+      "text": "Figure 4: (Left): Cross layer similarity of attention map and fea-\ntures for ViTs. The black dotted line shows the cosine similarity\nbetween feature maps of the last block and each of the previous\nblocks. The red dotted line shows the ratio of similar attention\nmaps of adjacent blocks. The visualization is based on a 32-block\nViT model pre-trained on ImageNet-1k. (Right): Feature map\ncross layer cosine similarity for both the original ViT model and\nours. As can be seen, replacing the original self-attention with\nRe-attention could reduce the feature map similarity significantly."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2052
+        },
+        {
+          "x": 2278,
+          "y": 2052
+        },
+        {
+          "x": 2278,
+          "y": 2198
+        },
+        {
+          "x": 1280,
+          "y": 2198
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='47' style='font-size:18px'>sults shown in Fig. 3(b) clearly demonstrate the ratio of the<br>number of similar attention map blocks to the total number<br>of blocks increases when adding more transformer blocks.</p>",
+      "id": 47,
+      "page": 4,
+      "text": "sults shown in Fig. 3(b) clearly demonstrate the ratio of the\nnumber of similar attention map blocks to the total number\nof blocks increases when adding more transformer blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 2201
+        },
+        {
+          "x": 2278,
+          "y": 2201
+        },
+        {
+          "x": 2278,
+          "y": 2749
+        },
+        {
+          "x": 1277,
+          "y": 2749
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='48' style='font-size:20px'>To understand how the attention collapse may hurt the<br>ViT model performance, we further study how it affects fea-<br>ture learning of the deeper layers. For a specific 32-block<br>ViT model, we compare the final output features with the<br>outputs of each intermediate transformer block by investi-<br>gating their cosine similarity. The results in Fig. 4 demon-<br>strate that the similarity is quite high and the learned fea-<br>tures stop evolving after the 20th block. There is a close<br>correlation between the increase of attention similarity and<br>feature similarity. This observation indicates that attention<br>collapse is responsible for the non-scalable issue of ViTs.</p>",
+      "id": 48,
+      "page": 4,
+      "text": "To understand how the attention collapse may hurt the\nViT model performance, we further study how it affects fea-\nture learning of the deeper layers. For a specific 32-block\nViT model, we compare the final output features with the\noutputs of each intermediate transformer block by investi-\ngating their cosine similarity. The results in Fig. 4 demon-\nstrate that the similarity is quite high and the learned fea-\ntures stop evolving after the 20th block. There is a close\ncorrelation between the increase of attention similarity and\nfeature similarity. This observation indicates that attention\ncollapse is responsible for the non-scalable issue of ViTs."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2791
+        },
+        {
+          "x": 1896,
+          "y": 2791
+        },
+        {
+          "x": 1896,
+          "y": 2847
+        },
+        {
+          "x": 1281,
+          "y": 2847
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='49' style='font-size:22px'>4. Re-attention for Deep ViT</p>",
+      "id": 49,
+      "page": 4,
+      "text": "4. Re-attention for Deep ViT"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2877
+        },
+        {
+          "x": 2277,
+          "y": 2877
+        },
+        {
+          "x": 2277,
+          "y": 2977
+        },
+        {
+          "x": 1279,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='50' style='font-size:18px'>As revealed above, one major obstacle in scaling up ViT<br>to a deeper one is the attention collapse problem. In this sec-</p>",
+      "id": 50,
+      "page": 4,
+      "text": "As revealed above, one major obstacle in scaling up ViT\nto a deeper one is the attention collapse problem. In this sec-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 323,
+          "y": 322
+        },
+        {
+          "x": 1095,
+          "y": 322
+        },
+        {
+          "x": 1095,
+          "y": 888
+        },
+        {
+          "x": 323,
+          "y": 888
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='51' style='font-size:14px' alt=\"# Similar Blocks VS. Embedding Dimension\n82 6.0\nNumber of similar blocks 8.1M 18.5M 86M\n5.5\n80 ImageNet Top-1 Acc.(%)\nAcc.(%)\n5.0\n78 blocks\n4.5\nTop-1\n76 4.0\nto similar\nImageNet\n3.5 Number\n74\n3.0\n72\n2.5\n70 2.0\n300 400 500 600 700 800\nEmbedding Dimension\" data-coord=\"top-left:(323,322); bottom-right:(1095,888)\" /></figure>",
+      "id": 51,
+      "page": 5,
+      "text": "# Similar Blocks VS. Embedding Dimension\n82 6.0\nNumber of similar blocks 8.1M 18.5M 86M\n5.5\n80 ImageNet Top-1 Acc.(%)\nAcc.(%)\n5.0\n78 blocks\n4.5\nTop-1\n76 4.0\nto similar\nImageNet\n3.5 Number\n74\n3.0\n72\n2.5\n70 2.0\n300 400 500 600 700 800\nEmbedding Dimension"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 910
+        },
+        {
+          "x": 1200,
+          "y": 910
+        },
+        {
+          "x": 1200,
+          "y": 1140
+        },
+        {
+          "x": 200,
+          "y": 1140
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='52' style='font-size:14px'>Figure 5: Impacts of embedding dimension on the similarity<br>of generated self-attention map across layers. As can be seen,<br>the number of similar attention maps decreases with increasing<br>embedding dimension. However, the model size also increases<br>rapidly.</caption>",
+      "id": 52,
+      "page": 5,
+      "text": "Figure 5: Impacts of embedding dimension on the similarity\nof generated self-attention map across layers. As can be seen,\nthe number of similar attention maps decreases with increasing\nembedding dimension. However, the model size also increases\nrapidly."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1186
+        },
+        {
+          "x": 1198,
+          "y": 1186
+        },
+        {
+          "x": 1198,
+          "y": 1414
+        },
+        {
+          "x": 201,
+          "y": 1414
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='53' style='font-size:14px'>Table 1: Top-1 accuracy on ImageNet-1k dataset of vision trans-<br>former with different embedding dimensions. The number of<br>model parameters increase quadratically with the embedding di-<br>mension. The number of similar attention map blocks with differ-<br>ent embedding dimensions are shown in Figure 5</caption>",
+      "id": 53,
+      "page": 5,
+      "text": "Table 1: Top-1 accuracy on ImageNet-1k dataset of vision trans-\nformer with different embedding dimensions. The number of\nmodel parameters increase quadratically with the embedding di-\nmension. The number of similar attention map blocks with differ-\nent embedding dimensions are shown in Figure 5"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 219,
+          "y": 1461
+        },
+        {
+          "x": 1201,
+          "y": 1461
+        },
+        {
+          "x": 1201,
+          "y": 1711
+        },
+        {
+          "x": 219,
+          "y": 1711
+        }
+      ],
+      "category": "table",
+      "html": "<table id='54' style='font-size:14px'><tr><td>Model</td><td>#Blocks</td><td>Embed Dim.</td><td>#Param. (M)</td><td>Top-1 Acc.(%)</td></tr><tr><td>ViT</td><td>12</td><td>256</td><td>8.15</td><td>74.6</td></tr><tr><td>ViT</td><td>12</td><td>384</td><td>18.51</td><td>77.86</td></tr><tr><td>ViT</td><td>12</td><td>512</td><td>33.04</td><td>78.8</td></tr><tr><td>ViT</td><td>12</td><td>768</td><td>86</td><td>79.3</td></tr></table>",
+      "id": 54,
+      "page": 5,
+      "text": "Model #Blocks Embed Dim. #Param. (M) Top-1 Acc.(%)\n ViT 12 256 8.15 74.6\n ViT 12 384 18.51 77.86\n ViT 12 512 33.04 78.8\n ViT 12 768 86"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 1778
+        },
+        {
+          "x": 1198,
+          "y": 1778
+        },
+        {
+          "x": 1198,
+          "y": 1921
+        },
+        {
+          "x": 203,
+          "y": 1921
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='55' style='font-size:14px'>tion, we present two solution approaches, one is to increase<br>the hidden dimension for computing self-attention and the<br>other one is a novel re-attention mechanism.</p>",
+      "id": 55,
+      "page": 5,
+      "text": "tion, we present two solution approaches, one is to increase\nthe hidden dimension for computing self-attention and the\nother one is a novel re-attention mechanism."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1953
+        },
+        {
+          "x": 1109,
+          "y": 1953
+        },
+        {
+          "x": 1109,
+          "y": 2003
+        },
+        {
+          "x": 202,
+          "y": 2003
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='56' style='font-size:22px'>4.1. Self-Attention in Higher Dimension Space</p>",
+      "id": 56,
+      "page": 5,
+      "text": "4.1. Self-Attention in Higher Dimension Space"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2032
+        },
+        {
+          "x": 1199,
+          "y": 2032
+        },
+        {
+          "x": 1199,
+          "y": 2624
+        },
+        {
+          "x": 200,
+          "y": 2624
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='57' style='font-size:18px'>One intuitive solution to conquer attention collapse is to<br>increase the embedding dimension of each token. This will<br>augment the representation capability of each token embed-<br>ding to encode more information. As such, the resultant<br>attention maps can be more diverse and the similarity be-<br>tween each block's attention map could be reduced. With-<br>out loss of generality, we verify this approach empirically<br>by conducting a set of experiments based on ViT models<br>with 12 blocks for quick experiments. Following previous<br>transformer based works [38, 7], four embedding dimen-<br>sions are selected, ranging from 256 to 768. The detailed<br>configurations and the results are shown in Tab. 1.</p>",
+      "id": 57,
+      "page": 5,
+      "text": "One intuitive solution to conquer attention collapse is to\nincrease the embedding dimension of each token. This will\naugment the representation capability of each token embed-\nding to encode more information. As such, the resultant\nattention maps can be more diverse and the similarity be-\ntween each block's attention map could be reduced. With-\nout loss of generality, we verify this approach empirically\nby conducting a set of experiments based on ViT models\nwith 12 blocks for quick experiments. Following previous\ntransformer based works [38, 7], four embedding dimen-\nsions are selected, ranging from 256 to 768. The detailed\nconfigurations and the results are shown in Tab. 1."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2630
+        },
+        {
+          "x": 1199,
+          "y": 2630
+        },
+        {
+          "x": 1199,
+          "y": 2977
+        },
+        {
+          "x": 201,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='58' style='font-size:18px'>From Fig. 5 and Tab. 1, one can see that the number of<br>blocks with similar attention maps is reduced and the at-<br>tention collapse is alleviated by increasing the embedding<br>dimension. Consequently, the model performance is also<br>increased accordingly. This validates our core hypothe-<br>sis-the attention collapse is the main bottleneck for scaling<br>ViT. Despite its effectiveness, increasing the embedding di-</p>",
+      "id": 58,
+      "page": 5,
+      "text": "From Fig. 5 and Tab. 1, one can see that the number of\nblocks with similar attention maps is reduced and the at-\ntention collapse is alleviated by increasing the embedding\ndimension. Consequently, the model performance is also\nincreased accordingly. This validates our core hypothe-\nsis-the attention collapse is the main bottleneck for scaling\nViT. Despite its effectiveness, increasing the embedding di-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 310
+        },
+        {
+          "x": 2277,
+          "y": 310
+        },
+        {
+          "x": 2277,
+          "y": 554
+        },
+        {
+          "x": 1278,
+          "y": 554
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='59' style='font-size:18px'>mension also increases the computation cost significantly<br>and the brought performance improvement tends to dimin-<br>ish. Besides, a larger model (with higher embedding di-<br>mension) typically needs more data for training, suffering<br>the over-fitting risk and decreased efficiency.</p>",
+      "id": 59,
+      "page": 5,
+      "text": "mension also increases the computation cost significantly\nand the brought performance improvement tends to dimin-\nish. Besides, a larger model (with higher embedding di-\nmension) typically needs more data for training, suffering\nthe over-fitting risk and decreased efficiency."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 584
+        },
+        {
+          "x": 1613,
+          "y": 584
+        },
+        {
+          "x": 1613,
+          "y": 631
+        },
+        {
+          "x": 1280,
+          "y": 631
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='60' style='font-size:20px'>4.2. Re-attention</p>",
+      "id": 60,
+      "page": 5,
+      "text": "4.2. Re-attention"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 660
+        },
+        {
+          "x": 2276,
+          "y": 660
+        },
+        {
+          "x": 2276,
+          "y": 1154
+        },
+        {
+          "x": 1278,
+          "y": 1154
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='61' style='font-size:16px'>It has been demonstrated in Sec. 3 that the similarity be-<br>tween attention maps across different transformer blocks is<br>high, especially for deep layers. However, we find the sim-<br>ilarity of attention maps from different heads of the same<br>transformer block is quite small, as shown in Fig. 3(c).<br>Clearly, different heads from the same self-attention layer<br>focus on different aspects of the input tokens. Based on this<br>observation, we propose to establish cross-head communi-<br>cation to re-generate the attention maps and train deep ViTs<br>to perform better.</p>",
+      "id": 61,
+      "page": 5,
+      "text": "It has been demonstrated in Sec. 3 that the similarity be-\ntween attention maps across different transformer blocks is\nhigh, especially for deep layers. However, we find the sim-\nilarity of attention maps from different heads of the same\ntransformer block is quite small, as shown in Fig. 3(c).\nClearly, different heads from the same self-attention layer\nfocus on different aspects of the input tokens. Based on this\nobservation, we propose to establish cross-head communi-\ncation to re-generate the attention maps and train deep ViTs\nto perform better."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1161
+        },
+        {
+          "x": 2277,
+          "y": 1161
+        },
+        {
+          "x": 2277,
+          "y": 1507
+        },
+        {
+          "x": 1278,
+          "y": 1507
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='62' style='font-size:16px'>Concretely, we use the attention maps from the heads<br>as basis and generate a new set of attention maps by dy-<br>namically aggregating them. To achieve this, we define a<br>learnable transformation matrix 日 E RHxH<br>and then use it<br>to mix the multi-head attention maps into re-generated new<br>ones, before being multiplied with V. Specifically, the Re-<br>attention is implemented by:</p>",
+      "id": 62,
+      "page": 5,
+      "text": "Concretely, we use the attention maps from the heads\nas basis and generate a new set of attention maps by dy-\nnamically aggregating them. To achieve this, we define a\nlearnable transformation matrix 日 E RHxH\nand then use it\nto mix the multi-head attention maps into re-generated new\nones, before being multiplied with V. Specifically, the Re-\nattention is implemented by:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1693
+        },
+        {
+          "x": 2276,
+          "y": 1693
+        },
+        {
+          "x": 2276,
+          "y": 1885
+        },
+        {
+          "x": 1279,
+          "y": 1885
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='63' style='font-size:16px'>where transformation matrix 0 is multiplied to the self-<br>attention map A along the head dimension. Here Norm<br>is a normalization function used to reduced the layer-wise<br>variance. 日 is end-to-end learnable.</p>",
+      "id": 63,
+      "page": 5,
+      "text": "where transformation matrix 0 is multiplied to the self-\nattention map A along the head dimension. Here Norm\nis a normalization function used to reduced the layer-wise\nvariance. 日 is end-to-end learnable."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 1904
+        },
+        {
+          "x": 2277,
+          "y": 1904
+        },
+        {
+          "x": 2277,
+          "y": 2551
+        },
+        {
+          "x": 1277,
+          "y": 2551
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='64' style='font-size:18px'>Advantages: The advantages of the proposed Re-attention<br>are two-fold. First of all, compared with other possible at-<br>tention augmentation methods, such as randomly dropping<br>some elements of the attention map or tuning SoftMax tem-<br>perature, our Re-attention exploits the interactions among<br>different attention heads to collect their complementary in-<br>formation and better improves the attention map diversity.<br>This is also verified by our following experiments. Further-<br>more, our Re-attention is effective and easy to implement. It<br>needs only a few lines of code and negligible computational<br>overhead compared to the original self-attention. Thus it is<br>much more efficient than the approach of increasing embed-<br>ding dimension.</p>",
+      "id": 64,
+      "page": 5,
+      "text": "Advantages: The advantages of the proposed Re-attention\nare two-fold. First of all, compared with other possible at-\ntention augmentation methods, such as randomly dropping\nsome elements of the attention map or tuning SoftMax tem-\nperature, our Re-attention exploits the interactions among\ndifferent attention heads to collect their complementary in-\nformation and better improves the attention map diversity.\nThis is also verified by our following experiments. Further-\nmore, our Re-attention is effective and easy to implement. It\nneeds only a few lines of code and negligible computational\noverhead compared to the original self-attention. Thus it is\nmuch more efficient than the approach of increasing embed-\nding dimension."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2594
+        },
+        {
+          "x": 1612,
+          "y": 2594
+        },
+        {
+          "x": 1612,
+          "y": 2646
+        },
+        {
+          "x": 1281,
+          "y": 2646
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='65' style='font-size:22px'>5. Experiments</p>",
+      "id": 65,
+      "page": 5,
+      "text": "5. Experiments"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2678
+        },
+        {
+          "x": 2278,
+          "y": 2678
+        },
+        {
+          "x": 2278,
+          "y": 2977
+        },
+        {
+          "x": 1279,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='66' style='font-size:16px'>In this section, we first conduct experiments to further<br>demonstrate the attention collapse problem. Then, we give<br>extensive ablation analysis to show the advantages of the<br>proposed Re-attention. By incorporating Re-attention into<br>the transformers, we design two modified version of vi-<br>sion transformers and name them as deep vision transform-</p>",
+      "id": 66,
+      "page": 5,
+      "text": "In this section, we first conduct experiments to further\ndemonstrate the attention collapse problem. Then, we give\nextensive ablation analysis to show the advantages of the\nproposed Re-attention. By incorporating Re-attention into\nthe transformers, we design two modified version of vi-\nsion transformers and name them as deep vision transform-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 308
+        },
+        {
+          "x": 1198,
+          "y": 308
+        },
+        {
+          "x": 1198,
+          "y": 401
+        },
+        {
+          "x": 202,
+          "y": 401
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='67' style='font-size:18px'>ers (Deep ViT). Finally, we compare the proposed Deep ViT<br>models against the latest state-of-the-arts (SOTA).</p>",
+      "id": 67,
+      "page": 6,
+      "text": "ers (Deep ViT). Finally, we compare the proposed Deep ViT\nmodels against the latest state-of-the-arts (SOTA)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 434
+        },
+        {
+          "x": 669,
+          "y": 434
+        },
+        {
+          "x": 669,
+          "y": 483
+        },
+        {
+          "x": 203,
+          "y": 483
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='68' style='font-size:22px'>5.1. Experiment Details</p>",
+      "id": 68,
+      "page": 6,
+      "text": "5.1. Experiment Details"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 510
+        },
+        {
+          "x": 1200,
+          "y": 510
+        },
+        {
+          "x": 1200,
+          "y": 1455
+        },
+        {
+          "x": 200,
+          "y": 1455
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='69' style='font-size:18px'>To make a fair comparison, we first tuned a set of pa-<br>rameters for training the ViT base model and then use the<br>same set of hyper-parameters for all the ablation experi-<br>ments. Specifically, we use AdamW optimizer [23] and co-<br>sine learning rate decay policy with an initial learning rate<br>of 0.0005. We use 8 Telsa- V100 GPUs and train the model<br>for 300 epochs using Pytorch [25] library. The batch size is<br>set to 256. We use 3 epochs for learning rate warm-up [22].<br>We also use some augmentation techniques such as mixup<br>[46] and random augmentation [5] to boost the performance<br>of baseline models following [47]. When comparing with<br>other methods, we adopt the same set of hyper-parameters<br>as used by the target models. We report results on the Im-<br>ageNet dataset [18]. For all experiments, the image size is<br>set to be 224 x224. To study the scaling capability of cur-<br>rent transformer blocks, we set the embedding dimension to<br>384 and the expansion ratio 3 for the MLP layers. We use<br>12 heads for all the models. More detailed configurations<br>are shown in Tab. 2.</p>",
+      "id": 69,
+      "page": 6,
+      "text": "To make a fair comparison, we first tuned a set of pa-\nrameters for training the ViT base model and then use the\nsame set of hyper-parameters for all the ablation experi-\nments. Specifically, we use AdamW optimizer [23] and co-\nsine learning rate decay policy with an initial learning rate\nof 0.0005. We use 8 Telsa- V100 GPUs and train the model\nfor 300 epochs using Pytorch [25] library. The batch size is\nset to 256. We use 3 epochs for learning rate warm-up [22].\nWe also use some augmentation techniques such as mixup\n[46] and random augmentation [5] to boost the performance\nof baseline models following [47]. When comparing with\nother methods, we adopt the same set of hyper-parameters\nas used by the target models. We report results on the Im-\nageNet dataset [18]. For all experiments, the image size is\nset to be 224 x224. To study the scaling capability of cur-\nrent transformer blocks, we set the embedding dimension to\n384 and the expansion ratio 3 for the MLP layers. We use\n12 heads for all the models. More detailed configurations\nare shown in Tab. 2."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 1490
+        },
+        {
+          "x": 1199,
+          "y": 1490
+        },
+        {
+          "x": 1199,
+          "y": 1671
+        },
+        {
+          "x": 203,
+          "y": 1671
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='70' style='font-size:16px'>Table 2: Baseline model specifications. All ablation experiments<br>are based on the ViT models with different number of blocks. The<br>'#B' in 'ViT-#B' denotes the number of transformer blocks in the<br>model.</caption>",
+      "id": 70,
+      "page": 6,
+      "text": "Table 2: Baseline model specifications. All ablation experiments\nare based on the ViT models with different number of blocks. The\n'#B' in 'ViT-#B' denotes the number of transformer blocks in the\nmodel."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 206,
+          "y": 1713
+        },
+        {
+          "x": 1199,
+          "y": 1713
+        },
+        {
+          "x": 1199,
+          "y": 1922
+        },
+        {
+          "x": 206,
+          "y": 1922
+        }
+      ],
+      "category": "table",
+      "html": "<table id='71' style='font-size:14px'><tr><td>Model</td><td>#Blocks</td><td>#Embeddings</td><td>MLP Size</td><td>Params. (M)</td></tr><tr><td>ViT-16B</td><td>16</td><td>384</td><td>1152</td><td>24.46</td></tr><tr><td>ViT-24B</td><td>24</td><td>384</td><td>1152</td><td>36.26</td></tr><tr><td>ViT-32B</td><td>32</td><td>384</td><td>1152</td><td>48.09</td></tr></table>",
+      "id": 71,
+      "page": 6,
+      "text": "Model #Blocks #Embeddings MLP Size Params. (M)\n ViT-16B 16 384 1152 24.46\n ViT-24B 24 384 1152 36.26\n ViT-32B 32 384 1152"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1988
+        },
+        {
+          "x": 1009,
+          "y": 1988
+        },
+        {
+          "x": 1009,
+          "y": 2038
+        },
+        {
+          "x": 202,
+          "y": 2038
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='72' style='font-size:20px'>5.2. More Analysis on Attention Collapse</p>",
+      "id": 72,
+      "page": 6,
+      "text": "5.2. More Analysis on Attention Collapse"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2066
+        },
+        {
+          "x": 1199,
+          "y": 2066
+        },
+        {
+          "x": 1199,
+          "y": 2210
+        },
+        {
+          "x": 202,
+          "y": 2210
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='73' style='font-size:18px'>In this section, we show more analysis on the attention<br>map similarity and study how the collapsed attention maps<br>affect the model performance.</p>",
+      "id": 73,
+      "page": 6,
+      "text": "In this section, we show more analysis on the attention\nmap similarity and study how the collapsed attention maps\naffect the model performance."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 2229
+        },
+        {
+          "x": 1199,
+          "y": 2229
+        },
+        {
+          "x": 1199,
+          "y": 2978
+        },
+        {
+          "x": 200,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='74' style='font-size:18px'>Attention reuse: As discussed above, when the model goes<br>deeper, the attention maps of the deeper blocks become<br>highly similar. This implies that adding more blocks on a<br>deep ViT model may not improve the model performance.<br>To further verify this claim, we design an experiment to<br>reuse the attention maps computed at an early block of ViT<br>to replace the ones after it. Specifically, we run experi-<br>ments on the ViT models with 24 blocks and 32 blocks<br>but share the Q and K values (and the resulted attention<br>maps) of the last \"unique\" block to all the blocks afterwards.<br>The \"unique\" block is defined as the block whose attention<br>map's similarity ratio with adjacent layers is smaller than<br>90%. More implementation details can be found in the sup-<br>plementary material. The results are shown in Tab. 3. Sur-<br>prisingly, for a ViT model with 32 transformer blocks, when</p>",
+      "id": 74,
+      "page": 6,
+      "text": "Attention reuse: As discussed above, when the model goes\ndeeper, the attention maps of the deeper blocks become\nhighly similar. This implies that adding more blocks on a\ndeep ViT model may not improve the model performance.\nTo further verify this claim, we design an experiment to\nreuse the attention maps computed at an early block of ViT\nto replace the ones after it. Specifically, we run experi-\nments on the ViT models with 24 blocks and 32 blocks\nbut share the Q and K values (and the resulted attention\nmaps) of the last \"unique\" block to all the blocks afterwards.\nThe \"unique\" block is defined as the block whose attention\nmap's similarity ratio with adjacent layers is smaller than\n90%. More implementation details can be found in the sup-\nplementary material. The results are shown in Tab. 3. Sur-\nprisingly, for a ViT model with 32 transformer blocks, when"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 310
+        },
+        {
+          "x": 2276,
+          "y": 310
+        },
+        {
+          "x": 2276,
+          "y": 504
+        },
+        {
+          "x": 1280,
+          "y": 504
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='75' style='font-size:18px'>we use the same Q and K values for the last 15 blocks, the<br>performance degradation is negligible. This implies the at-<br>tention collapse problem indeed exists and reveals the inef-<br>ficacy in adding more blocks when the model is deep.</p>",
+      "id": 75,
+      "page": 6,
+      "text": "we use the same Q and K values for the last 15 blocks, the\nperformance degradation is negligible. This implies the at-\ntention collapse problem indeed exists and reveals the inef-\nficacy in adding more blocks when the model is deep."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 554
+        },
+        {
+          "x": 2277,
+          "y": 554
+        },
+        {
+          "x": 2277,
+          "y": 688
+        },
+        {
+          "x": 1281,
+          "y": 688
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='76' style='font-size:16px'>Table 3: ImageNet top-1 accuracy of the ViT models with shared<br>self-attention maps. '#Shared blocks' denotes the number of the<br>transformer blocks that share the same attention map.</caption>",
+      "id": 76,
+      "page": 6,
+      "text": "Table 3: ImageNet top-1 accuracy of the ViT models with shared\nself-attention maps. '#Shared blocks' denotes the number of the\ntransformer blocks that share the same attention map."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1304,
+          "y": 728
+        },
+        {
+          "x": 2251,
+          "y": 728
+        },
+        {
+          "x": 2251,
+          "y": 997
+        },
+        {
+          "x": 1304,
+          "y": 997
+        }
+      ],
+      "category": "table",
+      "html": "<table id='77' style='font-size:14px'><tr><td>#Blocks</td><td>#Embeddings</td><td>#Shared blocks</td><td>Top-1 Acc. (%)</td></tr><tr><td>24</td><td>384</td><td>0</td><td>79.3</td></tr><tr><td>24</td><td>384</td><td>11</td><td>78.7</td></tr><tr><td>32</td><td>384</td><td>0</td><td>79.2</td></tr><tr><td>32</td><td>384</td><td>15</td><td>79.2</td></tr></table>",
+      "id": 77,
+      "page": 6,
+      "text": "#Blocks #Embeddings #Shared blocks Top-1 Acc. (%)\n 24 384 0 79.3\n 24 384 11 78.7\n 32 384 0 79.2\n 32 384 15"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1048
+        },
+        {
+          "x": 2278,
+          "y": 1048
+        },
+        {
+          "x": 2278,
+          "y": 1747
+        },
+        {
+          "x": 1278,
+          "y": 1747
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='78' style='font-size:18px'>Visualization: To more intuitively understand the attention<br>map collapse across layers, we visualize the learned atten-<br>tion maps from different blocks of the original ViT [7]. We<br>take a 32-block ViT model as an example and pre-train it<br>on ImageNet. The visualization of the attention maps with<br>original MHSA and Re-attention are shown in Fig. 6. It can<br>be observed that the original MHSA learns the local rela-<br>tionship among the adjacent patches in the shallow blocks<br>and the attention maps tend to expand to cover more patches<br>gradually. In the deep blocks, the MHSA learns nearly uni-<br>form global attention maps with high similarity. Differently,<br>after implementing Re-attention, the attention maps at deep<br>blocks keep the diversity and have small similarities from<br>adjacent blocks.</p>",
+      "id": 78,
+      "page": 6,
+      "text": "Visualization: To more intuitively understand the attention\nmap collapse across layers, we visualize the learned atten-\ntion maps from different blocks of the original ViT [7]. We\ntake a 32-block ViT model as an example and pre-train it\non ImageNet. The visualization of the attention maps with\noriginal MHSA and Re-attention are shown in Fig. 6. It can\nbe observed that the original MHSA learns the local rela-\ntionship among the adjacent patches in the shallow blocks\nand the attention maps tend to expand to cover more patches\ngradually. In the deep blocks, the MHSA learns nearly uni-\nform global attention maps with high similarity. Differently,\nafter implementing Re-attention, the attention maps at deep\nblocks keep the diversity and have small similarities from\nadjacent blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 1785
+        },
+        {
+          "x": 1850,
+          "y": 1785
+        },
+        {
+          "x": 1850,
+          "y": 1833
+        },
+        {
+          "x": 1281,
+          "y": 1833
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='79' style='font-size:20px'>5.3. Analysis on Re-attention</p>",
+      "id": 79,
+      "page": 6,
+      "text": "5.3. Analysis on Re-attention"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 1863
+        },
+        {
+          "x": 2276,
+          "y": 1863
+        },
+        {
+          "x": 2276,
+          "y": 2060
+        },
+        {
+          "x": 1281,
+          "y": 2060
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='80' style='font-size:16px'>In this subsection, we present two straightforward mod-<br>ifications to the current self-attention mechanism as base-<br>lines. We then conduct a series of comparison experiments<br>to show the advantages of our proposed Re-attention.</p>",
+      "id": 80,
+      "page": 6,
+      "text": "In this subsection, we present two straightforward mod-\nifications to the current self-attention mechanism as base-\nlines. We then conduct a series of comparison experiments\nto show the advantages of our proposed Re-attention."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 2081
+        },
+        {
+          "x": 2277,
+          "y": 2081
+        },
+        {
+          "x": 2277,
+          "y": 2977
+        },
+        {
+          "x": 1277,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='81' style='font-size:18px'>Re-attention V.S. Self-attention: We first evaluate the ef-<br>fectiveness of Re-attention by comparing to the pure ViT<br>models using the same set of training hyper-parameters. We<br>directly replace the self-attention module in ViT with Re-<br>attention and show the results in Tab. 4 with different num-<br>ber of transformer blocks. As can be seen, the vanilla ViT<br>architecture suffers performance saturation when adding<br>more transformer blocks. This phenomenon coincides with<br>our observations that the number of blocks with similar<br>attention maps increases with the depth as shown in Fig.<br>3(b). Interestingly, when replacing the self-attention with<br>our proposed Re-attention, the number of similar blocks are<br>all reduced to be zero and the performance rises consistently<br>as the model depth increases. The performance gain is es-<br>pecially significant for deep ViT with 32 blocks. This might<br>be explained by the fact that the 32 block ViT model has the<br>largest number of blocks with similar attention maps and the<br>improvements should be proportional to the number sim-</p>",
+      "id": 81,
+      "page": 6,
+      "text": "Re-attention V.S. Self-attention: We first evaluate the ef-\nfectiveness of Re-attention by comparing to the pure ViT\nmodels using the same set of training hyper-parameters. We\ndirectly replace the self-attention module in ViT with Re-\nattention and show the results in Tab. 4 with different num-\nber of transformer blocks. As can be seen, the vanilla ViT\narchitecture suffers performance saturation when adding\nmore transformer blocks. This phenomenon coincides with\nour observations that the number of blocks with similar\nattention maps increases with the depth as shown in Fig.\n3(b). Interestingly, when replacing the self-attention with\nour proposed Re-attention, the number of similar blocks are\nall reduced to be zero and the performance rises consistently\nas the model depth increases. The performance gain is es-\npecially significant for deep ViT with 32 blocks. This might\nbe explained by the fact that the 32 block ViT model has the\nlargest number of blocks with similar attention maps and the\nimprovements should be proportional to the number sim-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 218,
+          "y": 285
+        },
+        {
+          "x": 2250,
+          "y": 285
+        },
+        {
+          "x": 2250,
+          "y": 781
+        },
+        {
+          "x": 218,
+          "y": 781
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='82' style='font-size:14px' alt=\"Self-attention\nRe-attention\nBlock 1 Block 4 Block 11 Block 18 Block 23 Block 29 Block 30\" data-coord=\"top-left:(218,285); bottom-right:(2250,781)\" /></figure>",
+      "id": 82,
+      "page": 7,
+      "text": "Self-attention\nRe-attention\nBlock 1 Block 4 Block 11 Block 18 Block 23 Block 29 Block 30"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 828
+        },
+        {
+          "x": 2280,
+          "y": 828
+        },
+        {
+          "x": 2280,
+          "y": 1064
+        },
+        {
+          "x": 199,
+          "y": 1064
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='83' style='font-size:16px'>Figure 6: Attention map visualization of the selected blocks of the baseline ViT model with 32 transformer blocks. The first row is based<br>on original Self-attention module and the second is based on Re-attention. As can be seen, the model only learns local patch relationship<br>at its shallow blocks with the rest of attention values near to zero. Though their the scope increases gradually as the block goes deeper, the<br>attention maps tend to become nearly uniform and thus lose diversity. After adding Re-attention, the originally similar attention maps are<br>changed to be diverse as shown in the second row. Only at the last block's attention map, a nearly uniform attention map is learned.</caption>",
+      "id": 83,
+      "page": 7,
+      "text": "Figure 6: Attention map visualization of the selected blocks of the baseline ViT model with 32 transformer blocks. The first row is based\non original Self-attention module and the second is based on Re-attention. As can be seen, the model only learns local patch relationship\nat its shallow blocks with the rest of attention values near to zero. Though their the scope increases gradually as the block goes deeper, the\nattention maps tend to become nearly uniform and thus lose diversity. After adding Re-attention, the originally similar attention maps are\nchanged to be diverse as shown in the second row. Only at the last block's attention map, a nearly uniform attention map is learned."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 206,
+          "y": 1130
+        },
+        {
+          "x": 1203,
+          "y": 1130
+        },
+        {
+          "x": 1203,
+          "y": 1569
+        },
+        {
+          "x": 206,
+          "y": 1569
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='84' style='font-size:14px' alt=\"Value projection V\nValue projection V\nNormalization\n011 ... 01H\nMatrix\n: :\nTransformation\nOHI ... 0HH」\nMulti-head attention Multi-head attention\nk 9 k 9\" data-coord=\"top-left:(206,1130); bottom-right:(1203,1569)\" /></figure>",
+      "id": 84,
+      "page": 7,
+      "text": "Value projection V\nValue projection V\nNormalization\n011 ... 01H\nMatrix\n: :\nTransformation\nOHI ... 0HH」\nMulti-head attention Multi-head attention\nk 9 k 9"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 1605
+        },
+        {
+          "x": 1199,
+          "y": 1605
+        },
+        {
+          "x": 1199,
+          "y": 1788
+        },
+        {
+          "x": 202,
+          "y": 1788
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='85' style='font-size:18px'>Figure 7: (Left): The original self-attention mechanism; (Right):<br>Our proposed re-attention mechanism. As shown, the original at-<br>tention map is mixed via a learnable matrix 0 before multiplied<br>with values.</caption>",
+      "id": 85,
+      "page": 7,
+      "text": "Figure 7: (Left): The original self-attention mechanism; (Right):\nOur proposed re-attention mechanism. As shown, the original at-\ntention map is mixed via a learnable matrix 0 before multiplied\nwith values."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1897
+        },
+        {
+          "x": 1200,
+          "y": 1897
+        },
+        {
+          "x": 1200,
+          "y": 2145
+        },
+        {
+          "x": 201,
+          "y": 2145
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='86' style='font-size:20px'>ilar blocks in the model. These experiments demonstrate<br>that the proposed Re-attention can indeed solve the atten-<br>tion collapse problem and thus enables training a very deep<br>vision transformer without extra datasets or augmentation<br>policies.</p>",
+      "id": 86,
+      "page": 7,
+      "text": "ilar blocks in the model. These experiments demonstrate\nthat the proposed Re-attention can indeed solve the atten-\ntion collapse problem and thus enables training a very deep\nvision transformer without extra datasets or augmentation\npolicies."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 2210
+        },
+        {
+          "x": 1198,
+          "y": 2210
+        },
+        {
+          "x": 1198,
+          "y": 2299
+        },
+        {
+          "x": 203,
+          "y": 2299
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='87' style='font-size:18px'>Table 4: ImageNet Top-1 accuracy of deep ViT (DeepViT) models<br>with Re-attention and different number of transformer blocks.</caption>",
+      "id": 87,
+      "page": 7,
+      "text": "Table 4: ImageNet Top-1 accuracy of deep ViT (DeepViT) models\nwith Re-attention and different number of transformer blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2337
+        },
+        {
+          "x": 1204,
+          "y": 2337
+        },
+        {
+          "x": 1204,
+          "y": 2712
+        },
+        {
+          "x": 202,
+          "y": 2712
+        }
+      ],
+      "category": "table",
+      "html": "<table id='88' style='font-size:16px'><tr><td>Model</td><td>#Similar Blocks</td><td>Param. (M)</td><td>Top-1 Acc. (%)</td></tr><tr><td>ViT-16B [7]</td><td>5</td><td>24.5</td><td>78.9</td></tr><tr><td>DeepViT-16B</td><td>0</td><td>24.5</td><td>79.1 (+0.2)</td></tr><tr><td>ViT-24B [7]</td><td>11</td><td>36.3</td><td>79.4</td></tr><tr><td>DeepViT-24B</td><td>0</td><td>36.3</td><td>80.1 (+0.7)</td></tr><tr><td>ViT-32B [7]</td><td>16</td><td>48.1</td><td>79.3</td></tr><tr><td>DeepViT-32B</td><td>0</td><td>48.1</td><td>80.9 (+1.6)</td></tr></table>",
+      "id": 88,
+      "page": 7,
+      "text": "Model #Similar Blocks Param. (M) Top-1 Acc. (%)\n ViT-16B [7] 5 24.5 78.9\n DeepViT-16B 0 24.5 79.1 (+0.2)\n ViT-24B [7] 11 36.3 79.4\n DeepViT-24B 0 36.3 80.1 (+0.7)\n ViT-32B [7] 16 48.1 79.3\n DeepViT-32B 0 48.1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2777
+        },
+        {
+          "x": 1195,
+          "y": 2777
+        },
+        {
+          "x": 1195,
+          "y": 2825
+        },
+        {
+          "x": 202,
+          "y": 2825
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='89' style='font-size:22px'>Comparison to adding temperature in self-attention:</p>",
+      "id": 89,
+      "page": 7,
+      "text": "Comparison to adding temperature in self-attention:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 2825
+        },
+        {
+          "x": 1200,
+          "y": 2825
+        },
+        {
+          "x": 1200,
+          "y": 2976
+        },
+        {
+          "x": 202,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='90' style='font-size:20px'>The most intuitive way to mitigate the over-smoothing phe-<br>nomenon is to sharpen the distribution of the elements in<br>the attention map of MHSA. We could achieve this by as-</p>",
+      "id": 90,
+      "page": 7,
+      "text": "The most intuitive way to mitigate the over-smoothing phe-\nnomenon is to sharpen the distribution of the elements in\nthe attention map of MHSA. We could achieve this by as-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 1152
+        },
+        {
+          "x": 2219,
+          "y": 1152
+        },
+        {
+          "x": 2219,
+          "y": 1198
+        },
+        {
+          "x": 1281,
+          "y": 1198
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='91' style='font-size:18px'>signing a temperature T to the Softmax layer of MHSA:</p>",
+      "id": 91,
+      "page": 7,
+      "text": "signing a temperature T to the Softmax layer of MHSA:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1276,
+          "y": 1378
+        },
+        {
+          "x": 2278,
+          "y": 1378
+        },
+        {
+          "x": 2278,
+          "y": 2176
+        },
+        {
+          "x": 1276,
+          "y": 2176
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='92' style='font-size:20px'>As the attention collapse is observed to be severe on deep<br>layers (as shown in Fig. 3), we design two sets of experi-<br>ments on a ViT model with 32 transformer blocks: (a) lin-<br>early decaying the temperature T in each block such that<br>the attention map distribution is sharpened and (b) mak-<br>ing the temperature learnable and optimized together with<br>the model training. We first check the impact of the Soft-<br>Max temperature on reducing the attention map similarity.<br>As shown in Fig. 8(a), the number of similar blocks are<br>still large. Correspondingly, the feature similarity among<br>blocks are also large as shown in Fig. 8(b). Thus, adding a<br>temperature to the SoftMax only reduces the attention map<br>similarity by a small margin. The classification results on<br>ImageNet are shown in Tab. 5. As shown, using a learn-<br>able temperature could improve the performance but the im-<br>provement is marginal.</p>",
+      "id": 92,
+      "page": 7,
+      "text": "As the attention collapse is observed to be severe on deep\nlayers (as shown in Fig. 3), we design two sets of experi-\nments on a ViT model with 32 transformer blocks: (a) lin-\nearly decaying the temperature T in each block such that\nthe attention map distribution is sharpened and (b) mak-\ning the temperature learnable and optimized together with\nthe model training. We first check the impact of the Soft-\nMax temperature on reducing the attention map similarity.\nAs shown in Fig. 8(a), the number of similar blocks are\nstill large. Correspondingly, the feature similarity among\nblocks are also large as shown in Fig. 8(b). Thus, adding a\ntemperature to the SoftMax only reduces the attention map\nsimilarity by a small margin. The classification results on\nImageNet are shown in Tab. 5. As shown, using a learn-\nable temperature could improve the performance but the im-\nprovement is marginal."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2220
+        },
+        {
+          "x": 2277,
+          "y": 2220
+        },
+        {
+          "x": 2277,
+          "y": 2354
+        },
+        {
+          "x": 1280,
+          "y": 2354
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='93' style='font-size:16px'>Table 5: ImageNet Top-1 accuracy of the ViT models with Soft-<br>Max temperature T and the drop attention. The embedding dimen-<br>sion of all the models is set as 384.</caption>",
+      "id": 93,
+      "page": 7,
+      "text": "Table 5: ImageNet Top-1 accuracy of the ViT models with Soft-\nMax temperature T and the drop attention. The embedding dimen-\nsion of all the models is set as 384."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1303,
+          "y": 2396
+        },
+        {
+          "x": 2251,
+          "y": 2396
+        },
+        {
+          "x": 2251,
+          "y": 2686
+        },
+        {
+          "x": 1303,
+          "y": 2686
+        }
+      ],
+      "category": "table",
+      "html": "<table id='94' style='font-size:14px'><tr><td># Blocks</td><td># Similar Blocks</td><td>Model</td><td>Acc. (%)</td></tr><tr><td>32</td><td>16</td><td>Vanilla</td><td>79.3</td></tr><tr><td>32</td><td>13</td><td>Linearly decayed T</td><td>79.0</td></tr><tr><td>32</td><td>10</td><td>Learnable T</td><td>79.5</td></tr><tr><td>32</td><td>8</td><td>drop attention</td><td>79.5</td></tr><tr><td>32</td><td>0</td><td>Re-attention</td><td>80.9</td></tr></table>",
+      "id": 94,
+      "page": 7,
+      "text": "# Blocks # Similar Blocks Model Acc. (%)\n 32 16 Vanilla 79.3\n 32 13 Linearly decayed T 79.0\n 32 10 Learnable T 79.5\n 32 8 drop attention 79.5\n 32 0 Re-attention"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2776
+        },
+        {
+          "x": 2278,
+          "y": 2776
+        },
+        {
+          "x": 2278,
+          "y": 2978
+        },
+        {
+          "x": 1280,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='95' style='font-size:20px'>Comparison to dropping attentions: Another baseline<br>we have attempted to differentiate the self-attention maps<br>across layers is to use random dropout on the attention maps<br>A. As the dropout will mask out different positions on</p>",
+      "id": 95,
+      "page": 7,
+      "text": "Comparison to dropping attentions: Another baseline\nwe have attempted to differentiate the self-attention maps\nacross layers is to use random dropout on the attention maps\nA. As the dropout will mask out different positions on"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 203,
+          "y": 319
+        },
+        {
+          "x": 2269,
+          "y": 319
+        },
+        {
+          "x": 2269,
+          "y": 950
+        },
+        {
+          "x": 203,
+          "y": 950
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='96' style='font-size:14px' alt=\"Transformation Matrix\nAttention Map Cross Layer Similarity Feature Map Cross Layer Similarity\n1.2 1.2 1.0 O\n0.12\nRe-attention Original ViT-32B\nDrop-attention Re-attention\n1.0 1.0 2\nSoftMax Temperature Drop-attention\n0.8\n0.06\nSimilarity SoftMax Temperature 0\nSimilarity\n0.8 0.8 4\n0.6 0.00\n5\n0.6 0.6 6\nCosine\nCosine\n0.4 -0.06\n0.4 0.4 CO\n9\n-0.12\n0.2\n0.2 0.2\n10\n11\n-0.18\n0.0 0.0 0.0 0 1 2 3 4 5 6 7 8 9 10 11\n0 10 15 20 25 30 0 10 15 20 25 30 Head Index\nBlock Index Block Index\n(a) (b) (c)\" data-coord=\"top-left:(203,319); bottom-right:(2269,950)\" /></figure>",
+      "id": 96,
+      "page": 8,
+      "text": "Transformation Matrix\nAttention Map Cross Layer Similarity Feature Map Cross Layer Similarity\n1.2 1.2 1.0 O\n0.12\nRe-attention Original ViT-32B\nDrop-attention Re-attention\n1.0 1.0 2\nSoftMax Temperature Drop-attention\n0.8\n0.06\nSimilarity SoftMax Temperature 0\nSimilarity\n0.8 0.8 4\n0.6 0.00\n5\n0.6 0.6 6\nCosine\nCosine\n0.4 -0.06\n0.4 0.4 CO\n9\n-0.12\n0.2\n0.2 0.2\n10\n11\n-0.18\n0.0 0.0 0.0 0 1 2 3 4 5 6 7 8 9 10 11\n0 10 15 20 25 30 0 10 15 20 25 30 Head Index\nBlock Index Block Index\n(a) (b) (c)"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 960
+        },
+        {
+          "x": 2278,
+          "y": 960
+        },
+        {
+          "x": 2278,
+          "y": 1101
+        },
+        {
+          "x": 200,
+          "y": 1101
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='97' style='font-size:14px'>Figure 8: (a) Adjacent block attention map similarity with different methods. As can be seen, our proposed Re-attention achieves low<br>cross layer attention map similarity. (b) Cosine similarity between the feature map of the last block and each of the previous block. (c)<br>Visualization of transformation matrix of the last block.</caption>",
+      "id": 97,
+      "page": 8,
+      "text": "Figure 8: (a) Adjacent block attention map similarity with different methods. As can be seen, our proposed Re-attention achieves low\ncross layer attention map similarity. (b) Cosine similarity between the feature map of the last block and each of the previous block. (c)\nVisualization of transformation matrix of the last block."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1186
+        },
+        {
+          "x": 1200,
+          "y": 1186
+        },
+        {
+          "x": 1200,
+          "y": 1739
+        },
+        {
+          "x": 200,
+          "y": 1739
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='98' style='font-size:16px'>the attention maps for different blocks, the similarity be-<br>tween attention maps could be reduced. The impacts on<br>the attention maps and the output features of each block are<br>shown in Fig. 8(a-b). It is observed that dropping atten-<br>tion does reduce the cross layer similarity of the attention<br>maps. However, the similarity among features are not re-<br>duced by much. This is because the difference between at-<br>tention maps comes from the zero positions in the generated<br>mask. Those zero values do reduce the similarity between<br>attention maps but not contribute to the features. Thus, the<br>improvement is still not significant as shown in Tab. 5.</p>",
+      "id": 98,
+      "page": 8,
+      "text": "the attention maps for different blocks, the similarity be-\ntween attention maps could be reduced. The impacts on\nthe attention maps and the output features of each block are\nshown in Fig. 8(a-b). It is observed that dropping atten-\ntion does reduce the cross layer similarity of the attention\nmaps. However, the similarity among features are not re-\nduced by much. This is because the difference between at-\ntention maps comes from the zero positions in the generated\nmask. Those zero values do reduce the similarity between\nattention maps but not contribute to the features. Thus, the\nimprovement is still not significant as shown in Tab. 5."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 1778
+        },
+        {
+          "x": 1200,
+          "y": 1778
+        },
+        {
+          "x": 1200,
+          "y": 2981
+        },
+        {
+          "x": 199,
+          "y": 2981
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='99' style='font-size:16px'>Advantages of Re-attention: Our proposed Re-attention<br>brings more significantimprovements over the temperature-<br>tuning and the attention-dropping methods. This is because<br>both adding temperature and dropping attention are regular-<br>izing the distribution of the originally over-smoothed self-<br>attention maps, without explicitly encouraging them to be<br>diverse. However, our proposed Re-attention mechanism<br>uses different heads (whose attention maps are dissimilar)<br>as basis and re-generate the attention maps via the trans-<br>formation matrix O. This process incorporates the inter-<br>head information communication and the generated atten-<br>tion maps can encode richer information. It is worth noting<br>that the original MHSA design can be thought as a special<br>case of Re-attention with an identity transformation matrix.<br>By making 日 learnable for each block, an optimized pat-<br>tern could be learned end to end. As shown in Fig. 8(c),<br>the learned transformation matrix assigns a diverse set of<br>weights for each newly generated head. It clearly shows that<br>the combination for each new heads takes different weights<br>from the original heads in the re-attention process and thus<br>reduces the similarity between their attention maps. As<br>shown in Fig. 8(a), our proposed Re-attention achieves the<br>lowest cross layer attention map similarity. Consequently,<br>it also reduces the feature map similarity across layers as</p>",
+      "id": 99,
+      "page": 8,
+      "text": "Advantages of Re-attention: Our proposed Re-attention\nbrings more significantimprovements over the temperature-\ntuning and the attention-dropping methods. This is because\nboth adding temperature and dropping attention are regular-\nizing the distribution of the originally over-smoothed self-\nattention maps, without explicitly encouraging them to be\ndiverse. However, our proposed Re-attention mechanism\nuses different heads (whose attention maps are dissimilar)\nas basis and re-generate the attention maps via the trans-\nformation matrix O. This process incorporates the inter-\nhead information communication and the generated atten-\ntion maps can encode richer information. It is worth noting\nthat the original MHSA design can be thought as a special\ncase of Re-attention with an identity transformation matrix.\nBy making 日 learnable for each block, an optimized pat-\ntern could be learned end to end. As shown in Fig. 8(c),\nthe learned transformation matrix assigns a diverse set of\nweights for each newly generated head. It clearly shows that\nthe combination for each new heads takes different weights\nfrom the original heads in the re-attention process and thus\nreduces the similarity between their attention maps. As\nshown in Fig. 8(a), our proposed Re-attention achieves the\nlowest cross layer attention map similarity. Consequently,\nit also reduces the feature map similarity across layers as"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1189
+        },
+        {
+          "x": 1604,
+          "y": 1189
+        },
+        {
+          "x": 1604,
+          "y": 1235
+        },
+        {
+          "x": 1280,
+          "y": 1235
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='100' style='font-size:20px'>shown in Fig. 8(b).</p>",
+      "id": 100,
+      "page": 8,
+      "text": "shown in Fig. 8(b)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1290
+        },
+        {
+          "x": 2104,
+          "y": 1290
+        },
+        {
+          "x": 2104,
+          "y": 1341
+        },
+        {
+          "x": 1280,
+          "y": 1341
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='101' style='font-size:20px'>5.4. Comparison with other SOTA models</p>",
+      "id": 101,
+      "page": 8,
+      "text": "5.4. Comparison with other SOTA models"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1277,
+          "y": 1374
+        },
+        {
+          "x": 2279,
+          "y": 1374
+        },
+        {
+          "x": 2279,
+          "y": 2423
+        },
+        {
+          "x": 1277,
+          "y": 2423
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='102' style='font-size:18px'>With Re-attention, we design two ViT variants, i.e.,<br>DeepViT-S and DeepViT-L, based on the ViT with 16 and<br>32 transformer blocks respectively. For both models, we use<br>Re-attention to replace the self-attention. To have a similar<br>number of parameters with other ViT models, we adjust the<br>embedding dimension accordingly. The hidden dimensions<br>of DeepViT-S and Deep ViT-L models are set as 396 and 408<br>respectively. More details on the model configuration are<br>given in the supplementary material. Besides, motivated by<br>[42], we add three CNN layers for extracting the token em-<br>beddings, using the same configurations as [42]. It is worth<br>noting that we do not use the optimized training recipes<br>and the repeated augmentation as [37] for training our mod-<br>els. The results are shown in Tab. 6. Clearly, our Deep ViT<br>model achieves higher accuracy with less parameters than<br>the recent CNN and ViT based models. Notably, without<br>any complicated architecture change as made by T2T-ViT<br>[42] (adopting a deep-narrow architecture) or DeiT [37] (in-<br>troducing token distillation), simply using the Re-attention<br>makes our Deep ViT-L outperforms them by 0.4 points with<br>even smaller model size (55M VS. 64M & 86 M).</p>",
+      "id": 102,
+      "page": 8,
+      "text": "With Re-attention, we design two ViT variants, i.e.,\nDeepViT-S and DeepViT-L, based on the ViT with 16 and\n32 transformer blocks respectively. For both models, we use\nRe-attention to replace the self-attention. To have a similar\nnumber of parameters with other ViT models, we adjust the\nembedding dimension accordingly. The hidden dimensions\nof DeepViT-S and Deep ViT-L models are set as 396 and 408\nrespectively. More details on the model configuration are\ngiven in the supplementary material. Besides, motivated by\n[42], we add three CNN layers for extracting the token em-\nbeddings, using the same configurations as [42]. It is worth\nnoting that we do not use the optimized training recipes\nand the repeated augmentation as [37] for training our mod-\nels. The results are shown in Tab. 6. Clearly, our Deep ViT\nmodel achieves higher accuracy with less parameters than\nthe recent CNN and ViT based models. Notably, without\nany complicated architecture change as made by T2T-ViT\n[42] (adopting a deep-narrow architecture) or DeiT [37] (in-\ntroducing token distillation), simply using the Re-attention\nmakes our Deep ViT-L outperforms them by 0.4 points with\neven smaller model size (55M VS. 64M & 86 M)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 2486
+        },
+        {
+          "x": 1579,
+          "y": 2486
+        },
+        {
+          "x": 1579,
+          "y": 2539
+        },
+        {
+          "x": 1280,
+          "y": 2539
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='103' style='font-size:22px'>6. Conclusion</p>",
+      "id": 103,
+      "page": 8,
+      "text": "6. Conclusion"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2578
+        },
+        {
+          "x": 2279,
+          "y": 2578
+        },
+        {
+          "x": 2279,
+          "y": 2975
+        },
+        {
+          "x": 1279,
+          "y": 2975
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='104' style='font-size:16px'>In this work, we found the attention collapse problem of<br>vision transformers as they go deeper and propose a novel<br>Re-attention mechanism to solve it with minimum amount<br>of computation and memory overhead. With our proposed<br>Re-attention, we are able to maintain an increasing perfor-<br>mance when increasing the depth of ViTs. We hope our<br>observations and methods could facilitate the development<br>of vision transformers in future.</p>",
+      "id": 104,
+      "page": 8,
+      "text": "In this work, we found the attention collapse problem of\nvision transformers as they go deeper and propose a novel\nRe-attention mechanism to solve it with minimum amount\nof computation and memory overhead. With our proposed\nRe-attention, we are able to maintain an increasing perfor-\nmance when increasing the depth of ViTs. We hope our\nobservations and methods could facilitate the development\nof vision transformers in future."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 202,
+          "y": 299
+        },
+        {
+          "x": 1200,
+          "y": 299
+        },
+        {
+          "x": 1200,
+          "y": 435
+        },
+        {
+          "x": 202,
+          "y": 435
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='105' style='font-size:16px'>Table 6: Top-1 accuracy comparison with other SOTA models on<br>ImageNet. * denotes our reproduced results. * denotes our model<br>trained with training recipes used in DeiT [37].</caption>",
+      "id": 105,
+      "page": 9,
+      "text": "Table 6: Top-1 accuracy comparison with other SOTA models on\nImageNet. * denotes our reproduced results. * denotes our model\ntrained with training recipes used in DeiT [37]."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 208,
+          "y": 470
+        },
+        {
+          "x": 1227,
+          "y": 470
+        },
+        {
+          "x": 1227,
+          "y": 1380
+        },
+        {
+          "x": 208,
+          "y": 1380
+        }
+      ],
+      "category": "table",
+      "html": "<table id='106' style='font-size:14px'><tr><td>Model</td><td>Params. (M)</td><td>MAdds (G)</td><td>Acc. (%)</td></tr><tr><td>ResNet50 [9]</td><td>25</td><td>4.0</td><td>76.2</td></tr><tr><td>ResNet50*</td><td>25</td><td>4.0</td><td>79.0</td></tr><tr><td>RegNetY-8GF [27]</td><td>40</td><td>8.0</td><td>79.3</td></tr><tr><td>Vit-B/16 [7]</td><td>86</td><td>17.7</td><td>77.9</td></tr><tr><td>Vit-B/16*</td><td>86</td><td>17.7</td><td>79.3</td></tr><tr><td>T2T-ViT-16 [42]</td><td>21</td><td>4.8</td><td>80.6</td></tr><tr><td>DeiT-S [37]</td><td>22</td><td>-</td><td>79.8</td></tr><tr><td>DeepVit-S (Ours)</td><td>27</td><td>6.2</td><td>81.4</td></tr><tr><td>DeepVit-S* (Ours)</td><td>27</td><td>6.2</td><td>82.3</td></tr><tr><td>ResNet152 [9]</td><td>60</td><td>11.6</td><td>78.3</td></tr><tr><td>ResNet152*</td><td>60</td><td>11.6</td><td>80.6</td></tr><tr><td>RegNetY-16GF [27]</td><td>54</td><td>15.9</td><td>80.0</td></tr><tr><td>Vit-L/16 [7]</td><td>307</td><td>-</td><td>76.5</td></tr><tr><td>T2T-ViT-24 [42]</td><td>64</td><td>12.6</td><td>81.8</td></tr><tr><td>DeiT-B [37]</td><td>86</td><td>-</td><td>81.8</td></tr><tr><td>DeiT-B*</td><td>86</td><td>17.7</td><td>81.5</td></tr><tr><td>DeepVit-L (Ours)</td><td>55</td><td>12.5</td><td>82.2</td></tr><tr><td>DeepVit-L* (Ours)</td><td>58</td><td>12.8</td><td>83.1</td></tr><tr><td>DeepVit-L* ↑ 384 (Ours)</td><td>58</td><td>12.8</td><td>84.3</td></tr></table>",
+      "id": 106,
+      "page": 9,
+      "text": "Model Params. (M) MAdds (G) Acc. (%)\n ResNet50 [9] 25 4.0 76.2\n ResNet50* 25 4.0 79.0\n RegNetY-8GF [27] 40 8.0 79.3\n Vit-B/16 [7] 86 17.7 77.9\n Vit-B/16* 86 17.7 79.3\n T2T-ViT-16 [42] 21 4.8 80.6\n DeiT-S [37] 22 - 79.8\n DeepVit-S (Ours) 27 6.2 81.4\n DeepVit-S* (Ours) 27 6.2 82.3\n ResNet152 [9] 60 11.6 78.3\n ResNet152* 60 11.6 80.6\n RegNetY-16GF [27] 54 15.9 80.0\n Vit-L/16 [7] 307 - 76.5\n T2T-ViT-24 [42] 64 12.6 81.8\n DeiT-B [37] 86 - 81.8\n DeiT-B* 86 17.7 81.5\n DeepVit-L (Ours) 55 12.5 82.2\n DeepVit-L* (Ours) 58 12.8 83.1\n DeepVit-L* ↑ 384 (Ours) 58 12.8"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 204,
+          "y": 1451
+        },
+        {
+          "x": 445,
+          "y": 1451
+        },
+        {
+          "x": 445,
+          "y": 1505
+        },
+        {
+          "x": 204,
+          "y": 1505
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='107' style='font-size:22px'>References</p>",
+      "id": 107,
+      "page": 9,
+      "text": "References"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 217,
+          "y": 1538
+        },
+        {
+          "x": 1203,
+          "y": 1538
+        },
+        {
+          "x": 1203,
+          "y": 2976
+        },
+        {
+          "x": 217,
+          "y": 2976
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='108' style='font-size:18px'>[1] Yoshua Bengio, Aaron Courville, and Pascal Vincent. Rep-<br>resentation learning: A review and new perspectives. IEEE<br>transactions on pattern analysis and machine intelligence,<br>35(8):1798-1828, 2013.<br>[2] Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Sub-<br>biah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakan-<br>tan, Pranav Shyam, Girish Sastry, Amanda Askell, et al.<br>Language models are few-shot learners. arXiv preprint<br>arXiv:2005.14165, 2020.<br>[3] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas<br>Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-<br>end object detection with transformers. In European Confer-<br>ence on Computer Vision, pages 213-229. Springer, 2020.<br>[4] Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping<br>Deng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, and<br>Wen Gao. Pre-trained image processing transformer. arXiv<br>preprint arXiv:2012.00364, 2020.<br>[5] Ekin D Cubuk, Barret Zoph, Jonathon Shlens, and Quoc V<br>Le. Randaugment: Practical automated data augmenta-<br>tion with a reduced search space. In Proceedings of the<br>IEEE/CVF Conference on Computer Vision and Pattern<br>Recognition Workshops, pages 702-703, 2020.<br>[6] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina<br>Toutanova. Bert: Pre-training of deep bidirectional<br>transformers for language understanding. arXiv preprint<br>arXiv:1810.04805, 2018.<br>[7] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,<br>Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,<br>Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-<br>vain Gelly, et al. An image is worth 16x16 words: Trans-</p>",
+      "id": 108,
+      "page": 9,
+      "text": "[1] Yoshua Bengio, Aaron Courville, and Pascal Vincent. Rep-\nresentation learning: A review and new perspectives. IEEE\ntransactions on pattern analysis and machine intelligence,\n35(8):1798-1828, 2013.\n[2] Tom B Brown, Benjamin Mann, Nick Ryder, Melanie Sub-\nbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakan-\ntan, Pranav Shyam, Girish Sastry, Amanda Askell, et al.\nLanguage models are few-shot learners. arXiv preprint\narXiv:2005.14165, 2020.\n[3] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas\nUsunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-\nend object detection with transformers. In European Confer-\nence on Computer Vision, pages 213-229. Springer, 2020.\n[4] Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping\nDeng, Zhenhua Liu, Siwei Ma, Chunjing Xu, Chao Xu, and\nWen Gao. Pre-trained image processing transformer. arXiv\npreprint arXiv:2012.00364, 2020.\n[5] Ekin D Cubuk, Barret Zoph, Jonathon Shlens, and Quoc V\nLe. Randaugment: Practical automated data augmenta-\ntion with a reduced search space. In Proceedings of the\nIEEE/CVF Conference on Computer Vision and Pattern\nRecognition Workshops, pages 702-703, 2020.\n[6] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina\nToutanova. Bert: Pre-training of deep bidirectional\ntransformers for language understanding. arXiv preprint\narXiv:1810.04805, 2018.\n[7] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,\nDirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,\nMostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-\nvain Gelly, et al. An image is worth 16x16 words: Trans-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 313
+        },
+        {
+          "x": 2285,
+          "y": 313
+        },
+        {
+          "x": 2285,
+          "y": 2978
+        },
+        {
+          "x": 1281,
+          "y": 2978
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='109' style='font-size:20px'>formers for image recognition at scale. arXiv preprint<br>arXiv:2010.11929, 2020.<br>[8] Xavier Glorot and Yoshua Bengio. Understanding the diffi-<br>culty of training deep feedforward neural networks. In Pro-<br>ceedings of the thirteenth international conference on artifi-<br>cial intelligence and statistics, pages 249-256. JMLR Work-<br>shop and Conference Proceedings, 2010.<br>[9] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.<br>Deep residual learning for image recognition. In Proceed-<br>ings of the IEEE conference on computer vision and pattern<br>recognition, pages 770-778, 2016.<br>[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.<br>Identity mappings in deep residual networks. In European<br>conference on computer vision, pages 630-645. Springer,<br>2016.<br>[11] Jonathan Ho, Nal Kalchbrenner, Dirk Weissenborn, and Tim<br>Salimans. Axial attention in multidimensional transformers.<br>arXiv preprint arXiv:1912.12180, 2019.<br>[12] Qibin Hou, Daquan Zhou, and Jiashi Feng. Coordinate at-<br>tention for efficient mobile network design. arXiv preprint<br>arXiv:2103.02907, 2021.<br>[13] Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh<br>Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu,<br>Ruoming Pang, Vijay Vasudevan, et al. Searching for mo-<br>bilenetv3. In Proceedings of the IEEE/CVF International<br>Conference on Computer Vision, pages 1314-1324, 2019.<br>[14] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Lo-<br>cal relation networks for image recognition. In Proceedings<br>of the IEEE/CVF International Conference on Computer Vi-<br>sion, pages 3464-3473, 2019.<br>[15] Gao Huang, Zhuang Liu, Laurens Van Der Maaten, and Kil-<br>ian Q Weinberger. Densely connected convolutional net-<br>works. pages 4700-4708, 2017.<br>[16] Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Fi-<br>rat, Mia Xu Chen, Dehao Chen, HyoukJoong Lee, Jiquan<br>Ngiam, Quoc V Le, Yonghui Wu, et al. Gpipe: Efficient<br>training of giant neural networks using pipeline parallelism.<br>arXiv preprint arXiv:1811.06965, 2018.<br>[17] Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen,<br>Jiashi Feng, and Shuicheng Yan. Convbert: Improving<br>bert with span-based dynamic convolution. arXiv preprint<br>arXiv:2008.02496, 2020.<br>[18] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton.<br>Imagenet classification with deep convolutional neural net-<br>works. In Advances in neural information processing sys-<br>tems, pages 1097-1105, 2012.<br>[19] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao<br>Chen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam<br>Shazeer, and Zhifeng Chen. Gshard: Scaling giant models<br>with conditional computation and automatic sharding. arXiv<br>preprint arXiv:2006.16668, 2020.<br>[20] Jiang-Jiang Liu, Qibin Hou, Ming-Ming Cheng, Changhu<br>Wang, and Jiashi Feng. Improving convolutional networks<br>with self-calibrated convolutions. In Proceedings of the<br>IEEE/CVF Conference on Computer Vision and Pattern<br>Recognition, pages 10096-10105, 2020.</p>",
+      "id": 109,
+      "page": 9,
+      "text": "formers for image recognition at scale. arXiv preprint\narXiv:2010.11929, 2020.\n[8] Xavier Glorot and Yoshua Bengio. Understanding the diffi-\nculty of training deep feedforward neural networks. In Pro-\nceedings of the thirteenth international conference on artifi-\ncial intelligence and statistics, pages 249-256. JMLR Work-\nshop and Conference Proceedings, 2010.\n[9] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.\nDeep residual learning for image recognition. In Proceed-\nings of the IEEE conference on computer vision and pattern\nrecognition, pages 770-778, 2016.\n[10] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.\nIdentity mappings in deep residual networks. In European\nconference on computer vision, pages 630-645. Springer,\n2016.\n[11] Jonathan Ho, Nal Kalchbrenner, Dirk Weissenborn, and Tim\nSalimans. Axial attention in multidimensional transformers.\narXiv preprint arXiv:1912.12180, 2019.\n[12] Qibin Hou, Daquan Zhou, and Jiashi Feng. Coordinate at-\ntention for efficient mobile network design. arXiv preprint\narXiv:2103.02907, 2021.\n[13] Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh\nChen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu,\nRuoming Pang, Vijay Vasudevan, et al. Searching for mo-\nbilenetv3. In Proceedings of the IEEE/CVF International\nConference on Computer Vision, pages 1314-1324, 2019.\n[14] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Lo-\ncal relation networks for image recognition. In Proceedings\nof the IEEE/CVF International Conference on Computer Vi-\nsion, pages 3464-3473, 2019.\n[15] Gao Huang, Zhuang Liu, Laurens Van Der Maaten, and Kil-\nian Q Weinberger. Densely connected convolutional net-\nworks. pages 4700-4708, 2017.\n[16] Yanping Huang, Youlong Cheng, Ankur Bapna, Orhan Fi-\nrat, Mia Xu Chen, Dehao Chen, HyoukJoong Lee, Jiquan\nNgiam, Quoc V Le, Yonghui Wu, et al. Gpipe: Efficient\ntraining of giant neural networks using pipeline parallelism.\narXiv preprint arXiv:1811.06965, 2018.\n[17] Zihang Jiang, Weihao Yu, Daquan Zhou, Yunpeng Chen,\nJiashi Feng, and Shuicheng Yan. Convbert: Improving\nbert with span-based dynamic convolution. arXiv preprint\narXiv:2008.02496, 2020.\n[18] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton.\nImagenet classification with deep convolutional neural net-\nworks. In Advances in neural information processing sys-\ntems, pages 1097-1105, 2012.\n[19] Dmitry Lepikhin, HyoukJoong Lee, Yuanzhong Xu, Dehao\nChen, Orhan Firat, Yanping Huang, Maxim Krikun, Noam\nShazeer, and Zhifeng Chen. Gshard: Scaling giant models\nwith conditional computation and automatic sharding. arXiv\npreprint arXiv:2006.16668, 2020.\n[20] Jiang-Jiang Liu, Qibin Hou, Ming-Ming Cheng, Changhu\nWang, and Jiashi Feng. Improving convolutional networks\nwith self-calibrated convolutions. In Proceedings of the\nIEEE/CVF Conference on Computer Vision and Pattern\nRecognition, pages 10096-10105, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 294
+        },
+        {
+          "x": 1201,
+          "y": 294
+        },
+        {
+          "x": 1201,
+          "y": 2975
+        },
+        {
+          "x": 201,
+          "y": 2975
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='110' style='font-size:14px'>[21] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar<br>Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettle-<br>moyer, and Veselin Stoyanov. Roberta: A robustly optimized<br>bert pretraining approach. arXiv preprint arXiv:1907.11692,<br>2019.<br>[22] Ilya Loshchilov and Frank Hutter. Sgdr: Stochas-<br>tic gradient descent with warm restarts. arXiv preprint<br>arXiv:1608.03983, 2016.<br>[23] Ilya Loshchilov and Frank Hutter. Decoupled weight decay<br>regularization. arXiv preprint arXiv:1711.05101, 2017.<br>[24] Jiasen Lu, Dhruv Batra, Devi Parikh, and Stefan Lee.<br>Vilbert: Pretraining task-agnostic visiolinguistic represen-<br>tations for vision-and-language tasks. arXiv preprint<br>arXiv:1908.02265, 2019.<br>[25] Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer,<br>James Bradbury, Gregory Chanan, Trevor Killeen, Zeming<br>Lin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An im-<br>perative style, high-performance deep learning library. arXiv<br>preprint arXiv:1912.01703, 2019.<br>[26] Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario<br>Amodei, and Ilya Sutskever. Language models are unsuper-<br>vised multitask learners. OpenAI blog, 1(8):9, 2019.<br>[27] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick,<br>Kaiming He, and Piotr Dollar. Designing network design<br>spaces. In Proceedings of the IEEE/CVF Conference on<br>Computer Vision and Pattern Recognition, pages 10428-<br>10436, 2020.<br>[28] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan<br>Bello, Anselm Levskaya, and Jonathon Shlens. Stand-<br>alone self-attention in vision models. arXiv preprint<br>arXiv:1906.05909, 2019.<br>[29] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg<br>Sperl, and Christoph H Lampert. icarl: Incremental classifier<br>and representation learning. In Proceedings of the IEEE con-<br>ference on Computer Vision and Pattern Recognition, pages<br>2001-2010, 2017.<br>[30] Karen Simonyan and Andrew Zisserman. Very deep convo-<br>lutional networks for large-scale image recognition. arXiv<br>preprint arXiv:1409.1556, 2014.<br>[31] Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon<br>Shlens, Pieter Abbeel, and Ashish Vaswani. Bottle-<br>neck transformers for visual recognition. arXiv preprint<br>arXiv:2101.11605, 2021.<br>[32] Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy,<br>and Cordelia Schmid. Videobert: A joint model for video<br>and language representation learning. In Proceedings of the<br>IEEE/CVF International Conference on Computer Vision,<br>pages 7464-7473, 2019.<br>[33] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,<br>Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent<br>Vanhoucke, and Andrew Rabinovich. Going deeper with<br>convolutions. In Proceedings of the IEEE conference on<br>computer vision and pattern recognition, pages 1-9, 2015.<br>[34] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon<br>Shlens, and Zbigniew Wojna. Rethinking the inception archi-<br>tecture for computer vision. In Proceedings of the IEEE con-<br>ference on computer vision and pattern recognition, pages<br>2818-2826, 2016.</p>",
+      "id": 110,
+      "page": 10,
+      "text": "[21] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar\nJoshi, Danqi Chen, Omer Levy, Mike Lewis, Luke Zettle-\nmoyer, and Veselin Stoyanov. Roberta: A robustly optimized\nbert pretraining approach. arXiv preprint arXiv:1907.11692,\n2019.\n[22] Ilya Loshchilov and Frank Hutter. Sgdr: Stochas-\ntic gradient descent with warm restarts. arXiv preprint\narXiv:1608.03983, 2016.\n[23] Ilya Loshchilov and Frank Hutter. Decoupled weight decay\nregularization. arXiv preprint arXiv:1711.05101, 2017.\n[24] Jiasen Lu, Dhruv Batra, Devi Parikh, and Stefan Lee.\nVilbert: Pretraining task-agnostic visiolinguistic represen-\ntations for vision-and-language tasks. arXiv preprint\narXiv:1908.02265, 2019.\n[25] Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer,\nJames Bradbury, Gregory Chanan, Trevor Killeen, Zeming\nLin, Natalia Gimelshein, Luca Antiga, et al. Pytorch: An im-\nperative style, high-performance deep learning library. arXiv\npreprint arXiv:1912.01703, 2019.\n[26] Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario\nAmodei, and Ilya Sutskever. Language models are unsuper-\nvised multitask learners. OpenAI blog, 1(8):9, 2019.\n[27] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick,\nKaiming He, and Piotr Dollar. Designing network design\nspaces. In Proceedings of the IEEE/CVF Conference on\nComputer Vision and Pattern Recognition, pages 10428-\n10436, 2020.\n[28] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan\nBello, Anselm Levskaya, and Jonathon Shlens. Stand-\nalone self-attention in vision models. arXiv preprint\narXiv:1906.05909, 2019.\n[29] Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg\nSperl, and Christoph H Lampert. icarl: Incremental classifier\nand representation learning. In Proceedings of the IEEE con-\nference on Computer Vision and Pattern Recognition, pages\n2001-2010, 2017.\n[30] Karen Simonyan and Andrew Zisserman. Very deep convo-\nlutional networks for large-scale image recognition. arXiv\npreprint arXiv:1409.1556, 2014.\n[31] Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon\nShlens, Pieter Abbeel, and Ashish Vaswani. Bottle-\nneck transformers for visual recognition. arXiv preprint\narXiv:2101.11605, 2021.\n[32] Chen Sun, Austin Myers, Carl Vondrick, Kevin Murphy,\nand Cordelia Schmid. Videobert: A joint model for video\nand language representation learning. In Proceedings of the\nIEEE/CVF International Conference on Computer Vision,\npages 7464-7473, 2019.\n[33] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,\nScott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent\nVanhoucke, and Andrew Rabinovich. Going deeper with\nconvolutions. In Proceedings of the IEEE conference on\ncomputer vision and pattern recognition, pages 1-9, 2015.\n[34] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jon\nShlens, and Zbigniew Wojna. Rethinking the inception archi-\ntecture for computer vision. In Proceedings of the IEEE con-\nference on computer vision and pattern recognition, pages\n2818-2826, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1274,
+          "y": 301
+        },
+        {
+          "x": 2288,
+          "y": 301
+        },
+        {
+          "x": 2288,
+          "y": 2974
+        },
+        {
+          "x": 1274,
+          "y": 2974
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='111' style='font-size:14px'>[35] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model<br>scaling for convolutional neural networks. In International<br>Conference on Machine Learning, pages 6105-6114. PMLR,<br>2019.<br>[36] Mingxing Tan and Quoc V Le. Mixconv: Mixed depthwise<br>convolutional kernels. arXiv preprint arXiv:1907.09595,<br>2019.<br>[37] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco<br>Massa, Alexandre Sablayrolles, and Herve Jegou. Training<br>data-efficient image transformers & distillation through at-<br>tention. arXiv preprint arXiv:2012.12877, 2020.<br>[38] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-<br>reit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Il-<br>lia Polosukhin. Attention is all you need. arXiv preprint<br>arXiv:1706.03762, 2017.<br>[39] Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam,<br>Alan Yuille, and Liang-Chieh Chen. Axial-deeplab: Stand-<br>alone axial-attention for panoptic segmentation. In European<br>Conference on Computer Vision, pages 108-126. Springer,<br>2020.<br>[40] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaim-<br>ing He. Non-local neural networks. In Proceedings of the<br>IEEE conference on computer vision and pattern recogni-<br>tion, pages 7794-7803, 2018.<br>[41] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and<br>Kaiming He. Aggregated residual transformations for deep<br>neural networks. In Proceedings of the IEEE conference on<br>computer vision and pattern recognition, pages 1492-1500,<br>2017.<br>[42] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,<br>Francis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-<br>to-token vit: Training vision transformers from scratch on<br>imagenet. arXiv preprint arXiv:2101.11986, 2021.<br>[43] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk<br>Chun, Junsuk Choe, and Youngjoon Yoo. Cutmix: Regular-<br>ization strategy to train strong classifiers with localizable fea-<br>tures. In Proceedings of the IEEE/CVF International Con-<br>ference on Computer Vision, pages 6023-6032, 2019.<br>[44] Sergey Zagoruyko and Nikos Komodakis. Wide residual net-<br>works. arXiv preprint arXiv:1605.07146, 2016.<br>[45] Daokun Zhang, Jie Yin, Xingquan Zhu, and Chengqi Zhang.<br>Network representation learning: A survey. IEEE transac-<br>tions on Big Data, 6(1):3-28, 2018.<br>[46] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and<br>David Lopez-Paz. mixup: Beyond empirical risk minimiza-<br>tion. arXiv preprint arXiv:1710.09412, 2017.<br>[47] Hang Zhang, Chongruo Wu, Zhongyue Zhang, Yi Zhu, Zhi<br>Zhang, Haibin Lin, Yue Sun, Tong He, Jonas Mueller, R<br>Manmatha, et al. Resnest: Split-attention networks. arXiv<br>preprint arXiv:2004. 08955, 2020.<br>[48] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Explor-<br>ing self-attention for image recognition. In Proceedings of<br>the IEEE/CVF Conference on Computer Vision and Pattern<br>Recognition, pages 10076-10085, 2020.<br>[49] Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip Torr, and<br>Vladlen Koltun. Point transformer. arXiv preprint<br>arXiv:2012.09164, 2020.</p>",
+      "id": 111,
+      "page": 10,
+      "text": "[35] Mingxing Tan and Quoc Le. Efficientnet: Rethinking model\nscaling for convolutional neural networks. In International\nConference on Machine Learning, pages 6105-6114. PMLR,\n2019.\n[36] Mingxing Tan and Quoc V Le. Mixconv: Mixed depthwise\nconvolutional kernels. arXiv preprint arXiv:1907.09595,\n2019.\n[37] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco\nMassa, Alexandre Sablayrolles, and Herve Jegou. Training\ndata-efficient image transformers & distillation through at-\ntention. arXiv preprint arXiv:2012.12877, 2020.\n[38] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-\nreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Il-\nlia Polosukhin. Attention is all you need. arXiv preprint\narXiv:1706.03762, 2017.\n[39] Huiyu Wang, Yukun Zhu, Bradley Green, Hartwig Adam,\nAlan Yuille, and Liang-Chieh Chen. Axial-deeplab: Stand-\nalone axial-attention for panoptic segmentation. In European\nConference on Computer Vision, pages 108-126. Springer,\n2020.\n[40] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaim-\ning He. Non-local neural networks. In Proceedings of the\nIEEE conference on computer vision and pattern recogni-\ntion, pages 7794-7803, 2018.\n[41] Saining Xie, Ross Girshick, Piotr Dollar, Zhuowen Tu, and\nKaiming He. Aggregated residual transformations for deep\nneural networks. In Proceedings of the IEEE conference on\ncomputer vision and pattern recognition, pages 1492-1500,\n2017.\n[42] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,\nFrancis EH Tay, Jiashi Feng, and Shuicheng Yan. Tokens-\nto-token vit: Training vision transformers from scratch on\nimagenet. arXiv preprint arXiv:2101.11986, 2021.\n[43] Sangdoo Yun, Dongyoon Han, Seong Joon Oh, Sanghyuk\nChun, Junsuk Choe, and Youngjoon Yoo. Cutmix: Regular-\nization strategy to train strong classifiers with localizable fea-\ntures. In Proceedings of the IEEE/CVF International Con-\nference on Computer Vision, pages 6023-6032, 2019.\n[44] Sergey Zagoruyko and Nikos Komodakis. Wide residual net-\nworks. arXiv preprint arXiv:1605.07146, 2016.\n[45] Daokun Zhang, Jie Yin, Xingquan Zhu, and Chengqi Zhang.\nNetwork representation learning: A survey. IEEE transac-\ntions on Big Data, 6(1):3-28, 2018.\n[46] Hongyi Zhang, Moustapha Cisse, Yann N Dauphin, and\nDavid Lopez-Paz. mixup: Beyond empirical risk minimiza-\ntion. arXiv preprint arXiv:1710.09412, 2017.\n[47] Hang Zhang, Chongruo Wu, Zhongyue Zhang, Yi Zhu, Zhi\nZhang, Haibin Lin, Yue Sun, Tong He, Jonas Mueller, R\nManmatha, et al. Resnest: Split-attention networks. arXiv\npreprint arXiv:2004. 08955, 2020.\n[48] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Explor-\ning self-attention for image recognition. In Proceedings of\nthe IEEE/CVF Conference on Computer Vision and Pattern\nRecognition, pages 10076-10085, 2020.\n[49] Hengshuang Zhao, Li Jiang, Jiaya Jia, Philip Torr, and\nVladlen Koltun. Point transformer. arXiv preprint\narXiv:2012.09164, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 199,
+          "y": 302
+        },
+        {
+          "x": 1203,
+          "y": 302
+        },
+        {
+          "x": 1203,
+          "y": 867
+        },
+        {
+          "x": 199,
+          "y": 867
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='112' style='font-size:16px'>[50] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu,<br>Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao<br>Xiang, Philip HS Torr, et al. Rethinking semantic segmen-<br>tation from a sequence-to-sequence perspective with trans-<br>formers. arXiv preprint arXiv:2012.15840, 2020.<br>[51] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and<br>Yi Yang. Random erasing data augmentation. In Proceedings<br>ofthe AAAI Conference on Artificial Intelligence, volume 34,<br>pages 13001-13008, 2020.<br>[52] Daquan Zhou, Qibin Hou, Yunpeng Chen, Jiashi Feng, and<br>Shuicheng Yan. Rethinking bottleneck structure for efficient<br>mobile network design. ECCV, August, 2, 2020.</p>",
+      "id": 112,
+      "page": 11,
+      "text": "[50] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu,\nZekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao\nXiang, Philip HS Torr, et al. Rethinking semantic segmen-\ntation from a sequence-to-sequence perspective with trans-\nformers. arXiv preprint arXiv:2012.15840, 2020.\n[51] Zhun Zhong, Liang Zheng, Guoliang Kang, Shaozi Li, and\nYi Yang. Random erasing data augmentation. In Proceedings\nofthe AAAI Conference on Artificial Intelligence, volume 34,\npages 13001-13008, 2020.\n[52] Daquan Zhou, Qibin Hou, Yunpeng Chen, Jiashi Feng, and\nShuicheng Yan. Rethinking bottleneck structure for efficient\nmobile network design. ECCV, August, 2, 2020."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 395
+        },
+        {
+          "x": 2116,
+          "y": 395
+        },
+        {
+          "x": 2116,
+          "y": 450
+        },
+        {
+          "x": 1281,
+          "y": 450
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='113' style='font-size:22px'>A. Experiment Implementation Details</p>",
+      "id": 113,
+      "page": 11,
+      "text": "A. Experiment Implementation Details"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 481
+        },
+        {
+          "x": 2278,
+          "y": 481
+        },
+        {
+          "x": 2278,
+          "y": 929
+        },
+        {
+          "x": 1279,
+          "y": 929
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='114' style='font-size:16px'>Attention reuse: As shown in Fig. 3(b) and Tab. 3 in the<br>main paper, the vision transformers with 24 blocks and 32<br>blocks have 11 and 15 blocks with similar attention maps,<br>respectively. To verify the effectiveness of the attention<br>maps from those blocks, we directly force those blocks to<br>share the same attention map as the last 'unique' block as<br>defined in Sec. 5.2. Specifically, we take the attention map<br>of the last 'unique' block and denote it as Aunique. For all<br>the following blocks, the attention output is calculated by:</p>",
+      "id": 114,
+      "page": 11,
+      "text": "Attention reuse: As shown in Fig. 3(b) and Tab. 3 in the\nmain paper, the vision transformers with 24 blocks and 32\nblocks have 11 and 15 blocks with similar attention maps,\nrespectively. To verify the effectiveness of the attention\nmaps from those blocks, we directly force those blocks to\nshare the same attention map as the last 'unique' block as\ndefined in Sec. 5.2. Specifically, we take the attention map\nof the last 'unique' block and denote it as Aunique. For all\nthe following blocks, the attention output is calculated by:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1045
+        },
+        {
+          "x": 2277,
+          "y": 1045
+        },
+        {
+          "x": 2277,
+          "y": 1443
+        },
+        {
+          "x": 1279,
+          "y": 1443
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='115' style='font-size:16px'>where 0 is used to simulate the small variance between<br>attention maps across layers since they are not identical.<br>Norm is batch normalization used to adjust the variance<br>across layers. As shown in Tab. 3, for a ViT with 32 blocks,<br>forcing the top 15 blocks to share the same attention map<br>causes negligible degradation on the classification accuracy<br>on ImageNet. This proves that adding those blocks do not<br>contribute to the accuracy improvement.</p>",
+      "id": 115,
+      "page": 11,
+      "text": "where 0 is used to simulate the small variance between\nattention maps across layers since they are not identical.\nNorm is batch normalization used to adjust the variance\nacross layers. As shown in Tab. 3, for a ViT with 32 blocks,\nforcing the top 15 blocks to share the same attention map\ncauses negligible degradation on the classification accuracy\non ImageNet. This proves that adding those blocks do not\ncontribute to the accuracy improvement."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1280,
+          "y": 1501
+        },
+        {
+          "x": 2279,
+          "y": 1501
+        },
+        {
+          "x": 2279,
+          "y": 1749
+        },
+        {
+          "x": 1280,
+          "y": 1749
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='116' style='font-size:18px'>Training loss: We use the cross-entropy (CE) loss as the<br>training loss for all experiments. To minimize the similarity<br>of the attention maps across layers, we add the cosine sim-<br>ilarity between layers into the loss function when training<br>the model.</p>",
+      "id": 116,
+      "page": 11,
+      "text": "Training loss: We use the cross-entropy (CE) loss as the\ntraining loss for all experiments. To minimize the similarity\nof the attention maps across layers, we add the cosine sim-\nilarity between layers into the loss function when training\nthe model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1985
+        },
+        {
+          "x": 2277,
+          "y": 1985
+        },
+        {
+          "x": 2277,
+          "y": 2288
+        },
+        {
+          "x": 1279,
+          "y": 2288
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='117' style='font-size:18px'>where Similarity(Al, Al+1) denotes the cosine similarity<br>between layer l and 6 + 1 and Al denotes the attention map<br>of layer 1. B denotes the number of bottom blocks used for<br>regularization and is a hyper-parameter. We set B to 4, 8<br>and 12 for training ViT models with 16, 24 and 32 blocks<br>respectively.</p>",
+      "id": 117,
+      "page": 11,
+      "text": "where Similarity(Al, Al+1) denotes the cosine similarity\nbetween layer l and 6 + 1 and Al denotes the attention map\nof layer 1. B denotes the number of bottom blocks used for\nregularization and is a hyper-parameter. We set B to 4, 8\nand 12 for training ViT models with 16, 24 and 32 blocks\nrespectively."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 2330
+        },
+        {
+          "x": 2277,
+          "y": 2330
+        },
+        {
+          "x": 2277,
+          "y": 2512
+        },
+        {
+          "x": 1279,
+          "y": 2512
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='118' style='font-size:14px'>Table 7: Structural hyper-parameter of DeepViT-S and Deep ViT-<br>L. Note that the embedding dimension is slightly larger than the<br>baseline models. This is to adjust the size of the model to have a<br>comparable size with other methods for a fair comparison.</p>",
+      "id": 118,
+      "page": 11,
+      "text": "Table 7: Structural hyper-parameter of DeepViT-S and Deep ViT-\nL. Note that the embedding dimension is slightly larger than the\nbaseline models. This is to adjust the size of the model to have a\ncomparable size with other methods for a fair comparison."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1287,
+          "y": 2553
+        },
+        {
+          "x": 2267,
+          "y": 2553
+        },
+        {
+          "x": 2267,
+          "y": 2723
+        },
+        {
+          "x": 1287,
+          "y": 2723
+        }
+      ],
+      "category": "table",
+      "html": "<table id='119' style='font-size:14px'><tr><td>Model</td><td>#Blocks</td><td>#Embedding</td><td>MLP size</td><td>Split ratio</td></tr><tr><td>DeepViT-S</td><td>16</td><td>396</td><td>1188</td><td>11-5</td></tr><tr><td>DeepViT-L</td><td>32</td><td>420</td><td>1260</td><td>20-12</td></tr></table>",
+      "id": 119,
+      "page": 11,
+      "text": "Model #Blocks #Embedding MLP size Split ratio\n DeepViT-S 16 396 1188 11-5\n DeepViT-L 32 420 1260"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1282,
+          "y": 2791
+        },
+        {
+          "x": 1957,
+          "y": 2791
+        },
+        {
+          "x": 1957,
+          "y": 2847
+        },
+        {
+          "x": 1282,
+          "y": 2847
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='120' style='font-size:22px'>B. Deep ViT architecture design</p>",
+      "id": 120,
+      "page": 11,
+      "text": "B. Deep ViT architecture design"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1281,
+          "y": 2876
+        },
+        {
+          "x": 2277,
+          "y": 2876
+        },
+        {
+          "x": 2277,
+          "y": 2977
+        },
+        {
+          "x": 1281,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='121' style='font-size:18px'>As observed in Fig. 3(a), the attention maps of the trans-<br>former blocks become similar only at the top blocks. Thus,</p>",
+      "id": 121,
+      "page": 11,
+      "text": "As observed in Fig. 3(a), the attention maps of the trans-\nformer blocks become similar only at the top blocks. Thus,"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 221,
+          "y": 324
+        },
+        {
+          "x": 1196,
+          "y": 324
+        },
+        {
+          "x": 1196,
+          "y": 1040
+        },
+        {
+          "x": 221,
+          "y": 1040
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='122' style='font-size:14px' alt=\"ViT Acc. VS Split Ratio\n1.2\nSelf-attention cross layer similarity\n1.1\n80 ImageNet Top-1 Acc.(%)\nAcc.(%)\n1.0\n78\n0.9\nTop-1\n0.8\n76\n0.7\nImageNet\n74 Similarity\n0.6\n0.5\n72\n0.4\n70 0.3\n0 2 4 6 8 10 12 14 16\nBlock Index\" data-coord=\"top-left:(221,324); bottom-right:(1196,1040)\" /></figure>",
+      "id": 122,
+      "page": 12,
+      "text": "ViT Acc. VS Split Ratio\n1.2\nSelf-attention cross layer similarity\n1.1\n80 ImageNet Top-1 Acc.(%)\nAcc.(%)\n1.0\n78\n0.9\nTop-1\n0.8\n76\n0.7\nImageNet\n74 Similarity\n0.6\n0.5\n72\n0.4\n70 0.3\n0 2 4 6 8 10 12 14 16\nBlock Index"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 200,
+          "y": 1109
+        },
+        {
+          "x": 1201,
+          "y": 1109
+        },
+        {
+          "x": 1201,
+          "y": 1433
+        },
+        {
+          "x": 200,
+          "y": 1433
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='123' style='font-size:16px'>Figure 9: ViT classification accuracy with Re-attention applied<br>on different number of blocks. The black dotted line denotes<br>the cosine similarity ratio between adjacent blocks of the original<br>ViT model with 16 blocks. The red dotted line denotes the top-1<br>classification accuracy on ImageNet. The accuracy of the model<br>with blocks index k denotes that the Re-attention is applied on top<br>(16 - k) blocks.</caption>",
+      "id": 123,
+      "page": 12,
+      "text": "Figure 9: ViT classification accuracy with Re-attention applied\non different number of blocks. The black dotted line denotes\nthe cosine similarity ratio between adjacent blocks of the original\nViT model with 16 blocks. The red dotted line denotes the top-1\nclassification accuracy on ImageNet. The accuracy of the model\nwith blocks index k denotes that the Re-attention is applied on top\n(16 - k) blocks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 1531
+        },
+        {
+          "x": 1200,
+          "y": 1531
+        },
+        {
+          "x": 1200,
+          "y": 2027
+        },
+        {
+          "x": 201,
+          "y": 2027
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='124' style='font-size:18px'>it is not necessary to apply re-attention to all blocks. To<br>study the optimal number of blocks with re-attention, we<br>conduct a set of experiments on a ViT model with 16 trans-<br>former blocks. For each experiment, we only apply re-<br>attention on the top K blocks where K ranges from 5 to<br>15. The rest of the blocks are using the original transformer<br>block structure. We train each model on ImageNet with the<br>same set of training hyper-parameters as those for baseline<br>models as detailed in Sec. 5 in the main paper. The results<br>are shown in Fig. 9.</p>",
+      "id": 124,
+      "page": 12,
+      "text": "it is not necessary to apply re-attention to all blocks. To\nstudy the optimal number of blocks with re-attention, we\nconduct a set of experiments on a ViT model with 16 trans-\nformer blocks. For each experiment, we only apply re-\nattention on the top K blocks where K ranges from 5 to\n15. The rest of the blocks are using the original transformer\nblock structure. We train each model on ImageNet with the\nsame set of training hyper-parameters as those for baseline\nmodels as detailed in Sec. 5 in the main paper. The results\nare shown in Fig. 9."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2034
+        },
+        {
+          "x": 1201,
+          "y": 2034
+        },
+        {
+          "x": 1201,
+          "y": 2531
+        },
+        {
+          "x": 201,
+          "y": 2531
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='125' style='font-size:18px'>It is observed that, as the number of re-attention blocks<br>varies, the top-1 classification accuracy changes corre-<br>spondingly. The highest accuracy appears at the position<br>where the number of re-attention blocks is the same as the<br>number of similar attention map blocks. Based on this<br>observation, we define the architecture of Deep ViT-S and<br>DeepViT-L with 5 and 12 re-attention blocks respectively.<br>Detailed configurations are shown in Tab. 7. Note that we<br>adjust the embedding dimension to have a comparable size<br>with other methods.</p>",
+      "id": 125,
+      "page": 12,
+      "text": "It is observed that, as the number of re-attention blocks\nvaries, the top-1 classification accuracy changes corre-\nspondingly. The highest accuracy appears at the position\nwhere the number of re-attention blocks is the same as the\nnumber of similar attention map blocks. Based on this\nobservation, we define the architecture of Deep ViT-S and\nDeepViT-L with 5 and 12 re-attention blocks respectively.\nDetailed configurations are shown in Tab. 7. Note that we\nadjust the embedding dimension to have a comparable size\nwith other methods."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 204,
+          "y": 2587
+        },
+        {
+          "x": 895,
+          "y": 2587
+        },
+        {
+          "x": 895,
+          "y": 2645
+        },
+        {
+          "x": 204,
+          "y": 2645
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='126' style='font-size:22px'>C. Impacts of hyper-parameters</p>",
+      "id": 126,
+      "page": 12,
+      "text": "C. Impacts of hyper-parameters"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 201,
+          "y": 2678
+        },
+        {
+          "x": 1201,
+          "y": 2678
+        },
+        {
+          "x": 1201,
+          "y": 2977
+        },
+        {
+          "x": 201,
+          "y": 2977
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='127' style='font-size:18px'>In the main paper, all experiments are run with the same<br>set of training hyper-parameters as the one used for repro-<br>ducing ViT models. However, as shown in [37], an im-<br>proved training recipe could improve the performance of<br>ViT models significantly. In Tab. 8, we present the per-<br>formance of DeepViT-S and DeepViT-L with the same set</p>",
+      "id": 127,
+      "page": 12,
+      "text": "In the main paper, all experiments are run with the same\nset of training hyper-parameters as the one used for repro-\nducing ViT models. However, as shown in [37], an im-\nproved training recipe could improve the performance of\nViT models significantly. In Tab. 8, we present the per-\nformance of DeepViT-S and DeepViT-L with the same set"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 308
+        },
+        {
+          "x": 2279,
+          "y": 308
+        },
+        {
+          "x": 2279,
+          "y": 504
+        },
+        {
+          "x": 1278,
+          "y": 504
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='128' style='font-size:20px'>of training recipes as DeiT except that we do not use re-<br>peated augmentation. In Tab. 8, it is clearly shown that the<br>performance of DeepViT could be further improved with<br>optimized training hyper-parameters.</p>",
+      "id": 128,
+      "page": 12,
+      "text": "of training recipes as DeiT except that we do not use re-\npeated augmentation. In Tab. 8, it is clearly shown that the\nperformance of DeepViT could be further improved with\noptimized training hyper-parameters."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1282,
+          "y": 549
+        },
+        {
+          "x": 2279,
+          "y": 549
+        },
+        {
+          "x": 2279,
+          "y": 638
+        },
+        {
+          "x": 1282,
+          "y": 638
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='129' style='font-size:18px'>Table 8: DeepViT model with different training recipes. * denotes<br>the model trained with DeiT [37] training recipes.</caption>",
+      "id": 129,
+      "page": 12,
+      "text": "Table 8: DeepViT model with different training recipes. * denotes\nthe model trained with DeiT [37] training recipes."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1305,
+          "y": 674
+        },
+        {
+          "x": 2250,
+          "y": 674
+        },
+        {
+          "x": 2250,
+          "y": 1108
+        },
+        {
+          "x": 1305,
+          "y": 1108
+        }
+      ],
+      "category": "table",
+      "html": "<table id='130' style='font-size:16px'><tr><td>Model</td><td>Params. (M)</td><td>MAdds (G)</td><td>Acc. (%)</td></tr><tr><td>DeiT-S [37]</td><td>22</td><td>-</td><td>79.8</td></tr><tr><td>DeiT-S (KD) [37]</td><td>22</td><td>-</td><td>81.2</td></tr><tr><td>DeepVit-S (Ours)</td><td>27</td><td>6.2</td><td>81.4</td></tr><tr><td>DeepVit-S* (Ours)</td><td>27</td><td>6.2</td><td>82.3</td></tr><tr><td>DeiT-B [37]</td><td>86</td><td>17.7</td><td>81.8</td></tr><tr><td>DeiT-B (KD) [37]</td><td>86</td><td>17.7</td><td>83.4</td></tr><tr><td>DeepViT-L (Ours)</td><td>55</td><td>12.5</td><td>82.2</td></tr><tr><td>DeepViT-L* (Ours)</td><td>58</td><td>12.8</td><td>83.1</td></tr></table>",
+      "id": 130,
+      "page": 12,
+      "text": "Model Params. (M) MAdds (G) Acc. (%)\n DeiT-S [37] 22 - 79.8\n DeiT-S (KD) [37] 22 - 81.2\n DeepVit-S (Ours) 27 6.2 81.4\n DeepVit-S* (Ours) 27 6.2 82.3\n DeiT-B [37] 86 17.7 81.8\n DeiT-B (KD) [37] 86 17.7 83.4\n DeepViT-L (Ours) 55 12.5 82.2\n DeepViT-L* (Ours) 58 12.8"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1282,
+          "y": 1182
+        },
+        {
+          "x": 1808,
+          "y": 1182
+        },
+        {
+          "x": 1808,
+          "y": 1237
+        },
+        {
+          "x": 1282,
+          "y": 1237
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='131' style='font-size:22px'>D. Similarity calculation</p>",
+      "id": 131,
+      "page": 12,
+      "text": "D. Similarity calculation"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1282
+        },
+        {
+          "x": 2278,
+          "y": 1282
+        },
+        {
+          "x": 2278,
+          "y": 1531
+        },
+        {
+          "x": 1279,
+          "y": 1531
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='132' style='font-size:18px'>Cosine similarity between layers To measure the similar-<br>ity between the attention maps, we define the similarity Sp,q<br>between the attention maps of two layers, p and 9, as the ra-<br>tio of the number of similar vector pairs to the total number<br>of pairs between two attention maps:</p>",
+      "id": 132,
+      "page": 12,
+      "text": "Cosine similarity between layers To measure the similar-\nity between the attention maps, we define the similarity Sp,q\nbetween the attention maps of two layers, p and 9, as the ra-\ntio of the number of similar vector pairs to the total number\nof pairs between two attention maps:"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1279,
+          "y": 1738
+        },
+        {
+          "x": 2276,
+          "y": 1738
+        },
+        {
+          "x": 2276,
+          "y": 1831
+        },
+        {
+          "x": 1279,
+          "y": 1831
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='133' style='font-size:18px'>where T is a hyper-parameter and used as a threshold for<br>deciding similar vectors2</p>",
+      "id": 133,
+      "page": 12,
+      "text": "where T is a hyper-parameter and used as a threshold for\ndeciding similar vectors2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1278,
+          "y": 1849
+        },
+        {
+          "x": 2280,
+          "y": 1849
+        },
+        {
+          "x": 2280,
+          "y": 2148
+        },
+        {
+          "x": 1278,
+          "y": 2148
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='134' style='font-size:18px'>Definition of similar blocks A block is counted as a similar<br>block if the similarity between it's attention map and the ad-<br>jacent block's attention map is larger than 80%. To measure<br>the block similarity for a ViT model with B blocks, we take<br>the ratio of the number of similar blocks to the total number<br>of blocks as a measurement.</p>",
+      "id": 134,
+      "page": 12,
+      "text": "Definition of similar blocks A block is counted as a similar\nblock if the similarity between it's attention map and the ad-\njacent block's attention map is larger than 80%. To measure\nthe block similarity for a ViT model with B blocks, we take\nthe ratio of the number of similar blocks to the total number\nof blocks as a measurement."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1325,
+          "y": 2930
+        },
+        {
+          "x": 2241,
+          "y": 2930
+        },
+        {
+          "x": 2241,
+          "y": 2974
+        },
+        {
+          "x": 1325,
+          "y": 2974
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='135' style='font-size:14px'>20.5 is selected as a threshold for visualization purpose in this paper</footer>",
+      "id": 135,
+      "page": 12,
+      "text": "20.5 is selected as a threshold for visualization purpose in this paper"
+    }
+  ]
+}

@@ -1,0 +1,2456 @@
+{
+    "id": "32af4760-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1409.4842v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 784,
+                    "y": 454
+                },
+                {
+                    "x": 1764,
+                    "y": 454
+                },
+                {
+                    "x": 1764,
+                    "y": 530
+                },
+                {
+                    "x": 784,
+                    "y": 530
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Going deeper with convolutions</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Going deeper with convolutions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 490,
+                    "y": 704
+                },
+                {
+                    "x": 2062,
+                    "y": 704
+                },
+                {
+                    "x": 2062,
+                    "y": 1202
+                },
+                {
+                    "x": 490,
+                    "y": 1202
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Christian Szegedy Wei Liu Yangqing Jia<br>Google Inc. University of North Carolina, Chapel Hill Google Inc.<br>Pierre Sermanet Scott Reed Dragomir Anguelov Dumitru Erhan<br>Google Inc. University of Michigan Google Inc. Google Inc.<br>Vincent Vanhoucke Andrew Rabinovich<br>Google Inc. Google Inc.</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Christian Szegedy Wei Liu Yangqing Jia Google Inc. University of North Carolina, Chapel Hill Google Inc. Pierre Sermanet Scott Reed Dragomir Anguelov Dumitru Erhan Google Inc. University of Michigan Google Inc. Google Inc. Vincent Vanhoucke Andrew Rabinovich Google Inc. Google Inc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1177,
+                    "y": 1319
+                },
+                {
+                    "x": 1371,
+                    "y": 1319
+                },
+                {
+                    "x": 1371,
+                    "y": 1370
+                },
+                {
+                    "x": 1177,
+                    "y": 1370
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 590,
+                    "y": 1440
+                },
+                {
+                    "x": 1959,
+                    "y": 1440
+                },
+                {
+                    "x": 1959,
+                    "y": 1949
+                },
+                {
+                    "x": 590,
+                    "y": 1949
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>We propose a deep convolutional neural network architecture codenamed Incep-<br>tion, which was responsible for setting the new state of the art for classification<br>and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014<br>(ILSVRC14). The main hallmark of this architecture is the improved utilization<br>of the computing resources inside the network. This was achieved by a carefully<br>crafted design that allows for increasing the depth and width of the network while<br>keeping the computational budget constant. To optimize quality, the architectural<br>decisions were based on the Hebbian principle and the intuition of multi-scale<br>processing. One particular incarnation used in our submission for ILSVRC14 is<br>called GoogLeNet, a 22 layers deep network, the quality of which is assessed in<br>the context of classification and detection.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "We propose a deep convolutional neural network architecture codenamed Inception, which was responsible for setting the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. This was achieved by a carefully crafted design that allows for increasing the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC14 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 2080
+                },
+                {
+                    "x": 799,
+                    "y": 2080
+                },
+                {
+                    "x": 799,
+                    "y": 2138
+                },
+                {
+                    "x": 445,
+                    "y": 2138
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2203
+                },
+                {
+                    "x": 2108,
+                    "y": 2203
+                },
+                {
+                    "x": 2108,
+                    "y": 2710
+                },
+                {
+                    "x": 441,
+                    "y": 2710
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>In the last three years, mainly due to the advances of deep learning, more concretely convolutional<br>networks [10], the quality of image recognition and object detection has been progressing at a dra-<br>matic pace. One encouraging news is that most of this progress is not just the result of more powerful<br>hardware, larger datasets and bigger models, but mainly a consequence of new ideas, algorithms and<br>improved network architectures. No new data sources were used, for example, by the top entries in<br>the ILSVRC 2014 competition besides the classification dataset of the same competition for detec-<br>tion purposes. Our GoogLeNet submission to ILSVRC 2014 actually uses 12x fewer parameters<br>than the winning architecture of Krizhevsky et al [9] from two years ago, while being significantly<br>more accurate. The biggest gains in object-detection have not come from the utilization of deep<br>networks alone or bigger models, but from the synergy of deep architectures and classical computer<br>vision, like the R-CNN algorithm by Girshick et al [6].</p>",
+            "id": 5,
+            "page": 1,
+            "text": "In the last three years, mainly due to the advances of deep learning, more concretely convolutional networks , the quality of image recognition and object detection has been progressing at a dramatic pace. One encouraging news is that most of this progress is not just the result of more powerful hardware, larger datasets and bigger models, but mainly a consequence of new ideas, algorithms and improved network architectures. No new data sources were used, for example, by the top entries in the ILSVRC 2014 competition besides the classification dataset of the same competition for detection purposes. Our GoogLeNet submission to ILSVRC 2014 actually uses 12x fewer parameters than the winning architecture of Krizhevsky et al  from two years ago, while being significantly more accurate. The biggest gains in object-detection have not come from the utilization of deep networks alone or bigger models, but from the synergy of deep architectures and classical computer vision, like the R-CNN algorithm by Girshick et al ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2730
+                },
+                {
+                    "x": 2110,
+                    "y": 2730
+                },
+                {
+                    "x": 2110,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Another notable factor is that with the ongoing traction of mobile and embedded computing, the<br>efficiency of our algorithms - especially their power and memory use - gains importance. It is<br>noteworthy that the considerations leading to the design of the deep architecture presented in this<br>paper included this factor rather than having a sheer fixation on accuracy numbers. For most of the<br>experiments, the models were designed to keep a computational budget of 1.5 billion multiply-adds<br>at inference time, SO that the they do not end up to be a purely academic curiosity, but could be put<br>to real world use, even on large datasets, at a reasonable cost.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Another notable factor is that with the ongoing traction of mobile and embedded computing, the efficiency of our algorithms - especially their power and memory use - gains importance. It is noteworthy that the considerations leading to the design of the deep architecture presented in this paper included this factor rather than having a sheer fixation on accuracy numbers. For most of the experiments, the models were designed to keep a computational budget of 1.5 billion multiply-adds at inference time, SO that the they do not end up to be a purely academic curiosity, but could be put to real world use, even on large datasets, at a reasonable cost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 62,
+                    "y": 896
+                },
+                {
+                    "x": 151,
+                    "y": 896
+                },
+                {
+                    "x": 151,
+                    "y": 2320
+                },
+                {
+                    "x": 62,
+                    "y": 2320
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='7' style='font-size:14px'>2014<br>Sep<br>17<br>[cs.CV]<br>arXiv:1409.4842v1</footer>",
+            "id": 7,
+            "page": 1,
+            "text": "2014 Sep 17 [cs.CV] arXiv:1409.4842v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3132
+                },
+                {
+                    "x": 1290,
+                    "y": 3132
+                },
+                {
+                    "x": 1290,
+                    "y": 3173
+                },
+                {
+                    "x": 1260,
+                    "y": 3173
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='8' style='font-size:14px'>1</footer>",
+            "id": 8,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 345
+                },
+                {
+                    "x": 2108,
+                    "y": 345
+                },
+                {
+                    "x": 2108,
+                    "y": 764
+                },
+                {
+                    "x": 442,
+                    "y": 764
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:14px'>In this paper, we will focus on an efficient deep neural network architecture for computer vision,<br>codenamed Inception, which derives its name from the Network in network paper by Lin et al [12]<br>in conjunction with the famous \"we need to go deeper\" internet meme [1]. In our case, the word<br>\"deep\" is used in two different meanings: first of all, in the sense that we introduce a new level of<br>organization in the form of the \"Inception module\" and also in the more direct sense of increased<br>network depth. In general, one can view the Inception model as a logical culmination of [12]<br>while taking inspiration and guidance from the theoretical work by Arora et al [2]. The benefits<br>of the architecture are experimentally verified on the ILSVRC 2014 classification and detection<br>challenges, on which it significantly outperforms the current state of the art.</p>",
+            "id": 9,
+            "page": 2,
+            "text": "In this paper, we will focus on an efficient deep neural network architecture for computer vision, codenamed Inception, which derives its name from the Network in network paper by Lin et al  in conjunction with the famous \"we need to go deeper\" internet meme . In our case, the word \"deep\" is used in two different meanings: first of all, in the sense that we introduce a new level of organization in the form of the \"Inception module\" and also in the more direct sense of increased network depth. In general, one can view the Inception model as a logical culmination of  while taking inspiration and guidance from the theoretical work by Arora et al . The benefits of the architecture are experimentally verified on the ILSVRC 2014 classification and detection challenges, on which it significantly outperforms the current state of the art."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 834
+                },
+                {
+                    "x": 825,
+                    "y": 834
+                },
+                {
+                    "x": 825,
+                    "y": 886
+                },
+                {
+                    "x": 443,
+                    "y": 886
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:20px'>2 Related Work</p>",
+            "id": 10,
+            "page": 2,
+            "text": "2 Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 939
+                },
+                {
+                    "x": 2107,
+                    "y": 939
+                },
+                {
+                    "x": 2107,
+                    "y": 1264
+                },
+                {
+                    "x": 441,
+                    "y": 1264
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:18px'>Starting with LeNet-5 [10], convolutional neural networks (CNN) have typically had a standard<br>structure - stacked convolutional layers (optionally followed by contrast normalization and max-<br>pooling) are followed by one or more fully-connected layers. Variants of this basic design are<br>prevalent in the image classification literature and have yielded the best results to-date on MNIST,<br>CIFAR and most notably on the ImageNet classification challenge [9, 21]. For larger datasets such<br>as Imagenet, the recent trend has been to increase the number of layers [12] and layer size [21, 14],<br>while using dropout [7] to address the problem of overfitting.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "Starting with LeNet-5 , convolutional neural networks (CNN) have typically had a standard structure - stacked convolutional layers (optionally followed by contrast normalization and maxpooling) are followed by one or more fully-connected layers. Variants of this basic design are prevalent in the image classification literature and have yielded the best results to-date on MNIST, CIFAR and most notably on the ImageNet classification challenge . For larger datasets such as Imagenet, the recent trend has been to increase the number of layers  and layer size , while using dropout  to address the problem of overfitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1284
+                },
+                {
+                    "x": 2107,
+                    "y": 1284
+                },
+                {
+                    "x": 2107,
+                    "y": 1651
+                },
+                {
+                    "x": 442,
+                    "y": 1651
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:18px'>Despite concerns that max-pooling layers result in loss of accurate spatial information, the same<br>convolutional network architecture as [9] has also been successfully employed for localization [9,<br>14], object detection [6, 14, 18, 5] and human pose estimation [19]. Inspired by a neuroscience<br>model of the primate visual cortex, Serre et al. [15] use a series of fixed Gabor filters of different sizes<br>in order to handle multiple scales, similarly to the Inception model. However, contrary to the fixed<br>2-layer deep model of [15], all filters in the Inception model are learned. Furthermore, Inception<br>layers are repeated many times, leading to a 22-layer deep model in the case of the GoogLeNet<br>model.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "Despite concerns that max-pooling layers result in loss of accurate spatial information, the same convolutional network architecture as  has also been successfully employed for localization , object detection  and human pose estimation . Inspired by a neuroscience model of the primate visual cortex, Serre   use a series of fixed Gabor filters of different sizes in order to handle multiple scales, similarly to the Inception model. However, contrary to the fixed 2-layer deep model of , all filters in the Inception model are learned. Furthermore, Inception layers are repeated many times, leading to a 22-layer deep model in the case of the GoogLeNet model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1676
+                },
+                {
+                    "x": 2107,
+                    "y": 1676
+                },
+                {
+                    "x": 2107,
+                    "y": 2043
+                },
+                {
+                    "x": 442,
+                    "y": 2043
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:16px'>Network-in-Network is an approach proposed by Lin et al. [12] in order to increase the representa-<br>tional power of neural networks. When applied to convolutional layers, the method could be viewed<br>as additional 1 x 1 convolutional layers followed typically by the rectified linear activation [9]. This<br>enables it to be easily integrated in the current CNN pipelines. We use this approach heavily in our<br>architecture. However, in our setting, 1 x 1 convolutions have dual purpose: most critically, they<br>are used mainly as dimension reduction modules to remove computational bottlenecks, that would<br>otherwise limit the size of our networks. This allows for not just increasing the depth, but also the<br>width of our networks without significant performance penalty.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "Network-in-Network is an approach proposed by Lin   in order to increase the representational power of neural networks. When applied to convolutional layers, the method could be viewed as additional 1 x 1 convolutional layers followed typically by the rectified linear activation . This enables it to be easily integrated in the current CNN pipelines. We use this approach heavily in our architecture. However, in our setting, 1 x 1 convolutions have dual purpose: most critically, they are used mainly as dimension reduction modules to remove computational bottlenecks, that would otherwise limit the size of our networks. This allows for not just increasing the depth, but also the width of our networks without significant performance penalty."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2065
+                },
+                {
+                    "x": 2108,
+                    "y": 2065
+                },
+                {
+                    "x": 2108,
+                    "y": 2481
+                },
+                {
+                    "x": 442,
+                    "y": 2481
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>The current leading approach for object detection is the Regions with Convolutional Neural Net-<br>works (R-CNN) proposed by Girshick et al. [6]. R-CNN decomposes the overall detection problem<br>into two subproblems: to first utilize low-level cues such as color and superpixel consistency for<br>potential object proposals in a category-agnostic fashion, and to then use CNN classifiers to identify<br>object categories at those locations. Such a two stage approach leverages the accuracy of bound-<br>ing box segmentation with low-level cues, as well as the highly powerful classification power of<br>state-of-the-art CNNs. We adopted a similar pipeline in our detection submissions, but have ex-<br>plored enhancements in both stages, such as multi-box [5] prediction for higher object bounding<br>box recall, and ensemble approaches for better categorization of bounding box proposals.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "The current leading approach for object detection is the Regions with Convolutional Neural Networks (R-CNN) proposed by Girshick  . R-CNN decomposes the overall detection problem into two subproblems: to first utilize low-level cues such as color and superpixel consistency for potential object proposals in a category-agnostic fashion, and to then use CNN classifiers to identify object categories at those locations. Such a two stage approach leverages the accuracy of bounding box segmentation with low-level cues, as well as the highly powerful classification power of state-of-the-art CNNs. We adopted a similar pipeline in our detection submissions, but have explored enhancements in both stages, such as multi-box  prediction for higher object bounding box recall, and ensemble approaches for better categorization of bounding box proposals."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2551
+                },
+                {
+                    "x": 1435,
+                    "y": 2551
+                },
+                {
+                    "x": 1435,
+                    "y": 2607
+                },
+                {
+                    "x": 442,
+                    "y": 2607
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:22px'>3 Motivation and High Level Considerations</p>",
+            "id": 15,
+            "page": 2,
+            "text": "3 Motivation and High Level Considerations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2659
+                },
+                {
+                    "x": 2108,
+                    "y": 2659
+                },
+                {
+                    "x": 2108,
+                    "y": 2891
+                },
+                {
+                    "x": 442,
+                    "y": 2891
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:16px'>The most straightforward way of improving the performance of deep neural networks is by increas-<br>ing their size. This includes both increasing the depth - the number of levels - of the network and its<br>width: the number of units at each level. This is as an easy and safe way of training higher quality<br>models, especially given the availability of a large amount of labeled training data. However this<br>simple solution comes with two major drawbacks.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "The most straightforward way of improving the performance of deep neural networks is by increasing their size. This includes both increasing the depth - the number of levels - of the network and its width: the number of units at each level. This is as an easy and safe way of training higher quality models, especially given the availability of a large amount of labeled training data. However this simple solution comes with two major drawbacks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2914
+                },
+                {
+                    "x": 2106,
+                    "y": 2914
+                },
+                {
+                    "x": 2106,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:18px'>Bigger size typically means a larger number of parameters, which makes the enlarged network more<br>prone to overfitting, especially if the number of labeled examples in the training set is limited.<br>This can become a major bottleneck, since the creation of high quality training sets can be tricky</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Bigger size typically means a larger number of parameters, which makes the enlarged network more prone to overfitting, especially if the number of labeled examples in the training set is limited. This can become a major bottleneck, since the creation of high quality training sets can be tricky"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='18' style='font-size:16px'>2</footer>",
+            "id": 18,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 456,
+                    "y": 360
+                },
+                {
+                    "x": 2093,
+                    "y": 360
+                },
+                {
+                    "x": 2093,
+                    "y": 1100
+                },
+                {
+                    "x": 456,
+                    "y": 1100
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='19' style='font-size:22px' alt=\"(a) Siberian husky (b) Eskimo dog\" data-coord=\"top-left:(456,360); bottom-right:(2093,1100)\" /></figure>",
+            "id": 19,
+            "page": 3,
+            "text": "(a) Siberian husky (b) Eskimo dog"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 536,
+                    "y": 1151
+                },
+                {
+                    "x": 2011,
+                    "y": 1151
+                },
+                {
+                    "x": 2011,
+                    "y": 1195
+                },
+                {
+                    "x": 536,
+                    "y": 1195
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='20' style='font-size:14px'>Figure 1: Two distinct classes from the 1000 classes of the ILSVRC 2014 classification challenge.</caption>",
+            "id": 20,
+            "page": 3,
+            "text": "Figure 1: Two distinct classes from the 1000 classes of the ILSVRC 2014 classification challenge."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1308
+                },
+                {
+                    "x": 2104,
+                    "y": 1308
+                },
+                {
+                    "x": 2104,
+                    "y": 1445
+                },
+                {
+                    "x": 441,
+                    "y": 1445
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:20px'>and expensive, especially if expert human raters are necessary to distinguish between fine-grained<br>visual categories like those in ImageNet (even in the 1000-class ILSVRC subset) as demonstrated<br>by Figure 1.</p>",
+            "id": 21,
+            "page": 3,
+            "text": "and expensive, especially if expert human raters are necessary to distinguish between fine-grained visual categories like those in ImageNet (even in the 1000-class ILSVRC subset) as demonstrated by Figure 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1470
+                },
+                {
+                    "x": 2106,
+                    "y": 1470
+                },
+                {
+                    "x": 2106,
+                    "y": 1792
+                },
+                {
+                    "x": 443,
+                    "y": 1792
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>Another drawback of uniformly increased network size is the dramatically increased use of compu-<br>tational resources. For example, in a deep vision network, if two convolutional layers are chained,<br>any uniform increase in the number of their filters results in a quadratic increase of computation. If<br>the added capacity is used inefficiently (for example, if most weights end up to be close to zero),<br>then a lot of computation is wasted. Since in practice the computational budget is always finite, an<br>efficient distribution of computing resources is preferred to an indiscriminate increase of size, even<br>when the main objective is to increase the quality of results.</p>",
+            "id": 22,
+            "page": 3,
+            "text": "Another drawback of uniformly increased network size is the dramatically increased use of computational resources. For example, in a deep vision network, if two convolutional layers are chained, any uniform increase in the number of their filters results in a quadratic increase of computation. If the added capacity is used inefficiently (for example, if most weights end up to be close to zero), then a lot of computation is wasted. Since in practice the computational budget is always finite, an efficient distribution of computing resources is preferred to an indiscriminate increase of size, even when the main objective is to increase the quality of results."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1813
+                },
+                {
+                    "x": 2106,
+                    "y": 1813
+                },
+                {
+                    "x": 2106,
+                    "y": 2274
+                },
+                {
+                    "x": 441,
+                    "y": 2274
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:20px'>The fundamental way of solving both issues would be by ultimately moving from fully connected<br>to sparsely connected architectures, even inside the convolutions. Besides mimicking biological<br>systems, this would also have the advantage of firmer theoretical underpinnings due to the ground-<br>breaking work of Arora et al. [2]. Their main result states that if the probability distribution of<br>the data-set is representable by a large, very sparse deep neural network, then the optimal network<br>topology can be constructed layer by layer by analyzing the correlation statistics of the activations<br>of the last layer and clustering neurons with highly correlated outputs. Although the strict math-<br>ematical proof requires very strong conditions, the fact that this statement resonates with the well<br>known Hebbian principle - neurons that fire together, wire together - suggests that the underlying<br>idea is applicable even under less strict conditions, in practice.</p>",
+            "id": 23,
+            "page": 3,
+            "text": "The fundamental way of solving both issues would be by ultimately moving from fully connected to sparsely connected architectures, even inside the convolutions. Besides mimicking biological systems, this would also have the advantage of firmer theoretical underpinnings due to the groundbreaking work of Arora  . Their main result states that if the probability distribution of the data-set is representable by a large, very sparse deep neural network, then the optimal network topology can be constructed layer by layer by analyzing the correlation statistics of the activations of the last layer and clustering neurons with highly correlated outputs. Although the strict mathematical proof requires very strong conditions, the fact that this statement resonates with the well known Hebbian principle - neurons that fire together, wire together - suggests that the underlying idea is applicable even under less strict conditions, in practice."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2296
+                },
+                {
+                    "x": 2107,
+                    "y": 2296
+                },
+                {
+                    "x": 2107,
+                    "y": 2938
+                },
+                {
+                    "x": 440,
+                    "y": 2938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='24' style='font-size:20px'>On the downside, todays computing infrastructures are very inefficient when it comes to numerical<br>calculation on non-uniform sparse data structures. Even if the number of arithmetic operations is<br>reduced by 100x, the overhead of lookups and cache misses is SO dominant that switching to sparse<br>matrices would not pay off. The gap is widened even further by the use of steadily improving,<br>highly tuned, numerical libraries that allow for extremely fast dense matrix multiplication, exploit-<br>ing the minute details of the underlying CPU or GPU hardware [16, 9]. Also, non-uniform sparse<br>models require more sophisticated engineering and computing infrastructure. Most current vision<br>oriented machine learning systems utilize sparsity in the spatial domain just by the virtue of em-<br>ploying convolutions. However, convolutions are implemented as collections of dense connections<br>to the patches in the earlier layer. ConvNets have traditionally used random and sparse connection<br>tables in the feature dimensions since [11] in order to break the symmetry and improve learning, the<br>trend changed back to full connections with [9] in order to better optimize parallel computing. The<br>uniformity of the structure and a large number of filters and greater batch size allow for utilizing<br>efficient dense computation.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "On the downside, todays computing infrastructures are very inefficient when it comes to numerical calculation on non-uniform sparse data structures. Even if the number of arithmetic operations is reduced by 100x, the overhead of lookups and cache misses is SO dominant that switching to sparse matrices would not pay off. The gap is widened even further by the use of steadily improving, highly tuned, numerical libraries that allow for extremely fast dense matrix multiplication, exploiting the minute details of the underlying CPU or GPU hardware . Also, non-uniform sparse models require more sophisticated engineering and computing infrastructure. Most current vision oriented machine learning systems utilize sparsity in the spatial domain just by the virtue of employing convolutions. However, convolutions are implemented as collections of dense connections to the patches in the earlier layer. ConvNets have traditionally used random and sparse connection tables in the feature dimensions since  in order to break the symmetry and improve learning, the trend changed back to full connections with  in order to better optimize parallel computing. The uniformity of the structure and a large number of filters and greater batch size allow for utilizing efficient dense computation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2960
+                },
+                {
+                    "x": 2106,
+                    "y": 2960
+                },
+                {
+                    "x": 2106,
+                    "y": 3053
+                },
+                {
+                    "x": 443,
+                    "y": 3053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:16px'>This raises the question whether there is any hope for a next, intermediate step: an architecture<br>that makes use of the extra sparsity, even at filter level, as suggested by the theory, but exploits our</p>",
+            "id": 25,
+            "page": 3,
+            "text": "This raises the question whether there is any hope for a next, intermediate step: an architecture that makes use of the extra sparsity, even at filter level, as suggested by the theory, but exploits our"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1262,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1262,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='26' style='font-size:18px'>3</footer>",
+            "id": 26,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 347
+                },
+                {
+                    "x": 2108,
+                    "y": 347
+                },
+                {
+                    "x": 2108,
+                    "y": 578
+                },
+                {
+                    "x": 441,
+                    "y": 578
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:16px'>current hardware by utilizing computations on dense matrices. The vast literature on sparse matrix<br>computations (e.g. [3]) suggests that clustering sparse matrices into relatively dense submatrices<br>tends to give state of the art practical performance for sparse matrix multiplication. It does not<br>seem far-fetched to think that similar methods would be utilized for the automated construction of<br>non-uniform deep-learning architectures in the near future.</p>",
+            "id": 27,
+            "page": 4,
+            "text": "current hardware by utilizing computations on dense matrices. The vast literature on sparse matrix computations (e.g. ) suggests that clustering sparse matrices into relatively dense submatrices tends to give state of the art practical performance for sparse matrix multiplication. It does not seem far-fetched to think that similar methods would be utilized for the automated construction of non-uniform deep-learning architectures in the near future."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 600
+                },
+                {
+                    "x": 2107,
+                    "y": 600
+                },
+                {
+                    "x": 2107,
+                    "y": 1060
+                },
+                {
+                    "x": 441,
+                    "y": 1060
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:18px'>The Inception architecture started out as a case study of the first author for assessing the hypothetical<br>output of a sophisticated network topology construction algorithm that tries to approximate a sparse<br>structure implied by [2] for vision networks and covering the hypothesized outcome by dense, read-<br>ily available components. Despite being a highly speculative undertaking, only after two iterations<br>on the exact choice of topology, we could already see modest gains against the reference architec-<br>ture based on [12]. After further tuning of learning rate, hyperparameters and improved training<br>methodology, we established that the resulting Inception architecture was especially useful in the<br>context of localization and object detection as the base network for [6] and [5]. Interestingly, while<br>most of the original architectural choices have been questioned and tested thoroughly, they turned<br>out to be at least locally optimal.</p>",
+            "id": 28,
+            "page": 4,
+            "text": "The Inception architecture started out as a case study of the first author for assessing the hypothetical output of a sophisticated network topology construction algorithm that tries to approximate a sparse structure implied by  for vision networks and covering the hypothesized outcome by dense, readily available components. Despite being a highly speculative undertaking, only after two iterations on the exact choice of topology, we could already see modest gains against the reference architecture based on . After further tuning of learning rate, hyperparameters and improved training methodology, we established that the resulting Inception architecture was especially useful in the context of localization and object detection as the base network for  and . Interestingly, while most of the original architectural choices have been questioned and tested thoroughly, they turned out to be at least locally optimal."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1080
+                },
+                {
+                    "x": 2108,
+                    "y": 1080
+                },
+                {
+                    "x": 2108,
+                    "y": 1452
+                },
+                {
+                    "x": 440,
+                    "y": 1452
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:18px'>One must be cautious though: although the proposed architecture has become a success for computer<br>vision, it is still questionable whether its quality can be attributed to the guiding principles that have<br>lead to its construction. Making sure would require much more thorough analysis and verification:<br>for example, if automated tools based on the principles described below would find similar, but<br>better topology for the vision networks. The most convincing proof would be if an automated<br>system would create network topologies resulting in similar gains in other domains using the same<br>algorithm but with very differently looking global architecture. At very least, the initial success of<br>the Inception architecture yields firm motivation for exciting future work in this direction.</p>",
+            "id": 29,
+            "page": 4,
+            "text": "One must be cautious though: although the proposed architecture has become a success for computer vision, it is still questionable whether its quality can be attributed to the guiding principles that have lead to its construction. Making sure would require much more thorough analysis and verification: for example, if automated tools based on the principles described below would find similar, but better topology for the vision networks. The most convincing proof would be if an automated system would create network topologies resulting in similar gains in other domains using the same algorithm but with very differently looking global architecture. At very least, the initial success of the Inception architecture yields firm motivation for exciting future work in this direction."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1521
+                },
+                {
+                    "x": 976,
+                    "y": 1521
+                },
+                {
+                    "x": 976,
+                    "y": 1577
+                },
+                {
+                    "x": 441,
+                    "y": 1577
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:20px'>4 Architectural Details</p>",
+            "id": 30,
+            "page": 4,
+            "text": "4 Architectural Details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1628
+                },
+                {
+                    "x": 2109,
+                    "y": 1628
+                },
+                {
+                    "x": 2109,
+                    "y": 2595
+                },
+                {
+                    "x": 441,
+                    "y": 2595
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>The main idea of the Inception architecture is based on finding out how an optimal local sparse<br>structure in a convolutional vision network can be approximated and covered by readily available<br>dense components. Note that assuming translation invariance means that our network will be built<br>from convolutional building blocks. All we need is to find the optimal local construction and to<br>repeat it spatially. Arora et al. [2] suggests a layer-by layer construction in which one should analyze<br>the correlation statistics of the last layer and cluster them into groups of units with high correlation.<br>These clusters form the units of the next layer and are connected to the units in the previous layer. We<br>assume that each unit from the earlier layer corresponds to some region of the input image and these<br>units are grouped into filter banks. In the lower layers (the ones close to the input) correlated units<br>would concentrate in local regions. This means, we would end up with a lot of clusters concentrated<br>in a single region and they can be covered by a layer of 1 x1 convolutions in the next layer, as<br>suggested in [12]. However, one can also expect that there will be a smaller number of more<br>spatially spread out clusters that can be covered by convolutions over larger patches, and there<br>will be a decreasing number of patches over larger and larger regions. In order to avoid patch-<br>alignment issues, current incarnations of the Inception architecture are restricted to filter sizes 1x1,<br>3x3 and 5x5, however this decision was based more on convenience rather than necessity. It also<br>means that the suggested architecture is a combination of all those layers with their output filter<br>banks concatenated into a single output vector forming the input of the next stage. Additionally,<br>since pooling operations have been essential for the success in current state of the art convolutional<br>networks, it suggests that adding an alternative parallel pooling path in each such stage should have<br>additional beneficial effect, too (see Figure 2(a)).</p>",
+            "id": 31,
+            "page": 4,
+            "text": "The main idea of the Inception architecture is based on finding out how an optimal local sparse structure in a convolutional vision network can be approximated and covered by readily available dense components. Note that assuming translation invariance means that our network will be built from convolutional building blocks. All we need is to find the optimal local construction and to repeat it spatially. Arora   suggests a layer-by layer construction in which one should analyze the correlation statistics of the last layer and cluster them into groups of units with high correlation. These clusters form the units of the next layer and are connected to the units in the previous layer. We assume that each unit from the earlier layer corresponds to some region of the input image and these units are grouped into filter banks. In the lower layers (the ones close to the input) correlated units would concentrate in local regions. This means, we would end up with a lot of clusters concentrated in a single region and they can be covered by a layer of 1 x1 convolutions in the next layer, as suggested in . However, one can also expect that there will be a smaller number of more spatially spread out clusters that can be covered by convolutions over larger patches, and there will be a decreasing number of patches over larger and larger regions. In order to avoid patchalignment issues, current incarnations of the Inception architecture are restricted to filter sizes 1x1, 3x3 and 5x5, however this decision was based more on convenience rather than necessity. It also means that the suggested architecture is a combination of all those layers with their output filter banks concatenated into a single output vector forming the input of the next stage. Additionally, since pooling operations have been essential for the success in current state of the art convolutional networks, it suggests that adding an alternative parallel pooling path in each such stage should have additional beneficial effect, too (see Figure 2(a))."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2616
+                },
+                {
+                    "x": 2109,
+                    "y": 2616
+                },
+                {
+                    "x": 2109,
+                    "y": 2801
+                },
+                {
+                    "x": 441,
+                    "y": 2801
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>As these \"Inception modules\" are stacked on top of each other, their output correlation statistics<br>are bound to vary: as features of higher abstraction are captured by higher layers, their spatial<br>concentration is expected to decrease suggesting that the ratio of 3x3 and 5x5 convolutions should<br>increase as we move to higher layers.</p>",
+            "id": 32,
+            "page": 4,
+            "text": "As these \"Inception modules\" are stacked on top of each other, their output correlation statistics are bound to vary: as features of higher abstraction are captured by higher layers, their spatial concentration is expected to decrease suggesting that the ratio of 3x3 and 5x5 convolutions should increase as we move to higher layers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2823
+                },
+                {
+                    "x": 2108,
+                    "y": 2823
+                },
+                {
+                    "x": 2108,
+                    "y": 3055
+                },
+                {
+                    "x": 440,
+                    "y": 3055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>One big problem with the above modules, at least in this naive form, is that even a modest number of<br>5x5 convolutions can be prohibitively expensive on top of a convolutional layer with a large number<br>of filters. This problem becomes even more pronounced once pooling units are added to the mix:<br>their number of output filters equals to the number of filters in the previous stage. The merging of<br>the output of the pooling layer with the outputs of convolutional layers would lead to an inevitable</p>",
+            "id": 33,
+            "page": 4,
+            "text": "One big problem with the above modules, at least in this naive form, is that even a modest number of 5x5 convolutions can be prohibitively expensive on top of a convolutional layer with a large number of filters. This problem becomes even more pronounced once pooling units are added to the mix: their number of output filters equals to the number of filters in the previous stage. The merging of the output of the pooling layer with the outputs of convolutional layers would lead to an inevitable"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1259,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='34' style='font-size:14px'>4</footer>",
+            "id": 34,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 469,
+                    "y": 346
+                },
+                {
+                    "x": 2074,
+                    "y": 346
+                },
+                {
+                    "x": 2074,
+                    "y": 857
+                },
+                {
+                    "x": 469,
+                    "y": 857
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='35' style='font-size:14px' alt=\"Filter\nFilter concatenation\nconcatenation\n3x3 convolutions 5x5 convolutions 1x1 convolutions\n1x1 convolutions 3x3 convolutions 5x5 convolutions 3x3 max pooling\n1x1 convolutions\n1x1 convolutions 1x1 convolutions 3x3 max pooling\nPrevious layer Previous layer\n(a) Inception module, naive version (b) Inception module with dimension reductions\" data-coord=\"top-left:(469,346); bottom-right:(2074,857)\" /></figure>",
+            "id": 35,
+            "page": 5,
+            "text": "Filter Filter concatenation concatenation 3x3 convolutions 5x5 convolutions 1x1 convolutions 1x1 convolutions 3x3 convolutions 5x5 convolutions 3x3 max pooling 1x1 convolutions 1x1 convolutions 1x1 convolutions 3x3 max pooling Previous layer Previous layer (a) Inception module, naive version (b) Inception module with dimension reductions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1066,
+                    "y": 874
+                },
+                {
+                    "x": 1484,
+                    "y": 874
+                },
+                {
+                    "x": 1484,
+                    "y": 920
+                },
+                {
+                    "x": 1066,
+                    "y": 920
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='36' style='font-size:18px'>Figure 2: Inception module</caption>",
+            "id": 36,
+            "page": 5,
+            "text": "Figure 2: Inception module"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1023
+                },
+                {
+                    "x": 2107,
+                    "y": 1023
+                },
+                {
+                    "x": 2107,
+                    "y": 1158
+                },
+                {
+                    "x": 442,
+                    "y": 1158
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>increase in the number of outputs from stage to stage. Even while this architecture might cover the<br>optimal sparse structure, it would do it very inefficiently, leading to a computational blow up within<br>a few stages.</p>",
+            "id": 37,
+            "page": 5,
+            "text": "increase in the number of outputs from stage to stage. Even while this architecture might cover the optimal sparse structure, it would do it very inefficiently, leading to a computational blow up within a few stages."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1180
+                },
+                {
+                    "x": 2107,
+                    "y": 1180
+                },
+                {
+                    "x": 2107,
+                    "y": 1641
+                },
+                {
+                    "x": 441,
+                    "y": 1641
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>This leads to the second idea of the proposed architecture: judiciously applying dimension reduc-<br>tions and projections wherever the computational requirements would increase too much otherwise.<br>This is based on the success of embeddings: even low dimensional embeddings might contain a lot<br>of information about a relatively large image patch. However, embeddings represent information in<br>a dense, compressed form and compressed information is harder to model. We would like to keep<br>our representation sparse at most places (as required by the conditions of [2]) and compress the<br>signals only whenever they have to be aggregated en masse. That is, 1x1 convolutions are used to<br>compute reductions before the expensive 3x3 and 5x5 convolutions. Besides being used as reduc-<br>tions, they also include the use of rectified linear activation which makes them dual-purpose. The<br>final result is depicted in Figure 2(b).</p>",
+            "id": 38,
+            "page": 5,
+            "text": "This leads to the second idea of the proposed architecture: judiciously applying dimension reductions and projections wherever the computational requirements would increase too much otherwise. This is based on the success of embeddings: even low dimensional embeddings might contain a lot of information about a relatively large image patch. However, embeddings represent information in a dense, compressed form and compressed information is harder to model. We would like to keep our representation sparse at most places (as required by the conditions of ) and compress the signals only whenever they have to be aggregated en masse. That is, 1x1 convolutions are used to compute reductions before the expensive 3x3 and 5x5 convolutions. Besides being used as reductions, they also include the use of rectified linear activation which makes them dual-purpose. The final result is depicted in Figure 2(b)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1663
+                },
+                {
+                    "x": 2108,
+                    "y": 1663
+                },
+                {
+                    "x": 2108,
+                    "y": 1941
+                },
+                {
+                    "x": 441,
+                    "y": 1941
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>In general, an Inception network is a network consisting of modules of the above type stacked upon<br>each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid. For<br>technical reasons (memory efficiency during training), it seemed beneficial to start using Inception<br>modules only at higher layers while keeping the lower layers in traditional convolutional fashion.<br>This is not strictly necessary, simply reflecting some infrastructural inefficiencies in our current<br>implementation.</p>",
+            "id": 39,
+            "page": 5,
+            "text": "In general, an Inception network is a network consisting of modules of the above type stacked upon each other, with occasional max-pooling layers with stride 2 to halve the resolution of the grid. For technical reasons (memory efficiency during training), it seemed beneficial to start using Inception modules only at higher layers while keeping the lower layers in traditional convolutional fashion. This is not strictly necessary, simply reflecting some infrastructural inefficiencies in our current implementation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1961
+                },
+                {
+                    "x": 2108,
+                    "y": 1961
+                },
+                {
+                    "x": 2108,
+                    "y": 2285
+                },
+                {
+                    "x": 441,
+                    "y": 2285
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:16px'>One of the main beneficial aspects of this architecture is that it allows for increasing the number of<br>units at each stage significantly without an uncontrolled blow-up in computational complexity. The<br>ubiquitous use of dimension reduction allows for shielding the large number of input filters of the<br>last stage to the next layer, first reducing their dimension before convolving over them with a large<br>patch size. Another practically useful aspect of this design is that it aligns with the intuition that<br>visual information should be processed at various scales and then aggregated SO that the next stage<br>can abstract features from different scales simultaneously.</p>",
+            "id": 40,
+            "page": 5,
+            "text": "One of the main beneficial aspects of this architecture is that it allows for increasing the number of units at each stage significantly without an uncontrolled blow-up in computational complexity. The ubiquitous use of dimension reduction allows for shielding the large number of input filters of the last stage to the next layer, first reducing their dimension before convolving over them with a large patch size. Another practically useful aspect of this design is that it aligns with the intuition that visual information should be processed at various scales and then aggregated SO that the next stage can abstract features from different scales simultaneously."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2305
+                },
+                {
+                    "x": 2108,
+                    "y": 2305
+                },
+                {
+                    "x": 2108,
+                    "y": 2586
+                },
+                {
+                    "x": 440,
+                    "y": 2586
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:16px'>The improved use of computational resources allows for increasing both the width of each stage<br>as well as the number of stages without getting into computational difficulties. Another way to<br>utilize the inception architecture is to create slightly inferior, but computationally cheaper versions<br>of it. We have found that all the included the knobs and levers allow for a controlled balancing of<br>computational resources that can result in networks that are 2 - 3x faster than similarly performing<br>networks with non-Inception architecture, however this requires careful manual design at this point.</p>",
+            "id": 41,
+            "page": 5,
+            "text": "The improved use of computational resources allows for increasing both the width of each stage as well as the number of stages without getting into computational difficulties. Another way to utilize the inception architecture is to create slightly inferior, but computationally cheaper versions of it. We have found that all the included the knobs and levers allow for a controlled balancing of computational resources that can result in networks that are 2 - 3x faster than similarly performing networks with non-Inception architecture, however this requires careful manual design at this point."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2665
+                },
+                {
+                    "x": 773,
+                    "y": 2665
+                },
+                {
+                    "x": 773,
+                    "y": 2719
+                },
+                {
+                    "x": 444,
+                    "y": 2719
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:20px'>5 GoogLeNet</p>",
+            "id": 42,
+            "page": 5,
+            "text": "5 GoogLeNet"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2776
+                },
+                {
+                    "x": 2108,
+                    "y": 2776
+                },
+                {
+                    "x": 2108,
+                    "y": 3056
+                },
+                {
+                    "x": 441,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>We chose GoogLeNet as our team-name in the ILSVRC14 competition. This name is an homage to<br>Yann LeCuns pioneering LeNet 5 network [10]. We also use GoogLeNet to refer to the particular<br>incarnation of the Inception architecture used in our submission for the competition. We have also<br>used a deeper and wider Inception network, the quality of which was slightly inferior, but adding it<br>to the ensemble seemed to improve the results marginally. We omit the details of that network, since<br>our experiments have shown that the influence of the exact architectural parameters is relatively</p>",
+            "id": 43,
+            "page": 5,
+            "text": "We chose GoogLeNet as our team-name in the ILSVRC14 competition. This name is an homage to Yann LeCuns pioneering LeNet 5 network . We also use GoogLeNet to refer to the particular incarnation of the Inception architecture used in our submission for the competition. We have also used a deeper and wider Inception network, the quality of which was slightly inferior, but adding it to the ensemble seemed to improve the results marginally. We omit the details of that network, since our experiments have shown that the influence of the exact architectural parameters is relatively"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='44' style='font-size:16px'>5</footer>",
+            "id": 44,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 333
+                },
+                {
+                    "x": 2122,
+                    "y": 333
+                },
+                {
+                    "x": 2122,
+                    "y": 1220
+                },
+                {
+                    "x": 446,
+                    "y": 1220
+                }
+            ],
+            "category": "table",
+            "html": "<table id='45' style='font-size:14px'><tr><td>type</td><td>patch size/ stride</td><td>output size</td><td>depth</td><td>#1x1</td><td>#3x3 reduce</td><td>#3x3</td><td>#5x5 reduce</td><td>#5x5</td><td>pool proj</td><td>params</td><td>ops</td></tr><tr><td>convolution</td><td>7x7/2</td><td>112x112x64</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td>2.7K</td><td>34M</td></tr><tr><td>max pool</td><td>3x3/2</td><td>56x56x64</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>convolution</td><td>3x3/1</td><td>56x56x192</td><td>2</td><td></td><td>64</td><td>192</td><td></td><td></td><td></td><td>112K</td><td>360M</td></tr><tr><td>max pool</td><td>3x3/2</td><td>28x28 x192</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>inception (3a)</td><td></td><td>28x28x 256</td><td>2</td><td>64</td><td>96</td><td>128</td><td>16</td><td>32</td><td>32</td><td>159K</td><td>128M</td></tr><tr><td>inception (3b)</td><td></td><td>28x28x480</td><td>2</td><td>128</td><td>128</td><td>192</td><td>32</td><td>96</td><td>64</td><td>380K</td><td>304M</td></tr><tr><td>max pool</td><td>3x3/2</td><td>14x14x480</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>inception (4a)</td><td></td><td>14x14x512</td><td>2</td><td>192</td><td>96</td><td>208</td><td>16</td><td>48</td><td>64</td><td>364K</td><td>73M</td></tr><tr><td>inception (4b)</td><td></td><td>14x14x512</td><td>2</td><td>160</td><td>112</td><td>224</td><td>24</td><td>64</td><td>64</td><td>437K</td><td>88M</td></tr><tr><td>inception (4c)</td><td></td><td>14x14x512</td><td>2</td><td>128</td><td>128</td><td>256</td><td>24</td><td>64</td><td>64</td><td>463K</td><td>100M</td></tr><tr><td>inception (4d)</td><td></td><td>14x14x528</td><td>2</td><td>112</td><td>144</td><td>288</td><td>32</td><td>64</td><td>64</td><td>580K</td><td>119M</td></tr><tr><td>inception (4e)</td><td></td><td>14x14x832</td><td>2</td><td>256</td><td>160</td><td>320</td><td>32</td><td>128</td><td>128</td><td>840K</td><td>170M</td></tr><tr><td>max pool</td><td>3x3/2</td><td>7x7x832</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>inception (5a)</td><td></td><td>7x7x832</td><td>2</td><td>256</td><td>160</td><td>320</td><td>32</td><td>128</td><td>128</td><td>1072K</td><td>54M</td></tr><tr><td>inception (5b)</td><td></td><td>7x7x1024</td><td>2</td><td>384</td><td>192</td><td>384</td><td>48</td><td>128</td><td>128</td><td>1388K</td><td>71M</td></tr><tr><td>avg pool</td><td>7x7/1</td><td>1x1x 1024</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>dropout (40%)</td><td></td><td>1x1x 1024</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>linear</td><td></td><td>1x1x1000</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1000K</td><td>1M</td></tr><tr><td>softmax</td><td></td><td>1x1x1000</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+            "id": 45,
+            "page": 6,
+            "text": "type patch size/ stride output size depth #1x1 #3x3 reduce #3x3 #5x5 reduce #5x5 pool proj params ops  convolution 7x7/2 112x112x64 1       2.7K 34M  max pool 3x3/2 56x56x64 0          convolution 3x3/1 56x56x192 2  64 192    112K 360M  max pool 3x3/2 28x28 x192 0          inception (3a)  28x28x 256 2 64 96 128 16 32 32 159K 128M  inception (3b)  28x28x480 2 128 128 192 32 96 64 380K 304M  max pool 3x3/2 14x14x480 0          inception (4a)  14x14x512 2 192 96 208 16 48 64 364K 73M  inception (4b)  14x14x512 2 160 112 224 24 64 64 437K 88M  inception (4c)  14x14x512 2 128 128 256 24 64 64 463K 100M  inception (4d)  14x14x528 2 112 144 288 32 64 64 580K 119M  inception (4e)  14x14x832 2 256 160 320 32 128 128 840K 170M  max pool 3x3/2 7x7x832 0          inception (5a)  7x7x832 2 256 160 320 32 128 128 1072K 54M  inception (5b)  7x7x1024 2 384 192 384 48 128 128 1388K 71M  avg pool 7x7/1 1x1x 1024 0          dropout (40%)  1x1x 1024 0          linear  1x1x1000 1       1000K 1M  softmax  1x1x1000 0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 814,
+                    "y": 1257
+                },
+                {
+                    "x": 1735,
+                    "y": 1257
+                },
+                {
+                    "x": 1735,
+                    "y": 1300
+                },
+                {
+                    "x": 814,
+                    "y": 1300
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='46' style='font-size:16px'>Table 1: GoogLeNet incarnation of the Inception architecture</caption>",
+            "id": 46,
+            "page": 6,
+            "text": "Table 1: GoogLeNet incarnation of the Inception architecture"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1400
+                },
+                {
+                    "x": 2106,
+                    "y": 1400
+                },
+                {
+                    "x": 2106,
+                    "y": 1537
+                },
+                {
+                    "x": 442,
+                    "y": 1537
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:18px'>minor. Here, the most successful particular instance (named GoogLeNet) is described in Table 1 for<br>demonstrational purposes. The exact same topology (trained with different sampling methods) was<br>used for 6 out of the 7 models in our ensemble.</p>",
+            "id": 47,
+            "page": 6,
+            "text": "minor. Here, the most successful particular instance (named GoogLeNet) is described in Table 1 for demonstrational purposes. The exact same topology (trained with different sampling methods) was used for 6 out of the 7 models in our ensemble."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1560
+                },
+                {
+                    "x": 2107,
+                    "y": 1560
+                },
+                {
+                    "x": 2107,
+                    "y": 1837
+                },
+                {
+                    "x": 441,
+                    "y": 1837
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:20px'>All the convolutions, including those inside the Inception modules, use rectified linear activation.<br>The size of the receptive field in our network is 224x224 taking RGB color channels with mean sub-<br>traction. \"#3x3 reduce\" and \"#5x5 reduce\" stands for the number of 1x1 filters in the reduction<br>layer used before the 3x3 and 5x5 convolutions. One can see the number of 1x1 filters in the pro-<br>jection layer after the built-in max-pooling in the pool proj column. All these reduction/projection<br>layers use rectified linear activation as well.</p>",
+            "id": 48,
+            "page": 6,
+            "text": "All the convolutions, including those inside the Inception modules, use rectified linear activation. The size of the receptive field in our network is 224x224 taking RGB color channels with mean subtraction. \"#3x3 reduce\" and \"#5x5 reduce\" stands for the number of 1x1 filters in the reduction layer used before the 3x3 and 5x5 convolutions. One can see the number of 1x1 filters in the projection layer after the built-in max-pooling in the pool proj column. All these reduction/projection layers use rectified linear activation as well."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1858
+                },
+                {
+                    "x": 2106,
+                    "y": 1858
+                },
+                {
+                    "x": 2106,
+                    "y": 2364
+                },
+                {
+                    "x": 442,
+                    "y": 2364
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:22px'>The network was designed with computational efficiency and practicality in mind, SO that inference<br>can be run on individual devices including even those with limited computational resources, espe-<br>cially with low-memory footprint. The network is 22 layers deep when counting only layers with<br>parameters (or 27 layers if we also count pooling). The overall number of layers (independent build-<br>ing blocks) used for the construction of the network is about 100. However this number depends on<br>the machine learning infrastructure system used. The use of average pooling before the classifier is<br>based on [12], although our implementation differs in that we use an extra linear layer. This enables<br>adapting and fine-tuning our networks for other label sets easily, but it is mostly convenience and<br>we do not expect it to have a major effect. It was found that a move from fully connected layers to<br>average pooling improved the top-1 accuracy by about 0.6%, however the use of dropout remained<br>essential even after removing the fully connected layers.</p>",
+            "id": 49,
+            "page": 6,
+            "text": "The network was designed with computational efficiency and practicality in mind, SO that inference can be run on individual devices including even those with limited computational resources, especially with low-memory footprint. The network is 22 layers deep when counting only layers with parameters (or 27 layers if we also count pooling). The overall number of layers (independent building blocks) used for the construction of the network is about 100. However this number depends on the machine learning infrastructure system used. The use of average pooling before the classifier is based on , although our implementation differs in that we use an extra linear layer. This enables adapting and fine-tuning our networks for other label sets easily, but it is mostly convenience and we do not expect it to have a major effect. It was found that a move from fully connected layers to average pooling improved the top-1 accuracy by about 0.6%, however the use of dropout remained essential even after removing the fully connected layers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2386
+                },
+                {
+                    "x": 2106,
+                    "y": 2386
+                },
+                {
+                    "x": 2106,
+                    "y": 2847
+                },
+                {
+                    "x": 442,
+                    "y": 2847
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:22px'>Given the relatively large depth of the network, the ability to propagate gradients back through all the<br>layers in an effective manner was a concern. One interesting insight is that the strong performance<br>of relatively shallower networks on this task suggests that the features produced by the layers in the<br>middle of the network should be very discriminative. By adding auxiliary classifiers connected to<br>these intermediate layers, we would expect to encourage discrimination in the lower stages in the<br>classifier, increase the gradient signal that gets propagated back, and provide additional regulariza-<br>tion. These classifiers take the form of smaller convolutional networks put on top of the output of<br>the Inception (4a) and (4d) modules. During training, their loss gets added to the total loss of the<br>network with a discount weight (the losses of the auxiliary classifiers were weighted by 0.3). At<br>inference time, these auxiliary networks are discarded.</p>",
+            "id": 50,
+            "page": 6,
+            "text": "Given the relatively large depth of the network, the ability to propagate gradients back through all the layers in an effective manner was a concern. One interesting insight is that the strong performance of relatively shallower networks on this task suggests that the features produced by the layers in the middle of the network should be very discriminative. By adding auxiliary classifiers connected to these intermediate layers, we would expect to encourage discrimination in the lower stages in the classifier, increase the gradient signal that gets propagated back, and provide additional regularization. These classifiers take the form of smaller convolutional networks put on top of the output of the Inception (4a) and (4d) modules. During training, their loss gets added to the total loss of the network with a discount weight (the losses of the auxiliary classifiers were weighted by 0.3). At inference time, these auxiliary networks are discarded."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 2870
+                },
+                {
+                    "x": 2096,
+                    "y": 2870
+                },
+                {
+                    "x": 2096,
+                    "y": 2916
+                },
+                {
+                    "x": 445,
+                    "y": 2916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:20px'>The exact structure of the extra network on the side, including the auxiliary classifier, is as follows:</p>",
+            "id": 51,
+            "page": 6,
+            "text": "The exact structure of the extra network on the side, including the auxiliary classifier, is as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 560,
+                    "y": 2960
+                },
+                {
+                    "x": 2105,
+                    "y": 2960
+                },
+                {
+                    "x": 2105,
+                    "y": 3051
+                },
+                {
+                    "x": 560,
+                    "y": 3051
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:20px'>· An average pooling layer with 5x5 filter size and stride 3, resulting in an 4x4x512 output<br>for the (4a), and 4x4x 528 for the (4d) stage.</p>",
+            "id": 52,
+            "page": 6,
+            "text": "· An average pooling layer with 5x5 filter size and stride 3, resulting in an 4x4x512 output for the (4a), and 4x4x 528 for the (4d) stage."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3137
+                },
+                {
+                    "x": 1289,
+                    "y": 3137
+                },
+                {
+                    "x": 1289,
+                    "y": 3172
+                },
+                {
+                    "x": 1260,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='53' style='font-size:20px'>6</footer>",
+            "id": 53,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 996,
+                    "y": 355
+                },
+                {
+                    "x": 1567,
+                    "y": 355
+                },
+                {
+                    "x": 1567,
+                    "y": 2959
+                },
+                {
+                    "x": 996,
+                    "y": 2959
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='54' style='font-size:14px' alt=\"softmax2\nSoftmaxActivation\nFC\nAveragePool\n7x7+1(V)\nDepthConcat\nConv Conv Conv Conv\n1x1+1(5) 3x3+1(5) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\n1x1+1(5) 1x1+1(S) 3x3+1(5)\nDepthConcat\nConv Conv Conv Conv\nsoftmax1\n1x1+1(5) 3x3+1(5) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\nSoftmaxActivation\n1x1+1(5) 1x1+1(5) 3x3+1(5)\nMaxPool\nFC\n3x3+2(S)\nDepthConcat FC\nConv Conv Conv Conv Conv\n1x1+1(S) 3x3+1(5) 5x5+1(5) 1x1+1(S) 1x1+1(S)\nConv Conv MaxPool AveragePool\n1x1+1(S) 1x1+1(S) 3x3+1(5) 5x5+3(V)\nDepthConcat\nConv Conv Conv Conv\n1x1+1(S) 3x3+1(S) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\n1x1+1(S) 1x1+1(5) 3x3+1(S)\nDepthConcat softmax0\nConv Conv Conv Conv\nSoftmaxActivation\n1x1+1(S) 3x3+1(S) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\nFC\n1x1+1(S) 1x1+1(5) 3x3+1(S)\nDepthConcat FC\nConv Conv Conv Conv Conv\n1x1+1(S) 3x3+1(5) 5x5+1(5) 1x1+1(S) 1x1+1(S)\nConv Conv MaxPool AveragePool\n1x1+1(S) 1x1+1(5) 3x3+1(5) 5x5+3(V)\nDepthConcat\nConv Conv Conv Conv\n1x1+1(5) 3x3+1(5) 5x5+1(5) 1x1+1(5)\nConv Conv MaxPool\n1x1+1(5) 1x1+1(S) 3x3+1(S)\nMaxPool\n3x3+2(5)\nDepthConcat\nConv Conv Conv Conv\n1x1+1(S) 3x3+1(5) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\n1x1+1(5) 1x1+1(5) 3x3+1(S)\nDepthConcat\nConv Conv Conv Conv\n1x1+1(5) 3x3+1(S) 5x5+1(S) 1x1+1(5)\nConv Conv MaxPool\n1x1+1(5) 1x1+1(5) 3x3+1(5)\nMaxPool\n3x3+2(5)\nLocalRespNorm\nConv\n3x3+1(5)\nConv\n1x1+1(V)\nLocalRespNorm\nMaxPool\n3x3+2(5)\nConv\n7x7+2(S)\ninput\" data-coord=\"top-left:(996,355); bottom-right:(1567,2959)\" /></figure>",
+            "id": 54,
+            "page": 7,
+            "text": "softmax2 SoftmaxActivation FC AveragePool 7x7+1(V) DepthConcat Conv Conv Conv Conv 1x1+1(5) 3x3+1(5) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool 1x1+1(5) 1x1+1(S) 3x3+1(5) DepthConcat Conv Conv Conv Conv softmax1 1x1+1(5) 3x3+1(5) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool SoftmaxActivation 1x1+1(5) 1x1+1(5) 3x3+1(5) MaxPool FC 3x3+2(S) DepthConcat FC Conv Conv Conv Conv Conv 1x1+1(S) 3x3+1(5) 5x5+1(5) 1x1+1(S) 1x1+1(S) Conv Conv MaxPool AveragePool 1x1+1(S) 1x1+1(S) 3x3+1(5) 5x5+3(V) DepthConcat Conv Conv Conv Conv 1x1+1(S) 3x3+1(S) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool 1x1+1(S) 1x1+1(5) 3x3+1(S) DepthConcat softmax0 Conv Conv Conv Conv SoftmaxActivation 1x1+1(S) 3x3+1(S) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool FC 1x1+1(S) 1x1+1(5) 3x3+1(S) DepthConcat FC Conv Conv Conv Conv Conv 1x1+1(S) 3x3+1(5) 5x5+1(5) 1x1+1(S) 1x1+1(S) Conv Conv MaxPool AveragePool 1x1+1(S) 1x1+1(5) 3x3+1(5) 5x5+3(V) DepthConcat Conv Conv Conv Conv 1x1+1(5) 3x3+1(5) 5x5+1(5) 1x1+1(5) Conv Conv MaxPool 1x1+1(5) 1x1+1(S) 3x3+1(S) MaxPool 3x3+2(5) DepthConcat Conv Conv Conv Conv 1x1+1(S) 3x3+1(5) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool 1x1+1(5) 1x1+1(5) 3x3+1(S) DepthConcat Conv Conv Conv Conv 1x1+1(5) 3x3+1(S) 5x5+1(S) 1x1+1(5) Conv Conv MaxPool 1x1+1(5) 1x1+1(5) 3x3+1(5) MaxPool 3x3+2(5) LocalRespNorm Conv 3x3+1(5) Conv 1x1+1(V) LocalRespNorm MaxPool 3x3+2(5) Conv 7x7+2(S) input"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 817,
+                    "y": 2998
+                },
+                {
+                    "x": 1733,
+                    "y": 2998
+                },
+                {
+                    "x": 1733,
+                    "y": 3037
+                },
+                {
+                    "x": 817,
+                    "y": 3037
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='55' style='font-size:20px'>Figure 3: GoogLeNet network with all the bells and whistles</caption>",
+            "id": 55,
+            "page": 7,
+            "text": "Figure 3: GoogLeNet network with all the bells and whistles"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1262,
+                    "y": 3134
+                },
+                {
+                    "x": 1287,
+                    "y": 3134
+                },
+                {
+                    "x": 1287,
+                    "y": 3170
+                },
+                {
+                    "x": 1262,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='56' style='font-size:16px'>7</footer>",
+            "id": 56,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 555,
+                    "y": 345
+                },
+                {
+                    "x": 2106,
+                    "y": 345
+                },
+                {
+                    "x": 2106,
+                    "y": 632
+                },
+                {
+                    "x": 555,
+                    "y": 632
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:14px'>· A 1x1 convolution with 128 filters for dimension reduction and rectified linear activation.<br>· A fully connected layer with 1024 units and rectified linear activation.<br>· A dropout layer with 70% ratio of dropped outputs.<br>· A linear layer with softmax loss as the classifier (predicting the same 1000 classes as the<br>main classifier, but removed at inference time).</p>",
+            "id": 57,
+            "page": 8,
+            "text": "· A 1x1 convolution with 128 filters for dimension reduction and rectified linear activation. · A fully connected layer with 1024 units and rectified linear activation. · A dropout layer with 70% ratio of dropped outputs. · A linear layer with softmax loss as the classifier (predicting the same 1000 classes as the main classifier, but removed at inference time)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 671
+                },
+                {
+                    "x": 1549,
+                    "y": 671
+                },
+                {
+                    "x": 1549,
+                    "y": 717
+                },
+                {
+                    "x": 445,
+                    "y": 717
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:18px'>A schematic view of the resulting network is depicted in Figure 3.</p>",
+            "id": 58,
+            "page": 8,
+            "text": "A schematic view of the resulting network is depicted in Figure 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 787
+                },
+                {
+                    "x": 1002,
+                    "y": 787
+                },
+                {
+                    "x": 1002,
+                    "y": 842
+                },
+                {
+                    "x": 443,
+                    "y": 842
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:22px'>6 Training Methodology</p>",
+            "id": 59,
+            "page": 8,
+            "text": "6 Training Methodology"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 889
+                },
+                {
+                    "x": 2107,
+                    "y": 889
+                },
+                {
+                    "x": 2107,
+                    "y": 1212
+                },
+                {
+                    "x": 442,
+                    "y": 1212
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:18px'>Our networks were trained using the DistBelief [4] distributed machine learning system using mod-<br>est amount of model and data-parallelism. Although we used CPU based implementation only, a<br>rough estimate suggests that the GoogLeNet network could be trained to convergence using few<br>high-end GPUs within a week, the main limitation being the memory usage. Our training used<br>asynchronous stochastic gradient descent with 0.9 momentum [17], fixed learning rate schedule (de-<br>creasing the learning rate by 4% every 8 epochs). Polyak averaging [13] was used to create the final<br>model used at inference time.</p>",
+            "id": 60,
+            "page": 8,
+            "text": "Our networks were trained using the DistBelief  distributed machine learning system using modest amount of model and data-parallelism. Although we used CPU based implementation only, a rough estimate suggests that the GoogLeNet network could be trained to convergence using few high-end GPUs within a week, the main limitation being the memory usage. Our training used asynchronous stochastic gradient descent with 0.9 momentum , fixed learning rate schedule (decreasing the learning rate by 4% every 8 epochs). Polyak averaging  was used to create the final model used at inference time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1235
+                },
+                {
+                    "x": 2108,
+                    "y": 1235
+                },
+                {
+                    "x": 2108,
+                    "y": 1829
+                },
+                {
+                    "x": 441,
+                    "y": 1829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>Our image sampling methods have changed substantially over the months leading to the competition,<br>and already converged models were trained on with other options, sometimes in conjunction with<br>changed hyperparameters, like dropout and learning rate, SO it is hard to give a definitive guidance<br>to the most effective single way to train these networks. To complicate matters further, some of<br>the models were mainly trained on smaller relative crops, others on larger ones, inspired by [8].<br>Still, one prescription that was verified to work very well after the competition includes sampling<br>of various sized patches of the image whose size is distributed evenly between 8% and 100% of the<br>image area and whose aspect ratio is chosen randomly between 3/4 and 4/3. Also, we found that the<br>photometric distortions by Andrew Howard [8] were useful to combat overfitting to some extent. In<br>addition, we started to use random interpolation methods (bilinear, area, nearest neighbor and cubic,<br>with equal probability) for resizing relatively late and in conjunction with other hyperparameter<br>changes, SO we could not tell definitely whether the final results were affected positively by their<br>use.</p>",
+            "id": 61,
+            "page": 8,
+            "text": "Our image sampling methods have changed substantially over the months leading to the competition, and already converged models were trained on with other options, sometimes in conjunction with changed hyperparameters, like dropout and learning rate, SO it is hard to give a definitive guidance to the most effective single way to train these networks. To complicate matters further, some of the models were mainly trained on smaller relative crops, others on larger ones, inspired by . Still, one prescription that was verified to work very well after the competition includes sampling of various sized patches of the image whose size is distributed evenly between 8% and 100% of the image area and whose aspect ratio is chosen randomly between 3/4 and 4/3. Also, we found that the photometric distortions by Andrew Howard  were useful to combat overfitting to some extent. In addition, we started to use random interpolation methods (bilinear, area, nearest neighbor and cubic, with equal probability) for resizing relatively late and in conjunction with other hyperparameter changes, SO we could not tell definitely whether the final results were affected positively by their use."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1898
+                },
+                {
+                    "x": 1746,
+                    "y": 1898
+                },
+                {
+                    "x": 1746,
+                    "y": 1953
+                },
+                {
+                    "x": 444,
+                    "y": 1953
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:20px'>7 ILSVRC 2014 Classification Challenge Setup and Results</p>",
+            "id": 62,
+            "page": 8,
+            "text": "7 ILSVRC 2014 Classification Challenge Setup and Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2000
+                },
+                {
+                    "x": 2107,
+                    "y": 2000
+                },
+                {
+                    "x": 2107,
+                    "y": 2373
+                },
+                {
+                    "x": 442,
+                    "y": 2373
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:18px'>The ILSVRC 2014 classification challenge involves the task of classifying the image into one of<br>1000 leaf-node categories in the Imagenet hierarchy. There are about 1.2 million images for training,<br>50,000 for validation and 100,000 images for testing. Each image is associated with one ground<br>truth category, and performance is measured based on the highest scoring classifier predictions.<br>Two numbers are usually reported: the top-1 accuracy rate, which compares the ground truth against<br>the first predicted class, and the top-5 error rate, which compares the ground truth against the first<br>5 predicted classes: an image is deemed correctly classified if the ground truth is among the top-5,<br>regardless of its rank in them. The challenge uses the top-5 error rate for ranking purposes.</p>",
+            "id": 63,
+            "page": 8,
+            "text": "The ILSVRC 2014 classification challenge involves the task of classifying the image into one of 1000 leaf-node categories in the Imagenet hierarchy. There are about 1.2 million images for training, 50,000 for validation and 100,000 images for testing. Each image is associated with one ground truth category, and performance is measured based on the highest scoring classifier predictions. Two numbers are usually reported: the top-1 accuracy rate, which compares the ground truth against the first predicted class, and the top-5 error rate, which compares the ground truth against the first 5 predicted classes: an image is deemed correctly classified if the ground truth is among the top-5, regardless of its rank in them. The challenge uses the top-5 error rate for ranking purposes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2394
+                },
+                {
+                    "x": 2106,
+                    "y": 2394
+                },
+                {
+                    "x": 2106,
+                    "y": 2534
+                },
+                {
+                    "x": 441,
+                    "y": 2534
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:18px'>We participated in the challenge with no external data used for training. In addition to the training<br>techniques aforementioned in this paper, we adopted a set of techniques during testing to obtain a<br>higher performance, which we elaborate below.</p>",
+            "id": 64,
+            "page": 8,
+            "text": "We participated in the challenge with no external data used for training. In addition to the training techniques aforementioned in this paper, we adopted a set of techniques during testing to obtain a higher performance, which we elaborate below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 536,
+                    "y": 2572
+                },
+                {
+                    "x": 2108,
+                    "y": 2572
+                },
+                {
+                    "x": 2108,
+                    "y": 3056
+                },
+                {
+                    "x": 536,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:16px'>1. We independently trained 7 versions of the same GoogLeNet model (including one wider<br>version), and performed ensemble prediction with them. These models were trained with<br>the same initialization (even with the same initial weights, mainly because of an oversight)<br>and learning rate policies, and they only differ in sampling methodologies and the random<br>order in which they see input images.<br>2. During testing, we adopted a more aggressive cropping approach than that of Krizhevsky et<br>al. [9]. Specifically, we resize the image to 4 scales where the shorter dimension (height or<br>width) is 256, 288, 320 and 352 respectively, take the left, center and right square of these<br>resized images (in the case of portrait images, we take the top, center and bottom squares).<br>For each square, we then take the 4 corners and the center 224x 224 crop as well as the</p>",
+            "id": 65,
+            "page": 8,
+            "text": "1. We independently trained 7 versions of the same GoogLeNet model (including one wider version), and performed ensemble prediction with them. These models were trained with the same initialization (even with the same initial weights, mainly because of an oversight) and learning rate policies, and they only differ in sampling methodologies and the random order in which they see input images. 2. During testing, we adopted a more aggressive cropping approach than that of Krizhevsky  . Specifically, we resize the image to 4 scales where the shorter dimension (height or width) is 256, 288, 320 and 352 respectively, take the left, center and right square of these resized images (in the case of portrait images, we take the top, center and bottom squares). For each square, we then take the 4 corners and the center 224x 224 crop as well as the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='66' style='font-size:16px'>8</footer>",
+            "id": 66,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 671,
+                    "y": 332
+                },
+                {
+                    "x": 1880,
+                    "y": 332
+                },
+                {
+                    "x": 1880,
+                    "y": 882
+                },
+                {
+                    "x": 671,
+                    "y": 882
+                }
+            ],
+            "category": "table",
+            "html": "<table id='67' style='font-size:18px'><tr><td>Team</td><td>Year</td><td>Place</td><td>Error (top-5)</td><td>Uses external data</td></tr><tr><td>SuperVision</td><td>2012</td><td>1st</td><td>16.4%</td><td>no</td></tr><tr><td>SuperVision</td><td>2012</td><td>1st</td><td>15.3%</td><td>Imagenet 22k</td></tr><tr><td>Clarifai</td><td>2013</td><td>1st</td><td>11.7%</td><td>no</td></tr><tr><td>Clarifai</td><td>2013</td><td>1st</td><td>11.2%</td><td>Imagenet 22k</td></tr><tr><td>MSRA</td><td>2014</td><td>3rd</td><td>7.35%</td><td>no</td></tr><tr><td>VGG</td><td>2014</td><td>2nd</td><td>7.32%</td><td>no</td></tr><tr><td>GoogLeNet</td><td>2014</td><td>1st</td><td>6.67%</td><td>no</td></tr></table>",
+            "id": 67,
+            "page": 9,
+            "text": "Team Year Place Error (top-5) Uses external data  SuperVision 2012 1st 16.4% no  SuperVision 2012 1st 15.3% Imagenet 22k  Clarifai 2013 1st 11.7% no  Clarifai 2013 1st 11.2% Imagenet 22k  MSRA 2014 3rd 7.35% no  VGG 2014 2nd 7.32% no  GoogLeNet 2014 1st 6.67%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1005,
+                    "y": 915
+                },
+                {
+                    "x": 1547,
+                    "y": 915
+                },
+                {
+                    "x": 1547,
+                    "y": 956
+                },
+                {
+                    "x": 1005,
+                    "y": 956
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='68' style='font-size:16px'>Table 2: Classification performance</caption>",
+            "id": 68,
+            "page": 9,
+            "text": "Table 2: Classification performance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 520,
+                    "y": 998
+                },
+                {
+                    "x": 2030,
+                    "y": 998
+                },
+                {
+                    "x": 2030,
+                    "y": 1471
+                },
+                {
+                    "x": 520,
+                    "y": 1471
+                }
+            ],
+            "category": "table",
+            "html": "<table id='69' style='font-size:18px'><tr><td>Number of models</td><td>Number of Crops</td><td>Cost</td><td>Top-5 error</td><td>compared to base</td></tr><tr><td>1</td><td>1</td><td>1</td><td>10.07%</td><td>base</td></tr><tr><td>1</td><td>10</td><td>10</td><td>9.15%</td><td>-0.92%</td></tr><tr><td>1</td><td>144</td><td>144</td><td>7.89%</td><td>-2.18%</td></tr><tr><td>7</td><td>1</td><td>7</td><td>8.09%</td><td>-1.98%</td></tr><tr><td>7</td><td>10</td><td>70</td><td>7.62%</td><td>-2.45%</td></tr><tr><td>7</td><td>144</td><td>1008</td><td>6.67%</td><td>-3.45%</td></tr></table>",
+            "id": 69,
+            "page": 9,
+            "text": "Number of models Number of Crops Cost Top-5 error compared to base  1 1 1 10.07% base  1 10 10 9.15% -0.92%  1 144 144 7.89% -2.18%  7 1 7 8.09% -1.98%  7 10 70 7.62% -2.45%  7 144 1008 6.67%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 823,
+                    "y": 1506
+                },
+                {
+                    "x": 1727,
+                    "y": 1506
+                },
+                {
+                    "x": 1727,
+                    "y": 1548
+                },
+                {
+                    "x": 823,
+                    "y": 1548
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='70' style='font-size:14px'>Table 3: GoogLeNet classification performance break down</caption>",
+            "id": 70,
+            "page": 9,
+            "text": "Table 3: GoogLeNet classification performance break down"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 588,
+                    "y": 1632
+                },
+                {
+                    "x": 2106,
+                    "y": 1632
+                },
+                {
+                    "x": 2106,
+                    "y": 1907
+                },
+                {
+                    "x": 588,
+                    "y": 1907
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:16px'>square resized to 224x224, and their mirrored versions. This results in 4x3x6x2 = 144<br>crops per image. A similar approach was used by Andrew Howard [8] in the previous year's<br>entry, which we empirically verified to perform slightly worse than the proposed scheme.<br>We note that such aggressive cropping may not be necessary in real applications, as the<br>benefit of more crops becomes marginal after a reasonable number of crops are present (as<br>we will show later on).</p>",
+            "id": 71,
+            "page": 9,
+            "text": "square resized to 224x224, and their mirrored versions. This results in 4x3x6x2 = 144 crops per image. A similar approach was used by Andrew Howard  in the previous year's entry, which we empirically verified to perform slightly worse than the proposed scheme. We note that such aggressive cropping may not be necessary in real applications, as the benefit of more crops becomes marginal after a reasonable number of crops are present (as we will show later on)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 537,
+                    "y": 1917
+                },
+                {
+                    "x": 2108,
+                    "y": 1917
+                },
+                {
+                    "x": 2108,
+                    "y": 2107
+                },
+                {
+                    "x": 537,
+                    "y": 2107
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:16px'>3. The softmax probabilities are averaged over multiple crops and over all the individual clas-<br>sifiers to obtain the final prediction. In our experiments we analyzed alternative approaches<br>on the validation data, such as max pooling over crops and averaging over classifiers, but<br>they lead to inferior performance than the simple averaging.</p>",
+            "id": 72,
+            "page": 9,
+            "text": "3. The softmax probabilities are averaged over multiple crops and over all the individual classifiers to obtain the final prediction. In our experiments we analyzed alternative approaches on the validation data, such as max pooling over crops and averaging over classifiers, but they lead to inferior performance than the simple averaging."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2146
+                },
+                {
+                    "x": 2104,
+                    "y": 2146
+                },
+                {
+                    "x": 2104,
+                    "y": 2237
+                },
+                {
+                    "x": 441,
+                    "y": 2237
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:14px'>In the remainder of this paper, we analyze the multiple factors that contribute to the overall perfor-<br>mance of the final submission.</p>",
+            "id": 73,
+            "page": 9,
+            "text": "In the remainder of this paper, we analyze the multiple factors that contribute to the overall performance of the final submission."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2263
+                },
+                {
+                    "x": 2108,
+                    "y": 2263
+                },
+                {
+                    "x": 2108,
+                    "y": 2491
+                },
+                {
+                    "x": 441,
+                    "y": 2491
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>Our final submission in the challenge obtains a top-5 error of 6.67% on both the validation and<br>testing data, ranking the first among other participants. This is a 56.5% relative reduction compared<br>to the SuperVision approach in 2012, and about 40% relative reduction compared to the previous<br>year's best approach (Clarifai), both of which used external data for training the classifiers. The<br>following table shows the statistics of some of the top-performing approaches.</p>",
+            "id": 74,
+            "page": 9,
+            "text": "Our final submission in the challenge obtains a top-5 error of 6.67% on both the validation and testing data, ranking the first among other participants. This is a 56.5% relative reduction compared to the SuperVision approach in 2012, and about 40% relative reduction compared to the previous year's best approach (Clarifai), both of which used external data for training the classifiers. The following table shows the statistics of some of the top-performing approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2517
+                },
+                {
+                    "x": 2107,
+                    "y": 2517
+                },
+                {
+                    "x": 2107,
+                    "y": 2701
+                },
+                {
+                    "x": 441,
+                    "y": 2701
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:16px'>We also analyze and report the performance of multiple testing choices, by varying the number of<br>models and the number of crops used when predicting an image in the following table. When we<br>use one model, we chose the one with the lowest top-1 error rate on the validation data. All numbers<br>are reported on the validation dataset in order to not overfit to the testing data statistics.</p>",
+            "id": 75,
+            "page": 9,
+            "text": "We also analyze and report the performance of multiple testing choices, by varying the number of models and the number of crops used when predicting an image in the following table. When we use one model, we chose the one with the lowest top-1 error rate on the validation data. All numbers are reported on the validation dataset in order to not overfit to the testing data statistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2766
+                },
+                {
+                    "x": 1664,
+                    "y": 2766
+                },
+                {
+                    "x": 1664,
+                    "y": 2820
+                },
+                {
+                    "x": 444,
+                    "y": 2820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:20px'>8 ILSVRC 2014 Detection Challenge Setup and Results</p>",
+            "id": 76,
+            "page": 9,
+            "text": "8 ILSVRC 2014 Detection Challenge Setup and Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2867
+                },
+                {
+                    "x": 2109,
+                    "y": 2867
+                },
+                {
+                    "x": 2109,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>The ILSVRC detection task is to produce bounding boxes around objects in images among 200<br>possible classes. Detected objects count as correct if they match the class of the groundtruth and<br>their bounding boxes overlap by at least 50% (using the Jaccard index). Extraneous detections count<br>as false positives and are penalized. Contrary to the classification task, each image may contain</p>",
+            "id": 77,
+            "page": 9,
+            "text": "The ILSVRC detection task is to produce bounding boxes around objects in images among 200 possible classes. Detected objects count as correct if they match the class of the groundtruth and their bounding boxes overlap by at least 50% (using the Jaccard index). Extraneous detections count as false positives and are penalized. Contrary to the classification task, each image may contain"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3168
+                },
+                {
+                    "x": 1261,
+                    "y": 3168
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='78' style='font-size:16px'>9</footer>",
+            "id": 78,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 465,
+                    "y": 333
+                },
+                {
+                    "x": 2085,
+                    "y": 333
+                },
+                {
+                    "x": 2085,
+                    "y": 675
+                },
+                {
+                    "x": 465,
+                    "y": 675
+                }
+            ],
+            "category": "table",
+            "html": "<table id='79' style='font-size:18px'><tr><td>Team</td><td>Year</td><td>Place</td><td>mAP</td><td>external data</td><td>ensemble</td><td>approach</td></tr><tr><td>UvA-Euvision</td><td>2013</td><td>1st</td><td>22.6%</td><td>none</td><td>?</td><td>Fisher vectors</td></tr><tr><td>Deep Insight</td><td>2014</td><td>3rd</td><td>40.5%</td><td>ImageNet 1k</td><td>3</td><td>CNN</td></tr><tr><td>CUHK DeepID-Net</td><td>2014</td><td>2nd</td><td>40.7%</td><td>ImageNet 1k</td><td>?</td><td>CNN</td></tr><tr><td>GoogLeNet</td><td>2014</td><td>1st</td><td>43.9%</td><td>ImageNet 1k</td><td>6</td><td>CNN</td></tr></table>",
+            "id": 79,
+            "page": 10,
+            "text": "Team Year Place mAP external data ensemble approach  UvA-Euvision 2013 1st 22.6% none ? Fisher vectors  Deep Insight 2014 3rd 40.5% ImageNet 1k 3 CNN  CUHK DeepID-Net 2014 2nd 40.7% ImageNet 1k ? CNN  GoogLeNet 2014 1st 43.9% ImageNet 1k 6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1034,
+                    "y": 710
+                },
+                {
+                    "x": 1516,
+                    "y": 710
+                },
+                {
+                    "x": 1516,
+                    "y": 750
+                },
+                {
+                    "x": 1034,
+                    "y": 750
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='80' style='font-size:16px'>Table 4: Detection performance</caption>",
+            "id": 80,
+            "page": 10,
+            "text": "Table 4: Detection performance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 547,
+                    "y": 793
+                },
+                {
+                    "x": 2005,
+                    "y": 793
+                },
+                {
+                    "x": 2005,
+                    "y": 1269
+                },
+                {
+                    "x": 547,
+                    "y": 1269
+                }
+            ],
+            "category": "table",
+            "html": "<table id='81' style='font-size:18px'><tr><td>Team</td><td>mAP</td><td>Contextual model</td><td>Bounding box regression</td></tr><tr><td>Trimps-Soushen</td><td>31.6%</td><td>no</td><td>?</td></tr><tr><td>Berkeley Vision</td><td>34.5%</td><td>no</td><td>yes</td></tr><tr><td>UvA-Euvision</td><td>35.4%</td><td>?</td><td>?</td></tr><tr><td>CUHK DeepID-Net2</td><td>37.7%</td><td>no</td><td>?</td></tr><tr><td>GoogLeNet</td><td>38.02%</td><td>no</td><td>no</td></tr><tr><td>Deep Insight</td><td>40.2%</td><td>yes</td><td>yes</td></tr></table>",
+            "id": 81,
+            "page": 10,
+            "text": "Team mAP Contextual model Bounding box regression  Trimps-Soushen 31.6% no ?  Berkeley Vision 34.5% no yes  UvA-Euvision 35.4% ? ?  CUHK DeepID-Net2 37.7% no ?  GoogLeNet 38.02% no no  Deep Insight 40.2% yes"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 904,
+                    "y": 1302
+                },
+                {
+                    "x": 1644,
+                    "y": 1302
+                },
+                {
+                    "x": 1644,
+                    "y": 1344
+                },
+                {
+                    "x": 904,
+                    "y": 1344
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='82' style='font-size:16px'>Table 5: Single model performance for detection</caption>",
+            "id": 82,
+            "page": 10,
+            "text": "Table 5: Single model performance for detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1437
+                },
+                {
+                    "x": 2105,
+                    "y": 1437
+                },
+                {
+                    "x": 2105,
+                    "y": 1526
+                },
+                {
+                    "x": 442,
+                    "y": 1526
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:16px'>many objects or none, and their scale may vary from large to tiny. Results are reported using the<br>mean average precision (mAP).</p>",
+            "id": 83,
+            "page": 10,
+            "text": "many objects or none, and their scale may vary from large to tiny. Results are reported using the mean average precision (mAP)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1549
+                },
+                {
+                    "x": 2107,
+                    "y": 1549
+                },
+                {
+                    "x": 2107,
+                    "y": 2054
+                },
+                {
+                    "x": 442,
+                    "y": 2054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:18px'>The approach taken by GoogLeNet for detection is similar to the R-CNN by [6], but is augmented<br>with the Inception model as the region classifier. Additionally, the region proposal step is improved<br>by combining the Selective Search [20] approach with multi-box [5] predictions for higher object<br>bounding box recall. In order to cut down the number of false positives, the superpixel size was<br>increased by 2x. This halves the proposals coming from the selective search algorithm. We added<br>back 200 region proposals coming from multi-box [5] resulting, in total, in about 60% of the pro-<br>posals used by [6], while increasing the coverage from 92% to 93%. The overall effect of cutting the<br>number of proposals with increased coverage is a 1% improvement of the mean average precision<br>for the single model case. Finally, we use an ensemble of 6 ConvNets when classifying each region<br>which improves results from 40% to 43.9% accuracy. Note that contrary to R-CNN, we did not use<br>bounding box regression due to lack of time.</p>",
+            "id": 84,
+            "page": 10,
+            "text": "The approach taken by GoogLeNet for detection is similar to the R-CNN by , but is augmented with the Inception model as the region classifier. Additionally, the region proposal step is improved by combining the Selective Search  approach with multi-box  predictions for higher object bounding box recall. In order to cut down the number of false positives, the superpixel size was increased by 2x. This halves the proposals coming from the selective search algorithm. We added back 200 region proposals coming from multi-box  resulting, in total, in about 60% of the proposals used by , while increasing the coverage from 92% to 93%. The overall effect of cutting the number of proposals with increased coverage is a 1% improvement of the mean average precision for the single model case. Finally, we use an ensemble of 6 ConvNets when classifying each region which improves results from 40% to 43.9% accuracy. Note that contrary to R-CNN, we did not use bounding box regression due to lack of time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2076
+                },
+                {
+                    "x": 2107,
+                    "y": 2076
+                },
+                {
+                    "x": 2107,
+                    "y": 2489
+                },
+                {
+                    "x": 442,
+                    "y": 2489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='85' style='font-size:14px'>We first report the top detection results and show the progress since the first edition of the detection<br>task. Compared to the 2013 result, the accuracy has almost doubled. The top performing teams all<br>use Convolutional Networks. We report the official scores in Table 4 and common strategies for each<br>team: the use of external data, ensemble models or contextual models. The external data is typically<br>the ILSVRC12 classification data for pre-training a model that is later refined on the detection data.<br>Some teams also mention the use of the localization data. Since a good portion of the localization<br>task bounding boxes are not included in the detection dataset, one can pre-train a general bounding<br>box regressor with this data the same way classification is used for pre-training. The GoogLeNet<br>entry did not use the localization data for pretraining.</p>",
+            "id": 85,
+            "page": 10,
+            "text": "We first report the top detection results and show the progress since the first edition of the detection task. Compared to the 2013 result, the accuracy has almost doubled. The top performing teams all use Convolutional Networks. We report the official scores in Table 4 and common strategies for each team: the use of external data, ensemble models or contextual models. The external data is typically the ILSVRC12 classification data for pre-training a model that is later refined on the detection data. Some teams also mention the use of the localization data. Since a good portion of the localization task bounding boxes are not included in the detection dataset, one can pre-train a general bounding box regressor with this data the same way classification is used for pre-training. The GoogLeNet entry did not use the localization data for pretraining."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2513
+                },
+                {
+                    "x": 2107,
+                    "y": 2513
+                },
+                {
+                    "x": 2107,
+                    "y": 2653
+                },
+                {
+                    "x": 441,
+                    "y": 2653
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:20px'>In Table 5, we compare results using a single model only. The top performing model is by Deep<br>Insight and surprisingly only improves by 0.3 points with an ensemble of 3 models while the<br>GoogLeNet obtains significantly stronger results with the ensemble.</p>",
+            "id": 86,
+            "page": 10,
+            "text": "In Table 5, we compare results using a single model only. The top performing model is by Deep Insight and surprisingly only improves by 0.3 points with an ensemble of 3 models while the GoogLeNet obtains significantly stronger results with the ensemble."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2719
+                },
+                {
+                    "x": 787,
+                    "y": 2719
+                },
+                {
+                    "x": 787,
+                    "y": 2771
+                },
+                {
+                    "x": 443,
+                    "y": 2771
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:22px'>9 Conclusions</p>",
+            "id": 87,
+            "page": 10,
+            "text": "9 Conclusions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2823
+                },
+                {
+                    "x": 2107,
+                    "y": 2823
+                },
+                {
+                    "x": 2107,
+                    "y": 3054
+                },
+                {
+                    "x": 441,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:16px'>Our results seem to yield a solid evidence that approximating the expected optimal sparse structure<br>by readily available dense building blocks is a viable method for improving neural networks for<br>computer vision. The main advantage of this method is a significant quality gain at a modest in-<br>crease of computational requirements compared to shallower and less wide networks. Also note that<br>our detection work was competitive despite of neither utilizing context nor performing bounding box</p>",
+            "id": 88,
+            "page": 10,
+            "text": "Our results seem to yield a solid evidence that approximating the expected optimal sparse structure by readily available dense building blocks is a viable method for improving neural networks for computer vision. The main advantage of this method is a significant quality gain at a modest increase of computational requirements compared to shallower and less wide networks. Also note that our detection work was competitive despite of neither utilizing context nor performing bounding box"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1254,
+                    "y": 3133
+                },
+                {
+                    "x": 1299,
+                    "y": 3133
+                },
+                {
+                    "x": 1299,
+                    "y": 3171
+                },
+                {
+                    "x": 1254,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='89' style='font-size:16px'>10</footer>",
+            "id": 89,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 347
+                },
+                {
+                    "x": 2109,
+                    "y": 347
+                },
+                {
+                    "x": 2109,
+                    "y": 578
+                },
+                {
+                    "x": 441,
+                    "y": 578
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:16px'>regression and this fact provides further evidence of the strength of the Inception architecture. Al-<br>though it is expected that similar quality of result can be achieved by much more expensive networks<br>of similar depth and width, our approach yields solid evidence that moving to sparser architectures<br>is feasible and useful idea in general. This suggest promising future work towards creating sparser<br>and more refined structures in automated ways on the basis of [2].</p>",
+            "id": 90,
+            "page": 11,
+            "text": "regression and this fact provides further evidence of the strength of the Inception architecture. Although it is expected that similar quality of result can be achieved by much more expensive networks of similar depth and width, our approach yields solid evidence that moving to sparser architectures is feasible and useful idea in general. This suggest promising future work towards creating sparser and more refined structures in automated ways on the basis of ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 447,
+                    "y": 645
+                },
+                {
+                    "x": 966,
+                    "y": 645
+                },
+                {
+                    "x": 966,
+                    "y": 699
+                },
+                {
+                    "x": 447,
+                    "y": 699
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:22px'>10 Acknowledgements</p>",
+            "id": 91,
+            "page": 11,
+            "text": "10 Acknowledgements"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 748
+                },
+                {
+                    "x": 2108,
+                    "y": 748
+                },
+                {
+                    "x": 2108,
+                    "y": 982
+                },
+                {
+                    "x": 443,
+                    "y": 982
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:16px'>We would like to thank Sanjeev Arora and Aditya Bhaskara for fruitful discussions on [2]. Also<br>we are indebted to the DistBelief [4] team for their support especially to Rajat Monga, Jon Shlens,<br>Alex Krizhevsky, Jeff Dean, Ilya Sutskever and Andrea Frome. We would also like to thank to Tom<br>Duerig and Ning Ye for their help on photometric distortions. Also our work would not have been<br>possible without the support of Chuck Rosenberg and Hartwig Adam.</p>",
+            "id": 92,
+            "page": 11,
+            "text": "We would like to thank Sanjeev Arora and Aditya Bhaskara for fruitful discussions on . Also we are indebted to the DistBelief  team for their support especially to Rajat Monga, Jon Shlens, Alex Krizhevsky, Jeff Dean, Ilya Sutskever and Andrea Frome. We would also like to thank to Tom Duerig and Ning Ye for their help on photometric distortions. Also our work would not have been possible without the support of Chuck Rosenberg and Hartwig Adam."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1048
+                },
+                {
+                    "x": 687,
+                    "y": 1048
+                },
+                {
+                    "x": 687,
+                    "y": 1100
+                },
+                {
+                    "x": 446,
+                    "y": 1100
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:20px'>References</p>",
+            "id": 93,
+            "page": 11,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 458,
+                    "y": 1125
+                },
+                {
+                    "x": 2114,
+                    "y": 1125
+                },
+                {
+                    "x": 2114,
+                    "y": 3063
+                },
+                {
+                    "x": 458,
+                    "y": 3063
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:18px'>[1] Know your meme: We need to go deeper. http : / / knowyourmeme · com/memes /<br>we-need-to-go-deeper. Accessed: 2014-09-15.<br>[2] Sanjeev Arora, Aditya Bhaskara, Rong Ge, and Tengyu Ma. Provable bounds for learning<br>some deep representations. CoRR, abs/1310.6343, 2013.<br>[3] Umit V. Catalyurek, Cevdet Aykanat, and Bora U�ar. On two-dimensional sparse matrix par-<br>titioning: Models, methods, and a recipe. SIAM J. Sci. Comput., 32(2):656-683, February<br>2010.<br>[4] Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao,<br>Marc'aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, Quoc V. Le, and Andrew Y.<br>Ng. Large scale distributed deep networks. In P. Bartlett, F.c.n. Pereira, C.j.c. Burges, L. Bot-<br>tou, and K.q. Weinberger, editors, Advances in Neural Information Processing Systems 25,<br>pages 1232-1240. 2012.<br>[5] Dumitru Erhan, Christian Szegedy, Alexander Toshev, and Dragomir Anguelov. Scalable ob-<br>ject detection using deep neural networks. In Computer Vision and Pattern Recognition, 2014.<br>CVPR 2014. IEEE Conference on, 2014.<br>[6] Ross B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies<br>for accurate object detection and semantic segmentation. In Computer Vision and Pattern<br>Recognition, 2014. CVPR 2014. IEEE Conference on, 2014.<br>[7] Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhut-<br>dinov. Improving neural networks by preventing co-adaptation of feature detectors. CoRR,<br>abs/1207.0580, 2012.<br>[8] Andrew G. Howard. Some improvements on deep convolutional neural network based image<br>classification. CoRR, abs/1312.5402, 2013.<br>[9] Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classification with deep con-<br>volutional neural networks. In Advances in Neural Information Processing Systems 25, pages<br>1106-1114, 2012.<br>[10] Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel.<br>Backpropagation applied to handwritten zip code recognition. Neural Comput., 1(4):541-551,<br>December 1989.<br>[11] Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning<br>applied to document recognition. Proceedings of the IEEE, 86(11):2278-2324, 1998.<br>[12] Min Lin, Qiang Chen, and Shuicheng Yan. Network in network. CoRR, abs/1312.4400, 2013.<br>[13] B. T. Polyak and A. B. Juditsky. Acceleration of stochastic approximation by averaging. SIAM<br>J. Control Optim., 30(4):838-855, July 1992.<br>[14] Pierre Sermanet, David Eigen, Xiang Zhang, Michael Mathieu, Rob Fergus, and Yann Le-<br>Cun. Overfeat: Integrated recognition, localization and detection using convolutional net-<br>works. CoRR, abs/1312.6229, 2013.</p>",
+            "id": 94,
+            "page": 11,
+            "text": " Know your meme: We need to go deeper. http : / / knowyourmeme · com/memes / we-need-to-go-deeper. Accessed: 2014-09-15.  Sanjeev Arora, Aditya Bhaskara, Rong Ge, and Tengyu Ma. Provable bounds for learning some deep representations. CoRR, abs/1310.6343, 2013.  Umit V. Catalyurek, Cevdet Aykanat, and Bora U�ar. On two-dimensional sparse matrix partitioning: Models, methods, and a recipe. SIAM J. Sci. Comput., 32(2):656-683, February 2010.  Jeffrey Dean, Greg Corrado, Rajat Monga, Kai Chen, Matthieu Devin, Mark Mao, Marc'aurelio Ranzato, Andrew Senior, Paul Tucker, Ke Yang, Quoc V. Le, and Andrew Y. Ng. Large scale distributed deep networks. In P. Bartlett, F.c.n. Pereira, C.j.c. Burges, L. Bottou, and K.q. Weinberger, editors, Advances in Neural Information Processing Systems 25, pages 1232-1240. 2012.  Dumitru Erhan, Christian Szegedy, Alexander Toshev, and Dragomir Anguelov. Scalable object detection using deep neural networks. In Computer Vision and Pattern Recognition, 2014. CVPR 2014. IEEE Conference on, 2014.  Ross B. Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In Computer Vision and Pattern Recognition, 2014. CVPR 2014. IEEE Conference on, 2014.  Geoffrey E. Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. Improving neural networks by preventing co-adaptation of feature detectors. CoRR, abs/1207.0580, 2012.  Andrew G. Howard. Some improvements on deep convolutional neural network based image classification. CoRR, abs/1312.5402, 2013.  Alex Krizhevsky, Ilya Sutskever, and Geoff Hinton. Imagenet classification with deep convolutional neural networks. In Advances in Neural Information Processing Systems 25, pages 1106-1114, 2012.  Y. LeCun, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W. Hubbard, and L. D. Jackel. Backpropagation applied to handwritten zip code recognition. Neural Comput., 1(4):541-551, December 1989.  Yann LeCun, Leon Bottou, Yoshua Bengio, and Patrick Haffner. Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11):2278-2324, 1998.  Min Lin, Qiang Chen, and Shuicheng Yan. Network in network. CoRR, abs/1312.4400, 2013.  B. T. Polyak and A. B. Juditsky. Acceleration of stochastic approximation by averaging. SIAM J. Control Optim., 30(4):838-855, July 1992.  Pierre Sermanet, David Eigen, Xiang Zhang, Michael Mathieu, Rob Fergus, and Yann LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. CoRR, abs/1312.6229, 2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3133
+                },
+                {
+                    "x": 1297,
+                    "y": 3133
+                },
+                {
+                    "x": 1297,
+                    "y": 3172
+                },
+                {
+                    "x": 1252,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='95' style='font-size:14px'>11</footer>",
+            "id": 95,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 438,
+                    "y": 336
+                },
+                {
+                    "x": 2113,
+                    "y": 336
+                },
+                {
+                    "x": 2113,
+                    "y": 1641
+                },
+                {
+                    "x": 438,
+                    "y": 1641
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:18px'>[15] Thomas Serre, Lior Wolf, Stanley M. Bileschi, Maximilian Riesenhuber, and Tomaso Poggio.<br>Robust object recognition with cortex-like mechanisms. IEEE Trans. Pattern Anal. Mach.<br>Intell., 29(3):411-426, 2007.<br>[16] Fengguang Song and Jack Dongarra. Scaling up matrix computations on shared-memory<br>manycore systems with 1000 cpu cores. In Proceedings of the 28th ACM International Con-<br>ference on Supercomputing, ICS '14, pages 333-342, New York, NY, USA, 2014. ACM.<br>[17] Ilya Sutskever, James Martens, George E. Dahl, and Geoffrey E. Hinton. On the importance<br>of initialization and momentum in deep learning. In Proceedings of the 30th International<br>Conference on Machine Learning, ICML 2013, Atlanta, GA, USA, 16-21 June 2013, volume 28<br>of JMLR Proceedings, pages 1139-1147. JMLR.org, 2013.<br>[18] Christian Szegedy, Alexander Toshev, and Dumitru Erhan. Deep neural networks for object<br>detection. In Christopher J. C. Burges, Leon Bottou, Zoubin Ghahramani, and Kilian Q.<br>Weinberger, editors, Advances in Neural Information Processing Systems 26: 27th Annual<br>Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held<br>December 5-8, 2013, Lake Tahoe, Nevada, United States., pages 2553-2561, 2013.<br>[19] Alexander Toshev and Christian Szegedy. Deeppose: Human pose estimation via deep neural<br>networks. CoRR, abs/1312.4659, 2013.<br>[20] Koen E. A. van de Sande, Jasper R. R. Uijlings, Theo Gevers, and Arnold W. M. Smeulders.<br>Segmentation as selective search for object recognition. In Proceedings of the 2011 Interna-<br>tional Conference on Computer Vision, ICCV '11, pages 1879-1886, Washington, DC, USA,<br>2011. IEEE Computer Society.<br>[21] Matthew D. Zeiler and Rob Fergus. Visualizing and understanding convolutional networks. In<br>David J. Fleet, Tomas Pajdla, Bernt Schiele, and Tinne Tuytelaars, editors, Computer Vision<br>- ECCV 2014 - 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Pro-<br>ceedings, PartI, volume 8689 of Lecture Notes in Computer Science, pages 818-833. Springer,<br>2014.</p>",
+            "id": 96,
+            "page": 12,
+            "text": " Thomas Serre, Lior Wolf, Stanley M. Bileschi, Maximilian Riesenhuber, and Tomaso Poggio. Robust object recognition with cortex-like mechanisms. IEEE Trans. Pattern Anal. Mach. Intell., 29(3):411-426, 2007.  Fengguang Song and Jack Dongarra. Scaling up matrix computations on shared-memory manycore systems with 1000 cpu cores. In Proceedings of the 28th ACM International Conference on Supercomputing, ICS '14, pages 333-342, New York, NY, USA, 2014. ACM.  Ilya Sutskever, James Martens, George E. Dahl, and Geoffrey E. Hinton. On the importance of initialization and momentum in deep learning. In Proceedings of the 30th International Conference on Machine Learning, ICML 2013, Atlanta, GA, USA, 16-21 June 2013, volume 28 of JMLR Proceedings, pages 1139-1147. JMLR.org, 2013.  Christian Szegedy, Alexander Toshev, and Dumitru Erhan. Deep neural networks for object detection. In Christopher J. C. Burges, Leon Bottou, Zoubin Ghahramani, and Kilian Q. Weinberger, editors, Advances in Neural Information Processing Systems 26: 27th Annual Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held December 5-8, 2013, Lake Tahoe, Nevada, United States., pages 2553-2561, 2013.  Alexander Toshev and Christian Szegedy. Deeppose: Human pose estimation via deep neural networks. CoRR, abs/1312.4659, 2013.  Koen E. A. van de Sande, Jasper R. R. Uijlings, Theo Gevers, and Arnold W. M. Smeulders. Segmentation as selective search for object recognition. In Proceedings of the 2011 International Conference on Computer Vision, ICCV '11, pages 1879-1886, Washington, DC, USA, 2011. IEEE Computer Society.  Matthew D. Zeiler and Rob Fergus. Visualizing and understanding convolutional networks. In David J. Fleet, Tomas Pajdla, Bernt Schiele, and Tinne Tuytelaars, editors, Computer Vision - ECCV 2014 - 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, PartI, volume 8689 of Lecture Notes in Computer Science, pages 818-833. Springer, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1252,
+                    "y": 3132
+                },
+                {
+                    "x": 1300,
+                    "y": 3132
+                },
+                {
+                    "x": 1300,
+                    "y": 3172
+                },
+                {
+                    "x": 1252,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='97' style='font-size:14px'>12</footer>",
+            "id": 97,
+            "page": 12,
+            "text": "12"
+        }
+    ]
+}

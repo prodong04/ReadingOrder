@@ -1,0 +1,3381 @@
+{
+    "id": "62ad8762-0f92-11ef-8230-426932df3dcf",
+    "pdf_path": "/root/data/pdf/2105.15168v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 436
+                },
+                {
+                    "x": 2036,
+                    "y": 436
+                },
+                {
+                    "x": 2036,
+                    "y": 580
+                },
+                {
+                    "x": 443,
+                    "y": 580
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>MSG- Transformer: Exchanging Local Spatial Information by<br>Manipulating Messenger Tokens</p>",
+            "id": 0,
+            "page": 1,
+            "text": "MSG- Transformer: Exchanging Local Spatial Information by\nManipulating Messenger Tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 324,
+                    "y": 673
+                },
+                {
+                    "x": 2156,
+                    "y": 673
+                },
+                {
+                    "x": 2156,
+                    "y": 853
+                },
+                {
+                    "x": 324,
+                    "y": 853
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Jiemin Fang1,2 , Lingxi Xie3 , Xinggang Wang2†, Xiaopeng Zhang3 , Wenyu Liu2 , Qi Tian3<br>1Institute of Artificial Intelligence, Huazhong University of Science & Technology<br>2School of EIC, Huazhong University of Science & Technology 3Huawei Inc.</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Jiemin Fang1,2 , Lingxi Xie3 , Xinggang Wang2†, Xiaopeng Zhang3 , Wenyu Liu2 , Qi Tian3\n1Institute of Artificial Intelligence, Huazhong University of Science & Technology\n2School of EIC, Huazhong University of Science & Technology 3Huawei Inc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 632,
+                    "y": 864
+                },
+                {
+                    "x": 1830,
+                    "y": 864
+                },
+                {
+                    "x": 1830,
+                    "y": 965
+                },
+                {
+                    "x": 632,
+                    "y": 965
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:14px'>{jaminfong, xgwang, liuwy}@hust · edu · cn<br>{198808xc, zxphistory}@gmail · com tian · qi1 @huawei · com</p>",
+            "id": 2,
+            "page": 1,
+            "text": "{jaminfong, xgwang, liuwy}@hust · edu · cn\n{198808xc, zxphistory}@gmail · com tian · qi1 @huawei · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 602,
+                    "y": 1084
+                },
+                {
+                    "x": 798,
+                    "y": 1084
+                },
+                {
+                    "x": 798,
+                    "y": 1134
+                },
+                {
+                    "x": 602,
+                    "y": 1134
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1185
+                },
+                {
+                    "x": 1200,
+                    "y": 1185
+                },
+                {
+                    "x": 1200,
+                    "y": 2069
+                },
+                {
+                    "x": 200,
+                    "y": 2069
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>Transformers have offered a new methodology of de-<br>signing neural networks for visual recognition. Compared<br>to convolutional networks, Transformers enjoy the ability<br>of referring to global features at each stage, yet the at-<br>tention module brings higher computational overhead that<br>obstructs the application of Transformers to process high-<br>resolution visual data. This paper aims to alleviate the<br>conflict between efficiency and flexibility, for which we pro-<br>pose a specialized token for each region that serves as a<br>messenger (MSG). Hence, by manipulating these MSG to-<br>kens, one can flexibly exchange visual information across<br>regions and the computational complexity is reduced. We<br>then integrate the MSG token into a multi-scale architec-<br>ture named MSG-Transformer. In standard image classi-<br>fication and object detection, MSG-Transformer achieves<br>competitive performance and the inference on both GPU<br>and CPU is accelerated. Code is available at https :<br>\\ \\ github · com/hustvl /MSG- Transformer.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Transformers have offered a new methodology of de-\nsigning neural networks for visual recognition. Compared\nto convolutional networks, Transformers enjoy the ability\nof referring to global features at each stage, yet the at-\ntention module brings higher computational overhead that\nobstructs the application of Transformers to process high-\nresolution visual data. This paper aims to alleviate the\nconflict between efficiency and flexibility, for which we pro-\npose a specialized token for each region that serves as a\nmessenger (MSG). Hence, by manipulating these MSG to-\nkens, one can flexibly exchange visual information across\nregions and the computational complexity is reduced. We\nthen integrate the MSG token into a multi-scale architec-\nture named MSG-Transformer. In standard image classi-\nfication and object detection, MSG-Transformer achieves\ncompetitive performance and the inference on both GPU\nand CPU is accelerated. Code is available at https :\n\\ \\ github · com/hustvl /MSG- Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2179
+                },
+                {
+                    "x": 531,
+                    "y": 2179
+                },
+                {
+                    "x": 531,
+                    "y": 2230
+                },
+                {
+                    "x": 204,
+                    "y": 2230
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1. Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2262
+                },
+                {
+                    "x": 1199,
+                    "y": 2262
+                },
+                {
+                    "x": 1199,
+                    "y": 2863
+                },
+                {
+                    "x": 201,
+                    "y": 2863
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>The past decade has witnessed the convolutional neural<br>networks (CNNs) dominating the computer vision commu-<br>nity. As one of the most popular models in deep learning,<br>CNNs construct a hierarchical structure to learn visual fea-<br>tures, and in each layer, local features are aggregated using<br>convolutions to produce features of the next layer. Though<br>simple and efficient, this mechanism obstructs the commu-<br>nication between features that are relatively distant from<br>each other. To offer such an ability, researchers propose to<br>replace convolutions by the Transformer, a module which<br>is first introduced in the field of natural language process-<br>ing [51]. It is shown that Transformers have the potential to</p>",
+            "id": 6,
+            "page": 1,
+            "text": "The past decade has witnessed the convolutional neural\nnetworks (CNNs) dominating the computer vision commu-\nnity. As one of the most popular models in deep learning,\nCNNs construct a hierarchical structure to learn visual fea-\ntures, and in each layer, local features are aggregated using\nconvolutions to produce features of the next layer. Though\nsimple and efficient, this mechanism obstructs the commu-\nnication between features that are relatively distant from\neach other. To offer such an ability, researchers propose to\nreplace convolutions by the Transformer, a module which\nis first introduced in the field of natural language process-\ning [51]. It is shown that Transformers have the potential to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 258,
+                    "y": 2895
+                },
+                {
+                    "x": 1163,
+                    "y": 2895
+                },
+                {
+                    "x": 1163,
+                    "y": 2971
+                },
+                {
+                    "x": 258,
+                    "y": 2971
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:16px'>1 Corresponding author.<br>The work was done during Jiemin Fang's internship at Huawei Inc.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "1 Corresponding author.\nThe work was done during Jiemin Fang's internship at Huawei Inc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1088
+                },
+                {
+                    "x": 2277,
+                    "y": 1088
+                },
+                {
+                    "x": 2277,
+                    "y": 1286
+                },
+                {
+                    "x": 1280,
+                    "y": 1286
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:18px'>learn visual representations and achieve remarkable success<br>in a wide range of visual recognition problems including<br>image classification [14, 40], object detection [4], semantic<br>segmentation [62], etc.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "learn visual representations and achieve remarkable success\nin a wide range of visual recognition problems including\nimage classification [14, 40], object detection [4], semantic\nsegmentation [62], etc."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1308
+                },
+                {
+                    "x": 2276,
+                    "y": 1308
+                },
+                {
+                    "x": 2276,
+                    "y": 2707
+                },
+                {
+                    "x": 1277,
+                    "y": 2707
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:18px'>The Transformer module works by using a token to for-<br>mulate the feature at each spatial position. The features<br>are then fed into self-attention computation and each to-<br>ken, according to the vanilla design, can exchange infor-<br>mation with all the others at every single layer. This de-<br>sign facilitates the visual information to exchange faster but<br>also increases the computational complexity, as the compu-<br>tational complexity grows quadratically with the number of<br>tokens - in comparison, the complexity of a regular convo-<br>lution grows linearly. To reduce the computational costs,<br>researchers propose to compute attention in local windows<br>of the 2D visual features. However constructing local at-<br>tention within overlapped regions enables communications<br>between different locations but causes inevitable memory<br>waste and computation cost; computing attention within<br>non-overlapped regions impedes information communica-<br>tions. As two typical local-attention vision Transformer<br>methods, HaloNet [50] partitions query features without<br>overlapping but overlaps key and value features by slightly<br>increasing the window boundary; Swin Transformer [32]<br>builds implicit connections between windows by alterna-<br>tively changing the partition style in different layers, i.e.,<br>shifting the split windows. These methods achieve com-<br>petitive performance compared to vanilla Transformers, but<br>HaloNet still wastes memories and introduces additional<br>cost in the key and value; Swin Transformer relies on fre-<br>quent 1D-2D feature transitions, which increase the imple-<br>mentation difficulty and additional latency.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "The Transformer module works by using a token to for-\nmulate the feature at each spatial position. The features\nare then fed into self-attention computation and each to-\nken, according to the vanilla design, can exchange infor-\nmation with all the others at every single layer. This de-\nsign facilitates the visual information to exchange faster but\nalso increases the computational complexity, as the compu-\ntational complexity grows quadratically with the number of\ntokens - in comparison, the complexity of a regular convo-\nlution grows linearly. To reduce the computational costs,\nresearchers propose to compute attention in local windows\nof the 2D visual features. However constructing local at-\ntention within overlapped regions enables communications\nbetween different locations but causes inevitable memory\nwaste and computation cost; computing attention within\nnon-overlapped regions impedes information communica-\ntions. As two typical local-attention vision Transformer\nmethods, HaloNet [50] partitions query features without\noverlapping but overlaps key and value features by slightly\nincreasing the window boundary; Swin Transformer [32]\nbuilds implicit connections between windows by alterna-\ntively changing the partition style in different layers, i.e.,\nshifting the split windows. These methods achieve com-\npetitive performance compared to vanilla Transformers, but\nHaloNet still wastes memories and introduces additional\ncost in the key and value; Swin Transformer relies on fre-\nquent 1D-2D feature transitions, which increase the imple-\nmentation difficulty and additional latency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2728
+                },
+                {
+                    "x": 2275,
+                    "y": 2728
+                },
+                {
+                    "x": 2275,
+                    "y": 2976
+                },
+                {
+                    "x": 1280,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:16px'>To alleviate the burden, this paper presents a new<br>methodology towards more efficient exchange of informa-<br>tion. This is done by constructing a messenger (MSG) to-<br>ken in each local window. Each MSG token takes charge<br>of summarizing information in the corresponding window</p>",
+            "id": 10,
+            "page": 1,
+            "text": "To alleviate the burden, this paper presents a new\nmethodology towards more efficient exchange of informa-\ntion. This is done by constructing a messenger (MSG) to-\nken in each local window. Each MSG token takes charge\nof summarizing information in the corresponding window"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 62,
+                    "y": 861
+                },
+                {
+                    "x": 149,
+                    "y": 861
+                },
+                {
+                    "x": 149,
+                    "y": 2326
+                },
+                {
+                    "x": 62,
+                    "y": 2326
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='11' style='font-size:14px'>2022<br>Mar<br>25<br>[cs.CV]<br>arXiv:2105.15168v3</footer>",
+            "id": 11,
+            "page": 1,
+            "text": "2022\nMar\n25\n[cs.CV]\narXiv:2105.15168v3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3057
+                },
+                {
+                    "x": 1251,
+                    "y": 3057
+                },
+                {
+                    "x": 1251,
+                    "y": 3092
+                },
+                {
+                    "x": 1225,
+                    "y": 3092
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='12' style='font-size:16px'>1</footer>",
+            "id": 12,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 308
+                },
+                {
+                    "x": 1199,
+                    "y": 308
+                },
+                {
+                    "x": 1199,
+                    "y": 1053
+                },
+                {
+                    "x": 199,
+                    "y": 1053
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:18px'>and exchange it with other MSG tokens. In other words, all<br>regular tokens are not explicitly connected to other regions,<br>and MSG tokens serve as the hub of information exchange.<br>This brings two-fold benefits. First, our design is friendly<br>to implementation since it does not create redundant copies<br>of data like [40, 50, 61]. Second and more importantly, the<br>flexibility of design is largely improved. By simply ma-<br>nipulating the MSG tokens (e.g., adjusting the coverage of<br>each messenger token or programming how they exchange<br>information), one can easily construct many different archi-<br>tectures for various purposes. Integrating the Transformer<br>with MSG tokens into a multi-scale design, we derive a pow-<br>erful architecture named MSG-Transformer that takes ad-<br>vantages of both multi-level feature extraction and compu-<br>tational efficiency.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "and exchange it with other MSG tokens. In other words, all\nregular tokens are not explicitly connected to other regions,\nand MSG tokens serve as the hub of information exchange.\nThis brings two-fold benefits. First, our design is friendly\nto implementation since it does not create redundant copies\nof data like [40, 50, 61]. Second and more importantly, the\nflexibility of design is largely improved. By simply ma-\nnipulating the MSG tokens (e.g., adjusting the coverage of\neach messenger token or programming how they exchange\ninformation), one can easily construct many different archi-\ntectures for various purposes. Integrating the Transformer\nwith MSG tokens into a multi-scale design, we derive a pow-\nerful architecture named MSG-Transformer that takes ad-\nvantages of both multi-level feature extraction and compu-\ntational efficiency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1066
+                },
+                {
+                    "x": 1198,
+                    "y": 1066
+                },
+                {
+                    "x": 1198,
+                    "y": 1561
+                },
+                {
+                    "x": 201,
+                    "y": 1561
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:16px'>We instantiate MSG-Transformer as a straightforward<br>case that the features of MSG tokens are shuffled and recon-<br>structed with splits from different locations. This can effec-<br>tively exchange information from local regions and deliv-<br>ered to each other in the next attention computation, while<br>the implementation is easy yet efficient. We evaluate the<br>models on both image classification and object detection,<br>which achieve promising performance. We expect our ef-<br>forts can further ease the research and application of multi-<br>scale/local-attention Transformers for visual recognition.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "We instantiate MSG-Transformer as a straightforward\ncase that the features of MSG tokens are shuffled and recon-\nstructed with splits from different locations. This can effec-\ntively exchange information from local regions and deliv-\nered to each other in the next attention computation, while\nthe implementation is easy yet efficient. We evaluate the\nmodels on both image classification and object detection,\nwhich achieve promising performance. We expect our ef-\nforts can further ease the research and application of multi-\nscale/local-attention Transformers for visual recognition."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 253,
+                    "y": 1575
+                },
+                {
+                    "x": 991,
+                    "y": 1575
+                },
+                {
+                    "x": 991,
+                    "y": 1621
+                },
+                {
+                    "x": 253,
+                    "y": 1621
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:14px'>We summarize our contributions as follows.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "We summarize our contributions as follows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 251,
+                    "y": 1670
+                },
+                {
+                    "x": 1199,
+                    "y": 1670
+                },
+                {
+                    "x": 1199,
+                    "y": 2113
+                },
+                {
+                    "x": 251,
+                    "y": 2113
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:16px'>· We propose a new local-attention based vision Trans-<br>former with hierarchical resolutions, which computes<br>attention in non-overlapped windows. Communica-<br>tions between windows are achieved via the proposed<br>MSG tokens, which avoid frequent feature dimension<br>transitions and maintain high concision and efficiency.<br>The proposed shuffle operation effectively exchanges<br>information from different MSG tokens with negligible<br>cost.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "· We propose a new local-attention based vision Trans-\nformer with hierarchical resolutions, which computes\nattention in non-overlapped windows. Communica-\ntions between windows are achieved via the proposed\nMSG tokens, which avoid frequent feature dimension\ntransitions and maintain high concision and efficiency.\nThe proposed shuffle operation effectively exchanges\ninformation from different MSG tokens with negligible\ncost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 250,
+                    "y": 2174
+                },
+                {
+                    "x": 1199,
+                    "y": 2174
+                },
+                {
+                    "x": 1199,
+                    "y": 2569
+                },
+                {
+                    "x": 250,
+                    "y": 2569
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:18px'>· In experiments, MSG-Transformers show promising<br>results on both ImageNet [11] classification, i.e.,<br>84.0% Top-1 accuracy, and MS-COCO [29] object de-<br>tection, i.e., 52.8 mAP, which consistently outperforms<br>recent state-of-the-art Swin Transformer [32]. Mean-<br>while, due to the concision for feature process, MSG-<br>Transformer shows speed advantages over Swin Trans-<br>former, especially on the CPU device.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "· In experiments, MSG-Transformers show promising\nresults on both ImageNet [11] classification, i.e.,\n84.0% Top-1 accuracy, and MS-COCO [29] object de-\ntection, i.e., 52.8 mAP, which consistently outperforms\nrecent state-of-the-art Swin Transformer [32]. Mean-\nwhile, due to the concision for feature process, MSG-\nTransformer shows speed advantages over Swin Trans-\nformer, especially on the CPU device."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 250,
+                    "y": 2629
+                },
+                {
+                    "x": 1199,
+                    "y": 2629
+                },
+                {
+                    "x": 1199,
+                    "y": 2974
+                },
+                {
+                    "x": 250,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>· Not directly operating on the enormous patch tokens,<br>we propose to use the lightweight MSG tokens to ex-<br>change information. The proposed MSG tokens effec-<br>tively extract features from local regions and may have<br>potential to take effects for other scenarios. We be-<br>lieve our work will be heuristic for future explorations<br>on vision Transformers.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "· Not directly operating on the enormous patch tokens,\nwe propose to use the lightweight MSG tokens to ex-\nchange information. The proposed MSG tokens effec-\ntively extract features from local regions and may have\npotential to take effects for other scenarios. We be-\nlieve our work will be heuristic for future explorations\non vision Transformers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 302
+                },
+                {
+                    "x": 1657,
+                    "y": 302
+                },
+                {
+                    "x": 1657,
+                    "y": 350
+                },
+                {
+                    "x": 1281,
+                    "y": 350
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:20px'>2. Related Works</p>",
+            "id": 19,
+            "page": 2,
+            "text": "2. Related Works"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 387
+                },
+                {
+                    "x": 2277,
+                    "y": 387
+                },
+                {
+                    "x": 2277,
+                    "y": 1386
+                },
+                {
+                    "x": 1278,
+                    "y": 1386
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>Convolutional Neural Networks CNNs have been a pop-<br>ular and successful algorithm in a wide range of computer<br>vision problems. As AlexNet [27] shows strong perfor-<br>mance on ImageNet [11] classification, starting the bloom-<br>ing development of CNNs. A series of subsequent meth-<br>ods [18, 22,43,45,46] emerge and persist in promoting CNN<br>performance on vision tasks. Benefiting from the evolv-<br>ing of backbone networks, CNNs have largely improved<br>the performance of various vision recognition scenarios in-<br>cluding object detection [3,30,31, 41,42], semantic/instance<br>segmentation [6, 7, 17], etc. As real-life scenarios usually<br>involve resource-constrained hardware platforms (e.g., for<br>mobile and edge devices), CNNs are designed to take less<br>computation cost [20, 35, 47]. Especially, with NAS ap-<br>proaches [2, 15, 54, 63] applied, CNNs achieved high per-<br>formance with extremely low cost, e.g., parameter number,<br>FLOPs and hardware latency. A clear drawback of CNNs<br>is that it may take a number of layers for distant features to<br>communicate with each other, hence limiting the ability of<br>visual representation. Transformers aim to solve this issue.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Convolutional Neural Networks CNNs have been a pop-\nular and successful algorithm in a wide range of computer\nvision problems. As AlexNet [27] shows strong perfor-\nmance on ImageNet [11] classification, starting the bloom-\ning development of CNNs. A series of subsequent meth-\nods [18, 22,43,45,46] emerge and persist in promoting CNN\nperformance on vision tasks. Benefiting from the evolv-\ning of backbone networks, CNNs have largely improved\nthe performance of various vision recognition scenarios in-\ncluding object detection [3,30,31, 41,42], semantic/instance\nsegmentation [6, 7, 17], etc. As real-life scenarios usually\ninvolve resource-constrained hardware platforms (e.g., for\nmobile and edge devices), CNNs are designed to take less\ncomputation cost [20, 35, 47]. Especially, with NAS ap-\nproaches [2, 15, 54, 63] applied, CNNs achieved high per-\nformance with extremely low cost, e.g., parameter number,\nFLOPs and hardware latency. A clear drawback of CNNs\nis that it may take a number of layers for distant features to\ncommunicate with each other, hence limiting the ability of\nvisual representation. Transformers aim to solve this issue."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1431
+                },
+                {
+                    "x": 2278,
+                    "y": 1431
+                },
+                {
+                    "x": 2278,
+                    "y": 2731
+                },
+                {
+                    "x": 1278,
+                    "y": 2731
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:18px'>Vision Transformer Networks Transformers, first pro-<br>posed by [51], have been widely used in natural language<br>processing (NLP). The variants of Transformers, together<br>with improved frameworks and modules [1, 12], have occu-<br>pied most state-of-the-art (SOTA) performance in NLP. The<br>core idea of Transformers lies in the self-attention mecha-<br>nism, which aims at building relations between local fea-<br>tures. Some preliminary works [21, 24, 40, 53, 61] explore<br>to apply self-attention to networks for vision tasks and have<br>achieved promising effects. Recently, ViT [14] proposes<br>to apply a pure Transformer to image patch sequences,<br>which matches or even outperforms the concurrent CNN<br>models on image classification. Inspired by ViT, a series<br>of subsequent works [10, 16, 48, 49, 59] explore better de-<br>signs of vision Transformers and achieve promising promo-<br>tion. Some works [28, 44, 55, 57] integrated modules from<br>CNNs into vision Transformer networks and also achieve<br>great results. In order to achieve strong results on image<br>classification, many of the above ViT-based methods pro-<br>cess features under a constant resolution and compute at-<br>tentions within a global region. This makes it intractable<br>to apply vision Transformers to downstream tasks, e.g., ob-<br>ject detection and semantic segmentation, as multi-scale ob-<br>jects are hard to be represented under a constant resolution,<br>and increased input resolutions cause overloaded computa-<br>tion/memory cost for attention computation.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Vision Transformer Networks Transformers, first pro-\nposed by [51], have been widely used in natural language\nprocessing (NLP). The variants of Transformers, together\nwith improved frameworks and modules [1, 12], have occu-\npied most state-of-the-art (SOTA) performance in NLP. The\ncore idea of Transformers lies in the self-attention mecha-\nnism, which aims at building relations between local fea-\ntures. Some preliminary works [21, 24, 40, 53, 61] explore\nto apply self-attention to networks for vision tasks and have\nachieved promising effects. Recently, ViT [14] proposes\nto apply a pure Transformer to image patch sequences,\nwhich matches or even outperforms the concurrent CNN\nmodels on image classification. Inspired by ViT, a series\nof subsequent works [10, 16, 48, 49, 59] explore better de-\nsigns of vision Transformers and achieve promising promo-\ntion. Some works [28, 44, 55, 57] integrated modules from\nCNNs into vision Transformer networks and also achieve\ngreat results. In order to achieve strong results on image\nclassification, many of the above ViT-based methods pro-\ncess features under a constant resolution and compute at-\ntentions within a global region. This makes it intractable\nto apply vision Transformers to downstream tasks, e.g., ob-\nject detection and semantic segmentation, as multi-scale ob-\njects are hard to be represented under a constant resolution,\nand increased input resolutions cause overloaded computa-\ntion/memory cost for attention computation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2776
+                },
+                {
+                    "x": 2277,
+                    "y": 2776
+                },
+                {
+                    "x": 2277,
+                    "y": 2977
+                },
+                {
+                    "x": 1281,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>Downstream-friendly Vision Transformers To apply<br>vision Transformers to downstream tasks, two key issues<br>need to be solved, i.e., involving hierarchical resolutions to<br>capture elaborate multi-scale features and decreasing cost</p>",
+            "id": 22,
+            "page": 2,
+            "text": "Downstream-friendly Vision Transformers To apply\nvision Transformers to downstream tasks, two key issues\nneed to be solved, i.e., involving hierarchical resolutions to\ncapture elaborate multi-scale features and decreasing cost"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3054
+                },
+                {
+                    "x": 1251,
+                    "y": 3054
+                },
+                {
+                    "x": 1251,
+                    "y": 3092
+                },
+                {
+                    "x": 1225,
+                    "y": 3092
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='23' style='font-size:14px'>2</footer>",
+            "id": 23,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 198,
+                    "y": 286
+                },
+                {
+                    "x": 2272,
+                    "y": 286
+                },
+                {
+                    "x": 2272,
+                    "y": 660
+                },
+                {
+                    "x": 198,
+                    "y": 660
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='24' style='font-size:22px' alt=\"Layer Local-MSA Shuffling MSG Layer\nLIN\nToken\nNorm\nNorm\nMSG Token Patch Token\" data-coord=\"top-left:(198,286); bottom-right:(2272,660)\" /></figure>",
+            "id": 24,
+            "page": 3,
+            "text": "Layer Local-MSA Shuffling MSG Layer\nLIN\nToken\nNorm\nNorm\nMSG Token Patch Token"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 688
+                },
+                {
+                    "x": 2278,
+                    "y": 688
+                },
+                {
+                    "x": 2278,
+                    "y": 826
+                },
+                {
+                    "x": 200,
+                    "y": 826
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='25' style='font-size:14px'>Figure 1. Structure of the MSG-Transformer block. The 2D features are split into local windows (by green lines), and several windows<br>compose a shuffle region (the red one). Each local window is attached with one MSG token. MSG tokens are shuffled to exchange information<br>in each Transformer block and deliver the obtained information to patch tokens in the next self-attention.</caption>",
+            "id": 25,
+            "page": 3,
+            "text": "Figure 1. Structure of the MSG-Transformer block. The 2D features are split into local windows (by green lines), and several windows\ncompose a shuffle region (the red one). Each local window is attached with one MSG token. MSG tokens are shuffled to exchange information\nin each Transformer block and deliver the obtained information to patch tokens in the next self-attention."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 879
+                },
+                {
+                    "x": 1199,
+                    "y": 879
+                },
+                {
+                    "x": 1199,
+                    "y": 1831
+                },
+                {
+                    "x": 199,
+                    "y": 1831
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:16px'>brought by global attention computation. PVT [52] pro-<br>posed to process features under multi-resolution stages and<br>down-samples key and value features to decrease the com-<br>putation cost. HaloNet [50] and Swin Transformer [32]<br>propose to compute attention in a local window. To over-<br>come the contradiction that non-overlapped windows lack<br>communication while overlapped windows introduce ad-<br>ditional memory/computation cost, HaloNet proposes to<br>slightly overlap features in the key and value tokens but<br>leave the query non-overlapped; Swin Transformer alterna-<br>tively changes the window partition style to implicitly build<br>connections between non-overlapped windows. A series of<br>subsequent works [9, 13, 23, 58] explore new methods for<br>building local-global relations or connecting local regions.<br>We newly propose MSG tokens to extract information from<br>local windows, and use a lightweight method, i.e., shuffle,<br>to exchange information between MSG tokens. This con-<br>cise manner avoids direct operation on cumbersome patch<br>tokens and shows high flexibility.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "brought by global attention computation. PVT [52] pro-\nposed to process features under multi-resolution stages and\ndown-samples key and value features to decrease the com-\nputation cost. HaloNet [50] and Swin Transformer [32]\npropose to compute attention in a local window. To over-\ncome the contradiction that non-overlapped windows lack\ncommunication while overlapped windows introduce ad-\nditional memory/computation cost, HaloNet proposes to\nslightly overlap features in the key and value tokens but\nleave the query non-overlapped; Swin Transformer alterna-\ntively changes the window partition style to implicitly build\nconnections between non-overlapped windows. A series of\nsubsequent works [9, 13, 23, 58] explore new methods for\nbuilding local-global relations or connecting local regions.\nWe newly propose MSG tokens to extract information from\nlocal windows, and use a lightweight method, i.e., shuffle,\nto exchange information between MSG tokens. This con-\ncise manner avoids direct operation on cumbersome patch\ntokens and shows high flexibility."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1876
+                },
+                {
+                    "x": 760,
+                    "y": 1876
+                },
+                {
+                    "x": 760,
+                    "y": 1927
+                },
+                {
+                    "x": 202,
+                    "y": 1927
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:22px'>3. The MSG-Transformer</p>",
+            "id": 27,
+            "page": 3,
+            "text": "3. The MSG-Transformer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1962
+                },
+                {
+                    "x": 1200,
+                    "y": 1962
+                },
+                {
+                    "x": 1200,
+                    "y": 2259
+                },
+                {
+                    "x": 201,
+                    "y": 2259
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>This section elaborates the proposed approach, MSG-<br>Transformer. The core part is Sec. 3.1 where we introduce<br>the MSG token and explain how it works to simplify infor-<br>mation exchange. Then, we construct the overall architec-<br>ture (i.e., the MSG-Transformer) in Sec. 3.2 and analyze the<br>complexity in Sec. 3.3.</p>",
+            "id": 28,
+            "page": 3,
+            "text": "This section elaborates the proposed approach, MSG-\nTransformer. The core part is Sec. 3.1 where we introduce\nthe MSG token and explain how it works to simplify infor-\nmation exchange. Then, we construct the overall architec-\nture (i.e., the MSG-Transformer) in Sec. 3.2 and analyze the\ncomplexity in Sec. 3.3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2295
+                },
+                {
+                    "x": 1167,
+                    "y": 2295
+                },
+                {
+                    "x": 1167,
+                    "y": 2343
+                },
+                {
+                    "x": 203,
+                    "y": 2343
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:18px'>3.1. Adding MSG Tokens to a Transformer Block</p>",
+            "id": 29,
+            "page": 3,
+            "text": "3.1. Adding MSG Tokens to a Transformer Block"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2375
+                },
+                {
+                    "x": 1198,
+                    "y": 2375
+                },
+                {
+                    "x": 1198,
+                    "y": 2669
+                },
+                {
+                    "x": 201,
+                    "y": 2669
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>The MSG-Transformer architecture is constructed by<br>stacking a series of MSG-Transformer blocks, through var-<br>ious spatial resolutions. As shown in Fig. 1, a MSG-<br>Transformer block mainly composes of several modules,<br>i.e., layer normalization (layer norm), local multi-head self-<br>attention (local-MSA), MSG token shuffling and MLP.</p>",
+            "id": 30,
+            "page": 3,
+            "text": "The MSG-Transformer architecture is constructed by\nstacking a series of MSG-Transformer blocks, through var-\nious spatial resolutions. As shown in Fig. 1, a MSG-\nTransformer block mainly composes of several modules,\ni.e., layer normalization (layer norm), local multi-head self-\nattention (local-MSA), MSG token shuffling and MLP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2676
+                },
+                {
+                    "x": 1200,
+                    "y": 2676
+                },
+                {
+                    "x": 1200,
+                    "y": 2975
+                },
+                {
+                    "x": 201,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:16px'>Fig. 1 presents how features from a local spatial region<br>are processed. First, the 2D features X E RHxW xC<br>are<br>divided into non-overlapped windows (by green lines in<br>Fig. 1) as Xw E R 브 x w xw2xC<br>, where (H, W) denotes<br>the 2D resolution of the features, C denotes the channel di-<br>mension, and w denotes the window size. Then R x R win-</p>",
+            "id": 31,
+            "page": 3,
+            "text": "Fig. 1 presents how features from a local spatial region\nare processed. First, the 2D features X E RHxW xC\nare\ndivided into non-overlapped windows (by green lines in\nFig. 1) as Xw E R 브 x w xw2xC\n, where (H, W) denotes\nthe 2D resolution of the features, C denotes the channel di-\nmension, and w denotes the window size. Then R x R win-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 882
+                },
+                {
+                    "x": 2277,
+                    "y": 882
+                },
+                {
+                    "x": 2277,
+                    "y": 1882
+                },
+                {
+                    "x": 1276,
+                    "y": 1882
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>dows compose a shuffle region (boxed in red lines in Fig. 1),<br>namely features are split as Xr E R Rw x RW xR2 xw2 xC<br>where R denotes the shuffle region. In vision Transform-<br>ers [14, 48], image features are commonly projected into<br>patch tokens by the input layer. Besides the patch tokens,<br>which represent the intrinsic information of the images, we<br>introduce an additional token, named messenger (MSG) to-<br>ken, to abstract information from patch tokens in a local<br>window. Each local window is attached with one MSG to-<br>ken as X'w E R kw x W x R2 x(w2+1)xC Then a layer nor-<br>malization is applied on all the tokens. The multi-head self-<br>attention is performed within each local window between<br>both patch and MSG tokens. MSG tokens can capture in-<br>formation from the corresponding windows with attention.<br>Afterwards, all the MSG tokens TMSG E R kw x RW xR2 xC<br>from a same local region R x R are shuffled to exchange in-<br>formation from different local windows. We name a region<br>with MSG tokens shuffled as the shuffle region. Finally, to-<br>kens are processed by a layer normalization and a two-layer<br>MLP.</p>",
+            "id": 32,
+            "page": 3,
+            "text": "dows compose a shuffle region (boxed in red lines in Fig. 1),\nnamely features are split as Xr E R Rw x RW xR2 xw2 xC\nwhere R denotes the shuffle region. In vision Transform-\ners [14, 48], image features are commonly projected into\npatch tokens by the input layer. Besides the patch tokens,\nwhich represent the intrinsic information of the images, we\nintroduce an additional token, named messenger (MSG) to-\nken, to abstract information from patch tokens in a local\nwindow. Each local window is attached with one MSG to-\nken as X'w E R kw x W x R2 x(w2+1)xC Then a layer nor-\nmalization is applied on all the tokens. The multi-head self-\nattention is performed within each local window between\nboth patch and MSG tokens. MSG tokens can capture in-\nformation from the corresponding windows with attention.\nAfterwards, all the MSG tokens TMSG E R kw x RW xR2 xC\nfrom a same local region R x R are shuffled to exchange in-\nformation from different local windows. We name a region\nwith MSG tokens shuffled as the shuffle region. Finally, to-\nkens are processed by a layer normalization and a two-layer\nMLP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1889
+                },
+                {
+                    "x": 2275,
+                    "y": 1889
+                },
+                {
+                    "x": 2275,
+                    "y": 1983
+                },
+                {
+                    "x": 1282,
+                    "y": 1983
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:14px'>The whole computing procedure of a MSG-Transformer<br>block can be summarized as follows.</p>",
+            "id": 33,
+            "page": 3,
+            "text": "The whole computing procedure of a MSG-Transformer\nblock can be summarized as follows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2307
+                },
+                {
+                    "x": 2276,
+                    "y": 2307
+                },
+                {
+                    "x": 2276,
+                    "y": 2756
+                },
+                {
+                    "x": 1277,
+                    "y": 2756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:14px'>Local Multi-head Self-Attention Different from previ-<br>ous vision Transformers [14, 48] which performer atten-<br>tion computation along the global region, we compute self-<br>attention within each local window. Taking a window of<br>w x w for example, the attention is computed on the to-<br>ken sequence of X = [tMSG; X1 ; · · · ; xw2], where tMSG<br>denotes the MSG token associated with this window and<br>xi(1 ≤ i ≤ w2) denotes each patch token within the win-<br>dow.</p>",
+            "id": 34,
+            "page": 3,
+            "text": "Local Multi-head Self-Attention Different from previ-\nous vision Transformers [14, 48] which performer atten-\ntion computation along the global region, we compute self-\nattention within each local window. Taking a window of\nw x w for example, the attention is computed on the to-\nken sequence of X = [tMSG; X1 ; · · · ; xw2], where tMSG\ndenotes the MSG token associated with this window and\nxi(1 ≤ i ≤ w2) denotes each patch token within the win-\ndow."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2872
+                },
+                {
+                    "x": 2277,
+                    "y": 2872
+                },
+                {
+                    "x": 2277,
+                    "y": 2979
+                },
+                {
+                    "x": 1282,
+                    "y": 2979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:16px'>where Q, K, V E R(w2+1)xd denotes the query, key and<br>value matrices projected from sequence X respectively, d</p>",
+            "id": 35,
+            "page": 3,
+            "text": "where Q, K, V E R(w2+1)xd denotes the query, key and\nvalue matrices projected from sequence X respectively, d"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3056
+                },
+                {
+                    "x": 1250,
+                    "y": 3090
+                },
+                {
+                    "x": 1226,
+                    "y": 3090
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='36' style='font-size:16px'>3</footer>",
+            "id": 36,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 299,
+                    "y": 288
+                },
+                {
+                    "x": 2179,
+                    "y": 288
+                },
+                {
+                    "x": 2179,
+                    "y": 779
+                },
+                {
+                    "x": 299,
+                    "y": 779
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='37' style='font-size:22px' alt=\"H W H W H W H W\nx x(w2+1)xC 8w 8w x(w2+1)x2C\nHxWx3 4w 4w\nx x(w2+1)x4C 32w 32wx(w2+1)x8C\n16w 16w\nStage 1 Stage 2 Stage 3 Stage 4\n8 MSG-Transformer\nMSG-Transformer\nMSG-Transformer\nMSG-Transformer\nLinear\nwindow\nToken\nToken\nToken\nBlock\nBlock\nBlock\nBlock\nprojection Attach\nMerging\nMerging\nMerging\npartition\nx\nx\nx\nx\nN\nN\nN\nN4\nMSG tokens\" data-coord=\"top-left:(299,288); bottom-right:(2179,779)\" /></figure>",
+            "id": 37,
+            "page": 4,
+            "text": "H W H W H W H W\nx x(w2+1)xC 8w 8w x(w2+1)x2C\nHxWx3 4w 4w\nx x(w2+1)x4C 32w 32wx(w2+1)x8C\n16w 16w\nStage 1 Stage 2 Stage 3 Stage 4\n8 MSG-Transformer\nMSG-Transformer\nMSG-Transformer\nMSG-Transformer\nLinear\nwindow\nToken\nToken\nToken\nBlock\nBlock\nBlock\nBlock\nprojection Attach\nMerging\nMerging\nMerging\npartition\nx\nx\nx\nx\nN\nN\nN\nN4\nMSG tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 809
+                },
+                {
+                    "x": 2275,
+                    "y": 809
+                },
+                {
+                    "x": 2275,
+                    "y": 949
+                },
+                {
+                    "x": 200,
+                    "y": 949
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='38' style='font-size:14px'>Figure 2. Overall architecture of MSG-Transformer. Patches from the input image are projected into tokens, and token features are<br>partitioned into windows. Then each window is attached with one MSG token, which will participate in subsequent attention computation<br>with all the other patch tokens within the local window in every layer.</caption>",
+            "id": 38,
+            "page": 4,
+            "text": "Figure 2. Overall architecture of MSG-Transformer. Patches from the input image are projected into tokens, and token features are\npartitioned into windows. Then each window is attached with one MSG token, which will participate in subsequent attention computation\nwith all the other patch tokens within the local window in every layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1023
+                },
+                {
+                    "x": 1198,
+                    "y": 1023
+                },
+                {
+                    "x": 1198,
+                    "y": 1296
+                },
+                {
+                    "x": 201,
+                    "y": 1296
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='39' style='font-size:14px' alt=\"grouping\nshuffle\" data-coord=\"top-left:(201,1023); bottom-right:(1198,1296)\" /></figure>",
+            "id": 39,
+            "page": 4,
+            "text": "grouping\nshuffle"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 1331
+                },
+                {
+                    "x": 1197,
+                    "y": 1331
+                },
+                {
+                    "x": 1197,
+                    "y": 1419
+                },
+                {
+                    "x": 204,
+                    "y": 1419
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='40' style='font-size:16px'>Figure 3. Shuffling MSG tokens, where we inherit the example in<br>Fig. 1 for illustration.</caption>",
+            "id": 40,
+            "page": 4,
+            "text": "Figure 3. Shuffling MSG tokens, where we inherit the example in\nFig. 1 for illustration."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1477
+                },
+                {
+                    "x": 1199,
+                    "y": 1477
+                },
+                {
+                    "x": 1199,
+                    "y": 1917
+                },
+                {
+                    "x": 203,
+                    "y": 1917
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:18px'>denotes the channel dimension, and B denotes the relative<br>position biases. Following previous Transformer works [21,<br>32,39], the relative position biases between patch tokens in<br>B are taken from the bias parameter brel E R (2w-1)x(2w-1)<br>according to the relative token distances. The position bi-<br>ases between patch tokens and the MSG token tMSG is all set<br>as equal, which is the same as the manner dealing with the<br>[CLS] token in [25]. Specifically, matrix B are computed<br>as</p>",
+            "id": 41,
+            "page": 4,
+            "text": "denotes the channel dimension, and B denotes the relative\nposition biases. Following previous Transformer works [21,\n32,39], the relative position biases between patch tokens in\nB are taken from the bias parameter brel E R (2w-1)x(2w-1)\naccording to the relative token distances. The position bi-\nases between patch tokens and the MSG token tMSG is all set\nas equal, which is the same as the manner dealing with the\n[CLS] token in [25]. Specifically, matrix B are computed\nas"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2133
+                },
+                {
+                    "x": 1195,
+                    "y": 2133
+                },
+                {
+                    "x": 1195,
+                    "y": 2233
+                },
+                {
+                    "x": 204,
+                    "y": 2233
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>where i' = imod w -j mod w+w-1,j' = i//w-j// w+<br>w - 1, 01, 02 are two learnable parameters.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "where i' = imod w -j mod w+w-1,j' = i//w-j// w+\nw - 1, 01, 02 are two learnable parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2278
+                },
+                {
+                    "x": 1199,
+                    "y": 2278
+                },
+                {
+                    "x": 1199,
+                    "y": 2976
+                },
+                {
+                    "x": 201,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>Exchanging Information by Shuffling MSG Tokens The<br>MSG tokens allow us to exchange visual information flex-<br>ibly. Here we instantiate an example using the shuffling<br>operation, while we emphasize that the framework easily<br>applies to other operations (see the next paragraph). In each<br>MSG-Transformer block, MSG tokens in a same shuffle re-<br>gion are shuffled to exchange information from different<br>local windows. Assuming the shuffle region has a size of<br>R x R, it means there exist R x R MSG tokens in this re-<br>gion and each MSG token is associated with a w x w local<br>window. As shown in Fig 3, channels of each MSG token<br>are first split into R x R groups. Then the groups from<br>R x R MSG tokens are recombined. With shuffle finished,<br>each MSG token obtains information from all the other ones.</p>",
+            "id": 43,
+            "page": 4,
+            "text": "Exchanging Information by Shuffling MSG Tokens The\nMSG tokens allow us to exchange visual information flex-\nibly. Here we instantiate an example using the shuffling\noperation, while we emphasize that the framework easily\napplies to other operations (see the next paragraph). In each\nMSG-Transformer block, MSG tokens in a same shuffle re-\ngion are shuffled to exchange information from different\nlocal windows. Assuming the shuffle region has a size of\nR x R, it means there exist R x R MSG tokens in this re-\ngion and each MSG token is associated with a w x w local\nwindow. As shown in Fig 3, channels of each MSG token\nare first split into R x R groups. Then the groups from\nR x R MSG tokens are recombined. With shuffle finished,\neach MSG token obtains information from all the other ones."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1037
+                },
+                {
+                    "x": 2277,
+                    "y": 1037
+                },
+                {
+                    "x": 2277,
+                    "y": 1290
+                },
+                {
+                    "x": 1279,
+                    "y": 1290
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='44' style='font-size:16px'>With the next attention computing performed, spatial infor-<br>mation from the other local windows is delivered to patch<br>tokens in the current window via the MSG token. Denoting<br>MSG tokens in a R x R shuffle region as TMSG E RR2 xd<br>,<br>the shuffle process can be formulated as</p>",
+            "id": 44,
+            "page": 4,
+            "text": "With the next attention computing performed, spatial infor-\nmation from the other local windows is delivered to patch\ntokens in the current window via the MSG token. Denoting\nMSG tokens in a R x R shuffle region as TMSG E RR2 xd\n,\nthe shuffle process can be formulated as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 1554
+                },
+                {
+                    "x": 2275,
+                    "y": 1554
+                },
+                {
+                    "x": 2275,
+                    "y": 1693
+                },
+                {
+                    "x": 1283,
+                    "y": 1693
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>where d denotes the channel dimension of the MSG token,<br>which is guaranteed to be divisible by the group number,<br>R2.</p>",
+            "id": 45,
+            "page": 4,
+            "text": "where d denotes the channel dimension of the MSG token,\nwhich is guaranteed to be divisible by the group number,\nR2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1703
+                },
+                {
+                    "x": 2277,
+                    "y": 1703
+                },
+                {
+                    "x": 2277,
+                    "y": 2047
+                },
+                {
+                    "x": 1280,
+                    "y": 2047
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:18px'>Though the shuffle operation has the similar manner with<br>that in convolutional network ShuffleNet [35, 60], the effect<br>is entirely different. ShuffleNet performs the shuffle oper-<br>ation to fuse separated channel information caused by the<br>grouped 1 x 1 convolution, while our MSG-Transformer<br>shuffles the proposed MSG tokens to exchange spatial infor-<br>mation from different local windows.</p>",
+            "id": 46,
+            "page": 4,
+            "text": "Though the shuffle operation has the similar manner with\nthat in convolutional network ShuffleNet [35, 60], the effect\nis entirely different. ShuffleNet performs the shuffle oper-\nation to fuse separated channel information caused by the\ngrouped 1 x 1 convolution, while our MSG-Transformer\nshuffles the proposed MSG tokens to exchange spatial infor-\nmation from different local windows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2075
+                },
+                {
+                    "x": 2276,
+                    "y": 2075
+                },
+                {
+                    "x": 2276,
+                    "y": 2572
+                },
+                {
+                    "x": 1280,
+                    "y": 2572
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:18px'>Extensions There exist other ways of constructing and<br>manipulating MSG tokens. For example, one can extend the<br>framework SO that neighboring MSG tokens can overlap, or<br>program the propagation rule SO that the MSG tokens are<br>not fully-connected to each other. Besides, one can freely<br>inject complex operators, rather than shuffle-based identity<br>mapping, when the features of MSG tokens are exchanged.<br>Note that some of these functions are difficult to implement<br>without taking MSG tokens as the explicit hub. We will in-<br>vestigate these extensions in the future.</p>",
+            "id": 47,
+            "page": 4,
+            "text": "Extensions There exist other ways of constructing and\nmanipulating MSG tokens. For example, one can extend the\nframework SO that neighboring MSG tokens can overlap, or\nprogram the propagation rule SO that the MSG tokens are\nnot fully-connected to each other. Besides, one can freely\ninject complex operators, rather than shuffle-based identity\nmapping, when the features of MSG tokens are exchanged.\nNote that some of these functions are difficult to implement\nwithout taking MSG tokens as the explicit hub. We will in-\nvestigate these extensions in the future."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2602
+                },
+                {
+                    "x": 1775,
+                    "y": 2602
+                },
+                {
+                    "x": 1775,
+                    "y": 2648
+                },
+                {
+                    "x": 1281,
+                    "y": 2648
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:20px'>3.2. Overall Architecture</p>",
+            "id": 48,
+            "page": 4,
+            "text": "3.2. Overall Architecture"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2678
+                },
+                {
+                    "x": 2277,
+                    "y": 2678
+                },
+                {
+                    "x": 2277,
+                    "y": 2976
+                },
+                {
+                    "x": 1281,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:18px'>Fig. 2 shows the overall architecture of MSG-<br>Transformer. The input image is first projected into patch<br>by a 7 x 7 convolution with stride<br>tokens Tp E R4x 4 xC<br>4, where C denotes the channel dimension. The overlapped<br>projection is used for building better relations between<br>patch tokens. Similar manners have also been adopted in</p>",
+            "id": 49,
+            "page": 4,
+            "text": "Fig. 2 shows the overall architecture of MSG-\nTransformer. The input image is first projected into patch\nby a 7 x 7 convolution with stride\ntokens Tp E R4x 4 xC\n4, where C denotes the channel dimension. The overlapped\nprojection is used for building better relations between\npatch tokens. Similar manners have also been adopted in"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3057
+                },
+                {
+                    "x": 1249,
+                    "y": 3087
+                },
+                {
+                    "x": 1226,
+                    "y": 3087
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='50' style='font-size:16px'>4</footer>",
+            "id": 50,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 298
+                },
+                {
+                    "x": 2277,
+                    "y": 298
+                },
+                {
+                    "x": 2277,
+                    "y": 436
+                },
+                {
+                    "x": 201,
+                    "y": 436
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='51' style='font-size:16px'>Table 1. Detailed settings for MSG-Transformer architecture variants. 'cls' denotes image classification on ImageNet. 'det' denotes object<br>detection on MS-COCO. 'dim' denotes the embedding channel dimension. '#head' and '#blocks' denote the number of self-attention heads<br>and MSG-Transformer blocks in each stage.</caption>",
+            "id": 51,
+            "page": 5,
+            "text": "Table 1. Detailed settings for MSG-Transformer architecture variants. 'cls' denotes image classification on ImageNet. 'det' denotes object\ndetection on MS-COCO. 'dim' denotes the embedding channel dimension. '#head' and '#blocks' denote the number of self-attention heads\nand MSG-Transformer blocks in each stage."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 279,
+                    "y": 474
+                },
+                {
+                    "x": 2195,
+                    "y": 474
+                },
+                {
+                    "x": 2195,
+                    "y": 856
+                },
+                {
+                    "x": 279,
+                    "y": 856
+                }
+            ],
+            "category": "table",
+            "html": "<table id='52' style='font-size:14px'><tr><td rowspan=\"2\">Stage</td><td rowspan=\"2\">Patch Token Resolution</td><td colspan=\"2\">Shuffle Size</td><td colspan=\"3\">MSG-Transformer-T</td><td colspan=\"3\">MSG-Transformer-S</td><td colspan=\"3\">MSG-Transformer-B</td></tr><tr><td>cls</td><td>det</td><td>dim</td><td>#heads</td><td>#blocks</td><td>dim</td><td>#heads</td><td>#blocks</td><td>dim</td><td>#heads</td><td>#blocks</td></tr><tr><td>1</td><td>W H4 x 4</td><td>4</td><td>4</td><td>64</td><td>2</td><td>2</td><td>96</td><td>3</td><td>2</td><td>96</td><td>3</td><td>2</td></tr><tr><td>2</td><td>H8 x W8</td><td>4</td><td>4</td><td>128</td><td>4</td><td>4</td><td>192</td><td>6</td><td>4</td><td>192</td><td>6</td><td>4</td></tr><tr><td>3</td><td>W 16 x 16</td><td>2</td><td>8</td><td>256</td><td>8</td><td>12</td><td>384</td><td>12</td><td>12</td><td>384</td><td>12</td><td>28</td></tr><tr><td>4</td><td>H W x 32 32</td><td>1</td><td>4</td><td>512</td><td>16</td><td>4</td><td>768</td><td>24</td><td>4</td><td>768</td><td>24</td><td>4</td></tr></table>",
+            "id": 52,
+            "page": 5,
+            "text": "Stage Patch Token Resolution Shuffle Size MSG-Transformer-T MSG-Transformer-S MSG-Transformer-B\n cls det dim #heads #blocks dim #heads #blocks dim #heads #blocks\n 1 W H4 x 4 4 4 64 2 2 96 3 2 96 3 2\n 2 H8 x W8 4 4 128 4 4 192 6 4 192 6 4\n 3 W 16 x 16 2 8 256 8 12 384 12 12 384 12 28\n 4 H W x 32 32 1 4 512 16 4 768 24 4 768 24"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 943
+                },
+                {
+                    "x": 1200,
+                    "y": 943
+                },
+                {
+                    "x": 1200,
+                    "y": 1737
+                },
+                {
+                    "x": 201,
+                    "y": 1737
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:18px'>previous methods [9,55]. Then the tokens are split into win-<br>dows with the shape of w x w, and each window is attached<br>with one MSG token, which has an equal channel number<br>with the patch token. The rest part of the architecture is con-<br>structed by stacking a series of MSG-Transformer blocks as<br>defined in Sec. 3.1. To obtain features under various spa-<br>tial resolutions, we downsample features by merging both<br>patch and MSG tokens. Blocks under the same resolution<br>form a stage. For both patch and MSG tokens, we use an<br>overlapped 3 x 3 convolution with stride 2 to perform to-<br>ken merging and double the channel dimension in the next<br>stage1 · For image classification, the finally merged MSG to-<br>kens are projected to produce classification scores. And for<br>downstream tasks like object detection, only patch tokens<br>are delivered into the head structure while MSG tokens only<br>serve for exchanging information in the backbone.</p>",
+            "id": 53,
+            "page": 5,
+            "text": "previous methods [9,55]. Then the tokens are split into win-\ndows with the shape of w x w, and each window is attached\nwith one MSG token, which has an equal channel number\nwith the patch token. The rest part of the architecture is con-\nstructed by stacking a series of MSG-Transformer blocks as\ndefined in Sec. 3.1. To obtain features under various spa-\ntial resolutions, we downsample features by merging both\npatch and MSG tokens. Blocks under the same resolution\nform a stage. For both patch and MSG tokens, we use an\noverlapped 3 x 3 convolution with stride 2 to perform to-\nken merging and double the channel dimension in the next\nstage1 · For image classification, the finally merged MSG to-\nkens are projected to produce classification scores. And for\ndownstream tasks like object detection, only patch tokens\nare delivered into the head structure while MSG tokens only\nserve for exchanging information in the backbone."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1753
+                },
+                {
+                    "x": 1199,
+                    "y": 1753
+                },
+                {
+                    "x": 1199,
+                    "y": 2299
+                },
+                {
+                    "x": 201,
+                    "y": 2299
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='54' style='font-size:18px'>In our implementation, we build three architecture vari-<br>ants with different scales. As shown in Tab. 1, MSG-<br>Transformer-T, -S and -B represent tiny, small, and base ar-<br>chitectures with different channel numbers, attention head<br>numbers and layer numbers. The window size is set as<br>7 for all architectures. The shuffle region size is set as<br>4, 4, 2, 1 in four stages respectively for image classification<br>and 4, 4, 8, 4 for object detection. As demonstrated in sub-<br>sequent studies (Sec. 4.3), our MSG-Transformer prefers<br>deeper and narrower architecture scales than Swin Trans-<br>former [32].</p>",
+            "id": 54,
+            "page": 5,
+            "text": "In our implementation, we build three architecture vari-\nants with different scales. As shown in Tab. 1, MSG-\nTransformer-T, -S and -B represent tiny, small, and base ar-\nchitectures with different channel numbers, attention head\nnumbers and layer numbers. The window size is set as\n7 for all architectures. The shuffle region size is set as\n4, 4, 2, 1 in four stages respectively for image classification\nand 4, 4, 8, 4 for object detection. As demonstrated in sub-\nsequent studies (Sec. 4.3), our MSG-Transformer prefers\ndeeper and narrower architecture scales than Swin Trans-\nformer [32]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2369
+                },
+                {
+                    "x": 695,
+                    "y": 2369
+                },
+                {
+                    "x": 695,
+                    "y": 2421
+                },
+                {
+                    "x": 202,
+                    "y": 2421
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:22px'>3.3. Complexity Analysis</p>",
+            "id": 55,
+            "page": 5,
+            "text": "3.3. Complexity Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2461
+                },
+                {
+                    "x": 1200,
+                    "y": 2461
+                },
+                {
+                    "x": 1200,
+                    "y": 2813
+                },
+                {
+                    "x": 201,
+                    "y": 2813
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>Though introduced one MSG token in each local window,<br>the increased computational complexity is negligible. The<br>local attention-based Transformer block includes two main<br>part, i.e., local-MSA and two-layer MLP. Denoting the in-<br>put patch token features as Tp E RHxW xw2xC<br>, where<br>H, W denote the 2D spatial resolution, w denotes the lo-<br>cal window size, and C denotes the channel number, the</p>",
+            "id": 56,
+            "page": 5,
+            "text": "Though introduced one MSG token in each local window,\nthe increased computational complexity is negligible. The\nlocal attention-based Transformer block includes two main\npart, i.e., local-MSA and two-layer MLP. Denoting the in-\nput patch token features as Tp E RHxW xw2xC\n, where\nH, W denote the 2D spatial resolution, w denotes the lo-\ncal window size, and C denotes the channel number, the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2893
+                },
+                {
+                    "x": 1197,
+                    "y": 2893
+                },
+                {
+                    "x": 1197,
+                    "y": 2971
+                },
+                {
+                    "x": 202,
+                    "y": 2971
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:14px'>1The convolution parameters for merging tokens are shared between<br>patch and MSG tokens.</p>",
+            "id": 57,
+            "page": 5,
+            "text": "1The convolution parameters for merging tokens are shared between\npatch and MSG tokens."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 942
+                },
+                {
+                    "x": 1771,
+                    "y": 942
+                },
+                {
+                    "x": 1771,
+                    "y": 987
+                },
+                {
+                    "x": 1281,
+                    "y": 987
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:14px'>total FLOPs are computed as</p>",
+            "id": 58,
+            "page": 5,
+            "text": "total FLOPs are computed as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 1201
+                },
+                {
+                    "x": 2225,
+                    "y": 1201
+                },
+                {
+                    "x": 2225,
+                    "y": 1246
+                },
+                {
+                    "x": 1283,
+                    "y": 1246
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>With the MSG tokens applied, the total FLOPs change to</p>",
+            "id": 59,
+            "page": 5,
+            "text": "With the MSG tokens applied, the total FLOPs change to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1285,
+                    "y": 1494
+                },
+                {
+                    "x": 2072,
+                    "y": 1494
+                },
+                {
+                    "x": 2072,
+                    "y": 1540
+                },
+                {
+                    "x": 1285,
+                    "y": 1540
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:18px'>The FLOPs increase proportion is computed as</p>",
+            "id": 60,
+            "page": 5,
+            "text": "The FLOPs increase proportion is computed as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1932
+                },
+                {
+                    "x": 2278,
+                    "y": 1932
+                },
+                {
+                    "x": 2278,
+                    "y": 2174
+                },
+                {
+                    "x": 1280,
+                    "y": 2174
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:16px'>As the window size w is set as 7 in our implementations, the<br>6C+50<br>FLOPs increase proportion becomes Taking the<br>294C+74·<br>channel number as 384 for example, the increased FLOPs<br>only account for ~ 2.04% which are negligible to the total<br>complexity.</p>",
+            "id": 61,
+            "page": 5,
+            "text": "As the window size w is set as 7 in our implementations, the\n6C+50\nFLOPs increase proportion becomes Taking the\n294C+74·\nchannel number as 384 for example, the increased FLOPs\nonly account for ~ 2.04% which are negligible to the total\ncomplexity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2181
+                },
+                {
+                    "x": 2277,
+                    "y": 2181
+                },
+                {
+                    "x": 2277,
+                    "y": 2623
+                },
+                {
+                    "x": 1279,
+                    "y": 2623
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>For the number of parameters, all the linear projection<br>parameters are shared between patch and MSG tokens. Only<br>the input MSG tokens introduce additional parameters, but<br>they are shared between shuffle regions, only taking 42C =<br>16C, i.e., ~ 0.0015M for the 96 input channel dimension.<br>In experiments, we prove even with the input MSG tokens<br>not learned, MSG-Transformers can still achieve as high<br>performance. From this, parameters from input MSG tokens<br>can be abandoned.</p>",
+            "id": 62,
+            "page": 5,
+            "text": "For the number of parameters, all the linear projection\nparameters are shared between patch and MSG tokens. Only\nthe input MSG tokens introduce additional parameters, but\nthey are shared between shuffle regions, only taking 42C =\n16C, i.e., ~ 0.0015M for the 96 input channel dimension.\nIn experiments, we prove even with the input MSG tokens\nnot learned, MSG-Transformers can still achieve as high\nperformance. From this, parameters from input MSG tokens\ncan be abandoned."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2631
+                },
+                {
+                    "x": 2278,
+                    "y": 2631
+                },
+                {
+                    "x": 2278,
+                    "y": 2975
+                },
+                {
+                    "x": 1279,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:20px'>It is worth noting that due to local region communica-<br>tion is achieved by shuffling MSG tokens, the huge feature<br>matrix of patch tokens only needs to be window-partitioned<br>once in a stage if the input images have a regular size. With<br>MSG tokens assisting, cost from frequent 2D-to-1D matrix<br>transitions of patch tokens can be saved, which cause addi-<br>tional latencies especially on computation-limited devices,</p>",
+            "id": 63,
+            "page": 5,
+            "text": "It is worth noting that due to local region communica-\ntion is achieved by shuffling MSG tokens, the huge feature\nmatrix of patch tokens only needs to be window-partitioned\nonce in a stage if the input images have a regular size. With\nMSG tokens assisting, cost from frequent 2D-to-1D matrix\ntransitions of patch tokens can be saved, which cause addi-\ntional latencies especially on computation-limited devices,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3055
+                },
+                {
+                    "x": 1251,
+                    "y": 3055
+                },
+                {
+                    "x": 1251,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='64' style='font-size:18px'>5</footer>",
+            "id": 64,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 301
+                },
+                {
+                    "x": 1195,
+                    "y": 301
+                },
+                {
+                    "x": 1195,
+                    "y": 389
+                },
+                {
+                    "x": 205,
+                    "y": 389
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='65' style='font-size:18px'>Table 2. Image classification performance comparisons on<br>ImageNet-1K [11].</caption>",
+            "id": 65,
+            "page": 6,
+            "text": "Table 2. Image classification performance comparisons on\nImageNet-1K [11]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 211,
+                    "y": 421
+                },
+                {
+                    "x": 1188,
+                    "y": 421
+                },
+                {
+                    "x": 1188,
+                    "y": 1735
+                },
+                {
+                    "x": 211,
+                    "y": 1735
+                }
+            ],
+            "category": "table",
+            "html": "<table id='66' style='font-size:16px'><tr><td>Method</td><td>Input size</td><td>Params</td><td>FLOPs</td><td>Imgs/s</td><td>CPU latency</td><td>Top-1 (%)</td></tr><tr><td colspan=\"7\">Convolutional Networks</td></tr><tr><td>RegY-4G [38]</td><td>2242</td><td>21M</td><td>4.0G</td><td>930.1</td><td>138ms</td><td>80.0</td></tr><tr><td>RegY-8G [38]</td><td>2242</td><td>39M</td><td>8.0G</td><td>545.5</td><td>250ms</td><td>81.7</td></tr><tr><td>RegY-16G [38]</td><td>2242</td><td>84M</td><td>16.0G</td><td>324.6</td><td>424ms</td><td>82.9</td></tr><tr><td>EffNet-B4 [47]</td><td>3802</td><td>19M</td><td>4.2G</td><td>345</td><td>315ms</td><td>82.9</td></tr><tr><td>EffNet-B5 [47]</td><td>4562</td><td>30M</td><td>9.9G</td><td>168.5</td><td>768ms</td><td>83.6</td></tr><tr><td>EffNet-B6 [47]</td><td>5282</td><td>43M</td><td>19.0G</td><td>96.4</td><td>1317ms</td><td>84.0</td></tr><tr><td colspan=\"7\">Transformer Networks</td></tr><tr><td>DeiT-S [48]</td><td>2242</td><td>22M</td><td>4.6G</td><td>898.3</td><td>118ms</td><td>79.8</td></tr><tr><td>T2T-ViTt-14 [59]</td><td>2242</td><td>22M</td><td>5.2G</td><td>559.3</td><td>225ms</td><td>80.7</td></tr><tr><td>PVT-Small [52]</td><td>2242</td><td>25M</td><td>3.8G</td><td>749.0</td><td>146ms</td><td>79.8</td></tr><tr><td>TNT-S [16]</td><td>2242</td><td>24M</td><td>5.2G</td><td>387.1</td><td>215ms</td><td>81.3</td></tr><tr><td>CoaT-Lite-S [57]</td><td>2242</td><td>20M</td><td>4.0G</td><td>-</td><td>-</td><td>81.9</td></tr><tr><td>Swin-T [32]</td><td>2242</td><td>28M</td><td>4.5G</td><td>692.1</td><td>189ms</td><td>81.3</td></tr><tr><td>MSG-T</td><td>2242</td><td>25M</td><td>3.8G</td><td>726.5</td><td>157ms</td><td>82.4</td></tr><tr><td>DeiT-B [48]</td><td>2242</td><td>87M</td><td>17.5G</td><td>278.9</td><td>393ms</td><td>81.8</td></tr><tr><td>T2T-ViTt-19 [59]</td><td>2242</td><td>39M</td><td>8.4G</td><td>377.3</td><td>314ms</td><td>81.4</td></tr><tr><td>T2T-ViTt-24 [59]</td><td>2242</td><td>64M</td><td>13.2G</td><td>268.2</td><td>436ms</td><td>82.2</td></tr><tr><td>PVT-Large [52]</td><td>2242</td><td>61M</td><td>9.8G</td><td>337.1</td><td>338ms</td><td>81.7</td></tr><tr><td>TNT-B [16]</td><td>2242</td><td>66M</td><td>14.1G</td><td>231.1</td><td>414ms</td><td>82.8</td></tr><tr><td>Swin-S [32]</td><td>2242</td><td>50M</td><td>8.7G</td><td>396.6</td><td>346ms</td><td>83.0</td></tr><tr><td>MSG-S</td><td>2242</td><td>56M</td><td>8.4G</td><td>422.5</td><td>272ms</td><td>83.4</td></tr><tr><td>ViT-B/16 [14]</td><td>3842</td><td>87M</td><td>55.4G</td><td>81.1</td><td>1218ms</td><td>77.9</td></tr><tr><td>ViT-L/16 [14]</td><td>3842</td><td>307M</td><td>190.7G</td><td>26.3</td><td>4420ms</td><td>76.5</td></tr><tr><td>DeiT-B [48]</td><td>3842</td><td>87M</td><td>55.4G</td><td>81.1</td><td>1213ms</td><td>83.1</td></tr><tr><td>Swin-B [32]</td><td>2242</td><td>88M</td><td>15.4G</td><td>257.6</td><td>547ms</td><td>83.3</td></tr><tr><td>MSG-B</td><td>2242</td><td>84M</td><td>14.2G</td><td>267.6</td><td>424ms</td><td>84.0</td></tr></table>",
+            "id": 66,
+            "page": 6,
+            "text": "Method Input size Params FLOPs Imgs/s CPU latency Top-1 (%)\n Convolutional Networks\n RegY-4G [38] 2242 21M 4.0G 930.1 138ms 80.0\n RegY-8G [38] 2242 39M 8.0G 545.5 250ms 81.7\n RegY-16G [38] 2242 84M 16.0G 324.6 424ms 82.9\n EffNet-B4 [47] 3802 19M 4.2G 345 315ms 82.9\n EffNet-B5 [47] 4562 30M 9.9G 168.5 768ms 83.6\n EffNet-B6 [47] 5282 43M 19.0G 96.4 1317ms 84.0\n Transformer Networks\n DeiT-S [48] 2242 22M 4.6G 898.3 118ms 79.8\n T2T-ViTt-14 [59] 2242 22M 5.2G 559.3 225ms 80.7\n PVT-Small [52] 2242 25M 3.8G 749.0 146ms 79.8\n TNT-S [16] 2242 24M 5.2G 387.1 215ms 81.3\n CoaT-Lite-S [57] 2242 20M 4.0G - - 81.9\n Swin-T [32] 2242 28M 4.5G 692.1 189ms 81.3\n MSG-T 2242 25M 3.8G 726.5 157ms 82.4\n DeiT-B [48] 2242 87M 17.5G 278.9 393ms 81.8\n T2T-ViTt-19 [59] 2242 39M 8.4G 377.3 314ms 81.4\n T2T-ViTt-24 [59] 2242 64M 13.2G 268.2 436ms 82.2\n PVT-Large [52] 2242 61M 9.8G 337.1 338ms 81.7\n TNT-B [16] 2242 66M 14.1G 231.1 414ms 82.8\n Swin-S [32] 2242 50M 8.7G 396.6 346ms 83.0\n MSG-S 2242 56M 8.4G 422.5 272ms 83.4\n ViT-B/16 [14] 3842 87M 55.4G 81.1 1218ms 77.9\n ViT-L/16 [14] 3842 307M 190.7G 26.3 4420ms 76.5\n DeiT-B [48] 3842 87M 55.4G 81.1 1213ms 83.1\n Swin-B [32] 2242 88M 15.4G 257.6 547ms 83.3\n MSG-B 2242 84M 14.2G 267.6 424ms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 238,
+                    "y": 1740
+                },
+                {
+                    "x": 1193,
+                    "y": 1740
+                },
+                {
+                    "x": 1193,
+                    "y": 1982
+                },
+                {
+                    "x": 238,
+                    "y": 1982
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:14px'>*<br>\"Imgs/s\" denotes the GPU throughput which is measured on one<br>32G-V100 with a batch size of 64. Noting that throughput on 32G-<br>V100 used in our experiments is sightly lower than 16G- V100 used<br>in some other papers.<br>*<br>The CPU latency is measured with one core of Intel(R) Xeon(R)<br>Gold 6151 CPU @ 3.00GHz.</p>",
+            "id": 67,
+            "page": 6,
+            "text": "*\n\"Imgs/s\" denotes the GPU throughput which is measured on one\n32G-V100 with a batch size of 64. Noting that throughput on 32G-\nV100 used in our experiments is sightly lower than 16G- V100 used\nin some other papers.\n*\nThe CPU latency is measured with one core of Intel(R) Xeon(R)\nGold 6151 CPU @ 3.00GHz."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2066
+                },
+                {
+                    "x": 1196,
+                    "y": 2066
+                },
+                {
+                    "x": 1196,
+                    "y": 2210
+                },
+                {
+                    "x": 203,
+                    "y": 2210
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:18px'>e.g., CPU and mobile devices, but are unavoidable in most<br>previous local attention-based [32,40] or CNN-attention hy-<br>brid Transformers [10, 28,55].</p>",
+            "id": 68,
+            "page": 6,
+            "text": "e.g., CPU and mobile devices, but are unavoidable in most\nprevious local attention-based [32,40] or CNN-attention hy-\nbrid Transformers [10, 28,55]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2239
+                },
+                {
+                    "x": 533,
+                    "y": 2239
+                },
+                {
+                    "x": 533,
+                    "y": 2289
+                },
+                {
+                    "x": 202,
+                    "y": 2289
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:22px'>4. Experiments</p>",
+            "id": 69,
+            "page": 6,
+            "text": "4. Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2322
+                },
+                {
+                    "x": 1198,
+                    "y": 2322
+                },
+                {
+                    "x": 1198,
+                    "y": 2667
+                },
+                {
+                    "x": 201,
+                    "y": 2667
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:18px'>In experiments, we first evaluate our MSG-Transformer<br>models on ImageNet [11] classification in Sec. 4.1. Then<br>in Sec. 4.2, we evaluate MSG-Transformers on MS-<br>COCO [29] object detection and instance segmentation. Fi-<br>nally, we perform a series of ablation studies and analysis<br>in Sec. 4.3. Besides, we provide a MindSpore [36] imple-<br>mentation of MSG-Transformer.</p>",
+            "id": 70,
+            "page": 6,
+            "text": "In experiments, we first evaluate our MSG-Transformer\nmodels on ImageNet [11] classification in Sec. 4.1. Then\nin Sec. 4.2, we evaluate MSG-Transformers on MS-\nCOCO [29] object detection and instance segmentation. Fi-\nnally, we perform a series of ablation studies and analysis\nin Sec. 4.3. Besides, we provide a MindSpore [36] imple-\nmentation of MSG-Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2701
+                },
+                {
+                    "x": 686,
+                    "y": 2701
+                },
+                {
+                    "x": 686,
+                    "y": 2749
+                },
+                {
+                    "x": 204,
+                    "y": 2749
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:20px'>4.1. Image Classification</p>",
+            "id": 71,
+            "page": 6,
+            "text": "4.1. Image Classification"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2779
+                },
+                {
+                    "x": 1198,
+                    "y": 2779
+                },
+                {
+                    "x": 1198,
+                    "y": 2974
+                },
+                {
+                    "x": 203,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:18px'>We evaluate our MSG-Transformer networks on the<br>commonly used image classification dataset ImageNet-<br>1K [11] and report the accuracies on the validation set<br>in Tab. 2. Most training settings follow DeiT [48]. The</p>",
+            "id": 72,
+            "page": 6,
+            "text": "We evaluate our MSG-Transformer networks on the\ncommonly used image classification dataset ImageNet-\n1K [11] and report the accuracies on the validation set\nin Tab. 2. Most training settings follow DeiT [48]. The"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 300
+                },
+                {
+                    "x": 2276,
+                    "y": 300
+                },
+                {
+                    "x": 2276,
+                    "y": 479
+                },
+                {
+                    "x": 1282,
+                    "y": 479
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='73' style='font-size:18px'>Table 3. Object detection and instance segmentation performance<br>comparisons on MS-COCO [29] with Cascade Mask R-CNN [3,<br>17]. \"X101-32\" and \"X101-64\" denote ResNeXt101-32x4d [56]<br>and -64x 4d respectively.</caption>",
+            "id": 73,
+            "page": 6,
+            "text": "Table 3. Object detection and instance segmentation performance\ncomparisons on MS-COCO [29] with Cascade Mask R-CNN [3,\n17]. \"X101-32\" and \"X101-64\" denote ResNeXt101-32x4d [56]\nand -64x 4d respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1287,
+                    "y": 522
+                },
+                {
+                    "x": 2270,
+                    "y": 522
+                },
+                {
+                    "x": 2270,
+                    "y": 1045
+                },
+                {
+                    "x": 1287,
+                    "y": 1045
+                }
+            ],
+            "category": "table",
+            "html": "<table id='74' style='font-size:16px'><tr><td>Method</td><td>APbox</td><td>APbox</td><td>APbox</td><td>APmask</td><td>APMASK</td><td>APmask</td><td></td><td>ParamsFLOPsFPS</td><td></td></tr><tr><td>DeiT-S</td><td>48.0</td><td>67.2</td><td>51.7</td><td>41.4</td><td>64.2</td><td>44.3</td><td>80M</td><td>889G</td><td>-</td></tr><tr><td>ResNet-50</td><td>46.3</td><td>64.3</td><td>50.5</td><td>40.1</td><td>61.7</td><td>43.4</td><td>82M</td><td>739G</td><td>10.5</td></tr><tr><td>Swin-T</td><td>50.5</td><td>69.3</td><td>54.9</td><td>43.7</td><td>66.6</td><td>47.1</td><td>86M</td><td>745G</td><td>9.4</td></tr><tr><td>MSG-T</td><td>51.4</td><td>70.1</td><td>56.0</td><td>44.6</td><td>67.4</td><td>48.1</td><td>83M</td><td>731G</td><td>9.1</td></tr><tr><td>X101-32</td><td>48.1</td><td>66.5</td><td>52.4</td><td>41.6</td><td>63.9</td><td>45.2</td><td>101M</td><td>819G</td><td>7.5</td></tr><tr><td>Swin-S</td><td>51.8</td><td>70.4</td><td>56.3</td><td>44.7</td><td>67.9</td><td>48.5</td><td>107M</td><td>838G</td><td>7.5</td></tr><tr><td>MSG-S</td><td>52.5</td><td>71.1</td><td>57.2</td><td>45.5</td><td>68.4</td><td>49.5</td><td>113M</td><td>831G</td><td>7.5</td></tr><tr><td>X101-64</td><td>48.3</td><td>66.4</td><td>52.3</td><td>41.7</td><td>64.0</td><td>45.1</td><td>140M</td><td>972G</td><td>6.0</td></tr><tr><td>Swin-B</td><td>51.9</td><td>70.9</td><td>56.5</td><td>45.0</td><td>68.4</td><td>48.7</td><td>145M</td><td>982G</td><td>6.3</td></tr><tr><td>MSG-B</td><td>52.8</td><td>71.3</td><td>57.3</td><td>45.7</td><td>68.9</td><td>49.9</td><td>142M</td><td>956G</td><td>6.1</td></tr></table>",
+            "id": 74,
+            "page": 6,
+            "text": "Method APbox APbox APbox APmask APMASK APmask  ParamsFLOPsFPS \n DeiT-S 48.0 67.2 51.7 41.4 64.2 44.3 80M 889G -\n ResNet-50 46.3 64.3 50.5 40.1 61.7 43.4 82M 739G 10.5\n Swin-T 50.5 69.3 54.9 43.7 66.6 47.1 86M 745G 9.4\n MSG-T 51.4 70.1 56.0 44.6 67.4 48.1 83M 731G 9.1\n X101-32 48.1 66.5 52.4 41.6 63.9 45.2 101M 819G 7.5\n Swin-S 51.8 70.4 56.3 44.7 67.9 48.5 107M 838G 7.5\n MSG-S 52.5 71.1 57.2 45.5 68.4 49.5 113M 831G 7.5\n X101-64 48.3 66.4 52.3 41.7 64.0 45.1 140M 972G 6.0\n Swin-B 51.9 70.9 56.5 45.0 68.4 48.7 145M 982G 6.3\n MSG-B 52.8 71.3 57.3 45.7 68.9 49.9 142M 956G"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1338,
+                    "y": 1056
+                },
+                {
+                    "x": 2097,
+                    "y": 1056
+                },
+                {
+                    "x": 2097,
+                    "y": 1087
+                },
+                {
+                    "x": 1338,
+                    "y": 1087
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='75' style='font-size:14px'>FPS is measured on one 32G-V100 with a batch size of1.</caption>",
+            "id": 75,
+            "page": 6,
+            "text": "FPS is measured on one 32G-V100 with a batch size of1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1318,
+                    "y": 1049
+                },
+                {
+                    "x": 1334,
+                    "y": 1049
+                },
+                {
+                    "x": 1334,
+                    "y": 1064
+                },
+                {
+                    "x": 1318,
+                    "y": 1064
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:14px'>*</p>",
+            "id": 76,
+            "page": 6,
+            "text": "*"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1130
+                },
+                {
+                    "x": 2275,
+                    "y": 1130
+                },
+                {
+                    "x": 2275,
+                    "y": 1422
+                },
+                {
+                    "x": 1280,
+                    "y": 1422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>Adam W [26] optimizer is used with 0.05 weight decay. The<br>training process takes 300 epochs in total with a cosine an-<br>nealing decay learning rate schedule [34] and 20-epoch lin-<br>ear warmup. The total batch size is set as 1024 and the ini-<br>tial learning rate is 0.001. The repeated augmentation [19]<br>and EMA [37] are not used as in Swin Transformer [32].</p>",
+            "id": 77,
+            "page": 6,
+            "text": "Adam W [26] optimizer is used with 0.05 weight decay. The\ntraining process takes 300 epochs in total with a cosine an-\nnealing decay learning rate schedule [34] and 20-epoch lin-\near warmup. The total batch size is set as 1024 and the ini-\ntial learning rate is 0.001. The repeated augmentation [19]\nand EMA [37] are not used as in Swin Transformer [32]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1429
+                },
+                {
+                    "x": 2277,
+                    "y": 1429
+                },
+                {
+                    "x": 2277,
+                    "y": 2421
+                },
+                {
+                    "x": 1278,
+                    "y": 2421
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:20px'>We provide the ImageNet classification results in Tab. 2<br>and compare with other convolutional and Transformer net-<br>works. Compared with DeiT [33], MSG-Transformers<br>achieve significantly better trade-offs between accuracy and<br>computation budget. MSG-Transformer-T achieves 2.6<br>Top-1 accuracy promotion over DeiT-S with 0.8G smaller<br>FLOPs; MSG-Transformer-S promotes the accuracy by 1.6<br>with only 48.0% FLOPs; MSG-Transformer-B achieves<br>an 84.0% Top-1 accuracy, beating larger-resolution DeiT-<br>B by 0.9 with only 25.6% FLOPs. Compared with the<br>recent state-of-the-art method Swin Transformer [32], our<br>MSG-Transformers achieve competitive accuracies with<br>similar Params and FLOPs. It is worth noting, as fre-<br>quent 1D-2D feature transitions and partition are avoided,<br>MSG-Transformers show promising speed advantages over<br>Swin Transformers. Especially on the CPU device, the la-<br>tency improvement is more evident. MSG-Transformer-T<br>is 16.9% faster than Swin-T; MSG-Transformer-S is 21.4%<br>faster than Swin-S; MSG-Transformer-B is 22.5% faster<br>than Swin-B.</p>",
+            "id": 78,
+            "page": 6,
+            "text": "We provide the ImageNet classification results in Tab. 2\nand compare with other convolutional and Transformer net-\nworks. Compared with DeiT [33], MSG-Transformers\nachieve significantly better trade-offs between accuracy and\ncomputation budget. MSG-Transformer-T achieves 2.6\nTop-1 accuracy promotion over DeiT-S with 0.8G smaller\nFLOPs; MSG-Transformer-S promotes the accuracy by 1.6\nwith only 48.0% FLOPs; MSG-Transformer-B achieves\nan 84.0% Top-1 accuracy, beating larger-resolution DeiT-\nB by 0.9 with only 25.6% FLOPs. Compared with the\nrecent state-of-the-art method Swin Transformer [32], our\nMSG-Transformers achieve competitive accuracies with\nsimilar Params and FLOPs. It is worth noting, as fre-\nquent 1D-2D feature transitions and partition are avoided,\nMSG-Transformers show promising speed advantages over\nSwin Transformers. Especially on the CPU device, the la-\ntency improvement is more evident. MSG-Transformer-T\nis 16.9% faster than Swin-T; MSG-Transformer-S is 21.4%\nfaster than Swin-S; MSG-Transformer-B is 22.5% faster\nthan Swin-B."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2452
+                },
+                {
+                    "x": 1698,
+                    "y": 2452
+                },
+                {
+                    "x": 1698,
+                    "y": 2498
+                },
+                {
+                    "x": 1281,
+                    "y": 2498
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:22px'>4.2. Object Detection</p>",
+            "id": 79,
+            "page": 6,
+            "text": "4.2. Object Detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2529
+                },
+                {
+                    "x": 2276,
+                    "y": 2529
+                },
+                {
+                    "x": 2276,
+                    "y": 2977
+                },
+                {
+                    "x": 1279,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:18px'>We evaluate our MSG-Transformer networks on MS-<br>COCO [29] object detection with the Cascade Mask R-<br>CNN [3, 17] framework. The training and evaluation are<br>performed based on the MMDetection [5] toolkit. For train-<br>ing, we use the AdamW [26] optimizer with 0.05 weight<br>decay, 1 x 10-4 initial learning rate and a total batch size<br>of 16. The learning rate is decayed by 0.1 at the 27 and 33<br>epoch. The training takes the 3x schedule, i.e., 36 epochs<br>in total. Multi-scale training with the shorter side of the im-</p>",
+            "id": 80,
+            "page": 6,
+            "text": "We evaluate our MSG-Transformer networks on MS-\nCOCO [29] object detection with the Cascade Mask R-\nCNN [3, 17] framework. The training and evaluation are\nperformed based on the MMDetection [5] toolkit. For train-\ning, we use the AdamW [26] optimizer with 0.05 weight\ndecay, 1 x 10-4 initial learning rate and a total batch size\nof 16. The learning rate is decayed by 0.1 at the 27 and 33\nepoch. The training takes the 3x schedule, i.e., 36 epochs\nin total. Multi-scale training with the shorter side of the im-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3058
+                },
+                {
+                    "x": 1252,
+                    "y": 3058
+                },
+                {
+                    "x": 1252,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='81' style='font-size:16px'>6</footer>",
+            "id": 81,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 301
+                },
+                {
+                    "x": 1196,
+                    "y": 301
+                },
+                {
+                    "x": 1196,
+                    "y": 387
+                },
+                {
+                    "x": 205,
+                    "y": 387
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='82' style='font-size:14px'>Table 4. Ablation studies about MSG tokens and shuffle operations<br>on ImageNet classification.</caption>",
+            "id": 82,
+            "page": 7,
+            "text": "Table 4. Ablation studies about MSG tokens and shuffle operations\non ImageNet classification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 210,
+                    "y": 432
+                },
+                {
+                    "x": 1198,
+                    "y": 432
+                },
+                {
+                    "x": 1198,
+                    "y": 912
+                },
+                {
+                    "x": 210,
+                    "y": 912
+                }
+            ],
+            "category": "table",
+            "html": "<table id='83' style='font-size:18px'><tr><td>Row</td><td>MSG Token</td><td>Shuffle Op.</td><td>Images / s</td><td>Top1 ( %)</td></tr><tr><td colspan=\"5\">MSG-Transformer-T (depth=12)</td></tr><tr><td>1</td><td></td><td></td><td>720.3</td><td>80.2</td></tr><tr><td>2</td><td></td><td></td><td>702.2</td><td>80.5↑0.3</td></tr><tr><td>3</td><td></td><td></td><td>696.7</td><td>81.1↑0.9</td></tr><tr><td colspan=\"5\">MSG-Transformer-S (depth=24)</td></tr><tr><td>4</td><td></td><td></td><td>412.9</td><td>81.2</td></tr><tr><td>5</td><td></td><td></td><td>403.9</td><td>81.9↑0.7</td></tr><tr><td>6</td><td></td><td></td><td>401.0</td><td>83.0↑1.8</td></tr></table>",
+            "id": 83,
+            "page": 7,
+            "text": "Row MSG Token Shuffle Op. Images / s Top1 ( %)\n MSG-Transformer-T (depth=12)\n 1   720.3 80.2\n 2   702.2 80.5↑0.3\n 3   696.7 81.1↑0.9\n MSG-Transformer-S (depth=24)\n 4   412.9 81.2\n 5   403.9 81.9↑0.7\n 6   401.0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 965
+                },
+                {
+                    "x": 1197,
+                    "y": 965
+                },
+                {
+                    "x": 1197,
+                    "y": 1306
+                },
+                {
+                    "x": 203,
+                    "y": 1306
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:18px'>age resized between 480 and 800 and the longer side not<br>exceeding 1333 is also used. As the input image size is not<br>fixed for object detection, the patch tokens are padded with<br>0 to guarantee they can be partitioned by the given window<br>size for attention computation. And the shuffle region is<br>alternatively changed at the left-top and right-bottom loca-<br>tions between layers to cover more windows.</p>",
+            "id": 84,
+            "page": 7,
+            "text": "age resized between 480 and 800 and the longer side not\nexceeding 1333 is also used. As the input image size is not\nfixed for object detection, the patch tokens are padded with\n0 to guarantee they can be partitioned by the given window\nsize for attention computation. And the shuffle region is\nalternatively changed at the left-top and right-bottom loca-\ntions between layers to cover more windows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1316
+                },
+                {
+                    "x": 1199,
+                    "y": 1316
+                },
+                {
+                    "x": 1199,
+                    "y": 1759
+                },
+                {
+                    "x": 202,
+                    "y": 1759
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='85' style='font-size:18px'>As shown in Tab. 3, MSG-Transformers achieve signif-<br>icantly better performance than CNN-based models, i.e.,<br>5.1 APbox better than ResNet-50 [18], 4.4 APbox better<br>than ResNeXt101-32x4d [56], and 4.5 APbox better than<br>ResNeXt101-64x 4d. Even though Swin Transformers have<br>achieved extremely high performance on object detection,<br>our MSG-Transformers still achieve significant promotion<br>by 0.9, 0.7, 0.9 APbox and 0.9, 0.8, 0.7 APmask for T, S, B<br>scales respectively.</p>",
+            "id": 85,
+            "page": 7,
+            "text": "As shown in Tab. 3, MSG-Transformers achieve signif-\nicantly better performance than CNN-based models, i.e.,\n5.1 APbox better than ResNet-50 [18], 4.4 APbox better\nthan ResNeXt101-32x4d [56], and 4.5 APbox better than\nResNeXt101-64x 4d. Even though Swin Transformers have\nachieved extremely high performance on object detection,\nour MSG-Transformers still achieve significant promotion\nby 0.9, 0.7, 0.9 APbox and 0.9, 0.8, 0.7 APmask for T, S, B\nscales respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 1800
+                },
+                {
+                    "x": 584,
+                    "y": 1800
+                },
+                {
+                    "x": 584,
+                    "y": 1846
+                },
+                {
+                    "x": 204,
+                    "y": 1846
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:22px'>4.3. Ablation Study</p>",
+            "id": 86,
+            "page": 7,
+            "text": "4.3. Ablation Study"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1879
+                },
+                {
+                    "x": 1199,
+                    "y": 1879
+                },
+                {
+                    "x": 1199,
+                    "y": 2124
+                },
+                {
+                    "x": 203,
+                    "y": 2124
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:18px'>In this section, we perform a series of ablation studies<br>on ImageNet-1K about the shuffling operation, MSG tokens,<br>network scales, and shuffle region sizes2 We further visual-<br>ize the attention map of MSG tokens for better understanding<br>the working mechanism.</p>",
+            "id": 87,
+            "page": 7,
+            "text": "In this section, we perform a series of ablation studies\non ImageNet-1K about the shuffling operation, MSG tokens,\nnetwork scales, and shuffle region sizes2 We further visual-\nize the attention map of MSG tokens for better understanding\nthe working mechanism."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2165
+                },
+                {
+                    "x": 1198,
+                    "y": 2165
+                },
+                {
+                    "x": 1198,
+                    "y": 2815
+                },
+                {
+                    "x": 202,
+                    "y": 2815
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:20px'>Effects of MSG Tokens & Shuffle Operations We study<br>the effects of MSG tokens and shuffle operations, providing<br>the results in Tab. 4. As shown in Row 1, with both MSG<br>tokens and shuffle operations removed, the performance de-<br>grades by 0.9. With MSG tokens applied in Row 2, the per-<br>formance is promoted by 0.3 compared to that without both.<br>Though without shuffle operations, MSG tokens can still ex-<br>change information in each token merging (downsampling)<br>layer, which leads to slight promotion. However, exchang-<br>ing information only in token merging layers is too limited<br>to expanding receptive fields. With the same ablation ap-<br>plied on a deeper network MSG-Transformer-S, the perfor-<br>mance gap becomes significant. The Top-1 accuracy drops</p>",
+            "id": 88,
+            "page": 7,
+            "text": "Effects of MSG Tokens & Shuffle Operations We study\nthe effects of MSG tokens and shuffle operations, providing\nthe results in Tab. 4. As shown in Row 1, with both MSG\ntokens and shuffle operations removed, the performance de-\ngrades by 0.9. With MSG tokens applied in Row 2, the per-\nformance is promoted by 0.3 compared to that without both.\nThough without shuffle operations, MSG tokens can still ex-\nchange information in each token merging (downsampling)\nlayer, which leads to slight promotion. However, exchang-\ning information only in token merging layers is too limited\nto expanding receptive fields. With the same ablation ap-\nplied on a deeper network MSG-Transformer-S, the perfor-\nmance gap becomes significant. The Top-1 accuracy drops"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2855
+                },
+                {
+                    "x": 1197,
+                    "y": 2855
+                },
+                {
+                    "x": 1197,
+                    "y": 2972
+                },
+                {
+                    "x": 203,
+                    "y": 2972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:14px'>2Without specified, experiments for ablation study remove the<br>overlapped downsampling and follow the network scales in Swin-<br>Transformer [32] for clear and fair comparisons.</p>",
+            "id": 89,
+            "page": 7,
+            "text": "2Without specified, experiments for ablation study remove the\noverlapped downsampling and follow the network scales in Swin-\nTransformer [32] for clear and fair comparisons."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1284,
+                    "y": 301
+                },
+                {
+                    "x": 2272,
+                    "y": 301
+                },
+                {
+                    "x": 2272,
+                    "y": 387
+                },
+                {
+                    "x": 1284,
+                    "y": 387
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='90' style='font-size:16px'>Table 5. Effects of input MSG/CLS token parameters on ImageNet<br>classification.</caption>",
+            "id": 90,
+            "page": 7,
+            "text": "Table 5. Effects of input MSG/CLS token parameters on ImageNet\nclassification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1402,
+                    "y": 430
+                },
+                {
+                    "x": 2141,
+                    "y": 430
+                },
+                {
+                    "x": 2141,
+                    "y": 870
+                },
+                {
+                    "x": 1402,
+                    "y": 870
+                }
+            ],
+            "category": "table",
+            "html": "<table id='91' style='font-size:18px'><tr><td>Row</td><td>Training</td><td>Evaluation</td><td>Top1 (%)</td></tr><tr><td colspan=\"4\">MSG-Transformer-T (MSG Token)</td></tr><tr><td>1</td><td>learnable</td><td>learned</td><td>80.9</td></tr><tr><td>2</td><td>learnable</td><td>random</td><td>80.8↓o.1</td></tr><tr><td>3</td><td>random</td><td>random</td><td>80.8↓0.1</td></tr><tr><td colspan=\"4\">Deit-S (CLS Token)</td></tr><tr><td>4</td><td>learnable</td><td>learned</td><td>79.9</td></tr><tr><td>5</td><td>learnable</td><td>random</td><td>77.7↓2.2</td></tr></table>",
+            "id": 91,
+            "page": 7,
+            "text": "Row Training Evaluation Top1 (%)\n MSG-Transformer-T (MSG Token)\n 1 learnable learned 80.9\n 2 learnable random 80.8↓o.1\n 3 random random 80.8↓0.1\n Deit-S (CLS Token)\n 4 learnable learned 79.9\n 5 learnable random"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 891
+                },
+                {
+                    "x": 2275,
+                    "y": 891
+                },
+                {
+                    "x": 2275,
+                    "y": 1085
+                },
+                {
+                    "x": 1280,
+                    "y": 1085
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='92' style='font-size:18px'>by 1.8 with both modules removed, and drops by 1.1 with<br>shuffle removed. It is worth noting that both MSG tokens<br>and shuffle operations are light enough and cause no evi-<br>dent throughput decay.</p>",
+            "id": 92,
+            "page": 7,
+            "text": "by 1.8 with both modules removed, and drops by 1.1 with\nshuffle removed. It is worth noting that both MSG tokens\nand shuffle operations are light enough and cause no evi-\ndent throughput decay."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1116
+                },
+                {
+                    "x": 2276,
+                    "y": 1116
+                },
+                {
+                    "x": 2276,
+                    "y": 1960
+                },
+                {
+                    "x": 1279,
+                    "y": 1960
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:18px'>Input Parameters of MSG Tokens To further understand<br>the role MSG tokens play in Transformers, we study impacts<br>caused by parameters of input MSG tokens. As shown in<br>Row 2 of Tab. 5, we randomly re-initialize parameters of<br>input MSG tokens for evaluation, which are learnable dur-<br>ing training, interestingly the accuracy only drops by 0.1%.<br>Then in Row 3, we randomly initialize input MSG tokens<br>and keep them fixed during training. It still induces neg-<br>ligible accuracy drop when input MSG token parameters<br>are also randomly re-initialized for evaluation. This im-<br>plies input MSG token parameters are not SO necessary to be<br>learned. We speculate that if input parameters of CLS to-<br>kens in conventional Transformers need to be learned, and<br>perform the same experiment on Deit-S [48]. Then we find<br>randomly re-parameterizing input CLS tokens for evalua-<br>tion leads to severe degradation to the accuracy, i.e., 2.2%<br>in Row 5.</p>",
+            "id": 93,
+            "page": 7,
+            "text": "Input Parameters of MSG Tokens To further understand\nthe role MSG tokens play in Transformers, we study impacts\ncaused by parameters of input MSG tokens. As shown in\nRow 2 of Tab. 5, we randomly re-initialize parameters of\ninput MSG tokens for evaluation, which are learnable dur-\ning training, interestingly the accuracy only drops by 0.1%.\nThen in Row 3, we randomly initialize input MSG tokens\nand keep them fixed during training. It still induces neg-\nligible accuracy drop when input MSG token parameters\nare also randomly re-initialized for evaluation. This im-\nplies input MSG token parameters are not SO necessary to be\nlearned. We speculate that if input parameters of CLS to-\nkens in conventional Transformers need to be learned, and\nperform the same experiment on Deit-S [48]. Then we find\nrandomly re-parameterizing input CLS tokens for evalua-\ntion leads to severe degradation to the accuracy, i.e., 2.2%\nin Row 5."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1964
+                },
+                {
+                    "x": 2276,
+                    "y": 1964
+                },
+                {
+                    "x": 2276,
+                    "y": 2558
+                },
+                {
+                    "x": 1278,
+                    "y": 2558
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:18px'>The above experiments show that the proposed MSG to-<br>kens play a different role from conventional CLS tokens,<br>which serve as messengers to carry information from dif-<br>ferent local windows and exchange information with each<br>other. The input parameters of their own matter little in lat-<br>ter information delivering as they absorb local features layer<br>by layer via attention computing. In other words, with unin-<br>terrupted self-attention and information exchanging, patch<br>tokens make what MSG tokens are and MSG tokens are just<br>responsible for summarizing local patch tokens and deliver<br>the message to other locations. Therefore, input parameters<br>of MSG tokens do not affect the final performance.</p>",
+            "id": 94,
+            "page": 7,
+            "text": "The above experiments show that the proposed MSG to-\nkens play a different role from conventional CLS tokens,\nwhich serve as messengers to carry information from dif-\nferent local windows and exchange information with each\nother. The input parameters of their own matter little in lat-\nter information delivering as they absorb local features layer\nby layer via attention computing. In other words, with unin-\nterrupted self-attention and information exchanging, patch\ntokens make what MSG tokens are and MSG tokens are just\nresponsible for summarizing local patch tokens and deliver\nthe message to other locations. Therefore, input parameters\nof MSG tokens do not affect the final performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2580
+                },
+                {
+                    "x": 2276,
+                    "y": 2580
+                },
+                {
+                    "x": 2276,
+                    "y": 2975
+                },
+                {
+                    "x": 1281,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='95' style='font-size:18px'>Network Scales Considering different types of architec-<br>tures fit different network scales, we study the scales of<br>both Swin- and MSG-Transformer as follows. As shown<br>in Tab. 6, two scales are evaluated where one is shallow and<br>wide with 96 input dimension and [2, 2, 6, 2] blocks in each<br>stage, while another one is deep and narrow with 64 dimen-<br>sion and [2, 4, 12, 4] blocks. We observe MSG-Transformer<br>achieves a far better trade-off between computation cost and</p>",
+            "id": 95,
+            "page": 7,
+            "text": "Network Scales Considering different types of architec-\ntures fit different network scales, we study the scales of\nboth Swin- and MSG-Transformer as follows. As shown\nin Tab. 6, two scales are evaluated where one is shallow and\nwide with 96 input dimension and [2, 2, 6, 2] blocks in each\nstage, while another one is deep and narrow with 64 dimen-\nsion and [2, 4, 12, 4] blocks. We observe MSG-Transformer\nachieves a far better trade-off between computation cost and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3089
+                },
+                {
+                    "x": 1226,
+                    "y": 3089
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='96' style='font-size:14px'>7</footer>",
+            "id": 96,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 194,
+                    "y": 272
+                },
+                {
+                    "x": 2268,
+                    "y": 272
+                },
+                {
+                    "x": 2268,
+                    "y": 642
+                },
+                {
+                    "x": 194,
+                    "y": 642
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='97' style='font-size:18px' alt=\"Input image Block-2 Block-4 Block-7 Block-10 Block-12\" data-coord=\"top-left:(194,272); bottom-right:(2268,642)\" /></figure>",
+            "id": 97,
+            "page": 8,
+            "text": "Input image Block-2 Block-4 Block-7 Block-10 Block-12"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 675
+                },
+                {
+                    "x": 2270,
+                    "y": 675
+                },
+                {
+                    "x": 2270,
+                    "y": 720
+                },
+                {
+                    "x": 205,
+                    "y": 720
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='98' style='font-size:14px'>Figure 4. Visualization of attention maps computed between each MSG token and patch tokens within the local window in different blocks.</caption>",
+            "id": 98,
+            "page": 8,
+            "text": "Figure 4. Visualization of attention maps computed between each MSG token and patch tokens within the local window in different blocks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 772
+                },
+                {
+                    "x": 1169,
+                    "y": 772
+                },
+                {
+                    "x": 1169,
+                    "y": 812
+                },
+                {
+                    "x": 226,
+                    "y": 812
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='99' style='font-size:14px'>Table 6. Network scale study on Swin- and MSG-Transformer.</caption>",
+            "id": 99,
+            "page": 8,
+            "text": "Table 6. Network scale study on Swin- and MSG-Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 208,
+                    "y": 854
+                },
+                {
+                    "x": 1189,
+                    "y": 854
+                },
+                {
+                    "x": 1189,
+                    "y": 1139
+                },
+                {
+                    "x": 208,
+                    "y": 1139
+                }
+            ],
+            "category": "table",
+            "html": "<table id='100' style='font-size:14px'><tr><td>Model</td><td>Dim</td><td>#Blocks</td><td>Params</td><td>FLOPs</td><td>Top1 (%)</td></tr><tr><td rowspan=\"2\">Swin</td><td>96</td><td>[2, 2,6,2]</td><td>28M</td><td>4.5G</td><td>81.3</td></tr><tr><td>64</td><td>[2, 4, 12, 4]</td><td>24M</td><td>3.6G</td><td>81.3</td></tr><tr><td rowspan=\"2\">MSG</td><td>96</td><td>[2, 2, 6, 2]</td><td>28M</td><td>4.6G</td><td>81.1</td></tr><tr><td>64</td><td>[2, 4, 12, 4]</td><td>24M</td><td>3.7G</td><td>82.1</td></tr></table>",
+            "id": 100,
+            "page": 8,
+            "text": "Model Dim #Blocks Params FLOPs Top1 (%)\n Swin 96 [2, 2,6,2] 28M 4.5G 81.3\n 64 [2, 4, 12, 4] 24M 3.6G 81.3\n MSG 96 [2, 2, 6, 2] 28M 4.6G 81.1\n 64 [2, 4, 12, 4] 24M 3.7G"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 1185
+                },
+                {
+                    "x": 1192,
+                    "y": 1185
+                },
+                {
+                    "x": 1192,
+                    "y": 1272
+                },
+                {
+                    "x": 205,
+                    "y": 1272
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='101' style='font-size:14px'>Table 7. Ablation studies about the shuffle region sizes on Ima-<br>geNet classification.</caption>",
+            "id": 101,
+            "page": 8,
+            "text": "Table 7. Ablation studies about the shuffle region sizes on Ima-\ngeNet classification."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 307,
+                    "y": 1313
+                },
+                {
+                    "x": 1082,
+                    "y": 1313
+                },
+                {
+                    "x": 1082,
+                    "y": 1548
+                },
+                {
+                    "x": 307,
+                    "y": 1548
+                }
+            ],
+            "category": "table",
+            "html": "<table id='102' style='font-size:14px'><tr><td>Shuffle Region Sizes</td><td>Images / s</td><td>Top1(%)</td></tr><tr><td>2, 2, 2, 1</td><td>695.1</td><td>80.6</td></tr><tr><td>4, 2,2, 1</td><td>696.1</td><td>80.8</td></tr><tr><td>4,4,2, 1</td><td>696.7</td><td>80.9</td></tr></table>",
+            "id": 102,
+            "page": 8,
+            "text": "Shuffle Region Sizes Images / s Top1(%)\n 2, 2, 2, 1 695.1 80.6\n 4, 2,2, 1 696.1 80.8\n 4,4,2, 1 696.7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1597
+                },
+                {
+                    "x": 1197,
+                    "y": 1597
+                },
+                {
+                    "x": 1197,
+                    "y": 2186
+                },
+                {
+                    "x": 201,
+                    "y": 2186
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='103' style='font-size:16px'>accuracy with the deeper-narrower scale. We analyze the<br>reason as follows. In Swin Transformer, each patch to-<br>ken is involved in two different windows between layers,<br>which requires a wider channel dimension with more atten-<br>tion heads to support the variety. On the contrary, MSG-<br>Transformer uses MSG tokens to extract window-level in-<br>formation and transmit to patch tokens. This reduces the<br>difficulty for patch tokens to extract information from other<br>windows. Thus MSG-Transformer requires a smaller chan-<br>nel capacity to support variety in one window. A deeper<br>and narrower architecture brings a better trade-off for MSG-<br>Transformer.</p>",
+            "id": 103,
+            "page": 8,
+            "text": "accuracy with the deeper-narrower scale. We analyze the\nreason as follows. In Swin Transformer, each patch to-\nken is involved in two different windows between layers,\nwhich requires a wider channel dimension with more atten-\ntion heads to support the variety. On the contrary, MSG-\nTransformer uses MSG tokens to extract window-level in-\nformation and transmit to patch tokens. This reduces the\ndifficulty for patch tokens to extract information from other\nwindows. Thus MSG-Transformer requires a smaller chan-\nnel capacity to support variety in one window. A deeper\nand narrower architecture brings a better trade-off for MSG-\nTransformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2210
+                },
+                {
+                    "x": 1199,
+                    "y": 2210
+                },
+                {
+                    "x": 1199,
+                    "y": 2606
+                },
+                {
+                    "x": 202,
+                    "y": 2606
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:18px'>Shuffle Region Sizes We study the impacts of shuffle re-<br>gion sizes on the final performance. As shown in Tab. 7,<br>with the shuffle region enlarged, the final accuracy in-<br>creases. It is reasonable that larger shuffle region sizes<br>lead to larger receptive fields and are beneficial for tokens<br>capturing substantial spatial information. Moreover, the<br>throughput/latency is not affected by the shuffle size chang-<br>ing.</p>",
+            "id": 104,
+            "page": 8,
+            "text": "Shuffle Region Sizes We study the impacts of shuffle re-\ngion sizes on the final performance. As shown in Tab. 7,\nwith the shuffle region enlarged, the final accuracy in-\ncreases. It is reasonable that larger shuffle region sizes\nlead to larger receptive fields and are beneficial for tokens\ncapturing substantial spatial information. Moreover, the\nthroughput/latency is not affected by the shuffle size chang-\ning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2627
+                },
+                {
+                    "x": 1199,
+                    "y": 2627
+                },
+                {
+                    "x": 1199,
+                    "y": 2976
+                },
+                {
+                    "x": 202,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='105' style='font-size:18px'>Attention Map Visualization of MSG Tokens To under-<br>stand the working mechanism of MSG tokens, we visualize<br>attention maps computed between each MSG token and its<br>associated patch tokens within the local window in different<br>blocks. As shown in Fig. 4, local windows in attention maps<br>are split into grids. Though the local window size to the to-<br>ken features is constant, i.e. 7 in our settings, with tokens</p>",
+            "id": 105,
+            "page": 8,
+            "text": "Attention Map Visualization of MSG Tokens To under-\nstand the working mechanism of MSG tokens, we visualize\nattention maps computed between each MSG token and its\nassociated patch tokens within the local window in different\nblocks. As shown in Fig. 4, local windows in attention maps\nare split into grids. Though the local window size to the to-\nken features is constant, i.e. 7 in our settings, with tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 779
+                },
+                {
+                    "x": 2276,
+                    "y": 779
+                },
+                {
+                    "x": 2276,
+                    "y": 1074
+                },
+                {
+                    "x": 1278,
+                    "y": 1074
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='106' style='font-size:18px'>merged, the real receptive field is enlarged when reflected<br>onto the original image. In shallower blocks, attention of<br>MSG tokens is dispersive which tends to capture contour in-<br>formation; in deeper layers, though attention is computed<br>within each local window, MSG tokens can still focus on lo-<br>cations closely related to the object.</p>",
+            "id": 106,
+            "page": 8,
+            "text": "merged, the real receptive field is enlarged when reflected\nonto the original image. In shallower blocks, attention of\nMSG tokens is dispersive which tends to capture contour in-\nformation; in deeper layers, though attention is computed\nwithin each local window, MSG tokens can still focus on lo-\ncations closely related to the object."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1130
+                },
+                {
+                    "x": 1908,
+                    "y": 1130
+                },
+                {
+                    "x": 1908,
+                    "y": 1182
+                },
+                {
+                    "x": 1281,
+                    "y": 1182
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:20px'>5. Discussion and Conclusion</p>",
+            "id": 107,
+            "page": 8,
+            "text": "5. Discussion and Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1217
+                },
+                {
+                    "x": 2277,
+                    "y": 1217
+                },
+                {
+                    "x": 2277,
+                    "y": 1714
+                },
+                {
+                    "x": 1279,
+                    "y": 1714
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:18px'>This paper proposes MSG-Transformer, a novel Trans-<br>former architecture that enables efficient and flexible infor-<br>mation exchange. The core innovation is to introduce the<br>MSG token which serves as the hub of collecting and prop-<br>agating information. We instantiate MSG-Transformer by<br>shuffling MSG tokens, yet the framework is freely extended<br>by simply altering the way of manipulating MSG tokens.<br>Our approach achieves competitive performance on stan-<br>dard image classification and object detection tasks with re-<br>duced implementation difficulty and faster inference speed.</p>",
+            "id": 108,
+            "page": 8,
+            "text": "This paper proposes MSG-Transformer, a novel Trans-\nformer architecture that enables efficient and flexible infor-\nmation exchange. The core innovation is to introduce the\nMSG token which serves as the hub of collecting and prop-\nagating information. We instantiate MSG-Transformer by\nshuffling MSG tokens, yet the framework is freely extended\nby simply altering the way of manipulating MSG tokens.\nOur approach achieves competitive performance on stan-\ndard image classification and object detection tasks with re-\nduced implementation difficulty and faster inference speed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1752
+                },
+                {
+                    "x": 2277,
+                    "y": 1752
+                },
+                {
+                    "x": 2277,
+                    "y": 2197
+                },
+                {
+                    "x": 1279,
+                    "y": 2197
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:18px'>Limitations We would analyze limitations from the per-<br>spective of the manipulation type for MSG tokens. Though<br>shuffling is an efficient communication operation, the speci-<br>ficity of shuffled tokens is not so well as shuffling integrates<br>token segments from different local windows equally on the<br>channel dimension. On the other hand, it is valuable to<br>explore other manipulation types with a better efficiency-<br>specificity trade-off which may further motivate the poten-<br>tial of MSG-Transformer.</p>",
+            "id": 109,
+            "page": 8,
+            "text": "Limitations We would analyze limitations from the per-\nspective of the manipulation type for MSG tokens. Though\nshuffling is an efficient communication operation, the speci-\nficity of shuffled tokens is not so well as shuffling integrates\ntoken segments from different local windows equally on the\nchannel dimension. On the other hand, it is valuable to\nexplore other manipulation types with a better efficiency-\nspecificity trade-off which may further motivate the poten-\ntial of MSG-Transformer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2237
+                },
+                {
+                    "x": 2277,
+                    "y": 2237
+                },
+                {
+                    "x": 2277,
+                    "y": 2585
+                },
+                {
+                    "x": 1279,
+                    "y": 2585
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:18px'>Future work Our design puts forward an open problem:<br>since information exchange is the common requirement of<br>deep networks, how to satisfy all of capacity, flexibility, and<br>efficiency in the architecture design? The MSG token offers<br>a preliminary solution, yet we look forward to validating its<br>performance and further improving it in visual recognition<br>tasks and beyond.</p>",
+            "id": 110,
+            "page": 8,
+            "text": "Future work Our design puts forward an open problem:\nsince information exchange is the common requirement of\ndeep networks, how to satisfy all of capacity, flexibility, and\nefficiency in the architecture design? The MSG token offers\na preliminary solution, yet we look forward to validating its\nperformance and further improving it in visual recognition\ntasks and beyond."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2641
+                },
+                {
+                    "x": 1682,
+                    "y": 2641
+                },
+                {
+                    "x": 1682,
+                    "y": 2693
+                },
+                {
+                    "x": 1281,
+                    "y": 2693
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:22px'>Acknowledgement</p>",
+            "id": 111,
+            "page": 8,
+            "text": "Acknowledgement"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2728
+                },
+                {
+                    "x": 2277,
+                    "y": 2728
+                },
+                {
+                    "x": 2277,
+                    "y": 2974
+                },
+                {
+                    "x": 1281,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:18px'>We thank Yuxin Fang, Bencheng Liao, Liangchen Song,<br>Yuzhu Sun and Yingqing Rao for constructive discussions<br>and assistance. This work was in part supported by NSFC<br>(No. 61876212 and No. 61733007) and CAAI-Huawei<br>MindSpore Open Fund.</p>",
+            "id": 112,
+            "page": 8,
+            "text": "We thank Yuxin Fang, Bencheng Liao, Liangchen Song,\nYuzhu Sun and Yingqing Rao for constructive discussions\nand assistance. This work was in part supported by NSFC\n(No. 61876212 and No. 61733007) and CAAI-Huawei\nMindSpore Open Fund."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3056
+                },
+                {
+                    "x": 1251,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='113' style='font-size:16px'>8</footer>",
+            "id": 113,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 301
+                },
+                {
+                    "x": 445,
+                    "y": 301
+                },
+                {
+                    "x": 445,
+                    "y": 353
+                },
+                {
+                    "x": 204,
+                    "y": 353
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:20px'>References</p>",
+            "id": 114,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 215,
+                    "y": 368
+                },
+                {
+                    "x": 1200,
+                    "y": 368
+                },
+                {
+                    "x": 1200,
+                    "y": 2976
+                },
+                {
+                    "x": 215,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:18px'>[1] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Sub-<br>biah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakan-<br>tan, Pranav Shyam, Girish Sastry, Amanda Askell, Sand-<br>hini Agarwal, Ariel Herbert- Voss, Gretchen Krueger, Tom<br>Henighan, Rewon Child, Aditya Ramesh, Daniel Ziegler,<br>Jeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric<br>Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack<br>Clark, Christopher Berner, Sam McCandlish, Alec Radford,<br>Ilya Sutskever, and Dario Amodei. Language models are<br>few-shot learners. In NeurIPS, 2020. 2<br>[2] Han Cai, Ligeng Zhu, and Song Han. ProxylessNAS: Direct<br>neural architecture search on target task and hardware. In<br>ICLR, 2019. 2<br>[3] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: Delving<br>into high quality object detection. In CVPR, 2018. 2, 6<br>[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas<br>Usunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-<br>end object detection with transformers. In ECCV, 2020. 1<br>[5] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu<br>Xiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu,<br>Jiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tian-<br>heng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue<br>Wu, and Dahua Lin. Mmdetection: Open mmlab detection<br>toolbox and benchmark. arXiv:1906.07155, 2019. 6<br>[6] Liang-Chieh Chen, George Papandreou, Florian Schroff, and<br>Hartwig Adam. Rethinking atrous convolution for semantic<br>image segmentation. arXiv: 1706.05587, 2017. 2<br>[7] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos,<br>Kevin Murphy, and Alan L Yuille. Deeplab: Semantic image<br>segmentation with deep convolutional nets, atrous convolu-<br>tion, and fully connected crfs. TPAMI, 2017. 2<br>[8] Fran�ois Chollet. Xception: Deep learning with depthwise<br>separable convolutions. In CVPR, 2017. 11<br>[9] Xiangxiang Chu, Zhi Tian, Yuqing Wang, Bo Zhang, Haib-<br>ing Ren, Xiaolin Wei, Huaxia Xia, and Chunhua Shen.<br>Twins: Revisiting the design of spatial attention in vision<br>transformers. In NeurIPS 2021, 2021. 3, 5<br>[10] Xiangxiang Chu, Bo Zhang, Zhi Tian, Xiaolin Wei, and<br>Huaxia Xia. Do we really need explicit position encodings<br>for vision transformers? arXiv e-prints, pages arXiv-2102,<br>2021. 2, 6<br>[11] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li,<br>and Fei-Fei Li. Imagenet: A large-scale hierarchical image<br>database. In CVPR, 2009. 2, 6<br>[12] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina<br>Toutanova. Bert: Pre-training of deep bidirectional trans-<br>formers for language understanding. arXiv:1810.04805,<br>2018. 2<br>[13] Xiaoyi Dong, Jianmin Bao, Dongdong Chen, Weiming<br>Zhang, Nenghai Yu, Lu Yuan, Dong Chen, and Baining Guo.<br>Cswin transformer: A general vision transformer backbone<br>with cross-shaped windows. arXiv:2107.00652, 2021. 3, 11<br>[14] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,<br>Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,<br>Mostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-<br>vain Gelly, et al. An image is worth 16x16 words: Trans-</p>",
+            "id": 115,
+            "page": 9,
+            "text": "[1] Tom Brown, Benjamin Mann, Nick Ryder, Melanie Sub-\nbiah, Jared D Kaplan, Prafulla Dhariwal, Arvind Neelakan-\ntan, Pranav Shyam, Girish Sastry, Amanda Askell, Sand-\nhini Agarwal, Ariel Herbert- Voss, Gretchen Krueger, Tom\nHenighan, Rewon Child, Aditya Ramesh, Daniel Ziegler,\nJeffrey Wu, Clemens Winter, Chris Hesse, Mark Chen, Eric\nSigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack\nClark, Christopher Berner, Sam McCandlish, Alec Radford,\nIlya Sutskever, and Dario Amodei. Language models are\nfew-shot learners. In NeurIPS, 2020. 2\n[2] Han Cai, Ligeng Zhu, and Song Han. ProxylessNAS: Direct\nneural architecture search on target task and hardware. In\nICLR, 2019. 2\n[3] Zhaowei Cai and Nuno Vasconcelos. Cascade r-cnn: Delving\ninto high quality object detection. In CVPR, 2018. 2, 6\n[4] Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas\nUsunier, Alexander Kirillov, and Sergey Zagoruyko. End-to-\nend object detection with transformers. In ECCV, 2020. 1\n[5] Kai Chen, Jiaqi Wang, Jiangmiao Pang, Yuhang Cao, Yu\nXiong, Xiaoxiao Li, Shuyang Sun, Wansen Feng, Ziwei Liu,\nJiarui Xu, Zheng Zhang, Dazhi Cheng, Chenchen Zhu, Tian-\nheng Cheng, Qijie Zhao, Buyu Li, Xin Lu, Rui Zhu, Yue\nWu, and Dahua Lin. Mmdetection: Open mmlab detection\ntoolbox and benchmark. arXiv:1906.07155, 2019. 6\n[6] Liang-Chieh Chen, George Papandreou, Florian Schroff, and\nHartwig Adam. Rethinking atrous convolution for semantic\nimage segmentation. arXiv: 1706.05587, 2017. 2\n[7] Liang-Chieh Chen, George Papandreou, Iasonas Kokkinos,\nKevin Murphy, and Alan L Yuille. Deeplab: Semantic image\nsegmentation with deep convolutional nets, atrous convolu-\ntion, and fully connected crfs. TPAMI, 2017. 2\n[8] Fran�ois Chollet. Xception: Deep learning with depthwise\nseparable convolutions. In CVPR, 2017. 11\n[9] Xiangxiang Chu, Zhi Tian, Yuqing Wang, Bo Zhang, Haib-\ning Ren, Xiaolin Wei, Huaxia Xia, and Chunhua Shen.\nTwins: Revisiting the design of spatial attention in vision\ntransformers. In NeurIPS 2021, 2021. 3, 5\n[10] Xiangxiang Chu, Bo Zhang, Zhi Tian, Xiaolin Wei, and\nHuaxia Xia. Do we really need explicit position encodings\nfor vision transformers? arXiv e-prints, pages arXiv-2102,\n2021. 2, 6\n[11] Jia Deng, Wei Dong, Richard Socher, Li-Jia Li, Kai Li,\nand Fei-Fei Li. Imagenet: A large-scale hierarchical image\ndatabase. In CVPR, 2009. 2, 6\n[12] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina\nToutanova. Bert: Pre-training of deep bidirectional trans-\nformers for language understanding. arXiv:1810.04805,\n2018. 2\n[13] Xiaoyi Dong, Jianmin Bao, Dongdong Chen, Weiming\nZhang, Nenghai Yu, Lu Yuan, Dong Chen, and Baining Guo.\nCswin transformer: A general vision transformer backbone\nwith cross-shaped windows. arXiv:2107.00652, 2021. 3, 11\n[14] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov,\nDirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner,\nMostafa Dehghani, Matthias Minderer, Georg Heigold, Syl-\nvain Gelly, et al. An image is worth 16x16 words: Trans-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 319
+                },
+                {
+                    "x": 2289,
+                    "y": 319
+                },
+                {
+                    "x": 2289,
+                    "y": 2977
+                },
+                {
+                    "x": 1277,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='116' style='font-size:16px'>formers for image recognition at scale. ICLR, 2021. 1, 2, 3,<br>6<br>[15] Jiemin Fang, Yuzhu Sun, Qian Zhang, Yuan Li, Wenyu Liu,<br>and Xinggang Wang. Densely connected search space for<br>more flexible neural architecture search. In CVPR, 2020. 2<br>[16] Kai Han, An Xiao, Enhua Wu, Jianyuan Guo, Chunjing Xu,<br>and Yunhe Wang. Transformer in transformer. In NeurIPS<br>2021, 2021. 2, 6<br>[17] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-<br>shick. Mask r-cnn. In ICCV, 2017. 2, 6<br>[18] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.<br>Deep residual learning for image recognition. In CVPR,<br>2016. 2, 7<br>[19] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten<br>Hoefler, and Daniel Soudry. Augment your batch: Improving<br>generalization through instance repetition. In CVPR, 2020.<br>6<br>[20] Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry<br>Kalenichenko, Weijun Wang, Tobias Weyand, Marco An-<br>dreetto, and Hartwig Adam. Mobilenets: Efficient con-<br>volutional neural networks for mobile vision applications.<br>arXiv:1704.04861, 2017. 2<br>[21] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local<br>relation networks for image recognition. In ICCV, 2019. 2,<br>4<br>[22] Gao Huang, Zhuang Liu, Laurens van der Maaten, and Kil-<br>ian Q. Weinberger. Densely connected convolutional net-<br>works. In CVPR, 2017. 2<br>[23] Zilong Huang, Youcheng Ben, Guozhong Luo, Pei Cheng,<br>Gang Yu, and Bin Fu. Shuffle transformer: Rethinking spa-<br>tial shuffle for vision transformer. arXiv:2106.03650, 2021.<br>3, 11<br>[24] Zilong Huang, Xinggang Wang, Lichao Huang, Chang<br>Huang, Yunchao Wei, and Wenyu Liu. Ccnet: Criss-cross<br>attention for semantic segmentation. In ICCV, 2019. 2<br>[25] Guolin Ke, Di He, and Tie- Yan Liu. Rethinking positional<br>encoding in language pre-training. In ICLR, 2021. 4<br>[26] Diederik P. Kingma and Jimmy Ba. Adam: A method for<br>stochastic optimization. In ICLR, 2015. 6<br>[27] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton.<br>Imagenet classification with deep convolutional neural net-<br>works. In NeurIPS, 2012. 2<br>[28] Changlin Li, Tao Tang, Guangrun Wang, Jiefeng Peng,<br>Bing Wang, Xiaodan Liang, and Xiaojun Chang. Bossnas:<br>Exploring hybrid cnn-transformers with block-wisely self-<br>supervised neural architecture search. arXiv:2103.12424,<br>2021. 2, 6<br>[29] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James<br>Hays, Pietro Perona, Deva Ramanan, Piotr Dollar, and<br>C. Lawrence Zitnick. Microsoft COCO: common objects in<br>context. In ECCV, 2014. 2, 6<br>[30] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and<br>Piotr Dollar. Focal loss for dense object detection. In ICCV,<br>2017. 2<br>[31] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian<br>Szegedy, Scott Reed, Cheng-Yang Fu, and Alexander C<br>Berg. Ssd: Single shot multibox detector. In ECCV, 2016. 2</p>",
+            "id": 116,
+            "page": 9,
+            "text": "formers for image recognition at scale. ICLR, 2021. 1, 2, 3,\n6\n[15] Jiemin Fang, Yuzhu Sun, Qian Zhang, Yuan Li, Wenyu Liu,\nand Xinggang Wang. Densely connected search space for\nmore flexible neural architecture search. In CVPR, 2020. 2\n[16] Kai Han, An Xiao, Enhua Wu, Jianyuan Guo, Chunjing Xu,\nand Yunhe Wang. Transformer in transformer. In NeurIPS\n2021, 2021. 2, 6\n[17] Kaiming He, Georgia Gkioxari, Piotr Dollar, and Ross Gir-\nshick. Mask r-cnn. In ICCV, 2017. 2, 6\n[18] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.\nDeep residual learning for image recognition. In CVPR,\n2016. 2, 7\n[19] Elad Hoffer, Tal Ben-Nun, Itay Hubara, Niv Giladi, Torsten\nHoefler, and Daniel Soudry. Augment your batch: Improving\ngeneralization through instance repetition. In CVPR, 2020.\n6\n[20] Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry\nKalenichenko, Weijun Wang, Tobias Weyand, Marco An-\ndreetto, and Hartwig Adam. Mobilenets: Efficient con-\nvolutional neural networks for mobile vision applications.\narXiv:1704.04861, 2017. 2\n[21] Han Hu, Zheng Zhang, Zhenda Xie, and Stephen Lin. Local\nrelation networks for image recognition. In ICCV, 2019. 2,\n4\n[22] Gao Huang, Zhuang Liu, Laurens van der Maaten, and Kil-\nian Q. Weinberger. Densely connected convolutional net-\nworks. In CVPR, 2017. 2\n[23] Zilong Huang, Youcheng Ben, Guozhong Luo, Pei Cheng,\nGang Yu, and Bin Fu. Shuffle transformer: Rethinking spa-\ntial shuffle for vision transformer. arXiv:2106.03650, 2021.\n3, 11\n[24] Zilong Huang, Xinggang Wang, Lichao Huang, Chang\nHuang, Yunchao Wei, and Wenyu Liu. Ccnet: Criss-cross\nattention for semantic segmentation. In ICCV, 2019. 2\n[25] Guolin Ke, Di He, and Tie- Yan Liu. Rethinking positional\nencoding in language pre-training. In ICLR, 2021. 4\n[26] Diederik P. Kingma and Jimmy Ba. Adam: A method for\nstochastic optimization. In ICLR, 2015. 6\n[27] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton.\nImagenet classification with deep convolutional neural net-\nworks. In NeurIPS, 2012. 2\n[28] Changlin Li, Tao Tang, Guangrun Wang, Jiefeng Peng,\nBing Wang, Xiaodan Liang, and Xiaojun Chang. Bossnas:\nExploring hybrid cnn-transformers with block-wisely self-\nsupervised neural architecture search. arXiv:2103.12424,\n2021. 2, 6\n[29] Tsung-Yi Lin, Michael Maire, Serge J. Belongie, James\nHays, Pietro Perona, Deva Ramanan, Piotr Dollar, and\nC. Lawrence Zitnick. Microsoft COCO: common objects in\ncontext. In ECCV, 2014. 2, 6\n[30] Tsung-Yi Lin, Priya Goyal, Ross Girshick, Kaiming He, and\nPiotr Dollar. Focal loss for dense object detection. In ICCV,\n2017. 2\n[31] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian\nSzegedy, Scott Reed, Cheng-Yang Fu, and Alexander C\nBerg. Ssd: Single shot multibox detector. In ECCV, 2016. 2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1220,
+                    "y": 3051
+                },
+                {
+                    "x": 1256,
+                    "y": 3051
+                },
+                {
+                    "x": 1256,
+                    "y": 3094
+                },
+                {
+                    "x": 1220,
+                    "y": 3094
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='117' style='font-size:14px'>9</footer>",
+            "id": 117,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 299
+                },
+                {
+                    "x": 1202,
+                    "y": 299
+                },
+                {
+                    "x": 1202,
+                    "y": 2979
+                },
+                {
+                    "x": 203,
+                    "y": 2979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:14px'>[32] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng<br>Zhang, Stephen Lin, and Baining Guo. Swin transformer:<br>Hierarchical vision transformer using shifted windows. In<br>ICCV, 2021. 1, 2, 3, 4, 5, 6, 7, 11<br>[33] Zili Liu, Tu Zheng, Guodong Xu, Zheng Yang, Haifeng Liu,<br>and Deng Cai. Training-time-friendly network for real-time<br>object detection. arXiv:1909.00700, 2019. 6<br>[34] Ilya Loshchilov and Frank Hutter. SGDR: stochastic gradient<br>descent with warm restarts. In ICLR, 2017. 6<br>[35] Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun.<br>Shufflenet V2: practical guidelines for efficient CNN archi-<br>tecture design. In ECCV, 2018. 2, 4<br>[36] MindSpore. https : / / github · com / mindspore -<br>ai /mindspore. 6<br>[37] Boris T Polyak and Anatoli B Juditsky. Acceleration of<br>stochastic approximation by averaging. SIAM journal on<br>control and optimization, 1992. 6<br>[38] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick,<br>Kaiming He, and Piotr Dollar. Designing network design<br>spaces. In CVPR, 2020. 6<br>[39] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee,<br>Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and<br>Peter J Liu. Exploring the limits of transfer learning with a<br>unified text-to-text transformer. Journal of Machine Learn-<br>ing Research, 2020. 4<br>[40] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan<br>Bello, Anselm Levskaya, and Jon Shlens. Stand-alone self-<br>attention in vision models. In NeurIPS, 2019. 1, 2, 6<br>[41] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali<br>Farhadi. You only look once: Unified, real-time object de-<br>tection. In CVPR, 2016. 2<br>[42] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.<br>Faster r-cnn: Towards real-time object detection with region<br>proposal networks. In NeurIPS, 2015. 2<br>[43] Karen Simonyan and Andrew Zisserman. Very deep convo-<br>lutional networks for large-scale image recognition. In ICLR,<br>2014. 2<br>[44] Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon<br>Shlens, Pieter Abbeel, and Ashish Vaswani. Bottleneck<br>transformers for visual recognition. arXiv:2101.11605,<br>2021. 2<br>[45] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,<br>Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent<br>Vanhoucke, and Andrew Rabinovich. Going deeper with<br>convolutions. In CVPR, 2015. 2<br>[46] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe,<br>Jonathon Shlens, and Zbigniew Wojna. Rethinking the in-<br>ception architecture for computer vision. In CVPR, 2016.<br>2<br>[47] Mingxing Tan and Quoc V Le. Efficientnet: Re-<br>thinking model scaling for convolutional neural networks.<br>arXiv:1905.11946, 2019. 2, 6<br>[48] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco<br>Massa, Alexandre Sablayrolles, and Herve Jegou. Training<br>data-efficient image transformers & distillation through at-<br>tention. In ICML, 2021. 2, 3, 6, 7</p>",
+            "id": 118,
+            "page": 10,
+            "text": "[32] Ze Liu, Yutong Lin, Yue Cao, Han Hu, Yixuan Wei, Zheng\nZhang, Stephen Lin, and Baining Guo. Swin transformer:\nHierarchical vision transformer using shifted windows. In\nICCV, 2021. 1, 2, 3, 4, 5, 6, 7, 11\n[33] Zili Liu, Tu Zheng, Guodong Xu, Zheng Yang, Haifeng Liu,\nand Deng Cai. Training-time-friendly network for real-time\nobject detection. arXiv:1909.00700, 2019. 6\n[34] Ilya Loshchilov and Frank Hutter. SGDR: stochastic gradient\ndescent with warm restarts. In ICLR, 2017. 6\n[35] Ningning Ma, Xiangyu Zhang, Hai-Tao Zheng, and Jian Sun.\nShufflenet V2: practical guidelines for efficient CNN archi-\ntecture design. In ECCV, 2018. 2, 4\n[36] MindSpore. https : / / github · com / mindspore -\nai /mindspore. 6\n[37] Boris T Polyak and Anatoli B Juditsky. Acceleration of\nstochastic approximation by averaging. SIAM journal on\ncontrol and optimization, 1992. 6\n[38] Ilija Radosavovic, Raj Prateek Kosaraju, Ross Girshick,\nKaiming He, and Piotr Dollar. Designing network design\nspaces. In CVPR, 2020. 6\n[39] Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee,\nSharan Narang, Michael Matena, Yanqi Zhou, Wei Li, and\nPeter J Liu. Exploring the limits of transfer learning with a\nunified text-to-text transformer. Journal of Machine Learn-\ning Research, 2020. 4\n[40] Prajit Ramachandran, Niki Parmar, Ashish Vaswani, Irwan\nBello, Anselm Levskaya, and Jon Shlens. Stand-alone self-\nattention in vision models. In NeurIPS, 2019. 1, 2, 6\n[41] Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali\nFarhadi. You only look once: Unified, real-time object de-\ntection. In CVPR, 2016. 2\n[42] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.\nFaster r-cnn: Towards real-time object detection with region\nproposal networks. In NeurIPS, 2015. 2\n[43] Karen Simonyan and Andrew Zisserman. Very deep convo-\nlutional networks for large-scale image recognition. In ICLR,\n2014. 2\n[44] Aravind Srinivas, Tsung-Yi Lin, Niki Parmar, Jonathon\nShlens, Pieter Abbeel, and Ashish Vaswani. Bottleneck\ntransformers for visual recognition. arXiv:2101.11605,\n2021. 2\n[45] Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet,\nScott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent\nVanhoucke, and Andrew Rabinovich. Going deeper with\nconvolutions. In CVPR, 2015. 2\n[46] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe,\nJonathon Shlens, and Zbigniew Wojna. Rethinking the in-\nception architecture for computer vision. In CVPR, 2016.\n2\n[47] Mingxing Tan and Quoc V Le. Efficientnet: Re-\nthinking model scaling for convolutional neural networks.\narXiv:1905.11946, 2019. 2, 6\n[48] Hugo Touvron, Matthieu Cord, Matthijs Douze, Francisco\nMassa, Alexandre Sablayrolles, and Herve Jegou. Training\ndata-efficient image transformers & distillation through at-\ntention. In ICML, 2021. 2, 3, 6, 7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 301
+                },
+                {
+                    "x": 2289,
+                    "y": 301
+                },
+                {
+                    "x": 2289,
+                    "y": 2975
+                },
+                {
+                    "x": 1275,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:14px'>[49] Hugo Touvron, Matthieu Cord, Alexandre Sablayrolles,<br>Gabriel Synnaeve, and Herve Jegou. Going deeper with im-<br>age transformers. In ICCV, 2021. 2<br>[50] Ashish Vaswani, Prajit Ramachandran, Aravind Srinivas,<br>Niki Parmar, Blake Hechtman, and Jonathon Shlens. Scaling<br>local self-attention for parameter efficient visual backbones.<br>arXiv:2103.12731, 2021. 1 2, 3<br>[51] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-<br>reit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia<br>Polosukhin. Attention is all you need. In NeurIPS, 2017. 1,<br>2<br>[52] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao<br>Song, Ding Liang, Tong Lu, Ping Luo, and Ling Shao. Pyra-<br>mid vision transformer: A versatile backbone for dense pre-<br>diction without convolutions. arXiv:2102.12122, 2021. 3,<br>6<br>[53] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaim-<br>ing He. Non-local neural networks. In CVPR, 2018. 2<br>[54] Bichen Wu, Xiaoliang Dai, Peizhao Zhang, Yanghan Wang,<br>Fei Sun, Yiming Wu, Yuandong Tian, Peter Vajda, Yangqing<br>Jia, and Kurt Keutzer. Fbnet: Hardware-aware efficient<br>convnet design via differentiable neural architecture search.<br>arXiv:1812.03443, 2018. 2<br>[55] Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu,<br>Xiyang Dai, Lu Yuan, and Lei Zhang. Cvt: Introducing con-<br>volutions to vision transformers. arXiv:2103.15808, 2021.<br>2, 5, 6<br>[56] Saining Xie, Ross B. Girshick, Piotr Dollar, Zhuowen Tu,<br>and Kaiming He. Aggregated residual transformations for<br>deep neural networks. In CVPR, 2017. 6, 7<br>[57] Weijian Xu, Yifan Xu, Tyler Chang, and Zhuowen<br>Tu. Co-scale conv-attentional image transformers.<br>arXiv:2104.06399, 2021. 2, 6<br>[58] Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille,<br>and Wei Shen. Glance-and-gaze vision transformer. In<br>NeurIPS, 2021. 3, 11<br>[59] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,<br>Zihang Jiang, Francis EH Tay, Jiashi Feng, and Shuicheng<br>Yan. Tokens-to-token vit: Training vision transformers from<br>scratch on imagenet. arXiv:2101.11986, 2021. 2, 6<br>[60] Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun.<br>Shufflenet: An extremely efficient convolutional neural net-<br>work for mobile devices. arXiv:1707.01083, 2017. 4<br>[61] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring<br>self-attention for image recognition. In CVPR, 2020. 2<br>[62] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu,<br>Zekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao<br>Xiang, Philip Torr, and Li Zhang. Rethinking semantic<br>segmentation from a sequence-to-sequence perspective with<br>transformers. In CVPR, 2021. 1<br>[63] Barret Zoph, Vijay Vasudevan, Jonathon Shlens, and Quoc V<br>Le. Learning transferable architectures for scalable image<br>recognition. In CVPR, 2018. 2</p>",
+            "id": 119,
+            "page": 10,
+            "text": "[49] Hugo Touvron, Matthieu Cord, Alexandre Sablayrolles,\nGabriel Synnaeve, and Herve Jegou. Going deeper with im-\nage transformers. In ICCV, 2021. 2\n[50] Ashish Vaswani, Prajit Ramachandran, Aravind Srinivas,\nNiki Parmar, Blake Hechtman, and Jonathon Shlens. Scaling\nlocal self-attention for parameter efficient visual backbones.\narXiv:2103.12731, 2021. 1 2, 3\n[51] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszko-\nreit, Llion Jones, Aidan N Gomez, Lukasz Kaiser, and Illia\nPolosukhin. Attention is all you need. In NeurIPS, 2017. 1,\n2\n[52] Wenhai Wang, Enze Xie, Xiang Li, Deng-Ping Fan, Kaitao\nSong, Ding Liang, Tong Lu, Ping Luo, and Ling Shao. Pyra-\nmid vision transformer: A versatile backbone for dense pre-\ndiction without convolutions. arXiv:2102.12122, 2021. 3,\n6\n[53] Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaim-\ning He. Non-local neural networks. In CVPR, 2018. 2\n[54] Bichen Wu, Xiaoliang Dai, Peizhao Zhang, Yanghan Wang,\nFei Sun, Yiming Wu, Yuandong Tian, Peter Vajda, Yangqing\nJia, and Kurt Keutzer. Fbnet: Hardware-aware efficient\nconvnet design via differentiable neural architecture search.\narXiv:1812.03443, 2018. 2\n[55] Haiping Wu, Bin Xiao, Noel Codella, Mengchen Liu,\nXiyang Dai, Lu Yuan, and Lei Zhang. Cvt: Introducing con-\nvolutions to vision transformers. arXiv:2103.15808, 2021.\n2, 5, 6\n[56] Saining Xie, Ross B. Girshick, Piotr Dollar, Zhuowen Tu,\nand Kaiming He. Aggregated residual transformations for\ndeep neural networks. In CVPR, 2017. 6, 7\n[57] Weijian Xu, Yifan Xu, Tyler Chang, and Zhuowen\nTu. Co-scale conv-attentional image transformers.\narXiv:2104.06399, 2021. 2, 6\n[58] Qihang Yu, Yingda Xia, Yutong Bai, Yongyi Lu, Alan Yuille,\nand Wei Shen. Glance-and-gaze vision transformer. In\nNeurIPS, 2021. 3, 11\n[59] Li Yuan, Yunpeng Chen, Tao Wang, Weihao Yu, Yujun Shi,\nZihang Jiang, Francis EH Tay, Jiashi Feng, and Shuicheng\nYan. Tokens-to-token vit: Training vision transformers from\nscratch on imagenet. arXiv:2101.11986, 2021. 2, 6\n[60] Xiangyu Zhang, Xinyu Zhou, Mengxiao Lin, and Jian Sun.\nShufflenet: An extremely efficient convolutional neural net-\nwork for mobile devices. arXiv:1707.01083, 2017. 4\n[61] Hengshuang Zhao, Jiaya Jia, and Vladlen Koltun. Exploring\nself-attention for image recognition. In CVPR, 2020. 2\n[62] Sixiao Zheng, Jiachen Lu, Hengshuang Zhao, Xiatian Zhu,\nZekun Luo, Yabiao Wang, Yanwei Fu, Jianfeng Feng, Tao\nXiang, Philip Torr, and Li Zhang. Rethinking semantic\nsegmentation from a sequence-to-sequence perspective with\ntransformers. In CVPR, 2021. 1\n[63] Barret Zoph, Vijay Vasudevan, Jonathon Shlens, and Quoc V\nLe. Learning transferable architectures for scalable image\nrecognition. In CVPR, 2018. 2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1220,
+                    "y": 3055
+                },
+                {
+                    "x": 1263,
+                    "y": 3055
+                },
+                {
+                    "x": 1263,
+                    "y": 3092
+                },
+                {
+                    "x": 1220,
+                    "y": 3092
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='120' style='font-size:18px'>10</footer>",
+            "id": 120,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 302
+                },
+                {
+                    "x": 1194,
+                    "y": 302
+                },
+                {
+                    "x": 1194,
+                    "y": 388
+                },
+                {
+                    "x": 205,
+                    "y": 388
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='121' style='font-size:14px'>Table 8. Image classification accuracy on ImageNet-1K compar-<br>ing with concurrent hierarchical Transformers.</caption>",
+            "id": 121,
+            "page": 11,
+            "text": "Table 8. Image classification accuracy on ImageNet-1K compar-\ning with concurrent hierarchical Transformers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 206,
+                    "y": 429
+                },
+                {
+                    "x": 1195,
+                    "y": 429
+                },
+                {
+                    "x": 1195,
+                    "y": 825
+                },
+                {
+                    "x": 206,
+                    "y": 825
+                }
+            ],
+            "category": "table",
+            "html": "<table id='122' style='font-size:14px'><tr><td>w/ dw-conv?</td><td>Method</td><td>Params</td><td>FLOPs</td><td>Top-1 (%)</td></tr><tr><td rowspan=\"2\">X</td><td>Swin-T [32]</td><td>28M</td><td>4.5G</td><td>81.3</td></tr><tr><td>MSG-T</td><td>25M</td><td>3.8G</td><td>82.4</td></tr><tr><td rowspan=\"4\">V</td><td>GG-T [58]</td><td>28M</td><td>4.5G</td><td>82.0</td></tr><tr><td>Shuffle-T [23]</td><td>29M</td><td>4.6G</td><td>82.5</td></tr><tr><td>CSWin-T [13]</td><td>23M</td><td>4.3G</td><td>82.7</td></tr><tr><td>MSG-Tdwc</td><td>25M</td><td>3.9G</td><td>83.0</td></tr></table>",
+            "id": 122,
+            "page": 11,
+            "text": "w/ dw-conv? Method Params FLOPs Top-1 (%)\n X Swin-T [32] 28M 4.5G 81.3\n MSG-T 25M 3.8G 82.4\n V GG-T [58] 28M 4.5G 82.0\n Shuffle-T [23] 29M 4.6G 82.5\n CSWin-T [13] 23M 4.3G 82.7\n MSG-Tdwc 25M 3.9G"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 920
+                },
+                {
+                    "x": 479,
+                    "y": 920
+                },
+                {
+                    "x": 479,
+                    "y": 967
+                },
+                {
+                    "x": 205,
+                    "y": 967
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:22px'>A. Appendix</p>",
+            "id": 123,
+            "page": 11,
+            "text": "A. Appendix"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 1007
+                },
+                {
+                    "x": 1193,
+                    "y": 1007
+                },
+                {
+                    "x": 1193,
+                    "y": 1101
+                },
+                {
+                    "x": 205,
+                    "y": 1101
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:20px'>A.1. Comparisons with Concurrent Hierarchical<br>Transformers</p>",
+            "id": 124,
+            "page": 11,
+            "text": "A.1. Comparisons with Concurrent Hierarchical\nTransformers"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1139
+                },
+                {
+                    "x": 1199,
+                    "y": 1139
+                },
+                {
+                    "x": 1199,
+                    "y": 1835
+                },
+                {
+                    "x": 201,
+                    "y": 1835
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:16px'>Some related concurrent works [13, 23, 58] also focus<br>on improving attention computing patterns with different<br>manners based on a hierarchical architecture and achieve<br>remarkable performance. These works introduce additional<br>depth-wise convolutions [8] into Transformer blocks, which<br>improve recognition accuracy with low FLOPs increase.<br>Our MSG-Transformers in the main text do not include<br>depth-wise convolutions to make the designed model a<br>purer Transformer. We further equip MSG-T with depth-<br>wise convolutions, resulting in a variant named MSG-Tdwc.<br>As in Tab. 8, MSG-Tdwc shows promising performance<br>with low FLOPs. We believe these newly proposed atten-<br>tion computing patterns will facilitate future vision Trans-<br>former research in various manners and scenarios.</p>",
+            "id": 125,
+            "page": 11,
+            "text": "Some related concurrent works [13, 23, 58] also focus\non improving attention computing patterns with different\nmanners based on a hierarchical architecture and achieve\nremarkable performance. These works introduce additional\ndepth-wise convolutions [8] into Transformer blocks, which\nimprove recognition accuracy with low FLOPs increase.\nOur MSG-Transformers in the main text do not include\ndepth-wise convolutions to make the designed model a\npurer Transformer. We further equip MSG-T with depth-\nwise convolutions, resulting in a variant named MSG-Tdwc.\nAs in Tab. 8, MSG-Tdwc shows promising performance\nwith low FLOPs. We believe these newly proposed atten-\ntion computing patterns will facilitate future vision Trans-\nformer research in various manners and scenarios."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 206,
+                    "y": 1886
+                },
+                {
+                    "x": 1142,
+                    "y": 1886
+                },
+                {
+                    "x": 1142,
+                    "y": 1932
+                },
+                {
+                    "x": 206,
+                    "y": 1932
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='126' style='font-size:20px'>A.2. Analysis about Advantages of MSG Tokens</p>",
+            "id": 126,
+            "page": 11,
+            "text": "A.2. Analysis about Advantages of MSG Tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1969
+                },
+                {
+                    "x": 1196,
+                    "y": 1969
+                },
+                {
+                    "x": 1196,
+                    "y": 2112
+                },
+                {
+                    "x": 203,
+                    "y": 2112
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:14px'>We take Swin- [32] and MSG-Transformerfor compar-<br>ison, and analyze their behaviors from two aspects as fol-<br>lows.</p>",
+            "id": 127,
+            "page": 11,
+            "text": "We take Swin- [32] and MSG-Transformerfor compar-\nison, and analyze their behaviors from two aspects as fol-\nlows."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2191
+                },
+                {
+                    "x": 1199,
+                    "y": 2191
+                },
+                {
+                    "x": 1199,
+                    "y": 2503
+                },
+                {
+                    "x": 201,
+                    "y": 2503
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='128' style='font-size:18px'>Receptive fields. Let the window size be W. For Swin,<br>the window is shifted by 当 in every two Transformer<br>2<br>blocks and the receptive field is ( 3W ) after two atten-<br>tion computations. For MSG, assuming the shuffle size is<br>2<br>S ≥ 2, a larger receptive field of (SW) is obtained with<br>two attention computations.</p>",
+            "id": 128,
+            "page": 11,
+            "text": "Receptive fields. Let the window size be W. For Swin,\nthe window is shifted by 当 in every two Transformer\n2\nblocks and the receptive field is ( 3W ) after two atten-\ntion computations. For MSG, assuming the shuffle size is\n2\nS ≥ 2, a larger receptive field of (SW) is obtained with\ntwo attention computations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2579
+                },
+                {
+                    "x": 1198,
+                    "y": 2579
+                },
+                {
+                    "x": 1198,
+                    "y": 2976
+                },
+                {
+                    "x": 202,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:16px'>Information exchange. In Swin, each patch token ob-<br>tains information from other patch tokens in different win-<br>dows, where valuable information is extracted by interact-<br>ing with many other patch tokens. In MSG, information<br>from one window is summarized by a MSG token and di-<br>rectly delivered to patch tokens in other windows. This<br>manner eases the difficulty of patch tokens obtaining infor-<br>mation from other locations and promotes the efficiency.</p>",
+            "id": 129,
+            "page": 11,
+            "text": "Information exchange. In Swin, each patch token ob-\ntains information from other patch tokens in different win-\ndows, where valuable information is extracted by interact-\ning with many other patch tokens. In MSG, information\nfrom one window is summarized by a MSG token and di-\nrectly delivered to patch tokens in other windows. This\nmanner eases the difficulty of patch tokens obtaining infor-\nmation from other locations and promotes the efficiency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1353,
+                    "y": 302
+                },
+                {
+                    "x": 2201,
+                    "y": 302
+                },
+                {
+                    "x": 2201,
+                    "y": 342
+                },
+                {
+                    "x": 1353,
+                    "y": 342
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='130' style='font-size:14px'>Table 9. Ablation study about MSG token manipulation.</caption>",
+            "id": 130,
+            "page": 11,
+            "text": "Table 9. Ablation study about MSG token manipulation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1368,
+                    "y": 389
+                },
+                {
+                    "x": 2196,
+                    "y": 389
+                },
+                {
+                    "x": 2196,
+                    "y": 526
+                },
+                {
+                    "x": 1368,
+                    "y": 526
+                }
+            ],
+            "category": "table",
+            "html": "<table id='131' style='font-size:18px'><tr><td>Manip. Op.</td><td>Shuffle</td><td>Average</td><td>Shift</td></tr><tr><td>ImageNet Top-1 (%)</td><td>81.1</td><td>80.8</td><td>80.6</td></tr></table>",
+            "id": 131,
+            "page": 11,
+            "text": "Manip. Op. Shuffle Average Shift\n ImageNet Top-1 (%) 81.1 80.8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1285,
+                    "y": 613
+                },
+                {
+                    "x": 2234,
+                    "y": 613
+                },
+                {
+                    "x": 2234,
+                    "y": 658
+                },
+                {
+                    "x": 1285,
+                    "y": 658
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='132' style='font-size:18px'>A.3. Study about Manipulations on MSG Tokens</p>",
+            "id": 132,
+            "page": 11,
+            "text": "A.3. Study about Manipulations on MSG Tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 690
+                },
+                {
+                    "x": 2276,
+                    "y": 690
+                },
+                {
+                    "x": 2276,
+                    "y": 1233
+                },
+                {
+                    "x": 1279,
+                    "y": 1233
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:16px'>As claimed in the main text, how to manipulate MSG<br>tokens is not limited to the adopted shuffle operation. We<br>study two additional manipulations, namely, the 'average'<br>(MSG tokens are averaged for the next-round attention) and<br>'shift' (MSG tokens are spatially shifted). As in Tab. 9,<br>'shuffle' works the best, and we conjecture that 'average'<br>lacks discrimination for different windows, and 'shift' re-<br>quires more stages to deliver information to all the other<br>windows. We believe explorations on manipulation types<br>carry great potential and will continue this as an important<br>future work.</p>",
+            "id": 133,
+            "page": 11,
+            "text": "As claimed in the main text, how to manipulate MSG\ntokens is not limited to the adopted shuffle operation. We\nstudy two additional manipulations, namely, the 'average'\n(MSG tokens are averaged for the next-round attention) and\n'shift' (MSG tokens are spatially shifted). As in Tab. 9,\n'shuffle' works the best, and we conjecture that 'average'\nlacks discrimination for different windows, and 'shift' re-\nquires more stages to deliver information to all the other\nwindows. We believe explorations on manipulation types\ncarry great potential and will continue this as an important\nfuture work."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1219,
+                    "y": 3056
+                },
+                {
+                    "x": 1258,
+                    "y": 3056
+                },
+                {
+                    "x": 1258,
+                    "y": 3091
+                },
+                {
+                    "x": 1219,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='134' style='font-size:14px'>11</footer>",
+            "id": 134,
+            "page": 11,
+            "text": "11"
+        }
+    ]
+}

@@ -1,0 +1,3931 @@
+{
+    "id": "32a5dcca-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1502.02367v4.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 664,
+                    "y": 369
+                },
+                {
+                    "x": 1821,
+                    "y": 369
+                },
+                {
+                    "x": 1821,
+                    "y": 437
+                },
+                {
+                    "x": 664,
+                    "y": 437
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Gated Feedback Recurrent Neural Networks</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 573
+                },
+                {
+                    "x": 539,
+                    "y": 573
+                },
+                {
+                    "x": 539,
+                    "y": 771
+                },
+                {
+                    "x": 225,
+                    "y": 771
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:18px'>Junyoung Chung<br>Caglar Gulcehre<br>Kyunghyun Cho<br>Yoshua Bengio*</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Junyoung Chung Caglar Gulcehre Kyunghyun Cho Yoshua Bengio*"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 782
+                },
+                {
+                    "x": 1215,
+                    "y": 782
+                },
+                {
+                    "x": 1215,
+                    "y": 831
+                },
+                {
+                    "x": 225,
+                    "y": 831
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:18px'>Dept. IRO, Universite de Montreal, *CIFAR Senior Fellow</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Dept. IRO, Universite de Montreal, *CIFAR Senior Fellow"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 620,
+                    "y": 946
+                },
+                {
+                    "x": 817,
+                    "y": 946
+                },
+                {
+                    "x": 817,
+                    "y": 1001
+                },
+                {
+                    "x": 620,
+                    "y": 1001
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 303,
+                    "y": 1029
+                },
+                {
+                    "x": 1137,
+                    "y": 1029
+                },
+                {
+                    "x": 1137,
+                    "y": 2232
+                },
+                {
+                    "x": 303,
+                    "y": 2232
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:16px'>In this work, we propose a novel recurrent neu-<br>ral network (RNN) architecture. The proposed<br>RNN, gated-feedback RNN (GF-RNN), extends<br>the existing approach of stacking multiple recur-<br>rent layers by allowing and controlling signals<br>flowing from upper recurrent layers to lower lay-<br>ers using a global gating unit for each pair of<br>layers. The recurrent signals exchanged between<br>layers are gated adaptively based on the previous<br>hidden states and the current input. We evalu-<br>ated the proposed GF-RNN with different types<br>of recurrent units, such as tanh, long short-term<br>memory and gated recurrent units, on the tasks<br>of character-level language modeling and Python<br>program evaluation. Our empirical evaluation of<br>different RNN units, revealed that in both tasks,<br>the GF-RNN outperforms the conventional ap-<br>proaches to build deep stacked RNNs. We sug-<br>gest that the improvement arises because the GF-<br>RNN can adaptively assign different layers to dif-<br>ferent timescales and layer-to-layer interactions<br>(including the top-down ones which are not usu-<br>ally present in a stacked RNN) by learning to gate<br>these interactions.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "In this work, we propose a novel recurrent neural network (RNN) architecture. The proposed RNN, gated-feedback RNN (GF-RNN), extends the existing approach of stacking multiple recurrent layers by allowing and controlling signals flowing from upper recurrent layers to lower layers using a global gating unit for each pair of layers. The recurrent signals exchanged between layers are gated adaptively based on the previous hidden states and the current input. We evaluated the proposed GF-RNN with different types of recurrent units, such as tanh, long short-term memory and gated recurrent units, on the tasks of character-level language modeling and Python program evaluation. Our empirical evaluation of different RNN units, revealed that in both tasks, the GF-RNN outperforms the conventional approaches to build deep stacked RNNs. We suggest that the improvement arises because the GFRNN can adaptively assign different layers to different timescales and layer-to-layer interactions (including the top-down ones which are not usually present in a stacked RNN) by learning to gate these interactions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 2331
+                },
+                {
+                    "x": 555,
+                    "y": 2331
+                },
+                {
+                    "x": 555,
+                    "y": 2390
+                },
+                {
+                    "x": 226,
+                    "y": 2390
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1. Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2418
+                },
+                {
+                    "x": 1214,
+                    "y": 2418
+                },
+                {
+                    "x": 1214,
+                    "y": 2817
+                },
+                {
+                    "x": 224,
+                    "y": 2817
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Recurrent neural networks (RNNs) have been widely stud-<br>ied and used for various machine learning tasks which in-<br>volve sequence modeling, especially when the input and<br>output have variable lengths. Recent studies have revealed<br>that RNNs using gating units can achieve promising re-<br>sults in both classification and generation tasks (see, e.g.,<br>Graves, 2013; Bahdanau et al., 2014; Sutskever et al.,<br>2014).</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Recurrent neural networks (RNNs) have been widely studied and used for various machine learning tasks which involve sequence modeling, especially when the input and output have variable lengths. Recent studies have revealed that RNNs using gating units can achieve promising results in both classification and generation tasks (see, e.g., Graves, 2013; Bahdanau , 2014; Sutskever , 2014)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2843
+                },
+                {
+                    "x": 1213,
+                    "y": 2843
+                },
+                {
+                    "x": 1213,
+                    "y": 2994
+                },
+                {
+                    "x": 224,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:16px'>Although RNNs can theoretically capture any long-term<br>dependency in an input sequence, it is well-known to be<br>difficult to train an RNN to actually do SO (Hochreiter,</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Although RNNs can theoretically capture any long-term dependency in an input sequence, it is well-known to be difficult to train an RNN to actually do SO (Hochreiter,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1542,
+                    "y": 576
+                },
+                {
+                    "x": 2233,
+                    "y": 576
+                },
+                {
+                    "x": 2233,
+                    "y": 770
+                },
+                {
+                    "x": 1542,
+                    "y": 770
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:14px'>JUNYOUNG.CHUNG@UMONTREAL.CA<br>CAGLAR.GULCEHRE@UMONTREAL.CA<br>KYUNGHYUN.CHO@UMONTREAL.CA<br>FIND-ME@THE. WEB</p>",
+            "id": 8,
+            "page": 1,
+            "text": "JUNYOUNG.CHUNG@UMONTREAL.CA CAGLAR.GULCEHRE@UMONTREAL.CA KYUNGHYUN.CHO@UMONTREAL.CA FIND-ME@THE. WEB"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 949
+                },
+                {
+                    "x": 2263,
+                    "y": 949
+                },
+                {
+                    "x": 2263,
+                    "y": 1500
+                },
+                {
+                    "x": 1271,
+                    "y": 1500
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:16px'>1991; Bengio et al., 1994; Hochreiter, 1998). One of the<br>most successful and promising approaches to solve this is-<br>sue is by modifying the RNN architecture e.g., by using a<br>gated activation function, instead of the usual state-to-state<br>transition function composing an affine transformation and<br>a point-wise nonlinearity. A gated activation function,<br>such as the long short-term memory (LSTM, Hochreiter<br>& Schmidhuber, 1997) and the gated recurrent unit (GRU,<br>Cho et al., 2014), is designed to have more persistent mem-<br>ory SO that it can capture long-term dependencies more eas-<br>ily.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "1991; Bengio , 1994; Hochreiter, 1998). One of the most successful and promising approaches to solve this issue is by modifying the RNN architecture e.g., by using a gated activation function, instead of the usual state-to-state transition function composing an affine transformation and a point-wise nonlinearity. A gated activation function, such as the long short-term memory (LSTM, Hochreiter & Schmidhuber, 1997) and the gated recurrent unit (GRU, Cho , 2014), is designed to have more persistent memory SO that it can capture long-term dependencies more easily."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1525
+                },
+                {
+                    "x": 2264,
+                    "y": 1525
+                },
+                {
+                    "x": 2264,
+                    "y": 2424
+                },
+                {
+                    "x": 1271,
+                    "y": 2424
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:16px'>Sequences modeled by an RNN can contain both fast<br>changing and slow changing components, and these un-<br>derlying components are often structured in a hierarchical<br>manner, which, as first pointed out by El Hihi & Bengio<br>(1995) can help to extend the ability of the RNN to learn<br>to model longer-term dependencies. A conventional way to<br>encode this hierarchy in an RNN has been to stack multi-<br>ple levels of recurrent layers (Schmidhuber, 1992; El Hihi<br>& Bengio, 1995; Graves, 2013; Hermans & Schrauwen,<br>2013). More recently, Koutnik et al. (2014) proposed a<br>more explicit approach to partition the hidden units in an<br>RNN into groups such that each group receives the sig-<br>nal from the input and the other groups at a separate, pre-<br>defined rate, which allows feedback information between<br>these partitions to be propagated at multiple timescales.<br>Stollenga et al. (2014) recently showed the importance of<br>feedback information across multiple levels of feature hier-<br>archy, however, with feedforward neural networks.</p>",
+            "id": 10,
+            "page": 1,
+            "text": "Sequences modeled by an RNN can contain both fast changing and slow changing components, and these underlying components are often structured in a hierarchical manner, which, as first pointed out by El Hihi & Bengio (1995) can help to extend the ability of the RNN to learn to model longer-term dependencies. A conventional way to encode this hierarchy in an RNN has been to stack multiple levels of recurrent layers (Schmidhuber, 1992; El Hihi & Bengio, 1995; Graves, 2013; Hermans & Schrauwen, 2013). More recently, Koutnik  (2014) proposed a more explicit approach to partition the hidden units in an RNN into groups such that each group receives the signal from the input and the other groups at a separate, predefined rate, which allows feedback information between these partitions to be propagated at multiple timescales. Stollenga  (2014) recently showed the importance of feedback information across multiple levels of feature hierarchy, however, with feedforward neural networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2446
+                },
+                {
+                    "x": 2264,
+                    "y": 2446
+                },
+                {
+                    "x": 2264,
+                    "y": 2948
+                },
+                {
+                    "x": 1273,
+                    "y": 2948
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:16px'>In this paper, we propose a novel design for RNNs, called a<br>gated-feedback RNN (GF-RNN), to deal with the issue of<br>learning multiple adaptive timescales. The proposed RNN<br>has multiple levels of recurrent layers like stacked RNNs<br>do. However, it uses gated-feedback connections from up-<br>per recurrent layers to the lower ones. This makes the hid-<br>den states across a pair of consecutive timesteps fully con-<br>nected. To encourage each recurrent layer to work at differ-<br>ent timescales, the proposed GF-RNN controls the strength<br>of the temporal (recurrent) connection adaptively. This ef-</p>",
+            "id": 11,
+            "page": 1,
+            "text": "In this paper, we propose a novel design for RNNs, called a gated-feedback RNN (GF-RNN), to deal with the issue of learning multiple adaptive timescales. The proposed RNN has multiple levels of recurrent layers like stacked RNNs do. However, it uses gated-feedback connections from upper recurrent layers to the lower ones. This makes the hidden states across a pair of consecutive timesteps fully connected. To encourage each recurrent layer to work at different timescales, the proposed GF-RNN controls the strength of the temporal (recurrent) connection adaptively. This ef-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 60,
+                    "y": 887
+                },
+                {
+                    "x": 147,
+                    "y": 887
+                },
+                {
+                    "x": 147,
+                    "y": 2332
+                },
+                {
+                    "x": 60,
+                    "y": 2332
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='12' style='font-size:14px'>2015<br>Jun<br>17<br>[cs.NE]<br>arXiv:1502.02367v4</footer>",
+            "id": 12,
+            "page": 1,
+            "text": "2015 Jun 17 [cs.NE] arXiv:1502.02367v4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 880,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 234
+                },
+                {
+                    "x": 880,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='13' style='font-size:14px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 13,
+            "page": 2,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 286
+                },
+                {
+                    "x": 1213,
+                    "y": 286
+                },
+                {
+                    "x": 1213,
+                    "y": 382
+                },
+                {
+                    "x": 224,
+                    "y": 382
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:16px'>fectively lets the model to adapt its structure based on the<br>input sequence.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "fectively lets the model to adapt its structure based on the input sequence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 409
+                },
+                {
+                    "x": 1213,
+                    "y": 409
+                },
+                {
+                    "x": 1213,
+                    "y": 710
+                },
+                {
+                    "x": 223,
+                    "y": 710
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:16px'>We empirically evaluated the proposed model against the<br>conventional stacked RNN and the usual, single-layer RNN<br>on the task of language modeling and Python program eval-<br>uation (Zaremba & Sutskever, 2014). Our experiments re-<br>veal that the proposed model significantly outperforms the<br>conventional approaches on two different datasets.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "We empirically evaluated the proposed model against the conventional stacked RNN and the usual, single-layer RNN on the task of language modeling and Python program evaluation (Zaremba & Sutskever, 2014). Our experiments reveal that the proposed model significantly outperforms the conventional approaches on two different datasets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 771
+                },
+                {
+                    "x": 859,
+                    "y": 771
+                },
+                {
+                    "x": 859,
+                    "y": 826
+                },
+                {
+                    "x": 223,
+                    "y": 826
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:20px'>2. Recurrent Neural Network</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2. Recurrent Neural Network"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 857
+                },
+                {
+                    "x": 1216,
+                    "y": 857
+                },
+                {
+                    "x": 1216,
+                    "y": 1157
+                },
+                {
+                    "x": 222,
+                    "y": 1157
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:16px'>An RNN is able to process a sequence of arbitrary length<br>by recursively applying a transition function to its internal<br>hidden states for each symbol of the input sequence. The<br>activation of the hidden states at timestep tis computed as a<br>function f of the current input symbol Xt and the previous<br>hidden states ht-1:</p>",
+            "id": 17,
+            "page": 2,
+            "text": "An RNN is able to process a sequence of arbitrary length by recursively applying a transition function to its internal hidden states for each symbol of the input sequence. The activation of the hidden states at timestep tis computed as a function f of the current input symbol Xt and the previous hidden states ht-1:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1296
+                },
+                {
+                    "x": 1212,
+                    "y": 1296
+                },
+                {
+                    "x": 1212,
+                    "y": 1445
+                },
+                {
+                    "x": 223,
+                    "y": 1445
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>It is common to use the state-to-state transition function f<br>as the composition of an element-wise nonlinearity with an<br>affine transformation of both Xt and ht-1:</p>",
+            "id": 18,
+            "page": 2,
+            "text": "It is common to use the state-to-state transition function f as the composition of an element-wise nonlinearity with an affine transformation of both Xt and ht-1:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1561
+                },
+                {
+                    "x": 1213,
+                    "y": 1561
+                },
+                {
+                    "x": 1213,
+                    "y": 1710
+                },
+                {
+                    "x": 224,
+                    "y": 1710
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:16px'>where W is the input-to-hidden weight matrix, U is the<br>state-to-state recurrent weight matrix, and O is usually a<br>logistic sigmoid function or a hyperbolic tangent function.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "where W is the input-to-hidden weight matrix, U is the state-to-state recurrent weight matrix, and O is usually a logistic sigmoid function or a hyperbolic tangent function."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1734
+                },
+                {
+                    "x": 1209,
+                    "y": 1734
+                },
+                {
+                    "x": 1209,
+                    "y": 1832
+                },
+                {
+                    "x": 225,
+                    "y": 1832
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:16px'>We can factorize the probability of a sequence of arbitrary<br>length into</p>",
+            "id": 20,
+            "page": 2,
+            "text": "We can factorize the probability of a sequence of arbitrary length into"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1947
+                },
+                {
+                    "x": 1212,
+                    "y": 1947
+                },
+                {
+                    "x": 1212,
+                    "y": 2149
+                },
+                {
+                    "x": 223,
+                    "y": 2149
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:14px'>Then, we can train an RNN to model this distribution by<br>letting it predict the probability of the next symbol Xt+1<br>given hidden states ht which is a function of all the previ-<br>ous symbols X1, · · · , Xt-1 and current symbol xt:</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Then, we can train an RNN to model this distribution by letting it predict the probability of the next symbol Xt+1 given hidden states ht which is a function of all the previous symbols X1, · · · , Xt-1 and current symbol xt:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2262
+                },
+                {
+                    "x": 1211,
+                    "y": 2262
+                },
+                {
+                    "x": 1211,
+                    "y": 2460
+                },
+                {
+                    "x": 224,
+                    "y": 2460
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>This approach of using a neural network to model a prob-<br>ability distribution over sequences is widely used, for in-<br>stance, in language modeling (see, e.g., Bengio et al., 2001;<br>Mikolov, 2012).</p>",
+            "id": 22,
+            "page": 2,
+            "text": "This approach of using a neural network to model a probability distribution over sequences is widely used, for instance, in language modeling (see, e.g., Bengio , 2001; Mikolov, 2012)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2515
+                },
+                {
+                    "x": 905,
+                    "y": 2515
+                },
+                {
+                    "x": 905,
+                    "y": 2566
+                },
+                {
+                    "x": 222,
+                    "y": 2566
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:16px'>2.1. Gated Recurrent Neural Network</p>",
+            "id": 23,
+            "page": 2,
+            "text": "2.1. Gated Recurrent Neural Network"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2594
+                },
+                {
+                    "x": 1214,
+                    "y": 2594
+                },
+                {
+                    "x": 1214,
+                    "y": 2995
+                },
+                {
+                    "x": 223,
+                    "y": 2995
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:16px'>The difficulty of training an RNN to capture long-term de-<br>pendencies has been known for long (Hochreiter, 1991;<br>Bengio et al., 1994; Hochreiter, 1998). A previously suc-<br>cessful approaches to this fundamental challenge has been<br>to modify the state-to-state transition function to encourage<br>some hidden units to adaptively maintain long-term mem-<br>ory, creating paths in the time-unfolded RNN, such that<br>gradients can flow over many timesteps.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "The difficulty of training an RNN to capture long-term dependencies has been known for long (Hochreiter, 1991; Bengio , 1994; Hochreiter, 1998). A previously successful approaches to this fundamental challenge has been to modify the state-to-state transition function to encourage some hidden units to adaptively maintain long-term memory, creating paths in the time-unfolded RNN, such that gradients can flow over many timesteps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 284
+                },
+                {
+                    "x": 2263,
+                    "y": 284
+                },
+                {
+                    "x": 2263,
+                    "y": 781
+                },
+                {
+                    "x": 1272,
+                    "y": 781
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:16px'>Long short-term memory (LSTM) was proposed by<br>Hochreiter & Schmidhuber (1997) to specifically address<br>this issue of learning long-term dependencies. The LSTM<br>maintains a separate memory cell inside it that updates and<br>exposes its content only when deemed necessary. More re-<br>cently, Cho et al. (2014) proposed a gated recurrent unit<br>(GRU) which adaptively remembers and forgets its state<br>based on the input signal to the unit. Both of these units are<br>central to our proposed model, and we will describe them<br>in more details in the remainder of this section.</p>",
+            "id": 25,
+            "page": 2,
+            "text": "Long short-term memory (LSTM) was proposed by Hochreiter & Schmidhuber (1997) to specifically address this issue of learning long-term dependencies. The LSTM maintains a separate memory cell inside it that updates and exposes its content only when deemed necessary. More recently, Cho  (2014) proposed a gated recurrent unit (GRU) which adaptively remembers and forgets its state based on the input signal to the unit. Both of these units are central to our proposed model, and we will describe them in more details in the remainder of this section."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 830
+                },
+                {
+                    "x": 1931,
+                    "y": 830
+                },
+                {
+                    "x": 1931,
+                    "y": 879
+                },
+                {
+                    "x": 1274,
+                    "y": 879
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:16px'>2.1.1. LONG SHORT- TERM MEMORY</p>",
+            "id": 26,
+            "page": 2,
+            "text": "2.1.1. LONG SHORT- TERM MEMORY"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 910
+                },
+                {
+                    "x": 2263,
+                    "y": 910
+                },
+                {
+                    "x": 2263,
+                    "y": 1107
+                },
+                {
+                    "x": 1272,
+                    "y": 1107
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:16px'>Since the initial 1997 proposal, several variants of the<br>LSTM have been introduced (Gers et al., 2000; Zaremba<br>et al., 2014). Here we follow the implementation provided<br>by Zaremba et al. (2014).</p>",
+            "id": 27,
+            "page": 2,
+            "text": "Since the initial 1997 proposal, several variants of the LSTM have been introduced (Gers , 2000; Zaremba , 2014). Here we follow the implementation provided by Zaremba  (2014)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1134
+                },
+                {
+                    "x": 2264,
+                    "y": 1134
+                },
+                {
+                    "x": 2264,
+                    "y": 1631
+                },
+                {
+                    "x": 1272,
+                    "y": 1631
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>Such an LSTM unit consists of a memory cell Ct, an input<br>gate it, aforget gate ft, and an output gate Ot. The memory<br>cell carries the memory content of an LSTM unit, while<br>the gates control the amount of changes to and exposure<br>of the memory content. The content of the memory cell<br>ct of the j-th LSTM unit at timestep t is updated similar<br>to the form of a gated leaky neuron, i.e., as the weighted<br>sum of the new content � and the previous memory content<br>ct-1 modulated by the input and forget gates, it and ft,<br>respectively:</p>",
+            "id": 28,
+            "page": 2,
+            "text": "Such an LSTM unit consists of a memory cell Ct, an input gate it, aforget gate ft, and an output gate Ot. The memory cell carries the memory content of an LSTM unit, while the gates control the amount of changes to and exposure of the memory content. The content of the memory cell ct of the j-th LSTM unit at timestep t is updated similar to the form of a gated leaky neuron, i.e., as the weighted sum of the new content � and the previous memory content ct-1 modulated by the input and forget gates, it and ft, respectively:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1757
+                },
+                {
+                    "x": 1387,
+                    "y": 1757
+                },
+                {
+                    "x": 1387,
+                    "y": 1798
+                },
+                {
+                    "x": 1277,
+                    "y": 1798
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:16px'>where</p>",
+            "id": 29,
+            "page": 2,
+            "text": "where"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1925
+                },
+                {
+                    "x": 2262,
+                    "y": 1925
+                },
+                {
+                    "x": 2262,
+                    "y": 2124
+                },
+                {
+                    "x": 1272,
+                    "y": 2124
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>The input and forget gates control how much new content<br>should be memorized and how much old content should be<br>forgotten, respectively. These gates are computed from the<br>previous hidden states and the current input:</p>",
+            "id": 30,
+            "page": 2,
+            "text": "The input and forget gates control how much new content should be memorized and how much old content should be forgotten, respectively. These gates are computed from the previous hidden states and the current input:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2306
+                },
+                {
+                    "x": 2262,
+                    "y": 2306
+                },
+                {
+                    "x": 2262,
+                    "y": 2564
+                },
+                {
+                    "x": 1273,
+                    "y": 2564
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>where it = [it]Pk=1 and ft = [ft]P =1 respectively the<br>are<br>vectors of the input and forget gates in a recurrent layer<br>composed of p LSTM units. �(·) is an element-wise logis-<br>tic sigmoid function. Xt and ht-1 are the input vector and<br>previous hidden states of the LSTM units, respectively.</p>",
+            "id": 31,
+            "page": 2,
+            "text": "where it = [it]Pk=1 and ft = [ft]P =1 respectively the are vectors of the input and forget gates in a recurrent layer composed of p LSTM units. �(·) is an element-wise logistic sigmoid function. Xt and ht-1 are the input vector and previous hidden states of the LSTM units, respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2588
+                },
+                {
+                    "x": 2260,
+                    "y": 2588
+                },
+                {
+                    "x": 2260,
+                    "y": 2688
+                },
+                {
+                    "x": 1274,
+                    "y": 2688
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:16px'>Once the memory content of the LSTM unit is updated, the<br>hidden state h3t of the j-th LSTM unit is computed as:</p>",
+            "id": 32,
+            "page": 2,
+            "text": "Once the memory content of the LSTM unit is updated, the hidden state h3t of the j-th LSTM unit is computed as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1919,
+                    "y": 2744
+                },
+                {
+                    "x": 1938,
+                    "y": 2744
+                },
+                {
+                    "x": 1938,
+                    "y": 2785
+                },
+                {
+                    "x": 1919,
+                    "y": 2785
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:18px'>.</p>",
+            "id": 33,
+            "page": 2,
+            "text": "."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2842
+                },
+                {
+                    "x": 2263,
+                    "y": 2842
+                },
+                {
+                    "x": 2263,
+                    "y": 2996
+                },
+                {
+                    "x": 1272,
+                    "y": 2996
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>The output gate 03t controls to which degree the memory<br>content is exposed. Similarly to the other gates, the out-<br>put gate also depends on the current input and the previous</p>",
+            "id": 34,
+            "page": 2,
+            "text": "The output gate 03t controls to which degree the memory content is exposed. Similarly to the other gates, the output gate also depends on the current input and the previous"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 880,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 234
+                },
+                {
+                    "x": 880,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='35' style='font-size:14px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 35,
+            "page": 3,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 285
+                },
+                {
+                    "x": 610,
+                    "y": 285
+                },
+                {
+                    "x": 610,
+                    "y": 331
+                },
+                {
+                    "x": 224,
+                    "y": 331
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:14px'>hidden states such that</p>",
+            "id": 36,
+            "page": 3,
+            "text": "hidden states such that"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 469
+                },
+                {
+                    "x": 1212,
+                    "y": 469
+                },
+                {
+                    "x": 1212,
+                    "y": 1022
+                },
+                {
+                    "x": 224,
+                    "y": 1022
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>In other words, these gates and the memory cell allow an<br>LSTM unit to adaptively forget, memorize and expose the<br>memory content. If the detected feature, i.e., the memory<br>content, is deemed important, the forget gate will be closed<br>and carry the memory content across many timesteps,<br>which is equivalent to capturing a long-term dependency.<br>On the other hand, the unit may decide to reset the memory<br>content by opening the forget gate. Since these two modes<br>of operations can happen simultaneously across different<br>LSTM units, an RNN with multiple LSTM units may cap-<br>ture both fast-moving and slow-moving components.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "In other words, these gates and the memory cell allow an LSTM unit to adaptively forget, memorize and expose the memory content. If the detected feature, i.e., the memory content, is deemed important, the forget gate will be closed and carry the memory content across many timesteps, which is equivalent to capturing a long-term dependency. On the other hand, the unit may decide to reset the memory content by opening the forget gate. Since these two modes of operations can happen simultaneously across different LSTM units, an RNN with multiple LSTM units may capture both fast-moving and slow-moving components."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1066
+                },
+                {
+                    "x": 810,
+                    "y": 1066
+                },
+                {
+                    "x": 810,
+                    "y": 1116
+                },
+                {
+                    "x": 224,
+                    "y": 1116
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>2.1.2. GATED RECURRENT UNIT</p>",
+            "id": 38,
+            "page": 3,
+            "text": "2.1.2. GATED RECURRENT UNIT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1146
+                },
+                {
+                    "x": 1213,
+                    "y": 1146
+                },
+                {
+                    "x": 1213,
+                    "y": 1646
+                },
+                {
+                    "x": 223,
+                    "y": 1646
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:16px'>The GRU was recently proposed by Cho et al. (2014). Like<br>the LSTM, it was designed to adaptively reset or update<br>its memory content. Each GRU thus has a reset gate r.t<br>and an update gate 23t which are reminiscent of the forget<br>and input gates of the LSTM. However, unlike the LSTM,<br>the GRU fully exposes its memory content each timestep<br>and balances between the previous memory content and the<br>new memory content strictly using leaky integration, albeit<br>with its adaptive time constant controlled by update gate<br>2.t.</p>",
+            "id": 39,
+            "page": 3,
+            "text": "The GRU was recently proposed by Cho  (2014). Like the LSTM, it was designed to adaptively reset or update its memory content. Each GRU thus has a reset gate r.t and an update gate 23t which are reminiscent of the forget and input gates of the LSTM. However, unlike the LSTM, the GRU fully exposes its memory content each timestep and balances between the previous memory content and the new memory content strictly using leaky integration, albeit with its adaptive time constant controlled by update gate 2.t."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 227,
+                    "y": 1671
+                },
+                {
+                    "x": 1203,
+                    "y": 1671
+                },
+                {
+                    "x": 1203,
+                    "y": 1720
+                },
+                {
+                    "x": 227,
+                    "y": 1720
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:20px'>At timestep t, the state ht of the j-th GRU is computed by</p>",
+            "id": 40,
+            "page": 3,
+            "text": "At timestep t, the state ht of the j-th GRU is computed by"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1835
+                },
+                {
+                    "x": 1212,
+                    "y": 1835
+                },
+                {
+                    "x": 1212,
+                    "y": 2189
+                },
+                {
+                    "x": 223,
+                    "y": 2189
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:16px'>where h2-1 and hj respectively correspond to the previ-<br>ous memory content and the new candidate memory con-<br>tent. The update gate 23t controls how much of the previous<br>memory content is to be forgotten and how much of the<br>new memory content is to be added. The update gate is<br>computed based on the previous hidden states ht-1 and the<br>current input Xt:</p>",
+            "id": 41,
+            "page": 3,
+            "text": "where h2-1 and hj respectively correspond to the previous memory content and the new candidate memory content. The update gate 23t controls how much of the previous memory content is to be forgotten and how much of the new memory content is to be added. The update gate is computed based on the previous hidden states ht-1 and the current input Xt:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2307
+                },
+                {
+                    "x": 1213,
+                    "y": 2307
+                },
+                {
+                    "x": 1213,
+                    "y": 2410
+                },
+                {
+                    "x": 223,
+                    "y": 2410
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:18px'>The new memory content hj is computed similarly to the<br>conventional transition function in Eq. (1):</p>",
+            "id": 42,
+            "page": 3,
+            "text": "The new memory content hj is computed similarly to the conventional transition function in Eq. (1):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 2525
+                },
+                {
+                    "x": 950,
+                    "y": 2525
+                },
+                {
+                    "x": 950,
+                    "y": 2570
+                },
+                {
+                    "x": 226,
+                    "y": 2570
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:14px'>where ⊙ is an element-wise multiplication.</p>",
+            "id": 43,
+            "page": 3,
+            "text": "where ⊙ is an element-wise multiplication."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2598
+                },
+                {
+                    "x": 1212,
+                    "y": 2598
+                },
+                {
+                    "x": 1212,
+                    "y": 2896
+                },
+                {
+                    "x": 224,
+                    "y": 2896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>One major difference from the traditional transition func-<br>tion (Eq. (1)) is that the states of the previous step ht-1<br>is modulated by the reset gates rt. This behavior allows<br>a GRU to ignore the previous hidden states whenever it is<br>deemed necessary considering the previous hidden states<br>and the current input:</p>",
+            "id": 44,
+            "page": 3,
+            "text": "One major difference from the traditional transition function (Eq. (1)) is that the states of the previous step ht-1 is modulated by the reset gates rt. This behavior allows a GRU to ignore the previous hidden states whenever it is deemed necessary considering the previous hidden states and the current input:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 285
+                },
+                {
+                    "x": 2263,
+                    "y": 285
+                },
+                {
+                    "x": 2263,
+                    "y": 683
+                },
+                {
+                    "x": 1273,
+                    "y": 683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:16px'>The update mechanism helps the GRU to capture long-<br>term dependencies. Whenever a previously detected fea-<br>ture, or the memory content is considered to be important<br>for later use, the update gate will be closed to carry the cur-<br>rent memory content across multiple timesteps. The reset<br>mechanism helps the GRU to use the model capacity effi-<br>ciently by allowing it to reset whenever the detected feature<br>is not necessary anymore.</p>",
+            "id": 45,
+            "page": 3,
+            "text": "The update mechanism helps the GRU to capture longterm dependencies. Whenever a previously detected feature, or the memory content is considered to be important for later use, the update gate will be closed to carry the current memory content across multiple timesteps. The reset mechanism helps the GRU to use the model capacity efficiently by allowing it to reset whenever the detected feature is not necessary anymore."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 746
+                },
+                {
+                    "x": 2074,
+                    "y": 746
+                },
+                {
+                    "x": 2074,
+                    "y": 858
+                },
+                {
+                    "x": 1274,
+                    "y": 858
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:20px'>3. Gated Feedback Recurrent Neural<br>Network</p>",
+            "id": 46,
+            "page": 3,
+            "text": "3. Gated Feedback Recurrent Neural Network"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 890
+                },
+                {
+                    "x": 2264,
+                    "y": 890
+                },
+                {
+                    "x": 2264,
+                    "y": 1238
+                },
+                {
+                    "x": 1272,
+                    "y": 1238
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:16px'>Although capturing long-term dependencies in a sequence<br>is an important and difficult goal of RNNs, it is worth-<br>while to notice that a sequence often consists of both slow-<br>moving and fast-moving components, of which only the<br>former corresponds to long-term dependencies. Ideally, an<br>RNN needs to capture both long-term and short-term de-<br>pendencies.</p>",
+            "id": 47,
+            "page": 3,
+            "text": "Although capturing long-term dependencies in a sequence is an important and difficult goal of RNNs, it is worthwhile to notice that a sequence often consists of both slowmoving and fast-moving components, of which only the former corresponds to long-term dependencies. Ideally, an RNN needs to capture both long-term and short-term dependencies."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1262
+                },
+                {
+                    "x": 2263,
+                    "y": 1262
+                },
+                {
+                    "x": 2263,
+                    "y": 1862
+                },
+                {
+                    "x": 1271,
+                    "y": 1862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:16px'>El Hihi & Bengio (1995) first showed that an RNN can cap-<br>ture these dependencies of different timescales more easily<br>and efficiently when the hidden units of the RNN is ex-<br>plicitly partitioned into groups that correspond to differ-<br>ent timescales. The clockwork RNN (CW-RNN) (Koutnik<br>et al., 2014) implemented this by allowing the i-th mod-<br>ule to operate at the rate of 2i-1, where i is a positive<br>integer, meaning that the module is updated only when<br>t mod 2i-1 = 0. This makes each module to operate at dif-<br>ferent rates. In addition, they precisely defined the connec-<br>tivity pattern between modules by allowing the i-th module<br>to be affected by j-th module when j > i.</p>",
+            "id": 48,
+            "page": 3,
+            "text": "El Hihi & Bengio (1995) first showed that an RNN can capture these dependencies of different timescales more easily and efficiently when the hidden units of the RNN is explicitly partitioned into groups that correspond to different timescales. The clockwork RNN (CW-RNN) (Koutnik , 2014) implemented this by allowing the i-th module to operate at the rate of 2i-1, where i is a positive integer, meaning that the module is updated only when t mod 2i-1 = 0. This makes each module to operate at different rates. In addition, they precisely defined the connectivity pattern between modules by allowing the i-th module to be affected by j-th module when j > i."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1886
+                },
+                {
+                    "x": 2263,
+                    "y": 1886
+                },
+                {
+                    "x": 2263,
+                    "y": 2187
+                },
+                {
+                    "x": 1272,
+                    "y": 2187
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:16px'>Here, we propose to generalize the CW-RNN by allowing<br>the model to adaptively adjust the connectivity pattern be-<br>tween the hidden layers in the consecutive timesteps. Simi-<br>lar to the CW-RNN, we partition the hidden units into mul-<br>tiple modules in which each module corresponds to a dif-<br>ferent layer in a stack of recurrent layers.</p>",
+            "id": 49,
+            "page": 3,
+            "text": "Here, we propose to generalize the CW-RNN by allowing the model to adaptively adjust the connectivity pattern between the hidden layers in the consecutive timesteps. Similar to the CW-RNN, we partition the hidden units into multiple modules in which each module corresponds to a different layer in a stack of recurrent layers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 2211
+                },
+                {
+                    "x": 2264,
+                    "y": 2211
+                },
+                {
+                    "x": 2264,
+                    "y": 2861
+                },
+                {
+                    "x": 1271,
+                    "y": 2861
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:16px'>Unlike the CW-RNN, however, we do not set an explicit<br>rate for each module. Instead, we let each module oper-<br>ate at different timescales by hierarchically stacking them.<br>Each module is fully connected to all the other modules<br>across the stack and itself. In other words, we do not de-<br>fine the connectivity pattern across a pair of consecutive<br>timesteps. This is contrary to the design of CW-RNN and<br>the conventional stacked RNN. The recurrent connection<br>between two modules, instead, is gated by a logistic unit<br>([0, 1]) which is computed based on the current input and<br>the previous states of the hidden layers. We call this gating<br>unit a global reset gate, as opposed to a unit-wise reset gate<br>which applies only to a single unit (See Eqs. (2) and (9)).</p>",
+            "id": 50,
+            "page": 3,
+            "text": "Unlike the CW-RNN, however, we do not set an explicit rate for each module. Instead, we let each module operate at different timescales by hierarchically stacking them. Each module is fully connected to all the other modules across the stack and itself. In other words, we do not define the connectivity pattern across a pair of consecutive timesteps. This is contrary to the design of CW-RNN and the conventional stacked RNN. The recurrent connection between two modules, instead, is gated by a logistic unit () which is computed based on the current input and the previous states of the hidden layers. We call this gating unit a global reset gate, as opposed to a unit-wise reset gate which applies only to a single unit (See Eqs. (2) and (9))."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 879,
+                    "y": 190
+                },
+                {
+                    "x": 1607,
+                    "y": 190
+                },
+                {
+                    "x": 1607,
+                    "y": 235
+                },
+                {
+                    "x": 879,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='51' style='font-size:14px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 51,
+            "page": 4,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 221,
+                    "y": 252
+                },
+                {
+                    "x": 2266,
+                    "y": 252
+                },
+                {
+                    "x": 2266,
+                    "y": 1033
+                },
+                {
+                    "x": 221,
+                    "y": 1033
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='52' style='font-size:18px' alt=\"yt-1 Yt yt+1 Yt-1 Yt yt+1\nh 3t_ h3 h3t 1 h 3t- h3 h3t+\n·\nh 2t_ h2 h2+ 1 h2_ h2 3 2t+\nht_ 1 ht 1 nt+1 2ut\n· ht_ ht 1\nXt-1 Xt Xt+1 Xt-1 Xt Xt+1\n(a) Conventional stacked RNN (b) Gated Feedback RNN\" data-coord=\"top-left:(221,252); bottom-right:(2266,1033)\" /></figure>",
+            "id": 52,
+            "page": 4,
+            "text": "yt-1 Yt yt+1 Yt-1 Yt yt+1 h 3t_ h3 h3t 1 h 3t- h3 h3t+ · h 2t_ h2 h2+ 1 h2_ h2 3 2t+ ht_ 1 ht 1 nt+1 2ut · ht_ ht 1 Xt-1 Xt Xt+1 Xt-1 Xt Xt+1 (a) Conventional stacked RNN (b) Gated Feedback RNN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 221,
+                    "y": 1051
+                },
+                {
+                    "x": 2264,
+                    "y": 1051
+                },
+                {
+                    "x": 2264,
+                    "y": 1149
+                },
+                {
+                    "x": 221,
+                    "y": 1149
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='53' style='font-size:14px'>Figure 1. Illustrations of (a) conventional stacking approach and (b) gated-feedback approach to form a deep RNN architecture. Bullets<br>in (b) correspond to global reset gates. Skip connections are omitted to simplify the visualization of networks.</caption>",
+            "id": 53,
+            "page": 4,
+            "text": "Figure 1. Illustrations of (a) conventional stacking approach and (b) gated-feedback approach to form a deep RNN architecture. Bullets in (b) correspond to global reset gates. Skip connections are omitted to simplify the visualization of networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1227
+                },
+                {
+                    "x": 853,
+                    "y": 1227
+                },
+                {
+                    "x": 853,
+                    "y": 1279
+                },
+                {
+                    "x": 224,
+                    "y": 1279
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:16px'>The global reset gate is computed as:</p>",
+            "id": 54,
+            "page": 4,
+            "text": "The global reset gate is computed as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1575
+                },
+                {
+                    "x": 1214,
+                    "y": 1575
+                },
+                {
+                    "x": 1214,
+                    "y": 1938
+                },
+                {
+                    "x": 223,
+                    "y": 1938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:16px'>where h*-1 is the concatenation of all the hidden states<br>from the previous timestep t - 1. The superscript i→j is<br>an index of associated set of parameters for the transition<br>from layer i in timestep t - 1 to layer j in timestep t. wigj<br>and ui→j are respectively the weight vectors for the current<br>input and the previous hidden states. When j = 1, h3 1<br>is<br>Xt.</p>",
+            "id": 55,
+            "page": 4,
+            "text": "where h*-1 is the concatenation of all the hidden states from the previous timestep t - 1. The superscript i→j is an index of associated set of parameters for the transition from layer i in timestep t - 1 to layer j in timestep t. wigj and ui→j are respectively the weight vectors for the current input and the previous hidden states. When j = 1, h3 1 is Xt."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1962
+                },
+                {
+                    "x": 1212,
+                    "y": 1962
+                },
+                {
+                    "x": 1212,
+                    "y": 2114
+                },
+                {
+                    "x": 223,
+                    "y": 2114
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='56' style='font-size:18px'>In other words, the signal from h2-1 to h3 is controlled by<br>a single scalar gi→j which depends on the input Xt and all<br>the previous hidden states h*-1.</p>",
+            "id": 56,
+            "page": 4,
+            "text": "In other words, the signal from h2-1 to h3 is controlled by a single scalar gi→j which depends on the input Xt and all the previous hidden states h*-1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2137
+                },
+                {
+                    "x": 1213,
+                    "y": 2137
+                },
+                {
+                    "x": 1213,
+                    "y": 2587
+                },
+                {
+                    "x": 223,
+                    "y": 2587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:16px'>We call this RNN with a fully-connected recurrent transi-<br>tions and global reset gates, a gated-feedback RNN (GF-<br>RNN). Fig. 1 illustrates the difference between the conven-<br>tional stacked RNN and our proposed GF-RNN. In both<br>models, information flows from lower recurrent layers to<br>upper recurrent layers. The GF-RNN, however, further<br>allows information from the upper recurrent layer, corre-<br>sponding to coarser timescale, flows back into the lower<br>recurrent layers, corresponding to finer timescales.</p>",
+            "id": 57,
+            "page": 4,
+            "text": "We call this RNN with a fully-connected recurrent transitions and global reset gates, a gated-feedback RNN (GFRNN). Fig. 1 illustrates the difference between the conventional stacked RNN and our proposed GF-RNN. In both models, information flows from lower recurrent layers to upper recurrent layers. The GF-RNN, however, further allows information from the upper recurrent layer, corresponding to coarser timescale, flows back into the lower recurrent layers, corresponding to finer timescales."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2610
+                },
+                {
+                    "x": 1213,
+                    "y": 2610
+                },
+                {
+                    "x": 1213,
+                    "y": 2761
+                },
+                {
+                    "x": 223,
+                    "y": 2761
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:14px'>In the remainder of this section, we describe how to use<br>the previously described LSTM unit, GRU, and more tra-<br>ditional tanh unit in the GF-RNN.</p>",
+            "id": 58,
+            "page": 4,
+            "text": "In the remainder of this section, we describe how to use the previously described LSTM unit, GRU, and more traditional tanh unit in the GF-RNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2814
+                },
+                {
+                    "x": 980,
+                    "y": 2814
+                },
+                {
+                    "x": 980,
+                    "y": 2865
+                },
+                {
+                    "x": 222,
+                    "y": 2865
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>3.1. Practical Implementation of GF-RNN</p>",
+            "id": 59,
+            "page": 4,
+            "text": "3.1. Practical Implementation of GF-RNN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2892
+                },
+                {
+                    "x": 1215,
+                    "y": 2892
+                },
+                {
+                    "x": 1215,
+                    "y": 2995
+                },
+                {
+                    "x": 223,
+                    "y": 2995
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:16px'>tanh Unit. For a stacked tanh-RNN, the signal from the<br>previous timestep is gated. The hidden state of the j-th</p>",
+            "id": 60,
+            "page": 4,
+            "text": "tanh Unit. For a stacked tanh-RNN, the signal from the previous timestep is gated. The hidden state of the j-th"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1229
+                },
+                {
+                    "x": 1633,
+                    "y": 1229
+                },
+                {
+                    "x": 1633,
+                    "y": 1277
+                },
+                {
+                    "x": 1275,
+                    "y": 1277
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>layer is computed by</p>",
+            "id": 61,
+            "page": 4,
+            "text": "layer is computed by"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1464
+                },
+                {
+                    "x": 2264,
+                    "y": 1464
+                },
+                {
+                    "x": 2264,
+                    "y": 1767
+                },
+                {
+                    "x": 1273,
+                    "y": 1767
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:16px'>where L is the number of hidden layers, Wj-1→j and<br>Ui→j are the weight matrices of the current input and<br>the previous hidden states of the i-th module, respectively.<br>Compared to Eq. (1), the only difference is that the previ-<br>ous hidden states are from multiple layers and controlled<br>by the global reset gates.</p>",
+            "id": 62,
+            "page": 4,
+            "text": "where L is the number of hidden layers, Wj-1→j and Ui→j are the weight matrices of the current input and the previous hidden states of the i-th module, respectively. Compared to Eq. (1), the only difference is that the previous hidden states are from multiple layers and controlled by the global reset gates."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1813
+                },
+                {
+                    "x": 2263,
+                    "y": 1813
+                },
+                {
+                    "x": 2263,
+                    "y": 2164
+                },
+                {
+                    "x": 1273,
+                    "y": 2164
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:16px'>Long Short- Term Memory and Gated Recurrent Unit.<br>In the cases of LSTM and GRU, we do not use the global<br>reset gates when computing the unit-wise gates. In other<br>words, Eqs. (4)-(6) for LSTM, and Eqs. (8) and (10) for<br>GRU are not modified. We only use the global reset gates<br>when computing the new state (see Eq. (3) for LSTM, and<br>Eq. (9) for GRU).</p>",
+            "id": 63,
+            "page": 4,
+            "text": "Long Short- Term Memory and Gated Recurrent Unit. In the cases of LSTM and GRU, we do not use the global reset gates when computing the unit-wise gates. In other words, Eqs. (4)-(6) for LSTM, and Eqs. (8) and (10) for GRU are not modified. We only use the global reset gates when computing the new state (see Eq. (3) for LSTM, and Eq. (9) for GRU)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2191
+                },
+                {
+                    "x": 2261,
+                    "y": 2191
+                },
+                {
+                    "x": 2261,
+                    "y": 2289
+                },
+                {
+                    "x": 1274,
+                    "y": 2289
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:16px'>The new memory content of an LSTM at the j-th layer is<br>computed by</p>",
+            "id": 64,
+            "page": 4,
+            "text": "The new memory content of an LSTM at the j-th layer is computed by"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2471
+                },
+                {
+                    "x": 1808,
+                    "y": 2471
+                },
+                {
+                    "x": 1808,
+                    "y": 2521
+                },
+                {
+                    "x": 1275,
+                    "y": 2521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:16px'>In the case of a GRU, similarly,</p>",
+            "id": 65,
+            "page": 4,
+            "text": "In the case of a GRU, similarly,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2727
+                },
+                {
+                    "x": 1769,
+                    "y": 2727
+                },
+                {
+                    "x": 1769,
+                    "y": 2786
+                },
+                {
+                    "x": 1274,
+                    "y": 2786
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:22px'>4. Experiment Settings</p>",
+            "id": 66,
+            "page": 4,
+            "text": "4. Experiment Settings"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2816
+                },
+                {
+                    "x": 1459,
+                    "y": 2816
+                },
+                {
+                    "x": 1459,
+                    "y": 2862
+                },
+                {
+                    "x": 1274,
+                    "y": 2862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:16px'>4.1. Tasks</p>",
+            "id": 67,
+            "page": 4,
+            "text": "4.1. Tasks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2892
+                },
+                {
+                    "x": 2262,
+                    "y": 2892
+                },
+                {
+                    "x": 2262,
+                    "y": 2994
+                },
+                {
+                    "x": 1275,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>We evaluated the proposed GF-RNN on character-level lan-<br>guage modeling and Python program evaluation. Both</p>",
+            "id": 68,
+            "page": 4,
+            "text": "We evaluated the proposed GF-RNN on character-level language modeling and Python program evaluation. Both"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 881,
+                    "y": 192
+                },
+                {
+                    "x": 1606,
+                    "y": 192
+                },
+                {
+                    "x": 1606,
+                    "y": 234
+                },
+                {
+                    "x": 881,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='69' style='font-size:18px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 69,
+            "page": 5,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 286
+                },
+                {
+                    "x": 1212,
+                    "y": 286
+                },
+                {
+                    "x": 1212,
+                    "y": 435
+                },
+                {
+                    "x": 222,
+                    "y": 435
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:20px'>tasks are representative examples of discrete sequence<br>modeling, where a model is trained to minimize the neg-<br>ative log-likelihood of training sequences:</p>",
+            "id": 70,
+            "page": 5,
+            "text": "tasks are representative examples of discrete sequence modeling, where a model is trained to minimize the negative log-likelihood of training sequences:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 674
+                },
+                {
+                    "x": 855,
+                    "y": 674
+                },
+                {
+                    "x": 855,
+                    "y": 721
+                },
+                {
+                    "x": 224,
+                    "y": 721
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:14px'>where 0 is a set of model parameters.</p>",
+            "id": 71,
+            "page": 5,
+            "text": "where 0 is a set of model parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 770
+                },
+                {
+                    "x": 766,
+                    "y": 770
+                },
+                {
+                    "x": 766,
+                    "y": 818
+                },
+                {
+                    "x": 224,
+                    "y": 818
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:22px'>4.1.1. LANGUAGE MODELING</p>",
+            "id": 72,
+            "page": 5,
+            "text": "4.1.1. LANGUAGE MODELING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 846
+                },
+                {
+                    "x": 1213,
+                    "y": 846
+                },
+                {
+                    "x": 1213,
+                    "y": 1544
+                },
+                {
+                    "x": 224,
+                    "y": 1544
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:22px'>We used the dataset made available as a part of the human<br>knowledge compression contest (Hutter, 2012). We refer<br>to this dataset as the Hutter dataset. The dataset, which<br>was built from English Wikipedia, contains 100 MBytes of<br>characters which include Latin alphabets, non-Latin alpha-<br>bets, XML markups and special characters. Closely follow-<br>ing the protocols in (Mikolov et al., 2012; Graves, 2013),<br>we used the first 90 MBytes of characters to train a model,<br>the next 5 MBytes as a validation set, and the remaining<br>as a test set, with the vocabulary of 205 characters includ-<br>ing a token for an unknown character. We used the average<br>number of bits-per-character (BPC, E[- log2 P(xt+1 |ht)])<br>to measure the performance of each model on the Hutter<br>dataset.</p>",
+            "id": 73,
+            "page": 5,
+            "text": "We used the dataset made available as a part of the human knowledge compression contest (Hutter, 2012). We refer to this dataset as the Hutter dataset. The dataset, which was built from English Wikipedia, contains 100 MBytes of characters which include Latin alphabets, non-Latin alphabets, XML markups and special characters. Closely following the protocols in (Mikolov , 2012; Graves, 2013), we used the first 90 MBytes of characters to train a model, the next 5 MBytes as a validation set, and the remaining as a test set, with the vocabulary of 205 characters including a token for an unknown character. We used the average number of bits-per-character (BPC, E[- log2 P(xt+1 |ht)]) to measure the performance of each model on the Hutter dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1595
+                },
+                {
+                    "x": 938,
+                    "y": 1595
+                },
+                {
+                    "x": 938,
+                    "y": 1642
+                },
+                {
+                    "x": 224,
+                    "y": 1642
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:22px'>4.1.2. PYTHON PROGRAM EVALUATION</p>",
+            "id": 74,
+            "page": 5,
+            "text": "4.1.2. PYTHON PROGRAM EVALUATION"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1673
+                },
+                {
+                    "x": 1213,
+                    "y": 1673
+                },
+                {
+                    "x": 1213,
+                    "y": 1921
+                },
+                {
+                    "x": 223,
+                    "y": 1921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:22px'>Zaremba & Sutskever (2014) recently showed that an RNN,<br>more specifically a stacked LSTM, is able to execute a short<br>Python script. Here, we compared the proposed architec-<br>ture against the conventional stacking approach model on<br>this task, to which refer as Python program evaluation.</p>",
+            "id": 75,
+            "page": 5,
+            "text": "Zaremba & Sutskever (2014) recently showed that an RNN, more specifically a stacked LSTM, is able to execute a short Python script. Here, we compared the proposed architecture against the conventional stacking approach model on this task, to which refer as Python program evaluation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1945
+                },
+                {
+                    "x": 1212,
+                    "y": 1945
+                },
+                {
+                    "x": 1212,
+                    "y": 2394
+                },
+                {
+                    "x": 222,
+                    "y": 2394
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:22px'>Scripts used in this task include addition, multiplication,<br>subtraction, for-loop, variable assignment, logical compar-<br>ison and if-else statement. The goal is to generate, or pre-<br>dict, a correct return value of a given Python script. The<br>input is a program while the output is the result of a print<br>statement: every input script ends with a print statement.<br>Both the input script and the output are sequences of char-<br>acters, where the input and output vocabularies respectively<br>consist of 41 and 13 symbols.</p>",
+            "id": 76,
+            "page": 5,
+            "text": "Scripts used in this task include addition, multiplication, subtraction, for-loop, variable assignment, logical comparison and if-else statement. The goal is to generate, or predict, a correct return value of a given Python script. The input is a program while the output is the result of a print statement: every input script ends with a print statement. Both the input script and the output are sequences of characters, where the input and output vocabularies respectively consist of 41 and 13 symbols."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2418
+                },
+                {
+                    "x": 1213,
+                    "y": 2418
+                },
+                {
+                    "x": 1213,
+                    "y": 2768
+                },
+                {
+                    "x": 222,
+                    "y": 2768
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:22px'>The advantage of evaluating the models with this task is<br>that we can artificially control the difficulty of each sam-<br>ple (input-output pair). The difficulty is determined by<br>the number of nesting levels in the input sequence and the<br>length of the target sequence. We can do a finer-grained<br>analysis of each model by observing its behavior on exam-<br>ples of different difficulty levels.</p>",
+            "id": 77,
+            "page": 5,
+            "text": "The advantage of evaluating the models with this task is that we can artificially control the difficulty of each sample (input-output pair). The difficulty is determined by the number of nesting levels in the input sequence and the length of the target sequence. We can do a finer-grained analysis of each model by observing its behavior on examples of different difficulty levels."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2793
+                },
+                {
+                    "x": 1212,
+                    "y": 2793
+                },
+                {
+                    "x": 1212,
+                    "y": 2994
+                },
+                {
+                    "x": 224,
+                    "y": 2994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:22px'>In Python program evaluation, we closely follow (Zaremba<br>& Sutskever, 2014) and compute the test accuracy as the<br>next step symbol prediction given a sequence of correct<br>preceding symbols.</p>",
+            "id": 78,
+            "page": 5,
+            "text": "In Python program evaluation, we closely follow (Zaremba & Sutskever, 2014) and compute the test accuracy as the next step symbol prediction given a sequence of correct preceding symbols."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 310
+                },
+                {
+                    "x": 2263,
+                    "y": 310
+                },
+                {
+                    "x": 2263,
+                    "y": 476
+                },
+                {
+                    "x": 1273,
+                    "y": 476
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='79' style='font-size:14px'>Table 1. The sizes of the models used in character-level language<br>modeling. Gated Feedback L is a GF-RNN with a same number<br>of hidden units as a Stacked RNN (but more parameters). The<br>number of units is shown as (number of hidden layers)</caption>",
+            "id": 79,
+            "page": 5,
+            "text": "Table 1. The sizes of the models used in character-level language modeling. Gated Feedback L is a GF-RNN with a same number of hidden units as a Stacked RNN (but more parameters). The number of units is shown as (number of hidden layers)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 481
+                },
+                {
+                    "x": 2149,
+                    "y": 481
+                },
+                {
+                    "x": 2149,
+                    "y": 1223
+                },
+                {
+                    "x": 1271,
+                    "y": 1223
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='80' style='font-size:16px'><tr><td colspan=\"3\">x (number of hi dden units per layer) .</td></tr><tr><td>Unit</td><td>Architecture</td><td># of Units</td></tr><tr><td>tanh</td><td>Single Stacked Gated Feedback</td><td>1 x 1000 3 x 390 3 x 303</td></tr><tr><td>GRU</td><td>Single Stacked Gated Feedback Gated Feedback L</td><td>1 x 540 3 x 228 3 x 165 3 x 228</td></tr><tr><td>LSTM</td><td>Single Stacked Gated Feedback Gated Feedback L</td><td>1 x 456 3 x 191 3 x 140 3 x 191</td></tr></table>",
+            "id": 80,
+            "page": 5,
+            "text": "x (number of hi dden units per layer) .  Unit Architecture # of Units  tanh Single Stacked Gated Feedback 1 x 1000 3 x 390 3 x 303  GRU Single Stacked Gated Feedback Gated Feedback L 1 x 540 3 x 228 3 x 165 3 x 228  LSTM Single Stacked Gated Feedback Gated Feedback L"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1219
+                },
+                {
+                    "x": 1487,
+                    "y": 1219
+                },
+                {
+                    "x": 1487,
+                    "y": 1266
+                },
+                {
+                    "x": 1275,
+                    "y": 1266
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:22px'>4.2. Models</p>",
+            "id": 81,
+            "page": 5,
+            "text": "4.2. Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1296
+                },
+                {
+                    "x": 2263,
+                    "y": 1296
+                },
+                {
+                    "x": 2263,
+                    "y": 1645
+                },
+                {
+                    "x": 1272,
+                    "y": 1645
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:20px'>We compared three different RNN architectures: a single-<br>layer RNN, a stacked RNN and the proposed GF-RNN. For<br>each architecture, we evaluated three different transition<br>functions: tanh + affine, long short-term memory (LSTM)<br>and gated recurrent unit (GRU). For fair comparison, we<br>constrained the number of parameters of each model to be<br>roughly similar to each other.</p>",
+            "id": 82,
+            "page": 5,
+            "text": "We compared three different RNN architectures: a singlelayer RNN, a stacked RNN and the proposed GF-RNN. For each architecture, we evaluated three different transition functions: tanh + affine, long short-term memory (LSTM) and gated recurrent unit (GRU). For fair comparison, we constrained the number of parameters of each model to be roughly similar to each other."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1672
+                },
+                {
+                    "x": 2262,
+                    "y": 1672
+                },
+                {
+                    "x": 2262,
+                    "y": 1820
+                },
+                {
+                    "x": 1275,
+                    "y": 1820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:18px'>For each task, in addition to these capacity-controlled ex-<br>periments, we conducted a few extra experiments to further<br>test and better understand the properties of the GF-RNN.</p>",
+            "id": 83,
+            "page": 5,
+            "text": "For each task, in addition to these capacity-controlled experiments, we conducted a few extra experiments to further test and better understand the properties of the GF-RNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1869
+                },
+                {
+                    "x": 1816,
+                    "y": 1869
+                },
+                {
+                    "x": 1816,
+                    "y": 1916
+                },
+                {
+                    "x": 1275,
+                    "y": 1916
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:20px'>4.2.1. LANGUAGE MODELING</p>",
+            "id": 84,
+            "page": 5,
+            "text": "4.2.1. LANGUAGE MODELING"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1946
+                },
+                {
+                    "x": 2263,
+                    "y": 1946
+                },
+                {
+                    "x": 2263,
+                    "y": 2194
+                },
+                {
+                    "x": 1273,
+                    "y": 2194
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:18px'>For the task of character-level language modeling, we con-<br>strained the number of parameters of each model to corre-<br>spond to that of a single-layer RNN with 1000 tanh units<br>(see Table 1 for more details). Each model is trained for at<br>most 100 epochs.</p>",
+            "id": 85,
+            "page": 5,
+            "text": "For the task of character-level language modeling, we constrained the number of parameters of each model to correspond to that of a single-layer RNN with 1000 tanh units (see Table 1 for more details). Each model is trained for at most 100 epochs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2220
+                },
+                {
+                    "x": 2264,
+                    "y": 2220
+                },
+                {
+                    "x": 2264,
+                    "y": 2669
+                },
+                {
+                    "x": 1272,
+                    "y": 2669
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:20px'>We used RMSProp (Hinton, 2012) and momentum to tune<br>the model parameters (Graves, 2013). According to the<br>preliminary experiments and their results on the validation<br>set, we used a learning rate of 0.001 and momentum coef-<br>ficient of 0.9 when training the models having either GRU<br>or LSTM units. It was necessary to choose a much smaller<br>learning rate of 5 x 10-5 in the case of tanh units to ensure<br>the stability of learning. Whenever the norm of the gradient<br>explodes, we halve the learning rate.</p>",
+            "id": 86,
+            "page": 5,
+            "text": "We used RMSProp (Hinton, 2012) and momentum to tune the model parameters (Graves, 2013). According to the preliminary experiments and their results on the validation set, we used a learning rate of 0.001 and momentum coefficient of 0.9 when training the models having either GRU or LSTM units. It was necessary to choose a much smaller learning rate of 5 x 10-5 in the case of tanh units to ensure the stability of learning. Whenever the norm of the gradient explodes, we halve the learning rate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2693
+                },
+                {
+                    "x": 2263,
+                    "y": 2693
+                },
+                {
+                    "x": 2263,
+                    "y": 2993
+                },
+                {
+                    "x": 1273,
+                    "y": 2993
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:22px'>Each update is done using a minibatch of 100 subsequences<br>of length 100 each, to avoid memory overflow problems<br>when unfolding in time for backprop. We approximate full<br>back-propagation by carrying the hidden states computed<br>at the previous update to initialize the hidden units in the<br>next update. After every 100-th update, the hidden states</p>",
+            "id": 87,
+            "page": 5,
+            "text": "Each update is done using a minibatch of 100 subsequences of length 100 each, to avoid memory overflow problems when unfolding in time for backprop. We approximate full back-propagation by carrying the hidden states computed at the previous update to initialize the hidden units in the next update. After every 100-th update, the hidden states"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 880,
+                    "y": 190
+                },
+                {
+                    "x": 1605,
+                    "y": 190
+                },
+                {
+                    "x": 1605,
+                    "y": 235
+                },
+                {
+                    "x": 880,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='88' style='font-size:16px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 88,
+            "page": 6,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 268
+                },
+                {
+                    "x": 2267,
+                    "y": 268
+                },
+                {
+                    "x": 2267,
+                    "y": 1027
+                },
+                {
+                    "x": 226,
+                    "y": 1027
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='89' style='font-size:14px' alt=\"Stacked GRU Stacked LSTM\n2.5\nGF-GRU same # of parameters GF-LSTM same # of parameters\nGF-GRU same # of hidden units GF-LSTM same # of hidden units\nBPC 2.3\nValidation\n2.1\n1.9\n0 100K 200K 300K 400K 500K 0 100K 200K 300K 400K 500K 600K\nNumber of Seconds Number of Seconds\n(a) GRU (b) LSTM\" data-coord=\"top-left:(226,268); bottom-right:(2267,1027)\" /></figure>",
+            "id": 89,
+            "page": 6,
+            "text": "Stacked GRU Stacked LSTM 2.5 GF-GRU same # of parameters GF-LSTM same # of parameters GF-GRU same # of hidden units GF-LSTM same # of hidden units BPC 2.3 Validation 2.1 1.9 0 100K 200K 300K 400K 500K 0 100K 200K 300K 400K 500K 600K Number of Seconds Number of Seconds (a) GRU (b) LSTM"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1048
+                },
+                {
+                    "x": 2263,
+                    "y": 1048
+                },
+                {
+                    "x": 2263,
+                    "y": 1147
+                },
+                {
+                    "x": 222,
+                    "y": 1147
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='90' style='font-size:16px'>Figure 2. Validation learning curves of three different RNN architectures; Stacked RNN, GF-RNN with the same number of model<br>parameters and GF-RNN with the same number of hidden units. The curves represent training up to 100 epochs. Best viewed in colors.</caption>",
+            "id": 90,
+            "page": 6,
+            "text": "Figure 2. Validation learning curves of three different RNN architectures; Stacked RNN, GF-RNN with the same number of model parameters and GF-RNN with the same number of hidden units. The curves represent training up to 100 epochs. Best viewed in colors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1230
+                },
+                {
+                    "x": 606,
+                    "y": 1230
+                },
+                {
+                    "x": 606,
+                    "y": 1273
+                },
+                {
+                    "x": 225,
+                    "y": 1273
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:14px'>were reset to all zeros.</p>",
+            "id": 91,
+            "page": 6,
+            "text": "were reset to all zeros."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1359
+                },
+                {
+                    "x": 1214,
+                    "y": 1359
+                },
+                {
+                    "x": 1214,
+                    "y": 1590
+                },
+                {
+                    "x": 224,
+                    "y": 1590
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='92' style='font-size:16px'>Table 2. Test set BPC (lower is better) of models trained on the<br>Hutter dataset for a 100 epochs. (*) The gated-feedback RNN<br>with the global reset gates fixed to 1 (see Sec. 5.1 for details).<br>Bold indicates statistically significant winner over the column<br>(same type of units, different overall architecture).</caption>",
+            "id": 92,
+            "page": 6,
+            "text": "Table 2. Test set BPC (lower is better) of models trained on the Hutter dataset for a 100 epochs. (*) The gated-feedback RNN with the global reset gates fixed to 1 (see Sec. 5.1 for details). Bold indicates statistically significant winner over the column (same type of units, different overall architecture)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 301,
+                    "y": 1627
+                },
+                {
+                    "x": 1119,
+                    "y": 1627
+                },
+                {
+                    "x": 1119,
+                    "y": 1951
+                },
+                {
+                    "x": 301,
+                    "y": 1951
+                }
+            ],
+            "category": "table",
+            "html": "<table id='93' style='font-size:16px'><tr><td></td><td>tanh</td><td>GRU</td><td>LSTM</td></tr><tr><td>Single-layer</td><td>1.937</td><td>1.883</td><td>1.887</td></tr><tr><td>Stacked</td><td>1.892</td><td>1.871</td><td>1.868</td></tr><tr><td>Gated Feedback</td><td>1.949</td><td>1.855</td><td>1.842</td></tr><tr><td>Gated Feedback L</td><td>-</td><td>1.813</td><td>1.789</td></tr><tr><td>Feedback*</td><td>-</td><td>-</td><td>1.854</td></tr></table>",
+            "id": 93,
+            "page": 6,
+            "text": "tanh GRU LSTM  Single-layer 1.937 1.883 1.887  Stacked 1.892 1.871 1.868  Gated Feedback 1.949 1.855 1.842  Gated Feedback L - 1.813 1.789  Feedback* - -"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 2018
+                },
+                {
+                    "x": 937,
+                    "y": 2018
+                },
+                {
+                    "x": 937,
+                    "y": 2065
+                },
+                {
+                    "x": 226,
+                    "y": 2065
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:18px'>4.2.2. PYTHON PROGRAM EVALUATION</p>",
+            "id": 94,
+            "page": 6,
+            "text": "4.2.2. PYTHON PROGRAM EVALUATION"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2095
+                },
+                {
+                    "x": 1213,
+                    "y": 2095
+                },
+                {
+                    "x": 1213,
+                    "y": 2644
+                },
+                {
+                    "x": 224,
+                    "y": 2644
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:18px'>For the task of Python program evaluation, we used an<br>RNN encoder-decoder based approach to learn the map-<br>ping from Python scripts to the corresponding outputs as<br>done by Cho et al. (2014); Sutskever et al. (2014) for ma-<br>chine translation. When training the models, Python scripts<br>are fed into the encoder RNN, and the hidden state of the<br>encoder RNN is unfolded for 50 timesteps. Prediction is<br>performed by the decoder RNN whose initial hidden state<br>is initialized with the last hidden state of the encoder RNN.<br>The first hidden state of encoder RNN ho is always initial-<br>ized to a zero vector.</p>",
+            "id": 95,
+            "page": 6,
+            "text": "For the task of Python program evaluation, we used an RNN encoder-decoder based approach to learn the mapping from Python scripts to the corresponding outputs as done by Cho  (2014); Sutskever  (2014) for machine translation. When training the models, Python scripts are fed into the encoder RNN, and the hidden state of the encoder RNN is unfolded for 50 timesteps. Prediction is performed by the decoder RNN whose initial hidden state is initialized with the last hidden state of the encoder RNN. The first hidden state of encoder RNN ho is always initialized to a zero vector."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2668
+                },
+                {
+                    "x": 1213,
+                    "y": 2668
+                },
+                {
+                    "x": 1213,
+                    "y": 2917
+                },
+                {
+                    "x": 223,
+                    "y": 2917
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:18px'>For this task, we used GRU and LSTM units either with<br>or without the gated-feedback connections. Each encoder<br>or decoder RNN has three hidden layers. For GRU, each<br>hidden layer contains 230 units, and for LSTM each hidden<br>layer contains 200 units.</p>",
+            "id": 96,
+            "page": 6,
+            "text": "For this task, we used GRU and LSTM units either with or without the gated-feedback connections. Each encoder or decoder RNN has three hidden layers. For GRU, each hidden layer contains 230 units, and for LSTM each hidden layer contains 200 units."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2942
+                },
+                {
+                    "x": 1212,
+                    "y": 2942
+                },
+                {
+                    "x": 1212,
+                    "y": 2991
+                },
+                {
+                    "x": 224,
+                    "y": 2991
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:18px'>Following Zaremba & Sutskever (2014), we used the mixed</p>",
+            "id": 97,
+            "page": 6,
+            "text": "Following Zaremba & Sutskever (2014), we used the mixed"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1229
+                },
+                {
+                    "x": 2264,
+                    "y": 1229
+                },
+                {
+                    "x": 2264,
+                    "y": 1524
+                },
+                {
+                    "x": 1272,
+                    "y": 1524
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:20px'>curriculum strategy for training each model, where each<br>training example has a random difficulty sampled uni-<br>formly. We generated 320, 000 examples using the script<br>provided by Zaremba & Sutskever (2014), with the nesting<br>randomly sampled from [1, 5] and the target length from<br>[1, 1010].</p>",
+            "id": 98,
+            "page": 6,
+            "text": "curriculum strategy for training each model, where each training example has a random difficulty sampled uniformly. We generated 320, 000 examples using the script provided by Zaremba & Sutskever (2014), with the nesting randomly sampled from  and the target length from ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1549
+                },
+                {
+                    "x": 2263,
+                    "y": 1549
+                },
+                {
+                    "x": 2263,
+                    "y": 1849
+                },
+                {
+                    "x": 1272,
+                    "y": 1849
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:18px'>We used Adam (Kingma & Ba, 2014) to train our models,<br>and each update was using a minibatch with 128 sequences.<br>We used a learning rate of 0.001 and B1 and B2 were both<br>set to 0.99. We trained each model for 30 epochs, with<br>early stopping based on the validation set performance to<br>prevent over-fitting.</p>",
+            "id": 99,
+            "page": 6,
+            "text": "We used Adam (Kingma & Ba, 2014) to train our models, and each update was using a minibatch with 128 sequences. We used a learning rate of 0.001 and B1 and B2 were both set to 0.99. We trained each model for 30 epochs, with early stopping based on the validation set performance to prevent over-fitting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1873
+                },
+                {
+                    "x": 2263,
+                    "y": 1873
+                },
+                {
+                    "x": 2263,
+                    "y": 2122
+                },
+                {
+                    "x": 1272,
+                    "y": 2122
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>At test time, we evaluated each model on multiple sets of<br>test examples where each set is generated using a fixed tar-<br>get length and number of nesting levels. Each test set con-<br>tains 2, 000 examples which are ensured not to overlap with<br>the training set.</p>",
+            "id": 100,
+            "page": 6,
+            "text": "At test time, we evaluated each model on multiple sets of test examples where each set is generated using a fixed target length and number of nesting levels. Each test set contains 2, 000 examples which are ensured not to overlap with the training set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2185
+                },
+                {
+                    "x": 1778,
+                    "y": 2185
+                },
+                {
+                    "x": 1778,
+                    "y": 2242
+                },
+                {
+                    "x": 1272,
+                    "y": 2242
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:22px'>5. Results and Analysis</p>",
+            "id": 101,
+            "page": 6,
+            "text": "5. Results and Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2303
+                },
+                {
+                    "x": 1713,
+                    "y": 2303
+                },
+                {
+                    "x": 1713,
+                    "y": 2350
+                },
+                {
+                    "x": 1274,
+                    "y": 2350
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:20px'>5.1. Language Modeling</p>",
+            "id": 102,
+            "page": 6,
+            "text": "5.1. Language Modeling"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1270,
+                    "y": 2378
+                },
+                {
+                    "x": 2264,
+                    "y": 2378
+                },
+                {
+                    "x": 2264,
+                    "y": 2980
+                },
+                {
+                    "x": 1270,
+                    "y": 2980
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='103' style='font-size:18px'>Itis clear from Table 2 that the proposed gated-feedback ar-<br>chitecture outperforms the other baseline architectures that<br>we have tried when used together with widely used gated<br>units such as LSTM and GRU. However, the proposed ar-<br>chitecture failed to improve the performance of a vanilla-<br>RNN with tanh units. In addition to the final modeling<br>performance, in Fig. 2, we plotted the learning curves of<br>some models against wall-clock time (measured in sec-<br>onds). RNNs that are trained with the proposed gated-<br>feedback architecture tends to make much faster progress<br>over time. This behavioris observed both when the number<br>of parameters is constrained and when the number of hid-</p>",
+            "id": 103,
+            "page": 6,
+            "text": "Itis clear from Table 2 that the proposed gated-feedback architecture outperforms the other baseline architectures that we have tried when used together with widely used gated units such as LSTM and GRU. However, the proposed architecture failed to improve the performance of a vanillaRNN with tanh units. In addition to the final modeling performance, in Fig. 2, we plotted the learning curves of some models against wall-clock time (measured in seconds). RNNs that are trained with the proposed gatedfeedback architecture tends to make much faster progress over time. This behavioris observed both when the number of parameters is constrained and when the number of hid-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 881,
+                    "y": 191
+                },
+                {
+                    "x": 1605,
+                    "y": 191
+                },
+                {
+                    "x": 1605,
+                    "y": 235
+                },
+                {
+                    "x": 881,
+                    "y": 235
+                }
+            ],
+            "category": "header",
+            "html": "<header id='104' style='font-size:16px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 104,
+            "page": 7,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 310
+                },
+                {
+                    "x": 2264,
+                    "y": 310
+                },
+                {
+                    "x": 2264,
+                    "y": 406
+                },
+                {
+                    "x": 225,
+                    "y": 406
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='105' style='font-size:14px'>Table 3. Generated texts with our trained models. Given the seed at the left-most column (bold-faced font), the models predict next<br>200 ~ 300 characters. Tabs, spaces and new-line characters are also generated by the models.</caption>",
+            "id": 105,
+            "page": 7,
+            "text": "Table 3. Generated texts with our trained models. Given the seed at the left-most column (bold-faced font), the models predict next 200 ~ 300 characters. Tabs, spaces and new-line characters are also generated by the models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 278,
+                    "y": 438
+                },
+                {
+                    "x": 2210,
+                    "y": 438
+                },
+                {
+                    "x": 2210,
+                    "y": 1238
+                },
+                {
+                    "x": 278,
+                    "y": 1238
+                }
+            ],
+            "category": "table",
+            "html": "<table id='106' style='font-size:14px'><tr><td>Seed</td><td>Stacked LSTM</td><td>GF-LSTM</td></tr><tr><td>[ [p1 : Icon]] ] [pt : Icon]] [ [ru : Icon]] [ [sv:Programspraket Icon] ] </text> </revision> </page> <page> <title>Iconology</title> <id>14802</id> <revi</td><td><revision> <id>15908383</id> <timestamp> 2002-07-20:18:33:34Z </timestamp> <contributor> <username>The Courseichi</userrand vehicles in [ [enguit] ] · ==The inhibitors and alphabetsy and moral/ hande in===In four [ [communications]] and</td><td><revision> <id>41968413</id> <timestamp> 2006-09-03T11:38:06Z </timestamp> <contributor> <username>Mavisb</usernane> <id>46264</id> </contributor> <comment>The increase from the time</td></tr><tr><td><title>Inherence relation</title> <id>14807</id> <revision> <id>34980694</id> <timestamp> 2006-01-13T04:19:25Z </timestamp> <contributor> <username>Ro</td><td><username>Robert] ] [[su:20 aves]] [[vi:10 Februari] ] [[bi :16 agostoferosin]] [[pt :Darenetische]] [[eo :Hebrew selsowen]] [[hr:2 febber]] [[io:21 februari] ] [[it:18 de februari]]</td><td><username>Roma</username> <id>48</id> </contributor> <comment>Vly' \" and when one hand is angels and [ [ghost] ] borted and , , mask r:centrions]], [ [Afghanistan] ], [ [Glencoddic tetrahedron]], [[Adjudan]], [ [Dghacn]], for example, in which materials dangerous (carriers) can only use with one</td></tr></table>",
+            "id": 106,
+            "page": 7,
+            "text": "Seed Stacked LSTM GF-LSTM  [ [p1 : Icon]] ] [pt : Icon]] [ [ru : Icon]] [ [sv:Programspraket Icon] ]     Iconology 14802 15908383  2002-07-20:18:33:34Z   The Courseichi 41968413  2006-09-03T11:38:06Z   Mavisb 46264  The increase from the time  Inherence relation 14807  34980694  2006-01-13T04:19:25Z   Ro Robert] ] [[su:20 aves]] [[vi:10 Februari] ] [[bi :16 agostoferosin]] [[pt :Darenetische]] [[eo :Hebrew selsowen]] [[hr:2 febber]] [[io:21 februari] ] [[it:18 de februari]]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1322
+                },
+                {
+                    "x": 1211,
+                    "y": 1322
+                },
+                {
+                    "x": 1211,
+                    "y": 1422
+                },
+                {
+                    "x": 223,
+                    "y": 1422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:18px'>den units is constrained. This suggests that the proposed<br>GF-RNN significantly facilitates optimization/learning.</p>",
+            "id": 107,
+            "page": 7,
+            "text": "den units is constrained. This suggests that the proposed GF-RNN significantly facilitates optimization/learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1445
+                },
+                {
+                    "x": 736,
+                    "y": 1445
+                },
+                {
+                    "x": 736,
+                    "y": 1496
+                },
+                {
+                    "x": 224,
+                    "y": 1496
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='108' style='font-size:18px'>Effect of Global Reset Gates</p>",
+            "id": 108,
+            "page": 7,
+            "text": "Effect of Global Reset Gates"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 1519
+                },
+                {
+                    "x": 1215,
+                    "y": 1519
+                },
+                {
+                    "x": 1215,
+                    "y": 2169
+                },
+                {
+                    "x": 226,
+                    "y": 2169
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:18px'>After observing the superiority of the proposed gated-<br>feedback architecture over the single-layer or conventional<br>stacked ones, we further trained another GF-RNN with<br>LSTM units, but this time, after fixing the global reset<br>gates to 1 to validate the need for the global reset gates.<br>Without the global reset gates, feedback signals from the<br>upper recurrent layers influence the lower recurrent layer<br>fully without any control. The test set BPC of GF-LSTM<br>without global reset gates was 1.854 which is in between<br>the results of conventional stacked LSTM and GF-LSTM<br>with global reset gates (see the last row of Table 2) which<br>confirms the importance of adaptively gating the feedback<br>connections.</p>",
+            "id": 109,
+            "page": 7,
+            "text": "After observing the superiority of the proposed gatedfeedback architecture over the single-layer or conventional stacked ones, we further trained another GF-RNN with LSTM units, but this time, after fixing the global reset gates to 1 to validate the need for the global reset gates. Without the global reset gates, feedback signals from the upper recurrent layers influence the lower recurrent layer fully without any control. The test set BPC of GF-LSTM without global reset gates was 1.854 which is in between the results of conventional stacked LSTM and GF-LSTM with global reset gates (see the last row of Table 2) which confirms the importance of adaptively gating the feedback connections."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2191
+                },
+                {
+                    "x": 908,
+                    "y": 2191
+                },
+                {
+                    "x": 908,
+                    "y": 2243
+                },
+                {
+                    "x": 224,
+                    "y": 2243
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:20px'>Qualitative Analysis: Text Generation</p>",
+            "id": 110,
+            "page": 7,
+            "text": "Qualitative Analysis: Text Generation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2266
+                },
+                {
+                    "x": 1213,
+                    "y": 2266
+                },
+                {
+                    "x": 1213,
+                    "y": 2618
+                },
+                {
+                    "x": 223,
+                    "y": 2618
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='111' style='font-size:18px'>Here we qualitatively evaluate the stacked LSTM and GF-<br>LSTM trained earlier by generating text. We choose a sub-<br>sequence of characters from the test set and use it as an<br>initial seed. Once the model finishes reading the seed text,<br>we let the model generate the following characters by sam-<br>pling a symbol from softmax probabilities of a timestep and<br>then provide the symbol as next input.</p>",
+            "id": 111,
+            "page": 7,
+            "text": "Here we qualitatively evaluate the stacked LSTM and GFLSTM trained earlier by generating text. We choose a subsequence of characters from the test set and use it as an initial seed. Once the model finishes reading the seed text, we let the model generate the following characters by sampling a symbol from softmax probabilities of a timestep and then provide the symbol as next input."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2641
+                },
+                {
+                    "x": 1214,
+                    "y": 2641
+                },
+                {
+                    "x": 1214,
+                    "y": 2990
+                },
+                {
+                    "x": 223,
+                    "y": 2990
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='112' style='font-size:16px'>Given two seed snippets selected randomly from the test<br>set, we generated the sequence of characters ten times for<br>each model (stacked LSTM and GF-LSTM). We show one<br>of those ten generated samples per model and per seed snip-<br>pet in Table 3. We observe that the stacked LSTM failed to<br>close the tags with </username> and </ contributor><br>in both trials. However, the GF-LSTM succeeded to close</p>",
+            "id": 112,
+            "page": 7,
+            "text": "Given two seed snippets selected randomly from the test set, we generated the sequence of characters ten times for each model (stacked LSTM and GF-LSTM). We show one of those ten generated samples per model and per seed snippet in Table 3. We observe that the stacked LSTM failed to close the tags with </username> and </ contributor> in both trials. However, the GF-LSTM succeeded to close"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1323
+                },
+                {
+                    "x": 2261,
+                    "y": 1323
+                },
+                {
+                    "x": 2261,
+                    "y": 1472
+                },
+                {
+                    "x": 1274,
+                    "y": 1472
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:16px'>both of them, which shows that it learned about the struc-<br>ture of XML tags. This type of behavior could be seen<br>throughout all ten random generations.</p>",
+            "id": 113,
+            "page": 7,
+            "text": "both of them, which shows that it learned about the structure of XML tags. This type of behavior could be seen throughout all ten random generations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1545
+                },
+                {
+                    "x": 2264,
+                    "y": 1545
+                },
+                {
+                    "x": 2264,
+                    "y": 1731
+                },
+                {
+                    "x": 1273,
+                    "y": 1731
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:14px'>Table 4. Test set BPC of neural language models trained<br>on the Hutter dataset, MRNN = multiplicative RNN re-<br>sults from Sutskever et al. (2011) and Stacked LSTM results<br>from Graves (2013).</p>",
+            "id": 114,
+            "page": 7,
+            "text": "Table 4. Test set BPC of neural language models trained on the Hutter dataset, MRNN = multiplicative RNN results from Sutskever  (2011) and Stacked LSTM results from Graves (2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1418,
+                    "y": 1768
+                },
+                {
+                    "x": 2129,
+                    "y": 1768
+                },
+                {
+                    "x": 2129,
+                    "y": 1890
+                },
+                {
+                    "x": 1418,
+                    "y": 1890
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='115' style='font-size:18px'>MRNN Stacked LSTM GF-LSTM<br>1.60 1.67 1.58</p>",
+            "id": 115,
+            "page": 7,
+            "text": "MRNN Stacked LSTM GF-LSTM 1.60 1.67 1.58"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1937
+                },
+                {
+                    "x": 1563,
+                    "y": 1937
+                },
+                {
+                    "x": 1563,
+                    "y": 1986
+                },
+                {
+                    "x": 1274,
+                    "y": 1986
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:22px'>Large GF-RNN</p>",
+            "id": 116,
+            "page": 7,
+            "text": "Large GF-RNN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2012
+                },
+                {
+                    "x": 2265,
+                    "y": 2012
+                },
+                {
+                    "x": 2265,
+                    "y": 2763
+                },
+                {
+                    "x": 1272,
+                    "y": 2763
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:18px'>We trained a larger GF-RNN that has five recurrent layers,<br>each of which has 700 LSTM units. This makes it possible<br>for us to compare the performance of the proposed archi-<br>tecture against the previously reported results using other<br>types of RNNs. In Table 4, we present the test set BPC<br>by a multiplicative RNN (Sutskever et al., 2011), a stacked<br>LSTM (Graves, 2013) and the GF-RNN with LSTM units.<br>The performance of the proposed GF-RNN is comparable<br>to, or better than, the previously reported best results. Note<br>that Sutskever et al. (2011) used the vocabulary of 86 char-<br>acters (removed XML tags and the Wikipedia markups),<br>and their result is not directly comparable with ours. In this<br>experiment, we used Adam instead of RMSProp to opti-<br>mize the RNN. We used learning rate of 0.001 and B1 and<br>B2 were set to 0.9 and 0.99, respectively.</p>",
+            "id": 117,
+            "page": 7,
+            "text": "We trained a larger GF-RNN that has five recurrent layers, each of which has 700 LSTM units. This makes it possible for us to compare the performance of the proposed architecture against the previously reported results using other types of RNNs. In Table 4, we present the test set BPC by a multiplicative RNN (Sutskever , 2011), a stacked LSTM (Graves, 2013) and the GF-RNN with LSTM units. The performance of the proposed GF-RNN is comparable to, or better than, the previously reported best results. Note that Sutskever  (2011) used the vocabulary of 86 characters (removed XML tags and the Wikipedia markups), and their result is not directly comparable with ours. In this experiment, we used Adam instead of RMSProp to optimize the RNN. We used learning rate of 0.001 and B1 and B2 were set to 0.9 and 0.99, respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2815
+                },
+                {
+                    "x": 1856,
+                    "y": 2815
+                },
+                {
+                    "x": 1856,
+                    "y": 2865
+                },
+                {
+                    "x": 1273,
+                    "y": 2865
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:20px'>5.2. Python Program Evaluation</p>",
+            "id": 118,
+            "page": 7,
+            "text": "5.2. Python Program Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2891
+                },
+                {
+                    "x": 2264,
+                    "y": 2891
+                },
+                {
+                    "x": 2264,
+                    "y": 2993
+                },
+                {
+                    "x": 1274,
+                    "y": 2993
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:18px'>Fig. 3 presents the test results of each model represented in<br>heatmaps. The accuracy tends to decrease by the growth</p>",
+            "id": 119,
+            "page": 7,
+            "text": "Fig. 3 presents the test results of each model represented in heatmaps. The accuracy tends to decrease by the growth"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 880,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 234
+                },
+                {
+                    "x": 880,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='120' style='font-size:16px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 120,
+            "page": 8,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 266
+                },
+                {
+                    "x": 2262,
+                    "y": 266
+                },
+                {
+                    "x": 2262,
+                    "y": 1403
+                },
+                {
+                    "x": 223,
+                    "y": 1403
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='121' style='font-size:14px' alt=\"60\n60\n2.0\n10 43.2% 37.6% 34.7% 33.2% 10 45.5% 39.6% 36.5% 35.2% 10 2.3% 1.9% 1.8% 2.1%\n55\n55 [%] 1.5cg/\nLength\nLength\nLength\n8 46.7% 41.7% 37.8% 37.2% 50 [%] 8 48.0% 42.8% 38.4% 38.5%\n8 1.3% 1.2% 0.6% 1.3%\nAccuracy\n50 1.0 Accuracy\nTarget\nTarget\nTarget\n45\n6 51.9% 45.6% 42.3% 40.9% 6 52.5% 45.0% 42.5% 41.3% 45 6 0.6% -0.7% 0.2% 0.4% 0.5\n40 Accuracy\n0.0\n40\n4 60.2% 52.4% 48.5% 46.3% 4 62.2% 54.0% 49.6% 47.2% 4 1.9% 1.6% 1.1% 0.9%\n35\n2 3 4 5 2 3 4 5 2 3 4 5\nNesting Nesting Nesting\n60\n3.0\n10 44.0% 38.8% 36.4% 36.3% 10 45.3% 40.7% 37.8% 37.3% 60 10 1.4% 1.9% 1.4% 1.1%\nLength\n2.5%\n8 46.8% 42.5% 39.0% 39.1% 5[%] 55% 8 2.0% 2.0% 1.8% 1.6%\n8 48.8% 44.5% 40.8% 40.7%\nAccuracy\nAccuracy\nAccuracy\n50 Length\nTarget 50 Length\nTarget\nTarget\n2.0\n6 52.8% 47.4% 43.7% 43.1% 6 55.1% 49.0% 46.1% 45.4% 6 2.3% 1.6% 2.4% 2.2%\n45\n45\n1.5\n40\n4 62.1% 54.9% 51.1% 49.2% 4 63.8% 58.1% 53.7% 52.0% 4 1.6% 3.2% 2.5% 2.9%\n40\n2 3 4 5 2 3 4 5 2 3 4 5\nNesting Nesting Nesting\n(a) Stacked RNN (b) Gated Feedback RNN (c) Gaps between (a) and (b)\" data-coord=\"top-left:(223,266); bottom-right:(2262,1403)\" /></figure>",
+            "id": 121,
+            "page": 8,
+            "text": "60 60 2.0 10 43.2% 37.6% 34.7% 33.2% 10 45.5% 39.6% 36.5% 35.2% 10 2.3% 1.9% 1.8% 2.1% 55 55 [%] 1.5cg/ Length Length Length 8 46.7% 41.7% 37.8% 37.2% 50 [%] 8 48.0% 42.8% 38.4% 38.5% 8 1.3% 1.2% 0.6% 1.3% Accuracy 50 1.0 Accuracy Target Target Target 45 6 51.9% 45.6% 42.3% 40.9% 6 52.5% 45.0% 42.5% 41.3% 45 6 0.6% -0.7% 0.2% 0.4% 0.5 40 Accuracy 0.0 40 4 60.2% 52.4% 48.5% 46.3% 4 62.2% 54.0% 49.6% 47.2% 4 1.9% 1.6% 1.1% 0.9% 35 2 3 4 5 2 3 4 5 2 3 4 5 Nesting Nesting Nesting 60 3.0 10 44.0% 38.8% 36.4% 36.3% 10 45.3% 40.7% 37.8% 37.3% 60 10 1.4% 1.9% 1.4% 1.1% Length 2.5% 8 46.8% 42.5% 39.0% 39.1% 5[%] 55% 8 2.0% 2.0% 1.8% 1.6% 8 48.8% 44.5% 40.8% 40.7% Accuracy Accuracy Accuracy 50 Length Target 50 Length Target Target 2.0 6 52.8% 47.4% 43.7% 43.1% 6 55.1% 49.0% 46.1% 45.4% 6 2.3% 1.6% 2.4% 2.2% 45 45 1.5 40 4 62.1% 54.9% 51.1% 49.2% 4 63.8% 58.1% 53.7% 52.0% 4 1.6% 3.2% 2.5% 2.9% 40 2 3 4 5 2 3 4 5 2 3 4 5 Nesting Nesting Nesting (a) Stacked RNN (b) Gated Feedback RNN (c) Gaps between (a) and (b)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 1421
+                },
+                {
+                    "x": 2263,
+                    "y": 1421
+                },
+                {
+                    "x": 2263,
+                    "y": 1519
+                },
+                {
+                    "x": 222,
+                    "y": 1519
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='122' style='font-size:14px'>Figure 3. Heatmaps of (a) Stacked RNN, (b) GF-RNN, and (c) difference obtained by substracting (a) from (b). The top row is the<br>heatmaps of models using GRUs, and the bottom row represents the heatmaps of the models using LSTM units. Best viewed in colors.</caption>",
+            "id": 122,
+            "page": 8,
+            "text": "Figure 3. Heatmaps of (a) Stacked RNN, (b) GF-RNN, and (c) difference obtained by substracting (a) from (b). The top row is the heatmaps of models using GRUs, and the bottom row represents the heatmaps of the models using LSTM units. Best viewed in colors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 1597
+                },
+                {
+                    "x": 1216,
+                    "y": 1597
+                },
+                {
+                    "x": 1216,
+                    "y": 2250
+                },
+                {
+                    "x": 223,
+                    "y": 2250
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:18px'>of the length of target sequences or the number of nesting<br>levels, where the difficulty or complexity of the Python pro-<br>gram increases. We observed that in most of the test sets,<br>GF-RNNs are outperforming stacked RNNs, regardless of<br>the type of units. Fig. 3 (c) represents the gaps between the<br>test accuracies of stacked RNNs and GF-RNNs which are<br>computed by subtracting (a) from (b). In Fig. 3 (c), the red<br>and yellow colors, indicating large gains, are concentrated<br>on top or right regions (either the number of nesting lev-<br>els or the length of target sequences increases). From this<br>we can more easily see that the GF-RNN outperforms the<br>stacked RNN, especially as the number of nesting levels<br>grows or the length of target sequences increases.</p>",
+            "id": 123,
+            "page": 8,
+            "text": "of the length of target sequences or the number of nesting levels, where the difficulty or complexity of the Python program increases. We observed that in most of the test sets, GF-RNNs are outperforming stacked RNNs, regardless of the type of units. Fig. 3 (c) represents the gaps between the test accuracies of stacked RNNs and GF-RNNs which are computed by subtracting (a) from (b). In Fig. 3 (c), the red and yellow colors, indicating large gains, are concentrated on top or right regions (either the number of nesting levels or the length of target sequences increases). From this we can more easily see that the GF-RNN outperforms the stacked RNN, especially as the number of nesting levels grows or the length of target sequences increases."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2310
+                },
+                {
+                    "x": 523,
+                    "y": 2310
+                },
+                {
+                    "x": 523,
+                    "y": 2363
+                },
+                {
+                    "x": 225,
+                    "y": 2363
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:20px'>6. Conclusion</p>",
+            "id": 124,
+            "page": 8,
+            "text": "6. Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 223,
+                    "y": 2393
+                },
+                {
+                    "x": 1215,
+                    "y": 2393
+                },
+                {
+                    "x": 1215,
+                    "y": 2948
+                },
+                {
+                    "x": 223,
+                    "y": 2948
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:16px'>We proposed a novel architecture for deep stacked RNNs<br>which uses gated-feedback connections between differ-<br>ent layers. Our experiments focused on challenging se-<br>quence modeling tasks of character-level language mod-<br>eling and Python program evaluation. The results were<br>consistent over different datasets, and clearly demonstrated<br>that gated-feedback architecture is helpful when the mod-<br>els are trained on complicated sequences that involve long-<br>term dependencies. We also showed that gated-feedback<br>architecture was faster in wall-clock time over the train-<br>ing and achieved better performance compared to standard</p>",
+            "id": 125,
+            "page": 8,
+            "text": "We proposed a novel architecture for deep stacked RNNs which uses gated-feedback connections between different layers. Our experiments focused on challenging sequence modeling tasks of character-level language modeling and Python program evaluation. The results were consistent over different datasets, and clearly demonstrated that gated-feedback architecture is helpful when the models are trained on complicated sequences that involve longterm dependencies. We also showed that gated-feedback architecture was faster in wall-clock time over the training and achieved better performance compared to standard"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1598
+                },
+                {
+                    "x": 2265,
+                    "y": 1598
+                },
+                {
+                    "x": 2265,
+                    "y": 1947
+                },
+                {
+                    "x": 1272,
+                    "y": 1947
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='126' style='font-size:16px'>stacked RNN with a same amount of capacity. Large GF-<br>LSTM was able to outperform the previously reported best<br>results on character-level language modeling. This sug-<br>gests that GF-RNNs are also scalable. GF-RNNs were able<br>to outperform standard stacked RNNs and the best previ-<br>ous records on Python program evaluation task with vary-<br>ing difficulties.</p>",
+            "id": 126,
+            "page": 8,
+            "text": "stacked RNN with a same amount of capacity. Large GFLSTM was able to outperform the previously reported best results on character-level language modeling. This suggests that GF-RNNs are also scalable. GF-RNNs were able to outperform standard stacked RNNs and the best previous records on Python program evaluation task with varying difficulties."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1972
+                },
+                {
+                    "x": 2265,
+                    "y": 1972
+                },
+                {
+                    "x": 2265,
+                    "y": 2322
+                },
+                {
+                    "x": 1272,
+                    "y": 2322
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:16px'>We noticed a deterioration in performance when the pro-<br>posed gated-feedback architecture was used together with<br>a tanh activation function, unlike when it was used with<br>more sophisticated gated activation functions. More thor-<br>ough investigation into the interaction between the gated-<br>feedback connections and the role of recurrent activation<br>function is required in the future.</p>",
+            "id": 127,
+            "page": 8,
+            "text": "We noticed a deterioration in performance when the proposed gated-feedback architecture was used together with a tanh activation function, unlike when it was used with more sophisticated gated activation functions. More thorough investigation into the interaction between the gatedfeedback connections and the role of recurrent activation function is required in the future."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2384
+                },
+                {
+                    "x": 1675,
+                    "y": 2384
+                },
+                {
+                    "x": 1675,
+                    "y": 2440
+                },
+                {
+                    "x": 1275,
+                    "y": 2440
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='128' style='font-size:22px'>Acknowledgments</p>",
+            "id": 128,
+            "page": 8,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2469
+                },
+                {
+                    "x": 2265,
+                    "y": 2469
+                },
+                {
+                    "x": 2265,
+                    "y": 2869
+                },
+                {
+                    "x": 1272,
+                    "y": 2869
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:20px'>The authors would like to thank the developers of<br>Theano (Bastien et al., 2012) and Pylearn2 (Goodfellow<br>et al., 2013). Also, the authors thank Yann N. Dauphin<br>and Laurent Dinh for insightful comments and discussion.<br>We acknowledge the support of the following agencies for<br>research funding and computing support: NSERC, Sam-<br>sung, Calcul Quebec, Compute Canada, the Canada Re-<br>search Chairs and CIFAR.</p>",
+            "id": 129,
+            "page": 8,
+            "text": "The authors would like to thank the developers of Theano (Bastien , 2012) and Pylearn2 (Goodfellow , 2013). Also, the authors thank Yann N. Dauphin and Laurent Dinh for insightful comments and discussion. We acknowledge the support of the following agencies for research funding and computing support: NSERC, Samsung, Calcul Quebec, Compute Canada, the Canada Research Chairs and CIFAR."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 880,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 191
+                },
+                {
+                    "x": 1606,
+                    "y": 234
+                },
+                {
+                    "x": 880,
+                    "y": 234
+                }
+            ],
+            "category": "header",
+            "html": "<header id='130' style='font-size:14px'>Gated Feedback Recurrent Neural Networks</header>",
+            "id": 130,
+            "page": 9,
+            "text": "Gated Feedback Recurrent Neural Networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 226,
+                    "y": 277
+                },
+                {
+                    "x": 469,
+                    "y": 277
+                },
+                {
+                    "x": 469,
+                    "y": 332
+                },
+                {
+                    "x": 226,
+                    "y": 332
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='131' style='font-size:22px'>References</p>",
+            "id": 131,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 358
+                },
+                {
+                    "x": 1213,
+                    "y": 358
+                },
+                {
+                    "x": 1213,
+                    "y": 555
+                },
+                {
+                    "x": 224,
+                    "y": 555
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='132' style='font-size:18px'>Bahdanau, Dzmitry, Cho, Kyunghyun, and Bengio,<br>Yoshua. Neural machine translation by jointly learning<br>to align and translate. Technical report, arXiv preprint<br>arXiv:1409.0473, 2014.</p>",
+            "id": 132,
+            "page": 9,
+            "text": "Bahdanau, Dzmitry, Cho, Kyunghyun, and Bengio, Yoshua. Neural machine translation by jointly learning to align and translate. Technical report, arXiv preprint arXiv:1409.0473, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 584
+                },
+                {
+                    "x": 1213,
+                    "y": 584
+                },
+                {
+                    "x": 1213,
+                    "y": 880
+                },
+                {
+                    "x": 225,
+                    "y": 880
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='133' style='font-size:18px'>Bastien, Frederic, Lamblin, Pascal, Pascanu, Razvan,<br>Bergstra, James, Goodfellow, Ian J., Bergeron, Arnaud,<br>Bouchard, Nicolas, and Bengio, Yoshua. Theano: new<br>features and speed improvements. Deep Learning and<br>Unsupervised Feature Learning NIPS 2012 Workshop,<br>2012.</p>",
+            "id": 133,
+            "page": 9,
+            "text": "Bastien, Frederic, Lamblin, Pascal, Pascanu, Razvan, Bergstra, James, Goodfellow, Ian J., Bergeron, Arnaud, Bouchard, Nicolas, and Bengio, Yoshua. Theano: new features and speed improvements. Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 910
+                },
+                {
+                    "x": 1213,
+                    "y": 910
+                },
+                {
+                    "x": 1213,
+                    "y": 1107
+                },
+                {
+                    "x": 225,
+                    "y": 1107
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='134' style='font-size:18px'>Bengio, Yoshua, Simard, Patrice, and Frasconi, Paolo.<br>Learning long-term dependencies with gradient descent<br>is difficult. IEEE Transactions on Neural Networks, 5<br>(2):157-166, 1994.</p>",
+            "id": 134,
+            "page": 9,
+            "text": "Bengio, Yoshua, Simard, Patrice, and Frasconi, Paolo. Learning long-term dependencies with gradient descent is difficult. IEEE Transactions on Neural Networks, 5 (2):157-166, 1994."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1137
+                },
+                {
+                    "x": 1213,
+                    "y": 1137
+                },
+                {
+                    "x": 1213,
+                    "y": 1285
+                },
+                {
+                    "x": 224,
+                    "y": 1285
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='135' style='font-size:18px'>Bengio, Yoshua, Ducharme, Rejean, and Vincent, Pascal.<br>A neural probabilistic language model. In Adv. Neural<br>Inf. Proc. Sys. 13, pp. 932-938, 2001.</p>",
+            "id": 135,
+            "page": 9,
+            "text": "Bengio, Yoshua, Ducharme, Rejean, and Vincent, Pascal. A neural probabilistic language model. In Adv. Neural Inf. Proc. Sys. 13, pp. 932-938, 2001."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1312
+                },
+                {
+                    "x": 1213,
+                    "y": 1312
+                },
+                {
+                    "x": 1213,
+                    "y": 1559
+                },
+                {
+                    "x": 225,
+                    "y": 1559
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='136' style='font-size:18px'>Cho, Kyunghyun, Van Merri�nboer, Bart, Gulcehre,<br>Caglar, Bougares, Fethi, Schwenk, Holger, and Ben-<br>gio, Yoshua. Learning phrase representations using<br>rnn encoder-decoder for statistical machine translation.<br>arXiv preprint arXiv:1 406.1078, 2014.</p>",
+            "id": 136,
+            "page": 9,
+            "text": "Cho, Kyunghyun, Van Merri�nboer, Bart, Gulcehre, Caglar, Bougares, Fethi, Schwenk, Holger, and Bengio, Yoshua. Learning phrase representations using rnn encoder-decoder for statistical machine translation. arXiv preprint arXiv:1 406.1078, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1587
+                },
+                {
+                    "x": 1210,
+                    "y": 1587
+                },
+                {
+                    "x": 1210,
+                    "y": 1785
+                },
+                {
+                    "x": 225,
+                    "y": 1785
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='137' style='font-size:16px'>El Hihi, Salah and Bengio, Yoshua. Hierarchical recur-<br>rent neural networks for long-term dependencies. In Ad-<br>vances in Neural Information Processing Systems, pp.<br>493-499. Citeseer, 1995.</p>",
+            "id": 137,
+            "page": 9,
+            "text": "El Hihi, Salah and Bengio, Yoshua. Hierarchical recurrent neural networks for long-term dependencies. In Advances in Neural Information Processing Systems, pp. 493-499. Citeseer, 1995."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 1814
+                },
+                {
+                    "x": 1211,
+                    "y": 1814
+                },
+                {
+                    "x": 1211,
+                    "y": 1961
+                },
+                {
+                    "x": 224,
+                    "y": 1961
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='138' style='font-size:18px'>Gers, Felix A., Schmidhuber, Jurgen, and Cummins,<br>Fred A. Learning to forget: Continual prediction with<br>LSTM. Neural Computation, 12(10):2451-2471, 2000.</p>",
+            "id": 138,
+            "page": 9,
+            "text": "Gers, Felix A., Schmidhuber, Jurgen, and Cummins, Fred A. Learning to forget: Continual prediction with LSTM. Neural Computation, 12(10):2451-2471, 2000."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 1989
+                },
+                {
+                    "x": 1212,
+                    "y": 1989
+                },
+                {
+                    "x": 1212,
+                    "y": 2237
+                },
+                {
+                    "x": 225,
+                    "y": 2237
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='139' style='font-size:20px'>Goodfellow, Ian J., Warde-Farley, David, Lamblin, Pascal,<br>Dumoulin, Vincent, Mirza, Mehdi, Pascanu, Razvan,<br>Bergstra, James, Bastien, Frederic, and Bengio, Yoshua.<br>Pylearn2: a machine learning research library. arXiv<br>preprint arXiv:1308.4214, 2013.</p>",
+            "id": 139,
+            "page": 9,
+            "text": "Goodfellow, Ian J., Warde-Farley, David, Lamblin, Pascal, Dumoulin, Vincent, Mirza, Mehdi, Pascanu, Razvan, Bergstra, James, Bastien, Frederic, and Bengio, Yoshua. Pylearn2: a machine learning research library. arXiv preprint arXiv:1308.4214, 2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2266
+                },
+                {
+                    "x": 1212,
+                    "y": 2266
+                },
+                {
+                    "x": 1212,
+                    "y": 2363
+                },
+                {
+                    "x": 225,
+                    "y": 2363
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='140' style='font-size:16px'>Graves, Alex. Generating sequences with recurrent neural<br>networks. arXiv preprint arXiv:1308.0850, 2013.</p>",
+            "id": 140,
+            "page": 9,
+            "text": "Graves, Alex. Generating sequences with recurrent neural networks. arXiv preprint arXiv:1308.0850, 2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 224,
+                    "y": 2392
+                },
+                {
+                    "x": 1212,
+                    "y": 2392
+                },
+                {
+                    "x": 1212,
+                    "y": 2587
+                },
+                {
+                    "x": 224,
+                    "y": 2587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='141' style='font-size:18px'>Hermans, Michiel and Schrauwen, Benjamin. Training and<br>analysing deep recurrent neural networks. In Advances<br>in Neural Information Processing Systems, pp. 190-198,<br>2013.</p>",
+            "id": 141,
+            "page": 9,
+            "text": "Hermans, Michiel and Schrauwen, Benjamin. Training and analysing deep recurrent neural networks. In Advances in Neural Information Processing Systems, pp. 190-198, 2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 222,
+                    "y": 2617
+                },
+                {
+                    "x": 1209,
+                    "y": 2617
+                },
+                {
+                    "x": 1209,
+                    "y": 2715
+                },
+                {
+                    "x": 222,
+                    "y": 2715
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='142' style='font-size:18px'>Hinton, Geoffrey. Neural networks for machine learning.<br>Coursera, video lectures, 2012.</p>",
+            "id": 142,
+            "page": 9,
+            "text": "Hinton, Geoffrey. Neural networks for machine learning. Coursera, video lectures, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 225,
+                    "y": 2743
+                },
+                {
+                    "x": 1212,
+                    "y": 2743
+                },
+                {
+                    "x": 1212,
+                    "y": 2992
+                },
+                {
+                    "x": 225,
+                    "y": 2992
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='143' style='font-size:14px'>Hochreiter, Sepp. Untersuchungen zu dynamischen<br>neuronalen Netzen. Diploma thesis, Institut fur In-<br>formatik, Lehrstuhl Prof. Brauer, Technische Uni-<br>versitat M�nchen, 1991. URL http : / / www7.<br>informatik · tu-muenchen · de/ ~ Ehochreit.</p>",
+            "id": 143,
+            "page": 9,
+            "text": "Hochreiter, Sepp. Untersuchungen zu dynamischen neuronalen Netzen. Diploma thesis, Institut fur Informatik, Lehrstuhl Prof. Brauer, Technische Universitat M�nchen, 1991. URL http : / / www7. informatik · tu-muenchen · de/ ~ Ehochreit."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 283
+                },
+                {
+                    "x": 2264,
+                    "y": 283
+                },
+                {
+                    "x": 2264,
+                    "y": 482
+                },
+                {
+                    "x": 1271,
+                    "y": 482
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='144' style='font-size:18px'>Hochreiter, Sepp. The vanishing gradient problem dur-<br>ing learning recurrent neural nets and problem solu-<br>tions. International Journal of Uncertainty, Fuzziness<br>and Knowledge-Based Systems, 6(02):107-116, 1998.</p>",
+            "id": 144,
+            "page": 9,
+            "text": "Hochreiter, Sepp. The vanishing gradient problem during learning recurrent neural nets and problem solutions. International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, 6(02):107-116, 1998."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 515
+                },
+                {
+                    "x": 2263,
+                    "y": 515
+                },
+                {
+                    "x": 2263,
+                    "y": 663
+                },
+                {
+                    "x": 1272,
+                    "y": 663
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='145' style='font-size:18px'>Hochreiter, Sepp and Schmidhuber, Jurgen. Long short-<br>term memory. Neural Computation, 9(8):1735-1780,<br>1997.</p>",
+            "id": 145,
+            "page": 9,
+            "text": "Hochreiter, Sepp and Schmidhuber, Jurgen. Long shortterm memory. Neural Computation, 9(8):1735-1780, 1997."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 697
+                },
+                {
+                    "x": 2259,
+                    "y": 697
+                },
+                {
+                    "x": 2259,
+                    "y": 799
+                },
+                {
+                    "x": 1275,
+                    "y": 799
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='146' style='font-size:14px'>Hutter, Marcus. The human knowledge compression con-<br>test. 2012. URL http : / /prize · hutter1 · net /.</p>",
+            "id": 146,
+            "page": 9,
+            "text": "Hutter, Marcus. The human knowledge compression contest. 2012. URL http : / /prize · hutter1 · net /."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 833
+                },
+                {
+                    "x": 2264,
+                    "y": 833
+                },
+                {
+                    "x": 2264,
+                    "y": 980
+                },
+                {
+                    "x": 1274,
+                    "y": 980
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='147' style='font-size:16px'>Kingma, Diederik and Ba, Jimmy. Adam: A<br>method for stochastic optimization. arXiv preprint<br>arXiv:1412.6980, 2014.</p>",
+            "id": 147,
+            "page": 9,
+            "text": "Kingma, Diederik and Ba, Jimmy. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 1016
+                },
+                {
+                    "x": 2263,
+                    "y": 1016
+                },
+                {
+                    "x": 2263,
+                    "y": 1214
+                },
+                {
+                    "x": 1276,
+                    "y": 1214
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='148' style='font-size:18px'>Koutnik, Jan, Greff, Klaus, Gomez, Faustino, and Schmid-<br>huber, Jurgen. A clockwork rnn. In Proceedings of<br>the 31st International Conference on Machine Learning<br>(ICML'14), 2014.</p>",
+            "id": 148,
+            "page": 9,
+            "text": "Koutnik, Jan, Greff, Klaus, Gomez, Faustino, and Schmidhuber, Jurgen. A clockwork rnn. In Proceedings of the 31st International Conference on Machine Learning (ICML'14), 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1247
+                },
+                {
+                    "x": 2262,
+                    "y": 1247
+                },
+                {
+                    "x": 2262,
+                    "y": 1396
+                },
+                {
+                    "x": 1274,
+                    "y": 1396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='149' style='font-size:16px'>Mikolov, Tomas. Statistical Language Models based on<br>Neural Networks. PhD thesis, Brno University of Tech-<br>nology, 2012.</p>",
+            "id": 149,
+            "page": 9,
+            "text": "Mikolov, Tomas. Statistical Language Models based on Neural Networks. PhD thesis, Brno University of Technology, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1430
+                },
+                {
+                    "x": 2263,
+                    "y": 1430
+                },
+                {
+                    "x": 2263,
+                    "y": 1579
+                },
+                {
+                    "x": 1275,
+                    "y": 1579
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='150' style='font-size:18px'>Mikolov, Tomas, Sutskever, Ilya, Deoras, Anoop, Le, Hai-<br>Son, Kombrink, Stefan, and Cernocky, J. Subword lan-<br>guage modeling with neural networks. Preprint, 2012.</p>",
+            "id": 150,
+            "page": 9,
+            "text": "Mikolov, Tomas, Sutskever, Ilya, Deoras, Anoop, Le, HaiSon, Kombrink, Stefan, and Cernocky, J. Subword language modeling with neural networks. Preprint, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1611
+                },
+                {
+                    "x": 2262,
+                    "y": 1611
+                },
+                {
+                    "x": 2262,
+                    "y": 1761
+                },
+                {
+                    "x": 1274,
+                    "y": 1761
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='151' style='font-size:18px'>Schmidhuber, Jurgen. Learning complex, extended se-<br>quences using the principle of history compression. Neu-<br>ral Computation, 4(2):234-242, 1992.</p>",
+            "id": 151,
+            "page": 9,
+            "text": "Schmidhuber, Jurgen. Learning complex, extended sequences using the principle of history compression. Neural Computation, 4(2):234-242, 1992."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1795
+                },
+                {
+                    "x": 2263,
+                    "y": 1795
+                },
+                {
+                    "x": 2263,
+                    "y": 2042
+                },
+                {
+                    "x": 1274,
+                    "y": 2042
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='152' style='font-size:18px'>Stollenga, Marijn F, Masci, Jonathan, Gomez, Faustino,<br>and Schmidhuber, Jurgen. Deep networks with internal<br>selective attention through feedback connections. In Ad-<br>vances in Neural Information Processing Systems, pp.<br>3545-3553, 2014.</p>",
+            "id": 152,
+            "page": 9,
+            "text": "Stollenga, Marijn F, Masci, Jonathan, Gomez, Faustino, and Schmidhuber, Jurgen. Deep networks with internal selective attention through feedback connections. In Advances in Neural Information Processing Systems, pp. 3545-3553, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2076
+                },
+                {
+                    "x": 2261,
+                    "y": 2076
+                },
+                {
+                    "x": 2261,
+                    "y": 2278
+                },
+                {
+                    "x": 1275,
+                    "y": 2278
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='153' style='font-size:16px'>Sutskever, Ilya, Martens, James, and Hinton, Geoffrey E.<br>Generating text with recurrent neural networks. In Pro-<br>ceedings of the 28th International Conference on Ma-<br>chine Learning (ICML '11), pp. 1017-1024, 2011.</p>",
+            "id": 153,
+            "page": 9,
+            "text": "Sutskever, Ilya, Martens, James, and Hinton, Geoffrey E. Generating text with recurrent neural networks. In Proceedings of the 28th International Conference on Machine Learning (ICML '11), pp. 1017-1024, 2011."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2311
+                },
+                {
+                    "x": 2262,
+                    "y": 2311
+                },
+                {
+                    "x": 2262,
+                    "y": 2506
+                },
+                {
+                    "x": 1274,
+                    "y": 2506
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='154' style='font-size:18px'>Sutskever, Ilya, Vinyals, Oriol, and Le, Quoc VV. Se-<br>quence to sequence learning with neural networks. In<br>Advances in Neural Information Processing Systems, pp.<br>3104-3112, 2014.</p>",
+            "id": 154,
+            "page": 9,
+            "text": "Sutskever, Ilya, Vinyals, Oriol, and Le, Quoc VV. Sequence to sequence learning with neural networks. In Advances in Neural Information Processing Systems, pp. 3104-3112, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2543
+                },
+                {
+                    "x": 2258,
+                    "y": 2543
+                },
+                {
+                    "x": 2258,
+                    "y": 2641
+                },
+                {
+                    "x": 1275,
+                    "y": 2641
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='155' style='font-size:16px'>Zaremba, Wojciech and Sutskever, Ilya. Learning to exe-<br>cute. arXiv preprint arXiv:1410.4615, 2014.</p>",
+            "id": 155,
+            "page": 9,
+            "text": "Zaremba, Wojciech and Sutskever, Ilya. Learning to execute. arXiv preprint arXiv:1410.4615, 2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2675
+                },
+                {
+                    "x": 2261,
+                    "y": 2675
+                },
+                {
+                    "x": 2261,
+                    "y": 2825
+                },
+                {
+                    "x": 1275,
+                    "y": 2825
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='156' style='font-size:18px'>Zaremba, Wojciech, Sutskever, Ilya, and Vinyals, Oriol.<br>Recurrent neural network regularization. arXiv preprint<br>arXiv:1 409.2329, 2014.</p>",
+            "id": 156,
+            "page": 9,
+            "text": "Zaremba, Wojciech, Sutskever, Ilya, and Vinyals, Oriol. Recurrent neural network regularization. arXiv preprint arXiv:1 409.2329, 2014."
+        }
+    ]
+}

@@ -1,0 +1,3156 @@
+{
+    "id": "32a763e2-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1411.4555v2.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 577,
+                    "y": 440
+                },
+                {
+                    "x": 1898,
+                    "y": 440
+                },
+                {
+                    "x": 1898,
+                    "y": 500
+                },
+                {
+                    "x": 577,
+                    "y": 500
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Show and Tell: A Neural Image Caption Generator</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Show and Tell: A Neural Image Caption Generator"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 352,
+                    "y": 604
+                },
+                {
+                    "x": 633,
+                    "y": 604
+                },
+                {
+                    "x": 633,
+                    "y": 713
+                },
+                {
+                    "x": 352,
+                    "y": 713
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Oriol Vinyals<br>Google</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Oriol Vinyals Google"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 810,
+                    "y": 605
+                },
+                {
+                    "x": 1179,
+                    "y": 605
+                },
+                {
+                    "x": 1179,
+                    "y": 713
+                },
+                {
+                    "x": 810,
+                    "y": 713
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:20px'>Alexander Toshev<br>Google</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Alexander Toshev Google"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1343,
+                    "y": 605
+                },
+                {
+                    "x": 1630,
+                    "y": 605
+                },
+                {
+                    "x": 1630,
+                    "y": 715
+                },
+                {
+                    "x": 1343,
+                    "y": 715
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='3' style='font-size:22px'>Samy Bengio<br>Google</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Samy Bengio Google"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1830,
+                    "y": 604
+                },
+                {
+                    "x": 2144,
+                    "y": 604
+                },
+                {
+                    "x": 2144,
+                    "y": 712
+                },
+                {
+                    "x": 1830,
+                    "y": 712
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='4' style='font-size:20px'>Dumitru Erhan<br>Google</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Dumitru Erhan Google"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 733
+                },
+                {
+                    "x": 2199,
+                    "y": 733
+                },
+                {
+                    "x": 2199,
+                    "y": 774
+                },
+                {
+                    "x": 285,
+                    "y": 774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:14px'>vinyals@google · com toshev@google . com bengio@google · com dumi tru@google · com</p>",
+            "id": 5,
+            "page": 1,
+            "text": "vinyals@google · com toshev@google . com bengio@google · com dumi tru@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 604,
+                    "y": 892
+                },
+                {
+                    "x": 797,
+                    "y": 892
+                },
+                {
+                    "x": 797,
+                    "y": 942
+                },
+                {
+                    "x": 604,
+                    "y": 942
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:20px'>Abstract</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1000
+                },
+                {
+                    "x": 1200,
+                    "y": 1000
+                },
+                {
+                    "x": 1200,
+                    "y": 1992
+                },
+                {
+                    "x": 199,
+                    "y": 1992
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:16px'>Automatically describing the content of an image is a<br>fundamental problem in artificial intelligence that connects<br>computer vision and natural language processing. In this<br>paper, we present a generative model based on a deep re-<br>current architecture that combines recent advances in com-<br>puter vision and machine translation and that can be used<br>to generate natural sentences describing an image. The<br>model is trained to maximize the likelihood of the target de-<br>scription sentence given the training image. Experiments<br>on several datasets show the accuracy of the model and the<br>fluency of the language it learns solely from image descrip-<br>tions. Our model is often quite accurate, which we verify<br>both qualitatively and quantitatively. For instance, while<br>the current state-of-the-art BLEU-1 score (the higher the<br>better) on the Pascal dataset is 25, our approach yields 59,<br>to be compared to human performance around 69. We also<br>show BLEU-1 score improvements on Flickr30k, from 56 to<br>66, and on SBU, from 19 to 28. Lastly, on the newly released<br>COCO dataset, we achieve a BLEU-4 of27.7, which is the<br>current state-of-the-art.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Automatically describing the content of an image is a fundamental problem in artificial intelligence that connects computer vision and natural language processing. In this paper, we present a generative model based on a deep recurrent architecture that combines recent advances in computer vision and machine translation and that can be used to generate natural sentences describing an image. The model is trained to maximize the likelihood of the target description sentence given the training image. Experiments on several datasets show the accuracy of the model and the fluency of the language it learns solely from image descriptions. Our model is often quite accurate, which we verify both qualitatively and quantitatively. For instance, while the current state-of-the-art BLEU-1 score (the higher the better) on the Pascal dataset is 25, our approach yields 59, to be compared to human performance around 69. We also show BLEU-1 score improvements on Flickr30k, from 56 to 66, and on SBU, from 19 to 28. Lastly, on the newly released COCO dataset, we achieve a BLEU-4 of27.7, which is the current state-of-the-art."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2094
+                },
+                {
+                    "x": 531,
+                    "y": 2094
+                },
+                {
+                    "x": 531,
+                    "y": 2144
+                },
+                {
+                    "x": 204,
+                    "y": 2144
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:18px'>1. Introduction</p>",
+            "id": 8,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2176
+                },
+                {
+                    "x": 1199,
+                    "y": 2176
+                },
+                {
+                    "x": 1199,
+                    "y": 2925
+                },
+                {
+                    "x": 201,
+                    "y": 2925
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:16px'>Being able to automatically describe the content of an<br>image using properly formed English sentences is a very<br>challenging task, butit could have great impact, for instance<br>by helping visually impaired people better understand the<br>content of images on the web. This task is significantly<br>harder, for example, than the well-studied image classifi-<br>cation or object recognition tasks, which have been a main<br>focus in the computer vision community [27]. Indeed, a<br>description must capture not only the objects contained in<br>an image, but it also must express how these objects relate<br>to each other as well as their attributes and the activities<br>they are involved in. Moreover, the above semantic knowl-<br>edge has to be expressed in a natural language like English,<br>which means that a language model is needed in addition to<br>visual understanding.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "Being able to automatically describe the content of an image using properly formed English sentences is a very challenging task, butit could have great impact, for instance by helping visually impaired people better understand the content of images on the web. This task is significantly harder, for example, than the well-studied image classification or object recognition tasks, which have been a main focus in the computer vision community . Indeed, a description must capture not only the objects contained in an image, but it also must express how these objects relate to each other as well as their attributes and the activities they are involved in. Moreover, the above semantic knowledge has to be expressed in a natural language like English, which means that a language model is needed in addition to visual understanding."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 252,
+                    "y": 2929
+                },
+                {
+                    "x": 1197,
+                    "y": 2929
+                },
+                {
+                    "x": 1197,
+                    "y": 2974
+                },
+                {
+                    "x": 252,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:18px'>Most previous attempts have proposed to stitch together</p>",
+            "id": 10,
+            "page": 1,
+            "text": "Most previous attempts have proposed to stitch together"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1285,
+                    "y": 897
+                },
+                {
+                    "x": 1659,
+                    "y": 897
+                },
+                {
+                    "x": 1659,
+                    "y": 1304
+                },
+                {
+                    "x": 1285,
+                    "y": 1304
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='11' alt=\"\" data-coord=\"top-left:(1285,897); bottom-right:(1659,1304)\" /></figure>",
+            "id": 11,
+            "page": 1,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 2002,
+                    "y": 967
+                },
+                {
+                    "x": 2302,
+                    "y": 967
+                },
+                {
+                    "x": 2302,
+                    "y": 1078
+                },
+                {
+                    "x": 2002,
+                    "y": 1078
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:16px'>A group of people<br>shopping at an<br>outdoor market.</p>",
+            "id": 12,
+            "page": 1,
+            "text": "A group of people shopping at an outdoor market."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1678,
+                    "y": 972
+                },
+                {
+                    "x": 1995,
+                    "y": 972
+                },
+                {
+                    "x": 1995,
+                    "y": 1229
+                },
+                {
+                    "x": 1678,
+                    "y": 1229
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='13' style='font-size:14px' alt=\"Vision Language\nDeep CNN Generating\nRNN\" data-coord=\"top-left:(1678,972); bottom-right:(1995,1229)\" /></figure>",
+            "id": 13,
+            "page": 1,
+            "text": "Vision Language Deep CNN Generating RNN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 2003,
+                    "y": 1121
+                },
+                {
+                    "x": 2291,
+                    "y": 1121
+                },
+                {
+                    "x": 2291,
+                    "y": 1233
+                },
+                {
+                    "x": 2003,
+                    "y": 1233
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:14px'>There are many<br>vegetables at the<br>fruit stand.</p>",
+            "id": 14,
+            "page": 1,
+            "text": "There are many vegetables at the fruit stand."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1629
+                },
+                {
+                    "x": 2276,
+                    "y": 1629
+                },
+                {
+                    "x": 2276,
+                    "y": 1974
+                },
+                {
+                    "x": 1281,
+                    "y": 1974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:16px'>existing solutions of the above sub-problems, in order to go<br>from an image to its description [6, 16]. In contrast, we<br>would like to present in this work a single joint model that<br>takes an image I as input, and is trained to maximize the<br>likelihood p(S|I) of producing a target sequence of words<br>S = {S1, S2, · · } where each word St comes from a given<br>dictionary, that describes the image adequately.</p>",
+            "id": 15,
+            "page": 1,
+            "text": "existing solutions of the above sub-problems, in order to go from an image to its description . In contrast, we would like to present in this work a single joint model that takes an image I as input, and is trained to maximize the likelihood p(S|I) of producing a target sequence of words S = {S1, S2, · · } where each word St comes from a given dictionary, that describes the image adequately."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1357
+                },
+                {
+                    "x": 2276,
+                    "y": 1357
+                },
+                {
+                    "x": 2276,
+                    "y": 1540
+                },
+                {
+                    "x": 1282,
+                    "y": 1540
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='16' style='font-size:16px'>Figure 1. NIC, our model, is based end-to-end on a neural net-<br>work consisting of a vision CNN followed by a language gener-<br>ating RNN. It generates complete sentences in natural language<br>from an input image, as shown on the example above.</caption>",
+            "id": 16,
+            "page": 1,
+            "text": "Figure 1. NIC, our model, is based end-to-end on a neural network consisting of a vision CNN followed by a language generating RNN. It generates complete sentences in natural language from an input image, as shown on the example above."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1981
+                },
+                {
+                    "x": 2275,
+                    "y": 1981
+                },
+                {
+                    "x": 2275,
+                    "y": 2672
+                },
+                {
+                    "x": 1279,
+                    "y": 2672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:16px'>The main inspiration of our work comes from recent ad-<br>vances in machine translation, where the task is to transform<br>a sentence S written in a source language, into its transla-<br>tion T in the target language, by maximizing p(T|S). For<br>many years, machine translation was also achieved by a se-<br>ries of separate tasks (translating words individually, align-<br>ing words, reordering, etc), but recent work has shown that<br>translation can be done in a much simpler way using Re-<br>current Neural Networks (RNNs) [3, 2, 30] and still reach<br>state-of-the-art performance. An \"encoder\" RNN reads the<br>source sentence and transforms it into a rich fixed-length<br>vector representation, which in turn in used as the initial<br>hidden state of a \"decoder\" RNN that generates the target<br>sentence.</p>",
+            "id": 17,
+            "page": 1,
+            "text": "The main inspiration of our work comes from recent advances in machine translation, where the task is to transform a sentence S written in a source language, into its translation T in the target language, by maximizing p(T|S). For many years, machine translation was also achieved by a series of separate tasks (translating words individually, aligning words, reordering, etc), but recent work has shown that translation can be done in a much simpler way using Recurrent Neural Networks (RNNs)  and still reach state-of-the-art performance. An \"encoder\" RNN reads the source sentence and transforms it into a rich fixed-length vector representation, which in turn in used as the initial hidden state of a \"decoder\" RNN that generates the target sentence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2679
+                },
+                {
+                    "x": 2275,
+                    "y": 2679
+                },
+                {
+                    "x": 2275,
+                    "y": 2977
+                },
+                {
+                    "x": 1281,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:16px'>Here, we propose to follow this elegant recipe, replac-<br>ing the encoder RNN by a deep convolution neural network<br>(CNN). Over the last few years it has been convincingly<br>shown that CNNs can produce a rich representation of the<br>input image by embedding it to a fixed-length vector, such<br>that this representation can be used for a variety of vision</p>",
+            "id": 18,
+            "page": 1,
+            "text": "Here, we propose to follow this elegant recipe, replacing the encoder RNN by a deep convolution neural network (CNN). Over the last few years it has been convincingly shown that CNNs can produce a rich representation of the input image by embedding it to a fixed-length vector, such that this representation can be used for a variety of vision"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 64,
+                    "y": 883
+                },
+                {
+                    "x": 151,
+                    "y": 883
+                },
+                {
+                    "x": 151,
+                    "y": 2322
+                },
+                {
+                    "x": 64,
+                    "y": 2322
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='19' style='font-size:14px'>2015<br>Apr<br>20<br>[cs.CV]<br>arXiv:1411.4555v2</footer>",
+            "id": 19,
+            "page": 1,
+            "text": "2015 Apr 20 [cs.CV] arXiv:1411.4555v2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1226,
+                    "y": 3057
+                },
+                {
+                    "x": 1250,
+                    "y": 3057
+                },
+                {
+                    "x": 1250,
+                    "y": 3091
+                },
+                {
+                    "x": 1226,
+                    "y": 3091
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='20' style='font-size:16px'>1</footer>",
+            "id": 20,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 306
+                },
+                {
+                    "x": 1201,
+                    "y": 306
+                },
+                {
+                    "x": 1201,
+                    "y": 553
+                },
+                {
+                    "x": 200,
+                    "y": 553
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:16px'>tasks [28]. Hence, it is natural to use a CNN as an image<br>\"encoder\", by first pre-training it for an image classification<br>task and using the last hidden layer as an input to the RNN<br>decoder that generates sentences (see Fig. 1). We call this<br>model the Neural Image Caption, or NIC.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "tasks . Hence, it is natural to use a CNN as an image \"encoder\", by first pre-training it for an image classification task and using the last hidden layer as an input to the RNN decoder that generates sentences (see Fig. 1). We call this model the Neural Image Caption, or NIC."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 556
+                },
+                {
+                    "x": 1199,
+                    "y": 556
+                },
+                {
+                    "x": 1199,
+                    "y": 1152
+                },
+                {
+                    "x": 199,
+                    "y": 1152
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:16px'>Our contributions are as follows. First, we present an<br>end-to-end system for the problem. It is a neural net which<br>is fully trainable using stochastic gradient descent. Second,<br>our model combines state-of-art sub-networks for vision<br>and language models. These can be pre-trained on larger<br>corpora and thus can take advantage of additional data. Fi-<br>nally, it yields significantly better performance compared<br>to state-of-the-art approaches; for instance, on the Pascal<br>dataset, NIC yielded a BLEU score of 59, to be compared to<br>the current state-of-the-art of 25, while human performance<br>reaches 69. On Flickr30k, we improve from 56 to 66, and<br>on SBU, from 19 to 28.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "Our contributions are as follows. First, we present an end-to-end system for the problem. It is a neural net which is fully trainable using stochastic gradient descent. Second, our model combines state-of-art sub-networks for vision and language models. These can be pre-trained on larger corpora and thus can take advantage of additional data. Finally, it yields significantly better performance compared to state-of-the-art approaches; for instance, on the Pascal dataset, NIC yielded a BLEU score of 59, to be compared to the current state-of-the-art of 25, while human performance reaches 69. On Flickr30k, we improve from 56 to 66, and on SBU, from 19 to 28."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1197
+                },
+                {
+                    "x": 558,
+                    "y": 1197
+                },
+                {
+                    "x": 558,
+                    "y": 1248
+                },
+                {
+                    "x": 202,
+                    "y": 1248
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:22px'>2. Related Work</p>",
+            "id": 23,
+            "page": 2,
+            "text": "2. Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1281
+                },
+                {
+                    "x": 1200,
+                    "y": 1281
+                },
+                {
+                    "x": 1200,
+                    "y": 1730
+                },
+                {
+                    "x": 201,
+                    "y": 1730
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:18px'>The problem of generating natural language descriptions<br>from visual data has long been studied in computer vision,<br>but mainly for video [7, 32]. This has led to complex sys-<br>tems composed of visual primitive recognizers combined<br>with a structured formal language, e.g. And-Or Graphs or<br>logic systems, which are further converted to natural lan-<br>guage via rule-based systems. Such systems are heav-<br>ily hand-designed, relatively brittle and have been demon-<br>strated only on limited domains, e.g. traffic scenes or sports.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "The problem of generating natural language descriptions from visual data has long been studied in computer vision, but mainly for video . This has led to complex systems composed of visual primitive recognizers combined with a structured formal language, e.g. And-Or Graphs or logic systems, which are further converted to natural language via rule-based systems. Such systems are heavily hand-designed, relatively brittle and have been demonstrated only on limited domains, e.g. traffic scenes or sports."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1732
+                },
+                {
+                    "x": 1200,
+                    "y": 1732
+                },
+                {
+                    "x": 1200,
+                    "y": 2524
+                },
+                {
+                    "x": 199,
+                    "y": 2524
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:18px'>The problem of still image description with natural text<br>has gained interest more recently. Leveraging recent ad-<br>vances in recognition of objects, their attributes and loca-<br>tions, allows us to drive natural language generation sys-<br>tems, though these are limited in their expressivity. Farhadi<br>et al. [6] use detections to infer a triplet of scene elements<br>which is converted to text using templates. Similarly, Li<br>et al. [19] start off with detections and piece together a fi-<br>nal description using phrases containing detected objects<br>and relationships. A more complex graph of detections<br>beyond triplets is used by Kulkani et al. [16], but with<br>template-based text generation. More powerful language<br>models based on language parsing have been used as well<br>[23, 1, 17, 18, 5]. The above approaches have been able to<br>describe images \"in the wild\", but they are heavily hand-<br>designed and rigid when it comes to text generation.</p>",
+            "id": 25,
+            "page": 2,
+            "text": "The problem of still image description with natural text has gained interest more recently. Leveraging recent advances in recognition of objects, their attributes and locations, allows us to drive natural language generation systems, though these are limited in their expressivity. Farhadi   use detections to infer a triplet of scene elements which is converted to text using templates. Similarly, Li   start off with detections and piece together a final description using phrases containing detected objects and relationships. A more complex graph of detections beyond triplets is used by Kulkani  , but with template-based text generation. More powerful language models based on language parsing have been used as well . The above approaches have been able to describe images \"in the wild\", but they are heavily handdesigned and rigid when it comes to text generation."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2529
+                },
+                {
+                    "x": 1201,
+                    "y": 2529
+                },
+                {
+                    "x": 1201,
+                    "y": 2979
+                },
+                {
+                    "x": 201,
+                    "y": 2979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:18px'>A large body of work has addressed the problem of rank-<br>ing descriptions for a given image [11, 8, 24]. Such ap-<br>proaches are based on the idea of co-embedding of images<br>and text in the same vector space. For an image query, de-<br>scriptions are retrieved which lie close to the image in the<br>embedding space. Most closely, neural networks are used to<br>co-embed images and sentences together [29] or even image<br>crops and subsentences [13] but do not attempt to generate<br>novel descriptions. In general, the above approaches cannot</p>",
+            "id": 26,
+            "page": 2,
+            "text": "A large body of work has addressed the problem of ranking descriptions for a given image . Such approaches are based on the idea of co-embedding of images and text in the same vector space. For an image query, descriptions are retrieved which lie close to the image in the embedding space. Most closely, neural networks are used to co-embed images and sentences together  or even image crops and subsentences  but do not attempt to generate novel descriptions. In general, the above approaches cannot"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 307
+                },
+                {
+                    "x": 2278,
+                    "y": 307
+                },
+                {
+                    "x": 2278,
+                    "y": 503
+                },
+                {
+                    "x": 1279,
+                    "y": 503
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:18px'>describe previously unseen compositions of objects, even<br>though the individual objects might have been observed in<br>the training data. Moreover, they avoid addressing the prob-<br>lem of evaluating how good a generated description is.</p>",
+            "id": 27,
+            "page": 2,
+            "text": "describe previously unseen compositions of objects, even though the individual objects might have been observed in the training data. Moreover, they avoid addressing the problem of evaluating how good a generated description is."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 507
+                },
+                {
+                    "x": 2278,
+                    "y": 507
+                },
+                {
+                    "x": 2278,
+                    "y": 1802
+                },
+                {
+                    "x": 1277,
+                    "y": 1802
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:16px'>In this work we combine deep convolutional nets for im-<br>age classification [12] with recurrent networks for sequence<br>modeling [10], to create a single network that generates de-<br>scriptions of images. The RNN is trained in the context of<br>this single \"end-to-end\" network. The model is inspired by<br>recent successes of sequence generation in machine trans-<br>lation [3, 2, 30], with the difference that instead of starting<br>with a sentence, we provide an image processed by a con-<br>volutional net. The closest works are by Kiros et al. [15]<br>who use a neural net, but a feedforward one, to predict the<br>next word given the image and previous words. A recent<br>work by Mao et al. [21] uses a recurrent NN for the same<br>prediction task. This is very similar to the present proposal<br>but there are a number of important differences: we use a<br>more powerful RNN model, and provide the visual input to<br>the RNN model directly, which makes it possible for the<br>RNN to keep track of the objects that have been explained<br>by the text. As a result of these seemingly insignificant dif-<br>ferences, our system achieves substantially better results on<br>the established benchmarks. Lastly, Kiros et al. [14] pro-<br>pose to construct a joint multimodal embedding space by<br>using a powerful computer vision model and an LSTM that<br>encodes text. In contrast to our approach, they use two sepa-<br>rate pathways (one for images, one for text) to define a joint<br>embedding, and, even though they can generate text, their<br>approach is highly tuned for ranking.</p>",
+            "id": 28,
+            "page": 2,
+            "text": "In this work we combine deep convolutional nets for image classification  with recurrent networks for sequence modeling , to create a single network that generates descriptions of images. The RNN is trained in the context of this single \"end-to-end\" network. The model is inspired by recent successes of sequence generation in machine translation , with the difference that instead of starting with a sentence, we provide an image processed by a convolutional net. The closest works are by Kiros   who use a neural net, but a feedforward one, to predict the next word given the image and previous words. A recent work by Mao   uses a recurrent NN for the same prediction task. This is very similar to the present proposal but there are a number of important differences: we use a more powerful RNN model, and provide the visual input to the RNN model directly, which makes it possible for the RNN to keep track of the objects that have been explained by the text. As a result of these seemingly insignificant differences, our system achieves substantially better results on the established benchmarks. Lastly, Kiros   propose to construct a joint multimodal embedding space by using a powerful computer vision model and an LSTM that encodes text. In contrast to our approach, they use two separate pathways (one for images, one for text) to define a joint embedding, and, even though they can generate text, their approach is highly tuned for ranking."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1836
+                },
+                {
+                    "x": 1475,
+                    "y": 1836
+                },
+                {
+                    "x": 1475,
+                    "y": 1887
+                },
+                {
+                    "x": 1281,
+                    "y": 1887
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:22px'>3. Model</p>",
+            "id": 29,
+            "page": 2,
+            "text": "3. Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1921
+                },
+                {
+                    "x": 2278,
+                    "y": 1921
+                },
+                {
+                    "x": 2278,
+                    "y": 2616
+                },
+                {
+                    "x": 1278,
+                    "y": 2616
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:14px'>In this paper, we propose a neural and probabilistic<br>framework to generate descriptions from images. Recent<br>advances in statistical machine translation have shown that,<br>given a powerful sequence model, it is possible to achieve<br>state-of-the-art results by directly maximizing the proba-<br>bility of the correct translation given an input sentence in<br>an \"end-to-end\" fashion - both for training and inference.<br>These models make use of a recurrent neural network which<br>encodes the variable length input into a fixed dimensional<br>vector, and uses this representation to \"decode\" it to the de-<br>sired output sentence. Thus, it is natural to use the same ap-<br>proach where, given an image (instead of an input sentence<br>in the source language), one applies the same principle of<br>\"translating\" it into its description.</p>",
+            "id": 30,
+            "page": 2,
+            "text": "In this paper, we propose a neural and probabilistic framework to generate descriptions from images. Recent advances in statistical machine translation have shown that, given a powerful sequence model, it is possible to achieve state-of-the-art results by directly maximizing the probability of the correct translation given an input sentence in an \"end-to-end\" fashion - both for training and inference. These models make use of a recurrent neural network which encodes the variable length input into a fixed dimensional vector, and uses this representation to \"decode\" it to the desired output sentence. Thus, it is natural to use the same approach where, given an image (instead of an input sentence in the source language), one applies the same principle of \"translating\" it into its description."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2618
+                },
+                {
+                    "x": 2278,
+                    "y": 2618
+                },
+                {
+                    "x": 2278,
+                    "y": 2766
+                },
+                {
+                    "x": 1280,
+                    "y": 2766
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:18px'>Thus, we propose to directly maximize the probability of<br>the correct description given the image by using the follow-<br>ing formulation:</p>",
+            "id": 31,
+            "page": 2,
+            "text": "Thus, we propose to directly maximize the probability of the correct description given the image by using the following formulation:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2928
+                },
+                {
+                    "x": 2274,
+                    "y": 2928
+                },
+                {
+                    "x": 2274,
+                    "y": 2978
+                },
+                {
+                    "x": 1280,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:14px'>where 0 are the parameters of our model, I is an image, and</p>",
+            "id": 32,
+            "page": 2,
+            "text": "where 0 are the parameters of our model, I is an image, and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 305
+                },
+                {
+                    "x": 1202,
+                    "y": 305
+                },
+                {
+                    "x": 1202,
+                    "y": 503
+                },
+                {
+                    "x": 200,
+                    "y": 503
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:18px'>S its correct transcription. Since S represents any sentence,<br>its length is unbounded. Thus, it is common to apply the<br>chain rule to model the joint probability over So, · · · , SN,<br>where N is the length of this particular example as</p>",
+            "id": 33,
+            "page": 3,
+            "text": "S its correct transcription. Since S represents any sentence, its length is unbounded. Thus, it is common to apply the chain rule to model the joint probability over So, · · · , SN, where N is the length of this particular example as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 753
+                },
+                {
+                    "x": 1199,
+                    "y": 753
+                },
+                {
+                    "x": 1199,
+                    "y": 998
+                },
+                {
+                    "x": 201,
+                    "y": 998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:20px'>where we dropped the dependency on 0 for convenience.<br>At training time, (S, I) is a training example pair, and we<br>optimize the sum of the log probabilities as described in (2)<br>over the whole training set using stochastic gradient descent<br>(further training details are given in Section 4).</p>",
+            "id": 34,
+            "page": 3,
+            "text": "where we dropped the dependency on 0 for convenience. At training time, (S, I) is a training example pair, and we optimize the sum of the log probabilities as described in (2) over the whole training set using stochastic gradient descent (further training details are given in Section 4)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1002
+                },
+                {
+                    "x": 1200,
+                    "y": 1002
+                },
+                {
+                    "x": 1200,
+                    "y": 1298
+                },
+                {
+                    "x": 201,
+                    "y": 1298
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='35' style='font-size:18px'>It is natural to model p(St|I, So, · · · , St-1) with a Re-<br>current Neural Network (RNN), where the variable number<br>of words we condition upon up to t - 1 is expressed by a<br>fixed length hidden state or memory ht. This memory is<br>updated after seeing a new input Xt by using a non-linear<br>function f:</p>",
+            "id": 35,
+            "page": 3,
+            "text": "It is natural to model p(St|I, So, · · · , St-1) with a Recurrent Neural Network (RNN), where the variable number of words we condition upon up to t - 1 is expressed by a fixed length hidden state or memory ht. This memory is updated after seeing a new input Xt by using a non-linear function f:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1374
+                },
+                {
+                    "x": 1199,
+                    "y": 1374
+                },
+                {
+                    "x": 1199,
+                    "y": 1670
+                },
+                {
+                    "x": 201,
+                    "y": 1670
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>To make the above RNN more concrete two crucial design<br>choices are to be made: what is the exact form of f and<br>how are the images and words fed as inputs Xt. For f we<br>use a Long-Short Term Memory (LSTM) net, which has<br>shown state-of-the art performance on sequence tasks such<br>as translation. This model is outlined in the next section.</p>",
+            "id": 36,
+            "page": 3,
+            "text": "To make the above RNN more concrete two crucial design choices are to be made: what is the exact form of f and how are the images and words fed as inputs Xt. For f we use a Long-Short Term Memory (LSTM) net, which has shown state-of-the art performance on sequence tasks such as translation. This model is outlined in the next section."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1675
+                },
+                {
+                    "x": 1200,
+                    "y": 1675
+                },
+                {
+                    "x": 1200,
+                    "y": 2170
+                },
+                {
+                    "x": 201,
+                    "y": 2170
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:18px'>For the representation of images, we use a Convolutional<br>Neural Network (CNN). They have been widely used and<br>studied for image tasks, and are currently state-of-the art<br>for object recognition and detection. Our particular choice<br>of CNN uses a novel approach to batch normalization and<br>yields the current best performance on the ILSVRC 2014<br>classification competition [12]. Furthermore, they have<br>been shown to generalize to other tasks such as scene clas-<br>sification by means of transfer learning [4]. The words are<br>represented with an embedding model.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "For the representation of images, we use a Convolutional Neural Network (CNN). They have been widely used and studied for image tasks, and are currently state-of-the art for object recognition and detection. Our particular choice of CNN uses a novel approach to batch normalization and yields the current best performance on the ILSVRC 2014 classification competition . Furthermore, they have been shown to generalize to other tasks such as scene classification by means of transfer learning . The words are represented with an embedding model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2202
+                },
+                {
+                    "x": 947,
+                    "y": 2202
+                },
+                {
+                    "x": 947,
+                    "y": 2252
+                },
+                {
+                    "x": 201,
+                    "y": 2252
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:22px'>3.1. LSTM-based Sentence Generator</p>",
+            "id": 38,
+            "page": 3,
+            "text": "3.1. LSTM-based Sentence Generator"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2279
+                },
+                {
+                    "x": 1200,
+                    "y": 2279
+                },
+                {
+                    "x": 1200,
+                    "y": 2575
+                },
+                {
+                    "x": 201,
+                    "y": 2575
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:20px'>The choice of f in (3) is governed by its ability to deal<br>with vanishing and exploding gradients [10], the most com-<br>mon challenge in designing and training RNNs. To address<br>this challenge, a particular form of recurrent nets, called<br>LSTM, was introduced [10] and applied with great success<br>to translation [3, 30] and sequence generation [9].</p>",
+            "id": 39,
+            "page": 3,
+            "text": "The choice of f in (3) is governed by its ability to deal with vanishing and exploding gradients , the most common challenge in designing and training RNNs. To address this challenge, a particular form of recurrent nets, called LSTM, was introduced  and applied with great success to translation  and sequence generation ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2580
+                },
+                {
+                    "x": 1200,
+                    "y": 2580
+                },
+                {
+                    "x": 1200,
+                    "y": 2977
+                },
+                {
+                    "x": 201,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:18px'>The core of the LSTM model is a memory cell c encod-<br>ing knowledge at every time step of what inputs have been<br>observed up to this step (see Figure 2) · The behavior of the<br>cell is controlled by \"gates\" - layers which are applied mul-<br>tiplicatively and thus can either keep a value from the gated<br>layer if the gate is 1 or zero this value if the gate is 0. In<br>particular, three gates are being used which control whether<br>to forget the current cell value (forget gate f), if it should</p>",
+            "id": 40,
+            "page": 3,
+            "text": "The core of the LSTM model is a memory cell c encoding knowledge at every time step of what inputs have been observed up to this step (see Figure 2) · The behavior of the cell is controlled by \"gates\" - layers which are applied multiplicatively and thus can either keep a value from the gated layer if the gate is 1 or zero this value if the gate is 0. In particular, three gates are being used which control whether to forget the current cell value (forget gate f), if it should"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1361,
+                    "y": 292
+                },
+                {
+                    "x": 2201,
+                    "y": 292
+                },
+                {
+                    "x": 2201,
+                    "y": 1275
+                },
+                {
+                    "x": 1361,
+                    "y": 1275
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='41' style='font-size:14px' alt=\"word prediction\nsoftmax\nLSTM\nmt block\nmemory\n0 ● forget\nCt-l gate f\n!output\ngate f\nC 0\nCt\n0\ninput\ngate i\nupdating\nh\nterm\nX\ninput\" data-coord=\"top-left:(1361,292); bottom-right:(2201,1275)\" /></figure>",
+            "id": 41,
+            "page": 3,
+            "text": "word prediction softmax LSTM mt block memory 0 ● forget Ct-l gate f !output gate f C 0 Ct 0 input gate i updating h term X input"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1318
+                },
+                {
+                    "x": 2279,
+                    "y": 1318
+                },
+                {
+                    "x": 2279,
+                    "y": 1597
+                },
+                {
+                    "x": 1279,
+                    "y": 1597
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='42' style='font-size:14px'>Figure 2. LSTM: the memory block contains a cell c which is<br>controlled by three gates. In blue we show the recurrent connec-<br>tions - the output m at time t - 1 is fed back to the memory at<br>time t via the three gates; the cell value is fed back via the forget<br>gate; the predicted word at time t - 1 is fed back in addition to the<br>memory output m at time t into the Softmax for word prediction.</caption>",
+            "id": 42,
+            "page": 3,
+            "text": "Figure 2. LSTM: the memory block contains a cell c which is controlled by three gates. In blue we show the recurrent connections - the output m at time t - 1 is fed back to the memory at time t via the three gates; the cell value is fed back via the forget gate; the predicted word at time t - 1 is fed back in addition to the memory output m at time t into the Softmax for word prediction."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1679
+                },
+                {
+                    "x": 2277,
+                    "y": 1679
+                },
+                {
+                    "x": 2277,
+                    "y": 1825
+                },
+                {
+                    "x": 1280,
+                    "y": 1825
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>read its input (input gate i) and whether to output the new<br>cell value (output gate 0). The definition of the gates and<br>cell update and output are as follows:</p>",
+            "id": 43,
+            "page": 3,
+            "text": "read its input (input gate i) and whether to output the new cell value (output gate 0). The definition of the gates and cell update and output are as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2269
+                },
+                {
+                    "x": 2277,
+                    "y": 2269
+                },
+                {
+                    "x": 2277,
+                    "y": 2665
+                },
+                {
+                    "x": 1279,
+                    "y": 2665
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:18px'>where ⊙ represents the product with a gate value, and the<br>various W matrices are trained parameters. Such multi-<br>plicative gates make it possible to train the LSTM robustly<br>as these gates deal well with exploding and vanishing gra-<br>dients [10]. The nonlinearities are sigmoid �(·) and hyper-<br>bolic tangent ん(·). The last equation mt is what is used to<br>feed to a Softmax, which will produce a probability distri-<br>bution Pt over all words.</p>",
+            "id": 44,
+            "page": 3,
+            "text": "where ⊙ represents the product with a gate value, and the various W matrices are trained parameters. Such multiplicative gates make it possible to train the LSTM robustly as these gates deal well with exploding and vanishing gradients . The nonlinearities are sigmoid �(·) and hyperbolic tangent ん(·). The last equation mt is what is used to feed to a Softmax, which will produce a probability distribution Pt over all words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2726
+                },
+                {
+                    "x": 2279,
+                    "y": 2726
+                },
+                {
+                    "x": 2279,
+                    "y": 2978
+                },
+                {
+                    "x": 1280,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>Training The LSTM model is trained to predict each<br>word of the sentence after it has seen the image as well<br>as all preceding words as defined by p(St|I, So, · · · , St-1).<br>For this purpose, itis instructive to think of the LSTM in un-<br>rolled form - a copy of the LSTM memory is created for the</p>",
+            "id": 45,
+            "page": 3,
+            "text": "Training The LSTM model is trained to predict each word of the sentence after it has seen the image as well as all preceding words as defined by p(St|I, So, · · · , St-1). For this purpose, itis instructive to think of the LSTM in unrolled form - a copy of the LSTM memory is created for the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 316,
+                    "y": 294
+                },
+                {
+                    "x": 1085,
+                    "y": 294
+                },
+                {
+                    "x": 1085,
+                    "y": 900
+                },
+                {
+                    "x": 316,
+                    "y": 900
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='46' style='font-size:14px' alt=\"log pI(Si) log p2(S2) log PN(SN)\nPI P2 PN\n↑\nLSTM\nLSTM\nLSTM\nLSTM\nWeSo WeSI WeSN-I\n↑\nimage S ON-I\" data-coord=\"top-left:(316,294); bottom-right:(1085,900)\" /></figure>",
+            "id": 46,
+            "page": 4,
+            "text": "log pI(Si) log p2(S2) log PN(SN) PI P2 PN ↑ LSTM LSTM LSTM LSTM WeSo WeSI WeSN-I ↑ image S ON-I"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 944
+                },
+                {
+                    "x": 1201,
+                    "y": 944
+                },
+                {
+                    "x": 1201,
+                    "y": 1175
+                },
+                {
+                    "x": 200,
+                    "y": 1175
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='47' style='font-size:16px'>Figure 3. LSTM model combined with a CNN image embedder<br>(as defined in [12]) and word embeddings. The unrolled connec-<br>tions between the LSTM memories are in blue and they corre-<br>spond to the recurrent connections in Figure 2. All LSTMs share<br>the same parameters.</caption>",
+            "id": 47,
+            "page": 4,
+            "text": "Figure 3. LSTM model combined with a CNN image embedder (as defined in ) and word embeddings. The unrolled connections between the LSTM memories are in blue and they correspond to the recurrent connections in Figure 2. All LSTMs share the same parameters."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1260
+                },
+                {
+                    "x": 1200,
+                    "y": 1260
+                },
+                {
+                    "x": 1200,
+                    "y": 1610
+                },
+                {
+                    "x": 200,
+                    "y": 1610
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:18px'>image and each sentence word such that all LSTMs share<br>the same parameters and the output mt-1 of the LSTM at<br>time t - 1 is fed to the LSTM at time t (see Figure 3). All<br>recurrent connections are transformed to feed-forward con-<br>nections in the unrolled version. In more detail, if we denote<br>by I the input image and by S = (So, · · · , SN) a true sen-<br>tence describing this image, the unrolling procedure reads:</p>",
+            "id": 48,
+            "page": 4,
+            "text": "image and each sentence word such that all LSTMs share the same parameters and the output mt-1 of the LSTM at time t - 1 is fed to the LSTM at time t (see Figure 3). All recurrent connections are transformed to feed-forward connections in the unrolled version. In more detail, if we denote by I the input image and by S = (So, · · · , SN) a true sentence describing this image, the unrolling procedure reads:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1870
+                },
+                {
+                    "x": 1199,
+                    "y": 1870
+                },
+                {
+                    "x": 1199,
+                    "y": 2514
+                },
+                {
+                    "x": 200,
+                    "y": 2514
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:20px'>where we represent each word as a one-hot vector St of<br>dimension equal to the size of the dictionary. Note that we<br>denote by So a special start word and by SN a special stop<br>word which designates the start and end of the sentence. In<br>particular by emitting the stop word the LSTM signals that a<br>complete sentence has been generated. Both the image and<br>the words are mapped to the same space, the image by using<br>a vision CNN, the words by using word embedding We.<br>The image I is only input once, at t = -1, to inform the<br>LSTM about the image contents. We empirically verified<br>that feeding the image at each time step as an extra input<br>yields inferior results, as the network can explicitly exploit<br>noise in the image and overfits more easily.</p>",
+            "id": 49,
+            "page": 4,
+            "text": "where we represent each word as a one-hot vector St of dimension equal to the size of the dictionary. Note that we denote by So a special start word and by SN a special stop word which designates the start and end of the sentence. In particular by emitting the stop word the LSTM signals that a complete sentence has been generated. Both the image and the words are mapped to the same space, the image by using a vision CNN, the words by using word embedding We. The image I is only input once, at t = -1, to inform the LSTM about the image contents. We empirically verified that feeding the image at each time step as an extra input yields inferior results, as the network can explicitly exploit noise in the image and overfits more easily."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2519
+                },
+                {
+                    "x": 1200,
+                    "y": 2519
+                },
+                {
+                    "x": 1200,
+                    "y": 2617
+                },
+                {
+                    "x": 201,
+                    "y": 2617
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:18px'>Our loss is the sum of the negative log likelihood of the<br>correct word at each step as follows:</p>",
+            "id": 50,
+            "page": 4,
+            "text": "Our loss is the sum of the negative log likelihood of the correct word at each step as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2827
+                },
+                {
+                    "x": 1199,
+                    "y": 2975
+                },
+                {
+                    "x": 200,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:20px'>The above loss is minimized w.r.t. all the parameters of the<br>LSTM, the top layer of the image embedder CNN and word<br>embeddings We.</p>",
+            "id": 51,
+            "page": 4,
+            "text": "The above loss is minimized w.r.t. all the parameters of the LSTM, the top layer of the image embedder CNN and word embeddings We."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 304
+                },
+                {
+                    "x": 2278,
+                    "y": 304
+                },
+                {
+                    "x": 2278,
+                    "y": 1003
+                },
+                {
+                    "x": 1276,
+                    "y": 1003
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='52' style='font-size:20px'>Inference There are multiple approaches that can be used<br>to generate a sentence given an image, with NIC. The first<br>one is Sampling where we just sample the first word ac-<br>cording to P1, then provide the corresponding embedding<br>as input and sample p2, continuing like this until we sample<br>the special end-of-sentence token or some maximum length.<br>The second one is BeamSearch: iteratively consider the set<br>of the k best sentences up to time t as candidates to generate<br>sentences of size t + 1, and keep only the resulting best k<br>of them. This better approximates S = arg maxs' p(S\"|I).<br>We used the BeamSearch approach in the following experi-<br>ments, with a beam of size 20. Using a beam size of 1 (i.e.,<br>greedy search) did degrade our results by 2 BLEU points on<br>average.</p>",
+            "id": 52,
+            "page": 4,
+            "text": "Inference There are multiple approaches that can be used to generate a sentence given an image, with NIC. The first one is Sampling where we just sample the first word according to P1, then provide the corresponding embedding as input and sample p2, continuing like this until we sample the special end-of-sentence token or some maximum length. The second one is BeamSearch: iteratively consider the set of the k best sentences up to time t as candidates to generate sentences of size t + 1, and keep only the resulting best k of them. This better approximates S = arg maxs' p(S\"|I). We used the BeamSearch approach in the following experiments, with a beam of size 20. Using a beam size of 1 (i.e., greedy search) did degrade our results by 2 BLEU points on average."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1042
+                },
+                {
+                    "x": 1611,
+                    "y": 1042
+                },
+                {
+                    "x": 1611,
+                    "y": 1094
+                },
+                {
+                    "x": 1279,
+                    "y": 1094
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:22px'>4. Experiments</p>",
+            "id": 53,
+            "page": 4,
+            "text": "4. Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1125
+                },
+                {
+                    "x": 2278,
+                    "y": 1125
+                },
+                {
+                    "x": 2278,
+                    "y": 1323
+                },
+                {
+                    "x": 1279,
+                    "y": 1323
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:18px'>We performed an extensive set of experiments to assess<br>the effectiveness of our model using several metrics, data<br>sources, and model architectures, in order to compare to<br>prior art.</p>",
+            "id": 54,
+            "page": 4,
+            "text": "We performed an extensive set of experiments to assess the effectiveness of our model using several metrics, data sources, and model architectures, in order to compare to prior art."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1347
+                },
+                {
+                    "x": 1745,
+                    "y": 1347
+                },
+                {
+                    "x": 1745,
+                    "y": 1397
+                },
+                {
+                    "x": 1278,
+                    "y": 1397
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='55' style='font-size:20px'>4.1. Evaluation Metrics</p>",
+            "id": 55,
+            "page": 4,
+            "text": "4.1. Evaluation Metrics"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1425
+                },
+                {
+                    "x": 2278,
+                    "y": 1425
+                },
+                {
+                    "x": 2278,
+                    "y": 1920
+                },
+                {
+                    "x": 1279,
+                    "y": 1920
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:20px'>Although it is sometimes not clear whether a description<br>should be deemed successful or not given an image, prior<br>art has proposed several evaluation metrics. The most re-<br>liable (but time consuming) is to ask for raters to give a<br>subjective score on the usefulness of each description given<br>the image. In this paper, we used this to reinforce that some<br>of the automatic metrics indeed correlate with this subjec-<br>tive score, following the guidelines proposed in [11], which<br>asks the graders to evaluate each generated sentence with a<br>scale from 1 to 41.</p>",
+            "id": 56,
+            "page": 4,
+            "text": "Although it is sometimes not clear whether a description should be deemed successful or not given an image, prior art has proposed several evaluation metrics. The most reliable (but time consuming) is to ask for raters to give a subjective score on the usefulness of each description given the image. In this paper, we used this to reinforce that some of the automatic metrics indeed correlate with this subjective score, following the guidelines proposed in , which asks the graders to evaluate each generated sentence with a scale from 1 to 41."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1925
+                },
+                {
+                    "x": 2277,
+                    "y": 1925
+                },
+                {
+                    "x": 2277,
+                    "y": 2369
+                },
+                {
+                    "x": 1280,
+                    "y": 2369
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:20px'>For this metric, we set up an Amazon Mechanical Turk<br>experiment. Each image was rated by 2 workers. The typ-<br>ical level of agreement between workers is 65%. In case<br>of disagreement we simply average the scores and record<br>the average as the score. For variance analysis, we perform<br>bootstrapping (re-sampling the results with replacement and<br>computing means/standard deviation over the resampled re-<br>sults). Like [11] we report the fraction of scores which are<br>larger or equal than a set of predefined thresholds.</p>",
+            "id": 57,
+            "page": 4,
+            "text": "For this metric, we set up an Amazon Mechanical Turk experiment. Each image was rated by 2 workers. The typical level of agreement between workers is 65%. In case of disagreement we simply average the scores and record the average as the score. For variance analysis, we perform bootstrapping (re-sampling the results with replacement and computing means/standard deviation over the resampled results). Like  we report the fraction of scores which are larger or equal than a set of predefined thresholds."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2373
+                },
+                {
+                    "x": 2277,
+                    "y": 2373
+                },
+                {
+                    "x": 2277,
+                    "y": 2672
+                },
+                {
+                    "x": 1279,
+                    "y": 2672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:20px'>The rest of the metrics can be computed automatically<br>assuming one has access to groundtruth, i.e. human gen-<br>erated descriptions. The most commonly used metric SO<br>far in the image description literature has been the BLEU<br>score [25], which is a form of precision of word n-grams<br>between generated and reference sentences 2 Even though</p>",
+            "id": 58,
+            "page": 4,
+            "text": "The rest of the metrics can be computed automatically assuming one has access to groundtruth, i.e. human generated descriptions. The most commonly used metric SO far in the image description literature has been the BLEU score , which is a form of precision of word n-grams between generated and reference sentences 2 Even though"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2697
+                },
+                {
+                    "x": 2276,
+                    "y": 2697
+                },
+                {
+                    "x": 2276,
+                    "y": 2850
+                },
+                {
+                    "x": 1282,
+                    "y": 2850
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:14px'>1 The raters are asked whether the image is described without any er-<br>rors, described with minor errors, with a somewhat related description, or<br>with an unrelated description, with a score of 4 being the best and 1 being<br>the worst.</p>",
+            "id": 59,
+            "page": 4,
+            "text": "1 The raters are asked whether the image is described without any errors, described with minor errors, with a somewhat related description, or with an unrelated description, with a score of 4 being the best and 1 being the worst."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2856
+                },
+                {
+                    "x": 2275,
+                    "y": 2856
+                },
+                {
+                    "x": 2275,
+                    "y": 2973
+                },
+                {
+                    "x": 1280,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:16px'>2In this literature, most previous work report BLEU-1, i.e., they only<br>compute precision at the unigram level, whereas BLEU-n is a geometric<br>average of precision over 1- to n-grams.</p>",
+            "id": 60,
+            "page": 4,
+            "text": "2In this literature, most previous work report BLEU-1, i.e., they only compute precision at the unigram level, whereas BLEU-n is a geometric average of precision over 1- to n-grams."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 306
+                },
+                {
+                    "x": 1201,
+                    "y": 306
+                },
+                {
+                    "x": 1201,
+                    "y": 603
+                },
+                {
+                    "x": 200,
+                    "y": 603
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:14px'>this metric has some obvious drawbacks, it has been shown<br>to correlate well with human evaluations. In this work,<br>we corroborate this as well, as we show in Section 4.3.<br>An extensive evaluation protocol, as well as the generated<br>outputs of our system, can be found at http : / / nic.<br>droppages · com/.</p>",
+            "id": 61,
+            "page": 5,
+            "text": "this metric has some obvious drawbacks, it has been shown to correlate well with human evaluations. In this work, we corroborate this as well, as we show in Section 4.3. An extensive evaluation protocol, as well as the generated outputs of our system, can be found at http : / / nic. droppages · com/."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 608
+                },
+                {
+                    "x": 1199,
+                    "y": 608
+                },
+                {
+                    "x": 1199,
+                    "y": 1251
+                },
+                {
+                    "x": 200,
+                    "y": 1251
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>Besides BLEU, one can use the perplexity of the model<br>for a given transcription (which is closely related to our<br>objective function in (1)). The perplexity is the geometric<br>mean of the inverse probability for each predicted word. We<br>used this metric to perform choices regarding model selec-<br>tion and hyperparameter tuning in our held-out set, but we<br>do not report it since BLEU is always preferred 3 A much<br>·<br>more detailed discussion regarding metrics can be found in<br>[31], and research groups working on this topic have been<br>reporting other metrics which are deemed more appropriate<br>for evaluating caption. We report two such metrics - ME-<br>TEOR and Cider - hoping for much more discussion and<br>research to arise regarding the choice of metric.</p>",
+            "id": 62,
+            "page": 5,
+            "text": "Besides BLEU, one can use the perplexity of the model for a given transcription (which is closely related to our objective function in (1)). The perplexity is the geometric mean of the inverse probability for each predicted word. We used this metric to perform choices regarding model selection and hyperparameter tuning in our held-out set, but we do not report it since BLEU is always preferred 3 A much · more detailed discussion regarding metrics can be found in , and research groups working on this topic have been reporting other metrics which are deemed more appropriate for evaluating caption. We report two such metrics - METEOR and Cider - hoping for much more discussion and research to arise regarding the choice of metric."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 1256
+                },
+                {
+                    "x": 1201,
+                    "y": 1256
+                },
+                {
+                    "x": 1201,
+                    "y": 2301
+                },
+                {
+                    "x": 199,
+                    "y": 2301
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:18px'>Lastly, the current literature on image description has<br>also been using the proxy task of ranking a set of avail-<br>able descriptions with respect to a given image (see for in-<br>stance [14]). Doing so has the advantage that one can use<br>known ranking metrics like recall@k. On the other hand,<br>transforming the description generation task into a ranking<br>task is unsatisfactory: as the complexity of images to de-<br>scribe grows, together with its dictionary, the number of<br>possible sentences grows exponentially with the size of the<br>dictionary, and the likelihood that a predefined sentence will<br>fit a new image will go down unless the number of such<br>sentences also grows exponentially, which is not realistic;<br>not to mention the underlying computational complexity<br>of evaluating efficiently such a large corpus of stored sen-<br>tences for each image. The same argument has been used in<br>speech recognition, where one has to produce the sentence<br>corresponding to a given acoustic sequence; while early at-<br>tempts concentrated on classification of isolated phonemes<br>or words, state-of-the-art approaches for this task are now<br>generative and can produce sentences from a large dictio-<br>nary.</p>",
+            "id": 63,
+            "page": 5,
+            "text": "Lastly, the current literature on image description has also been using the proxy task of ranking a set of available descriptions with respect to a given image (see for instance ). Doing so has the advantage that one can use known ranking metrics like recall@k. On the other hand, transforming the description generation task into a ranking task is unsatisfactory: as the complexity of images to describe grows, together with its dictionary, the number of possible sentences grows exponentially with the size of the dictionary, and the likelihood that a predefined sentence will fit a new image will go down unless the number of such sentences also grows exponentially, which is not realistic; not to mention the underlying computational complexity of evaluating efficiently such a large corpus of stored sentences for each image. The same argument has been used in speech recognition, where one has to produce the sentence corresponding to a given acoustic sequence; while early attempts concentrated on classification of isolated phonemes or words, state-of-the-art approaches for this task are now generative and can produce sentences from a large dictionary."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2304
+                },
+                {
+                    "x": 1201,
+                    "y": 2304
+                },
+                {
+                    "x": 1201,
+                    "y": 2603
+                },
+                {
+                    "x": 200,
+                    "y": 2603
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:18px'>Now that our models can generate descriptions of rea-<br>sonable quality, and despite the ambiguities of evaluating<br>an image description (where there could be multiple valid<br>descriptions not in the groundtruth) we believe we should<br>concentrate on evaluation metrics for the generation task<br>rather than for ranking.</p>",
+            "id": 64,
+            "page": 5,
+            "text": "Now that our models can generate descriptions of reasonable quality, and despite the ambiguities of evaluating an image description (where there could be multiple valid descriptions not in the groundtruth) we believe we should concentrate on evaluation metrics for the generation task rather than for ranking."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2637
+                },
+                {
+                    "x": 459,
+                    "y": 2637
+                },
+                {
+                    "x": 459,
+                    "y": 2686
+                },
+                {
+                    "x": 202,
+                    "y": 2686
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='65' style='font-size:20px'>4.2. Datasets</p>",
+            "id": 65,
+            "page": 5,
+            "text": "4.2. Datasets"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2716
+                },
+                {
+                    "x": 1198,
+                    "y": 2716
+                },
+                {
+                    "x": 1198,
+                    "y": 2818
+                },
+                {
+                    "x": 201,
+                    "y": 2818
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:18px'>For evaluation we use a number of datasets which consist<br>of images and sentences in English describing these images.</p>",
+            "id": 66,
+            "page": 5,
+            "text": "For evaluation we use a number of datasets which consist of images and sentences in English describing these images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2851
+                },
+                {
+                    "x": 1200,
+                    "y": 2851
+                },
+                {
+                    "x": 1200,
+                    "y": 2974
+                },
+                {
+                    "x": 202,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:14px'>3Even though it would be more desirable, optimizing for BLEU score<br>yields a discrete optimization problem. In general, perplexity and BLEU<br>scores are fairly correlated.</p>",
+            "id": 67,
+            "page": 5,
+            "text": "3Even though it would be more desirable, optimizing for BLEU score yields a discrete optimization problem. In general, perplexity and BLEU scores are fairly correlated."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 306
+                },
+                {
+                    "x": 2009,
+                    "y": 306
+                },
+                {
+                    "x": 2009,
+                    "y": 353
+                },
+                {
+                    "x": 1282,
+                    "y": 353
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='68' style='font-size:14px'>The statistics of the datasets are as follows:</caption>",
+            "id": 68,
+            "page": 5,
+            "text": "The statistics of the datasets are as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1342,
+                    "y": 374
+                },
+                {
+                    "x": 2217,
+                    "y": 374
+                },
+                {
+                    "x": 2217,
+                    "y": 755
+                },
+                {
+                    "x": 1342,
+                    "y": 755
+                }
+            ],
+            "category": "table",
+            "html": "<table id='69' style='font-size:14px'><tr><td rowspan=\"2\">Dataset name</td><td colspan=\"3\">size</td></tr><tr><td>train</td><td>valid.</td><td>test</td></tr><tr><td>Pascal VOC 2008 [6]</td><td>-</td><td>-</td><td>1000</td></tr><tr><td>Flickr8k [26]</td><td>6000</td><td>1000</td><td>1000</td></tr><tr><td>Flickr30k [33]</td><td>28000</td><td>1000</td><td>1000</td></tr><tr><td>MSCOCO [20]</td><td>82783</td><td>40504</td><td>40775</td></tr><tr><td>SBU [24]</td><td>1M</td><td>-</td><td>-</td></tr></table>",
+            "id": 69,
+            "page": 5,
+            "text": "Dataset name size  train valid. test  Pascal VOC 2008  - - 1000  Flickr8k  6000 1000 1000  Flickr30k  28000 1000 1000  MSCOCO  82783 40504 40775  SBU  1M -"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 779
+                },
+                {
+                    "x": 2278,
+                    "y": 779
+                },
+                {
+                    "x": 2278,
+                    "y": 1077
+                },
+                {
+                    "x": 1278,
+                    "y": 1077
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:18px'>With the exception of SBU, each image has been annotated<br>by labelers with 5 sentences that are relatively visual and<br>unbiased. SBU consists of descriptions given by image<br>owners when they uploaded them to Flickr. As such they<br>are not guaranteed to be visual or unbiased and thus this<br>dataset has more noise.</p>",
+            "id": 70,
+            "page": 5,
+            "text": "With the exception of SBU, each image has been annotated by labelers with 5 sentences that are relatively visual and unbiased. SBU consists of descriptions given by image owners when they uploaded them to Flickr. As such they are not guaranteed to be visual or unbiased and thus this dataset has more noise."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1081
+                },
+                {
+                    "x": 2279,
+                    "y": 1081
+                },
+                {
+                    "x": 2279,
+                    "y": 1428
+                },
+                {
+                    "x": 1278,
+                    "y": 1428
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:16px'>The Pascal dataset is customary used for testing only af-<br>ter a system has been trained on different data such as any of<br>the other four dataset. In the case of SBU, we hold out 1000<br>images for testing and train on the rest as used by [18]. Sim-<br>ilarly, we reserve 4K random images from the MSCOCO<br>validation set as test, called COCO-4k, and use it to report<br>results in the following section.</p>",
+            "id": 71,
+            "page": 5,
+            "text": "The Pascal dataset is customary used for testing only after a system has been trained on different data such as any of the other four dataset. In the case of SBU, we hold out 1000 images for testing and train on the rest as used by . Similarly, we reserve 4K random images from the MSCOCO validation set as test, called COCO-4k, and use it to report results in the following section."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1461
+                },
+                {
+                    "x": 1513,
+                    "y": 1461
+                },
+                {
+                    "x": 1513,
+                    "y": 1509
+                },
+                {
+                    "x": 1280,
+                    "y": 1509
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:22px'>4.3. Results</p>",
+            "id": 72,
+            "page": 5,
+            "text": "4.3. Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1540
+                },
+                {
+                    "x": 2279,
+                    "y": 1540
+                },
+                {
+                    "x": 2279,
+                    "y": 1936
+                },
+                {
+                    "x": 1279,
+                    "y": 1936
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:16px'>Since our model is data driven and trained end-to-end,<br>and given the abundance of datasets, we wanted to an-<br>swer questions such as \"how dataset size affects general-<br>ization\" , \"what kinds of transfer learning it would be able<br>to achieve\", and \"how it would deal with weakly labeled<br>examples\". As a result, we performed experiments on five<br>different datasets, explained in Section 4.2, which enabled<br>us to understand our model in depth.</p>",
+            "id": 73,
+            "page": 5,
+            "text": "Since our model is data driven and trained end-to-end, and given the abundance of datasets, we wanted to answer questions such as \"how dataset size affects generalization\" , \"what kinds of transfer learning it would be able to achieve\", and \"how it would deal with weakly labeled examples\". As a result, we performed experiments on five different datasets, explained in Section 4.2, which enabled us to understand our model in depth."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2000
+                },
+                {
+                    "x": 1702,
+                    "y": 2000
+                },
+                {
+                    "x": 1702,
+                    "y": 2049
+                },
+                {
+                    "x": 1278,
+                    "y": 2049
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:18px'>4.3.1 Training Details</p>",
+            "id": 74,
+            "page": 5,
+            "text": "4.3.1 Training Details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2077
+                },
+                {
+                    "x": 2278,
+                    "y": 2077
+                },
+                {
+                    "x": 2278,
+                    "y": 2724
+                },
+                {
+                    "x": 1277,
+                    "y": 2724
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>Many of the challenges that we faced when training our<br>models had to do with overfitting. Indeed, purely supervised<br>approaches require large amounts of data, but the datasets<br>that are of high quality have less than 100000 images. The<br>task of assigning a description is strictly harder than object<br>classification and data driven approaches have only recently<br>become dominant thanks to datasets as large as ImageNet<br>(with ten times more data than the datasets we described<br>in this paper, with the exception of SBU). As a result, we<br>believe that, even with the results we obtained which are<br>quite good, the advantage of our method versus most cur-<br>rent human-engineered approaches will only increase in the<br>next few years as training set sizes will grow.</p>",
+            "id": 75,
+            "page": 5,
+            "text": "Many of the challenges that we faced when training our models had to do with overfitting. Indeed, purely supervised approaches require large amounts of data, but the datasets that are of high quality have less than 100000 images. The task of assigning a description is strictly harder than object classification and data driven approaches have only recently become dominant thanks to datasets as large as ImageNet (with ten times more data than the datasets we described in this paper, with the exception of SBU). As a result, we believe that, even with the results we obtained which are quite good, the advantage of our method versus most current human-engineered approaches will only increase in the next few years as training set sizes will grow."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2729
+                },
+                {
+                    "x": 2279,
+                    "y": 2729
+                },
+                {
+                    "x": 2279,
+                    "y": 2978
+                },
+                {
+                    "x": 1279,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='76' style='font-size:18px'>Nonetheless, we explored several techniques to deal with<br>overfitting. The most obvious way to not overfit is to ini-<br>tialize the weights of the CNN component of our system<br>to a pretrained model (e.g., on ImageNet). We did this in<br>all the experiments (similar to [8]), and it did help quite a</p>",
+            "id": 76,
+            "page": 5,
+            "text": "Nonetheless, we explored several techniques to deal with overfitting. The most obvious way to not overfit is to initialize the weights of the CNN component of our system to a pretrained model (e.g., on ImageNet). We did this in all the experiments (similar to ), and it did help quite a"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 304
+                },
+                {
+                    "x": 1200,
+                    "y": 304
+                },
+                {
+                    "x": 1200,
+                    "y": 852
+                },
+                {
+                    "x": 199,
+                    "y": 852
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>lot in terms of generalization. Another set of weights that<br>could be sensibly initialized are We, the word embeddings.<br>We tried initializing them from a large news corpus [22],<br>but no significant gains were observed, and we decided to<br>just leave them uninitialized for simplicity. Lastly, we did<br>some model level overfitting-avoiding techniques. We tried<br>dropout [34] and ensembling models, as well as exploring<br>the size (i.e., capacity) of the model by trading off number<br>of hidden units versus depth. Dropout and ensembling gave<br>a few BLEU points improvement, and that is what we report<br>throughout the paper.</p>",
+            "id": 77,
+            "page": 6,
+            "text": "lot in terms of generalization. Another set of weights that could be sensibly initialized are We, the word embeddings. We tried initializing them from a large news corpus , but no significant gains were observed, and we decided to just leave them uninitialized for simplicity. Lastly, we did some model level overfitting-avoiding techniques. We tried dropout  and ensembling models, as well as exploring the size (i.e., capacity) of the model by trading off number of hidden units versus depth. Dropout and ensembling gave a few BLEU points improvement, and that is what we report throughout the paper."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 857
+                },
+                {
+                    "x": 1200,
+                    "y": 857
+                },
+                {
+                    "x": 1200,
+                    "y": 1151
+                },
+                {
+                    "x": 200,
+                    "y": 1151
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:20px'>We trained all sets of weights using stochastic gradi-<br>ent descent with fixed learning rate and no momentum.<br>All weights were randomly initialized except for the CNN<br>weights, which we left unchanged because changing them<br>had a negative impact. We used 512 dimensions for the em-<br>beddings and the size of the LSTM memory.</p>",
+            "id": 78,
+            "page": 6,
+            "text": "We trained all sets of weights using stochastic gradient descent with fixed learning rate and no momentum. All weights were randomly initialized except for the CNN weights, which we left unchanged because changing them had a negative impact. We used 512 dimensions for the embeddings and the size of the LSTM memory."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1158
+                },
+                {
+                    "x": 1199,
+                    "y": 1158
+                },
+                {
+                    "x": 1199,
+                    "y": 1304
+                },
+                {
+                    "x": 201,
+                    "y": 1304
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:20px'>Descriptions were preprocessed with basic tokenization,<br>keeping all words that appeared at least 5 times in the train-<br>ing set.</p>",
+            "id": 79,
+            "page": 6,
+            "text": "Descriptions were preprocessed with basic tokenization, keeping all words that appeared at least 5 times in the training set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1375
+                },
+                {
+                    "x": 679,
+                    "y": 1375
+                },
+                {
+                    "x": 679,
+                    "y": 1423
+                },
+                {
+                    "x": 202,
+                    "y": 1423
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:20px'>4.3.2 Generation Results</p>",
+            "id": 80,
+            "page": 6,
+            "text": "4.3.2 Generation Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1455
+                },
+                {
+                    "x": 1200,
+                    "y": 1455
+                },
+                {
+                    "x": 1200,
+                    "y": 2052
+                },
+                {
+                    "x": 200,
+                    "y": 2052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>We report our main results on all the relevant datasets in Ta-<br>bles 1 and 2. Since PASCAL does not have a training set,<br>we used the system trained using MSCOCO (arguably the<br>largest and highest quality dataset for this task). The state-<br>of-the-art results for PASCAL and SBU did not use image<br>features based on deep learning, SO arguably a big improve-<br>ment on those scores comes from that change alone. The<br>Flickr datasets have been used recently [11, 21, 14], but<br>mostly evaluated in a retrieval framework. A notable ex-<br>ception is [21], where they did both retrieval and genera-<br>tion, and which yields the best performance on the Flickr<br>datasets up to now.</p>",
+            "id": 81,
+            "page": 6,
+            "text": "We report our main results on all the relevant datasets in Tables 1 and 2. Since PASCAL does not have a training set, we used the system trained using MSCOCO (arguably the largest and highest quality dataset for this task). The stateof-the-art results for PASCAL and SBU did not use image features based on deep learning, SO arguably a big improvement on those scores comes from that change alone. The Flickr datasets have been used recently , but mostly evaluated in a retrieval framework. A notable exception is , where they did both retrieval and generation, and which yields the best performance on the Flickr datasets up to now."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2057
+                },
+                {
+                    "x": 1200,
+                    "y": 2057
+                },
+                {
+                    "x": 1200,
+                    "y": 2403
+                },
+                {
+                    "x": 201,
+                    "y": 2403
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:20px'>Human scores in Table 2 were computed by comparing<br>one of the human captions against the other four. We do this<br>for each of the five raters, and average their BLEU scores.<br>Since this gives a slight advantage to our system, given the<br>BLEU score is computed against five reference sentences<br>and not four, we add back to the human scores the average<br>difference of having five references instead of four.</p>",
+            "id": 82,
+            "page": 6,
+            "text": "Human scores in Table 2 were computed by comparing one of the human captions against the other four. We do this for each of the five raters, and average their BLEU scores. Since this gives a slight advantage to our system, given the BLEU score is computed against five reference sentences and not four, we add back to the human scores the average difference of having five references instead of four."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2407
+                },
+                {
+                    "x": 1200,
+                    "y": 2407
+                },
+                {
+                    "x": 1200,
+                    "y": 2855
+                },
+                {
+                    "x": 201,
+                    "y": 2855
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:20px'>Given that the field has seen significant advances in the<br>last years, we do think it is more meaningful to report<br>BLEU-4, which is the standard in machine translation mov-<br>ing forward. Additionally, we report metrics shown to cor-<br>relate better with human evaluations in Table 14. Despite<br>recent efforts on better evaluation metrics [31], our model<br>fares strongly versus human raters. However, when evalu-<br>ating our captions using human raters (see Section 4.3.6),<br>our model fares much more poorly, suggesting more work</p>",
+            "id": 83,
+            "page": 6,
+            "text": "Given that the field has seen significant advances in the last years, we do think it is more meaningful to report BLEU-4, which is the standard in machine translation moving forward. Additionally, we report metrics shown to correlate better with human evaluations in Table 14. Despite recent efforts on better evaluation metrics , our model fares strongly versus human raters. However, when evaluating our captions using human raters (see Section 4.3.6), our model fares much more poorly, suggesting more work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2892
+                },
+                {
+                    "x": 1197,
+                    "y": 2892
+                },
+                {
+                    "x": 1197,
+                    "y": 2972
+                },
+                {
+                    "x": 201,
+                    "y": 2972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:14px'>4We used the implementation of these metrics kindly provided in<br>http : / / www · mscoco · org.</p>",
+            "id": 84,
+            "page": 6,
+            "text": "4We used the implementation of these metrics kindly provided in http : / / www · mscoco · org."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1337,
+                    "y": 291
+                },
+                {
+                    "x": 2207,
+                    "y": 291
+                },
+                {
+                    "x": 2207,
+                    "y": 551
+                },
+                {
+                    "x": 1337,
+                    "y": 551
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='85' style='font-size:16px'><tr><td>Metric</td><td>BLEU-4</td><td>METEOR</td><td>CIDER</td></tr><tr><td>NIC</td><td>27.7</td><td>23.7</td><td>85.5</td></tr><tr><td>Random</td><td>4.6</td><td>9.0</td><td>5.1</td></tr><tr><td>Nearest Neighbor</td><td>9.9</td><td>15.7</td><td>36.5</td></tr><tr><td>Human</td><td>21.7</td><td>25.2</td><td>85.4</td></tr></table>",
+            "id": 85,
+            "page": 6,
+            "text": "Metric BLEU-4 METEOR CIDER  NIC 27.7 23.7 85.5  Random 4.6 9.0 5.1  Nearest Neighbor 9.9 15.7 36.5  Human 21.7 25.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1396,
+                    "y": 544
+                },
+                {
+                    "x": 2159,
+                    "y": 544
+                },
+                {
+                    "x": 2159,
+                    "y": 583
+                },
+                {
+                    "x": 1396,
+                    "y": 583
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='86' style='font-size:16px'>Table 1. Scores on the MSCOCO development set.</caption>",
+            "id": 86,
+            "page": 6,
+            "text": "Table 1. Scores on the MSCOCO development set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1339,
+                    "y": 626
+                },
+                {
+                    "x": 2208,
+                    "y": 626
+                },
+                {
+                    "x": 2208,
+                    "y": 1158
+                },
+                {
+                    "x": 1339,
+                    "y": 1158
+                }
+            ],
+            "category": "table",
+            "html": "<table id='87' style='font-size:16px'><tr><td>Approach</td><td>PASCAL (xfer)</td><td>Flickr 30k</td><td>Flickr 8k</td><td>SBU</td></tr><tr><td>Im2Text [24] TreeTalk [18] BabyTalk [16]</td><td rowspan=\"3\">25</td><td></td><td></td><td>11</td></tr><tr><td>Tri5Sem [11] m-RNN [21]</td><td></td><td>48 58</td><td>19</td></tr><tr><td>MNLM [14]5</td><td>55 56</td><td>51</td><td></td></tr><tr><td>SOTA</td><td>25</td><td>56</td><td>58</td><td>19</td></tr><tr><td>NIC</td><td>59</td><td>66</td><td>63</td><td>28</td></tr><tr><td>Human</td><td>69</td><td>68</td><td>70</td><td></td></tr></table>",
+            "id": 87,
+            "page": 6,
+            "text": "Approach PASCAL (xfer) Flickr 30k Flickr 8k SBU  Im2Text  TreeTalk  BabyTalk  25   11  Tri5Sem  m-RNN   48 58 19  MNLM 5 55 56 51   SOTA 25 56 58 19  NIC 59 66 63 28  Human 69 68 70"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 1153
+                },
+                {
+                    "x": 2274,
+                    "y": 1153
+                },
+                {
+                    "x": 2274,
+                    "y": 1239
+                },
+                {
+                    "x": 1283,
+                    "y": 1239
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='88' style='font-size:14px'>Table 2. BLEU-1 scores. We only report previous work results<br>when available. SOTA stands for the current state-of-the-art.</caption>",
+            "id": 88,
+            "page": 6,
+            "text": "Table 2. BLEU-1 scores. We only report previous work results when available. SOTA stands for the current state-of-the-art."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1321
+                },
+                {
+                    "x": 2278,
+                    "y": 1321
+                },
+                {
+                    "x": 2278,
+                    "y": 1466
+                },
+                {
+                    "x": 1280,
+                    "y": 1466
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:18px'>is needed towards better metrics. On the official test set for<br>which labels are only available through the official website,<br>our model had a 27.2 BLEU-4.</p>",
+            "id": 89,
+            "page": 6,
+            "text": "is needed towards better metrics. On the official test set for which labels are only available through the official website, our model had a 27.2 BLEU-4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 1532
+                },
+                {
+                    "x": 2262,
+                    "y": 1532
+                },
+                {
+                    "x": 2262,
+                    "y": 1581
+                },
+                {
+                    "x": 1282,
+                    "y": 1581
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:22px'>4.3.3 Transfer Learning, Data Size and Label Quality</p>",
+            "id": 90,
+            "page": 6,
+            "text": "4.3.3 Transfer Learning, Data Size and Label Quality"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1611
+                },
+                {
+                    "x": 2276,
+                    "y": 1611
+                },
+                {
+                    "x": 2276,
+                    "y": 1857
+                },
+                {
+                    "x": 1280,
+                    "y": 1857
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:18px'>Since we have trained many models and we have several<br>testing sets, we wanted to study whether we could transfer<br>a model to a different dataset, and how much the mismatch<br>in domain would be compensated with e.g. higher quality<br>labels or more training data.</p>",
+            "id": 91,
+            "page": 6,
+            "text": "Since we have trained many models and we have several testing sets, we wanted to study whether we could transfer a model to a different dataset, and how much the mismatch in domain would be compensated with e.g. higher quality labels or more training data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1863
+                },
+                {
+                    "x": 2278,
+                    "y": 1863
+                },
+                {
+                    "x": 2278,
+                    "y": 2507
+                },
+                {
+                    "x": 1277,
+                    "y": 2507
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='92' style='font-size:20px'>The most obvious case for transfer learning and data size<br>is between Flickr30k and Flickr8k. The two datasets are<br>similarly labeled as they were created by the same group.<br>Indeed, when training on Flickr30k (with about 4 times<br>more training data), the results obtained are 4 BLEU points<br>better. It is clear that in this case, we see gains by adding<br>more training data since the whole process is data-driven<br>and overfitting prone. MSCOCO is even bigger (5 times<br>more training data than Flickr30k), but since the collection<br>process was done differently, there are likely more differ-<br>ences in vocabulary and a larger mismatch. Indeed, all the<br>BLEU scores degrade by 10 points. Nonetheless, the de-<br>scriptions are still reasonable.</p>",
+            "id": 92,
+            "page": 6,
+            "text": "The most obvious case for transfer learning and data size is between Flickr30k and Flickr8k. The two datasets are similarly labeled as they were created by the same group. Indeed, when training on Flickr30k (with about 4 times more training data), the results obtained are 4 BLEU points better. It is clear that in this case, we see gains by adding more training data since the whole process is data-driven and overfitting prone. MSCOCO is even bigger (5 times more training data than Flickr30k), but since the collection process was done differently, there are likely more differences in vocabulary and a larger mismatch. Indeed, all the BLEU scores degrade by 10 points. Nonetheless, the descriptions are still reasonable."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2511
+                },
+                {
+                    "x": 2279,
+                    "y": 2511
+                },
+                {
+                    "x": 2279,
+                    "y": 2755
+                },
+                {
+                    "x": 1279,
+                    "y": 2755
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:20px'>Since PASCAL has no official training set and was<br>collected independently of Flickr and MSCOCO, we re-<br>port transfer learning from MSCOCO (in Table 2). Doing<br>transfer learning from Flickr30k yielded worse results with<br>BLEU-1 at 53 (cf. 59).</p>",
+            "id": 93,
+            "page": 6,
+            "text": "Since PASCAL has no official training set and was collected independently of Flickr and MSCOCO, we report transfer learning from MSCOCO (in Table 2). Doing transfer learning from Flickr30k yielded worse results with BLEU-1 at 53 (cf. 59)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2761
+                },
+                {
+                    "x": 2277,
+                    "y": 2761
+                },
+                {
+                    "x": 2277,
+                    "y": 2859
+                },
+                {
+                    "x": 1280,
+                    "y": 2859
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='94' style='font-size:20px'>Lastly, even though SBU has weak labeling (i.e., the la-<br>bels were captions and not human generated descriptions),</p>",
+            "id": 94,
+            "page": 6,
+            "text": "Lastly, even though SBU has weak labeling (i.e., the labels were captions and not human generated descriptions),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2891
+                },
+                {
+                    "x": 2275,
+                    "y": 2891
+                },
+                {
+                    "x": 2275,
+                    "y": 2972
+                },
+                {
+                    "x": 1282,
+                    "y": 2972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:14px'>5We computed these BLEU scores with the outputs that the authors of<br>[14] kindly provided for their OxfordNet system.</p>",
+            "id": 95,
+            "page": 6,
+            "text": "5We computed these BLEU scores with the outputs that the authors of  kindly provided for their OxfordNet system."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 306
+                },
+                {
+                    "x": 1199,
+                    "y": 306
+                },
+                {
+                    "x": 1199,
+                    "y": 504
+                },
+                {
+                    "x": 200,
+                    "y": 504
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='96' style='font-size:18px'>the task is much harder with a much larger and noisier VO-<br>cabulary. However, much more data is available for train-<br>ing. When running the MSCOCO model on SBU, our per-<br>formance degrades from 28 down to 16.</p>",
+            "id": 96,
+            "page": 7,
+            "text": "the task is much harder with a much larger and noisier VOcabulary. However, much more data is available for training. When running the MSCOCO model on SBU, our performance degrades from 28 down to 16."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 572
+                },
+                {
+                    "x": 907,
+                    "y": 572
+                },
+                {
+                    "x": 907,
+                    "y": 620
+                },
+                {
+                    "x": 202,
+                    "y": 620
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:20px'>4.3.4 Generation Diversity Discussion</p>",
+            "id": 97,
+            "page": 7,
+            "text": "4.3.4 Generation Diversity Discussion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 649
+                },
+                {
+                    "x": 1200,
+                    "y": 649
+                },
+                {
+                    "x": 1200,
+                    "y": 1651
+                },
+                {
+                    "x": 199,
+                    "y": 1651
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:18px'>Having trained a generative model that gives p(S|I), an ob-<br>vious question is whether the model generates novel cap-<br>tions, and whether the generated captions are both diverse<br>and high quality. Table 3 shows some samples when re-<br>turning the N-best list from our beam search decoder in-<br>stead of the best hypothesis. Notice how the samples are di-<br>verse and may show different aspects from the same image.<br>The agreement in BLEU score between the top 15 generated<br>sentences is 58, which is similar to that of humans among<br>them. This indicates the amount of diversity our model gen-<br>erates. In bold are the sentences that are not present in the<br>training set. If we take the best candidate, the sentence is<br>present in the training set 80% of the times. This is not<br>too surprising given that the amount of training data is quite<br>small, SO it is relatively easy for the model to pick \"exem-<br>plar\" sentences and use them to generate descriptions. If<br>we instead analyze the top 15 generated sentences, about<br>half of the times we see a completely novel description, but<br>still with a similar BLEU score, indicating that they are of<br>enough quality, yet they provide a healthy diversity.</p>",
+            "id": 98,
+            "page": 7,
+            "text": "Having trained a generative model that gives p(S|I), an obvious question is whether the model generates novel captions, and whether the generated captions are both diverse and high quality. Table 3 shows some samples when returning the N-best list from our beam search decoder instead of the best hypothesis. Notice how the samples are diverse and may show different aspects from the same image. The agreement in BLEU score between the top 15 generated sentences is 58, which is similar to that of humans among them. This indicates the amount of diversity our model generates. In bold are the sentences that are not present in the training set. If we take the best candidate, the sentence is present in the training set 80% of the times. This is not too surprising given that the amount of training data is quite small, SO it is relatively easy for the model to pick \"exemplar\" sentences and use them to generate descriptions. If we instead analyze the top 15 generated sentences, about half of the times we see a completely novel description, but still with a similar BLEU score, indicating that they are of enough quality, yet they provide a healthy diversity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 269,
+                    "y": 1696
+                },
+                {
+                    "x": 1131,
+                    "y": 1696
+                },
+                {
+                    "x": 1131,
+                    "y": 2146
+                },
+                {
+                    "x": 269,
+                    "y": 2146
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:18px'>A man throwing a frisbee in a park.<br>A man holding a frisbee in his hand.<br>A man standing in the grass with a frisbee.<br>A close up of a sandwich on a plate.<br>A close up of a plate of food with french fries.<br>A white plate topped with a cut in half sandwich.<br>A display case filled with lots of donuts.<br>A display case filled with lots of cakes.<br>A bakery display case filled with lots of donuts.</p>",
+            "id": 99,
+            "page": 7,
+            "text": "A man throwing a frisbee in a park. A man holding a frisbee in his hand. A man standing in the grass with a frisbee. A close up of a sandwich on a plate. A close up of a plate of food with french fries. A white plate topped with a cut in half sandwich. A display case filled with lots of donuts. A display case filled with lots of cakes. A bakery display case filled with lots of donuts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2187
+                },
+                {
+                    "x": 1198,
+                    "y": 2187
+                },
+                {
+                    "x": 1198,
+                    "y": 2281
+                },
+                {
+                    "x": 203,
+                    "y": 2281
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='100' style='font-size:14px'>Table 3. N-best examples from the MSCOCO test set. Bold lines<br>indicate a novel sentence not present in the training set.</caption>",
+            "id": 100,
+            "page": 7,
+            "text": "Table 3. N-best examples from the MSCOCO test set. Bold lines indicate a novel sentence not present in the training set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2397
+                },
+                {
+                    "x": 630,
+                    "y": 2397
+                },
+                {
+                    "x": 630,
+                    "y": 2446
+                },
+                {
+                    "x": 201,
+                    "y": 2446
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:22px'>4.3.5 Ranking Results</p>",
+            "id": 101,
+            "page": 7,
+            "text": "4.3.5 Ranking Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2477
+                },
+                {
+                    "x": 1199,
+                    "y": 2477
+                },
+                {
+                    "x": 1199,
+                    "y": 2977
+                },
+                {
+                    "x": 201,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:20px'>While we think ranking is an unsatisfactory way to evalu-<br>ate description generation from images, many papers report<br>ranking scores, using the set of testing captions as candi-<br>dates to rank given a test image. The approach that works<br>best on these metrics (MNLM), specifically implemented a<br>ranking-aware loss. Nevertheless, NIC is doing surprisingly<br>well on both ranking tasks (ranking descriptions given im-<br>ages, and ranking images given descriptions), as can be seen<br>in Tables 4 and 5. Note that for the Image Annotation task,<br>we normalized our scores similar to what [21] used.</p>",
+            "id": 102,
+            "page": 7,
+            "text": "While we think ranking is an unsatisfactory way to evaluate description generation from images, many papers report ranking scores, using the set of testing captions as candidates to rank given a test image. The approach that works best on these metrics (MNLM), specifically implemented a ranking-aware loss. Nevertheless, NIC is doing surprisingly well on both ranking tasks (ranking descriptions given images, and ranking images given descriptions), as can be seen in Tables 4 and 5. Note that for the Image Annotation task, we normalized our scores similar to what  used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1314,
+                    "y": 292
+                },
+                {
+                    "x": 2235,
+                    "y": 292
+                },
+                {
+                    "x": 2235,
+                    "y": 595
+                },
+                {
+                    "x": 1314,
+                    "y": 595
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='103' style='font-size:16px'><tr><td rowspan=\"2\">Approach</td><td colspan=\"3\">Image Annotation</td><td colspan=\"3\">Image Search</td></tr><tr><td>R@1</td><td>R@10</td><td>Med r</td><td>R@1</td><td>R@10</td><td>Med r</td></tr><tr><td>DeFrag [13]</td><td>13</td><td>44</td><td>14</td><td>10</td><td>43</td><td>15</td></tr><tr><td>m-RNN [21]</td><td>15</td><td>49</td><td>11</td><td>12</td><td>42</td><td>15</td></tr><tr><td>MNLM [14]</td><td>18</td><td>55</td><td>8</td><td>13</td><td>52</td><td>10</td></tr><tr><td>NIC</td><td>20</td><td>61</td><td>6</td><td>19</td><td>64</td><td>5</td></tr></table>",
+            "id": 103,
+            "page": 7,
+            "text": "Approach Image Annotation Image Search  R@1 R@10 Med r R@1 R@10 Med r  DeFrag  13 44 14 10 43 15  m-RNN  15 49 11 12 42 15  MNLM  18 55 8 13 52 10  NIC 20 61 6 19 64"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1413,
+                    "y": 590
+                },
+                {
+                    "x": 2139,
+                    "y": 590
+                },
+                {
+                    "x": 2139,
+                    "y": 628
+                },
+                {
+                    "x": 1413,
+                    "y": 628
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='104' style='font-size:14px'>Table 4. Recall@k and median rank on Flickr8k.</caption>",
+            "id": 104,
+            "page": 7,
+            "text": "Table 4. Recall@k and median rank on Flickr8k."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1317,
+                    "y": 682
+                },
+                {
+                    "x": 2233,
+                    "y": 682
+                },
+                {
+                    "x": 2233,
+                    "y": 984
+                },
+                {
+                    "x": 1317,
+                    "y": 984
+                }
+            ],
+            "category": "table",
+            "html": "<table id='105' style='font-size:16px'><tr><td rowspan=\"2\">Approach</td><td colspan=\"3\">Image Annotation</td><td colspan=\"3\">Image Search</td></tr><tr><td>R@1</td><td>R@10</td><td>Med r</td><td>R@1</td><td>R@10</td><td>Med r</td></tr><tr><td>DeFrag [13]</td><td>16</td><td>55</td><td>8</td><td>10</td><td>45</td><td>13</td></tr><tr><td>m-RNN [21]</td><td>18</td><td>51</td><td>10</td><td>13</td><td>42</td><td>16</td></tr><tr><td>MNLM [14]</td><td>23</td><td>63</td><td>5</td><td>17</td><td>57</td><td>8</td></tr><tr><td>NIC</td><td>17</td><td>56</td><td>7</td><td>17</td><td>57</td><td>7</td></tr></table>",
+            "id": 105,
+            "page": 7,
+            "text": "Approach Image Annotation Image Search  R@1 R@10 Med r R@1 R@10 Med r  DeFrag  16 55 8 10 45 13  m-RNN  18 51 10 13 42 16  MNLM  23 63 5 17 57 8  NIC 17 56 7 17 57"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1401,
+                    "y": 978
+                },
+                {
+                    "x": 2149,
+                    "y": 978
+                },
+                {
+                    "x": 2149,
+                    "y": 1017
+                },
+                {
+                    "x": 1401,
+                    "y": 1017
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='106' style='font-size:14px'>Table 5. Recall@k and median rank on Flickr30k.</caption>",
+            "id": 106,
+            "page": 7,
+            "text": "Table 5. Recall@k and median rank on Flickr30k."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1335,
+                    "y": 1134
+                },
+                {
+                    "x": 2191,
+                    "y": 1134
+                },
+                {
+                    "x": 2191,
+                    "y": 1800
+                },
+                {
+                    "x": 1335,
+                    "y": 1800
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='107' style='font-size:14px' alt=\"1.0\n0.9\n지\n0.8\n=<\nscores\n0.7\n(% of\n0.6\ndistribution\n0.5\n0.4\ncumulative\nFlickr-8k: reference\nFlickr-8k: GT\n0.3\nFlickr-8k: NIC\n0.2 COCO-1k: NIC\nPascal: NIC\n0.1\n1.0 1.5 2.0 2.5 3.0 3.5 4.0\nscore\" data-coord=\"top-left:(1335,1134); bottom-right:(2191,1800)\" /></figure>",
+            "id": 107,
+            "page": 7,
+            "text": "1.0 0.9 지 0.8 =< scores 0.7 (% of 0.6 distribution 0.5 0.4 cumulative Flickr-8k: reference Flickr-8k: GT 0.3 Flickr-8k: NIC 0.2 COCO-1k: NIC Pascal: NIC 0.1 1.0 1.5 2.0 2.5 3.0 3.5 4.0 score"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1812
+                },
+                {
+                    "x": 2279,
+                    "y": 1812
+                },
+                {
+                    "x": 2279,
+                    "y": 2225
+                },
+                {
+                    "x": 1278,
+                    "y": 2225
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='108' style='font-size:16px'>Figure 4. Flickr-8k: NIC: predictions produced by NIC on the<br>Flickr8k test set (average score: 2.37); Pascal: NIC: (average<br>score: 2.45); COCO-1k: NIC: A subset of 1000 images from the<br>MSCOCO test set with descriptions produced by NIC (average<br>score: 2.72); Flickr-8k: ref: these are results from [11] on Flickr8k<br>rated using the same protocol, as a baseline (average score: 2.08);<br>Flickr-8k: GT: we rated the groundtruth labels from Flickr8k us-<br>ing the same protocol. This provides us with a \"calibration\" of the<br>scores (average score: 3.89)</caption>",
+            "id": 108,
+            "page": 7,
+            "text": "Figure 4. Flickr-8k: NIC: predictions produced by NIC on the Flickr8k test set (average score: 2.37); Pascal: NIC: (average score: 2.45); COCO-1k: NIC: A subset of 1000 images from the MSCOCO test set with descriptions produced by NIC (average score: 2.72); Flickr-8k: ref: these are results from  on Flickr8k rated using the same protocol, as a baseline (average score: 2.08); Flickr-8k: GT: we rated the groundtruth labels from Flickr8k using the same protocol. This provides us with a \"calibration\" of the scores (average score: 3.89)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2329
+                },
+                {
+                    "x": 1753,
+                    "y": 2329
+                },
+                {
+                    "x": 1753,
+                    "y": 2376
+                },
+                {
+                    "x": 1281,
+                    "y": 2376
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:20px'>4.3.6 Human Evaluation</p>",
+            "id": 109,
+            "page": 7,
+            "text": "4.3.6 Human Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2426
+                },
+                {
+                    "x": 2279,
+                    "y": 2426
+                },
+                {
+                    "x": 2279,
+                    "y": 2976
+                },
+                {
+                    "x": 1278,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:18px'>Figure 4 shows the result of the human evaluations of the<br>descriptions provided by NIC, as well as a reference system<br>and groundtruth on various datasets. We can see that NIC<br>is better than the reference system, but clearly worse than<br>the groundtruth, as expected. This shows that BLEU is not<br>a perfect metric, as it does not capture well the difference<br>between NIC and human descriptions assessed by raters.<br>Examples of rated images can be seen in Figure 5. It is<br>interesting to see, for instance in the second image of the<br>first column, how the model was able to notice the frisbee<br>given its size.</p>",
+            "id": 110,
+            "page": 7,
+            "text": "Figure 4 shows the result of the human evaluations of the descriptions provided by NIC, as well as a reference system and groundtruth on various datasets. We can see that NIC is better than the reference system, but clearly worse than the groundtruth, as expected. This shows that BLEU is not a perfect metric, as it does not capture well the difference between NIC and human descriptions assessed by raters. Examples of rated images can be seen in Figure 5. It is interesting to see, for instance in the second image of the first column, how the model was able to notice the frisbee given its size."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 256,
+                    "y": 325
+                },
+                {
+                    "x": 2214,
+                    "y": 325
+                },
+                {
+                    "x": 2214,
+                    "y": 1563
+                },
+                {
+                    "x": 256,
+                    "y": 1563
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='111' style='font-size:14px' alt=\"A person riding a Two dogs play in the grass. A skateboarder does a trick A dog is jumping to catch a\nmotorcycle on a dirt road.\non a ramp. frisbee.\nT\nA refrigerator filled with lots of\nA group of young people Two hockey players are A little girl in a pink hat is\nfood and drinks.\nplaying a game of frisbee. fighting over the puck. blowing bubbles.\nRDK\nA herd of elephants walking A close up of a cat laying\nacross a dry grass field. A red motorcycle parked on the A yellow school bus parked\non a couch.\nside of the road. in a parking lot.\nDescribes without errors Describes with minor errors Somewhat related to the image Unrelated to the image\" data-coord=\"top-left:(256,325); bottom-right:(2214,1563)\" /></figure>",
+            "id": 111,
+            "page": 8,
+            "text": "A person riding a Two dogs play in the grass. A skateboarder does a trick A dog is jumping to catch a motorcycle on a dirt road. on a ramp. frisbee. T A refrigerator filled with lots of A group of young people Two hockey players are A little girl in a pink hat is food and drinks. playing a game of frisbee. fighting over the puck. blowing bubbles. RDK A herd of elephants walking A close up of a cat laying across a dry grass field. A red motorcycle parked on the A yellow school bus parked on a couch. side of the road. in a parking lot. Describes without errors Describes with minor errors Somewhat related to the image Unrelated to the image"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 713,
+                    "y": 1580
+                },
+                {
+                    "x": 1760,
+                    "y": 1580
+                },
+                {
+                    "x": 1760,
+                    "y": 1625
+                },
+                {
+                    "x": 713,
+                    "y": 1625
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='112' style='font-size:18px'>Figure 5. A selection of evaluation results, grouped by human rating.</caption>",
+            "id": 112,
+            "page": 8,
+            "text": "Figure 5. A selection of evaluation results, grouped by human rating."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1711
+                },
+                {
+                    "x": 763,
+                    "y": 1711
+                },
+                {
+                    "x": 763,
+                    "y": 1756
+                },
+                {
+                    "x": 203,
+                    "y": 1756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:20px'>4.3.7 Analysis of Embeddings</p>",
+            "id": 113,
+            "page": 8,
+            "text": "4.3.7 Analysis of Embeddings"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1791
+                },
+                {
+                    "x": 1200,
+                    "y": 1791
+                },
+                {
+                    "x": 1200,
+                    "y": 2288
+                },
+                {
+                    "x": 201,
+                    "y": 2288
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:18px'>In order to represent the previous word St-1 as input to<br>the decoding LSTM producing St, we use word embedding<br>vectors [22], which have the advantage of being indepen-<br>dent of the size of the dictionary (contrary to a simpler one-<br>hot-encoding approach). Furthermore, these word embed-<br>dings can be jointly trained with the rest of the model. It<br>is remarkable to see how the learned representations have<br>captured some semantic from the statistics of the language.<br>Table 4.3.7 shows, for a few example words, the nearest<br>other words found in the learned embedding space.</p>",
+            "id": 114,
+            "page": 8,
+            "text": "In order to represent the previous word St-1 as input to the decoding LSTM producing St, we use word embedding vectors , which have the advantage of being independent of the size of the dictionary (contrary to a simpler onehot-encoding approach). Furthermore, these word embeddings can be jointly trained with the rest of the model. It is remarkable to see how the learned representations have captured some semantic from the statistics of the language. Table 4.3.7 shows, for a few example words, the nearest other words found in the learned embedding space."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2293
+                },
+                {
+                    "x": 1201,
+                    "y": 2293
+                },
+                {
+                    "x": 1201,
+                    "y": 2740
+                },
+                {
+                    "x": 202,
+                    "y": 2740
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:18px'>Note how some of the relationships learned by the model<br>will help the vision component. Indeed, having \"horse\" ,<br>\"pony\", and \"donkey\" close to each other will encourage the<br>CNN to extract features that are relevant to horse-looking<br>animals. We hypothesize that, in the extreme case where<br>we see very few examples of a class (e.g., \"unicorn\"), its<br>proximity to other word embeddings (e.g., \"horse\") should<br>provide a lot more information that would be completely<br>lost with more traditional bag-of-words based approaches.</p>",
+            "id": 115,
+            "page": 8,
+            "text": "Note how some of the relationships learned by the model will help the vision component. Indeed, having \"horse\" , \"pony\", and \"donkey\" close to each other will encourage the CNN to extract features that are relevant to horse-looking animals. We hypothesize that, in the extreme case where we see very few examples of a class (e.g., \"unicorn\"), its proximity to other word embeddings (e.g., \"horse\") should provide a lot more information that would be completely lost with more traditional bag-of-words based approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2791
+                },
+                {
+                    "x": 499,
+                    "y": 2791
+                },
+                {
+                    "x": 499,
+                    "y": 2841
+                },
+                {
+                    "x": 203,
+                    "y": 2841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='116' style='font-size:22px'>5. Conclusion</p>",
+            "id": 116,
+            "page": 8,
+            "text": "5. Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2879
+                },
+                {
+                    "x": 1198,
+                    "y": 2879
+                },
+                {
+                    "x": 1198,
+                    "y": 2977
+                },
+                {
+                    "x": 203,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='117' style='font-size:16px'>We have presented NIC, an end-to-end neural network<br>system that can automatically view an image and generate</p>",
+            "id": 117,
+            "page": 8,
+            "text": "We have presented NIC, an end-to-end neural network system that can automatically view an image and generate"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1369,
+                    "y": 1698
+                },
+                {
+                    "x": 2186,
+                    "y": 1698
+                },
+                {
+                    "x": 2186,
+                    "y": 2014
+                },
+                {
+                    "x": 1369,
+                    "y": 2014
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='118' style='font-size:20px' alt=\"Word Neighbors\ncar van, cab, suv, vehicule, jeep\nboy toddler, gentleman, daughter, son\nstreet road, streets, highway, freeway\nhorse pony, donkey, pig, goat, mule\ncomputer computers, pc, crt, chip, compute\" data-coord=\"top-left:(1369,1698); bottom-right:(2186,2014)\" /></figure>",
+            "id": 118,
+            "page": 8,
+            "text": "Word Neighbors car van, cab, suv, vehicule, jeep boy toddler, gentleman, daughter, son street road, streets, highway, freeway horse pony, donkey, pig, goat, mule computer computers, pc, crt, chip, compute"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1393,
+                    "y": 2046
+                },
+                {
+                    "x": 2168,
+                    "y": 2046
+                },
+                {
+                    "x": 2168,
+                    "y": 2089
+                },
+                {
+                    "x": 1393,
+                    "y": 2089
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='119' style='font-size:14px'>Table 6. Nearest neighbors of a few example words</caption>",
+            "id": 119,
+            "page": 8,
+            "text": "Table 6. Nearest neighbors of a few example words"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2179
+                },
+                {
+                    "x": 2278,
+                    "y": 2179
+                },
+                {
+                    "x": 2278,
+                    "y": 2981
+                },
+                {
+                    "x": 1277,
+                    "y": 2981
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:16px'>a reasonable description in plain English. NIC is based on<br>a convolution neural network that encodes an image into a<br>compact representation, followed by a recurrent neural net-<br>work that generates a corresponding sentence. The model is<br>trained to maximize the likelihood of the sentence given the<br>image. Experiments on several datasets show the robust-<br>ness of NIC in terms of qualitative results (the generated<br>sentences are very reasonable) and quantitative evaluations,<br>using either ranking metrics or BLEU, a metric used in ma-<br>chine translation to evaluate the quality of generated sen-<br>tences. It is clear from these experiments that, as the size<br>of the available datasets for image description increases, SO<br>will the performance of approaches like NIC. Furthermore,<br>it will be interesting to see how one can use unsupervised<br>data, both from images alone and text alone, to improve im-<br>age description approaches.</p>",
+            "id": 120,
+            "page": 8,
+            "text": "a reasonable description in plain English. NIC is based on a convolution neural network that encodes an image into a compact representation, followed by a recurrent neural network that generates a corresponding sentence. The model is trained to maximize the likelihood of the sentence given the image. Experiments on several datasets show the robustness of NIC in terms of qualitative results (the generated sentences are very reasonable) and quantitative evaluations, using either ranking metrics or BLEU, a metric used in machine translation to evaluate the quality of generated sentences. It is clear from these experiments that, as the size of the available datasets for image description increases, SO will the performance of approaches like NIC. Furthermore, it will be interesting to see how one can use unsupervised data, both from images alone and text alone, to improve image description approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 302
+                },
+                {
+                    "x": 605,
+                    "y": 302
+                },
+                {
+                    "x": 605,
+                    "y": 354
+                },
+                {
+                    "x": 204,
+                    "y": 354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:20px'>Acknowledgement</p>",
+            "id": 121,
+            "page": 9,
+            "text": "Acknowledgement"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 386
+                },
+                {
+                    "x": 1201,
+                    "y": 386
+                },
+                {
+                    "x": 1201,
+                    "y": 536
+                },
+                {
+                    "x": 201,
+                    "y": 536
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='122' style='font-size:16px'>We would like to thank Geoffrey Hinton, Ilya Sutskever,<br>Quoc Le, Vincent Vanhoucke, and Jeff Dean for useful dis-<br>cussions on the ideas behind the paper, and the write up.</p>",
+            "id": 122,
+            "page": 9,
+            "text": "We would like to thank Geoffrey Hinton, Ilya Sutskever, Quoc Le, Vincent Vanhoucke, and Jeff Dean for useful discussions on the ideas behind the paper, and the write up."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 587
+                },
+                {
+                    "x": 448,
+                    "y": 587
+                },
+                {
+                    "x": 448,
+                    "y": 640
+                },
+                {
+                    "x": 203,
+                    "y": 640
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:18px'>References</p>",
+            "id": 123,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 213,
+                    "y": 663
+                },
+                {
+                    "x": 1200,
+                    "y": 663
+                },
+                {
+                    "x": 1200,
+                    "y": 2968
+                },
+                {
+                    "x": 213,
+                    "y": 2968
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:14px'>[1] A. Aker and R. Gaizauskas. Generating image descriptions<br>using dependency relational patterns. In ACL, 2010.<br>[2] D. Bahdanau, K. Cho, and Y. Bengio. Neural ma-<br>chine translation by jointly learning to align and translate.<br>arXiv:1409.0473, 2014.<br>[3] K. Cho, B. van Merrienboer, C. Gulcehre, F. Bougares,<br>H. Schwenk, and Y. Bengio. Learning phrase representations<br>using RNN encoder-decoder for statistical machine transla-<br>tion. In EMNLP, 2014.<br>[4] J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang,<br>E. Tzeng, and T. Darrell. Decaf: A deep convolutional acti-<br>vation feature for generic visual recognition. In ICML, 2014.<br>[5] D. Elliott and F. Keller. Image description using visual de-<br>pendency representations. In EMNLP, 2013.<br>[6] A. Farhadi, M. Hejrati, M. A. Sadeghi, P. Young,<br>C. Rashtchian, J. Hockenmaier, and D. Forsyth. Every pic-<br>ture tells a story: Generating sentences from images. In<br>ECCV, 2010.<br>[7] R. Gerber and H.-H. Nagel. Knowledge representation for<br>the generation of quantified natural language descriptions of<br>vehicle traffic in image sequences. In ICIP. IEEE, 1996.<br>[8] Y. Gong, L. Wang, M. Hodosh, J. Hockenmaier, and<br>S. Lazebnik. Improving image-sentence embeddings using<br>large weakly annotated photo collections. In ECCV, 2014.<br>[9] A. Graves. Generating sequences with recurrent neural net-<br>works. arXiv:1308.0850, 2013.<br>[10] S. Hochreiter and J. Schmidhuber. Long short-term memory.<br>Neural Computation, 9(8), 1997.<br>[11] M. Hodosh, P. Young, and J. Hockenmaier. Framing image<br>description as a ranking task: Data, models and evaluation<br>metrics. JAIR, 47, 2013.<br>[12] S. Ioffe and C. Szegedy. Batch normalization: Accelerating<br>deep network training by reducing internal covariate shift. In<br>arXiv:1502.03167, 2015.<br>[13] A. Karpathy, A. Joulin, and L. Fei-Fei. Deep fragment em-<br>beddings for bidirectional image sentence mapping. NIPS,<br>2014.<br>[14] R. Kiros, R. Salakhutdinov, and R. S. Zemel. Unifying<br>visual-semantic embeddings with multimodal neural lan-<br>guage models. In arXiv:1411.2539, 2014.<br>[15] R. Kiros and R. Z. R. Salakhutdinov. Multimodal neural lan-<br>guage models. In NIPS Deep Learning Workshop, 2013.<br>[16] G. Kulkarni, V. Premraj, S. Dhar, S. Li, Y. Choi, A. C. Berg,<br>and T. L. Berg. Baby talk: Understanding and generating<br>simple image descriptions. In CVPR, 2011.<br>[17] P. Kuznetsova, V. Ordonez, A. C. Berg, T. L. Berg, and<br>Y. Choi. Collective generation of natural image descriptions.<br>In ACL, 2012.</p>",
+            "id": 124,
+            "page": 9,
+            "text": " A. Aker and R. Gaizauskas. Generating image descriptions using dependency relational patterns. In ACL, 2010.  D. Bahdanau, K. Cho, and Y. Bengio. Neural machine translation by jointly learning to align and translate. arXiv:1409.0473, 2014.  K. Cho, B. van Merrienboer, C. Gulcehre, F. Bougares, H. Schwenk, and Y. Bengio. Learning phrase representations using RNN encoder-decoder for statistical machine translation. In EMNLP, 2014.  J. Donahue, Y. Jia, 0. Vinyals, J. Hoffman, N. Zhang, E. Tzeng, and T. Darrell. Decaf: A deep convolutional activation feature for generic visual recognition. In ICML, 2014.  D. Elliott and F. Keller. Image description using visual dependency representations. In EMNLP, 2013.  A. Farhadi, M. Hejrati, M. A. Sadeghi, P. Young, C. Rashtchian, J. Hockenmaier, and D. Forsyth. Every picture tells a story: Generating sentences from images. In ECCV, 2010.  R. Gerber and H.-H. Nagel. Knowledge representation for the generation of quantified natural language descriptions of vehicle traffic in image sequences. In ICIP. IEEE, 1996.  Y. Gong, L. Wang, M. Hodosh, J. Hockenmaier, and S. Lazebnik. Improving image-sentence embeddings using large weakly annotated photo collections. In ECCV, 2014.  A. Graves. Generating sequences with recurrent neural networks. arXiv:1308.0850, 2013.  S. Hochreiter and J. Schmidhuber. Long short-term memory. Neural Computation, 9(8), 1997.  M. Hodosh, P. Young, and J. Hockenmaier. Framing image description as a ranking task: Data, models and evaluation metrics. JAIR, 47, 2013.  S. Ioffe and C. Szegedy. Batch normalization: Accelerating deep network training by reducing internal covariate shift. In arXiv:1502.03167, 2015.  A. Karpathy, A. Joulin, and L. Fei-Fei. Deep fragment embeddings for bidirectional image sentence mapping. NIPS, 2014.  R. Kiros, R. Salakhutdinov, and R. S. Zemel. Unifying visual-semantic embeddings with multimodal neural language models. In arXiv:1411.2539, 2014.  R. Kiros and R. Z. R. Salakhutdinov. Multimodal neural language models. In NIPS Deep Learning Workshop, 2013.  G. Kulkarni, V. Premraj, S. Dhar, S. Li, Y. Choi, A. C. Berg, and T. L. Berg. Baby talk: Understanding and generating simple image descriptions. In CVPR, 2011.  P. Kuznetsova, V. Ordonez, A. C. Berg, T. L. Berg, and Y. Choi. Collective generation of natural image descriptions. In ACL, 2012."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 305
+                },
+                {
+                    "x": 2287,
+                    "y": 305
+                },
+                {
+                    "x": 2287,
+                    "y": 2933
+                },
+                {
+                    "x": 1277,
+                    "y": 2933
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='125' style='font-size:14px'>[18] P. Kuznetsova, V. Ordonez, T. Berg, and Y. Choi. Treetalk:<br>Composition and compression of trees for image descrip-<br>tions. ACL, 2(10), 2014.<br>[19] S. Li, G. Kulkarni, T. L. Berg, A. C. Berg, and Y. Choi. Com-<br>posing simple image descriptions using web-scale n-grams.<br>In Conference on Computational Natural Language Learn-<br>ing, 2011.<br>[20] T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ra-<br>manan, P. Dollar, and C. L. Zitnick. Microsoft coco: Com-<br>mon objects in context. arXiv:1405.0312, 2014.<br>[21] J. Mao, W. Xu, Y. Yang, J. Wang, and A. Yuille. Ex-<br>plain images with multimodal recurrent neural networks. In<br>arXiv:1410.1090, 2014.<br>[22] T. Mikolov, K. Chen, G. Corrado, and J. Dean. Efficient<br>estimation of word representations in vector space. In ICLR,<br>2013.<br>[23] M. Mitchell, X. Han, J. Dodge, A. Mensch, A. Goyal, A. C.<br>Berg, K. Yamaguchi, T. L. Berg, K. Stratos, and H. D. III.<br>Midge: Generating image descriptions from computer vision<br>detections. In EACL, 2012.<br>[24] V. Ordonez, G. Kulkarni, and T. L. Berg. Im2text: Describ-<br>ing images using 1 million captioned photographs. In NIPS,<br>2011.<br>[25] K. Papineni, S. Roukos, T. Ward, and W. J. Zhu. BLEU: A<br>method for automatic evaluation of machine translation. In<br>ACL, 2002.<br>[26] C. Rashtchian, P. Young, M. Hodosh, and J. Hockenmaier.<br>Collecting image annotations using amazon's mechanical<br>turk. In NAACL HLT Workshop on Creating Speech and<br>Language Data with Amazon's Mechanical Turk, pages 139-<br>147, 2010.<br>[27] 0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh,<br>S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein,<br>A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual<br>Recognition Challenge, 2014.<br>[28] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,<br>and Y. LeCun. Overfeat: Integrated recognition, localization<br>and detection using convolutional networks. arXiv preprint<br>arXiv:1312.6229, 2013.<br>[29] R. Socher, A. Karpathy, Q. V. Le, C. Manning, and A. Y. Ng.<br>Grounded compositional semantics for finding and describ-<br>ing images with sentences. In ACL, 2014.<br>[30] I. Sutskever, 0. Vinyals, and Q. V.Le. Sequence to sequence<br>learning with neural networks. In NIPS, 2014.<br>[31] R. Vedantam, C. L. Zitnick, and D. Parikh. CIDEr:<br>Consensus-based image description evaluation. In<br>arXiv:1411.5726, 2015.<br>[32] B. Z. Yao, X. Yang, L. Lin, M. W. Lee, and S.-C. Zhu. I2t:<br>Image parsing to text description. Proceedings of the IEEE,<br>98(8), 2010.<br>[33] P. Young, A. Lai, M. Hodosh, and J. Hockenmaier. From im-<br>age descriptions to visual denotations: New similarity met-<br>rics for semantic inference over event descriptions. In ACL,<br>2014.<br>[34] W. Zaremba, I. Sutskever, and 0. Vinyals. Recurrent neural<br>network regularization. In arXiv:1409.2329, 2014.</p>",
+            "id": 125,
+            "page": 9,
+            "text": " P. Kuznetsova, V. Ordonez, T. Berg, and Y. Choi. Treetalk: Composition and compression of trees for image descriptions. ACL, 2(10), 2014.  S. Li, G. Kulkarni, T. L. Berg, A. C. Berg, and Y. Choi. Composing simple image descriptions using web-scale n-grams. In Conference on Computational Natural Language Learning, 2011.  T.-Y. Lin, M. Maire, S. Belongie, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick. Microsoft coco: Common objects in context. arXiv:1405.0312, 2014.  J. Mao, W. Xu, Y. Yang, J. Wang, and A. Yuille. Explain images with multimodal recurrent neural networks. In arXiv:1410.1090, 2014.  T. Mikolov, K. Chen, G. Corrado, and J. Dean. Efficient estimation of word representations in vector space. In ICLR, 2013.  M. Mitchell, X. Han, J. Dodge, A. Mensch, A. Goyal, A. C. Berg, K. Yamaguchi, T. L. Berg, K. Stratos, and H. D. III. Midge: Generating image descriptions from computer vision detections. In EACL, 2012.  V. Ordonez, G. Kulkarni, and T. L. Berg. Im2text: Describing images using 1 million captioned photographs. In NIPS, 2011.  K. Papineni, S. Roukos, T. Ward, and W. J. Zhu. BLEU: A method for automatic evaluation of machine translation. In ACL, 2002.  C. Rashtchian, P. Young, M. Hodosh, and J. Hockenmaier. Collecting image annotations using amazon's mechanical turk. In NAACL HLT Workshop on Creating Speech and Language Data with Amazon's Mechanical Turk, pages 139147, 2010.  0. Russakovsky, J. Deng, H. Su, J. Krause, S. Satheesh, S. Ma, Z. Huang, A. Karpathy, A. Khosla, M. Bernstein, A. C. Berg, and L. Fei-Fei. ImageNet Large Scale Visual Recognition Challenge, 2014.  P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. Overfeat: Integrated recognition, localization and detection using convolutional networks. arXiv preprint arXiv:1312.6229, 2013.  R. Socher, A. Karpathy, Q. V. Le, C. Manning, and A. Y. Ng. Grounded compositional semantics for finding and describing images with sentences. In ACL, 2014.  I. Sutskever, 0. Vinyals, and Q. V.Le. Sequence to sequence learning with neural networks. In NIPS, 2014.  R. Vedantam, C. L. Zitnick, and D. Parikh. CIDEr: Consensus-based image description evaluation. In arXiv:1411.5726, 2015.  B. Z. Yao, X. Yang, L. Lin, M. W. Lee, and S.-C. Zhu. I2t: Image parsing to text description. Proceedings of the IEEE, 98(8), 2010.  P. Young, A. Lai, M. Hodosh, and J. Hockenmaier. From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions. In ACL, 2014.  W. Zaremba, I. Sutskever, and 0. Vinyals. Recurrent neural network regularization. In arXiv:1409.2329, 2014."
+        }
+    ]
+}

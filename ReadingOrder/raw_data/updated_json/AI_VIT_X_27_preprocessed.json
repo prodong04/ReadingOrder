@@ -1,0 +1,2756 @@
+{
+    "id": "32bf7a68-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1707.06347v2.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 649,
+                    "y": 598
+                },
+                {
+                    "x": 1833,
+                    "y": 598
+                },
+                {
+                    "x": 1833,
+                    "y": 683
+                },
+                {
+                    "x": 649,
+                    "y": 683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Proximal Policy Optimization Algorithms</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Proximal Policy Optimization Algorithms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 437,
+                    "y": 736
+                },
+                {
+                    "x": 2041,
+                    "y": 736
+                },
+                {
+                    "x": 2041,
+                    "y": 912
+                },
+                {
+                    "x": 437,
+                    "y": 912
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov<br>OpenAI<br>{joschu, filip, prafulla, alec, oleg}@openai · com</p>",
+            "id": 1,
+            "page": 1,
+            "text": "John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov OpenAI {joschu, filip, prafulla, alec, oleg}@openai · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1145,
+                    "y": 1020
+                },
+                {
+                    "x": 1332,
+                    "y": 1020
+                },
+                {
+                    "x": 1332,
+                    "y": 1066
+                },
+                {
+                    "x": 1145,
+                    "y": 1066
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:16px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 392,
+                    "y": 1090
+                },
+                {
+                    "x": 2090,
+                    "y": 1090
+                },
+                {
+                    "x": 2090,
+                    "y": 1619
+                },
+                {
+                    "x": 392,
+                    "y": 1619
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>We propose a new family of policy gradient methods for reinforcement learning, which al-<br>ternate between sampling data through interaction with the environment, and optimizing a<br>\"surrogate\" objective function using stochastic gradient ascent. Whereas standard policy gra-<br>dient methods perform one gradient update per data sample, we propose a novel objective<br>function that enables multiple epochs of minibatch updates. The new methods, which we call<br>proximal policy optimization (PPO), have some of the benefits of trust region policy optimiza-<br>tion (TRPO), but they are much simpler to implement, more general, and have better sample<br>complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, includ-<br>ing simulated robotic locomotion and Atari game playing, and we show that PPO outperforms<br>other online policy gradient methods, and overall strikes a favorable balance between sample<br>complexity, simplicity, and wall-time.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a \"surrogate\" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 287,
+                    "y": 1694
+                },
+                {
+                    "x": 754,
+                    "y": 1694
+                },
+                {
+                    "x": 754,
+                    "y": 1757
+                },
+                {
+                    "x": 287,
+                    "y": 1757
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 1799
+                },
+                {
+                    "x": 2198,
+                    "y": 1799
+                },
+                {
+                    "x": 2198,
+                    "y": 2338
+                },
+                {
+                    "x": 282,
+                    "y": 2338
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>In recent years, several different approaches have been proposed for reinforcement learning with<br>neural network function approximators. The leading contenders are deep Q-learning [Mni+15],<br>\"vanilla\" policy gradient methods [Mni+16], and trust region / natural policy gradient methods<br>[Sch+15b]. However, there is room for improvement in developing a method that is scalable (to<br>large models and parallel implementations), data efficient, and robust (i.e., successful on a variety<br>of problems without hyperparameter tuning). Q-learning (with function approximation) fails on<br>many simple problems1 and is poorly understood, vanilla policy gradient methods have poor data<br>effiency and robustness; and trust region policy optimization (TRPO) is relatively complicated,<br>and is not compatible with architectures that include noise (such as dropout) or parameter sharing<br>(between the policy and value function, or with auxiliary tasks).</p>",
+            "id": 5,
+            "page": 1,
+            "text": "In recent years, several different approaches have been proposed for reinforcement learning with neural network function approximators. The leading contenders are deep Q-learning [Mni+15], \"vanilla\" policy gradient methods [Mni+16], and trust region / natural policy gradient methods [Sch+15b]. However, there is room for improvement in developing a method that is scalable (to large models and parallel implementations), data efficient, and robust (i.e., successful on a variety of problems without hyperparameter tuning). Q-learning (with function approximation) fails on many simple problems1 and is poorly understood, vanilla policy gradient methods have poor data effiency and robustness; and trust region policy optimization (TRPO) is relatively complicated, and is not compatible with architectures that include noise (such as dropout) or parameter sharing (between the policy and value function, or with auxiliary tasks)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2340
+                },
+                {
+                    "x": 2199,
+                    "y": 2340
+                },
+                {
+                    "x": 2199,
+                    "y": 2615
+                },
+                {
+                    "x": 283,
+                    "y": 2615
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='6' style='font-size:18px'>This paper seeks to improve the current state of affairs by introducing an algorithm that attains<br>the data efficiency and reliable performance of TRPO, while using only first-order optimization.<br>We propose a novel objective with clipped probability ratios, which forms a pessimistic estimate<br>(i.e., lower bound) of the performance of the policy. To optimize policies, we alternate between<br>sampling data from the policy and performing several epochs of optimization on the sampled data.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "This paper seeks to improve the current state of affairs by introducing an algorithm that attains the data efficiency and reliable performance of TRPO, while using only first-order optimization. We propose a novel objective with clipped probability ratios, which forms a pessimistic estimate (i.e., lower bound) of the performance of the policy. To optimize policies, we alternate between sampling data from the policy and performing several epochs of optimization on the sampled data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 2612
+                },
+                {
+                    "x": 2200,
+                    "y": 2612
+                },
+                {
+                    "x": 2200,
+                    "y": 2879
+                },
+                {
+                    "x": 282,
+                    "y": 2879
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:18px'>Our experiments compare the performance of various different versions of the surrogate objec-<br>tive, and find that the version with the clipped probability ratios performs best. We also compare<br>PPO to several previous algorithms from the literature. On continuous control tasks, it performs<br>better than the algorithms we compare against. On Atari, it performs significantly better (in terms<br>of sample complexity) than A2C and similarly to ACER though it is much simpler.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Our experiments compare the performance of various different versions of the surrogate objective, and find that the version with the clipped probability ratios performs best. We also compare PPO to several previous algorithms from the literature. On continuous control tasks, it performs better than the algorithms we compare against. On Atari, it performs significantly better (in terms of sample complexity) than A2C and similarly to ACER though it is much simpler."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2909
+                },
+                {
+                    "x": 2196,
+                    "y": 2909
+                },
+                {
+                    "x": 2196,
+                    "y": 3046
+                },
+                {
+                    "x": 284,
+                    "y": 3046
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:14px'>1While DQN works well on game environments like the Arcade Learning Environment [Bel+15] with discrete<br>action spaces, it has not been demonstrated to perform well on continuous control benchmarks such as those in<br>OpenAI Gym [Bro+16] and described by Duan et al. [Dua+16].</p>",
+            "id": 8,
+            "page": 1,
+            "text": "1While DQN works well on game environments like the Arcade Learning Environment [Bel+15] with discrete action spaces, it has not been demonstrated to perform well on continuous control benchmarks such as those in OpenAI Gym [Bro+16] and described by Duan  [Dua+16]."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1223,
+                    "y": 3150
+                },
+                {
+                    "x": 1256,
+                    "y": 3150
+                },
+                {
+                    "x": 1256,
+                    "y": 3197
+                },
+                {
+                    "x": 1223,
+                    "y": 3197
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='9' style='font-size:14px'>1</footer>",
+            "id": 9,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 61,
+                    "y": 917
+                },
+                {
+                    "x": 149,
+                    "y": 917
+                },
+                {
+                    "x": 149,
+                    "y": 2388
+                },
+                {
+                    "x": 61,
+                    "y": 2388
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='10' style='font-size:14px'>2017<br>Aug<br>28<br>[cs.LG]<br>arXiv:1707.06347v2</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "2017 Aug 28 [cs.LG] arXiv:1707.06347v2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 438
+                },
+                {
+                    "x": 1355,
+                    "y": 438
+                },
+                {
+                    "x": 1355,
+                    "y": 497
+                },
+                {
+                    "x": 285,
+                    "y": 497
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:22px'>2 Background: Policy Optimization</p>",
+            "id": 11,
+            "page": 2,
+            "text": "2 Background: Policy Optimization"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 542
+                },
+                {
+                    "x": 1025,
+                    "y": 542
+                },
+                {
+                    "x": 1025,
+                    "y": 596
+                },
+                {
+                    "x": 285,
+                    "y": 596
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:18px'>2.1 Policy Gradient Methods</p>",
+            "id": 12,
+            "page": 2,
+            "text": "2.1 Policy Gradient Methods"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 626
+                },
+                {
+                    "x": 2195,
+                    "y": 626
+                },
+                {
+                    "x": 2195,
+                    "y": 786
+                },
+                {
+                    "x": 284,
+                    "y": 786
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:14px'>Policy gradient methods work by computing an estimator of the policy gradient and plugging it<br>into a stochastic gradient ascent algorithm. The most commonly used gradient estimator has the<br>form</p>",
+            "id": 13,
+            "page": 2,
+            "text": "Policy gradient methods work by computing an estimator of the policy gradient and plugging it into a stochastic gradient ascent algorithm. The most commonly used gradient estimator has the form"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 950
+                },
+                {
+                    "x": 2196,
+                    "y": 950
+                },
+                {
+                    "x": 2196,
+                    "y": 1221
+                },
+                {
+                    "x": 283,
+                    "y": 1221
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:14px'>where �� is a stochastic policy and At is an estimator of the advantage function at timestep t.<br>Here, the expectation Et[. · .] indicates the empirical average over a finite batch of samples, in an<br>algorithm that alternates between sampling and optimization. Implementations that use automatic<br>differentiation software work by constructing an objective function whose gradient is the policy<br>gradient estimator; the estimator ^g is obtained by differentiating the objective</p>",
+            "id": 14,
+            "page": 2,
+            "text": "where �� is a stochastic policy and At is an estimator of the advantage function at timestep t. Here, the expectation Et[. · .] indicates the empirical average over a finite batch of samples, in an algorithm that alternates between sampling and optimization. Implementations that use automatic differentiation software work by constructing an objective function whose gradient is the policy gradient estimator; the estimator ^g is obtained by differentiating the objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1386
+                },
+                {
+                    "x": 2196,
+                    "y": 1386
+                },
+                {
+                    "x": 2196,
+                    "y": 1606
+                },
+                {
+                    "x": 283,
+                    "y": 1606
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:14px'>While it is appealing to perform multiple steps of optimization on this loss LPG using the same<br>trajectory, doing SO is not well-justified, and empirically it often leads to destructively large policy<br>updates (see Section 6.1; results are not shown but were similar or worse than the \"no clipping or<br>penalty\" setting).</p>",
+            "id": 15,
+            "page": 2,
+            "text": "While it is appealing to perform multiple steps of optimization on this loss LPG using the same trajectory, doing SO is not well-justified, and empirically it often leads to destructively large policy updates (see Section 6.1; results are not shown but were similar or worse than the \"no clipping or penalty\" setting)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 1668
+                },
+                {
+                    "x": 960,
+                    "y": 1668
+                },
+                {
+                    "x": 960,
+                    "y": 1721
+                },
+                {
+                    "x": 286,
+                    "y": 1721
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:18px'>2.2 Trust Region Methods</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2.2 Trust Region Methods"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 1751
+                },
+                {
+                    "x": 2193,
+                    "y": 1751
+                },
+                {
+                    "x": 2193,
+                    "y": 1859
+                },
+                {
+                    "x": 284,
+                    "y": 1859
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:16px'>In TRPO [Sch+15b], an objective function (the \"surrogate\" objective) is maximized subject to a<br>constraint on the size of the policy update. Specifically,</p>",
+            "id": 17,
+            "page": 2,
+            "text": "In TRPO [Sch+15b], an objective function (the \"surrogate\" objective) is maximized subject to a constraint on the size of the policy update. Specifically,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2125
+                },
+                {
+                    "x": 2196,
+                    "y": 2125
+                },
+                {
+                    "x": 2196,
+                    "y": 2285
+                },
+                {
+                    "x": 284,
+                    "y": 2285
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:14px'>Here, Oold is the vector of policy parameters before the update. This problem can efficiently be<br>approximately solved using the conjugate gradient algorithm, after making a linear approximation<br>to the objective and a quadratic approximation to the constraint.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "Here, Oold is the vector of policy parameters before the update. This problem can efficiently be approximately solved using the conjugate gradient algorithm, after making a linear approximation to the objective and a quadratic approximation to the constraint."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2292
+                },
+                {
+                    "x": 2195,
+                    "y": 2292
+                },
+                {
+                    "x": 2195,
+                    "y": 2395
+                },
+                {
+                    "x": 284,
+                    "y": 2395
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:16px'>The theory justifying TRPO actually suggests using a penalty instead of a constraint, i.e.,<br>solving the unconstrained optimization problem</p>",
+            "id": 19,
+            "page": 2,
+            "text": "The theory justifying TRPO actually suggests using a penalty instead of a constraint, i.e., solving the unconstrained optimization problem"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 2588
+                },
+                {
+                    "x": 2197,
+                    "y": 2588
+                },
+                {
+                    "x": 2197,
+                    "y": 3020
+                },
+                {
+                    "x": 281,
+                    "y": 3020
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:14px'>for some coefficient B. This follows from the fact that a certain surrogate objective (which computes<br>the max KL over states instead of the mean) forms a lower bound (i.e., a pessimistic bound) on the<br>performance of the policy �. TRPO uses a hard constraint rather than a penalty because it is hard<br>to choose a single value of B that performs well across different problems-or even within a single<br>problem, where the the characteristics change over the course of learning. Hence, to achieve our goal<br>of a first-order algorithm that emulates the monotonic improvement of TRPO, experiments show<br>that it is not sufficient to simply choose a fixed penalty coefficient B and optimize the penalized<br>objective Equation (5) with SGD; additional modifications are required.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "for some coefficient B. This follows from the fact that a certain surrogate objective (which computes the max KL over states instead of the mean) forms a lower bound (i.e., a pessimistic bound) on the performance of the policy �. TRPO uses a hard constraint rather than a penalty because it is hard to choose a single value of B that performs well across different problems-or even within a single problem, where the the characteristics change over the course of learning. Hence, to achieve our goal of a first-order algorithm that emulates the monotonic improvement of TRPO, experiments show that it is not sufficient to simply choose a fixed penalty coefficient B and optimize the penalized objective Equation (5) with SGD; additional modifications are required."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1224,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3193
+                },
+                {
+                    "x": 1224,
+                    "y": 3193
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='21' style='font-size:14px'>2</footer>",
+            "id": 21,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 437
+                },
+                {
+                    "x": 1215,
+                    "y": 437
+                },
+                {
+                    "x": 1215,
+                    "y": 501
+                },
+                {
+                    "x": 283,
+                    "y": 501
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:22px'>3 Clipped Surrogate Objective</p>",
+            "id": 22,
+            "page": 3,
+            "text": "3 Clipped Surrogate Objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 541
+                },
+                {
+                    "x": 2193,
+                    "y": 541
+                },
+                {
+                    "x": 2193,
+                    "y": 670
+                },
+                {
+                    "x": 283,
+                    "y": 670
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:14px'>��(at |st)<br>Let rt(0) denote the probability ratio rt(0) = SO r(Hold) = 1. TRPO maximizes a<br>��old (at |st)'<br>\"surrogate\" objective</p>",
+            "id": 23,
+            "page": 3,
+            "text": "��(at |st) Let rt(0) denote the probability ratio rt(0) = SO r(Hold) = 1. TRPO maximizes a ��old (at |st)' \"surrogate\" objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 858
+                },
+                {
+                    "x": 2197,
+                    "y": 858
+                },
+                {
+                    "x": 2197,
+                    "y": 1075
+                },
+                {
+                    "x": 282,
+                    "y": 1075
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:14px'>The superscript CPI refers to conservative policy iteration [KL02], where this objective was pro-<br>posed. Without a constraint, maximization of LCPI would lead to an excessively large policy<br>update; hence, we now consider how to modify the objective, to penalize changes to the policy that<br>move rt(0) away from 1.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "The superscript CPI refers to conservative policy iteration [KL02], where this objective was proposed. Without a constraint, maximization of LCPI would lead to an excessively large policy update; hence, we now consider how to modify the objective, to penalize changes to the policy that move rt(0) away from 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 356,
+                    "y": 1077
+                },
+                {
+                    "x": 1288,
+                    "y": 1077
+                },
+                {
+                    "x": 1288,
+                    "y": 1130
+                },
+                {
+                    "x": 356,
+                    "y": 1130
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:14px'>The main objective we propose is the following:</p>",
+            "id": 25,
+            "page": 3,
+            "text": "The main objective we propose is the following:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 1292
+                },
+                {
+                    "x": 2198,
+                    "y": 1292
+                },
+                {
+                    "x": 2198,
+                    "y": 1833
+                },
+                {
+                    "x": 281,
+                    "y": 1833
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:14px'>where epsilon is a hyperparameter, say, 6 = 0.2. The motivation for this objective is as follows. The<br>first term inside the min is LCPI. The second term, clip(rt(0), 1 -E, 1+ e)At, modifies the surrogate<br>objective by clipping the probability ratio, which removes the incentive for moving rt outside of the<br>interval [1 - E, 1 + €]. Finally, we take the minimum of the clipped and unclipped objective, SO the<br>final objective is a lower bound (i.e., a pessimistic bound) on the unclipped objective. With this<br>scheme, we only ignore the change in probability ratio when it would make the objective improve,<br>and we include it when it makes the objective worse. Note that LCLIP (0) = LCPI (0) to first order<br>around Oold (i.e., where r = 1), however, they become different as 0 moves away from Oold. Figure 1<br>plots a single term (i.e., a single t) in LCLIP; note that the probability ratio r is clipped at 1 - 6<br>or 1 + E depending on whether the advantage is positive or negative.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "where epsilon is a hyperparameter, say, 6 = 0.2. The motivation for this objective is as follows. The first term inside the min is LCPI. The second term, clip(rt(0), 1 -E, 1+ e)At, modifies the surrogate objective by clipping the probability ratio, which removes the incentive for moving rt outside of the interval [1 - E, 1 + €]. Finally, we take the minimum of the clipped and unclipped objective, SO the final objective is a lower bound (i.e., a pessimistic bound) on the unclipped objective. With this scheme, we only ignore the change in probability ratio when it would make the objective improve, and we include it when it makes the objective worse. Note that LCLIP (0) = LCPI (0) to first order around Oold (i.e., where r = 1), however, they become different as 0 moves away from Oold. Figure 1 plots a single term (i.e., a single t) in LCLIP; note that the probability ratio r is clipped at 1 - 6 or 1 + E depending on whether the advantage is positive or negative."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 554,
+                    "y": 1875
+                },
+                {
+                    "x": 1908,
+                    "y": 1875
+                },
+                {
+                    "x": 1908,
+                    "y": 2485
+                },
+                {
+                    "x": 554,
+                    "y": 2485
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='27' style='font-size:18px' alt=\"A < 0\nA > 0\nLCLIP\n1 E\nr\n/\nr\n1 1 + 6 LCLIP\" data-coord=\"top-left:(554,1875); bottom-right:(1908,2485)\" /></figure>",
+            "id": 27,
+            "page": 3,
+            "text": "A < 0 A > 0 LCLIP 1 E r / r 1 1 + 6 LCLIP"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 280,
+                    "y": 2511
+                },
+                {
+                    "x": 2197,
+                    "y": 2511
+                },
+                {
+                    "x": 2197,
+                    "y": 2663
+                },
+                {
+                    "x": 280,
+                    "y": 2663
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='28' style='font-size:14px'>Figure 1: Plots showing one term (i.e., a single timestep) of the surrogate function LCLIP function of<br>as a<br>the probability ratio r, for positive advantages (left) and negative advantages (right). The red circle on each<br>plot shows the starting point for the optimization, i.e., r = 1. Note that LCLIP sums many of these terms.</caption>",
+            "id": 28,
+            "page": 3,
+            "text": "Figure 1: Plots showing one term (i.e., a single timestep) of the surrogate function LCLIP function of as a the probability ratio r, for positive advantages (left) and negative advantages (right). The red circle on each plot shows the starting point for the optimization, i.e., r = 1. Note that LCLIP sums many of these terms."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 2709
+                },
+                {
+                    "x": 2199,
+                    "y": 2709
+                },
+                {
+                    "x": 2199,
+                    "y": 2985
+                },
+                {
+                    "x": 281,
+                    "y": 2985
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:16px'>Figure 2 provides another source of intuition about the surrogate objective LCLIP. It shows how<br>several objectives vary as we interpolate along the policy update direction, obtained by proximal<br>policy optimization (the algorithm we will introduce shortly) on a continuous control problem. We<br>can see that LCLIP is a lower bound on LCPI, with a penalty for having too large of a policy<br>update.</p>",
+            "id": 29,
+            "page": 3,
+            "text": "Figure 2 provides another source of intuition about the surrogate objective LCLIP. It shows how several objectives vary as we interpolate along the policy update direction, obtained by proximal policy optimization (the algorithm we will introduce shortly) on a continuous control problem. We can see that LCLIP is a lower bound on LCPI, with a penalty for having too large of a policy update."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1224,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3195
+                },
+                {
+                    "x": 1224,
+                    "y": 3195
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='30' style='font-size:14px'>3</footer>",
+            "id": 30,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 492,
+                    "y": 441
+                },
+                {
+                    "x": 2003,
+                    "y": 441
+                },
+                {
+                    "x": 2003,
+                    "y": 999
+                },
+                {
+                    "x": 492,
+                    "y": 999
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='31' style='font-size:14px' alt=\"0.12 Et[KLt]\n0.10 LCPl=Et[rtAt]\n0.08 Et[clip(rt, 1-�,1 + E)At]\nLCLIP=Et[min(rtAt, clip(rt, 1 - 3, 1 + E)At)]\n0.06\n0.04\n0.02\n0.00\n-0.02\n0 1\nLinear interpolation factor\" data-coord=\"top-left:(492,441); bottom-right:(2003,999)\" /></figure>",
+            "id": 31,
+            "page": 4,
+            "text": "0.12 Et[KLt] 0.10 LCPl=Et[rtAt] 0.08 Et[clip(rt, 1-�,1 + E)At] LCLIP=Et[min(rtAt, clip(rt, 1 - 3, 1 + E)At)] 0.06 0.04 0.02 0.00 -0.02 0 1 Linear interpolation factor"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 1038
+                },
+                {
+                    "x": 2199,
+                    "y": 1038
+                },
+                {
+                    "x": 2199,
+                    "y": 1237
+                },
+                {
+                    "x": 281,
+                    "y": 1237
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='32' style='font-size:16px'>Figure 2: Surrogate objectives, as we interpolate between the initial policy parameter Oold, and the updated<br>policy parameter, which we compute after one iteration of PPO. The updated policy has a KL divergence of<br>about 0.02 from the initial policy, and this is the point at which LCLIP is maximal. This plot corresponds<br>to the first policy update on the Hopper-v1 problem, using hyperparameters provided in Section 6.1.</caption>",
+            "id": 32,
+            "page": 4,
+            "text": "Figure 2: Surrogate objectives, as we interpolate between the initial policy parameter Oold, and the updated policy parameter, which we compute after one iteration of PPO. The updated policy has a KL divergence of about 0.02 from the initial policy, and this is the point at which LCLIP is maximal. This plot corresponds to the first policy update on the Hopper-v1 problem, using hyperparameters provided in Section 6.1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 1307
+                },
+                {
+                    "x": 1326,
+                    "y": 1307
+                },
+                {
+                    "x": 1326,
+                    "y": 1367
+                },
+                {
+                    "x": 286,
+                    "y": 1367
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:22px'>4 Adaptive KL Penalty Coefficient</p>",
+            "id": 33,
+            "page": 4,
+            "text": "4 Adaptive KL Penalty Coefficient"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1409
+                },
+                {
+                    "x": 2197,
+                    "y": 1409
+                },
+                {
+                    "x": 2197,
+                    "y": 1679
+                },
+                {
+                    "x": 283,
+                    "y": 1679
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>Another approach, which can be used as an alternative to the clipped surrogate objective, or in<br>addition to it, is to use a penalty on KL divergence, and to adapt the penalty coefficient so that we<br>achieve some target value of the KL divergence dtarg each policy update. In our experiments, we<br>found that the KL penalty performed worse than the clipped surrogate objective, however, we've<br>included it here because it's an important baseline.</p>",
+            "id": 34,
+            "page": 4,
+            "text": "Another approach, which can be used as an alternative to the clipped surrogate objective, or in addition to it, is to use a penalty on KL divergence, and to adapt the penalty coefficient so that we achieve some target value of the KL divergence dtarg each policy update. In our experiments, we found that the KL penalty performed worse than the clipped surrogate objective, however, we've included it here because it's an important baseline."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 1684
+                },
+                {
+                    "x": 2194,
+                    "y": 1684
+                },
+                {
+                    "x": 2194,
+                    "y": 1788
+                },
+                {
+                    "x": 284,
+                    "y": 1788
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='35' style='font-size:18px'>In the simplest instantiation of this algorithm, we perform the following steps in each policy<br>update:</p>",
+            "id": 35,
+            "page": 4,
+            "text": "In the simplest instantiation of this algorithm, we perform the following steps in each policy update:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 350,
+                    "y": 1811
+                },
+                {
+                    "x": 1900,
+                    "y": 1811
+                },
+                {
+                    "x": 1900,
+                    "y": 1872
+                },
+                {
+                    "x": 350,
+                    "y": 1872
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>● Using several epochs of minibatch SGD, optimize the KL-penalized objective</p>",
+            "id": 36,
+            "page": 4,
+            "text": "● Using several epochs of minibatch SGD, optimize the KL-penalized objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 348,
+                    "y": 2064
+                },
+                {
+                    "x": 1211,
+                    "y": 2064
+                },
+                {
+                    "x": 1211,
+                    "y": 2131
+                },
+                {
+                    "x": 348,
+                    "y": 2131
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:20px'>● Compute d = Et [KL[��old(·|st), ��(·|st)]</p>",
+            "id": 37,
+            "page": 4,
+            "text": "● Compute d = Et [KL[��old(·|st), ��(·|st)]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2306
+                },
+                {
+                    "x": 2198,
+                    "y": 2306
+                },
+                {
+                    "x": 2198,
+                    "y": 2582
+                },
+                {
+                    "x": 283,
+                    "y": 2582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:18px'>The updated � is used for the next policy update. With this scheme, we occasionally see policy<br>updates where the KL divergence is significantly different from dtarg, however, these are rare, and<br>� quickly adjusts. The parameters 1.5 and 2 above are chosen heuristically, but the algorithm is<br>not very sensitive to them. The initial value of � is a another hyperparameter but is not important<br>in practice because the algorithm quickly adjusts it.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "The updated � is used for the next policy update. With this scheme, we occasionally see policy updates where the KL divergence is significantly different from dtarg, however, these are rare, and � quickly adjusts. The parameters 1.5 and 2 above are chosen heuristically, but the algorithm is not very sensitive to them. The initial value of � is a another hyperparameter but is not important in practice because the algorithm quickly adjusts it."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 2652
+                },
+                {
+                    "x": 688,
+                    "y": 2652
+                },
+                {
+                    "x": 688,
+                    "y": 2717
+                },
+                {
+                    "x": 285,
+                    "y": 2717
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:22px'>5 Algorithm</p>",
+            "id": 39,
+            "page": 4,
+            "text": "5 Algorithm"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 2757
+                },
+                {
+                    "x": 2197,
+                    "y": 2757
+                },
+                {
+                    "x": 2197,
+                    "y": 2972
+                },
+                {
+                    "x": 282,
+                    "y": 2972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:16px'>The surrogate losses from the previous sections can be computed and differentiated with a minor<br>change to a typical policy gradient implementation. For implementations that use automatic dif-<br>ferentation, one simply constructs the loss LCLIP or LKLPEN instead of LPG, and one performs<br>multiple steps of stochastic gradient ascent on this objective.</p>",
+            "id": 40,
+            "page": 4,
+            "text": "The surrogate losses from the previous sections can be computed and differentiated with a minor change to a typical policy gradient implementation. For implementations that use automatic differentation, one simply constructs the loss LCLIP or LKLPEN instead of LPG, and one performs multiple steps of stochastic gradient ascent on this objective."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 2979
+                },
+                {
+                    "x": 2196,
+                    "y": 2979
+                },
+                {
+                    "x": 2196,
+                    "y": 3086
+                },
+                {
+                    "x": 285,
+                    "y": 3086
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:18px'>Most techniques for computing variance-reduced advantage-function estimators make use a<br>learned state-value function V(s); for example, generalized advantage estimation [Sch+15a], or the</p>",
+            "id": 41,
+            "page": 4,
+            "text": "Most techniques for computing variance-reduced advantage-function estimators make use a learned state-value function V(s); for example, generalized advantage estimation [Sch+15a], or the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1224,
+                    "y": 3156
+                },
+                {
+                    "x": 1255,
+                    "y": 3156
+                },
+                {
+                    "x": 1255,
+                    "y": 3194
+                },
+                {
+                    "x": 1224,
+                    "y": 3194
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='42' style='font-size:14px'>4</footer>",
+            "id": 42,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 444
+                },
+                {
+                    "x": 2197,
+                    "y": 444
+                },
+                {
+                    "x": 2197,
+                    "y": 766
+                },
+                {
+                    "x": 282,
+                    "y": 766
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>finite-horizon estimators in [Mni+16]. If using a neural network architecture that shares parameters<br>between the policy and value function, we must use a loss function that combines the policy<br>surrogate and a value function error term. This objective can further be augmented by adding<br>an entropy bonus to ensure sufficient exploration, as suggested in past work [Wil92; Mni+16].<br>Combining these terms, we obtain the following objective, which is (approximately) maximized<br>each iteration:</p>",
+            "id": 43,
+            "page": 5,
+            "text": "finite-horizon estimators in [Mni+16]. If using a neural network architecture that shares parameters between the policy and value function, we must use a loss function that combines the policy surrogate and a value function error term. This objective can further be augmented by adding an entropy bonus to ensure sufficient exploration, as suggested in past work [Wil92; Mni+16]. Combining these terms, we obtain the following objective, which is (approximately) maximized each iteration:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 888
+                },
+                {
+                    "x": 2195,
+                    "y": 888
+                },
+                {
+                    "x": 2195,
+                    "y": 1000
+                },
+                {
+                    "x": 281,
+                    "y": 1000
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>where C1, C2 are coefficients, and S denotes an entropy bonus, and LVF is a squared-error loss<br>(V�(st) - Vtarg)2.</p>",
+            "id": 44,
+            "page": 5,
+            "text": "where C1, C2 are coefficients, and S denotes an entropy bonus, and LVF is a squared-error loss (V�(st) - Vtarg)2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1001
+                },
+                {
+                    "x": 2198,
+                    "y": 1001
+                },
+                {
+                    "x": 2198,
+                    "y": 1213
+                },
+                {
+                    "x": 283,
+                    "y": 1213
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:18px'>One style of policy gradient implementation, popularized in [Mni+16] and well-suited for use<br>with recurrent neural networks, runs the policy for T timesteps (where T is much less than the<br>episode length), and uses the collected samples for an update. This style requires an advantage<br>estimator that does not look beyond timestep T. The estimator used by [Mni+16] is</p>",
+            "id": 45,
+            "page": 5,
+            "text": "One style of policy gradient implementation, popularized in [Mni+16] and well-suited for use with recurrent neural networks, runs the policy for T timesteps (where T is much less than the episode length), and uses the collected samples for an update. This style requires an advantage estimator that does not look beyond timestep T. The estimator used by [Mni+16] is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 1330
+                },
+                {
+                    "x": 2196,
+                    "y": 1330
+                },
+                {
+                    "x": 2196,
+                    "y": 1494
+                },
+                {
+                    "x": 281,
+                    "y": 1494
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>where t specifies the time index in [0,T], within a given length-T trajectory segment. Generalizing<br>this choice, we can use a truncated version of generalized advantage estimation, which reduces to<br>Equation (10) when 入 = 1:</p>",
+            "id": 46,
+            "page": 5,
+            "text": "where t specifies the time index in [0,T], within a given length-T trajectory segment. Generalizing this choice, we can use a truncated version of generalized advantage estimation, which reduces to Equation (10) when 入 = 1:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1677
+                },
+                {
+                    "x": 2196,
+                    "y": 1677
+                },
+                {
+                    "x": 2196,
+                    "y": 1894
+                },
+                {
+                    "x": 283,
+                    "y": 1894
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:18px'>A proximal policy optimization (PPO) algorithm that uses fixed-length trajectory segments is<br>shown below. Each iteration, each of N (parallel) actors collect T timesteps of data. Then we<br>construct the surrogate loss on these NT timesteps of data, and optimize it with minibatch SGD<br>(or usually for better performance, Adam [KB14]), for K epochs.</p>",
+            "id": 47,
+            "page": 5,
+            "text": "A proximal policy optimization (PPO) algorithm that uses fixed-length trajectory segments is shown below. Each iteration, each of N (parallel) actors collect T timesteps of data. Then we construct the surrogate loss on these NT timesteps of data, and optimize it with minibatch SGD (or usually for better performance, Adam [KB14]), for K epochs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 1942
+                },
+                {
+                    "x": 1053,
+                    "y": 1942
+                },
+                {
+                    "x": 1053,
+                    "y": 1989
+                },
+                {
+                    "x": 289,
+                    "y": 1989
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:20px'>Algorithm 1 PPO, Actor-Critic Style</p>",
+            "id": 48,
+            "page": 5,
+            "text": "Algorithm 1 PPO, Actor-Critic Style"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 328,
+                    "y": 2007
+                },
+                {
+                    "x": 831,
+                    "y": 2007
+                },
+                {
+                    "x": 831,
+                    "y": 2055
+                },
+                {
+                    "x": 328,
+                    "y": 2055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:14px'>for iteration=1, 2, · · · do</p>",
+            "id": 49,
+            "page": 5,
+            "text": "for iteration=1, 2, · · · do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 396,
+                    "y": 2060
+                },
+                {
+                    "x": 889,
+                    "y": 2060
+                },
+                {
+                    "x": 889,
+                    "y": 2110
+                },
+                {
+                    "x": 396,
+                    "y": 2110
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:14px'>for actor=1, 2, · · · , N do</p>",
+            "id": 50,
+            "page": 5,
+            "text": "for actor=1, 2, · · · , N do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 463,
+                    "y": 2116
+                },
+                {
+                    "x": 1405,
+                    "y": 2116
+                },
+                {
+                    "x": 1405,
+                    "y": 2225
+                },
+                {
+                    "x": 463,
+                    "y": 2225
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:18px'>Run policy �Oold timesteps<br>in environment for T<br>Compute advantage estimates A1, · , AT</p>",
+            "id": 51,
+            "page": 5,
+            "text": "Run policy �Oold timesteps in environment for T Compute advantage estimates A1, · , AT"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 392,
+                    "y": 2228
+                },
+                {
+                    "x": 1825,
+                    "y": 2228
+                },
+                {
+                    "x": 1825,
+                    "y": 2386
+                },
+                {
+                    "x": 392,
+                    "y": 2386
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='52' style='font-size:18px'>end for<br>Optimize surrogate L wrt 0, with K epochs and minibatch size M ≤ NT<br>Oold ← 0</p>",
+            "id": 52,
+            "page": 5,
+            "text": "end for Optimize surrogate L wrt 0, with K epochs and minibatch size M ≤ NT Oold ← 0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 330,
+                    "y": 2392
+                },
+                {
+                    "x": 493,
+                    "y": 2392
+                },
+                {
+                    "x": 493,
+                    "y": 2435
+                },
+                {
+                    "x": 330,
+                    "y": 2435
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:16px'>end for</p>",
+            "id": 53,
+            "page": 5,
+            "text": "end for"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 2534
+                },
+                {
+                    "x": 753,
+                    "y": 2534
+                },
+                {
+                    "x": 753,
+                    "y": 2595
+                },
+                {
+                    "x": 286,
+                    "y": 2595
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:22px'>6 Experiments</p>",
+            "id": 54,
+            "page": 5,
+            "text": "6 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 2639
+                },
+                {
+                    "x": 1286,
+                    "y": 2639
+                },
+                {
+                    "x": 1286,
+                    "y": 2694
+                },
+                {
+                    "x": 286,
+                    "y": 2694
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:22px'>6.1 Comparison of Surrogate Objectives</p>",
+            "id": 55,
+            "page": 5,
+            "text": "6.1 Comparison of Surrogate Objectives"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2724
+                },
+                {
+                    "x": 2196,
+                    "y": 2724
+                },
+                {
+                    "x": 2196,
+                    "y": 2830
+                },
+                {
+                    "x": 284,
+                    "y": 2830
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:16px'>First, we compare several different surrogate objectives under different hyperparameters. Here, we<br>compare the surrogate objective LCLIP to several natural variations and ablated versions.</p>",
+            "id": 56,
+            "page": 5,
+            "text": "First, we compare several different surrogate objectives under different hyperparameters. Here, we compare the surrogate objective LCLIP to several natural variations and ablated versions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 438,
+                    "y": 2859
+                },
+                {
+                    "x": 2037,
+                    "y": 2859
+                },
+                {
+                    "x": 2037,
+                    "y": 3072
+                },
+                {
+                    "x": 438,
+                    "y": 3072
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:20px'>No clipping or penalty: Lt(0) = rt(0)At<br>Clipping: Lt(U) = min(rt(0)At, clip(rt(U)), 1 - E, 1 + e)At<br>KL penalty (fixed or adaptive) Lt(0) = rt(0)At -� KL[��old, ��]</p>",
+            "id": 57,
+            "page": 5,
+            "text": "No clipping or penalty: Lt(0) = rt(0)At Clipping: Lt(U) = min(rt(0)At, clip(rt(U)), 1 - E, 1 + e)At KL penalty (fixed or adaptive) Lt(0) = rt(0)At -� KL[��old, ��]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3155
+                },
+                {
+                    "x": 1253,
+                    "y": 3155
+                },
+                {
+                    "x": 1253,
+                    "y": 3194
+                },
+                {
+                    "x": 1225,
+                    "y": 3194
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='58' style='font-size:16px'>5</footer>",
+            "id": 58,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 441
+                },
+                {
+                    "x": 2197,
+                    "y": 441
+                },
+                {
+                    "x": 2197,
+                    "y": 604
+                },
+                {
+                    "x": 281,
+                    "y": 604
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>For the KL penalty, one can either use a fixed penalty coefficient B or an adaptive coefficient as<br>described in Section 4 using target KL value dtarg. Note that we also tried clipping in log space,<br>but found the performance to be no better.</p>",
+            "id": 59,
+            "page": 6,
+            "text": "For the KL penalty, one can either use a fixed penalty coefficient B or an adaptive coefficient as described in Section 4 using target KL value dtarg. Note that we also tried clipping in log space, but found the performance to be no better."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 609
+                },
+                {
+                    "x": 2195,
+                    "y": 609
+                },
+                {
+                    "x": 2195,
+                    "y": 925
+                },
+                {
+                    "x": 281,
+                    "y": 925
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:18px'>Because we are searching over hyperparameters for each algorithm variant, we chose a compu-<br>tationally cheap benchmark to test the algorithms on. Namely, we used 7 simulated robotics tasks2<br>implemented in OpenAI Gym [Bro+16], which use the MuJoCo [TET12] physics engine. We do<br>one million timesteps of training on each one. Besides the hyperparameters used for clipping ()<br>and the KL penalty (B, dtarg), which we search over, the other hyperparameters are provided in in<br>Table 3.</p>",
+            "id": 60,
+            "page": 6,
+            "text": "Because we are searching over hyperparameters for each algorithm variant, we chose a computationally cheap benchmark to test the algorithms on. Namely, we used 7 simulated robotics tasks2 implemented in OpenAI Gym [Bro+16], which use the MuJoCo [TET12] physics engine. We do one million timesteps of training on each one. Besides the hyperparameters used for clipping () and the KL penalty (B, dtarg), which we search over, the other hyperparameters are provided in in Table 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 931
+                },
+                {
+                    "x": 2196,
+                    "y": 931
+                },
+                {
+                    "x": 2196,
+                    "y": 1142
+                },
+                {
+                    "x": 281,
+                    "y": 1142
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>To represent the policy, we used a fully-connected MLP with two hidden layers of 64 units,<br>and tanh nonlinearities, outputting the mean of a Gaussian distribution, with variable standard<br>deviations, following [Sch+15b; Dua+16]. We don 't share parameters between the policy and value<br>function (so coefficient C1 is irrelevant), and we don't use an entropy bonus.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "To represent the policy, we used a fully-connected MLP with two hidden layers of 64 units, and tanh nonlinearities, outputting the mean of a Gaussian distribution, with variable standard deviations, following [Sch+15b; Dua+16]. We don 't share parameters between the policy and value function (so coefficient C1 is irrelevant), and we don't use an entropy bonus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1147
+                },
+                {
+                    "x": 2195,
+                    "y": 1147
+                },
+                {
+                    "x": 2195,
+                    "y": 1358
+                },
+                {
+                    "x": 283,
+                    "y": 1358
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='62' style='font-size:18px'>Each algorithm was run on all 7 environments, with 3 random seeds on each. We scored each<br>run of the algorithm by computing the average total reward of the last 100 episodes. We shifted<br>and scaled the scores for each environment SO that the random policy gave a score of 0 and the best<br>result was set to 1, and averaged over 21 runs to produce a single scalar for each algorithm setting.</p>",
+            "id": 62,
+            "page": 6,
+            "text": "Each algorithm was run on all 7 environments, with 3 random seeds on each. We scored each run of the algorithm by computing the average total reward of the last 100 episodes. We shifted and scaled the scores for each environment SO that the random policy gave a score of 0 and the best result was set to 1, and averaged over 21 runs to produce a single scalar for each algorithm setting."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1364
+                },
+                {
+                    "x": 2197,
+                    "y": 1364
+                },
+                {
+                    "x": 2197,
+                    "y": 1521
+                },
+                {
+                    "x": 283,
+                    "y": 1521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:18px'>The results are shown in Table 1. Note that the score is negative for the setting without clipping<br>or penalties, because for one environment (half cheetah) it leads to a very negative score, which is<br>worse than the initial random policy.</p>",
+            "id": 63,
+            "page": 6,
+            "text": "The results are shown in Table 1. Note that the score is negative for the setting without clipping or penalties, because for one environment (half cheetah) it leads to a very negative score, which is worse than the initial random policy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 716,
+                    "y": 1562
+                },
+                {
+                    "x": 1762,
+                    "y": 1562
+                },
+                {
+                    "x": 1762,
+                    "y": 2260
+                },
+                {
+                    "x": 716,
+                    "y": 2260
+                }
+            ],
+            "category": "table",
+            "html": "<table id='64' style='font-size:18px'><tr><td>algorithm</td><td>avg. normalized score</td></tr><tr><td>No clipping or penalty</td><td>-0.39</td></tr><tr><td>Clipping, 6 = 0.1</td><td>0.76</td></tr><tr><td>Clipping, 6 = 0.2</td><td>0.82</td></tr><tr><td>Clipping, E = 0.3</td><td>0.70</td></tr><tr><td>Adaptive KL dtarg = 0.003</td><td>0.68</td></tr><tr><td>Adaptive KL dtarg = 0.01</td><td>0.74</td></tr><tr><td>Adaptive KL dtarg = 0.03</td><td>0.71</td></tr><tr><td>Fixed KL, � = 0.3</td><td>0.62</td></tr><tr><td>Fixed KL, B = 1.</td><td>0.71</td></tr><tr><td>Fixed KL, B = 3.</td><td>0.72</td></tr><tr><td>Fixed KL, � = 10.</td><td>0.69</td></tr></table>",
+            "id": 64,
+            "page": 6,
+            "text": "algorithm avg. normalized score  No clipping or penalty -0.39  Clipping, 6 = 0.1 0.76  Clipping, 6 = 0.2 0.82  Clipping, E = 0.3 0.70  Adaptive KL dtarg = 0.003 0.68  Adaptive KL dtarg = 0.01 0.74  Adaptive KL dtarg = 0.03 0.71  Fixed KL, � = 0.3 0.62  Fixed KL, B = 1. 0.71  Fixed KL, B = 3. 0.72  Fixed KL, � = 10."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 2296
+                },
+                {
+                    "x": 2197,
+                    "y": 2296
+                },
+                {
+                    "x": 2197,
+                    "y": 2397
+                },
+                {
+                    "x": 282,
+                    "y": 2397
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='65' style='font-size:14px'>Table 1: Results from continuous control benchmark. Average normalized scores (over 21 runs of the<br>algorithm, on 7 environments) for each algorithm / hyperparameter setting · B was initialized at 1.</caption>",
+            "id": 65,
+            "page": 6,
+            "text": "Table 1: Results from continuous control benchmark. Average normalized scores (over 21 runs of the algorithm, on 7 environments) for each algorithm / hyperparameter setting · B was initialized at 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 2560
+                },
+                {
+                    "x": 1865,
+                    "y": 2560
+                },
+                {
+                    "x": 1865,
+                    "y": 2614
+                },
+                {
+                    "x": 285,
+                    "y": 2614
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:22px'>6.2 Comparison to Other Algorithms in the Continuous Domain</p>",
+            "id": 66,
+            "page": 6,
+            "text": "6.2 Comparison to Other Algorithms in the Continuous Domain"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2642
+                },
+                {
+                    "x": 2195,
+                    "y": 2642
+                },
+                {
+                    "x": 2195,
+                    "y": 2861
+                },
+                {
+                    "x": 284,
+                    "y": 2861
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:20px'>Next, we compare PPO (with the \"clipped\" surrogate objective from Section 3) to several other<br>methods from the literature, which are considered to be effective for continuous problems. We com-<br>pared against tuned implementations of the following algorithms: trust region policy optimization<br>[Sch+15b], cross-entropy method (CEM) [SL06], vanilla policy gradient with adaptive stepsize3,</p>",
+            "id": 67,
+            "page": 6,
+            "text": "Next, we compare PPO (with the \"clipped\" surrogate objective from Section 3) to several other methods from the literature, which are considered to be effective for continuous problems. We compared against tuned implementations of the following algorithms: trust region policy optimization [Sch+15b], cross-entropy method (CEM) [SL06], vanilla policy gradient with adaptive stepsize3,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 336,
+                    "y": 2894
+                },
+                {
+                    "x": 2058,
+                    "y": 2894
+                },
+                {
+                    "x": 2058,
+                    "y": 2936
+                },
+                {
+                    "x": 336,
+                    "y": 2936
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>2HalfCheetah, Hopper, InvertedDoublePendulum, InvertedPendulum, Reacher, Swimmer, and Walker2d, all \"-v1\"</p>",
+            "id": 68,
+            "page": 6,
+            "text": "2HalfCheetah, Hopper, InvertedDoublePendulum, InvertedPendulum, Reacher, Swimmer, and Walker2d, all \"-v1\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2939
+                },
+                {
+                    "x": 2195,
+                    "y": 2939
+                },
+                {
+                    "x": 2195,
+                    "y": 3070
+                },
+                {
+                    "x": 283,
+                    "y": 3070
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:14px'>3 After each batch of data, the Adam stepsize is adjusted based on the KL divergence of the original and updated<br>policy, using a rule similar to the one shown in Section 4. An implementation is available at https : / /github.com/<br>beckeleydeepolconnose/homenock/tee/paster /hw4.</p>",
+            "id": 69,
+            "page": 6,
+            "text": "3 After each batch of data, the Adam stepsize is adjusted based on the KL divergence of the original and updated policy, using a rule similar to the one shown in Section 4. An implementation is available at https : / /github.com/ beckeleydeepolconnose/homenock/tee/paster /hw4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1223,
+                    "y": 3156
+                },
+                {
+                    "x": 1255,
+                    "y": 3156
+                },
+                {
+                    "x": 1255,
+                    "y": 3195
+                },
+                {
+                    "x": 1223,
+                    "y": 3195
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='70' style='font-size:14px'>6</footer>",
+            "id": 70,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 440
+                },
+                {
+                    "x": 2198,
+                    "y": 440
+                },
+                {
+                    "x": 2198,
+                    "y": 712
+                },
+                {
+                    "x": 283,
+                    "y": 712
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:18px'>A2C [Mni+16], A2C with trust region [Wan+16]. A2C stands for advantage actor critic, and is<br>a synchronous version of A3C, which we found to have the same or better performance than the<br>asynchronous version. For PPO, we used the hyperparameters from the previous section, with<br>E = 0.2. We see that PPO outperforms the previous methods on almost all the continuous control<br>environments.</p>",
+            "id": 71,
+            "page": 7,
+            "text": "A2C [Mni+16], A2C with trust region [Wan+16]. A2C stands for advantage actor critic, and is a synchronous version of A3C, which we found to have the same or better performance than the asynchronous version. For PPO, we used the hyperparameters from the previous section, with E = 0.2. We see that PPO outperforms the previous methods on almost all the continuous control environments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 742
+                },
+                {
+                    "x": 2188,
+                    "y": 742
+                },
+                {
+                    "x": 2188,
+                    "y": 1524
+                },
+                {
+                    "x": 288,
+                    "y": 1524
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='72' style='font-size:14px' alt=\"HalfCheetah-v1 Hopper-v1 InvertedDoublePendulum-v1 InvertedPendulum-v1\n1000\n2000 2500 8000\n800\n1500 2000\n6000\n1000 600\n1500\n4000\n500 400\n1000\n0 2000\n500 200\n-500\n0 0 0\n0 1000000 0 1000000 0 1000000 1000000\nReacher-v1 Swimmer-v1 Walker2d-v1\nA2C\n120\nA2C + Trust Region\n-20\n100 3000 CEM\n-40 PPO (Clip)\n80\nVanilla PG, Adaptive\n2000\n-60 60\nTRPO\n40\n-80\n1000\n20\n-100\n0\n-120 0\n0 1000000 0 1000000 0 1000000\" data-coord=\"top-left:(288,742); bottom-right:(2188,1524)\" /></figure>",
+            "id": 72,
+            "page": 7,
+            "text": "HalfCheetah-v1 Hopper-v1 InvertedDoublePendulum-v1 InvertedPendulum-v1 1000 2000 2500 8000 800 1500 2000 6000 1000 600 1500 4000 500 400 1000 0 2000 500 200 -500 0 0 0 0 1000000 0 1000000 0 1000000 1000000 Reacher-v1 Swimmer-v1 Walker2d-v1 A2C 120 A2C + Trust Region -20 100 3000 CEM -40 PPO (Clip) 80 Vanilla PG, Adaptive 2000 -60 60 TRPO 40 -80 1000 20 -100 0 -120 0 0 1000000 0 1000000 0 1000000"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1563
+                },
+                {
+                    "x": 2194,
+                    "y": 1563
+                },
+                {
+                    "x": 2194,
+                    "y": 1660
+                },
+                {
+                    "x": 283,
+                    "y": 1660
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='73' style='font-size:18px'>Figure 3: Comparison of several algorithms on several MuJoCo environments, training for one million<br>timesteps.</caption>",
+            "id": 73,
+            "page": 7,
+            "text": "Figure 3: Comparison of several algorithms on several MuJoCo environments, training for one million timesteps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1784
+                },
+                {
+                    "x": 2122,
+                    "y": 1784
+                },
+                {
+                    "x": 2122,
+                    "y": 1841
+                },
+                {
+                    "x": 283,
+                    "y": 1841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:22px'>6.3 Showcase in the Continuous Domain: Humanoid Running and Steering</p>",
+            "id": 74,
+            "page": 7,
+            "text": "6.3 Showcase in the Continuous Domain: Humanoid Running and Steering"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1869
+                },
+                {
+                    "x": 2198,
+                    "y": 1869
+                },
+                {
+                    "x": 2198,
+                    "y": 2354
+                },
+                {
+                    "x": 283,
+                    "y": 2354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:20px'>To showcase the performance of PPO on high-dimensional continuous control problems, we train<br>on a set of problems involving a 3D humanoid, where the robot must run, steer, and get up<br>off the ground, possibly while being pelted by cubes. The three tasks we test on are (1) Ro-<br>boschoolHumanoid: forward locomotion only, (2) RoboschoolHumanoidFlagrun: position of target<br>is randomly varied every 200 timesteps or whenever the goal is reached, (3) RoboschoolHumanoid-<br>FlagrunHarder, where the robot is pelted by cubes and needs to get up off the ground. See Figure 5<br>for still frames of a learned policy, and Figure 4 for learning curves on the three tasks. Hyperpa-<br>rameters are provided in Table 4. In concurrent work, Heess et al. [Hee+17] used the adaptive KL<br>variant of PPO (Section 4) to learn locomotion policies for 3D robots.</p>",
+            "id": 75,
+            "page": 7,
+            "text": "To showcase the performance of PPO on high-dimensional continuous control problems, we train on a set of problems involving a 3D humanoid, where the robot must run, steer, and get up off the ground, possibly while being pelted by cubes. The three tasks we test on are (1) RoboschoolHumanoid: forward locomotion only, (2) RoboschoolHumanoidFlagrun: position of target is randomly varied every 200 timesteps or whenever the goal is reached, (3) RoboschoolHumanoidFlagrunHarder, where the robot is pelted by cubes and needs to get up off the ground. See Figure 5 for still frames of a learned policy, and Figure 4 for learning curves on the three tasks. Hyperparameters are provided in Table 4. In concurrent work, Heess  [Hee+17] used the adaptive KL variant of PPO (Section 4) to learn locomotion policies for 3D robots."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 574,
+                    "y": 2427
+                },
+                {
+                    "x": 1899,
+                    "y": 2427
+                },
+                {
+                    "x": 1899,
+                    "y": 2835
+                },
+                {
+                    "x": 574,
+                    "y": 2835
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='76' style='font-size:14px' alt=\"RoboschoolHumanoid-v0 RoboschoolHumanoidFlagrun-v0 RoboschoolHumanoidFlagrunHarder-v0\n2500\n4000\n3000\n2000\n3000\n1500 2000\n2000\n1000\n1000\n1000\n500\n0 0 0\n0 50M 0 100M 0 100M\nTimestep Timestep Timestep\" data-coord=\"top-left:(574,2427); bottom-right:(1899,2835)\" /></figure>",
+            "id": 76,
+            "page": 7,
+            "text": "RoboschoolHumanoid-v0 RoboschoolHumanoidFlagrun-v0 RoboschoolHumanoidFlagrunHarder-v0 2500 4000 3000 2000 3000 1500 2000 2000 1000 1000 1000 500 0 0 0 0 50M 0 100M 0 100M Timestep Timestep Timestep"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 464,
+                    "y": 2880
+                },
+                {
+                    "x": 2014,
+                    "y": 2880
+                },
+                {
+                    "x": 2014,
+                    "y": 2931
+                },
+                {
+                    "x": 464,
+                    "y": 2931
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='77' style='font-size:18px'>Figure 4: Learning curves from PPO on 3D humanoid control tasks, using Roboschool.</caption>",
+            "id": 77,
+            "page": 7,
+            "text": "Figure 4: Learning curves from PPO on 3D humanoid control tasks, using Roboschool."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1224,
+                    "y": 3154
+                },
+                {
+                    "x": 1256,
+                    "y": 3154
+                },
+                {
+                    "x": 1256,
+                    "y": 3195
+                },
+                {
+                    "x": 1224,
+                    "y": 3195
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='78' style='font-size:16px'>7</footer>",
+            "id": 78,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 432
+                },
+                {
+                    "x": 2194,
+                    "y": 432
+                },
+                {
+                    "x": 2194,
+                    "y": 857
+                },
+                {
+                    "x": 283,
+                    "y": 857
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='79' alt=\"\" data-coord=\"top-left:(283,432); bottom-right:(2194,857)\" /></figure>",
+            "id": 79,
+            "page": 8,
+            "text": ""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 883
+                },
+                {
+                    "x": 2199,
+                    "y": 883
+                },
+                {
+                    "x": 2199,
+                    "y": 1034
+                },
+                {
+                    "x": 282,
+                    "y": 1034
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='80' style='font-size:14px'>Figure 5: Still frames of the policy learned from RoboschoolHumancidFlagrun. In the first six frames, the<br>robot runs towards a target. Then the position is randomly changed, and the robot turns and runs toward<br>the new target.</caption>",
+            "id": 80,
+            "page": 8,
+            "text": "Figure 5: Still frames of the policy learned from RoboschoolHumancidFlagrun. In the first six frames, the robot runs towards a target. Then the position is randomly changed, and the robot turns and runs toward the new target."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 1114
+                },
+                {
+                    "x": 1735,
+                    "y": 1114
+                },
+                {
+                    "x": 1735,
+                    "y": 1170
+                },
+                {
+                    "x": 283,
+                    "y": 1170
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:20px'>6.4 Comparison to Other Algorithms on the Atari Domain</p>",
+            "id": 81,
+            "page": 8,
+            "text": "6.4 Comparison to Other Algorithms on the Atari Domain"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 1197
+                },
+                {
+                    "x": 2198,
+                    "y": 1197
+                },
+                {
+                    "x": 2198,
+                    "y": 1467
+                },
+                {
+                    "x": 282,
+                    "y": 1467
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:16px'>We also ran PPO on the Arcade Learning Environment [Bel+15] benchmark and compared against<br>well-tuned implementations of A2C [Mni+16] and ACER [Wan+16]. For all three algorithms, we<br>used the same policy network architechture as used in [Mni+16]. The hyperparameters for PPO<br>are provided in Table 5. For the other two algorithms, we used hyperparameters that were tuned<br>to maximize performance on this benchmark.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "We also ran PPO on the Arcade Learning Environment [Bel+15] benchmark and compared against well-tuned implementations of A2C [Mni+16] and ACER [Wan+16]. For all three algorithms, we used the same policy network architechture as used in [Mni+16]. The hyperparameters for PPO are provided in Table 5. For the other two algorithms, we used hyperparameters that were tuned to maximize performance on this benchmark."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 281,
+                    "y": 1468
+                },
+                {
+                    "x": 2197,
+                    "y": 1468
+                },
+                {
+                    "x": 2197,
+                    "y": 1741
+                },
+                {
+                    "x": 281,
+                    "y": 1741
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:18px'>A table of results and learning curves for all 49 games is provided in Appendix B. We consider<br>the following two scoring metrics: (1) average reward per episode over entire training period (which<br>favors fast learning), and (2) average reward per episode over last 100 episodes of training (which<br>favors final performance). Table 2 shows the number of games \"won\" by each algorithm, where we<br>compute the victor by averaging the scoring metric across three trials.</p>",
+            "id": 83,
+            "page": 8,
+            "text": "A table of results and learning curves for all 49 games is provided in Appendix B. We consider the following two scoring metrics: (1) average reward per episode over entire training period (which favors fast learning), and (2) average reward per episode over last 100 episodes of training (which favors final performance). Table 2 shows the number of games \"won\" by each algorithm, where we compute the victor by averaging the scoring metric across three trials."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 1779
+                },
+                {
+                    "x": 1998,
+                    "y": 1779
+                },
+                {
+                    "x": 1998,
+                    "y": 1997
+                },
+                {
+                    "x": 482,
+                    "y": 1997
+                }
+            ],
+            "category": "table",
+            "html": "<table id='84' style='font-size:16px'><tr><td></td><td>A2C</td><td>ACER</td><td>PPO</td><td>Tie</td></tr><tr><td>(1) avg. episode reward over all of training</td><td>1</td><td>18</td><td>30</td><td>0</td></tr><tr><td>(2) avg. episode reward over last 100 episodes</td><td>1</td><td>28</td><td>19</td><td>1</td></tr></table>",
+            "id": 84,
+            "page": 8,
+            "text": "A2C ACER PPO Tie  (1) avg. episode reward over all of training 1 18 30 0  (2) avg. episode reward over last 100 episodes 1 28 19"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2027
+                },
+                {
+                    "x": 2191,
+                    "y": 2027
+                },
+                {
+                    "x": 2191,
+                    "y": 2081
+                },
+                {
+                    "x": 283,
+                    "y": 2081
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:14px'>Table 2: Number of games \"won\" by each algorithm, where the scoring metric is averaged across three trials.</p>",
+            "id": 85,
+            "page": 8,
+            "text": "Table 2: Number of games \"won\" by each algorithm, where the scoring metric is averaged across three trials."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 2209
+                },
+                {
+                    "x": 706,
+                    "y": 2209
+                },
+                {
+                    "x": 706,
+                    "y": 2270
+                },
+                {
+                    "x": 285,
+                    "y": 2270
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:20px'>7 Conclusion</p>",
+            "id": 86,
+            "page": 8,
+            "text": "7 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 282,
+                    "y": 2312
+                },
+                {
+                    "x": 2199,
+                    "y": 2312
+                },
+                {
+                    "x": 2199,
+                    "y": 2640
+                },
+                {
+                    "x": 282,
+                    "y": 2640
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:18px'>We have introduced proximal policy optimization, a family of policy optimization methods that use<br>multiple epochs of stochastic gradient ascent to perform each policy update. These methods have<br>the stability and reliability of trust-region methods but are much simpler to implement, requiring<br>only few lines of code change to a vanilla policy gradient implementation, applicable in more general<br>settings (for example, when using a joint architecture for the policy and value function), and have<br>better overall performance.</p>",
+            "id": 87,
+            "page": 8,
+            "text": "We have introduced proximal policy optimization, a family of policy optimization methods that use multiple epochs of stochastic gradient ascent to perform each policy update. These methods have the stability and reliability of trust-region methods but are much simpler to implement, requiring only few lines of code change to a vanilla policy gradient implementation, applicable in more general settings (for example, when using a joint architecture for the policy and value function), and have better overall performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2712
+                },
+                {
+                    "x": 938,
+                    "y": 2712
+                },
+                {
+                    "x": 938,
+                    "y": 2777
+                },
+                {
+                    "x": 284,
+                    "y": 2777
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:22px'>8 Acknowledgements</p>",
+            "id": 88,
+            "page": 8,
+            "text": "8 Acknowledgements"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2817
+                },
+                {
+                    "x": 1932,
+                    "y": 2817
+                },
+                {
+                    "x": 1932,
+                    "y": 2875
+                },
+                {
+                    "x": 283,
+                    "y": 2875
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:18px'>Thanks to Rocky Duan, Peter Chen, and others at OpenAI for insightful comments.</p>",
+            "id": 89,
+            "page": 8,
+            "text": "Thanks to Rocky Duan, Peter Chen, and others at OpenAI for insightful comments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1225,
+                    "y": 3157
+                },
+                {
+                    "x": 1253,
+                    "y": 3157
+                },
+                {
+                    "x": 1253,
+                    "y": 3193
+                },
+                {
+                    "x": 1225,
+                    "y": 3193
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='90' style='font-size:14px'>8</footer>",
+            "id": 90,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 436
+                },
+                {
+                    "x": 603,
+                    "y": 436
+                },
+                {
+                    "x": 603,
+                    "y": 497
+                },
+                {
+                    "x": 285,
+                    "y": 497
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:20px'>References</p>",
+            "id": 91,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 275,
+                    "y": 529
+                },
+                {
+                    "x": 2306,
+                    "y": 529
+                },
+                {
+                    "x": 2306,
+                    "y": 2729
+                },
+                {
+                    "x": 275,
+                    "y": 2729
+                }
+            ],
+            "category": "table",
+            "html": "<table id='92' style='font-size:16px'><tr><td>[Bel+15]</td><td>M. Bellemare, Y. Naddaf, J. Veness, and M. Bowling. \"The arcade learning environ- ment: An evaluation platform for general agents\" In: Twenty-Fourth International Joint Conference on Artificial Intelligence. 2015.</td></tr><tr><td>[Bro+16]</td><td>G. Brockman, V. Cheung, L. Pettersson, J. Schneider, J. Schulman, J. Tang, and W. Zaremba. \"OpenAI Gym\" · In: arXiv preprint arXiv:1606.01540 (2016).</td></tr><tr><td>[Dua+16]</td><td>Y. Duan, X. Chen, R. Houthooft, J. Schulman, and P. Abbeel. \"Benchmarking Deep Reinforcement Learning for Continuous Control\" · In: arXiv preprint arXiv:1604.06778 (2016).</td></tr><tr><td>[Hee+17]</td><td>N. Heess, S. Sriram, J. Lemmon, J. Merel, G. Wayne, Y. Tassa, T. Erez, Z. Wang, A. Eslami, M. Riedmiller, et al. \"Emergence of Locomotion Behaviours in Rich Envi- ronments\" In: arXiv preprint arXiv:1707.02286 (2017).</td></tr><tr><td>[KL02]</td><td>S. Kakade and J. Langford. \"Approximately optimal approximate reinforcement learn- ing\" · In: ICML. Vol. 2. 2002, pp. 267-274.</td></tr><tr><td>[KB14]</td><td>D. Kingma and J. Ba. \"Adam: A method for stochastic optimization\" · In: arXiv preprint arXiv:1412.6980 (2014).</td></tr><tr><td>[Mni+15]</td><td>V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski, et al. \"Human-level control through deep reinforcement learning\" · In: Nature 518.7540 (2015), pp. 529-533.</td></tr><tr><td>[Mni+16]</td><td>V. Mnih, A. P. Badia, M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver, and K. Kavukcuoglu. \"Asynchronous methods for deep reinforcement learning\" In: arXiv preprint arXiv:1602.01783 (2016).</td></tr><tr><td>[Sch+15a]</td><td>J. Schulman, P. Moritz, S. Levine, M. Jordan, and P. Abbeel. \"High-dimensional contin- uous control using generalized advantage estimation\" · In: arXiv preprint arXiv:1506.02438 (2015).</td></tr><tr><td>[Sch+15b]</td><td>J. Schulman, S. Levine, P. Moritz, M. I. Jordan, and P. Abbeel. \"Trust region policy optimization\" · In: CoRR, abs/1502.05477 (2015).</td></tr><tr><td>[SL06]</td><td>I. Szita and A. L�rincz. \"Learning Tetris using the noisy cross-entropy method\" In: Neural computation 18.12 (2006), pp. 2936-2941.</td></tr><tr><td>[TET12]</td><td>E. Todorov, T. Erez, and Y. Tassa. \"MuJoCo: A physics engine for model-based con- trol\" · In: Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Con- ference on. IEEE. 2012, pp. 5026-5033.</td></tr><tr><td>[Wan+16]</td><td>Z. Wang, V. Bapst, N. Heess, V. Mnih, R. Munos, K. Kavukcuoglu, and N. de Freitas. \"Sample Efficient Actor-Critic with Experience Replay\" In: arXiv preprint arXiv:1611.01224 (2016).</td></tr><tr><td>[Wil92]</td><td>R. J. Williams. \"Simple statistical gradient-following algorithms for connectionist re- inforcement learning\" . In: Machine learning 8.3-4 (1992), pp. 229-256.</td></tr></table>",
+            "id": 92,
+            "page": 9,
+            "text": "[Bel+15] M. Bellemare, Y. Naddaf, J. Veness, and M. Bowling. \"The arcade learning environ- ment: An evaluation platform for general agents\" In: Twenty-Fourth International Joint Conference on Artificial Intelligence. 2015.  [Bro+16] G. Brockman, V. Cheung, L. Pettersson, J. Schneider, J. Schulman, J. Tang, and W. Zaremba. \"OpenAI Gym\" · In: arXiv preprint arXiv:1606.01540 (2016).  [Dua+16] Y. Duan, X. Chen, R. Houthooft, J. Schulman, and P. Abbeel. \"Benchmarking Deep Reinforcement Learning for Continuous Control\" · In: arXiv preprint arXiv:1604.06778 (2016).  [Hee+17] N. Heess, S. Sriram, J. Lemmon, J. Merel, G. Wayne, Y. Tassa, T. Erez, Z. Wang, A. Eslami, M. Riedmiller,  \"Emergence of Locomotion Behaviours in Rich Envi- ronments\" In: arXiv preprint arXiv:1707.02286 (2017).  [KL02] S. Kakade and J. Langford. \"Approximately optimal approximate reinforcement learn- ing\" · In: ICML. Vol. 2. 2002, pp. 267-274.  [KB14] D. Kingma and J. Ba. \"Adam: A method for stochastic optimization\" · In: arXiv preprint arXiv:1412.6980 (2014).  [Mni+15] V. Mnih, K. Kavukcuoglu, D. Silver, A. A. Rusu, J. Veness, M. G. Bellemare, A. Graves, M. Riedmiller, A. K. Fidjeland, G. Ostrovski,  \"Human-level control through deep reinforcement learning\" · In: Nature 518.7540 (2015), pp. 529-533.  [Mni+16] V. Mnih, A. P. Badia, M. Mirza, A. Graves, T. P. Lillicrap, T. Harley, D. Silver, and K. Kavukcuoglu. \"Asynchronous methods for deep reinforcement learning\" In: arXiv preprint arXiv:1602.01783 (2016).  [Sch+15a] J. Schulman, P. Moritz, S. Levine, M. Jordan, and P. Abbeel. \"High-dimensional contin- uous control using generalized advantage estimation\" · In: arXiv preprint arXiv:1506.02438 (2015).  [Sch+15b] J. Schulman, S. Levine, P. Moritz, M. I. Jordan, and P. Abbeel. \"Trust region policy optimization\" · In: CoRR, abs/1502.05477 (2015).  [SL06] I. Szita and A. L�rincz. \"Learning Tetris using the noisy cross-entropy method\" In: Neural computation 18.12 (2006), pp. 2936-2941.  [TET12] E. Todorov, T. Erez, and Y. Tassa. \"MuJoCo: A physics engine for model-based con- trol\" · In: Intelligent Robots and Systems (IROS), 2012 IEEE/RSJ International Con- ference on. IEEE. 2012, pp. 5026-5033.  [Wan+16] Z. Wang, V. Bapst, N. Heess, V. Mnih, R. Munos, K. Kavukcuoglu, and N. de Freitas. \"Sample Efficient Actor-Critic with Experience Replay\" In: arXiv preprint arXiv:1611.01224 (2016).  [Wil92]"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1224,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3155
+                },
+                {
+                    "x": 1255,
+                    "y": 3194
+                },
+                {
+                    "x": 1224,
+                    "y": 3194
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='93' style='font-size:14px'>9</footer>",
+            "id": 93,
+            "page": 9,
+            "text": "9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 438
+                },
+                {
+                    "x": 910,
+                    "y": 438
+                },
+                {
+                    "x": 910,
+                    "y": 501
+                },
+                {
+                    "x": 286,
+                    "y": 501
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:22px'>A Hyperparameters</p>",
+            "id": 94,
+            "page": 10,
+            "text": "A Hyperparameters"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 907,
+                    "y": 586
+                },
+                {
+                    "x": 1572,
+                    "y": 586
+                },
+                {
+                    "x": 1572,
+                    "y": 974
+                },
+                {
+                    "x": 907,
+                    "y": 974
+                }
+            ],
+            "category": "table",
+            "html": "<table id='95' style='font-size:18px'><tr><td>Hyperparameter</td><td>Value</td></tr><tr><td>Horizon (T)</td><td>2048</td></tr><tr><td>Adam stepsize</td><td>3 x 10-4</td></tr><tr><td>Num. epochs</td><td>10</td></tr><tr><td>Minibatch size</td><td>64</td></tr><tr><td>Discount ()</td><td>0.99</td></tr><tr><td>GAE parameter (入)</td><td>0.95</td></tr></table>",
+            "id": 95,
+            "page": 10,
+            "text": "Hyperparameter Value  Horizon (T) 2048  Adam stepsize 3 x 10-4  Num. epochs 10  Minibatch size 64  Discount () 0.99  GAE parameter (入)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 497,
+                    "y": 1055
+                },
+                {
+                    "x": 1979,
+                    "y": 1055
+                },
+                {
+                    "x": 1979,
+                    "y": 1103
+                },
+                {
+                    "x": 497,
+                    "y": 1103
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='96' style='font-size:16px'>Table 3: PPO hyperparameters used for the Mujoco 1 million timestep benchmark.</caption>",
+            "id": 96,
+            "page": 10,
+            "text": "Table 3: PPO hyperparameters used for the Mujoco 1 million timestep benchmark."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 575,
+                    "y": 1199
+                },
+                {
+                    "x": 1898,
+                    "y": 1199
+                },
+                {
+                    "x": 1898,
+                    "y": 1691
+                },
+                {
+                    "x": 575,
+                    "y": 1691
+                }
+            ],
+            "category": "table",
+            "html": "<table id='97' style='font-size:20px'><tr><td>Hyperparameter</td><td>Value</td></tr><tr><td>Horizon (T)</td><td>512</td></tr><tr><td>Adam stepsize</td><td>*</td></tr><tr><td>Num. epochs</td><td>15</td></tr><tr><td>Minibatch size</td><td>4096</td></tr><tr><td>Discount ()</td><td>0.99</td></tr><tr><td>GAE parameter (入)</td><td>0.95</td></tr><tr><td>Number of actors</td><td>32 (locomotion), 128 (flagrun)</td></tr><tr><td>Log stdev. of action distribution</td><td>LinearAnneal( -0.7, -1.6)</td></tr></table>",
+            "id": 97,
+            "page": 10,
+            "text": "Hyperparameter Value  Horizon (T) 512  Adam stepsize *  Num. epochs 15  Minibatch size 4096  Discount () 0.99  GAE parameter (入) 0.95  Number of actors 32 (locomotion), 128 (flagrun)  Log stdev. of action distribution"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 1773
+                },
+                {
+                    "x": 2195,
+                    "y": 1773
+                },
+                {
+                    "x": 2195,
+                    "y": 1869
+                },
+                {
+                    "x": 284,
+                    "y": 1869
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='98' style='font-size:14px'>Table 4: PPO hyperparameters used for the Roboschool experiments. Adam stepsize was adjusted based on<br>the target value of the KL divergence.</caption>",
+            "id": 98,
+            "page": 10,
+            "text": "Table 4: PPO hyperparameters used for the Roboschool experiments. Adam stepsize was adjusted based on the target value of the KL divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 847,
+                    "y": 1962
+                },
+                {
+                    "x": 1644,
+                    "y": 1962
+                },
+                {
+                    "x": 1644,
+                    "y": 2564
+                },
+                {
+                    "x": 847,
+                    "y": 2564
+                }
+            ],
+            "category": "table",
+            "html": "<table id='99' style='font-size:18px'><tr><td>Hyperparameter</td><td>Value</td></tr><tr><td>Horizon (T)</td><td>128</td></tr><tr><td>Adam stepsize</td><td>2.5 x 10-4 x a</td></tr><tr><td>Num. epochs</td><td>3</td></tr><tr><td>Minibatch size</td><td>32 x 8</td></tr><tr><td>Discount ()</td><td>0.99</td></tr><tr><td>GAE parameter (入)</td><td>0.95</td></tr><tr><td>Number of actors</td><td>8</td></tr><tr><td>Clipping parameter E</td><td>0.1 x a</td></tr><tr><td>VF coeff. C1 (9)</td><td>1</td></tr><tr><td>Entropy coeff. C2 (9)</td><td>0.01</td></tr></table>",
+            "id": 99,
+            "page": 10,
+            "text": "Hyperparameter Value  Horizon (T) 128  Adam stepsize 2.5 x 10-4 x a  Num. epochs 3  Minibatch size 32 x 8  Discount () 0.99  GAE parameter (入) 0.95  Number of actors 8  Clipping parameter E 0.1 x a  VF coeff. C1 (9) 1  Entropy coeff. C2 (9)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 283,
+                    "y": 2647
+                },
+                {
+                    "x": 2196,
+                    "y": 2647
+                },
+                {
+                    "x": 2196,
+                    "y": 2741
+                },
+                {
+                    "x": 283,
+                    "y": 2741
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:14px'>Table 5: PPO hyperparameters used in Atari experiments. a is linearly annealed from 1 to 0 over the course<br>of learning.</p>",
+            "id": 100,
+            "page": 10,
+            "text": "Table 5: PPO hyperparameters used in Atari experiments. a is linearly annealed from 1 to 0 over the course of learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 2813
+                },
+                {
+                    "x": 1418,
+                    "y": 2813
+                },
+                {
+                    "x": 1418,
+                    "y": 2873
+                },
+                {
+                    "x": 286,
+                    "y": 2873
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:20px'>B Performance on More Atari Games</p>",
+            "id": 101,
+            "page": 10,
+            "text": "B Performance on More Atari Games"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 284,
+                    "y": 2921
+                },
+                {
+                    "x": 2196,
+                    "y": 2921
+                },
+                {
+                    "x": 2196,
+                    "y": 3028
+                },
+                {
+                    "x": 284,
+                    "y": 3028
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:16px'>Here we include a comparison of PPO against A2C on a larger collection of 49 Atari games. Figure 6<br>shows the learning curves of each of three random seeds, while Table 6 shows the mean performance.</p>",
+            "id": 102,
+            "page": 10,
+            "text": "Here we include a comparison of PPO against A2C on a larger collection of 49 Atari games. Figure 6 shows the learning curves of each of three random seeds, while Table 6 shows the mean performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1215,
+                    "y": 3154
+                },
+                {
+                    "x": 1265,
+                    "y": 3154
+                },
+                {
+                    "x": 1265,
+                    "y": 3195
+                },
+                {
+                    "x": 1215,
+                    "y": 3195
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='103' style='font-size:14px'>10</footer>",
+            "id": 103,
+            "page": 10,
+            "text": "10"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 485,
+                    "y": 633
+                },
+                {
+                    "x": 1939,
+                    "y": 633
+                },
+                {
+                    "x": 1939,
+                    "y": 2637
+                },
+                {
+                    "x": 485,
+                    "y": 2637
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='104' style='font-size:14px' alt=\"Alien Amidar Assault Asterix Asteroids\n2000 750 7500\n2500\n4000\n500 5000\n2000\n1000 2000\n250 2500\n1500\n0 0\n0\nAtlantis BankHeist BattleZone BeamRider Bowling\n20000\n4000\n3000000\n50\n1000 15000 3000\n2000000\n10000 2000 40\n500\n1000000\n5000 1000 30\n0 0\nBoxing Breakout Centipede ChopperCommand CrazyClimber\n100\n400\n6000\n10000\n100000\n50 4000\n200\n50000\n5000\n2000\n0 0\nDemonAttack DoubleDunk Enduro FishingDerby Freeway\n40000 -10.0\n750 30\n-12.5 0\n500 20\n20000\n-15.0\n250 -50\n10\n-17.5\n0 0 -100 0\nFrostbite Gopher Gravitar IceHockey Jamesbond\n-4\n300 600\n40000 750\n-6\n400\n200 500 -8\n20000\n200\n-10\n250\n100 0\n0\nKangaroo Krull KungFuMaster MontezumaRevenge MsPacman\n40000\n100\n8000 3000\n10000\n6000 2000\n20000 50\n5000\n4000\n1000\n0 2000 0 0\nNameThisGame Pitfall Pong PrivateEye Qbert\n0 20 15000\n10000\n7500 500 10000\n0 心\n-100\n5000 5000\n0\n2500 -20 0\nRiverraid RoadRunner Robotank Seaquest Spacelnvaders\n10000\n6\n40000 1500\n1000\n7500\n1000\n4\n5000 20000\n500\n500\n2500\n0 2\n0\nStarGunner Tennis TimePilot Tutankham UpNDown\n300 200000\n40000\n-10\n4000 200\n-15 100000\n20000\n100\n-20\n3000\n0 0 0\nVenture VideoPinball WizardOfWor Zaxxon\nA2C\n6000\n150000 4000\n10 ACER\n4000\n100000\n5 PPO\n2000 2000\n50000\n0 0\n0 40M 0 40M 0 40M 0 40M\nFrames Frames Frames Frames\" data-coord=\"top-left:(485,633); bottom-right:(1939,2637)\" /></figure>",
+            "id": 104,
+            "page": 11,
+            "text": "Alien Amidar Assault Asterix Asteroids 2000 750 7500 2500 4000 500 5000 2000 1000 2000 250 2500 1500 0 0 0 Atlantis BankHeist BattleZone BeamRider Bowling 20000 4000 3000000 50 1000 15000 3000 2000000 10000 2000 40 500 1000000 5000 1000 30 0 0 Boxing Breakout Centipede ChopperCommand CrazyClimber 100 400 6000 10000 100000 50 4000 200 50000 5000 2000 0 0 DemonAttack DoubleDunk Enduro FishingDerby Freeway 40000 -10.0 750 30 -12.5 0 500 20 20000 -15.0 250 -50 10 -17.5 0 0 -100 0 Frostbite Gopher Gravitar IceHockey Jamesbond -4 300 600 40000 750 -6 400 200 500 -8 20000 200 -10 250 100 0 0 Kangaroo Krull KungFuMaster MontezumaRevenge MsPacman 40000 100 8000 3000 10000 6000 2000 20000 50 5000 4000 1000 0 2000 0 0 NameThisGame Pitfall Pong PrivateEye Qbert 0 20 15000 10000 7500 500 10000 0 心 -100 5000 5000 0 2500 -20 0 Riverraid RoadRunner Robotank Seaquest Spacelnvaders 10000 6 40000 1500 1000 7500 1000 4 5000 20000 500 500 2500 0 2 0 StarGunner Tennis TimePilot Tutankham UpNDown 300 200000 40000 -10 4000 200 -15 100000 20000 100 -20 3000 0 0 0 Venture VideoPinball WizardOfWor Zaxxon A2C 6000 150000 4000 10 ACER 4000 100000 5 PPO 2000 2000 50000 0 0 0 40M 0 40M 0 40M 0 40M Frames Frames Frames Frames"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 286,
+                    "y": 2739
+                },
+                {
+                    "x": 2199,
+                    "y": 2739
+                },
+                {
+                    "x": 2199,
+                    "y": 2837
+                },
+                {
+                    "x": 286,
+                    "y": 2837
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='105' style='font-size:20px'>Figure 6: Comparison of PPO and A2C on all 49 ATARI games included in OpenAI Gym at the time of<br>publication.</caption>",
+            "id": 105,
+            "page": 11,
+            "text": "Figure 6: Comparison of PPO and A2C on all 49 ATARI games included in OpenAI Gym at the time of publication."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1215,
+                    "y": 3154
+                },
+                {
+                    "x": 1262,
+                    "y": 3154
+                },
+                {
+                    "x": 1262,
+                    "y": 3196
+                },
+                {
+                    "x": 1215,
+                    "y": 3196
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='106' style='font-size:16px'>11</footer>",
+            "id": 106,
+            "page": 11,
+            "text": "11"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 695,
+                    "y": 455
+                },
+                {
+                    "x": 1777,
+                    "y": 455
+                },
+                {
+                    "x": 1777,
+                    "y": 2919
+                },
+                {
+                    "x": 695,
+                    "y": 2919
+                }
+            ],
+            "category": "table",
+            "html": "<table id='107' style='font-size:14px'><tr><td></td><td>A2C</td><td>ACER</td><td>PPO</td></tr><tr><td>Alien</td><td>1141.7</td><td>1655.4</td><td>1850.3</td></tr><tr><td>Amidar</td><td>380.8</td><td>827.6</td><td>674.6</td></tr><tr><td>Assault</td><td>1562.9</td><td>4653.8</td><td>4971.9</td></tr><tr><td>Asterix</td><td>3176.3</td><td>6801.2</td><td>4532.5</td></tr><tr><td>Asteroids</td><td>1653.3</td><td>2389.3</td><td>2097.5</td></tr><tr><td>Atlantis</td><td>729265.3</td><td>1841376.0</td><td>2311815.0</td></tr><tr><td>BankHeist</td><td>1095.3</td><td>1177.5</td><td>1280.6</td></tr><tr><td>BattleZone</td><td>3080.0</td><td>8983.3</td><td>17366.7</td></tr><tr><td>BeamRider</td><td>3031.7</td><td>3863.3</td><td>1590.0</td></tr><tr><td>Bowling</td><td>30.1</td><td>33.3</td><td>40.1</td></tr><tr><td>Boxing</td><td>17.7</td><td>98.9</td><td>94.6</td></tr><tr><td>Breakout</td><td>303.0</td><td>456.4</td><td>274.8</td></tr><tr><td>Centipede</td><td>3496.5</td><td>8904.8</td><td>4386.4</td></tr><tr><td>ChopperCommand</td><td>1171.7</td><td>5287.7</td><td>3516.3</td></tr><tr><td>CrazyClimber</td><td>107770.0</td><td>132461.0</td><td>110202.0</td></tr><tr><td>DemonAttack</td><td>6639.1</td><td>38808.3</td><td>11378.4</td></tr><tr><td>DoubleDunk</td><td>-16.2</td><td>-13.2</td><td>-14.9</td></tr><tr><td>Enduro</td><td>0.0</td><td>0.0</td><td>758.3</td></tr><tr><td>FishingDerby</td><td>20.6</td><td>34.7</td><td>17.8</td></tr><tr><td>Freeway</td><td>0.0</td><td>0.0</td><td>32.5</td></tr><tr><td>Frostbite</td><td>261.8</td><td>285.6</td><td>314.2</td></tr><tr><td>Gopher</td><td>1500.9</td><td>37802.3</td><td>2932.9</td></tr><tr><td>Gravitar</td><td>194.0</td><td>225.3</td><td>737.2</td></tr><tr><td>IceHockey</td><td>-6.4</td><td>-5.9</td><td>-4.2</td></tr><tr><td>Jamesbond</td><td>52.3</td><td>261.8</td><td>560.7</td></tr><tr><td>Kangaroo</td><td>45.3</td><td>50.0</td><td>9928.7</td></tr><tr><td>Krull</td><td>8367.4</td><td>7268.4</td><td>7942.3</td></tr><tr><td>KungFuMaster</td><td>24900.3</td><td>27599.3</td><td>23310.3</td></tr><tr><td>MontezumaRevenge</td><td>0.0</td><td>0.3</td><td>42.0</td></tr><tr><td>MsPacman</td><td>1626.9</td><td>2718.5</td><td>2096.5</td></tr><tr><td>NameThisGame</td><td>5961.2</td><td>8488.0</td><td>6254.9</td></tr><tr><td>Pitfall</td><td>-55.0</td><td>-16.9</td><td>-32.9</td></tr><tr><td>Pong</td><td>19.7</td><td>20.7</td><td>20.7</td></tr><tr><td>PrivateEye</td><td>91.3</td><td>182.0</td><td>69.5</td></tr><tr><td>Qbert</td><td>10065.7</td><td>15316.6</td><td>14293.3</td></tr><tr><td>Riverraid</td><td>7653.5</td><td>9125.1</td><td>8393.6</td></tr><tr><td>RoadRunner</td><td>32810.0</td><td>35466.0</td><td>25076.0</td></tr><tr><td>Robotank</td><td>2.2</td><td>2.5</td><td>5.5</td></tr><tr><td>Seaquest</td><td>1714.3</td><td>1739.5</td><td>1204.5</td></tr><tr><td>SpaceInvaders</td><td>744.5</td><td>1213.9</td><td>942.5</td></tr><tr><td>StarGunner</td><td>26204.0 -22.2</td><td>49817.7 -17.6</td><td>32689.0</td></tr><tr><td>Tennis</td><td>2898.0</td><td>4175.7</td><td>-14.8 4342.0</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>TimePilot Tutankham UpNDown</td><td>206.8 17369.8</td><td>280.8 145051.4</td><td>254.4 95445.0 0.0</td></tr><tr><td>Venture VideoPinball</td><td>0.0 19735.9</td><td>0.0 156225.6</td><td>37389.0</td></tr><tr><td>WizardOfWor</td><td>859.0</td><td>2308.3</td><td>4185.3</td></tr><tr><td>Zaxxon</td><td>16.3</td><td>29.0</td><td>5008.7</td></tr></table>",
+            "id": 107,
+            "page": 12,
+            "text": "A2C ACER PPO  Alien 1141.7 1655.4 1850.3  Amidar 380.8 827.6 674.6  Assault 1562.9 4653.8 4971.9  Asterix 3176.3 6801.2 4532.5  Asteroids 1653.3 2389.3 2097.5  Atlantis 729265.3 1841376.0 2311815.0  BankHeist 1095.3 1177.5 1280.6  BattleZone 3080.0 8983.3 17366.7  BeamRider 3031.7 3863.3 1590.0  Bowling 30.1 33.3 40.1  Boxing 17.7 98.9 94.6  Breakout 303.0 456.4 274.8  Centipede 3496.5 8904.8 4386.4  ChopperCommand 1171.7 5287.7 3516.3  CrazyClimber 107770.0 132461.0 110202.0  DemonAttack 6639.1 38808.3 11378.4  DoubleDunk -16.2 -13.2 -14.9  Enduro 0.0 0.0 758.3  FishingDerby 20.6 34.7 17.8  Freeway 0.0 0.0 32.5  Frostbite 261.8 285.6 314.2  Gopher 1500.9 37802.3 2932.9  Gravitar 194.0 225.3 737.2  IceHockey -6.4 -5.9 -4.2  Jamesbond 52.3 261.8 560.7  Kangaroo 45.3 50.0 9928.7  Krull 8367.4 7268.4 7942.3  KungFuMaster 24900.3 27599.3 23310.3  MontezumaRevenge 0.0 0.3 42.0  MsPacman 1626.9 2718.5 2096.5  NameThisGame 5961.2 8488.0 6254.9  Pitfall -55.0 -16.9 -32.9  Pong 19.7 20.7 20.7  PrivateEye 91.3 182.0 69.5  Qbert 10065.7 15316.6 14293.3  Riverraid 7653.5 9125.1 8393.6  RoadRunner 32810.0 35466.0 25076.0  Robotank 2.2 2.5 5.5  Seaquest 1714.3 1739.5 1204.5  SpaceInvaders 744.5 1213.9 942.5  StarGunner 26204.0 -22.2 49817.7 -17.6 32689.0  Tennis 2898.0 4175.7 -14.8 4342.0                 TimePilot Tutankham UpNDown 206.8 17369.8 280.8 145051.4 254.4 95445.0 0.0  Venture VideoPinball 0.0 19735.9 0.0 156225.6 37389.0  WizardOfWor 859.0 2308.3 4185.3  Zaxxon 16.3 29.0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 280,
+                    "y": 2933
+                },
+                {
+                    "x": 2197,
+                    "y": 2933
+                },
+                {
+                    "x": 2197,
+                    "y": 3035
+                },
+                {
+                    "x": 280,
+                    "y": 3035
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='108' style='font-size:14px'>Table 6: Mean final scores (last 100 episodes) of PPO and A2C on Atari games after 40M game frames (10M<br>timesteps).</caption>",
+            "id": 108,
+            "page": 12,
+            "text": "Table 6: Mean final scores (last 100 episodes) of PPO and A2C on Atari games after 40M game frames (10M timesteps)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1215,
+                    "y": 3153
+                },
+                {
+                    "x": 1265,
+                    "y": 3153
+                },
+                {
+                    "x": 1265,
+                    "y": 3196
+                },
+                {
+                    "x": 1215,
+                    "y": 3196
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='109' style='font-size:14px'>12</footer>",
+            "id": 109,
+            "page": 12,
+            "text": "12"
+        }
+    ]
+}

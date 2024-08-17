@@ -1,0 +1,2256 @@
+{
+    "id": "329d39ee-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1310.4546v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 495,
+                    "y": 450
+                },
+                {
+                    "x": 2059,
+                    "y": 450
+                },
+                {
+                    "x": 2059,
+                    "y": 615
+                },
+                {
+                    "x": 495,
+                    "y": 615
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Distributed Representations of Words and Phrases<br>and their Compositionality</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Distributed Representations of Words and Phrases and their Compositionality"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 531,
+                    "y": 785
+                },
+                {
+                    "x": 2038,
+                    "y": 785
+                },
+                {
+                    "x": 2038,
+                    "y": 1241
+                },
+                {
+                    "x": 531,
+                    "y": 1241
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:16px'>Tomas Mikolov Ilya Sutskever Kai Chen<br>Google Inc. Google Inc. Google Inc.<br>Mountain View Mountain View Mountain View<br>mikolov@google · com ilyasu@google · com kai@google · com<br>Greg Corrado Jeffrey Dean<br>Google Inc. Google Inc.<br>Mountain View Mountain View<br>gcorrado@google · com jeff@google · com</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Tomas Mikolov Ilya Sutskever Kai Chen Google Inc. Google Inc. Google Inc. Mountain View Mountain View Mountain View mikolov@google · com ilyasu@google · com kai@google · com Greg Corrado Jeffrey Dean Google Inc. Google Inc. Mountain View Mountain View gcorrado@google · com jeff@google · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1177,
+                    "y": 1350
+                },
+                {
+                    "x": 1371,
+                    "y": 1350
+                },
+                {
+                    "x": 1371,
+                    "y": 1401
+                },
+                {
+                    "x": 1177,
+                    "y": 1401
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:20px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 592,
+                    "y": 1460
+                },
+                {
+                    "x": 1963,
+                    "y": 1460
+                },
+                {
+                    "x": 1963,
+                    "y": 1967
+                },
+                {
+                    "x": 592,
+                    "y": 1967
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:16px'>The recently introduced continuous Skip-gram model is an efficient method for<br>learning high-quality distributed vector representations that capture a large num-<br>ber of precise syntactic and semantic word relationships. In this paper we present<br>several extensions that improve both the quality of the vectors and the training<br>speed. By subsampling of the frequent words we obtain significant speedup and<br>also learn more regular word representations. We also describe a simple alterna-<br>tive to the hierarchical softmax called negative sampling.<br>An inherent limitation of word representations is their indifference to word order<br>and their inability to represent idiomatic phrases. For example, the meanings of<br>\"Canada\" and \"Air\" cannot be easily combined to obtain \"Air Canada\" · Motivated<br>by this example, we present a simple method for finding phrases in text, and show</p>",
+            "id": 3,
+            "page": 1,
+            "text": "The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling. An inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of \"Canada\" and \"Air\" cannot be easily combined to obtain \"Air Canada\" · Motivated by this example, we present a simple method for finding phrases in text, and show"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 593,
+                    "y": 1971
+                },
+                {
+                    "x": 1863,
+                    "y": 1971
+                },
+                {
+                    "x": 1863,
+                    "y": 2025
+                },
+                {
+                    "x": 593,
+                    "y": 2025
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='4' style='font-size:18px'>that learning good vector representations for millions of phrases is possible.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "that learning good vector representations for millions of phrases is possible."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2113
+                },
+                {
+                    "x": 800,
+                    "y": 2113
+                },
+                {
+                    "x": 800,
+                    "y": 2173
+                },
+                {
+                    "x": 444,
+                    "y": 2173
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2222
+                },
+                {
+                    "x": 2111,
+                    "y": 2222
+                },
+                {
+                    "x": 2111,
+                    "y": 2502
+                },
+                {
+                    "x": 442,
+                    "y": 2502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Distributed representations of words in a vector space help learning algorithms to achieve better<br>performance in natural language processing tasks by grouping similar words. One of the earliest use<br>of word representations dates back to 1986 due to Rumelhart, Hinton, and Williams [13]. This idea<br>has since been applied to statistical language modeling with considerable success [1]. The follow<br>up work includes applications to automatic speech recognition and machine translation [14, 7], and<br>a wide range of NLP tasks [2, 20, 15, 3, 18, 19, 9].</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Distributed representations of words in a vector space help learning algorithms to achieve better performance in natural language processing tasks by grouping similar words. One of the earliest use of word representations dates back to 1986 due to Rumelhart, Hinton, and Williams . This idea has since been applied to statistical language modeling with considerable success . The follow up work includes applications to automatic speech recognition and machine translation , and a wide range of NLP tasks ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2522
+                },
+                {
+                    "x": 2110,
+                    "y": 2522
+                },
+                {
+                    "x": 2110,
+                    "y": 2800
+                },
+                {
+                    "x": 441,
+                    "y": 2800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:16px'>Recently, Mikolov et al. [8] introduced the Skip-gram model, an efficient method for learning high-<br>quality vector representations of words from large amounts of unstructured text data. Unlike most<br>of the previously used neural network architectures for learning word vectors, training of the Skip-<br>gram model (see Figure 1) does not involve dense matrix multiplications. This makes the training<br>extremely efficient: an optimized single-machine implementation can train on more than 100 billion<br>words in one day.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Recently, Mikolov   introduced the Skip-gram model, an efficient method for learning highquality vector representations of words from large amounts of unstructured text data. Unlike most of the previously used neural network architectures for learning word vectors, training of the Skipgram model (see Figure 1) does not involve dense matrix multiplications. This makes the training extremely efficient: an optimized single-machine implementation can train on more than 100 billion words in one day."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2821
+                },
+                {
+                    "x": 2110,
+                    "y": 2821
+                },
+                {
+                    "x": 2110,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:16px'>The word representations computed using neural networks are very interesting because the learned<br>vectors explicitly encode many linguistic regularities and patterns. Somewhat surprisingly, many of<br>these patterns can be represented as linear translations. For example, the result of a vector calcula-<br>tion vec(\"Madrid\") - vec(\"Spain\") + vec(\"France\") is closer to vec(\"Paris\") than to any other word<br>vector [9, 8].</p>",
+            "id": 8,
+            "page": 1,
+            "text": "The word representations computed using neural networks are very interesting because the learned vectors explicitly encode many linguistic regularities and patterns. Somewhat surprisingly, many of these patterns can be represented as linear translations. For example, the result of a vector calculation vec(\"Madrid\") - vec(\"Spain\") + vec(\"France\") is closer to vec(\"Paris\") than to any other word vector ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 63,
+                    "y": 827
+                },
+                {
+                    "x": 150,
+                    "y": 827
+                },
+                {
+                    "x": 150,
+                    "y": 2243
+                },
+                {
+                    "x": 63,
+                    "y": 2243
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='9' style='font-size:14px'>2013<br>Oct<br>16<br>[cs.CL]<br>arXiv:1310.4546v1</footer>",
+            "id": 9,
+            "page": 1,
+            "text": "2013 Oct 16 [cs.CL] arXiv:1310.4546v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3131
+                },
+                {
+                    "x": 1290,
+                    "y": 3171
+                },
+                {
+                    "x": 1261,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='10' style='font-size:14px'>1</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1008,
+                    "y": 321
+                },
+                {
+                    "x": 1502,
+                    "y": 321
+                },
+                {
+                    "x": 1502,
+                    "y": 930
+                },
+                {
+                    "x": 1008,
+                    "y": 930
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='11' style='font-size:14px' alt=\"Input projection output\nw(t-2)\nW(t-1)\nw(t)\nW(t+1)\nw(t+2)\" data-coord=\"top-left:(1008,321); bottom-right:(1502,930)\" /></figure>",
+            "id": 11,
+            "page": 2,
+            "text": "Input projection output w(t-2) W(t-1) w(t) W(t+1) w(t+2)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 982
+                },
+                {
+                    "x": 2108,
+                    "y": 982
+                },
+                {
+                    "x": 2108,
+                    "y": 1076
+                },
+                {
+                    "x": 440,
+                    "y": 1076
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='12' style='font-size:14px'>Figure 1: The Skip-gram model architecture. The training objective is to learn word vector representations<br>that are good at predicting the nearby words.</caption>",
+            "id": 12,
+            "page": 2,
+            "text": "Figure 1: The Skip-gram model architecture. The training objective is to learn word vector representations that are good at predicting the nearby words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1177
+                },
+                {
+                    "x": 2107,
+                    "y": 1177
+                },
+                {
+                    "x": 2107,
+                    "y": 1456
+                },
+                {
+                    "x": 441,
+                    "y": 1456
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:18px'>In this paper we present several extensions of the original Skip-gram model. We show that sub-<br>sampling of frequent words during training results in a significant speedup (around 2x - 10x), and<br>improves accuracy of the representations of less frequent words. In addition, we present a simpli-<br>fied variant of Noise Contrastive Estimation (NCE) [4] for training the Skip-gram model that results<br>in faster training and better vector representations for frequent words, compared to more complex<br>hierarchical softmax that was used in the prior work [8].</p>",
+            "id": 13,
+            "page": 2,
+            "text": "In this paper we present several extensions of the original Skip-gram model. We show that subsampling of frequent words during training results in a significant speedup (around 2x - 10x), and improves accuracy of the representations of less frequent words. In addition, we present a simplified variant of Noise Contrastive Estimation (NCE)  for training the Skip-gram model that results in faster training and better vector representations for frequent words, compared to more complex hierarchical softmax that was used in the prior work ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1476
+                },
+                {
+                    "x": 2108,
+                    "y": 1476
+                },
+                {
+                    "x": 2108,
+                    "y": 1756
+                },
+                {
+                    "x": 441,
+                    "y": 1756
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>Word representations are limited by their inability to represent idiomatic phrases that are not com-<br>positions of the individual words. For example, \"Boston Globe\" is a newspaper, and SO it is not a<br>natural combination of the meanings of \"Boston\" and \"Globe\". Therefore, using vectors to repre-<br>sent the whole phrases makes the Skip-gram model considerably more expressive. Other techniques<br>that aim to represent meaning of sentences by composing the word vectors, such as the recursive<br>autoencoders [15], would also benefit from using phrase vectors instead of the word vectors.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "Word representations are limited by their inability to represent idiomatic phrases that are not compositions of the individual words. For example, \"Boston Globe\" is a newspaper, and SO it is not a natural combination of the meanings of \"Boston\" and \"Globe\". Therefore, using vectors to represent the whole phrases makes the Skip-gram model considerably more expressive. Other techniques that aim to represent meaning of sentences by composing the word vectors, such as the recursive autoencoders , would also benefit from using phrase vectors instead of the word vectors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1775
+                },
+                {
+                    "x": 2108,
+                    "y": 1775
+                },
+                {
+                    "x": 2108,
+                    "y": 2099
+                },
+                {
+                    "x": 441,
+                    "y": 2099
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:18px'>The extension from word based to phrase based models is relatively simple. First we identify a large<br>number of phrases using a data-driven approach, and then we treat the phrases as individual tokens<br>during the training. To evaluate the quality of the phrase vectors, we developed a test set of analogi-<br>cal reasoning tasks that contains both words and phrases. A typical analogy pair from our test set is<br>\"Montreal\":\"Montreal Canadiens\"::\"Toronto \" : \"Toronto Maple Leafs\". It is considered to have been<br>answered correctly if the nearest representation to vec(\"Montreal Canadiens\") - vec(\"Montreal\") +<br>vec(\"Toronto\") is vec(\"Toronto Maple Leafs\").</p>",
+            "id": 15,
+            "page": 2,
+            "text": "The extension from word based to phrase based models is relatively simple. First we identify a large number of phrases using a data-driven approach, and then we treat the phrases as individual tokens during the training. To evaluate the quality of the phrase vectors, we developed a test set of analogical reasoning tasks that contains both words and phrases. A typical analogy pair from our test set is \"Montreal\":\"Montreal Canadiens\"::\"Toronto \" : \"Toronto Maple Leafs\". It is considered to have been answered correctly if the nearest representation to vec(\"Montreal Canadiens\") - vec(\"Montreal\") + vec(\"Toronto\") is vec(\"Toronto Maple Leafs\")."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2119
+                },
+                {
+                    "x": 2110,
+                    "y": 2119
+                },
+                {
+                    "x": 2110,
+                    "y": 2354
+                },
+                {
+                    "x": 440,
+                    "y": 2354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:18px'>Finally, we describe another interesting property of the Skip-gram model. We found that simple<br>vector addition can often produce meaningful results. For example, vec(\"Russia\") + vec(\"river\") is<br>close to vec(\"Volga River\"), and vec(\"Germany\") + vec(\"capital\") is close to vec(\"Berlin\"). This<br>compositionality suggests that a non-obvious degree of language understanding can be obtained by<br>using basic mathematical operations on the word vector representations.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "Finally, we describe another interesting property of the Skip-gram model. We found that simple vector addition can often produce meaningful results. For example, vec(\"Russia\") + vec(\"river\") is close to vec(\"Volga River\"), and vec(\"Germany\") + vec(\"capital\") is close to vec(\"Berlin\"). This compositionality suggests that a non-obvious degree of language understanding can be obtained by using basic mathematical operations on the word vector representations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2440
+                },
+                {
+                    "x": 1001,
+                    "y": 2440
+                },
+                {
+                    "x": 1001,
+                    "y": 2500
+                },
+                {
+                    "x": 442,
+                    "y": 2500
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:22px'>2 The Skip-gram Model</p>",
+            "id": 17,
+            "page": 2,
+            "text": "2 The Skip-gram Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2559
+                },
+                {
+                    "x": 2108,
+                    "y": 2559
+                },
+                {
+                    "x": 2108,
+                    "y": 2747
+                },
+                {
+                    "x": 442,
+                    "y": 2747
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>The training objective of the Skip-gram model is to find word representations that are useful for<br>predicting the surrounding words in a sentence or a document. More formally, given a sequence of<br>training words w1, W2, w3, · · · , WT, the objective of the Skip-gram model is to maximize the average<br>log probability</p>",
+            "id": 18,
+            "page": 2,
+            "text": "The training objective of the Skip-gram model is to find word representations that are useful for predicting the surrounding words in a sentence or a document. More formally, given a sequence of training words w1, W2, w3, · · · , WT, the objective of the Skip-gram model is to maximize the average log probability"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2960
+                },
+                {
+                    "x": 2108,
+                    "y": 2960
+                },
+                {
+                    "x": 2108,
+                    "y": 3054
+                },
+                {
+                    "x": 442,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:16px'>where c is the size of the training context (which can be a function of the center word wt). Larger<br>c results in more training examples and thus can lead to a higher accuracy, at the expense of the</p>",
+            "id": 19,
+            "page": 2,
+            "text": "where c is the size of the training context (which can be a function of the center word wt). Larger c results in more training examples and thus can lead to a higher accuracy, at the expense of the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='20' style='font-size:16px'>2</footer>",
+            "id": 20,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 346
+                },
+                {
+                    "x": 2043,
+                    "y": 346
+                },
+                {
+                    "x": 2043,
+                    "y": 395
+                },
+                {
+                    "x": 441,
+                    "y": 395
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:16px'>training time. The basic Skip-gram formulation defines p(wt+j |wt) using the softmax function:</p>",
+            "id": 21,
+            "page": 3,
+            "text": "training time. The basic Skip-gram formulation defines p(wt+j |wt) using the softmax function:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 626
+                },
+                {
+                    "x": 2108,
+                    "y": 626
+                },
+                {
+                    "x": 2108,
+                    "y": 768
+                },
+                {
+                    "x": 440,
+                    "y": 768
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:16px'>where Vw and v'w are the \"input\" and \"output\" vector representations of w, and W is the num-<br>ber of words in the vocabulary. This formulation is impractical because the cost of computing<br>▽ log p(wo |wI) is proportional to W, which is often large (105-107 terms).</p>",
+            "id": 22,
+            "page": 3,
+            "text": "where Vw and v'w are the \"input\" and \"output\" vector representations of w, and W is the number of words in the vocabulary. This formulation is impractical because the cost of computing ▽ log p(wo |wI) is proportional to W, which is often large (105-107 terms)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 826
+                },
+                {
+                    "x": 929,
+                    "y": 826
+                },
+                {
+                    "x": 929,
+                    "y": 876
+                },
+                {
+                    "x": 443,
+                    "y": 876
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:14px'>2.1 Hierarchical Softmax</p>",
+            "id": 23,
+            "page": 3,
+            "text": "2.1 Hierarchical Softmax"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 915
+                },
+                {
+                    "x": 2109,
+                    "y": 915
+                },
+                {
+                    "x": 2109,
+                    "y": 1101
+                },
+                {
+                    "x": 441,
+                    "y": 1101
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:16px'>A computationally efficient approximation of the full softmax is the hierarchical softmax. In the<br>context of neural network language models, it was first introduced by Morin and Bengio [12]. The<br>main advantage is that instead of evaluating W output nodes in the neural network to obtain the<br>probability distribution, it is needed to evaluate only about log2 (W) nodes.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "A computationally efficient approximation of the full softmax is the hierarchical softmax. In the context of neural network language models, it was first introduced by Morin and Bengio . The main advantage is that instead of evaluating W output nodes in the neural network to obtain the probability distribution, it is needed to evaluate only about log2 (W) nodes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1124
+                },
+                {
+                    "x": 2107,
+                    "y": 1124
+                },
+                {
+                    "x": 2107,
+                    "y": 1261
+                },
+                {
+                    "x": 442,
+                    "y": 1261
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:14px'>The hierarchical softmax uses a binary tree representation of the output layer with the W words as<br>its leaves and, for each node, explicitly represents the relative probabilities of its child nodes. These<br>define a random walk that assigns probabilities to words.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "The hierarchical softmax uses a binary tree representation of the output layer with the W words as its leaves and, for each node, explicitly represents the relative probabilities of its child nodes. These define a random walk that assigns probabilities to words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1284
+                },
+                {
+                    "x": 2107,
+                    "y": 1284
+                },
+                {
+                    "x": 2107,
+                    "y": 1516
+                },
+                {
+                    "x": 440,
+                    "y": 1516
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:14px'>More precisely, each word w can be reached by an appropriate path from the root of the tree. Let<br>n(w,j) be the j-th node on the path from the root to w, and let L(w) be the length of this path, SO<br>n(w, 1) = root and n(w, L(w)) = w. In addition, for any inner node n, let ch(n) be an arbitrary<br>fixed child of n and let [x] be 1 if x is true and -1 otherwise. Then the hierarchical softmax defines<br>p(wo |wI) as follows:</p>",
+            "id": 26,
+            "page": 3,
+            "text": "More precisely, each word w can be reached by an appropriate path from the root of the tree. Let n(w,j) be the j-th node on the path from the root to w, and let L(w) be the length of this path, SO n(w, 1) = root and n(w, L(w)) = w. In addition, for any inner node n, let ch(n) be an arbitrary fixed child of n and let [x] be 1 if x is true and -1 otherwise. Then the hierarchical softmax defines p(wo |wI) as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1728
+                },
+                {
+                    "x": 2108,
+                    "y": 1728
+                },
+                {
+                    "x": 2108,
+                    "y": 2010
+                },
+                {
+                    "x": 440,
+                    "y": 2010
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:16px'>where �(x) = 1/(1 + exp(-x)). It can be verified that EW=1 p(w|wI) = 1. This implies that the<br>cost of computing log p(wo|wI) and ▽ log p(wo |wI) is proportional to L(wo), which on average<br>is no greater than log W. Also, unlike the standard softmax formulation of the Skip-gram which<br>assigns two representations Vw and v'w to each word w, the hierarchical softmax formulation has<br>one representation Vw for each word w and one representation v'n for every inner node n of the<br>binary tree.</p>",
+            "id": 27,
+            "page": 3,
+            "text": "where �(x) = 1/(1 + exp(-x)). It can be verified that EW=1 p(w|wI) = 1. This implies that the cost of computing log p(wo|wI) and ▽ log p(wo |wI) is proportional to L(wo), which on average is no greater than log W. Also, unlike the standard softmax formulation of the Skip-gram which assigns two representations Vw and v'w to each word w, the hierarchical softmax formulation has one representation Vw for each word w and one representation v'n for every inner node n of the binary tree."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2032
+                },
+                {
+                    "x": 2107,
+                    "y": 2032
+                },
+                {
+                    "x": 2107,
+                    "y": 2312
+                },
+                {
+                    "x": 441,
+                    "y": 2312
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:14px'>The structure of the tree used by the hierarchical softmax has a considerable effect on the perfor-<br>mance. Mnih and Hinton explored a number of methods for constructing the tree structure and the<br>effect on both the training time and the resulting model accuracy [10]. In our work we use a binary<br>Huffman tree, as it assigns short codes to the frequent words which results in fast training. It has<br>been observed before that grouping words together by their frequency works well as a very simple<br>speedup technique for the neural network based language models [5, 8].</p>",
+            "id": 28,
+            "page": 3,
+            "text": "The structure of the tree used by the hierarchical softmax has a considerable effect on the performance. Mnih and Hinton explored a number of methods for constructing the tree structure and the effect on both the training time and the resulting model accuracy . In our work we use a binary Huffman tree, as it assigns short codes to the frequent words which results in fast training. It has been observed before that grouping words together by their frequency works well as a very simple speedup technique for the neural network based language models ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2369
+                },
+                {
+                    "x": 881,
+                    "y": 2369
+                },
+                {
+                    "x": 881,
+                    "y": 2423
+                },
+                {
+                    "x": 442,
+                    "y": 2423
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:18px'>2.2 Negative Sampling</p>",
+            "id": 29,
+            "page": 3,
+            "text": "2.2 Negative Sampling"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2460
+                },
+                {
+                    "x": 2107,
+                    "y": 2460
+                },
+                {
+                    "x": 2107,
+                    "y": 2690
+                },
+                {
+                    "x": 441,
+                    "y": 2690
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>An alternative to the hierarchical softmax is Noise Contrastive Estimation (NCE), which was in-<br>troduced by Gutmann and Hyvarinen [4] and applied to language modeling by Mnih and Teh [11].<br>NCE posits that a good model should be able to differentiate data from noise by means of logistic<br>regression. This is similar to hinge loss used by Collobert and Weston [2] who trained the models<br>by ranking the data above noise.</p>",
+            "id": 30,
+            "page": 3,
+            "text": "An alternative to the hierarchical softmax is Noise Contrastive Estimation (NCE), which was introduced by Gutmann and Hyvarinen  and applied to language modeling by Mnih and Teh . NCE posits that a good model should be able to differentiate data from noise by means of logistic regression. This is similar to hinge loss used by Collobert and Weston  who trained the models by ranking the data above noise."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2712
+                },
+                {
+                    "x": 2108,
+                    "y": 2712
+                },
+                {
+                    "x": 2108,
+                    "y": 2897
+                },
+                {
+                    "x": 442,
+                    "y": 2897
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:16px'>While NCE can be shown to approximately maximize the log probability of the softmax, the Skip-<br>gram model is only concerned with learning high-quality vector representations, SO we are free to<br>simplify NCE as long as the vector representations retain their quality. We define Negative sampling<br>(NEG) by the objective</p>",
+            "id": 31,
+            "page": 3,
+            "text": "While NCE can be shown to approximately maximize the log probability of the softmax, the Skipgram model is only concerned with learning high-quality vector representations, SO we are free to simplify NCE as long as the vector representations retain their quality. We define Negative sampling (NEG) by the objective"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3133
+                },
+                {
+                    "x": 1288,
+                    "y": 3169
+                },
+                {
+                    "x": 1260,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='32' style='font-size:14px'>3</footer>",
+            "id": 32,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 575,
+                    "y": 356
+                },
+                {
+                    "x": 1996,
+                    "y": 356
+                },
+                {
+                    "x": 1996,
+                    "y": 1378
+                },
+                {
+                    "x": 575,
+                    "y": 1378
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='33' style='font-size:14px' alt=\"Country and Capital Vectors Projected by PCA\n2\nChina\nBeijing\n1.5 Russia\nJapan\n>Moscow\n1\nVT okyo\nAnkara\nTurkey*\n0.5\nPoland\n0 Germany\nFrance Warsaw\nST Berlin\n-0.5 Italy* Paris\nAthens\nGreece*\nRome\n-1 Spain\nx Madrid\n-1.5 Portugal\n>Lisbon\n-2\n-2 -1.5 -1 -0.5 0 0.5 1 1.5 2\" data-coord=\"top-left:(575,356); bottom-right:(1996,1378)\" /></figure>",
+            "id": 33,
+            "page": 4,
+            "text": "Country and Capital Vectors Projected by PCA 2 China Beijing 1.5 Russia Japan >Moscow 1 VT okyo Ankara Turkey* 0.5 Poland 0 Germany France Warsaw ST Berlin -0.5 Italy* Paris Athens Greece* Rome -1 Spain x Madrid -1.5 Portugal >Lisbon -2 -2 -1.5 -1 -0.5 0 0.5 1 1.5 2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1426
+                },
+                {
+                    "x": 2108,
+                    "y": 1426
+                },
+                {
+                    "x": 2108,
+                    "y": 1601
+                },
+                {
+                    "x": 440,
+                    "y": 1601
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='34' style='font-size:14px'>Figure 2: Two-dimensional PCA projection of the 1000-dimensional Skip-gram vectors of countries and their<br>capital cities. The figure illustrates ability of the model to automatically organize concepts and learn implicitly<br>the relationships between them, as during the training we did not provide any supervised information about<br>what a capital city means.</caption>",
+            "id": 34,
+            "page": 4,
+            "text": "Figure 2: Two-dimensional PCA projection of the 1000-dimensional Skip-gram vectors of countries and their capital cities. The figure illustrates ability of the model to automatically organize concepts and learn implicitly the relationships between them, as during the training we did not provide any supervised information about what a capital city means."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1701
+                },
+                {
+                    "x": 2108,
+                    "y": 1701
+                },
+                {
+                    "x": 2108,
+                    "y": 2070
+                },
+                {
+                    "x": 442,
+                    "y": 2070
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:18px'>which is used to replace every log P(wo |wI) term in the Skip-gram objective. Thus the task is to<br>distinguish the target word wo from draws from the noise distribution Pn (w) using logistic regres-<br>sion, where there are k negative samples for each data sample. Our experiments indicate that values<br>of k in the range 5-20 are useful for small training datasets, while for large datasets the k can be as<br>small as 2-5. The main difference between the Negative sampling and NCE is that NCE needs both<br>samples and the numerical probabilities of the noise distribution, while Negative sampling uses only<br>samples. And while NCE approximately maximizes the log probability of the softmax, this property<br>is not important for our application.</p>",
+            "id": 35,
+            "page": 4,
+            "text": "which is used to replace every log P(wo |wI) term in the Skip-gram objective. Thus the task is to distinguish the target word wo from draws from the noise distribution Pn (w) using logistic regression, where there are k negative samples for each data sample. Our experiments indicate that values of k in the range 5-20 are useful for small training datasets, while for large datasets the k can be as small as 2-5. The main difference between the Negative sampling and NCE is that NCE needs both samples and the numerical probabilities of the noise distribution, while Negative sampling uses only samples. And while NCE approximately maximizes the log probability of the softmax, this property is not important for our application."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2089
+                },
+                {
+                    "x": 2109,
+                    "y": 2089
+                },
+                {
+                    "x": 2109,
+                    "y": 2284
+                },
+                {
+                    "x": 440,
+                    "y": 2284
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:20px'>Both NCE and NEG have the noise distribution Pn (w) as a free parameter. We investigated a number<br>of choices for Pn (w) and found that the unigram distribution U(w) raised to the 3/ 4rd power (i.e.,<br>U(w)3/4 /Z) outperformed significantly the unigram and the uniform distributions, for both NCE<br>and NEG on every task we tried including language modeling (not reported here).</p>",
+            "id": 36,
+            "page": 4,
+            "text": "Both NCE and NEG have the noise distribution Pn (w) as a free parameter. We investigated a number of choices for Pn (w) and found that the unigram distribution U(w) raised to the 3/ 4rd power (i.e., U(w)3/4 /Z) outperformed significantly the unigram and the uniform distributions, for both NCE and NEG on every task we tried including language modeling (not reported here)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2355
+                },
+                {
+                    "x": 1126,
+                    "y": 2355
+                },
+                {
+                    "x": 1126,
+                    "y": 2408
+                },
+                {
+                    "x": 443,
+                    "y": 2408
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:20px'>2.3 Subsampling of Frequent Words</p>",
+            "id": 37,
+            "page": 4,
+            "text": "2.3 Subsampling of Frequent Words"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2449
+                },
+                {
+                    "x": 2109,
+                    "y": 2449
+                },
+                {
+                    "x": 2109,
+                    "y": 2773
+                },
+                {
+                    "x": 442,
+                    "y": 2773
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>In very large corpora, the most frequent words can easily occur hundreds of millions of times (e.g.,<br>\"in , \"the\", and \"a\"). Such words usually provide less information value than the rare words. For<br>,<br>example, while the Skip-gram model benefits from observing the co-occurrences of \"France\" and<br>\"Paris\". it benefits much less from observing the frequent co-occurrences of \"France\" and \"the\", as<br>,<br>nearly every word co-occurs frequently within a sentence with \"the\". This idea can also be applied<br>in the opposite direction; the vector representations of frequent words do not change significantly<br>after training on several million examples.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "In very large corpora, the most frequent words can easily occur hundreds of millions of times (e.g., \"in , \"the\", and \"a\"). Such words usually provide less information value than the rare words. For , example, while the Skip-gram model benefits from observing the co-occurrences of \"France\" and \"Paris\". it benefits much less from observing the frequent co-occurrences of \"France\" and \"the\", as , nearly every word co-occurs frequently within a sentence with \"the\". This idea can also be applied in the opposite direction; the vector representations of frequent words do not change significantly after training on several million examples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2795
+                },
+                {
+                    "x": 2107,
+                    "y": 2795
+                },
+                {
+                    "x": 2107,
+                    "y": 2889
+                },
+                {
+                    "x": 441,
+                    "y": 2889
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:16px'>To counter the imbalance between the rare and frequent words, we used a simple subsampling ap-<br>proach: each word Wi in the training set is discarded with probability computed by the formula</p>",
+            "id": 39,
+            "page": 4,
+            "text": "To counter the imbalance between the rare and frequent words, we used a simple subsampling approach: each word Wi in the training set is discarded with probability computed by the formula"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3169
+                },
+                {
+                    "x": 1259,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='40' style='font-size:16px'>4</footer>",
+            "id": 40,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 617,
+                    "y": 332
+                },
+                {
+                    "x": 1935,
+                    "y": 332
+                },
+                {
+                    "x": 1935,
+                    "y": 734
+                },
+                {
+                    "x": 617,
+                    "y": 734
+                }
+            ],
+            "category": "table",
+            "html": "<table id='41' style='font-size:16px'><tr><td>Method</td><td>Time [min]</td><td>Syntactic [%]</td><td>Semantic [%]</td><td>Total accuracy [%]</td></tr><tr><td>NEG-5</td><td>38</td><td>63</td><td>54</td><td>59</td></tr><tr><td>NEG-15</td><td>97</td><td>63</td><td>58</td><td>61</td></tr><tr><td>HS-Huffman</td><td>41</td><td>53</td><td>40</td><td>47</td></tr><tr><td>NCE-5</td><td>38</td><td>60</td><td>45</td><td>53</td></tr><tr><td colspan=\"5\">The following results use 10-5 subsampling</td></tr><tr><td>NEG-5</td><td>14</td><td>61</td><td>58</td><td>60</td></tr><tr><td>NEG-15</td><td>36</td><td>61</td><td>61</td><td>61</td></tr><tr><td>HS-Huffman</td><td>21</td><td>52</td><td>59</td><td>55</td></tr></table>",
+            "id": 41,
+            "page": 5,
+            "text": "Method Time [min] Syntactic [%] Semantic [%] Total accuracy [%]  NEG-5 38 63 54 59  NEG-15 97 63 58 61  HS-Huffman 41 53 40 47  NCE-5 38 60 45 53  The following results use 10-5 subsampling  NEG-5 14 61 58 60  NEG-15 36 61 61 61  HS-Huffman 21 52 59"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 780
+                },
+                {
+                    "x": 2107,
+                    "y": 780
+                },
+                {
+                    "x": 2107,
+                    "y": 972
+                },
+                {
+                    "x": 440,
+                    "y": 972
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:20px'>Table 1: Accuracy of various Skip-gram 300-dimensional models on the analogical reasoning task<br>as defined in [8]. NEG-k stands for Negative Sampling with k negative samples for each positive<br>sample; NCE stands for Noise Contrastive Estimation and HS-Huffman stands for the Hierarchical<br>Softmax with the frequency-based Huffman codes.</p>",
+            "id": 42,
+            "page": 5,
+            "text": "Table 1: Accuracy of various Skip-gram 300-dimensional models on the analogical reasoning task as defined in . NEG-k stands for Negative Sampling with k negative samples for each positive sample; NCE stands for Noise Contrastive Estimation and HS-Huffman stands for the Hierarchical Softmax with the frequency-based Huffman codes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1060
+                },
+                {
+                    "x": 2109,
+                    "y": 1060
+                },
+                {
+                    "x": 2109,
+                    "y": 1340
+                },
+                {
+                    "x": 441,
+                    "y": 1340
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>where f(wi) is the frequency of word Wi and t is a chosen threshold, typically around 10-5.<br>We chose this subsampling formula because it aggressively subsamples words whose frequency<br>is greater than t while preserving the ranking of the frequencies. Although this subsampling for-<br>mula was chosen heuristically, we found it to work well in practice. It accelerates learning and even<br>significantly improves the accuracy of the learned vectors of the rare words, as will be shown in the<br>following sections.</p>",
+            "id": 43,
+            "page": 5,
+            "text": "where f(wi) is the frequency of word Wi and t is a chosen threshold, typically around 10-5. We chose this subsampling formula because it aggressively subsamples words whose frequency is greater than t while preserving the ranking of the frequencies. Although this subsampling formula was chosen heuristically, we found it to work well in practice. It accelerates learning and even significantly improves the accuracy of the learned vectors of the rare words, as will be shown in the following sections."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1415
+                },
+                {
+                    "x": 909,
+                    "y": 1415
+                },
+                {
+                    "x": 909,
+                    "y": 1471
+                },
+                {
+                    "x": 442,
+                    "y": 1471
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:22px'>3 Empirical Results</p>",
+            "id": 44,
+            "page": 5,
+            "text": "3 Empirical Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1525
+                },
+                {
+                    "x": 2108,
+                    "y": 1525
+                },
+                {
+                    "x": 2108,
+                    "y": 1896
+                },
+                {
+                    "x": 443,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:18px'>In this section we evaluate the Hierarchical Softmax (HS), Noise Contrastive Estimation, Negative<br>Sampling, and subsampling of the training words. We used the analogical reasoning task1 introduced<br>by Mikolov et al. [8]. The task consists of analogies such as \"Germany\" : \"Berlin :: \"France\" : ?,<br>which are solved by finding a vector x such that vec(x) is closest to vec(\"Berlin\") - vec(\"Germany\")<br>+ vec(\"France\") according to the cosine distance (we discard the input words from the search). This<br>specific example is considered to have been answered correctly if x is \"Paris\" · The task has two<br>broad categories: the syntactic analogies (such as \"quick\" : \"quickly\" : : \"slow\" : \"slowly\") and the<br>semantic analogies, such as the country to capital city relationship.</p>",
+            "id": 45,
+            "page": 5,
+            "text": "In this section we evaluate the Hierarchical Softmax (HS), Noise Contrastive Estimation, Negative Sampling, and subsampling of the training words. We used the analogical reasoning task1 introduced by Mikolov  . The task consists of analogies such as \"Germany\" : \"Berlin :: \"France\" : ?, which are solved by finding a vector x such that vec(x) is closest to vec(\"Berlin\") - vec(\"Germany\") + vec(\"France\") according to the cosine distance (we discard the input words from the search). This specific example is considered to have been answered correctly if x is \"Paris\" · The task has two broad categories: the syntactic analogies (such as \"quick\" : \"quickly\" : : \"slow\" : \"slowly\") and the semantic analogies, such as the country to capital city relationship."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1916
+                },
+                {
+                    "x": 2108,
+                    "y": 1916
+                },
+                {
+                    "x": 2108,
+                    "y": 2285
+                },
+                {
+                    "x": 443,
+                    "y": 2285
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:18px'>For training the Skip-gram models, we have used a large dataset consisting of various news articles<br>(an internal Google dataset with one billion words). We discarded from the vocabulary all words<br>that occurred less than 5 times in the training data, which resulted in a vocabulary of size 692K.<br>The performance of various Skip-gram models on the word analogy test set is reported in Table 1.<br>The table shows that Negative Sampling outperforms the Hierarchical Softmax on the analogical<br>reasoning task, and has even slightly better performance than the Noise Contrastive Estimation. The<br>subsampling of the frequent words improves the training speed several times and makes the word<br>representations significantly more accurate.</p>",
+            "id": 46,
+            "page": 5,
+            "text": "For training the Skip-gram models, we have used a large dataset consisting of various news articles (an internal Google dataset with one billion words). We discarded from the vocabulary all words that occurred less than 5 times in the training data, which resulted in a vocabulary of size 692K. The performance of various Skip-gram models on the word analogy test set is reported in Table 1. The table shows that Negative Sampling outperforms the Hierarchical Softmax on the analogical reasoning task, and has even slightly better performance than the Noise Contrastive Estimation. The subsampling of the frequent words improves the training speed several times and makes the word representations significantly more accurate."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2306
+                },
+                {
+                    "x": 2108,
+                    "y": 2306
+                },
+                {
+                    "x": 2108,
+                    "y": 2540
+                },
+                {
+                    "x": 441,
+                    "y": 2540
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:18px'>It can be argued that the linearity of the skip-gram model makes its vectors more suitable for such<br>linear analogical reasoning, but the results of Mikolov et al. [8] also show that the vectors learned<br>by the standard sigmoidal recurrent neural networks (which are highly non-linear) improve on this<br>task significantly as the amount of the training data increases, suggesting that non-linear models also<br>have a preference for a linear structure of the word representations.</p>",
+            "id": 47,
+            "page": 5,
+            "text": "It can be argued that the linearity of the skip-gram model makes its vectors more suitable for such linear analogical reasoning, but the results of Mikolov   also show that the vectors learned by the standard sigmoidal recurrent neural networks (which are highly non-linear) improve on this task significantly as the amount of the training data increases, suggesting that non-linear models also have a preference for a linear structure of the word representations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2615
+                },
+                {
+                    "x": 903,
+                    "y": 2615
+                },
+                {
+                    "x": 903,
+                    "y": 2672
+                },
+                {
+                    "x": 442,
+                    "y": 2672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:22px'>4 Learning Phrases</p>",
+            "id": 48,
+            "page": 5,
+            "text": "4 Learning Phrases"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2724
+                },
+                {
+                    "x": 2109,
+                    "y": 2724
+                },
+                {
+                    "x": 2109,
+                    "y": 2956
+                },
+                {
+                    "x": 442,
+                    "y": 2956
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:20px'>As discussed earlier, many phrases have a meaning that is not a simple composition of the mean-<br>ings of its individual words. To learn vector representation for phrases, we first find words that<br>appear frequently together, and infrequently in other contexts. For example, \"New York Times\" and<br>\"Toronto Maple Leafs\" are replaced by unique tokens in the training data, while a bigram \"this is\"<br>will remain unchanged.</p>",
+            "id": 49,
+            "page": 5,
+            "text": "As discussed earlier, many phrases have a meaning that is not a simple composition of the meanings of its individual words. To learn vector representation for phrases, we first find words that appear frequently together, and infrequently in other contexts. For example, \"New York Times\" and \"Toronto Maple Leafs\" are replaced by unique tokens in the training data, while a bigram \"this is\" will remain unchanged."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 502,
+                    "y": 3010
+                },
+                {
+                    "x": 2007,
+                    "y": 3010
+                },
+                {
+                    "x": 2007,
+                    "y": 3052
+                },
+                {
+                    "x": 502,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:14px'>1 code · google · com/p/word2vec/ source/browse/trunk / quest ions-words · txt</p>",
+            "id": 50,
+            "page": 5,
+            "text": "1 code · google · com/p/word2vec/ source/browse/trunk / quest ions-words · txt"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3169
+                },
+                {
+                    "x": 1260,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='51' style='font-size:18px'>5</footer>",
+            "id": 51,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 570,
+                    "y": 333
+                },
+                {
+                    "x": 1980,
+                    "y": 333
+                },
+                {
+                    "x": 1980,
+                    "y": 987
+                },
+                {
+                    "x": 570,
+                    "y": 987
+                }
+            ],
+            "category": "table",
+            "html": "<table id='52' style='font-size:16px'><tr><td colspan=\"4\">Newspapers</td></tr><tr><td>New York San Jose</td><td>New York Times San Jose Mercury News</td><td>Baltimore Cincinnati</td><td>Baltimore Sun Cincinnati Enquirer</td></tr><tr><td colspan=\"4\">NHL Teams</td></tr><tr><td>Boston Phoenix</td><td>Boston Bruins Phoenix Coyotes</td><td>Montreal Nashville</td><td>Montreal Canadiens Nashville Predators</td></tr><tr><td colspan=\"4\">NBA Teams</td></tr><tr><td>Detroit Oakland</td><td>Detroit Pistons Golden State Warriors</td><td>Toronto Memphis</td><td>Toronto Raptors Memphis Grizzlies</td></tr><tr><td colspan=\"4\">Airlines</td></tr><tr><td>Austria Belgium</td><td>Austrian Airlines Brussels Airlines</td><td>Spain Greece</td><td>Spainair Aegean Airlines</td></tr><tr><td colspan=\"4\">Company executives</td></tr><tr><td>Steve Ballmer Samuel J. Palmisano</td><td>Microsoft IBM</td><td>Larry Page Werner Vogels</td><td>Google Amazon</td></tr></table>",
+            "id": 52,
+            "page": 6,
+            "text": "Newspapers  New York San Jose New York Times San Jose Mercury News Baltimore Cincinnati Baltimore Sun Cincinnati Enquirer  NHL Teams  Boston Phoenix Boston Bruins Phoenix Coyotes Montreal Nashville Montreal Canadiens Nashville Predators  NBA Teams  Detroit Oakland Detroit Pistons Golden State Warriors Toronto Memphis Toronto Raptors Memphis Grizzlies  Airlines  Austria Belgium Austrian Airlines Brussels Airlines Spain Greece Spainair Aegean Airlines  Company executives  Steve Ballmer Samuel J. Palmisano Microsoft IBM Larry Page Werner Vogels"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1037
+                },
+                {
+                    "x": 2106,
+                    "y": 1037
+                },
+                {
+                    "x": 2106,
+                    "y": 1180
+                },
+                {
+                    "x": 441,
+                    "y": 1180
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='53' style='font-size:18px'>Table 2: Examples of the analogical reasoning task for phrases (the full test set has 3218 examples).<br>The goal is to compute the fourth phrase using the first three. Our best model achieved an accuracy<br>of 72% on this dataset.</caption>",
+            "id": 53,
+            "page": 6,
+            "text": "Table 2: Examples of the analogical reasoning task for phrases (the full test set has 3218 examples). The goal is to compute the fourth phrase using the first three. Our best model achieved an accuracy of 72% on this dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1249
+                },
+                {
+                    "x": 2107,
+                    "y": 1249
+                },
+                {
+                    "x": 2107,
+                    "y": 1480
+                },
+                {
+                    "x": 441,
+                    "y": 1480
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:18px'>This way, we can form many reasonable phrases without greatly increasing the size of the vocabu-<br>lary; in theory, we can train the Skip-gram model using all n-grams, but that would be too memory<br>intensive. Many techniques have been previously developed to identify phrases in the text; however,<br>it is out of scope of our work to compare them. We decided to use a simple data-driven approach,<br>where phrases are formed based on the unigram and bigram counts, using</p>",
+            "id": 54,
+            "page": 6,
+            "text": "This way, we can form many reasonable phrases without greatly increasing the size of the vocabulary; in theory, we can train the Skip-gram model using all n-grams, but that would be too memory intensive. Many techniques have been previously developed to identify phrases in the text; however, it is out of scope of our work to compare them. We decided to use a simple data-driven approach, where phrases are formed based on the unigram and bigram counts, using"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1619
+                },
+                {
+                    "x": 2107,
+                    "y": 1619
+                },
+                {
+                    "x": 2107,
+                    "y": 1899
+                },
+                {
+                    "x": 441,
+                    "y": 1899
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>The 8 is used as a discounting coefficient and prevents too many phrases consisting of very infre-<br>quent words to be formed. The bigrams with score above the chosen threshold are then used as<br>phrases. Typically, we run 2-4 passes over the training data with decreasing threshold value, allow-<br>ing longer phrases that consists of several words to be formed. We evaluate the quality of the phrase<br>representations using a new analogical reasoning task that involves phrases. Table 2 shows examples<br>of the five categories of analogies used in this task. This dataset is publicly available on the web2.</p>",
+            "id": 55,
+            "page": 6,
+            "text": "The 8 is used as a discounting coefficient and prevents too many phrases consisting of very infrequent words to be formed. The bigrams with score above the chosen threshold are then used as phrases. Typically, we run 2-4 passes over the training data with decreasing threshold value, allowing longer phrases that consists of several words to be formed. We evaluate the quality of the phrase representations using a new analogical reasoning task that involves phrases. Table 2 shows examples of the five categories of analogies used in this task. This dataset is publicly available on the web2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1949
+                },
+                {
+                    "x": 1021,
+                    "y": 1949
+                },
+                {
+                    "x": 1021,
+                    "y": 2000
+                },
+                {
+                    "x": 443,
+                    "y": 2000
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:22px'>4.1 Phrase Skip-Gram Results</p>",
+            "id": 56,
+            "page": 6,
+            "text": "4.1 Phrase Skip-Gram Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2037
+                },
+                {
+                    "x": 2108,
+                    "y": 2037
+                },
+                {
+                    "x": 2108,
+                    "y": 2311
+                },
+                {
+                    "x": 441,
+                    "y": 2311
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:18px'>Starting with the same news data as in the previous experiments, we first constructed the phrase<br>based training corpus and then we trained several Skip-gram models using different hyper-<br>parameters. As before, we used vector dimensionality 300 and context size 5. This setting already<br>achieves good performance on the phrase dataset, and allowed us to quickly compare the Negative<br>Sampling and the Hierarchical Softmax, both with and without subsampling of the frequent tokens.<br>The results are summarized in Table 3.</p>",
+            "id": 57,
+            "page": 6,
+            "text": "Starting with the same news data as in the previous experiments, we first constructed the phrase based training corpus and then we trained several Skip-gram models using different hyperparameters. As before, we used vector dimensionality 300 and context size 5. This setting already achieves good performance on the phrase dataset, and allowed us to quickly compare the Negative Sampling and the Hierarchical Softmax, both with and without subsampling of the frequent tokens. The results are summarized in Table 3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2334
+                },
+                {
+                    "x": 2107,
+                    "y": 2334
+                },
+                {
+                    "x": 2107,
+                    "y": 2566
+                },
+                {
+                    "x": 441,
+                    "y": 2566
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:18px'>The results show that while Negative Sampling achieves a respectable accuracy even with k = 5,<br>using k = 15 achieves considerably better performance. Surprisingly, while we found the Hierar-<br>chical Softmax to achieve lower performance when trained without subsampling, it became the best<br>performing method when we downsampled the frequent words. This shows that the subsampling<br>can result in faster training and can also improve accuracy, at least in some cases.</p>",
+            "id": 58,
+            "page": 6,
+            "text": "The results show that while Negative Sampling achieves a respectable accuracy even with k = 5, using k = 15 achieves considerably better performance. Surprisingly, while we found the Hierarchical Softmax to achieve lower performance when trained without subsampling, it became the best performing method when we downsampled the frequent words. This shows that the subsampling can result in faster training and can also improve accuracy, at least in some cases."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 497,
+                    "y": 2598
+                },
+                {
+                    "x": 2048,
+                    "y": 2598
+                },
+                {
+                    "x": 2048,
+                    "y": 2642
+                },
+                {
+                    "x": 497,
+                    "y": 2642
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='59' style='font-size:14px'>2 code · google · com/p/word2vec/ source/browse/trunk / questions-phrases · txt</caption>",
+            "id": 59,
+            "page": 6,
+            "text": "2 code · google · com/p/word2vec/ source/browse/trunk / questions-phrases · txt"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 629,
+                    "y": 2709
+                },
+                {
+                    "x": 1923,
+                    "y": 2709
+                },
+                {
+                    "x": 1923,
+                    "y": 2896
+                },
+                {
+                    "x": 629,
+                    "y": 2896
+                }
+            ],
+            "category": "table",
+            "html": "<table id='60' style='font-size:14px'><tr><td>Method</td><td>Dimensionality</td><td>No subsampling [%]</td><td>10-5 subsampling [%]</td></tr><tr><td>NEG-5</td><td>300</td><td>24</td><td>27</td></tr><tr><td>NEG-15</td><td>300</td><td>27</td><td>42</td></tr><tr><td>HS-Huffman</td><td>300</td><td>19</td><td>47</td></tr></table>",
+            "id": 60,
+            "page": 6,
+            "text": "Method Dimensionality No subsampling [%] 10-5 subsampling [%]  NEG-5 300 24 27  NEG-15 300 27 42  HS-Huffman 300 19"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2949
+                },
+                {
+                    "x": 2105,
+                    "y": 2949
+                },
+                {
+                    "x": 2105,
+                    "y": 3044
+                },
+                {
+                    "x": 442,
+                    "y": 3044
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='61' style='font-size:16px'>Table 3: Accuracies of the Skip-gram models on the phrase analogy dataset. The models were<br>trained on approximately one billion words from the news dataset.</caption>",
+            "id": 61,
+            "page": 6,
+            "text": "Table 3: Accuracies of the Skip-gram models on the phrase analogy dataset. The models were trained on approximately one billion words from the news dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='62' style='font-size:14px'>6</footer>",
+            "id": 62,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 623,
+                    "y": 335
+                },
+                {
+                    "x": 1921,
+                    "y": 335
+                },
+                {
+                    "x": 1921,
+                    "y": 603
+                },
+                {
+                    "x": 623,
+                    "y": 603
+                }
+            ],
+            "category": "table",
+            "html": "<table id='63' style='font-size:14px'><tr><td></td><td>NEG-15 with 10-5 subsampling</td><td>HS with 10-5 subsampling</td></tr><tr><td>Vasco de Gama</td><td>Lingsugur</td><td>Italian explorer</td></tr><tr><td>Lake Baikal</td><td>Great Rift Valley</td><td>Aral Sea</td></tr><tr><td>Alan Bean</td><td>Rebbeca Naomi</td><td>moonwalker</td></tr><tr><td>Ionian Sea</td><td>Ruegen</td><td>Ionian Islands</td></tr><tr><td>chess master</td><td>chess grandmaster</td><td>Garry Kasparov</td></tr></table>",
+            "id": 63,
+            "page": 7,
+            "text": "NEG-15 with 10-5 subsampling HS with 10-5 subsampling  Vasco de Gama Lingsugur Italian explorer  Lake Baikal Great Rift Valley Aral Sea  Alan Bean Rebbeca Naomi moonwalker  Ionian Sea Ruegen Ionian Islands  chess master chess grandmaster"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 482,
+                    "y": 658
+                },
+                {
+                    "x": 2067,
+                    "y": 658
+                },
+                {
+                    "x": 2067,
+                    "y": 704
+                },
+                {
+                    "x": 482,
+                    "y": 704
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='64' style='font-size:18px'>Table 4: Examples of the closest entities to the given short phrases, using two different models.</caption>",
+            "id": 64,
+            "page": 7,
+            "text": "Table 4: Examples of the closest entities to the given short phrases, using two different models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 749
+                },
+                {
+                    "x": 2108,
+                    "y": 749
+                },
+                {
+                    "x": 2108,
+                    "y": 974
+                },
+                {
+                    "x": 442,
+                    "y": 974
+                }
+            ],
+            "category": "table",
+            "html": "<table id='65' style='font-size:14px'><tr><td>Czech + currency</td><td>Vietnam + capital</td><td>German + airlines</td><td>Russian + river</td><td>French + actress</td></tr><tr><td>koruna Check crown Polish zolty CTK</td><td>Hanoi Ho Chi Minh City Viet Nam Vietnamese</td><td>airline Lufthansa carrier Lufthansa flag carrier Lufthansa Lufthansa</td><td>Moscow Volga River upriver Russia</td><td>Juliette Binoche Vanessa Paradis Charlotte Gainsbourg Cecile De</td></tr></table>",
+            "id": 65,
+            "page": 7,
+            "text": "Czech + currency Vietnam + capital German + airlines Russian + river French + actress  koruna Check crown Polish zolty CTK Hanoi Ho Chi Minh City Viet Nam Vietnamese airline Lufthansa carrier Lufthansa flag carrier Lufthansa Lufthansa Moscow Volga River upriver Russia"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1026
+                },
+                {
+                    "x": 2108,
+                    "y": 1026
+                },
+                {
+                    "x": 2108,
+                    "y": 1122
+                },
+                {
+                    "x": 442,
+                    "y": 1122
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='66' style='font-size:18px'>Table 5: Vector compositionality using element-wise addition. Four closest tokens to the sum of two<br>vectors are shown, using the best Skip-gram model.</caption>",
+            "id": 66,
+            "page": 7,
+            "text": "Table 5: Vector compositionality using element-wise addition. Four closest tokens to the sum of two vectors are shown, using the best Skip-gram model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1204
+                },
+                {
+                    "x": 2107,
+                    "y": 1204
+                },
+                {
+                    "x": 2107,
+                    "y": 1437
+                },
+                {
+                    "x": 441,
+                    "y": 1437
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>To maximize the accuracy on the phrase analogy task, we increased the amount of the training data<br>by using a dataset with about 33 billion words. We used the hierarchical softmax, dimensionality<br>of 1000, and the entire sentence for the context. This resulted in a model that reached an accuracy<br>of 72%. We achieved lower accuracy 66% when we reduced the size of the training dataset to 6B<br>words, which suggests that the large amount of the training data is crucial.</p>",
+            "id": 67,
+            "page": 7,
+            "text": "To maximize the accuracy on the phrase analogy task, we increased the amount of the training data by using a dataset with about 33 billion words. We used the hierarchical softmax, dimensionality of 1000, and the entire sentence for the context. This resulted in a model that reached an accuracy of 72%. We achieved lower accuracy 66% when we reduced the size of the training dataset to 6B words, which suggests that the large amount of the training data is crucial."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1459
+                },
+                {
+                    "x": 2107,
+                    "y": 1459
+                },
+                {
+                    "x": 2107,
+                    "y": 1647
+                },
+                {
+                    "x": 441,
+                    "y": 1647
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='68' style='font-size:18px'>To gain further insight into how different the representations learned by different models are, we did<br>inspect manually the nearest neighbours of infrequent phrases using various models. In Table 4, we<br>show a sample of such comparison. Consistently with the previous results, it seems that the best<br>representations of phrases are learned by a model with the hierarchical softmax and subsampling.</p>",
+            "id": 68,
+            "page": 7,
+            "text": "To gain further insight into how different the representations learned by different models are, we did inspect manually the nearest neighbours of infrequent phrases using various models. In Table 4, we show a sample of such comparison. Consistently with the previous results, it seems that the best representations of phrases are learned by a model with the hierarchical softmax and subsampling."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1710
+                },
+                {
+                    "x": 1087,
+                    "y": 1710
+                },
+                {
+                    "x": 1087,
+                    "y": 1767
+                },
+                {
+                    "x": 444,
+                    "y": 1767
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:22px'>5 Additive Compositionality</p>",
+            "id": 69,
+            "page": 7,
+            "text": "5 Additive Compositionality"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1813
+                },
+                {
+                    "x": 2108,
+                    "y": 1813
+                },
+                {
+                    "x": 2108,
+                    "y": 2045
+                },
+                {
+                    "x": 442,
+                    "y": 2045
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:18px'>We demonstrated that the word and phrase representations learned by the Skip-gram model exhibit<br>a linear structure that makes it possible to perform precise analogical reasoning using simple vector<br>arithmetics. Interestingly, we found that the Skip-gram representations exhibit another kind of linear<br>structure that makes it possible to meaningfully combine words by an element-wise addition of their<br>vector representations. This phenomenon is illustrated in Table 5.</p>",
+            "id": 70,
+            "page": 7,
+            "text": "We demonstrated that the word and phrase representations learned by the Skip-gram model exhibit a linear structure that makes it possible to perform precise analogical reasoning using simple vector arithmetics. Interestingly, we found that the Skip-gram representations exhibit another kind of linear structure that makes it possible to meaningfully combine words by an element-wise addition of their vector representations. This phenomenon is illustrated in Table 5."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2067
+                },
+                {
+                    "x": 2108,
+                    "y": 2067
+                },
+                {
+                    "x": 2108,
+                    "y": 2527
+                },
+                {
+                    "x": 442,
+                    "y": 2527
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:18px'>The additive property of the vectors can be explained by inspecting the training objective. The word<br>vectors are in a linear relationship with the inputs to the softmax nonlinearity. As the word vectors<br>are trained to predict the surrounding words in the sentence, the vectors can be seen as representing<br>the distribution of the context in which a word appears. These values are related logarithmically<br>to the probabilities computed by the output layer, SO the sum of two word vectors is related to the<br>product of the two context distributions. The product works here as the AND function: words that<br>are assigned high probabilities by both word vectors will have high probability, and the other words<br>will have low probability. Thus, if \"Volga River\" appears frequently in the same sentence together<br>with the words \"Russian\" and \"river\", the sum of these two word vectors will result in such a feature<br>vector that is close to the vector of \"Volga River\".</p>",
+            "id": 71,
+            "page": 7,
+            "text": "The additive property of the vectors can be explained by inspecting the training objective. The word vectors are in a linear relationship with the inputs to the softmax nonlinearity. As the word vectors are trained to predict the surrounding words in the sentence, the vectors can be seen as representing the distribution of the context in which a word appears. These values are related logarithmically to the probabilities computed by the output layer, SO the sum of two word vectors is related to the product of the two context distributions. The product works here as the AND function: words that are assigned high probabilities by both word vectors will have high probability, and the other words will have low probability. Thus, if \"Volga River\" appears frequently in the same sentence together with the words \"Russian\" and \"river\", the sum of these two word vectors will result in such a feature vector that is close to the vector of \"Volga River\"."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2594
+                },
+                {
+                    "x": 1555,
+                    "y": 2594
+                },
+                {
+                    "x": 1555,
+                    "y": 2649
+                },
+                {
+                    "x": 443,
+                    "y": 2649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:20px'>6 Comparison to Published Word Representations</p>",
+            "id": 72,
+            "page": 7,
+            "text": "6 Comparison to Published Word Representations"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2695
+                },
+                {
+                    "x": 2110,
+                    "y": 2695
+                },
+                {
+                    "x": 2110,
+                    "y": 2974
+                },
+                {
+                    "x": 442,
+                    "y": 2974
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:18px'>Many authors who previously worked on the neural network based representations of words have<br>published their resulting models for further use and comparison: amongst the most well known au-<br>thors are Collobert and Weston [2], Turian et al. [17], and Mnih and Hinton [10]. We downloaded<br>their word vectors from the web3. Mikolov et al. [8] have already evaluated these word representa-<br>tions on the word analogy task, where the Skip-gram models achieved the best performance with a<br>huge margin.</p>",
+            "id": 73,
+            "page": 7,
+            "text": "Many authors who previously worked on the neural network based representations of words have published their resulting models for further use and comparison: amongst the most well known authors are Collobert and Weston , Turian  , and Mnih and Hinton . We downloaded their word vectors from the web3. Mikolov   have already evaluated these word representations on the word analogy task, where the Skip-gram models achieved the best performance with a huge margin."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 500,
+                    "y": 3008
+                },
+                {
+                    "x": 1485,
+                    "y": 3008
+                },
+                {
+                    "x": 1485,
+                    "y": 3052
+                },
+                {
+                    "x": 500,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:16px'>3http : / /metaoptimize · com/projects/wordreprs/</p>",
+            "id": 74,
+            "page": 7,
+            "text": "3http : / /metaoptimize · com/projects/wordreprs/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3168
+                },
+                {
+                    "x": 1261,
+                    "y": 3168
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='75' style='font-size:18px'>7</footer>",
+            "id": 75,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 335
+                },
+                {
+                    "x": 2259,
+                    "y": 335
+                },
+                {
+                    "x": 2259,
+                    "y": 952
+                },
+                {
+                    "x": 442,
+                    "y": 952
+                }
+            ],
+            "category": "table",
+            "html": "<table id='76' style='font-size:14px'><tr><td>Model (training time)</td><td>Redmond</td><td>Havel</td><td>ninjutsu</td><td>graffiti</td><td>capitulate</td></tr><tr><td>Collobert (50d) (2 months)</td><td>conyers lubbock keene</td><td>plauen dzerzhinsky osterreich</td><td>reiki kohona karate</td><td>cheesecake gossip dioramas</td><td>abdicate accede rearm</td></tr><tr><td>Turian (200d) (few weeks)</td><td>McCarthy Alston Cousins</td><td>Jewell Arzu Ovitz</td><td>- - -</td><td>gunfire emotion impunity</td><td>- - -</td></tr><tr><td>Mnih (100d) (7 days)</td><td>Podhurst Harlang Agarwal</td><td>Pontiff Pinochet Rodionov</td><td>- -</td><td>anaesthetics monkeys Jews</td><td>Mavericks planning hesitated</td></tr><tr><td>Skip-Phrase (1000d, 1 day)</td><td>Redmond Wash. Redmond Washington Microsoft</td><td>Vaclav Havel president Vaclav Havel Velvet Revolution</td><td>ninja martial arts swordsmanship</td><td>spray paint grafitti taggers</td><td>capitulation capitulated capitulating</td></tr></table>",
+            "id": 76,
+            "page": 8,
+            "text": "Model (training time) Redmond Havel ninjutsu graffiti capitulate  Collobert (50d) (2 months) conyers lubbock keene plauen dzerzhinsky osterreich reiki kohona karate cheesecake gossip dioramas abdicate accede rearm  Turian (200d) (few weeks) McCarthy Alston Cousins Jewell Arzu Ovitz - - - gunfire emotion impunity - -  Mnih (100d) (7 days) Podhurst Harlang Agarwal Pontiff Pinochet Rodionov - - anaesthetics monkeys Jews Mavericks planning hesitated  Skip-Phrase (1000d, 1 day) Redmond Wash. Redmond Washington Microsoft Vaclav Havel president Vaclav Havel Velvet Revolution ninja martial arts swordsmanship spray paint grafitti taggers"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1002
+                },
+                {
+                    "x": 2109,
+                    "y": 1002
+                },
+                {
+                    "x": 2109,
+                    "y": 1144
+                },
+                {
+                    "x": 441,
+                    "y": 1144
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>Table 6: Examples of the closest tokens given various well known models and the Skip-gram model<br>trained on phrases using over 30 billion training words. An empty cell means that the word was not<br>in the vocabulary.</p>",
+            "id": 77,
+            "page": 8,
+            "text": "Table 6: Examples of the closest tokens given various well known models and the Skip-gram model trained on phrases using over 30 billion training words. An empty cell means that the word was not in the vocabulary."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1237
+                },
+                {
+                    "x": 2109,
+                    "y": 1237
+                },
+                {
+                    "x": 2109,
+                    "y": 1607
+                },
+                {
+                    "x": 441,
+                    "y": 1607
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:20px'>To give more insight into the difference of the quality of the learned vectors, we provide empirical<br>comparison by showing the nearest neighbours of infrequent words in Table 6. These examples show<br>that the big Skip-gram model trained on a large corpus visibly outperforms all the other models in<br>the quality of the learned representations. This can be attributed in part to the fact that this model<br>has been trained on about 30 billion words, which is about two to three orders of magnitude more<br>data than the typical size used in the prior work. Interestingly, although the training set is much<br>larger, the training time of the Skip-gram model is just a fraction of the time complexity required by<br>the previous model architectures.</p>",
+            "id": 78,
+            "page": 8,
+            "text": "To give more insight into the difference of the quality of the learned vectors, we provide empirical comparison by showing the nearest neighbours of infrequent words in Table 6. These examples show that the big Skip-gram model trained on a large corpus visibly outperforms all the other models in the quality of the learned representations. This can be attributed in part to the fact that this model has been trained on about 30 billion words, which is about two to three orders of magnitude more data than the typical size used in the prior work. Interestingly, although the training set is much larger, the training time of the Skip-gram model is just a fraction of the time complexity required by the previous model architectures."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1687
+                },
+                {
+                    "x": 768,
+                    "y": 1687
+                },
+                {
+                    "x": 768,
+                    "y": 1739
+                },
+                {
+                    "x": 445,
+                    "y": 1739
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:22px'>7 Conclusion</p>",
+            "id": 79,
+            "page": 8,
+            "text": "7 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 1797
+                },
+                {
+                    "x": 2108,
+                    "y": 1797
+                },
+                {
+                    "x": 2108,
+                    "y": 1985
+                },
+                {
+                    "x": 440,
+                    "y": 1985
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:18px'>This work has several key contributions. We show how to train distributed representations of words<br>and phrases with the Skip-gram model and demonstrate that these representations exhibit linear<br>structure that makes precise analogical reasoning possible. The techniques introduced in this paper<br>can be used also for training the continuous bag-of-words model introduced in [8].</p>",
+            "id": 80,
+            "page": 8,
+            "text": "This work has several key contributions. We show how to train distributed representations of words and phrases with the Skip-gram model and demonstrate that these representations exhibit linear structure that makes precise analogical reasoning possible. The techniques introduced in this paper can be used also for training the continuous bag-of-words model introduced in ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2005
+                },
+                {
+                    "x": 2107,
+                    "y": 2005
+                },
+                {
+                    "x": 2107,
+                    "y": 2328
+                },
+                {
+                    "x": 442,
+                    "y": 2328
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:20px'>We successfully trained models on several orders of magnitude more data than the previously pub-<br>lished models, thanks to the computationally efficient model architecture. This results in a great<br>improvement in the quality of the learned word and phrase representations, especially for the rare<br>entities. We also found that the subsampling of the frequent words results in both faster training<br>and significantly better representations of uncommon words. Another contribution of our paper is<br>the Negative sampling algorithm, which is an extremely simple training method that learns accurate<br>representations especially for frequent words.</p>",
+            "id": 81,
+            "page": 8,
+            "text": "We successfully trained models on several orders of magnitude more data than the previously published models, thanks to the computationally efficient model architecture. This results in a great improvement in the quality of the learned word and phrase representations, especially for the rare entities. We also found that the subsampling of the frequent words results in both faster training and significantly better representations of uncommon words. Another contribution of our paper is the Negative sampling algorithm, which is an extremely simple training method that learns accurate representations especially for frequent words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2352
+                },
+                {
+                    "x": 2107,
+                    "y": 2352
+                },
+                {
+                    "x": 2107,
+                    "y": 2535
+                },
+                {
+                    "x": 441,
+                    "y": 2535
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:18px'>The choice of the training algorithm and the hyper-parameter selection is a task specific decision,<br>as we found that different problems have different optimal hyperparameter configurations. In our<br>experiments, the most crucial decisions that affect the performance are the choice of the model<br>architecture, the size of the vectors, the subsampling rate, and the size of the training window.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "The choice of the training algorithm and the hyper-parameter selection is a task specific decision, as we found that different problems have different optimal hyperparameter configurations. In our experiments, the most crucial decisions that affect the performance are the choice of the model architecture, the size of the vectors, the subsampling rate, and the size of the training window."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2558
+                },
+                {
+                    "x": 2108,
+                    "y": 2558
+                },
+                {
+                    "x": 2108,
+                    "y": 2837
+                },
+                {
+                    "x": 441,
+                    "y": 2837
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:20px'>A very interesting result of this work is that the word vectors can be somewhat meaningfully com-<br>bined using just simple vector addition. Another approach for learning representations of phrases<br>presented in this paper is to simply represent the phrases with a single token. Combination of these<br>two approaches gives a powerful yet simple way how to represent longer pieces of text, while hav-<br>ing minimal computational complexity. Our work can thus be seen as complementary to the existing<br>approach that attempts to represent phrases using recursive matrix-vector operations [16].</p>",
+            "id": 83,
+            "page": 8,
+            "text": "A very interesting result of this work is that the word vectors can be somewhat meaningfully combined using just simple vector addition. Another approach for learning representations of phrases presented in this paper is to simply represent the phrases with a single token. Combination of these two approaches gives a powerful yet simple way how to represent longer pieces of text, while having minimal computational complexity. Our work can thus be seen as complementary to the existing approach that attempts to represent phrases using recursive matrix-vector operations ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2859
+                },
+                {
+                    "x": 2107,
+                    "y": 2859
+                },
+                {
+                    "x": 2107,
+                    "y": 2952
+                },
+                {
+                    "x": 442,
+                    "y": 2952
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:18px'>We made the code for training the word and phrase vectors based on the techniques described in this<br>paper available as an open-source project4.</p>",
+            "id": 84,
+            "page": 8,
+            "text": "We made the code for training the word and phrase vectors based on the techniques described in this paper available as an open-source project4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 498,
+                    "y": 3008
+                },
+                {
+                    "x": 1106,
+                    "y": 3008
+                },
+                {
+                    "x": 1106,
+                    "y": 3052
+                },
+                {
+                    "x": 498,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:14px'>4 code · google · com/p/word2vec</p>",
+            "id": 85,
+            "page": 8,
+            "text": "4 code · google · com/p/word2vec"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3133
+                },
+                {
+                    "x": 1289,
+                    "y": 3169
+                },
+                {
+                    "x": 1260,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='86' style='font-size:16px'>8</footer>",
+            "id": 86,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 340
+                },
+                {
+                    "x": 687,
+                    "y": 340
+                },
+                {
+                    "x": 687,
+                    "y": 392
+                },
+                {
+                    "x": 444,
+                    "y": 392
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:20px'>References</p>",
+            "id": 87,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 451,
+                    "y": 409
+                },
+                {
+                    "x": 2116,
+                    "y": 409
+                },
+                {
+                    "x": 2116,
+                    "y": 2703
+                },
+                {
+                    "x": 451,
+                    "y": 2703
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:14px'>[1] Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Janvin. A neural probabilistic language<br>model. The Journal of Machine Learning Research, 3:1137-1155, 2003.<br>[2] Ronan Collobert and Jason Weston. A unified architecture for natural language processing: deep neu-<br>ral networks with multitask learning. In Proceedings of the 25th international conference on Machine<br>learning, pages 160-167. ACM, 2008.<br>[3] Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Domain adaptation for large-scale sentiment classi-<br>fication: A deep learning approach. In ICML, 513-520, 2011.<br>[4] Michael U Gutmann and Aapo Hyv�rinen. Noise-contrastive estimation of unnormalized statistical mod-<br>els, with applications to natural image statistics. The Journal ofMachine Learning Research, 13:307-361,<br>2012.<br>[5] Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Extensions of<br>recurrent neural network language model. In Acoustics, Speech and Signal Processing (ICASSP), 2011<br>IEEE International Conference on, pages 5528-5531. IEEE, 2011.<br>[6] Tomas Mikolov, Anoop Deoras, Daniel Povey, Lukas Burget and Jan Cernocky. Strategies for Training<br>Large Scale Neural Network Language Models. In Proc. Automatic Speech Recognition and Understand-<br>ing, 2011.<br>[7] Tomas Mikolov. Statistical Language Models Based on Neural Networks. PhD thesis, PhD Thesis, Brno<br>University of Technology, 2012.<br>[8] Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Efficient estimation of word representations<br>in vector space. ICLR Workshop, 2013.<br>[9] Tomas Mikolov, Wen-tau Yih and Geoffrey Zweig. Linguistic Regularities in Continuous Space Word<br>Representations. In Proceedings of NAACL HLT, 2013.<br>[10] Andriy Mnih and Geoffrey E Hinton. A scalable hierarchical distributed language model. Advances in<br>neural information processing systems, 21:1081-1088, 2009.<br>[11] Andriy Mnih and Yee Whye Teh. A fast and simple algorithm for training neural probabilistic language<br>models. arXiv preprint arXiv:1206.6426, 2012.<br>[12] Frederic Morin and Yoshua Bengio. Hierarchical probabilistic neural network language model. In Pro-<br>ceedings of the international workshop on artificial intelligence and statistics, pages 246-252, 2005.<br>[13] David E Rumelhart, Geoffrey E Hintont, and Ronald J Williams. Learning representations by back-<br>propagating errors. Nature, 323(6088):533-536, 1986.<br>[14] Holger Schwenk. Continuous space language models. Computer Speech and Language, vol. 21, 2007.<br>[15] Richard Socher, Cliff C. Lin, Andrew Y. Ng, and Christopher D. Manning. Parsing natural scenes and<br>natural language with recursive neural networks. In Proceedings of the 26th International Conference on<br>Machine Learning (ICML), volume 2, 2011.<br>[16] Richard Socher, Brody Huval, Christopher D. Manning, and Andrew Y. Ng. Semantic Compositionality<br>Through Recursive Matrix- Vector Spaces. In Proceedings of the 2012 Conference on Empirical Methods<br>in Natural Language Processing (EMNLP), 2012.<br>[17] Joseph Turian, Lev Ratinov, and Yoshua Bengio. Word representations: a simple and general method for<br>semi-supervised learning. In Proceedings of the 48th Annual Meeting of the Association for Computa-<br>tional Linguistics, pages 384-394. Association for Computational Linguistics, 2010.<br>[18] Peter D. Turney and Patrick Pantel. From frequency to meaning: Vector space models of semantics. In<br>Journal of Artificial Intelligence Research, 37:141-188, 2010.<br>[19] Peter D. Turney. Distributional semantics beyond words: Supervised learning of analogy and paraphrase.<br>In Transactions of the Association for Computational Linguistics (TACL), 353-366, 2013.<br>[20] Jason Weston, Samy Bengio, and Nicolas Usunier. Wsabie: Scaling up to large vocabulary image annota-<br>tion. In Proceedings of the Twenty-Second international joint conference on Artificial Intelligence-Volume<br>Volume Three, pages 2764-2770. AAAI Press, 2011.</p>",
+            "id": 88,
+            "page": 9,
+            "text": " Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Janvin. A neural probabilistic language model. The Journal of Machine Learning Research, 3:1137-1155, 2003.  Ronan Collobert and Jason Weston. A unified architecture for natural language processing: deep neural networks with multitask learning. In Proceedings of the 25th international conference on Machine learning, pages 160-167. ACM, 2008.  Xavier Glorot, Antoine Bordes, and Yoshua Bengio. Domain adaptation for large-scale sentiment classification: A deep learning approach. In ICML, 513-520, 2011.  Michael U Gutmann and Aapo Hyv�rinen. Noise-contrastive estimation of unnormalized statistical models, with applications to natural image statistics. The Journal ofMachine Learning Research, 13:307-361, 2012.  Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Extensions of recurrent neural network language model. In Acoustics, Speech and Signal Processing (ICASSP), 2011 IEEE International Conference on, pages 5528-5531. IEEE, 2011.  Tomas Mikolov, Anoop Deoras, Daniel Povey, Lukas Burget and Jan Cernocky. Strategies for Training Large Scale Neural Network Language Models. In Proc. Automatic Speech Recognition and Understanding, 2011.  Tomas Mikolov. Statistical Language Models Based on Neural Networks. PhD thesis, PhD Thesis, Brno University of Technology, 2012.  Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. Efficient estimation of word representations in vector space. ICLR Workshop, 2013.  Tomas Mikolov, Wen-tau Yih and Geoffrey Zweig. Linguistic Regularities in Continuous Space Word Representations. In Proceedings of NAACL HLT, 2013.  Andriy Mnih and Geoffrey E Hinton. A scalable hierarchical distributed language model. Advances in neural information processing systems, 21:1081-1088, 2009.  Andriy Mnih and Yee Whye Teh. A fast and simple algorithm for training neural probabilistic language models. arXiv preprint arXiv:1206.6426, 2012.  Frederic Morin and Yoshua Bengio. Hierarchical probabilistic neural network language model. In Proceedings of the international workshop on artificial intelligence and statistics, pages 246-252, 2005.  David E Rumelhart, Geoffrey E Hintont, and Ronald J Williams. Learning representations by backpropagating errors. Nature, 323(6088):533-536, 1986.  Holger Schwenk. Continuous space language models. Computer Speech and Language, vol. 21, 2007.  Richard Socher, Cliff C. Lin, Andrew Y. Ng, and Christopher D. Manning. Parsing natural scenes and natural language with recursive neural networks. In Proceedings of the 26th International Conference on Machine Learning (ICML), volume 2, 2011.  Richard Socher, Brody Huval, Christopher D. Manning, and Andrew Y. Ng. Semantic Compositionality Through Recursive Matrix- Vector Spaces. In Proceedings of the 2012 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2012.  Joseph Turian, Lev Ratinov, and Yoshua Bengio. Word representations: a simple and general method for semi-supervised learning. In Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics, pages 384-394. Association for Computational Linguistics, 2010.  Peter D. Turney and Patrick Pantel. From frequency to meaning: Vector space models of semantics. In Journal of Artificial Intelligence Research, 37:141-188, 2010.  Peter D. Turney. Distributional semantics beyond words: Supervised learning of analogy and paraphrase. In Transactions of the Association for Computational Linguistics (TACL), 353-366, 2013.  Jason Weston, Samy Bengio, and Nicolas Usunier. Wsabie: Scaling up to large vocabulary image annotation. In Proceedings of the Twenty-Second international joint conference on Artificial Intelligence-Volume Volume Three, pages 2764-2770. AAAI Press, 2011."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3131
+                },
+                {
+                    "x": 1289,
+                    "y": 3131
+                },
+                {
+                    "x": 1289,
+                    "y": 3168
+                },
+                {
+                    "x": 1259,
+                    "y": 3168
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='89' style='font-size:16px'>9</footer>",
+            "id": 89,
+            "page": 9,
+            "text": "9"
+        }
+    ]
+}

@@ -1,0 +1,2156 @@
+{
+    "id": "329f97e8-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/1406.2661v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 833,
+                    "y": 452
+                },
+                {
+                    "x": 1716,
+                    "y": 452
+                },
+                {
+                    "x": 1716,
+                    "y": 529
+                },
+                {
+                    "x": 833,
+                    "y": 529
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Generative Adversarial Nets</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Generative Adversarial Nets"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 496,
+                    "y": 692
+                },
+                {
+                    "x": 2062,
+                    "y": 692
+                },
+                {
+                    "x": 2062,
+                    "y": 786
+                },
+                {
+                    "x": 496,
+                    "y": 786
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,<br>Sherjil Ozair, Aaron Courville, Yoshua Bengio‡</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio‡"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 775,
+                    "y": 792
+                },
+                {
+                    "x": 1774,
+                    "y": 792
+                },
+                {
+                    "x": 1774,
+                    "y": 926
+                },
+                {
+                    "x": 775,
+                    "y": 926
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:18px'>Departement d'informatique et de recherche operationnelle<br>Universite de Montreal<br>Montreal, QC H3C 3J7</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Departement d'informatique et de recherche operationnelle Universite de Montreal Montreal, QC H3C 3J7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1176,
+                    "y": 1046
+                },
+                {
+                    "x": 1371,
+                    "y": 1046
+                },
+                {
+                    "x": 1371,
+                    "y": 1099
+                },
+                {
+                    "x": 1176,
+                    "y": 1099
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 591,
+                    "y": 1157
+                },
+                {
+                    "x": 1960,
+                    "y": 1157
+                },
+                {
+                    "x": 1960,
+                    "y": 1760
+                },
+                {
+                    "x": 591,
+                    "y": 1760
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:16px'>We propose a new framework for estimating generative models via an adversar-<br>ial process, in which we simultaneously train two models: a generative model G<br>that captures the data distribution, and a discriminative model D that estimates<br>the probability that a sample came from the training data rather than G. The train-<br>ing procedure for G is to maximize the probability of D making a mistake. This<br>framework corresponds to a minimax two-player game. In the space of arbitrary<br>functions G and D, a unique solution exists, with G recovering the training data<br>distribution and D equal to 1/2 everywhere. In the case where G and D are defined<br>by multilayer perceptrons, the entire system can be trained with backpropagation.<br>There is no need for any Markov chains or unrolled approximate inference net-<br>works during either training or generation of samples. Experiments demonstrate<br>the potential of the framework through qualitative and quantitative evaluation of<br>the generated samples.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1864
+                },
+                {
+                    "x": 800,
+                    "y": 1864
+                },
+                {
+                    "x": 800,
+                    "y": 1924
+                },
+                {
+                    "x": 445,
+                    "y": 1924
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:20px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1975
+                },
+                {
+                    "x": 2109,
+                    "y": 1975
+                },
+                {
+                    "x": 2109,
+                    "y": 2485
+                },
+                {
+                    "x": 442,
+                    "y": 2485
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:18px'>The promise of deep learning is to discover rich, hierarchical models [2] that represent probability<br>distributions over the kinds of data encountered in artificial intelligence applications, such as natural<br>images, audio waveforms containing speech, and symbols in natural language corpora. So far, the<br>most striking successes in deep learning have involved discriminative models, usually those that<br>map a high-dimensional, rich sensory input to a class label [14, 22]. These striking successes have<br>primarily been based on the backpropagation and dropout algorithms, using piecewise linear units<br>[19, 9, 10] which have a particularly well-behaved gradient Deep generative models have had less<br>of an impact, due to the difficulty of approximating many intractable probabilistic computations that<br>arise in maximum likelihood estimation and related strategies, and due to difficulty of leveraging<br>the benefits of piecewise linear units in the generative context. We propose a new generative model<br>estimation procedure that sidesteps these difficulties. 1</p>",
+            "id": 6,
+            "page": 1,
+            "text": "The promise of deep learning is to discover rich, hierarchical models  that represent probability distributions over the kinds of data encountered in artificial intelligence applications, such as natural images, audio waveforms containing speech, and symbols in natural language corpora. So far, the most striking successes in deep learning have involved discriminative models, usually those that map a high-dimensional, rich sensory input to a class label . These striking successes have primarily been based on the backpropagation and dropout algorithms, using piecewise linear units  which have a particularly well-behaved gradient Deep generative models have had less of an impact, due to the difficulty of approximating many intractable probabilistic computations that arise in maximum likelihood estimation and related strategies, and due to difficulty of leveraging the benefits of piecewise linear units in the generative context. We propose a new generative model estimation procedure that sidesteps these difficulties. 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2505
+                },
+                {
+                    "x": 2109,
+                    "y": 2505
+                },
+                {
+                    "x": 2109,
+                    "y": 2828
+                },
+                {
+                    "x": 440,
+                    "y": 2828
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:16px'>In the proposed adversarial nets framework, the generative model is pitted against an adversary: a<br>discriminative model that learns to determine whether a sample is from the model distribution or the<br>data distribution. The generative model can be thought of as analogous to a team of counterfeiters,<br>trying to produce fake currency and use it without detection, while the discriminative model is<br>analogous to the police, trying to detect the counterfeit currency. Competition in this game drives<br>both teams to improve their methods until the counterfeits are indistiguishable from the genuine<br>articles.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "In the proposed adversarial nets framework, the generative model is pitted against an adversary: a discriminative model that learns to determine whether a sample is from the model distribution or the data distribution. The generative model can be thought of as analogous to a team of counterfeiters, trying to produce fake currency and use it without detection, while the discriminative model is analogous to the police, trying to detect the counterfeit currency. Competition in this game drives both teams to improve their methods until the counterfeits are indistiguishable from the genuine articles."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 493,
+                    "y": 2870
+                },
+                {
+                    "x": 2102,
+                    "y": 2870
+                },
+                {
+                    "x": 2102,
+                    "y": 3052
+                },
+                {
+                    "x": 493,
+                    "y": 3052
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='8' style='font-size:16px'>* Jean Pouget-Abadie is visiting Universite de Montreal from Ecole Polytechnique.<br>+ Sherjil Ozair is visiting Universite de Montreal from Indian Institute of Technology Delhi<br>‡Yoshua Bengio is a CIFAR Senior Fellow.<br>1 All code and hyperparameters available at http : / / www · github · com/ goodfeli / adversarial</p>",
+            "id": 8,
+            "page": 1,
+            "text": "* Jean Pouget-Abadie is visiting Universite de Montreal from Ecole Polytechnique. + Sherjil Ozair is visiting Universite de Montreal from Indian Institute of Technology Delhi ‡Yoshua Bengio is a CIFAR Senior Fellow. 1 All code and hyperparameters available at http : / / www · github · com/ goodfeli / adversarial"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 63,
+                    "y": 898
+                },
+                {
+                    "x": 150,
+                    "y": 898
+                },
+                {
+                    "x": 150,
+                    "y": 2359
+                },
+                {
+                    "x": 63,
+                    "y": 2359
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='9' style='font-size:14px'>2014<br>Jun<br>10<br>[stat.ML]<br>arXiv:1406.2661v1</footer>",
+            "id": 9,
+            "page": 1,
+            "text": "2014 Jun 10 [stat.ML] arXiv:1406.2661v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3172
+                },
+                {
+                    "x": 1261,
+                    "y": 3172
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='10' style='font-size:14px'>1</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 344
+                },
+                {
+                    "x": 2109,
+                    "y": 344
+                },
+                {
+                    "x": 2109,
+                    "y": 671
+                },
+                {
+                    "x": 441,
+                    "y": 671
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:16px'>This framework can yield specific training algorithms for many kinds of model and optimization<br>algorithm. In this article, we explore the special case when the generative model generates samples<br>by passing random noise through a multilayer perceptron, and the discriminative model is also a<br>multilayer perceptron. We refer to this special case as adversarial nets. In this case, we can train<br>both models using only the highly successful backpropagation and dropout algorithms [17] and<br>sample from the generative model using only forward propagation. No approximate inference or<br>Markov chains are necessary.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "This framework can yield specific training algorithms for many kinds of model and optimization algorithm. In this article, we explore the special case when the generative model generates samples by passing random noise through a multilayer perceptron, and the discriminative model is also a multilayer perceptron. We refer to this special case as adversarial nets. In this case, we can train both models using only the highly successful backpropagation and dropout algorithms  and sample from the generative model using only forward propagation. No approximate inference or Markov chains are necessary."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 750
+                },
+                {
+                    "x": 814,
+                    "y": 750
+                },
+                {
+                    "x": 814,
+                    "y": 801
+                },
+                {
+                    "x": 445,
+                    "y": 801
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:20px'>2 Related work</p>",
+            "id": 12,
+            "page": 2,
+            "text": "2 Related work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 861
+                },
+                {
+                    "x": 2108,
+                    "y": 861
+                },
+                {
+                    "x": 2108,
+                    "y": 1231
+                },
+                {
+                    "x": 442,
+                    "y": 1231
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:16px'>An alternative to directed graphical models with latent variables are undirected graphical models<br>with latent variables, such as restricted Boltzmann machines (RBMs) [27, 16], deep Boltzmann<br>machines (DBMs) [26] and their numerous variants. The interactions within such models are<br>represented as the product of unnormalized potential functions, normalized by a global summa-<br>tion/integration over all states of the random variables. This quantity (the partition function) and<br>its gradient are intractable for all but the most trivial instances, although they can be estimated by<br>Markov chain Monte Carlo (MCMC) methods. Mixing poses a significant problem for learning<br>algorithms that rely on MCMC [3, 5].</p>",
+            "id": 13,
+            "page": 2,
+            "text": "An alternative to directed graphical models with latent variables are undirected graphical models with latent variables, such as restricted Boltzmann machines (RBMs) , deep Boltzmann machines (DBMs)  and their numerous variants. The interactions within such models are represented as the product of unnormalized potential functions, normalized by a global summation/integration over all states of the random variables. This quantity (the partition function) and its gradient are intractable for all but the most trivial instances, although they can be estimated by Markov chain Monte Carlo (MCMC) methods. Mixing poses a significant problem for learning algorithms that rely on MCMC ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1251
+                },
+                {
+                    "x": 2106,
+                    "y": 1251
+                },
+                {
+                    "x": 2106,
+                    "y": 1391
+                },
+                {
+                    "x": 441,
+                    "y": 1391
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:16px'>Deep belief networks (DBNs) [16] are hybrid models containing a single undirected layer and sev-<br>eral directed layers. While a fast approximate layer-wise training criterion exists, DBNs incur the<br>computational difficulties associated with both undirected and directed models.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "Deep belief networks (DBNs)  are hybrid models containing a single undirected layer and several directed layers. While a fast approximate layer-wise training criterion exists, DBNs incur the computational difficulties associated with both undirected and directed models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1415
+                },
+                {
+                    "x": 2108,
+                    "y": 1415
+                },
+                {
+                    "x": 2108,
+                    "y": 1920
+                },
+                {
+                    "x": 441,
+                    "y": 1920
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:14px'>Alternative criteria that do not approximate or bound the log-likelihood have also been proposed,<br>such as score matching [18] and noise-contrastive estimation (NCE) [13]. Both of these require the<br>learned probability density to be analytically specified up to a normalization constant. Note that<br>in many interesting generative models with several layers of latent variables (such as DBNs and<br>DBMs), it is not even possible to derive a tractable unnormalized probability density. Some models<br>such as denoising auto-encoders [30] and contractive autoencoders have learning rules very similar<br>to score matching applied to RBMs. In NCE, as in this work, a discriminative training criterion is<br>employed to fit a generative model. However, rather than fitting a separate discriminative model, the<br>generative model itself is used to discriminate generated data from samples a fixed noise distribution.<br>Because NCE uses a fixed noise distribution, learning slows dramatically after the model has learned<br>even an approximately correct distribution over a small subset of the observed variables.</p>",
+            "id": 15,
+            "page": 2,
+            "text": "Alternative criteria that do not approximate or bound the log-likelihood have also been proposed, such as score matching  and noise-contrastive estimation (NCE) . Both of these require the learned probability density to be analytically specified up to a normalization constant. Note that in many interesting generative models with several layers of latent variables (such as DBNs and DBMs), it is not even possible to derive a tractable unnormalized probability density. Some models such as denoising auto-encoders  and contractive autoencoders have learning rules very similar to score matching applied to RBMs. In NCE, as in this work, a discriminative training criterion is employed to fit a generative model. However, rather than fitting a separate discriminative model, the generative model itself is used to discriminate generated data from samples a fixed noise distribution. Because NCE uses a fixed noise distribution, learning slows dramatically after the model has learned even an approximately correct distribution over a small subset of the observed variables."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1941
+                },
+                {
+                    "x": 2108,
+                    "y": 1941
+                },
+                {
+                    "x": 2108,
+                    "y": 2494
+                },
+                {
+                    "x": 441,
+                    "y": 2494
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:16px'>Finally, some techniques do not involve defining a probability distribution explicitly, but rather train<br>a generative machine to draw samples from the desired distribution. This approach has the advantage<br>that such machines can be designed to be trained by back-propagation. Prominent recent work in this<br>area includes the generative stochastic network (GSN) framework [5], which extends generalized<br>denoising auto-encoders [4]: both can be seen as defining a parameterized Markov chain, i.e., one<br>learns the parameters of a machine that performs one step of a generative Markov chain. Compared<br>to GSNs, the adversarial nets framework does not require a Markov chain for sampling. Because<br>adversarial nets do not require feedback loops during generation, they are better able to leverage<br>piecewise linear units [19, 9, 10], which improve the performance of backpropagation but have<br>problems with unbounded activation when used ina feedback loop. More recent examples of training<br>a generative machine by back-propagating into it include recent work on auto-encoding variational<br>Bayes [20] and stochastic backpropagation [24].</p>",
+            "id": 16,
+            "page": 2,
+            "text": "Finally, some techniques do not involve defining a probability distribution explicitly, but rather train a generative machine to draw samples from the desired distribution. This approach has the advantage that such machines can be designed to be trained by back-propagation. Prominent recent work in this area includes the generative stochastic network (GSN) framework , which extends generalized denoising auto-encoders : both can be seen as defining a parameterized Markov chain, i.e., one learns the parameters of a machine that performs one step of a generative Markov chain. Compared to GSNs, the adversarial nets framework does not require a Markov chain for sampling. Because adversarial nets do not require feedback loops during generation, they are better able to leverage piecewise linear units , which improve the performance of backpropagation but have problems with unbounded activation when used ina feedback loop. More recent examples of training a generative machine by back-propagating into it include recent work on auto-encoding variational Bayes  and stochastic backpropagation ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2571
+                },
+                {
+                    "x": 880,
+                    "y": 2571
+                },
+                {
+                    "x": 880,
+                    "y": 2626
+                },
+                {
+                    "x": 443,
+                    "y": 2626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='17' style='font-size:20px'>3 Adversarial nets</p>",
+            "id": 17,
+            "page": 2,
+            "text": "3 Adversarial nets"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2683
+                },
+                {
+                    "x": 2108,
+                    "y": 2683
+                },
+                {
+                    "x": 2108,
+                    "y": 3056
+                },
+                {
+                    "x": 442,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:16px'>The adversarial modeling framework is most straightforward to apply when the models are both<br>multilayer perceptrons. To learn the generator's distribution Pg over data x, we define a prior on<br>input noise variables pz(z), then represent a mapping to data space as G(z; 0g), where G is a<br>differentiable function represented by a multilayer perceptron with parameters 0g. We also define a<br>second multilayer perceptron D(x; 0d) that outputs a single scalar. D(x) represents the probability<br>that x came from the data rather than Pg. We train D to maximize the probability of assigning the<br>correct label to both training examples and samples from G. We simultaneously train G to minimize<br>log(1 - D(G(z))):</p>",
+            "id": 18,
+            "page": 2,
+            "text": "The adversarial modeling framework is most straightforward to apply when the models are both multilayer perceptrons. To learn the generator's distribution Pg over data x, we define a prior on input noise variables pz(z), then represent a mapping to data space as G(z; 0g), where G is a differentiable function represented by a multilayer perceptron with parameters 0g. We also define a second multilayer perceptron D(x; 0d) that outputs a single scalar. D(x) represents the probability that x came from the data rather than Pg. We train D to maximize the probability of assigning the correct label to both training examples and samples from G. We simultaneously train G to minimize log(1 - D(G(z))):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='19' style='font-size:14px'>2</footer>",
+            "id": 19,
+            "page": 2,
+            "text": "2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 346
+                },
+                {
+                    "x": 2105,
+                    "y": 346
+                },
+                {
+                    "x": 2105,
+                    "y": 395
+                },
+                {
+                    "x": 444,
+                    "y": 395
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:18px'>In other words, D and G play the following two-player minimax game with value function V(G, D):</p>",
+            "id": 20,
+            "page": 3,
+            "text": "In other words, D and G play the following two-player minimax game with value function V(G, D):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 586
+                },
+                {
+                    "x": 2106,
+                    "y": 586
+                },
+                {
+                    "x": 2106,
+                    "y": 1089
+                },
+                {
+                    "x": 442,
+                    "y": 1089
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:16px'>In the next section, we present a theoretical analysis of adversarial nets, essentially showing that<br>the training criterion allows one to recover the data generating distribution as G and D are given<br>enough capacity, i.e., in the non-parametric limit. See Figure 1 for a less formal, more pedagogical<br>explanation of the approach. In practice, we must implement the game using an iterative, numerical<br>approach. Optimizing D to completion in the inner loop of training is computationally prohibitive,<br>and on finite datasets would result in overfitting. Instead, we alternate between k steps of optimizing<br>D and one step of optimizing G. This results in D being maintained near its optimal solution, SO<br>long as G changes slowly enough. This strategy is analogous to the way that SML/PCD [31, 29]<br>training maintains samples from a Markov chain from one learning step to the next in order to avoid<br>burning in a Markov chain as part of the inner loop of learning. The procedure is formally presented<br>in Algorithm 1.</p>",
+            "id": 21,
+            "page": 3,
+            "text": "In the next section, we present a theoretical analysis of adversarial nets, essentially showing that the training criterion allows one to recover the data generating distribution as G and D are given enough capacity, i.e., in the non-parametric limit. See Figure 1 for a less formal, more pedagogical explanation of the approach. In practice, we must implement the game using an iterative, numerical approach. Optimizing D to completion in the inner loop of training is computationally prohibitive, and on finite datasets would result in overfitting. Instead, we alternate between k steps of optimizing D and one step of optimizing G. This results in D being maintained near its optimal solution, SO long as G changes slowly enough. This strategy is analogous to the way that SML/PCD  training maintains samples from a Markov chain from one learning step to the next in order to avoid burning in a Markov chain as part of the inner loop of learning. The procedure is formally presented in Algorithm 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 1113
+                },
+                {
+                    "x": 2108,
+                    "y": 1113
+                },
+                {
+                    "x": 2108,
+                    "y": 1347
+                },
+                {
+                    "x": 441,
+                    "y": 1347
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:16px'>In practice, equation 1 may not provide sufficient gradient for G to learn well. Early in learning,<br>when G is poor, D can reject samples with high confidence because they are clearly different from<br>the training data. In this case, log(1 - D(G(z))) saturates. Rather than training G to minimize<br>log(1 - D(G(z))) we can train G to maximize log D(G(z)). This objective function results in the<br>same fixed point of the dynamics of G and D but provides much stronger gradients early in learning.</p>",
+            "id": 22,
+            "page": 3,
+            "text": "In practice, equation 1 may not provide sufficient gradient for G to learn well. Early in learning, when G is poor, D can reject samples with high confidence because they are clearly different from the training data. In this case, log(1 - D(G(z))) saturates. Rather than training G to minimize log(1 - D(G(z))) we can train G to maximize log D(G(z)). This objective function results in the same fixed point of the dynamics of G and D but provides much stronger gradients early in learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 468,
+                    "y": 1429
+                },
+                {
+                    "x": 2079,
+                    "y": 1429
+                },
+                {
+                    "x": 2079,
+                    "y": 1931
+                },
+                {
+                    "x": 468,
+                    "y": 1931
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='23' style='font-size:14px' alt=\"...\nx\nZ\n(a) (b) (c) (d)\" data-coord=\"top-left:(468,1429); bottom-right:(2079,1931)\" /></figure>",
+            "id": 23,
+            "page": 3,
+            "text": "... x Z (a) (b) (c) (d)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1962
+                },
+                {
+                    "x": 2109,
+                    "y": 1962
+                },
+                {
+                    "x": 2109,
+                    "y": 2494
+                },
+                {
+                    "x": 442,
+                    "y": 2494
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='24' style='font-size:14px'>Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution<br>(D, blue, dashed line) so that it discriminates between samples from the data generating distribution (black,<br>dotted line) px from those of the generative distribution Pg (G) (green, solid line). The lower horizontal line is<br>the domain from which z is sampled, in this case uniformly. The horizontal line above is part of the domain<br>of x. The upward arrows show how the mapping x = G(z) imposes the non-uniform distribution Pg on<br>transformed samples. G contracts in regions of high density and expands in regions of low density of Pg. (a)<br>Consider an adversarial pair near convergence: Pg is similar to Pdata and D is a partially accurate classifier.<br>(b) In the inner loop of the algorithm D is trained to discriminate samples from data, converging to D* (x) =<br>Pdata (x) G(z) to flow to regions that are more likely<br>(c) After an update to G, gradient of D has guided<br>Pdata (x)+pg(x)·<br>to be classified as data. (d) After several steps of training, if G and D have enough capacity, they will reach a<br>point at which both cannot improve because Pg = Pdata. The discriminator is unable to differentiate between<br>the two distributions, i.e. D(x) = 1.</caption>",
+            "id": 24,
+            "page": 3,
+            "text": "Figure 1: Generative adversarial nets are trained by simultaneously updating the discriminative distribution (D, blue, dashed line) so that it discriminates between samples from the data generating distribution (black, dotted line) px from those of the generative distribution Pg (G) (green, solid line). The lower horizontal line is the domain from which z is sampled, in this case uniformly. The horizontal line above is part of the domain of x. The upward arrows show how the mapping x = G(z) imposes the non-uniform distribution Pg on transformed samples. G contracts in regions of high density and expands in regions of low density of Pg. (a) Consider an adversarial pair near convergence: Pg is similar to Pdata and D is a partially accurate classifier. (b) In the inner loop of the algorithm D is trained to discriminate samples from data, converging to D* (x) = Pdata (x) G(z) to flow to regions that are more likely (c) After an update to G, gradient of D has guided Pdata (x)+pg(x)· to be classified as data. (d) After several steps of training, if G and D have enough capacity, they will reach a point at which both cannot improve because Pg = Pdata. The discriminator is unable to differentiate between the two distributions, i.e. D(x) = 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2598
+                },
+                {
+                    "x": 941,
+                    "y": 2598
+                },
+                {
+                    "x": 941,
+                    "y": 2654
+                },
+                {
+                    "x": 442,
+                    "y": 2654
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:22px'>4 Theoretical Results</p>",
+            "id": 25,
+            "page": 3,
+            "text": "4 Theoretical Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2704
+                },
+                {
+                    "x": 2107,
+                    "y": 2704
+                },
+                {
+                    "x": 2107,
+                    "y": 2937
+                },
+                {
+                    "x": 441,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:14px'>The generator G implicitly defines a probability distribution Pg as the distribution of the samples<br>G(z) obtained when z ~ Pz. Therefore, we would like Algorithm 1 to converge to a good estimator<br>of Pdata, if given enough capacity and training time. The results of this section are done in a non-<br>parametric setting, e.g. we represent a model with infinite capacity by studying convergence in the<br>space of probability density functions.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "The generator G implicitly defines a probability distribution Pg as the distribution of the samples G(z) obtained when z ~ Pz. Therefore, we would like Algorithm 1 to converge to a good estimator of Pdata, if given enough capacity and training time. The results of this section are done in a nonparametric setting, e.g. we represent a model with infinite capacity by studying convergence in the space of probability density functions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2959
+                },
+                {
+                    "x": 2106,
+                    "y": 2959
+                },
+                {
+                    "x": 2106,
+                    "y": 3054
+                },
+                {
+                    "x": 443,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:14px'>We will show in section 4.1 that this minimax game has a global optimum for Pg = Pdata. We will<br>then show in section 4.2 that Algorithm 1 optimizes Eq 1, thus obtaining the desired result.</p>",
+            "id": 27,
+            "page": 3,
+            "text": "We will show in section 4.1 that this minimax game has a global optimum for Pg = Pdata. We will then show in section 4.2 that Algorithm 1 optimizes Eq 1, thus obtaining the desired result."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3134
+                },
+                {
+                    "x": 1288,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='28' style='font-size:14px'>3</footer>",
+            "id": 28,
+            "page": 3,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 349
+                },
+                {
+                    "x": 2105,
+                    "y": 349
+                },
+                {
+                    "x": 2105,
+                    "y": 474
+                },
+                {
+                    "x": 445,
+                    "y": 474
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:14px'>Algorithm 1 Minibatch stochastic gradient descent training of generative adversarial nets. The number of<br>steps to apply to the discriminator, k, is a hyperparameter. We used k = 1, the least expensive option, in our<br>experiments.</p>",
+            "id": 29,
+            "page": 4,
+            "text": "Algorithm 1 Minibatch stochastic gradient descent training of generative adversarial nets. The number of steps to apply to the discriminator, k, is a hyperparameter. We used k = 1, the least expensive option, in our experiments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 487,
+                    "y": 490
+                },
+                {
+                    "x": 1089,
+                    "y": 490
+                },
+                {
+                    "x": 1089,
+                    "y": 527
+                },
+                {
+                    "x": 487,
+                    "y": 527
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:16px'>for number of training iterations do</p>",
+            "id": 30,
+            "page": 4,
+            "text": "for number of training iterations do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 527,
+                    "y": 535
+                },
+                {
+                    "x": 768,
+                    "y": 535
+                },
+                {
+                    "x": 768,
+                    "y": 573
+                },
+                {
+                    "x": 527,
+                    "y": 573
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:16px'>for k steps do</p>",
+            "id": 31,
+            "page": 4,
+            "text": "for k steps do"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 565,
+                    "y": 578
+                },
+                {
+                    "x": 2104,
+                    "y": 578
+                },
+                {
+                    "x": 2104,
+                    "y": 765
+                },
+                {
+                    "x": 565,
+                    "y": 765
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:14px'>● Sample minibatch of m noise samples {z(1) , · · · , z(m)} from noise prior Pg (2).<br>● Sample minibatch of m examples {x(1) , · · · , x(m)} from data generating distribution<br>Pdata (x).<br>● Update the discriminator by ascending its stochastic gradient:</p>",
+            "id": 32,
+            "page": 4,
+            "text": "● Sample minibatch of m noise samples {z(1) , · · · , z(m)} from noise prior Pg (2). ● Sample minibatch of m examples {x(1) , · · · , x(m)} from data generating distribution Pdata (x). ● Update the discriminator by ascending its stochastic gradient:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 527,
+                    "y": 953
+                },
+                {
+                    "x": 661,
+                    "y": 953
+                },
+                {
+                    "x": 661,
+                    "y": 991
+                },
+                {
+                    "x": 527,
+                    "y": 991
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:14px'>end for</p>",
+            "id": 33,
+            "page": 4,
+            "text": "end for"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 528,
+                    "y": 997
+                },
+                {
+                    "x": 1893,
+                    "y": 997
+                },
+                {
+                    "x": 1893,
+                    "y": 1088
+                },
+                {
+                    "x": 528,
+                    "y": 1088
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='34' style='font-size:18px'>● Sample minibatch of m noise samples {z(1) , z(m)} from noise prior Pg (2).<br>● Update the generator by descending its stochastic gradient:</p>",
+            "id": 34,
+            "page": 4,
+            "text": "● Sample minibatch of m noise samples {z(1) , z(m)} from noise prior Pg (2). ● Update the generator by descending its stochastic gradient:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 486,
+                    "y": 1269
+                },
+                {
+                    "x": 621,
+                    "y": 1269
+                },
+                {
+                    "x": 621,
+                    "y": 1307
+                },
+                {
+                    "x": 486,
+                    "y": 1307
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:14px'>end for</p>",
+            "id": 35,
+            "page": 4,
+            "text": "end for"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 489,
+                    "y": 1316
+                },
+                {
+                    "x": 2101,
+                    "y": 1316
+                },
+                {
+                    "x": 2101,
+                    "y": 1403
+                },
+                {
+                    "x": 489,
+                    "y": 1403
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:14px'>The gradient-based updates can use any standard gradient-based learning rule. We used momen-<br>tum 1n our experiments.</p>",
+            "id": 36,
+            "page": 4,
+            "text": "The gradient-based updates can use any standard gradient-based learning rule. We used momentum 1n our experiments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1514
+                },
+                {
+                    "x": 1100,
+                    "y": 1514
+                },
+                {
+                    "x": 1100,
+                    "y": 1562
+                },
+                {
+                    "x": 445,
+                    "y": 1562
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:16px'>4.1 Global Optimality of Pg = Pdata</p>",
+            "id": 37,
+            "page": 4,
+            "text": "4.1 Global Optimality of Pg = Pdata"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1600
+                },
+                {
+                    "x": 1656,
+                    "y": 1600
+                },
+                {
+                    "x": 1656,
+                    "y": 1645
+                },
+                {
+                    "x": 446,
+                    "y": 1645
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:16px'>We first consider the optimal discriminator D for any given generator G.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "We first consider the optimal discriminator D for any given generator G."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 446,
+                    "y": 1665
+                },
+                {
+                    "x": 1439,
+                    "y": 1665
+                },
+                {
+                    "x": 1439,
+                    "y": 1709
+                },
+                {
+                    "x": 446,
+                    "y": 1709
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:18px'>Proposition 1. For G fixed, the optimal discriminator D is</p>",
+            "id": 39,
+            "page": 4,
+            "text": "Proposition 1. For G fixed, the optimal discriminator D is"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1903
+                },
+                {
+                    "x": 2104,
+                    "y": 1903
+                },
+                {
+                    "x": 2104,
+                    "y": 1994
+                },
+                {
+                    "x": 443,
+                    "y": 1994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:16px'>Proof. The training criterion for the discriminator D, given any generator G, is to maximize the<br>quantity V(G,D)</p>",
+            "id": 40,
+            "page": 4,
+            "text": "Proof. The training criterion for the discriminator D, given any generator G, is to maximize the quantity V(G,D)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2289
+                },
+                {
+                    "x": 2106,
+                    "y": 2289
+                },
+                {
+                    "x": 2106,
+                    "y": 2439
+                },
+                {
+                    "x": 442,
+                    "y": 2439
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:16px'>For any (a,b) E R2 1 {0,0}, the function y → alog(y) + blog(1 - y) achieves its maximum in<br>[0, 1] at The discriminator does not need to be defined outside of Supp(pdata) U Supp(pg),<br>a+6·<br>concluding the proof. □</p>",
+            "id": 41,
+            "page": 4,
+            "text": "For any (a,b) E R2 1 {0,0}, the function y → alog(y) + blog(1 - y) achieves its maximum in  at The discriminator does not need to be defined outside of Supp(pdata) U Supp(pg), a+6· concluding the proof. □"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2499
+                },
+                {
+                    "x": 2104,
+                    "y": 2499
+                },
+                {
+                    "x": 2104,
+                    "y": 2637
+                },
+                {
+                    "x": 443,
+                    "y": 2637
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:14px'>Note that the training objective for D can be interpreted as maximizing the log-likelihood for es-<br>timating the conditional probability P(Y = y|x), where Y indicates whether x comes from Pdata<br>(with y = 1) or from Pg (with y = 0). The minimax game in Eq. 1 can now be reformulated as:</p>",
+            "id": 42,
+            "page": 4,
+            "text": "Note that the training objective for D can be interpreted as maximizing the log-likelihood for estimating the conditional probability P(Y = y|x), where Y indicates whether x comes from Pdata (with y = 1) or from Pg (with y = 0). The minimax game in Eq. 1 can now be reformulated as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1259,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3135
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1259,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='43' style='font-size:14px'>4</footer>",
+            "id": 43,
+            "page": 4,
+            "text": "4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 348
+                },
+                {
+                    "x": 2109,
+                    "y": 348
+                },
+                {
+                    "x": 2109,
+                    "y": 441
+                },
+                {
+                    "x": 443,
+                    "y": 441
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>Theorem 1. The global minimum of the virtual training criterion C(G) is achieved if and only if<br>Pg = Pdata· At that point, C(G) achieves the value - log 4.</p>",
+            "id": 44,
+            "page": 5,
+            "text": "Theorem 1. The global minimum of the virtual training criterion C(G) is achieved if and only if Pg = Pdata· At that point, C(G) achieves the value - log 4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 498
+                },
+                {
+                    "x": 2106,
+                    "y": 498
+                },
+                {
+                    "x": 2106,
+                    "y": 649
+                },
+                {
+                    "x": 442,
+                    "y": 649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='45' style='font-size:16px'>Proof. For Pg = Pdata, DG(x) = 1/2, (consider Eq. 2). Hence, by inspecting Eq. 4 at DG(x) = 1/2, we<br>find C(G) = log 1/2 + log 1/2 = - log 4. To see that this is the best possible value of C'(G), reached<br>only for Pg = Pdata, observe that</p>",
+            "id": 45,
+            "page": 5,
+            "text": "Proof. For Pg = Pdata, DG(x) = 1/2, (consider Eq. 2). Hence, by inspecting Eq. 4 at DG(x) = 1/2, we find C(G) = log 1/2 + log 1/2 = - log 4. To see that this is the best possible value of C'(G), reached only for Pg = Pdata, observe that"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 750
+                },
+                {
+                    "x": 1721,
+                    "y": 750
+                },
+                {
+                    "x": 1721,
+                    "y": 800
+                },
+                {
+                    "x": 443,
+                    "y": 800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>and that by subtracting this expression from C(G) = V(DG, G), we obtain:</p>",
+            "id": 46,
+            "page": 5,
+            "text": "and that by subtracting this expression from C(G) = V(DG, G), we obtain:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1004
+                },
+                {
+                    "x": 2104,
+                    "y": 1004
+                },
+                {
+                    "x": 2104,
+                    "y": 1095
+                },
+                {
+                    "x": 442,
+                    "y": 1095
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:14px'>where KL is the Kullback-Leibler divergence. We recognize in the previous expression the Jensen-<br>Shannon divergence between the model's distribution and the data generating process:</p>",
+            "id": 47,
+            "page": 5,
+            "text": "where KL is the Kullback-Leibler divergence. We recognize in the previous expression the JensenShannon divergence between the model's distribution and the data generating process:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1253
+                },
+                {
+                    "x": 2107,
+                    "y": 1253
+                },
+                {
+                    "x": 2107,
+                    "y": 1437
+                },
+                {
+                    "x": 442,
+                    "y": 1437
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:16px'>Since the Jensen-Shannon divergence between two distributions is always non-negative and zero<br>only when they are equal, we have shown that C* = - log(4) is the global minimum of C(G) and<br>that the only solutionis Pg = Pdata, i.e., the generative model perfectly replicating the data generating<br>process. □</p>",
+            "id": 48,
+            "page": 5,
+            "text": "Since the Jensen-Shannon divergence between two distributions is always non-negative and zero only when they are equal, we have shown that C* = - log(4) is the global minimum of C(G) and that the only solutionis Pg = Pdata, i.e., the generative model perfectly replicating the data generating process. □"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1496
+                },
+                {
+                    "x": 1042,
+                    "y": 1496
+                },
+                {
+                    "x": 1042,
+                    "y": 1544
+                },
+                {
+                    "x": 443,
+                    "y": 1544
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:16px'>4.2 Convergence of Algorithm 1</p>",
+            "id": 49,
+            "page": 5,
+            "text": "4.2 Convergence of Algorithm 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1581
+                },
+                {
+                    "x": 2106,
+                    "y": 1581
+                },
+                {
+                    "x": 2106,
+                    "y": 1675
+                },
+                {
+                    "x": 443,
+                    "y": 1675
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:16px'>Proposition 2. IfG and D have enough capacity, and at each step ofAlgorithm 1, the discriminator<br>is allowed to reach its optimum given G, and Pg is updated SO as to improve the criterion</p>",
+            "id": 50,
+            "page": 5,
+            "text": "Proposition 2. IfG and D have enough capacity, and at each step ofAlgorithm 1, the discriminator is allowed to reach its optimum given G, and Pg is updated SO as to improve the criterion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1782
+                },
+                {
+                    "x": 878,
+                    "y": 1782
+                },
+                {
+                    "x": 878,
+                    "y": 1829
+                },
+                {
+                    "x": 443,
+                    "y": 1829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:14px'>then Pg converges to Pdata</p>",
+            "id": 51,
+            "page": 5,
+            "text": "then Pg converges to Pdata"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 1880
+                },
+                {
+                    "x": 2107,
+                    "y": 1880
+                },
+                {
+                    "x": 2107,
+                    "y": 2207
+                },
+                {
+                    "x": 444,
+                    "y": 2207
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:16px'>Proof. Consider V(G,D) = U(pg, D) as a function of Pg as done in the above criterion. Note<br>that U(pg, D) is convex in Pg. The subderivatives of a supremum of convex functions include the<br>derivative of the function at the point where the maximum is attained. In other words, if f(x) =<br>supaEA fa(x) and fa(x) is convex in x for every a, then df�(x) E of if B = arg sup�EA fa(x).<br>This is equivalent to computing a gradient descent update for Pg at the optimal D given the cor-<br>responding G. supD U(pg, D) is convex in Pg a unique global optima as proven in Thm 1,<br>with<br>therefore with sufficiently small updates of Pg, Pg converges to px, concluding the proof. □</p>",
+            "id": 52,
+            "page": 5,
+            "text": "Proof. Consider V(G,D) = U(pg, D) as a function of Pg as done in the above criterion. Note that U(pg, D) is convex in Pg. The subderivatives of a supremum of convex functions include the derivative of the function at the point where the maximum is attained. In other words, if f(x) = supaEA fa(x) and fa(x) is convex in x for every a, then df�(x) E of if B = arg sup�EA fa(x). This is equivalent to computing a gradient descent update for Pg at the optimal D given the corresponding G. supD U(pg, D) is convex in Pg a unique global optima as proven in Thm 1, with therefore with sufficiently small updates of Pg, Pg converges to px, concluding the proof. □"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2257
+                },
+                {
+                    "x": 2107,
+                    "y": 2257
+                },
+                {
+                    "x": 2107,
+                    "y": 2489
+                },
+                {
+                    "x": 441,
+                    "y": 2489
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='53' style='font-size:16px'>In practice, adversarial nets represent a limited family of Pg distributions via the function G(z;0g),<br>and we optimize 0g rather than Pg itself. Using a multilayer perceptron to define G introduces<br>multiple critical points in parameter space. However, the excellent performance of multilayer per-<br>ceptrons in practice suggests that they are a reasonable model to use despite their lack of theoretical<br>guarantees.</p>",
+            "id": 53,
+            "page": 5,
+            "text": "In practice, adversarial nets represent a limited family of Pg distributions via the function G(z;0g), and we optimize 0g rather than Pg itself. Using a multilayer perceptron to define G introduces multiple critical points in parameter space. However, the excellent performance of multilayer perceptrons in practice suggests that they are a reasonable model to use despite their lack of theoretical guarantees."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2554
+                },
+                {
+                    "x": 801,
+                    "y": 2554
+                },
+                {
+                    "x": 801,
+                    "y": 2612
+                },
+                {
+                    "x": 443,
+                    "y": 2612
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:20px'>5 Experiments</p>",
+            "id": 54,
+            "page": 5,
+            "text": "5 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2660
+                },
+                {
+                    "x": 2106,
+                    "y": 2660
+                },
+                {
+                    "x": 2106,
+                    "y": 2936
+                },
+                {
+                    "x": 441,
+                    "y": 2936
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:14px'>We trained adversarial nets an a range of datasets including MNIST[23], the Toronto Face Database<br>(TFD) [28], and CIFAR-10 [21]. The generator nets used a mixture of rectifier linear activations [19,<br>9] and sigmoid activations, while the discriminator net used maxout [10] activations. Dropout [17]<br>was applied in training the discriminator net. While our theoretical framework permits the use of<br>dropout and other noise at intermediate layers of the generator, we used noise as the input to only<br>the bottommost layer of the generator network.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "We trained adversarial nets an a range of datasets including MNIST, the Toronto Face Database (TFD) , and CIFAR-10 . The generator nets used a mixture of rectifier linear activations  and sigmoid activations, while the discriminator net used maxout  activations. Dropout  was applied in training the discriminator net. While our theoretical framework permits the use of dropout and other noise at intermediate layers of the generator, we used noise as the input to only the bottommost layer of the generator network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 2961
+                },
+                {
+                    "x": 2106,
+                    "y": 2961
+                },
+                {
+                    "x": 2106,
+                    "y": 3054
+                },
+                {
+                    "x": 443,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:14px'>We estimate probability of the test set data under Pg by fitting a Gaussian Parzen window to the<br>samples generated with G and reporting the log-likelihood under this distribution. The 0 parameter</p>",
+            "id": 56,
+            "page": 5,
+            "text": "We estimate probability of the test set data under Pg by fitting a Gaussian Parzen window to the samples generated with G and reporting the log-likelihood under this distribution. The 0 parameter"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1261,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='57' style='font-size:14px'>5</footer>",
+            "id": 57,
+            "page": 5,
+            "text": "5"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 871,
+                    "y": 333
+                },
+                {
+                    "x": 1681,
+                    "y": 333
+                },
+                {
+                    "x": 1681,
+                    "y": 576
+                },
+                {
+                    "x": 871,
+                    "y": 576
+                }
+            ],
+            "category": "table",
+            "html": "<table id='58' style='font-size:20px'><tr><td>Model</td><td>MNIST</td><td>TFD</td></tr><tr><td>DBN [3]</td><td>138 士2</td><td>1909 士 66</td></tr><tr><td>Stacked CAE [3]</td><td>121 土 1.6</td><td>2110 土 50</td></tr><tr><td>Deep GSN [6]</td><td>214 士 1.1</td><td>1890 士 29</td></tr><tr><td>Adversarial nets</td><td>225 土 2</td><td>2057 土 26</td></tr></table>",
+            "id": 58,
+            "page": 6,
+            "text": "Model MNIST TFD  DBN  138 士2 1909 士 66  Stacked CAE  121 土 1.6 2110 土 50  Deep GSN  214 士 1.1 1890 士 29  Adversarial nets 225 土 2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 607
+                },
+                {
+                    "x": 2108,
+                    "y": 607
+                },
+                {
+                    "x": 2108,
+                    "y": 826
+                },
+                {
+                    "x": 442,
+                    "y": 826
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='59' style='font-size:14px'>Table 1: Parzen window-based log-likelihood estimates. The reported numbers on MNIST are the mean log-<br>likelihood of samples on test set, with the standard error of the mean computed across examples. On TFD, we<br>computed the standard error across folds of the dataset, with a different 0 chosen using the validation set of<br>each fold. On TFD, 0 was cross validated on each fold and mean log-likelihood on each fold were computed.<br>For MNIST we compare against other models of the real-valued (rather than binary) version of dataset.</caption>",
+            "id": 59,
+            "page": 6,
+            "text": "Table 1: Parzen window-based log-likelihood estimates. The reported numbers on MNIST are the mean loglikelihood of samples on test set, with the standard error of the mean computed across examples. On TFD, we computed the standard error across folds of the dataset, with a different 0 chosen using the validation set of each fold. On TFD, 0 was cross validated on each fold and mean log-likelihood on each fold were computed. For MNIST we compare against other models of the real-valued (rather than binary) version of dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 934
+                },
+                {
+                    "x": 2107,
+                    "y": 934
+                },
+                {
+                    "x": 2107,
+                    "y": 1209
+                },
+                {
+                    "x": 441,
+                    "y": 1209
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:18px'>of the Gaussians was obtained by cross validation on the validation set. This procedure was intro-<br>duced in Breuleux et al. [8] and used for various generative models for which the exact likelihood<br>is not tractable [25, 3, 5]. Results are reported in Table 1. This method of estimating the likelihood<br>has somewhat high variance and does not perform well in high dimensional spaces but it is the best<br>method available to our knowledge. Advances in generative models that can sample but not estimate<br>likelihood directly motivate further research into how to evaluate such models.</p>",
+            "id": 60,
+            "page": 6,
+            "text": "of the Gaussians was obtained by cross validation on the validation set. This procedure was introduced in Breuleux   and used for various generative models for which the exact likelihood is not tractable . Results are reported in Table 1. This method of estimating the likelihood has somewhat high variance and does not perform well in high dimensional spaces but it is the best method available to our knowledge. Advances in generative models that can sample but not estimate likelihood directly motivate further research into how to evaluate such models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1232
+                },
+                {
+                    "x": 2106,
+                    "y": 1232
+                },
+                {
+                    "x": 2106,
+                    "y": 1417
+                },
+                {
+                    "x": 442,
+                    "y": 1417
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>In Figures 2 and 3 we show samples drawn from the generator net after training. While we make no<br>claim that these samples are better than samples generated by existing methods, we believe that these<br>samples are at least competitive with the better generative models in the literature and highlight the<br>potential of the adversarial framework.</p>",
+            "id": 61,
+            "page": 6,
+            "text": "In Figures 2 and 3 we show samples drawn from the generator net after training. While we make no claim that these samples are better than samples generated by existing methods, we believe that these samples are at least competitive with the better generative models in the literature and highlight the potential of the adversarial framework."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 467,
+                    "y": 1479
+                },
+                {
+                    "x": 2091,
+                    "y": 1479
+                },
+                {
+                    "x": 2091,
+                    "y": 2663
+                },
+                {
+                    "x": 467,
+                    "y": 2663
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='62' style='font-size:22px' alt=\"7 9 9\n- -\n/ / 6 0 0\n○ ( ] 2\no S / o\na) b)\nc) d)\" data-coord=\"top-left:(467,1479); bottom-right:(2091,2663)\" /></figure>",
+            "id": 62,
+            "page": 6,
+            "text": "7 9 9 - / / 6 0 0 ○ ( ] 2 o S / o a) b) c) d)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 441,
+                    "y": 2696
+                },
+                {
+                    "x": 2108,
+                    "y": 2696
+                },
+                {
+                    "x": 2108,
+                    "y": 2997
+                },
+                {
+                    "x": 441,
+                    "y": 2997
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='63' style='font-size:16px'>Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of<br>the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples<br>are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these<br>images show actual samples from the model distributions, not conditional means given samples ofhidden units.<br>Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain<br>mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator<br>and \"deconvolutional\" generator)</caption>",
+            "id": 63,
+            "page": 6,
+            "text": "Figure 2: Visualization of samples from the model. Rightmost column shows the nearest training example of the neighboring sample, in order to demonstrate that the model has not memorized the training set. Samples are fair random draws, not cherry-picked. Unlike most other visualizations of deep generative models, these images show actual samples from the model distributions, not conditional means given samples ofhidden units. Moreover, these samples are uncorrelated because the sampling process does not depend on Markov chain mixing. a) MNIST b) TFD c) CIFAR-10 (fully connected model) d) CIFAR-10 (convolutional discriminator and \"deconvolutional\" generator)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1261,
+                    "y": 3136
+                },
+                {
+                    "x": 1288,
+                    "y": 3136
+                },
+                {
+                    "x": 1288,
+                    "y": 3170
+                },
+                {
+                    "x": 1261,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='64' style='font-size:14px'>6</footer>",
+            "id": 64,
+            "page": 6,
+            "text": "6"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 562,
+                    "y": 351
+                },
+                {
+                    "x": 1992,
+                    "y": 351
+                },
+                {
+                    "x": 1992,
+                    "y": 416
+                },
+                {
+                    "x": 562,
+                    "y": 416
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:20px'>] | | I S S S s S 7 7 9 9 9 9 / / / /</p>",
+            "id": 65,
+            "page": 7,
+            "text": "] | | I S S S s S 7 7 9 9 9 9 / / / /"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 514,
+                    "y": 474
+                },
+                {
+                    "x": 2034,
+                    "y": 474
+                },
+                {
+                    "x": 2034,
+                    "y": 521
+                },
+                {
+                    "x": 514,
+                    "y": 521
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='66' style='font-size:16px'>Figure 3: Digits obtained by linearly interpolating between coordinates in z space of the full model.</caption>",
+            "id": 66,
+            "page": 7,
+            "text": "Figure 3: Digits obtained by linearly interpolating between coordinates in z space of the full model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 561
+                },
+                {
+                    "x": 2155,
+                    "y": 561
+                },
+                {
+                    "x": 2155,
+                    "y": 1494
+                },
+                {
+                    "x": 440,
+                    "y": 1494
+                }
+            ],
+            "category": "table",
+            "html": "<table id='67' style='font-size:16px'><tr><td></td><td>Deep directed graphical models</td><td>Deep undirected graphical models</td><td>Generative autoencoders</td><td>Adversarial models</td></tr><tr><td>Training</td><td>Inference needed during training.</td><td>Inference needed during training. MCMC needed to approximate partition function gradient.</td><td>Enforced tradeoff between mixing and power of reconstruction generation</td><td>Synchronizing the discriminator with the generator. Helvetica.</td></tr><tr><td>Inference</td><td>Learned approximate inference</td><td>Variational inference</td><td>MCMC-based inference</td><td>Learned approximate inference</td></tr><tr><td>Sampling</td><td>No difficulties</td><td>Requires Markov chain</td><td>Requires Markov chain</td><td>No difficulties</td></tr><tr><td>Evaluating p(x)</td><td>Intractable, may be approximated with AIS</td><td>Intractable, may be approximated with AIS</td><td>Not explicitly represented, may be approximated with Parzen density estimation</td><td>Not explicitly represented, may be approximated with Parzen density estimation</td></tr><tr><td>Model design</td><td>Nearly all models incur extreme difficulty</td><td>Careful design needed to ensure multiple properties</td><td>Any differentiable function is theoretically permitted</td><td>Any differentiable function is theoretically permitted</td></tr></table>",
+            "id": 67,
+            "page": 7,
+            "text": "Deep directed graphical models Deep undirected graphical models Generative autoencoders Adversarial models  Training Inference needed during training. Inference needed during training. MCMC needed to approximate partition function gradient. Enforced tradeoff between mixing and power of reconstruction generation Synchronizing the discriminator with the generator. Helvetica.  Inference Learned approximate inference Variational inference MCMC-based inference Learned approximate inference  Sampling No difficulties Requires Markov chain Requires Markov chain No difficulties  Evaluating p(x) Intractable, may be approximated with AIS Intractable, may be approximated with AIS Not explicitly represented, may be approximated with Parzen density estimation Not explicitly represented, may be approximated with Parzen density estimation  Model design Nearly all models incur extreme difficulty Careful design needed to ensure multiple properties Any differentiable function is theoretically permitted"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1529
+                },
+                {
+                    "x": 2107,
+                    "y": 1529
+                },
+                {
+                    "x": 2107,
+                    "y": 1619
+                },
+                {
+                    "x": 442,
+                    "y": 1619
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:14px'>Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches<br>to deep generative modeling for each of the major operations involving a model.</p>",
+            "id": 68,
+            "page": 7,
+            "text": "Table 2: Challenges in generative modeling: a summary of the difficulties encountered by different approaches to deep generative modeling for each of the major operations involving a model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1700
+                },
+                {
+                    "x": 1182,
+                    "y": 1700
+                },
+                {
+                    "x": 1182,
+                    "y": 1754
+                },
+                {
+                    "x": 442,
+                    "y": 1754
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:22px'>6 Advantages and disadvantages</p>",
+            "id": 69,
+            "page": 7,
+            "text": "6 Advantages and disadvantages"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 1801
+                },
+                {
+                    "x": 2107,
+                    "y": 1801
+                },
+                {
+                    "x": 2107,
+                    "y": 2219
+                },
+                {
+                    "x": 442,
+                    "y": 2219
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:16px'>This new framework comes with advantages and disadvantages relative to previous modeling frame-<br>works. The disadvantages are primarily that there is no explicit representation of pg(x), and that D<br>must be synchronized well with G during training (in particular, G must not be trained too much<br>without updating D, in order to avoid \"the Helvetica scenario\" in which G collapses too many values<br>of Z to the same value of x to have enough diversity to model Pdata), much as the negative chains of a<br>Boltzmann machine must be kept up to date between learning steps. The advantages are that Markov<br>chains are never needed, only backprop is used to obtain gradients, no inference is needed during<br>learning, and a wide variety of functions can be incorporated into the model. Table 2 summarizes<br>the comparison of generative adversarial nets with other generative modeling approaches.</p>",
+            "id": 70,
+            "page": 7,
+            "text": "This new framework comes with advantages and disadvantages relative to previous modeling frameworks. The disadvantages are primarily that there is no explicit representation of pg(x), and that D must be synchronized well with G during training (in particular, G must not be trained too much without updating D, in order to avoid \"the Helvetica scenario\" in which G collapses too many values of Z to the same value of x to have enough diversity to model Pdata), much as the negative chains of a Boltzmann machine must be kept up to date between learning steps. The advantages are that Markov chains are never needed, only backprop is used to obtain gradients, no inference is needed during learning, and a wide variety of functions can be incorporated into the model. Table 2 summarizes the comparison of generative adversarial nets with other generative modeling approaches."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 2239
+                },
+                {
+                    "x": 2109,
+                    "y": 2239
+                },
+                {
+                    "x": 2109,
+                    "y": 2561
+                },
+                {
+                    "x": 442,
+                    "y": 2561
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:18px'>The aforementioned advantages are primarily computational. Adversarial models may also gain<br>some statistical advantage from the generator network not being updated directly with data exam-<br>ples, but only with gradients flowing through the discriminator. This means that components of the<br>input are not copied directly into the generator's parameters. Another advantage of adversarial net-<br>works is that they can represent very sharp, even degenerate distributions, while methods based on<br>Markov chains require that the distribution be somewhat blurry in order for the chains to be able to<br>mix between modes.</p>",
+            "id": 71,
+            "page": 7,
+            "text": "The aforementioned advantages are primarily computational. Adversarial models may also gain some statistical advantage from the generator network not being updated directly with data examples, but only with gradients flowing through the discriminator. This means that components of the input are not copied directly into the generator's parameters. Another advantage of adversarial networks is that they can represent very sharp, even degenerate distributions, while methods based on Markov chains require that the distribution be somewhat blurry in order for the chains to be able to mix between modes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2629
+                },
+                {
+                    "x": 1145,
+                    "y": 2629
+                },
+                {
+                    "x": 1145,
+                    "y": 2683
+                },
+                {
+                    "x": 444,
+                    "y": 2683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:20px'>7 Conclusions and future work</p>",
+            "id": 72,
+            "page": 7,
+            "text": "7 Conclusions and future work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 2735
+                },
+                {
+                    "x": 1406,
+                    "y": 2735
+                },
+                {
+                    "x": 1406,
+                    "y": 2782
+                },
+                {
+                    "x": 444,
+                    "y": 2782
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:16px'>This framework admits many straightforward extensions:</p>",
+            "id": 73,
+            "page": 7,
+            "text": "This framework admits many straightforward extensions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 440,
+                    "y": 2821
+                },
+                {
+                    "x": 2109,
+                    "y": 2821
+                },
+                {
+                    "x": 2109,
+                    "y": 3054
+                },
+                {
+                    "x": 440,
+                    "y": 3054
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='74' style='font-size:16px'>1. A conditional generative model p(x I c) can be obtained by adding c as input to both G and D.<br>2. Learned approximate inference can be performed by training an auxiliary network to predict z<br>given x. This is similar to the inference net trained by the wake-sleep algorithm [15] but with<br>the advantage that the inference net may be trained for a fixed generator net after the generator<br>net has finished training.</p>",
+            "id": 74,
+            "page": 7,
+            "text": "1. A conditional generative model p(x I c) can be obtained by adding c as input to both G and D. 2. Learned approximate inference can be performed by training an auxiliary network to predict z given x. This is similar to the inference net trained by the wake-sleep algorithm  but with the advantage that the inference net may be trained for a fixed generator net after the generator net has finished training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3135
+                },
+                {
+                    "x": 1289,
+                    "y": 3171
+                },
+                {
+                    "x": 1260,
+                    "y": 3171
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='75' style='font-size:14px'>7</footer>",
+            "id": 75,
+            "page": 7,
+            "text": "7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 439,
+                    "y": 342
+                },
+                {
+                    "x": 2110,
+                    "y": 342
+                },
+                {
+                    "x": 2110,
+                    "y": 672
+                },
+                {
+                    "x": 439,
+                    "y": 672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:18px'>3. One can approximately model all conditionals p(xs I xs) where S is a subset of the indices<br>of x by training a family of conditional models that share parameters. Essentially, one can use<br>adversarial nets to implement a stochastic extension of the deterministic MP-DBM [11].<br>4. Semi-supervised learning: features from the discriminator or inference net could improve perfor-<br>mance of classifiers when limited labeled data is available.<br>5. Efficiency improvements: training could be accelerated greatly by divising better methods for<br>coordinating G and D or determining better distributions to sample Z from during training.</p>",
+            "id": 76,
+            "page": 8,
+            "text": "3. One can approximately model all conditionals p(xs I xs) where S is a subset of the indices of x by training a family of conditional models that share parameters. Essentially, one can use adversarial nets to implement a stochastic extension of the deterministic MP-DBM . 4. Semi-supervised learning: features from the discriminator or inference net could improve performance of classifiers when limited labeled data is available. 5. Efficiency improvements: training could be accelerated greatly by divising better methods for coordinating G and D or determining better distributions to sample Z from during training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 707
+                },
+                {
+                    "x": 2108,
+                    "y": 707
+                },
+                {
+                    "x": 2108,
+                    "y": 803
+                },
+                {
+                    "x": 442,
+                    "y": 803
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:16px'>This paper has demonstrated the viability of the adversarial modeling framework, suggesting that<br>these research directions could prove useful.</p>",
+            "id": 77,
+            "page": 8,
+            "text": "This paper has demonstrated the viability of the adversarial modeling framework, suggesting that these research directions could prove useful."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 444,
+                    "y": 853
+                },
+                {
+                    "x": 780,
+                    "y": 853
+                },
+                {
+                    "x": 780,
+                    "y": 902
+                },
+                {
+                    "x": 444,
+                    "y": 902
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:22px'>Acknowledgments</p>",
+            "id": 78,
+            "page": 8,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 442,
+                    "y": 932
+                },
+                {
+                    "x": 2108,
+                    "y": 932
+                },
+                {
+                    "x": 2108,
+                    "y": 1303
+                },
+                {
+                    "x": 442,
+                    "y": 1303
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:18px'>We would like to acknowledge Patrice Marcotte, Olivier Delalleau, Kyunghyun Cho, Guillaume<br>Alain and Jason Yosinski for helpful discussions. Yann Dauphin shared his Parzen window eval-<br>uation code with us. We would like to thank the developers of Pylearn2 [12] and Theano [7, 1],<br>particularly Frederic Bastien who rushed a Theano feature specifically to benefit this project. Ar-<br>naud Bergeron provided much-needed support with LATEX typesetting. We would also like to thank<br>CIFAR, and Canada Research Chairs for funding, and Compute Canada, and Calcul Quebec for<br>providing computational resources. Ian Goodfellow is supported by the 2013 Google Fellowship in<br>Deep Learning. Finally, we would like to thank Les Trois Brasseurs for stimulating our creativity.</p>",
+            "id": 79,
+            "page": 8,
+            "text": "We would like to acknowledge Patrice Marcotte, Olivier Delalleau, Kyunghyun Cho, Guillaume Alain and Jason Yosinski for helpful discussions. Yann Dauphin shared his Parzen window evaluation code with us. We would like to thank the developers of Pylearn2  and Theano , particularly Frederic Bastien who rushed a Theano feature specifically to benefit this project. Arnaud Bergeron provided much-needed support with LATEX typesetting. We would also like to thank CIFAR, and Canada Research Chairs for funding, and Compute Canada, and Calcul Quebec for providing computational resources. Ian Goodfellow is supported by the 2013 Google Fellowship in Deep Learning. Finally, we would like to thank Les Trois Brasseurs for stimulating our creativity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 445,
+                    "y": 1365
+                },
+                {
+                    "x": 687,
+                    "y": 1365
+                },
+                {
+                    "x": 687,
+                    "y": 1416
+                },
+                {
+                    "x": 445,
+                    "y": 1416
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:20px'>References</p>",
+            "id": 80,
+            "page": 8,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 1440
+                },
+                {
+                    "x": 2106,
+                    "y": 1440
+                },
+                {
+                    "x": 2106,
+                    "y": 1486
+                },
+                {
+                    "x": 443,
+                    "y": 1486
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:16px'>[1] Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow, I. J., Bergeron, A., Bouchard, N., and</p>",
+            "id": 81,
+            "page": 8,
+            "text": " Bastien, F., Lamblin, P., Pascanu, R., Bergstra, J., Goodfellow, I. J., Bergeron, A., Bouchard, N., and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 439,
+                    "y": 1473
+                },
+                {
+                    "x": 2113,
+                    "y": 1473
+                },
+                {
+                    "x": 2113,
+                    "y": 3060
+                },
+                {
+                    "x": 439,
+                    "y": 3060
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:14px'>Bengio, Y. (2012). Theano: new features and speed improvements. Deep Learning and Unsupervised<br>Feature Learning NIPS 2012 Workshop.<br>[2] Bengio, Y. (2009). Learning deep architectures for AI. Now Publishers.<br>[3] Bengio, Y., Mesnil, G., Dauphin, Y., and Rifai, S. (2013a). Better mixing via deep representations. In<br>ICML'13.<br>[4] Bengio, Y., Yao, L., Alain, G., and Vincent, P. (2013b). Generalized denoising auto-encoders as generative<br>models. In NIPS26. Nips Foundation.<br>[5] Bengio, Y., Thibodeau-Laufer, E., and Yosinski, J. (2014a). Deep generative stochastic networks trainable<br>by backprop. In ICML'14.<br>[6] Bengio, Y., Thibodeau-Laufer, E., Alain, G., and Yosinski, J. (2014b). Deep generative stochastic net-<br>works trainable by backprop. In Proceedings of the 30th International Conference on Machine Learning<br>(ICML '14).<br>[7] Bergstra, J., Breuleux, 0., Bastien, F., Lamblin, P., Pascanu, R., Desjardins, G., Turian, J., Warde-Farley,<br>D., and Bengio, Y. (2010). Theano: a CPU and GPU math expression compiler. In Proceedings of the<br>Pythonfor Scientific Computing Conference (SciPy). Oral Presentation.<br>[8] Breuleux, 0., Bengio, Y., and Vincent, P. (2011). Quickly generating representative samples from an<br>RBM-derived process. Neural Computation, 23(8), 2053-2073.<br>[9] Glorot, X., Bordes, A., and Bengio, Y. (2011). Deep sparse rectifier neural networks. In AISTATS'2011.<br>[10] Goodfellow, I. J., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013a). Maxout networks.<br>In ICML '2013.<br>[11] Goodfellow, I. J., Mirza, M., Courville, A., and Bengio, Y. (2013b). Multi-prediction deep Boltzmann<br>machines. In NIPS'2013.<br>[12] Goodfellow, I. J., Warde-Farley, D., Lamblin, P., Dumoulin, V., Mirza, M., Pascanu, R., Bergstra,<br>J., Bastien, F., and Bengio, Y. (2013c). Pylearn2: a machine learning research library. arXiv preprint<br>arXiv:1308.4214.<br>[13] Gutmann, M. and Hyvarinen, A. (2010). Noise-contrastive estimation: A new estimation principle for<br>unnormalized statistical models. In AISTATS'2010.<br>[14] Hinton, G., Deng, L., Dahl, G. E., Mohamed, A., Jaitly, N., Senior, A., Vanhoucke, V., Nguyen, P.,<br>Sainath, T., and Kingsbury, B. (2012a). Deep neural networks for acoustic modeling in speech recognition.<br>IEEE Signal Processing Magazine, 29(6), 82-97.<br>[15] Hinton, G. E., Dayan, P., Frey, B. J., and Neal, R. M. (1995). The wake-sleep algorithm for unsupervised<br>neural networks. Science, 268, 1558-1161.</p>",
+            "id": 82,
+            "page": 8,
+            "text": "Bengio, Y. (2012). Theano: new features and speed improvements. Deep Learning and Unsupervised Feature Learning NIPS 2012 Workshop.  Bengio, Y. (2009). Learning deep architectures for AI. Now Publishers.  Bengio, Y., Mesnil, G., Dauphin, Y., and Rifai, S. (2013a). Better mixing via deep representations. In ICML'13.  Bengio, Y., Yao, L., Alain, G., and Vincent, P. (2013b). Generalized denoising auto-encoders as generative models. In NIPS26. Nips Foundation.  Bengio, Y., Thibodeau-Laufer, E., and Yosinski, J. (2014a). Deep generative stochastic networks trainable by backprop. In ICML'14.  Bengio, Y., Thibodeau-Laufer, E., Alain, G., and Yosinski, J. (2014b). Deep generative stochastic networks trainable by backprop. In Proceedings of the 30th International Conference on Machine Learning (ICML '14).  Bergstra, J., Breuleux, 0., Bastien, F., Lamblin, P., Pascanu, R., Desjardins, G., Turian, J., Warde-Farley, D., and Bengio, Y. (2010). Theano: a CPU and GPU math expression compiler. In Proceedings of the Pythonfor Scientific Computing Conference (SciPy). Oral Presentation.  Breuleux, 0., Bengio, Y., and Vincent, P. (2011). Quickly generating representative samples from an RBM-derived process. Neural Computation, 23(8), 2053-2073.  Glorot, X., Bordes, A., and Bengio, Y. (2011). Deep sparse rectifier neural networks. In AISTATS'2011.  Goodfellow, I. J., Warde-Farley, D., Mirza, M., Courville, A., and Bengio, Y. (2013a). Maxout networks. In ICML '2013.  Goodfellow, I. J., Mirza, M., Courville, A., and Bengio, Y. (2013b). Multi-prediction deep Boltzmann machines. In NIPS'2013.  Goodfellow, I. J., Warde-Farley, D., Lamblin, P., Dumoulin, V., Mirza, M., Pascanu, R., Bergstra, J., Bastien, F., and Bengio, Y. (2013c). Pylearn2: a machine learning research library. arXiv preprint arXiv:1308.4214.  Gutmann, M. and Hyvarinen, A. (2010). Noise-contrastive estimation: A new estimation principle for unnormalized statistical models. In AISTATS'2010.  Hinton, G., Deng, L., Dahl, G. E., Mohamed, A., Jaitly, N., Senior, A., Vanhoucke, V., Nguyen, P., Sainath, T., and Kingsbury, B. (2012a). Deep neural networks for acoustic modeling in speech recognition. IEEE Signal Processing Magazine, 29(6), 82-97.  Hinton, G. E., Dayan, P., Frey, B. J., and Neal, R. M. (1995). The wake-sleep algorithm for unsupervised neural networks. Science, 268, 1558-1161."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3134
+                },
+                {
+                    "x": 1289,
+                    "y": 3170
+                },
+                {
+                    "x": 1260,
+                    "y": 3170
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='83' style='font-size:16px'>8</footer>",
+            "id": 83,
+            "page": 8,
+            "text": "8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 443,
+                    "y": 343
+                },
+                {
+                    "x": 2111,
+                    "y": 343
+                },
+                {
+                    "x": 2111,
+                    "y": 2014
+                },
+                {
+                    "x": 443,
+                    "y": 2014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='84' style='font-size:14px'>[16] Hinton, G. E., Osindero, S., and Teh, Y. (2006). A fast learning algorithm for deep belief nets. Neural<br>Computation, 18, 1527-1554.<br>[17] Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. (2012b). Improving<br>neural networks by preventing co-adaptation of feature detectors. Technical report, arXiv:1207.0580.<br>[18] Hyvarinen, A. (2005). Estimation of non-normalized statistical models using score matching. J. Machine<br>Learning Res., 6.<br>[19] Jarrett, K., Kavukcuoglu, K., Ranzato, M., and LeCun, Y. (2009). What is the best multi-stage architecture<br>for object recognition? In Proc. International Conference on Computer Vision (ICCV'09), pages 2146-2153.<br>IEEE.<br>[20] Kingma, D. P. and Welling, M. (2014). Auto-encoding variational bayes. In Proceedings of the Interna-<br>tional Conference on Learning Representations (ICLR).<br>[21] Krizhevsky, A. and Hinton, G. (2009). Learning multiple layers of features from tiny images. Technical<br>report, University of Toronto.<br>[22] Krizhevsky, A., Sutskever, I., and Hinton, G. (2012). ImageNet classification with deep convolutional<br>neural networks. In NIPS'2012.<br>[23] LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998). Gradient-based learning applied to document<br>recognition. Proceedings of the IEEE, 86(11), 2278-2324.<br>[24] Rezende, D. J., Mohamed, S., and Wierstra, D. (2014). Stochastic backpropagation and approximate<br>inference in deep generative models. Technical report, arXiv:1401.4082.<br>[25] Rifai, S., Bengio, Y., Dauphin, Y., and Vincent, P. (2012). A generative process for sampling contractive<br>auto-encoders. In ICML'12.<br>[26] Salakhutdinov, R. and Hinton, G. E. (2009). Deep Boltzmann machines. In AISTATS'2009, pages 448-<br>455.<br>[27] Smolensky, P. (1986). Information processing in dynamical systems: Foundations of harmony theory. In<br>D. E. Rumelhart and J. L. McClelland, editors, Parallel Distributed Processing, volume 1, chapter 6, pages<br>194-281. MIT Press, Cambridge.<br>[28] Susskind, J., Anderson, A., and Hinton, G. E. (2010). The Toronto face dataset. Technical Report UTML<br>TR 2010-001, U. Toronto.<br>[29] Tieleman, T. (2008). Training restricted Boltzmann machines using approximations to the likelihood<br>gradient. In W. W. Cohen, A. McCallum, and S. T. Roweis, editors, ICML 2008, pages 1064-1071. ACM.<br>[30] Vincent, P., Larochelle, H., Bengio, Y., and Manzagol, P.-A. (2008). Extracting and composing robust<br>features with denoising autoencoders. In ICML 2008.<br>[31] Younes, L. (1999). On the convergence of Markovian stochastic algorithms with rapidly decreasing<br>ergodicity rates. Stochastics and Stochastic Reports, 65(3), 177-228.</p>",
+            "id": 84,
+            "page": 9,
+            "text": " Hinton, G. E., Osindero, S., and Teh, Y. (2006). A fast learning algorithm for deep belief nets. Neural Computation, 18, 1527-1554.  Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., and Salakhutdinov, R. (2012b). Improving neural networks by preventing co-adaptation of feature detectors. Technical report, arXiv:1207.0580.  Hyvarinen, A. (2005). Estimation of non-normalized statistical models using score matching. J. Machine Learning Res., 6.  Jarrett, K., Kavukcuoglu, K., Ranzato, M., and LeCun, Y. (2009). What is the best multi-stage architecture for object recognition? In Proc. International Conference on Computer Vision (ICCV'09), pages 2146-2153. IEEE.  Kingma, D. P. and Welling, M. (2014). Auto-encoding variational bayes. In Proceedings of the International Conference on Learning Representations (ICLR).  Krizhevsky, A. and Hinton, G. (2009). Learning multiple layers of features from tiny images. Technical report, University of Toronto.  Krizhevsky, A., Sutskever, I., and Hinton, G. (2012). ImageNet classification with deep convolutional neural networks. In NIPS'2012.  LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278-2324.  Rezende, D. J., Mohamed, S., and Wierstra, D. (2014). Stochastic backpropagation and approximate inference in deep generative models. Technical report, arXiv:1401.4082.  Rifai, S., Bengio, Y., Dauphin, Y., and Vincent, P. (2012). A generative process for sampling contractive auto-encoders. In ICML'12.  Salakhutdinov, R. and Hinton, G. E. (2009). Deep Boltzmann machines. In AISTATS'2009, pages 448455.  Smolensky, P. (1986). Information processing in dynamical systems: Foundations of harmony theory. In D. E. Rumelhart and J. L. McClelland, editors, Parallel Distributed Processing, volume 1, chapter 6, pages 194-281. MIT Press, Cambridge.  Susskind, J., Anderson, A., and Hinton, G. E. (2010). The Toronto face dataset. Technical Report UTML TR 2010-001, U. Toronto.  Tieleman, T. (2008). Training restricted Boltzmann machines using approximations to the likelihood gradient. In W. W. Cohen, A. McCallum, and S. T. Roweis, editors, ICML 2008, pages 1064-1071. ACM.  Vincent, P., Larochelle, H., Bengio, Y., and Manzagol, P.-A. (2008). Extracting and composing robust features with denoising autoencoders. In ICML 2008.  Younes, L. (1999). On the convergence of Markovian stochastic algorithms with rapidly decreasing ergodicity rates. Stochastics and Stochastic Reports, 65(3), 177-228."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1260,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3132
+                },
+                {
+                    "x": 1289,
+                    "y": 3169
+                },
+                {
+                    "x": 1260,
+                    "y": 3169
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='85' style='font-size:18px'>9</footer>",
+            "id": 85,
+            "page": 9,
+            "text": "9"
+        }
+    ]
+}

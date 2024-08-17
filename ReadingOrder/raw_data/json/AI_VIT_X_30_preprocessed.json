@@ -1,0 +1,2781 @@
+{
+    "id": "32bcc138-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1606.05250v3.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 426,
+                    "y": 327
+                },
+                {
+                    "x": 2117,
+                    "y": 327
+                },
+                {
+                    "x": 2117,
+                    "y": 400
+                },
+                {
+                    "x": 426,
+                    "y": 400
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>SQuAD: 100,000+ Questions for Machine Comprehension of Text</p>",
+            "id": 0,
+            "page": 1,
+            "text": "SQuAD: 100,000+ Questions for Machine Comprehension of Text"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 430,
+                    "y": 541
+                },
+                {
+                    "x": 2139,
+                    "y": 541
+                },
+                {
+                    "x": 2139,
+                    "y": 603
+                },
+                {
+                    "x": 430,
+                    "y": 603
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:22px'>Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Pranav Rajpurkar and Jian Zhang and Konstantin Lopyrev and Percy Liang"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 567,
+                    "y": 602
+                },
+                {
+                    "x": 1997,
+                    "y": 602
+                },
+                {
+                    "x": 1997,
+                    "y": 775
+                },
+                {
+                    "x": 567,
+                    "y": 775
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:20px'>{pranavsr , z jian, klopyrev, pliang} @cs · stanford edu<br>Computer Science Department<br>Stanford University</p>",
+            "id": 2,
+            "page": 1,
+            "text": "{pranavsr , z jian, klopyrev, pliang} @cs · stanford edu Computer Science Department Stanford University"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 674,
+                    "y": 1053
+                },
+                {
+                    "x": 872,
+                    "y": 1053
+                },
+                {
+                    "x": 872,
+                    "y": 1109
+                },
+                {
+                    "x": 674,
+                    "y": 1109
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:20px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 381,
+                    "y": 1154
+                },
+                {
+                    "x": 1159,
+                    "y": 1154
+                },
+                {
+                    "x": 1159,
+                    "y": 2057
+                },
+                {
+                    "x": 381,
+                    "y": 2057
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:16px'>We present the Stanford Question Answer-<br>ing Dataset (SQuAD), a new reading compre-<br>hension dataset consisting of 100,000+ ques-<br>tions posed by crowdworkers on a set of<br>Wikipedia articles, where the answer to each<br>question is a segment of text from the cor-<br>responding reading passage. We analyze the<br>dataset to understand the types of reason-<br>ing required to answer the questions, lean-<br>ing heavily on dependency and constituency<br>trees. We build a strong logistic regression<br>model, which achieves an F1 score of 51.0%,<br>a significant improvement over a simple base-<br>line (20%). However, human performance<br>(86.8%) is much higher, indicating that the<br>dataset presents a good challenge problem for<br>future research. The dataset is freely available<br>at https: / / stanford-qa.com.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "We present the Stanford Question Answering Dataset (SQuAD), a new reading comprehension dataset consisting of 100,000+ questions posed by crowdworkers on a set of Wikipedia articles, where the answer to each question is a segment of text from the corresponding reading passage. We analyze the dataset to understand the types of reasoning required to answer the questions, leaning heavily on dependency and constituency trees. We build a strong logistic regression model, which achieves an F1 score of 51.0%, a significant improvement over a simple baseline (20%). However, human performance (86.8%) is much higher, indicating that the dataset presents a good challenge problem for future research. The dataset is freely available at https: / / stanford-qa.com."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 2136
+                },
+                {
+                    "x": 649,
+                    "y": 2136
+                },
+                {
+                    "x": 649,
+                    "y": 2191
+                },
+                {
+                    "x": 295,
+                    "y": 2191
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='5' style='font-size:18px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2223
+                },
+                {
+                    "x": 1254,
+                    "y": 2223
+                },
+                {
+                    "x": 1254,
+                    "y": 2845
+                },
+                {
+                    "x": 290,
+                    "y": 2845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:18px'>Reading Comprehension (RC), or the ability to read<br>text and then answer questions about it, is a chal-<br>lenging task for machines, requiring both under-<br>standing of natural language and knowledge about<br>the world. Consider the question \"what causes pre-<br>cipitation to fall?\" posed on the passage in Figure 1.<br>In order to answer the question, one might first lo-<br>cate the relevant part of the passage \"precipitation ...<br>falls under gravity\", then reason that \"under\" refers<br>to a cause (not location), and thus determine the cor-<br>rect answer: \"gravity\".</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Reading Comprehension (RC), or the ability to read text and then answer questions about it, is a challenging task for machines, requiring both understanding of natural language and knowledge about the world. Consider the question \"what causes precipitation to fall?\" posed on the passage in Figure 1. In order to answer the question, one might first locate the relevant part of the passage \"precipitation ... falls under gravity\", then reason that \"under\" refers to a cause (not location), and thus determine the correct answer: \"gravity\"."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2849
+                },
+                {
+                    "x": 1255,
+                    "y": 2849
+                },
+                {
+                    "x": 1255,
+                    "y": 3018
+                },
+                {
+                    "x": 291,
+                    "y": 3018
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:16px'>How can we get a machine to make progress<br>on the challenging task of reading comprehension?<br>Historically, large, realistic datasets have played</p>",
+            "id": 7,
+            "page": 1,
+            "text": "How can we get a machine to make progress on the challenging task of reading comprehension? Historically, large, realistic datasets have played"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1386,
+                    "y": 1083
+                },
+                {
+                    "x": 2167,
+                    "y": 1083
+                },
+                {
+                    "x": 2167,
+                    "y": 1492
+                },
+                {
+                    "x": 1386,
+                    "y": 1492
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:14px'>In meteorology, precipitation is any product<br>of the condensation of atmospheric water vapor<br>that falls under gravity. The main forms of pre-<br>cipitation include drizzle, rain, sleet, snow, grau-<br>pel and hail... Precipitation forms as smaller<br>droplets coalesce via collision with other rain<br>drops or ice crystals within a cloud. Short, in-<br>tense periods of rain in scattered locations are<br>called \"showers\"</p>",
+            "id": 8,
+            "page": 1,
+            "text": "In meteorology, precipitation is any product of the condensation of atmospheric water vapor that falls under gravity. The main forms of precipitation include drizzle, rain, sleet, snow, graupel and hail... Precipitation forms as smaller droplets coalesce via collision with other rain drops or ice crystals within a cloud. Short, intense periods of rain in scattered locations are called \"showers\""
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1386,
+                    "y": 1525
+                },
+                {
+                    "x": 1938,
+                    "y": 1525
+                },
+                {
+                    "x": 1938,
+                    "y": 1616
+                },
+                {
+                    "x": 1386,
+                    "y": 1616
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='9' style='font-size:14px'>What causes precipitation to fall?<br>gravity</p>",
+            "id": 9,
+            "page": 1,
+            "text": "What causes precipitation to fall? gravity"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1388,
+                    "y": 1654
+                },
+                {
+                    "x": 2163,
+                    "y": 1654
+                },
+                {
+                    "x": 2163,
+                    "y": 1788
+                },
+                {
+                    "x": 1388,
+                    "y": 1788
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='10' style='font-size:14px'>What is another main form of precipitation be-<br>sides drizzle, rain, snow, sleet and hail?<br>graupel</p>",
+            "id": 10,
+            "page": 1,
+            "text": "What is another main form of precipitation besides drizzle, rain, snow, sleet and hail? graupel"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1385,
+                    "y": 1829
+                },
+                {
+                    "x": 2169,
+                    "y": 1829
+                },
+                {
+                    "x": 2169,
+                    "y": 1960
+                },
+                {
+                    "x": 1385,
+                    "y": 1960
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:14px'>Where do water droplets collide with ice crystals<br>to form precipitation?<br>within a cloud</p>",
+            "id": 11,
+            "page": 1,
+            "text": "Where do water droplets collide with ice crystals to form precipitation? within a cloud"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 2031
+                },
+                {
+                    "x": 2258,
+                    "y": 2031
+                },
+                {
+                    "x": 2258,
+                    "y": 2193
+                },
+                {
+                    "x": 1298,
+                    "y": 2193
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:14px'>Figure 1: Question-answer pairs for a sample passage in the<br>SQuAD dataset. Each of the answers is a segment of text from<br>the passage.</p>",
+            "id": 12,
+            "page": 1,
+            "text": "Figure 1: Question-answer pairs for a sample passage in the SQuAD dataset. Each of the answers is a segment of text from the passage."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2278
+                },
+                {
+                    "x": 2260,
+                    "y": 2278
+                },
+                {
+                    "x": 2260,
+                    "y": 2898
+                },
+                {
+                    "x": 1297,
+                    "y": 2898
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:18px'>a critical role for driving fields forward- -famous<br>examples include ImageNet for object recognition<br>(Deng et al., 2009) and the Penn Treebank for<br>syntactic parsing (Marcus et al., 1993). Existing<br>datasets for RC have one of two shortcomings: (i)<br>those that are high in quality (Richardson et al.,<br>2013; Berant et al., 2014) are too small for training<br>modern data-intensive models, while (ii) those that<br>are large (Hermann et al., 2015; Hill et al., 2015) are<br>semi-synthetic and do not share the same character-<br>istics as explicit reading comprehension questions.</p>",
+            "id": 13,
+            "page": 1,
+            "text": "a critical role for driving fields forward- -famous examples include ImageNet for object recognition (Deng , 2009) and the Penn Treebank for syntactic parsing (Marcus , 1993). Existing datasets for RC have one of two shortcomings: (i) those that are high in quality (Richardson , 2013; Berant , 2014) are too small for training modern data-intensive models, while (ii) those that are large (Hermann , 2015; Hill , 2015) are semi-synthetic and do not share the same characteristics as explicit reading comprehension questions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2907
+                },
+                {
+                    "x": 2256,
+                    "y": 2907
+                },
+                {
+                    "x": 2256,
+                    "y": 3014
+                },
+                {
+                    "x": 1297,
+                    "y": 3014
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:18px'>To address the need for a large and high-quality<br>reading comprehension dataset, we present the Stan-</p>",
+            "id": 14,
+            "page": 1,
+            "text": "To address the need for a large and high-quality reading comprehension dataset, we present the Stan-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 57,
+                    "y": 890
+                },
+                {
+                    "x": 149,
+                    "y": 890
+                },
+                {
+                    "x": 149,
+                    "y": 2334
+                },
+                {
+                    "x": 57,
+                    "y": 2334
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='15' style='font-size:14px'>2016<br>Oct<br>11<br>[cs.CL]<br>arXiv:1606.05250v3</footer>",
+            "id": 15,
+            "page": 1,
+            "text": "2016 Oct 11 [cs.CL] arXiv:1606.05250v3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 305
+                },
+                {
+                    "x": 1253,
+                    "y": 305
+                },
+                {
+                    "x": 1253,
+                    "y": 868
+                },
+                {
+                    "x": 291,
+                    "y": 868
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:20px'>ford Question Answering Dataset v1.0 (SQuAD),<br>freely available at https: / / stanford-qa.com, con-<br>sisting of questions posed by crowdworkers on a<br>set of Wikipedia articles, where the answer to ev-<br>ery question is a segment of text, or span, from the<br>corresponding reading passage. SQuAD contains<br>107,785 question-answer pairs on 536 articles, and<br>is almost two orders of magnitude larger than previ-<br>ous manually labeled RC datasets such as MCTest<br>(Richardson et al., 2013).</p>",
+            "id": 16,
+            "page": 2,
+            "text": "ford Question Answering Dataset v1.0 (SQuAD), freely available at https: / / stanford-qa.com, consisting of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage. SQuAD contains 107,785 question-answer pairs on 536 articles, and is almost two orders of magnitude larger than previous manually labeled RC datasets such as MCTest (Richardson , 2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 879
+                },
+                {
+                    "x": 1253,
+                    "y": 879
+                },
+                {
+                    "x": 1253,
+                    "y": 1720
+                },
+                {
+                    "x": 291,
+                    "y": 1720
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>In contrast to prior datasets, SQuAD does not<br>provide a list of answer choices for each question.<br>Rather, systems must select the answer from all pos-<br>sible spans in the passage, thus needing to cope with<br>a fairly large number of candidates. While ques-<br>tions with span-based answers are more constrained<br>than the more interpretative questions found in more<br>advanced standardized tests, we still find a rich di-<br>versity of questions and answer types in SQuAD.<br>We develop automatic techniques based on distances<br>in dependency trees to quantify this diversity and<br>stratify the questions by difficulty. The span con-<br>straint also comes with the important benefit that<br>span-based answers are easier to evaluate than free-<br>form answers.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "In contrast to prior datasets, SQuAD does not provide a list of answer choices for each question. Rather, systems must select the answer from all possible spans in the passage, thus needing to cope with a fairly large number of candidates. While questions with span-based answers are more constrained than the more interpretative questions found in more advanced standardized tests, we still find a rich diversity of questions and answer types in SQuAD. We develop automatic techniques based on distances in dependency trees to quantify this diversity and stratify the questions by difficulty. The span constraint also comes with the important benefit that span-based answers are easier to evaluate than freeform answers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1727
+                },
+                {
+                    "x": 1253,
+                    "y": 1727
+                },
+                {
+                    "x": 1253,
+                    "y": 2915
+                },
+                {
+                    "x": 290,
+                    "y": 2915
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:18px'>To assess the difficulty of SQuAD, we imple-<br>mented a logistic regression model with a range of<br>features. We find that lexicalized and dependency<br>tree path features are important to the performance<br>of the model. We also find that the model perfor-<br>mance worsens with increasing complexity of (i) an-<br>swer types and (ii) syntactic divergence between the<br>question and the sentence containing the answer; in-<br>terestingly, there is no such degradation for humans.<br>Our best model achieves an F1 score of 51.0%,1<br>which is much better than the sliding window base-<br>line (20%). Over the last four months (since June<br>2016), we have witnessed significant improvements<br>from more sophisticated neural network-based mod-<br>els. For example, Wang and Jiang (2016) obtained<br>70.3% F1 on SQuAD v1.1 (results on v1.0 are sim-<br>ilar). These results are still well behind human<br>performance, which is 86.8% F1 based on inter-<br>annotator agreement. This suggests that there is<br>plenty of room for advancement in modeling and<br>learning on the SQuAD dataset.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "To assess the difficulty of SQuAD, we implemented a logistic regression model with a range of features. We find that lexicalized and dependency tree path features are important to the performance of the model. We also find that the model performance worsens with increasing complexity of (i) answer types and (ii) syntactic divergence between the question and the sentence containing the answer; interestingly, there is no such degradation for humans. Our best model achieves an F1 score of 51.0%,1 which is much better than the sliding window baseline (20%). Over the last four months (since June 2016), we have witnessed significant improvements from more sophisticated neural network-based models. For example, Wang and Jiang (2016) obtained 70.3% F1 on SQuAD v1.1 (results on v1.0 are similar). These results are still well behind human performance, which is 86.8% F1 based on interannotator agreement. This suggests that there is plenty of room for advancement in modeling and learning on the SQuAD dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 348,
+                    "y": 2964
+                },
+                {
+                    "x": 1241,
+                    "y": 2964
+                },
+                {
+                    "x": 1241,
+                    "y": 3012
+                },
+                {
+                    "x": 348,
+                    "y": 3012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='19' style='font-size:14px'>All experimental results in this paper are on SQuAD v1.0.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "All experimental results in this paper are on SQuAD v1.0."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 294
+                },
+                {
+                    "x": 2252,
+                    "y": 294
+                },
+                {
+                    "x": 2252,
+                    "y": 1167
+                },
+                {
+                    "x": 1296,
+                    "y": 1167
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='20' style='font-size:14px'><tr><td>Dataset</td><td>Question source</td><td>Formulation</td><td>Size</td></tr><tr><td>SQuAD</td><td>crowdsourced</td><td>RC, spans in passage</td><td>100K</td></tr><tr><td>MCTest (Richardson et al., 2013)</td><td>crowdsourced</td><td>RC, multiple choice</td><td>2640</td></tr><tr><td>Algebra (Kushman et al., 2014)</td><td>standardized tests</td><td>computation</td><td>514</td></tr><tr><td>Science (Clark and Etzioni, 2016)</td><td>standardized tests</td><td>reasoning, multiple choice</td><td>855</td></tr><tr><td>WikiQA (Yang et al., 2015)</td><td>query logs</td><td>IR, sentence selection</td><td>3047</td></tr><tr><td>TREC-QA (Voorhees and Tice, 2000)</td><td>query logs + human editor</td><td>IR, free form</td><td>1479</td></tr><tr><td>CNN/Daily Mail (Hermann et al., 2015)</td><td>summary + cloze</td><td>RC, fill in single entity</td><td>1.4M</td></tr><tr><td>CBT (Hill et al., 2015)</td><td>cloze</td><td>RC, fill in single word</td><td>688K</td></tr></table>",
+            "id": 20,
+            "page": 2,
+            "text": "Dataset Question source Formulation Size  SQuAD crowdsourced RC, spans in passage 100K  MCTest (Richardson , 2013) crowdsourced RC, multiple choice 2640  Algebra (Kushman , 2014) standardized tests computation 514  Science (Clark and Etzioni, 2016) standardized tests reasoning, multiple choice 855  WikiQA (Yang , 2015) query logs IR, sentence selection 3047  TREC-QA (Voorhees and Tice, 2000) query logs + human editor IR, free form 1479  CNN/Daily Mail (Hermann , 2015) summary + cloze RC, fill in single entity 1.4M  CBT (Hill , 2015) cloze RC, fill in single word"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1174
+                },
+                {
+                    "x": 2256,
+                    "y": 1174
+                },
+                {
+                    "x": 2256,
+                    "y": 1387
+                },
+                {
+                    "x": 1297,
+                    "y": 1387
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='21' style='font-size:16px'>Table 1: A survey of several reading comprehension and ques-<br>tion answering datasets. SQuAD is much larger than all datasets<br>except the semi-synthetic cloze-style datasets, and it is similar<br>to TREC-QA in the open-endedness of the answers.</caption>",
+            "id": 21,
+            "page": 2,
+            "text": "Table 1: A survey of several reading comprehension and question answering datasets. SQuAD is much larger than all datasets except the semi-synthetic cloze-style datasets, and it is similar to TREC-QA in the open-endedness of the answers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1472
+                },
+                {
+                    "x": 1751,
+                    "y": 1472
+                },
+                {
+                    "x": 1751,
+                    "y": 1526
+                },
+                {
+                    "x": 1297,
+                    "y": 1526
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:22px'>2 Existing Datasets</p>",
+            "id": 22,
+            "page": 2,
+            "text": "2 Existing Datasets"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1565
+                },
+                {
+                    "x": 2257,
+                    "y": 1565
+                },
+                {
+                    "x": 2257,
+                    "y": 1790
+                },
+                {
+                    "x": 1299,
+                    "y": 1790
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:20px'>We begin with a survey of existing reading com-<br>prehension and question answering (QA) datasets,<br>highlighting a variety of task formulation and cre-<br>ation strategies (see Table 1 for an overview).</p>",
+            "id": 23,
+            "page": 2,
+            "text": "We begin with a survey of existing reading comprehension and question answering (QA) datasets, highlighting a variety of task formulation and creation strategies (see Table 1 for an overview)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1828
+                },
+                {
+                    "x": 2257,
+                    "y": 1828
+                },
+                {
+                    "x": 2257,
+                    "y": 2842
+                },
+                {
+                    "x": 1298,
+                    "y": 2842
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:20px'>Reading comprehension. A data-driven approach<br>to reading comprehension goes back to Hirschman<br>et al. (1999), who curated a dataset of 600 real 3rd-<br>6th grade reading comprehension questions. Their<br>pattern matching baseline was subsequently im-<br>proved by a rule-based system (Riloff and Thelen,<br>2000) and a logistic regression model (Ng et al.,<br>2000). More recently, Richardson et al. (2013) cu-<br>rated MCTest, which contains 660 stories created<br>by crowdworkers, with 4 questions per story and<br>4 answer choices per question. Because many of<br>the questions require commonsense reasoning and<br>reasoning across multiple sentences, the dataset re-<br>mains quite challenging, though there has been no-<br>ticeable progress (Narasimhan and Barzilay, 2015;<br>Sachan et al., 2015; Wang et al., 2015). Both curated<br>datasets, although real and difficult, are too small to<br>support very expressive statistical models.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "Reading comprehension. A data-driven approach to reading comprehension goes back to Hirschman  (1999), who curated a dataset of 600 real 3rd6th grade reading comprehension questions. Their pattern matching baseline was subsequently improved by a rule-based system (Riloff and Thelen, 2000) and a logistic regression model (Ng , 2000). More recently, Richardson  (2013) curated MCTest, which contains 660 stories created by crowdworkers, with 4 questions per story and 4 answer choices per question. Because many of the questions require commonsense reasoning and reasoning across multiple sentences, the dataset remains quite challenging, though there has been noticeable progress (Narasimhan and Barzilay, 2015; Sachan , 2015; Wang , 2015). Both curated datasets, although real and difficult, are too small to support very expressive statistical models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2850
+                },
+                {
+                    "x": 2257,
+                    "y": 2850
+                },
+                {
+                    "x": 2257,
+                    "y": 3017
+                },
+                {
+                    "x": 1296,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:20px'>Some datasets focus on deeper reasoning abili-<br>ties. Algebra word problems require understanding<br>a story well enough to turn it into a system of equa-</p>",
+            "id": 25,
+            "page": 2,
+            "text": "Some datasets focus on deeper reasoning abilities. Algebra word problems require understanding a story well enough to turn it into a system of equa-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 310
+                },
+                {
+                    "x": 1251,
+                    "y": 310
+                },
+                {
+                    "x": 1251,
+                    "y": 697
+                },
+                {
+                    "x": 292,
+                    "y": 697
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:20px'>tions, which can be easily solved to produce the an-<br>swer (Kushman et al., 2014; Hosseini et al., 2014).<br>BAbI (Weston et al., 2015), a fully synthetic RC<br>dataset, is stratified by different types of reasoning<br>required to solve each task. Clark and Etzioni (2016)<br>describe the task of solving 4th grade science exams,<br>and stress the need to reason with world knowledge.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "tions, which can be easily solved to produce the answer (Kushman , 2014; Hosseini , 2014). BAbI (Weston , 2015), a fully synthetic RC dataset, is stratified by different types of reasoning required to solve each task. Clark and Etzioni (2016) describe the task of solving 4th grade science exams, and stress the need to reason with world knowledge."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 729
+                },
+                {
+                    "x": 1250,
+                    "y": 729
+                },
+                {
+                    "x": 1250,
+                    "y": 1403
+                },
+                {
+                    "x": 292,
+                    "y": 1403
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='27' style='font-size:20px'>Open-domain question answering. The goal of<br>open-domain QA is to answer a question from a<br>large collection of documents. The annual eval-<br>uations at the Text REtreival Conference (TREC)<br>(Voorhees and Tice, 2000) led to many advances<br>in open-domain QA, many of which were used in<br>IBM Watson for Jeopardy! (Ferrucci et al., 2013).<br>Recently, Yang et al. (2015) created the WikiQA<br>dataset, which, like SQuAD, use Wikipedia pas-<br>sages as a source of answers, but their task is sen-<br>tence selection, while ours requires selecting a spe-<br>cific span in the sentence.</p>",
+            "id": 27,
+            "page": 3,
+            "text": "Open-domain question answering. The goal of open-domain QA is to answer a question from a large collection of documents. The annual evaluations at the Text REtreival Conference (TREC) (Voorhees and Tice, 2000) led to many advances in open-domain QA, many of which were used in IBM Watson for Jeopardy! (Ferrucci , 2013). Recently, Yang  (2015) created the WikiQA dataset, which, like SQuAD, use Wikipedia passages as a source of answers, but their task is sentence selection, while ours requires selecting a specific span in the sentence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1410
+                },
+                {
+                    "x": 1251,
+                    "y": 1410
+                },
+                {
+                    "x": 1251,
+                    "y": 2139
+                },
+                {
+                    "x": 291,
+                    "y": 2139
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='28' style='font-size:20px'>Selecting the span of text that answers a question<br>is similar to answer extraction, the final step in the<br>open-domain QA pipeline, methods for which in-<br>clude bootstrapping surface patterns (Ravichandran<br>and Hovy, 2002), using dependency trees (Shen and<br>Klakow, 2006), and using a factor graph over mul-<br>tiple sentences (Sun et al., 2013). One key differ-<br>ence between our RC setting and answer extraction<br>is that answer extraction typically exploits the fact<br>that the answer occurs in multiple documents (Brill<br>et al., 2002), which is more lenient than in our set-<br>ting, where a system only has access to a single read-<br>ing passage.</p>",
+            "id": 28,
+            "page": 3,
+            "text": "Selecting the span of text that answers a question is similar to answer extraction, the final step in the open-domain QA pipeline, methods for which include bootstrapping surface patterns (Ravichandran and Hovy, 2002), using dependency trees (Shen and Klakow, 2006), and using a factor graph over multiple sentences (Sun , 2013). One key difference between our RC setting and answer extraction is that answer extraction typically exploits the fact that the answer occurs in multiple documents (Brill , 2002), which is more lenient than in our setting, where a system only has access to a single reading passage."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2167
+                },
+                {
+                    "x": 1251,
+                    "y": 2167
+                },
+                {
+                    "x": 1251,
+                    "y": 3016
+                },
+                {
+                    "x": 291,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:20px'>Cloze datasets. Recently, researchers have con-<br>structed cloze datasets, in which the goal is to pre-<br>dict the missing word (often a named entity) in a<br>passage. Since these datasets can be automatically<br>generated from naturally occurring data, they can be<br>extremely large. The Children's Book Test (CBT)<br>(Hill et al., 2015), for example, involves predicting<br>a blanked-out word of a sentence given the 20 previ-<br>ous sentences. Hermann et al. (2015) constructed a<br>corpus of cloze style questions by blanking out enti-<br>ties in abstractive summaries of CNN / Daily News<br>articles; the goal is to fill in the entity based on the<br>original article. While the size of this dataset is im-<br>pressive, Chen et al. (2016) showed that the dataset<br>requires less reasoning than previously thought, and</p>",
+            "id": 29,
+            "page": 3,
+            "text": "Cloze datasets. Recently, researchers have constructed cloze datasets, in which the goal is to predict the missing word (often a named entity) in a passage. Since these datasets can be automatically generated from naturally occurring data, they can be extremely large. The Children's Book Test (CBT) (Hill , 2015), for example, involves predicting a blanked-out word of a sentence given the 20 previous sentences. Hermann  (2015) constructed a corpus of cloze style questions by blanking out entities in abstractive summaries of CNN / Daily News articles; the goal is to fill in the entity based on the original article. While the size of this dataset is impressive, Chen  (2016) showed that the dataset requires less reasoning than previously thought, and"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1306,
+                    "y": 312
+                },
+                {
+                    "x": 1609,
+                    "y": 312
+                },
+                {
+                    "x": 1609,
+                    "y": 350
+                },
+                {
+                    "x": 1306,
+                    "y": 350
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:18px'>Paragraph 1 of 43</p>",
+            "id": 30,
+            "page": 3,
+            "text": "Paragraph 1 of 43"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1304,
+                    "y": 365
+                },
+                {
+                    "x": 2251,
+                    "y": 365
+                },
+                {
+                    "x": 2251,
+                    "y": 483
+                },
+                {
+                    "x": 1304,
+                    "y": 483
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='31' style='font-size:14px'>Spend around 4 minutes on the following paragraph to ask 5 questions! If you can't ask 5<br>questions, ask 4 or 3 (worse), but do your best to ask 5. Select the answer from the<br>paragraph by clicking on 'Select Answer', and then highlight the smallest segment of the<br>paragraph that answers the question.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "Spend around 4 minutes on the following paragraph to ask 5 questions! If you can't ask 5 questions, ask 4 or 3 (worse), but do your best to ask 5. Select the answer from the paragraph by clicking on 'Select Answer', and then highlight the smallest segment of the paragraph that answers the question."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1310,
+                    "y": 509
+                },
+                {
+                    "x": 2257,
+                    "y": 509
+                },
+                {
+                    "x": 2257,
+                    "y": 824
+                },
+                {
+                    "x": 1310,
+                    "y": 824
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:14px'>Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the<br>chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that<br>readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most<br>abundant element in the universe, after hydrogen and helium. At standard temperature and<br>pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas<br>with the formula O<br>2. Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere. However, monitoring of<br>atmospheric oxygen levels show a global downward trend, because of fossil-fuel burning. Oxygen is<br>the most abundant element by mass in the Earth's crust as part of oxide compounds such as<br>silicon dioxide, making up almost half of the crust's mass.</p>",
+            "id": 32,
+            "page": 3,
+            "text": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table and is a highly reactive nonmetal and oxidizing agent that readily forms compounds (notably oxides) with most elements. By mass, oxygen is the third-most abundant element in the universe, after hydrogen and helium. At standard temperature and pressure, two atoms of the element bind to form dioxygen, a colorless and odorless diatomic gas with the formula O 2. Diatomic oxygen gas constitutes 20.8% of the Earth's atmosphere. However, monitoring of atmospheric oxygen levels show a global downward trend, because of fossil-fuel burning. Oxygen is the most abundant element by mass in the Earth's crust as part of oxide compounds such as silicon dioxide, making up almost half of the crust's mass."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1306,
+                    "y": 851
+                },
+                {
+                    "x": 2194,
+                    "y": 851
+                },
+                {
+                    "x": 2194,
+                    "y": 912
+                },
+                {
+                    "x": 1306,
+                    "y": 912
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='33' style='font-size:16px'>When asking questions, avoid using the same words/phrases as in the<br>paragraph. Also, you are encouraged to pose hard questions.</caption>",
+            "id": 33,
+            "page": 3,
+            "text": "When asking questions, avoid using the same words/phrases as in the paragraph. Also, you are encouraged to pose hard questions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1304,
+                    "y": 948
+                },
+                {
+                    "x": 2278,
+                    "y": 948
+                },
+                {
+                    "x": 2278,
+                    "y": 1206
+                },
+                {
+                    "x": 1304,
+                    "y": 1206
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='34' style='font-size:14px' alt=\"Ask a question here. Try using your own words\nSelect Answer\nAsk a question here. Try using your own words\nSelect Answer\" data-coord=\"top-left:(1304,948); bottom-right:(2278,1206)\" /></figure>",
+            "id": 34,
+            "page": 3,
+            "text": "Ask a question here. Try using your own words Select Answer Ask a question here. Try using your own words Select Answer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1246
+                },
+                {
+                    "x": 2257,
+                    "y": 1246
+                },
+                {
+                    "x": 2257,
+                    "y": 1407
+                },
+                {
+                    "x": 1299,
+                    "y": 1407
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='35' style='font-size:16px'>Figure 2: The crowd-facing web interface used to collect the<br>dataset encourages crowdworkers to use their own words while<br>asking questions.</caption>",
+            "id": 35,
+            "page": 3,
+            "text": "Figure 2: The crowd-facing web interface used to collect the dataset encourages crowdworkers to use their own words while asking questions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1498
+                },
+                {
+                    "x": 2172,
+                    "y": 1498
+                },
+                {
+                    "x": 2172,
+                    "y": 1543
+                },
+                {
+                    "x": 1298,
+                    "y": 1543
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:20px'>concluded that performance is almost saturated.</p>",
+            "id": 36,
+            "page": 3,
+            "text": "concluded that performance is almost saturated."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1554
+                },
+                {
+                    "x": 2257,
+                    "y": 1554
+                },
+                {
+                    "x": 2257,
+                    "y": 2003
+                },
+                {
+                    "x": 1297,
+                    "y": 2003
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:18px'>One difference between SQuAD questions and<br>cloze-style queries is that answers to cloze queries<br>are single words or entities, while answers in<br>SQuAD often include non-entities and can be much<br>longer phrases. Another difference is that SQuAD<br>focuses on questions whose answers are entailed<br>by the passage, whereas the answers to cloze-style<br>queries are merely suggested by the passage.</p>",
+            "id": 37,
+            "page": 3,
+            "text": "One difference between SQuAD questions and cloze-style queries is that answers to cloze queries are single words or entities, while answers in SQuAD often include non-entities and can be much longer phrases. Another difference is that SQuAD focuses on questions whose answers are entailed by the passage, whereas the answers to cloze-style queries are merely suggested by the passage."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 2045
+                },
+                {
+                    "x": 1772,
+                    "y": 2045
+                },
+                {
+                    "x": 1772,
+                    "y": 2100
+                },
+                {
+                    "x": 1301,
+                    "y": 2100
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:22px'>3 Dataset Collection</p>",
+            "id": 38,
+            "page": 3,
+            "text": "3 Dataset Collection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2135
+                },
+                {
+                    "x": 2256,
+                    "y": 2135
+                },
+                {
+                    "x": 2256,
+                    "y": 2305
+                },
+                {
+                    "x": 1299,
+                    "y": 2305
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:18px'>We collect our dataset in three stages: curating<br>passages, crowdsourcing question-answers on those<br>passages, and obtaining additional answers.</p>",
+            "id": 39,
+            "page": 3,
+            "text": "We collect our dataset in three stages: curating passages, crowdsourcing question-answers on those passages, and obtaining additional answers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2339
+                },
+                {
+                    "x": 2258,
+                    "y": 2339
+                },
+                {
+                    "x": 2258,
+                    "y": 3016
+                },
+                {
+                    "x": 1299,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:20px'>Passage curation. To retrieve high-quality arti-<br>cles, we used Project Nayuki's Wikipedia's internal<br>PageRanks to obtain the top 10000 articles of En-<br>glish Wikipedia, from which we sampled 536 arti-<br>cles uniformly at random. From each of these ar-<br>ticles, we extracted individual paragraphs, stripping<br>away images, figures, tables, and discarding para-<br>graphs shorter than 500 characters. The result was<br>23,215 paragraphs for the 536 articles covering a<br>wide range of topics, from musical celebrities to ab-<br>stract concepts. We partitioned the articles randomly<br>into a training set (80%), a development set (10%),</p>",
+            "id": 40,
+            "page": 3,
+            "text": "Passage curation. To retrieve high-quality articles, we used Project Nayuki's Wikipedia's internal PageRanks to obtain the top 10000 articles of English Wikipedia, from which we sampled 536 articles uniformly at random. From each of these articles, we extracted individual paragraphs, stripping away images, figures, tables, and discarding paragraphs shorter than 500 characters. The result was 23,215 paragraphs for the 536 articles covering a wide range of topics, from musical celebrities to abstract concepts. We partitioned the articles randomly into a training set (80%), a development set (10%),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 310
+                },
+                {
+                    "x": 673,
+                    "y": 310
+                },
+                {
+                    "x": 673,
+                    "y": 357
+                },
+                {
+                    "x": 293,
+                    "y": 357
+                }
+            ],
+            "category": "header",
+            "html": "<header id='41' style='font-size:16px'>and a test set (10%).</header>",
+            "id": 41,
+            "page": 4,
+            "text": "and a test set (10%)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 464
+                },
+                {
+                    "x": 1252,
+                    "y": 464
+                },
+                {
+                    "x": 1252,
+                    "y": 1084
+                },
+                {
+                    "x": 291,
+                    "y": 1084
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:20px'>Question-answer collection. Next, we employed<br>crowdworkers to create questions. We used the<br>Daemo platform (Gaikwad et al., 2015), with Ama-<br>zon Mechanical Turk as its backend. Crowdworkers<br>were required to have a 97% HIT acceptance rate, a<br>minimum of 1000 HITs, and be located in the United<br>States or Canada. Workers were asked to spend 4<br>minutes on every paragraph, and paid $9 per hour for<br>the number of hours required to complete the article.<br>The task was reviewed favorably by crowdworkers,<br>receiving positive comments on Turkopticon.</p>",
+            "id": 42,
+            "page": 4,
+            "text": "Question-answer collection. Next, we employed crowdworkers to create questions. We used the Daemo platform (Gaikwad , 2015), with Amazon Mechanical Turk as its backend. Crowdworkers were required to have a 97% HIT acceptance rate, a minimum of 1000 HITs, and be located in the United States or Canada. Workers were asked to spend 4 minutes on every paragraph, and paid $9 per hour for the number of hours required to complete the article. The task was reviewed favorably by crowdworkers, receiving positive comments on Turkopticon."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 1107
+                },
+                {
+                    "x": 1252,
+                    "y": 1107
+                },
+                {
+                    "x": 1252,
+                    "y": 1950
+                },
+                {
+                    "x": 290,
+                    "y": 1950
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='43' style='font-size:20px'>On each paragraph, crowdworkers were tasked<br>with asking and answering up to 5 questions on the<br>content of that paragraph. The questions had to be<br>entered in a text field, and the answers had to be<br>highlighted in the paragraph. To guide the work-<br>ers, tasks contained a sample paragraph, and exam-<br>ples of good and bad questions and answers on that<br>paragraph along with the reasons they were cate-<br>gorized as such. Additionally, crowdworkers were<br>encouraged to ask questions in their own words,<br>without copying word phrases from the paragraph.<br>On the interface, this was reinforced by a reminder<br>prompt at the beginning of every paragraph, and by<br>disabling copy-paste functionality on the paragraph<br>text.</p>",
+            "id": 43,
+            "page": 4,
+            "text": "On each paragraph, crowdworkers were tasked with asking and answering up to 5 questions on the content of that paragraph. The questions had to be entered in a text field, and the answers had to be highlighted in the paragraph. To guide the workers, tasks contained a sample paragraph, and examples of good and bad questions and answers on that paragraph along with the reasons they were categorized as such. Additionally, crowdworkers were encouraged to ask questions in their own words, without copying word phrases from the paragraph. On the interface, this was reinforced by a reminder prompt at the beginning of every paragraph, and by disabling copy-paste functionality on the paragraph text."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2054
+                },
+                {
+                    "x": 1252,
+                    "y": 2054
+                },
+                {
+                    "x": 1252,
+                    "y": 3016
+                },
+                {
+                    "x": 290,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>Additional answers collection. To get an indica-<br>tion of human performance on SQuAD and to make<br>our evaluation more robust, we obtained at least 2<br>additional answers for each question in the develop-<br>ment and test sets. In the secondary answer gener-<br>ation task, each crowdworker was shown only the<br>questions along with the paragraphs of an article,<br>and asked to select the shortest span in the para-<br>graph that answered the question. If a question was<br>not answerable by a span in the paragraph, workers<br>were asked to submit the question without marking<br>an answer. Workers were recommended a speed of 5<br>questions for 2 minutes, and paid at the same rate of<br>$9 per hour for the number of hours required for the<br>entire article. Over the development and test sets,<br>2.6% of questions were marked unanswerable by at<br>least one of the additional crowdworkers.</p>",
+            "id": 44,
+            "page": 4,
+            "text": "Additional answers collection. To get an indication of human performance on SQuAD and to make our evaluation more robust, we obtained at least 2 additional answers for each question in the development and test sets. In the secondary answer generation task, each crowdworker was shown only the questions along with the paragraphs of an article, and asked to select the shortest span in the paragraph that answered the question. If a question was not answerable by a span in the paragraph, workers were asked to submit the question without marking an answer. Workers were recommended a speed of 5 questions for 2 minutes, and paid at the same rate of $9 per hour for the number of hours required for the entire article. Over the development and test sets, 2.6% of questions were marked unanswerable by at least one of the additional crowdworkers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 295
+                },
+                {
+                    "x": 2254,
+                    "y": 295
+                },
+                {
+                    "x": 2254,
+                    "y": 856
+                },
+                {
+                    "x": 1297,
+                    "y": 856
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='45' style='font-size:14px'><tr><td>Answer type</td><td>Percentage</td><td>Example</td></tr><tr><td>Date</td><td>8.9%</td><td>19 October 1512</td></tr><tr><td>Other Numeric</td><td>10.9%</td><td>12</td></tr><tr><td>Person</td><td>12.9%</td><td>Thomas Coke</td></tr><tr><td>Location</td><td>4.4%</td><td>Germany</td></tr><tr><td>Other Entity</td><td>15.3%</td><td>ABC Sports</td></tr><tr><td>Common Noun Phrase</td><td>31.8%</td><td>property damage</td></tr><tr><td>Adjective Phrase</td><td>3.9%</td><td>second-largest</td></tr><tr><td>Verb Phrase</td><td>5.5%</td><td>returned to Earth</td></tr><tr><td>Clause</td><td>3.7%</td><td>to avoid trivialization</td></tr><tr><td>Other</td><td>2.7%</td><td>quietly</td></tr></table>",
+            "id": 45,
+            "page": 4,
+            "text": "Answer type Percentage Example  Date 8.9% 19 October 1512  Other Numeric 10.9% 12  Person 12.9% Thomas Coke  Location 4.4% Germany  Other Entity 15.3% ABC Sports  Common Noun Phrase 31.8% property damage  Adjective Phrase 3.9% second-largest  Verb Phrase 5.5% returned to Earth  Clause 3.7% to avoid trivialization  Other 2.7%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 891
+                },
+                {
+                    "x": 2255,
+                    "y": 891
+                },
+                {
+                    "x": 2255,
+                    "y": 1050
+                },
+                {
+                    "x": 1298,
+                    "y": 1050
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='46' style='font-size:14px'>Table 2: We automatically partition our answers into the fol-<br>lowing categories. Our dataset consists of large number of an-<br>swers beyond proper noun entities.</caption>",
+            "id": 46,
+            "page": 4,
+            "text": "Table 2: We automatically partition our answers into the following categories. Our dataset consists of large number of answers beyond proper noun entities."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1140
+                },
+                {
+                    "x": 1736,
+                    "y": 1140
+                },
+                {
+                    "x": 1736,
+                    "y": 1197
+                },
+                {
+                    "x": 1299,
+                    "y": 1197
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:22px'>4 Dataset Analysis</p>",
+            "id": 47,
+            "page": 4,
+            "text": "4 Dataset Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1239
+                },
+                {
+                    "x": 2258,
+                    "y": 1239
+                },
+                {
+                    "x": 2258,
+                    "y": 1630
+                },
+                {
+                    "x": 1297,
+                    "y": 1630
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:20px'>To understand the properties of SQuAD, we analyze<br>the questions and answers in the development set.<br>Specifically, we explore the (i) diversity of answer<br>types, (ii) the difficulty of questions in terms of type<br>of reasoning required to answer them, and (iii) the<br>degree of syntactic divergence between the question<br>and answer sentences.</p>",
+            "id": 48,
+            "page": 4,
+            "text": "To understand the properties of SQuAD, we analyze the questions and answers in the development set. Specifically, we explore the (i) diversity of answer types, (ii) the difficulty of questions in terms of type of reasoning required to answer them, and (iii) the degree of syntactic divergence between the question and answer sentences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1674
+                },
+                {
+                    "x": 2258,
+                    "y": 1674
+                },
+                {
+                    "x": 2258,
+                    "y": 2411
+                },
+                {
+                    "x": 1297,
+                    "y": 2411
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:18px'>Diversity in answers. We automatically catego-<br>rize the answers as follows: We first separate<br>the numerical and non-numerical answers. The<br>non-numerical answers are categorized using con-<br>stituency parses and POS tags generated by Stan-<br>ford CoreNLP. The proper noun phrases are further<br>split into person, location and other entities using<br>NER tags. In Table 2, we can see dates and other<br>numbers make up 19.8% of the data; 32.6% of the<br>answers are proper nouns of three different types;<br>31.8% are common noun phrases answers; and the<br>remaining 15.8% are made up of adjective phrases,<br>verb phrases, clauses and other types.</p>",
+            "id": 49,
+            "page": 4,
+            "text": "Diversity in answers. We automatically categorize the answers as follows: We first separate the numerical and non-numerical answers. The non-numerical answers are categorized using constituency parses and POS tags generated by Stanford CoreNLP. The proper noun phrases are further split into person, location and other entities using NER tags. In Table 2, we can see dates and other numbers make up 19.8% of the data; 32.6% of the answers are proper nouns of three different types; 31.8% are common noun phrases answers; and the remaining 15.8% are made up of adjective phrases, verb phrases, clauses and other types."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2451
+                },
+                {
+                    "x": 2258,
+                    "y": 2451
+                },
+                {
+                    "x": 2258,
+                    "y": 3015
+                },
+                {
+                    "x": 1297,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:20px'>Reasoning required to answer questions. To get<br>a better understanding of the reasoning required to<br>answer the questions, we sampled 4 questions from<br>each of the 48 articles in the development set, and<br>then manually labeled the examples with the cate-<br>gories shown in Table 3. The results show that<br>all examples have some sort of lexical or syntactic<br>divergence between the question and the answer in<br>the passage. Note that some examples fall into more<br>than one category.</p>",
+            "id": 50,
+            "page": 4,
+            "text": "Reasoning required to answer questions. To get a better understanding of the reasoning required to answer the questions, we sampled 4 questions from each of the 48 articles in the development set, and then manually labeled the examples with the categories shown in Table 3. The results show that all examples have some sort of lexical or syntactic divergence between the question and the answer in the passage. Note that some examples fall into more than one category."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 288
+                },
+                {
+                    "x": 2255,
+                    "y": 288
+                },
+                {
+                    "x": 2255,
+                    "y": 1508
+                },
+                {
+                    "x": 291,
+                    "y": 1508
+                }
+            ],
+            "category": "table",
+            "html": "<table id='51' style='font-size:16px'><tr><td>Reasoning</td><td>Description</td><td>Example</td><td>Percentage</td></tr><tr><td>Lexical variation (synonymy)</td><td>Major correspondences between the question and the answer sen- tence are synonyms.</td><td>Q: What is the Rankine cycle sometimes called? Sentence: The Rankine cycle is sometimes re- ferred to as a practical Carnot cycle.</td><td>33.3%</td></tr><tr><td>Lexical variation (world knowledge)</td><td>Major correspondences between the question and the answer sen- tence require world knowledge to resolve.</td><td>Q: Which governing bodies have veto power? Sen.: The European Parliament and the Council of the European Union have powers of amendment and veto during the legislative process.</td><td>9.1%</td></tr><tr><td>Syntactic variation</td><td>After the question is paraphrased into declarative form, its syntac- tic dependency structure does not match that of the answer sentence even after local modifications.</td><td>Q: What Shakespeare scholar is currently on the faculty? Sen.: Current faculty include the anthropol- ogist Marshall Sahlins, ..., Shakespeare scholar David Bevington.</td><td>64.1%</td></tr><tr><td>Multiple sentence reasoning</td><td>There is anaphora, or higher-level fusion of multiple sentences is re- quired.</td><td>Q: What collection does the V&A Theatre & Per- formance galleries hold? Sen.: The V&A Theatre & Performance gal- leries opened in March 2009. ... They hold the UK's biggest national collection of material about live performance.</td><td>13.6%</td></tr><tr><td>Ambiguous</td><td>We don't agree with the crowd- workers' answer, or the question does not have a unique answer.</td><td>Q: What is the main goal of criminal punishment? Sen.: Achieving crime control via incapacitation and deterrence is a major goal of criminal punish- ment.</td><td>6.1%</td></tr></table>",
+            "id": 51,
+            "page": 5,
+            "text": "Reasoning Description Example Percentage  Lexical variation (synonymy) Major correspondences between the question and the answer sen- tence are synonyms. Q: What is the Rankine cycle sometimes called? Sentence: The Rankine cycle is sometimes re- ferred to as a practical Carnot cycle. 33.3%  Lexical variation (world knowledge) Major correspondences between the question and the answer sen- tence require world knowledge to resolve. Q: Which governing bodies have veto power? Sen.: The European Parliament and the Council of the European Union have powers of amendment and veto during the legislative process. 9.1%  Syntactic variation After the question is paraphrased into declarative form, its syntac- tic dependency structure does not match that of the answer sentence even after local modifications. Q: What Shakespeare scholar is currently on the faculty? Sen.: Current faculty include the anthropol- ogist Marshall Sahlins, ..., Shakespeare scholar David Bevington. 64.1%  Multiple sentence reasoning There is anaphora, or higher-level fusion of multiple sentences is re- quired. Q: What collection does the V&A Theatre & Per- formance galleries hold? Sen.: The V&A Theatre & Performance gal- leries opened in March 2009. ... They hold the UK's biggest national collection of material about live performance. 13.6%  Ambiguous We don't agree with the crowd- workers' answer, or the question does not have a unique answer. Q: What is the main goal of criminal punishment? Sen.: Achieving crime control via incapacitation and deterrence is a major goal of criminal punish- ment."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1536
+                },
+                {
+                    "x": 2255,
+                    "y": 1536
+                },
+                {
+                    "x": 2255,
+                    "y": 1643
+                },
+                {
+                    "x": 294,
+                    "y": 1643
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='52' style='font-size:14px'>Table 3: We manually labeled 192 examples into one or more of the above categories. Words relevant to the corresponding<br>reasoning type are bolded, and the crowdsourced answer is underlined.</caption>",
+            "id": 52,
+            "page": 5,
+            "text": "Table 3: We manually labeled 192 examples into one or more of the above categories. Words relevant to the corresponding reasoning type are bolded, and the crowdsourced answer is underlined."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1719
+                },
+                {
+                    "x": 1243,
+                    "y": 1719
+                },
+                {
+                    "x": 1243,
+                    "y": 2132
+                },
+                {
+                    "x": 291,
+                    "y": 2132
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='53' style='font-size:14px' alt=\"Q: What department store is thought to be the first in the world?\nS: Bainbridge's is often cited as the world's first department store.\nPath:\nxcomp nsubjpass det\nfirst thought → store >what\n↓delete ↓substitute ↓insert\namod nmod nsubjpass\nfirst store ← cited → Bainbridge's\nEdit cost:\n1 +2 +1=4\" data-coord=\"top-left:(291,1719); bottom-right:(1243,2132)\" /></figure>",
+            "id": 53,
+            "page": 5,
+            "text": "Q: What department store is thought to be the first in the world? S: Bainbridge's is often cited as the world's first department store. Path: xcomp nsubjpass det first thought → store >what ↓delete ↓substitute ↓insert amod nmod nsubjpass first store ← cited → Bainbridge's Edit cost: 1 +2 +1=4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2138
+                },
+                {
+                    "x": 1248,
+                    "y": 2138
+                },
+                {
+                    "x": 1248,
+                    "y": 2296
+                },
+                {
+                    "x": 292,
+                    "y": 2296
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='54' style='font-size:16px'>Figure 3: An example walking through the computation of the<br>syntactic divergence between the question Q and answer sen-<br>tence S.</caption>",
+            "id": 54,
+            "page": 5,
+            "text": "Figure 3: An example walking through the computation of the syntactic divergence between the question Q and answer sentence S."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2388
+                },
+                {
+                    "x": 1250,
+                    "y": 2388
+                },
+                {
+                    "x": 1250,
+                    "y": 2722
+                },
+                {
+                    "x": 292,
+                    "y": 2722
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:20px'>Stratification by syntactic divergence. We also<br>develop an automatic method to quantify the syntac-<br>tic divergence between a question and the sentence<br>containing the answer. This provides another way to<br>measure the difficulty of a question and to stratify<br>the dataset, which we return to in Section 6.3.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "Stratification by syntactic divergence. We also develop an automatic method to quantify the syntactic divergence between a question and the sentence containing the answer. This provides another way to measure the difficulty of a question and to stratify the dataset, which we return to in Section 6.3."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2735
+                },
+                {
+                    "x": 1250,
+                    "y": 2735
+                },
+                {
+                    "x": 1250,
+                    "y": 3015
+                },
+                {
+                    "x": 292,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='56' style='font-size:20px'>We illustrate how we measure the divergence with<br>the example in Figure 3. We first detect anchors<br>(word-lemma pairs common to both the question<br>and answer sentences); in the example, the anchor<br>is \"first\". The two unlexicalized paths, one from</p>",
+            "id": 56,
+            "page": 5,
+            "text": "We illustrate how we measure the divergence with the example in Figure 3. We first detect anchors (word-lemma pairs common to both the question and answer sentences); in the example, the anchor is \"first\". The two unlexicalized paths, one from"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 1726
+                },
+                {
+                    "x": 2259,
+                    "y": 1726
+                },
+                {
+                    "x": 2259,
+                    "y": 2687
+                },
+                {
+                    "x": 1296,
+                    "y": 2687
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:18px'>the anchor \"first\" in the question to the wh-word<br>\"what\", and the other from the anchor in the answer<br>sentence and to the answer span \"Bainbridge 's\", are<br>then extracted from the dependency parse trees. We<br>measure the edit distance between these two paths,<br>which we define as the minimum number of dele-<br>tions or insertions to transform one path into the<br>other. The syntactic divergence is then defined as<br>the minimum edit distance over all possible anchors.<br>The histogram in Figure 4a shows that there is a<br>wide range of syntactic divergence in our dataset.<br>We also show a concrete example where the edit dis-<br>tance is 0 and another where it is 6. Note that our<br>syntactic divergence ignores lexical variation. Also,<br>small divergence does not mean that a question is<br>easy since there could be other candidates with sim-<br>ilarly small divergence.</p>",
+            "id": 57,
+            "page": 5,
+            "text": "the anchor \"first\" in the question to the wh-word \"what\", and the other from the anchor in the answer sentence and to the answer span \"Bainbridge 's\", are then extracted from the dependency parse trees. We measure the edit distance between these two paths, which we define as the minimum number of deletions or insertions to transform one path into the other. The syntactic divergence is then defined as the minimum edit distance over all possible anchors. The histogram in Figure 4a shows that there is a wide range of syntactic divergence in our dataset. We also show a concrete example where the edit distance is 0 and another where it is 6. Note that our syntactic divergence ignores lexical variation. Also, small divergence does not mean that a question is easy since there could be other candidates with similarly small divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2776
+                },
+                {
+                    "x": 1569,
+                    "y": 2776
+                },
+                {
+                    "x": 1569,
+                    "y": 2829
+                },
+                {
+                    "x": 1296,
+                    "y": 2829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='58' style='font-size:22px'>5 Methods</p>",
+            "id": 58,
+            "page": 5,
+            "text": "5 Methods"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1301,
+                    "y": 2904
+                },
+                {
+                    "x": 2254,
+                    "y": 2904
+                },
+                {
+                    "x": 2254,
+                    "y": 3013
+                },
+                {
+                    "x": 1301,
+                    "y": 3013
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>We developed a logistic regression model and com-<br>pare its accuracy with that of three baseline methods.</p>",
+            "id": 59,
+            "page": 5,
+            "text": "We developed a logistic regression model and compare its accuracy with that of three baseline methods."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 339,
+                    "y": 310
+                },
+                {
+                    "x": 1238,
+                    "y": 310
+                },
+                {
+                    "x": 1238,
+                    "y": 854
+                },
+                {
+                    "x": 339,
+                    "y": 854
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='60' style='font-size:16px' alt=\"30.0\n25.0\nPercentage 15.0\n20.0\n10.0\n5.0\n0.0\n0 1 2 3 4 5 6 7 8\nSyntactic divergence\n(a) Histogram of\" data-coord=\"top-left:(339,310); bottom-right:(1238,854)\" /></figure>",
+            "id": 60,
+            "page": 6,
+            "text": "30.0 25.0 Percentage 15.0 20.0 10.0 5.0 0.0 0 1 2 3 4 5 6 7 8 Syntactic divergence (a) Histogram of"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 296
+                },
+                {
+                    "x": 2130,
+                    "y": 296
+                },
+                {
+                    "x": 2130,
+                    "y": 486
+                },
+                {
+                    "x": 1277,
+                    "y": 486
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='61' style='font-size:18px'>Q: Who went to Wittenberg to hear Luther speak?<br>S: Students thronged to Wittenberg to hear Luther<br>speak.<br>Path:</p>",
+            "id": 61,
+            "page": 6,
+            "text": "Q: Who went to Wittenberg to hear Luther speak? S: Students thronged to Wittenberg to hear Luther speak. Path:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1229,
+                    "y": 737
+                },
+                {
+                    "x": 2213,
+                    "y": 737
+                },
+                {
+                    "x": 2213,
+                    "y": 875
+                },
+                {
+                    "x": 1229,
+                    "y": 875
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='62' style='font-size:16px'>(b) An example of a question-answer pair with edit distance 0 be-<br>tween the dependency paths (note that lexical variation is ignored<br>in the computation of edit distance).</caption>",
+            "id": 62,
+            "page": 6,
+            "text": "(b) An example of a question-answer pair with edit distance 0 between the dependency paths (note that lexical variation is ignored in the computation of edit distance)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 752,
+                    "y": 832
+                },
+                {
+                    "x": 1077,
+                    "y": 832
+                },
+                {
+                    "x": 1077,
+                    "y": 876
+                },
+                {
+                    "x": 752,
+                    "y": 876
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:18px'>syntactic divergence.</p>",
+            "id": 63,
+            "page": 6,
+            "text": "syntactic divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 315,
+                    "y": 904
+                },
+                {
+                    "x": 2215,
+                    "y": 904
+                },
+                {
+                    "x": 2215,
+                    "y": 1048
+                },
+                {
+                    "x": 315,
+                    "y": 1048
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='64' style='font-size:16px'>Q: What impact did the high school education movement have on the presence of skilled workers?<br>S: During the mass high school education movement from 1910 - 1940 , there was an increase in skilled workers.<br>Path:</caption>",
+            "id": 64,
+            "page": 6,
+            "text": "Q: What impact did the high school education movement have on the presence of skilled workers? S: During the mass high school education movement from 1910 - 1940 , there was an increase in skilled workers. Path:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 801,
+                    "y": 1215
+                },
+                {
+                    "x": 1747,
+                    "y": 1215
+                },
+                {
+                    "x": 1747,
+                    "y": 1257
+                },
+                {
+                    "x": 801,
+                    "y": 1257
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='65' style='font-size:16px'>(c) An example of a question-answer pair with edit distance 6.</caption>",
+            "id": 65,
+            "page": 6,
+            "text": "(c) An example of a question-answer pair with edit distance 6."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1298
+                },
+                {
+                    "x": 2255,
+                    "y": 1298
+                },
+                {
+                    "x": 2255,
+                    "y": 1400
+                },
+                {
+                    "x": 294,
+                    "y": 1400
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:14px'>Figure 4: We use the edit distance between the unlexicalized dependency paths in the question and the sentence containing the<br>answer to measure syntactic divergence.</p>",
+            "id": 66,
+            "page": 6,
+            "text": "Figure 4: We use the edit distance between the unlexicalized dependency paths in the question and the sentence containing the answer to measure syntactic divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1481
+                },
+                {
+                    "x": 1251,
+                    "y": 1481
+                },
+                {
+                    "x": 1251,
+                    "y": 2160
+                },
+                {
+                    "x": 291,
+                    "y": 2160
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:18px'>Candidate answer generation. For all four meth-<br>ods, rather than considering all O(L2) spans as can-<br>didate answers, where L is the number of words<br>in the sentence, we only use spans which are con-<br>stituents in the constituency parse generated by<br>Stanford CoreNLP. Ignoring punctuation and arti-<br>cles, we find that 77.3% of the correct answers in the<br>development set are constituents. This places an ef-<br>fective ceiling on the accuracy of our methods. Dur-<br>ing training, when the correct answer of an example<br>is not a constituent, we use the shortest constituent<br>containing the correct answer as the target.</p>",
+            "id": 67,
+            "page": 6,
+            "text": "Candidate answer generation. For all four methods, rather than considering all O(L2) spans as candidate answers, where L is the number of words in the sentence, we only use spans which are constituents in the constituency parse generated by Stanford CoreNLP. Ignoring punctuation and articles, we find that 77.3% of the correct answers in the development set are constituents. This places an effective ceiling on the accuracy of our methods. During training, when the correct answer of an example is not a constituent, we use the shortest constituent containing the correct answer as the target."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2204
+                },
+                {
+                    "x": 891,
+                    "y": 2204
+                },
+                {
+                    "x": 891,
+                    "y": 2257
+                },
+                {
+                    "x": 292,
+                    "y": 2257
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:22px'>5.1 Sliding Window Baseline</p>",
+            "id": 68,
+            "page": 6,
+            "text": "5.1 Sliding Window Baseline"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2283
+                },
+                {
+                    "x": 1252,
+                    "y": 2283
+                },
+                {
+                    "x": 1252,
+                    "y": 2670
+                },
+                {
+                    "x": 291,
+                    "y": 2670
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:20px'>For each candidate answer, we compute the uni-<br>gram/bigram overlap between the sentence contain-<br>ing it (excluding the candidate itself) and the ques-<br>tion. We keep all the candidates that have the max-<br>imal overlap. Among these, we select the best<br>one using the sliding-window approach proposed<br>in Richardson et al. (2013).</p>",
+            "id": 69,
+            "page": 6,
+            "text": "For each candidate answer, we compute the unigram/bigram overlap between the sentence containing it (excluding the candidate itself) and the question. We keep all the candidates that have the maximal overlap. Among these, we select the best one using the sliding-window approach proposed in Richardson  (2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2680
+                },
+                {
+                    "x": 1251,
+                    "y": 2680
+                },
+                {
+                    "x": 1251,
+                    "y": 3015
+                },
+                {
+                    "x": 291,
+                    "y": 3015
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:18px'>In addition to the basic sliding window ap-<br>proach, we also implemented the distance-based ex-<br>tension (Richardson et al., 2013). Whereas Richard-<br>son et al. (2013) used the entire passage as the con-<br>text of an answer, we used only the sentence con-<br>taining the candidate answer for efficiency.</p>",
+            "id": 70,
+            "page": 6,
+            "text": "In addition to the basic sliding window approach, we also implemented the distance-based extension (Richardson , 2013). Whereas Richardson  (2013) used the entire passage as the context of an answer, we used only the sentence containing the candidate answer for efficiency."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1484
+                },
+                {
+                    "x": 1788,
+                    "y": 1484
+                },
+                {
+                    "x": 1788,
+                    "y": 1535
+                },
+                {
+                    "x": 1299,
+                    "y": 1535
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:22px'>5.2 Logistic Regression</p>",
+            "id": 71,
+            "page": 6,
+            "text": "5.2 Logistic Regression"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 1582
+                },
+                {
+                    "x": 2257,
+                    "y": 1582
+                },
+                {
+                    "x": 2257,
+                    "y": 1973
+                },
+                {
+                    "x": 1296,
+                    "y": 1973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:20px'>In our logistic regression model, we extract several<br>types of features for each candidate answer. We<br>discretize each continuous feature into 10 equally-<br>sized buckets, building a total of 180 million fea-<br>tures, most of which are lexicalized features or de-<br>pendency tree path features. The descriptions and<br>examples of the features are summarized in Table 4.</p>",
+            "id": 72,
+            "page": 6,
+            "text": "In our logistic regression model, we extract several types of features for each candidate answer. We discretize each continuous feature into 10 equallysized buckets, building a total of 180 million features, most of which are lexicalized features or dependency tree path features. The descriptions and examples of the features are summarized in Table 4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1990
+                },
+                {
+                    "x": 2256,
+                    "y": 1990
+                },
+                {
+                    "x": 2256,
+                    "y": 2607
+                },
+                {
+                    "x": 1297,
+                    "y": 2607
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='73' style='font-size:20px'>The matching word and bigram frequencies as<br>well as the root match features help the model pick<br>the correct sentences. Length features bias the<br>model towards picking common lengths and posi-<br>tions for answer spans, while span word frequencies<br>bias the model against uninformative words. Con-<br>stituent label and span POS tag features guide the<br>model towards the correct answer types. In addi-<br>tion to these basic features, we resolve lexical vari-<br>ation using lexicalized features, and syntactic varia-<br>tion using dependency tree path features.</p>",
+            "id": 73,
+            "page": 6,
+            "text": "The matching word and bigram frequencies as well as the root match features help the model pick the correct sentences. Length features bias the model towards picking common lengths and positions for answer spans, while span word frequencies bias the model against uninformative words. Constituent label and span POS tag features guide the model towards the correct answer types. In addition to these basic features, we resolve lexical variation using lexicalized features, and syntactic variation using dependency tree path features."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 2622
+                },
+                {
+                    "x": 2257,
+                    "y": 2622
+                },
+                {
+                    "x": 2257,
+                    "y": 3017
+                },
+                {
+                    "x": 1296,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='74' style='font-size:20px'>The multiclass log-likelihood loss is optimized<br>using AdaGrad with an initial learning rate of 0.1.<br>Each update is performed on the batch of all ques-<br>tions in a paragraph for efficiency, since they share<br>the same candidates. L2 regularization is used, with<br>a coefficient of 0.1 divided by the number of batches.<br>The model is trained with three passes over the train-</p>",
+            "id": 74,
+            "page": 6,
+            "text": "The multiclass log-likelihood loss is optimized using AdaGrad with an initial learning rate of 0.1. Each update is performed on the batch of all questions in a paragraph for efficiency, since they share the same candidates. L2 regularization is used, with a coefficient of 0.1 divided by the number of batches. The model is trained with three passes over the train-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 285,
+                    "y": 288
+                },
+                {
+                    "x": 2270,
+                    "y": 288
+                },
+                {
+                    "x": 2270,
+                    "y": 1655
+                },
+                {
+                    "x": 285,
+                    "y": 1655
+                }
+            ],
+            "category": "table",
+            "html": "<table id='75' style='font-size:14px'><tr><td>Feature Groups</td><td>Description</td><td>Examples</td></tr><tr><td>Matching Word Frequencies</td><td>Sum of the TF-IDF of the words that occur in both the question and the sentence containing the candidate answer. Separate features are used for the words to the left, to the right, inside the span, and in the whole sentence.</td><td>Span: [0 ≤ sum < 0.01] Left: [7.9 ≤ sum < 10.7]</td></tr><tr><td>Matching Bigram Frequencies</td><td>Same as above, but using bigrams. We use the generalization of the TF-IDF described in Shirakawa et al. (2015).</td><td>Span: [0 ≤ sum < 2.4] Left: [0 ≤ sum < 2.7]</td></tr><tr><td>Root Match</td><td>Whether the dependency parse tree roots of the question and sentence match, whether the sentence contains the root of the dependency parse tree of the question, and whether the question contains the root of the dependency parse tree of the sentence.</td><td>Root Match = False</td></tr><tr><td>Lengths</td><td>Number of words to the left, to the right, inside the span, and in the whole sentence.</td><td>Span: [1 <= num < 2] Left: [15 ≤ num < 19]</td></tr><tr><td>Span Word Frequencies</td><td>Sum of the TF-IDF of the words in the span, regardless of whether they appear in the question.</td><td>Span: [5.2 ≤ sum < 6.9]</td></tr><tr><td>Constituent Label</td><td>Constituency parse tree label of the span, optionally combined with the wh-word in the question.</td><td>Span: NP Span: NP, wh-word: \"what\"</td></tr><tr><td>Span POS Tags</td><td>Sequence of the part-of-speech tags in the span, optionally combined with the wh-word in the question.</td><td>Span: [NN] Span: [NN], wh-word: \"what\"</td></tr><tr><td>Lexicalized</td><td>Lemmas of question words combined with the lemmas of words within distance 2 to the span in the sentence based on the dependency parse trees. Separately, question word lemmas combined with answer word lemmas.</td><td>case Q: \"cause\" , S: \"under\" Q: \"fall\" , A: \"gravity\"</td></tr><tr><td>Dependency Tree Paths</td><td>For each word that occurs in both the question and sentence, the path in the dependency parse tree from that word in the sentence to the span, optionally combined with the path from the wh-word to the word in the question. POS tags are included in the paths.</td><td>nmod VBZ → NN nsubj advcl what ← VBZ → nmod + VBZ >NN</td></tr></table>",
+            "id": 75,
+            "page": 7,
+            "text": "Feature Groups Description Examples  Matching Word Frequencies Sum of the TF-IDF of the words that occur in both the question and the sentence containing the candidate answer. Separate features are used for the words to the left, to the right, inside the span, and in the whole sentence. Span: [0 ≤ sum < 0.01] Left: [7.9 ≤ sum < 10.7]  Matching Bigram Frequencies Same as above, but using bigrams. We use the generalization of the TF-IDF described in Shirakawa  (2015). Span: [0 ≤ sum < 2.4] Left: [0 ≤ sum < 2.7]  Root Match Whether the dependency parse tree roots of the question and sentence match, whether the sentence contains the root of the dependency parse tree of the question, and whether the question contains the root of the dependency parse tree of the sentence. Root Match = False  Lengths Number of words to the left, to the right, inside the span, and in the whole sentence. Span: [1 <= num < 2] Left: [15 ≤ num < 19]  Span Word Frequencies Sum of the TF-IDF of the words in the span, regardless of whether they appear in the question. Span: [5.2 ≤ sum < 6.9]  Constituent Label Constituency parse tree label of the span, optionally combined with the wh-word in the question. Span: NP Span: NP, wh-word: \"what\"  Span POS Tags Sequence of the part-of-speech tags in the span, optionally combined with the wh-word in the question. Span: [NN] Span: [NN], wh-word: \"what\"  Lexicalized Lemmas of question words combined with the lemmas of words within distance 2 to the span in the sentence based on the dependency parse trees. Separately, question word lemmas combined with answer word lemmas. case Q: \"cause\" , S: \"under\" Q: \"fall\" , A: \"gravity\"  Dependency Tree Paths For each word that occurs in both the question and sentence, the path in the dependency parse tree from that word in the sentence to the span, optionally combined with the path from the wh-word to the word in the question. POS tags are included in the paths."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1678
+                },
+                {
+                    "x": 2260,
+                    "y": 1678
+                },
+                {
+                    "x": 2260,
+                    "y": 1848
+                },
+                {
+                    "x": 291,
+                    "y": 1848
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='76' style='font-size:14px'>Table 4: Features used in the logistic regression model with examples for the question \"What causes precipitation to fall?\", sentence<br>\"In meteorology, precipitation is any product of the condensation of atmospheric water vapor that falls under gravity.\" and answer<br>\"gravity\". Q denotes question, A denotes candidate answer, and S denotes sentence containing the candidate answer.</caption>",
+            "id": 76,
+            "page": 7,
+            "text": "Table 4: Features used in the logistic regression model with examples for the question \"What causes precipitation to fall?\", sentence \"In meteorology, precipitation is any product of the condensation of atmospheric water vapor that falls under gravity.\" and answer \"gravity\". Q denotes question, A denotes candidate answer, and S denotes sentence containing the candidate answer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 1926
+                },
+                {
+                    "x": 1820,
+                    "y": 1926
+                },
+                {
+                    "x": 1820,
+                    "y": 1980
+                },
+                {
+                    "x": 1298,
+                    "y": 1980
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:18px'>6.2 Human Performance</p>",
+            "id": 79,
+            "page": 7,
+            "text": "6.2 Human Performance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1929
+                },
+                {
+                    "x": 457,
+                    "y": 1929
+                },
+                {
+                    "x": 457,
+                    "y": 1977
+                },
+                {
+                    "x": 294,
+                    "y": 1977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:20px'>ing data.</p>",
+            "id": 77,
+            "page": 7,
+            "text": "ing data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 2033
+                },
+                {
+                    "x": 651,
+                    "y": 2033
+                },
+                {
+                    "x": 651,
+                    "y": 2085
+                },
+                {
+                    "x": 295,
+                    "y": 2085
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:22px'>6 Experiments</p>",
+            "id": 78,
+            "page": 7,
+            "text": "6 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2127
+                },
+                {
+                    "x": 754,
+                    "y": 2127
+                },
+                {
+                    "x": 754,
+                    "y": 2179
+                },
+                {
+                    "x": 292,
+                    "y": 2179
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='80' style='font-size:18px'>6.1 Model Evaluation</p>",
+            "id": 80,
+            "page": 7,
+            "text": "6.1 Model Evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2205
+                },
+                {
+                    "x": 1251,
+                    "y": 2205
+                },
+                {
+                    "x": 1251,
+                    "y": 2371
+                },
+                {
+                    "x": 293,
+                    "y": 2371
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:16px'>We use two different metrics to evaluate model accu-<br>racy. Both metrics ignore punctuations and articles<br>(a, an, the).</p>",
+            "id": 81,
+            "page": 7,
+            "text": "We use two different metrics to evaluate model accuracy. Both metrics ignore punctuations and articles (a, an, the)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2410
+                },
+                {
+                    "x": 1252,
+                    "y": 2410
+                },
+                {
+                    "x": 1252,
+                    "y": 2582
+                },
+                {
+                    "x": 292,
+                    "y": 2582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:16px'>Exact match. This metric measures the percent-<br>age of predictions that match any one of the ground<br>truth answers exactly.</p>",
+            "id": 82,
+            "page": 7,
+            "text": "Exact match. This metric measures the percentage of predictions that match any one of the ground truth answers exactly."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2619
+                },
+                {
+                    "x": 1252,
+                    "y": 2619
+                },
+                {
+                    "x": 1252,
+                    "y": 3016
+                },
+                {
+                    "x": 292,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:16px'>(Macro-averaged) F1 score. This metric mea-<br>sures the average overlap between the prediction and<br>ground truth answer. We treat the prediction and<br>ground truth as bags of tokens, and compute their<br>F1. We take the maximum F1 over all of the ground<br>truth answers for a given question, and then average<br>over all of the questions.</p>",
+            "id": 83,
+            "page": 7,
+            "text": "(Macro-averaged) F1 score. This metric measures the average overlap between the prediction and ground truth answer. We treat the prediction and ground truth as bags of tokens, and compute their F1. We take the maximum F1 over all of the ground truth answers for a given question, and then average over all of the questions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 1999
+                },
+                {
+                    "x": 2260,
+                    "y": 1999
+                },
+                {
+                    "x": 2260,
+                    "y": 2676
+                },
+                {
+                    "x": 1299,
+                    "y": 2676
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:16px'>We assess human performance on SQuAD's devel-<br>opment and test sets. Recall that each of the ques-<br>tions in these sets has at least three answers. To eval-<br>uate human performance, we treat the second an-<br>swer to each question as the human prediction, and<br>keep the other answers as ground truth answers. The<br>resulting human performance score on the test set is<br>77.0% for the exact match metric, and 86.8% for F1.<br>Mismatch occurs mostly due to inclusion/exclusion<br>of non-essential phrases (e.g., monsoon trough ver-<br>sus movement of the monsoon trough) rather than<br>fundamental disagreements about the answer.</p>",
+            "id": 84,
+            "page": 7,
+            "text": "We assess human performance on SQuAD's development and test sets. Recall that each of the questions in these sets has at least three answers. To evaluate human performance, we treat the second answer to each question as the human prediction, and keep the other answers as ground truth answers. The resulting human performance score on the test set is 77.0% for the exact match metric, and 86.8% for F1. Mismatch occurs mostly due to inclusion/exclusion of non-essential phrases (e.g., monsoon trough versus movement of the monsoon trough) rather than fundamental disagreements about the answer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1298,
+                    "y": 2717
+                },
+                {
+                    "x": 1797,
+                    "y": 2717
+                },
+                {
+                    "x": 1797,
+                    "y": 2769
+                },
+                {
+                    "x": 1298,
+                    "y": 2769
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:20px'>6.3 Model Performance</p>",
+            "id": 85,
+            "page": 7,
+            "text": "6.3 Model Performance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 2791
+                },
+                {
+                    "x": 2258,
+                    "y": 2791
+                },
+                {
+                    "x": 2258,
+                    "y": 3016
+                },
+                {
+                    "x": 1299,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:18px'>Table 5 shows the performance of our models along-<br>side human performance on the v1.0 of development<br>and test sets. The logistic regression model signifi-<br>cantly outperforms the baselines, but underperforms</p>",
+            "id": 86,
+            "page": 7,
+            "text": "Table 5 shows the performance of our models alongside human performance on the v1.0 of development and test sets. The logistic regression model significantly outperforms the baselines, but underperforms"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 298,
+                    "y": 297
+                },
+                {
+                    "x": 1231,
+                    "y": 297
+                },
+                {
+                    "x": 1231,
+                    "y": 699
+                },
+                {
+                    "x": 298,
+                    "y": 699
+                }
+            ],
+            "category": "table",
+            "html": "<table id='87' style='font-size:16px'><tr><td></td><td colspan=\"2\">Exact Match</td><td colspan=\"2\">F1</td></tr><tr><td></td><td>Dev</td><td>Test</td><td>Dev</td><td>Test</td></tr><tr><td>Random Guess</td><td>1.1%</td><td>1.3%</td><td>4.1%</td><td>4.3%</td></tr><tr><td>Sliding Window</td><td>13.2%</td><td>12.5%</td><td>20.2%</td><td>19.7%</td></tr><tr><td>Sliding Win. + Dist.</td><td>13.3%</td><td>13.0%</td><td>20.2%</td><td>20.0%</td></tr><tr><td>Logistic Regression</td><td>40.0%</td><td>40.4%</td><td>51.0%</td><td>51.0%</td></tr><tr><td>Human</td><td>80.3%</td><td>77.0%</td><td>90.5%</td><td>86.8%</td></tr></table>",
+            "id": 87,
+            "page": 8,
+            "text": "Exact Match F1   Dev Test Dev Test  Random Guess 1.1% 1.3% 4.1% 4.3%  Sliding Window 13.2% 12.5% 20.2% 19.7%  Sliding Win. + Dist. 13.3% 13.0% 20.2% 20.0%  Logistic Regression 40.0% 40.4% 51.0% 51.0%  Human 80.3% 77.0% 90.5%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 704
+                },
+                {
+                    "x": 1249,
+                    "y": 704
+                },
+                {
+                    "x": 1249,
+                    "y": 858
+                },
+                {
+                    "x": 293,
+                    "y": 858
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='88' style='font-size:16px'>Table 5: Performance of various methods and humans. Logis-<br>tic regression outperforms the baselines, while there is still a<br>significant gap between humans.</caption>",
+            "id": 88,
+            "page": 8,
+            "text": "Table 5: Performance of various methods and humans. Logistic regression outperforms the baselines, while there is still a significant gap between humans."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 429,
+                    "y": 898
+                },
+                {
+                    "x": 1108,
+                    "y": 898
+                },
+                {
+                    "x": 1108,
+                    "y": 1578
+                },
+                {
+                    "x": 429,
+                    "y": 1578
+                }
+            ],
+            "category": "table",
+            "html": "<table id='89' style='font-size:14px'><tr><td></td><td colspan=\"2\">F1</td></tr><tr><td></td><td>Train</td><td>Dev</td></tr><tr><td>Logistic Regression</td><td>91.7%</td><td>51.0%</td></tr><tr><td>- Lex., - Dep. Paths</td><td>33.9%</td><td>35.8%</td></tr><tr><td>- Lexicalized</td><td>53.5%</td><td>45.4%</td></tr><tr><td>- Dep. Paths</td><td>91.4%</td><td>46.4%</td></tr><tr><td>- Match. Word Freq.</td><td>91.7%</td><td>48.1%</td></tr><tr><td>- Span POS Tags</td><td>91.7%</td><td>49.7%</td></tr><tr><td>- Match. Bigram Freq.</td><td>91.7%</td><td>50.3%</td></tr><tr><td>- Constituent Label</td><td>91.7%</td><td>50.4%</td></tr><tr><td>- Lengths</td><td>91.8%</td><td>50.5%</td></tr><tr><td>- Span Word Freq.</td><td>91.7%</td><td>50.5%</td></tr><tr><td>- Root Match</td><td>91.7%</td><td>50.6%</td></tr></table>",
+            "id": 89,
+            "page": 8,
+            "text": "F1   Train Dev  Logistic Regression 91.7% 51.0%  - Lex., - Dep. Paths 33.9% 35.8%  - Lexicalized 53.5% 45.4%  - Dep. Paths 91.4% 46.4%  - Match. Word Freq. 91.7% 48.1%  - Span POS Tags 91.7% 49.7%  - Match. Bigram Freq. 91.7% 50.3%  - Constituent Label 91.7% 50.4%  - Lengths 91.8% 50.5%  - Span Word Freq. 91.7% 50.5%  - Root Match 91.7%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1582
+                },
+                {
+                    "x": 1245,
+                    "y": 1582
+                },
+                {
+                    "x": 1245,
+                    "y": 1681
+                },
+                {
+                    "x": 294,
+                    "y": 1681
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='90' style='font-size:16px'>Table 6: Performance with feature ablations. We find that lexi-<br>calized and dependency tree path features are most important.</caption>",
+            "id": 90,
+            "page": 8,
+            "text": "Table 6: Performance with feature ablations. We find that lexicalized and dependency tree path features are most important."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1770
+                },
+                {
+                    "x": 1251,
+                    "y": 1770
+                },
+                {
+                    "x": 1251,
+                    "y": 1991
+                },
+                {
+                    "x": 292,
+                    "y": 1991
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:20px'>humans. We note that the model is able to select<br>the sentence containing the answer correctly with<br>79.3% accuracy; hence, the bulk of the difficulty lies<br>in finding the exact span within the sentence.</p>",
+            "id": 91,
+            "page": 8,
+            "text": "humans. We note that the model is able to select the sentence containing the answer correctly with 79.3% accuracy; hence, the bulk of the difficulty lies in finding the exact span within the sentence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2024
+                },
+                {
+                    "x": 1252,
+                    "y": 2024
+                },
+                {
+                    "x": 1252,
+                    "y": 2813
+                },
+                {
+                    "x": 291,
+                    "y": 2813
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:20px'>Feature ablations. In order to understand the fea-<br>tures that are responsible for the performance of the<br>logistic regression model, we perform a feature ab-<br>lation where we remove one group of features from<br>our model at a time. The results, shown in Table 6,<br>indicate that lexicalized and dependency tree path<br>features are most important. Comparing our analy-<br>sis to the one in Chen et al. (2016), we note that the<br>dependency tree path features play a much bigger<br>role in our dataset. Additionally, we note that with<br>lexicalized features, the model significantly overfits<br>the training set; however, we found that increasing<br>L2 regularization hurts performance on the develop-<br>ment set.</p>",
+            "id": 92,
+            "page": 8,
+            "text": "Feature ablations. In order to understand the features that are responsible for the performance of the logistic regression model, we perform a feature ablation where we remove one group of features from our model at a time. The results, shown in Table 6, indicate that lexicalized and dependency tree path features are most important. Comparing our analysis to the one in Chen  (2016), we note that the dependency tree path features play a much bigger role in our dataset. Additionally, we note that with lexicalized features, the model significantly overfits the training set; however, we found that increasing L2 regularization hurts performance on the development set."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2846
+                },
+                {
+                    "x": 1251,
+                    "y": 2846
+                },
+                {
+                    "x": 1251,
+                    "y": 3017
+                },
+                {
+                    "x": 292,
+                    "y": 3017
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:22px'>Performance stratified by answer type. To gain<br>more insight into the performance of our logistic re-<br>gression model, we report its performance across</p>",
+            "id": 93,
+            "page": 8,
+            "text": "Performance stratified by answer type. To gain more insight into the performance of our logistic regression model, we report its performance across"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1333,
+                    "y": 296
+                },
+                {
+                    "x": 2221,
+                    "y": 296
+                },
+                {
+                    "x": 2221,
+                    "y": 901
+                },
+                {
+                    "x": 1333,
+                    "y": 901
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='94' style='font-size:18px'><tr><td></td><td>Logistic Regression Dev F1</td><td>Human Dev F1</td></tr><tr><td>Date</td><td>72.1%</td><td>93.9%</td></tr><tr><td>Other Numeric</td><td>62.5%</td><td>92.9%</td></tr><tr><td>Person</td><td>56.2%</td><td>95.4%</td></tr><tr><td>Location</td><td>55.4%</td><td>94.1%</td></tr><tr><td>Other Entity</td><td>52.2%</td><td>92.6%</td></tr><tr><td>Common Noun Phrase</td><td>46.5%</td><td>88.3%</td></tr><tr><td>Adjective Phrase</td><td>37.9%</td><td>86.8%</td></tr><tr><td>Verb Phrase</td><td>31.2%</td><td>82.4%</td></tr><tr><td>Clause</td><td>34.3%</td><td>84.5%</td></tr><tr><td>Other</td><td>34.8%</td><td>86.1%</td></tr></table>",
+            "id": 94,
+            "page": 8,
+            "text": "Logistic Regression Dev F1 Human Dev F1  Date 72.1% 93.9%  Other Numeric 62.5% 92.9%  Person 56.2% 95.4%  Location 55.4% 94.1%  Other Entity 52.2% 92.6%  Common Noun Phrase 46.5% 88.3%  Adjective Phrase 37.9% 86.8%  Verb Phrase 31.2% 82.4%  Clause 34.3% 84.5%  Other 34.8%"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 909
+                },
+                {
+                    "x": 2256,
+                    "y": 909
+                },
+                {
+                    "x": 2256,
+                    "y": 1121
+                },
+                {
+                    "x": 1296,
+                    "y": 1121
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='95' style='font-size:14px'>Table 7: Performance stratified by answer types. Logistic re-<br>gression performs better on certain types of answers, namely<br>numbers and entities. On the other hand, human performance is<br>more uniform.</caption>",
+            "id": 95,
+            "page": 8,
+            "text": "Table 7: Performance stratified by answer types. Logistic regression performs better on certain types of answers, namely numbers and entities. On the other hand, human performance is more uniform."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1305,
+                    "y": 1166
+                },
+                {
+                    "x": 2247,
+                    "y": 1166
+                },
+                {
+                    "x": 2247,
+                    "y": 1779
+                },
+                {
+                    "x": 1305,
+                    "y": 1779
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='96' style='font-size:14px' alt=\"100\n90\n80\n(%)\n70\nPreformance\n60\n50\n40\nLogistic Regression Dev F1\n30\nHuman Dev F1\n200 1 2 3 4 5 6 7 8\nSyntactic divergence\" data-coord=\"top-left:(1305,1166); bottom-right:(2247,1779)\" /></figure>",
+            "id": 96,
+            "page": 8,
+            "text": "100 90 80 (%) 70 Preformance 60 50 40 Logistic Regression Dev F1 30 Human Dev F1 200 1 2 3 4 5 6 7 8 Syntactic divergence"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 1812
+                },
+                {
+                    "x": 2257,
+                    "y": 1812
+                },
+                {
+                    "x": 2257,
+                    "y": 2031
+                },
+                {
+                    "x": 1297,
+                    "y": 2031
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='97' style='font-size:18px'>Figure 5: Performance stratified by syntactic divergence of<br>questions and sentences. The performance of logistic regres-<br>sion degrades with increasing divergence. In contrast, human<br>performance is stable across the full range of divergence.</caption>",
+            "id": 97,
+            "page": 8,
+            "text": "Figure 5: Performance stratified by syntactic divergence of questions and sentences. The performance of logistic regression degrades with increasing divergence. In contrast, human performance is stable across the full range of divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 2121
+                },
+                {
+                    "x": 2259,
+                    "y": 2121
+                },
+                {
+                    "x": 2259,
+                    "y": 2965
+                },
+                {
+                    "x": 1297,
+                    "y": 2965
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='98' style='font-size:20px'>the answer types explored in Table 2. The re-<br>sults (shown in Table 7) show that the model per-<br>forms best on dates and other numbers, categories<br>for which there are usually only a few plausible can-<br>didates, and most answers are single tokens. The<br>model is challenged more on other named entities<br>(i.e., location, person and other entities) because<br>there are many more plausible candidates. How-<br>ever, named entities are still relatively easy to iden-<br>tify by their POS tag features. The model performs<br>worst on other answer types, which together form<br>47.6% of the dataset. Humans have exceptional per-<br>formance on dates, numbers and all named entities.<br>Their performance on other answer types degrades<br>only slightly.</p>",
+            "id": 98,
+            "page": 8,
+            "text": "the answer types explored in Table 2. The results (shown in Table 7) show that the model performs best on dates and other numbers, categories for which there are usually only a few plausible candidates, and most answers are single tokens. The model is challenged more on other named entities (i.e., location, person and other entities) because there are many more plausible candidates. However, named entities are still relatively easy to identify by their POS tag features. The model performs worst on other answer types, which together form 47.6% of the dataset. Humans have exceptional performance on dates, numbers and all named entities. Their performance on other answer types degrades only slightly."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 304
+                },
+                {
+                    "x": 1250,
+                    "y": 304
+                },
+                {
+                    "x": 1250,
+                    "y": 357
+                },
+                {
+                    "x": 293,
+                    "y": 357
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:18px'>Performance stratified by syntactic divergence.</p>",
+            "id": 99,
+            "page": 9,
+            "text": "Performance stratified by syntactic divergence."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 351
+                },
+                {
+                    "x": 1249,
+                    "y": 351
+                },
+                {
+                    "x": 1249,
+                    "y": 986
+                },
+                {
+                    "x": 292,
+                    "y": 986
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='100' style='font-size:16px'>As discussed in Section 4, another challenging as-<br>pect of the dataset is the syntactic divergence be-<br>tween the question and answer sentence. Figure 5<br>shows that the more divergence there is, the lower<br>the performance of the logistic regression model.<br>Interestingly, humans do not seem to be sensitive<br>to syntactic divergence, suggesting that deep under-<br>standing is not distracted by superficial differences.<br>Measuring the degree of degradation could therefore<br>be useful in determining the extent to which a model<br>is generalizing in the right way.</p>",
+            "id": 100,
+            "page": 9,
+            "text": "As discussed in Section 4, another challenging aspect of the dataset is the syntactic divergence between the question and answer sentence. Figure 5 shows that the more divergence there is, the lower the performance of the logistic regression model. Interestingly, humans do not seem to be sensitive to syntactic divergence, suggesting that deep understanding is not distracted by superficial differences. Measuring the degree of degradation could therefore be useful in determining the extent to which a model is generalizing in the right way."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1299,
+                    "y": 303
+                },
+                {
+                    "x": 1542,
+                    "y": 303
+                },
+                {
+                    "x": 1542,
+                    "y": 357
+                },
+                {
+                    "x": 1299,
+                    "y": 357
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='101' style='font-size:20px'>References</p>",
+            "id": 107,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1045
+                },
+                {
+                    "x": 617,
+                    "y": 1045
+                },
+                {
+                    "x": 617,
+                    "y": 1100
+                },
+                {
+                    "x": 293,
+                    "y": 1100
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:16px'>7 Conclusion</p>",
+            "id": 101,
+            "page": 9,
+            "text": "7 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1150
+                },
+                {
+                    "x": 1250,
+                    "y": 1150
+                },
+                {
+                    "x": 1250,
+                    "y": 2167
+                },
+                {
+                    "x": 291,
+                    "y": 2167
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='103' style='font-size:16px'>Towards the end goal of natural language under-<br>standing, we introduce the Stanford Question An-<br>swering Dataset, a large reading comprehension<br>dataset on Wikipedia articles with crowdsourced<br>question-answer pairs. SQuAD features a diverse<br>range of question and answer types. The perfor-<br>mance of our logistic regression model, with 51.0%<br>F1, against the human F1 of 86.8% suggests ample<br>opportunity for improvement. We have made our<br>dataset freely available to encourage exploration of<br>more expressive models. Since the release of our<br>dataset, we have already seen considerable interest<br>in building models on this dataset, and the gap be-<br>tween our logistic regression model and human per-<br>formance has more than halved (Wang and Jiang,<br>2016). We expect that the remaining gap will be<br>harder to close, but that such efforts will result in<br>significant advances in reading comprehension.</p>",
+            "id": 102,
+            "page": 9,
+            "text": "Towards the end goal of natural language understanding, we introduce the Stanford Question Answering Dataset, a large reading comprehension dataset on Wikipedia articles with crowdsourced question-answer pairs. SQuAD features a diverse range of question and answer types. The performance of our logistic regression model, with 51.0% F1, against the human F1 of 86.8% suggests ample opportunity for improvement. We have made our dataset freely available to encourage exploration of more expressive models. Since the release of our dataset, we have already seen considerable interest in building models on this dataset, and the gap between our logistic regression model and human performance has more than halved (Wang and Jiang, 2016). We expect that the remaining gap will be harder to close, but that such efforts will result in significant advances in reading comprehension."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 2229
+                },
+                {
+                    "x": 634,
+                    "y": 2229
+                },
+                {
+                    "x": 634,
+                    "y": 2287
+                },
+                {
+                    "x": 294,
+                    "y": 2287
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:20px'>Reproducibility</p>",
+            "id": 103,
+            "page": 9,
+            "text": "Reproducibility"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2337
+                },
+                {
+                    "x": 1253,
+                    "y": 2337
+                },
+                {
+                    "x": 1253,
+                    "y": 2560
+                },
+                {
+                    "x": 291,
+                    "y": 2560
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='105' style='font-size:16px'>All code, data, and experiments for this paper are<br>available on the CodaLab platform:<br>https: // worksheets.codalab.org /worksheets/<br>0xd53d03a48ef64b329c1 6b9baf0f99b0c/ ·</p>",
+            "id": 104,
+            "page": 9,
+            "text": "All code, data, and experiments for this paper are available on the CodaLab platform: https: // worksheets.codalab.org /worksheets/ 0xd53d03a48ef64b329c1 6b9baf0f99b0c/ ·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 2625
+                },
+                {
+                    "x": 695,
+                    "y": 2625
+                },
+                {
+                    "x": 695,
+                    "y": 2683
+                },
+                {
+                    "x": 294,
+                    "y": 2683
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:22px'>Acknowledgments</p>",
+            "id": 105,
+            "page": 9,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2730
+                },
+                {
+                    "x": 1252,
+                    "y": 2730
+                },
+                {
+                    "x": 1252,
+                    "y": 2956
+                },
+                {
+                    "x": 292,
+                    "y": 2956
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='107' style='font-size:14px'>We would like to thank Durim Morina and Professor<br>Michael Bernstein for their help in crowdsourcing<br>the collection of our dataset, both in terms of fund-<br>ing and technical support of the Daemo platform.</p>",
+            "id": 106,
+            "page": 9,
+            "text": "We would like to thank Durim Morina and Professor Michael Bernstein for their help in crowdsourcing the collection of our dataset, both in terms of funding and technical support of the Daemo platform."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1296,
+                    "y": 386
+                },
+                {
+                    "x": 2262,
+                    "y": 386
+                },
+                {
+                    "x": 2262,
+                    "y": 3005
+                },
+                {
+                    "x": 1296,
+                    "y": 3005
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='108' style='font-size:14px'>J. Berant, V. Srikumar, P. Chen, A. V. Linden, B. Harding,<br>B. Huang, P. Clark, and C. D. Manning. 2014. Mod-<br>eling biological processes for reading comprehension.<br>In Empirical Methods in Natural Language Process-<br>ing (EMNLP).<br>E. Brill, S. Dumais, and M. Banko. 2002. An analysis of<br>the AskMSR question-answering system. In Associa-<br>tion for Computational Linguistics (ACL), pages 257-<br>264.<br>D. Chen, J. Bolton, and C. D. Manning. 2016. A<br>thorough examination of the CNN / Daily Mail read-<br>ing comprehension task. In Association for Computa-<br>tional Linguistics (ACL).<br>P. Clark and 0. Etzioni. 2016. My computer is an honor<br>student but how intelligent is it? standardized tests as<br>a measure of AI. AI Magazine, 37(1):5-12.<br>J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. Fei-<br>Fei. 2009. ImageNet: A large-scale hierarchical im-<br>age database. In Computer Vision and Pattern Recog-<br>nition (CVPR), pages 248-255.<br>D. Ferrucci, E. Brown, J. Chu-Carroll, J. Fan, D. Gondek,<br>A. A. Kalyanpur, A. Lally, J. W. Murdock, E. Nyberg,<br>J. Prager, N. Schlaefer, and C. Welty. 2013. Build-<br>ing Watson: An overview of the DeepQA project. AI<br>Magazine, 31(3):59-79.<br>S. N. Gaikwad, D. Morina, R. Nistala, M. Agarwal,<br>A. Cossette, R. Bhanu, S. Savage, V. Narwal, K. Raj-<br>pal, J. Regino, et al. 2015. Daemo: A self-governed<br>crowdsourcing marketplace. In Proceedings of the<br>28th Annual ACM Symposium on User Interface Soft-<br>ware & Technology, pages 101-102.<br>K. M. Hermann, T. Kocisky, E. Grefenstette, L. Espeholt,<br>W. Kay, M. Suleyman, and P. Blunsom. 2015. Teach-<br>ing machines to read and comprehend. In Advances in<br>Neural Information Processing Systems (NIPS).<br>F. Hill, A. Bordes, S. Chopra, and J. Weston. 2015.<br>The goldilocks principle: Reading children's books<br>with explicit memory representations. In International<br>Conference on Learning Representations (ICLR).<br>L. Hirschman, M. Light, E. Breck, and J. D. Burger.<br>1999. Deep read: A reading comprehension system.<br>In Association for Computational Linguistics (ACL),<br>pages 325-332.<br>M. J. Hosseini, H. Hajishirzi, 0. Etzioni, and N. Kush-<br>man. 2014. Learning to solve arithmetic word prob-<br>lems with verb categorization. In Empirical Meth-<br>ods in Natural Language Processing (EMNLP), pages<br>523-533.<br>N. Kushman, Y. Artzi, L. Zettlemoyer, and R. Barzilay.<br>2014. Learning to automatically solve algebra word<br>problems. In Association for Computational Linguis-<br>tics (ACL).</p>",
+            "id": 108,
+            "page": 9,
+            "text": "J. Berant, V. Srikumar, P. Chen, A. V. Linden, B. Harding, B. Huang, P. Clark, and C. D. Manning. 2014. Modeling biological processes for reading comprehension. In Empirical Methods in Natural Language Processing (EMNLP). E. Brill, S. Dumais, and M. Banko. 2002. An analysis of the AskMSR question-answering system. In Association for Computational Linguistics (ACL), pages 257264. D. Chen, J. Bolton, and C. D. Manning. 2016. A thorough examination of the CNN / Daily Mail reading comprehension task. In Association for Computational Linguistics (ACL). P. Clark and 0. Etzioni. 2016. My computer is an honor student but how intelligent is it? standardized tests as a measure of AI. AI Magazine, 37(1):5-12. J. Deng, W. Dong, R. Socher, L. Li, K. Li, and L. FeiFei. 2009. ImageNet: A large-scale hierarchical image database. In Computer Vision and Pattern Recognition (CVPR), pages 248-255. D. Ferrucci, E. Brown, J. Chu-Carroll, J. Fan, D. Gondek, A. A. Kalyanpur, A. Lally, J. W. Murdock, E. Nyberg, J. Prager, N. Schlaefer, and C. Welty. 2013. Building Watson: An overview of the DeepQA project. AI Magazine, 31(3):59-79. S. N. Gaikwad, D. Morina, R. Nistala, M. Agarwal, A. Cossette, R. Bhanu, S. Savage, V. Narwal, K. Rajpal, J. Regino,  2015. Daemo: A self-governed crowdsourcing marketplace. In Proceedings of the 28th Annual ACM Symposium on User Interface Software & Technology, pages 101-102. K. M. Hermann, T. Kocisky, E. Grefenstette, L. Espeholt, W. Kay, M. Suleyman, and P. Blunsom. 2015. Teaching machines to read and comprehend. In Advances in Neural Information Processing Systems (NIPS). F. Hill, A. Bordes, S. Chopra, and J. Weston. 2015. The goldilocks principle: Reading children's books with explicit memory representations. In International Conference on Learning Representations (ICLR). L. Hirschman, M. Light, E. Breck, and J. D. Burger. 1999. Deep read: A reading comprehension system. In Association for Computational Linguistics (ACL), pages 325-332. M. J. Hosseini, H. Hajishirzi, 0. Etzioni, and N. Kushman. 2014. Learning to solve arithmetic word problems with verb categorization. In Empirical Methods in Natural Language Processing (EMNLP), pages 523-533. N. Kushman, Y. Artzi, L. Zettlemoyer, and R. Barzilay. 2014. Learning to automatically solve algebra word problems. In Association for Computational Linguistics (ACL)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 297
+                },
+                {
+                    "x": 1258,
+                    "y": 297
+                },
+                {
+                    "x": 1258,
+                    "y": 3016
+                },
+                {
+                    "x": 291,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='109' style='font-size:14px'>M. P. Marcus, M. A. Marcinkiewicz, and B. Santorini.<br>1993. Building a large annotated corpus of En-<br>glish: the Penn Treebank. Computational Linguistics,<br>19:313-330.<br>K. Narasimhan and R. Barzilay. 2015. Machine compre-<br>hension with discourse relations. In Association for<br>Computational Linguistics (ACL).<br>H. T. Ng, L. H. Teo, and J. L. P. Kwan. 2000. A machine<br>learning approach to answering questions for reading<br>comprehension tests. In Joint SIGDAT conference on<br>empirical methods in natural language processing and<br>very large corpora - Volume 13, pages 124-132.<br>D. Ravichandran and E. Hovy. 2002. Learning surface<br>text patterns for a question answering system. In As-<br>sociation for Computational Linguistics (ACL), pages<br>41-47.<br>M. Richardson, C. J. Burges, and E. Renshaw. 2013.<br>Mctest: A challenge dataset for the open-domain ma-<br>chine comprehension of text. In Empirical Methods in<br>Natural Language Processing (EMNLP), pages 193-<br>203.<br>E. Riloff and M. Thelen. 2000. A rule-based question<br>answering system for reading comprehension tests. In<br>ANLP/NAACL Workshop on reading comprehension<br>tests as evaluation for computer-based language un-<br>derstanding sytems - Volume 6, pages 13-19.<br>M. Sachan, A. Dubey, E. P. Xing, and M. Richardson.<br>2015. Learning answer-entailing structures for ma-<br>chine comprehension. In Association for Computa-<br>tional Linguistics (ACL).<br>D. Shen and D. Klakow. 2006. Exploring correlation of<br>dependency relation paths for answer extraction. InIn-<br>ternational Conference on Computational Linguistics<br>and Association for Computational Linguistics (COL-<br>ING/ACL), pages 889-896.<br>M. Shirakawa, T. Hara, and S. Nishio. 2015. N-gram idf:<br>A global term weighting scheme based on information<br>distance. In World Wide Web (WWW), pages 960-970.<br>H. Sun, N. Duan, Y. Duan, and M. Zhou. 2013. Answer<br>extraction from passage graph for question answering.<br>In International Joint Conference on Artificial Intelli-<br>gence (IJCAI).<br>E. M. Voorhees and D. M. Tice. 2000. Building a ques-<br>tion answering test collection. In ACM Special Interest<br>Group on Information Retreival (SIGIR), pages 200-<br>207.<br>Shuohang Wang and Jing Jiang. 2016. Machine compre-<br>hension using match-lstm and answer pointer. CoRR,<br>abs/1608.07905.<br>H. Wang, M. Bansal, K. Gimpel, and D. McAllester.<br>2015. Machine comprehension with syntax, frames,<br>and semantics. In Association for Computational Lin-<br>guistics (ACL).</p>",
+            "id": 109,
+            "page": 10,
+            "text": "M. P. Marcus, M. A. Marcinkiewicz, and B. Santorini. 1993. Building a large annotated corpus of English: the Penn Treebank. Computational Linguistics, 19:313-330. K. Narasimhan and R. Barzilay. 2015. Machine comprehension with discourse relations. In Association for Computational Linguistics (ACL). H. T. Ng, L. H. Teo, and J. L. P. Kwan. 2000. A machine learning approach to answering questions for reading comprehension tests. In Joint SIGDAT conference on empirical methods in natural language processing and very large corpora - Volume 13, pages 124-132. D. Ravichandran and E. Hovy. 2002. Learning surface text patterns for a question answering system. In Association for Computational Linguistics (ACL), pages 41-47. M. Richardson, C. J. Burges, and E. Renshaw. 2013. Mctest: A challenge dataset for the open-domain machine comprehension of text. In Empirical Methods in Natural Language Processing (EMNLP), pages 193203. E. Riloff and M. Thelen. 2000. A rule-based question answering system for reading comprehension tests. In ANLP/NAACL Workshop on reading comprehension tests as evaluation for computer-based language understanding sytems - Volume 6, pages 13-19. M. Sachan, A. Dubey, E. P. Xing, and M. Richardson. 2015. Learning answer-entailing structures for machine comprehension. In Association for Computational Linguistics (ACL). D. Shen and D. Klakow. 2006. Exploring correlation of dependency relation paths for answer extraction. InInternational Conference on Computational Linguistics and Association for Computational Linguistics (COLING/ACL), pages 889-896. M. Shirakawa, T. Hara, and S. Nishio. 2015. N-gram idf: A global term weighting scheme based on information distance. In World Wide Web (WWW), pages 960-970. H. Sun, N. Duan, Y. Duan, and M. Zhou. 2013. Answer extraction from passage graph for question answering. In International Joint Conference on Artificial Intelligence (IJCAI). E. M. Voorhees and D. M. Tice. 2000. Building a question answering test collection. In ACM Special Interest Group on Information Retreival (SIGIR), pages 200207. Shuohang Wang and Jing Jiang. 2016. Machine comprehension using match-lstm and answer pointer. CoRR, abs/1608.07905.101 H. Wang, M. Bansal, K. Gimpel, and D. McAllester. 2015. Machine comprehension with syntax, frames, and semantics. In Association for Computational Linguistics (ACL)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1297,
+                    "y": 307
+                },
+                {
+                    "x": 2262,
+                    "y": 307
+                },
+                {
+                    "x": 2262,
+                    "y": 663
+                },
+                {
+                    "x": 1297,
+                    "y": 663
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:14px'>J. Weston, A. Bordes, S. Chopra, and T. Mikolov. 2015.<br>Towards AI-complete question answering: A set of<br>prerequisite toy tasks. arXiv.<br>Y. Yang, W. Yih, and C. Meek. 2015. WikiQA: A chal-<br>lenge dataset for open-domain question answering. In<br>Empirical Methods in Natural Language Processing<br>(EMNLP), pages 2013-2018.</p>",
+            "id": 110,
+            "page": 10,
+            "text": "J. Weston, A. Bordes, S. Chopra, and T. Mikolov. 2015. Towards AI-complete question answering: A set of prerequisite toy tasks. arXiv. Y. Yang, W. Yih, and C. Meek. 2015. WikiQA: A challenge dataset for open-domain question answering. In Empirical Methods in Natural Language Processing (EMNLP), pages 2013-2018."
+        }
+    ]
+}

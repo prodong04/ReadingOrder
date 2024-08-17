@@ -1,0 +1,3981 @@
+{
+    "id": "32a90670-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/glove.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 622,
+                    "y": 291
+                },
+                {
+                    "x": 1861,
+                    "y": 291
+                },
+                {
+                    "x": 1861,
+                    "y": 356
+                },
+                {
+                    "x": 622,
+                    "y": 356
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Glo Ve: Global Vectors for Word Representation</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Glo Ve: Global Vectors for Word Representation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 553,
+                    "y": 468
+                },
+                {
+                    "x": 1940,
+                    "y": 468
+                },
+                {
+                    "x": 1940,
+                    "y": 527
+                },
+                {
+                    "x": 553,
+                    "y": 527
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Jeffrey Pennington, Richard Socher, Christopher D. Manning</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Jeffrey Pennington, Richard Socher, Christopher D. Manning"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 311,
+                    "y": 531
+                },
+                {
+                    "x": 2178,
+                    "y": 531
+                },
+                {
+                    "x": 2178,
+                    "y": 646
+                },
+                {
+                    "x": 311,
+                    "y": 646
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='2' style='font-size:18px'>Computer Science Department, Stanford University, Stanford, CA 94305<br>jpennin@stanford · edu, ri chard@socher · org, manning@stanford. edu</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Computer Science Department, Stanford University, Stanford, CA 94305 jpennin@stanford · edu, ri chard@socher · org, manning@stanford. edu"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 656,
+                    "y": 856
+                },
+                {
+                    "x": 853,
+                    "y": 856
+                },
+                {
+                    "x": 853,
+                    "y": 909
+                },
+                {
+                    "x": 656,
+                    "y": 909
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:18px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 360,
+                    "y": 935
+                },
+                {
+                    "x": 1150,
+                    "y": 935
+                },
+                {
+                    "x": 1150,
+                    "y": 2297
+                },
+                {
+                    "x": 360,
+                    "y": 2297
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:14px'>Recent methods for learning vector space<br>representations of words have succeeded<br>in capturing fine-grained semantic and<br>syntactic regularities using vector arith-<br>metic, but the origin of these regularities<br>has remained opaque. We analyze and<br>make explicit the model properties needed<br>for such regularities to emerge in word<br>vectors. The result is a new global log-<br>bilinear regression model that combines<br>the advantages of the two major model<br>families in the literature: global matrix<br>factorization and local context window<br>methods. Our model efficiently leverages<br>statistical information by training only on<br>the nonzero elements in a word-word CO-<br>occurrence matrix, rather than on the en-<br>tire sparse matrix or on individual context<br>windows in a large corpus. The model pro-<br>duces a vector space with meaningful sub-<br>structure, as evidenced by its performance<br>of 75% on a recent word analogy task. It<br>also outperforms related models on simi-<br>larity tasks and named entity recognition.</p>",
+            "id": 4,
+            "page": 1,
+            "text": "Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word COoccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2317
+                },
+                {
+                    "x": 650,
+                    "y": 2317
+                },
+                {
+                    "x": 650,
+                    "y": 2374
+                },
+                {
+                    "x": 292,
+                    "y": 2374
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:18px'>1 Introduction</p>",
+            "id": 5,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2403
+                },
+                {
+                    "x": 1216,
+                    "y": 2403
+                },
+                {
+                    "x": 1216,
+                    "y": 2852
+                },
+                {
+                    "x": 291,
+                    "y": 2852
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Semantic vector space models of language repre-<br>sent each word with a real-valued vector. These<br>vectors can be used as features in a variety of ap-<br>plications, such as information retrieval (Manning<br>et al., 2008), document classification (Sebastiani,<br>2002), question answering (Tellex et al., 2003),<br>named entity recognition (Turian et al., 2010), and<br>parsing (Socher et al., 2013).</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Semantic vector space models of language represent each word with a real-valued vector. These vectors can be used as features in a variety of applications, such as information retrieval (Manning , 2008), document classification (Sebastiani, 2002), question answering (Tellex , 2003), named entity recognition (Turian , 2010), and parsing (Socher , 2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2859
+                },
+                {
+                    "x": 1217,
+                    "y": 2859
+                },
+                {
+                    "x": 1217,
+                    "y": 3196
+                },
+                {
+                    "x": 290,
+                    "y": 3196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:14px'>Most word vector methods rely on the distance<br>or angle between pairs of word vectors as the pri-<br>mary method for evaluating the intrinsic quality<br>of such a set of word representations. Recently,<br>Mikolov et al. (2013c) introduced a new evalua-<br>tion scheme based on word analogies that probes</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Most word vector methods rely on the distance or angle between pairs of word vectors as the primary method for evaluating the intrinsic quality of such a set of word representations. Recently, Mikolov  (2013c) introduced a new evaluation scheme based on word analogies that probes"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 857
+                },
+                {
+                    "x": 2198,
+                    "y": 857
+                },
+                {
+                    "x": 2198,
+                    "y": 1422
+                },
+                {
+                    "x": 1272,
+                    "y": 1422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:14px'>the finer structure of the word vector space by ex-<br>amining not the scalar distance between word vec-<br>tors, but rather their various dimensions of dif-<br>ference. For example, the analogy \"king is to<br>queen as man is to woman\" should be encoded<br>in the vector space by the vector equation king -<br>queen = man - woman. This evaluation scheme<br>favors models that produce dimensions of mean-<br>ing, thereby capturing the multi-clustering idea of<br>distributed representations (Bengio, 2009).</p>",
+            "id": 8,
+            "page": 1,
+            "text": "the finer structure of the word vector space by examining not the scalar distance between word vectors, but rather their various dimensions of difference. For example, the analogy \"king is to queen as man is to woman\" should be encoded in the vector space by the vector equation king queen = man - woman. This evaluation scheme favors models that produce dimensions of meaning, thereby capturing the multi-clustering idea of distributed representations (Bengio, 2009)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1428
+                },
+                {
+                    "x": 2198,
+                    "y": 1428
+                },
+                {
+                    "x": 2198,
+                    "y": 2219
+                },
+                {
+                    "x": 1272,
+                    "y": 2219
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:16px'>The two main model families for learning word<br>vectors are: 1) global matrix factorization meth-<br>ods, such as latent semantic analysis (LSA) (Deer-<br>wester et al., 1990) and 2) local context window<br>methods, such as the skip-gram model of Mikolov<br>et al. (2013c). Currently, both families suffer sig-<br>nificant drawbacks. While methods like LSA ef-<br>ficiently leverage statistical information, they do<br>relatively poorly on the word analogy task, indi-<br>cating a sub-optimal vector space structure. Meth-<br>ods like skip-gram may do better on the analogy<br>task, but they poorly utilize the statistics of the cor-<br>pus since they train on separate local context win-<br>dows instead of on global co-occurrence counts.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "The two main model families for learning word vectors are: 1) global matrix factorization methods, such as latent semantic analysis (LSA) (Deerwester , 1990) and 2) local context window methods, such as the skip-gram model of Mikolov  (2013c). Currently, both families suffer significant drawbacks. While methods like LSA efficiently leverage statistical information, they do relatively poorly on the word analogy task, indicating a sub-optimal vector space structure. Methods like skip-gram may do better on the analogy task, but they poorly utilize the statistics of the corpus since they train on separate local context windows instead of on global co-occurrence counts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2229
+                },
+                {
+                    "x": 2198,
+                    "y": 2229
+                },
+                {
+                    "x": 2198,
+                    "y": 3016
+                },
+                {
+                    "x": 1272,
+                    "y": 3016
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:14px'>In this work, we analyze the model properties<br>necessary to produce linear directions of meaning<br>and argue that global log-bilinear regression mod-<br>els are appropriate for doing so. We propose a spe-<br>cific weighted least squares model that trains on<br>global word-word co-occurrence counts and thus<br>makes efficient use of statistics. The model pro-<br>duces a word vector space with meaningful sub-<br>structure, as evidenced by its state-of-the-art per-<br>formance of 75% accuracy on the word analogy<br>dataset. We also demonstrate that our methods<br>outperform other current methods on several word<br>similarity tasks, and also on a common named en-<br>tity recognition (NER) benchmark.</p>",
+            "id": 10,
+            "page": 1,
+            "text": "In this work, we analyze the model properties necessary to produce linear directions of meaning and argue that global log-bilinear regression models are appropriate for doing so. We propose a specific weighted least squares model that trains on global word-word co-occurrence counts and thus makes efficient use of statistics. The model produces a word vector space with meaningful substructure, as evidenced by its state-of-the-art performance of 75% accuracy on the word analogy dataset. We also demonstrate that our methods outperform other current methods on several word similarity tasks, and also on a common named entity recognition (NER) benchmark."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 3027
+                },
+                {
+                    "x": 2197,
+                    "y": 3027
+                },
+                {
+                    "x": 2197,
+                    "y": 3194
+                },
+                {
+                    "x": 1272,
+                    "y": 3194
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:14px'>We provide the source code for the model as<br>well as trained word vectors at http : / / nlp.<br>stanford · edu / projects / glove/.</p>",
+            "id": 11,
+            "page": 1,
+            "text": "We provide the source code for the model as well as trained word vectors at http : / / nlp. stanford · edu / projects / glove/."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 266
+                },
+                {
+                    "x": 673,
+                    "y": 266
+                },
+                {
+                    "x": 673,
+                    "y": 316
+                },
+                {
+                    "x": 292,
+                    "y": 316
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:20px'>2 Related Work</p>",
+            "id": 12,
+            "page": 2,
+            "text": "2 Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 362
+                },
+                {
+                    "x": 1216,
+                    "y": 362
+                },
+                {
+                    "x": 1216,
+                    "y": 1322
+                },
+                {
+                    "x": 291,
+                    "y": 1322
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:16px'>Matrix Factorization Methods. Matrix factor-<br>ization methods for generating low-dimensional<br>word representations have roots stretching as far<br>back as LSA. These methods utilize low-rank ap-<br>proximations to decompose large matrices that<br>capture statistical information about a corpus. The<br>particular type of information captured by such<br>matrices varies by application. In LSA, the ma-<br>trices are of \"term-document\" type, i.e., the rows<br>correspond to words or terms, and the columns<br>correspond to different documents in the corpus.<br>In contrast, the Hyperspace Analogue to Language<br>(HAL) (Lund and Burgess, 1996), for example,<br>utilizes matrices of \"term-term\" type, i.e., the rows<br>and columns correspond to words and the entries<br>correspond to the number of times a given word<br>occurs in the context of another given word.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "Matrix Factorization Methods. Matrix factorization methods for generating low-dimensional word representations have roots stretching as far back as LSA. These methods utilize low-rank approximations to decompose large matrices that capture statistical information about a corpus. The particular type of information captured by such matrices varies by application. In LSA, the matrices are of \"term-document\" type, i.e., the rows correspond to words or terms, and the columns correspond to different documents in the corpus. In contrast, the Hyperspace Analogue to Language (HAL) (Lund and Burgess, 1996), for example, utilizes matrices of \"term-term\" type, i.e., the rows and columns correspond to words and the entries correspond to the number of times a given word occurs in the context of another given word."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1327
+                },
+                {
+                    "x": 1215,
+                    "y": 1327
+                },
+                {
+                    "x": 1215,
+                    "y": 2681
+                },
+                {
+                    "x": 291,
+                    "y": 2681
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:16px'>A main problem with HAL and related meth-<br>ods is that the most frequent words contribute a<br>disproportionate amount to the similarity measure:<br>the number of times two words co-occur with the<br>or and, for example, will have a large effect on<br>their similarity despite conveying relatively little<br>about their semantic relatedness. A number of<br>techniques exist that addresses this shortcoming of<br>HAL, such as the COALS method (Rohde et al.,<br>2006), in which the co-occurrence matrix is first<br>transformed by an entropy- or correlation-based<br>normalization. An advantage of this type of trans-<br>formation is that the raw co-occurrence counts,<br>which for a reasonably sized corpus might span<br>8 or 9 orders of magnitude, are compressed SO as<br>to be distributed more evenly in a smaller inter-<br>val. A variety of newer models also pursue this<br>approach, including a study (Bullinaria and Levy,<br>2007) that indicates that positive pointwise mu-<br>tual information (PPMI) is a good transformation.<br>More recently, a square root type transformation<br>in the form of Hellinger PCA (HPCA) (Lebret and<br>Collobert, 2014) has been suggested as an effec-<br>tive way of learning word representations.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "A main problem with HAL and related methods is that the most frequent words contribute a disproportionate amount to the similarity measure: the number of times two words co-occur with the or and, for example, will have a large effect on their similarity despite conveying relatively little about their semantic relatedness. A number of techniques exist that addresses this shortcoming of HAL, such as the COALS method (Rohde , 2006), in which the co-occurrence matrix is first transformed by an entropy- or correlation-based normalization. An advantage of this type of transformation is that the raw co-occurrence counts, which for a reasonably sized corpus might span 8 or 9 orders of magnitude, are compressed SO as to be distributed more evenly in a smaller interval. A variety of newer models also pursue this approach, including a study (Bullinaria and Levy, 2007) that indicates that positive pointwise mutual information (PPMI) is a good transformation. More recently, a square root type transformation in the form of Hellinger PCA (HPCA) (Lebret and Collobert, 2014) has been suggested as an effective way of learning word representations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2687
+                },
+                {
+                    "x": 1216,
+                    "y": 2687
+                },
+                {
+                    "x": 1216,
+                    "y": 3195
+                },
+                {
+                    "x": 291,
+                    "y": 3195
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='15' style='font-size:16px'>Shallow Window-Based Methods. Another<br>approach is to learn word representations that aid<br>in making predictions within local context win-<br>dows. For example, Bengio et al. (2003) intro-<br>duced a model that learns word vector representa-<br>tions as part of a simple neural network architec-<br>ture for language modeling. Collobert and Weston<br>(2008) decoupled the word vector training from<br>the downstream training objectives, which paved</p>",
+            "id": 15,
+            "page": 2,
+            "text": "Shallow Window-Based Methods. Another approach is to learn word representations that aid in making predictions within local context windows. For example, Bengio  (2003) introduced a model that learns word vector representations as part of a simple neural network architecture for language modeling. Collobert and Weston (2008) decoupled the word vector training from the downstream training objectives, which paved"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 268
+                },
+                {
+                    "x": 2197,
+                    "y": 268
+                },
+                {
+                    "x": 2197,
+                    "y": 490
+                },
+                {
+                    "x": 1271,
+                    "y": 490
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:14px'>the way for Collobert et al. (2011) to use the full<br>context of a word for learning the word represen-<br>tations, rather than just the preceding context as is<br>the case with language models.</p>",
+            "id": 16,
+            "page": 2,
+            "text": "the way for Collobert  (2011) to use the full context of a word for learning the word representations, rather than just the preceding context as is the case with language models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 497
+                },
+                {
+                    "x": 2197,
+                    "y": 497
+                },
+                {
+                    "x": 2197,
+                    "y": 1113
+                },
+                {
+                    "x": 1272,
+                    "y": 1113
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Recently, the importance of the full neural net-<br>work structure for learning useful word repre-<br>sentations has been called into question. The<br>skip-gram and continuous bag-of-words (CBOW)<br>models of Mikolov et al. (2013a) propose a sim-<br>ple single-layer architecture based on the inner<br>product between two word vectors. Mnih and<br>Kavukcuoglu (2013) also proposed closely-related<br>vector log-bilinear models, vLBL and ivLBL, and<br>Levy et al. (2014) proposed explicit word embed-<br>dings based on a PPMI metric.</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Recently, the importance of the full neural network structure for learning useful word representations has been called into question. The skip-gram and continuous bag-of-words (CBOW) models of Mikolov  (2013a) propose a simple single-layer architecture based on the inner product between two word vectors. Mnih and Kavukcuoglu (2013) also proposed closely-related vector log-bilinear models, vLBL and ivLBL, and Levy  (2014) proposed explicit word embeddings based on a PPMI metric."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1122
+                },
+                {
+                    "x": 2197,
+                    "y": 1122
+                },
+                {
+                    "x": 2197,
+                    "y": 1568
+                },
+                {
+                    "x": 1272,
+                    "y": 1568
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:16px'>In the skip-gram and ivLBL models, the objec-<br>tive is to predict a word's context given the word<br>itself, whereas the objective in the CBOW and<br>vLBL models is to predict a word given its con-<br>text. Through evaluation on a word analogy task,<br>these models demonstrated the capacity to learn<br>linguistic patterns as linear relationships between<br>the word vectors.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "In the skip-gram and ivLBL models, the objective is to predict a word's context given the word itself, whereas the objective in the CBOW and vLBL models is to predict a word given its context. Through evaluation on a word analogy task, these models demonstrated the capacity to learn linguistic patterns as linear relationships between the word vectors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1577
+                },
+                {
+                    "x": 2198,
+                    "y": 1577
+                },
+                {
+                    "x": 2198,
+                    "y": 1969
+                },
+                {
+                    "x": 1272,
+                    "y": 1969
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:16px'>Unlike the matrix factorization methods, the<br>shallow window-based methods suffer from the<br>disadvantage that they do not operate directly on<br>the co-occurrence statistics of the corpus. Instead,<br>these models scan context windows across the en-<br>tire corpus, which fails to take advantage of the<br>vast amount of repetition in the data.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "Unlike the matrix factorization methods, the shallow window-based methods suffer from the disadvantage that they do not operate directly on the co-occurrence statistics of the corpus. Instead, these models scan context windows across the entire corpus, which fails to take advantage of the vast amount of repetition in the data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2020
+                },
+                {
+                    "x": 1734,
+                    "y": 2020
+                },
+                {
+                    "x": 1734,
+                    "y": 2075
+                },
+                {
+                    "x": 1275,
+                    "y": 2075
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:22px'>3 The Glo Ve Model</p>",
+            "id": 20,
+            "page": 2,
+            "text": "3 The Glo Ve Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2118
+                },
+                {
+                    "x": 2197,
+                    "y": 2118
+                },
+                {
+                    "x": 2197,
+                    "y": 2794
+                },
+                {
+                    "x": 1273,
+                    "y": 2794
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:16px'>The statistics of word occurrences in a corpus is<br>the primary source of information available to all<br>unsupervised methods for learning word represen-<br>tations, and although many such methods now ex-<br>ist, the question still remains as to how meaning<br>is generated from these statistics, and how the re-<br>sulting word vectors might represent that meaning.<br>In this section, we shed some light on this ques-<br>tion. We use our insights to construct a new model<br>for word representation which we call GloVe, for<br>Global Vectors, because the global corpus statis-<br>tics are captured directly by the model.</p>",
+            "id": 21,
+            "page": 2,
+            "text": "The statistics of word occurrences in a corpus is the primary source of information available to all unsupervised methods for learning word representations, and although many such methods now exist, the question still remains as to how meaning is generated from these statistics, and how the resulting word vectors might represent that meaning. In this section, we shed some light on this question. We use our insights to construct a new model for word representation which we call GloVe, for Global Vectors, because the global corpus statistics are captured directly by the model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2802
+                },
+                {
+                    "x": 2196,
+                    "y": 2802
+                },
+                {
+                    "x": 2196,
+                    "y": 3196
+                },
+                {
+                    "x": 1273,
+                    "y": 3196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='22' style='font-size:16px'>First we establish some notation. Let the matrix<br>of word-word co-occurrence counts be denoted by<br>X, whose entries Xij tabulate the number of times<br>word j occurs in the context of word i. Let Xi =<br>Ek Xik be the number of times any word appears<br>in the context of word i. Finally, let Pij = P(j|i) =<br>Xij/Xi be the probability that word j appear in the</p>",
+            "id": 22,
+            "page": 2,
+            "text": "First we establish some notation. Let the matrix of word-word co-occurrence counts be denoted by X, whose entries Xij tabulate the number of times word j occurs in the context of word i. Let Xi = Ek Xik be the number of times any word appears in the context of word i. Finally, let Pij = P(j|i) = Xij/Xi be the probability that word j appear in the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 288,
+                    "y": 291
+                },
+                {
+                    "x": 2199,
+                    "y": 291
+                },
+                {
+                    "x": 2199,
+                    "y": 520
+                },
+                {
+                    "x": 288,
+                    "y": 520
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='23' style='font-size:16px'>Table 1: Co-occurrence probabilities for target words ice and steam with selected context words from a 6<br>billion token corpus. Only in the ratio does noise from non-discriminative words like water and fashion<br>cancel out, SO that large values (much greater than 1) correlate well with properties specific to ice, and<br>small values (much less than 1) correlate well with properties specific of steam.</caption>",
+            "id": 23,
+            "page": 3,
+            "text": "Table 1: Co-occurrence probabilities for target words ice and steam with selected context words from a 6 billion token corpus. Only in the ratio does noise from non-discriminative words like water and fashion cancel out, SO that large values (much greater than 1) correlate well with properties specific to ice, and small values (much less than 1) correlate well with properties specific of steam."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 526,
+                    "y": 533
+                },
+                {
+                    "x": 1930,
+                    "y": 533
+                },
+                {
+                    "x": 1930,
+                    "y": 819
+                },
+                {
+                    "x": 526,
+                    "y": 819
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='24' style='font-size:14px'><tr><td>Probability and Ratio</td><td>k = solid</td><td>k = gas</td><td>k = water</td><td>k =fashion</td></tr><tr><td>P(klice)</td><td>1.9 x 10-4</td><td>6.6 x 10-5</td><td>3.0 x 10-3</td><td>1.7 x 10-5</td></tr><tr><td>P(k|steam)</td><td>2.2 x 10-5</td><td>7.8 X 10-4</td><td>2.2 x 10-3</td><td>1.8 x 10-5</td></tr><tr><td>P(klice)/P(k|steam)</td><td>8.9</td><td>8.5 x 10-2</td><td>1.36</td><td>0.96</td></tr></table>",
+            "id": 24,
+            "page": 3,
+            "text": "Probability and Ratio k = solid k = gas k = water k =fashion  P(klice) 1.9 x 10-4 6.6 x 10-5 3.0 x 10-3 1.7 x 10-5  P(k|steam) 2.2 x 10-5 7.8 X 10-4 2.2 x 10-3 1.8 x 10-5  P(klice)/P(k|steam) 8.9 8.5 x 10-2 1.36"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 880
+                },
+                {
+                    "x": 625,
+                    "y": 880
+                },
+                {
+                    "x": 625,
+                    "y": 925
+                },
+                {
+                    "x": 293,
+                    "y": 925
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='25' style='font-size:14px'>context of word i.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "context of word i."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 932
+                },
+                {
+                    "x": 1216,
+                    "y": 932
+                },
+                {
+                    "x": 1216,
+                    "y": 2230
+                },
+                {
+                    "x": 291,
+                    "y": 2230
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:16px'>We begin with a simple example that showcases<br>how certain aspects of meaning can be extracted<br>directly from co-occurrence probabilities. Con-<br>sider two words i and j that exhibit a particular as-<br>pect of interest; for concreteness, suppose we are<br>interested in the concept of thermodynamic phase,<br>for which we might take i = ice and j = steam.<br>The relationship of these words can be examined<br>by studying the ratio of their co-occurrence prob-<br>abilities with various probe words, k. For words<br>k related to ice but not steam, say k = solid, we<br>expect the ratio Pik /Pjk will be large. Similarly,<br>for words k related to steam but not ice, say k =<br>gas, the ratio should be small. For words k like<br>water or fashion, that are either related to both ice<br>and steam, or to neither, the ratio should be close<br>to one. Table 1 shows these probabilities and their<br>ratios for a large corpus, and the numbers confirm<br>these expectations. Compared to the raw probabil-<br>ities, the ratio is better able to distinguish relevant<br>words (solid and gas) from irrelevant words (water<br>and fashion) and it is also better able to discrimi-<br>nate between the two relevant words.</p>",
+            "id": 26,
+            "page": 3,
+            "text": "We begin with a simple example that showcases how certain aspects of meaning can be extracted directly from co-occurrence probabilities. Consider two words i and j that exhibit a particular aspect of interest; for concreteness, suppose we are interested in the concept of thermodynamic phase, for which we might take i = ice and j = steam. The relationship of these words can be examined by studying the ratio of their co-occurrence probabilities with various probe words, k. For words k related to ice but not steam, say k = solid, we expect the ratio Pik /Pjk will be large. Similarly, for words k related to steam but not ice, say k = gas, the ratio should be small. For words k like water or fashion, that are either related to both ice and steam, or to neither, the ratio should be close to one. Table 1 shows these probabilities and their ratios for a large corpus, and the numbers confirm these expectations. Compared to the raw probabilities, the ratio is better able to distinguish relevant words (solid and gas) from irrelevant words (water and fashion) and it is also better able to discriminate between the two relevant words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2233
+                },
+                {
+                    "x": 1216,
+                    "y": 2233
+                },
+                {
+                    "x": 1216,
+                    "y": 2567
+                },
+                {
+                    "x": 292,
+                    "y": 2567
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:18px'>The above argument suggests that the appropri-<br>ate starting point for word vector learning should<br>be with ratios of co-occurrence probabilities rather<br>than the probabilities themselves. Noting that the<br>ratio Pik /Pjk depends on three words i, j, and k,<br>the most general model takes the form,</p>",
+            "id": 27,
+            "page": 3,
+            "text": "The above argument suggests that the appropriate starting point for word vector learning should be with ratios of co-occurrence probabilities rather than the probabilities themselves. Noting that the ratio Pik /Pjk depends on three words i, j, and k, the most general model takes the form,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2739
+                },
+                {
+                    "x": 1215,
+                    "y": 2739
+                },
+                {
+                    "x": 1215,
+                    "y": 3194
+                },
+                {
+                    "x": 291,
+                    "y": 3194
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:16px'>where W E Rd are word vectors and w E Rd<br>are separate context word vectors whose role will<br>be discussed in Section 4.2. In this equation, the<br>right-hand side is extracted from the corpus, and<br>F may depend on some as-of-yet unspecified pa-<br>rameters. The number of possibilities for F is vast,<br>but by enforcing a few desiderata we can select a<br>unique choice. First, we would like F to encode</p>",
+            "id": 28,
+            "page": 3,
+            "text": "where W E Rd are word vectors and w E Rd are separate context word vectors whose role will be discussed in Section 4.2. In this equation, the right-hand side is extracted from the corpus, and F may depend on some as-of-yet unspecified parameters. The number of possibilities for F is vast, but by enforcing a few desiderata we can select a unique choice. First, we would like F to encode"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 877
+                },
+                {
+                    "x": 2197,
+                    "y": 877
+                },
+                {
+                    "x": 2197,
+                    "y": 1268
+                },
+                {
+                    "x": 1271,
+                    "y": 1268
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='29' style='font-size:16px'>the information present the ratio Pik /Pjk in the<br>word vector space. Since vector spaces are inher-<br>ently linear structures, the most natural way to do<br>this is with vector differences. With this aim, we<br>can restrict our consideration to those functions F<br>that depend only on the difference of the two target<br>words, modifying Eqn. (1) to,</p>",
+            "id": 29,
+            "page": 3,
+            "text": "the information present the ratio Pik /Pjk in the word vector space. Since vector spaces are inherently linear structures, the most natural way to do this is with vector differences. With this aim, we can restrict our consideration to those functions F that depend only on the difference of the two target words, modifying Eqn. (1) to,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1442
+                },
+                {
+                    "x": 2197,
+                    "y": 1442
+                },
+                {
+                    "x": 2197,
+                    "y": 1833
+                },
+                {
+                    "x": 1271,
+                    "y": 1833
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='30' style='font-size:16px'>Next, we note that the arguments of F in Eqn. (2)<br>are vectors while the right-hand side is a scalar.<br>While F could be taken to be a complicated func-<br>tion parameterized by, e.g., a neural network, do-<br>ing SO would obfuscate the linear structure we are<br>trying to capture. To avoid this issue, we can first<br>take the dot product of the arguments,</p>",
+            "id": 30,
+            "page": 3,
+            "text": "Next, we note that the arguments of F in Eqn. (2) are vectors while the right-hand side is a scalar. While F could be taken to be a complicated function parameterized by, e.g., a neural network, doing SO would obfuscate the linear structure we are trying to capture. To avoid this issue, we can first take the dot product of the arguments,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2009
+                },
+                {
+                    "x": 2197,
+                    "y": 2009
+                },
+                {
+                    "x": 2197,
+                    "y": 2627
+                },
+                {
+                    "x": 1273,
+                    "y": 2627
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>which prevents F from mixing the vector dimen-<br>sions in undesirable ways. Next, note that for<br>word-word co-occurrence matrices, the distinction<br>between a word and a context word is arbitrary and<br>that we are free to exchange the two roles. To do so<br>consistently, we must not only exchange W ↔ w<br>but also X ↔ XT. Our final model should be in-<br>variant under this relabeling, but Eqn. (3) is not.<br>However, the symmetry can be restored in two<br>steps. First, we require that F be a homomorphism<br>between the groups (R, +) and (R>0, x), i.e.,</p>",
+            "id": 31,
+            "page": 3,
+            "text": "which prevents F from mixing the vector dimensions in undesirable ways. Next, note that for word-word co-occurrence matrices, the distinction between a word and a context word is arbitrary and that we are free to exchange the two roles. To do so consistently, we must not only exchange W ↔ w but also X ↔ XT. Our final model should be invariant under this relabeling, but Eqn. (3) is not. However, the symmetry can be restored in two steps. First, we require that F be a homomorphism between the groups (R, +) and (R>0, x), i.e.,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2827
+                },
+                {
+                    "x": 1871,
+                    "y": 2827
+                },
+                {
+                    "x": 1871,
+                    "y": 2880
+                },
+                {
+                    "x": 1275,
+                    "y": 2880
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:20px'>which, by Eqn. (3), is solved by,</p>",
+            "id": 32,
+            "page": 3,
+            "text": "which, by Eqn. (3), is solved by,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 3046
+                },
+                {
+                    "x": 1993,
+                    "y": 3046
+                },
+                {
+                    "x": 1993,
+                    "y": 3101
+                },
+                {
+                    "x": 1273,
+                    "y": 3101
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='33' style='font-size:16px'>The solution to Eqn. (4) is F = exp, or,</p>",
+            "id": 33,
+            "page": 3,
+            "text": "The solution to Eqn. (4) is F = exp, or,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 267
+                },
+                {
+                    "x": 1216,
+                    "y": 267
+                },
+                {
+                    "x": 1216,
+                    "y": 605
+                },
+                {
+                    "x": 290,
+                    "y": 605
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='34' style='font-size:16px'>Next, we note that Eqn. (6) would exhibit the ex-<br>change symmetry if not for the log(Xi) on the<br>right-hand side. However, this term is indepen-<br>dent of k SO it can be absorbed into a bias bi for<br>Wi. Finally, adding an additional bias bk for Wk<br>restores the symmetry,</p>",
+            "id": 34,
+            "page": 4,
+            "text": "Next, we note that Eqn. (6) would exhibit the exchange symmetry if not for the log(Xi) on the right-hand side. However, this term is independent of k SO it can be absorbed into a bias bi for Wi. Finally, adding an additional bias bk for Wk restores the symmetry,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 748
+                },
+                {
+                    "x": 1216,
+                    "y": 748
+                },
+                {
+                    "x": 1216,
+                    "y": 1649
+                },
+                {
+                    "x": 292,
+                    "y": 1649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='35' style='font-size:16px'>Eqn. (7) is a drastic simplification over Eqn. (1),<br>but it is actually ill-defined since the logarithm di-<br>verges whenever its argument is zero. One reso-<br>lution to this issue is to include an additive shift<br>in the logarithm, log(Xik) → log(1 + Xik), which<br>maintains the sparsity of X while avoiding the di-<br>vergences. The idea of factorizing the log of the<br>co-occurrence matrix is closely related to LSA and<br>we will use the resulting model as a baseline in<br>our experiments. A main drawback to this model<br>is that it weighs all co-occurrences equally, even<br>those that happen rarely or never. Such rare CO-<br>occurrences are noisy and carry less information<br>than the more frequent ones yet even just the<br>zero entries account for 75-95% of the data in X,<br>depending on the vocabulary size and corpus.</p>",
+            "id": 35,
+            "page": 4,
+            "text": "Eqn. (7) is a drastic simplification over Eqn. (1), but it is actually ill-defined since the logarithm diverges whenever its argument is zero. One resolution to this issue is to include an additive shift in the logarithm, log(Xik) → log(1 + Xik), which maintains the sparsity of X while avoiding the divergences. The idea of factorizing the log of the co-occurrence matrix is closely related to LSA and we will use the resulting model as a baseline in our experiments. A main drawback to this model is that it weighs all co-occurrences equally, even those that happen rarely or never. Such rare COoccurrences are noisy and carry less information than the more frequent ones yet even just the zero entries account for 75-95% of the data in X, depending on the vocabulary size and corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1655
+                },
+                {
+                    "x": 1216,
+                    "y": 1655
+                },
+                {
+                    "x": 1216,
+                    "y": 1931
+                },
+                {
+                    "x": 292,
+                    "y": 1931
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='36' style='font-size:16px'>We propose a new weighted least squares re-<br>gression model that addresses these problems.<br>Casting Eqn. (7) as a least squares problem and<br>introducing a weighting function f(Xij) into the<br>cost function gives us the model</p>",
+            "id": 36,
+            "page": 4,
+            "text": "We propose a new weighted least squares regression model that addresses these problems. Casting Eqn. (7) as a least squares problem and introducing a weighting function f(Xij) into the cost function gives us the model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2174
+                },
+                {
+                    "x": 1214,
+                    "y": 2174
+                },
+                {
+                    "x": 1214,
+                    "y": 2284
+                },
+                {
+                    "x": 291,
+                    "y": 2284
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='37' style='font-size:18px'>where V is the size of the vocabulary. The weight-<br>ing function should obey the following properties:</p>",
+            "id": 37,
+            "page": 4,
+            "text": "where V is the size of the vocabulary. The weighting function should obey the following properties:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 327,
+                    "y": 2314
+                },
+                {
+                    "x": 1220,
+                    "y": 2314
+                },
+                {
+                    "x": 1220,
+                    "y": 2844
+                },
+                {
+                    "x": 327,
+                    "y": 2844
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:14px'>1. f(0) = 0. If f is viewed as a continuous<br>function, it should vanish as x → 0 fast<br>enough that the limx→0 f(x) log2 x is finite.<br>2. f(x) should be non-decreasing SO that rare<br>co-occurrences are not overweighted.<br>3. f(x) should be relatively small for large val-<br>ues of x, SO that frequent co-occurrences are<br>not overweighted.</p>",
+            "id": 38,
+            "page": 4,
+            "text": "1. f(0) = 0. If f is viewed as a continuous function, it should vanish as x → 0 fast enough that the limx→0 f(x) log2 x is finite. 2. f(x) should be non-decreasing SO that rare co-occurrences are not overweighted. 3. f(x) should be relatively small for large values of x, SO that frequent co-occurrences are not overweighted."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2879
+                },
+                {
+                    "x": 1215,
+                    "y": 2879
+                },
+                {
+                    "x": 1215,
+                    "y": 3045
+                },
+                {
+                    "x": 292,
+                    "y": 3045
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:14px'>Of course a large number of functions satisfy these<br>properties, but one class of functions that we found<br>to work well can be parameterized as,</p>",
+            "id": 39,
+            "page": 4,
+            "text": "Of course a large number of functions satisfy these properties, but one class of functions that we found to work well can be parameterized as,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1311,
+                    "y": 255
+                },
+                {
+                    "x": 2103,
+                    "y": 255
+                },
+                {
+                    "x": 2103,
+                    "y": 654
+                },
+                {
+                    "x": 1311,
+                    "y": 654
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='40' style='font-size:14px' alt=\"1.0\n0.8\n0.6\nf(Xij)\n0.4\n0.2\n0.0 Xij\nXmax\" data-coord=\"top-left:(1311,255); bottom-right:(2103,654)\" /></figure>",
+            "id": 40,
+            "page": 4,
+            "text": "1.0 0.8 0.6 f(Xij) 0.4 0.2 0.0 Xij Xmax"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1310,
+                    "y": 698
+                },
+                {
+                    "x": 2157,
+                    "y": 698
+                },
+                {
+                    "x": 2157,
+                    "y": 753
+                },
+                {
+                    "x": 1310,
+                    "y": 753
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='41' style='font-size:18px'>Figure 1: Weighting function f with a = 3/4.</caption>",
+            "id": 41,
+            "page": 4,
+            "text": "Figure 1: Weighting function f with a = 3/4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 794
+                },
+                {
+                    "x": 2196,
+                    "y": 794
+                },
+                {
+                    "x": 2196,
+                    "y": 1245
+                },
+                {
+                    "x": 1272,
+                    "y": 1245
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:16px'>The performance of the model depends weakly on<br>the cutoff, which we fix to Xmax = 100 for all our<br>experiments. We found that a = 3/4 gives a mod-<br>est improvement over a linear version with a = 1.<br>Although we offer only empirical motivation for<br>choosing the value 3/4, it is interesting that a sim-<br>ilar fractional power scaling was found to give the<br>best performance in (Mikolov et al., 2013a).</p>",
+            "id": 42,
+            "page": 4,
+            "text": "The performance of the model depends weakly on the cutoff, which we fix to Xmax = 100 for all our experiments. We found that a = 3/4 gives a modest improvement over a linear version with a = 1. Although we offer only empirical motivation for choosing the value 3/4, it is interesting that a similar fractional power scaling was found to give the best performance in (Mikolov , 2013a)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1290
+                },
+                {
+                    "x": 1963,
+                    "y": 1290
+                },
+                {
+                    "x": 1963,
+                    "y": 1344
+                },
+                {
+                    "x": 1273,
+                    "y": 1344
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:18px'>3.1 Relationship to Other Models</p>",
+            "id": 43,
+            "page": 4,
+            "text": "3.1 Relationship to Other Models"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1368
+                },
+                {
+                    "x": 2197,
+                    "y": 1368
+                },
+                {
+                    "x": 2197,
+                    "y": 1873
+                },
+                {
+                    "x": 1272,
+                    "y": 1873
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='44' style='font-size:14px'>Because all unsupervised methods for learning<br>word vectors are ultimately based on the occur-<br>rence statistics of a corpus, there should be com-<br>monalities between the models. Nevertheless, cer-<br>tain models remain somewhat opaque in this re-<br>gard, particularly the recent window-based meth-<br>ods like skip-gram and ivLBL. Therefore, in this<br>subsection we show how these models are related<br>to our proposed model, as defined in Eqn. (8).</p>",
+            "id": 44,
+            "page": 4,
+            "text": "Because all unsupervised methods for learning word vectors are ultimately based on the occurrence statistics of a corpus, there should be commonalities between the models. Nevertheless, certain models remain somewhat opaque in this regard, particularly the recent window-based methods like skip-gram and ivLBL. Therefore, in this subsection we show how these models are related to our proposed model, as defined in Eqn. (8)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1881
+                },
+                {
+                    "x": 2197,
+                    "y": 1881
+                },
+                {
+                    "x": 2197,
+                    "y": 2105
+                },
+                {
+                    "x": 1272,
+                    "y": 2105
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:14px'>The starting point for the skip-gram or ivLBL<br>methods is a model Qij for the probability that<br>word j appears in the context of word i. For con-<br>creteness, let us assume that Qij is a softmax,</p>",
+            "id": 45,
+            "page": 4,
+            "text": "The starting point for the skip-gram or ivLBL methods is a model Qij for the probability that word j appears in the context of word i. For concreteness, let us assume that Qij is a softmax,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 2332
+                },
+                {
+                    "x": 2196,
+                    "y": 2332
+                },
+                {
+                    "x": 2196,
+                    "y": 2669
+                },
+                {
+                    "x": 1271,
+                    "y": 2669
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:16px'>Most of the details of these models are irrelevant<br>for our purposes, aside from the the fact that they<br>attempt to maximize the log probability as a con-<br>text window scans over the corpus. Training pro-<br>ceeds in an on-line, stochastic fashion, but the im-<br>plied global objective function can be written as,</p>",
+            "id": 46,
+            "page": 4,
+            "text": "Most of the details of these models are irrelevant for our purposes, aside from the the fact that they attempt to maximize the log probability as a context window scans over the corpus. Training proceeds in an on-line, stochastic fashion, but the implied global objective function can be written as,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2913
+                },
+                {
+                    "x": 2197,
+                    "y": 2913
+                },
+                {
+                    "x": 2197,
+                    "y": 3196
+                },
+                {
+                    "x": 1272,
+                    "y": 3196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:16px'>Evaluating the normalization factor of the soft-<br>max for each term in this sum is costly. To al-<br>low for efficient training, the skip-gram and ivLBL<br>models introduce approximations to Qij. How-<br>ever, the sum in Eqn. (11) can be evaluated much</p>",
+            "id": 47,
+            "page": 4,
+            "text": "Evaluating the normalization factor of the softmax for each term in this sum is costly. To allow for efficient training, the skip-gram and ivLBL models introduce approximations to Qij. However, the sum in Eqn. (11) can be evaluated much"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 270
+                },
+                {
+                    "x": 1215,
+                    "y": 270
+                },
+                {
+                    "x": 1215,
+                    "y": 376
+                },
+                {
+                    "x": 292,
+                    "y": 376
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:16px'>more efficiently if we first group together those<br>terms that have the same values for i and j,</p>",
+            "id": 48,
+            "page": 5,
+            "text": "more efficiently if we first group together those terms that have the same values for i and j,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 630
+                },
+                {
+                    "x": 1214,
+                    "y": 630
+                },
+                {
+                    "x": 1214,
+                    "y": 738
+                },
+                {
+                    "x": 291,
+                    "y": 738
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:16px'>where we have used the fact that the number of<br>like terms is given by the co-occurrence matrix X.</p>",
+            "id": 49,
+            "page": 5,
+            "text": "where we have used the fact that the number of like terms is given by the co-occurrence matrix X."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1117
+                },
+                {
+                    "x": 1215,
+                    "y": 1117
+                },
+                {
+                    "x": 1215,
+                    "y": 1896
+                },
+                {
+                    "x": 291,
+                    "y": 1896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='50' style='font-size:18px'>where H(Pi,Qi) is the cross entropy of the dis-<br>tributions Pi and Qi, which we define in analogy<br>to Xi. As a weighted sum of cross-entropy error,<br>this objective bears some formal resemblance to<br>the weighted least squares objective of Eqn. (8).<br>In fact, it is possible to optimize Eqn. (13) directly<br>as opposed to the on-line training methods used in<br>the skip-gram and ivLBL models. One could inter-<br>pret this objective as a \"global skip-gram\" model,<br>and it might be interesting to investigate further.<br>On the other hand, Eqn. (13) exhibits a number of<br>undesirable properties that ought to be addressed<br>before adopting it as a model for learning word<br>vectors.</p>",
+            "id": 50,
+            "page": 5,
+            "text": "where H(Pi,Qi) is the cross entropy of the distributions Pi and Qi, which we define in analogy to Xi. As a weighted sum of cross-entropy error, this objective bears some formal resemblance to the weighted least squares objective of Eqn. (8). In fact, it is possible to optimize Eqn. (13) directly as opposed to the on-line training methods used in the skip-gram and ivLBL models. One could interpret this objective as a \"global skip-gram\" model, and it might be interesting to investigate further. On the other hand, Eqn. (13) exhibits a number of undesirable properties that ought to be addressed before adopting it as a model for learning word vectors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1907
+                },
+                {
+                    "x": 1216,
+                    "y": 1907
+                },
+                {
+                    "x": 1216,
+                    "y": 2695
+                },
+                {
+                    "x": 291,
+                    "y": 2695
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:16px'>To begin, cross entropy error is just one among<br>many possible distance measures between prob-<br>ability distributions, and it has the unfortunate<br>property that distributions with long tails are of-<br>ten modeled poorly with too much weight given<br>to the unlikely events. Furthermore, for the mea-<br>sure to be bounded it requires that the model dis-<br>tribution Q be properly normalized. This presents<br>a computational bottleneck owing to the sum over<br>the whole vocabulary in Eqn. (10), and it would be<br>desirable to consider a different distance measure<br>that did not require this property of Q. A natural<br>choice would be a least squares objective in which<br>normalization factors in l and P are discarded,</p>",
+            "id": 51,
+            "page": 5,
+            "text": "To begin, cross entropy error is just one among many possible distance measures between probability distributions, and it has the unfortunate property that distributions with long tails are often modeled poorly with too much weight given to the unlikely events. Furthermore, for the measure to be bounded it requires that the model distribution Q be properly normalized. This presents a computational bottleneck owing to the sum over the whole vocabulary in Eqn. (10), and it would be desirable to consider a different distance measure that did not require this property of Q. A natural choice would be a least squares objective in which normalization factors in l and P are discarded,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2907
+                },
+                {
+                    "x": 1215,
+                    "y": 2907
+                },
+                {
+                    "x": 1215,
+                    "y": 3195
+                },
+                {
+                    "x": 291,
+                    "y": 3195
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:18px'>where Pij = Xij and Qij = exp(wT wj) are the<br>unnormalized distributions. At this stage another<br>problem emerges, namely that Xij often takes very<br>large values, which can complicate the optimiza-<br>tion. An effective remedy is to minimize the</p>",
+            "id": 52,
+            "page": 5,
+            "text": "where Pij = Xij and Qij = exp(wT wj) are the unnormalized distributions. At this stage another problem emerges, namely that Xij often takes very large values, which can complicate the optimization. An effective remedy is to minimize the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 268
+                },
+                {
+                    "x": 2194,
+                    "y": 268
+                },
+                {
+                    "x": 2194,
+                    "y": 321
+                },
+                {
+                    "x": 1272,
+                    "y": 321
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:18px'>squared error of the logarithms of P and 0 instead,</p>",
+            "id": 53,
+            "page": 5,
+            "text": "squared error of the logarithms of P and 0 instead,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 624
+                },
+                {
+                    "x": 2197,
+                    "y": 624
+                },
+                {
+                    "x": 2197,
+                    "y": 1238
+                },
+                {
+                    "x": 1273,
+                    "y": 1238
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:16px'>Finally, we observe that while the weighting factor<br>Xi is preordained by the on-line training method<br>inherent to the skip-gram and ivLBL models, it is<br>by no means guaranteed to be optimal. In fact,<br>Mikolov et al. (2013a) observe that performance<br>can be increased by filtering the data SO as to re-<br>duce the effective value of the weighting factor for<br>frequent words. With this in mind, we introduce<br>a more general weighting function, which we are<br>free to take to depend on the context word as well.<br>The result is,</p>",
+            "id": 54,
+            "page": 5,
+            "text": "Finally, we observe that while the weighting factor Xi is preordained by the on-line training method inherent to the skip-gram and ivLBL models, it is by no means guaranteed to be optimal. In fact, Mikolov  (2013a) observe that performance can be increased by filtering the data SO as to reduce the effective value of the weighting factor for frequent words. With this in mind, we introduce a more general weighting function, which we are free to take to depend on the context word as well. The result is,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1425
+                },
+                {
+                    "x": 2194,
+                    "y": 1425
+                },
+                {
+                    "x": 2194,
+                    "y": 1538
+                },
+                {
+                    "x": 1274,
+                    "y": 1538
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:18px'>which is equivalent1 to the cost function of<br>Eqn. (8), which we derived previously.</p>",
+            "id": 55,
+            "page": 5,
+            "text": "which is equivalent1 to the cost function of Eqn. (8), which we derived previously."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1575
+                },
+                {
+                    "x": 1863,
+                    "y": 1575
+                },
+                {
+                    "x": 1863,
+                    "y": 1626
+                },
+                {
+                    "x": 1273,
+                    "y": 1626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>3.2 Complexity of the model</p>",
+            "id": 56,
+            "page": 5,
+            "text": "3.2 Complexity of the model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1651
+                },
+                {
+                    "x": 2197,
+                    "y": 1651
+                },
+                {
+                    "x": 2197,
+                    "y": 2543
+                },
+                {
+                    "x": 1272,
+                    "y": 2543
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='57' style='font-size:16px'>As can be seen from Eqn. (8) and the explicit form<br>of the weighting function f(X), the computational<br>complexity of the model depends on the number of<br>nonzero elements in the matrix X. As this num-<br>ber is always less than the total number of en-<br>tries of the matrix, the model scales no worse than<br>O(IV|2). At first glance this might seem like a sub-<br>stantial improvement over the shallow window-<br>based approaches, which scale with the corpus<br>size, ICI. However, typical vocabularies have hun-<br>dreds of thousands of words, SO that |V|2 can be in<br>the hundreds of billions, which is actually much<br>larger than most corpora. For this reason it is im-<br>portant to determine whether a tighter bound can<br>be placed on the number of nonzero elements of<br>X.</p>",
+            "id": 57,
+            "page": 5,
+            "text": "As can be seen from Eqn. (8) and the explicit form of the weighting function f(X), the computational complexity of the model depends on the number of nonzero elements in the matrix X. As this number is always less than the total number of entries of the matrix, the model scales no worse than O(IV|2). At first glance this might seem like a substantial improvement over the shallow windowbased approaches, which scale with the corpus size, ICI. However, typical vocabularies have hundreds of thousands of words, SO that |V|2 can be in the hundreds of billions, which is actually much larger than most corpora. For this reason it is important to determine whether a tighter bound can be placed on the number of nonzero elements of X."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 2552
+                },
+                {
+                    "x": 2197,
+                    "y": 2552
+                },
+                {
+                    "x": 2197,
+                    "y": 2944
+                },
+                {
+                    "x": 1271,
+                    "y": 2944
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:16px'>In order to make any concrete statements about<br>the number of nonzero elements in X, it is neces-<br>sary to make some assumptions about the distribu-<br>tion of word co-occurrences. In particular, we will<br>assume that the number of co-occurrences of word<br>i with word j, Xij, can be modeled as a power-law<br>function of the frequency rank of that word pair,</p>",
+            "id": 58,
+            "page": 5,
+            "text": "In order to make any concrete statements about the number of nonzero elements in X, it is necessary to make some assumptions about the distribution of word co-occurrences. In particular, we will assume that the number of co-occurrences of word i with word j, Xij, can be modeled as a power-law function of the frequency rank of that word pair,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 3143
+                },
+                {
+                    "x": 2041,
+                    "y": 3143
+                },
+                {
+                    "x": 2041,
+                    "y": 3190
+                },
+                {
+                    "x": 1323,
+                    "y": 3190
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:14px'>1We could also include bias terms in Eqn. (16).</p>",
+            "id": 59,
+            "page": 5,
+            "text": "1We could also include bias terms in Eqn. (16)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 268
+                },
+                {
+                    "x": 1215,
+                    "y": 268
+                },
+                {
+                    "x": 1215,
+                    "y": 432
+                },
+                {
+                    "x": 292,
+                    "y": 432
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='60' style='font-size:14px'>The total number of words in the corpus is pro-<br>portional to the sum over all elements of the CO-<br>occurrence matrix X,</p>",
+            "id": 60,
+            "page": 6,
+            "text": "The total number of words in the corpus is proportional to the sum over all elements of the COoccurrence matrix X,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 663
+                },
+                {
+                    "x": 1215,
+                    "y": 663
+                },
+                {
+                    "x": 1215,
+                    "y": 1108
+                },
+                {
+                    "x": 292,
+                    "y": 1108
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:16px'>where we have rewritten the last sum in terms of<br>the generalized harmonic number Hn,m. The up-<br>per limit of the sum, |X|, is the maximum fre-<br>quency rank, which coincides with the number of<br>nonzero elements in the matrix X. This number is<br>also equal to the maximum value of r in Eqn. (17)<br>such that Xij ≥ 1, i.e., |X| = k1/�. Therefore we<br>can write Eqn. (18) as,</p>",
+            "id": 61,
+            "page": 6,
+            "text": "where we have rewritten the last sum in terms of the generalized harmonic number Hn,m. The upper limit of the sum, |X|, is the maximum frequency rank, which coincides with the number of nonzero elements in the matrix X. This number is also equal to the maximum value of r in Eqn. (17) such that Xij ≥ 1, i.e., |X| = k1/�. Therefore we can write Eqn. (18) as,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1252
+                },
+                {
+                    "x": 1215,
+                    "y": 1252
+                },
+                {
+                    "x": 1215,
+                    "y": 1532
+                },
+                {
+                    "x": 291,
+                    "y": 1532
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:18px'>We are interested in how |X| is related to ICI when<br>both numbers are large; therefore we are free to<br>expand the right hand side of the equation for large<br>|X|. For this purpose we use the expansion of gen-<br>eralized harmonic numbers (Apostol, 1976),</p>",
+            "id": 62,
+            "page": 6,
+            "text": "We are interested in how |X| is related to ICI when both numbers are large; therefore we are free to expand the right hand side of the equation for large |X|. For this purpose we use the expansion of generalized harmonic numbers (Apostol, 1976),"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1734
+                },
+                {
+                    "x": 430,
+                    "y": 1734
+                },
+                {
+                    "x": 430,
+                    "y": 1783
+                },
+                {
+                    "x": 293,
+                    "y": 1783
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:22px'>giving,</p>",
+            "id": 63,
+            "page": 6,
+            "text": "giving,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1958
+                },
+                {
+                    "x": 1216,
+                    "y": 1958
+                },
+                {
+                    "x": 1216,
+                    "y": 2179
+                },
+                {
+                    "x": 292,
+                    "y": 2179
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:16px'>where 5(s) is the Riemann zeta function. In the<br>limit that X is large, only one of the two terms on<br>the right hand side of Eqn. (21) will be relevant,<br>and which term that is depends on whether a > 1,</p>",
+            "id": 64,
+            "page": 6,
+            "text": "where 5(s) is the Riemann zeta function. In the limit that X is large, only one of the two terms on the right hand side of Eqn. (21) will be relevant, and which term that is depends on whether a > 1,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2373
+                },
+                {
+                    "x": 1216,
+                    "y": 2373
+                },
+                {
+                    "x": 1216,
+                    "y": 2769
+                },
+                {
+                    "x": 292,
+                    "y": 2769
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:16px'>For the corpora studied in this article, we observe<br>that Xij is well-modeled by Eqn. (17) with a =<br>1.25. In this case we have that |X| = O(IC|0.8).<br>Therefore we conclude that the complexity of the<br>model is much better than the worst case O(V2),<br>and in fact it does somewhat better than the on-line<br>window-based methods which scale like O(ICI).</p>",
+            "id": 65,
+            "page": 6,
+            "text": "For the corpora studied in this article, we observe that Xij is well-modeled by Eqn. (17) with a = 1.25. In this case we have that |X| = O(IC|0.8). Therefore we conclude that the complexity of the model is much better than the worst case O(V2), and in fact it does somewhat better than the on-line window-based methods which scale like O(ICI)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2808
+                },
+                {
+                    "x": 651,
+                    "y": 2808
+                },
+                {
+                    "x": 651,
+                    "y": 2862
+                },
+                {
+                    "x": 293,
+                    "y": 2862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:20px'>4 Experiments</p>",
+            "id": 66,
+            "page": 6,
+            "text": "4 Experiments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2897
+                },
+                {
+                    "x": 796,
+                    "y": 2897
+                },
+                {
+                    "x": 796,
+                    "y": 2949
+                },
+                {
+                    "x": 293,
+                    "y": 2949
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:18px'>4.1 Evaluation methods</p>",
+            "id": 67,
+            "page": 6,
+            "text": "4.1 Evaluation methods"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2972
+                },
+                {
+                    "x": 1215,
+                    "y": 2972
+                },
+                {
+                    "x": 1215,
+                    "y": 3193
+                },
+                {
+                    "x": 292,
+                    "y": 3193
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='68' style='font-size:16px'>We conduct experiments on the word analogy<br>task of Mikolov et al. (2013a), a variety of word<br>similarity tasks, as described in (Luong et al.,<br>2013), and on the CoNLL-2003 shared benchmark</p>",
+            "id": 68,
+            "page": 6,
+            "text": "We conduct experiments on the word analogy task of Mikolov  (2013a), a variety of word similarity tasks, as described in (Luong , 2013), and on the CoNLL-2003 shared benchmark"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 295
+                },
+                {
+                    "x": 2197,
+                    "y": 295
+                },
+                {
+                    "x": 2197,
+                    "y": 800
+                },
+                {
+                    "x": 1271,
+                    "y": 800
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='69' style='font-size:16px'>Table 2: Results on the word analogy task, given<br>as percent accuracy. Underlined scores are best<br>within groups of similarly-sized models; bold<br>scores are best overall. HPCA vectors are publicly<br>available2; (i)vLBL results are from (Mnih et al.,<br>2013); skip-gram (SG) and CBOW results are<br>from (Mikolov et al., 2013a,b); we trained SG†<br>and CBOW† using the word2vec tool3. See text<br>for details and a description of the SVD models.</p>",
+            "id": 69,
+            "page": 6,
+            "text": "Table 2: Results on the word analogy task, given as percent accuracy. Underlined scores are best within groups of similarly-sized models; bold scores are best overall. HPCA vectors are publicly available2; (i)vLBL results are from (Mnih , 2013); skip-gram (SG) and CBOW results are from (Mikolov , 2013a,b); we trained SG† and CBOW† using the word2vec tool3. See text for details and a description of the SVD models."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 816
+                },
+                {
+                    "x": 2178,
+                    "y": 816
+                },
+                {
+                    "x": 2178,
+                    "y": 1911
+                },
+                {
+                    "x": 1275,
+                    "y": 1911
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='70' style='font-size:16px'><tr><td>Model</td><td>Dim.</td><td>Size</td><td>Sem.</td><td>Syn.</td><td>Tot.</td></tr><tr><td>ivLBL</td><td>100</td><td>1.5B</td><td>55.9</td><td>50.1</td><td>53.2</td></tr><tr><td>HPCA</td><td>100</td><td>1.6B</td><td>4.2</td><td>16.4</td><td>10.8</td></tr><tr><td>GloVe</td><td>100</td><td>1.6B</td><td>67.5</td><td>54.3</td><td>60.3</td></tr><tr><td>SG</td><td>300</td><td>1B</td><td>61</td><td>61</td><td>61</td></tr><tr><td>CBOW</td><td>300</td><td>1.6B</td><td>16.1</td><td>52.6</td><td>36.1</td></tr><tr><td>vLBL</td><td>300</td><td>1.5B</td><td>54.2</td><td>64.8</td><td>60.0</td></tr><tr><td>ivLBL</td><td>300</td><td>1.5B</td><td>65.2</td><td>63.0</td><td>64.0</td></tr><tr><td>GloVe</td><td>300</td><td>1.6B</td><td>80.8</td><td>61.5</td><td>70.3</td></tr><tr><td>SVD</td><td>300</td><td>6B</td><td>6.3</td><td>8.1</td><td>7.3</td></tr><tr><td>SVD-S</td><td>300</td><td>6B</td><td>36.7</td><td>46.6</td><td>42.1</td></tr><tr><td>SVD-L</td><td>300</td><td>6B</td><td>56.6</td><td>63.0</td><td>60.1</td></tr><tr><td>CBOW†</td><td>300</td><td>6B</td><td>63.6</td><td>67.4</td><td>65.7</td></tr><tr><td>SG�</td><td>300</td><td>6B</td><td>73.0</td><td>66.0</td><td>69.1</td></tr><tr><td>GloVe</td><td>300</td><td>6B</td><td>77.4</td><td>67.0</td><td>71.7</td></tr><tr><td>CBOW</td><td>1000</td><td>6B</td><td>57.3</td><td>68.9</td><td>63.7</td></tr><tr><td>SG</td><td>1000</td><td>6B</td><td>66.1</td><td>65.1</td><td>65.6</td></tr><tr><td>SVD-L</td><td>300</td><td>42B</td><td>38.4</td><td>58.2</td><td>49.2</td></tr><tr><td>GloVe</td><td>300</td><td>42B</td><td>81.9</td><td>69.3</td><td>75.0</td></tr></table>",
+            "id": 70,
+            "page": 6,
+            "text": "Model Dim. Size Sem. Syn. Tot.  ivLBL 100 1.5B 55.9 50.1 53.2  HPCA 100 1.6B 4.2 16.4 10.8  GloVe 100 1.6B 67.5 54.3 60.3  SG 300 1B 61 61 61  CBOW 300 1.6B 16.1 52.6 36.1  vLBL 300 1.5B 54.2 64.8 60.0  ivLBL 300 1.5B 65.2 63.0 64.0  GloVe 300 1.6B 80.8 61.5 70.3  SVD 300 6B 6.3 8.1 7.3  SVD-S 300 6B 36.7 46.6 42.1  SVD-L 300 6B 56.6 63.0 60.1  CBOW† 300 6B 63.6 67.4 65.7  SG� 300 6B 73.0 66.0 69.1  GloVe 300 6B 77.4 67.0 71.7  CBOW 1000 6B 57.3 68.9 63.7  SG 1000 6B 66.1 65.1 65.6  SVD-L 300 42B 38.4 58.2 49.2  GloVe 300 42B 81.9 69.3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1967
+                },
+                {
+                    "x": 2194,
+                    "y": 1967
+                },
+                {
+                    "x": 2194,
+                    "y": 2072
+                },
+                {
+                    "x": 1272,
+                    "y": 2072
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:18px'>dataset for NER (Tjong Kim Sang and De Meul-<br>der, 2003).</p>",
+            "id": 71,
+            "page": 6,
+            "text": "dataset for NER (Tjong Kim Sang and De Meulder, 2003)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2079
+                },
+                {
+                    "x": 2198,
+                    "y": 2079
+                },
+                {
+                    "x": 2198,
+                    "y": 2979
+                },
+                {
+                    "x": 1272,
+                    "y": 2979
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:16px'>Word analogies. The word analogy task con-<br>sists of questions like, \"a is to b as c is to ?\"<br>The dataset contains 19,544 such questions, di-<br>vided into a semantic subset and a syntactic sub-<br>set. The semantic questions are typically analogies<br>about people or places, like \"Athens is to Greece<br>as Berlin is to ?\". The syntactic questions are<br>typically analogies about verb tenses or forms of<br>adjectives, for example \"dance is to dancing as fly<br>is to ?\". To correctly answer the question, the<br>model should uniquely identify the missing term,<br>with only an exact correspondence counted as a<br>correct match. We answer the question \"a is to b<br>as c is to ?\" by finding the word d whose repre-<br>sentation Wd is closest to Wb - Wa + Wc according<br>to the cosine similarity.4</p>",
+            "id": 72,
+            "page": 6,
+            "text": "Word analogies. The word analogy task consists of questions like, \"a is to b as c is to ?\" The dataset contains 19,544 such questions, divided into a semantic subset and a syntactic subset. The semantic questions are typically analogies about people or places, like \"Athens is to Greece as Berlin is to ?\". The syntactic questions are typically analogies about verb tenses or forms of adjectives, for example \"dance is to dancing as fly is to ?\". To correctly answer the question, the model should uniquely identify the missing term, with only an exact correspondence counted as a correct match. We answer the question \"a is to b as c is to ?\" by finding the word d whose representation Wd is closest to Wb - Wa + Wc according to the cosine similarity.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 3008
+                },
+                {
+                    "x": 1897,
+                    "y": 3008
+                },
+                {
+                    "x": 1897,
+                    "y": 3101
+                },
+                {
+                    "x": 1324,
+                    "y": 3101
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='73' style='font-size:22px'>2http://lebret.ch/words/<br>3http://code.google.com/p/word2vec/</p>",
+            "id": 73,
+            "page": 6,
+            "text": "2http://lebret.ch/words/ 3http://code.google.com/p/word2vec/"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 3108
+                },
+                {
+                    "x": 2195,
+                    "y": 3108
+                },
+                {
+                    "x": 2195,
+                    "y": 3190
+                },
+                {
+                    "x": 1273,
+                    "y": 3190
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='74' style='font-size:14px'>4Levy et al. (2014) introduce a multiplicative analogy<br>evaluation, 3COSMUL, and report an accuracy of 68.24% on</p>",
+            "id": 74,
+            "page": 6,
+            "text": "4Levy  (2014) introduce a multiplicative analogy evaluation, 3COSMUL, and report an accuracy of 68.24% on"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 311,
+                    "y": 257
+                },
+                {
+                    "x": 2172,
+                    "y": 257
+                },
+                {
+                    "x": 2172,
+                    "y": 787
+                },
+                {
+                    "x": 311,
+                    "y": 787
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='75' style='font-size:14px' alt=\"80 70 70\n70 65 65\n60 60 60\n[%]\n[%]\nAccuracy\n50 55 55\n50\n40 Accuracy [%]\n50 Accuracy\nSemantic Semantic Semantic\nSyntactic Syntactic\nSyntactic 45 45\n30\nOverall Overall Overall\n402 4 6 8 10\n20 402 4 6 8 10\n0 100 200 300 400 500 600\nVector Dimension Window Size Window Size\n(a) Symmetric context (b) Symmetric context (c) Asymmetric context\" data-coord=\"top-left:(311,257); bottom-right:(2172,787)\" /></figure>",
+            "id": 75,
+            "page": 7,
+            "text": "80 70 70 70 65 65 60 60 60 [%] [%] Accuracy 50 55 55 50 40 Accuracy [%] 50 Accuracy Semantic Semantic Semantic Syntactic Syntactic Syntactic 45 45 30 Overall Overall Overall 402 4 6 8 10 20 402 4 6 8 10 0 100 200 300 400 500 600 Vector Dimension Window Size Window Size (a) Symmetric context (b) Symmetric context (c) Asymmetric context"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 836
+                },
+                {
+                    "x": 2196,
+                    "y": 836
+                },
+                {
+                    "x": 2196,
+                    "y": 954
+                },
+                {
+                    "x": 291,
+                    "y": 954
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='76' style='font-size:18px'>Figure 2: Accuracy on the analogy task as function of vector size and window size/type. All models are<br>trained on the 6 billion token corpus. In (a), the window size is 10. In (b) and (c), the vector size is 100.</caption>",
+            "id": 76,
+            "page": 7,
+            "text": "Figure 2: Accuracy on the analogy task as function of vector size and window size/type. All models are trained on the 6 billion token corpus. In (a), the window size is 10. In (b) and (c), the vector size is 100."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 985
+                },
+                {
+                    "x": 1216,
+                    "y": 985
+                },
+                {
+                    "x": 1216,
+                    "y": 1434
+                },
+                {
+                    "x": 293,
+                    "y": 1434
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='77' style='font-size:20px'>Word similarity. While the analogy task is our<br>primary focus since it tests for interesting vector<br>space substructures, we also evaluate our model on<br>a variety of word similarity tasks in Table 3. These<br>include WordSim-353 (Finkelstein et al., 2001),<br>MC (Miller and Charles, 1991), RG (Rubenstein<br>and Goodenough, 1965), SCWS (Huang et al.,<br>2012), and RW (Luong et al., 2013).</p>",
+            "id": 77,
+            "page": 7,
+            "text": "Word similarity. While the analogy task is our primary focus since it tests for interesting vector space substructures, we also evaluate our model on a variety of word similarity tasks in Table 3. These include WordSim-353 (Finkelstein , 2001), MC (Miller and Charles, 1991), RG (Rubenstein and Goodenough, 1965), SCWS (Huang , 2012), and RW (Luong , 2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1441
+                },
+                {
+                    "x": 1216,
+                    "y": 1441
+                },
+                {
+                    "x": 1216,
+                    "y": 2627
+                },
+                {
+                    "x": 291,
+                    "y": 2627
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='78' style='font-size:18px'>Named entity recognition. The CoNLL-2003<br>English benchmark dataset for NER is a collec-<br>tion of documents from Reuters newswire articles,<br>annotated with four entity types: person, location,<br>organization, and miscellaneous. We train mod-<br>els on CoNLL-03 training data on test on three<br>datasets: 1) ConLL-03 testing data, 2) ACE Phase<br>2 (2001-02) and ACE-2003 data, and 3) MUC7<br>Formal Run test set. We adopt the BIO2 annota-<br>tion standard, as well as all the preprocessing steps<br>described in (Wang and Manning, 2013). We use a<br>comprehensive set of discrete features that comes<br>with the standard distribution of the Stanford NER<br>model (Finkel et al., 2005). A total of 437,905<br>discrete features were generated for the CoNLL-<br>2003 training dataset. In addition, 50-dimensional<br>vectors for each word of a five-word context are<br>added and used as continuous features. With these<br>features as input, we trained a conditional random<br>field (CRF) with exactly the same setup as the<br>CRFjoin model of (Wang and Manning, 2013).</p>",
+            "id": 78,
+            "page": 7,
+            "text": "Named entity recognition. The CoNLL-2003 English benchmark dataset for NER is a collection of documents from Reuters newswire articles, annotated with four entity types: person, location, organization, and miscellaneous. We train models on CoNLL-03 training data on test on three datasets: 1) ConLL-03 testing data, 2) ACE Phase 2 (2001-02) and ACE-2003 data, and 3) MUC7 Formal Run test set. We adopt the BIO2 annotation standard, as well as all the preprocessing steps described in (Wang and Manning, 2013). We use a comprehensive set of discrete features that comes with the standard distribution of the Stanford NER model (Finkel , 2005). A total of 437,905 discrete features were generated for the CoNLL2003 training dataset. In addition, 50-dimensional vectors for each word of a five-word context are added and used as continuous features. With these features as input, we trained a conditional random field (CRF) with exactly the same setup as the CRFjoin model of (Wang and Manning, 2013)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2670
+                },
+                {
+                    "x": 964,
+                    "y": 2670
+                },
+                {
+                    "x": 964,
+                    "y": 2724
+                },
+                {
+                    "x": 292,
+                    "y": 2724
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='79' style='font-size:22px'>4.2 Corpora and training details</p>",
+            "id": 79,
+            "page": 7,
+            "text": "4.2 Corpora and training details"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2748
+                },
+                {
+                    "x": 1216,
+                    "y": 2748
+                },
+                {
+                    "x": 1216,
+                    "y": 3026
+                },
+                {
+                    "x": 292,
+                    "y": 3026
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:20px'>We trained our model on five corpora of varying<br>sizes: a 2010 Wikipedia dump with 1 billion to-<br>kens; a 2014 Wikipedia dump with 1.6 billion to-<br>kens; Gigaword 5 which has 4.3 billion tokens; the<br>combination Gigaword5 + Wikipedia2014, which</p>",
+            "id": 80,
+            "page": 7,
+            "text": "We trained our model on five corpora of varying sizes: a 2010 Wikipedia dump with 1 billion tokens; a 2014 Wikipedia dump with 1.6 billion tokens; Gigaword 5 which has 4.3 billion tokens; the combination Gigaword5 + Wikipedia2014, which"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 3064
+                },
+                {
+                    "x": 1215,
+                    "y": 3064
+                },
+                {
+                    "x": 1215,
+                    "y": 3191
+                },
+                {
+                    "x": 292,
+                    "y": 3191
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:14px'>the analogy task. This number is evaluated on a subset of the<br>dataset so it is not included in Table 2. 3CosMUL performed<br>worse than cosine similarity in almost all of our experiments.</p>",
+            "id": 81,
+            "page": 7,
+            "text": "the analogy task. This number is evaluated on a subset of the dataset so it is not included in Table 2. 3CosMUL performed worse than cosine similarity in almost all of our experiments."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 984
+                },
+                {
+                    "x": 2196,
+                    "y": 984
+                },
+                {
+                    "x": 2196,
+                    "y": 1829
+                },
+                {
+                    "x": 1271,
+                    "y": 1829
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='82' style='font-size:16px'>has 6 billion tokens; and on 42 billion tokens of<br>web data, from Common Crawl5. We tokenize<br>and lowercase each corpus with the Stanford to-<br>kenizer, build a vocabulary of the 400,000 most<br>frequent words6, and then construct a matrix of co-<br>occurrence counts X. In constructing X, we must<br>choose how large the context window should be<br>and whether to distinguish left context from right<br>context. We explore the effect of these choices be-<br>low. In all cases we use a decreasing weighting<br>function, SO that word pairs that are d words apart<br>contribute 1/d to the total count. This is one way<br>to account for the fact that very distant word pairs<br>are expected to contain less relevant information<br>about the words' relationship to one another.</p>",
+            "id": 82,
+            "page": 7,
+            "text": "has 6 billion tokens; and on 42 billion tokens of web data, from Common Crawl5. We tokenize and lowercase each corpus with the Stanford tokenizer, build a vocabulary of the 400,000 most frequent words6, and then construct a matrix of cooccurrence counts X. In constructing X, we must choose how large the context window should be and whether to distinguish left context from right context. We explore the effect of these choices below. In all cases we use a decreasing weighting function, SO that word pairs that are d words apart contribute 1/d to the total count. This is one way to account for the fact that very distant word pairs are expected to contain less relevant information about the words' relationship to one another."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 1836
+                },
+                {
+                    "x": 2197,
+                    "y": 1836
+                },
+                {
+                    "x": 2197,
+                    "y": 2338
+                },
+                {
+                    "x": 1271,
+                    "y": 2338
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='83' style='font-size:16px'>For all our experiments, we set Xmax = 100,<br>a = 3/4, and train the model using AdaGrad<br>(Duchi et al., 2011), stochastically sampling non-<br>zero elements from X, with initial learning rate of<br>0.05. We run 50 iterations for vectors smaller than<br>300 dimensions, and 100 iterations otherwise (see<br>Section 4.6 for more details about the convergence<br>rate). Unless otherwise noted, we use a context of<br>ten words to the left and ten words to the right.</p>",
+            "id": 83,
+            "page": 7,
+            "text": "For all our experiments, we set Xmax = 100, a = 3/4, and train the model using AdaGrad (Duchi , 2011), stochastically sampling nonzero elements from X, with initial learning rate of 0.05. We run 50 iterations for vectors smaller than 300 dimensions, and 100 iterations otherwise (see Section 4.6 for more details about the convergence rate). Unless otherwise noted, we use a context of ten words to the left and ten words to the right."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2346
+                },
+                {
+                    "x": 2196,
+                    "y": 2346
+                },
+                {
+                    "x": 2196,
+                    "y": 2907
+                },
+                {
+                    "x": 1272,
+                    "y": 2907
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:18px'>The model generates two sets of word vectors,<br>W and W. When X is symmetric, W and W are<br>equivalent and differ only as a result of their ran-<br>dom initializations; the two sets of vectors should<br>perform equivalently. On the other hand, there is<br>evidence that for certain types of neural networks,<br>training multiple instances of the network and then<br>combining the results can help reduce overfitting<br>and noise and generally improve results (Ciresan<br>et al., 2012). With this in mind, we choose to use</p>",
+            "id": 84,
+            "page": 7,
+            "text": "The model generates two sets of word vectors, W and W. When X is symmetric, W and W are equivalent and differ only as a result of their random initializations; the two sets of vectors should perform equivalently. On the other hand, there is evidence that for certain types of neural networks, training multiple instances of the network and then combining the results can help reduce overfitting and noise and generally improve results (Ciresan , 2012). With this in mind, we choose to use"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2931
+                },
+                {
+                    "x": 2197,
+                    "y": 2931
+                },
+                {
+                    "x": 2197,
+                    "y": 3098
+                },
+                {
+                    "x": 1272,
+                    "y": 3098
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:14px'>5To demonstrate the scalability of the model, we also<br>trained it on a much larger sixth corpus, containing 840 bil-<br>lion tokens of web data, but in this case we did not lowercase<br>the vocabulary, so the results are not directly comparable.</p>",
+            "id": 85,
+            "page": 7,
+            "text": "5To demonstrate the scalability of the model, we also trained it on a much larger sixth corpus, containing 840 billion tokens of web data, but in this case we did not lowercase the vocabulary, so the results are not directly comparable."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 3105
+                },
+                {
+                    "x": 2194,
+                    "y": 3105
+                },
+                {
+                    "x": 2194,
+                    "y": 3192
+                },
+                {
+                    "x": 1274,
+                    "y": 3192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:14px'>6For the model trained on Common Crawl data, we use a<br>larger vocabulary of about 2 million words.</p>",
+            "id": 86,
+            "page": 7,
+            "text": "6For the model trained on Common Crawl data, we use a larger vocabulary of about 2 million words."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 267
+                },
+                {
+                    "x": 1217,
+                    "y": 267
+                },
+                {
+                    "x": 1217,
+                    "y": 433
+                },
+                {
+                    "x": 291,
+                    "y": 433
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:18px'>the sum W + W as our word vectors. Doing SO typ-<br>ically gives a small boost in performance, with the<br>biggest increase in the semantic analogy task.</p>",
+            "id": 87,
+            "page": 8,
+            "text": "the sum W + W as our word vectors. Doing SO typically gives a small boost in performance, with the biggest increase in the semantic analogy task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 440
+                },
+                {
+                    "x": 1215,
+                    "y": 440
+                },
+                {
+                    "x": 1215,
+                    "y": 1055
+                },
+                {
+                    "x": 292,
+                    "y": 1055
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:20px'>We compare with the published results of a va-<br>riety of state-of-the-art models, as well as with<br>our own results produced using the word2vec<br>tool and with several baselines using SVDs. With<br>word2vec, we train the skip-gram (SG+) and<br>continuous bag-of-words (CBOW+) models on the<br>6 billion token corpus (Wikipedia 2014 + Giga-<br>word 5) with a vocabulary of the top 400,000 most<br>frequent words and a context window size of 10.<br>We used 10 negative samples, which we show in<br>Section 4.6 to be a good choice for this corpus.</p>",
+            "id": 88,
+            "page": 8,
+            "text": "We compare with the published results of a variety of state-of-the-art models, as well as with our own results produced using the word2vec tool and with several baselines using SVDs. With word2vec, we train the skip-gram (SG+) and continuous bag-of-words (CBOW+) models on the 6 billion token corpus (Wikipedia 2014 + Gigaword 5) with a vocabulary of the top 400,000 most frequent words and a context window size of 10. We used 10 negative samples, which we show in Section 4.6 to be a good choice for this corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1061
+                },
+                {
+                    "x": 1216,
+                    "y": 1061
+                },
+                {
+                    "x": 1216,
+                    "y": 1507
+                },
+                {
+                    "x": 292,
+                    "y": 1507
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:20px'>For the SVD baselines, we generate a truncated<br>matrix Xtrunc which retains the information of how<br>frequently each word occurs with only the top<br>10,000 most frequent words. This step is typi-<br>cal of many matrix-factorization-based methods as<br>the extra columns can contribute a disproportion-<br>ate number of zero entries and the methods are<br>otherwise computationally expensive.</p>",
+            "id": 89,
+            "page": 8,
+            "text": "For the SVD baselines, we generate a truncated matrix Xtrunc which retains the information of how frequently each word occurs with only the top 10,000 most frequent words. This step is typical of many matrix-factorization-based methods as the extra columns can contribute a disproportionate number of zero entries and the methods are otherwise computationally expensive."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1511
+                },
+                {
+                    "x": 1217,
+                    "y": 1511
+                },
+                {
+                    "x": 1217,
+                    "y": 1849
+                },
+                {
+                    "x": 292,
+                    "y": 1849
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='90' style='font-size:20px'>The singular vectors of this matrix constitute<br>the baseline \"SVD\" We also evaluate two related<br>baselines: \"SVD-S\" in which we take the SVD of<br>VXtrunc, and \"SVD-L\" in which we take the SVD<br>of log(1 + Xtrunc). Both methods help compress the<br>otherwise large range of values in X.7</p>",
+            "id": 90,
+            "page": 8,
+            "text": "The singular vectors of this matrix constitute the baseline \"SVD\" We also evaluate two related baselines: \"SVD-S\" in which we take the SVD of VXtrunc, and \"SVD-L\" in which we take the SVD of log(1 + Xtrunc). Both methods help compress the otherwise large range of values in X.7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 1886
+                },
+                {
+                    "x": 548,
+                    "y": 1886
+                },
+                {
+                    "x": 548,
+                    "y": 1937
+                },
+                {
+                    "x": 293,
+                    "y": 1937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='91' style='font-size:20px'>4.3 Results</p>",
+            "id": 91,
+            "page": 8,
+            "text": "4.3 Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1959
+                },
+                {
+                    "x": 1215,
+                    "y": 1959
+                },
+                {
+                    "x": 1215,
+                    "y": 2522
+                },
+                {
+                    "x": 292,
+                    "y": 2522
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='92' style='font-size:20px'>We present results on the word analogy task in Ta-<br>ble 2. The GloVe model performs significantly<br>better than the other baselines, often with smaller<br>vector sizes and smaller corpora. Our results us-<br>ing the word2vec tool are somewhat better than<br>most of the previously published results. This is<br>due to a number of factors, including our choice to<br>use negative sampling (which typically works bet-<br>ter than the hierarchical softmax), the number of<br>negative samples, and the choice of the corpus.</p>",
+            "id": 92,
+            "page": 8,
+            "text": "We present results on the word analogy task in Table 2. The GloVe model performs significantly better than the other baselines, often with smaller vector sizes and smaller corpora. Our results using the word2vec tool are somewhat better than most of the previously published results. This is due to a number of factors, including our choice to use negative sampling (which typically works better than the hierarchical softmax), the number of negative samples, and the choice of the corpus."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 2528
+                },
+                {
+                    "x": 1218,
+                    "y": 2528
+                },
+                {
+                    "x": 1218,
+                    "y": 2862
+                },
+                {
+                    "x": 291,
+                    "y": 2862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='93' style='font-size:20px'>We demonstrate that the model can easily be<br>trained on a large 42 billion token corpus, with a<br>substantial corresponding performance boost. We<br>note that increasing the corpus size does not guar-<br>antee improved results for other models, as can be<br>seen by the decreased performance of the SVD-</p>",
+            "id": 93,
+            "page": 8,
+            "text": "We demonstrate that the model can easily be trained on a large 42 billion token corpus, with a substantial corresponding performance boost. We note that increasing the corpus size does not guarantee improved results for other models, as can be seen by the decreased performance of the SVD-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2895
+                },
+                {
+                    "x": 1215,
+                    "y": 2895
+                },
+                {
+                    "x": 1215,
+                    "y": 3192
+                },
+                {
+                    "x": 292,
+                    "y": 3192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:16px'>7We also investigated several other weighting schemes for<br>transforming X; what we report here performed best. Many<br>weighting schemes like PPMI destroy the sparsity of X and<br>therefore cannot feasibly be used with large vocabularies.<br>With smaller vocabularies, these information-theoretic trans-<br>formations do indeed work well on word similarity measures,<br>but they perform very poorly on the word analogy task.</p>",
+            "id": 94,
+            "page": 8,
+            "text": "7We also investigated several other weighting schemes for transforming X; what we report here performed best. Many weighting schemes like PPMI destroy the sparsity of X and therefore cannot feasibly be used with large vocabularies. With smaller vocabularies, these information-theoretic transformations do indeed work well on word similarity measures, but they perform very poorly on the word analogy task."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 293
+                },
+                {
+                    "x": 2196,
+                    "y": 293
+                },
+                {
+                    "x": 2196,
+                    "y": 519
+                },
+                {
+                    "x": 1271,
+                    "y": 519
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='95' style='font-size:18px'>Table 3: Spearman rank correlation on word simi-<br>larity tasks. All vectors are 300-dimensional. The<br>CBOW* vectors are from the word2vec website<br>and differ in that they contain phrase vectors.</caption>",
+            "id": 95,
+            "page": 8,
+            "text": "Table 3: Spearman rank correlation on word similarity tasks. All vectors are 300-dimensional. The CBOW* vectors are from the word2vec website and differ in that they contain phrase vectors."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 534
+                },
+                {
+                    "x": 2186,
+                    "y": 534
+                },
+                {
+                    "x": 2186,
+                    "y": 1088
+                },
+                {
+                    "x": 1280,
+                    "y": 1088
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='96' style='font-size:18px'><tr><td>Model</td><td>Size</td><td>WS353</td><td>MC</td><td>RG</td><td>SCWS</td><td>RW</td></tr><tr><td>SVD</td><td>6B</td><td>35.3</td><td>35.1</td><td>42.5</td><td>38.3</td><td>25.6</td></tr><tr><td>SVD-S</td><td>6B</td><td>56.5</td><td>71.5</td><td>71.0</td><td>53.6</td><td>34.7</td></tr><tr><td>SVD-L</td><td>6B</td><td>65.7</td><td>72.7</td><td>75.1</td><td>56.5</td><td>37.0</td></tr><tr><td>CBOW†</td><td>6B</td><td>57.2</td><td>65.6</td><td>68.2</td><td>57.0</td><td>32.5</td></tr><tr><td>SG�</td><td>6B</td><td>62.8</td><td>65.2</td><td>69.7</td><td>58.1</td><td>37.2</td></tr><tr><td>GloVe</td><td>6B</td><td>65.8</td><td>72.7</td><td>77.8</td><td>53.9</td><td>38.1</td></tr><tr><td>SVD-L</td><td>42B</td><td>74.0</td><td>76.4</td><td>74.1</td><td>58.3</td><td>39.9</td></tr><tr><td>GloVe</td><td>42B</td><td>75.9</td><td>83.6</td><td>82.9</td><td>59.6</td><td>47.8</td></tr><tr><td>CBOW*</td><td>100B</td><td>68.4</td><td>79.6</td><td>75.4</td><td>59.4</td><td>45.5</td></tr></table>",
+            "id": 96,
+            "page": 8,
+            "text": "Model Size WS353 MC RG SCWS RW  SVD 6B 35.3 35.1 42.5 38.3 25.6  SVD-S 6B 56.5 71.5 71.0 53.6 34.7  SVD-L 6B 65.7 72.7 75.1 56.5 37.0  CBOW† 6B 57.2 65.6 68.2 57.0 32.5  SG� 6B 62.8 65.2 69.7 58.1 37.2  GloVe 6B 65.8 72.7 77.8 53.9 38.1  SVD-L 42B 74.0 76.4 74.1 58.3 39.9  GloVe 42B 75.9 83.6 82.9 59.6 47.8  CBOW* 100B 68.4 79.6 75.4 59.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1134
+                },
+                {
+                    "x": 2196,
+                    "y": 1134
+                },
+                {
+                    "x": 2196,
+                    "y": 1358
+                },
+                {
+                    "x": 1272,
+                    "y": 1358
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:20px'>L model on this larger corpus. The fact that this<br>basic SVD model does not scale well to large cor-<br>pora lends further evidence to the necessity of the<br>type of weighting scheme proposed in our model.</p>",
+            "id": 97,
+            "page": 8,
+            "text": "L model on this larger corpus. The fact that this basic SVD model does not scale well to large corpora lends further evidence to the necessity of the type of weighting scheme proposed in our model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1366
+                },
+                {
+                    "x": 2198,
+                    "y": 1366
+                },
+                {
+                    "x": 2198,
+                    "y": 1981
+                },
+                {
+                    "x": 1272,
+                    "y": 1981
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:20px'>Table 3 shows results on five different word<br>similarity datasets. A similarity score is obtained<br>from the word vectors by first normalizing each<br>feature across the vocabulary and then calculat-<br>ing the cosine similarity. We compute Spearman's<br>rank correlation coefficient between this score and<br>the human judgments. CBOW* denotes the vec-<br>tors available on the word2vec website that are<br>trained with word and phrase vectors on 100B<br>words of news data. GloVe outperforms it while<br>using a corpus less than half the size.</p>",
+            "id": 98,
+            "page": 8,
+            "text": "Table 3 shows results on five different word similarity datasets. A similarity score is obtained from the word vectors by first normalizing each feature across the vocabulary and then calculating the cosine similarity. We compute Spearman's rank correlation coefficient between this score and the human judgments. CBOW* denotes the vectors available on the word2vec website that are trained with word and phrase vectors on 100B words of news data. GloVe outperforms it while using a corpus less than half the size."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 1992
+                },
+                {
+                    "x": 2198,
+                    "y": 1992
+                },
+                {
+                    "x": 2198,
+                    "y": 3060
+                },
+                {
+                    "x": 1273,
+                    "y": 3060
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='99' style='font-size:20px'>Table 4 shows results on the NER task with the<br>CRF-based model. The L-BFGS training termi-<br>nates when no improvement has been achieved on<br>the dev set for 25 iterations. Otherwise all config-<br>urations are identical to those used by Wang and<br>Manning (2013). The model labeled Discrete is<br>the baseline using a comprehensive set of discrete<br>features that comes with the standard distribution<br>of the Stanford NER model, but with no word vec-<br>tor features. In addition to the HPCA and SVD<br>models discussed previously, we also compare to<br>the models of Huang et al. (2012) (HSMN) and<br>Collobert and Weston (2008) (CW). We trained<br>the CBOW model using the word2vec tool8.<br>The GloVe model outperforms all other methods<br>on all evaluation metrics, except for the CoNLL<br>test set, on which the HPCA method does slightly<br>better. We conclude that the GloVe vectors are<br>useful in downstream NLP tasks, as was first</p>",
+            "id": 99,
+            "page": 8,
+            "text": "Table 4 shows results on the NER task with the CRF-based model. The L-BFGS training terminates when no improvement has been achieved on the dev set for 25 iterations. Otherwise all configurations are identical to those used by Wang and Manning (2013). The model labeled Discrete is the baseline using a comprehensive set of discrete features that comes with the standard distribution of the Stanford NER model, but with no word vector features. In addition to the HPCA and SVD models discussed previously, we also compare to the models of Huang  (2012) (HSMN) and Collobert and Weston (2008) (CW). We trained the CBOW model using the word2vec tool8. The GloVe model outperforms all other methods on all evaluation metrics, except for the CoNLL test set, on which the HPCA method does slightly better. We conclude that the GloVe vectors are useful in downstream NLP tasks, as was first"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 3104
+                },
+                {
+                    "x": 2195,
+                    "y": 3104
+                },
+                {
+                    "x": 2195,
+                    "y": 3192
+                },
+                {
+                    "x": 1274,
+                    "y": 3192
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:14px'>8We use the same parameters as above, except in this case<br>we found 5 negative samples to work slightly better than 10.</p>",
+            "id": 100,
+            "page": 8,
+            "text": "8We use the same parameters as above, except in this case we found 5 negative samples to work slightly better than 10."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 293
+                },
+                {
+                    "x": 1216,
+                    "y": 293
+                },
+                {
+                    "x": 1216,
+                    "y": 514
+                },
+                {
+                    "x": 290,
+                    "y": 514
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='101' style='font-size:14px'>Table 4: F1 score on NER task with 50d vectors.<br>Discrete is the baseline without word vectors. We<br>use publicly-available vectors for HPCA, HSMN,<br>and CW. See text for details.</caption>",
+            "id": 101,
+            "page": 9,
+            "text": "Table 4: F1 score on NER task with 50d vectors. Discrete is the baseline without word vectors. We use publicly-available vectors for HPCA, HSMN, and CW. See text for details."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 363,
+                    "y": 515
+                },
+                {
+                    "x": 1133,
+                    "y": 515
+                },
+                {
+                    "x": 1133,
+                    "y": 1082
+                },
+                {
+                    "x": 363,
+                    "y": 1082
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='102' style='font-size:14px'><tr><td>Model</td><td>Dev</td><td>Test</td><td>ACE</td><td>MUC7</td></tr><tr><td>Discrete</td><td>91.0</td><td>85.4</td><td>77.4</td><td>73.4</td></tr><tr><td>SVD</td><td>90.8</td><td>85.7</td><td>77.3</td><td>73.7</td></tr><tr><td>SVD-S</td><td>91.0</td><td>85.5</td><td>77.6</td><td>74.3</td></tr><tr><td>SVD-L</td><td>90.5</td><td>84.8</td><td>73.6</td><td>71.5</td></tr><tr><td>HPCA</td><td>92.6</td><td>88.7</td><td>81.7</td><td>80.7</td></tr><tr><td>HSMN</td><td>90.5</td><td>85.7</td><td>78.7</td><td>74.7</td></tr><tr><td>CW</td><td>92.2</td><td>87.4</td><td>81.7</td><td>80.2</td></tr><tr><td>CBOW</td><td>93.1</td><td>88.2</td><td>82.2</td><td>81.1</td></tr><tr><td>GloVe</td><td>93.2</td><td>88.3</td><td>82.9</td><td>82.2</td></tr></table>",
+            "id": 102,
+            "page": 9,
+            "text": "Model Dev Test ACE MUC7  Discrete 91.0 85.4 77.4 73.4  SVD 90.8 85.7 77.3 73.7  SVD-S 91.0 85.5 77.6 74.3  SVD-L 90.5 84.8 73.6 71.5  HPCA 92.6 88.7 81.7 80.7  HSMN 90.5 85.7 78.7 74.7  CW 92.2 87.4 81.7 80.2  CBOW 93.1 88.2 82.2 81.1  GloVe 93.2 88.3 82.9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1116
+                },
+                {
+                    "x": 1181,
+                    "y": 1116
+                },
+                {
+                    "x": 1181,
+                    "y": 1165
+                },
+                {
+                    "x": 292,
+                    "y": 1165
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='103' style='font-size:16px'>shown for neural vectors in (Turian et al., 2010).</caption>",
+            "id": 103,
+            "page": 9,
+            "text": "shown for neural vectors in (Turian , 2010)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1207
+                },
+                {
+                    "x": 1096,
+                    "y": 1207
+                },
+                {
+                    "x": 1096,
+                    "y": 1314
+                },
+                {
+                    "x": 294,
+                    "y": 1314
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:18px'>4.4 Model Analysis: Vector Length and<br>Context Size</p>",
+            "id": 104,
+            "page": 9,
+            "text": "4.4 Model Analysis: Vector Length and Context Size"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1335
+                },
+                {
+                    "x": 1217,
+                    "y": 1335
+                },
+                {
+                    "x": 1217,
+                    "y": 2293
+                },
+                {
+                    "x": 291,
+                    "y": 2293
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='105' style='font-size:16px'>In Fig. 2, we show the results of experiments that<br>vary vector length and context window. A context<br>window that extends to the left and right of a tar-<br>get word will be called symmetric, and one which<br>extends only to the left will be called asymmet-<br>ric. In (a), we observe diminishing returns for vec-<br>tors larger than about 200 dimensions. In (b) and<br>(c), we examine the effect of varying the window<br>size for symmetric and asymmetric context win-<br>dows. Performance is better on the syntactic sub-<br>task for small and asymmetric context windows,<br>which aligns with the intuition that syntactic infor-<br>mation is mostly drawn from the immediate con-<br>text and can depend strongly on word order. Se-<br>mantic information, on the other hand, is more fre-<br>quently non-local, and more of it is captured with<br>larger window sizes.</p>",
+            "id": 105,
+            "page": 9,
+            "text": "In Fig. 2, we show the results of experiments that vary vector length and context window. A context window that extends to the left and right of a target word will be called symmetric, and one which extends only to the left will be called asymmetric. In (a), we observe diminishing returns for vectors larger than about 200 dimensions. In (b) and (c), we examine the effect of varying the window size for symmetric and asymmetric context windows. Performance is better on the syntactic subtask for small and asymmetric context windows, which aligns with the intuition that syntactic information is mostly drawn from the immediate context and can depend strongly on word order. Semantic information, on the other hand, is more frequently non-local, and more of it is captured with larger window sizes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2333
+                },
+                {
+                    "x": 970,
+                    "y": 2333
+                },
+                {
+                    "x": 970,
+                    "y": 2385
+                },
+                {
+                    "x": 292,
+                    "y": 2385
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='106' style='font-size:22px'>4.5 Model Analysis: Corpus Size</p>",
+            "id": 106,
+            "page": 9,
+            "text": "4.5 Model Analysis: Corpus Size"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 290,
+                    "y": 2403
+                },
+                {
+                    "x": 1217,
+                    "y": 2403
+                },
+                {
+                    "x": 1217,
+                    "y": 3198
+                },
+                {
+                    "x": 290,
+                    "y": 3198
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='107' style='font-size:18px'>In Fig. 3, we show performance on the word anal-<br>ogy task for 300-dimensional vectors trained on<br>different corpora. On the syntactic subtask, there<br>is a monotonic increase in performance as the cor-<br>pus size increases. This is to be expected since<br>larger corpora typically produce better statistics.<br>Interestingly, the same trend is not true for the se-<br>mantic subtask, where the models trained on the<br>smaller Wikipedia corpora do better than those<br>trained on the larger Gigaword corpus. This is<br>likely due to the large number of city- and country-<br>based analogies in the analogy dataset and the fact<br>that Wikipedia has fairly comprehensive articles<br>for most such locations. Moreover, Wikipedia's</p>",
+            "id": 107,
+            "page": 9,
+            "text": "In Fig. 3, we show performance on the word analogy task for 300-dimensional vectors trained on different corpora. On the syntactic subtask, there is a monotonic increase in performance as the corpus size increases. This is to be expected since larger corpora typically produce better statistics. Interestingly, the same trend is not true for the semantic subtask, where the models trained on the smaller Wikipedia corpora do better than those trained on the larger Gigaword corpus. This is likely due to the large number of city- and countrybased analogies in the analogy dataset and the fact that Wikipedia has fairly comprehensive articles for most such locations. Moreover, Wikipedia's"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 264
+                },
+                {
+                    "x": 2175,
+                    "y": 264
+                },
+                {
+                    "x": 2175,
+                    "y": 797
+                },
+                {
+                    "x": 1278,
+                    "y": 797
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='108' style='font-size:14px' alt=\"Semantic Syntactic Overall\n85\n80\n75\nAccuracy [%]\n70\n65\n60\n55\n50\nGigaword5 +\nWiki2010 Wiki2014 Gigaword5 Common Crawl\nWiki2014\n1B tokens 1.6B tokens 4.3B tokens 42B tokens\n6B tokens\" data-coord=\"top-left:(1278,264); bottom-right:(2175,797)\" /></figure>",
+            "id": 108,
+            "page": 9,
+            "text": "Semantic Syntactic Overall 85 80 75 Accuracy [%] 70 65 60 55 50 Gigaword5 + Wiki2010 Wiki2014 Gigaword5 Common Crawl Wiki2014 1B tokens 1.6B tokens 4.3B tokens 42B tokens 6B tokens"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 825
+                },
+                {
+                    "x": 2194,
+                    "y": 825
+                },
+                {
+                    "x": 2194,
+                    "y": 934
+                },
+                {
+                    "x": 1274,
+                    "y": 934
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='109' style='font-size:16px'>Figure 3: Accuracy on the analogy task for 300-<br>dimensional vectors trained on different corpora.</caption>",
+            "id": 109,
+            "page": 9,
+            "text": "Figure 3: Accuracy on the analogy task for 300dimensional vectors trained on different corpora."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 978
+                },
+                {
+                    "x": 2196,
+                    "y": 978
+                },
+                {
+                    "x": 2196,
+                    "y": 1145
+                },
+                {
+                    "x": 1272,
+                    "y": 1145
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='110' style='font-size:16px'>entries are updated to assimilate new knowledge,<br>whereas Gigaword is a fixed news repository with<br>outdated and possibly incorrect information.</p>",
+            "id": 110,
+            "page": 9,
+            "text": "entries are updated to assimilate new knowledge, whereas Gigaword is a fixed news repository with outdated and possibly incorrect information."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1190
+                },
+                {
+                    "x": 1901,
+                    "y": 1190
+                },
+                {
+                    "x": 1901,
+                    "y": 1243
+                },
+                {
+                    "x": 1274,
+                    "y": 1243
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:18px'>4.6 Model Analysis: Run-time</p>",
+            "id": 111,
+            "page": 9,
+            "text": "4.6 Model Analysis: Run-time"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1266
+                },
+                {
+                    "x": 2199,
+                    "y": 1266
+                },
+                {
+                    "x": 2199,
+                    "y": 2228
+                },
+                {
+                    "x": 1272,
+                    "y": 2228
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='112' style='font-size:18px'>The total run-time is split between populating X<br>and training the model. The former depends on<br>many factors, including window size, vocabulary<br>size, and corpus size. Though we did not do so,<br>this step could easily be parallelized across mul-<br>tiple machines (see, e.g., Lebret and Collobert<br>(2014) for some benchmarks). Using a single<br>thread of a dual 2.1GHz Intel Xeon E5-2658 ma-<br>chine, populating X with a 10 word symmetric<br>context window, a 400,000 word vocabulary, and<br>a 6 billion token corpus takes about 85 minutes.<br>Given X, the time it takes to train the model de-<br>pends on the vector size and the number of itera-<br>tions. For 300-dimensional vectors with the above<br>settings (and using all 32 cores of the above ma-<br>chine), a single iteration takes 14 minutes. See<br>Fig. 4 for a plot of the learning curve.</p>",
+            "id": 112,
+            "page": 9,
+            "text": "The total run-time is split between populating X and training the model. The former depends on many factors, including window size, vocabulary size, and corpus size. Though we did not do so, this step could easily be parallelized across multiple machines (see, e.g., Lebret and Collobert (2014) for some benchmarks). Using a single thread of a dual 2.1GHz Intel Xeon E5-2658 machine, populating X with a 10 word symmetric context window, a 400,000 word vocabulary, and a 6 billion token corpus takes about 85 minutes. Given X, the time it takes to train the model depends on the vector size and the number of iterations. For 300-dimensional vectors with the above settings (and using all 32 cores of the above machine), a single iteration takes 14 minutes. See Fig. 4 for a plot of the learning curve."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2270
+                },
+                {
+                    "x": 2056,
+                    "y": 2270
+                },
+                {
+                    "x": 2056,
+                    "y": 2378
+                },
+                {
+                    "x": 1273,
+                    "y": 2378
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='113' style='font-size:20px'>4.7 Model Analysis: Comparison with<br>word2vec</p>",
+            "id": 113,
+            "page": 9,
+            "text": "4.7 Model Analysis: Comparison with word2vec"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 2404
+                },
+                {
+                    "x": 2196,
+                    "y": 2404
+                },
+                {
+                    "x": 2196,
+                    "y": 2850
+                },
+                {
+                    "x": 1272,
+                    "y": 2850
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='114' style='font-size:16px'>A rigorous quantitative comparison of GloVe with<br>word2vec is complicated by the existence of<br>many parameters that have a strong effect on per-<br>formance. We control for the main sources of vari-<br>ation that we identified in Sections 4.4 and 4.5 by<br>setting the vector length, context window size, cor-<br>pus, and vocabulary size to the configuration men-<br>tioned in the previous subsection.</p>",
+            "id": 114,
+            "page": 9,
+            "text": "A rigorous quantitative comparison of GloVe with word2vec is complicated by the existence of many parameters that have a strong effect on performance. We control for the main sources of variation that we identified in Sections 4.4 and 4.5 by setting the vector length, context window size, corpus, and vocabulary size to the configuration mentioned in the previous subsection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1271,
+                    "y": 2860
+                },
+                {
+                    "x": 2197,
+                    "y": 2860
+                },
+                {
+                    "x": 2197,
+                    "y": 3196
+                },
+                {
+                    "x": 1271,
+                    "y": 3196
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:18px'>The most important remaining variable to con-<br>trol for is training time. For GloVe, the rele-<br>vant parameter is the number of training iterations.<br>For word2vec, the obvious choice would be the<br>number of training epochs. Unfortunately, the<br>code is currently designed for only a single epoch:</p>",
+            "id": 115,
+            "page": 9,
+            "text": "The most important remaining variable to control for is training time. For GloVe, the relevant parameter is the number of training iterations. For word2vec, the obvious choice would be the number of training epochs. Unfortunately, the code is currently designed for only a single epoch:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 463,
+                    "y": 245
+                },
+                {
+                    "x": 2014,
+                    "y": 245
+                },
+                {
+                    "x": 2014,
+                    "y": 980
+                },
+                {
+                    "x": 463,
+                    "y": 980
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='116' style='font-size:14px' alt=\"Training Time (hrs) Training Time (hrs)\n2 3 4 5 6 3 6 9 12 15 18 21 24\n72 72\n7아 7아\n[%] 68- GloVe [%]\n68-\nAccuracy\nAccuracy\nCBOW\n66- 66-\nGloVe\n64- 64-\nSkip-Gram\n62 62-\n5 10 15 20 25 20 40 60 80 100\n60 60\nIterations (GloVe) Iterations (GloVe)\n1357 10 15 20 25 30 40 50 1 2 3 4 5 6 7 10 12 15 20\nNegative Samples (CBOW) Negative Samples (Skip-Gram)\n(a) GloVe VS CBOW (b) GloVe VS Skip-Gram\" data-coord=\"top-left:(463,245); bottom-right:(2014,980)\" /></figure>",
+            "id": 116,
+            "page": 10,
+            "text": "Training Time (hrs) Training Time (hrs) 2 3 4 5 6 3 6 9 12 15 18 21 24 72 72 7아 7아 [%] 68- GloVe [%] 68Accuracy Accuracy CBOW 66- 66GloVe 64- 64Skip-Gram 62 625 10 15 20 25 20 40 60 80 100 60 60 Iterations (GloVe) Iterations (GloVe) 1357 10 15 20 25 30 40 50 1 2 3 4 5 6 7 10 12 15 20 Negative Samples (CBOW) Negative Samples (Skip-Gram) (a) GloVe VS CBOW (b) GloVe VS Skip-Gram"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 289,
+                    "y": 992
+                },
+                {
+                    "x": 2199,
+                    "y": 992
+                },
+                {
+                    "x": 2199,
+                    "y": 1225
+                },
+                {
+                    "x": 289,
+                    "y": 1225
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='117' style='font-size:16px'>Figure 4: Overall accuracy on the word analogy task as a function of training time, which is governed by<br>the number of iterations for GloVe and by the number of negative samples for CBOW (a) and skip-gram<br>(b). In all cases, we train 300-dimensional vectors on the same 6B token corpus (Wikipedia 2014 +<br>Gigaword 5) with the same 400,000 word vocabulary, and use a symmetric context window of size 10.</caption>",
+            "id": 117,
+            "page": 10,
+            "text": "Figure 4: Overall accuracy on the word analogy task as a function of training time, which is governed by the number of iterations for GloVe and by the number of negative samples for CBOW (a) and skip-gram (b). In all cases, we train 300-dimensional vectors on the same 6B token corpus (Wikipedia 2014 + Gigaword 5) with the same 400,000 word vocabulary, and use a symmetric context window of size 10."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 1255
+                },
+                {
+                    "x": 1216,
+                    "y": 1255
+                },
+                {
+                    "x": 1216,
+                    "y": 1648
+                },
+                {
+                    "x": 291,
+                    "y": 1648
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:18px'>it specifies a learning schedule specific to a single<br>pass through the data, making a modification for<br>multiple passes a non-trivial task. Another choice<br>is to vary the number of negative samples. Adding<br>negative samples effectively increases the number<br>of training words seen by the model, SO in some<br>ways it is analogous to extra epochs.</p>",
+            "id": 118,
+            "page": 10,
+            "text": "it specifies a learning schedule specific to a single pass through the data, making a modification for multiple passes a non-trivial task. Another choice is to vary the number of negative samples. Adding negative samples effectively increases the number of training words seen by the model, SO in some ways it is analogous to extra epochs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1657
+                },
+                {
+                    "x": 1213,
+                    "y": 1657
+                },
+                {
+                    "x": 1213,
+                    "y": 1875
+                },
+                {
+                    "x": 292,
+                    "y": 1875
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:18px'>We set any unspecified parameters to their de-<br>fault values, assuming that they are close to opti-<br>mal, though we acknowledge that this simplifica-<br>tion should be relaxed in a more thorough analysis.</p>",
+            "id": 119,
+            "page": 10,
+            "text": "We set any unspecified parameters to their default values, assuming that they are close to optimal, though we acknowledge that this simplification should be relaxed in a more thorough analysis."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1883
+                },
+                {
+                    "x": 1214,
+                    "y": 1883
+                },
+                {
+                    "x": 1214,
+                    "y": 2442
+                },
+                {
+                    "x": 292,
+                    "y": 2442
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='120' style='font-size:16px'>In Fig. 4, we plot the overall performance on<br>the analogy task as a function of training time.<br>The two x-axes at the bottom indicate the corre-<br>sponding number of training iterations for GloVe<br>and negative samples for word2vec. We note<br>that word2vec's performance actually decreases<br>if the number of negative samples increases be-<br>yond about 10. Presumably this is because the<br>negative sampling method does not approximate<br>the target probability distribution well. 9</p>",
+            "id": 120,
+            "page": 10,
+            "text": "In Fig. 4, we plot the overall performance on the analogy task as a function of training time. The two x-axes at the bottom indicate the corresponding number of training iterations for GloVe and negative samples for word2vec. We note that word2vec's performance actually decreases if the number of negative samples increases beyond about 10. Presumably this is because the negative sampling method does not approximate the target probability distribution well. 9"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2451
+                },
+                {
+                    "x": 1213,
+                    "y": 2451
+                },
+                {
+                    "x": 1213,
+                    "y": 2672
+                },
+                {
+                    "x": 292,
+                    "y": 2672
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='121' style='font-size:20px'>For the same corpus, vocabulary, window size,<br>and training time, GloVe consistently outperforms<br>word2vec. It achieves better results faster, and<br>also obtains the best results irrespective of speed.</p>",
+            "id": 121,
+            "page": 10,
+            "text": "For the same corpus, vocabulary, window size, and training time, GloVe consistently outperforms word2vec. It achieves better results faster, and also obtains the best results irrespective of speed."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2718
+                },
+                {
+                    "x": 617,
+                    "y": 2718
+                },
+                {
+                    "x": 617,
+                    "y": 2774
+                },
+                {
+                    "x": 293,
+                    "y": 2774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='122' style='font-size:20px'>5 Conclusion</p>",
+            "id": 122,
+            "page": 10,
+            "text": "5 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 2813
+                },
+                {
+                    "x": 1215,
+                    "y": 2813
+                },
+                {
+                    "x": 1215,
+                    "y": 2981
+                },
+                {
+                    "x": 292,
+                    "y": 2981
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:16px'>Recently, considerable attention has been focused<br>on the question of whether distributional word<br>representations are best learned from count-based</p>",
+            "id": 123,
+            "page": 10,
+            "text": "Recently, considerable attention has been focused on the question of whether distributional word representations are best learned from count-based"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 3018
+                },
+                {
+                    "x": 1213,
+                    "y": 3018
+                },
+                {
+                    "x": 1213,
+                    "y": 3191
+                },
+                {
+                    "x": 292,
+                    "y": 3191
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:14px'>9In contrast, noise-contrastive estimation is an approxi-<br>mation which improves with more negative samples. In Ta-<br>ble 1 of (Mnih et al., 2013), accuracy on the analogy task is a<br>non-decreasing function of the number of negative samples.</p>",
+            "id": 124,
+            "page": 10,
+            "text": "9In contrast, noise-contrastive estimation is an approximation which improves with more negative samples. In Table 1 of (Mnih , 2013), accuracy on the analogy task is a non-decreasing function of the number of negative samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1272,
+                    "y": 1257
+                },
+                {
+                    "x": 2197,
+                    "y": 1257
+                },
+                {
+                    "x": 2197,
+                    "y": 2326
+                },
+                {
+                    "x": 1272,
+                    "y": 2326
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='125' style='font-size:16px'>methods or from prediction-based methods. Cur-<br>rently, prediction-based models garner substantial<br>support; for example, Baroni et al. (2014) argue<br>that these models perform better across a range of<br>tasks. In this work we argue that the two classes<br>of methods are not dramatically different at a fun-<br>damental level since they both probe the under-<br>lying co-occurrence statistics of the corpus, but<br>the efficiency with which the count-based meth-<br>ods capture global statistics can be advantageous.<br>We construct a model that utilizes this main ben-<br>efit of count data while simultaneously capturing<br>the meaningful linear substructures prevalent in<br>recent log-bilinear prediction-based methods like<br>word2vec. The result, GloVe, is a new global<br>log-bilinear regression model for the unsupervised<br>learning of word representations that outperforms<br>other models on word analogy, word similarity,<br>and named entity recognition tasks.</p>",
+            "id": 125,
+            "page": 10,
+            "text": "methods or from prediction-based methods. Currently, prediction-based models garner substantial support; for example, Baroni  (2014) argue that these models perform better across a range of tasks. In this work we argue that the two classes of methods are not dramatically different at a fundamental level since they both probe the underlying co-occurrence statistics of the corpus, but the efficiency with which the count-based methods capture global statistics can be advantageous. We construct a model that utilizes this main benefit of count data while simultaneously capturing the meaningful linear substructures prevalent in recent log-bilinear prediction-based methods like word2vec. The result, GloVe, is a new global log-bilinear regression model for the unsupervised learning of word representations that outperforms other models on word analogy, word similarity, and named entity recognition tasks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 2372
+                },
+                {
+                    "x": 1674,
+                    "y": 2372
+                },
+                {
+                    "x": 1674,
+                    "y": 2426
+                },
+                {
+                    "x": 1274,
+                    "y": 2426
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='126' style='font-size:22px'>Acknowledgments</p>",
+            "id": 126,
+            "page": 10,
+            "text": "Acknowledgments"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1273,
+                    "y": 2461
+                },
+                {
+                    "x": 2198,
+                    "y": 2461
+                },
+                {
+                    "x": 2198,
+                    "y": 3195
+                },
+                {
+                    "x": 1273,
+                    "y": 3195
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='127' style='font-size:18px'>We thank the anonymous reviewers for their valu-<br>able comments. Stanford University gratefully<br>acknowledges the support of the Defense Threat<br>Reduction Agency (DTRA) under Air Force Re-<br>search Laboratory (AFRL) contract no. FA8650-<br>10-C-7020 and the Defense Advanced Research<br>Projects Agency (DARPA) Deep Exploration and<br>Filtering of Text (DEFT) Program under AFRL<br>contract no. FA8750-13-2-0040. Any opinions,<br>findings, and conclusion or recommendations ex-<br>pressed in this material are those of the authors and<br>do not necessarily reflect the view of the DTRA,<br>AFRL, DEFT, or the US government.</p>",
+            "id": 127,
+            "page": 10,
+            "text": "We thank the anonymous reviewers for their valuable comments. Stanford University gratefully acknowledges the support of the Defense Threat Reduction Agency (DTRA) under Air Force Research Laboratory (AFRL) contract no. FA865010-C-7020 and the Defense Advanced Research Projects Agency (DARPA) Deep Exploration and Filtering of Text (DEFT) Program under AFRL contract no. FA8750-13-2-0040. Any opinions, findings, and conclusion or recommendations expressed in this material are those of the authors and do not necessarily reflect the view of the DTRA, AFRL, DEFT, or the US government."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 263
+                },
+                {
+                    "x": 537,
+                    "y": 263
+                },
+                {
+                    "x": 537,
+                    "y": 318
+                },
+                {
+                    "x": 292,
+                    "y": 318
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='128' style='font-size:22px'>References</p>",
+            "id": 128,
+            "page": 11,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 358
+                },
+                {
+                    "x": 1214,
+                    "y": 358
+                },
+                {
+                    "x": 1214,
+                    "y": 523
+                },
+                {
+                    "x": 294,
+                    "y": 523
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:16px'>Tom M. Apostol. 1976. Introduction to Analytic<br>Number Theory. Introduction to Analytic Num-<br>ber Theory.</p>",
+            "id": 129,
+            "page": 11,
+            "text": "Tom M. Apostol. 1976. Introduction to Analytic Number Theory. Introduction to Analytic Number Theory."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 551
+                },
+                {
+                    "x": 1214,
+                    "y": 551
+                },
+                {
+                    "x": 1214,
+                    "y": 772
+                },
+                {
+                    "x": 293,
+                    "y": 772
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:16px'>Marco Baroni, Georgiana Dinu, and German<br>Kruszewski. 2014. Don't count, predict! A<br>systematic comparison of context-counting VS.<br>context-predicting semantic vectors. In ACL.</p>",
+            "id": 130,
+            "page": 11,
+            "text": "Marco Baroni, Georgiana Dinu, and German Kruszewski. 2014. Don't count, predict! A systematic comparison of context-counting VS. context-predicting semantic vectors. In ACL."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 795
+                },
+                {
+                    "x": 1214,
+                    "y": 795
+                },
+                {
+                    "x": 1214,
+                    "y": 960
+                },
+                {
+                    "x": 294,
+                    "y": 960
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='131' style='font-size:16px'>Yoshua Bengio. 2009. Learning deep architectures<br>for AI. Foundations and Trends in Machine<br>Learning.</p>",
+            "id": 131,
+            "page": 11,
+            "text": "Yoshua Bengio. 2009. Learning deep architectures for AI. Foundations and Trends in Machine Learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 989
+                },
+                {
+                    "x": 1213,
+                    "y": 989
+                },
+                {
+                    "x": 1213,
+                    "y": 1152
+                },
+                {
+                    "x": 295,
+                    "y": 1152
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='132' style='font-size:16px'>Yoshua Bengio, Rejean Ducharme, Pascal Vin-<br>cent, and Christian Janvin. 2003. A neural prob-<br>abilistic language model. JMLR, 3:1137-1155.</p>",
+            "id": 132,
+            "page": 11,
+            "text": "Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Janvin. 2003. A neural probabilistic language model. JMLR, 3:1137-1155."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 1180
+                },
+                {
+                    "x": 1214,
+                    "y": 1180
+                },
+                {
+                    "x": 1214,
+                    "y": 1400
+                },
+                {
+                    "x": 295,
+                    "y": 1400
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='133' style='font-size:16px'>John A. Bullinaria and Joseph P. Levy. 2007. Ex-<br>tracting semantic representations from word CO-<br>occurrence statistics: A computational study.<br>Behavior Research Methods, 39(3):510-526.</p>",
+            "id": 133,
+            "page": 11,
+            "text": "John A. Bullinaria and Joseph P. Levy. 2007. Extracting semantic representations from word COoccurrence statistics: A computational study. Behavior Research Methods, 39(3):510-526."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1428
+                },
+                {
+                    "x": 1216,
+                    "y": 1428
+                },
+                {
+                    "x": 1216,
+                    "y": 1703
+                },
+                {
+                    "x": 294,
+                    "y": 1703
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='134' style='font-size:16px'>Dan C. Ciresan, Alessandro Giusti, Luca M. Gam-<br>bardella, and Jurgen Schmidhuber. 2012. Deep<br>neural networks segment neuronal membranes<br>in electron microscopy images. In NIPS, pages<br>2852-2860.</p>",
+            "id": 134,
+            "page": 11,
+            "text": "Dan C. Ciresan, Alessandro Giusti, Luca M. Gambardella, and Jurgen Schmidhuber. 2012. Deep neural networks segment neuronal membranes in electron microscopy images. In NIPS, pages 2852-2860."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 294,
+                    "y": 1730
+                },
+                {
+                    "x": 1215,
+                    "y": 1730
+                },
+                {
+                    "x": 1215,
+                    "y": 1954
+                },
+                {
+                    "x": 294,
+                    "y": 1954
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='135' style='font-size:14px'>Ronan Collobert and Jason Weston. 2008. A uni-<br>fied architecture for natural language process-<br>ing: deep neural networks with multitask learn-<br>ing. In Proceedings of ICML, pages 160-167.</p>",
+            "id": 135,
+            "page": 11,
+            "text": "Ronan Collobert and Jason Weston. 2008. A unified architecture for natural language processing: deep neural networks with multitask learning. In Proceedings of ICML, pages 160-167."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 1980
+                },
+                {
+                    "x": 1214,
+                    "y": 1980
+                },
+                {
+                    "x": 1214,
+                    "y": 2200
+                },
+                {
+                    "x": 295,
+                    "y": 2200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='136' style='font-size:20px'>Ronan Collobert, Jason Weston, Leon Bottou,<br>Michael Karlen, Koray Kavukcuoglu, and Pavel<br>Kuksa. 2011. Natural Language Processing (Al-<br>most) from Scratch. JMLR, 12:2493-2537.</p>",
+            "id": 136,
+            "page": 11,
+            "text": "Ronan Collobert, Jason Weston, Leon Bottou, Michael Karlen, Koray Kavukcuoglu, and Pavel Kuksa. 2011. Natural Language Processing (Almost) from Scratch. JMLR, 12:2493-2537."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2227
+                },
+                {
+                    "x": 1216,
+                    "y": 2227
+                },
+                {
+                    "x": 1216,
+                    "y": 2504
+                },
+                {
+                    "x": 293,
+                    "y": 2504
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='137' style='font-size:18px'>Scott Deerwester, Susan T. Dumais, George W.<br>Furnas, Thomas K. Landauer, and Richard<br>Harshman. 1990. Indexing by latent semantic<br>analysis. Journal of the American Society for<br>Information Science, 41.</p>",
+            "id": 137,
+            "page": 11,
+            "text": "Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, and Richard Harshman. 1990. Indexing by latent semantic analysis. Journal of the American Society for Information Science, 41."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 293,
+                    "y": 2532
+                },
+                {
+                    "x": 1213,
+                    "y": 2532
+                },
+                {
+                    "x": 1213,
+                    "y": 2696
+                },
+                {
+                    "x": 293,
+                    "y": 2696
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='138' style='font-size:18px'>John Duchi, Elad Hazan, and Yoram Singer. 2011.<br>Adaptive subgradient methods for online learn-<br>ing and stochastic optimization. JMLR, 12.</p>",
+            "id": 138,
+            "page": 11,
+            "text": "John Duchi, Elad Hazan, and Yoram Singer. 2011. Adaptive subgradient methods for online learning and stochastic optimization. JMLR, 12."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 295,
+                    "y": 2723
+                },
+                {
+                    "x": 1215,
+                    "y": 2723
+                },
+                {
+                    "x": 1215,
+                    "y": 3056
+                },
+                {
+                    "x": 295,
+                    "y": 3056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='139' style='font-size:18px'>Lev Finkelstein, Evgenly Gabrilovich, Yossi Ma-<br>tias, Ehud Rivlin, Zach Solan, Gadi Wolfman,<br>and Eytan Ruppin. 2001. Placing search in con-<br>text: The concept revisited. In Proceedings<br>of the 10th international conference on World<br>Wide Web, pages 406-414. ACM.</p>",
+            "id": 139,
+            "page": 11,
+            "text": "Lev Finkelstein, Evgenly Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan, Gadi Wolfman, and Eytan Ruppin. 2001. Placing search in context: The concept revisited. In Proceedings of the 10th international conference on World Wide Web, pages 406-414. ACM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 3083
+                },
+                {
+                    "x": 1214,
+                    "y": 3083
+                },
+                {
+                    "x": 1214,
+                    "y": 3195
+                },
+                {
+                    "x": 291,
+                    "y": 3195
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='140' style='font-size:20px'>Eric H. Huang, Richard Socher, Christopher D.<br>Manning, and Andrew Y. Ng. 2012. Improving</p>",
+            "id": 140,
+            "page": 11,
+            "text": "Eric H. Huang, Richard Socher, Christopher D. Manning, and Andrew Y. Ng. 2012. Improving"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1321,
+                    "y": 267
+                },
+                {
+                    "x": 2195,
+                    "y": 267
+                },
+                {
+                    "x": 2195,
+                    "y": 376
+                },
+                {
+                    "x": 1321,
+                    "y": 376
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='141' style='font-size:16px'>Word Representations via Global Context and<br>Multiple Word Prototypes. In ACL.</p>",
+            "id": 141,
+            "page": 11,
+            "text": "Word Representations via Global Context and Multiple Word Prototypes. In ACL."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 401
+                },
+                {
+                    "x": 2199,
+                    "y": 401
+                },
+                {
+                    "x": 2199,
+                    "y": 511
+                },
+                {
+                    "x": 1274,
+                    "y": 511
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='142' style='font-size:16px'>Remi Lebret and Ronan Collobert. 2014. Word<br>embeddings through Hellinger PCA. In EACL.</p>",
+            "id": 142,
+            "page": 11,
+            "text": "Remi Lebret and Ronan Collobert. 2014. Word embeddings through Hellinger PCA. In EACL."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 536
+                },
+                {
+                    "x": 2197,
+                    "y": 536
+                },
+                {
+                    "x": 2197,
+                    "y": 701
+                },
+                {
+                    "x": 1274,
+                    "y": 701
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='143' style='font-size:18px'>Omer Levy, Yoav Goldberg, and Israel Ramat-<br>Gan. 2014. Linguistic regularities in sparse and<br>explicit word representations. CoNLL-2014.</p>",
+            "id": 143,
+            "page": 11,
+            "text": "Omer Levy, Yoav Goldberg, and Israel RamatGan. 2014. Linguistic regularities in sparse and explicit word representations. CoNLL-2014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 727
+                },
+                {
+                    "x": 2195,
+                    "y": 727
+                },
+                {
+                    "x": 2195,
+                    "y": 947
+                },
+                {
+                    "x": 1274,
+                    "y": 947
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='144' style='font-size:16px'>Kevin Lund and Curt Burgess. 1996. Producing<br>high-dimensional semantic spaces from lexical<br>co-occurrence. Behavior Research Methods, In-<br>strumentation, and Computers, 28:203-208.</p>",
+            "id": 144,
+            "page": 11,
+            "text": "Kevin Lund and Curt Burgess. 1996. Producing high-dimensional semantic spaces from lexical co-occurrence. Behavior Research Methods, Instrumentation, and Computers, 28:203-208."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 975
+                },
+                {
+                    "x": 2196,
+                    "y": 975
+                },
+                {
+                    "x": 2196,
+                    "y": 1194
+                },
+                {
+                    "x": 1275,
+                    "y": 1194
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='145' style='font-size:18px'>Minh-Thang Luong, Richard Socher, and Christo-<br>pher D Manning. 2013. Better word represen-<br>tations with recursive neural networks for mor-<br>phology. CoNLL-2013.</p>",
+            "id": 145,
+            "page": 11,
+            "text": "Minh-Thang Luong, Richard Socher, and Christopher D Manning. 2013. Better word representations with recursive neural networks for morphology. CoNLL-2013."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1220
+                },
+                {
+                    "x": 2195,
+                    "y": 1220
+                },
+                {
+                    "x": 2195,
+                    "y": 1440
+                },
+                {
+                    "x": 1275,
+                    "y": 1440
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='146' style='font-size:18px'>Tomas Mikolov, Kai Chen, Greg Corrado, and Jef-<br>frey Dean. 2013a. Efficient Estimation of Word<br>Representations in Vector Space. In ICLR Work-<br>shop Papers.</p>",
+            "id": 146,
+            "page": 11,
+            "text": "Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013a. Efficient Estimation of Word Representations in Vector Space. In ICLR Workshop Papers."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 1467
+                },
+                {
+                    "x": 2196,
+                    "y": 1467
+                },
+                {
+                    "x": 2196,
+                    "y": 1689
+                },
+                {
+                    "x": 1275,
+                    "y": 1689
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='147' style='font-size:18px'>Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg<br>Corrado, and Jeffrey Dean. 2013b. Distributed<br>representations of words and phrases and their<br>compositionality. In NIPS, pages 3111-3119.</p>",
+            "id": 147,
+            "page": 11,
+            "text": "Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013b. Distributed representations of words and phrases and their compositionality. In NIPS, pages 3111-3119."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1276,
+                    "y": 1716
+                },
+                {
+                    "x": 2195,
+                    "y": 1716
+                },
+                {
+                    "x": 2195,
+                    "y": 1932
+                },
+                {
+                    "x": 1276,
+                    "y": 1932
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='148' style='font-size:14px'>Tomas Mikolov, Wen tau Yih, and Geoffrey<br>Zweig. 2013c. Linguistic regularities in con-<br>tinuous space word representations. In HLT-<br>NAACL.</p>",
+            "id": 148,
+            "page": 11,
+            "text": "Tomas Mikolov, Wen tau Yih, and Geoffrey Zweig. 2013c. Linguistic regularities in continuous space word representations. In HLTNAACL."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 1963
+                },
+                {
+                    "x": 2194,
+                    "y": 1963
+                },
+                {
+                    "x": 2194,
+                    "y": 2126
+                },
+                {
+                    "x": 1274,
+                    "y": 2126
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='149' style='font-size:16px'>George A. Miller and Walter G. Charles. 1991.<br>Contextual correlates of semantic similarity.<br>Language and cognitive processes, 6(1):1-28.</p>",
+            "id": 149,
+            "page": 11,
+            "text": "George A. Miller and Walter G. Charles. 1991. Contextual correlates of semantic similarity. Language and cognitive processes, 6(1):1-28."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2153
+                },
+                {
+                    "x": 2195,
+                    "y": 2153
+                },
+                {
+                    "x": 2195,
+                    "y": 2314
+                },
+                {
+                    "x": 1278,
+                    "y": 2314
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='150' style='font-size:20px'>Andriy Mnih and Koray Kavukcuoglu. 2013.<br>Learning word embeddings efficiently with<br>noise-contrastive estimation. In NIPS.</p>",
+            "id": 150,
+            "page": 11,
+            "text": "Andriy Mnih and Koray Kavukcuoglu. 2013. Learning word embeddings efficiently with noise-contrastive estimation. In NIPS."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2343
+                },
+                {
+                    "x": 2196,
+                    "y": 2343
+                },
+                {
+                    "x": 2196,
+                    "y": 2616
+                },
+                {
+                    "x": 1275,
+                    "y": 2616
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='151' style='font-size:14px'>Douglas L. T. Rohde, Laura M. Gonnerman,<br>and David C. Plaut. 2006. An improved<br>model of semantic similarity based on lexical<br>co-occurence. Communications of the ACM,<br>8:627-633.</p>",
+            "id": 151,
+            "page": 11,
+            "text": "Douglas L. T. Rohde, Laura M. Gonnerman, and David C. Plaut. 2006. An improved model of semantic similarity based on lexical co-occurence. Communications of the ACM, 8:627-633."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2647
+                },
+                {
+                    "x": 2193,
+                    "y": 2647
+                },
+                {
+                    "x": 2193,
+                    "y": 2809
+                },
+                {
+                    "x": 1275,
+                    "y": 2809
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='152' style='font-size:16px'>Herbert Rubenstein and John B. Goodenough.<br>1965. Contextual correlates of synonymy. Com-<br>munications of the ACM, 8(10):627-633.</p>",
+            "id": 152,
+            "page": 11,
+            "text": "Herbert Rubenstein and John B. Goodenough. 1965. Contextual correlates of synonymy. Communications of the ACM, 8(10):627-633."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1275,
+                    "y": 2838
+                },
+                {
+                    "x": 2195,
+                    "y": 2838
+                },
+                {
+                    "x": 2195,
+                    "y": 2998
+                },
+                {
+                    "x": 1275,
+                    "y": 2998
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='153' style='font-size:16px'>Fabrizio Sebastiani. 2002. Machine learning in au-<br>tomated text categorization. ACM Computing<br>Surveys, 34:1-47.</p>",
+            "id": 153,
+            "page": 11,
+            "text": "Fabrizio Sebastiani. 2002. Machine learning in automated text categorization. ACM Computing Surveys, 34:1-47."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1274,
+                    "y": 3026
+                },
+                {
+                    "x": 2196,
+                    "y": 3026
+                },
+                {
+                    "x": 2196,
+                    "y": 3193
+                },
+                {
+                    "x": 1274,
+                    "y": 3193
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='154' style='font-size:18px'>Richard Socher, John Bauer, Christopher D. Man-<br>ning, and Andrew Y. Ng. 2013. Parsing With<br>Compositional Vector Grammars. In ACL.</p>",
+            "id": 154,
+            "page": 11,
+            "text": "Richard Socher, John Bauer, Christopher D. Manning, and Andrew Y. Ng. 2013. Parsing With Compositional Vector Grammars. In ACL."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 266
+                },
+                {
+                    "x": 1218,
+                    "y": 266
+                },
+                {
+                    "x": 1218,
+                    "y": 602
+                },
+                {
+                    "x": 291,
+                    "y": 602
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='155' style='font-size:20px'>Stefanie Tellex, Boris Katz, Jimmy Lin, Aaron<br>Fernandes, and Gregory Marton. 2003. Quanti-<br>tative evaluation of passage retrieval algorithms<br>for question answering. In Proceedings of the<br>SIGIR Conference on Research and Develop-<br>ment in Informaion Retrieval.</p>",
+            "id": 155,
+            "page": 12,
+            "text": "Stefanie Tellex, Boris Katz, Jimmy Lin, Aaron Fernandes, and Gregory Marton. 2003. Quantitative evaluation of passage retrieval algorithms for question answering. In Proceedings of the SIGIR Conference on Research and Development in Informaion Retrieval."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 622
+                },
+                {
+                    "x": 1215,
+                    "y": 622
+                },
+                {
+                    "x": 1215,
+                    "y": 845
+                },
+                {
+                    "x": 291,
+                    "y": 845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='156' style='font-size:14px'>Erik F. Tjong Kim Sang and Fien De Meul-<br>der. 2003. Introduction to the CoNLL-2003<br>shared task: Language-independent named en-<br>tity recognition. In CoNLL-2003.</p>",
+            "id": 156,
+            "page": 12,
+            "text": "Erik F. Tjong Kim Sang and Fien De Meulder. 2003. Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition. In CoNLL-2003."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 866
+                },
+                {
+                    "x": 1215,
+                    "y": 866
+                },
+                {
+                    "x": 1215,
+                    "y": 1087
+                },
+                {
+                    "x": 292,
+                    "y": 1087
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='157' style='font-size:16px'>Joseph Turian, Lev Ratinov, and Yoshua Bengio.<br>2010. Word representations: a simple and gen-<br>eral method for semi-supervised learning. In<br>Proceedings ofACL, pages 384-394.</p>",
+            "id": 157,
+            "page": 12,
+            "text": "Joseph Turian, Lev Ratinov, and Yoshua Bengio. 2010. Word representations: a simple and general method for semi-supervised learning. In Proceedings ofACL, pages 384-394."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 292,
+                    "y": 1108
+                },
+                {
+                    "x": 1215,
+                    "y": 1108
+                },
+                {
+                    "x": 1215,
+                    "y": 1388
+                },
+                {
+                    "x": 292,
+                    "y": 1388
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='158' style='font-size:20px'>Mengqiu Wang and Christopher D. Manning.<br>2013. Effect of non-linear deep architecture in<br>sequence labeling. In Proceedings of the 6th<br>International Joint Conference on Natural Lan-<br>guage Processing (IJCNLP).</p>",
+            "id": 158,
+            "page": 12,
+            "text": "Mengqiu Wang and Christopher D. Manning. 2013. Effect of non-linear deep architecture in sequence labeling. In Proceedings of the 6th International Joint Conference on Natural Language Processing (IJCNLP)."
+        }
+    ]
+}

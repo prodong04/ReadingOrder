@@ -1,0 +1,3681 @@
+{
+    "id": "3296318a-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "./pdf/AI_VIT_X/1504.08083v2.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 1076,
+                    "y": 437
+                },
+                {
+                    "x": 1402,
+                    "y": 437
+                },
+                {
+                    "x": 1402,
+                    "y": 495
+                },
+                {
+                    "x": 1076,
+                    "y": 495
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>Fast R-CNN</p>",
+            "id": 0,
+            "page": 1,
+            "text": "Fast R-CNN"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1037,
+                    "y": 602
+                },
+                {
+                    "x": 1441,
+                    "y": 602
+                },
+                {
+                    "x": 1441,
+                    "y": 713
+                },
+                {
+                    "x": 1037,
+                    "y": 713
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='1' style='font-size:20px'>Ross Girshick<br>Microsoft Research</p>",
+            "id": 1,
+            "page": 1,
+            "text": "Ross Girshick Microsoft Research"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1045,
+                    "y": 736
+                },
+                {
+                    "x": 1434,
+                    "y": 736
+                },
+                {
+                    "x": 1434,
+                    "y": 770
+                },
+                {
+                    "x": 1045,
+                    "y": 770
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:14px'>rbg@microsoft · com</p>",
+            "id": 2,
+            "page": 1,
+            "text": "rbg@microsoft · com"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 603,
+                    "y": 890
+                },
+                {
+                    "x": 798,
+                    "y": 890
+                },
+                {
+                    "x": 798,
+                    "y": 944
+                },
+                {
+                    "x": 603,
+                    "y": 944
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:22px'>Abstract</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 198,
+                    "y": 995
+                },
+                {
+                    "x": 1199,
+                    "y": 995
+                },
+                {
+                    "x": 1199,
+                    "y": 1650
+                },
+                {
+                    "x": 198,
+                    "y": 1650
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:18px'>This paper proposes a Fast Region-based Convolutional<br>Network method (Fast R-CNN) for object detection. Fast<br>R-CNN builds on previous work to efficiently classify ob-<br>ject proposals using deep convolutional networks. Com-<br>pared to previous work, Fast R-CNN employs several in-<br>novations to improve training and testing speed while also<br>increasing detection accuracy. Fast R-CNN trains the very<br>deep VGG16 network 9x faster than R-CNN, is 213x faster<br>at test-time, and achieves a higher mAP on PASCAL VOC<br>2012. Compared to SPPnet, Fast R-CNN trains VGG16 3x<br>faster, tests 10x faster, and is more accurate. Fast R-CNN<br>is implemented in Python and C++ (using Caffe) and is<br>available under the open-source MIT License at https ··</p>",
+            "id": 4,
+            "page": 1,
+            "text": "This paper proposes a Fast Region-based Convolutional Network method (Fast R-CNN) for object detection. Fast R-CNN builds on previous work to efficiently classify object proposals using deep convolutional networks. Compared to previous work, Fast R-CNN employs several innovations to improve training and testing speed while also increasing detection accuracy. Fast R-CNN trains the very deep VGG16 network 9x faster than R-CNN, is 213x faster at test-time, and achieves a higher mAP on PASCAL VOC 2012. Compared to SPPnet, Fast R-CNN trains VGG16 3x faster, tests 10x faster, and is more accurate. Fast R-CNN is implemented in Python and C++ (using Caffe) and is available under the open-source MIT License at https ··"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 1649
+                },
+                {
+                    "x": 1048,
+                    "y": 1649
+                },
+                {
+                    "x": 1048,
+                    "y": 1694
+                },
+                {
+                    "x": 204,
+                    "y": 1694
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:16px'>\\ / github . com/ rbgirshick/ fast-rcnn.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "\\ / github . com/ rbgirshick/ fast-rcnn."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 1791
+                },
+                {
+                    "x": 531,
+                    "y": 1791
+                },
+                {
+                    "x": 531,
+                    "y": 1844
+                },
+                {
+                    "x": 204,
+                    "y": 1844
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:22px'>1. Introduction</p>",
+            "id": 6,
+            "page": 1,
+            "text": "1. Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1876
+                },
+                {
+                    "x": 1199,
+                    "y": 1876
+                },
+                {
+                    "x": 1199,
+                    "y": 2225
+                },
+                {
+                    "x": 201,
+                    "y": 2225
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='7' style='font-size:18px'>Recently, deep ConvNets [14, 16] have significantly im-<br>proved image classification [14] and object detection [9, 19]<br>accuracy. Compared to image classification, object detec-<br>tion is a more challenging task that requires more com-<br>plex methods to solve. Due to this complexity, current ap-<br>proaches (e.g., [9, 11, 19, 25]) train models in multi-stage<br>pipelines that are slow and inelegant.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Recently, deep ConvNets  have significantly improved image classification  and object detection  accuracy. Compared to image classification, object detection is a more challenging task that requires more complex methods to solve. Due to this complexity, current approaches (e.g., ) train models in multi-stage pipelines that are slow and inelegant."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2231
+                },
+                {
+                    "x": 1199,
+                    "y": 2231
+                },
+                {
+                    "x": 1199,
+                    "y": 2574
+                },
+                {
+                    "x": 200,
+                    "y": 2574
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:18px'>Complexity arises because detection requires the ac-<br>curate localization of objects, creating two primary chal-<br>lenges. First, numerous candidate object locations (often<br>called \"proposals\") must be processed. Second, these can-<br>didates provide only rough localization that must be refined<br>to achieve precise localization. Solutions to these problems<br>often compromise speed, accuracy, or simplicity.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "Complexity arises because detection requires the accurate localization of objects, creating two primary challenges. First, numerous candidate object locations (often called \"proposals\") must be processed. Second, these candidates provide only rough localization that must be refined to achieve precise localization. Solutions to these problems often compromise speed, accuracy, or simplicity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2580
+                },
+                {
+                    "x": 1199,
+                    "y": 2580
+                },
+                {
+                    "x": 1199,
+                    "y": 2774
+                },
+                {
+                    "x": 202,
+                    "y": 2774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:18px'>In this paper, we streamline the training process for state-<br>of-the-art ConvNet-based object detectors [9, 11]. We pro-<br>pose a single-stage training algorithm that jointly learns to<br>classify object proposals and refine their spatial locations.</p>",
+            "id": 9,
+            "page": 1,
+            "text": "In this paper, we streamline the training process for stateof-the-art ConvNet-based object detectors . We propose a single-stage training algorithm that jointly learns to classify object proposals and refine their spatial locations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2781
+                },
+                {
+                    "x": 1199,
+                    "y": 2781
+                },
+                {
+                    "x": 1199,
+                    "y": 2976
+                },
+                {
+                    "x": 202,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='10' style='font-size:18px'>The resulting method can train a very deep detection<br>network (VGG16 [20]) 9x faster than R-CNN [9] and 3x<br>faster than SPPnet [11]. At runtime, the detection network<br>processes images in 0.3s (excluding object proposal time)</p>",
+            "id": 10,
+            "page": 1,
+            "text": "The resulting method can train a very deep detection network (VGG16 ) 9x faster than R-CNN  and 3x faster than SPPnet . At runtime, the detection network processes images in 0.3s (excluding object proposal time)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 895
+                },
+                {
+                    "x": 2275,
+                    "y": 895
+                },
+                {
+                    "x": 2275,
+                    "y": 993
+                },
+                {
+                    "x": 1280,
+                    "y": 993
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='11' style='font-size:16px'>while achieving top accuracy on PASCAL VOC 2012 [7]<br>with a mAP of 66% (VS. 62% for R-CNN). 1</p>",
+            "id": 11,
+            "page": 1,
+            "text": "while achieving top accuracy on PASCAL VOC 2012  with a mAP of 66% (VS. 62% for R-CNN). 1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1026
+                },
+                {
+                    "x": 1756,
+                    "y": 1026
+                },
+                {
+                    "x": 1756,
+                    "y": 1076
+                },
+                {
+                    "x": 1280,
+                    "y": 1076
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='12' style='font-size:18px'>1.1. R-CNN and SPPnet</p>",
+            "id": 12,
+            "page": 1,
+            "text": "1.1. R-CNN and SPPnet"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1105
+                },
+                {
+                    "x": 2276,
+                    "y": 1105
+                },
+                {
+                    "x": 2276,
+                    "y": 1301
+                },
+                {
+                    "x": 1280,
+                    "y": 1301
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='13' style='font-size:20px'>The Region-based Convolutional Network method (R-<br>CNN) [9] achieves excellent object detection accuracy by<br>using a deep ConvNet to classify object proposals. R-CNN,<br>however, has notable drawbacks:</p>",
+            "id": 13,
+            "page": 1,
+            "text": "The Region-based Convolutional Network method (RCNN)  achieves excellent object detection accuracy by using a deep ConvNet to classify object proposals. R-CNN, however, has notable drawbacks:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1312,
+                    "y": 1337
+                },
+                {
+                    "x": 2276,
+                    "y": 1337
+                },
+                {
+                    "x": 2276,
+                    "y": 2170
+                },
+                {
+                    "x": 1312,
+                    "y": 2170
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='14' style='font-size:18px'>1. Training is a multi-stage pipeline. R-CNN first fine-<br>tunes a ConvNet on object proposals using log loss.<br>Then, it fits SVMs to ConvNet features. These SVMs<br>act as object detectors, replacing the softmax classi-<br>fier learnt by fine-tuning. In the third training stage,<br>bounding-box regressors are learned.<br>2. Training is expensive in space and time. For SVM<br>and bounding-box regressor training, features are ex-<br>tracted from each object proposal in each image and<br>written to disk. With very deep networks, such as<br>VGG16, this process takes 2.5 GPU-days for the 5k<br>images of the VOC07 trainval set. These features re-<br>quire hundreds of gigabytes of storage.<br>3. Object detection is slow. At test-time, features are<br>extracted from each object proposal in each test image.<br>Detection with VGG16 takes 47s / image (on a GPU).</p>",
+            "id": 14,
+            "page": 1,
+            "text": "1. Training is a multi-stage pipeline. R-CNN first finetunes a ConvNet on object proposals using log loss. Then, it fits SVMs to ConvNet features. These SVMs act as object detectors, replacing the softmax classifier learnt by fine-tuning. In the third training stage, bounding-box regressors are learned. 2. Training is expensive in space and time. For SVM and bounding-box regressor training, features are extracted from each object proposal in each image and written to disk. With very deep networks, such as VGG16, this process takes 2.5 GPU-days for the 5k images of the VOC07 trainval set. These features require hundreds of gigabytes of storage. 3. Object detection is slow. At test-time, features are extracted from each object proposal in each test image. Detection with VGG16 takes 47s / image (on a GPU)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2201
+                },
+                {
+                    "x": 2277,
+                    "y": 2201
+                },
+                {
+                    "x": 2277,
+                    "y": 2900
+                },
+                {
+                    "x": 1277,
+                    "y": 2900
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:16px'>R-CNN is slow because it performs a ConvNet forward<br>pass for each object proposal, without sharing computation.<br>Spatial pyramid pooling networks (SPPnets) [11] were pro-<br>posed to speed up R-CNN by sharing computation. The<br>SPPnet method computes a convolutional feature map for<br>the entire input image and then classifies each object pro-<br>posal using a feature vector extracted from the shared fea-<br>ture map. Features are extracted for a proposal by max-<br>pooling the portion of the feature map inside the proposal<br>into a fixed-size output (e.g., 6 x 6). Multiple output sizes<br>are pooled and then concatenated as in spatial pyramid pool-<br>ing [15]. SPPnet accelerates R-CNN by 10 to 100x at test<br>time. Training time is also reduced by 3x due to faster pro-<br>posal feature extraction.</p>",
+            "id": 15,
+            "page": 1,
+            "text": "R-CNN is slow because it performs a ConvNet forward pass for each object proposal, without sharing computation. Spatial pyramid pooling networks (SPPnets)  were proposed to speed up R-CNN by sharing computation. The SPPnet method computes a convolutional feature map for the entire input image and then classifies each object proposal using a feature vector extracted from the shared feature map. Features are extracted for a proposal by maxpooling the portion of the feature map inside the proposal into a fixed-size output (e.g., 6 x 6). Multiple output sizes are pooled and then concatenated as in spatial pyramid pooling . SPPnet accelerates R-CNN by 10 to 100x at test time. Training time is also reduced by 3x due to faster proposal feature extraction."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1329,
+                    "y": 2928
+                },
+                {
+                    "x": 2191,
+                    "y": 2928
+                },
+                {
+                    "x": 2191,
+                    "y": 2973
+                },
+                {
+                    "x": 1329,
+                    "y": 2973
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='16' style='font-size:16px'>1 All timings use one Nvidia K40 GPU overclocked to 875 MHz.</p>",
+            "id": 16,
+            "page": 1,
+            "text": "1 All timings use one Nvidia K40 GPU overclocked to 875 MHz."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 57,
+                    "y": 876
+                },
+                {
+                    "x": 151,
+                    "y": 876
+                },
+                {
+                    "x": 151,
+                    "y": 2329
+                },
+                {
+                    "x": 57,
+                    "y": 2329
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='17' style='font-size:14px'>2015<br>Sep<br>27<br>[cs.CV]<br>arXiv:1504.08083v2</footer>",
+            "id": 17,
+            "page": 1,
+            "text": "2015 Sep 27 [cs.CV] arXiv:1504.08083v2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 306
+                },
+                {
+                    "x": 1200,
+                    "y": 306
+                },
+                {
+                    "x": 1200,
+                    "y": 755
+                },
+                {
+                    "x": 201,
+                    "y": 755
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='18' style='font-size:18px'>SPPnet also has notable drawbacks. Like R-CNN, train-<br>ing is a multi-stage pipeline that involves extracting fea-<br>tures, fine-tuning a network with log loss, training SVMs,<br>and finally fitting bounding-box regressors. Features are<br>also written to disk. But unlike R-CNN, the fine-tuning al-<br>gorithm proposed in [11] cannot update the convolutional<br>layers that precede the spatial pyramid pooling. Unsurpris-<br>ingly, this limitation (fixed convolutional layers) limits the<br>accuracy of very deep networks.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "SPPnet also has notable drawbacks. Like R-CNN, training is a multi-stage pipeline that involves extracting features, fine-tuning a network with log loss, training SVMs, and finally fitting bounding-box regressors. Features are also written to disk. But unlike R-CNN, the fine-tuning algorithm proposed in  cannot update the convolutional layers that precede the spatial pyramid pooling. Unsurprisingly, this limitation (fixed convolutional layers) limits the accuracy of very deep networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 206,
+                    "y": 788
+                },
+                {
+                    "x": 565,
+                    "y": 788
+                },
+                {
+                    "x": 565,
+                    "y": 835
+                },
+                {
+                    "x": 206,
+                    "y": 835
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:20px'>1.2. Contributions</p>",
+            "id": 19,
+            "page": 2,
+            "text": "1.2. Contributions"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 865
+                },
+                {
+                    "x": 1199,
+                    "y": 865
+                },
+                {
+                    "x": 1199,
+                    "y": 1113
+                },
+                {
+                    "x": 201,
+                    "y": 1113
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='20' style='font-size:16px'>We propose a new training algorithm that fixes the disad-<br>vantages of R-CNN and SPPnet, while improving on their<br>speed and accuracy. We call this method Fast R-CNN be-<br>cause it's comparatively fast to train and test. The Fast R-<br>CNN method has several advantages:</p>",
+            "id": 20,
+            "page": 2,
+            "text": "We propose a new training algorithm that fixes the disadvantages of R-CNN and SPPnet, while improving on their speed and accuracy. We call this method Fast R-CNN because it's comparatively fast to train and test. The Fast RCNN method has several advantages:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 232,
+                    "y": 1148
+                },
+                {
+                    "x": 1191,
+                    "y": 1148
+                },
+                {
+                    "x": 1191,
+                    "y": 1403
+                },
+                {
+                    "x": 232,
+                    "y": 1403
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='21' style='font-size:18px'>1. Higher detection quality (mAP) than R-CNN, SPPnet<br>2. Training is single-stage, using a multi-task loss<br>3. Training can update all network layers<br>4. No disk storage is required for feature caching</p>",
+            "id": 21,
+            "page": 2,
+            "text": "1. Higher detection quality (mAP) than R-CNN, SPPnet 2. Training is single-stage, using a multi-task loss 3. Training can update all network layers 4. No disk storage is required for feature caching"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1439
+                },
+                {
+                    "x": 1198,
+                    "y": 1439
+                },
+                {
+                    "x": 1198,
+                    "y": 1635
+                },
+                {
+                    "x": 201,
+                    "y": 1635
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:16px'>Fast R-CNN is written in Python and C++ (Caffe<br>[13]) and is available under the open-source MIT Li-<br>cense at https : / / github · com/ rbgirshick/<br>fast- rcnn.</p>",
+            "id": 22,
+            "page": 2,
+            "text": "Fast R-CNN is written in Python and C++ (Caffe ) and is available under the open-source MIT License at https : / / github · com/ rbgirshick/ fast- rcnn."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1685
+                },
+                {
+                    "x": 1072,
+                    "y": 1685
+                },
+                {
+                    "x": 1072,
+                    "y": 1738
+                },
+                {
+                    "x": 202,
+                    "y": 1738
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='23' style='font-size:22px'>2. Fast R-CNN architecture and training</p>",
+            "id": 23,
+            "page": 2,
+            "text": "2. Fast R-CNN architecture and training"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1768
+                },
+                {
+                    "x": 1199,
+                    "y": 1768
+                },
+                {
+                    "x": 1199,
+                    "y": 2468
+                },
+                {
+                    "x": 200,
+                    "y": 2468
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='24' style='font-size:16px'>Fig. 1 illustrates the Fast R-CNN architecture. A Fast<br>R-CNN network takes as input an entire image and a set<br>of object proposals. The network first processes the whole<br>image with several convolutional (conv) and max pooling<br>layers to produce a conv feature map. Then, for each ob-<br>ject proposal a region of interest (RoI) pooling layer ex-<br>tracts a fixed-length feature vector from the feature map.<br>Each feature vector is fed into a sequence of fully connected<br>(fc) layers that finally branch into two sibling output lay-<br>ers: one that produces softmax probability estimates over<br>K object classes plus a catch-all \"background\" class and<br>another layer that outputs four real-valued numbers for each<br>of the K object classes. Each set of 4 values encodes refined<br>bounding-box positions for one of the K classes.</p>",
+            "id": 24,
+            "page": 2,
+            "text": "Fig. 1 illustrates the Fast R-CNN architecture. A Fast R-CNN network takes as input an entire image and a set of object proposals. The network first processes the whole image with several convolutional (conv) and max pooling layers to produce a conv feature map. Then, for each object proposal a region of interest (RoI) pooling layer extracts a fixed-length feature vector from the feature map. Each feature vector is fed into a sequence of fully connected (fc) layers that finally branch into two sibling output layers: one that produces softmax probability estimates over K object classes plus a catch-all \"background\" class and another layer that outputs four real-valued numbers for each of the K object classes. Each set of 4 values encodes refined bounding-box positions for one of the K classes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2499
+                },
+                {
+                    "x": 720,
+                    "y": 2499
+                },
+                {
+                    "x": 720,
+                    "y": 2551
+                },
+                {
+                    "x": 202,
+                    "y": 2551
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:22px'>2.1. The RoI pooling layer</p>",
+            "id": 25,
+            "page": 2,
+            "text": "2.1. The RoI pooling layer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2579
+                },
+                {
+                    "x": 1200,
+                    "y": 2579
+                },
+                {
+                    "x": 1200,
+                    "y": 2976
+                },
+                {
+                    "x": 201,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='26' style='font-size:16px'>The RoI pooling layer uses max pooling to convert the<br>features inside any valid region of interest into a small fea-<br>ture map with a fixed spatial extent of H x W (e.g., 7 x 7),<br>where H and W are layer hyper-parameters that are inde-<br>pendent of any particular RoI. In this paper, an RoI is a<br>rectangular window into a conv feature map. Each RoI is<br>defined by a four-tuple (r, c, h, w) that specifies its top-left<br>corner (r, c) and its height and width (h, w).</p>",
+            "id": 26,
+            "page": 2,
+            "text": "The RoI pooling layer uses max pooling to convert the features inside any valid region of interest into a small feature map with a fixed spatial extent of H x W (e.g., 7 x 7), where H and W are layer hyper-parameters that are independent of any particular RoI. In this paper, an RoI is a rectangular window into a conv feature map. Each RoI is defined by a four-tuple (r, c, h, w) that specifies its top-left corner (r, c) and its height and width (h, w)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1290,
+                    "y": 336
+                },
+                {
+                    "x": 2268,
+                    "y": 336
+                },
+                {
+                    "x": 2268,
+                    "y": 709
+                },
+                {
+                    "x": 1290,
+                    "y": 709
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='27' style='font-size:14px' alt=\"Outputs: bbox\nDeep\nsoftmax regressor\nConvNet\nRol -C FC\npooling\nlayer\nRol\nprojection\nConv Rol feature\nfeature map vector\nFor each Rol\" data-coord=\"top-left:(1290,336); bottom-right:(2268,709)\" /></figure>",
+            "id": 27,
+            "page": 2,
+            "text": "Outputs: bbox Deep softmax regressor ConvNet Rol -C FC pooling layer Rol projection Conv Rol feature feature map vector For each Rol"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 729
+                },
+                {
+                    "x": 2278,
+                    "y": 729
+                },
+                {
+                    "x": 2278,
+                    "y": 1049
+                },
+                {
+                    "x": 1279,
+                    "y": 1049
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='28' style='font-size:14px'>Figure 1. Fast R-CNN architecture. An input image and multi-<br>ple regions of interest (RoIs) are input into a fully convolutional<br>network. Each RoI is pooled into a fixed-size feature map and<br>then mapped to a feature vector by fully connected layers (FCs).<br>The network has two output vectors per RoI: softmax probabilities<br>and per-class bounding-box regression offsets. The architecture is<br>trained end-to-end with a multi-task loss.</caption>",
+            "id": 28,
+            "page": 2,
+            "text": "Figure 1. Fast R-CNN architecture. An input image and multiple regions of interest (RoIs) are input into a fully convolutional network. Each RoI is pooled into a fixed-size feature map and then mapped to a feature vector by fully connected layers (FCs). The network has two output vectors per RoI: softmax probabilities and per-class bounding-box regression offsets. The architecture is trained end-to-end with a multi-task loss."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1122
+                },
+                {
+                    "x": 2277,
+                    "y": 1122
+                },
+                {
+                    "x": 2277,
+                    "y": 1570
+                },
+                {
+                    "x": 1278,
+                    "y": 1570
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='29' style='font-size:18px'>RoI max pooling works by dividing the h x w RoI win-<br>dow into an H x W grid of sub-windows of approximate<br>size h/ H x w/ W and then max-pooling the values in each<br>sub-window into the corresponding output grid cell. Pool-<br>ing is applied independently to each feature map channel,<br>as in standard max pooling. The RoI layer is simply the<br>special-case of the spatial pyramid pooling layer used in<br>SPPnets [11] in which there is only one pyramid level. We<br>use the pooling sub-window calculation given in [11].</p>",
+            "id": 29,
+            "page": 2,
+            "text": "RoI max pooling works by dividing the h x w RoI window into an H x W grid of sub-windows of approximate size h/ H x w/ W and then max-pooling the values in each sub-window into the corresponding output grid cell. Pooling is applied independently to each feature map channel, as in standard max pooling. The RoI layer is simply the special-case of the spatial pyramid pooling layer used in SPPnets  in which there is only one pyramid level. We use the pooling sub-window calculation given in ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1598
+                },
+                {
+                    "x": 2115,
+                    "y": 1598
+                },
+                {
+                    "x": 2115,
+                    "y": 1649
+                },
+                {
+                    "x": 1280,
+                    "y": 1649
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='30' style='font-size:22px'>2.2. Initializing from pre-trained networks</p>",
+            "id": 30,
+            "page": 2,
+            "text": "2.2. Initializing from pre-trained networks"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1676
+                },
+                {
+                    "x": 2278,
+                    "y": 1676
+                },
+                {
+                    "x": 2278,
+                    "y": 1921
+                },
+                {
+                    "x": 1279,
+                    "y": 1921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>We experiment with three pre-trained ImageNet [4] net-<br>works, each with five max pooling layers and between five<br>and thirteen conv layers (see Section 4.1 for network de-<br>tails). When a pre-trained network initializes a Fast R-CNN<br>network, it undergoes three transformations.</p>",
+            "id": 31,
+            "page": 2,
+            "text": "We experiment with three pre-trained ImageNet  networks, each with five max pooling layers and between five and thirteen conv layers (see Section 4.1 for network details). When a pre-trained network initializes a Fast R-CNN network, it undergoes three transformations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1926
+                },
+                {
+                    "x": 2277,
+                    "y": 1926
+                },
+                {
+                    "x": 2277,
+                    "y": 2119
+                },
+                {
+                    "x": 1280,
+                    "y": 2119
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='32' style='font-size:18px'>First, the last max pooling layer is replaced by a RoI<br>pooling layer that is configured by setting H and W to be<br>compatible with the net's first fully connected layer (e.g.,<br>H = W = 7 for VGG16).</p>",
+            "id": 32,
+            "page": 2,
+            "text": "First, the last max pooling layer is replaced by a RoI pooling layer that is configured by setting H and W to be compatible with the net's first fully connected layer (e.g., H = W = 7 for VGG16)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2124
+                },
+                {
+                    "x": 2276,
+                    "y": 2124
+                },
+                {
+                    "x": 2276,
+                    "y": 2371
+                },
+                {
+                    "x": 1280,
+                    "y": 2371
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:18px'>Second, the network's last fully connected layer and soft-<br>max (which were trained for 1000-way ImageNet classifi-<br>cation) are replaced with the two sibling layers described<br>earlier (a fully connected layer and softmax over K + 1 cat-<br>egories and category-specific bounding-box regressors).</p>",
+            "id": 33,
+            "page": 2,
+            "text": "Second, the network's last fully connected layer and softmax (which were trained for 1000-way ImageNet classification) are replaced with the two sibling layers described earlier (a fully connected layer and softmax over K + 1 categories and category-specific bounding-box regressors)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 2375
+                },
+                {
+                    "x": 2276,
+                    "y": 2375
+                },
+                {
+                    "x": 2276,
+                    "y": 2469
+                },
+                {
+                    "x": 1282,
+                    "y": 2469
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='34' style='font-size:16px'>Third, the network is modified to take two data inputs: a<br>list of images and a list of RoIs in those images.</p>",
+            "id": 34,
+            "page": 2,
+            "text": "Third, the network is modified to take two data inputs: a list of images and a list of RoIs in those images."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2500
+                },
+                {
+                    "x": 1857,
+                    "y": 2500
+                },
+                {
+                    "x": 1857,
+                    "y": 2551
+                },
+                {
+                    "x": 1281,
+                    "y": 2551
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='35' style='font-size:20px'>2.3. Fine-tuning for detection</p>",
+            "id": 35,
+            "page": 2,
+            "text": "2.3. Fine-tuning for detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2578
+                },
+                {
+                    "x": 2277,
+                    "y": 2578
+                },
+                {
+                    "x": 2277,
+                    "y": 2774
+                },
+                {
+                    "x": 1281,
+                    "y": 2774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:20px'>Training all network weights with back-propagation is an<br>important capability of Fast R-CNN. First, let's elucidate<br>why SPPnet is unable to update weights below the spatial<br>pyramid pooling layer.</p>",
+            "id": 36,
+            "page": 2,
+            "text": "Training all network weights with back-propagation is an important capability of Fast R-CNN. First, let's elucidate why SPPnet is unable to update weights below the spatial pyramid pooling layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2779
+                },
+                {
+                    "x": 2276,
+                    "y": 2779
+                },
+                {
+                    "x": 2276,
+                    "y": 2976
+                },
+                {
+                    "x": 1280,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:18px'>The root cause is that back-propagation through the SPP<br>layer is highly inefficient when each training sample (i.e.<br>RoI) comes from a different image, which is exactly how<br>R-CNN and SPPnet networks are trained. The inefficiency</p>",
+            "id": 37,
+            "page": 2,
+            "text": "The root cause is that back-propagation through the SPP layer is highly inefficient when each training sample (i.e. RoI) comes from a different image, which is exactly how R-CNN and SPPnet networks are trained. The inefficiency"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 308
+                },
+                {
+                    "x": 1201,
+                    "y": 308
+                },
+                {
+                    "x": 1201,
+                    "y": 502
+                },
+                {
+                    "x": 199,
+                    "y": 502
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='38' style='font-size:18px'>stems from the fact that each RoI may have a very large<br>receptive field, often spanning the entire input image. Since<br>the forward pass must process the entire receptive field, the<br>training inputs are large (often the entire image).</p>",
+            "id": 38,
+            "page": 3,
+            "text": "stems from the fact that each RoI may have a very large receptive field, often spanning the entire input image. Since the forward pass must process the entire receptive field, the training inputs are large (often the entire image)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 507
+                },
+                {
+                    "x": 1198,
+                    "y": 507
+                },
+                {
+                    "x": 1198,
+                    "y": 1050
+                },
+                {
+                    "x": 201,
+                    "y": 1050
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='39' style='font-size:18px'>We propose a more efficient training method that takes<br>advantage of feature sharing during training. In Fast R-<br>CNN training, stochastic gradient descent (SGD) mini-<br>batches are sampled hierarchically, first by sampling N im-<br>ages and then by sampling R/N RoIs from each image.<br>Critically, RoIs from the same image share computation<br>and memory in the forward and backward passes. Making<br>N small decreases mini-batch computation. For example,<br>when using N = 2 and R = 128, the proposed training<br>scheme is roughly 64x faster than sampling one RoI from<br>128 different images (i.e., the R-CNN and SPPnet strategy).</p>",
+            "id": 39,
+            "page": 3,
+            "text": "We propose a more efficient training method that takes advantage of feature sharing during training. In Fast RCNN training, stochastic gradient descent (SGD) minibatches are sampled hierarchically, first by sampling N images and then by sampling R/N RoIs from each image. Critically, RoIs from the same image share computation and memory in the forward and backward passes. Making N small decreases mini-batch computation. For example, when using N = 2 and R = 128, the proposed training scheme is roughly 64x faster than sampling one RoI from 128 different images (i.e., the R-CNN and SPPnet strategy)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1056
+                },
+                {
+                    "x": 1200,
+                    "y": 1056
+                },
+                {
+                    "x": 1200,
+                    "y": 1298
+                },
+                {
+                    "x": 200,
+                    "y": 1298
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='40' style='font-size:14px'>One concern over this strategy is it may cause slow train-<br>ing convergence because RoIs from the same image are cor-<br>related. This concern does not appear to be a practical issue<br>and we achieve good results with N = 2 and R = 128<br>using fewer SGD iterations than R-CNN.</p>",
+            "id": 40,
+            "page": 3,
+            "text": "One concern over this strategy is it may cause slow training convergence because RoIs from the same image are correlated. This concern does not appear to be a practical issue and we achieve good results with N = 2 and R = 128 using fewer SGD iterations than R-CNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1304
+                },
+                {
+                    "x": 1200,
+                    "y": 1304
+                },
+                {
+                    "x": 1200,
+                    "y": 1701
+                },
+                {
+                    "x": 201,
+                    "y": 1701
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='41' style='font-size:18px'>In addition to hierarchical sampling, Fast R-CNN uses a<br>streamlined training process with one fine-tuning stage that<br>jointly optimizes a softmax classifier and bounding-box re-<br>gressors, rather than training a softmax classifier, SVMs,<br>and regressors in three separate stages [9, 11]. The compo-<br>nents of this procedure (the loss, mini-batch sampling strat-<br>egy, back-propagation through RoI pooling layers, and SGD<br>hyper-parameters) are described below.</p>",
+            "id": 41,
+            "page": 3,
+            "text": "In addition to hierarchical sampling, Fast R-CNN uses a streamlined training process with one fine-tuning stage that jointly optimizes a softmax classifier and bounding-box regressors, rather than training a softmax classifier, SVMs, and regressors in three separate stages . The components of this procedure (the loss, mini-batch sampling strategy, back-propagation through RoI pooling layers, and SGD hyper-parameters) are described below."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1757
+                },
+                {
+                    "x": 1200,
+                    "y": 1757
+                },
+                {
+                    "x": 1200,
+                    "y": 2256
+                },
+                {
+                    "x": 200,
+                    "y": 2256
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='42' style='font-size:18px'>Multi-task loss. A Fast R-CNN network has two sibling<br>output layers. The first outputs a discrete probability distri-<br>bution (per RoI), p = (po, · · · , pk), over K + 1 categories.<br>As usual, p is computed by a softmax over the K +1 outputs<br>of a fully connected layer. The second sibling layer outputs<br>bounding-box regression offsets, tk = (tk , tky , tkw, 塔), for<br>each of the K object classes, indexed by k. We use the pa-<br>rameterization for tk given in [9], in which tk specifies a<br>scale-invariant translation and log-space height/width shift<br>relative to an object proposal.</p>",
+            "id": 42,
+            "page": 3,
+            "text": "Multi-task loss. A Fast R-CNN network has two sibling output layers. The first outputs a discrete probability distribution (per RoI), p = (po, · · · , pk), over K + 1 categories. As usual, p is computed by a softmax over the K +1 outputs of a fully connected layer. The second sibling layer outputs bounding-box regression offsets, tk = (tk , tky , tkw, 塔), for each of the K object classes, indexed by k. We use the parameterization for tk given in , in which tk specifies a scale-invariant translation and log-space height/width shift relative to an object proposal."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2258
+                },
+                {
+                    "x": 1200,
+                    "y": 2258
+                },
+                {
+                    "x": 1200,
+                    "y": 2457
+                },
+                {
+                    "x": 202,
+                    "y": 2457
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='43' style='font-size:16px'>Each training RoI is labeled with a ground-truth class u<br>and a ground-truth bounding-box regression target v. We<br>use a multi-task loss L on each labeled RoI to jointly train<br>for classification and bounding-box regression:</p>",
+            "id": 43,
+            "page": 3,
+            "text": "Each training RoI is labeled with a ground-truth class u and a ground-truth bounding-box regression target v. We use a multi-task loss L on each labeled RoI to jointly train for classification and bounding-box regression:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2578
+                },
+                {
+                    "x": 1170,
+                    "y": 2578
+                },
+                {
+                    "x": 1170,
+                    "y": 2626
+                },
+                {
+                    "x": 200,
+                    "y": 2626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='44' style='font-size:16px'>in which Lcls (p, u) = - logpu is log loss for true class u.</p>",
+            "id": 44,
+            "page": 3,
+            "text": "in which Lcls (p, u) = - logpu is log loss for true class u."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2630
+                },
+                {
+                    "x": 1199,
+                    "y": 2630
+                },
+                {
+                    "x": 1199,
+                    "y": 2978
+                },
+                {
+                    "x": 202,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='45' style='font-size:16px'>The second task loss, Lloc, is defined over a tuple of<br>true bounding-box regression targets for class u, v =<br>(vx, vy, Vw, Uh), and a predicted tuple tu = (tu , ty , tw, tu),<br>again for class u. The Iverson bracket indicator function<br>[u ≥ 1] evaluates to 1 when u ≥ 1 and 0 otherwise. By<br>convention the catch-all background class is labeled u = 0.<br>For background RoIs there is no notion of a ground-truth</p>",
+            "id": 45,
+            "page": 3,
+            "text": "The second task loss, Lloc, is defined over a tuple of true bounding-box regression targets for class u, v = (vx, vy, Vw, Uh), and a predicted tuple tu = (tu , ty , tw, tu), again for class u. The Iverson bracket indicator function [u ≥ 1] evaluates to 1 when u ≥ 1 and 0 otherwise. By convention the catch-all background class is labeled u = 0. For background RoIs there is no notion of a ground-truth"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 307
+                },
+                {
+                    "x": 2276,
+                    "y": 307
+                },
+                {
+                    "x": 2276,
+                    "y": 402
+                },
+                {
+                    "x": 1279,
+                    "y": 402
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='46' style='font-size:18px'>bounding box and hence Lloc is ignored. For bounding-box<br>regression, we use the loss</p>",
+            "id": 46,
+            "page": 3,
+            "text": "bounding box and hence Lloc is ignored. For bounding-box regression, we use the loss"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 581
+                },
+                {
+                    "x": 1436,
+                    "y": 581
+                },
+                {
+                    "x": 1436,
+                    "y": 626
+                },
+                {
+                    "x": 1281,
+                    "y": 626
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='47' style='font-size:16px'>in which</p>",
+            "id": 47,
+            "page": 3,
+            "text": "in which"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 814
+                },
+                {
+                    "x": 2277,
+                    "y": 814
+                },
+                {
+                    "x": 2277,
+                    "y": 1062
+                },
+                {
+                    "x": 1279,
+                    "y": 1062
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='48' style='font-size:18px'>is a robust L1 loss that is less sensitive to outliers than the<br>L2 loss used in R-CNN and SPPnet. When the regression<br>targets are unbounded, training with L2 loss can require<br>careful tuning of learning rates in order to prevent exploding<br>gradients. Eq. 3 eliminates this sensitivity.</p>",
+            "id": 48,
+            "page": 3,
+            "text": "is a robust L1 loss that is less sensitive to outliers than the L2 loss used in R-CNN and SPPnet. When the regression targets are unbounded, training with L2 loss can require careful tuning of learning rates in order to prevent exploding gradients. Eq. 3 eliminates this sensitivity."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1064
+                },
+                {
+                    "x": 2278,
+                    "y": 1064
+                },
+                {
+                    "x": 2278,
+                    "y": 1260
+                },
+                {
+                    "x": 1277,
+                    "y": 1260
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='49' style='font-size:14px'>The hyper-parameter 入 in Eq. 1 controls the balance be-<br>tween the two task losses. We normalize the ground-truth<br>regression targets Vi to have zero mean and unit variance.<br>All experiments use 入 = 1.</p>",
+            "id": 49,
+            "page": 3,
+            "text": "The hyper-parameter 入 in Eq. 1 controls the balance between the two task losses. We normalize the ground-truth regression targets Vi to have zero mean and unit variance. All experiments use 入 = 1."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1264
+                },
+                {
+                    "x": 2279,
+                    "y": 1264
+                },
+                {
+                    "x": 2279,
+                    "y": 1611
+                },
+                {
+                    "x": 1280,
+                    "y": 1611
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:16px'>We note that [6] uses a related loss to train a class-<br>agnostic object proposal network. Different from our ap-<br>proach, [6] advocates for a two-network system that sepa-<br>rates localization and classification. OverFeat [19], R-CNN<br>[9], and SPPnet [11] also train classifiers and bounding-box<br>localizers, however these methods use stage-wise training,<br>which we show is suboptimal for Fast R-CNN (Section 5.1).</p>",
+            "id": 50,
+            "page": 3,
+            "text": "We note that  uses a related loss to train a classagnostic object proposal network. Different from our approach,  advocates for a two-network system that separates localization and classification. OverFeat , R-CNN , and SPPnet  also train classifiers and bounding-box localizers, however these methods use stage-wise training, which we show is suboptimal for Fast R-CNN (Section 5.1)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1668
+                },
+                {
+                    "x": 2279,
+                    "y": 1668
+                },
+                {
+                    "x": 2279,
+                    "y": 2471
+                },
+                {
+                    "x": 1278,
+                    "y": 2471
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='51' style='font-size:18px'>Mini-batch sampling. During fine-tuning, each SGD<br>mini-batch is constructed from N = 2 images, chosen uni-<br>formly at random (as is common practice, we actually iter-<br>ate over permutations of the dataset). We use mini-batches<br>of size R = 128, sampling 64 RoIs from each image. As<br>in [9], we take 25% of the RoIs from object proposals that<br>have intersection over union (IoU) overlap with a ground-<br>truth bounding box of at least 0.5. These RoIs comprise<br>the examples labeled with a foreground object class, i.e.<br>u ≥ 1. The remaining RoIs are sampled from object pro-<br>posals that have a maximum IoU with ground truth in the in-<br>terval [0.1, 0.5), following [11]. These are the background<br>examples and are labeled with u = 0. The lower threshold<br>of 0.1 appears to act as a heuristic for hard example mining<br>[8]. During training, images are horizontally flipped with<br>probability 0.5. No other data augmentation is used.</p>",
+            "id": 51,
+            "page": 3,
+            "text": "Mini-batch sampling. During fine-tuning, each SGD mini-batch is constructed from N = 2 images, chosen uniformly at random (as is common practice, we actually iterate over permutations of the dataset). We use mini-batches of size R = 128, sampling 64 RoIs from each image. As in , we take 25% of the RoIs from object proposals that have intersection over union (IoU) overlap with a groundtruth bounding box of at least 0.5. These RoIs comprise the examples labeled with a foreground object class, i.e. u ≥ 1. The remaining RoIs are sampled from object proposals that have a maximum IoU with ground truth in the interval [0.1, 0.5), following . These are the background examples and are labeled with u = 0. The lower threshold of 0.1 appears to act as a heuristic for hard example mining . During training, images are horizontally flipped with probability 0.5. No other data augmentation is used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2527
+                },
+                {
+                    "x": 2277,
+                    "y": 2527
+                },
+                {
+                    "x": 2277,
+                    "y": 2774
+                },
+                {
+                    "x": 1281,
+                    "y": 2774
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='52' style='font-size:18px'>Back-propagation through RoI pooling layers. Back-<br>propagation routes derivatives through the RoI pooling<br>layer. For clarity, we assume only one image per mini-batch<br>(N = 1), though the extension to N > 1 is straightforward<br>because the forward pass treats all images independently.</p>",
+            "id": 52,
+            "page": 3,
+            "text": "Back-propagation through RoI pooling layers. Backpropagation routes derivatives through the RoI pooling layer. For clarity, we assume only one image per mini-batch (N = 1), though the extension to N > 1 is straightforward because the forward pass treats all images independently."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2779
+                },
+                {
+                    "x": 2279,
+                    "y": 2779
+                },
+                {
+                    "x": 2279,
+                    "y": 2982
+                },
+                {
+                    "x": 1279,
+                    "y": 2982
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='53' style='font-size:18px'>Let Xi E R be the i-th activation input into the RoI pool-<br>be the layer's j-th output from the r-<br>ing layer and let Yrj<br>in<br>th RoI. The RoI pooling layer computes Yrj = Xi* (r,j),<br>which i*(r,j) = argmaxi, ER(r,j) Xi'. R(r,j) is the index</p>",
+            "id": 53,
+            "page": 3,
+            "text": "Let Xi E R be the i-th activation input into the RoI poolbe the layer's j-th output from the ring layer and let Yrj in th RoI. The RoI pooling layer computes Yrj = Xi* (r,j), which i*(r,j) = argmaxi, ER(r,j) Xi'. R(r,j) is the index"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 309
+                },
+                {
+                    "x": 1200,
+                    "y": 309
+                },
+                {
+                    "x": 1200,
+                    "y": 452
+                },
+                {
+                    "x": 200,
+                    "y": 452
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:14px'>set of inputs in the sub-window over which the output unit<br>Yrj max pools. A single Xi may be assigned to several dif-<br>ferent outputs Yrj·</p>",
+            "id": 54,
+            "page": 4,
+            "text": "set of inputs in the sub-window over which the output unit Yrj max pools. A single Xi may be assigned to several different outputs Yrj·"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 457
+                },
+                {
+                    "x": 1199,
+                    "y": 457
+                },
+                {
+                    "x": 1199,
+                    "y": 605
+                },
+                {
+                    "x": 201,
+                    "y": 605
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='55' style='font-size:18px'>The RoI pooling layer's backwards function computes<br>partial derivative of the loss function with respect to each<br>input variable Xi by following the argmax switches:</p>",
+            "id": 55,
+            "page": 4,
+            "text": "The RoI pooling layer's backwards function computes partial derivative of the loss function with respect to each input variable Xi by following the argmax switches:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 790
+                },
+                {
+                    "x": 1199,
+                    "y": 790
+                },
+                {
+                    "x": 1199,
+                    "y": 1090
+                },
+                {
+                    "x": 201,
+                    "y": 1090
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:18px'>In words, for each mini-batch RoI r and for each pooling<br>the partial derivative dL/ �yrj is accumu-<br>output unit Yrj,<br>lated if i is the argmax selected for Yrj by max pooling.<br>In back-propagation, the partial derivatives dL/ �yrj are al-<br>ready computed by the backwards function of the layer<br>on top of the RoI pooling layer.</p>",
+            "id": 56,
+            "page": 4,
+            "text": "In words, for each mini-batch RoI r and for each pooling the partial derivative dL/ �yrj is accumuoutput unit Yrj, lated if i is the argmax selected for Yrj by max pooling. In back-propagation, the partial derivatives dL/ �yrj are already computed by the backwards function of the layer on top of the RoI pooling layer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1147
+                },
+                {
+                    "x": 1199,
+                    "y": 1147
+                },
+                {
+                    "x": 1199,
+                    "y": 1746
+                },
+                {
+                    "x": 201,
+                    "y": 1746
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:14px'>SGD hyper-parameters. The fully connected layers used<br>for softmax classification and bounding-box regression are<br>initialized from zero-mean Gaussian distributions with stan-<br>dard deviations 0.01 and 0.001, respectively. Biases are ini-<br>tialized to 0. All layers use a per-layer learning rate of 1 for<br>weights and 2 for biases and a global learning rate of 0.001.<br>When training on VOC07 or VOC12 trainval we run SGD<br>for 30k mini-batch iterations, and then lower the learning<br>rate to 0.0001 and train for another 10k iterations. When<br>we train on larger datasets, we run SGD for more iterations,<br>as described later. A momentum of0.9 and parameter decay<br>of 0.0005 (on weights and biases) are used.</p>",
+            "id": 57,
+            "page": 4,
+            "text": "SGD hyper-parameters. The fully connected layers used for softmax classification and bounding-box regression are initialized from zero-mean Gaussian distributions with standard deviations 0.01 and 0.001, respectively. Biases are initialized to 0. All layers use a per-layer learning rate of 1 for weights and 2 for biases and a global learning rate of 0.001. When training on VOC07 or VOC12 trainval we run SGD for 30k mini-batch iterations, and then lower the learning rate to 0.0001 and train for another 10k iterations. When we train on larger datasets, we run SGD for more iterations, as described later. A momentum of0.9 and parameter decay of 0.0005 (on weights and biases) are used."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 1776
+                },
+                {
+                    "x": 609,
+                    "y": 1776
+                },
+                {
+                    "x": 609,
+                    "y": 1824
+                },
+                {
+                    "x": 203,
+                    "y": 1824
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:20px'>2.4. Scale invariance</p>",
+            "id": 58,
+            "page": 4,
+            "text": "2.4. Scale invariance"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1854
+                },
+                {
+                    "x": 1200,
+                    "y": 1854
+                },
+                {
+                    "x": 1200,
+                    "y": 2200
+                },
+                {
+                    "x": 201,
+                    "y": 2200
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:18px'>We explore two ways of achieving scale invariant ob-<br>ject detection: (1) via \"brute force\" learning and (2) by us-<br>ing image pyramids. These strategies follow the two ap-<br>proaches in [11]. In the brute-force approach, each image<br>is processed at a pre-defined pixel size during both training<br>and testing. The network must directly learn scale-invariant<br>object detection from the training data.</p>",
+            "id": 59,
+            "page": 4,
+            "text": "We explore two ways of achieving scale invariant object detection: (1) via \"brute force\" learning and (2) by using image pyramids. These strategies follow the two approaches in . In the brute-force approach, each image is processed at a pre-defined pixel size during both training and testing. The network must directly learn scale-invariant object detection from the training data."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2204
+                },
+                {
+                    "x": 1199,
+                    "y": 2204
+                },
+                {
+                    "x": 1199,
+                    "y": 2602
+                },
+                {
+                    "x": 200,
+                    "y": 2602
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:16px'>The multi-scale approach, in contrast, provides approx-<br>imate scale-invariance to the network through an image<br>pyramid. At test-time, the image pyramid is used to ap-<br>proximately scale-normalize each object proposal. During<br>multi-scale training, we randomly sample a pyramid scale<br>each time an image is sampled, following [1 1], as a form of<br>data augmentation. We experiment with multi-scale train-<br>ing for smaller networks only, due to GPU memory limits.</p>",
+            "id": 60,
+            "page": 4,
+            "text": "The multi-scale approach, in contrast, provides approximate scale-invariance to the network through an image pyramid. At test-time, the image pyramid is used to approximately scale-normalize each object proposal. During multi-scale training, we randomly sample a pyramid scale each time an image is sampled, following [1 1], as a form of data augmentation. We experiment with multi-scale training for smaller networks only, due to GPU memory limits."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 2642
+                },
+                {
+                    "x": 732,
+                    "y": 2642
+                },
+                {
+                    "x": 732,
+                    "y": 2695
+                },
+                {
+                    "x": 202,
+                    "y": 2695
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:20px'>3. Fast R-CNN detection</p>",
+            "id": 61,
+            "page": 4,
+            "text": "3. Fast R-CNN detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2727
+                },
+                {
+                    "x": 1200,
+                    "y": 2727
+                },
+                {
+                    "x": 1200,
+                    "y": 2977
+                },
+                {
+                    "x": 201,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:14px'>Once a Fast R-CNN network is fine-tuned, detection<br>amounts to little more than running a forward pass (assum-<br>ing object proposals are pre-computed). The network takes<br>as input an image (or an image pyramid, encoded as a list<br>of images) and a list of R object proposals to score. At</p>",
+            "id": 62,
+            "page": 4,
+            "text": "Once a Fast R-CNN network is fine-tuned, detection amounts to little more than running a forward pass (assuming object proposals are pre-computed). The network takes as input an image (or an image pyramid, encoded as a list of images) and a list of R object proposals to score. At"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 308
+                },
+                {
+                    "x": 2278,
+                    "y": 308
+                },
+                {
+                    "x": 2278,
+                    "y": 503
+                },
+                {
+                    "x": 1278,
+                    "y": 503
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='63' style='font-size:16px'>test-time, Ris typically around 2000, although we will con-<br>sider cases in which it is larger (2 45k). When using an<br>image pyramid, each RoI is assigned to the scale such that<br>the scaled RoI is closest to 2242 pixels in area [11].</p>",
+            "id": 63,
+            "page": 4,
+            "text": "test-time, Ris typically around 2000, although we will consider cases in which it is larger (2 45k). When using an image pyramid, each RoI is assigned to the scale such that the scaled RoI is closest to 2242 pixels in area ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 509
+                },
+                {
+                    "x": 2279,
+                    "y": 509
+                },
+                {
+                    "x": 2279,
+                    "y": 913
+                },
+                {
+                    "x": 1278,
+                    "y": 913
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='64' style='font-size:16px'>For each test RoI r, the forward pass outputs a class<br>posterior probability distribution p and a set of predicted<br>bounding-box offsets relative to r (each of the K classes<br>gets its own refined bounding-box prediction). We assign a<br>detection confidence to r for each object class k using the<br>estimated probability Pr(class = k I r) 스 We then<br>pk·<br>perform non-maximum suppression independently for each<br>class using the algorithm and settings from R-CNN [9].</p>",
+            "id": 64,
+            "page": 4,
+            "text": "For each test RoI r, the forward pass outputs a class posterior probability distribution p and a set of predicted bounding-box offsets relative to r (each of the K classes gets its own refined bounding-box prediction). We assign a detection confidence to r for each object class k using the estimated probability Pr(class = k I r) 스 We then pk· perform non-maximum suppression independently for each class using the algorithm and settings from R-CNN ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 944
+                },
+                {
+                    "x": 2056,
+                    "y": 944
+                },
+                {
+                    "x": 2056,
+                    "y": 994
+                },
+                {
+                    "x": 1279,
+                    "y": 994
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='65' style='font-size:18px'>3.1. Truncated SVD for faster detection</p>",
+            "id": 65,
+            "page": 4,
+            "text": "3.1. Truncated SVD for faster detection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1023
+                },
+                {
+                    "x": 2278,
+                    "y": 1023
+                },
+                {
+                    "x": 2278,
+                    "y": 1368
+                },
+                {
+                    "x": 1278,
+                    "y": 1368
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:18px'>For whole-image classification, the time spent comput-<br>ing the fully connected layers is small compared to the conv<br>layers. On the contrary, for detection the number of RoIs<br>to process is large and nearly half of the forward pass time<br>is spent computing the fully connected layers (see Fig. 2).<br>Large fully connected layers are easily accelerated by com-<br>pressing them with truncated SVD [5, 23].</p>",
+            "id": 66,
+            "page": 4,
+            "text": "For whole-image classification, the time spent computing the fully connected layers is small compared to the conv layers. On the contrary, for detection the number of RoIs to process is large and nearly half of the forward pass time is spent computing the fully connected layers (see Fig. 2). Large fully connected layers are easily accelerated by compressing them with truncated SVD ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1373
+                },
+                {
+                    "x": 2273,
+                    "y": 1373
+                },
+                {
+                    "x": 2273,
+                    "y": 1468
+                },
+                {
+                    "x": 1281,
+                    "y": 1468
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='67' style='font-size:14px'>In this technique, a layer parameterized by the u x v<br>weight matrix W is approximately factorized as</p>",
+            "id": 67,
+            "page": 4,
+            "text": "In this technique, a layer parameterized by the u x v weight matrix W is approximately factorized as"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 1606
+                },
+                {
+                    "x": 2278,
+                    "y": 1606
+                },
+                {
+                    "x": 2278,
+                    "y": 2251
+                },
+                {
+                    "x": 1278,
+                    "y": 2251
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>using SVD. In this factorization, U is a u x t matrix com-<br>prising the first t left-singular vectors of W, �t is a t x t<br>diagonal matrix containing the top t singular values of W,<br>and V is v x t matrix comprising the first t right-singular<br>vectors of W. Truncated SVD reduces the parameter count<br>from uv to t(u + v), which can be significant if t is much<br>smaller than min(u, v). To compress a network, the single<br>fully connected layer corresponding to W is replaced by<br>two fully connected layers, without a non-linearity between<br>them. The first of these layers uses the weight matrix �t VT<br>(and no biases) and the second uses U (with the original bi-<br>ases associated with W). This simple compression method<br>gives good speedups when the number of RoIs is large.</p>",
+            "id": 68,
+            "page": 4,
+            "text": "using SVD. In this factorization, U is a u x t matrix comprising the first t left-singular vectors of W, �t is a t x t diagonal matrix containing the top t singular values of W, and V is v x t matrix comprising the first t right-singular vectors of W. Truncated SVD reduces the parameter count from uv to t(u + v), which can be significant if t is much smaller than min(u, v). To compress a network, the single fully connected layer corresponding to W is replaced by two fully connected layers, without a non-linearity between them. The first of these layers uses the weight matrix �t VT (and no biases) and the second uses U (with the original biases associated with W). This simple compression method gives good speedups when the number of RoIs is large."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1283,
+                    "y": 2295
+                },
+                {
+                    "x": 1607,
+                    "y": 2295
+                },
+                {
+                    "x": 1607,
+                    "y": 2345
+                },
+                {
+                    "x": 1283,
+                    "y": 2345
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:20px'>4. Main results</p>",
+            "id": 69,
+            "page": 4,
+            "text": "4. Main results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1333,
+                    "y": 2379
+                },
+                {
+                    "x": 2225,
+                    "y": 2379
+                },
+                {
+                    "x": 2225,
+                    "y": 2427
+                },
+                {
+                    "x": 1333,
+                    "y": 2427
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='70' style='font-size:16px'>Three main results support this paper's contributions:</p>",
+            "id": 70,
+            "page": 4,
+            "text": "Three main results support this paper's contributions:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1315,
+                    "y": 2462
+                },
+                {
+                    "x": 2272,
+                    "y": 2462
+                },
+                {
+                    "x": 2272,
+                    "y": 2641
+                },
+                {
+                    "x": 1315,
+                    "y": 2641
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='71' style='font-size:16px'>1. State-of-the-art mAP on VOC07, 2010, and 2012<br>2. Fast training and testing compared to R-CNN, SPPnet<br>3. Fine-tuning conv layers in VGG16 improves mAP</p>",
+            "id": 71,
+            "page": 4,
+            "text": "1. State-of-the-art mAP on VOC07, 2010, and 2012 2. Fast training and testing compared to R-CNN, SPPnet 3. Fine-tuning conv layers in VGG16 improves mAP"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2676
+                },
+                {
+                    "x": 1751,
+                    "y": 2676
+                },
+                {
+                    "x": 1751,
+                    "y": 2726
+                },
+                {
+                    "x": 1279,
+                    "y": 2726
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='72' style='font-size:22px'>4.1. Experimental setup</p>",
+            "id": 72,
+            "page": 4,
+            "text": "4.1. Experimental setup"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2752
+                },
+                {
+                    "x": 2278,
+                    "y": 2752
+                },
+                {
+                    "x": 2278,
+                    "y": 2902
+                },
+                {
+                    "x": 1280,
+                    "y": 2902
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='73' style='font-size:16px'>Our experiments use three pre-trained ImageNet models<br>that are available online.2 The first is the CaffeNet (essen-<br>tially AlexNet [14]) from R-CNN [9]. We alternatively refer</p>",
+            "id": 73,
+            "page": 4,
+            "text": "Our experiments use three pre-trained ImageNet models that are available online.2 The first is the CaffeNet (essentially AlexNet ) from R-CNN . We alternatively refer"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1327,
+                    "y": 2929
+                },
+                {
+                    "x": 2229,
+                    "y": 2929
+                },
+                {
+                    "x": 2229,
+                    "y": 2973
+                },
+                {
+                    "x": 1327,
+                    "y": 2973
+                }
+            ],
+            "category": "footer",
+            "html": "<footer id='74' style='font-size:14px'>2https://github · com/BVLC/caffe/wiki /Model-Zoo</footer>",
+            "id": 74,
+            "page": 4,
+            "text": "2https://github · com/BVLC/caffe/wiki /Model-Zoo"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 293
+                },
+                {
+                    "x": 2270,
+                    "y": 293
+                },
+                {
+                    "x": 2270,
+                    "y": 600
+                },
+                {
+                    "x": 205,
+                    "y": 600
+                }
+            ],
+            "category": "table",
+            "html": "<table id='75' style='font-size:14px'><tr><td>method</td><td>train set</td><td>aero</td><td>bike</td><td>bird</td><td>boat</td><td>bottle</td><td>bus</td><td>car</td><td>cat</td><td>chair</td><td>COW</td><td>table</td><td>dog</td><td>horse</td><td>mbike</td><td>persn</td><td>plant</td><td>sheep</td><td>sofa</td><td>train</td><td>tv</td><td>mAP</td></tr><tr><td>SPPnet BB [11]+</td><td>07 \\ diff</td><td>73.9</td><td>72.3</td><td>62.5</td><td>51.5</td><td>44.4</td><td>74.4</td><td>73.0</td><td>74.4</td><td>42.3</td><td>73.6</td><td>57.7</td><td>70.3</td><td>74.6</td><td>74.3</td><td>54.2</td><td>34.0</td><td>56.4</td><td>56.4</td><td>67.9</td><td>73.5</td><td>63.1</td></tr><tr><td>R-CNN BB [10]</td><td>07</td><td>73.4</td><td>77.0</td><td>63.4</td><td>45.4</td><td>44.6</td><td>75.1</td><td>78.1</td><td>79.8</td><td>40.5</td><td>73.7</td><td>62.2</td><td>79.4</td><td>78.1</td><td>73.1</td><td>64.2</td><td>35.6</td><td>66.8</td><td>67.2</td><td>70.4</td><td>71.1</td><td>66.0</td></tr><tr><td>FRCN [ours]</td><td>07</td><td>74.5</td><td>78.3</td><td>69.2</td><td>53.2</td><td>36.6</td><td>77.3</td><td>78.2</td><td>82.0</td><td>40.7</td><td>72.7</td><td>67.9</td><td>79.6</td><td>79.2</td><td>73.0</td><td>69.0</td><td>30.1</td><td>65.4</td><td>70.2</td><td>75.8</td><td>65.8</td><td>66.9</td></tr><tr><td>FRCN [ours]</td><td>07 \\ diff</td><td>74.6</td><td>79.0</td><td>68.6</td><td>57.0</td><td>39.3</td><td>79.5</td><td>78.6</td><td>81.9</td><td>48.0</td><td>74.0</td><td>67.4</td><td>80.5</td><td>80.7</td><td>74.1</td><td>69.6</td><td>31.8</td><td>67.1</td><td>68.4</td><td>75.3</td><td>65.5</td><td>68.1</td></tr><tr><td>FRCN [ours]</td><td>07+12</td><td>77.0</td><td>78.1</td><td>69.3</td><td>59.4</td><td>38.3</td><td>81.6</td><td>78.6</td><td>86.7</td><td>42.8</td><td>78.8</td><td>68.9</td><td>84.7</td><td>82.0</td><td>76.6</td><td>69.9</td><td>31.8</td><td>70.1</td><td>74.8</td><td>80.4</td><td>70.4</td><td>70.0</td></tr></table>",
+            "id": 75,
+            "page": 5,
+            "text": "method train set aero bike bird boat bottle bus car cat chair COW table dog horse mbike persn plant sheep sofa train tv mAP  SPPnet BB + 07 \\ diff 73.9 72.3 62.5 51.5 44.4 74.4 73.0 74.4 42.3 73.6 57.7 70.3 74.6 74.3 54.2 34.0 56.4 56.4 67.9 73.5 63.1  R-CNN BB  07 73.4 77.0 63.4 45.4 44.6 75.1 78.1 79.8 40.5 73.7 62.2 79.4 78.1 73.1 64.2 35.6 66.8 67.2 70.4 71.1 66.0  FRCN [ours] 07 74.5 78.3 69.2 53.2 36.6 77.3 78.2 82.0 40.7 72.7 67.9 79.6 79.2 73.0 69.0 30.1 65.4 70.2 75.8 65.8 66.9  FRCN [ours] 07 \\ diff 74.6 79.0 68.6 57.0 39.3 79.5 78.6 81.9 48.0 74.0 67.4 80.5 80.7 74.1 69.6 31.8 67.1 68.4 75.3 65.5 68.1  FRCN [ours] 07+12 77.0 78.1 69.3 59.4 38.3 81.6 78.6 86.7 42.8 78.8 68.9 84.7 82.0 76.6 69.9 31.8 70.1 74.8 80.4 70.4"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 611
+                },
+                {
+                    "x": 2277,
+                    "y": 611
+                },
+                {
+                    "x": 2277,
+                    "y": 706
+                },
+                {
+                    "x": 200,
+                    "y": 706
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='76' style='font-size:16px'>Table 1. VOC 2007 test detection average precision (%). All methods use VGG16. Training set key: 07: VOC07 trainval, 07 1 diff: 07<br>without \"difficult\" examples, 07+12: union of 07 and VOC12 trainval. �SPPnet results were prepared by the authors of [11].</caption>",
+            "id": 76,
+            "page": 5,
+            "text": "Table 1. VOC 2007 test detection average precision (%). All methods use VGG16. Training set key: 07: VOC07 trainval, 07 1 diff: 07 without \"difficult\" examples, 07+12: union of 07 and VOC12 trainval. �SPPnet results were prepared by the authors of ."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 747
+                },
+                {
+                    "x": 2272,
+                    "y": 747
+                },
+                {
+                    "x": 2272,
+                    "y": 1042
+                },
+                {
+                    "x": 205,
+                    "y": 1042
+                }
+            ],
+            "category": "table",
+            "html": "<table id='77' style='font-size:14px'><tr><td>method</td><td>train set</td><td>aero</td><td>bike</td><td>bird</td><td>boat</td><td>bottle</td><td>bus</td><td>car</td><td>cat</td><td>chair</td><td>COW</td><td>table</td><td>dog</td><td>horse</td><td>mbike</td><td>persn</td><td>plant</td><td>sheep</td><td>sofa</td><td>train</td><td>tv</td><td>mAP</td></tr><tr><td>BabyLearning</td><td>Prop.</td><td>77.7</td><td>73.8</td><td>62.3</td><td>48.8</td><td>45.4</td><td>67.3</td><td>67.0</td><td>80.3</td><td>41.3</td><td>70.8</td><td>49.7</td><td>79.5</td><td>74.7</td><td>78.6</td><td>64.5</td><td>36.0</td><td>69.9</td><td>55.7</td><td>70.4</td><td>61.7</td><td>63.8</td></tr><tr><td>R-CNN BB [10]</td><td>12</td><td>79.3</td><td>72.4</td><td>63.1</td><td>44.0</td><td>44.4</td><td>64.6</td><td>66.3</td><td>84.9</td><td>38.8</td><td>67.3</td><td>48.4</td><td>82.3</td><td>75.0</td><td>76.7</td><td>65.7</td><td>35.8</td><td>66.2</td><td>54.8</td><td>69.1</td><td>58.8</td><td>62.9</td></tr><tr><td>SegDeepM</td><td>12+seg</td><td>82.3</td><td>75.2</td><td>67.1</td><td>50.7</td><td>49.8</td><td>71.1</td><td>69.6</td><td>88.2</td><td>42.5</td><td>71.2</td><td>50.0</td><td>85.7</td><td>76.6</td><td>81.8</td><td>69.3</td><td>41.5</td><td>71.9</td><td>62.2</td><td>73.2</td><td>64.6</td><td>67.2</td></tr><tr><td>FRCN [ours]</td><td>12</td><td>80.1</td><td>74.4</td><td>67.7</td><td>49.4</td><td>41.4</td><td>74.2</td><td>68.8</td><td>87.8</td><td>41.9</td><td>70.1</td><td>50.2</td><td>86.1</td><td>77.3</td><td>81.1</td><td>70.4</td><td>33.3</td><td>67.0</td><td>63.3</td><td>77.2</td><td>60.0</td><td>66.1</td></tr><tr><td>FRCN [ours]</td><td>07++12</td><td>82.0</td><td>77.8</td><td>71.6</td><td>55.3</td><td>42.4</td><td>77.3</td><td>71.7</td><td>89.3</td><td>44.5</td><td>72.1</td><td>53.7</td><td>87.7</td><td>80.0</td><td>82.5</td><td>72.7</td><td>36.6</td><td>68.7</td><td>65.4</td><td>81.1</td><td>62.7</td><td>68.8</td></tr></table>",
+            "id": 77,
+            "page": 5,
+            "text": "method train set aero bike bird boat bottle bus car cat chair COW table dog horse mbike persn plant sheep sofa train tv mAP  BabyLearning Prop. 77.7 73.8 62.3 48.8 45.4 67.3 67.0 80.3 41.3 70.8 49.7 79.5 74.7 78.6 64.5 36.0 69.9 55.7 70.4 61.7 63.8  R-CNN BB  12 79.3 72.4 63.1 44.0 44.4 64.6 66.3 84.9 38.8 67.3 48.4 82.3 75.0 76.7 65.7 35.8 66.2 54.8 69.1 58.8 62.9  SegDeepM 12+seg 82.3 75.2 67.1 50.7 49.8 71.1 69.6 88.2 42.5 71.2 50.0 85.7 76.6 81.8 69.3 41.5 71.9 62.2 73.2 64.6 67.2  FRCN [ours] 12 80.1 74.4 67.7 49.4 41.4 74.2 68.8 87.8 41.9 70.1 50.2 86.1 77.3 81.1 70.4 33.3 67.0 63.3 77.2 60.0 66.1  FRCN [ours] 07++12 82.0 77.8 71.6 55.3 42.4 77.3 71.7 89.3 44.5 72.1 53.7 87.7 80.0 82.5 72.7 36.6 68.7 65.4 81.1 62.7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1059
+                },
+                {
+                    "x": 2277,
+                    "y": 1059
+                },
+                {
+                    "x": 2277,
+                    "y": 1199
+                },
+                {
+                    "x": 201,
+                    "y": 1199
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='78' style='font-size:16px'>Table 2. VOC 2010 test detection average precision (%). BabyLearning uses a network based on [17]. All other methods use VGG16.<br>Training set key: 12: VOC12 trainval, Prop.: proprietary dataset, 12+seg: 12 with segmentation annotations, 07++12: union of VOC07<br>trainval, VOC07 test, and VOC12 trainval.</caption>",
+            "id": 78,
+            "page": 5,
+            "text": "Table 2. VOC 2010 test detection average precision (%). BabyLearning uses a network based on . All other methods use VGG16. Training set key: 12: VOC12 trainval, Prop.: proprietary dataset, 12+seg: 12 with segmentation annotations, 07++12: union of VOC07 trainval, VOC07 test, and VOC12 trainval."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 205,
+                    "y": 1244
+                },
+                {
+                    "x": 2271,
+                    "y": 1244
+                },
+                {
+                    "x": 2271,
+                    "y": 1542
+                },
+                {
+                    "x": 205,
+                    "y": 1542
+                }
+            ],
+            "category": "table",
+            "html": "<table id='79' style='font-size:14px'><tr><td>method</td><td>train set</td><td>aero</td><td>bike</td><td>bird</td><td>boat</td><td>bottle</td><td>bus</td><td>car</td><td>cat</td><td>chair</td><td>COW</td><td>table</td><td>dog</td><td>horse</td><td>mbike</td><td>persn</td><td>plant</td><td>sheep</td><td>sofa</td><td>train</td><td>tv</td><td>mAP</td></tr><tr><td>BabyLearning</td><td>Prop.</td><td>78.0</td><td>74.2</td><td>61.3</td><td>45.7</td><td>42.7</td><td>68.2</td><td>66.8</td><td>80.2</td><td>40.6</td><td>70.0</td><td>49.8</td><td>79.0</td><td>74.5</td><td>77.9</td><td>64.0</td><td>35.3</td><td>67.9</td><td>55.7</td><td>68.7</td><td>62.6</td><td>63.2</td></tr><tr><td>NUS_NIN_c2000</td><td>Unk.</td><td>80.2</td><td>73.8</td><td>61.9</td><td>43.7</td><td>43.0</td><td>70.3</td><td>67.6</td><td>80.7</td><td>41.9</td><td>69.7</td><td>51.7</td><td>78.2</td><td>75.2</td><td>76.9</td><td>65.1</td><td>38.6</td><td>68.3</td><td>58.0</td><td>68.7</td><td>63.3</td><td>63.8</td></tr><tr><td>R-CNN BB [10]</td><td>12</td><td>79.6</td><td>72.7</td><td>61.9</td><td>41.2</td><td>41.9</td><td>65.9</td><td>66.4</td><td>84.6</td><td>38.5</td><td>67.2</td><td>46.7</td><td>82.0</td><td>74.8</td><td>76.0</td><td>65.2</td><td>35.6</td><td>65.4</td><td>54.2</td><td>67.4</td><td>60.3</td><td>62.4</td></tr><tr><td>FRCN [ours]</td><td>12</td><td>80.3</td><td>74.7</td><td>66.9</td><td>46.9</td><td>37.7</td><td>73.9</td><td>68.6</td><td>87.7</td><td>41.7</td><td>71.1</td><td>51.1</td><td>86.0</td><td>77.8</td><td>79.8</td><td>69.8</td><td>32.1</td><td>65.5</td><td>63.8</td><td>76.4</td><td>61.7</td><td>65.7</td></tr><tr><td>FRCN [ours]</td><td>07++12</td><td>82.3</td><td>78.4</td><td>70.8</td><td>52.3</td><td>38.7</td><td>77.8</td><td>71.6</td><td>89.3</td><td>44.2</td><td>73.0</td><td>55.0</td><td>87.5</td><td>80.5</td><td>80.8</td><td>72.0</td><td>35.1</td><td>68.3</td><td>65.7</td><td>80.4</td><td>64.2</td><td>68.4</td></tr></table>",
+            "id": 79,
+            "page": 5,
+            "text": "method train set aero bike bird boat bottle bus car cat chair COW table dog horse mbike persn plant sheep sofa train tv mAP  BabyLearning Prop. 78.0 74.2 61.3 45.7 42.7 68.2 66.8 80.2 40.6 70.0 49.8 79.0 74.5 77.9 64.0 35.3 67.9 55.7 68.7 62.6 63.2  NUS_NIN_c2000 Unk. 80.2 73.8 61.9 43.7 43.0 70.3 67.6 80.7 41.9 69.7 51.7 78.2 75.2 76.9 65.1 38.6 68.3 58.0 68.7 63.3 63.8  R-CNN BB  12 79.6 72.7 61.9 41.2 41.9 65.9 66.4 84.6 38.5 67.2 46.7 82.0 74.8 76.0 65.2 35.6 65.4 54.2 67.4 60.3 62.4  FRCN [ours] 12 80.3 74.7 66.9 46.9 37.7 73.9 68.6 87.7 41.7 71.1 51.1 86.0 77.8 79.8 69.8 32.1 65.5 63.8 76.4 61.7 65.7  FRCN [ours] 07++12 82.3 78.4 70.8 52.3 38.7 77.8 71.6 89.3 44.2 73.0 55.0 87.5 80.5 80.8 72.0 35.1 68.3 65.7 80.4 64.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1554
+                },
+                {
+                    "x": 2278,
+                    "y": 1554
+                },
+                {
+                    "x": 2278,
+                    "y": 1647
+                },
+                {
+                    "x": 201,
+                    "y": 1647
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:16px'>Table 3. VOC 2012 test detection average precision (%). BabyLearning and NUS _NIN_c2000 use networks based on [17]. All other<br>methods use VGG16. Training set key: see Table 2, Unk.: unknown.</p>",
+            "id": 80,
+            "page": 5,
+            "text": "Table 3. VOC 2012 test detection average precision (%). BabyLearning and NUS _NIN_c2000 use networks based on . All other methods use VGG16. Training set key: see Table 2, Unk.: unknown."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1729
+                },
+                {
+                    "x": 1200,
+                    "y": 1729
+                },
+                {
+                    "x": 1200,
+                    "y": 2079
+                },
+                {
+                    "x": 201,
+                    "y": 2079
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='81' style='font-size:18px'>to this CaffeNet as model S, for \"small.\" The second net-<br>work is VGG_CNN _M_1024 from [3], which has the same<br>depth as S, but is wider. We call this network model M,<br>for \"medium.\" , The final network is the very deep VGG16<br>model from [20]. Since this model is the largest, we call<br>it model L. In this section, all experiments use single-scale<br>training and testing (s = 600; see Section 5.2 for details).</p>",
+            "id": 81,
+            "page": 5,
+            "text": "to this CaffeNet as model S, for \"small.\" The second network is VGG_CNN _M_1024 from , which has the same depth as S, but is wider. We call this network model M, for \"medium.\" , The final network is the very deep VGG16 model from . Since this model is the largest, we call it model L. In this section, all experiments use single-scale training and testing (s = 600; see Section 5.2 for details)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2116
+                },
+                {
+                    "x": 824,
+                    "y": 2116
+                },
+                {
+                    "x": 824,
+                    "y": 2169
+                },
+                {
+                    "x": 203,
+                    "y": 2169
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='82' style='font-size:20px'>4.2. VOC 2010 and 2012 results</p>",
+            "id": 82,
+            "page": 5,
+            "text": "4.2. VOC 2010 and 2012 results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2199
+                },
+                {
+                    "x": 1200,
+                    "y": 2199
+                },
+                {
+                    "x": 1200,
+                    "y": 2644
+                },
+                {
+                    "x": 201,
+                    "y": 2644
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='83' style='font-size:18px'>On these datasets, we compare Fast R-CNN (FRCN, for<br>short) against the top methods on the comp4 (outside data)<br>track from the public leaderboard (Table 2, Table 3).3 For<br>the NUS _NIN_c2000 and BabyLearning methods, there are<br>no associated publications at this time and we could not<br>find exact information on the ConvNet architectures used;<br>they are variants of the Network-in-Network design [17].<br>All other methods are initialized from the same pre-trained<br>VGG16 network.</p>",
+            "id": 83,
+            "page": 5,
+            "text": "On these datasets, we compare Fast R-CNN (FRCN, for short) against the top methods on the comp4 (outside data) track from the public leaderboard (Table 2, Table 3).3 For the NUS _NIN_c2000 and BabyLearning methods, there are no associated publications at this time and we could not find exact information on the ConvNet architectures used; they are variants of the Network-in-Network design . All other methods are initialized from the same pre-trained VGG16 network."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2651
+                },
+                {
+                    "x": 1201,
+                    "y": 2651
+                },
+                {
+                    "x": 1201,
+                    "y": 2850
+                },
+                {
+                    "x": 201,
+                    "y": 2850
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='84' style='font-size:18px'>Fast R-CNN achieves the top result on VOC12 with a<br>mAP of 65.7% (and 68.4% with extra data). It is also two<br>orders of magnitude faster than the other methods, which<br>are all based on the \"slow\" R-CNN pipeline. On VOC10,</p>",
+            "id": 84,
+            "page": 5,
+            "text": "Fast R-CNN achieves the top result on VOC12 with a mAP of 65.7% (and 68.4% with extra data). It is also two orders of magnitude faster than the other methods, which are all based on the \"slow\" R-CNN pipeline. On VOC10,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2891
+                },
+                {
+                    "x": 1154,
+                    "y": 2891
+                },
+                {
+                    "x": 1154,
+                    "y": 2975
+                },
+                {
+                    "x": 200,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='85' style='font-size:14px'>3http: / /host . robots · OX . ac . uk : 8080/leaderboard<br>(accessed April 18, 2015)</p>",
+            "id": 85,
+            "page": 5,
+            "text": "3http: / /host . robots · OX . ac . uk : 8080/leaderboard (accessed April 18, 2015)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1730
+                },
+                {
+                    "x": 2278,
+                    "y": 1730
+                },
+                {
+                    "x": 2278,
+                    "y": 2227
+                },
+                {
+                    "x": 1280,
+                    "y": 2227
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='86' style='font-size:20px'>SegDeepM [25] achieves a higher mAP than Fast R-CNN<br>(67.2% VS. 66.1%). SegDeepM is trained on VOC12 train-<br>val plus segmentation annotations; it is designed to boost<br>R-CNN accuracy by using a Markov random field to reason<br>over R-CNN detections and segmentations from the O2P<br>[1] semantic-segmentation method. Fast R-CNN can be<br>swapped into SegDeepM in place of R-CNN, which may<br>lead to better results. When using the enlarged 07++12<br>training set (see Table 2 caption), Fast R-CNN's mAP in-<br>creases to 68.8%, surpassing SegDeepM.</p>",
+            "id": 86,
+            "page": 5,
+            "text": "SegDeepM  achieves a higher mAP than Fast R-CNN (67.2% VS. 66.1%). SegDeepM is trained on VOC12 trainval plus segmentation annotations; it is designed to boost R-CNN accuracy by using a Markov random field to reason over R-CNN detections and segmentations from the O2P  semantic-segmentation method. Fast R-CNN can be swapped into SegDeepM in place of R-CNN, which may lead to better results. When using the enlarged 07++12 training set (see Table 2 caption), Fast R-CNN's mAP increases to 68.8%, surpassing SegDeepM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2250
+                },
+                {
+                    "x": 1713,
+                    "y": 2250
+                },
+                {
+                    "x": 1713,
+                    "y": 2301
+                },
+                {
+                    "x": 1279,
+                    "y": 2301
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='87' style='font-size:22px'>4.3. VOC 2007 results</p>",
+            "id": 87,
+            "page": 5,
+            "text": "4.3. VOC 2007 results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 2327
+                },
+                {
+                    "x": 2278,
+                    "y": 2327
+                },
+                {
+                    "x": 2278,
+                    "y": 2977
+                },
+                {
+                    "x": 1277,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='88' style='font-size:20px'>On VOC07, we compare Fast R-CNN to R-CNN and<br>SPPnet. All methods start from the same pre-trained<br>VGG16 network and use bounding-box regression. The<br>VGG16 SPPnet results were computed by the authors of<br>[11]. SPPnet uses five scales during both training and test-<br>ing. The improvement of Fast R-CNN over SPPnet illus-<br>trates that even though Fast R-CNN uses single-scale train-<br>ing and testing, fine-tuning the conv layers provides a large<br>improvement in mAP (from 63.1% to 66.9%). R-CNN<br>achieves a mAP of 66.0%. As a minor point, SPPnet was<br>trained without examples marked as \"difficult\" in PASCAL.<br>Removing these examples improves Fast R-CNN mAP to<br>68.1%. All other experiments use \"difficult\" examples.</p>",
+            "id": 88,
+            "page": 5,
+            "text": "On VOC07, we compare Fast R-CNN to R-CNN and SPPnet. All methods start from the same pre-trained VGG16 network and use bounding-box regression. The VGG16 SPPnet results were computed by the authors of . SPPnet uses five scales during both training and testing. The improvement of Fast R-CNN over SPPnet illustrates that even though Fast R-CNN uses single-scale training and testing, fine-tuning the conv layers provides a large improvement in mAP (from 63.1% to 66.9%). R-CNN achieves a mAP of 66.0%. As a minor point, SPPnet was trained without examples marked as \"difficult\" in PASCAL. Removing these examples improves Fast R-CNN mAP to 68.1%. All other experiments use \"difficult\" examples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 304
+                },
+                {
+                    "x": 786,
+                    "y": 304
+                },
+                {
+                    "x": 786,
+                    "y": 353
+                },
+                {
+                    "x": 201,
+                    "y": 353
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='89' style='font-size:20px'>4.4. Training and testing time</p>",
+            "id": 89,
+            "page": 6,
+            "text": "4.4. Training and testing time"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 379
+                },
+                {
+                    "x": 1199,
+                    "y": 379
+                },
+                {
+                    "x": 1199,
+                    "y": 927
+                },
+                {
+                    "x": 200,
+                    "y": 927
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:18px'>Fast training and testing times are our second main re-<br>sult. Table 4 compares training time (hours), testing rate<br>(seconds per image), and mAP on VOC07 between Fast R-<br>CNN, R-CNN, and SPPnet. For VGG16, Fast R-CNN pro-<br>cesses images 146x faster than R-CNN without truncated<br>SVD and 213x faster with it. Training time is reduced by<br>9x, from 84 hours to 9.5. Compared to SPPnet, Fast R-<br>CNN trains VGG16 2.7x faster (in 9.5 VS. 25.5 hours) and<br>tests 7x faster without truncated SVD or 10x faster with it.<br>Fast R-CNN also eliminates hundreds of gigabytes of disk<br>storage, because it does not cache features.</p>",
+            "id": 90,
+            "page": 6,
+            "text": "Fast training and testing times are our second main result. Table 4 compares training time (hours), testing rate (seconds per image), and mAP on VOC07 between Fast RCNN, R-CNN, and SPPnet. For VGG16, Fast R-CNN processes images 146x faster than R-CNN without truncated SVD and 213x faster with it. Training time is reduced by 9x, from 84 hours to 9.5. Compared to SPPnet, Fast RCNN trains VGG16 2.7x faster (in 9.5 VS. 25.5 hours) and tests 7x faster without truncated SVD or 10x faster with it. Fast R-CNN also eliminates hundreds of gigabytes of disk storage, because it does not cache features."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 207,
+                    "y": 962
+                },
+                {
+                    "x": 1190,
+                    "y": 962
+                },
+                {
+                    "x": 1190,
+                    "y": 1513
+                },
+                {
+                    "x": 207,
+                    "y": 1513
+                }
+            ],
+            "category": "table",
+            "html": "<table id='91' style='font-size:14px'><tr><td rowspan=\"2\"></td><td colspan=\"3\">Fast R-CNN</td><td colspan=\"3\">R-CNN</td><td rowspan=\"2\">SPPnet tL</td></tr><tr><td>S</td><td>M</td><td>L</td><td>S</td><td>M</td><td>L</td></tr><tr><td>train time (h)</td><td>1.2</td><td>2.0</td><td>9.5</td><td>22</td><td>28</td><td>84</td><td>25</td></tr><tr><td>train speedup</td><td>18.3x</td><td>14.0x</td><td>8.8x</td><td>1x</td><td>1x</td><td>1x</td><td>3.4x</td></tr><tr><td>test rate (s/im)</td><td>0.10</td><td>0.15</td><td>0.32</td><td>9.8</td><td>12.1</td><td>47.0</td><td>2.3</td></tr><tr><td>▷ with SVD</td><td>0.06</td><td>0.08</td><td>0.22</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>test speedup</td><td>98x</td><td>80x</td><td>146x</td><td>1x</td><td>1x</td><td>1x</td><td>20x</td></tr><tr><td>▷ with SVD</td><td>169x</td><td>150x</td><td>213x</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>VOC07 mAP</td><td>57.1</td><td>59.2</td><td>66.9</td><td>58.5</td><td>60.2</td><td>66.0</td><td>63.1</td></tr><tr><td>▷ with SVD</td><td>56.5</td><td>58.7</td><td>66.6</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>",
+            "id": 91,
+            "page": 6,
+            "text": "Fast R-CNN R-CNN SPPnet tL  S M L S M L  train time (h) 1.2 2.0 9.5 22 28 84 25  train speedup 18.3x 14.0x 8.8x 1x 1x 1x 3.4x  test rate (s/im) 0.10 0.15 0.32 9.8 12.1 47.0 2.3  ▷ with SVD 0.06 0.08 0.22 - - -  test speedup 98x 80x 146x 1x 1x 1x 20x  ▷ with SVD 169x 150x 213x - - -  VOC07 mAP 57.1 59.2 66.9 58.5 60.2 66.0 63.1  ▷ with SVD 56.5 58.7 66.6 - - -"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1546
+                },
+                {
+                    "x": 1197,
+                    "y": 1546
+                },
+                {
+                    "x": 1197,
+                    "y": 1730
+                },
+                {
+                    "x": 201,
+                    "y": 1730
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='92' style='font-size:16px'>Table 4. Runtime comparison between the same models in Fast R-<br>CNN, R-CNN, and SPPnet. Fast R-CNN uses single-scale mode.<br>SPPnet uses the five scales specified in [11]. †Timing provided by<br>the authors of [11]. Times were measured on an Nvidia K40 GPU.</p>",
+            "id": 92,
+            "page": 6,
+            "text": "Table 4. Runtime comparison between the same models in Fast RCNN, R-CNN, and SPPnet. Fast R-CNN uses single-scale mode. SPPnet uses the five scales specified in . †Timing provided by the authors of . Times were measured on an Nvidia K40 GPU."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1786
+                },
+                {
+                    "x": 1198,
+                    "y": 1786
+                },
+                {
+                    "x": 1198,
+                    "y": 2286
+                },
+                {
+                    "x": 201,
+                    "y": 2286
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='93' style='font-size:18px'>Truncated SVD. Truncated SVD can reduce detection<br>time by more than 30% with only a small (0.3 percent-<br>age point) drop in mAP and without needing to perform<br>additional fine-tuning after model compression. Fig. 2 il-<br>lustrates how using the top 1024 singular values from the<br>25088 x 4096 matrix in VGG16's fc6 layer and the top 256<br>singular values from the 4096 x 4096 fc7 layer reduces run-<br>time with little loss in mAP. Further speed-ups are possi-<br>ble with smaller drops in mAP if one fine-tunes again after<br>compression.</p>",
+            "id": 93,
+            "page": 6,
+            "text": "Truncated SVD. Truncated SVD can reduce detection time by more than 30% with only a small (0.3 percentage point) drop in mAP and without needing to perform additional fine-tuning after model compression. Fig. 2 illustrates how using the top 1024 singular values from the 25088 x 4096 matrix in VGG16's fc6 layer and the top 256 singular values from the 4096 x 4096 fc7 layer reduces runtime with little loss in mAP. Further speed-ups are possible with smaller drops in mAP if one fine-tunes again after compression."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 2315
+                },
+                {
+                    "x": 1195,
+                    "y": 2315
+                },
+                {
+                    "x": 1195,
+                    "y": 2807
+                },
+                {
+                    "x": 199,
+                    "y": 2807
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='94' style='font-size:14px' alt=\"Forward pass timing Forward pass timing (SVD)\nmAP 66.9% @ 320ms / image mAP 66.6% @ 223ms / image\nfc6 fc6\nother\n38.7% (122ms) 17.5% (37ms)\nother\n5.1% (11ms)\n3.5% (11ms) roi_pool5\nroi_pool5 7.9% (17ms)\n5.4% (17ms)\n1.7% (4ms) fc7\n6.2% (20ms)\nfc7\n67.8% (143ms)\n46.3% (146ms)\nconv\nconv\" data-coord=\"top-left:(199,2315); bottom-right:(1195,2807)\" /></figure>",
+            "id": 94,
+            "page": 6,
+            "text": "Forward pass timing Forward pass timing (SVD) mAP 66.9% @ 320ms / image mAP 66.6% @ 223ms / image fc6 fc6 other 38.7% (122ms) 17.5% (37ms) other 5.1% (11ms) 3.5% (11ms) roi_pool5 roi_pool5 7.9% (17ms) 5.4% (17ms) 1.7% (4ms) fc7 6.2% (20ms) fc7 67.8% (143ms) 46.3% (146ms) conv conv"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2832
+                },
+                {
+                    "x": 1196,
+                    "y": 2832
+                },
+                {
+                    "x": 1196,
+                    "y": 2921
+                },
+                {
+                    "x": 203,
+                    "y": 2921
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='95' style='font-size:16px'>Figure 2. Timing for VGG16 before and after truncated SVD. Be-<br>fore SVD, fully connected layers fc6 and fc7 take 45% of the time.</caption>",
+            "id": 95,
+            "page": 6,
+            "text": "Figure 2. Timing for VGG16 before and after truncated SVD. Before SVD, fully connected layers fc6 and fc7 take 45% of the time."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 303
+                },
+                {
+                    "x": 1883,
+                    "y": 303
+                },
+                {
+                    "x": 1883,
+                    "y": 352
+                },
+                {
+                    "x": 1280,
+                    "y": 352
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='96' style='font-size:20px'>4.5. Which layers to fine-tune?</p>",
+            "id": 96,
+            "page": 6,
+            "text": "4.5. Which layers to fine-tune?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 381
+                },
+                {
+                    "x": 2278,
+                    "y": 381
+                },
+                {
+                    "x": 2278,
+                    "y": 930
+                },
+                {
+                    "x": 1277,
+                    "y": 930
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:18px'>For the less deep networks considered in the SPPnet pa-<br>per [11], fine-tuning only the fully connected layers ap-<br>peared to be sufficient for good accuracy. We hypothesized<br>that this result would not hold for very deep networks. To<br>validate that fine-tuning the conv layers is important for<br>VGG16, we use Fast R-CNN to fine-tune, but freeze the<br>thirteen conv layers SO that only the fully connected layers<br>learn. This ablation emulates single-scale SPPnet training<br>and decreases mAP from 66.9% to 61.4% (Table 5). This<br>experiment verifies our hypothesis: training through the RoI<br>pooling layer is important for very deep nets.</p>",
+            "id": 97,
+            "page": 6,
+            "text": "For the less deep networks considered in the SPPnet paper , fine-tuning only the fully connected layers appeared to be sufficient for good accuracy. We hypothesized that this result would not hold for very deep networks. To validate that fine-tuning the conv layers is important for VGG16, we use Fast R-CNN to fine-tune, but freeze the thirteen conv layers SO that only the fully connected layers learn. This ablation emulates single-scale SPPnet training and decreases mAP from 66.9% to 61.4% (Table 5). This experiment verifies our hypothesis: training through the RoI pooling layer is important for very deep nets."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1282,
+                    "y": 975
+                },
+                {
+                    "x": 2272,
+                    "y": 975
+                },
+                {
+                    "x": 2272,
+                    "y": 1183
+                },
+                {
+                    "x": 1282,
+                    "y": 1183
+                }
+            ],
+            "category": "table",
+            "html": "<table id='98' style='font-size:14px'><tr><td></td><td colspan=\"3\">layers that are fine-tuned in model L</td><td rowspan=\"2\">SPPnet L ≥ fc6</td></tr><tr><td></td><td>> fc6 ≥</td><td>conv3_1</td><td>≥ conv2_1</td></tr><tr><td>VOC07 mAP</td><td>61.4</td><td>66.9</td><td>67.2</td><td>63.1</td></tr><tr><td>test rate (s/im)</td><td>0.32</td><td>0.32</td><td>0.32</td><td>2.3</td></tr></table>",
+            "id": 98,
+            "page": 6,
+            "text": "layers that are fine-tuned in model L SPPnet L ≥ fc6   > fc6 ≥ conv3_1 ≥ conv2_1  VOC07 mAP 61.4 66.9 67.2 63.1  test rate (s/im) 0.32 0.32 0.32"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1218
+                },
+                {
+                    "x": 2275,
+                    "y": 1218
+                },
+                {
+                    "x": 2275,
+                    "y": 1400
+                },
+                {
+                    "x": 1279,
+                    "y": 1400
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='99' style='font-size:16px'>Table 5. Effect of restricting which layers are fine-tuned for<br>VGG16. Fine-tuning ≥ fc6 emulates the SPPnet training algo-<br>rithm [11], but using a single scale. SPPnet L results were ob-<br>tained using five scales, at a significant (7x) speed cost.</p>",
+            "id": 99,
+            "page": 6,
+            "text": "Table 5. Effect of restricting which layers are fine-tuned for VGG16. Fine-tuning ≥ fc6 emulates the SPPnet training algorithm , but using a single scale. SPPnet L results were obtained using five scales, at a significant (7x) speed cost."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 1433
+                },
+                {
+                    "x": 2276,
+                    "y": 1433
+                },
+                {
+                    "x": 2276,
+                    "y": 2131
+                },
+                {
+                    "x": 1277,
+                    "y": 2131
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='100' style='font-size:18px'>Does this mean that all conv layers should be fine-tuned?<br>In short, no. In the smaller networks (S and M) we find<br>that conv1 is generic and task independent (a well-known<br>fact [14]). Allowing conv1 to learn, or not, has no mean-<br>ingful effect on mAP. For VGG16, we found it only nec-<br>essary to update layers from conv3_1 and up (9 of the 13<br>conv layers). This observation is pragmatic: (1) updating<br>from conv2_1 slows training by 1.3x (12.5 VS. 9.5 hours)<br>compared to learning from conv3_1; and (2) updating from<br>conv1_1 over-runs GPU memory. The difference in mAP<br>when learning from conv2_1 up was only +0.3 points (Ta-<br>ble 5, last column). All Fast R-CNN results in this paper<br>using VGG16 fine-tune layers conv3_1 and up; all experi-<br>ments with models S and M fine-tune layers conv2 and up.</p>",
+            "id": 100,
+            "page": 6,
+            "text": "Does this mean that all conv layers should be fine-tuned? In short, no. In the smaller networks (S and M) we find that conv1 is generic and task independent (a well-known fact ). Allowing conv1 to learn, or not, has no meaningful effect on mAP. For VGG16, we found it only necessary to update layers from conv3_1 and up (9 of the 13 conv layers). This observation is pragmatic: (1) updating from conv2_1 slows training by 1.3x (12.5 VS. 9.5 hours) compared to learning from conv3_1; and (2) updating from conv1_1 over-runs GPU memory. The difference in mAP when learning from conv2_1 up was only +0.3 points (Table 5, last column). All Fast R-CNN results in this paper using VGG16 fine-tune layers conv3_1 and up; all experiments with models S and M fine-tune layers conv2 and up."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2178
+                },
+                {
+                    "x": 1717,
+                    "y": 2178
+                },
+                {
+                    "x": 1717,
+                    "y": 2232
+                },
+                {
+                    "x": 1280,
+                    "y": 2232
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='101' style='font-size:22px'>5. Design evaluation</p>",
+            "id": 101,
+            "page": 6,
+            "text": "5. Design evaluation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2265
+                },
+                {
+                    "x": 2276,
+                    "y": 2265
+                },
+                {
+                    "x": 2276,
+                    "y": 2463
+                },
+                {
+                    "x": 1280,
+                    "y": 2463
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='102' style='font-size:16px'>We conducted experiments to understand how Fast R-<br>CNN compares to R-CNN and SPPnet, as well as to eval-<br>uate design decisions. Following best practices, we per-<br>formed these experiments on the PASCAL VOC07 dataset.</p>",
+            "id": 102,
+            "page": 6,
+            "text": "We conducted experiments to understand how Fast RCNN compares to R-CNN and SPPnet, as well as to evaluate design decisions. Following best practices, we performed these experiments on the PASCAL VOC07 dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2497
+                },
+                {
+                    "x": 1963,
+                    "y": 2497
+                },
+                {
+                    "x": 1963,
+                    "y": 2549
+                },
+                {
+                    "x": 1281,
+                    "y": 2549
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:22px'>5.1. Does multi-task training help?</p>",
+            "id": 103,
+            "page": 6,
+            "text": "5.1. Does multi-task training help?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2577
+                },
+                {
+                    "x": 2277,
+                    "y": 2577
+                },
+                {
+                    "x": 2277,
+                    "y": 2872
+                },
+                {
+                    "x": 1278,
+                    "y": 2872
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='104' style='font-size:18px'>Multi-task training is convenient because it avoids man-<br>aging a pipeline of sequentially-trained tasks. Butit also has<br>the potential to improve results because the tasks influence<br>each other through a shared representation (the ConvNet)<br>[2]. Does multi-task training improve object detection ac-<br>curacy in Fast R-CNN?</p>",
+            "id": 104,
+            "page": 6,
+            "text": "Multi-task training is convenient because it avoids managing a pipeline of sequentially-trained tasks. Butit also has the potential to improve results because the tasks influence each other through a shared representation (the ConvNet) . Does multi-task training improve object detection accuracy in Fast R-CNN?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2879
+                },
+                {
+                    "x": 2275,
+                    "y": 2879
+                },
+                {
+                    "x": 2275,
+                    "y": 2977
+                },
+                {
+                    "x": 1280,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='105' style='font-size:18px'>To test this question, we train baseline networks that<br>use only the classification loss, Lcls, in Eq. 1 (i.e., setting</p>",
+            "id": 105,
+            "page": 6,
+            "text": "To test this question, we train baseline networks that use only the classification loss, Lcls, in Eq. 1 (i.e., setting"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 413,
+                    "y": 292
+                },
+                {
+                    "x": 2061,
+                    "y": 292
+                },
+                {
+                    "x": 2061,
+                    "y": 555
+                },
+                {
+                    "x": 413,
+                    "y": 555
+                }
+            ],
+            "category": "table",
+            "html": "<table id='106' style='font-size:14px'><tr><td></td><td colspan=\"4\">S</td><td colspan=\"4\">M</td><td colspan=\"4\">L</td></tr><tr><td>multi-task training?</td><td colspan=\"4\"></td><td colspan=\"4\">V</td><td colspan=\"4\"></td></tr><tr><td>stage-wise training?</td><td></td><td></td><td>V</td><td></td><td></td><td></td><td>V</td><td>V</td><td></td><td>V</td><td>V</td><td>V</td></tr><tr><td>test-time bbox reg? VOC07 mAP</td><td>52.2</td><td>53.3</td><td>54.6</td><td>57.1</td><td>54.7</td><td>55.5</td><td>56.6</td><td>59.2</td><td>62.6</td><td>63.4</td><td>64.0</td><td>66.9</td></tr></table>",
+            "id": 106,
+            "page": 7,
+            "text": "S M L  multi-task training?  V   stage-wise training?   V    V V  V V V  test-time bbox reg? VOC07 mAP 52.2 53.3 54.6 57.1 54.7 55.5 56.6 59.2 62.6 63.4 64.0"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 347,
+                    "y": 591
+                },
+                {
+                    "x": 2126,
+                    "y": 591
+                },
+                {
+                    "x": 2126,
+                    "y": 637
+                },
+                {
+                    "x": 347,
+                    "y": 637
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='107' style='font-size:16px'>Table 6. Multi-task training (forth column per group) improves mAP over piecewise training (third column per group).</caption>",
+            "id": 107,
+            "page": 7,
+            "text": "Table 6. Multi-task training (forth column per group) improves mAP over piecewise training (third column per group)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 698
+                },
+                {
+                    "x": 1199,
+                    "y": 698
+                },
+                {
+                    "x": 1199,
+                    "y": 1096
+                },
+                {
+                    "x": 200,
+                    "y": 1096
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='108' style='font-size:18px'>入 = 0). These baselines are printed for models S, M, and L<br>in the first column of each group in Table 6. Note that these<br>models do not have bounding-box regressors. Next (second<br>column per group), we take networks that were trained with<br>the multi-task loss (Eq. 1, 入 = 1), but we disable bounding-<br>box regression at test time. This isolates the networks' clas-<br>sification accuracy and allows an apples-to-apples compar-<br>ison with the baseline networks.</p>",
+            "id": 108,
+            "page": 7,
+            "text": "入 = 0). These baselines are printed for models S, M, and L in the first column of each group in Table 6. Note that these models do not have bounding-box regressors. Next (second column per group), we take networks that were trained with the multi-task loss (Eq. 1, 入 = 1), but we disable boundingbox regression at test time. This isolates the networks' classification accuracy and allows an apples-to-apples comparison with the baseline networks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1102
+                },
+                {
+                    "x": 1200,
+                    "y": 1102
+                },
+                {
+                    "x": 1200,
+                    "y": 1348
+                },
+                {
+                    "x": 201,
+                    "y": 1348
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='109' style='font-size:18px'>Across all three networks we observe that multi-task<br>training improves pure classification accuracy relative to<br>training for classification alone. The improvement ranges<br>from +0.8 to +1.1 mAP points, showing a consistent posi-<br>tive effect from multi-task learning.</p>",
+            "id": 109,
+            "page": 7,
+            "text": "Across all three networks we observe that multi-task training improves pure classification accuracy relative to training for classification alone. The improvement ranges from +0.8 to +1.1 mAP points, showing a consistent positive effect from multi-task learning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1354
+                },
+                {
+                    "x": 1201,
+                    "y": 1354
+                },
+                {
+                    "x": 1201,
+                    "y": 1703
+                },
+                {
+                    "x": 201,
+                    "y": 1703
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:18px'>Finally, we take the baseline models (trained with only<br>the classification loss), tack on the bounding-box regression<br>layer, and train them with Lloc while keeping all other net-<br>work parameters frozen. The third column in each group<br>shows the results of this stage-wise training scheme: mAP<br>improves over column one, but stage-wise training under-<br>performs multi-task training (forth column per group).</p>",
+            "id": 110,
+            "page": 7,
+            "text": "Finally, we take the baseline models (trained with only the classification loss), tack on the bounding-box regression layer, and train them with Lloc while keeping all other network parameters frozen. The third column in each group shows the results of this stage-wise training scheme: mAP improves over column one, but stage-wise training underperforms multi-task training (forth column per group)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1740
+                },
+                {
+                    "x": 1119,
+                    "y": 1740
+                },
+                {
+                    "x": 1119,
+                    "y": 1792
+                },
+                {
+                    "x": 200,
+                    "y": 1792
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='111' style='font-size:20px'>5.2. Scale invariance: to brute force or finesse?</p>",
+            "id": 111,
+            "page": 7,
+            "text": "5.2. Scale invariance: to brute force or finesse?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1821
+                },
+                {
+                    "x": 1199,
+                    "y": 1821
+                },
+                {
+                    "x": 1199,
+                    "y": 2019
+                },
+                {
+                    "x": 201,
+                    "y": 2019
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='112' style='font-size:18px'>We compare two strategies for achieving scale-invariant<br>object detection: brute-force learning (single scale) and im-<br>age pyramids (multi-scale). In either case, we define the<br>scale s of an image to be the length of its shortest side.</p>",
+            "id": 112,
+            "page": 7,
+            "text": "We compare two strategies for achieving scale-invariant object detection: brute-force learning (single scale) and image pyramids (multi-scale). In either case, we define the scale s of an image to be the length of its shortest side."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 199,
+                    "y": 2026
+                },
+                {
+                    "x": 1199,
+                    "y": 2026
+                },
+                {
+                    "x": 1199,
+                    "y": 2570
+                },
+                {
+                    "x": 199,
+                    "y": 2570
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:18px'>All single-scale experiments use s = 600 pixels; s may<br>be less than 600 for some images as we cap the longest im-<br>age side at 1000 pixels and maintain the image's aspect ra-<br>tio. These values were selected so that VGG16 fits in GPU<br>memory during fine-tuning. The smaller models are not<br>memory bound and can benefit from larger values of s; how-<br>ever, optimizing s for each model is not our main concern.<br>We note that PASCAL images are 384 x 473 pixels on av-<br>erage and thus the single-scale setting typically upsamples<br>images by a factor of 1.6. The average effective stride at the<br>RoI pooling layer is thus U 10 pixels.</p>",
+            "id": 113,
+            "page": 7,
+            "text": "All single-scale experiments use s = 600 pixels; s may be less than 600 for some images as we cap the longest image side at 1000 pixels and maintain the image's aspect ratio. These values were selected so that VGG16 fits in GPU memory during fine-tuning. The smaller models are not memory bound and can benefit from larger values of s; however, optimizing s for each model is not our main concern. We note that PASCAL images are 384 x 473 pixels on average and thus the single-scale setting typically upsamples images by a factor of 1.6. The average effective stride at the RoI pooling layer is thus U 10 pixels."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 2575
+                },
+                {
+                    "x": 1200,
+                    "y": 2575
+                },
+                {
+                    "x": 1200,
+                    "y": 2771
+                },
+                {
+                    "x": 200,
+                    "y": 2771
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='114' style='font-size:18px'>In the multi-scale setting, we use the same five scales<br>specified in [11] (s E {480, 576, 688, 864, 1200}) to facili-<br>tate comparison with SPPnet. However, we cap the longest<br>side at 2000 pixels to avoid exceeding GPU memory.</p>",
+            "id": 114,
+            "page": 7,
+            "text": "In the multi-scale setting, we use the same five scales specified in  (s E {480, 576, 688, 864, 1200}) to facilitate comparison with SPPnet. However, we cap the longest side at 2000 pixels to avoid exceeding GPU memory."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2778
+                },
+                {
+                    "x": 1201,
+                    "y": 2778
+                },
+                {
+                    "x": 1201,
+                    "y": 2976
+                },
+                {
+                    "x": 201,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:18px'>Table 7 shows models S and M when trained and tested<br>with either one or five scales. Perhaps the most surpris-<br>ing result in [11] was that single-scale detection performs<br>almost as well as multi-scale detection. Our findings con-</p>",
+            "id": 115,
+            "page": 7,
+            "text": "Table 7 shows models S and M when trained and tested with either one or five scales. Perhaps the most surprising result in  was that single-scale detection performs almost as well as multi-scale detection. Our findings con-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 692
+                },
+                {
+                    "x": 2279,
+                    "y": 692
+                },
+                {
+                    "x": 2279,
+                    "y": 906
+                },
+                {
+                    "x": 1281,
+                    "y": 906
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='116' style='font-size:14px'><tr><td></td><td colspan=\"2\">SPPnet ZF</td><td colspan=\"2\">S</td><td colspan=\"2\">M</td><td>L</td></tr><tr><td>scales</td><td>1</td><td>5</td><td>1</td><td>5</td><td>1</td><td>5</td><td>1</td></tr><tr><td>test rate (s/im)</td><td>0.14</td><td>0.38</td><td>0.10</td><td>0.39</td><td>0.15</td><td>0.64</td><td>0.32</td></tr><tr><td>VOC07 mAP</td><td>58.0</td><td>59.2</td><td>57.1</td><td>58.4</td><td>59.2</td><td>60.7</td><td>66.9</td></tr></table>",
+            "id": 116,
+            "page": 7,
+            "text": "SPPnet ZF S M L  scales 1 5 1 5 1 5 1  test rate (s/im) 0.14 0.38 0.10 0.39 0.15 0.64 0.32  VOC07 mAP 58.0 59.2 57.1 58.4 59.2 60.7"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 938
+                },
+                {
+                    "x": 2279,
+                    "y": 938
+                },
+                {
+                    "x": 2279,
+                    "y": 1122
+                },
+                {
+                    "x": 1278,
+                    "y": 1122
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='117' style='font-size:14px'>Table 7. Multi-scale VS. single scale. SPPnet ZF (similar to model<br>S) results are from [11]. Larger networks with a single-scale offer<br>the best speed / accuracy tradeoff. (L cannot use multi-scale in our<br>implementation due to GPU memory constraints.)</caption>",
+            "id": 117,
+            "page": 7,
+            "text": "Table 7. Multi-scale VS. single scale. SPPnet ZF (similar to model S) results are from . Larger networks with a single-scale offer the best speed / accuracy tradeoff. (L cannot use multi-scale in our implementation due to GPU memory constraints.)"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1190
+                },
+                {
+                    "x": 2279,
+                    "y": 1190
+                },
+                {
+                    "x": 2279,
+                    "y": 1636
+                },
+                {
+                    "x": 1279,
+                    "y": 1636
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='118' style='font-size:18px'>firm their result: deep ConvNets are adept at directly learn-<br>ing scale invariance. The multi-scale approach offers only<br>a small increase in mAP at a large cost in compute time<br>(Table 7). In the case of VGG16 (model L), we are lim-<br>ited to using a single scale by implementation details. Yet it<br>achieves a mAP of 66.9%, which is slightly higher than the<br>66.0% reported for R-CNN [10], even though R-CNN uses<br>\"infinite\" scales in the sense that each proposal is warped to<br>a canonical size.</p>",
+            "id": 118,
+            "page": 7,
+            "text": "firm their result: deep ConvNets are adept at directly learning scale invariance. The multi-scale approach offers only a small increase in mAP at a large cost in compute time (Table 7). In the case of VGG16 (model L), we are limited to using a single scale by implementation details. Yet it achieves a mAP of 66.9%, which is slightly higher than the 66.0% reported for R-CNN , even though R-CNN uses \"infinite\" scales in the sense that each proposal is warped to a canonical size."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1642
+                },
+                {
+                    "x": 2279,
+                    "y": 1642
+                },
+                {
+                    "x": 2279,
+                    "y": 1841
+                },
+                {
+                    "x": 1279,
+                    "y": 1841
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:18px'>Since single-scale processing offers the best tradeoff be-<br>tween speed and accuracy, especially for very deep models,<br>all experiments outside of this sub-section use single-scale<br>training and testing with s = 600 pixels.</p>",
+            "id": 119,
+            "page": 7,
+            "text": "Since single-scale processing offers the best tradeoff between speed and accuracy, especially for very deep models, all experiments outside of this sub-section use single-scale training and testing with s = 600 pixels."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1877
+                },
+                {
+                    "x": 1994,
+                    "y": 1877
+                },
+                {
+                    "x": 1994,
+                    "y": 1930
+                },
+                {
+                    "x": 1280,
+                    "y": 1930
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='120' style='font-size:20px'>5.3. Do we need more training data?</p>",
+            "id": 120,
+            "page": 7,
+            "text": "5.3. Do we need more training data?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1959
+                },
+                {
+                    "x": 2280,
+                    "y": 1959
+                },
+                {
+                    "x": 2280,
+                    "y": 2405
+                },
+                {
+                    "x": 1279,
+                    "y": 2405
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:18px'>A good object detector should improve when supplied<br>with more training data. Zhu et al. [24] found that DPM [8]<br>mAP saturates after only a few hundred to thousand train-<br>ing examples. Here we augment the VOC07 trainval set<br>with the VOC12 trainval set, roughly tripling the number<br>of images to 16.5k, to evaluate Fast R-CNN. Enlarging the<br>training set improves mAP on VOC07 test from 66.9% to<br>70.0% (Table 1). When training on this dataset we use 60k<br>mini-batch iterations instead of 40k.</p>",
+            "id": 121,
+            "page": 7,
+            "text": "A good object detector should improve when supplied with more training data. Zhu   found that DPM  mAP saturates after only a few hundred to thousand training examples. Here we augment the VOC07 trainval set with the VOC12 trainval set, roughly tripling the number of images to 16.5k, to evaluate Fast R-CNN. Enlarging the training set improves mAP on VOC07 test from 66.9% to 70.0% (Table 1). When training on this dataset we use 60k mini-batch iterations instead of 40k."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1278,
+                    "y": 2410
+                },
+                {
+                    "x": 2279,
+                    "y": 2410
+                },
+                {
+                    "x": 2279,
+                    "y": 2759
+                },
+                {
+                    "x": 1278,
+                    "y": 2759
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='122' style='font-size:18px'>We perform similar experiments for VOC10 and 2012,<br>for which we construct a dataset of 21.5k images from the<br>union of VOC07 trainval, test, and VOC12 trainval. When<br>training on this dataset, we use 100k SGD iterations and<br>lower the learning rate by 0.1x each 40k iterations (instead<br>of each 30k). For VOC10 and 2012, mAP improves from<br>66.1% to 68.8% and from 65.7% to 68.4%, respectively.</p>",
+            "id": 122,
+            "page": 7,
+            "text": "We perform similar experiments for VOC10 and 2012, for which we construct a dataset of 21.5k images from the union of VOC07 trainval, test, and VOC12 trainval. When training on this dataset, we use 100k SGD iterations and lower the learning rate by 0.1x each 40k iterations (instead of each 30k). For VOC10 and 2012, mAP improves from 66.1% to 68.8% and from 65.7% to 68.4%, respectively."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2796
+                },
+                {
+                    "x": 1982,
+                    "y": 2796
+                },
+                {
+                    "x": 1982,
+                    "y": 2847
+                },
+                {
+                    "x": 1280,
+                    "y": 2847
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='123' style='font-size:22px'>5.4. Do SVMs outperform softmax?</p>",
+            "id": 123,
+            "page": 7,
+            "text": "5.4. Do SVMs outperform softmax?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 2876
+                },
+                {
+                    "x": 2278,
+                    "y": 2876
+                },
+                {
+                    "x": 2278,
+                    "y": 2976
+                },
+                {
+                    "x": 1280,
+                    "y": 2976
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='124' style='font-size:18px'>Fast R-CNN uses the softmax classifier learnt during<br>fine-tuning instead of training one-vs-rest linear SVMs</p>",
+            "id": 124,
+            "page": 7,
+            "text": "Fast R-CNN uses the softmax classifier learnt during fine-tuning instead of training one-vs-rest linear SVMs"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 307
+                },
+                {
+                    "x": 1199,
+                    "y": 307
+                },
+                {
+                    "x": 1199,
+                    "y": 552
+                },
+                {
+                    "x": 200,
+                    "y": 552
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='125' style='font-size:16px'>post-hoc, as was done in R-CNN and SPPnet. To under-<br>stand the impact of this choice, we implemented post-hoc<br>SVM training with hard negative mining in Fast R-CNN.<br>We use the same training algorithm and hyper-parameters<br>as in R-CNN.</p>",
+            "id": 125,
+            "page": 8,
+            "text": "post-hoc, as was done in R-CNN and SPPnet. To understand the impact of this choice, we implemented post-hoc SVM training with hard negative mining in Fast R-CNN. We use the same training algorithm and hyper-parameters as in R-CNN."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 291,
+                    "y": 587
+                },
+                {
+                    "x": 1114,
+                    "y": 587
+                },
+                {
+                    "x": 1114,
+                    "y": 801
+                },
+                {
+                    "x": 291,
+                    "y": 801
+                }
+            ],
+            "category": "table",
+            "html": "<table id='126' style='font-size:16px'><tr><td>method</td><td>classifier</td><td>S</td><td>M</td><td>L</td></tr><tr><td>R-CNN [9, 10]</td><td>SVM</td><td>58.5</td><td>60.2</td><td>66.0</td></tr><tr><td>FRCN [ours]</td><td>SVM</td><td>56.3</td><td>58.7</td><td>66.8</td></tr><tr><td>FRCN [ours]</td><td>softmax</td><td>57.1</td><td>59.2</td><td>66.9</td></tr></table>",
+            "id": 126,
+            "page": 8,
+            "text": "method classifier S M L  R-CNN  SVM 58.5 60.2 66.0  FRCN [ours] SVM 56.3 58.7 66.8  FRCN [ours] softmax 57.1 59.2"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 835
+                },
+                {
+                    "x": 1119,
+                    "y": 835
+                },
+                {
+                    "x": 1119,
+                    "y": 878
+                },
+                {
+                    "x": 204,
+                    "y": 878
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='127' style='font-size:14px'>Table 8. Fast R-CNN with softmax VS. SVM (VOC07 mAP).</caption>",
+            "id": 127,
+            "page": 8,
+            "text": "Table 8. Fast R-CNN with softmax VS. SVM (VOC07 mAP)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 919
+                },
+                {
+                    "x": 1200,
+                    "y": 919
+                },
+                {
+                    "x": 1200,
+                    "y": 1216
+                },
+                {
+                    "x": 201,
+                    "y": 1216
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='128' style='font-size:18px'>Table 8 shows softmax slightly outperforming SVM for<br>all three networks, by +0.1 to +0.8 mAP points. This ef-<br>fect is small, but it demonstrates that \"one-shot\" fine-tuning<br>is sufficient compared to previous multi-stage training ap-<br>proaches. We note that softmax, unlike one-vs-rest SVMs,<br>introduces competition between classes when scoring a RoI.</p>",
+            "id": 128,
+            "page": 8,
+            "text": "Table 8 shows softmax slightly outperforming SVM for all three networks, by +0.1 to +0.8 mAP points. This effect is small, but it demonstrates that \"one-shot\" fine-tuning is sufficient compared to previous multi-stage training approaches. We note that softmax, unlike one-vs-rest SVMs, introduces competition between classes when scoring a RoI."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 202,
+                    "y": 1248
+                },
+                {
+                    "x": 969,
+                    "y": 1248
+                },
+                {
+                    "x": 969,
+                    "y": 1300
+                },
+                {
+                    "x": 202,
+                    "y": 1300
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='129' style='font-size:20px'>5.5. Are more proposals always better?</p>",
+            "id": 129,
+            "page": 8,
+            "text": "5.5. Are more proposals always better?"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 1328
+                },
+                {
+                    "x": 1200,
+                    "y": 1328
+                },
+                {
+                    "x": 1200,
+                    "y": 1775
+                },
+                {
+                    "x": 201,
+                    "y": 1775
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='130' style='font-size:16px'>There are (broadly) two types of object detectors: those<br>that use a sparse set of object proposals (e.g., selective<br>search [21]) and those that use a dense set (e.g., DPM [8]).<br>Classifying sparse proposals is a type of cascade [22] in<br>which the proposal mechanism first rejects a vast number of<br>candidates leaving the classifier with a small set to evaluate.<br>This cascade improves detection accuracy when applied to<br>DPM detections [21]. We find evidence that the proposal-<br>classifier cascade also improves Fast R-CNN accuracy.</p>",
+            "id": 130,
+            "page": 8,
+            "text": "There are (broadly) two types of object detectors: those that use a sparse set of object proposals (e.g., selective search ) and those that use a dense set (e.g., DPM ). Classifying sparse proposals is a type of cascade  in which the proposal mechanism first rejects a vast number of candidates leaving the classifier with a small set to evaluate. This cascade improves detection accuracy when applied to DPM detections . We find evidence that the proposalclassifier cascade also improves Fast R-CNN accuracy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 200,
+                    "y": 1780
+                },
+                {
+                    "x": 1200,
+                    "y": 1780
+                },
+                {
+                    "x": 1200,
+                    "y": 2023
+                },
+                {
+                    "x": 200,
+                    "y": 2023
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='131' style='font-size:18px'>Using selective search's quality mode, we sweep from 1k<br>to 10k proposals per image, each time re-training and re-<br>testing model M. If proposals serve a purely computational<br>role, increasing the number of proposals per image should<br>not harm mAP.</p>",
+            "id": 131,
+            "page": 8,
+            "text": "Using selective search's quality mode, we sweep from 1k to 10k proposals per image, each time re-training and retesting model M. If proposals serve a purely computational role, increasing the number of proposals per image should not harm mAP."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 2056
+                },
+                {
+                    "x": 1192,
+                    "y": 2056
+                },
+                {
+                    "x": 1192,
+                    "y": 2651
+                },
+                {
+                    "x": 204,
+                    "y": 2651
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='132' style='font-size:14px' alt=\"66 66\nSel. Search (SS)\n63- SS (2k) + Rand Dense 63\n△ SS replace Dense\n61- ◇ 45k Dense Softmax 61=\n○ 45k Dense SVM eca\n58- 58 R\nmAP SS Avg. Recall Average\n56- 56\n53- 53\n51- 51\n49 49\n103 104\nNumber of object proposals\" data-coord=\"top-left:(204,2056); bottom-right:(1192,2651)\" /></figure>",
+            "id": 132,
+            "page": 8,
+            "text": "66 66 Sel. Search (SS) 63- SS (2k) + Rand Dense 63 △ SS replace Dense 61- ◇ 45k Dense Softmax 61= ○ 45k Dense SVM eca 58- 58 R mAP SS Avg. Recall Average 56- 56 53- 53 51- 51 49 49 103 104 Number of object proposals"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 203,
+                    "y": 2671
+                },
+                {
+                    "x": 1195,
+                    "y": 2671
+                },
+                {
+                    "x": 1195,
+                    "y": 2716
+                },
+                {
+                    "x": 203,
+                    "y": 2716
+                }
+            ],
+            "category": "caption",
+            "html": "<br><caption id='133' style='font-size:16px'>Figure 3. VOC07 test mAP and AR for various proposal schemes.</caption>",
+            "id": 133,
+            "page": 8,
+            "text": "Figure 3. VOC07 test mAP and AR for various proposal schemes."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 201,
+                    "y": 2777
+                },
+                {
+                    "x": 1201,
+                    "y": 2777
+                },
+                {
+                    "x": 1201,
+                    "y": 2978
+                },
+                {
+                    "x": 201,
+                    "y": 2978
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='134' style='font-size:18px'>We find that mAP rises and then falls slightly as the pro-<br>posal count increases (Fig. 3, solid blue line). This exper-<br>iment shows that swamping the deep classifier with more<br>proposals does not help, and even slightly hurts, accuracy.</p>",
+            "id": 134,
+            "page": 8,
+            "text": "We find that mAP rises and then falls slightly as the proposal count increases (Fig. 3, solid blue line). This experiment shows that swamping the deep classifier with more proposals does not help, and even slightly hurts, accuracy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1277,
+                    "y": 306
+                },
+                {
+                    "x": 2278,
+                    "y": 306
+                },
+                {
+                    "x": 2278,
+                    "y": 902
+                },
+                {
+                    "x": 1277,
+                    "y": 902
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='135' style='font-size:18px'>This result is difficult to predict without actually running<br>the experiment. The state-of-the-art for measuring object<br>proposal quality is Average Recall (AR) [12]. AR correlates<br>well with mAP for several proposal methods using R-CNN,<br>when using a fixed number of proposals per image. Fig. 3<br>shows that AR (solid red line) does not correlate well with<br>mAP as the number of proposals per image is varied. AR<br>must be used with care; higher AR due to more proposals<br>does not imply that mAP will increase. Fortunately, training<br>and testing with model M takes less than 2.5 hours. Fast<br>R-CNN thus enables efficient, direct evaluation of object<br>proposal mAP, which is preferable to proxy metrics.</p>",
+            "id": 135,
+            "page": 8,
+            "text": "This result is difficult to predict without actually running the experiment. The state-of-the-art for measuring object proposal quality is Average Recall (AR) . AR correlates well with mAP for several proposal methods using R-CNN, when using a fixed number of proposals per image. Fig. 3 shows that AR (solid red line) does not correlate well with mAP as the number of proposals per image is varied. AR must be used with care; higher AR due to more proposals does not imply that mAP will increase. Fortunately, training and testing with model M takes less than 2.5 hours. Fast R-CNN thus enables efficient, direct evaluation of object proposal mAP, which is preferable to proxy metrics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 905
+                },
+                {
+                    "x": 2278,
+                    "y": 905
+                },
+                {
+                    "x": 2278,
+                    "y": 1198
+                },
+                {
+                    "x": 1279,
+                    "y": 1198
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='136' style='font-size:18px'>We also investigate Fast R-CNN when using densely<br>generated boxes (over scale, position, and aspect ratio), at<br>a rate of about 45k boxes / image. This dense set is rich<br>enough that when each selective search box is replaced by<br>its closest (in IoU) dense box, mAP drops only 1 point (to<br>57.7%, Fig. 3, blue triangle).</p>",
+            "id": 136,
+            "page": 8,
+            "text": "We also investigate Fast R-CNN when using densely generated boxes (over scale, position, and aspect ratio), at a rate of about 45k boxes / image. This dense set is rich enough that when each selective search box is replaced by its closest (in IoU) dense box, mAP drops only 1 point (to 57.7%, Fig. 3, blue triangle)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 1203
+                },
+                {
+                    "x": 2277,
+                    "y": 1203
+                },
+                {
+                    "x": 2277,
+                    "y": 1548
+                },
+                {
+                    "x": 1279,
+                    "y": 1548
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='137' style='font-size:16px'>The statistics of the dense boxes differ from those of<br>selective search boxes. Starting with 2k selective search<br>boxes, we test mAP when adding a random sample of<br>1000 x {2, 4, 6, 8, 10, 32, 45} dense boxes. For each exper-<br>iment we re-train and re-test model M. When these dense<br>boxes are added, mAP falls more strongly than when adding<br>more selective search boxes, eventually reaching 53.0%.</p>",
+            "id": 137,
+            "page": 8,
+            "text": "The statistics of the dense boxes differ from those of selective search boxes. Starting with 2k selective search boxes, we test mAP when adding a random sample of 1000 x {2, 4, 6, 8, 10, 32, 45} dense boxes. For each experiment we re-train and re-test model M. When these dense boxes are added, mAP falls more strongly than when adding more selective search boxes, eventually reaching 53.0%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1553
+                },
+                {
+                    "x": 2277,
+                    "y": 1553
+                },
+                {
+                    "x": 2277,
+                    "y": 1798
+                },
+                {
+                    "x": 1280,
+                    "y": 1798
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='138' style='font-size:16px'>We also train and test Fast R-CNN using only dense<br>boxes (45k / image). This setting yields a mAP of 52.9%<br>(blue diamond). Finally, we check if SVMs with hard nega-<br>tive mining are needed to cope with the dense box distribu-<br>tion. SVMs do even worse: 49.3% (blue circle).</p>",
+            "id": 138,
+            "page": 8,
+            "text": "We also train and test Fast R-CNN using only dense boxes (45k / image). This setting yields a mAP of 52.9% (blue diamond). Finally, we check if SVMs with hard negative mining are needed to cope with the dense box distribution. SVMs do even worse: 49.3% (blue circle)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 1824
+                },
+                {
+                    "x": 1974,
+                    "y": 1824
+                },
+                {
+                    "x": 1974,
+                    "y": 1873
+                },
+                {
+                    "x": 1281,
+                    "y": 1873
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='139' style='font-size:20px'>5.6. Preliminary MS COCO results</p>",
+            "id": 139,
+            "page": 8,
+            "text": "5.6. Preliminary MS COCO results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1280,
+                    "y": 1900
+                },
+                {
+                    "x": 2277,
+                    "y": 1900
+                },
+                {
+                    "x": 2277,
+                    "y": 2199
+                },
+                {
+                    "x": 1280,
+                    "y": 2199
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='140' style='font-size:16px'>We applied Fast R-CNN (with VGG16) to the MS<br>COCO dataset [18] to establish a preliminary baseline. We<br>trained on the 80k image training set for 240k iterations and<br>evaluated on the \"test-dev\" set using the evaluation server.<br>The PASCAL-style mAP is 35.9%; the new COCO-style<br>AP, which also averages over IoU thresholds, is 19.7%.</p>",
+            "id": 140,
+            "page": 8,
+            "text": "We applied Fast R-CNN (with VGG16) to the MS COCO dataset  to establish a preliminary baseline. We trained on the 80k image training set for 240k iterations and evaluated on the \"test-dev\" set using the evaluation server. The PASCAL-style mAP is 35.9%; the new COCO-style AP, which also averages over IoU thresholds, is 19.7%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2237
+                },
+                {
+                    "x": 1578,
+                    "y": 2237
+                },
+                {
+                    "x": 1578,
+                    "y": 2289
+                },
+                {
+                    "x": 1281,
+                    "y": 2289
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='141' style='font-size:22px'>6. Conclusion</p>",
+            "id": 141,
+            "page": 8,
+            "text": "6. Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 2321
+                },
+                {
+                    "x": 2278,
+                    "y": 2321
+                },
+                {
+                    "x": 2278,
+                    "y": 2820
+                },
+                {
+                    "x": 1279,
+                    "y": 2820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='142' style='font-size:16px'>This paper proposes Fast R-CNN, a clean and fast update<br>to R-CNN and SPPnet. In addition to reporting state-of-the-<br>art detection results, we present detailed experiments that<br>we hope provide new insights. Of particular note, sparse<br>object proposals appear to improve detector quality. This<br>issue was too costly (in time) to probe in the past, but be-<br>comes practical with Fast R-CNN. Of course, there may ex-<br>ist yet undiscovered techniques that allow dense boxes to<br>perform as well as sparse proposals. Such methods, if de-<br>veloped, may help further accelerate object detection.</p>",
+            "id": 142,
+            "page": 8,
+            "text": "This paper proposes Fast R-CNN, a clean and fast update to R-CNN and SPPnet. In addition to reporting state-of-theart detection results, we present detailed experiments that we hope provide new insights. Of particular note, sparse object proposals appear to improve detector quality. This issue was too costly (in time) to probe in the past, but becomes practical with Fast R-CNN. Of course, there may exist yet undiscovered techniques that allow dense boxes to perform as well as sparse proposals. Such methods, if developed, may help further accelerate object detection."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1281,
+                    "y": 2878
+                },
+                {
+                    "x": 2274,
+                    "y": 2878
+                },
+                {
+                    "x": 2274,
+                    "y": 2977
+                },
+                {
+                    "x": 1281,
+                    "y": 2977
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='143' style='font-size:18px'>Acknowledgements. I thank Kaiming He, Larry Zitnick,<br>and Piotr Dollar for helpful discussions and encouragement.</p>",
+            "id": 143,
+            "page": 8,
+            "text": "Acknowledgements. I thank Kaiming He, Larry Zitnick, and Piotr Dollar for helpful discussions and encouragement."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 204,
+                    "y": 299
+                },
+                {
+                    "x": 446,
+                    "y": 299
+                },
+                {
+                    "x": 446,
+                    "y": 354
+                },
+                {
+                    "x": 204,
+                    "y": 354
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='144' style='font-size:18px'>References</p>",
+            "id": 144,
+            "page": 9,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 212,
+                    "y": 374
+                },
+                {
+                    "x": 1203,
+                    "y": 374
+                },
+                {
+                    "x": 1203,
+                    "y": 2975
+                },
+                {
+                    "x": 212,
+                    "y": 2975
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='145' style='font-size:14px'>[1] J. Carreira, R. Caseiro, J. Batista, and C. Sminchisescu. Se-<br>mantic segmentation with second-order pooling. In ECCV,<br>2012. 5<br>[2] R. Caruana. Multitask learning. Machine learning, 28(1),<br>1997. 6<br>[3] K. Chatfield, K. Simonyan, A. Vedaldi, and A. Zisserman.<br>Return of the devil in the details: Delving deep into convo-<br>lutional nets. In BMVC, 2014. 5<br>[4] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-<br>Fei. ImageNet: A large-scale hierarchical image database.<br>In CVPR, 2009. 2<br>[5] E. Denton, W. Zaremba, J. Bruna, Y. LeCun, and R. Fergus.<br>Exploiting linear structure within convolutional networks for<br>efficient evaluation. In NIPS, 2014. 4<br>[6] D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable<br>object detection using deep neural networks. In CVPR, 2014.<br>3<br>[7] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and<br>A. Zisserman. The PASCAL Visual Object Classes (VOC)<br>Challenge. IJCV, 2010. 1<br>[8] P. Felzenszwalb, R. Girshick, D. McAllester, and D. Ra-<br>manan. Object detection with discriminatively trained part<br>based models. TPAMI, 2010. 3, 7, 8<br>[9] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich fea-<br>ture hierarchies for accurate object detection and semantic<br>segmentation. In CVPR, 2014. 1, 3, 4, 8<br>[10] R. Girshick, J. Donahue, T. Darrell, and J. Malik. Region-<br>based convolutional networks for accurate object detection<br>and segmentation. TPAMI, 2015. 5, 7, 8<br>[11] K. He, X. Zhang, S. Ren, andJ. Sun. Spatial pyramid pooling<br>in deep convolutional networks for visual recognition. In<br>ECCV, 2014. 1, 2, 3, 4, 5, 6, 7<br>[12] J. H. Hosang, R. Benenson, P. Dollar, and B. Schiele. What<br>makes for effective detection proposals? arXiv preprint<br>arXiv:1502.05082, 2015. 8<br>[13] Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Gir-<br>shick, S. Guadarrama, and T. Darrell. Caffe: Convolutional<br>architecture for fast feature embedding. In Proc. ofthe ACM<br>International Conf. on Multimedia, 2014. 2<br>[14] A. Krizhevsky, I. Sutskever, and G. Hinton. ImageNet clas-<br>sification with deep convolutional neural networks. In NIPS,<br>2012. 1, 4, 6<br>[15] S. Lazebnik, C. Schmid, and J. Ponce. Beyond bags of<br>features: Spatial pyramid matching for recognizing natural<br>scene categories. In CVPR, 2006. 1<br>[16] Y. LeCun, B. Boser, J. Denker, D. Henderson, R. Howard,<br>W. Hubbard, and L. Jackel. Backpropagation applied to<br>handwritten zip code recognition. Neural Comp., 1989. 1<br>[17] M. Lin, Q. Chen, and S. Yan. Network in network. In ICLR,<br>2014. 5<br>[18] T. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick,<br>J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zit-<br>nick. Microsoft COCO: common objects in context. arXiv<br>e-prints, arXiv:1405.0312 [cs.CV], 2014. 8</p>",
+            "id": 145,
+            "page": 9,
+            "text": " J. Carreira, R. Caseiro, J. Batista, and C. Sminchisescu. Semantic segmentation with second-order pooling. In ECCV, 2012. 5  R. Caruana. Multitask learning. Machine learning, 28(1), 1997. 6  K. Chatfield, K. Simonyan, A. Vedaldi, and A. Zisserman. Return of the devil in the details: Delving deep into convolutional nets. In BMVC, 2014. 5  J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. FeiFei. ImageNet: A large-scale hierarchical image database. In CVPR, 2009. 2  E. Denton, W. Zaremba, J. Bruna, Y. LeCun, and R. Fergus. Exploiting linear structure within convolutional networks for efficient evaluation. In NIPS, 2014. 4  D. Erhan, C. Szegedy, A. Toshev, and D. Anguelov. Scalable object detection using deep neural networks. In CVPR, 2014. 3  M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman. The PASCAL Visual Object Classes (VOC) Challenge. IJCV, 2010. 1  P. Felzenszwalb, R. Girshick, D. McAllester, and D. Ramanan. Object detection with discriminatively trained part based models. TPAMI, 2010. 3, 7, 8  R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In CVPR, 2014. 1, 3, 4, 8  R. Girshick, J. Donahue, T. Darrell, and J. Malik. Regionbased convolutional networks for accurate object detection and segmentation. TPAMI, 2015. 5, 7, 8  K. He, X. Zhang, S. Ren, andJ. Sun. Spatial pyramid pooling in deep convolutional networks for visual recognition. In ECCV, 2014. 1, 2, 3, 4, 5, 6, 7  J. H. Hosang, R. Benenson, P. Dollar, and B. Schiele. What makes for effective detection proposals? arXiv preprint arXiv:1502.05082, 2015. 8  Y. Jia, E. Shelhamer, J. Donahue, S. Karayev, J. Long, R. Girshick, S. Guadarrama, and T. Darrell. Caffe: Convolutional architecture for fast feature embedding. In Proc. ofthe ACM International Conf. on Multimedia, 2014. 2  A. Krizhevsky, I. Sutskever, and G. Hinton. ImageNet classification with deep convolutional neural networks. In NIPS, 2012. 1, 4, 6  S. Lazebnik, C. Schmid, and J. Ponce. Beyond bags of features: Spatial pyramid matching for recognizing natural scene categories. In CVPR, 2006. 1  Y. LeCun, B. Boser, J. Denker, D. Henderson, R. Howard, W. Hubbard, and L. Jackel. Backpropagation applied to handwritten zip code recognition. Neural Comp., 1989. 1  M. Lin, Q. Chen, and S. Yan. Network in network. In ICLR, 2014. 5  T. Lin, M. Maire, S. Belongie, L. Bourdev, R. Girshick, J. Hays, P. Perona, D. Ramanan, P. Dollar, and C. L. Zitnick. Microsoft COCO: common objects in context. arXiv e-prints, arXiv:1405.0312 [cs.CV], 2014. 8"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1279,
+                    "y": 301
+                },
+                {
+                    "x": 2280,
+                    "y": 301
+                },
+                {
+                    "x": 2280,
+                    "y": 1297
+                },
+                {
+                    "x": 1279,
+                    "y": 1297
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='146' style='font-size:14px'>[19] P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus,<br>and Y. LeCun. OverFeat: Integrated Recognition, Localiza-<br>tion and Detection using Convolutional Networks. In ICLR,<br>2014. 1, 3<br>[20] K. Simonyan and A. Zisserman. Very deep convolutional<br>networks for large-scale image recognition. In ICLR, 2015.<br>1, 5<br>[21] J. Uijlings, K. van de Sande, T. Gevers, and A. Smeulders.<br>Selective search for object recognition. IJCV, 2013. 8<br>[22] P. Viola and M. Jones. Rapid object detection using a boosted<br>cascade of simple features. In CVPR, 2001. 8<br>[23] J. Xue, J. Li, and Y. Gong. Restructuring of deep neural<br>network acoustic models with singular value decomposition.<br>In Interspeech, 2013. 4<br>[24] X. Zhu, C. Vondrick, D. Ramanan, and C. Fowlkes. Do we<br>need more training data or better models for object detec-<br>tion? In BMVC, 2012. 7<br>[25] Y. Zhu, R. Urtasun, R. Salakhutdinov, and S. Fidler.<br>segDeepM: Exploiting segmentation and context in deep<br>neural networks for object detection. In CVPR, 2015. 1,<br>5</p>",
+            "id": 146,
+            "page": 9,
+            "text": " P. Sermanet, D. Eigen, X. Zhang, M. Mathieu, R. Fergus, and Y. LeCun. OverFeat: Integrated Recognition, Localization and Detection using Convolutional Networks. In ICLR, 2014. 1, 3  K. Simonyan and A. Zisserman. Very deep convolutional networks for large-scale image recognition. In ICLR, 2015. 1, 5  J. Uijlings, K. van de Sande, T. Gevers, and A. Smeulders. Selective search for object recognition. IJCV, 2013. 8  P. Viola and M. Jones. Rapid object detection using a boosted cascade of simple features. In CVPR, 2001. 8  J. Xue, J. Li, and Y. Gong. Restructuring of deep neural network acoustic models with singular value decomposition. In Interspeech, 2013. 4  X. Zhu, C. Vondrick, D. Ramanan, and C. Fowlkes. Do we need more training data or better models for object detection? In BMVC, 2012. 7  Y. Zhu, R. Urtasun, R. Salakhutdinov, and S. Fidler. segDeepM: Exploiting segmentation and context in deep neural networks for object detection. In CVPR, 2015. 1, 5"
+        }
+    ]
+}

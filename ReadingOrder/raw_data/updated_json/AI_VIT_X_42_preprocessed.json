@@ -1,0 +1,3556 @@
+{
+    "id": "32ab53e4-0f94-11ef-8828-426932df3dcf",
+    "pdf_path": "/root/data/pdf/2204.08292v1.pdf",
+    "elements": [
+        {
+            "bounding_box": [
+                {
+                    "x": 683,
+                    "y": 399
+                },
+                {
+                    "x": 1865,
+                    "y": 399
+                },
+                {
+                    "x": 1865,
+                    "y": 644
+                },
+                {
+                    "x": 683,
+                    "y": 644
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='0' style='font-size:22px'>StepGame: A New Benchmark for<br>Robust Multi-Hop Spatial Reasoning in Texts<br>Zhengxiang Shi1 , Qiang Zhang2, Aldo Lipanil</p>",
+            "id": 0,
+            "page": 1,
+            "text": "StepGame: A New Benchmark for Robust Multi-Hop Spatial Reasoning in Texts Zhengxiang Shi1 , Qiang Zhang2, Aldo Lipanil"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 586,
+                    "y": 659
+                },
+                {
+                    "x": 1954,
+                    "y": 659
+                },
+                {
+                    "x": 1954,
+                    "y": 797
+                },
+                {
+                    "x": 586,
+                    "y": 797
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='1' style='font-size:20px'>1University College London<br>2Zhejiang University<br>zhengxiang.shi. 19@ucl.ac.uk, qiang.zhang.cs@zju.edu.cn, aldo.lipani@ucl.ac.uk</p>",
+            "id": 1,
+            "page": 1,
+            "text": "1University College London 2Zhejiang University zhengxiang.shi. 19@ucl.ac.uk, qiang.zhang.cs@zju.edu.cn, aldo.lipani@ucl.ac.uk"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 638,
+                    "y": 906
+                },
+                {
+                    "x": 804,
+                    "y": 906
+                },
+                {
+                    "x": 804,
+                    "y": 952
+                },
+                {
+                    "x": 638,
+                    "y": 952
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='2' style='font-size:18px'>Abstract</p>",
+            "id": 2,
+            "page": 1,
+            "text": "Abstract"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 259,
+                    "y": 988
+                },
+                {
+                    "x": 1184,
+                    "y": 988
+                },
+                {
+                    "x": 1184,
+                    "y": 1699
+                },
+                {
+                    "x": 259,
+                    "y": 1699
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='3' style='font-size:14px'>Inferring spatial relations in natural language is a crucial abil-<br>ity an intelligent system should possess. The bAbI dataset<br>tries to capture tasks relevant to this domain (task 17 and 19).<br>However, these tasks have several limitations. Most impor-<br>tantly, they are limited to fixed expressions, they are limited<br>in the number of reasoning steps required to solve them, and<br>they fail to test the robustness of models to input that contains<br>irrelevant or redundant information. In this paper, we present<br>a new Question-Answering dataset called StepGame for ro-<br>bust multi-hop spatial reasoning in texts. Our experiments<br>demonstrate that state-of-the-art models on the bAbI dataset<br>struggle on the StepGame dataset. Moreover, we propose a<br>Tensor-Product based Memory-Augmented Neural Network<br>(TP-MANN) specialized for spatial reasoning tasks. Experi-<br>mental results on both datasets show that our model outper-<br>forms all the baselines with superior generalization and ro-<br>bustness performance.</p>",
+            "id": 3,
+            "page": 1,
+            "text": "Inferring spatial relations in natural language is a crucial ability an intelligent system should possess. The bAbI dataset tries to capture tasks relevant to this domain (task 17 and 19). However, these tasks have several limitations. Most importantly, they are limited to fixed expressions, they are limited in the number of reasoning steps required to solve them, and they fail to test the robustness of models to input that contains irrelevant or redundant information. In this paper, we present a new Question-Answering dataset called StepGame for robust multi-hop spatial reasoning in texts. Our experiments demonstrate that state-of-the-art models on the bAbI dataset struggle on the StepGame dataset. Moreover, we propose a Tensor-Product based Memory-Augmented Neural Network (TP-MANN) specialized for spatial reasoning tasks. Experimental results on both datasets show that our model outperforms all the baselines with superior generalization and robustness performance."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 546,
+                    "y": 1780
+                },
+                {
+                    "x": 898,
+                    "y": 1780
+                },
+                {
+                    "x": 898,
+                    "y": 1833
+                },
+                {
+                    "x": 546,
+                    "y": 1833
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='4' style='font-size:20px'>1 Introduction</p>",
+            "id": 4,
+            "page": 1,
+            "text": "1 Introduction"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 216,
+                    "y": 1853
+                },
+                {
+                    "x": 1228,
+                    "y": 1853
+                },
+                {
+                    "x": 1228,
+                    "y": 2818
+                },
+                {
+                    "x": 216,
+                    "y": 2818
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='5' style='font-size:18px'>Neural networks have been successful in a wide array of per-<br>ceptual tasks, but it is often stated that they are incapable<br>of solving tasks that require higher-level reasoning (Ding<br>et al. 2020). Since spatial reasoning is ubiquitous in many<br>scenarios such as autonomous navigation (Vogel and Juraf-<br>sky 2010), situated dialog (Kruijff et al. 2007), and robotic<br>manipulation (Yang, Lan, and Narasimhan 2020; Landsiedel<br>et al. 2017), grounding spatial references in texts is essential<br>for effective human-machine communication through natu-<br>ral language. Navigation tasks require agents to reason about<br>their relative position to objects and how these relations<br>change as they move through the environment (Chen et al.<br>2019). If we want to develop conversational systems able to<br>assist users in solving tasks where spatial references are in-<br>volved, we need to make them able to understand and reason<br>about spatial references in natural language. Such ability can<br>help conversational systems to successfully follow instruc-<br>tions and understand spatial descriptions. However, despite<br>its tremendous applicability, reasoning over spatial relations<br>remains a challenging task for existing conversational sys-<br>tems.</p>",
+            "id": 5,
+            "page": 1,
+            "text": "Neural networks have been successful in a wide array of perceptual tasks, but it is often stated that they are incapable of solving tasks that require higher-level reasoning (Ding  2020). Since spatial reasoning is ubiquitous in many scenarios such as autonomous navigation (Vogel and Jurafsky 2010), situated dialog (Kruijff  2007), and robotic manipulation (Yang, Lan, and Narasimhan 2020; Landsiedel  2017), grounding spatial references in texts is essential for effective human-machine communication through natural language. Navigation tasks require agents to reason about their relative position to objects and how these relations change as they move through the environment (Chen  2019). If we want to develop conversational systems able to assist users in solving tasks where spatial references are involved, we need to make them able to understand and reason about spatial references in natural language. Such ability can help conversational systems to successfully follow instructions and understand spatial descriptions. However, despite its tremendous applicability, reasoning over spatial relations remains a challenging task for existing conversational systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2850
+                },
+                {
+                    "x": 1223,
+                    "y": 2850
+                },
+                {
+                    "x": 1223,
+                    "y": 2937
+                },
+                {
+                    "x": 218,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='6' style='font-size:16px'>Copyright ⓒ 2022, Association for the Advancement of Artificial<br>Intelligence (www.aaai.org). All rights reserved.</p>",
+            "id": 6,
+            "page": 1,
+            "text": "Copyright ⓒ 2022, Association for the Advancement of Artificial Intelligence (www.aaai.org). All rights reserved."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 904
+                },
+                {
+                    "x": 2333,
+                    "y": 904
+                },
+                {
+                    "x": 2333,
+                    "y": 1685
+                },
+                {
+                    "x": 1322,
+                    "y": 1685
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='7' style='font-size:16px'>Earlier works in spatial reasoning focused on spatial in-<br>struction understanding in a synthetic environment (Bisk<br>et al. 2018; Tan and Bansal 2018; Janner, Narasimhan, and<br>Barzilay 2018) or in a simulated world with spatial infor-<br>mation annotation in texts (Pustejovsky et al. 2015), spatial<br>relation extractions across entities (Petruck and Ellsworth<br>2018) and visual observations (Anderson et al. 2018; Chen<br>et al. 2019). However, few of the existing datasets are de-<br>signed to evaluate models' inference over spatial informa-<br>tion in texts. A spatial relational inference task often requires<br>an conversational system to infer the spatial relation between<br>two items given a description of a scene. For example, imag-<br>ine a user asking to a conversational system to recognize the<br>location of an entity based on the description of other enti-<br>ties in a scene. To do so, the conversational system needs to<br>be able to reason about the location of the various entities in<br>the scene using only textual information.</p>",
+            "id": 7,
+            "page": 1,
+            "text": "Earlier works in spatial reasoning focused on spatial instruction understanding in a synthetic environment (Bisk  2018; Tan and Bansal 2018; Janner, Narasimhan, and Barzilay 2018) or in a simulated world with spatial information annotation in texts (Pustejovsky  2015), spatial relation extractions across entities (Petruck and Ellsworth 2018) and visual observations (Anderson  2018; Chen  2019). However, few of the existing datasets are designed to evaluate models' inference over spatial information in texts. A spatial relational inference task often requires an conversational system to infer the spatial relation between two items given a description of a scene. For example, imagine a user asking to a conversational system to recognize the location of an entity based on the description of other entities in a scene. To do so, the conversational system needs to be able to reason about the location of the various entities in the scene using only textual information."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 1692
+                },
+                {
+                    "x": 2332,
+                    "y": 1692
+                },
+                {
+                    "x": 2332,
+                    "y": 2289
+                },
+                {
+                    "x": 1323,
+                    "y": 2289
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='8' style='font-size:16px'>BAbI (Weston et al. 2016) is the most relevant dataset<br>for this task. It contains 20 synthetic question answering<br>(QA) tasks to test a variety of reasoning abilities in texts,<br>like deduction, co-reference, and counting. In particular, the<br>positional reasoning task (no. 17) and the path finding task<br>(no. 19) are designed to evaluate models' spatial reasoning<br>ability. These two tasks are arguably the most challenging<br>ones van Aken et al. (2019). The state-of-the-art model on<br>the bAbI (Le, Tran, and Venkatesh 2020) dataset almost per-<br>fectly solve these two spatial reasoning tasks. However, in<br>this paper, we demonstrate that such good performance is<br>attributable to issues with the bAbI dataset rather than the<br>model inference ability.</p>",
+            "id": 8,
+            "page": 1,
+            "text": "BAbI (Weston  2016) is the most relevant dataset for this task. It contains 20 synthetic question answering (QA) tasks to test a variety of reasoning abilities in texts, like deduction, co-reference, and counting. In particular, the positional reasoning task (no. 17) and the path finding task (no. 19) are designed to evaluate models' spatial reasoning ability. These two tasks are arguably the most challenging ones van Aken  (2019). The state-of-the-art model on the bAbI (Le, Tran, and Venkatesh 2020) dataset almost perfectly solve these two spatial reasoning tasks. However, in this paper, we demonstrate that such good performance is attributable to issues with the bAbI dataset rather than the model inference ability."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 2294
+                },
+                {
+                    "x": 2332,
+                    "y": 2294
+                },
+                {
+                    "x": 2332,
+                    "y": 2939
+                },
+                {
+                    "x": 1323,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='9' style='font-size:16px'>We find four major issues with bAbI's tasks 17 and 19: (1)<br>There is a data leakage between the train and test sets; that is,<br>most of the test set samples appear in the training set. Hence,<br>the evaluation results on the test set cannot truly reflect mod-<br>els' reasoning ability; (2) Named entities are fixed and only<br>four relations are considered. Each text sample always con-<br>tains the same four named entities in the training, valida-<br>tion, and test sets. This further biases the learning models<br>towards these four entities. When named entities in the test<br>set are replaced by unseen entities or the number of such<br>entities increases, the model performance decreases dramat-<br>ically (Chen et al. 2020a). Also, relations such as top-left,<br>top-right, lower-left, lower-right are not taken into consider-<br>ation; (3) Learning models are required to reason only over</p>",
+            "id": 9,
+            "page": 1,
+            "text": "We find four major issues with bAbI's tasks 17 and 19: (1) There is a data leakage between the train and test sets; that is, most of the test set samples appear in the training set. Hence, the evaluation results on the test set cannot truly reflect models' reasoning ability; (2) Named entities are fixed and only four relations are considered. Each text sample always contains the same four named entities in the training, validation, and test sets. This further biases the learning models towards these four entities. When named entities in the test set are replaced by unseen entities or the number of such entities increases, the model performance decreases dramatically (Chen  2020a). Also, relations such as top-left, top-right, lower-left, lower-right are not taken into consideration; (3) Learning models are required to reason only over"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 59,
+                    "y": 880
+                },
+                {
+                    "x": 149,
+                    "y": 880
+                },
+                {
+                    "x": 149,
+                    "y": 2332
+                },
+                {
+                    "x": 59,
+                    "y": 2332
+                }
+            ],
+            "category": "footer",
+            "html": "<br><footer id='10' style='font-size:14px'>2022<br>Apr<br>18<br>[cs.CL]<br>arXiv:2204.08292v1</footer>",
+            "id": 10,
+            "page": 1,
+            "text": "2022 Apr 18 [cs.CL] arXiv:2204.08292v1"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 234
+                },
+                {
+                    "x": 1226,
+                    "y": 234
+                },
+                {
+                    "x": 1226,
+                    "y": 597
+                },
+                {
+                    "x": 217,
+                    "y": 597
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='11' style='font-size:18px'>one or two sentences in the text descriptions, making such<br>tasks relatively simple. Palm, Paquet, and Winther (2018)<br>pointed out that multi-hop reasoning is not necessary for the<br>bAbI dataset since models only need a single step to solve<br>all the tasks, and; (4) It is a synthetic dataset with a limited<br>diversity of spatial relation descriptions. It thus cannot truly<br>reveal the models' ability in understanding textual space de-<br>scriptions.</p>",
+            "id": 11,
+            "page": 2,
+            "text": "one or two sentences in the text descriptions, making such tasks relatively simple. Palm, Paquet, and Winther (2018) pointed out that multi-hop reasoning is not necessary for the bAbI dataset since models only need a single step to solve all the tasks, and; (4) It is a synthetic dataset with a limited diversity of spatial relation descriptions. It thus cannot truly reveal the models' ability in understanding textual space descriptions."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 600
+                },
+                {
+                    "x": 1225,
+                    "y": 600
+                },
+                {
+                    "x": 1225,
+                    "y": 782
+                },
+                {
+                    "x": 217,
+                    "y": 782
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='12' style='font-size:14px'>In this paper, we propose a new dataset called StepGame<br>to tackle the above-mentioned issues and a novel Tensor<br>Product-based Memory-Augmented Neural Network archi-<br>tecture (TP-MANN) for multi-hop spatial reasoning in texts.</p>",
+            "id": 12,
+            "page": 2,
+            "text": "In this paper, we propose a new dataset called StepGame to tackle the above-mentioned issues and a novel Tensor Product-based Memory-Augmented Neural Network architecture (TP-MANN) for multi-hop spatial reasoning in texts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 781
+                },
+                {
+                    "x": 1228,
+                    "y": 781
+                },
+                {
+                    "x": 1228,
+                    "y": 1697
+                },
+                {
+                    "x": 217,
+                    "y": 1697
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='13' style='font-size:16px'>The StepGame dataset is based on crowdsourced descrip-<br>tions of 8 potential spatial relations between 2 entities. These<br>descriptions are then used as templates when generating the<br>dataset. To increase the diversity of these templates, crowd-<br>workers were asked to diversify their expressions. This was<br>done in order to ensure that the crowdsourced templates<br>cover most of the natural ways relations between two entities<br>can be described in text. The StepGame dataset is character-<br>ized by a combinatorial growth in the number of possible<br>description of scenes, named stories, as the number of de-<br>scribed relations between two entities increases. This com-<br>binatorial growth reduces the chances to leak stories from<br>the training to the validation and test sets. Moreover, we use<br>a large number of named entities and require multi-hop rea-<br>soning to answer questions about two entities mentioned in<br>the stories. Experimental results show that existing models<br>(1) fail to achieve a performance on the StepGame dataset<br>similar to that achieved on the bAbI dataset, and (2) suffer<br>from a large performance drop as the number of required<br>reasoning steps increases.</p>",
+            "id": 13,
+            "page": 2,
+            "text": "The StepGame dataset is based on crowdsourced descriptions of 8 potential spatial relations between 2 entities. These descriptions are then used as templates when generating the dataset. To increase the diversity of these templates, crowdworkers were asked to diversify their expressions. This was done in order to ensure that the crowdsourced templates cover most of the natural ways relations between two entities can be described in text. The StepGame dataset is characterized by a combinatorial growth in the number of possible description of scenes, named stories, as the number of described relations between two entities increases. This combinatorial growth reduces the chances to leak stories from the training to the validation and test sets. Moreover, we use a large number of named entities and require multi-hop reasoning to answer questions about two entities mentioned in the stories. Experimental results show that existing models (1) fail to achieve a performance on the StepGame dataset similar to that achieved on the bAbI dataset, and (2) suffer from a large performance drop as the number of required reasoning steps increases."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1698
+                },
+                {
+                    "x": 1229,
+                    "y": 1698
+                },
+                {
+                    "x": 1229,
+                    "y": 2388
+                },
+                {
+                    "x": 217,
+                    "y": 2388
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='14' style='font-size:16px'>The TP-MANN architecture is based on tensor product<br>representations (Smolensky 1990) that are used in a recur-<br>rent memory module to store, update or delete the relation<br>information among entities inferred from stories. This recur-<br>rent architecture provides three key benefits: (1) it enables<br>the model to make inferences based on the stored memory;<br>(2) it allows multi-hop reasoning and it is robust to noise,<br>and; (3) the number of parameters remains unchanged as the<br>number of recurrent layers in the memory module increases.<br>Experimental results on the StepGame dataset show that our<br>model achieves state-of-the-art performance with a substan-<br>tial improvement, and demonstrates a better generalization<br>ability to more complex stories. Finally, we also conduct<br>some analysis of our recurrent structure and demonstrate its<br>importance for multi-hop reasoning.</p>",
+            "id": 14,
+            "page": 2,
+            "text": "The TP-MANN architecture is based on tensor product representations (Smolensky 1990) that are used in a recurrent memory module to store, update or delete the relation information among entities inferred from stories. This recurrent architecture provides three key benefits: (1) it enables the model to make inferences based on the stored memory; (2) it allows multi-hop reasoning and it is robust to noise, and; (3) the number of parameters remains unchanged as the number of recurrent layers in the memory module increases. Experimental results on the StepGame dataset show that our model achieves state-of-the-art performance with a substantial improvement, and demonstrates a better generalization ability to more complex stories. Finally, we also conduct some analysis of our recurrent structure and demonstrate its importance for multi-hop reasoning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 348,
+                    "y": 2432
+                },
+                {
+                    "x": 1093,
+                    "y": 2432
+                },
+                {
+                    "x": 1093,
+                    "y": 2485
+                },
+                {
+                    "x": 348,
+                    "y": 2485
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='15' style='font-size:22px'>2 Related Work and Background</p>",
+            "id": 15,
+            "page": 2,
+            "text": "2 Related Work and Background"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 220,
+                    "y": 2503
+                },
+                {
+                    "x": 601,
+                    "y": 2503
+                },
+                {
+                    "x": 601,
+                    "y": 2552
+                },
+                {
+                    "x": 220,
+                    "y": 2552
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='16' style='font-size:20px'>2.1 Related Work</p>",
+            "id": 16,
+            "page": 2,
+            "text": "2.1 Related Work"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2568
+                },
+                {
+                    "x": 1226,
+                    "y": 2568
+                },
+                {
+                    "x": 1226,
+                    "y": 2938
+                },
+                {
+                    "x": 218,
+                    "y": 2938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='17' style='font-size:18px'>Reasoning Datasets. The role of language in spatial rea-<br>soning has been investigated since the 1980s (Pustejovsky<br>1989; Gershman and Tenenbaum 2015; Tversky 2019), and<br>reasoning about spatial relations has been studied in sev-<br>eral contexts such as, 2D and 3D navigation (Bisk et al.<br>2018; Tan and Bansal 2018; Janner, Narasimhan, and Barzi-<br>lay 2018; Yang, Lan, and Narasimhan 2020), and robotic<br>manipulation (Landsiedel et al. 2017). However, few of the</p>",
+            "id": 17,
+            "page": 2,
+            "text": "Reasoning Datasets. The role of language in spatial reasoning has been investigated since the 1980s (Pustejovsky 1989; Gershman and Tenenbaum 2015; Tversky 2019), and reasoning about spatial relations has been studied in several contexts such as, 2D and 3D navigation (Bisk  2018; Tan and Bansal 2018; Janner, Narasimhan, and Barzilay 2018; Yang, Lan, and Narasimhan 2020), and robotic manipulation (Landsiedel  2017). However, few of the"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 233
+                },
+                {
+                    "x": 2325,
+                    "y": 233
+                },
+                {
+                    "x": 2325,
+                    "y": 322
+                },
+                {
+                    "x": 1324,
+                    "y": 322
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='18' style='font-size:14px'>datasets used in these works are used to evaluate systems'<br>spatial reasoning ability in texts.</p>",
+            "id": 18,
+            "page": 2,
+            "text": "datasets used in these works are used to evaluate systems' spatial reasoning ability in texts."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 324
+                },
+                {
+                    "x": 2332,
+                    "y": 324
+                },
+                {
+                    "x": 2332,
+                    "y": 921
+                },
+                {
+                    "x": 1322,
+                    "y": 921
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='19' style='font-size:16px'>The bAbI (Weston et al. 2016) dataset consists of several<br>QA tasks. Solving these tasks require logical reasoning steps<br>and cannot be solved by simply word matching. Of partic-<br>ular interest to this paper are tasks 17 and 19. Task 17 is<br>about positional reasoning while task 19 is about path find-<br>ing. These two tasks can be used to evaluate the spatial infer-<br>ence ability of learning models. However, the bAbI dataset<br>has several issues as mentioned above: the data leakage, the<br>fixed named entities and expressions, and the lack of a need<br>to perform multi-hop reasoning. Another relevant dataset is<br>SpartQA (Mirzaee et al. 2021), which is designed for spatial<br>reasoning over texts but only requires a limited multi-hop<br>reasoning compared to StepGame.</p>",
+            "id": 19,
+            "page": 2,
+            "text": "The bAbI (Weston  2016) dataset consists of several QA tasks. Solving these tasks require logical reasoning steps and cannot be solved by simply word matching. Of particular interest to this paper are tasks 17 and 19. Task 17 is about positional reasoning while task 19 is about path finding. These two tasks can be used to evaluate the spatial inference ability of learning models. However, the bAbI dataset has several issues as mentioned above: the data leakage, the fixed named entities and expressions, and the lack of a need to perform multi-hop reasoning. Another relevant dataset is SpartQA (Mirzaee  2021), which is designed for spatial reasoning over texts but only requires a limited multi-hop reasoning compared to StepGame."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 942
+                },
+                {
+                    "x": 2333,
+                    "y": 942
+                },
+                {
+                    "x": 2333,
+                    "y": 1587
+                },
+                {
+                    "x": 1322,
+                    "y": 1587
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='20' style='font-size:18px'>Multi-Hop QA Datasets. The multi-hop QA tasks re-<br>quire reasoning over multiple pieces of evidence and fo-<br>cus on leveraging the connections between entities to in-<br>fer a requested property of a set of them. Commonly-<br>used multi-hop QA datasets are HotpotQA (Yang et al.<br>2018), Complex WebQuestions (Talmor and Berant 2018),<br>and QAngaroo (Welbl, Stenetorp, and Riedel 2018). The<br>proposed StepGame dataset is different from these datasets.<br>The StepGame dataset focuses on spatial reasoning, which<br>requires machine learning models to infer the spatial rela-<br>tions among the described entities. Moreover, multi-hop QA<br>datasets usually require no more than two reasoning steps,<br>while the StepGame dataset can require as many as 10 rea-<br>soning steps.</p>",
+            "id": 20,
+            "page": 2,
+            "text": "Multi-Hop QA Datasets. The multi-hop QA tasks require reasoning over multiple pieces of evidence and focus on leveraging the connections between entities to infer a requested property of a set of them. Commonlyused multi-hop QA datasets are HotpotQA (Yang  2018), Complex WebQuestions (Talmor and Berant 2018), and QAngaroo (Welbl, Stenetorp, and Riedel 2018). The proposed StepGame dataset is different from these datasets. The StepGame dataset focuses on spatial reasoning, which requires machine learning models to infer the spatial relations among the described entities. Moreover, multi-hop QA datasets usually require no more than two reasoning steps, while the StepGame dataset can require as many as 10 reasoning steps."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1321,
+                    "y": 1607
+                },
+                {
+                    "x": 2333,
+                    "y": 1607
+                },
+                {
+                    "x": 2333,
+                    "y": 2939
+                },
+                {
+                    "x": 1321,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='21' style='font-size:16px'>Reasoning Models. There are three types of reasoning<br>models: memory-augmented neural networks, graph neu-<br>ral networks, and transformer-based networks. Works of<br>the first type augment neural networks with external mem-<br>ory, such as End to End Memory Networks (Sukhbaatar<br>et al. 2015), Differential Neural Computer (Graves et al.<br>2016), and Gated End-to-End Memory Networks (Liu and<br>Perez 2017). These models have shown remarkable abili-<br>ties in tackling difficult computational and reasoning tasks.<br>Works of the second type use graph structure to incorporate a<br>stronger relational inductive bias (Battaglia et al. 2018). San-<br>toro et al. (2017) introduced Relational Networks (RN) and<br>demonstrated strong relational reasoning capabilities with a<br>shallow architecture by modelling binary relations between<br>entity pairs. Palm, Paquet, and Winther (2018) proposed a<br>graph representation of objects and models multi-hop rela-<br>tional reasoning using a message passing mechanism. Works<br>of the third type use transformers. Although transformers<br>have been proven successful in many NLP tasks, they still<br>struggle with reasoning tasks. van Aken et al. (2019) an-<br>alyzed the performance of BERT (Devlin et al. 2019) on<br>bAbI's tasks and demonstrated that most of BERT's errors<br>come from task 17 and 19 which require spatial reason-<br>ing. Meanwhile, Dehghani et al. (2019) demonstrated that<br>standard transformers cannot perform as well as memory-<br>augmented networks on the bAbI dataset. Moreover, it is<br>important to note that most of the errors of their proposed<br>Universal Transformer come also from task 17 and task 19<br>of the bAbI dataset, which matches our observations on</p>",
+            "id": 21,
+            "page": 2,
+            "text": "Reasoning Models. There are three types of reasoning models: memory-augmented neural networks, graph neural networks, and transformer-based networks. Works of the first type augment neural networks with external memory, such as End to End Memory Networks (Sukhbaatar  2015), Differential Neural Computer (Graves  2016), and Gated End-to-End Memory Networks (Liu and Perez 2017). These models have shown remarkable abilities in tackling difficult computational and reasoning tasks. Works of the second type use graph structure to incorporate a stronger relational inductive bias (Battaglia  2018). Santoro  (2017) introduced Relational Networks (RN) and demonstrated strong relational reasoning capabilities with a shallow architecture by modelling binary relations between entity pairs. Palm, Paquet, and Winther (2018) proposed a graph representation of objects and models multi-hop relational reasoning using a message passing mechanism. Works of the third type use transformers. Although transformers have been proven successful in many NLP tasks, they still struggle with reasoning tasks. van Aken  (2019) analyzed the performance of BERT (Devlin  2019) on bAbI's tasks and demonstrated that most of BERT's errors come from task 17 and 19 which require spatial reasoning. Meanwhile, Dehghani  (2019) demonstrated that standard transformers cannot perform as well as memoryaugmented networks on the bAbI dataset. Moreover, it is important to note that most of the errors of their proposed Universal Transformer come also from task 17 and task 19 of the bAbI dataset, which matches our observations on"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 233
+                },
+                {
+                    "x": 1224,
+                    "y": 233
+                },
+                {
+                    "x": 1224,
+                    "y": 369
+                },
+                {
+                    "x": 217,
+                    "y": 369
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='22' style='font-size:18px'>other transformer-based models. Therefore, spatial reason-<br>ing tasks are arguably the most challenging tasks in the bAbI<br>dataset.</p>",
+            "id": 22,
+            "page": 3,
+            "text": "other transformer-based models. Therefore, spatial reasoning tasks are arguably the most challenging tasks in the bAbI dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 391
+                },
+                {
+                    "x": 1226,
+                    "y": 391
+                },
+                {
+                    "x": 1226,
+                    "y": 896
+                },
+                {
+                    "x": 217,
+                    "y": 896
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='23' style='font-size:18px'>Tensor Product Representation. The Tensor Prod-<br>uct Representation (TPR) (Smolensky 1990; Schlag,<br>Munkhdalai, and Schmidhuber 2021) is a technique for en-<br>coding symbolic structural information and modelling sym-<br>bolic reasoning in vector spaces by learning to deconstruct<br>natural language statements into combinatorial representa-<br>tions (Chen et al. 2020b). TPR has been used for tasks that<br>require deductive reasoning abilities and it is able to repre-<br>sent entire problem statements to solve math questions in<br>natural language (Chen et al. 2020b) and generate natural<br>language captions from images (Huang et al. 2018).</p>",
+            "id": 23,
+            "page": 3,
+            "text": "Tensor Product Representation. The Tensor Product Representation (TPR) (Smolensky 1990; Schlag, Munkhdalai, and Schmidhuber 2021) is a technique for encoding symbolic structural information and modelling symbolic reasoning in vector spaces by learning to deconstruct natural language statements into combinatorial representations (Chen  2020b). TPR has been used for tasks that require deductive reasoning abilities and it is able to represent entire problem statements to solve math questions in natural language (Chen  2020b) and generate natural language captions from images (Huang  2018)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 896
+                },
+                {
+                    "x": 1225,
+                    "y": 896
+                },
+                {
+                    "x": 1225,
+                    "y": 1397
+                },
+                {
+                    "x": 217,
+                    "y": 1397
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='24' style='font-size:18px'>Schlag and Schmidhuber (2018) proposed a gradient-<br>based RNN with third-order TPR (TPR-RNN), which cre-<br>ates a vector space embedding of complex symbolic struc-<br>tures by tensor products and stores these learned represen-<br>tations into a third-order TPR-like memory. Self-Attentive<br>Associative Memory (STM) (Le, Tran, and Venkatesh 2020)<br>utilizes a second-order item memory and a third-order TPR-<br>like relational memory to simulate the hippocampus, achiev-<br>ing state-of-the-art performance on the bAbI dataset. De-<br>spite a gain in the performance on bAbI compared to TPR-<br>RNN, STM takes a longer time to converge in practice.</p>",
+            "id": 24,
+            "page": 3,
+            "text": "Schlag and Schmidhuber (2018) proposed a gradientbased RNN with third-order TPR (TPR-RNN), which creates a vector space embedding of complex symbolic structures by tensor products and stores these learned representations into a third-order TPR-like memory. Self-Attentive Associative Memory (STM) (Le, Tran, and Venkatesh 2020) utilizes a second-order item memory and a third-order TPRlike relational memory to simulate the hippocampus, achieving state-of-the-art performance on the bAbI dataset. Despite a gain in the performance on bAbI compared to TPRRNN, STM takes a longer time to converge in practice."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1400
+                },
+                {
+                    "x": 1227,
+                    "y": 1400
+                },
+                {
+                    "x": 1227,
+                    "y": 2049
+                },
+                {
+                    "x": 218,
+                    "y": 2049
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='25' style='font-size:16px'>Recently, Schlag, Munkhdalai, and Schmidhuber (2021)<br>compared a concatenated memory M E R2dxd with a 3-<br>order memory M E Rd2xd<br>, and experimental results indi-<br>cate a drop in performance when a concatenated memory is<br>used. However, neither STM nor TPR-RNN processes in-<br>formation at the paragraph level and allows later modifi-<br>cations after the first information is stored, as done in our<br>model. Both STM and TPR-RNN use an RNN-like archi-<br>tecture where each sentence in a paragraph is stored recur-<br>rently. This may result in a long-term dependency prob-<br>lem (Vaswani et al. 2017) where necessary information<br>would not interact with each other. To solve this issue, an ex-<br>plicit mechanism to update relational information between<br>entities at the end of each story is introduced in our model.</p>",
+            "id": 25,
+            "page": 3,
+            "text": "Recently, Schlag, Munkhdalai, and Schmidhuber (2021) compared a concatenated memory M E R2dxd with a 3order memory M E Rd2xd , and experimental results indicate a drop in performance when a concatenated memory is used. However, neither STM nor TPR-RNN processes information at the paragraph level and allows later modifications after the first information is stored, as done in our model. Both STM and TPR-RNN use an RNN-like architecture where each sentence in a paragraph is stored recurrently. This may result in a long-term dependency problem (Vaswani  2017) where necessary information would not interact with each other. To solve this issue, an explicit mechanism to update relational information between entities at the end of each story is introduced in our model."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 2083
+                },
+                {
+                    "x": 569,
+                    "y": 2083
+                },
+                {
+                    "x": 569,
+                    "y": 2133
+                },
+                {
+                    "x": 217,
+                    "y": 2133
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='26' style='font-size:22px'>2.2 Background</p>",
+            "id": 26,
+            "page": 3,
+            "text": "2.2 Background"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2144
+                },
+                {
+                    "x": 1227,
+                    "y": 2144
+                },
+                {
+                    "x": 1227,
+                    "y": 2327
+                },
+                {
+                    "x": 219,
+                    "y": 2327
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='27' style='font-size:16px'>The Tensor Product Representation (TPR) is a method to<br>create a vector space embedding of complex symbolic struc-<br>tures by tensor product. Such representation can be con-<br>structed as follows:</p>",
+            "id": 27,
+            "page": 3,
+            "text": "The Tensor Product Representation (TPR) is a method to create a vector space embedding of complex symbolic structures by tensor product. Such representation can be constructed as follows:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 2467
+                },
+                {
+                    "x": 1227,
+                    "y": 2467
+                },
+                {
+                    "x": 1227,
+                    "y": 2793
+                },
+                {
+                    "x": 217,
+                    "y": 2793
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='28' style='font-size:14px'>where M is the TPR, f = (f1, · · · , fn) is a set of n filler<br>vectors and r = (r1, · · · , rn) is a set of n role vectors. For<br>each role-filler vector pair, which can be considered as an<br>entity-relation pair, we bind (or store) them into M by per-<br>forming their outer product. Then, given an unbinding role<br>vector ui, associated to the filler vector fi, fi can be recov-<br>ered by performing:</p>",
+            "id": 28,
+            "page": 3,
+            "text": "where M is the TPR, f = (f1, · · · , fn) is a set of n filler vectors and r = (r1, · · · , rn) is a set of n role vectors. For each role-filler vector pair, which can be considered as an entity-relation pair, we bind (or store) them into M by performing their outer product. Then, given an unbinding role vector ui, associated to the filler vector fi, fi can be recovered by performing:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 232
+                },
+                {
+                    "x": 2331,
+                    "y": 232
+                },
+                {
+                    "x": 2331,
+                    "y": 696
+                },
+                {
+                    "x": 1324,
+                    "y": 696
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='29' style='font-size:14px' alt=\"Step I Step 2 Step 3\nStory\nD\n1 J is below B.\n2. B and G is side by side with B to the left and G\nto the right.\nB G B G\n3. D and G are parallel, and D is on the top of G.\n4. F is diagonally to the bottom right of J.\nJ Question\nWhatis the relation of the G to theJ?\nF F Answer\nTop-right( ↗\" data-coord=\"top-left:(1324,232); bottom-right:(2331,696)\" /></figure>",
+            "id": 29,
+            "page": 3,
+            "text": "Step I Step 2 Step 3 Story D 1 J is below B. 2. B and G is side by side with B to the left and G to the right. B G B G 3. D and G are parallel, and D is on the top of G. 4. F is diagonally to the bottom right of J. J Question Whatis the relation of the G to theJ? F F Answer Top-right( ↗"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 725
+                },
+                {
+                    "x": 2328,
+                    "y": 725
+                },
+                {
+                    "x": 2328,
+                    "y": 820
+                },
+                {
+                    "x": 1324,
+                    "y": 820
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='30' style='font-size:18px'>Figure 1: An example of the generation of a StepGame sam-<br>ple with k = 4.</caption>",
+            "id": 30,
+            "page": 3,
+            "text": "Figure 1: An example of the generation of a StepGame sample with k = 4."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 905
+                },
+                {
+                    "x": 2331,
+                    "y": 905
+                },
+                {
+                    "x": 2331,
+                    "y": 1136
+                },
+                {
+                    "x": 1322,
+                    "y": 1136
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='31' style='font-size:16px'>where �ij ≠ 0 if and only if i = j. It can be proven that<br>the recovering is perfect if the role vectors are orthogonal to<br>each other. In our model, TPR-like binding and unbinding<br>methods are used to store and retrieve information from and<br>to the TPR M, which we will call memory.</p>",
+            "id": 31,
+            "page": 3,
+            "text": "where �ij ≠ 0 if and only if i = j. It can be proven that the recovering is perfect if the role vectors are orthogonal to each other. In our model, TPR-like binding and unbinding methods are used to store and retrieve information from and to the TPR M, which we will call memory."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1539,
+                    "y": 1176
+                },
+                {
+                    "x": 2114,
+                    "y": 1176
+                },
+                {
+                    "x": 2114,
+                    "y": 1229
+                },
+                {
+                    "x": 1539,
+                    "y": 1229
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='32' style='font-size:20px'>3 The StepGame Dataset</p>",
+            "id": 32,
+            "page": 3,
+            "text": "3 The StepGame Dataset"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 1240
+                },
+                {
+                    "x": 2332,
+                    "y": 1240
+                },
+                {
+                    "x": 2332,
+                    "y": 1927
+                },
+                {
+                    "x": 1322,
+                    "y": 1927
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='33' style='font-size:18px'>To design a benchmark dataset that explicitly tests mod-<br>els' spatial reasoning ability and tackle the above mentioned<br>problems, we build a new dataset named StepGame inspired<br>by the spatial reasoning tasks in the bAbI dataset (Weston<br>et al. 2016). The StepGame is a contextual QA dataset,<br>where the system is required to interpret a story about sev-<br>eral entities expressed in natural language and answer a<br>question about the relative position of two of those entities.<br>Although this reasoning task is trivial for humans, to equip<br>current NLU models with such a spatial-ability remains still<br>a challenge. Also, to increase the complexity of this dataset<br>we model several form of distracting noises. Such noises<br>aim to make the task more difficult and force machine learn-<br>ing models that are trained on this dataset to be more robust<br>in their inference process.</p>",
+            "id": 33,
+            "page": 3,
+            "text": "To design a benchmark dataset that explicitly tests models' spatial reasoning ability and tackle the above mentioned problems, we build a new dataset named StepGame inspired by the spatial reasoning tasks in the bAbI dataset (Weston  2016). The StepGame is a contextual QA dataset, where the system is required to interpret a story about several entities expressed in natural language and answer a question about the relative position of two of those entities. Although this reasoning task is trivial for humans, to equip current NLU models with such a spatial-ability remains still a challenge. Also, to increase the complexity of this dataset we model several form of distracting noises. Such noises aim to make the task more difficult and force machine learning models that are trained on this dataset to be more robust in their inference process."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 1962
+                },
+                {
+                    "x": 1824,
+                    "y": 1962
+                },
+                {
+                    "x": 1824,
+                    "y": 2012
+                },
+                {
+                    "x": 1326,
+                    "y": 2012
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='34' style='font-size:20px'>3.1 Template Collection</p>",
+            "id": 34,
+            "page": 3,
+            "text": "3.1 Template Collection"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 2022
+                },
+                {
+                    "x": 2333,
+                    "y": 2022
+                },
+                {
+                    "x": 2333,
+                    "y": 2940
+                },
+                {
+                    "x": 1322,
+                    "y": 2940
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='35' style='font-size:16px'>The aim of this crowdsourcing task is to find out all pos-<br>sible ways we can describe the positional relationship be-<br>tween two entities. The crowdworkers from Amazon Me-<br>chanical Turk were provided with an image visually describ-<br>ing the spatial relations of two entities and a request to de-<br>scribe these entities' relation. This crowdsourcing task was<br>performed in multiple runs. In the first run, we provided<br>crowdworkers with an image and two entities (e.g., A and<br>B) and they were asked to describe their positional relation.<br>From the data collected in this round, we then manually re-<br>moved bad answers, and showed the remaining good ones<br>as positive examples to crowdworkers in the next run. How-<br>ever, crowdworkers were instructed to avoid repeating them<br>as an answer to our request. We repeated this process until<br>no new templates could be collected. In total, after perform-<br>ing a manual generalization where templates discovered for<br>a relation were translated to the other relations, we collected<br>23 templates for left and right relations, 27 templates for top<br>and down relations, and 26 templates for top-left, top-right,<br>down-left, and down-right relations.</p>",
+            "id": 35,
+            "page": 3,
+            "text": "The aim of this crowdsourcing task is to find out all possible ways we can describe the positional relationship between two entities. The crowdworkers from Amazon Mechanical Turk were provided with an image visually describing the spatial relations of two entities and a request to describe these entities' relation. This crowdsourcing task was performed in multiple runs. In the first run, we provided crowdworkers with an image and two entities (e.g., A and B) and they were asked to describe their positional relation. From the data collected in this round, we then manually removed bad answers, and showed the remaining good ones as positive examples to crowdworkers in the next run. However, crowdworkers were instructed to avoid repeating them as an answer to our request. We repeated this process until no new templates could be collected. In total, after performing a manual generalization where templates discovered for a relation were translated to the other relations, we collected 23 templates for left and right relations, 27 templates for top and down relations, and 26 templates for top-left, top-right, down-left, and down-right relations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 228
+                },
+                {
+                    "x": 655,
+                    "y": 228
+                },
+                {
+                    "x": 655,
+                    "y": 277
+                },
+                {
+                    "x": 219,
+                    "y": 277
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='36' style='font-size:18px'>3.2 Data Generation</p>",
+            "id": 36,
+            "page": 4,
+            "text": "3.2 Data Generation"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 292
+                },
+                {
+                    "x": 1229,
+                    "y": 292
+                },
+                {
+                    "x": 1229,
+                    "y": 934
+                },
+                {
+                    "x": 218,
+                    "y": 934
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='37' style='font-size:16px'>The task defined by the StepGame dataset is composed of<br>several story-question pairs written in natural language. In<br>its basic form, the story describes a set of k spatial relations<br>among k + 1 entities, and it is structured as a list of k sen-<br>tences each talking about 2 entities. The relations are k and<br>the entities k + 1 because they define a chain-like shape. The<br>question requests the relative position of two entities among<br>the k+1 ones mentioned in the story. To each story-question<br>pair an answer is associated. This answer can take 9 possible<br>values: top-left, top-right, top, left, overlap, right, down-left,<br>down-right, and down, each representing a relative position.<br>The number of edges between the two entities in the ques-<br>tion (≤ k) determines the number of hops a model has to<br>perform in order to get to the correct answer.</p>",
+            "id": 37,
+            "page": 4,
+            "text": "The task defined by the StepGame dataset is composed of several story-question pairs written in natural language. In its basic form, the story describes a set of k spatial relations among k + 1 entities, and it is structured as a list of k sentences each talking about 2 entities. The relations are k and the entities k + 1 because they define a chain-like shape. The question requests the relative position of two entities among the k+1 ones mentioned in the story. To each story-question pair an answer is associated. This answer can take 9 possible values: top-left, top-right, top, left, overlap, right, down-left, down-right, and down, each representing a relative position. The number of edges between the two entities in the question (≤ k) determines the number of hops a model has to perform in order to get to the correct answer."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 936
+                },
+                {
+                    "x": 1223,
+                    "y": 936
+                },
+                {
+                    "x": 1223,
+                    "y": 1026
+                },
+                {
+                    "x": 219,
+                    "y": 1026
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='38' style='font-size:14px'>To generate a story, we follow three steps, as depicted in<br>Figure 1. Given a value k and a set of entities E:</p>",
+            "id": 38,
+            "page": 4,
+            "text": "To generate a story, we follow three steps, as depicted in Figure 1. Given a value k and a set of entities E:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1054
+                },
+                {
+                    "x": 1226,
+                    "y": 1054
+                },
+                {
+                    "x": 1226,
+                    "y": 1421
+                },
+                {
+                    "x": 217,
+                    "y": 1421
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='39' style='font-size:16px'>Step 1. We generate a sequence of entities by sampling<br>a set of k + 1 unique entities from E. Then, for each pair<br>of entities in the sequence, k spatial relations are sampled.<br>These spatial relations can take any of the 8 possible val-<br>ues: top, down, left, right, top-left, top-right, down-left, and<br>down-right. Because the sampling is unconstrained, entities<br>can overlap with each other. This step results in a sequence<br>of linked entities that from now on we will call a chain.</p>",
+            "id": 39,
+            "page": 4,
+            "text": "Step 1. We generate a sequence of entities by sampling a set of k + 1 unique entities from E. Then, for each pair of entities in the sequence, k spatial relations are sampled. These spatial relations can take any of the 8 possible values: top, down, left, right, top-left, top-right, down-left, and down-right. Because the sampling is unconstrained, entities can overlap with each other. This step results in a sequence of linked entities that from now on we will call a chain."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1450
+                },
+                {
+                    "x": 1219,
+                    "y": 1450
+                },
+                {
+                    "x": 1219,
+                    "y": 1542
+                },
+                {
+                    "x": 218,
+                    "y": 1542
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='40' style='font-size:16px'>Step 2. Two of the chain's entities are then selected at ran-<br>dom to be used in the question.</p>",
+            "id": 40,
+            "page": 4,
+            "text": "Step 2. Two of the chain's entities are then selected at random to be used in the question."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1570
+                },
+                {
+                    "x": 1226,
+                    "y": 1570
+                },
+                {
+                    "x": 1226,
+                    "y": 1982
+                },
+                {
+                    "x": 218,
+                    "y": 1982
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='41' style='font-size:16px'>Step 3. From the chain generated in Step 1, we translate<br>the k relations into k sentence descriptions in natural lan-<br>guage. Each description is based on a randomly sampled<br>crowdsourced template. We then shuffle these k sentences to<br>avoid potential distributional biases. These shuffled k sen-<br>tence descriptions is a called a story. From the entities se-<br>lected in Step 2, we then generate a question also in natural<br>language. Finally, using the chain and the selected entities,<br>we infer the answer to each story-question pair.</p>",
+            "id": 41,
+            "page": 4,
+            "text": "Step 3. From the chain generated in Step 1, we translate the k relations into k sentence descriptions in natural language. Each description is based on a randomly sampled crowdsourced template. We then shuffle these k sentences to avoid potential distributional biases. These shuffled k sentence descriptions is a called a story. From the entities selected in Step 2, we then generate a question also in natural language. Finally, using the chain and the selected entities, we infer the answer to each story-question pair."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1984
+                },
+                {
+                    "x": 1227,
+                    "y": 1984
+                },
+                {
+                    "x": 1227,
+                    "y": 2396
+                },
+                {
+                    "x": 218,
+                    "y": 2396
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='42' style='font-size:16px'>Given this generation process we can quickly calculate<br>the complexity of the task before using the templates. This<br>is possible because entities can overlap. Given k relations,<br>k + 1 entities sampled from 3 in any order (●), 8 possible<br>relations between pairs of entities with 2 ways of describing<br>them (●), e.g., A is on the left of B or B is on the right of<br>A, a random order of the k sentences in the story (●), and a<br>question about 2 entities with 2 ways of describing it (●), the<br>number of examples that we can generate is equal to:</p>",
+            "id": 42,
+            "page": 4,
+            "text": "Given this generation process we can quickly calculate the complexity of the task before using the templates. This is possible because entities can overlap. Given k relations, k + 1 entities sampled from 3 in any order (●), 8 possible relations between pairs of entities with 2 ways of describing them (●), e.g., A is on the left of B or B is on the right of A, a random order of the k sentences in the story (●), and a question about 2 entities with 2 ways of describing it (●), the number of examples that we can generate is equal to:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2569
+                },
+                {
+                    "x": 1226,
+                    "y": 2569
+                },
+                {
+                    "x": 1226,
+                    "y": 2939
+                },
+                {
+                    "x": 218,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='43' style='font-size:16px'>The complexity of the dataset grows exponentially with k.<br>The StepGame dataset uses 181 = 26. For k = 1 we have<br>10,400 possible samples, for k = 2 we have more than<br>23 million samples, and SO on. The sample complexity of<br>the problem guarantees that when generating the dataset the<br>probability of leaking samples from the training set to the<br>test set diminishes with the increase of k. Please note that<br>these calculations do not include templates. If we were to</p>",
+            "id": 43,
+            "page": 4,
+            "text": "The complexity of the dataset grows exponentially with k. The StepGame dataset uses 181 = 26. For k = 1 we have 10,400 possible samples, for k = 2 we have more than 23 million samples, and SO on. The sample complexity of the problem guarantees that when generating the dataset the probability of leaking samples from the training set to the test set diminishes with the increase of k. Please note that these calculations do not include templates. If we were to"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 225
+                },
+                {
+                    "x": 2344,
+                    "y": 225
+                },
+                {
+                    "x": 2344,
+                    "y": 597
+                },
+                {
+                    "x": 1324,
+                    "y": 597
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='44' style='font-size:14px' alt=\"Original Irrelevant Noise Disconnected Noise Supporting Noise\nD K D H W D\nB G V B G E B G X B G\nJ J C C J Y J\nA F | A F | A F | A F\" data-coord=\"top-left:(1324,225); bottom-right:(2344,597)\" /></figure>",
+            "id": 44,
+            "page": 4,
+            "text": "Original Irrelevant Noise Disconnected Noise Supporting Noise D K D H W D B G V B G E B G X B G J J C C J Y J A F | A F | A F | A F"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 632
+                },
+                {
+                    "x": 2332,
+                    "y": 632
+                },
+                {
+                    "x": 2332,
+                    "y": 863
+                },
+                {
+                    "x": 1323,
+                    "y": 863
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='45' style='font-size:16px'>Figure 2: On the left-hand side we have the original chain.<br>Orange entities are those targeted by the question. Beside,<br>we show the same chain with the addition of noise. In green<br>we represent irrelevant, disconnected and supporting enti-<br>ties.</caption>",
+            "id": 45,
+            "page": 4,
+            "text": "Figure 2: On the left-hand side we have the original chain. Orange entities are those targeted by the question. Beside, we show the same chain with the addition of noise. In green we represent irrelevant, disconnected and supporting entities."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 951
+                },
+                {
+                    "x": 2329,
+                    "y": 951
+                },
+                {
+                    "x": 2329,
+                    "y": 1043
+                },
+                {
+                    "x": 1325,
+                    "y": 1043
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='46' style='font-size:18px'>considering also the templates, the number of variations of<br>the StepGame would be even larger.</p>",
+            "id": 46,
+            "page": 4,
+            "text": "considering also the templates, the number of variations of the StepGame would be even larger."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1079
+                },
+                {
+                    "x": 1773,
+                    "y": 1079
+                },
+                {
+                    "x": 1773,
+                    "y": 1129
+                },
+                {
+                    "x": 1325,
+                    "y": 1129
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='47' style='font-size:20px'>3.3 Distracting Noise</p>",
+            "id": 47,
+            "page": 4,
+            "text": "3.3 Distracting Noise"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 1139
+                },
+                {
+                    "x": 2333,
+                    "y": 1139
+                },
+                {
+                    "x": 2333,
+                    "y": 1965
+                },
+                {
+                    "x": 1322,
+                    "y": 1965
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='48' style='font-size:16px'>To make the StepGame more challenging we also include<br>noisy examples in the test set. We assume that when mod-<br>els trained on the non-noisy dataset make mistakes on the<br>noisy test set, these models have failed to learn how to in-<br>fer spatial relations. We generate three kinds of distracting<br>noise: disconnected, irrelevant, and supporting. Examples<br>of all kinds of noise are provided in Figure 2. The irrel-<br>evant noise extends the original chain by branching it out<br>with new entities and relations. The disconnected noise adds<br>to the original chain a new independent chain with new enti-<br>ties and relations. The supporting noise adds to the original<br>chain new entities and relations that may provide alternative<br>reasoning paths. We only add supporting noise into chains<br>with more than 2 entities. All kinds of noise have no im-<br>pact on the correct answer. The type and amount of noise<br>added to each chain is randomly determined. The detailed<br>statistics for each type of distracting noise are provided in<br>the Appendix.</p>",
+            "id": 48,
+            "page": 4,
+            "text": "To make the StepGame more challenging we also include noisy examples in the test set. We assume that when models trained on the non-noisy dataset make mistakes on the noisy test set, these models have failed to learn how to infer spatial relations. We generate three kinds of distracting noise: disconnected, irrelevant, and supporting. Examples of all kinds of noise are provided in Figure 2. The irrelevant noise extends the original chain by branching it out with new entities and relations. The disconnected noise adds to the original chain a new independent chain with new entities and relations. The supporting noise adds to the original chain new entities and relations that may provide alternative reasoning paths. We only add supporting noise into chains with more than 2 entities. All kinds of noise have no impact on the correct answer. The type and amount of noise added to each chain is randomly determined. The detailed statistics for each type of distracting noise are provided in the Appendix."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1550,
+                    "y": 2004
+                },
+                {
+                    "x": 2108,
+                    "y": 2004
+                },
+                {
+                    "x": 2108,
+                    "y": 2056
+                },
+                {
+                    "x": 1550,
+                    "y": 2056
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='49' style='font-size:20px'>4 The TP-MANN Model</p>",
+            "id": 49,
+            "page": 4,
+            "text": "4 The TP-MANN Model"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 2066
+                },
+                {
+                    "x": 2331,
+                    "y": 2066
+                },
+                {
+                    "x": 2331,
+                    "y": 2615
+                },
+                {
+                    "x": 1322,
+                    "y": 2615
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='50' style='font-size:16px'>In this section we introduce the proposed TP-MANN model,<br>as shown in Figure 3. The model comprises three major<br>components: a question and story encoder, a recurrent mem-<br>ory module, and a relation decoder. The encoder learns to<br>represent entities and relations for each sentence in a story.<br>The recurrent memory module learns to store entity-relation<br>pair representations into the memory independently. It also<br>updates the entity-relation pair representations based on the<br>current memory and stores the inferred information. The de-<br>coder learns to represent the question and using the infor-<br>mation stored in the memory recurrently infers the spatial<br>relation of the two entities mentioned in the question.</p>",
+            "id": 50,
+            "page": 4,
+            "text": "In this section we introduce the proposed TP-MANN model, as shown in Figure 3. The model comprises three major components: a question and story encoder, a recurrent memory module, and a relation decoder. The encoder learns to represent entities and relations for each sentence in a story. The recurrent memory module learns to store entity-relation pair representations into the memory independently. It also updates the entity-relation pair representations based on the current memory and stores the inferred information. The decoder learns to represent the question and using the information stored in the memory recurrently infers the spatial relation of the two entities mentioned in the question."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 2617
+                },
+                {
+                    "x": 2331,
+                    "y": 2617
+                },
+                {
+                    "x": 2331,
+                    "y": 2939
+                },
+                {
+                    "x": 1323,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='51' style='font-size:16px'>It also has been shown that learned representations in the<br>TPR-like memory could be orthogonal (Schlag and Schmid-<br>huber 2018). We use an example to illustrate the inspiration<br>behind this architecture. A person may experience that when<br>she goes back to her hometown and sees an old tree, her<br>happy childhood memory about playing with her friends un-<br>der that tree might be recalled. However, this memory may</p>",
+            "id": 51,
+            "page": 4,
+            "text": "It also has been shown that learned representations in the TPR-like memory could be orthogonal (Schlag and Schmidhuber 2018). We use an example to illustrate the inspiration behind this architecture. A person may experience that when she goes back to her hometown and sees an old tree, her happy childhood memory about playing with her friends under that tree might be recalled. However, this memory may"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 470,
+                    "y": 217
+                },
+                {
+                    "x": 2079,
+                    "y": 217
+                },
+                {
+                    "x": 2079,
+                    "y": 890
+                },
+                {
+                    "x": 470,
+                    "y": 890
+                }
+            ],
+            "category": "figure",
+            "html": "<figure><img id='52' style='font-size:14px' alt=\"Encoder Recurrent Memory Decoder\nPE\nI 1\nE N LN\nx\n12\nS *\nLN\nPE x LN\n0\nR\n3\nLN\nI\nT\nM t+\n[\" data-coord=\"top-left:(470,217); bottom-right:(2079,890)\" /></figure>",
+            "id": 52,
+            "page": 5,
+            "text": "Encoder Recurrent Memory Decoder PE I 1 E N LN x 12 S * LN PE x LN 0 R 3 LN I T M t+ ["
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 216,
+                    "y": 921
+                },
+                {
+                    "x": 2334,
+                    "y": 921
+                },
+                {
+                    "x": 2334,
+                    "y": 1117
+                },
+                {
+                    "x": 216,
+                    "y": 1117
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='53' style='font-size:16px'>Figure 3: The TP-MANN architecture. PE stands for positional encoder, the sign in the box below the symbol E represents a<br>feed-forward neural network, the ⓧ sign represents the outer-product operator, the ● sign represents the inner product operator,<br>and LN represents a layer normalization. The . and LN boxes implement the formulae as presented in Section 4. Lines<br>indicate the flow of information. Those without an arrow indicate which symbols are taken as input and are output by their box.</caption>",
+            "id": 53,
+            "page": 5,
+            "text": "Figure 3: The TP-MANN architecture. PE stands for positional encoder, the sign in the box below the symbol E represents a feed-forward neural network, the ⓧ sign represents the outer-product operator, the ● sign represents the inner product operator, and LN represents a layer normalization. The . and LN boxes implement the formulae as presented in Section 4. Lines indicate the flow of information. Those without an arrow indicate which symbols are taken as input and are output by their box."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1200
+                },
+                {
+                    "x": 1227,
+                    "y": 1200
+                },
+                {
+                    "x": 1227,
+                    "y": 1706
+                },
+                {
+                    "x": 219,
+                    "y": 1706
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='54' style='font-size:16px'>not be reminisced unless triggered by the old tree appear-<br>ance. In our model, unbinding vectors in the decoder module<br>play the role of the old tree in the example, where unbind-<br>ing vectors are learned based on the target questions. The<br>decoder module unbinds relevant memories given a ques-<br>tion via a recurrent mechanism. Moreover, although mem-<br>ories are stored separately, there are integration processes<br>in brains that retrieve information via a recursive mecha-<br>nism. This allows episodes in memories to interact with each<br>other (Kumaran and McClelland 2012; Schapiro et al. 2017;<br>Koster et al. 2018).</p>",
+            "id": 54,
+            "page": 5,
+            "text": "not be reminisced unless triggered by the old tree appearance. In our model, unbinding vectors in the decoder module play the role of the old tree in the example, where unbinding vectors are learned based on the target questions. The decoder module unbinds relevant memories given a question via a recurrent mechanism. Moreover, although memories are stored separately, there are integration processes in brains that retrieve information via a recursive mechanism. This allows episodes in memories to interact with each other (Kumaran and McClelland 2012; Schapiro  2017; Koster  2018)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1724
+                },
+                {
+                    "x": 1226,
+                    "y": 1724
+                },
+                {
+                    "x": 1226,
+                    "y": 2326
+                },
+                {
+                    "x": 219,
+                    "y": 2326
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='55' style='font-size:14px'>Encoder. The input of the encoder is a story and a ques-<br>tion. Given a input story S = (S1, · · · , Sm) with m sentences<br>and a question q both described by words in a vocabulary<br>V. Each sentence Si = (w1, · · · , wn) is mapped to learn-<br>able embeddings (wi , · · · , wn). Then, a positional encoding<br>(PE) is applied to each word embedding and then averaged<br>together S* = 1 �j=1 w* ·Pj, where {P1, · · · , pn} are learn-<br>n<br>able position vectors, and · is the element-wise product. This<br>operation defines S* E Rmxd where each row of S* repre-<br>,<br>sents an encoded sentence and d is the dimension of a word<br>embedding. For the input question we convert it to a vector<br>q* E Rd in the same way. For each sentence of the story in<br>S* we learn entity and relation representations as:<br>,</p>",
+            "id": 55,
+            "page": 5,
+            "text": "Encoder. The input of the encoder is a story and a question. Given a input story S = (S1, · · · , Sm) with m sentences and a question q both described by words in a vocabulary V. Each sentence Si = (w1, · · · , wn) is mapped to learnable embeddings (wi , · · · , wn). Then, a positional encoding (PE) is applied to each word embedding and then averaged together S* = 1 �j=1 w* ·Pj, where {P1, · · · , pn} are learnn able position vectors, and · is the element-wise product. This operation defines S* E Rmxd where each row of S* repre, sents an encoded sentence and d is the dimension of a word embedding. For the input question we convert it to a vector q* E Rd in the same way. For each sentence of the story in S* we learn entity and relation representations as: ,"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2458
+                },
+                {
+                    "x": 1224,
+                    "y": 2458
+                },
+                {
+                    "x": 1224,
+                    "y": 2645
+                },
+                {
+                    "x": 219,
+                    "y": 2645
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='56' style='font-size:16px'>where fei are feed-forward neural networks that output en-<br>tity representations Ei E Rmxde and frj are feed-forward<br>neural networks that output relation representations Rj E<br>Rmxdr Finally, we define three search keys K as:</p>",
+            "id": 56,
+            "page": 5,
+            "text": "where fei are feed-forward neural networks that output entity representations Ei E Rmxde and frj are feed-forward neural networks that output relation representations Rj E Rmxdr Finally, we define three search keys K as:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2842
+                },
+                {
+                    "x": 1222,
+                    "y": 2842
+                },
+                {
+                    "x": 1222,
+                    "y": 2939
+                },
+                {
+                    "x": 219,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='57' style='font-size:16px'>Keys will be used to ma-<br>where K1, K2, K3 E Rmxdexdr<br>nipulate the memory in the next module and retrieve poten-</p>",
+            "id": 57,
+            "page": 5,
+            "text": "Keys will be used to mawhere K1, K2, K3 E Rmxdexdr nipulate the memory in the next module and retrieve poten-"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 1202
+                },
+                {
+                    "x": 2211,
+                    "y": 1202
+                },
+                {
+                    "x": 2211,
+                    "y": 1248
+                },
+                {
+                    "x": 1323,
+                    "y": 1248
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='58' style='font-size:18px'>tial existing associations for each entity-relation pair.</p>",
+            "id": 58,
+            "page": 5,
+            "text": "tial existing associations for each entity-relation pair."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 1268
+                },
+                {
+                    "x": 2331,
+                    "y": 1268
+                },
+                {
+                    "x": 2331,
+                    "y": 1862
+                },
+                {
+                    "x": 1322,
+                    "y": 1862
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='59' style='font-size:16px'>Recurrent Memory Module. To allow stored informa-<br>tion to interact with each other, we use a recurrent architec-<br>ture with T recurrent-layers to update the TPR-like memory<br>representation M E Rde xdr xde where M contains train-<br>,<br>able parameters. Through this recurrent architecture, exist-<br>ing episodes stored in memory can interact with new infer-<br>ences to generate new episodes. Different from many mod-<br>els like Transformer (Vaswani et al. 2017) and graph-based<br>models (Kipf and Welling 2017; Velickovic et al. 2018)<br>where adding more layers in the model leads to a larger num-<br>ber of trainable parameters, our model will not increase the<br>number of trainable parameters as the number of recurrent-<br>layers increases.</p>",
+            "id": 59,
+            "page": 5,
+            "text": "Recurrent Memory Module. To allow stored information to interact with each other, we use a recurrent architecture with T recurrent-layers to update the TPR-like memory representation M E Rde xdr xde where M contains train, able parameters. Through this recurrent architecture, existing episodes stored in memory can interact with new inferences to generate new episodes. Different from many models like Transformer (Vaswani  2017) and graph-based models (Kipf and Welling 2017; Velickovic  2018) where adding more layers in the model leads to a larger number of trainable parameters, our model will not increase the number of trainable parameters as the number of recurrentlayers increases."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 1865
+                },
+                {
+                    "x": 2332,
+                    "y": 1865
+                },
+                {
+                    "x": 2332,
+                    "y": 2230
+                },
+                {
+                    "x": 1322,
+                    "y": 2230
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='60' style='font-size:16px'>At each layer t, given the keys Ks, we extract pseudo-<br>entities Ps for each sentence in S* In the first layer (t = 0),<br>since there is no previous information existing in memory<br>M0, the model just converts each sentence in S* as an<br>episode and stores them in it (M 1). Then at the later layers<br>(t > 0), pseudo-entities Ps build bridges between episodes<br>in the current memory Mt and allow them to interact with<br>potential entity-relation associations.</p>",
+            "id": 60,
+            "page": 5,
+            "text": "At each layer t, given the keys Ks, we extract pseudoentities Ps for each sentence in S* In the first layer (t = 0), since there is no previous information existing in memory M0, the model just converts each sentence in S* as an episode and stores them in it (M 1). Then at the later layers (t > 0), pseudo-entities Ps build bridges between episodes in the current memory Mt and allow them to interact with potential entity-relation associations."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1321,
+                    "y": 2302
+                },
+                {
+                    "x": 2331,
+                    "y": 2302
+                },
+                {
+                    "x": 2331,
+                    "y": 2584
+                },
+                {
+                    "x": 1321,
+                    "y": 2584
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='61' style='font-size:16px'>where Pjt E Rmxde. We then construct the memory<br>episodes needed to be updated or removed. This is done<br>after the first storage at t = 0 SO that all story informa-<br>tion is already available in M. These old episodes, Ojt E<br>Rdexdr xde, will be updated or removed to avoid memory<br>conflicts that may occur when receiving new information:</p>",
+            "id": 61,
+            "page": 5,
+            "text": "where Pjt E Rmxde. We then construct the memory episodes needed to be updated or removed. This is done after the first storage at t = 0 SO that all story information is already available in M. These old episodes, Ojt E Rdexdr xde, will be updated or removed to avoid memory conflicts that may occur when receiving new information:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 2654
+                },
+                {
+                    "x": 2328,
+                    "y": 2654
+                },
+                {
+                    "x": 2328,
+                    "y": 2748
+                },
+                {
+                    "x": 1326,
+                    "y": 2748
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='62' style='font-size:18px'>Afterwards, new episodes, N1, N2t and N3 E Rdexdrxde.<br>will be added into the memory:</p>",
+            "id": 62,
+            "page": 5,
+            "text": "Afterwards, new episodes, N1, N2t and N3 E Rdexdrxde. will be added into the memory:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 232
+                },
+                {
+                    "x": 1224,
+                    "y": 232
+                },
+                {
+                    "x": 1224,
+                    "y": 369
+                },
+                {
+                    "x": 218,
+                    "y": 369
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='63' style='font-size:16px'>Then we apply this change to the memory by removing (sub-<br>tracting) old episodes and adding up the new ones to the now<br>dated memory Mt:</p>",
+            "id": 63,
+            "page": 6,
+            "text": "Then we apply this change to the memory by removing (subtracting) old episodes and adding up the new ones to the now dated memory Mt:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 220,
+                    "y": 540
+                },
+                {
+                    "x": 814,
+                    "y": 540
+                },
+                {
+                    "x": 814,
+                    "y": 582
+                },
+                {
+                    "x": 220,
+                    "y": 582
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='64' style='font-size:16px'>where LN is a layer normalization.</p>",
+            "id": 64,
+            "page": 6,
+            "text": "where LN is a layer normalization."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 608
+                },
+                {
+                    "x": 1224,
+                    "y": 608
+                },
+                {
+                    "x": 1224,
+                    "y": 790
+                },
+                {
+                    "x": 218,
+                    "y": 790
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='65' style='font-size:16px'>Decoder. The prediction is computed based on the con-<br>structed memory M at the last layer and a question vector q.<br>To do this we follow the same procedure designed by Schlag<br>and Schmidhuber (2018):</p>",
+            "id": 65,
+            "page": 6,
+            "text": "Decoder. The prediction is computed based on the constructed memory M at the last layer and a question vector q. To do this we follow the same procedure designed by Schlag and Schmidhuber (2018):"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 891
+                },
+                {
+                    "x": 1226,
+                    "y": 891
+                },
+                {
+                    "x": 1226,
+                    "y": 1164
+                },
+                {
+                    "x": 218,
+                    "y": 1164
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='66' style='font-size:16px'>where fu is a feed-forward neural network that outputs a<br>de-dimensional unbinding vector, and f2 , fy , fu are feed-<br>forward neural networks that output dy-dimensional unbind-<br>ing vectors. Then, the information stored in M will be<br>retrieved in a recurrent way based on unbinding vectors<br>learned from the question:</p>",
+            "id": 66,
+            "page": 6,
+            "text": "where fu is a feed-forward neural network that outputs a de-dimensional unbinding vector, and f2 , fy , fu are feedforward neural networks that output dy-dimensional unbinding vectors. Then, the information stored in M will be retrieved in a recurrent way based on unbinding vectors learned from the question:"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 830,
+                    "y": 1371
+                },
+                {
+                    "x": 855,
+                    "y": 1371
+                },
+                {
+                    "x": 855,
+                    "y": 1399
+                },
+                {
+                    "x": 830,
+                    "y": 1399
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='67' style='font-size:14px'>3</p>",
+            "id": 67,
+            "page": 6,
+            "text": "3"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1537
+                },
+                {
+                    "x": 1226,
+                    "y": 1537
+                },
+                {
+                    "x": 1226,
+                    "y": 1729
+                },
+                {
+                    "x": 218,
+                    "y": 1729
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='68' style='font-size:16px'>A linear projection of trainable parameters W。 E R|V|xde<br>and a softmax function are used to map the extracted infor-<br>mation into 心 E RIVI. Hence, the decoder module outputs a<br>probability distribution over the terms of the vocabulary V.</p>",
+            "id": 68,
+            "page": 6,
+            "text": "A linear projection of trainable parameters W。 E R|V|xde and a softmax function are used to map the extracted information into 心 E RIVI. Hence, the decoder module outputs a probability distribution over the terms of the vocabulary V."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 413,
+                    "y": 1770
+                },
+                {
+                    "x": 1030,
+                    "y": 1770
+                },
+                {
+                    "x": 1030,
+                    "y": 1820
+                },
+                {
+                    "x": 413,
+                    "y": 1820
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='69' style='font-size:20px'>5 Experiments and Results</p>",
+            "id": 69,
+            "page": 6,
+            "text": "5 Experiments and Results"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1833
+                },
+                {
+                    "x": 1227,
+                    "y": 1833
+                },
+                {
+                    "x": 1227,
+                    "y": 2338
+                },
+                {
+                    "x": 219,
+                    "y": 2338
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='70' style='font-size:16px'>In this section we aim to address the following research<br>questions: (RQ1) What is the degree of data leakage in the<br>datasets? (RQ2) How does our model behave with respect<br>to state-of-the-art NLU models in spatial reasoning tasks?<br>(RQ3) How do these models behave when tested on exam-<br>ples more challenging than those used for training? (RQ4)<br>What is the effect of the number of recurrent-layers in the<br>recurrent memory module? Before answering these ques-<br>tions, we first present the material and baselines used in<br>our experiments. The software and data are available at:<br>https://gihub.com/ZhengsiangShi/StepGame</p>",
+            "id": 70,
+            "page": 6,
+            "text": "In this section we aim to address the following research questions: (RQ1) What is the degree of data leakage in the datasets? (RQ2) How does our model behave with respect to state-of-the-art NLU models in spatial reasoning tasks? (RQ3) How do these models behave when tested on examples more challenging than those used for training? (RQ4) What is the effect of the number of recurrent-layers in the recurrent memory module? Before answering these questions, we first present the material and baselines used in our experiments. The software and data are available at: https://gihub.com/ZhengsiangShi/StepGame"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2372
+                },
+                {
+                    "x": 776,
+                    "y": 2372
+                },
+                {
+                    "x": 776,
+                    "y": 2422
+                },
+                {
+                    "x": 219,
+                    "y": 2422
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='71' style='font-size:18px'>5.1 Material and Baselines</p>",
+            "id": 71,
+            "page": 6,
+            "text": "5.1 Material and Baselines"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2433
+                },
+                {
+                    "x": 1227,
+                    "y": 2433
+                },
+                {
+                    "x": 1227,
+                    "y": 2937
+                },
+                {
+                    "x": 219,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='72' style='font-size:16px'>In the following experiments we will use two datasets, the<br>bAbI dataset and the StepGame dataset. For the bAbI dataset<br>we only focus on task 17 and task 19 and use the original<br>train and test splits made of 10 000 samples for the train-<br>ing set and 1 000 for the validation and test sets. For the<br>StepGame dataset, we generate a training set made of sam-<br>ples varying k from 1 to 5 at steps of 1, and a test set with<br>k varying from 1 to 10. Moreover, the test set will also con-<br>tain distracting noise. The final dataset consists of, for each<br>k value, 10 000 training samples, 1 000 validation samples,<br>and 10 000 test samples.</p>",
+            "id": 72,
+            "page": 6,
+            "text": "In the following experiments we will use two datasets, the bAbI dataset and the StepGame dataset. For the bAbI dataset we only focus on task 17 and task 19 and use the original train and test splits made of 10 000 samples for the training set and 1 000 for the validation and test sets. For the StepGame dataset, we generate a training set made of samples varying k from 1 to 5 at steps of 1, and a test set with k varying from 1 to 10. Moreover, the test set will also contain distracting noise. The final dataset consists of, for each k value, 10 000 training samples, 1 000 validation samples, and 10 000 test samples."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1363,
+                    "y": 221
+                },
+                {
+                    "x": 2291,
+                    "y": 221
+                },
+                {
+                    "x": 2291,
+                    "y": 540
+                },
+                {
+                    "x": 1363,
+                    "y": 540
+                }
+            ],
+            "category": "table",
+            "html": "<br><table id='73' style='font-size:14px'><tr><td></td><td>Task 17</td><td>Task 19</td><td>Mean</td></tr><tr><td>RN</td><td>97.33±1.55</td><td>98.63±1.79</td><td>97.98</td></tr><tr><td>RRN</td><td>97.80±2.34</td><td>49.80±5.76</td><td>73.80</td></tr><tr><td>STM</td><td>97.80±1.06</td><td>99.98±0.05</td><td>98.89</td></tr><tr><td>UT</td><td>98.60±3.40</td><td>93.90±7.30</td><td>96.25</td></tr><tr><td>TPR-RNN</td><td>97.55±1.99</td><td>99.95±0.06</td><td>98.75</td></tr><tr><td>Ours</td><td>99.88±0.10</td><td>99.98±0.04</td><td>99.93</td></tr></table>",
+            "id": 73,
+            "page": 6,
+            "text": "Task 17 Task 19 Mean  RN 97.33±1.55 98.63±1.79 97.98  RRN 97.80±2.34 49.80±5.76 73.80  STM 97.80±1.06 99.98±0.05 98.89  UT 98.60±3.40 93.90±7.30 96.25  TPR-RNN 97.55±1.99 99.95±0.06 98.75  Ours 99.88±0.10 99.98±0.04"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1327,
+                    "y": 580
+                },
+                {
+                    "x": 2329,
+                    "y": 580
+                },
+                {
+                    "x": 2329,
+                    "y": 670
+                },
+                {
+                    "x": 1327,
+                    "y": 670
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='74' style='font-size:14px'>Table 1: Test accuracy on the task 17 and 19 of the bAbI<br>dataset: Mean±Std over 5 runs.</caption>",
+            "id": 74,
+            "page": 6,
+            "text": "Table 1: Test accuracy on the task 17 and 19 of the bAbI dataset: Mean±Std over 5 runs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 766
+                },
+                {
+                    "x": 2332,
+                    "y": 766
+                },
+                {
+                    "x": 2332,
+                    "y": 1224
+                },
+                {
+                    "x": 1324,
+                    "y": 1224
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='75' style='font-size:18px'>We compare our model against five baselines: Recur-<br>rent Relational Networks (RRN) (Palm, Paquet, and Winther<br>2018), Relational Network (RN) (Santoro et al. 2017), TPR-<br>RNN (Schlag and Schmidhuber 2018), Self-attentive Asso-<br>ciative Memory (STM) (Le, Tran, and Venkatesh 2020), and<br>Universal Transformer (UT) (Dehghani et al. 2019). Each<br>model is trained and validated on each dataset independently<br>following the hyper-parameter ranges and procedures pro-<br>vided in their original papers. All training details, including<br>those for our model, are reported in the Appendix.</p>",
+            "id": 75,
+            "page": 6,
+            "text": "We compare our model against five baselines: Recurrent Relational Networks (RRN) (Palm, Paquet, and Winther 2018), Relational Network (RN) (Santoro  2017), TPRRNN (Schlag and Schmidhuber 2018), Self-attentive Associative Memory (STM) (Le, Tran, and Venkatesh 2020), and Universal Transformer (UT) (Dehghani  2019). Each model is trained and validated on each dataset independently following the hyper-parameter ranges and procedures provided in their original papers. All training details, including those for our model, are reported in the Appendix."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1262
+                },
+                {
+                    "x": 1873,
+                    "y": 1262
+                },
+                {
+                    "x": 1873,
+                    "y": 1311
+                },
+                {
+                    "x": 1325,
+                    "y": 1311
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='76' style='font-size:22px'>5.2 Training-Test Leakage</p>",
+            "id": 76,
+            "page": 6,
+            "text": "5.2 Training-Test Leakage"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 1325
+                },
+                {
+                    "x": 2333,
+                    "y": 1325
+                },
+                {
+                    "x": 2333,
+                    "y": 2239
+                },
+                {
+                    "x": 1323,
+                    "y": 2239
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='77' style='font-size:16px'>To answer RQ1 we have calculated the degree of data leak-<br>age present in bAbI and the StepGame datasets. For the task<br>17, we counted how many samples in the test set appear also<br>in the training set: 23.2% of the test samples are also in the<br>training set. For task 19, for each sample we extracted the<br>relevant sentences in the stories (i.e., those sentences neces-<br>sary to answer the question correctly) and questions. Then<br>we counted how many such pairs in the test set appear in<br>the training set: 80.2% of the pairs overlap with pairs in the<br>training set. For the StepGame dataset, for each sample we<br>extracted the sentences in the stories and questions. The sen-<br>tences in the story are sorted in lexicographical order. Then<br>we counted how many such pairs in the test set appear also<br>in the training set before adding distracting noise and using<br>the templates: 1.09% of the pairs overlap with triples in the<br>training set. However, such overlap is all produced by the<br>samples with k = 1, which due to their limited number have<br>a higher chance of being included in the test set. If we re-<br>move those examples, the overlap between training and test<br>sets drops to 0%.</p>",
+            "id": 77,
+            "page": 6,
+            "text": "To answer RQ1 we have calculated the degree of data leakage present in bAbI and the StepGame datasets. For the task 17, we counted how many samples in the test set appear also in the training set: 23.2% of the test samples are also in the training set. For task 19, for each sample we extracted the relevant sentences in the stories (i.e., those sentences necessary to answer the question correctly) and questions. Then we counted how many such pairs in the test set appear in the training set: 80.2% of the pairs overlap with pairs in the training set. For the StepGame dataset, for each sample we extracted the sentences in the stories and questions. The sentences in the story are sorted in lexicographical order. Then we counted how many such pairs in the test set appear also in the training set before adding distracting noise and using the templates: 1.09% of the pairs overlap with triples in the training set. However, such overlap is all produced by the samples with k = 1, which due to their limited number have a higher chance of being included in the test set. If we remove those examples, the overlap between training and test sets drops to 0%."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 2278
+                },
+                {
+                    "x": 1769,
+                    "y": 2278
+                },
+                {
+                    "x": 1769,
+                    "y": 2326
+                },
+                {
+                    "x": 1325,
+                    "y": 2326
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='78' style='font-size:20px'>5.3 Spatial Inference</p>",
+            "id": 78,
+            "page": 6,
+            "text": "5.3 Spatial Inference"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 2340
+                },
+                {
+                    "x": 2330,
+                    "y": 2340
+                },
+                {
+                    "x": 2330,
+                    "y": 2521
+                },
+                {
+                    "x": 1324,
+                    "y": 2521
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='79' style='font-size:16px'>To answer RQ2 and judge the spatial inference ability of our<br>model and the baselines we train them on the bAbI and the<br>StepGame datasets and compare them by measuring their<br>test accuracy.</p>",
+            "id": 79,
+            "page": 6,
+            "text": "To answer RQ2 and judge the spatial inference ability of our model and the baselines we train them on the bAbI and the StepGame datasets and compare them by measuring their test accuracy."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 2526
+                },
+                {
+                    "x": 2331,
+                    "y": 2526
+                },
+                {
+                    "x": 2331,
+                    "y": 2752
+                },
+                {
+                    "x": 1325,
+                    "y": 2752
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='80' style='font-size:16px'>In Table 1 we present the results of our model and the<br>baselines on the task 17 and 19 of the bAbI dataset. The per-<br>formance of our model is slightly better than the best base-<br>line. However, due to the issues of the bAbI dataset, these<br>results are not enough to firmly answer RQ2.</p>",
+            "id": 80,
+            "page": 6,
+            "text": "In Table 1 we present the results of our model and the baselines on the task 17 and 19 of the bAbI dataset. The performance of our model is slightly better than the best baseline. However, due to the issues of the bAbI dataset, these results are not enough to firmly answer RQ2."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 2756
+                },
+                {
+                    "x": 2331,
+                    "y": 2756
+                },
+                {
+                    "x": 2331,
+                    "y": 2936
+                },
+                {
+                    "x": 1326,
+                    "y": 2936
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='81' style='font-size:16px'>In Table 2 we present the results for the StepGame dataset.<br>In this dataset, the training set is without noise but the test set<br>is with distracting noise. In the table we break down the per-<br>formance of the trained models across k. In the last column</p>",
+            "id": 81,
+            "page": 6,
+            "text": "In Table 2 we present the results for the StepGame dataset. In this dataset, the training set is without noise but the test set is with distracting noise. In the table we break down the performance of the trained models across k. In the last column"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 309,
+                    "y": 219
+                },
+                {
+                    "x": 2240,
+                    "y": 219
+                },
+                {
+                    "x": 2240,
+                    "y": 534
+                },
+                {
+                    "x": 309,
+                    "y": 534
+                }
+            ],
+            "category": "table",
+            "html": "<table id='82' style='font-size:16px'><tr><td>Model</td><td>k=1</td><td>k=2</td><td>k=3</td><td>k=4</td><td>k=5</td><td>Mean</td></tr><tr><td>RN (Santoro et al. 2017)</td><td>22.64±0.25</td><td>17.08±1.41</td><td>15.08±2.58</td><td>12.84±2.27</td><td>11.52±1.73</td><td>15.83</td></tr><tr><td>RRN (Palm, Paquet, and Winther 2018)</td><td>24.05±4.48</td><td>19.98±4.68</td><td>16.03±2.89</td><td>13.22±2.51</td><td>12.31±2.16</td><td>17.12</td></tr><tr><td>UT (Dehghani et al. 2019)</td><td>45.11±4.16</td><td>28.36±4.50</td><td>17.41±2.18</td><td>14.07±2.87</td><td>13.45±1.35</td><td>23.68</td></tr><tr><td>STM (Le, Tran, and Venkatesh 2020)</td><td>53.42±3.73</td><td>35.96±4.45</td><td>23.03±1.83</td><td>18.45±1.87</td><td>15.14±1.56</td><td>29.20</td></tr><tr><td>TPR-RNN (Schlag and Schmidhuber 2018)</td><td>70.29±3.03</td><td>46.03±2.24</td><td>36.14±2.66</td><td>26.82±2.64</td><td>24.77±2.75</td><td>40.81</td></tr><tr><td>Ours</td><td>85.77±3.18</td><td>60.31±2.23</td><td>50.18±2.65</td><td>37.45±4.21</td><td>31.25±3.38</td><td>52.99</td></tr></table>",
+            "id": 82,
+            "page": 7,
+            "text": "Model k=1 k=2 k=3 k=4 k=5 Mean  RN (Santoro  2017) 22.64±0.25 17.08±1.41 15.08±2.58 12.84±2.27 11.52±1.73 15.83  RRN (Palm, Paquet, and Winther 2018) 24.05±4.48 19.98±4.68 16.03±2.89 13.22±2.51 12.31±2.16 17.12  UT (Dehghani  2019) 45.11±4.16 28.36±4.50 17.41±2.18 14.07±2.87 13.45±1.35 23.68  STM (Le, Tran, and Venkatesh 2020) 53.42±3.73 35.96±4.45 23.03±1.83 18.45±1.87 15.14±1.56 29.20  TPR-RNN (Schlag and Schmidhuber 2018) 70.29±3.03 46.03±2.24 36.14±2.66 26.82±2.64 24.77±2.75 40.81  Ours 85.77±3.18 60.31±2.23 50.18±2.65 37.45±4.21 31.25±3.38"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 666,
+                    "y": 569
+                },
+                {
+                    "x": 1880,
+                    "y": 569
+                },
+                {
+                    "x": 1880,
+                    "y": 619
+                },
+                {
+                    "x": 666,
+                    "y": 619
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='83' style='font-size:16px'>Table 2: Test accuracy on the StepGame dataset: Mean±Std over 5 runs.</caption>",
+            "id": 83,
+            "page": 7,
+            "text": "Table 2: Test accuracy on the StepGame dataset: Mean±Std over 5 runs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 311,
+                    "y": 684
+                },
+                {
+                    "x": 2239,
+                    "y": 684
+                },
+                {
+                    "x": 2239,
+                    "y": 997
+                },
+                {
+                    "x": 311,
+                    "y": 997
+                }
+            ],
+            "category": "table",
+            "html": "<table id='84' style='font-size:14px'><tr><td>Model</td><td>k = 6</td><td>k=7</td><td>k=8</td><td>k=9</td><td>k=10</td><td>Mean</td></tr><tr><td>RN (Santoro et al. 2017)</td><td>11.12±0.96</td><td>11.53±0.70</td><td>11.21±0.98</td><td>11.13±1.00</td><td>11.34±0.87</td><td>11.27</td></tr><tr><td>RRN (Palm, Paquet, and Winther 2018)</td><td>11.62±0.80</td><td>11.40±0.76</td><td>11.83±0.75</td><td>11.22±0.86</td><td>11.69±1.40</td><td>11.56</td></tr><tr><td>UT (Dehghani et al. 2019)</td><td>12.73±2.37</td><td>12.11±1.52</td><td>11.40±0.92</td><td>11.41±0.96</td><td>11.74±1.07</td><td>11.88</td></tr><tr><td>STM (Le, Tran, and Venkatesh 2020)</td><td>13.80±1.95</td><td>12.63±1.69</td><td>11.54±1.61</td><td>11.30±1.13</td><td>11.77±0.93</td><td>12.21</td></tr><tr><td>TPR-RNN (Schlag and Schmidhuber 2018)</td><td>22.25±3.12</td><td>19.88±2.80</td><td>15.45±2.98</td><td>13.01±2.28</td><td>12.65±2.71</td><td>16.65</td></tr><tr><td>Ours</td><td>28.53±3.59</td><td>26.45±2.95</td><td>23.67±2.78</td><td>22.52±2.36</td><td>21.46±1.72</td><td>24.53</td></tr></table>",
+            "id": 84,
+            "page": 7,
+            "text": "Model k = 6 k=7 k=8 k=9 k=10 Mean  RN (Santoro  2017) 11.12±0.96 11.53±0.70 11.21±0.98 11.13±1.00 11.34±0.87 11.27  RRN (Palm, Paquet, and Winther 2018) 11.62±0.80 11.40±0.76 11.83±0.75 11.22±0.86 11.69±1.40 11.56  UT (Dehghani  2019) 12.73±2.37 12.11±1.52 11.40±0.92 11.41±0.96 11.74±1.07 11.88  STM (Le, Tran, and Venkatesh 2020) 13.80±1.95 12.63±1.69 11.54±1.61 11.30±1.13 11.77±0.93 12.21  TPR-RNN (Schlag and Schmidhuber 2018) 22.25±3.12 19.88±2.80 15.45±2.98 13.01±2.28 12.65±2.71 16.65  Ours 28.53±3.59 26.45±2.95 23.67±2.78 22.52±2.36 21.46±1.72"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 479,
+                    "y": 1034
+                },
+                {
+                    "x": 2070,
+                    "y": 1034
+                },
+                {
+                    "x": 2070,
+                    "y": 1083
+                },
+                {
+                    "x": 479,
+                    "y": 1083
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='85' style='font-size:18px'>Table 3: Test accuracy on StepGame for larger ks (only on the test set). Mean±Std over 5 runs.</caption>",
+            "id": 85,
+            "page": 7,
+            "text": "Table 3: Test accuracy on StepGame for larger ks (only on the test set). Mean±Std over 5 runs."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1176
+                },
+                {
+                    "x": 1227,
+                    "y": 1176
+                },
+                {
+                    "x": 1227,
+                    "y": 1543
+                },
+                {
+                    "x": 217,
+                    "y": 1543
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='86' style='font-size:18px'>we report the average performance across k. Our model out-<br>performs all the baseline models. Compared to Table 1, the<br>decreased accuracy in Table 2 demonstrates the difficulty of<br>spatial reasoning with distracting noise. It is not surprising<br>that the performance of all five baseline models decreases<br>when k increases, that is, when the number of required in-<br>ference hops increases. We also report test accuracy on test<br>sets without distracting noise in the Appendix.</p>",
+            "id": 86,
+            "page": 7,
+            "text": "we report the average performance across k. Our model outperforms all the baseline models. Compared to Table 1, the decreased accuracy in Table 2 demonstrates the difficulty of spatial reasoning with distracting noise. It is not surprising that the performance of all five baseline models decreases when k increases, that is, when the number of required inference hops increases. We also report test accuracy on test sets without distracting noise in the Appendix."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1578
+                },
+                {
+                    "x": 840,
+                    "y": 1578
+                },
+                {
+                    "x": 840,
+                    "y": 1632
+                },
+                {
+                    "x": 218,
+                    "y": 1632
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='87' style='font-size:20px'>5.4 Systematic Generalization</p>",
+            "id": 87,
+            "page": 7,
+            "text": "5.4 Systematic Generalization"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1643
+                },
+                {
+                    "x": 1226,
+                    "y": 1643
+                },
+                {
+                    "x": 1226,
+                    "y": 1872
+                },
+                {
+                    "x": 218,
+                    "y": 1872
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='88' style='font-size:18px'>To answer RQ3 we generate new StepGame test sets with<br>k E {6, 7, 8, 9, 10} with distracting noise. We then test all<br>the models jointly trained on the StepGame train set with<br>k E {1, 2, 3, 4, 5} as in the Section 5.3. We can consider this<br>experiment as a zero-shot learning setting for larger ks.</p>",
+            "id": 88,
+            "page": 7,
+            "text": "To answer RQ3 we generate new StepGame test sets with k E {6, 7, 8, 9, 10} with distracting noise. We then test all the models jointly trained on the StepGame train set with k E {1, 2, 3, 4, 5} as in the Section 5.3. We can consider this experiment as a zero-shot learning setting for larger ks."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1874
+                },
+                {
+                    "x": 1227,
+                    "y": 1874
+                },
+                {
+                    "x": 1227,
+                    "y": 2286
+                },
+                {
+                    "x": 217,
+                    "y": 2286
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='89' style='font-size:18px'>In Table 3 we present the performance of different mod-<br>els on this generalization task. Not surprisingly, the perfor-<br>mance of all models degrades monotonically as we increase<br>k. RN, RRN, UT and SAM fail to generalize to the test sets<br>with higher k values, while our model is more robust and<br>outperforms the baseline models with a large margin. This<br>demonstrates the better generalization ability of our model,<br>which performs well on longer stories never seen during<br>training.</p>",
+            "id": 89,
+            "page": 7,
+            "text": "In Table 3 we present the performance of different models on this generalization task. Not surprisingly, the performance of all models degrades monotonically as we increase k. RN, RRN, UT and SAM fail to generalize to the test sets with higher k values, while our model is more robust and outperforms the baseline models with a large margin. This demonstrates the better generalization ability of our model, which performs well on longer stories never seen during training."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2323
+                },
+                {
+                    "x": 692,
+                    "y": 2323
+                },
+                {
+                    "x": 692,
+                    "y": 2374
+                },
+                {
+                    "x": 218,
+                    "y": 2374
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='90' style='font-size:20px'>5.5 Inference Analysis</p>",
+            "id": 90,
+            "page": 7,
+            "text": "5.5 Inference Analysis"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2384
+                },
+                {
+                    "x": 1227,
+                    "y": 2384
+                },
+                {
+                    "x": 1227,
+                    "y": 2939
+                },
+                {
+                    "x": 218,
+                    "y": 2939
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='91' style='font-size:18px'>To answer RQ4, we conduct an analysis of the hyper-<br>parameter T, the number of recurrent-layers in our model.<br>We jointly train TP-MANN on the StepGame dataset with k<br>between 1 and 5 with number of T between 1 and 6 and re-<br>port the break down test accuracy for each value of k. These<br>results are shown in the left-hand side figure of Figure 4. The<br>test sets with higher k benefit more from a higher number of<br>recurrent layers than those with lower k, indicating that re-<br>current layers are critical for multi-hop reasoning. We also<br>analyze how the recurrent layer structure affects systematic<br>generalization. To do this we also test on a StepGame test<br>set with k between 6 and 10 with noise. These ks are larger</p>",
+            "id": 91,
+            "page": 7,
+            "text": "To answer RQ4, we conduct an analysis of the hyperparameter T, the number of recurrent-layers in our model. We jointly train TP-MANN on the StepGame dataset with k between 1 and 5 with number of T between 1 and 6 and report the break down test accuracy for each value of k. These results are shown in the left-hand side figure of Figure 4. The test sets with higher k benefit more from a higher number of recurrent layers than those with lower k, indicating that recurrent layers are critical for multi-hop reasoning. We also analyze how the recurrent layer structure affects systematic generalization. To do this we also test on a StepGame test set with k between 6 and 10 with noise. These ks are larger"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1404,
+                    "y": 1177
+                },
+                {
+                    "x": 2241,
+                    "y": 1177
+                },
+                {
+                    "x": 2241,
+                    "y": 1653
+                },
+                {
+                    "x": 1404,
+                    "y": 1653
+                }
+            ],
+            "category": "figure",
+            "html": "<br><figure><img id='92' style='font-size:14px' alt=\"0.40\nk=1 k=6\n1.2\nk=2 0.35 k=7\nk=3 k=8\n1.0 0.30 k=9\nk=4\nAccuarcy k=5 k=10\n0.8 0.25\n0.20\n0.6 Accuarcy\nTest\nTest\n0.15\n0.4\n0.10\n0.2\n0.05\n0.0 0.00\n1 2 3 4 5 6 1 2 3 4 5 6\nT T\" data-coord=\"top-left:(1404,1177); bottom-right:(2241,1653)\" /></figure>",
+            "id": 92,
+            "page": 7,
+            "text": "0.40 k=1 k=6 1.2 k=2 0.35 k=7 k=3 k=8 1.0 0.30 k=9 k=4 Accuarcy k=5 k=10 0.8 0.25 0.20 0.6 Accuarcy Test Test 0.15 0.4 0.10 0.2 0.05 0.0 0.00 1 2 3 4 5 6 1 2 3 4 5 6 T T"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1722
+                },
+                {
+                    "x": 2333,
+                    "y": 1722
+                },
+                {
+                    "x": 2333,
+                    "y": 1909
+                },
+                {
+                    "x": 1324,
+                    "y": 1909
+                }
+            ],
+            "category": "caption",
+            "html": "<caption id='93' style='font-size:18px'>Figure 4: Analysis of TP-MANN's number of recurrent-<br>layers (T). The x-axis is T with which the model has been<br>trained. Each line represents a different value of k of the<br>StepGame dataset.</caption>",
+            "id": 93,
+            "page": 7,
+            "text": "Figure 4: Analysis of TP-MANN's number of recurrentlayers (T). The x-axis is T with which the model has been trained. Each line represents a different value of k of the StepGame dataset."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 1998
+                },
+                {
+                    "x": 2332,
+                    "y": 1998
+                },
+                {
+                    "x": 2332,
+                    "y": 2460
+                },
+                {
+                    "x": 1322,
+                    "y": 2460
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='94' style='font-size:18px'>than the largest k used during training. These results are<br>shown in the right-hand side figure in Figure 4. Here we see<br>that as T increases, the performance of the model improves.<br>This analysis further corroborates that our recurrent struc-<br>ture supports multi-hop inference. It is worth noting, that<br>the number of trainable parameters in our model remains un-<br>changed as T increases. Interestingly, we find that the num-<br>ber of recurrent-layers needed to solve the task is less than<br>the length of the stories k suggesting that the inference pro-<br>cess may happen in parallel.</p>",
+            "id": 94,
+            "page": 7,
+            "text": "than the largest k used during training. These results are shown in the right-hand side figure in Figure 4. Here we see that as T increases, the performance of the model improves. This analysis further corroborates that our recurrent structure supports multi-hop inference. It is worth noting, that the number of trainable parameters in our model remains unchanged as T increases. Interestingly, we find that the number of recurrent-layers needed to solve the task is less than the length of the stories k suggesting that the inference process may happen in parallel."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1665,
+                    "y": 2498
+                },
+                {
+                    "x": 1989,
+                    "y": 2498
+                },
+                {
+                    "x": 1989,
+                    "y": 2551
+                },
+                {
+                    "x": 1665,
+                    "y": 2551
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='95' style='font-size:22px'>6 Conclusion</p>",
+            "id": 95,
+            "page": 7,
+            "text": "6 Conclusion"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1322,
+                    "y": 2563
+                },
+                {
+                    "x": 2332,
+                    "y": 2563
+                },
+                {
+                    "x": 2332,
+                    "y": 2932
+                },
+                {
+                    "x": 1322,
+                    "y": 2932
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='96' style='font-size:18px'>In this paper, we proposed a new dataset named StepGame<br>that requires a robust multi-hop spatial reasoning ability to<br>be solved and mitigates the issues observed in the bAbI<br>dataset. Then, we introduced TP-MANN, a tensor product-<br>based memory-augmented neural network architecture that<br>achieves state-of-the-art performance on both datasets. Fur-<br>ther analysis also demonstrated the importance of a recurrent<br>memory module for multi-hop reasoning.</p>",
+            "id": 96,
+            "page": 7,
+            "text": "In this paper, we proposed a new dataset named StepGame that requires a robust multi-hop spatial reasoning ability to be solved and mitigates the issues observed in the bAbI dataset. Then, we introduced TP-MANN, a tensor productbased memory-augmented neural network architecture that achieves state-of-the-art performance on both datasets. Further analysis also demonstrated the importance of a recurrent memory module for multi-hop reasoning."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 599,
+                    "y": 226
+                },
+                {
+                    "x": 841,
+                    "y": 226
+                },
+                {
+                    "x": 841,
+                    "y": 277
+                },
+                {
+                    "x": 599,
+                    "y": 277
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='97' style='font-size:22px'>References</p>",
+            "id": 97,
+            "page": 8,
+            "text": "References"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 289
+                },
+                {
+                    "x": 1225,
+                    "y": 289
+                },
+                {
+                    "x": 1225,
+                    "y": 608
+                },
+                {
+                    "x": 218,
+                    "y": 608
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='98' style='font-size:18px'>Anderson, P.; Wu, Q.; Teney, D.; Bruce, J.; Johnson, M.;<br>Sunderhauf, N.; Reid, I. D. ; Gould, S.; and van den Hen-<br>gel, A. 2018. Vision-and-Language Navigation: Interpreting<br>Visually-Grounded Navigation Instructions in Real Environ-<br>ments. In 2018 IEEE Conference on Computer Vision and<br>Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA,<br>June 18-22, 2018, 3674-3683. IEEE Computer Society.</p>",
+            "id": 98,
+            "page": 8,
+            "text": "Anderson, P.; Wu, Q.; Teney, D.; Bruce, J.; Johnson, M.; Sunderhauf, N.; Reid, I. D. ; Gould, S.; and van den Hengel, A. 2018. Vision-and-Language Navigation: Interpreting Visually-Grounded Navigation Instructions in Real Environments. In 2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018, 3674-3683. IEEE Computer Society."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 619
+                },
+                {
+                    "x": 1225,
+                    "y": 619
+                },
+                {
+                    "x": 1225,
+                    "y": 845
+                },
+                {
+                    "x": 218,
+                    "y": 845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='99' style='font-size:18px'>Battaglia, P. W.; Hamrick, J. B.; Bapst, V.; Sanchez-<br>Gonzalez, A.; Zambaldi, V.; Malinowski, M.; Tacchetti, A.;<br>Raposo, D. : Santoro, A. ; Faulkner, R.; et al. 2018. Relational<br>inductive biases, deep learning, and graph networks. arXiv<br>preprint arXiv: 1806.01261.</p>",
+            "id": 99,
+            "page": 8,
+            "text": "Battaglia, P. W.; Hamrick, J. B.; Bapst, V.; SanchezGonzalez, A.; Zambaldi, V.; Malinowski, M.; Tacchetti, A.; Raposo, D. : Santoro, A. ; Faulkner, R.;  2018. Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv: 1806.01261."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 856
+                },
+                {
+                    "x": 1224,
+                    "y": 856
+                },
+                {
+                    "x": 1224,
+                    "y": 1221
+                },
+                {
+                    "x": 218,
+                    "y": 1221
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='100' style='font-size:16px'>Bisk, Y.; Shih, K. J. ; Choi, Y.; and Marcu, D. 2018. Learning<br>Interpretable Spatial Operations in a Rich 3D Blocks World.<br>In Proceedings of the Thirty-Second AAAI Conference on<br>Artificial Intelligence, (AAAI-18), the 30th innovative Ap-<br>plications of Artificial Intelligence (IAAI-18), and the 8th<br>AAAI Symposium on Educational Advances in Artificial In-<br>telligence (EAAI-18), New Orleans, Louisiana, USA, Febru-<br>ary 2-7, 2018. AAAI Press.</p>",
+            "id": 100,
+            "page": 8,
+            "text": "Bisk, Y.; Shih, K. J. ; Choi, Y.; and Marcu, D. 2018. Learning Interpretable Spatial Operations in a Rich 3D Blocks World. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018. AAAI Press."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1231
+                },
+                {
+                    "x": 1225,
+                    "y": 1231
+                },
+                {
+                    "x": 1225,
+                    "y": 1459
+                },
+                {
+                    "x": 219,
+                    "y": 1459
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='101' style='font-size:16px'>Chen, C.-H.; Fu, Y.-F.; Cheng, H.-H.; and Lin, S.-D. 2020a.<br>Unseen Filler Generalization In Attention-based Natural<br>Language Reasoning Models. In 2020 IEEE Second In-<br>ternational Conference on Cognitive Machine Intelligence<br>(CogMI), 42-51. IEEE.</p>",
+            "id": 101,
+            "page": 8,
+            "text": "Chen, C.-H.; Fu, Y.-F.; Cheng, H.-H.; and Lin, S.-D. 2020a. Unseen Filler Generalization In Attention-based Natural Language Reasoning Models. In 2020 IEEE Second International Conference on Cognitive Machine Intelligence (CogMI), 42-51. IEEE."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1470
+                },
+                {
+                    "x": 1224,
+                    "y": 1470
+                },
+                {
+                    "x": 1224,
+                    "y": 1745
+                },
+                {
+                    "x": 219,
+                    "y": 1745
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='102' style='font-size:16px'>Chen, H.; Suhr, A.; Misra, D.; Snavely, N.; and Artzi, Y.<br>2019. TOUCHDOWN: Natural Language Navigation and<br>Spatial Reasoning in Visual Street Environments. In IEEE<br>Conference on Computer Vision and Pattern Recognition,<br>CVPR 2019, Long Beach, CA, USA, June 16-20, 2019. Com-<br>puter Vision Foundation / IEEE.</p>",
+            "id": 102,
+            "page": 8,
+            "text": "Chen, H.; Suhr, A.; Misra, D.; Snavely, N.; and Artzi, Y. 2019. TOUCHDOWN: Natural Language Navigation and Spatial Reasoning in Visual Street Environments. In IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2019, Long Beach, CA, USA, June 16-20, 2019. Computer Vision Foundation / IEEE."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 1754
+                },
+                {
+                    "x": 1224,
+                    "y": 1754
+                },
+                {
+                    "x": 1224,
+                    "y": 2072
+                },
+                {
+                    "x": 219,
+                    "y": 2072
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='103' style='font-size:18px'>Chen, K.; Huang, Q.; Palangi, H.; Smolensky, P.; Forbus,<br>K. D. ; and Gao, J. 2020b. Mapping natural-language prob-<br>lems to formal-language solutions using structured neural<br>representations. In Proceedings of the 37th International<br>Conference on Machine Learning, ICML 2020, 13-18 July<br>2020, Virtual Event, Proceedings of Machine Learning Re-<br>search. PMLR.</p>",
+            "id": 103,
+            "page": 8,
+            "text": "Chen, K.; Huang, Q.; Palangi, H.; Smolensky, P.; Forbus, K. D. ; and Gao, J. 2020b. Mapping natural-language problems to formal-language solutions using structured neural representations. In Proceedings of the 37th International Conference on Machine Learning, ICML 2020, 13-18 July 2020, Virtual Event, Proceedings of Machine Learning Research. PMLR."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2083
+                },
+                {
+                    "x": 1226,
+                    "y": 2083
+                },
+                {
+                    "x": 1226,
+                    "y": 2264
+                },
+                {
+                    "x": 219,
+                    "y": 2264
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='104' style='font-size:16px'>Dehghani, M.; Gouws, S.; Vinyals, O.; Uszkoreit, J.; and<br>Kaiser, L. 2019. Universal Transformers. In 7th Interna-<br>tional Conference on Learning Representations, ICLR 2019,<br>New Orleans, LA, USA, May 6-9, 2019.</p>",
+            "id": 104,
+            "page": 8,
+            "text": "Dehghani, M.; Gouws, S.; Vinyals, O.; Uszkoreit, J.; and Kaiser, L. 2019. Universal Transformers. In 7th International Conference on Learning Representations, ICLR 2019, New Orleans, LA, USA, May 6-9, 2019."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2275
+                },
+                {
+                    "x": 1225,
+                    "y": 2275
+                },
+                {
+                    "x": 1225,
+                    "y": 2596
+                },
+                {
+                    "x": 218,
+                    "y": 2596
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='105' style='font-size:18px'>Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019.<br>BERT: Pre-training of Deep Bidirectional Transformers for<br>Language Understanding. In Proceedings of the 2019 Con-<br>ference of the North American Chapter of the Association<br>for Computational Linguistics: Human Language Technolo-<br>gies, Volume 1 (Long and Short Papers). Association for<br>Computational Linguistics.</p>",
+            "id": 105,
+            "page": 8,
+            "text": "Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019. BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2606
+                },
+                {
+                    "x": 1224,
+                    "y": 2606
+                },
+                {
+                    "x": 1224,
+                    "y": 2789
+                },
+                {
+                    "x": 219,
+                    "y": 2789
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='106' style='font-size:18px'>Ding, D.; Hill, F.; Santoro, A.; and Botvinick, M. 2020.<br>Object-based attention for spatio-temporal reasoning: Out-<br>performing neuro-symbolic models with flexible distributed<br>architectures. arXiv preprint arXiv:2012.08508.</p>",
+            "id": 106,
+            "page": 8,
+            "text": "Ding, D.; Hill, F.; Santoro, A.; and Botvinick, M. 2020. Object-based attention for spatio-temporal reasoning: Outperforming neuro-symbolic models with flexible distributed architectures. arXiv preprint arXiv:2012.08508."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 219,
+                    "y": 2798
+                },
+                {
+                    "x": 1225,
+                    "y": 2798
+                },
+                {
+                    "x": 1225,
+                    "y": 2937
+                },
+                {
+                    "x": 219,
+                    "y": 2937
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='107' style='font-size:18px'>Gershman, S.; and Tenenbaum, J. B. 2015. Phrase similar-<br>ity in humans and machines. In Proceedings of the 37th<br>Annual Meeting of the Cognitive Science Society, CogSci</p>",
+            "id": 107,
+            "page": 8,
+            "text": "Gershman, S.; and Tenenbaum, J. B. 2015. Phrase similarity in humans and machines. In Proceedings of the 37th Annual Meeting of the Cognitive Science Society, CogSci"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 232
+                },
+                {
+                    "x": 2324,
+                    "y": 232
+                },
+                {
+                    "x": 2324,
+                    "y": 321
+                },
+                {
+                    "x": 1326,
+                    "y": 321
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='108' style='font-size:20px'>2015, Pasadena, California, USA, July 22-25, 2015. cogni-<br>tivesciencesociety.org.</p>",
+            "id": 108,
+            "page": 8,
+            "text": "2015, Pasadena, California, USA, July 22-25, 2015. cognitivesciencesociety.org."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 332
+                },
+                {
+                    "x": 2330,
+                    "y": 332
+                },
+                {
+                    "x": 2330,
+                    "y": 558
+                },
+                {
+                    "x": 1323,
+                    "y": 558
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='109' style='font-size:18px'>Graves, A.; Wayne, G.; Reynolds, M.; Harley, T.; Danihelka,<br>I.; Grabska-Barwi�ska, A.; Colmenarejo, S. G.; Grefen-<br>stette, E.; Ramalho, T.; Agapiou, J.; et al. 2016. Hybrid<br>computing using a neural network with dynamic external<br>memory. Nature.</p>",
+            "id": 109,
+            "page": 8,
+            "text": "Graves, A.; Wayne, G.; Reynolds, M.; Harley, T.; Danihelka, I.; Grabska-Barwi�ska, A.; Colmenarejo, S. G.; Grefenstette, E.; Ramalho, T.; Agapiou, J.;  2016. Hybrid computing using a neural network with dynamic external memory. Nature."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 567
+                },
+                {
+                    "x": 2329,
+                    "y": 567
+                },
+                {
+                    "x": 2329,
+                    "y": 887
+                },
+                {
+                    "x": 1324,
+                    "y": 887
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='110' style='font-size:18px'>Huang, Q.; Smolensky, P.; He, X.; Deng, L.; and Wu, D.<br>2018. Tensor Product Generation Networks for Deep NLP<br>Modeling. In Proceedings of the 2018 Conference of the<br>North American Chapter of the Association for Computa-<br>tional Linguistics: Human Language Technologies, Volume<br>1 (Long Papers). New Orleans, Louisiana: Association for<br>Computational Linguistics.</p>",
+            "id": 110,
+            "page": 8,
+            "text": "Huang, Q.; Smolensky, P.; He, X.; Deng, L.; and Wu, D. 2018. Tensor Product Generation Networks for Deep NLP Modeling. In Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers). New Orleans, Louisiana: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 897
+                },
+                {
+                    "x": 2329,
+                    "y": 897
+                },
+                {
+                    "x": 2329,
+                    "y": 1032
+                },
+                {
+                    "x": 1324,
+                    "y": 1032
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='111' style='font-size:18px'>Janner, M.; Narasimhan, K.; and Barzilay, R. 2018. Repre-<br>sentation Learning for Grounded Spatial Reasoning. Trans-<br>actions of the Association for Computational Linguistics.</p>",
+            "id": 111,
+            "page": 8,
+            "text": "Janner, M.; Narasimhan, K.; and Barzilay, R. 2018. Representation Learning for Grounded Spatial Reasoning. Transactions of the Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1042
+                },
+                {
+                    "x": 2330,
+                    "y": 1042
+                },
+                {
+                    "x": 2330,
+                    "y": 1268
+                },
+                {
+                    "x": 1324,
+                    "y": 1268
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='112' style='font-size:18px'>Kipf, T. N.; and Welling, M. 2017. Semi-Supervised Clas-<br>sification with Graph Convolutional Networks. In 5th In-<br>ternational Conference on Learning Representations, ICLR<br>2017, Toulon, France, April 24-26, 2017, Conference Track<br>Proceedings.</p>",
+            "id": 112,
+            "page": 8,
+            "text": "Kipf, T. N.; and Welling, M. 2017. Semi-Supervised Classification with Graph Convolutional Networks. In 5th International Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1278
+                },
+                {
+                    "x": 2329,
+                    "y": 1278
+                },
+                {
+                    "x": 2329,
+                    "y": 1504
+                },
+                {
+                    "x": 1325,
+                    "y": 1504
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='113' style='font-size:16px'>Koster, R.; Chadwick, M. J.; Chen, Y.; Berron, D.; Banino,<br>A.; D�zel, E.; Hassabis, D.; and Kumaran, D. 2018. Big-<br>loop recurrence within the hippocampal system supports in-<br>tegration of information across episodes. Neuron, 99(6):<br>1342-1354.</p>",
+            "id": 113,
+            "page": 8,
+            "text": "Koster, R.; Chadwick, M. J.; Chen, Y.; Berron, D.; Banino, A.; D�zel, E.; Hassabis, D.; and Kumaran, D. 2018. Bigloop recurrence within the hippocampal system supports integration of information across episodes. Neuron, 99(6): 1342-1354."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 1515
+                },
+                {
+                    "x": 2330,
+                    "y": 1515
+                },
+                {
+                    "x": 2330,
+                    "y": 1695
+                },
+                {
+                    "x": 1326,
+                    "y": 1695
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='114' style='font-size:14px'>Kruijff, G.-J. M.; Zender, H.; Jensfelt, P.; and Christensen,<br>H. I. 2007. Situated dialogue and spatial organization: What,<br>where. · · and why? International Journal of Advanced<br>Robotic Systems.</p>",
+            "id": 114,
+            "page": 8,
+            "text": "Kruijff, G.-J. M.; Zender, H.; Jensfelt, P.; and Christensen, H. I. 2007. Situated dialogue and spatial organization: What, where. · · and why? International Journal of Advanced Robotic Systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1707
+                },
+                {
+                    "x": 2332,
+                    "y": 1707
+                },
+                {
+                    "x": 2332,
+                    "y": 1843
+                },
+                {
+                    "x": 1325,
+                    "y": 1843
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='115' style='font-size:14px'>Kumaran, D. ; and McClelland, J. L. 2012. Generalization<br>through the recurrent interaction of episodic memories: a<br>model of the hippocampal system. Psychological review.</p>",
+            "id": 115,
+            "page": 8,
+            "text": "Kumaran, D. ; and McClelland, J. L. 2012. Generalization through the recurrent interaction of episodic memories: a model of the hippocampal system. Psychological review."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1853
+                },
+                {
+                    "x": 2328,
+                    "y": 1853
+                },
+                {
+                    "x": 2328,
+                    "y": 1988
+                },
+                {
+                    "x": 1324,
+                    "y": 1988
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='116' style='font-size:16px'>Landsiedel, C.; Rieser, V.; Walter, M.; and Wollherr, D.<br>2017. A review of spatial reasoning and interaction for real-<br>world robotics. Advanced Robotics.</p>",
+            "id": 116,
+            "page": 8,
+            "text": "Landsiedel, C.; Rieser, V.; Walter, M.; and Wollherr, D. 2017. A review of spatial reasoning and interaction for realworld robotics. Advanced Robotics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1997
+                },
+                {
+                    "x": 2329,
+                    "y": 1997
+                },
+                {
+                    "x": 2329,
+                    "y": 2224
+                },
+                {
+                    "x": 1325,
+                    "y": 2224
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='117' style='font-size:18px'>Le, H.; Tran, T.; and Venkatesh, S. 2020. Self-Attentive As-<br>sociative Memory. In Proceedings of the 37th International<br>Conference on Machine Learning, ICML 2020, 13-18 July<br>2020, Virtual Event, volume 119 of Proceedings of Machine<br>Learning Research, 5682-5691. PMLR.</p>",
+            "id": 117,
+            "page": 8,
+            "text": "Le, H.; Tran, T.; and Venkatesh, S. 2020. Self-Attentive Associative Memory. In Proceedings of the 37th International Conference on Machine Learning, ICML 2020, 13-18 July 2020, Virtual Event, volume 119 of Proceedings of Machine Learning Research, 5682-5691. PMLR."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 2234
+                },
+                {
+                    "x": 2330,
+                    "y": 2234
+                },
+                {
+                    "x": 2330,
+                    "y": 2462
+                },
+                {
+                    "x": 1325,
+                    "y": 2462
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='118' style='font-size:18px'>Liu, F.; and Perez, J. 2017. Gated End-to-End Memory Net-<br>works. In Proceedings of the 15th Conference of the Euro-<br>pean Chapter of the Associationfor Computational Linguis-<br>tics: Volume 1, Long Papers. Valencia, Spain: Association<br>for Computational Linguistics.</p>",
+            "id": 118,
+            "page": 8,
+            "text": "Liu, F.; and Perez, J. 2017. Gated End-to-End Memory Networks. In Proceedings of the 15th Conference of the European Chapter of the Associationfor Computational Linguistics: Volume 1, Long Papers. Valencia, Spain: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 2471
+                },
+                {
+                    "x": 2329,
+                    "y": 2471
+                },
+                {
+                    "x": 2329,
+                    "y": 2745
+                },
+                {
+                    "x": 1324,
+                    "y": 2745
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='119' style='font-size:18px'>Mirzaee, R.; Faghihi, H. R.; Ning, Q.; and Kordjamshidi, P.<br>2021. SPARTQA: A Textual Question Answering Bench-<br>mark for Spatial Reasoning. In Proceedings of the 2021<br>Conference of the North American Chapter of the Associa-<br>tion for Computational Linguistics: Human Language Tech-<br>nologies, 4582-4598.</p>",
+            "id": 119,
+            "page": 8,
+            "text": "Mirzaee, R.; Faghihi, H. R.; Ning, Q.; and Kordjamshidi, P. 2021. SPARTQA: A Textual Question Answering Benchmark for Spatial Reasoning. In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, 4582-4598."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 2753
+                },
+                {
+                    "x": 2331,
+                    "y": 2753
+                },
+                {
+                    "x": 2331,
+                    "y": 2938
+                },
+                {
+                    "x": 1324,
+                    "y": 2938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='120' style='font-size:16px'>Palm, R. B.; Paquet, U.; and Winther, 0. 2018. Recur-<br>rent Relational Networks. In Bengio, S.; Wallach, H. M.;<br>Larochelle, H.; Grauman, K.; Cesa-Bianchi, N.; and Gar-<br>nett, R., eds., Advances in Neural Information Processing</p>",
+            "id": 120,
+            "page": 8,
+            "text": "Palm, R. B.; Paquet, U.; and Winther, 0. 2018. Recurrent Relational Networks. In Bengio, S.; Wallach, H. M.; Larochelle, H.; Grauman, K.; Cesa-Bianchi, N.; and Garnett, R., eds., Advances in Neural Information Processing"
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 231
+                },
+                {
+                    "x": 1222,
+                    "y": 231
+                },
+                {
+                    "x": 1222,
+                    "y": 367
+                },
+                {
+                    "x": 217,
+                    "y": 367
+                }
+            ],
+            "category": "paragraph",
+            "html": "<p id='121' style='font-size:16px'>Systems 31: Annual Conference on Neural Information Pro-<br>cessing Systems 2018, NeurIPS 2018, December 3-8, 2018,<br>Montreal, Canada, 3372-3382.</p>",
+            "id": 121,
+            "page": 9,
+            "text": "Systems 31: Annual Conference on Neural Information Processing Systems 2018, NeurIPS 2018, December 3-8, 2018, Montreal, Canada, 3372-3382."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 379
+                },
+                {
+                    "x": 1225,
+                    "y": 379
+                },
+                {
+                    "x": 1225,
+                    "y": 605
+                },
+                {
+                    "x": 218,
+                    "y": 605
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='122' style='font-size:18px'>Petruck, M. R. L.; and Ellsworth, M. J. 2018. Represent-<br>ing Spatial Relations in FrameNet. In Proceedings of the<br>First International Workshop on Spatial Language Under-<br>standing, 41-45. New Orleans: Association for Computa-<br>tional Linguistics.</p>",
+            "id": 122,
+            "page": 9,
+            "text": "Petruck, M. R. L.; and Ellsworth, M. J. 2018. Representing Spatial Relations in FrameNet. In Proceedings of the First International Workshop on Spatial Language Understanding, 41-45. New Orleans: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 616
+                },
+                {
+                    "x": 1221,
+                    "y": 616
+                },
+                {
+                    "x": 1221,
+                    "y": 708
+                },
+                {
+                    "x": 218,
+                    "y": 708
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='123' style='font-size:22px'>Pustejovsky, J. 1989. Language and Spatial Cognition. Com-<br>putational Linguistics, 15(3).</p>",
+            "id": 123,
+            "page": 9,
+            "text": "Pustejovsky, J. 1989. Language and Spatial Cognition. Computational Linguistics, 15(3)."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 718
+                },
+                {
+                    "x": 1223,
+                    "y": 718
+                },
+                {
+                    "x": 1223,
+                    "y": 946
+                },
+                {
+                    "x": 218,
+                    "y": 946
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='124' style='font-size:16px'>Pustejovsky, J. ; Kordjamshidi, P.; Moens, M.-F.; Levine, A.;<br>Dworman, S. ; and Yocum, Z. 2015. SemEval-2015 Task 8:<br>SpaceEval. In Proceedings of the 9th International Work-<br>shop on Semantic Evaluation (SemEval 2015). Denver, Col-<br>orado: Association for Computational Linguistics.</p>",
+            "id": 124,
+            "page": 9,
+            "text": "Pustejovsky, J. ; Kordjamshidi, P.; Moens, M.-F.; Levine, A.; Dworman, S. ; and Yocum, Z. 2015. SemEval-2015 Task 8: SpaceEval. In Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015). Denver, Colorado: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 957
+                },
+                {
+                    "x": 1225,
+                    "y": 957
+                },
+                {
+                    "x": 1225,
+                    "y": 1365
+                },
+                {
+                    "x": 218,
+                    "y": 1365
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='125' style='font-size:16px'>Santoro, A.; Raposo, D.; Barrett, D. G. T.; Malinowski, M.;<br>Pascanu, R.; Battaglia, P. W.; and Lillicrap, T. 2017. A<br>simple neural network module for relational reasoning. In<br>Guyon, I.; von Luxburg, U. ; Bengio, S.; Wallach, H. M.;<br>Fergus, R.; Vishwanathan, S. V. N.; and Garnett, R., eds.,<br>Advances in Neural Information Processing Systems 30: An-<br>nual Conference on Neural Information Processing Systems<br>2017, December 4-9, 2017, Long Beach, CA, USA, 4967-<br>4976.</p>",
+            "id": 125,
+            "page": 9,
+            "text": "Santoro, A.; Raposo, D.; Barrett, D. G. T.; Malinowski, M.; Pascanu, R.; Battaglia, P. W.; and Lillicrap, T. 2017. A simple neural network module for relational reasoning. In Guyon, I.; von Luxburg, U. ; Bengio, S.; Wallach, H. M.; Fergus, R.; Vishwanathan, S. V. N.; and Garnett, R., eds., Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4-9, 2017, Long Beach, CA, USA, 49674976."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 1377
+                },
+                {
+                    "x": 1225,
+                    "y": 1377
+                },
+                {
+                    "x": 1225,
+                    "y": 1651
+                },
+                {
+                    "x": 217,
+                    "y": 1651
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='126' style='font-size:18px'>Schapiro, A. C.; Turk-Browne, N. B.; Botvinick, M. M.;<br>and Norman, K. A. 2017. Complementary learning systems<br>within the hippocampus: a neural network modelling ap-<br>proach to reconciling episodic memory with statistical learn-<br>ing. Philosophical Transactions of the Royal Society B: Bi-<br>ological Sciences.</p>",
+            "id": 126,
+            "page": 9,
+            "text": "Schapiro, A. C.; Turk-Browne, N. B.; Botvinick, M. M.; and Norman, K. A. 2017. Complementary learning systems within the hippocampus: a neural network modelling approach to reconciling episodic memory with statistical learning. Philosophical Transactions of the Royal Society B: Biological Sciences."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1661
+                },
+                {
+                    "x": 1221,
+                    "y": 1661
+                },
+                {
+                    "x": 1221,
+                    "y": 1845
+                },
+                {
+                    "x": 218,
+                    "y": 1845
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='127' style='font-size:18px'>Schlag, I.; Munkhdalai, T.; and Schmidhuber, J. 2021.<br>Learning Associative Inference Using Fast Weight Memory.<br>In 9th International Conference on Learning Representa-<br>tions, ICLR 2021, Virtual Event, Austria, May 3-7, 2021.</p>",
+            "id": 127,
+            "page": 9,
+            "text": "Schlag, I.; Munkhdalai, T.; and Schmidhuber, J. 2021. Learning Associative Inference Using Fast Weight Memory. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 1856
+                },
+                {
+                    "x": 1224,
+                    "y": 1856
+                },
+                {
+                    "x": 1224,
+                    "y": 2173
+                },
+                {
+                    "x": 218,
+                    "y": 2173
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='128' style='font-size:16px'>Schlag, I.; and Schmidhuber, J. 2018. Learning to Reason<br>with Third Order Tensor Products. In Bengio, S. ; Wallach,<br>H. M.; Larochelle, H.; Grauman, K.; Cesa-Bianchi, N.; and<br>Garnett, R., eds., Advances in Neural Information Process-<br>ing Systems 31: Annual Conference on Neural Information<br>Processing Systems 2018, NeurIPS 2018, December 3-8,<br>2018, Montreal, Canada, 10003-10014.</p>",
+            "id": 128,
+            "page": 9,
+            "text": "Schlag, I.; and Schmidhuber, J. 2018. Learning to Reason with Third Order Tensor Products. In Bengio, S. ; Wallach, H. M.; Larochelle, H.; Grauman, K.; Cesa-Bianchi, N.; and Garnett, R., eds., Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems 2018, NeurIPS 2018, December 3-8, 2018, Montreal, Canada, 10003-10014."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 2184
+                },
+                {
+                    "x": 1225,
+                    "y": 2184
+                },
+                {
+                    "x": 1225,
+                    "y": 2320
+                },
+                {
+                    "x": 217,
+                    "y": 2320
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='129' style='font-size:18px'>Smolensky, P. 1990. Tensor product variable binding and the<br>representation of symbolic structures in connectionist sys-<br>tems. Artificial intelligence, 46(1-2): 159-216.</p>",
+            "id": 129,
+            "page": 9,
+            "text": "Smolensky, P. 1990. Tensor product variable binding and the representation of symbolic structures in connectionist systems. Artificial intelligence, 46(1-2): 159-216."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 217,
+                    "y": 2332
+                },
+                {
+                    "x": 1224,
+                    "y": 2332
+                },
+                {
+                    "x": 1224,
+                    "y": 2561
+                },
+                {
+                    "x": 217,
+                    "y": 2561
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='130' style='font-size:18px'>Sukhbaatar, S.; Szlam, A.; Weston, J.; and Fergus, R. 2015.<br>End-To-End Memory Networks. In Advances in Neural In-<br>formation Processing Systems 28: Annual Conference on<br>Neural Information Processing Systems 2015, December 7-<br>12, 2015, Montreal, Quebec, Canada, 2440-2448.</p>",
+            "id": 130,
+            "page": 9,
+            "text": "Sukhbaatar, S.; Szlam, A.; Weston, J.; and Fergus, R. 2015. End-To-End Memory Networks. In Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 712, 2015, Montreal, Quebec, Canada, 2440-2448."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 218,
+                    "y": 2569
+                },
+                {
+                    "x": 1226,
+                    "y": 2569
+                },
+                {
+                    "x": 1226,
+                    "y": 2938
+                },
+                {
+                    "x": 218,
+                    "y": 2938
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='131' style='font-size:18px'>Talmor, A.; and Berant, J. 2018. The Web as a Knowledge-<br>Base for Answering Complex Questions. In Walker, M. A.;<br>Ji, H.; and Stent, A., eds., Proceedings of the 2018 Confer-<br>ence of the North American Chapter of the Association for<br>Computational Linguistics: Human Language Technologies,<br>NAACL-HLT 2018, New Orleans, Louisiana, USA, June 1-<br>6, 2018, Volume 1 (Long Papers), 641-651. Association for<br>Computational Linguistics.</p>",
+            "id": 131,
+            "page": 9,
+            "text": "Talmor, A.; and Berant, J. 2018. The Web as a KnowledgeBase for Answering Complex Questions. In Walker, M. A.; Ji, H.; and Stent, A., eds., Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, NAACL-HLT 2018, New Orleans, Louisiana, USA, June 16, 2018, Volume 1 (Long Papers), 641-651. Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 229
+                },
+                {
+                    "x": 2332,
+                    "y": 229
+                },
+                {
+                    "x": 2332,
+                    "y": 643
+                },
+                {
+                    "x": 1323,
+                    "y": 643
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='132' style='font-size:18px'>Tan, H.; and Bansal, M. 2018. Source-Target Inference<br>Models for Spatial Instruction Understanding. In Mcll-<br>raith, S. A.; and Weinberger, K. Q., eds., Proceedings of the<br>Thirty-Second AAAI Conference on Artificial Intelligence,<br>(AAAI-18), the 30th innovative Applications of Artificial In-<br>telligence (IAAI-18), and the 8th AAAI Symposium on Edu-<br>cational Advances in Artificial Intelligence (EAAI-18), New<br>Orleans, Louisiana, USA, February 2-7, 2018, 5504-5511.<br>AAAI Press.</p>",
+            "id": 132,
+            "page": 9,
+            "text": "Tan, H.; and Bansal, M. 2018. Source-Target Inference Models for Spatial Instruction Understanding. In Mcllraith, S. A.; and Weinberger, K. Q., eds., Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI-18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February 2-7, 2018, 5504-5511. AAAI Press."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1326,
+                    "y": 654
+                },
+                {
+                    "x": 2329,
+                    "y": 654
+                },
+                {
+                    "x": 2329,
+                    "y": 742
+                },
+                {
+                    "x": 1326,
+                    "y": 742
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='133' style='font-size:14px'>Tversky, B. 2019. Mind in motion: How action shapes<br>thought. Hachette UK.</p>",
+            "id": 133,
+            "page": 9,
+            "text": "Tversky, B. 2019. Mind in motion: How action shapes thought. Hachette UK."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 756
+                },
+                {
+                    "x": 2330,
+                    "y": 756
+                },
+                {
+                    "x": 2330,
+                    "y": 982
+                },
+                {
+                    "x": 1325,
+                    "y": 982
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='134' style='font-size:16px'>van Aken, B.; Winter, B.; Loser, A.; and Gers, F. A. 2019.<br>How Does BERT Answer Questions?: A Layer-Wise Anal-<br>ysis of Transformer Representations. In Proceedings of<br>the 28th ACM International Conference on Information and<br>Knowledge Management, CIKM.</p>",
+            "id": 134,
+            "page": 9,
+            "text": "van Aken, B.; Winter, B.; Loser, A.; and Gers, F. A. 2019. How Does BERT Answer Questions?: A Layer-Wise Analysis of Transformer Representations. In Proceedings of the 28th ACM International Conference on Information and Knowledge Management, CIKM."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 993
+                },
+                {
+                    "x": 2330,
+                    "y": 993
+                },
+                {
+                    "x": 2330,
+                    "y": 1222
+                },
+                {
+                    "x": 1324,
+                    "y": 1222
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='135' style='font-size:16px'>Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones,<br>L.; Gomez, A. N.; Kaiser, L.; and Polosukhin, I. 2017. At-<br>tention is All you Need. In Advances in Neural Information<br>Processing Systems 30: Annual Conference on Neural Infor-<br>mation Processing Systems.</p>",
+            "id": 135,
+            "page": 9,
+            "text": "Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.; Gomez, A. N.; Kaiser, L.; and Polosukhin, I. 2017. Attention is All you Need. In Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1231
+                },
+                {
+                    "x": 2330,
+                    "y": 1231
+                },
+                {
+                    "x": 2330,
+                    "y": 1461
+                },
+                {
+                    "x": 1325,
+                    "y": 1461
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='136' style='font-size:18px'>Velickovic, P.; Cucurull, G.; Casanova, A.; Romero, A. ; Lio,<br>P.; and Bengio, Y. 2018. Graph Attention Networks. In<br>6th International Conference on Learning Representations,<br>ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018,<br>Conference Track Proceedings. OpenReview.net.</p>",
+            "id": 136,
+            "page": 9,
+            "text": "Velickovic, P.; Cucurull, G.; Casanova, A.; Romero, A. ; Lio, P.; and Bengio, Y. 2018. Graph Attention Networks. In 6th International Conference on Learning Representations, ICLR 2018, Vancouver, BC, Canada, April 30 - May 3, 2018, Conference Track Proceedings. OpenReview.net."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 1471
+                },
+                {
+                    "x": 2331,
+                    "y": 1471
+                },
+                {
+                    "x": 2331,
+                    "y": 1698
+                },
+                {
+                    "x": 1325,
+                    "y": 1698
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='137' style='font-size:18px'>Vogel, A.; and Jurafsky, D. 2010. Learning to Follow Nav-<br>igational Directions. In Proceedings of the 48th Annual<br>Meeting of the Association for Computational Linguistics,<br>806-814. Uppsala, Sweden: Association for Computational<br>Linguistics.</p>",
+            "id": 137,
+            "page": 9,
+            "text": "Vogel, A.; and Jurafsky, D. 2010. Learning to Follow Navigational Directions. In Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics, 806-814. Uppsala, Sweden: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1709
+                },
+                {
+                    "x": 2331,
+                    "y": 1709
+                },
+                {
+                    "x": 2331,
+                    "y": 1891
+                },
+                {
+                    "x": 1324,
+                    "y": 1891
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='138' style='font-size:18px'>Welbl, J.; Stenetorp, P.; and Riedel, S. 2018. Constructing<br>datasets for multi-hop reading comprehension across docu-<br>ments. Transactions of the Association for Computational<br>Linguistics, 6: 287-302.</p>",
+            "id": 138,
+            "page": 9,
+            "text": "Welbl, J.; Stenetorp, P.; and Riedel, S. 2018. Constructing datasets for multi-hop reading comprehension across documents. Transactions of the Association for Computational Linguistics, 6: 287-302."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1324,
+                    "y": 1901
+                },
+                {
+                    "x": 2331,
+                    "y": 1901
+                },
+                {
+                    "x": 2331,
+                    "y": 2175
+                },
+                {
+                    "x": 1324,
+                    "y": 2175
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='139' style='font-size:18px'>Weston, J.; Bordes, A.; Chopra, S.; and Mikolov, T. 2016.<br>Towards AI-Complete Question Answering: A Set of Pre-<br>requisite Toy Tasks. In Bengio, Y.; and LeCun, Y., eds.,<br>4th International Conference on Learning Representations,<br>ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Confer-<br>ence Track Proceedings.</p>",
+            "id": 139,
+            "page": 9,
+            "text": "Weston, J.; Bordes, A.; Chopra, S.; and Mikolov, T. 2016. Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks. In Bengio, Y.; and LeCun, Y., eds., 4th International Conference on Learning Representations, ICLR 2016, San Juan, Puerto Rico, May 2-4, 2016, Conference Track Proceedings."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1325,
+                    "y": 2186
+                },
+                {
+                    "x": 2331,
+                    "y": 2186
+                },
+                {
+                    "x": 2331,
+                    "y": 2414
+                },
+                {
+                    "x": 1325,
+                    "y": 2414
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='140' style='font-size:20px'>Yang, T.-Y.; Lan, A.; and Narasimhan, K. 2020. Robust and<br>Interpretable Grounding of Spatial References with Relation<br>Networks. In Findings of the Association for Computational<br>Linguistics: EMNLP 2020, 1908-1923. Online: Association<br>for Computational Linguistics.</p>",
+            "id": 140,
+            "page": 9,
+            "text": "Yang, T.-Y.; Lan, A.; and Narasimhan, K. 2020. Robust and Interpretable Grounding of Spatial References with Relation Networks. In Findings of the Association for Computational Linguistics: EMNLP 2020, 1908-1923. Online: Association for Computational Linguistics."
+        },
+        {
+            "bounding_box": [
+                {
+                    "x": 1323,
+                    "y": 2423
+                },
+                {
+                    "x": 2332,
+                    "y": 2423
+                },
+                {
+                    "x": 2332,
+                    "y": 2747
+                },
+                {
+                    "x": 1323,
+                    "y": 2747
+                }
+            ],
+            "category": "paragraph",
+            "html": "<br><p id='141' style='font-size:18px'>Yang, Z.; Qi, P.; Zhang, S.; Bengio, Y.; Cohen, W. W.;<br>Salakhutdinov, R.; and Manning, C. D. 2018. HotpotQA:<br>A Dataset for Diverse, Explainable Multi-hop Question An-<br>swering. In Proceedings of the 2018 Conference on Em-<br>pirical Methods in Natural Language Processing, Brussels,<br>Belgium, October 31 - November 4, 2018, 2369-2380. As-<br>sociation for Computational Linguistics.</p>",
+            "id": 141,
+            "page": 9,
+            "text": "Yang, Z.; Qi, P.; Zhang, S.; Bengio, Y.; Cohen, W. W.; Salakhutdinov, R.; and Manning, C. D. 2018. HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering. In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018, 2369-2380. Association for Computational Linguistics."
+        }
+    ]
+}

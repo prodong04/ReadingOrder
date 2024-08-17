@@ -1,0 +1,3756 @@
+{
+  "id": "62a883ac-0f92-11ef-8230-426932df3dcf",
+  "pdf_path": "./pdf/AI_VIT_O/1809.10853v3.pdf",
+  "elements": [
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 330
+        },
+        {
+          "x": 1597,
+          "y": 330
+        },
+        {
+          "x": 1597,
+          "y": 485
+        },
+        {
+          "x": 444,
+          "y": 485
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='0' style='font-size:22px'>ADAPTIVE INPUT REPRESENTATIONS<br>FOR NEURAL LANGUAGE MODELING</p>",
+      "id": 0,
+      "page": 1,
+      "text": "ADAPTIVE INPUT REPRESENTATIONS\nFOR NEURAL LANGUAGE MODELING"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 467,
+          "y": 565
+        },
+        {
+          "x": 1020,
+          "y": 565
+        },
+        {
+          "x": 1020,
+          "y": 704
+        },
+        {
+          "x": 467,
+          "y": 704
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='1' style='font-size:18px'>Alexei Baevski & Michael Auli<br>Facebook AI Research,<br>Menlo Park, CA, USA</p>",
+      "id": 1,
+      "page": 1,
+      "text": "Alexei Baevski & Michael Auli\nFacebook AI Research,\nMenlo Park, CA, USA"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1154,
+          "y": 828
+        },
+        {
+          "x": 1396,
+          "y": 828
+        },
+        {
+          "x": 1396,
+          "y": 875
+        },
+        {
+          "x": 1154,
+          "y": 875
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='2' style='font-size:20px'>ABSTRACT</p>",
+      "id": 2,
+      "page": 1,
+      "text": "ABSTRACT"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 589,
+          "y": 929
+        },
+        {
+          "x": 1962,
+          "y": 929
+        },
+        {
+          "x": 1962,
+          "y": 1395
+        },
+        {
+          "x": 589,
+          "y": 1395
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='3' style='font-size:16px'>We introduce adaptive input representations for neural language modeling which<br>extend the adaptive softmax of Grave et al. (2017) to input representations of vari-<br>able capacity. There are several choices on how to factorize the input and output<br>layers, and whether to model words, characters or sub-word units. We perform a<br>systematic comparison of popular choices for a self-attentional architecture. Our<br>experiments show that models equipped with adaptive embeddings are more than<br>twice as fast to train than the popular character input CNN while having a lower<br>number of parameters. On the WIKITEXT-103 benchmark we achieve 18.7 per-<br>plexity, an improvement of 10.5 perplexity compared to the previously best pub-<br>lished result and on the BILLION WORD benchmark, we achieve 23.02 perplexity.1</p>",
+      "id": 3,
+      "page": 1,
+      "text": "We introduce adaptive input representations for neural language modeling which\nextend the adaptive softmax of Grave et al. (2017) to input representations of vari-\nable capacity. There are several choices on how to factorize the input and output\nlayers, and whether to model words, characters or sub-word units. We perform a\nsystematic comparison of popular choices for a self-attentional architecture. Our\nexperiments show that models equipped with adaptive embeddings are more than\ntwice as fast to train than the popular character input CNN while having a lower\nnumber of parameters. On the WIKITEXT-103 benchmark we achieve 18.7 per-\nplexity, an improvement of 10.5 perplexity compared to the previously best pub-\nlished result and on the BILLION WORD benchmark, we achieve 23.02 perplexity.1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 448,
+          "y": 1484
+        },
+        {
+          "x": 864,
+          "y": 1484
+        },
+        {
+          "x": 864,
+          "y": 1537
+        },
+        {
+          "x": 448,
+          "y": 1537
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='4' style='font-size:20px'>1 INTRODUCTION</p>",
+      "id": 4,
+      "page": 1,
+      "text": "1 INTRODUCTION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1587
+        },
+        {
+          "x": 2109,
+          "y": 1587
+        },
+        {
+          "x": 2109,
+          "y": 1819
+        },
+        {
+          "x": 443,
+          "y": 1819
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='5' style='font-size:18px'>Language modeling is a basic task in natural language processing, with many applications such as<br>speech recognition (Arisoy et al., 2012) and statistical machine translation (Schwenk et al., 2012;<br>Vaswani et al., 2013; Baltescu & Blunsom, 2015). Recently, much progress has been made by neural<br>methods (Bengio et al., 2003; Mikolov et al., 2010) based on LSTMs (Jozefowicz et al., 2016), gated<br>convolutional networks (Dauphin et al., 2017) and self-attentional networks (Al-Rfou et al., 2018).</p>",
+      "id": 5,
+      "page": 1,
+      "text": "Language modeling is a basic task in natural language processing, with many applications such as\nspeech recognition (Arisoy et al., 2012) and statistical machine translation (Schwenk et al., 2012;\nVaswani et al., 2013; Baltescu & Blunsom, 2015). Recently, much progress has been made by neural\nmethods (Bengio et al., 2003; Mikolov et al., 2010) based on LSTMs (Jozefowicz et al., 2016), gated\nconvolutional networks (Dauphin et al., 2017) and self-attentional networks (Al-Rfou et al., 2018)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1841
+        },
+        {
+          "x": 2109,
+          "y": 1841
+        },
+        {
+          "x": 2109,
+          "y": 2073
+        },
+        {
+          "x": 442,
+          "y": 2073
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='6' style='font-size:18px'>There are different choices for the basic unit we wish to model, including full words (Bengio et al.,<br>2003), characters for the input (Kim et al., 2016), or also the output (Merity et al., 2018) as well as<br>sub-words (Buckman & Neubig, 2018; Mielke & Eisner, 2018). Word-based models are particularly<br>challenging since computing probabilities for all 800K words of the BILLION WORD benchmark is<br>still a substantial part of the overall computation (Chen et al., 2016).</p>",
+      "id": 6,
+      "page": 1,
+      "text": "There are different choices for the basic unit we wish to model, including full words (Bengio et al.,\n2003), characters for the input (Kim et al., 2016), or also the output (Merity et al., 2018) as well as\nsub-words (Buckman & Neubig, 2018; Mielke & Eisner, 2018). Word-based models are particularly\nchallenging since computing probabilities for all 800K words of the BILLION WORD benchmark is\nstill a substantial part of the overall computation (Chen et al., 2016)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2094
+        },
+        {
+          "x": 2109,
+          "y": 2094
+        },
+        {
+          "x": 2109,
+          "y": 2372
+        },
+        {
+          "x": 442,
+          "y": 2372
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='7' style='font-size:16px'>A popular approach to lower the computational burden is to structure the output vocabulary SO that<br>not all probabilities need to be computed. The hierarchical softmax does this by introducing latent<br>variables or clusters to simplify normalization (Goodman, 2001; Morin & Bengio, 2005; Mikolov<br>et al., 2011). This has been further improved by the adaptive softmax which introduces a variable<br>capacity scheme for output word embeddings, assigning more parameters to frequent words and<br>fewer parameters to rare words (Grave et al., 2017).</p>",
+      "id": 7,
+      "page": 1,
+      "text": "A popular approach to lower the computational burden is to structure the output vocabulary SO that\nnot all probabilities need to be computed. The hierarchical softmax does this by introducing latent\nvariables or clusters to simplify normalization (Goodman, 2001; Morin & Bengio, 2005; Mikolov\net al., 2011). This has been further improved by the adaptive softmax which introduces a variable\ncapacity scheme for output word embeddings, assigning more parameters to frequent words and\nfewer parameters to rare words (Grave et al., 2017)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2392
+        },
+        {
+          "x": 2109,
+          "y": 2392
+        },
+        {
+          "x": 2109,
+          "y": 2718
+        },
+        {
+          "x": 442,
+          "y": 2718
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='8' style='font-size:16px'>In this paper, we introduce adaptive input embeddings which extend the adaptive softmax to input<br>word representations. This factorization assigns more capacity to frequent words and reduces the<br>capacity for less frequent words with the benefit of reducing overfitting to rare words. For a com-<br>petitive setup on the BILLION WORD benchmark, adaptive input embeddings reduce the number<br>of parameters in the input and output layers by 23% while achieving higher accuracy over fixed<br>size embeddings. When the adaptive input representations are tied with an adaptive softmax in the<br>output, then the number of parameters is reduced by a total of 61%.</p>",
+      "id": 8,
+      "page": 1,
+      "text": "In this paper, we introduce adaptive input embeddings which extend the adaptive softmax to input\nword representations. This factorization assigns more capacity to frequent words and reduces the\ncapacity for less frequent words with the benefit of reducing overfitting to rare words. For a com-\npetitive setup on the BILLION WORD benchmark, adaptive input embeddings reduce the number\nof parameters in the input and output layers by 23% while achieving higher accuracy over fixed\nsize embeddings. When the adaptive input representations are tied with an adaptive softmax in the\noutput, then the number of parameters is reduced by a total of 61%."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2738
+        },
+        {
+          "x": 2110,
+          "y": 2738
+        },
+        {
+          "x": 2110,
+          "y": 2972
+        },
+        {
+          "x": 442,
+          "y": 2972
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='9' style='font-size:16px'>Our experiments compare models based on word inputs, character inputs, as well as sub-word units<br>using a self-attention architecture (Vaswani et al., 2017). We show that models with adaptive word<br>representations can outperform very strong character-based models while training more than twice<br>as fast. We also substantially improve adaptive softmax by introducing additional dropout regular-<br>ization in the tail projection. On the WIKITEXT- 103 benchmark we achieve a perplexity of 18.7, a</p>",
+      "id": 9,
+      "page": 1,
+      "text": "Our experiments compare models based on word inputs, character inputs, as well as sub-word units\nusing a self-attention architecture (Vaswani et al., 2017). We show that models with adaptive word\nrepresentations can outperform very strong character-based models while training more than twice\nas fast. We also substantially improve adaptive softmax by introducing additional dropout regular-\nization in the tail projection. On the WIKITEXT- 103 benchmark we achieve a perplexity of 18.7, a"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 501,
+          "y": 3007
+        },
+        {
+          "x": 1882,
+          "y": 3007
+        },
+        {
+          "x": 1882,
+          "y": 3053
+        },
+        {
+          "x": 501,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='10' style='font-size:16px'>1Code and pre-trained models available at http : / / github · com/ pytorch/ fairseq</p>",
+      "id": 10,
+      "page": 1,
+      "text": "1Code and pre-trained models available at http : / / github · com/ pytorch/ fairseq"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 63,
+          "y": 881
+        },
+        {
+          "x": 149,
+          "y": 881
+        },
+        {
+          "x": 149,
+          "y": 2342
+        },
+        {
+          "x": 63,
+          "y": 2342
+        }
+      ],
+      "category": "footer",
+      "html": "<br><footer id='11' style='font-size:14px'>2019<br>Feb<br>22<br>[cs.CL]<br>arXiv:1809.10853v3</footer>",
+      "id": 11,
+      "page": 1,
+      "text": "2019\nFeb\n22\n[cs.CL]\narXiv:1809.10853v3"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1262,
+          "y": 3132
+        },
+        {
+          "x": 1289,
+          "y": 3132
+        },
+        {
+          "x": 1289,
+          "y": 3172
+        },
+        {
+          "x": 1262,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='12' style='font-size:14px'>1</footer>",
+      "id": 12,
+      "page": 1,
+      "text": "1"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 771,
+          "y": 342
+        },
+        {
+          "x": 1778,
+          "y": 342
+        },
+        {
+          "x": 1778,
+          "y": 1094
+        },
+        {
+          "x": 771,
+          "y": 1094
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='13' style='font-size:14px' alt=\"Model\n↑\nd\nd d → d\nkn-1\n·\nLinear\nLinear\nd\nd ···\nkn-1\nVn\nV1\nthe little dog\" data-coord=\"top-left:(771,342); bottom-right:(1778,1094)\" /></figure>",
+      "id": 13,
+      "page": 2,
+      "text": "Model\n↑\nd\nd d → d\nkn-1\n·\nLinear\nLinear\nd\nd ···\nkn-1\nVn\nV1\nthe little dog"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 439,
+          "y": 1132
+        },
+        {
+          "x": 2110,
+          "y": 1132
+        },
+        {
+          "x": 2110,
+          "y": 1276
+        },
+        {
+          "x": 439,
+          "y": 1276
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='14' style='font-size:16px'>Figure 1: Illustration of adaptive input representations. Words are assigned to clusters Vi based on<br>their frequency which determines the size of the representations. Embeddings are projected to a<br>common dimension d before being fed to the model.</caption>",
+      "id": 14,
+      "page": 2,
+      "text": "Figure 1: Illustration of adaptive input representations. Words are assigned to clusters Vi based on\ntheir frequency which determines the size of the representations. Embeddings are projected to a\ncommon dimension d before being fed to the model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1356
+        },
+        {
+          "x": 2107,
+          "y": 1356
+        },
+        {
+          "x": 2107,
+          "y": 1499
+        },
+        {
+          "x": 441,
+          "y": 1499
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='15' style='font-size:18px'>reduction of 10.5 perplexity over the previously best published result. On the larger BILLION WORD<br>benchmark our best model with adaptive input embeddings achieves 23.02 perplexity, a reduction<br>of nearly 5 perplexity over the next best previously published result.</p>",
+      "id": 15,
+      "page": 2,
+      "text": "reduction of 10.5 perplexity over the previously best published result. On the larger BILLION WORD\nbenchmark our best model with adaptive input embeddings achieves 23.02 perplexity, a reduction\nof nearly 5 perplexity over the next best previously published result."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 1561
+        },
+        {
+          "x": 885,
+          "y": 1561
+        },
+        {
+          "x": 885,
+          "y": 1614
+        },
+        {
+          "x": 444,
+          "y": 1614
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='16' style='font-size:20px'>2 RELATED WORK</p>",
+      "id": 16,
+      "page": 2,
+      "text": "2 RELATED WORK"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1663
+        },
+        {
+          "x": 2108,
+          "y": 1663
+        },
+        {
+          "x": 2108,
+          "y": 1848
+        },
+        {
+          "x": 442,
+          "y": 1848
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='17' style='font-size:16px'>Adaptive word representations are inspired by the adaptive softmax work Grave et al. (2017) which<br>first described a GPU friendly way to construct a hierarchical softmax and showed that it performs<br>very competitively compared to a full softmax, while offering significantly faster speed and a lower<br>memory footprint.</p>",
+      "id": 17,
+      "page": 2,
+      "text": "Adaptive word representations are inspired by the adaptive softmax work Grave et al. (2017) which\nfirst described a GPU friendly way to construct a hierarchical softmax and showed that it performs\nvery competitively compared to a full softmax, while offering significantly faster speed and a lower\nmemory footprint."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1871
+        },
+        {
+          "x": 2108,
+          "y": 1871
+        },
+        {
+          "x": 2108,
+          "y": 2103
+        },
+        {
+          "x": 441,
+          "y": 2103
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='18' style='font-size:16px'>Merity et al. (2018) use a modified version of adaptive softmax which does not reduce the dimen-<br>sionality of less frequent words in order to be able to share output embeddings with the input. This<br>setup is akin to a hierarchical softmax with tied weights. We show that variable-sized input embed-<br>dings can perform better than fixed sized embeddings. Furthermore, this also enables weight sharing<br>with an adaptive softmax output layer.</p>",
+      "id": 18,
+      "page": 2,
+      "text": "Merity et al. (2018) use a modified version of adaptive softmax which does not reduce the dimen-\nsionality of less frequent words in order to be able to share output embeddings with the input. This\nsetup is akin to a hierarchical softmax with tied weights. We show that variable-sized input embed-\ndings can perform better than fixed sized embeddings. Furthermore, this also enables weight sharing\nwith an adaptive softmax output layer."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2124
+        },
+        {
+          "x": 2109,
+          "y": 2124
+        },
+        {
+          "x": 2109,
+          "y": 2403
+        },
+        {
+          "x": 441,
+          "y": 2403
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='19' style='font-size:16px'>Merity et al. (2018) evaluates both character-based and word-based factorizations but does not di-<br>rectly compare them to each other. We perform a direct comparison of word-based and character-<br>based input vocabularies and also compare to a sub-word factorization for both the input and output.<br>Recently, Al-Rfou et al. (2018) demonstrated that self-attentional models can perform very well on<br>language modeling tasks where the input and output is both characters. We also consider word-based<br>benchmarks.</p>",
+      "id": 19,
+      "page": 2,
+      "text": "Merity et al. (2018) evaluates both character-based and word-based factorizations but does not di-\nrectly compare them to each other. We perform a direct comparison of word-based and character-\nbased input vocabularies and also compare to a sub-word factorization for both the input and output.\nRecently, Al-Rfou et al. (2018) demonstrated that self-attentional models can perform very well on\nlanguage modeling tasks where the input and output is both characters. We also consider word-based\nbenchmarks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2466
+        },
+        {
+          "x": 1318,
+          "y": 2466
+        },
+        {
+          "x": 1318,
+          "y": 2519
+        },
+        {
+          "x": 444,
+          "y": 2519
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='20' style='font-size:22px'>3 ADAPTIVE INPUT REPRESENTATIONS</p>",
+      "id": 20,
+      "page": 2,
+      "text": "3 ADAPTIVE INPUT REPRESENTATIONS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2566
+        },
+        {
+          "x": 2108,
+          "y": 2566
+        },
+        {
+          "x": 2108,
+          "y": 2754
+        },
+        {
+          "x": 441,
+          "y": 2754
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='21' style='font-size:18px'>The adaptive softmax exploits the fact that the distribution of word types in natural language follows<br>a Zipfian distribution in order to improve the computation of the output probabilities. We apply the<br>same intuition for input word embeddings with the motivation to reduce the number of parameters<br>which frees up capacity for other parts of the model.</p>",
+      "id": 21,
+      "page": 2,
+      "text": "The adaptive softmax exploits the fact that the distribution of word types in natural language follows\na Zipfian distribution in order to improve the computation of the output probabilities. We apply the\nsame intuition for input word embeddings with the motivation to reduce the number of parameters\nwhich frees up capacity for other parts of the model."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2777
+        },
+        {
+          "x": 2109,
+          "y": 2777
+        },
+        {
+          "x": 2109,
+          "y": 3053
+        },
+        {
+          "x": 441,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='22' style='font-size:14px'>We define a number of clusters that partitions the frequency ordered vocabulary V = V1 U<br>V2, · · · , Vn-1 U Vn such that Vi N Vj = 0 for Vi,j, and i ≠ j, where V1 contains the most fre-<br>quent words and Vn the least frequent words. We will refer to V1 as the head and to any subsequent<br>clusters loosely as tail. We reduce the capacity for each cluster by a factor of k. That is, if words<br>in V1 have dimension d, then words in Vn have dimension d<br>kn-1· We typically set k = 4 following<br>Grave et al. (2017).</p>",
+      "id": 22,
+      "page": 2,
+      "text": "We define a number of clusters that partitions the frequency ordered vocabulary V = V1 U\nV2, · · · , Vn-1 U Vn such that Vi N Vj = 0 for Vi,j, and i ≠ j, where V1 contains the most fre-\nquent words and Vn the least frequent words. We will refer to V1 as the head and to any subsequent\nclusters loosely as tail. We reduce the capacity for each cluster by a factor of k. That is, if words\nin V1 have dimension d, then words in Vn have dimension d\nkn-1· We typically set k = 4 following\nGrave et al. (2017)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1259,
+          "y": 3133
+        },
+        {
+          "x": 1290,
+          "y": 3133
+        },
+        {
+          "x": 1290,
+          "y": 3171
+        },
+        {
+          "x": 1259,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='23' style='font-size:16px'>2</footer>",
+      "id": 23,
+      "page": 2,
+      "text": "2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 342
+        },
+        {
+          "x": 2109,
+          "y": 342
+        },
+        {
+          "x": 2109,
+          "y": 487
+        },
+        {
+          "x": 442,
+          "y": 487
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='24' style='font-size:14px'>Next, we add linear projections W1 E Rdxd Wn E Rd/kn-1xd<br>to map the embeddings of each<br>, · · · ,<br>cluster to dimension d so that the concatenated output of the adaptive input embedding layer can be<br>easily used by the subsequent model (Figure 1). We also project V1 which already has dimension d.</p>",
+      "id": 24,
+      "page": 3,
+      "text": "Next, we add linear projections W1 E Rdxd Wn E Rd/kn-1xd\nto map the embeddings of each\n, · · · ,\ncluster to dimension d so that the concatenated output of the adaptive input embedding layer can be\neasily used by the subsequent model (Figure 1). We also project V1 which already has dimension d."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 509
+        },
+        {
+          "x": 2108,
+          "y": 509
+        },
+        {
+          "x": 2108,
+          "y": 649
+        },
+        {
+          "x": 443,
+          "y": 649
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='25' style='font-size:20px'>When presented with a number of input words, the adaptive input embedding layer partitions the<br>words into the various clusters, performs separate lookups in the embedding tables and then projects<br>to dimension d, followed by concatenating the embeddings in the original order.</p>",
+      "id": 25,
+      "page": 3,
+      "text": "When presented with a number of input words, the adaptive input embedding layer partitions the\nwords into the various clusters, performs separate lookups in the embedding tables and then projects\nto dimension d, followed by concatenating the embeddings in the original order."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 703
+        },
+        {
+          "x": 2108,
+          "y": 703
+        },
+        {
+          "x": 2108,
+          "y": 983
+        },
+        {
+          "x": 442,
+          "y": 983
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='26' style='font-size:16px'>Weight sharing. When the output layer is an adaptive softmax with the same partition of V, d,<br>and k as the adaptive input layer, then we can tie the weights (Inan et al., 2016; Press & Wolf,<br>2017). This further reduces the number of parameters and can simultaneously improve performance<br>(§5). We can share both the parameters for the actual words as well as the projections W1, · · · , Wn<br>Sharing the word embeddings is straightforward except for the head where the adaptive softmax has<br>n - 1 additional embeddings for the remaining clusters which are not shared with the input.</p>",
+      "id": 26,
+      "page": 3,
+      "text": "Weight sharing. When the output layer is an adaptive softmax with the same partition of V, d,\nand k as the adaptive input layer, then we can tie the weights (Inan et al., 2016; Press & Wolf,\n2017). This further reduces the number of parameters and can simultaneously improve performance\n(§5). We can share both the parameters for the actual words as well as the projections W1, · · · , Wn\nSharing the word embeddings is straightforward except for the head where the adaptive softmax has\nn - 1 additional embeddings for the remaining clusters which are not shared with the input."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1003
+        },
+        {
+          "x": 2109,
+          "y": 1003
+        },
+        {
+          "x": 2109,
+          "y": 1281
+        },
+        {
+          "x": 441,
+          "y": 1281
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='27' style='font-size:16px'>We share all projections, except for the head projection which is not available in the adaptive softmax<br>since the model output is directly multiplied with the output word embeddings for the head band.<br>Performance decreased when we added a head projection to the adaptive softmax in the output,<br>regardless of when it was shared or not. Sharing both the word embeddings as well as the projections<br>performed very well on WIKITEXT-103 but on BILLION WORD we only share the word embeddings<br>as we found that this performed better on the validation set.</p>",
+      "id": 27,
+      "page": 3,
+      "text": "We share all projections, except for the head projection which is not available in the adaptive softmax\nsince the model output is directly multiplied with the output word embeddings for the head band.\nPerformance decreased when we added a head projection to the adaptive softmax in the output,\nregardless of when it was shared or not. Sharing both the word embeddings as well as the projections\nperformed very well on WIKITEXT-103 but on BILLION WORD we only share the word embeddings\nas we found that this performed better on the validation set."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 1354
+        },
+        {
+          "x": 1022,
+          "y": 1354
+        },
+        {
+          "x": 1022,
+          "y": 1408
+        },
+        {
+          "x": 444,
+          "y": 1408
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='28' style='font-size:22px'>4 EXPERIMENTAL SETUP</p>",
+      "id": 28,
+      "page": 3,
+      "text": "4 EXPERIMENTAL SETUP"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 1463
+        },
+        {
+          "x": 690,
+          "y": 1463
+        },
+        {
+          "x": 690,
+          "y": 1509
+        },
+        {
+          "x": 444,
+          "y": 1509
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='29' style='font-size:18px'>4.1 MODEL</p>",
+      "id": 29,
+      "page": 3,
+      "text": "4.1 MODEL"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1549
+        },
+        {
+          "x": 2107,
+          "y": 1549
+        },
+        {
+          "x": 2107,
+          "y": 1919
+        },
+        {
+          "x": 442,
+          "y": 1919
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='30' style='font-size:14px'>We follow most of the architectural choices described in Vaswani et al. (2017) but use only a decoder<br>network. We add sinusoidal position embeddings to the input layer and stack N = 16 blocks for<br>both BILLION WORD and WIKITEXT-103. Each block contains two sub-blocks: the first is a multi-<br>head self-attention module with H = 16 heads. The second sub-block is a feed-forward module<br>(FFN) of the form ReLU (W1 X +61) W2 +62 where W1 E Rexeff , W1 E Reff xe and e = 1024,<br>eff = 4096 unless otherwise stated. Different to Vaswani et al. (2017) we apply layer normalization<br>before the self-attention and FFN blocks instead of after, as we find it leads to more effective training.<br>Sub-blocks are surrounded by a residual connection (He et al., 2015).</p>",
+      "id": 30,
+      "page": 3,
+      "text": "We follow most of the architectural choices described in Vaswani et al. (2017) but use only a decoder\nnetwork. We add sinusoidal position embeddings to the input layer and stack N = 16 blocks for\nboth BILLION WORD and WIKITEXT-103. Each block contains two sub-blocks: the first is a multi-\nhead self-attention module with H = 16 heads. The second sub-block is a feed-forward module\n(FFN) of the form ReLU (W1 X +61) W2 +62 where W1 E Rexeff , W1 E Reff xe and e = 1024,\neff = 4096 unless otherwise stated. Different to Vaswani et al. (2017) we apply layer normalization\nbefore the self-attention and FFN blocks instead of after, as we find it leads to more effective training.\nSub-blocks are surrounded by a residual connection (He et al., 2015)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1941
+        },
+        {
+          "x": 2107,
+          "y": 1941
+        },
+        {
+          "x": 2107,
+          "y": 2174
+        },
+        {
+          "x": 441,
+          "y": 2174
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='31' style='font-size:16px'>We use a dropout rate of 0.1 and attention dropout of 0.1 for BILLION WORD models, and increase<br>regularization for WIKITEXT-103 by using dropout 0.3, and 0.1 ReLU dropout as well as attention<br>dropout 0.1. We use the same hyperparameters for all models trained on the same dataset in order to<br>enable a like for like comparison. When the dimensionality of the input or output layer differs from<br>e, then we add a simple linear projection with no bias.</p>",
+      "id": 31,
+      "page": 3,
+      "text": "We use a dropout rate of 0.1 and attention dropout of 0.1 for BILLION WORD models, and increase\nregularization for WIKITEXT-103 by using dropout 0.3, and 0.1 ReLU dropout as well as attention\ndropout 0.1. We use the same hyperparameters for all models trained on the same dataset in order to\nenable a like for like comparison. When the dimensionality of the input or output layer differs from\ne, then we add a simple linear projection with no bias."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2235
+        },
+        {
+          "x": 737,
+          "y": 2235
+        },
+        {
+          "x": 737,
+          "y": 2282
+        },
+        {
+          "x": 443,
+          "y": 2282
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='32' style='font-size:16px'>4.2 DATASETS</p>",
+      "id": 32,
+      "page": 3,
+      "text": "4.2 DATASETS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2323
+        },
+        {
+          "x": 2107,
+          "y": 2323
+        },
+        {
+          "x": 2107,
+          "y": 2462
+        },
+        {
+          "x": 442,
+          "y": 2462
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='33' style='font-size:14px'>We experiment on the BILLION WORD benchmark and WIKITEXT-103. BILLION WORD contains<br>768M word tokens and has a vocabulary of about 800K word types, which corresponds to words<br>with more than 3 occurrences in the training set (Chelba et al., 2013).</p>",
+      "id": 33,
+      "page": 3,
+      "text": "We experiment on the BILLION WORD benchmark and WIKITEXT-103. BILLION WORD contains\n768M word tokens and has a vocabulary of about 800K word types, which corresponds to words\nwith more than 3 occurrences in the training set (Chelba et al., 2013)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2485
+        },
+        {
+          "x": 2106,
+          "y": 2485
+        },
+        {
+          "x": 2106,
+          "y": 2626
+        },
+        {
+          "x": 442,
+          "y": 2626
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='34' style='font-size:16px'>The training data of WIKITEXT-103 comprises about 100M tokens and a vocabulary of around 260K,<br>corresponding to types with more than 3 occurrences in the training data (Merity et al., 2016). The<br>dataset is composed of shuffled Wikipedia articles where the context carries across sentences.</p>",
+      "id": 34,
+      "page": 3,
+      "text": "The training data of WIKITEXT-103 comprises about 100M tokens and a vocabulary of around 260K,\ncorresponding to types with more than 3 occurrences in the training data (Merity et al., 2016). The\ndataset is composed of shuffled Wikipedia articles where the context carries across sentences."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2688
+        },
+        {
+          "x": 743,
+          "y": 2688
+        },
+        {
+          "x": 743,
+          "y": 2734
+        },
+        {
+          "x": 443,
+          "y": 2734
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='35' style='font-size:18px'>4.3 BATCHING</p>",
+      "id": 35,
+      "page": 3,
+      "text": "4.3 BATCHING"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2775
+        },
+        {
+          "x": 2108,
+          "y": 2775
+        },
+        {
+          "x": 2108,
+          "y": 2961
+        },
+        {
+          "x": 442,
+          "y": 2961
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='36' style='font-size:14px'>For BILLION WORD we batch individual sentences since the corpus does not contain document<br>structure. For WIKITEXT-103 we partition the training data into blocks of 512 contiguous tokens<br>ignoring document boundaries. Evaluation is the same except that we require blocks to contain<br>complete sentences totaling up to 512 tokens.2</p>",
+      "id": 36,
+      "page": 3,
+      "text": "For BILLION WORD we batch individual sentences since the corpus does not contain document\nstructure. For WIKITEXT-103 we partition the training data into blocks of 512 contiguous tokens\nignoring document boundaries. Evaluation is the same except that we require blocks to contain\ncomplete sentences totaling up to 512 tokens.2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 496,
+          "y": 3006
+        },
+        {
+          "x": 1910,
+          "y": 3006
+        },
+        {
+          "x": 1910,
+          "y": 3052
+        },
+        {
+          "x": 496,
+          "y": 3052
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='37' style='font-size:14px'>2 Respecting document boundaries may lead to better results and we leave this to future work.</p>",
+      "id": 37,
+      "page": 3,
+      "text": "2 Respecting document boundaries may lead to better results and we leave this to future work."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1261,
+          "y": 3132
+        },
+        {
+          "x": 1288,
+          "y": 3132
+        },
+        {
+          "x": 1288,
+          "y": 3171
+        },
+        {
+          "x": 1261,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='38' style='font-size:16px'>3</footer>",
+      "id": 38,
+      "page": 3,
+      "text": "3"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 345
+        },
+        {
+          "x": 2109,
+          "y": 345
+        },
+        {
+          "x": 2109,
+          "y": 762
+        },
+        {
+          "x": 442,
+          "y": 762
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='39' style='font-size:16px'>We limit the number of tokens per GPU to a maximum threshold B per GPU. That is, we add<br>examples of similar length until we reach this threshold. When we train on multiple GPUs, each<br>GPU processes B tokens using the same model parameters. This increases the effective batch size<br>to the product of the number of GPUs and B. For BILLION WORD models we use B = 2048 and<br>typically train on 32 GPUs, giving an effective batch size of 65K tokens. The smaller vocabulary of<br>WIKITEXT-103 enables increasing B to 4096 and we train on 8 GPUs. We found that large batch<br>training is beneficial for this dataset and we therefore accumulate gradient updates over two batches<br>before committing a parameter update (Ott et al., 2018a). This gives an effective batch size of 65K<br>tokens for WIKITEXT-103.</p>",
+      "id": 39,
+      "page": 4,
+      "text": "We limit the number of tokens per GPU to a maximum threshold B per GPU. That is, we add\nexamples of similar length until we reach this threshold. When we train on multiple GPUs, each\nGPU processes B tokens using the same model parameters. This increases the effective batch size\nto the product of the number of GPUs and B. For BILLION WORD models we use B = 2048 and\ntypically train on 32 GPUs, giving an effective batch size of 65K tokens. The smaller vocabulary of\nWIKITEXT-103 enables increasing B to 4096 and we train on 8 GPUs. We found that large batch\ntraining is beneficial for this dataset and we therefore accumulate gradient updates over two batches\nbefore committing a parameter update (Ott et al., 2018a). This gives an effective batch size of 65K\ntokens for WIKITEXT-103."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 846
+        },
+        {
+          "x": 1408,
+          "y": 846
+        },
+        {
+          "x": 1408,
+          "y": 894
+        },
+        {
+          "x": 443,
+          "y": 894
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='40' style='font-size:14px'>4.4 INPUT AND OUTPUT LAYER HYPERPARAMETERS</p>",
+      "id": 40,
+      "page": 4,
+      "text": "4.4 INPUT AND OUTPUT LAYER HYPERPARAMETERS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 941
+        },
+        {
+          "x": 2109,
+          "y": 941
+        },
+        {
+          "x": 2109,
+          "y": 1176
+        },
+        {
+          "x": 442,
+          "y": 1176
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='41' style='font-size:18px'>Embedding sizes. For fixed size word input layers and softmax output layers we generally use<br>embeddings of size 512 for WIKITEXT- 103. When we use an adaptive softmax in the output and<br>fixed size word embeddings for the input, then we use dimension 256 for the input embeddings for<br>BILLION WORD and 64 for WIKITEXT- 103. We tuned this choice on the validation set (Appendix<br>A). BPE inputs and outputs have embeddings of size 1024.</p>",
+      "id": 41,
+      "page": 4,
+      "text": "Embedding sizes. For fixed size word input layers and softmax output layers we generally use\nembeddings of size 512 for WIKITEXT- 103. When we use an adaptive softmax in the output and\nfixed size word embeddings for the input, then we use dimension 256 for the input embeddings for\nBILLION WORD and 64 for WIKITEXT- 103. We tuned this choice on the validation set (Appendix\nA). BPE inputs and outputs have embeddings of size 1024."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1254
+        },
+        {
+          "x": 2108,
+          "y": 1254
+        },
+        {
+          "x": 2108,
+          "y": 1626
+        },
+        {
+          "x": 442,
+          "y": 1626
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='42' style='font-size:18px'>Character CNN. We model character inputs by convolving the representations of all characters<br>in a word following Kim et al. (2015) which applies several filters, then max pooling, a number of<br>highway layers and a projection. Character embeddings have size 128 and we apply seven filters of<br>size 1x128, 2x256, 3x384, 4x512, 5x512, 6x512, 7x512, where 3x128 indicates a filter processing<br>three characters that outputs 128 features. We use a single highway layer for WIKITEXT- 103, and<br>two for BILLION WORD. We do not add start of word and end of word markers as they did not<br>improve validation accuracy. We train on the same pre-processed data as the other models, with<br>unknown tokens in both the inputs and outputs.</p>",
+      "id": 42,
+      "page": 4,
+      "text": "Character CNN. We model character inputs by convolving the representations of all characters\nin a word following Kim et al. (2015) which applies several filters, then max pooling, a number of\nhighway layers and a projection. Character embeddings have size 128 and we apply seven filters of\nsize 1x128, 2x256, 3x384, 4x512, 5x512, 6x512, 7x512, where 3x128 indicates a filter processing\nthree characters that outputs 128 features. We use a single highway layer for WIKITEXT- 103, and\ntwo for BILLION WORD. We do not add start of word and end of word markers as they did not\nimprove validation accuracy. We train on the same pre-processed data as the other models, with\nunknown tokens in both the inputs and outputs."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1704
+        },
+        {
+          "x": 2107,
+          "y": 1704
+        },
+        {
+          "x": 2107,
+          "y": 1936
+        },
+        {
+          "x": 441,
+          "y": 1936
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='43' style='font-size:18px'>Adaptive input representations and adaptive softmax. We use an adaptive softmax output layer<br>to train models with large word-based vocabularies. For adaptive word inputs and adaptive softmax,<br>we use embeddings of size d = 1024 for the head and reduce the size of subsequent clusters by a<br>factor of k = 4. For WIKITEXT-103, we have three bands of size 20K (d=1024), 40K (d=256) and<br>200K (d=64). For BILLION WORD the bands are 60K (d=1024), 100K (d=256), and 640K (d=64).</p>",
+      "id": 43,
+      "page": 4,
+      "text": "Adaptive input representations and adaptive softmax. We use an adaptive softmax output layer\nto train models with large word-based vocabularies. For adaptive word inputs and adaptive softmax,\nwe use embeddings of size d = 1024 for the head and reduce the size of subsequent clusters by a\nfactor of k = 4. For WIKITEXT-103, we have three bands of size 20K (d=1024), 40K (d=256) and\n200K (d=64). For BILLION WORD the bands are 60K (d=1024), 100K (d=256), and 640K (d=64)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2015
+        },
+        {
+          "x": 2108,
+          "y": 2015
+        },
+        {
+          "x": 2108,
+          "y": 2250
+        },
+        {
+          "x": 441,
+          "y": 2250
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='44' style='font-size:18px'>Sub-word models. We learn a byte-pair encoding (BPE) of 32K codes on the training data of<br>each benchmark (Sennrich et al., 2016). After applying the code to the training data we obtain<br>a vocabulary of 33,337 tokens for WIKITEXT-103 and 32,347 tokens for BILLION WORD. BPE<br>input/output embeddings have size 1024. The final evaluation is in terms word-level perplexity to<br>be comparable to other models. The probability of a word is the product of the sub-word units.</p>",
+      "id": 44,
+      "page": 4,
+      "text": "Sub-word models. We learn a byte-pair encoding (BPE) of 32K codes on the training data of\neach benchmark (Sennrich et al., 2016). After applying the code to the training data we obtain\na vocabulary of 33,337 tokens for WIKITEXT-103 and 32,347 tokens for BILLION WORD. BPE\ninput/output embeddings have size 1024. The final evaluation is in terms word-level perplexity to\nbe comparable to other models. The probability of a word is the product of the sub-word units."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2334
+        },
+        {
+          "x": 820,
+          "y": 2334
+        },
+        {
+          "x": 820,
+          "y": 2381
+        },
+        {
+          "x": 444,
+          "y": 2381
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='45' style='font-size:20px'>4.5 OPTIMIZATION</p>",
+      "id": 45,
+      "page": 4,
+      "text": "4.5 OPTIMIZATION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2429
+        },
+        {
+          "x": 2108,
+          "y": 2429
+        },
+        {
+          "x": 2108,
+          "y": 2755
+        },
+        {
+          "x": 443,
+          "y": 2755
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='46' style='font-size:18px'>Different to Vaswani et al. (2017) we use Nesterov's accelerated gradient method (Sutskever et al.,<br>2013) with a momentum of 0.99 and we renormalize gradients if their norm exceeds 0.1 (Pascanu<br>et al., 2013). The learning rate is linearly warmed up from 10-7 to 1 for 16K steps and then annealed<br>using a cosine learning rate schedule with C cycles (Loshchilov & Hutter, 2016). Each cycle runs<br>for twice the number of updates than the previous cycle and we lower the maximum and minimum<br>learning rates by a rate M compared to the previous cycle. The initial minimum learning rate is<br>10-5 and the maximum is 1.</p>",
+      "id": 46,
+      "page": 4,
+      "text": "Different to Vaswani et al. (2017) we use Nesterov's accelerated gradient method (Sutskever et al.,\n2013) with a momentum of 0.99 and we renormalize gradients if their norm exceeds 0.1 (Pascanu\net al., 2013). The learning rate is linearly warmed up from 10-7 to 1 for 16K steps and then annealed\nusing a cosine learning rate schedule with C cycles (Loshchilov & Hutter, 2016). Each cycle runs\nfor twice the number of updates than the previous cycle and we lower the maximum and minimum\nlearning rates by a rate M compared to the previous cycle. The initial minimum learning rate is\n10-5 and the maximum is 1."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2778
+        },
+        {
+          "x": 2108,
+          "y": 2778
+        },
+        {
+          "x": 2108,
+          "y": 3054
+        },
+        {
+          "x": 442,
+          "y": 3054
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='47' style='font-size:16px'>BILLION WORD models train for a total of 975K updates over C = 3 cycles, the first cycle takes<br>137K steps, and we set M = 0.6. The WIKITEXT-103 models train for 286K steps over C = 4<br>cycles, the first cycle takes 18K setps and we set M = 0.75. We run experiments on DGX-1<br>machines with 8 NVIDIA V100 GPUs and machines are interconnected by Infiniband. We also<br>use the NCCL2 library and the torch.distributed package for inter-GPU communication. We train<br>models with 16-bit floating point precision, following Ott et al. (2018b).</p>",
+      "id": 47,
+      "page": 4,
+      "text": "BILLION WORD models train for a total of 975K updates over C = 3 cycles, the first cycle takes\n137K steps, and we set M = 0.6. The WIKITEXT-103 models train for 286K steps over C = 4\ncycles, the first cycle takes 18K setps and we set M = 0.75. We run experiments on DGX-1\nmachines with 8 NVIDIA V100 GPUs and machines are interconnected by Infiniband. We also\nuse the NCCL2 library and the torch.distributed package for inter-GPU communication. We train\nmodels with 16-bit floating point precision, following Ott et al. (2018b)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1259,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3134
+        },
+        {
+          "x": 1289,
+          "y": 3170
+        },
+        {
+          "x": 1259,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='48' style='font-size:16px'>4</footer>",
+      "id": 48,
+      "page": 4,
+      "text": "4"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 521,
+          "y": 342
+        },
+        {
+          "x": 2030,
+          "y": 342
+        },
+        {
+          "x": 2030,
+          "y": 907
+        },
+        {
+          "x": 521,
+          "y": 907
+        }
+      ],
+      "category": "table",
+      "html": "<table id='49' style='font-size:18px'><tr><td></td><td>Test</td><td>Train Time (hours)</td><td>Parameters</td></tr><tr><td>Dauphin et al. (2017)</td><td>31.9</td><td>-</td><td>428M</td></tr><tr><td>Jozefowicz et al. (2016)</td><td>30.0</td><td>-</td><td>1,040M</td></tr><tr><td>Shazeer et al. (2017)</td><td>28.0</td><td>-</td><td>4,371M�</td></tr><tr><td>Char-CNN</td><td>25.88</td><td>79</td><td>366M</td></tr><tr><td>Adaptive inputs</td><td>25.22</td><td>55</td><td>331M</td></tr><tr><td>Adaptive inputs (large)</td><td>23.91</td><td>72</td><td>465M</td></tr><tr><td>Adaptive inputs (very large)</td><td>23.02</td><td>145</td><td>1026M</td></tr><tr><td>10 LSTMs + SNM10-SKIP (Shazeer et al., 2016)</td><td>23.7</td><td>-</td><td>-</td></tr></table>",
+      "id": 49,
+      "page": 5,
+      "text": "Test Train Time (hours) Parameters\n Dauphin et al. (2017) 31.9 - 428M\n Jozefowicz et al. (2016) 30.0 - 1,040M\n Shazeer et al. (2017) 28.0 - 4,371M�\n Char-CNN 25.88 79 366M\n Adaptive inputs 25.22 55 331M\n Adaptive inputs (large) 23.91 72 465M\n Adaptive inputs (very large) 23.02 145 1026M\n 10 LSTMs + SNM10-SKIP (Shazeer et al., 2016) 23.7 -"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 942
+        },
+        {
+          "x": 2107,
+          "y": 942
+        },
+        {
+          "x": 2107,
+          "y": 1067
+        },
+        {
+          "x": 442,
+          "y": 1067
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='50' style='font-size:20px'>Table 1: Test perplexity on BILLION WORD. Adaptive inputs share parameters with an adaptive<br>softmax. Training times of Char-CNN and Adaptive input models are measured when training with<br>64 GPUs.</caption>",
+      "id": 50,
+      "page": 5,
+      "text": "Table 1: Test perplexity on BILLION WORD. Adaptive inputs share parameters with an adaptive\nsoftmax. Training times of Char-CNN and Adaptive input models are measured when training with\n64 GPUs."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 451,
+          "y": 1073
+        },
+        {
+          "x": 1181,
+          "y": 1073
+        },
+        {
+          "x": 1181,
+          "y": 1113
+        },
+        {
+          "x": 451,
+          "y": 1113
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='51' style='font-size:16px'>1 does not include embedding and softmax layers</caption>",
+      "id": 51,
+      "page": 5,
+      "text": "1 does not include embedding and softmax layers"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 769,
+          "y": 1173
+        },
+        {
+          "x": 1784,
+          "y": 1173
+        },
+        {
+          "x": 1784,
+          "y": 1576
+        },
+        {
+          "x": 769,
+          "y": 1576
+        }
+      ],
+      "category": "table",
+      "html": "<table id='52' style='font-size:16px'><tr><td></td><td>Test</td><td>Train Time (hours)</td><td>Parameters</td></tr><tr><td>Grave et al. (2016)</td><td>40.8</td><td>-</td><td></td></tr><tr><td>Dauphin et al. (2017)</td><td>37.2</td><td>-</td><td>229M</td></tr><tr><td>Merity et al. (2018)</td><td>33.0</td><td>-</td><td>151M</td></tr><tr><td>Rae et al. (2018)</td><td>29.2</td><td></td><td></td></tr><tr><td>Adaptive inputs</td><td>18.7</td><td>67</td><td>247M</td></tr></table>",
+      "id": 52,
+      "page": 5,
+      "text": "Test Train Time (hours) Parameters\n Grave et al. (2016) 40.8 - \n Dauphin et al. (2017) 37.2 - 229M\n Merity et al. (2018) 33.0 - 151M\n Rae et al. (2018) 29.2  \n Adaptive inputs 18.7 67"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 508,
+          "y": 1610
+        },
+        {
+          "x": 2039,
+          "y": 1610
+        },
+        {
+          "x": 2039,
+          "y": 1658
+        },
+        {
+          "x": 508,
+          "y": 1658
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='53' style='font-size:20px'>Table 2: Test perplexity on WIKITEXT- 103 (cf. Table 1). Training time is based on 8 GPUs.</caption>",
+      "id": 53,
+      "page": 5,
+      "text": "Table 2: Test perplexity on WIKITEXT- 103 (cf. Table 1). Training time is based on 8 GPUs."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1745
+        },
+        {
+          "x": 1149,
+          "y": 1745
+        },
+        {
+          "x": 1149,
+          "y": 1797
+        },
+        {
+          "x": 445,
+          "y": 1797
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='54' style='font-size:22px'>5 EXPERIMENTS AND RESULTS</p>",
+      "id": 54,
+      "page": 5,
+      "text": "5 EXPERIMENTS AND RESULTS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1851
+        },
+        {
+          "x": 824,
+          "y": 1851
+        },
+        {
+          "x": 824,
+          "y": 1899
+        },
+        {
+          "x": 445,
+          "y": 1899
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='55' style='font-size:16px'>5.1 MAIN RESULTS</p>",
+      "id": 55,
+      "page": 5,
+      "text": "5.1 MAIN RESULTS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1939
+        },
+        {
+          "x": 2106,
+          "y": 1939
+        },
+        {
+          "x": 2106,
+          "y": 2167
+        },
+        {
+          "x": 441,
+          "y": 2167
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='56' style='font-size:16px'>For the main results on BILLION WORD, we doubled the batch size by training on 64 GPUs instead<br>of 32 GPUs. We also consider two larger setups, one where we added four more blocks (N = 20)<br>and increased the FFN dimension to eff = 6144 (large), and another where we add another four<br>blocks (N = 24) with eff = 8192 and e = 1536 (very large). All other settings follow §4.4 and all<br>models were trained for the same number of steps.</p>",
+      "id": 56,
+      "page": 5,
+      "text": "For the main results on BILLION WORD, we doubled the batch size by training on 64 GPUs instead\nof 32 GPUs. We also consider two larger setups, one where we added four more blocks (N = 20)\nand increased the FFN dimension to eff = 6144 (large), and another where we add another four\nblocks (N = 24) with eff = 8192 and e = 1536 (very large). All other settings follow §4.4 and all\nmodels were trained for the same number of steps."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2192
+        },
+        {
+          "x": 2107,
+          "y": 2192
+        },
+        {
+          "x": 2107,
+          "y": 2468
+        },
+        {
+          "x": 441,
+          "y": 2468
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='57' style='font-size:18px'>Table 1 compares our models to previous work on BILLION WORD. The adaptive input model<br>outperforms the best previously reported result at an order of magnitude fewer parameters. Our<br>large model performs nearly as well as an ensemble of over ten models and achieves a new state<br>of the art of 24.14 perplexity. Our very large model performs as well as an ensemble of over ten<br>models and achieves 23.02 perplexity. The Char-CNN model performs 0.6 PPL worse than the<br>standard adaptive input model even though it trained for over 40% longer.</p>",
+      "id": 57,
+      "page": 5,
+      "text": "Table 1 compares our models to previous work on BILLION WORD. The adaptive input model\noutperforms the best previously reported result at an order of magnitude fewer parameters. Our\nlarge model performs nearly as well as an ensemble of over ten models and achieves a new state\nof the art of 24.14 perplexity. Our very large model performs as well as an ensemble of over ten\nmodels and achieves 23.02 perplexity. The Char-CNN model performs 0.6 PPL worse than the\nstandard adaptive input model even though it trained for over 40% longer."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 2489
+        },
+        {
+          "x": 2108,
+          "y": 2489
+        },
+        {
+          "x": 2108,
+          "y": 2723
+        },
+        {
+          "x": 440,
+          "y": 2723
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='58' style='font-size:18px'>Table 2 shows our result on WIKITEXT-103 where adaptive inputs achieve 18.7 perplexity. For<br>this result only, we partition the training data into blocks of 3072 contiguous tokens instead of 512<br>tokens as for other experiments. During evaluation we require blocks to contain complete sentences<br>totaling up to 3072 tokens of which the first 2560 tokens serve as context to score the last 512 tokens;<br>we take care to score all tokens in the test and validation sets. We motivate this choice in §5.3.</p>",
+      "id": 58,
+      "page": 5,
+      "text": "Table 2 shows our result on WIKITEXT-103 where adaptive inputs achieve 18.7 perplexity. For\nthis result only, we partition the training data into blocks of 3072 contiguous tokens instead of 512\ntokens as for other experiments. During evaluation we require blocks to contain complete sentences\ntotaling up to 3072 tokens of which the first 2560 tokens serve as context to score the last 512 tokens;\nwe take care to score all tokens in the test and validation sets. We motivate this choice in §5.3."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2780
+        },
+        {
+          "x": 1652,
+          "y": 2780
+        },
+        {
+          "x": 1652,
+          "y": 2828
+        },
+        {
+          "x": 445,
+          "y": 2828
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='59' style='font-size:14px'>5.2 COMPARISON OF INPUT AND OUTPUT LAYER FACTORIZATIONS</p>",
+      "id": 59,
+      "page": 5,
+      "text": "5.2 COMPARISON OF INPUT AND OUTPUT LAYER FACTORIZATIONS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2868
+        },
+        {
+          "x": 2109,
+          "y": 2868
+        },
+        {
+          "x": 2109,
+          "y": 3053
+        },
+        {
+          "x": 441,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='60' style='font-size:20px'>Next, we perform a systematic comparison of different input and output layer factorizations. We<br>consider a word-based setup with fixed size word input embeddings and a standard word softmax<br>(SM) where embeddings have either dimension 512 (WIKITEXT-103) or 64 (BILLION WORD). We<br>consider tying the input and output embeddings (SM-T). Instead of words, we try less sparse sub-</p>",
+      "id": 60,
+      "page": 5,
+      "text": "Next, we perform a systematic comparison of different input and output layer factorizations. We\nconsider a word-based setup with fixed size word input embeddings and a standard word softmax\n(SM) where embeddings have either dimension 512 (WIKITEXT-103) or 64 (BILLION WORD). We\nconsider tying the input and output embeddings (SM-T). Instead of words, we try less sparse sub-"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3133
+        },
+        {
+          "x": 1289,
+          "y": 3170
+        },
+        {
+          "x": 1260,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='61' style='font-size:14px'>5</footer>",
+      "id": 61,
+      "page": 5,
+      "text": "5"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 479,
+          "y": 340
+        },
+        {
+          "x": 2071,
+          "y": 340
+        },
+        {
+          "x": 2071,
+          "y": 864
+        },
+        {
+          "x": 479,
+          "y": 864
+        }
+      ],
+      "category": "table",
+      "html": "<table id='62' style='font-size:20px'><tr><td></td><td>Input</td><td>Output</td><td>Valid</td><td>Test</td><td>Train Time (hours)</td><td>Params</td></tr><tr><td>SM</td><td>Embedding</td><td>Softmax</td><td>23.87</td><td>24.92</td><td>57*</td><td>476.8M</td></tr><tr><td>BPE</td><td>BPE Embedding</td><td>BPE Softmax</td><td>23.13</td><td>24.25</td><td>30</td><td>270M</td></tr><tr><td>BPE-T</td><td>BPE Embedding</td><td>BPE Softmax (tied)</td><td>22.46</td><td>23.45</td><td>30</td><td>235.7M</td></tr><tr><td>SM-T</td><td>Embedding</td><td>Softmax (tied)</td><td>22.63</td><td>23.38</td><td>56*</td><td>339.7M</td></tr><tr><td>ASM</td><td>Embedding</td><td>Adaptive</td><td>21.23</td><td>22.18</td><td>35</td><td>263.1M</td></tr><tr><td>CNN</td><td>Char-CNN</td><td>Adaptive</td><td>20.86</td><td>21.79</td><td>70</td><td>266.3M</td></tr><tr><td>ADP</td><td>Adaptive</td><td>Adaptive</td><td>20.95</td><td>21.74</td><td>34</td><td>291.3M</td></tr><tr><td>ADP-T</td><td>Adaptive</td><td>Adaptive (tied)</td><td>19.79</td><td>20.51</td><td>30</td><td>246.9M</td></tr></table>",
+      "id": 62,
+      "page": 6,
+      "text": "Input Output Valid Test Train Time (hours) Params\n SM Embedding Softmax 23.87 24.92 57* 476.8M\n BPE BPE Embedding BPE Softmax 23.13 24.25 30 270M\n BPE-T BPE Embedding BPE Softmax (tied) 22.46 23.45 30 235.7M\n SM-T Embedding Softmax (tied) 22.63 23.38 56* 339.7M\n ASM Embedding Adaptive 21.23 22.18 35 263.1M\n CNN Char-CNN Adaptive 20.86 21.79 70 266.3M\n ADP Adaptive Adaptive 20.95 21.74 34 291.3M\n ADP-T Adaptive Adaptive (tied) 19.79 20.51 30"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 895
+        },
+        {
+          "x": 2108,
+          "y": 895
+        },
+        {
+          "x": 2108,
+          "y": 1131
+        },
+        {
+          "x": 442,
+          "y": 1131
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='63' style='font-size:18px'>Table 3: Test perplexity on WIKITEXT-103 for various input and output layer factorizations. Train-<br>ing speed was measured on a single 8-GPU machine. (*) indicates a modified training regime<br>because of large memory requirements: the maximum number of tokens per GPU was lowered to<br>1024 from 4096 but the same number of updates were performed by processing four batches before<br>committing a weight update.</caption>",
+      "id": 63,
+      "page": 6,
+      "text": "Table 3: Test perplexity on WIKITEXT-103 for various input and output layer factorizations. Train-\ning speed was measured on a single 8-GPU machine. (*) indicates a modified training regime\nbecause of large memory requirements: the maximum number of tokens per GPU was lowered to\n1024 from 4096 but the same number of updates were performed by processing four batches before\ncommitting a weight update."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 470,
+          "y": 1274
+        },
+        {
+          "x": 2085,
+          "y": 1274
+        },
+        {
+          "x": 2085,
+          "y": 1705
+        },
+        {
+          "x": 470,
+          "y": 1705
+        }
+      ],
+      "category": "table",
+      "html": "<table id='64' style='font-size:20px'><tr><td></td><td>Input</td><td>Output</td><td>Valid</td><td>Test</td><td>Train time (hours)</td><td>Params</td></tr><tr><td>BPE-T</td><td>BPE Embedding</td><td>BPE Softmax (shared)</td><td>27.44</td><td>27.51</td><td>34</td><td>234.7M</td></tr><tr><td>BPE</td><td>BPE Embedding</td><td>BPE Softmax</td><td>27.02</td><td>27.13</td><td>35</td><td>267.8M</td></tr><tr><td>ASM</td><td>Embedding</td><td>Adaptive</td><td>26.97</td><td>27.06</td><td>62</td><td>532.8M</td></tr><tr><td>CNN</td><td>Char-CNN</td><td>Adaptive</td><td>26.13</td><td>26.25</td><td>92</td><td>365.8M</td></tr><tr><td>ADP</td><td>Adaptive</td><td>Adaptive</td><td>26.38</td><td>26.49</td><td>65</td><td>458.4M</td></tr><tr><td>ADP-T</td><td>Adaptive</td><td>Adaptive (shared)</td><td>25.51</td><td>25.58</td><td>43</td><td>330.8M</td></tr></table>",
+      "id": 64,
+      "page": 6,
+      "text": "Input Output Valid Test Train time (hours) Params\n BPE-T BPE Embedding BPE Softmax (shared) 27.44 27.51 34 234.7M\n BPE BPE Embedding BPE Softmax 27.02 27.13 35 267.8M\n ASM Embedding Adaptive 26.97 27.06 62 532.8M\n CNN Char-CNN Adaptive 26.13 26.25 92 365.8M\n ADP Adaptive Adaptive 26.38 26.49 65 458.4M\n ADP-T Adaptive Adaptive (shared) 25.51 25.58 43"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 471,
+          "y": 1738
+        },
+        {
+          "x": 2080,
+          "y": 1738
+        },
+        {
+          "x": 2080,
+          "y": 1789
+        },
+        {
+          "x": 471,
+          "y": 1789
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='65' style='font-size:16px'>Table 4: Test perplexity on BILLION WORD. Training speed measured on four 8-GPU machines.</caption>",
+      "id": 65,
+      "page": 6,
+      "text": "Table 4: Test perplexity on BILLION WORD. Training speed measured on four 8-GPU machines."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1971
+        },
+        {
+          "x": 2107,
+          "y": 1971
+        },
+        {
+          "x": 2107,
+          "y": 2202
+        },
+        {
+          "x": 441,
+          "y": 2202
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='66' style='font-size:18px'>word units, both in the input and output, with embeddings of size 1024 (BPE) and shared weights<br>(BPE-T). Next, we consider replacing the fixed size output representations by an adaptive softmax<br>(ASM) and characters as input (CNN). Finally, we use both adaptive input word representations<br>as well as an adaptive softmax (ADP) and a tied version (ADP-T). All models use the same self-<br>attention architecture described in §4.1.</p>",
+      "id": 66,
+      "page": 6,
+      "text": "word units, both in the input and output, with embeddings of size 1024 (BPE) and shared weights\n(BPE-T). Next, we consider replacing the fixed size output representations by an adaptive softmax\n(ASM) and characters as input (CNN). Finally, we use both adaptive input word representations\nas well as an adaptive softmax (ADP) and a tied version (ADP-T). All models use the same self-\nattention architecture described in §4.1."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2223
+        },
+        {
+          "x": 2106,
+          "y": 2223
+        },
+        {
+          "x": 2106,
+          "y": 2639
+        },
+        {
+          "x": 443,
+          "y": 2639
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='67' style='font-size:18px'>Table 3 shows results when training all configurations for the same number of updates. Adaptive<br>input representations with tied input and output layers (ADP-T) achieve the highest accuracy at the<br>same speed as the BPE models which have a very small vocabulary (33K versus 260K). CNN is<br>1 perplexity worse than ADP-T and requires well over twice the training time. It is the slowest<br>approach, even though it has a fast adaptive softmax in the output. Fixed word embeddings perform<br>least well (SM). Sub-word units are fast to train and perform better than word models with fixed<br>sized embeddings. ASM improves over SM and greatly speeds up training. For ASM, we found<br>that reducing the dimension of the input word embeddings to 64 on WIKITEXT-103 results in better<br>accuracy (Appendix A).</p>",
+      "id": 67,
+      "page": 6,
+      "text": "Table 3 shows results when training all configurations for the same number of updates. Adaptive\ninput representations with tied input and output layers (ADP-T) achieve the highest accuracy at the\nsame speed as the BPE models which have a very small vocabulary (33K versus 260K). CNN is\n1 perplexity worse than ADP-T and requires well over twice the training time. It is the slowest\napproach, even though it has a fast adaptive softmax in the output. Fixed word embeddings perform\nleast well (SM). Sub-word units are fast to train and perform better than word models with fixed\nsized embeddings. ASM improves over SM and greatly speeds up training. For ASM, we found\nthat reducing the dimension of the input word embeddings to 64 on WIKITEXT-103 results in better\naccuracy (Appendix A)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2660
+        },
+        {
+          "x": 2108,
+          "y": 2660
+        },
+        {
+          "x": 2108,
+          "y": 2936
+        },
+        {
+          "x": 441,
+          "y": 2936
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='68' style='font-size:14px'>Table 4 shows that adaptive input representations perform equally well on BILLION WORD com-<br>pared to other factorizations. ADP-T is 34% faster than ADP because there are fewer parameters<br>to update. Similar to before, ADP-T trains more than twice as fast as CNN at higher accuracy,<br>however, the accuracy gap is narrower than for WIKITEXT-103. Regularization is more important<br>on WIKITEXT-103 while models for BILLION WORD benefit from additional capacity. Because of<br>this we used input word embeddings of size 256 for ASM.</p>",
+      "id": 68,
+      "page": 6,
+      "text": "Table 4 shows that adaptive input representations perform equally well on BILLION WORD com-\npared to other factorizations. ADP-T is 34% faster than ADP because there are fewer parameters\nto update. Similar to before, ADP-T trains more than twice as fast as CNN at higher accuracy,\nhowever, the accuracy gap is narrower than for WIKITEXT-103. Regularization is more important\non WIKITEXT-103 while models for BILLION WORD benefit from additional capacity. Because of\nthis we used input word embeddings of size 256 for ASM."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2960
+        },
+        {
+          "x": 2106,
+          "y": 2960
+        },
+        {
+          "x": 2106,
+          "y": 3054
+        },
+        {
+          "x": 442,
+          "y": 3054
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='69' style='font-size:22px'>We also trained CNN without replacing input words outside the vocabulary by an unknown symbol,<br>however, this only improved validation perplexity by 0.16.</p>",
+      "id": 69,
+      "page": 6,
+      "text": "We also trained CNN without replacing input words outside the vocabulary by an unknown symbol,\nhowever, this only improved validation perplexity by 0.16."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1259,
+          "y": 3136
+        },
+        {
+          "x": 1289,
+          "y": 3136
+        },
+        {
+          "x": 1289,
+          "y": 3172
+        },
+        {
+          "x": 1259,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='70' style='font-size:14px'>6</footer>",
+      "id": 70,
+      "page": 6,
+      "text": "6"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 452,
+          "y": 339
+        },
+        {
+          "x": 2096,
+          "y": 339
+        },
+        {
+          "x": 2096,
+          "y": 1125
+        },
+        {
+          "x": 452,
+          "y": 1125
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='71' style='font-size:16px' alt=\"E � SM :: SM-T\n10\nI I BPE : 日 BPE-T\nEr ASM : ■ CNN\n8\nI ⌀ ADP :⌀ ADP-T\nLoss\n6\n4\n2\n0\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin\" data-coord=\"top-left:(452,339); bottom-right:(2096,1125)\" /></figure>",
+      "id": 71,
+      "page": 7,
+      "text": "E � SM :: SM-T\n10\nI I BPE : 日 BPE-T\nEr ASM : ■ CNN\n8\nI ⌀ ADP :⌀ ADP-T\nLoss\n6\n4\n2\n0\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 1163
+        },
+        {
+          "x": 2105,
+          "y": 1163
+        },
+        {
+          "x": 2105,
+          "y": 1256
+        },
+        {
+          "x": 441,
+          "y": 1256
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='72' style='font-size:18px'>Figure 2: Loss of models binned by word frequency on the test set of WIKITEXT-103. Bins are not<br>cumulative.</caption>",
+      "id": 72,
+      "page": 7,
+      "text": "Figure 2: Loss of models binned by word frequency on the test set of WIKITEXT-103. Bins are not\ncumulative."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 449,
+          "y": 1313
+        },
+        {
+          "x": 2096,
+          "y": 1313
+        },
+        {
+          "x": 2096,
+          "y": 2091
+        },
+        {
+          "x": 449,
+          "y": 2091
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='73' style='font-size:14px' alt=\"4\n� SM 目 田 SM-T\n■ I BPE : : BPE-T\nword\nI : ASM ■ ■ CNN\n3.5 S ■ ADP I 田 ADP-T\nnext\nthe\non\n3\nLoss\n2.5\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin\" data-coord=\"top-left:(449,1313); bottom-right:(2096,2091)\" /></figure>",
+      "id": 73,
+      "page": 7,
+      "text": "4\n� SM 目 田 SM-T\n■ I BPE : : BPE-T\nword\nI : ASM ■ ■ CNN\n3.5 S ■ ADP I 田 ADP-T\nnext\nthe\non\n3\nLoss\n2.5\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2132
+        },
+        {
+          "x": 2103,
+          "y": 2132
+        },
+        {
+          "x": 2103,
+          "y": 2229
+        },
+        {
+          "x": 443,
+          "y": 2229
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='74' style='font-size:22px'>Figure 3: Loss of models when binning by the frequency of the previous word measured on<br>WIKITEXT-103 (cf. Figure 2).</caption>",
+      "id": 74,
+      "page": 7,
+      "text": "Figure 3: Loss of models when binning by the frequency of the previous word measured on\nWIKITEXT-103 (cf. Figure 2)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2320
+        },
+        {
+          "x": 736,
+          "y": 2320
+        },
+        {
+          "x": 736,
+          "y": 2366
+        },
+        {
+          "x": 444,
+          "y": 2366
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='75' style='font-size:20px'>5.3 ANALYSIS</p>",
+      "id": 75,
+      "page": 7,
+      "text": "5.3 ANALYSIS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2407
+        },
+        {
+          "x": 2103,
+          "y": 2407
+        },
+        {
+          "x": 2103,
+          "y": 2501
+        },
+        {
+          "x": 442,
+          "y": 2501
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='76' style='font-size:18px'>Next, we turn to the question of how well models perform on rare words compared to frequent<br>words. We compute the average loss for each word in the test set and group words by frequency.</p>",
+      "id": 76,
+      "page": 7,
+      "text": "Next, we turn to the question of how well models perform on rare words compared to frequent\nwords. We compute the average loss for each word in the test set and group words by frequency."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2523
+        },
+        {
+          "x": 2107,
+          "y": 2523
+        },
+        {
+          "x": 2107,
+          "y": 2892
+        },
+        {
+          "x": 441,
+          "y": 2892
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='77' style='font-size:18px'>Figure 2 shows results on WIKITEXT-103. Tying weights helps all models on rare words, likely<br>because of regularization effects. Fixed size word embeddings with a word softmax (SM and SM-<br>T) do not perform well on rare words. This is likely due to underfitting on common words and<br>we use the largest possible embedding size we could fit on 16GB GPU cards given our batch size<br>(more experimentation in Appendix A). BPE and BPE-T perform poorly on rare words because<br>probabilities are a product of several sub-word units. ADP-T performs best across all frequency<br>ranges. Figure 3 bins the loss by the frequency of the previous word and shows that CNN does well<br>when it has rare words in the context, however, ADP-T does best across all bins.</p>",
+      "id": 77,
+      "page": 7,
+      "text": "Figure 2 shows results on WIKITEXT-103. Tying weights helps all models on rare words, likely\nbecause of regularization effects. Fixed size word embeddings with a word softmax (SM and SM-\nT) do not perform well on rare words. This is likely due to underfitting on common words and\nwe use the largest possible embedding size we could fit on 16GB GPU cards given our batch size\n(more experimentation in Appendix A). BPE and BPE-T perform poorly on rare words because\nprobabilities are a product of several sub-word units. ADP-T performs best across all frequency\nranges. Figure 3 bins the loss by the frequency of the previous word and shows that CNN does well\nwhen it has rare words in the context, however, ADP-T does best across all bins."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2915
+        },
+        {
+          "x": 2107,
+          "y": 2915
+        },
+        {
+          "x": 2107,
+          "y": 3054
+        },
+        {
+          "x": 441,
+          "y": 3054
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='78' style='font-size:18px'>Figure 4 shows an equivalent analysis for BILLION WORD. The largest differences between mod-<br>els is on rare words. CNN performs best on very rare words but is outperformed by ADP in all<br>other settings. Similar to WIKITEXT-103, BPE and BPE-T perform poorly on rare words. Further</p>",
+      "id": 78,
+      "page": 7,
+      "text": "Figure 4 shows an equivalent analysis for BILLION WORD. The largest differences between mod-\nels is on rare words. CNN performs best on very rare words but is outperformed by ADP in all\nother settings. Similar to WIKITEXT-103, BPE and BPE-T perform poorly on rare words. Further"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1261,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3170
+        },
+        {
+          "x": 1261,
+          "y": 3170
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='79' style='font-size:14px'>7</footer>",
+      "id": 79,
+      "page": 7,
+      "text": "7"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 453,
+          "y": 341
+        },
+        {
+          "x": 2096,
+          "y": 341
+        },
+        {
+          "x": 2096,
+          "y": 1124
+        },
+        {
+          "x": 453,
+          "y": 1124
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='80' style='font-size:14px' alt=\"15\n■ BPE ■ BPE-T\nI E ASM ミ ⌀ CNN\nS ■ ADP 目。 ADP-T\n10\nLoss\n5\n0\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin\" data-coord=\"top-left:(453,341); bottom-right:(2096,1124)\" /></figure>",
+      "id": 80,
+      "page": 8,
+      "text": "15\n■ BPE ■ BPE-T\nI E ASM ミ ⌀ CNN\nS ■ ADP 目。 ADP-T\n10\nLoss\n5\n0\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 1162
+        },
+        {
+          "x": 2107,
+          "y": 1162
+        },
+        {
+          "x": 2107,
+          "y": 1257
+        },
+        {
+          "x": 440,
+          "y": 1257
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='81' style='font-size:18px'>Figure 4: Loss of models when binning by word frequency on the test set of BILLION WORD. Bins<br>are not cumulative.</caption>",
+      "id": 81,
+      "page": 8,
+      "text": "Figure 4: Loss of models when binning by word frequency on the test set of BILLION WORD. Bins\nare not cumulative."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 853,
+          "y": 1318
+        },
+        {
+          "x": 1696,
+          "y": 1318
+        },
+        {
+          "x": 1696,
+          "y": 1751
+        },
+        {
+          "x": 853,
+          "y": 1751
+        }
+      ],
+      "category": "table",
+      "html": "<table id='82' style='font-size:16px'><tr><td>Train block size</td><td>Inference context size</td><td>Validation perplexity</td><td>Test perplexity</td></tr><tr><td>512</td><td>0</td><td>19.79</td><td>20.51</td></tr><tr><td>512</td><td>480</td><td>18.35</td><td>19.03</td></tr><tr><td>2048</td><td>0</td><td>18.96</td><td>19.53</td></tr><tr><td>2048</td><td>1536</td><td>18.23</td><td>18.88</td></tr><tr><td>3072</td><td>0</td><td>18.63</td><td>19.34</td></tr><tr><td>3072</td><td>2560</td><td>17.97</td><td>18.70</td></tr></table>",
+      "id": 82,
+      "page": 8,
+      "text": "Train block size Inference context size Validation perplexity Test perplexity\n 512 0 19.79 20.51\n 512 480 18.35 19.03\n 2048 0 18.96 19.53\n 2048 1536 18.23 18.88\n 3072 0 18.63 19.34\n 3072 2560 17.97"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1781
+        },
+        {
+          "x": 2109,
+          "y": 1781
+        },
+        {
+          "x": 2109,
+          "y": 1923
+        },
+        {
+          "x": 442,
+          "y": 1923
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='83' style='font-size:20px'>Table 5: Perplexity on WIKITEXT-103 with different context sizes during training and inference.<br>Training block size is the number of consecutive tokens considered during training. Inference con-<br>text is the number of tokens provided at evaluation before scoring tokens.</caption>",
+      "id": 83,
+      "page": 8,
+      "text": "Table 5: Perplexity on WIKITEXT-103 with different context sizes during training and inference.\nTraining block size is the number of consecutive tokens considered during training. Inference con-\ntext is the number of tokens provided at evaluation before scoring tokens."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2021
+        },
+        {
+          "x": 2107,
+          "y": 2021
+        },
+        {
+          "x": 2107,
+          "y": 2159
+        },
+        {
+          "x": 442,
+          "y": 2159
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='84' style='font-size:20px'>analysis (Appendix 5.3) binning the loss by the frequency of the previous word shows that weight<br>sharing also helps for BILLION WORD and that CNN does very well on rare words for BILLION<br>WORD compared to other models.</p>",
+      "id": 84,
+      "page": 8,
+      "text": "analysis (Appendix 5.3) binning the loss by the frequency of the previous word shows that weight\nsharing also helps for BILLION WORD and that CNN does very well on rare words for BILLION\nWORD compared to other models."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 2183
+        },
+        {
+          "x": 2109,
+          "y": 2183
+        },
+        {
+          "x": 2109,
+          "y": 2461
+        },
+        {
+          "x": 440,
+          "y": 2461
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='85' style='font-size:18px'>Table 5 shows the importance of context size for WIKITEXT-103. Training block size is the number<br>of consecutive tokens that are considered at once during training. Inference context is the number of<br>tokens that are provided at evaluation before any tokens are scored. Simply increasing the training<br>block size from 512 to 3072 results in an improvement of nearly 1.2 perplexity with no inference<br>context window. Increasing the context size at inference time results in an improvement of 0.6<br>perplexity for the largest training block size.</p>",
+      "id": 85,
+      "page": 8,
+      "text": "Table 5 shows the importance of context size for WIKITEXT-103. Training block size is the number\nof consecutive tokens that are considered at once during training. Inference context is the number of\ntokens that are provided at evaluation before any tokens are scored. Simply increasing the training\nblock size from 512 to 3072 results in an improvement of nearly 1.2 perplexity with no inference\ncontext window. Increasing the context size at inference time results in an improvement of 0.6\nperplexity for the largest training block size."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2525
+        },
+        {
+          "x": 1290,
+          "y": 2525
+        },
+        {
+          "x": 1290,
+          "y": 2571
+        },
+        {
+          "x": 444,
+          "y": 2571
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='86' style='font-size:18px'>5.4 ADAPTIVE SOFTMAX VS. FULL SOFTMAX</p>",
+      "id": 86,
+      "page": 8,
+      "text": "5.4 ADAPTIVE SOFTMAX VS. FULL SOFTMAX"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2615
+        },
+        {
+          "x": 2108,
+          "y": 2615
+        },
+        {
+          "x": 2108,
+          "y": 2846
+        },
+        {
+          "x": 441,
+          "y": 2846
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='87' style='font-size:20px'>We also found that adaptive softmax can benefit from additional regularization of rare words. Adap-<br>tive softmax first projects the model output to the dimension of a particular cluster and then computes<br>a dot product with the respective word embeddings. We add dropout to the output of the first pro-<br>jection for all clusters, except for the head. This change enables the adaptive softmax to outperform<br>a standard softmax over fixed size output word embeddings on WIKITEXT-103 (Table 6).</p>",
+      "id": 87,
+      "page": 8,
+      "text": "We also found that adaptive softmax can benefit from additional regularization of rare words. Adap-\ntive softmax first projects the model output to the dimension of a particular cluster and then computes\na dot product with the respective word embeddings. We add dropout to the output of the first pro-\njection for all clusters, except for the head. This change enables the adaptive softmax to outperform\na standard softmax over fixed size output word embeddings on WIKITEXT-103 (Table 6)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2868
+        },
+        {
+          "x": 2109,
+          "y": 2868
+        },
+        {
+          "x": 2109,
+          "y": 3053
+        },
+        {
+          "x": 441,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='88' style='font-size:18px'>However, we found that adding dropout in this way is not helpful for larger datasets such as BILLION<br>WORD. Unfortunately, a standard softmax over 800K words is not tractable and we were unable to<br>make a comparison. It may be possible to achieve better results by tuning dropout for each band of<br>the tail and we leave this for future work.</p>",
+      "id": 88,
+      "page": 8,
+      "text": "However, we found that adding dropout in this way is not helpful for larger datasets such as BILLION\nWORD. Unfortunately, a standard softmax over 800K words is not tractable and we were unable to\nmake a comparison. It may be possible to achieve better results by tuning dropout for each band of\nthe tail and we leave this for future work."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1260,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3135
+        },
+        {
+          "x": 1289,
+          "y": 3171
+        },
+        {
+          "x": 1260,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='89' style='font-size:18px'>8</footer>",
+      "id": 89,
+      "page": 8,
+      "text": "8"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 924,
+          "y": 338
+        },
+        {
+          "x": 1627,
+          "y": 338
+        },
+        {
+          "x": 1627,
+          "y": 640
+        },
+        {
+          "x": 924,
+          "y": 640
+        }
+      ],
+      "category": "table",
+      "html": "<table id='90' style='font-size:16px'><tr><td></td><td>Tail dropout</td><td>Validation perplexity</td></tr><tr><td>Softmax (SM)</td><td>N/A</td><td>23.87</td></tr><tr><td>Adaptive (ADP)</td><td>0.0</td><td>24.74</td></tr><tr><td>Adaptive (ADP)</td><td>0.2</td><td>21.23</td></tr></table>",
+      "id": 90,
+      "page": 9,
+      "text": "Tail dropout Validation perplexity\n Softmax (SM) N/A 23.87\n Adaptive (ADP) 0.0 24.74\n Adaptive (ADP) 0.2"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 529,
+          "y": 669
+        },
+        {
+          "x": 2020,
+          "y": 669
+        },
+        {
+          "x": 2020,
+          "y": 719
+        },
+        {
+          "x": 529,
+          "y": 719
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='91' style='font-size:14px'>Table 6: Perplexity on WIKITEXT- 103 when regularizing rare words in adaptive softmax.</caption>",
+      "id": 91,
+      "page": 9,
+      "text": "Table 6: Perplexity on WIKITEXT- 103 when regularizing rare words in adaptive softmax."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 806
+        },
+        {
+          "x": 819,
+          "y": 806
+        },
+        {
+          "x": 819,
+          "y": 856
+        },
+        {
+          "x": 445,
+          "y": 856
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='92' style='font-size:20px'>6 CONCLUSION</p>",
+      "id": 92,
+      "page": 9,
+      "text": "6 CONCLUSION"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 911
+        },
+        {
+          "x": 2108,
+          "y": 911
+        },
+        {
+          "x": 2108,
+          "y": 1140
+        },
+        {
+          "x": 443,
+          "y": 1140
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='93' style='font-size:14px'>Adaptive input embeddings vary the size of input word embeddings which can improve accuracy<br>while drastically reducing the number of model parameters. When sharing parameters with an adap-<br>tive softmax, the number of parameters can be further reduced which improves training speed. We<br>presented a comparison between different input and output layer factorizations including word in-<br>puts, character inputs and sub-word units in both the input and output.</p>",
+      "id": 93,
+      "page": 9,
+      "text": "Adaptive input embeddings vary the size of input word embeddings which can improve accuracy\nwhile drastically reducing the number of model parameters. When sharing parameters with an adap-\ntive softmax, the number of parameters can be further reduced which improves training speed. We\npresented a comparison between different input and output layer factorizations including word in-\nputs, character inputs and sub-word units in both the input and output."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1163
+        },
+        {
+          "x": 2107,
+          "y": 1163
+        },
+        {
+          "x": 2107,
+          "y": 1347
+        },
+        {
+          "x": 442,
+          "y": 1347
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='94' style='font-size:14px'>Our experiments show that models with adaptive input embeddings train faster compared to char-<br>acter input CNNs while achieving higher accuracy. We achieve new state of the art results on<br>WIKITEXT-103 and BILLION WORD. In future work, we will apply variable sized input embed-<br>dings to other tasks.</p>",
+      "id": 94,
+      "page": 9,
+      "text": "Our experiments show that models with adaptive input embeddings train faster compared to char-\nacter input CNNs while achieving higher accuracy. We achieve new state of the art results on\nWIKITEXT-103 and BILLION WORD. In future work, we will apply variable sized input embed-\ndings to other tasks."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1402
+        },
+        {
+          "x": 839,
+          "y": 1402
+        },
+        {
+          "x": 839,
+          "y": 1446
+        },
+        {
+          "x": 445,
+          "y": 1446
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='95' style='font-size:14px'>ACKNOWLEDGMENTS</p>",
+      "id": 95,
+      "page": 9,
+      "text": "ACKNOWLEDGMENTS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1481
+        },
+        {
+          "x": 1440,
+          "y": 1481
+        },
+        {
+          "x": 1440,
+          "y": 1530
+        },
+        {
+          "x": 445,
+          "y": 1530
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='96' style='font-size:14px'>We thank Tom Bosc for fruitful comments and suggestions.</p>",
+      "id": 96,
+      "page": 9,
+      "text": "We thank Tom Bosc for fruitful comments and suggestions."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1599
+        },
+        {
+          "x": 735,
+          "y": 1599
+        },
+        {
+          "x": 735,
+          "y": 1648
+        },
+        {
+          "x": 445,
+          "y": 1648
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='97' style='font-size:22px'>REFERENCES</p>",
+      "id": 97,
+      "page": 9,
+      "text": "REFERENCES"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 1679
+        },
+        {
+          "x": 2104,
+          "y": 1679
+        },
+        {
+          "x": 2104,
+          "y": 1771
+        },
+        {
+          "x": 445,
+          "y": 1771
+        }
+      ],
+      "category": "paragraph",
+      "html": "<br><p id='98' style='font-size:16px'>Rami Al-Rfou, Dokook Choe, Noah Constant, Mandy Guo, and Llion Jones. Character-level lan-<br>guage modeling with deeper self-attention. arXiv, abs/1808.04444, 2018.</p>",
+      "id": 98,
+      "page": 9,
+      "text": "Rami Al-Rfou, Dokook Choe, Noah Constant, Mandy Guo, and Llion Jones. Character-level lan-\nguage modeling with deeper self-attention. arXiv, abs/1808.04444, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 1806
+        },
+        {
+          "x": 2106,
+          "y": 1806
+        },
+        {
+          "x": 2106,
+          "y": 1944
+        },
+        {
+          "x": 444,
+          "y": 1944
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='99' style='font-size:16px'>Ebru Arisoy, Tara N. Sainath, Brian Kingsbury, and Bhuvana Ramabhadran. Deep Neural Network<br>Language Models. In NAACL-HLT Workshop on the Future of Language Modeling for HLT,<br>2012.</p>",
+      "id": 99,
+      "page": 9,
+      "text": "Ebru Arisoy, Tara N. Sainath, Brian Kingsbury, and Bhuvana Ramabhadran. Deep Neural Network\nLanguage Models. In NAACL-HLT Workshop on the Future of Language Modeling for HLT,\n2012."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1978
+        },
+        {
+          "x": 2106,
+          "y": 1978
+        },
+        {
+          "x": 2106,
+          "y": 2072
+        },
+        {
+          "x": 443,
+          "y": 2072
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='100' style='font-size:14px'>Paul Baltescu and Phil Blunsom. Pragmatic neural language modelling in machine translation. In<br>Proc. ofACL, 2015.</p>",
+      "id": 100,
+      "page": 9,
+      "text": "Paul Baltescu and Phil Blunsom. Pragmatic neural language modelling in machine translation. In\nProc. ofACL, 2015."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2108
+        },
+        {
+          "x": 2105,
+          "y": 2108
+        },
+        {
+          "x": 2105,
+          "y": 2202
+        },
+        {
+          "x": 444,
+          "y": 2202
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='101' style='font-size:18px'>Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. A Neural Probabilistic<br>Language Model. JMLR, 3:1137-1155, 2003.</p>",
+      "id": 101,
+      "page": 9,
+      "text": "Yoshua Bengio, Rejean Ducharme, Pascal Vincent, and Christian Jauvin. A Neural Probabilistic\nLanguage Model. JMLR, 3:1137-1155, 2003."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2235
+        },
+        {
+          "x": 2040,
+          "y": 2235
+        },
+        {
+          "x": 2040,
+          "y": 2283
+        },
+        {
+          "x": 444,
+          "y": 2283
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='102' style='font-size:16px'>Jacob Buckman and Graham Neubig. Neural lattice language models. TACL, 6:529-541, 2018.</p>",
+      "id": 102,
+      "page": 9,
+      "text": "Jacob Buckman and Graham Neubig. Neural lattice language models. TACL, 6:529-541, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2318
+        },
+        {
+          "x": 2106,
+          "y": 2318
+        },
+        {
+          "x": 2106,
+          "y": 2457
+        },
+        {
+          "x": 443,
+          "y": 2457
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='103' style='font-size:18px'>Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp Koehn, and Tony<br>Robinson. One billion word benchmark for measuring progress in statistical language modeling.<br>Technical report, Google, 2013.</p>",
+      "id": 103,
+      "page": 9,
+      "text": "Ciprian Chelba, Tomas Mikolov, Mike Schuster, Qi Ge, Thorsten Brants, Phillipp Koehn, and Tony\nRobinson. One billion word benchmark for measuring progress in statistical language modeling.\nTechnical report, Google, 2013."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2492
+        },
+        {
+          "x": 2105,
+          "y": 2492
+        },
+        {
+          "x": 2105,
+          "y": 2585
+        },
+        {
+          "x": 444,
+          "y": 2585
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='104' style='font-size:18px'>Wenlin Chen, David Grangier, and Michael Auli. Strategies for training large vocabulary neural<br>language models. In Proc. ofACL, 2016.</p>",
+      "id": 104,
+      "page": 9,
+      "text": "Wenlin Chen, David Grangier, and Michael Auli. Strategies for training large vocabulary neural\nlanguage models. In Proc. ofACL, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2622
+        },
+        {
+          "x": 2106,
+          "y": 2622
+        },
+        {
+          "x": 2106,
+          "y": 2713
+        },
+        {
+          "x": 444,
+          "y": 2713
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='105' style='font-size:18px'>Yann N. Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated<br>convolutional networks. In Proc. of ICML, 2017.</p>",
+      "id": 105,
+      "page": 9,
+      "text": "Yann N. Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated\nconvolutional networks. In Proc. of ICML, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2749
+        },
+        {
+          "x": 1967,
+          "y": 2749
+        },
+        {
+          "x": 1967,
+          "y": 2798
+        },
+        {
+          "x": 445,
+          "y": 2798
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='106' style='font-size:16px'>Joshua Goodman. Classes for Fast Maximum Entropy Training. In Proc. of ICASSP, 2001.</p>",
+      "id": 106,
+      "page": 9,
+      "text": "Joshua Goodman. Classes for Fast Maximum Entropy Training. In Proc. of ICASSP, 2001."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 2830
+        },
+        {
+          "x": 2107,
+          "y": 2830
+        },
+        {
+          "x": 2107,
+          "y": 2922
+        },
+        {
+          "x": 444,
+          "y": 2922
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='107' style='font-size:14px'>Edouard Grave, Armand Joulin, and Nicolas Usunier. Improving neural language models with a<br>continuous cache. arXiv, abs/1612.04426, 2016.</p>",
+      "id": 107,
+      "page": 9,
+      "text": "Edouard Grave, Armand Joulin, and Nicolas Usunier. Improving neural language models with a\ncontinuous cache. arXiv, abs/1612.04426, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2961
+        },
+        {
+          "x": 2107,
+          "y": 2961
+        },
+        {
+          "x": 2107,
+          "y": 3053
+        },
+        {
+          "x": 443,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='108' style='font-size:18px'>Edouard Grave, Armand Joulin, Moustapha Cisse, David Grangier, and Herve Jegou. Efficient<br>softmax approximation for gpus. In Proc. of ICML, 2017.</p>",
+      "id": 108,
+      "page": 9,
+      "text": "Edouard Grave, Armand Joulin, Moustapha Cisse, David Grangier, and Herve Jegou. Efficient\nsoftmax approximation for gpus. In Proc. of ICML, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1261,
+          "y": 3134
+        },
+        {
+          "x": 1287,
+          "y": 3134
+        },
+        {
+          "x": 1287,
+          "y": 3168
+        },
+        {
+          "x": 1261,
+          "y": 3168
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='109' style='font-size:14px'>9</footer>",
+      "id": 109,
+      "page": 9,
+      "text": "9"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 347
+        },
+        {
+          "x": 2105,
+          "y": 347
+        },
+        {
+          "x": 2105,
+          "y": 438
+        },
+        {
+          "x": 442,
+          "y": 438
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='110' style='font-size:22px'>Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep Residual Learning for Image<br>Recognition. In Proc. of CVPR, 2015.</p>",
+      "id": 110,
+      "page": 10,
+      "text": "Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep Residual Learning for Image\nRecognition. In Proc. of CVPR, 2015."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 474
+        },
+        {
+          "x": 2107,
+          "y": 474
+        },
+        {
+          "x": 2107,
+          "y": 565
+        },
+        {
+          "x": 444,
+          "y": 565
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='111' style='font-size:18px'>Hakan Inan, Khashayar Khosravi, and Richard Socher. Tying word vectors and word classifiers: A<br>loss framework for language modeling. arXiv, abs/1611.01462, 2016.</p>",
+      "id": 111,
+      "page": 10,
+      "text": "Hakan Inan, Khashayar Khosravi, and Richard Socher. Tying word vectors and word classifiers: A\nloss framework for language modeling. arXiv, abs/1611.01462, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 599
+        },
+        {
+          "x": 2105,
+          "y": 599
+        },
+        {
+          "x": 2105,
+          "y": 690
+        },
+        {
+          "x": 442,
+          "y": 690
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='112' style='font-size:20px'>Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the<br>limits of language modeling. arXiv, abs/1 602.02410, 2016.</p>",
+      "id": 112,
+      "page": 10,
+      "text": "Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring the\nlimits of language modeling. arXiv, abs/1 602.02410, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 725
+        },
+        {
+          "x": 2107,
+          "y": 725
+        },
+        {
+          "x": 2107,
+          "y": 816
+        },
+        {
+          "x": 444,
+          "y": 816
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='113' style='font-size:18px'>Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush. Character-aware neural language<br>models. arXiv, abs/1508.06615, 2015.</p>",
+      "id": 113,
+      "page": 10,
+      "text": "Yoon Kim, Yacine Jernite, David Sontag, and Alexander M. Rush. Character-aware neural language\nmodels. arXiv, abs/1508.06615, 2015."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 851
+        },
+        {
+          "x": 2105,
+          "y": 851
+        },
+        {
+          "x": 2105,
+          "y": 943
+        },
+        {
+          "x": 443,
+          "y": 943
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='114' style='font-size:18px'>Yoon Kim, Yacine Jernite, David Sontag, and Alexander M Rush. Character-aware neural language<br>models. In AAAI, pp. 2741-2749, 2016.</p>",
+      "id": 114,
+      "page": 10,
+      "text": "Yoon Kim, Yacine Jernite, David Sontag, and Alexander M Rush. Character-aware neural language\nmodels. In AAAI, pp. 2741-2749, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 977
+        },
+        {
+          "x": 2106,
+          "y": 977
+        },
+        {
+          "x": 2106,
+          "y": 1068
+        },
+        {
+          "x": 443,
+          "y": 1068
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='115' style='font-size:16px'>Ilya Loshchilov and Frank Hutter. SGDR: stochastic gradient descent with restarts. arXiv,<br>abs/1 608.03983, 2016.</p>",
+      "id": 115,
+      "page": 10,
+      "text": "Ilya Loshchilov and Frank Hutter. SGDR: stochastic gradient descent with restarts. arXiv,\nabs/1 608.03983, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1103
+        },
+        {
+          "x": 2105,
+          "y": 1103
+        },
+        {
+          "x": 2105,
+          "y": 1194
+        },
+        {
+          "x": 442,
+          "y": 1194
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='116' style='font-size:20px'>Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture<br>models. arXiv, abs/1609.07843, 2016.</p>",
+      "id": 116,
+      "page": 10,
+      "text": "Stephen Merity, Caiming Xiong, James Bradbury, and Richard Socher. Pointer sentinel mixture\nmodels. arXiv, abs/1609.07843, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1230
+        },
+        {
+          "x": 2108,
+          "y": 1230
+        },
+        {
+          "x": 2108,
+          "y": 1321
+        },
+        {
+          "x": 442,
+          "y": 1321
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='117' style='font-size:18px'>Stephen Merity, Nitish Shirish Keskar, and Richard Socher. An analysis of neural language modeling<br>at multiple scales. arXiv, abs/1803.08240, 2018.</p>",
+      "id": 117,
+      "page": 10,
+      "text": "Stephen Merity, Nitish Shirish Keskar, and Richard Socher. An analysis of neural language modeling\nat multiple scales. arXiv, abs/1803.08240, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1355
+        },
+        {
+          "x": 2105,
+          "y": 1355
+        },
+        {
+          "x": 2105,
+          "y": 1447
+        },
+        {
+          "x": 442,
+          "y": 1447
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='118' style='font-size:16px'>Sebastian J. Mielke and Jason Eisner. Spell once, summon anywhere: A two-level open-vocabulary<br>language model. arXiv, abs/1804.08205, 2018.</p>",
+      "id": 118,
+      "page": 10,
+      "text": "Sebastian J. Mielke and Jason Eisner. Spell once, summon anywhere: A two-level open-vocabulary\nlanguage model. arXiv, abs/1804.08205, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1480
+        },
+        {
+          "x": 2106,
+          "y": 1480
+        },
+        {
+          "x": 2106,
+          "y": 1574
+        },
+        {
+          "x": 443,
+          "y": 1574
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='119' style='font-size:20px'>Tomas Mikolov, Karafiat Martin, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Recurrent<br>Neural Network based Language Model. In Proc. of Interspeech, 2010.</p>",
+      "id": 119,
+      "page": 10,
+      "text": "Tomas Mikolov, Karafiat Martin, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Recurrent\nNeural Network based Language Model. In Proc. of Interspeech, 2010."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1607
+        },
+        {
+          "x": 2106,
+          "y": 1607
+        },
+        {
+          "x": 2106,
+          "y": 1700
+        },
+        {
+          "x": 443,
+          "y": 1700
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='120' style='font-size:20px'>Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Exten-<br>sions of Recurrent Neural Network Language Model. In Proc. of ICASSP, pp. 5528-5531, 2011.</p>",
+      "id": 120,
+      "page": 10,
+      "text": "Tomas Mikolov, Stefan Kombrink, Lukas Burget, Jan Cernocky, and Sanjeev Khudanpur. Exten-\nsions of Recurrent Neural Network Language Model. In Proc. of ICASSP, pp. 5528-5531, 2011."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 1734
+        },
+        {
+          "x": 2105,
+          "y": 1734
+        },
+        {
+          "x": 2105,
+          "y": 1824
+        },
+        {
+          "x": 443,
+          "y": 1824
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='121' style='font-size:18px'>Frederic Morin and Yoshua Bengio. Hierarchical Probabilistic Neural Network Language Model.<br>In Proc. of AISTATS, 2005.</p>",
+      "id": 121,
+      "page": 10,
+      "text": "Frederic Morin and Yoshua Bengio. Hierarchical Probabilistic Neural Network Language Model.\nIn Proc. of AISTATS, 2005."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1860
+        },
+        {
+          "x": 2105,
+          "y": 1860
+        },
+        {
+          "x": 2105,
+          "y": 1952
+        },
+        {
+          "x": 442,
+          "y": 1952
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='122' style='font-size:20px'>Myle Ott, Michael Auli, David Grangier, and MarcAurelio Ranzato. Analyzing uncertainty in neural<br>machine translation. In Proc. of ICML, 2018a.</p>",
+      "id": 122,
+      "page": 10,
+      "text": "Myle Ott, Michael Auli, David Grangier, and MarcAurelio Ranzato. Analyzing uncertainty in neural\nmachine translation. In Proc. of ICML, 2018a."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 1986
+        },
+        {
+          "x": 2104,
+          "y": 1986
+        },
+        {
+          "x": 2104,
+          "y": 2076
+        },
+        {
+          "x": 442,
+          "y": 2076
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='123' style='font-size:20px'>Myle Ott, Sergey Edunov, David Grangier, and Michael Auli. Scaling neural machine translation.<br>In Proc. of WMT, 2018b.</p>",
+      "id": 123,
+      "page": 10,
+      "text": "Myle Ott, Sergey Edunov, David Grangier, and Michael Auli. Scaling neural machine translation.\nIn Proc. of WMT, 2018b."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2113
+        },
+        {
+          "x": 2107,
+          "y": 2113
+        },
+        {
+          "x": 2107,
+          "y": 2203
+        },
+        {
+          "x": 442,
+          "y": 2203
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='124' style='font-size:18px'>Razvan Pascanu, Tomas Mikolov, and Yoshua Bengio. On the difficulty of training recurrent neural<br>networks. In Proc. of ICML, 2013.</p>",
+      "id": 124,
+      "page": 10,
+      "text": "Razvan Pascanu, Tomas Mikolov, and Yoshua Bengio. On the difficulty of training recurrent neural\nnetworks. In Proc. of ICML, 2013."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2239
+        },
+        {
+          "x": 2109,
+          "y": 2239
+        },
+        {
+          "x": 2109,
+          "y": 2328
+        },
+        {
+          "x": 442,
+          "y": 2328
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='125' style='font-size:18px'>Ofir Press and Lior Wolf. Using the output embedding to improve language models. In Proc. of<br>EACL, 2017.</p>",
+      "id": 125,
+      "page": 10,
+      "text": "Ofir Press and Lior Wolf. Using the output embedding to improve language models. In Proc. of\nEACL, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2363
+        },
+        {
+          "x": 2108,
+          "y": 2363
+        },
+        {
+          "x": 2108,
+          "y": 2457
+        },
+        {
+          "x": 443,
+          "y": 2457
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='126' style='font-size:20px'>Jack W. Rae, Chris Dyer, Peter Dayan, and Timothy P. Lillicrap. Fast parametric learning with<br>activation memorization. arXiv, abs/1803.10049, 2018.</p>",
+      "id": 126,
+      "page": 10,
+      "text": "Jack W. Rae, Chris Dyer, Peter Dayan, and Timothy P. Lillicrap. Fast parametric learning with\nactivation memorization. arXiv, abs/1803.10049, 2018."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2489
+        },
+        {
+          "x": 2107,
+          "y": 2489
+        },
+        {
+          "x": 2107,
+          "y": 2628
+        },
+        {
+          "x": 442,
+          "y": 2628
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='127' style='font-size:18px'>Holger Schwenk, Anthony Rousseau, and Mohammed Attik. Large, Pruned or Continuous Space<br>Language Models on a GPU for Statistical Machine Translation. In NAACL-HLT Workshop on<br>the Future of Language Modeling for HLT, 2012.</p>",
+      "id": 127,
+      "page": 10,
+      "text": "Holger Schwenk, Anthony Rousseau, and Mohammed Attik. Large, Pruned or Continuous Space\nLanguage Models on a GPU for Statistical Machine Translation. In NAACL-HLT Workshop on\nthe Future of Language Modeling for HLT, 2012."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2662
+        },
+        {
+          "x": 2108,
+          "y": 2662
+        },
+        {
+          "x": 2108,
+          "y": 2752
+        },
+        {
+          "x": 442,
+          "y": 2752
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='128' style='font-size:16px'>Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with<br>subword units. In Proc. ofACL, 2016.</p>",
+      "id": 128,
+      "page": 10,
+      "text": "Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words with\nsubword units. In Proc. ofACL, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 2789
+        },
+        {
+          "x": 2104,
+          "y": 2789
+        },
+        {
+          "x": 2104,
+          "y": 2879
+        },
+        {
+          "x": 443,
+          "y": 2879
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='129' style='font-size:20px'>Noam Shazeer, Joris Pelemans, and Ciprian Chelba. Sparse non-negative matrix language modeling.<br>In Proc. of Interspeech, 2016.</p>",
+      "id": 129,
+      "page": 10,
+      "text": "Noam Shazeer, Joris Pelemans, and Ciprian Chelba. Sparse non-negative matrix language modeling.\nIn Proc. of Interspeech, 2016."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 2915
+        },
+        {
+          "x": 2107,
+          "y": 2915
+        },
+        {
+          "x": 2107,
+          "y": 3053
+        },
+        {
+          "x": 442,
+          "y": 3053
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='130' style='font-size:22px'>Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V.Le, Geoffrey E. Hinton,<br>and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer.<br>arXiv, abs/1701.06538, 2017.</p>",
+      "id": 130,
+      "page": 10,
+      "text": "Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc V.Le, Geoffrey E. Hinton,\nand Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer.\narXiv, abs/1701.06538, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1252,
+          "y": 3132
+        },
+        {
+          "x": 1301,
+          "y": 3132
+        },
+        {
+          "x": 1301,
+          "y": 3172
+        },
+        {
+          "x": 1252,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='131' style='font-size:14px'>10</footer>",
+      "id": 131,
+      "page": 10,
+      "text": "10"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 346
+        },
+        {
+          "x": 2108,
+          "y": 346
+        },
+        {
+          "x": 2108,
+          "y": 438
+        },
+        {
+          "x": 441,
+          "y": 438
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='132' style='font-size:18px'>Ilya Sutskever, James Martens, George E. Dahl, and Geoffrey E. Hinton. On the importance of<br>initialization and momentum in deep learning. In Proc. ofICML, 2013.</p>",
+      "id": 132,
+      "page": 11,
+      "text": "Ilya Sutskever, James Martens, George E. Dahl, and Geoffrey E. Hinton. On the importance of\ninitialization and momentum in deep learning. In Proc. ofICML, 2013."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 444,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 472
+        },
+        {
+          "x": 2107,
+          "y": 564
+        },
+        {
+          "x": 444,
+          "y": 564
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='133' style='font-size:20px'>Ashish Vaswani, Yinggong Zhao, Victoria Fossum, and David Chiang. Decoding with Large-scale<br>Neural Language Models improves Translation. In Proc. of EMNLP, October 2013.</p>",
+      "id": 133,
+      "page": 11,
+      "text": "Ashish Vaswani, Yinggong Zhao, Victoria Fossum, and David Chiang. Decoding with Large-scale\nNeural Language Models improves Translation. In Proc. of EMNLP, October 2013."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 443,
+          "y": 597
+        },
+        {
+          "x": 2105,
+          "y": 597
+        },
+        {
+          "x": 2105,
+          "y": 689
+        },
+        {
+          "x": 443,
+          "y": 689
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='134' style='font-size:16px'>Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez,<br>Lukasz Kaiser, and Illia Polosukhin. Attention Is All You Need. In Proc. of NIPS, 2017.</p>",
+      "id": 134,
+      "page": 11,
+      "text": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez,\nLukasz Kaiser, and Illia Polosukhin. Attention Is All You Need. In Proc. of NIPS, 2017."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1253,
+          "y": 3132
+        },
+        {
+          "x": 1297,
+          "y": 3132
+        },
+        {
+          "x": 1297,
+          "y": 3172
+        },
+        {
+          "x": 1253,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='135' style='font-size:14px'>11</footer>",
+      "id": 135,
+      "page": 11,
+      "text": "11"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 341
+        },
+        {
+          "x": 1069,
+          "y": 341
+        },
+        {
+          "x": 1069,
+          "y": 393
+        },
+        {
+          "x": 445,
+          "y": 393
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='136' style='font-size:22px'>SUPPLEMENTARY MATERIAL</p>",
+      "id": 136,
+      "page": 12,
+      "text": "SUPPLEMENTARY MATERIAL"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 446,
+          "y": 454
+        },
+        {
+          "x": 1531,
+          "y": 454
+        },
+        {
+          "x": 1531,
+          "y": 505
+        },
+        {
+          "x": 446,
+          "y": 505
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='137' style='font-size:20px'>A ADDITIONAL EXPERIMENTS ON WIKITEXT-103</p>",
+      "id": 137,
+      "page": 12,
+      "text": "A ADDITIONAL EXPERIMENTS ON WIKITEXT-103"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 553
+        },
+        {
+          "x": 2110,
+          "y": 553
+        },
+        {
+          "x": 2110,
+          "y": 786
+        },
+        {
+          "x": 442,
+          "y": 786
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='138' style='font-size:16px'>This appendix shows various ablation. Table 7 shows that reducing the capacity of fixed size word<br>input embddings is beneficial on WIKITEXT-103. The next set of results in Table 7 shows results<br>for various settings of the SM and SM-T models. We also experimented with sharing the head<br>projection but found this to perform less well than not sharing it. Finally, Table 8 shows various<br>band sizes for adaptive input word embbedings.</p>",
+      "id": 138,
+      "page": 12,
+      "text": "This appendix shows various ablation. Table 7 shows that reducing the capacity of fixed size word\ninput embddings is beneficial on WIKITEXT-103. The next set of results in Table 7 shows results\nfor various settings of the SM and SM-T models. We also experimented with sharing the head\nprojection but found this to perform less well than not sharing it. Finally, Table 8 shows various\nband sizes for adaptive input word embbedings."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 809
+        },
+        {
+          "x": 2105,
+          "y": 809
+        },
+        {
+          "x": 2105,
+          "y": 903
+        },
+        {
+          "x": 442,
+          "y": 903
+        }
+      ],
+      "category": "caption",
+      "html": "<br><caption id='139' style='font-size:16px'>We also show the performance of Merity et al. (2018) who use an adaptive softmax with equally<br>sized word representations and share the input and output embeddings (no dim reduction, tied).</caption>",
+      "id": 139,
+      "page": 12,
+      "text": "We also show the performance of Merity et al. (2018) who use an adaptive softmax with equally\nsized word representations and share the input and output embeddings (no dim reduction, tied)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 442,
+          "y": 939
+        },
+        {
+          "x": 2175,
+          "y": 939
+        },
+        {
+          "x": 2175,
+          "y": 1835
+        },
+        {
+          "x": 442,
+          "y": 1835
+        }
+      ],
+      "category": "table",
+      "html": "<table id='140' style='font-size:20px'><tr><td>Input</td><td>Output</td><td>Dropout</td><td>Valid PPL</td><td>Parameters</td></tr><tr><td>256d Embedding</td><td>Adaptive</td><td>0.3</td><td>23.39</td><td>314.7M</td></tr><tr><td>128d Embedding</td><td>Adaptive</td><td>0.3</td><td>21.51</td><td>280.3M</td></tr><tr><td>64d Embedding</td><td>Adaptive</td><td>0.3</td><td>21.23</td><td>263.1M</td></tr><tr><td>32d Embedding</td><td>Adaptive</td><td>0.3</td><td>21.78</td><td>254.5M</td></tr><tr><td>512d Embedding</td><td>512d Softmax (tied)</td><td>0.3</td><td>22.63</td><td>339.7M</td></tr><tr><td>512d Embedding</td><td>512d Softmax (tied)</td><td>0.4</td><td>28.31</td><td>339.7M</td></tr><tr><td>512d Embedding</td><td>512d Softmax</td><td>0.3</td><td>23.87</td><td>476.8</td></tr><tr><td>512d Embedding</td><td>512d Softmax</td><td>0.4</td><td>27.64</td><td>476.8</td></tr><tr><td>256d Embedding</td><td>256d Softmax (tied)</td><td>0.3</td><td>22.65</td><td>270.6M</td></tr><tr><td>256d Embedding</td><td>256d Softmax</td><td>0.3</td><td>24.13</td><td>339.1M</td></tr><tr><td>64d Embedding</td><td>512d Softmax</td><td>0.3</td><td>24.74</td><td>356.3M</td></tr><tr><td>Adaptive</td><td>Adaptive (tied emb, not proj)</td><td>0.3</td><td>20.06</td><td>247.3M</td></tr><tr><td>Adaptive</td><td>Adaptive (tied emb/proj not head)</td><td>0.3</td><td>19.79</td><td>246.9M</td></tr><tr><td>Adaptive</td><td>Adaptive (tied emb/proj + head)</td><td>0.3</td><td>20.06</td><td>246.9M</td></tr><tr><td>512d Embedding</td><td>512d Softmax (tied)</td><td>0.3</td><td>22.63</td><td>339.7M</td></tr><tr><td>512d Embedding</td><td>512d Adaptive (no dim reduction, tied)</td><td>0.3</td><td>25.48</td><td>340.2M</td></tr></table>",
+      "id": 140,
+      "page": 12,
+      "text": "Input Output Dropout Valid PPL Parameters\n 256d Embedding Adaptive 0.3 23.39 314.7M\n 128d Embedding Adaptive 0.3 21.51 280.3M\n 64d Embedding Adaptive 0.3 21.23 263.1M\n 32d Embedding Adaptive 0.3 21.78 254.5M\n 512d Embedding 512d Softmax (tied) 0.3 22.63 339.7M\n 512d Embedding 512d Softmax (tied) 0.4 28.31 339.7M\n 512d Embedding 512d Softmax 0.3 23.87 476.8\n 512d Embedding 512d Softmax 0.4 27.64 476.8\n 256d Embedding 256d Softmax (tied) 0.3 22.65 270.6M\n 256d Embedding 256d Softmax 0.3 24.13 339.1M\n 64d Embedding 512d Softmax 0.3 24.74 356.3M\n Adaptive Adaptive (tied emb, not proj) 0.3 20.06 247.3M\n Adaptive Adaptive (tied emb/proj not head) 0.3 19.79 246.9M\n Adaptive Adaptive (tied emb/proj + head) 0.3 20.06 246.9M\n 512d Embedding 512d Softmax (tied) 0.3 22.63 339.7M\n 512d Embedding 512d Adaptive (no dim reduction, tied) 0.3 25.48"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 736,
+          "y": 1872
+        },
+        {
+          "x": 1812,
+          "y": 1872
+        },
+        {
+          "x": 1812,
+          "y": 1919
+        },
+        {
+          "x": 736,
+          "y": 1919
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='141' style='font-size:14px'>Table 7: Validation perplexity of our models on WIKITEXT- 103.</caption>",
+      "id": 141,
+      "page": 12,
+      "text": "Table 7: Validation perplexity of our models on WIKITEXT- 103."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 979,
+          "y": 1993
+        },
+        {
+          "x": 1570,
+          "y": 1993
+        },
+        {
+          "x": 1570,
+          "y": 2412
+        },
+        {
+          "x": 979,
+          "y": 2412
+        }
+      ],
+      "category": "table",
+      "html": "<table id='142' style='font-size:16px'><tr><td>Softmax cutoff</td><td>Valid PPL</td></tr><tr><td>20k/40k/200k</td><td>19.79</td></tr><tr><td>20k/140k/100k</td><td>20.26</td></tr><tr><td>20k/40k/60k/1 40k</td><td>20.53</td></tr><tr><td>60k/100k/100k</td><td>20.52</td></tr><tr><td>5k/155k/100k</td><td>20.06</td></tr><tr><td>20k/40k/200k</td><td>19.99</td></tr><tr><td>10k/60k/190k</td><td>19.79</td></tr></table>",
+      "id": 142,
+      "page": 12,
+      "text": "Softmax cutoff Valid PPL\n 20k/40k/200k 19.79\n 20k/140k/100k 20.26\n 20k/40k/60k/1 40k 20.53\n 60k/100k/100k 20.52\n 5k/155k/100k 20.06\n 20k/40k/200k 19.99\n 10k/60k/190k"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 440,
+          "y": 2442
+        },
+        {
+          "x": 2111,
+          "y": 2442
+        },
+        {
+          "x": 2111,
+          "y": 2585
+        },
+        {
+          "x": 440,
+          "y": 2585
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='143' style='font-size:16px'>Table 8: Validation perplexity on WIKITEXT- 103 with tied adaptive inputs & outputs. The bands<br>signify the number of words belonging to each band. In every case, the first band has dimension<br>1024, the second band 256, the third band 64 and the fourth band (if it exists) 16.</p>",
+      "id": 143,
+      "page": 12,
+      "text": "Table 8: Validation perplexity on WIKITEXT- 103 with tied adaptive inputs & outputs. The bands\nsignify the number of words belonging to each band. In every case, the first band has dimension\n1024, the second band 256, the third band 64 and the fourth band (if it exists) 16."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 445,
+          "y": 2683
+        },
+        {
+          "x": 757,
+          "y": 2683
+        },
+        {
+          "x": 757,
+          "y": 2734
+        },
+        {
+          "x": 445,
+          "y": 2734
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='144' style='font-size:22px'>B ANALYSIS</p>",
+      "id": 144,
+      "page": 12,
+      "text": "B ANALYSIS"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2785
+        },
+        {
+          "x": 2106,
+          "y": 2785
+        },
+        {
+          "x": 2106,
+          "y": 2879
+        },
+        {
+          "x": 441,
+          "y": 2879
+        }
+      ],
+      "category": "paragraph",
+      "html": "<p id='145' style='font-size:18px'>This appendix extends the analysis in §5.3 by showing a breakdown of the test loss when binning by<br>the frequency of the previous word.</p>",
+      "id": 145,
+      "page": 12,
+      "text": "This appendix extends the analysis in §5.3 by showing a breakdown of the test loss when binning by\nthe frequency of the previous word."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1253,
+          "y": 3133
+        },
+        {
+          "x": 1300,
+          "y": 3133
+        },
+        {
+          "x": 1300,
+          "y": 3171
+        },
+        {
+          "x": 1253,
+          "y": 3171
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='146' style='font-size:14px'>12</footer>",
+      "id": 146,
+      "page": 12,
+      "text": "12"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 448,
+          "y": 1240
+        },
+        {
+          "x": 2089,
+          "y": 1240
+        },
+        {
+          "x": 2089,
+          "y": 2014
+        },
+        {
+          "x": 448,
+          "y": 2014
+        }
+      ],
+      "category": "figure",
+      "html": "<figure><img id='147' style='font-size:14px' alt=\"■ BPE : : BPE-T ASM : CNN Is ADP = ADP-T\n4.5\nword 4\nnext\nthe\n3.5\non\nLoss\n3\n2.5\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin\" data-coord=\"top-left:(448,1240); bottom-right:(2089,2014)\" /></figure>",
+      "id": 147,
+      "page": 13,
+      "text": "■ BPE : : BPE-T ASM : CNN Is ADP = ADP-T\n4.5\nword 4\nnext\nthe\n3.5\non\nLoss\n3\n2.5\n10 100 1K 10K 100K 1M 1M+\nWord frequency bin"
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 441,
+          "y": 2053
+        },
+        {
+          "x": 2106,
+          "y": 2053
+        },
+        {
+          "x": 2106,
+          "y": 2151
+        },
+        {
+          "x": 441,
+          "y": 2151
+        }
+      ],
+      "category": "caption",
+      "html": "<caption id='148' style='font-size:20px'>Figure 5: Loss of models when binning by the frequency of the previous word measured on BILLION<br>WORD (cf. Figure 3).</caption>",
+      "id": 148,
+      "page": 13,
+      "text": "Figure 5: Loss of models when binning by the frequency of the previous word measured on BILLION\nWORD (cf. Figure 3)."
+    },
+    {
+      "bounding_box": [
+        {
+          "x": 1253,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3132
+        },
+        {
+          "x": 1299,
+          "y": 3172
+        },
+        {
+          "x": 1253,
+          "y": 3172
+        }
+      ],
+      "category": "footer",
+      "html": "<footer id='149' style='font-size:16px'>13</footer>",
+      "id": 149,
+      "page": 13,
+      "text": "13"
+    }
+  ]
+}
